@@ -1,6 +1,8 @@
 # Hugo Sites
 
-These sites were created with Hugo. To appear on this list, the site's home page must contain a `meta` element with the `name` attribute set to `generator`, and "Hugo" must appear in the `content` attribute.
+Clone and build this Hugo site to render a curated list of other sites built with Hugo.
+
+To appear on this list, the site's home page must contain a `meta` element with the `name` attribute set to `generator`, and "Hugo" must appear in the `content` attribute.
 
 The version, title, and description are retrieved from each site's home page every time this site is built.
 

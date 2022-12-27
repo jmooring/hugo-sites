@@ -1,6 +1,10 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  <div class="content">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
   {{ range .Pages}}
     {{ $url := printf "https://%s" (path.Join .Title .Params.path) }}
     <p><a href="{{ $url }}" target="_blank">{{ .LinkTitle }}</a></p>
