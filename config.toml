@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Hugo Sites'
+disableKinds = ['RSS', 'sitemap']
+
+[params]
+show_all = false # If false, sites without generator tag will not be shown.
+
+[taxonomies]
+tag = 'tags'
+
+[caches.getresource]
+dir = ':resourceDir/_gen'
+maxAge = -1

@@ -1,0 +1,833 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Age: 0
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+Cache-Control: max-age=600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 78010d04a858c3a0-SEA
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Dec 2022 09:32:46 GMT
+Expires: Tue, 27 Dec 2022 09:38:11 GMT
+Last-Modified: Mon, 09 Aug 2021 12:39:29 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RDgASUC67H%2FLjOaSKXya8czyGwrNXshvbNm6fOi9PDzGP%2Fi2dCkvyXojSTBLxC7UhfER6wK4mltkIqWM65wQdSI%2FepEHxWEHH1GEewjdhyVGkVGoqG6IeVxx4Ny6ftpDqA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31556952
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: 081368e8f103dc71a71ece3063993f38d7615b4d
+X-Github-Request-Id: A424:9BD4:C64B83:ECFA9F:63AABAAB
+X-Proxy-Cache: MISS
+X-Served-By: cache-pao17440-PAO
+X-Timer: S1672133566.209032,VS0,VE108
+
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.58.3" />
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="https://nodefactory.io">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+<title>NodeFactory - Blockchain research and development company</title>
+
+
+<meta name="description" content="Node Factory is a blockchain research and development agency that helps companies evolve using blockchain technologies.">
+
+
+
+<meta content='blockchain, development, ethereum, smart contracts development, infrastructure' name="keywords">
+
+
+
+
+
+
+<!-- Open Graph data / Facebook Card data -->
+<meta property="og:title" content="NodeFactory - Blockchain research and development company">
+
+<meta property="og:type" content="website">
+
+<meta property="og:image" content="https://www.nodefactory.io/images/NodeFactory_logo.png">
+<meta property="og:image:alt" content="NodeFactory logo">
+
+<meta property="og:description" content="Turning ideas into reliable products.">
+
+<meta property="og:locale" content="en">
+<meta property="og:url" content="https://nodefactory.io/">
+
+<!-- Twitter Card data -->
+<meta name="twitter:title" content="NodeFactory - Blockchain research and development company">
+<meta name="twitter:card" content="summary">
+
+<meta property="twitter:description" content="Turning ideas into reliable products.">
+
+<meta name="twitter:creator" content="@nodefactoryio">
+<meta name="twitter:image" content="https://www.nodefactory.io/images/NodeFactory_logo.png" />
+<meta name="twitter:image:src" content="https://www.nodefactory.io/images/NodeFactory_logo.png" />
+
+
+    <script async type="application/ld+json">
+         { "@context": "https://schema.org",
+         "@type": "Organization",
+         "name": "NodeFactory",
+         "legalName" : "Node Factory d.o.o.",
+         "url": "https://www.nodefactory.io",
+         "logo": "https://www.nodefactory.io/images/NodeFactory_logo.png",
+         "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "Oreškovićeva 6v",
+         "addressLocality": "Zagreb",
+         "addressRegion": "Grad Zagreb",
+         "postalCode": "10000",
+         "addressCountry": "Croatia"
+         },
+         "sameAs": [
+         "https://www.linkedin.com/company/nodefactory",
+         "https://twitter.com/nodefactoryio"
+         ]}
+    </script>
+
+<!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#2c638f">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#2c638f">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Style load -->
+    
+    
+        <link href="./main.7a8b9.css" rel="stylesheet">
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111993876-1" type="text/javascript"></script>
+    <script async type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-111993876-1');
+    </script>
+    
+</head><body><div class="top-bar">
+    <p>NodeFactory has now joined the ChainSafe family as of July! You can find us continuing the open source mission
+    over at <a href="https://chainsafe.io" target="_blank" rel="noopener">chainsafe.io</a>.</p>
+</div>
+<div class="row landing"><header>
+    <a href="./">
+        <img src="images/NodeFactory-transparent.png" alt="NodeFactory logo" />
+    </a>
+
+    <nav class="col-md-12" id="menu-bar">
+        <div id="menu">
+            <i class="fa fa-bars hidden-lg"></i>
+        </div>
+
+        <ul class="nav" id="nav">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./blog">Blog</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="https://chainsafe.io/careers" target="_blank">Careers</a></li>
+            <li><a href="./portfolio">Portfolio</a></li>
+        </ul>
+
+    </nav>
+    <div class="menu-bg" id="menu-bg"></div>
+</header>
+
+    <section class="landingcontent">
+        <div class="text">
+            <h1>Blockchain R&D company</h1>
+            <h4>that turns ideas into reliable solutions.</h4>
+            <a href="#contact">
+                <button>GET IN TOUCH</button>
+            </a>
+        </div>
+        <div class="illustrations">
+            <img src="images/net.png" class="illustration-1" alt="network illustration">
+        </div>
+        <div class="factory-animation">
+            <div class="start-animation" id="factoryAnimationStart"></div>
+            <div class="loop-animation" id="factoryAnimationLoop"></div>
+        </div>
+    </section>
+</div>
+<section id="services" class="wrapper services">
+    <h2>What we can do for you</h2>
+    <div class="row">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+            <p>Node Factory is committed to developing new technologies and leveraging them to make better applications worldwide.
+        </div>
+    </div>
+    <div class="row center-xs">
+        <div class="flex col-xs-12 col-sm-6 col-md-3 ">
+            <div class="service-content service-background">
+                <div class="services-icon" id="blockchainDevAnimation"></div>
+                <h3>Blockchain development</h3>
+                <p>Starting from zero with can be hard. Let us boost your product development by taking care of the blockchain architecture!</p>
+            </div>
+        </div>
+
+        <div class="flex col-xs-12 col-sm-6 col-md-3">
+            <div class="service-content service-background">
+                <div class="services-icon" id="completeSolutionsAnimation"></div>
+                <h3>Complete solutions</h3>
+                <p>With variety of our skills we can help build your complete web or mobile app. That way you can quickly have your MVP launched.</p>
+            </div>
+        </div>
+
+        <div class="flex col-xs-12 col-sm-6 col-md-3">
+            <div class="service-content service-background">
+                <div class="services-icon" id="consultingAnimation"></div>
+                <h3>Consulting</h3>
+                <p>We help companies achieve their business goals. Integrating blockchain with existing services? We are here to answer the tough questions.</p>
+            </div>
+        </div>
+
+        <div class="flex col-xs-12 col-sm-6 col-md-3">
+            <div class="service-content service-background">
+                <div class="services-icon" id="infrastructureAnimation"></div>
+                <h3>Infrastructure</h3>
+                <p>We tackle blockchain base challenges, develop necessary tooling and protocols to help build better Web3 infrastructure. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="approach" id="approach">
+    <h2>Our approach</h2>
+
+    <div class="wrapper row center-xs">
+        <div class="col-xs-12 col-sm-6 col-md-3 approach-background">
+            <div class="approach-content">
+                <div class="approach-image">
+                    <div id="discoveryAnimation"></div>
+                </div>
+                <h3>Discovery</h3>
+                <p>Validating the idea and identifying best approach is the most important for the right start. <b>Critical thinking</b> is a part of each our step.  </p>
+            </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3 approach-background">
+            <div class="approach-content">
+                <div class="approach-image">
+                    <div id="collaborativeDevelopmentAnimation"></div>
+                </div>
+                <h3>Collaborative development</h3>
+                <p> We will feel like a <b>natural part of your team</b> that can together create viable results. Yes, testing is always part of this process and possibly first. </p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 approach-background">
+            <div class="approach-content">
+                <div class="approach-image">
+                    <div id="launchAnimation"></div>
+                </div>
+                <h3>Launch</h3>
+                <p>We deliver unit-tested code with <b>continuous integration and delivery</b>. Deployment on testnet is strongly advised to be done first so you can be prepared for the mainnet. </p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 approach-background">
+            <div class="approach-content">
+                <div class="approach-image">
+                    <div id="supportAnimation"></div>
+                </div>
+                <h3>Support</h3>
+                <p>Writing upgradeable and <b>reliable</b> apps is our focus. You support your users, we’ll support you. </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects" class="projects">
+    <div class="projects-container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project">
+                <div class="projectimg chainguardian">
+                    <img class="circle" src="images/projects/Framecircle.png" alt="circle" />
+                    <img class="imac" src="images/projects/ChainGuardian_imac_mock.png" alt="ChainGuardian"/>
+                </div>
+
+                <div class="flex-column project-content">
+                    <h3>ChainGuardian</h3>
+                    <p>All-in-one tool for Ethereum 2.0 validators. Analytics reporting with validator onboarding and deposit.</p><br />
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="23pt" viewBox="0 0 24 23"><path d="M15 17.633H9l-.75 4.601h7.5zm0 0" fill="#ebf0f2"/><path d="M0 14.566v1.536c0 .843.672 1.53 1.5 1.53h21c.828 0 1.5-.687 1.5-1.53v-1.536zm0 0" fill="#d3d7d9"/><path d="M22.5 0h-21C.672 0 0 .688 0 1.535v13.031h24V1.536C24 .686 23.328 0 22.5 0zm0 0" fill="#464748"/><path d="M1.5 1.535h21v11.5h-21zm0 0" fill="#ebf0f2"/><path d="M16.5 22.234h-9L7.125 23h9.75zm0 0" fill="#d3d7d9"/><path d="M2.25 2.3h9.375v9.966H2.25zm0 0" fill="#ffbf5c"/><path d="M12.375 2.3h9.375v1.915h-9.375zm0 0M12.375 4.984h9.375v1.914h-9.375zm0 0M12.375 7.668h9.375v4.598h-9.375zm0 0" fill="#f05f50"/></svg>
+                        <span>Desktop app development</span>
+                    </h5>
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="24" viewBox="0 0 25 18"><path d="M25 3.375C25 1.515 23.422 0 21.484 0h-12.5C7.047 0 5.47 1.516 5.47 3.375V4.5h2.343V3.375c0-.621.528-1.125 1.172-1.125h12.5c.645 0 1.172.504 1.172 1.125v3H25zm0 0" fill="#27a2df"/><path d="M21.484 10.5h-12.5c-.644 0-1.171-.504-1.171-1.125V8.25H5.469v1.125c0 1.86 1.578 3.375 3.515 3.375h12.5c1.938 0 3.516-1.516 3.516-3.375v-3h-2.344v3c0 .621-.527 1.125-1.172 1.125zm0 0" fill="#1c74a0"/><path d="M16.016 15.75h-12.5c-.645 0-1.172-.504-1.172-1.125v-3H0v3C0 16.485 1.578 18 3.516 18h12.5c1.937 0 3.515-1.516 3.515-3.375V13.5h-2.343v1.125c0 .621-.528 1.125-1.172 1.125zm0 0" fill="#d3d7d9"/><path d="M2.344 8.625c0-.621.527-1.125 1.172-1.125h12.5c.644 0 1.172.504 1.172 1.125V9.75h2.343V8.625c0-1.86-1.578-3.375-3.515-3.375h-12.5C1.578 5.25 0 6.766 0 8.625v3h2.344zm0 0" fill="#e1e6e8"/></svg>
+                        <span>Blockchain development</span>
+                    </h5>
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="20pt" viewBox="0 0 25 20"><path d="M25 18.398c0 .887-.746 1.602-1.668 1.602-.918 0-1.664-.715-1.664-1.602 0-.882.746-1.597 1.664-1.597.922 0 1.668.715 1.668 1.597zm0 0" fill="#1c74a0"/><path d="M0 1.602h22.918v17.597H0zm0 0" fill="#27a2df"/><path d="M25 18.398h-2.082v-.796h-1.25v-16H25zm0 0" fill="#1c74a0"/><path d="M21.668 18c0-.664.559-1.2 1.25-1.2.687 0 1.25.536 1.25 1.2 0 .664-.563 1.2-1.25 1.2-.691 0-1.25-.536-1.25-1.2zm0 0" fill="#27a2df"/><path d="M25 1.602c0 .882-.746 1.597-1.668 1.597-.918 0-1.664-.715-1.664-1.597 0-.887.746-1.602 1.664-1.602C24.254 0 25 .715 25 1.602zm0 0M23.332 20H0v-.8h22.918zm0 0" fill="#1c74a0"/><path d="M17.082 4H20v-.8h-2.082zm0 0M2.918 17.602H5V16.8H3.75zm0 0M5.832 16.8h10v.802h-10zm0 0M5.832 15.2h10v.8h-10zm0 0M6.25 14.398h9.582v-.796h-8.75zm0 0M16.668 16.8H20v.802h-3.332zm0 0M20 6.398h-5.418l.836-.796H20zm0 0" fill="#ebf0f2"/><path d="M19.168 4H20v1.602h-.832zm0 0M16.668 7.2H20V8h-3.332zm0 0M19.168 8H20v8.8h-.832zm0 0M16.668 8h.832v8.8h-.832zm0 0M4.168 16.8H5v-1.198l-.832.796zm0 0M15.832 8h-2.914l.832-.8h2.082zm0 0M15 8h.832v4H15zm0 0M8.75 12h7.082v.8H7.918zm0 0M14.168 9.602H11.25l.832-.801h2.086zm0 0M14.168 11.2H9.582l.836-.802h3.75zm0 0" fill="#ebf0f2"/><path d="M1.668 3.2v14.402l15-14.403zm2.5 2.402h6.25l-6.25 6zm0 0" fill="#fbd462"/></svg>
+                        <span>UX/UI design</span>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="project right-side">
+                <div class="flex-column project-content">
+                    <h3>Allianceblock</h3>
+                    <p>Decentralized AI-powered investment and financing platform, community-driven and fully
+                        transparent.</p><br />
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="24" viewBox="0 0 25 18"><path d="M25 3.375C25 1.515 23.422 0 21.484 0h-12.5C7.047 0 5.47 1.516 5.47 3.375V4.5h2.343V3.375c0-.621.528-1.125 1.172-1.125h12.5c.645 0 1.172.504 1.172 1.125v3H25zm0 0" fill="#27a2df"/><path d="M21.484 10.5h-12.5c-.644 0-1.171-.504-1.171-1.125V8.25H5.469v1.125c0 1.86 1.578 3.375 3.515 3.375h12.5c1.938 0 3.516-1.516 3.516-3.375v-3h-2.344v3c0 .621-.527 1.125-1.172 1.125zm0 0" fill="#1c74a0"/><path d="M16.016 15.75h-12.5c-.645 0-1.172-.504-1.172-1.125v-3H0v3C0 16.485 1.578 18 3.516 18h12.5c1.937 0 3.515-1.516 3.515-3.375V13.5h-2.343v1.125c0 .621-.528 1.125-1.172 1.125zm0 0" fill="#d3d7d9"/><path d="M2.344 8.625c0-.621.527-1.125 1.172-1.125h12.5c.644 0 1.172.504 1.172 1.125V9.75h2.343V8.625c0-1.86-1.578-3.375-3.515-3.375h-12.5C1.578 5.25 0 6.766 0 8.625v3h2.344zm0 0" fill="#e1e6e8"/></svg>
+                        <span>Blockchain consulting</span>
+                    </h5>
+
+                    <h5 class="list small-width"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="30" viewBox="0 0 21 30"><path d="M21 2.07C21 .926 20.059 0 18.898 0H2.102C.942 0 0 .926 0 2.07v25.86C0 29.074.941 30 2.102 30h16.796c1.16 0 2.102-.926 2.102-2.07zm0 0" fill="#464748"/><path d="M1.05 4.137h18.9v21.726H1.05zm0 0" fill="#ebf0f2"/><path d="M11.55 27.93c0 .574-.472 1.035-1.05 1.035-.578 0-1.05-.461-1.05-1.035 0-.57.472-1.032 1.05-1.032.578 0 1.05.461 1.05 1.032zm0 0M6.3 1.55h8.4v1.036H6.3zm0 0" fill="#5c5d5e"/><path d="M11.023 5.172h7.875v3.105h-7.875zm0 0M2.102 5.172h7.875v7.242H2.102zm0 0M11.023 9.309h7.875v3.105h-7.875zm0 0" fill="#f05f50"/><path d="M2.102 13.45h16.796v3.1H2.102zm0 0" fill="#d3d7d9"/><path d="M2.102 17.586h7.875v3.105H2.102zm0 0" fill="#647a8a"/><path d="M11.023 17.586h7.875v3.105h-7.875zm0 0" fill="#d3d7d9"/><path d="M2.102 21.723h16.796v3.105H2.102zm0 0" fill="#647a8a"/></svg>
+                        <span>Mobile development</span>
+                    </h5>
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 25 25"><path d="M6.898 15.95H.863c1.157 3.89 4.297 7.03 8.188 8.187v-6.035a7.34 7.34 0 01-2.153-2.153zm0 0M15.95 18.102v6.02c3.89-1.216 6.956-4.282 8.116-8.173h-6.105c-.512.813-1.2 1.586-2.012 2.153zm0 0M9.05 6.898V.863C5.16 2.02 2.02 5.16.864 9.051h6.035a7.34 7.34 0 012.153-2.153zm0 0M18.102 9.05h6.035C22.98 5.16 19.84 2.02 15.949.864v6.035a7.34 7.34 0 012.153 2.153zm0 0" fill="#f05f50"/><path d="M9.05 1.293h6.9v6.035h-6.9zm0 0M9.05 17.672h6.9v6.035h-6.9zm0 0M17.672 9.05h6.035v6.9h-6.035zm0 0M1.293 9.05h6.035v6.9H1.293zm0 0" fill="#ebf0f2"/><path d="M2.156 9.05H.43S0 11.208 0 12.5c0 1.293.43 3.45.43 3.45h1.726s-.433-2.157-.433-3.45c0-1.293.433-3.45.433-3.45zm0 0M24.57 9.05h-1.726s.433 2.157.433 3.45c0 1.293-.433 3.45-.433 3.45h1.726s.43-2.157.43-3.45c0-1.293-.43-3.45-.43-3.45zm0 0M9.05 22.844v1.726s2.157.43 3.45.43c1.293 0 3.45-.43 3.45-.43v-1.726s-2.157.433-3.45.433c-1.293 0-3.45-.433-3.45-.433zm0 0M12.5 0c-1.293 0-3.45.504-3.45.504v1.723s2.157-.504 3.45-.504c1.293 0 3.45.504 3.45.504V.504S13.792 0 12.5 0zm0 0" fill="#d3d7d9"/></svg>
+                        <span>Support</span>
+                    </h5>
+                </div>
+
+                <div class="projectimg">
+                    <img class="circle" src="images/projects/Framecircle.png" alt="circle" />
+                    <img class="imac" src="images/projects/AB_imac_mock.png" alt="AllianceBlock"/>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="projectimg">
+                    <img class="circle" src="images/projects/Framecircle.png" alt="circle" />
+                    <img class="imac" src="images/projects/Hactar_imac_mock.png" alt="Hactar"/>
+                </div>
+
+                <div class="flex-column project-content">
+                    <h3>Hactar</h3>
+                    <p>Monitoring app for Filecoin miner nodes with statistics dashboard, earnings optimizations and offline alerts.</p><br />
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="26pt" viewBox="0 0 25 26"><path d="M0 3.586h25v20.621H0zm0 0" fill="#e1e6e8"/><path d="M1.852 5.379h21.296v17.035H1.852zm0 0" fill="#27a2df"/><path d="M25 .898C25 .402 24.582 0 24.074 0H.926C.418 0 0 .402 0 .898v2.688h25zm0 0" fill="#ebf0f2"/><path d="M0 25.102c0 .496.418.898.926.898h23.148c.508 0 .926-.402.926-.898v-.895H0zm0 0" fill="#d3d7d9"/><path d="M3.703 1.793a.912.912 0 01-.926.898.912.912 0 01-.925-.898c0-.496.414-.895.925-.895.512 0 .926.399.926.895zm0 0" fill="#f05f50"/><path d="M6.48 1.793a.912.912 0 01-.925.898.912.912 0 01-.926-.898c0-.496.414-.895.926-.895.511 0 .925.399.925.895zm0 0" fill="#ffbf5c"/><path d="M9.258 1.793a.912.912 0 01-.926.898.912.912 0 01-.926-.898c0-.496.414-.895.926-.895s.926.399.926.895zm0 0" fill="#41c19d"/><path d="M19.906 14.344a.468.468 0 01-.324-.13l-2.316-2.241a.439.439 0 010-.633.474.474 0 01.656 0l2.312 2.238c.18.176.18.461 0 .637a.47.47 0 01-.328.129zm0 0" fill="#fff"/><path d="M17.594 16.586a.457.457 0 01-.328-.133.439.439 0 010-.633l2.316-2.242a.477.477 0 01.652 0c.18.176.18.461 0 .637l-2.312 2.238a.47.47 0 01-.328.133zm0 0M7.406 16.586a.455.455 0 01-.324-.133l-2.316-2.238a.443.443 0 010-.637.482.482 0 01.656 0l2.312 2.242c.18.176.18.461 0 .633a.457.457 0 01-.328.133zm0 0" fill="#fff"/><path d="M5.094 14.344a.47.47 0 01-.328-.13.443.443 0 010-.636l2.316-2.238a.47.47 0 01.652 0c.18.172.18.457 0 .633l-2.312 2.242a.484.484 0 01-.328.129zm0 0M10.184 16.586a.455.455 0 01-.325-.133.432.432 0 010-.633l4.63-4.48a.47.47 0 01.652 0 .432.432 0 010 .633l-4.63 4.48a.457.457 0 01-.327.133zm0 0" fill="#fff"/></svg>
+                        <span>Web development</span>
+                    </h5>
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="24" viewBox="0 0 25 18"><path d="M25 3.375C25 1.515 23.422 0 21.484 0h-12.5C7.047 0 5.47 1.516 5.47 3.375V4.5h2.343V3.375c0-.621.528-1.125 1.172-1.125h12.5c.645 0 1.172.504 1.172 1.125v3H25zm0 0" fill="#27a2df"/><path d="M21.484 10.5h-12.5c-.644 0-1.171-.504-1.171-1.125V8.25H5.469v1.125c0 1.86 1.578 3.375 3.515 3.375h12.5c1.938 0 3.516-1.516 3.516-3.375v-3h-2.344v3c0 .621-.527 1.125-1.172 1.125zm0 0" fill="#1c74a0"/><path d="M16.016 15.75h-12.5c-.645 0-1.172-.504-1.172-1.125v-3H0v3C0 16.485 1.578 18 3.516 18h12.5c1.937 0 3.515-1.516 3.515-3.375V13.5h-2.343v1.125c0 .621-.528 1.125-1.172 1.125zm0 0" fill="#d3d7d9"/><path d="M2.344 8.625c0-.621.527-1.125 1.172-1.125h12.5c.644 0 1.172.504 1.172 1.125V9.75h2.343V8.625c0-1.86-1.578-3.375-3.515-3.375h-12.5C1.578 5.25 0 6.766 0 8.625v3h2.344zm0 0" fill="#e1e6e8"/></svg>
+                        <span>Go plugin development</span>
+                    </h5>
+
+                    <h5 class="list"><svg xmlns="http://www.w3.org/2000/svg" width="25pt" height="25pt" viewBox="0 0 25 25"><path d="M21.984 12.5c-1.293 0-1.293.863-2.156.863-.7 0-1.293-.425-1.293-1.293V7.328c0-.43-.433-.863-.863-.863H12.93c-.86 0-1.293-.68-1.293-1.293 0-.863.863-.863.863-2.156C12.5 1.723 11.637 0 9.484 0c-2.156 0-3.02 1.293-3.02 3.016 0 1.293.864 1.293.864 2.156 0 .715-.375 1.293-1.293 1.293H.863c-.433 0-.863.433-.863.863v4.742c0 .805.664 1.293 1.293 1.293.863 0 .863-.863 2.156-.863 1.723 0 2.586 1.293 2.586 2.586 0 .863-.863 2.586-2.586 2.586-1.293 0-1.293-.863-2.156-.863-.629 0-1.293.488-1.293 1.293v6.035c0 .433.43.863.863.863h6.035c.86 0 1.293-.715 1.293-1.293 0-.863-.863-.863-.863-2.156 0-1.723 1.293-2.586 2.586-2.586s2.586.863 2.586 2.156c0 1.723-.863 1.723-.863 2.586 0 .617.433 1.293 1.293 1.293h4.742c.43 0 .863-.43.863-.863v-5.172c0-.863.594-1.293 1.293-1.293.863 0 .863.863 2.156.863 1.723 0 3.016-.863 3.016-3.02 0-2.152-1.293-3.015-3.016-3.015zm0 0" fill="#41c19d"/></svg>
+                        <span>Product management</span>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="see-more">
+            <p>Looking for more?</p>
+            <a href="./portfolio">
+                <button class="link box">View portfolio</button>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="wrapper ourclients">
+    <a class="partner-logo allianceblock" title="AllianceBlock" href="https://allianceblock.io" target="_blank" rel="noreferrer noopener">
+    </a>
+
+    <a class="partner-logo consensys" title="Consensys" href="https://consensys.net" target="_blank" rel="noreferrer noopener">
+    </a>
+
+    <a class="partner-logo web3api" title="Web3API" href="https://web3api.dev" target="_blank" rel="noreferrer noopener">
+    </a>
+
+    <a class="partner-logo novo" title="Novo" href="https://novoprotocol.com" target="_blank" rel="noreferrer noopener">
+    </a>
+
+    <a class="partner-logo cryptotask" title="CryptoTask" href="https://www.cryptotask.org" target="_blank" rel="noreferrer">
+    </a>
+</section>
+<section id="testimonials" class="testimonials">
+    <i class="fas fa-quote-right"></i>
+
+    <a class="carousel-control left">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control right">
+        <i class="fas fa-chevron-right"></i>
+    </a>
+
+    <div class="siema-testimonials">
+        <div class="content">
+            <h6>They have a variety of skills and possess insights regarding a wide array of subjects.</h6>
+            <img class="testimonials-image" src="images/matthijs_allianceblock.png" alt="Matthijs de Vries"/>
+            <h5>Matthijs de Vries, AllianceBlock</h5>
+        </div>
+
+        <div class="content">
+            <h6>NodeFactory felt like a natural part of the team from the beginning.</h6>
+            <img class="testimonials-image" src="images/john_novoprotocol.jpg" alt="John Potter"/>
+            <h5>John Potter, Novo</h5>
+        </div>
+    </div>
+</section><section id="blog" class="wrapper blog">
+    <h2>Our thoughts</h2>
+    <div class="blog-row">
+    <a class="blog-link" href="./blog/chainguardian-beta-release/">
+        <div class="row first-blog-background">
+            <div class="flex center col-sm-12 col-md-6">
+                <img alt="ChainGuardian app for Ethereum 2.0 validators is finally here! *beta release* image" src="./images/blog/ChainGuardian.png">
+            </div>
+
+            <div class="hidden-xs hidden-sm col-md-6 first-blog-content">
+                <p>March, 2021.</p>
+                <div>
+                    <h3>ChainGuardian app for Ethereum 2.0 validators is finally here! *beta release*</h3>
+                    <p>Introducing an app that enables easy eth2 home staking and effortless validators management.</p>
+                </div>
+                <div class="blog-first-button">
+                    <button class="link">READ ARTICLE</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="other-blogs hidden-md hidden-lg">
+            <p>March, 2021.</p>
+            <h3>ChainGuardian app for Ethereum 2.0 validators is finally here! *beta release*</h3>
+        </div>
+    </a>
+</div>
+
+
+    <div class="blog-row">
+        
+        <div class="col-xs-12 col-sm-12 col-md-6 other-blogs">
+            <a class="blog-link" rel="noreferrer" href="./blog/defi-hacks-millions-lost-in-2020/">
+                <div class="other-blogs-background">
+                    <img alt="DeFi hacks - millions lost in 2020 image" src="./images/blog/defi.png">
+                </div>
+                <p>January, 2021.</p>
+                <h3>DeFi hacks - millions lost in 2020</h3>
+            </a>
+        </div>
+        
+        <div class="col-xs-12 col-sm-12 col-md-6 other-blogs">
+            <a class="blog-link" rel="noreferrer" href="./blog/how-decentralized-exchanges-are-paving-new-ways-for-token-offerings/">
+                <div class="other-blogs-background">
+                    <img alt="How decentralized exchanges are paving new ways for token offerings image" src="./images/blog/dex-offering.png">
+                </div>
+                <p>May, 2020.</p>
+                <h3>How decentralized exchanges are paving new ways for token offerings</h3>
+            </a>
+        </div>
+        
+    </div>
+
+    <div class="blog-second-button">
+        <a class="blog-link" href="./blog">
+            <button class="link box">READ MORE</button>
+        </a>
+    </div>
+</section>
+<section id="team" class="wrapper team">
+    <h2>Team</h2>
+    <div class="team-row center">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Gutlic Belma" src="images/Gutlic_Belma.jpg" />
+                <div class="team-name">
+                    <h6>Belma Gutlić</h6> <br /><br />
+                    <h7>Chief</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Adventurous spirit with a passion for creating and developing new things. <br />
+                            Executive, but also a software engineer.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/belmagutlic/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/morrigan">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Petrunic Marin" src="images/Petrunic_Marin.jpg" />
+                <div class="team-name">
+                    <h6>Marin Petrunić</h6><br /><br />
+                    <h7>Chief of tech</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>CTO that loves to review code and find bugs as much as trying out new cuisine.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/mpetrunic">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/mpetrunic/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://twitter.com/MarinPetrunic">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Muftic Mak" src="images/Muftic_Mak.jpeg" />
+                <div class="team-name">
+                    <h6>Mak Muftić</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Chatty fullstack developer in a quest for knowledge and with passion for technology. Draws diagrams too.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/MakMuftic">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/mak-muftic-763650137/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Rubido Ivan" src="images/Ivan_rubido.jpg" />
+                <div class="team-name">
+                    <h6>Ivan Rubido</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Frontend developer with passion for details, jumping high and catching fishes underwater.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/irubido">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/ivan-rubido-917169151/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Mlinaric Nikola" src="images/Mlinaric_Nikola.jpg" />
+                <div class="team-name">
+                    <h6>Nikola Mlinarić</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Backend, smart contract developer and our DJ in the office since day 1!</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/nmlinaric">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/nikola-mlinari%C4%87-6159b1168/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Petrunic Matija" src="images/Petrunic_Matija.jpg" />
+                <div class="team-name">
+                    <h6>Matija Petrunić</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Backend developer trying to make sense of the blockchain ecosystem.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/mpetrun5">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/matija-petruni%C4%87-4b78a615b/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Stojanovic Bernard" src="images/Stojanovic_Bernard.jpg" />
+                <div class="team-name">
+                    <h6>Bernard Stojanović</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Frontend developer that turned from a passionate gamer to a passionate code writer.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/BeroBurny">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/bernard-stojanovi%C4%87-4a9b7a110/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Mario Hržina" src="images/mario_hrzina.jpeg" />
+                <div class="team-name">
+                    <h6>Mario Hržina</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Frontend developer ready to make better blockchain interactions UX!</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/mrhr8">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/mario-hr%C5%BEina-428759200/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="team-content">
+                <img alt="Tihomir Car" src="images/tihomir_car.jpeg" />
+                <div class="team-name">
+                    <h6>Tihomir Car</h6><br /><br />
+                    <h7>Software engineer</h7>
+                </div>
+
+                <div class="first-team-member-overlay">
+                    <div class="first-team-member-overlay-content">
+                        <p>Backend developer making cross chain interoperability possible.</p>
+
+                        <div class="team-social-buttons">
+                            <div class="team-social-buttons-background">
+                                <a href="https://github.com/tcar121293">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+
+                            <div class="team-social-buttons-background">
+                                <a href="https://www.linkedin.com/in/tihomir-car-313078ab/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br />
+
+    <h3>Wish to join our team?</h3>
+    <h6><a href="https://chainsafe.io/careers" target="_blank" rel="noopener">Check out ChainSafe careers page</a></h6>
+</section>
+<section id="contact" class="wrapper contact">
+    <div class="col-xs-12 col-sm-10 col-md-10">
+        <div id="contact-background">
+            <h2>Get in touch</h2>
+            <p>Tell us about your project. Let’s see how we can make it happen!</p>
+
+            <form action="https://formspree.io/f/mleapkqg" method="POST">
+                <div class="contact-Column">
+                    <div class="input-row">
+                        <div class="input-row-first-input">
+                            <input aria-label="subject" required type="text" name="subject"
+                                   placeholder="I'm interested in"/>
+                        </div>
+
+                        <div class="input-row-second-input">
+                            <input aria-label="email" required type="text" name="email"  placeholder="Email"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-row-third-input">
+                        <input aria-label="Your company" required type="text" name="company"  placeholder="Company"/>
+                    </div>
+
+                    <div class="input-row-fourth-input">
+                        <input aria-label="Your name" required type="text" name="name"  placeholder="Full name"/>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-row-fifth-input">
+                        <input aria-label="Description" type="textarea" name="description"  placeholder="Project description"/>
+                    </div>
+                </div>
+
+                <div class="input-row submit-row">
+                    <div class="submit-button">
+                        <input type="submit" value="TALK TO OUR TEAM"/>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="social-buttons">
+    <a class="social-buttons-background" href="https://github.com/nodefactoryIo" rel="noreferrer" aria-label="NodeFactory Github">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a class="social-buttons-background" href="https://www.linkedin.com/company/nodefactory" rel="noreferrer" aria-label="NodeFactory Linkedin">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a class="social-buttons-background" href="https://twitter.com/nodefactoryio" rel="noreferrer" aria-label="NodeFactory Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a class="social-buttons-background" href="https://medium.com/@nodefactory" rel="noreferrer" aria-label="NodeFactory Medium">
+        <i class="fab fa-medium-m"></i>
+    </a>
+</div><footer>
+    <div class="footer">
+        <div>
+            <div class="row flex-column">
+                <a href="https://ubik.hr/" aria-label="UBIK" rel="noreferrer"><h3>Members of UBIK</h3></a>
+                <a href="https://www.meetup.com/BUIDL-Zagreb/" aria-label="BUIDL Meetup" rel="noreferrer">
+                    <h3>BUIDL meetup organizers</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="banners row">
+            <a href="https://topappdevelopmentcompanies.com/directory/app-developers/blockchain" target="_blank">
+                <img src="https://topappdevelopmentcompanies.com/badges/top-app-development-companies.png" alt="blockchain developers 2019" title="Blockchain Developers 2019"/>
+            </a>
+        </div>
+
+        <div class="footer-cripto-payments">
+            <img alt="DAI" src="images/icons/dai.png">
+            <img alt="BTC" src="images/icons/btc.png">
+            <img alt="ETH" src="images/icons/eth.png">
+            <p>Crypto accepted</p>
+        </div>
+        <div class="footer-legal">
+
+            <p>Node Factory d.o.o. Oreškovićeva 6v, 10000 Zagreb. VAT ID: HR34703059147. Banka: Erste&Steiermärkische Bank d.d., IBAN: HR7624020061100867083, Swift: ESBCHR22
+                Tvrtka upisana pod brojem MBS 081152605 u Trgovačkom sudu u Zagrebu. Temeljni kapital od 20.000,00 kn uplaćen u cjelosti.
+                Članovi uprave društva su Belma Gutlić i Marin Petrunić.</p>
+        </div>
+
+    </div>
+</footer>
+
+
+
+    <script src="./main.7a8b9.js"></script>
+
+</body>
+</html>

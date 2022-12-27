@@ -1,0 +1,1031 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=60
+Content-Type: text/html; charset=utf-8
+Date: Tue, 27 Dec 2022 09:32:33 GMT
+Etag: "44d6a486761f246fa7df78172f77a31b"
+Last-Modified: Thu, 22 Dec 2022 22:29:18 GMT
+Strict-Transport-Security: max-age=31536000; preload
+Vary: Accept-Encoding
+Via: 1.1 aef00f14752da9aa504d392fd46eff94.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MPbgSZohOsKnNFYzCx0pKPMFrWx7vhoUG1o9cwLLImxRcfkKUQTNUg==
+X-Amz-Cf-Pop: SEA19-C2
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: all
+X-Server: Cloud.gov Pages
+X-Vcap-Request-Id: 8987cb06-8cfd-465a-4a14-fb150d8bfc7c
+X-Xss-Protection: 1; mode=block
+
+<!--
+
+Welcome to Digital.gov — our goal is to transform how government learns, builds, delivers and measures digital services in the 21st century.
+Learn more https://digital.gov/about
+Get in touch: digitalgov@gsa.gov
+Follow us on Twitter: @digital_gov
+
+=======
+
+Digital.gov was last updated on Dec 22, 2022 at 10:28pm ET
+
+We edit in the open at https://workflow.digital.gov/
+Built by the Digital.gov team in the GSA, using modern development practices.
+See the full source code: https://github.com/GSA/digitalgov.gov
+
+Built using HUGO. Hosted on Federalist https://federalist.18f.gov/
+
+-->
+
+
+<!DOCTYPE html>
+
+<!--[if lt IE 9]><html class='lt-ie9'><![endif]-->
+<!--[if gt IE 8]><!--><html lang='en'><!--<![endif]-->
+
+
+  
+
+<html lang="en-US" itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#">
+
+<head profile="http://gmpg.org/xfn/11">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <!-- Google Tag Manager Data Layer -->
+  <script>
+    dataLayer = [{
+      'content-type': 'resource+page',
+      'topics': 'design, analytics, Tag+Manager'
+    }];
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MZCKZPQ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Page Title -->
+  
+  <title>Digital.gov — Guidance on building better digital services in government</title>
+  <!-- Meta Description -->
+  <meta name="description" content="Guidance on building better digital services in government" />
+  <meta name="keywords" content="digital, government, technology, civic-tech" />
+
+  <!-- Start of Facebook Open Graph -->
+  <meta property="og:title" content="Digital.gov" />
+  <meta property="og:description" content="Guidance on building better digital services in government">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/" />
+  <meta property="og:site_name" content="Digital.gov">
+  <meta property="og:image" content="https://s3.amazonaws.com/digitalgov/digitalgov-2022-card-v3.png" />
+  
+  <meta property="fb:admins" content="100000569454928" />
+  <meta property="article:publisher" content="https://www.facebook.com/digitalgov" />
+  <!-- End of Facebook Open Graph -->
+
+  <!-- Start of Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@Digital_Gov" />
+  <meta name="twitter:creator" content="@Digital_Gov" />
+  <meta name="twitter:image:src" content="https://s3.amazonaws.com/digitalgov/digitalgov-2022-card-v3.png">
+  <meta property="twitter:description" content="Guidance on building better digital services in government">
+  <meta property="twitter:title" content="Digital.gov">
+  <!-- End of Twitter -->
+
+  <!-- RSS Feed -->
+  <link href="/index.xml" rel="feed" type="application/rss+xml" />
+
+  <!-- JSON Feed -->
+  <link href="/index.json" data-proofer-ignore rel="alternate" type="application/json" title="Digital.gov" />
+
+  <!-- Sitemap-->
+  <link rel="sitemap" type="application/xml" title="Digital.gov Sitemap" href="/sitemap.xml" />
+
+  
+  
+  <meta name="theme-color" content="#656bd7"/>
+
+  
+  <meta name="msvalidate.01" content="A662823C2F59EB4F55F752CC752AC299" />
+
+  <!-- CSS -->
+  
+  <link rel="stylesheet" href='/dist/styles.css' type="text/css" media='all' />
+  <script src='/dist/uswds-init.min.js'></script>
+
+  <!-- Favicons & Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href='/img/icons/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href='/img/icons/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href='/img/icons/favicon-16x16.png'>
+  <link rel="manifest" href='/img/icons/site.webmanifest'>
+  <link rel="mask-icon" href='/img/icons/safari-pinned-tab.svg' color="#0076d6">
+  <link rel="shortcut icon" href='/img/icons/favicon.ico'>
+  <meta name="msapplication-TileColor" content="#0076d6">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  
+  <script type="text/javascript">
+    git_org          = "GSA";
+    git_repo         = "digitalgov.gov";
+    goUsaUsername    = "s010sdc";
+    goUsaApiKey      = "eb396b6b369804fd6094f0b4100b2d74";
+    branch           = "main";
+    short_url        = "";
+    filename         = "_index.md";
+    
+    filepath         = "_index.md";
+    filepathURL      = "https://github.com/GSA/digitalgov.gov/blob/main/content/_index.md";
+    editpathURL      = "https://github.com/GSA/digitalgov.gov/edit/main/content/_index.md";
+    <!-- "main" | "main" -->
+  </script>
+
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async" ></script>
+
+</head>
+<body class="page home"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZCKZPQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <div class="paper"><a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<section class="usa-banner gov-banner" aria-label="Official website of the United States government">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto"><img aria-hidden="true" class="usa-banner__header-flag" src="/uswds/img/us_flag_small.png" alt=""/>
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action">Here’s how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default-default">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default-default">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6"><img class="usa-banner__icon usa-media-block__img" src="/uswds/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true"/>
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6"><img class="usa-banner__icon usa-media-block__img" src="/uswds/img/icon-https.svg" role="img" alt="" aria-hidden="true"/>
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default" focusable="false">
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg>
+              </span
+              >) or <strong>https://</strong> means you’ve safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text">
+        <a href="/" title="Digital.gov Home" aria-label="Digital.gov Home">
+          <img class="logo-black" src="/img/digitalgov-logo.svg" alt="Digital.gov Logo" />
+        </a>
+      </em>
+      <p class="sub-head display-none">Guidance on building better digital services in government</p>
+
+    </div>
+
+    <button class="usa-menu-btn">
+      <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-2px" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/uswds/img/sprite.svg#menu"></use>
+      </svg> Menu
+    </button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="/uswds/img/close.svg" alt="close">
+      </button><ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/news/"><span>News</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/events/"><span>Events</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/resources/"><span>Resources</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/communities/"><span>Communities</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/services/"><span>Tools</span></a>
+          </li></ul>
+
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="/about/"><span>About</span></a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="/subscribe/"><span>Subscribe</span></a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="/contribute/"><span>Write for us</span></a>
+          </li>
+
+          <li class="usa-nav__secondary-item">
+            <a href="/about/contact/"><span>Contact</span></a>
+          </li>
+        </ul>
+
+
+        <form accept-charset="UTF-8" action="https://find.digitalgov.gov/search" id="search_form" method="get" class="usa-search usa-search--small">
+          <input name="utf8" type="hidden" value="&#x2713;" />
+          <input id="affiliate" name="affiliate" type="hidden" value="digitalgov" />
+          <div role="search">
+            <label class="usa-sr-only" for="query">Search small</label>
+            <input class="usa-input" id="query" type="search" name="query">
+            <button class="usa-button" name="commit" type="submit">
+              <img src="/uswds/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    
+    <main role="main" id="main-content" aria-label="Content" >
+
+  <section class="usa-section" id="resources_featured">
+    <div class="tablet-lg:grid-container tablet-lg:grid-container-desktop">
+      <div class="grid-row tablet-lg:grid-gap-4">
+
+        <div class="grid-col-12 tablet-lg:grid-col-4">
+          <div class="box">
+            <h2>Guidance on building better digital services in government.</h2>
+          </div>
+        </div>
+
+        <div class="grid-col-12 tablet-lg:grid-col-8">
+          <div class="resources-content">
+            <div class="collection">
+
+  <h2>Popular Guides and Resources</h2><ul>
+      
+  <li data-edit-this="resources/checklist-of-requirements-for-federal-digital-services.md"><div class="icon">
+      <img src="/img/digit-50.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="/resources/checklist-of-requirements-for-federal-digital-services/?dg" title="Checklist of Requirements for Federal Websites and Digital Services">
+          <span>Checklist of Requirements for Federal Websites and Digital Services</span>
+        </a>—Links to relevant laws, policies, and regulations for federal agencies.</p>
+    </div>
+
+  </li>
+      
+  <li data-edit-this="resources/customer-experience-toolkit.md"><div class="icon">
+      <img src="/img/digit-50.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="/resources/customer-experience-toolkit/?dg" title="Customer Experience Toolkit">
+          <span>Customer Experience Toolkit</span>
+        </a>—This Toolkit is intended to help government agencies improve how we deliver services and information to the public.</p>
+    </div>
+
+  </li>
+  <li data-edit-this="resources/eight-principles-mobile-friendliness.md"><div class="icon">
+      <img src="/logos/digitalgov-icon.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="https://digital.gov/guides/mobile-principles/?dg" title="Eight Principles of Mobile-Friendliness">
+          <span>Eight Principles of Mobile-Friendliness</span>
+        </a>—Following these principles will help you make your site more usable and user-friendly.</p>
+    </div>
+
+  </li>
+  <li data-edit-this="resources/guide-robotic-process-automation.md"><div class="icon">
+      <img src="/logos/digitalgov-icon.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="https://digital.gov/guides/rpa/?dg" title="Guide to Robotic Process Automation">
+          <span>Guide to Robotic Process Automation</span>
+        </a>—Configure bots to execute repetitive tasks to save users from performing mundane tasks repeatedly for the same process.</p>
+    </div>
+
+  </li>
+      
+  <li data-edit-this="resources/required-web-content-and-links.md"><div class="icon">
+      <img src="/img/digit-50.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="/resources/required-web-content-and-links/?dg" title="Required Web Content and Links">
+          <span>Required Web Content and Links</span>
+        </a>—If you manage a public website in the federal government&rsquo;s executive branch, various policies require you to have certain content—or …</p>
+    </div>
+
+  </li>
+  <li data-edit-this="resources/uswds-maturity-model.md"><div class="icon">
+      <img src="/logos/uswds-icon.png" alt="" aria-hidden="true"/>
+    </div><div class="copy">
+      <p>
+        <a href="https://designsystem.digital.gov/maturity-model/?dg" title="USWDS Maturity Model">
+          <span>USWDS Maturity Model</span>
+        </a>—How to adopt the design system incrementally and design and build better digital experiences.</p>
+    </div>
+
+  </li></ul>
+</div><footer>
+              <div class="grid-row tablet-lg:grid-gap-2">
+                <div class="grid-col-12">
+                  <p class="more">
+                    <a href="/resources"><span>See all guides and resources</span>
+                      <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                        <use xlink:href="/uswds/img/sprite.svg#arrow_forward"></use>
+                      </svg>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+<section id="news_featured" class="stream">
+  <div class="paper">
+    <div class="grid-container grid-container-desktop">
+
+      <div class="grid-row">
+        <div class="grid-col-12">
+          <header class="page-head page-head-page">
+            <h2>News and Events</h2>
+            <p>Innovative work, news, and ideas from people and teams in government</p>
+
+            <div class="join-buttons">
+              <a href="/join">Write for us</a>
+            </div>
+
+          </header>
+        </div>
+      </div>
+
+      <section class="stream" aria-label="Featured news and events">
+
+        
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+        
+
+
+
+
+<article
+  class="card card-event card-event-past card-linked card-event--no-video"
+  data-edit-this="events/2022/12/2022-12-01-uswds-monthly-call-december-2022.md"
+  
+  aria-labelledby="title-uswds-monthly-call-december-2022"
+>
+  <div class="card__content"><div class="kicker">USWDS</div><h3 id="title-uswds-monthly-call-december-2022">
+      <a href="/event/2022/12/15/uswds-monthly-call-december-2022/" title="USWDS Monthly Call - December 2022" rel="bookmark">USWDS Monthly Call - December 2022</a>
+    </h3><div class="deck">A look back at what took place in the Design System in 2022.</div><div class="authors-list authors-list-short">
+
+    
+    <a class="author" href="/authors/dan-williams/" rel="author">
+  <img src="https://github.com/thisisdano.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Dan Williams</span>
+      </a></div></div>
+
+  <div class="card__media"><div class="non-youtube-event-card" data-link="/event/2022/12/15/uswds-monthly-call-december-2022/">
+      <svg xmlns="http://www.w3.org/2000/svg" role="img" alt="" aria-hidden="true" height="150" width="150" viewBox="0 0 25 25">
+        <title>Calendar Event</title>
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path fill="#252f3e" d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/>
+      </svg>
+    </div></div>
+  <div class="card__meta">
+    <div class="date">Dec 15, 2022</div>
+  </div>
+</article>
+
+              
+                
+                
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2022/12/2022-12-13-to-build-trust-aim-for-easy.md"
+  
+  aria-labelledby="title-to-build-trust-aim-for-easy"
+
+>
+  <div class="card__content"><h3 id="title-to-build-trust-aim-for-easy">
+      <a href="/2022/12/13/to-build-trust-aim-for-easy/">To Build Trust, Aim for Easy</a>
+    </h3><div class="summary">Trust is earned through consistency and commitment. Build sites that build trust by considering user needs, respecting people’s time, and avoiding customer experience pitfalls.</div><div class="authors-list authors-list-short">
+
+    
+    <a class="author" href="/authors/amanda-dean/" rel="author">
+  <img src="https://github.com/ADean27.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Amanda Dean</span>
+      </a></div></div>
+
+  <div class="card__media"><div class="media-featured">
+    <a href="/2022/12/13/to-build-trust-aim-for-easy/" title="To Build Trust, Aim for Easy">
+      <img src="https://s3.amazonaws.com/digitalgov/title-card-to-build-trust-aim-for-easy_w400.png" aria-hidden="true" alt="" />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Dec 13, 2022</div>
+  </div>
+</article>
+
+              
+            
+              
+                
+                
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2022/12/2022-12-15-nearly-68-million-people-spoke-a-language-other-than-english-at-home-in-2019.md"
+  
+  aria-labelledby="title-nearly-68-million-people-spoke-a-language-other-than-english-at-home-in-2019"
+
+>
+  <div class="card__content"><div class="kicker">Multilingual </div><h3 id="title-nearly-68-million-people-spoke-a-language-other-than-english-at-home-in-2019">
+      <a href="/2022/12/06/nearly-68-million-people-spoke-a-language-other-than-english-at-home-in-2019/">Nearly 68 Million People Spoke a Language Other Than English at Home in 2019</a>
+    </h3><div class="summary">The number of people in the United States who spoke a language other than English at home nearly tripled from 23.1 million (about 1 in 10) in 1980 to 67.8 million (almost 1 in 5) in 2019, according to a recent U.S. Census Bureau report.</div></div>
+
+  <div class="card__media"></div>
+
+  <div class="card__meta">
+    <div class="date">Dec 06, 2022</div>
+  </div>
+</article>
+
+              
+            
+              
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-edit-this="news/2022/12/2022-12-09-18f-checks-in-with-jerome-lee-and-the-eapd-project.md"
+  
+  aria-labelledby="title-18f-checks-in-with-jerome-lee-and-the-eapd-project"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-18f-checks-in-with-jerome-lee-and-the-eapd-project">
+        <a href="/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/">18F Checks in With Jerome Lee and the eAPD Project</a>
+      </h3>
+      <p>18F partnered with the Centers for Medicare and Medicaid Services (CMS) from December 2017 to June 2020 on the development of a product called eAPD — a user-friendly, modern product to streamline the creation, submission, review, and approval of the Advance Planning Documents that states use to request IT grant funding from CMS. We caught up with Jerome Lee of CMS, the product owner of eAPD.
+          <em class="card__source source">— via <a href="https://18f.gsa.gov/2022/11/29/18f-checks-in-with-jerome-lee-and-the-eapd-project/" title="Read at 18F">18F</a></em>
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/18f-logo.png" alt="18F logo">
+  </div>
+  <div class="card__meta">
+    <p class="date">Nov 29, 2022</p>
+  </div>
+</article>
+
+            
+              
+                
+                
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2022/11/2022-11-25-making-impact-at-scale-software-engineering-in-the-federal-government.md"
+  
+  aria-labelledby="title-making-impact-at-scale-software-engineering-in-the-federal-government"
+
+>
+  <div class="card__content"><div class="kicker">U.S. Digital Corps</div><h3 id="title-making-impact-at-scale-software-engineering-in-the-federal-government">
+      <a href="/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/">Making Impact at Scale: Software Engineering in the Federal Government</a>
+    </h3><div class="summary">Engineering fellows with the U.S. Digital Corps share their paths to becoming software engineers and why they decide to use their skills to improve government services.</div><div class="authors-list authors-list-short">
+
+    
+    <a class="author" href="/authors/meenu-bhooshanan/" rel="author">
+  <img src="https://github.com/meenubhooshanan.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Meenu Bhooshanan</span>
+      </a> <a class="author" href="/authors/isabel-laurenceau/" rel="author">
+  <img src="https://github.com/IsabelLaurenceau.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Isabel Laurenceau</span>
+      </a> <a class="author" href="/authors/samira-sadat/" rel="author">
+  <img src="https://github.com/SamiraMSadat.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Samira Sadat</span>
+      </a> <a class="author" href="/authors/anastasia-gradova/" rel="author">
+  <img src="https://github.com/anagradova.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Anastasia Gradova</span>
+      </a></div></div>
+
+  <div class="card__media"><div class="media-featured">
+    <a href="/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/" title="Making Impact at Scale: Software Engineering in the Federal Government">
+      <img src="https://s3.amazonaws.com/digitalgov/usdc-making-impact-at-scale_w400.png" aria-hidden="true" alt="" />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Nov 25, 2022</div>
+  </div>
+</article>
+
+              
+            
+              
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-edit-this="news/2022/11/2022-11-25-accessibility-testing-for-onrr-gov.md"
+  
+  aria-labelledby="title-accessibility-testing-for-onrr.gov"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-accessibility-testing-for-onrr.gov">
+        <a href="/2022/11/21/accessibility-testing-for-onrr-gov/">Accessibility Testing for onrr.gov</a>
+      </h3>
+      <p>How do you make sure a website is accessible? This blog post outlines the four steps the Office of Natural Resources Revenue (ONRR - pronounced like &quot;honor&quot;) at the U.S. Department of the Interior took to verify accessibility.
+          <em class="card__source source">— via <a href="https://blog-nrrd.doi.gov/four-part-hybrid-testing/" title="Read at DOI Revenue Data">DOI Revenue Data</a></em>
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/doi-revenuedata-logo.png" alt="DOI Revenue Data logo">
+  </div>
+  <div class="card__meta">
+    <p class="date">Nov 21, 2022</p>
+  </div>
+</article>
+
+            
+
+
+
+
+<article
+  class="card card-event card-event-past card-linked card-event--no-video"
+  data-edit-this="events/2022/11/2022-11-08-uswds-monthly-call-november-2022.md"
+  
+  aria-labelledby="title-uswds-monthly-call-november-2022"
+>
+  <div class="card__content"><div class="kicker">USWDS</div><h3 id="title-uswds-monthly-call-november-2022">
+      <a href="/event/2022/11/17/uswds-monthly-call-november-2022/" title="USWDS Monthly Call - November 2022" rel="bookmark">USWDS Monthly Call - November 2022</a>
+    </h3><div class="deck">Continuing our look at user profile patterns</div><div class="authors-list authors-list-short">
+
+    
+    <a class="author" href="/authors/dan-williams/" rel="author">
+  <img src="https://github.com/thisisdano.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Dan Williams</span>
+      </a> <a class="author" href="/authors/austin-hernandez/" rel="author">
+  <img src="https://github.com/austinhernandez.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Austin Hernandez</span>
+      </a></div></div>
+
+  <div class="card__media"><div class="non-youtube-event-card" data-link="/event/2022/11/17/uswds-monthly-call-november-2022/">
+      <svg xmlns="http://www.w3.org/2000/svg" role="img" alt="" aria-hidden="true" height="150" width="150" viewBox="0 0 25 25">
+        <title>Calendar Event</title>
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path fill="#252f3e" d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/>
+      </svg>
+    </div></div>
+  <div class="card__meta">
+    <div class="date">Nov 17, 2022</div>
+  </div>
+</article>
+
+              
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-edit-this="news/2022/11/2022-11-25-inclusive-design-patterns-research-report.md"
+  
+  aria-labelledby="title-inclusive-design-patterns-research-report"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-inclusive-design-patterns-research-report">
+        <a href="/2022/11/16/inclusive-design-patterns-research-report/">Inclusive Design Patterns Research Report</a>
+      </h3>
+      <p>The U.S. Web Design System (USWDS) is excited to provide a new library of guidance and examples focused on key digital interactions — what we call design patterns — that foster effective, inclusive, and equitable digital experiences. This online report has four pages; Summary, Findings, What&rsquo;s Next, and Get Involved. It also links to the new patterns section, where you can learn how to help your users complete a complex form, identify and select a preferred language, or create a user profile.
+          <em class="card__source source">— via <a href="https://designsystem.digital.gov/together/" title="Read at U.S. Web Design System">U.S. Web Design System</a></em>
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/uswds-logo.png" alt="U.S. Web Design System logo">
+  </div>
+  <div class="card__meta">
+    <p class="date">Nov 16, 2022</p>
+  </div>
+</article>
+
+            
+              
+                
+                
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2022/11/2022-11-16-implementing-equitable-data-to-ensure-government-works-for-the-public.md"
+  
+  aria-labelledby="title-implementing-equitable-data-to-ensure-government-works-for-the-public"
+
+>
+  <div class="card__content"><h3 id="title-implementing-equitable-data-to-ensure-government-works-for-the-public">
+      <a href="/2022/11/16/implementing-equitable-data-to-ensure-government-works-for-the-public/">Implementing Equitable Data To Ensure Government Works for the Public</a>
+    </h3><div class="summary">U.S. Digital Corps Fellow, Meredith Brown, reflects on her journey to civic tech and her impactful work supporting the White House Office of Science and Technology Policy.</div><div class="authors-list authors-list-short">
+
+    
+    <a class="author" href="/authors/chris-kuang/" rel="author">
+  <img src="https://github.com/chriskuang4.png?size=50" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Chris Kuang</span>
+      </a> <a class="author" href="/authors/meredith-brown/" rel="author">
+  <img src="/img/digit-dark.png" alt="">
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+        <span>Meredith Brown</span>
+      </a></div></div>
+
+  <div class="card__media"><div class="media-featured">
+    <a href="/2022/11/16/implementing-equitable-data-to-ensure-government-works-for-the-public/" title="Implementing Equitable Data To Ensure Government Works for the Public">
+      <img src="https://s3.amazonaws.com/digitalgov/us-digital-corps-accelerating-infrastructure-team-2022_w400.png" aria-hidden="true" alt="" />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Nov 16, 2022</div>
+  </div>
+</article>
+
+              
+            
+              
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-edit-this="news/2022/11/2022-11-22-sunsetting-go-usa-gov-final-user-statistics.md"
+  
+  aria-labelledby="title-sunsetting-go.usa.gov-final-user-statistics"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-sunsetting-go.usa.gov-final-user-statistics">
+        <a href="/2022/11/15/sunsetting-go-usa-gov-final-user-statistics/">Sunsetting Go.USA.gov: Final User Statistics</a>
+      </h3>
+      <p>The digital landscape has changed significantly since we launched the Go.USA.gov service in 2009. Over the last two years the team looked carefully at the program holistically, taking into consideration the future of the program, the current landscape related to using shortened URLs and alignment with strategic business goals. In early 2022 we made the difficult decision to initiate steps to sunset the service.
+          <em class="card__source source">— via <a href="https://blog.usa.gov/sunsetting-go.usa.gov-final-user-statistics" title="Read at USA.gov">USA.gov</a></em>
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/usagov-logo.png" alt="USA.gov logo">
+  </div>
+  <div class="card__meta">
+    <p class="date">Nov 15, 2022</p>
+  </div>
+</article>
+
+            <footer>
+          <a class="btn" href="/news" title="View news and updates page">
+            <span>See all News</span>
+            <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/uswds/img/sprite.svg#arrow_forward"></use>
+            </svg>
+          </a>
+          <p>Have a case study to share? Did your team recently launch something?<br/><a href="/contribute" title="Contribute to Digital.gov"><strong>Learn how you can contribute</strong></a></p>
+        </footer>
+      </section>
+    </div>
+  </div>
+</section>
+</main>
+<section id="newsletter-signup" aria-label="Subscribe to the Digital.gov newsletter">
+  <div class="grid-container grid-container-desktop">
+    <div class="grid-row tablet-lg:grid-gap-6">
+      <div class="grid-col-12 tablet:grid-col-7">
+        <section class="usa-sign-up">
+          <p class="blurb" id="newsletter-subscribe-description"><strong>Join 60,000 others in government</strong> and subscribe to our newsletter — a round-up of the best digital news in government and across our field.</p>
+        </section>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-5">
+
+        <section class="usa-sign-up" aria-describedby="newsletter-subscribe-description">
+          <script src="https://public.govdelivery.com/assets/Signup.js" data-account-code="USGSA" data-signup-id="34948"></script>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="usa-footer usa-footer--big" role="contentinfo">
+  <section class="return-to-top">
+    <div class="grid-container grid-container-desktop usa-footer__return-to-top">
+      <a href="#">
+        <span>Return to top</span>
+        <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+          <use xlink:href="/uswds/img/sprite.svg#arrow_upward"></use>
+        </svg>
+      </a>
+    </div>
+  </section>
+  <div class="usa-footer__primary-section">
+    <div class="grid-container grid-container-desktop">
+      <nav class="usa-footer__nav" aria-label="Footer navigation">
+        <div class="grid-row grid-gap-4">
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Learn</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/news/">News</a></li><li class="usa-footer__secondary-link"><a href="/events/">Events</a></li><li class="usa-footer__secondary-link"><a href="/resources/">Resources</a></li><li class="usa-footer__secondary-link"><a href="/communities/">Communities</a></li><li class="usa-footer__secondary-link"><a href="/services/">Tools</a></li></ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Contribute</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/contribute/">Write for us</a></li><li class="usa-footer__secondary-link"><a href="/digitalgov-university/">Host an event</a></li><li class="usa-footer__secondary-link"><a href="https://github.com/GSA/digitalgov.gov/">Edit on GitHub</a></li></ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">About</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/about/">About Us</a></li><li class="usa-footer__secondary-link"><a href="/policies/">Site Policies</a></li></ul>
+            </section>
+          </div>
+
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Social</h4>
+              <ul class="usa-list usa-list--unstyled social-links">
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#twitter"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://twitter.com/digital_gov">Twitter</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#facebook"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://www.facebook.com/digitalgov/">Facebook</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#youtube"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://youtube.com/digitalgov">YouTube</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#rss_feed"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="/index.xml">RSS</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#mail_outline"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="mailto:digitalgov@gsa.gov">Email us</a>
+                </li>
+              </ul>
+
+            </section>
+          </div>
+
+
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://www.gsa.gov" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="/img/gsa-logo-w100.png" alt="GSA logo" role="img">
+        </a>
+      </div>
+      <section class="usa-identifier__identity" aria-label="Agency description">
+        <p class="usa-identifier__identity-domain">Digital.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="https://www.gsa.gov">U.S. General Services Administration</a>
+        </p>
+      </section>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/about-us" class="usa-identifier__required-link usa-link">
+              About GSA
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link">
+              Accessibility support
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">
+              FOIA requests
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">
+              No FEAR Act data
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
+              Office of the Inspector General
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">
+              Performance reports
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link">
+              Privacy policy
+            </a>
+          </li>
+        
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">
+        Looking for U.S. government information and services?
+      </div>
+      <a href="https://www.usa.gov/" class="usa-link">
+        Visit USA.gov
+      </a>
+    </div>
+  </section>
+</div>
+
+
+</div> 
+
+  <div id="clicks_iframe" class="display-none"></div>
+
+  <div class="edit_tools">
+    <button class="edit edit-open" aria-label="edit" type="button">
+      <svg class="usa-icon dg-icon dg-icon--large margin-bottom-05" aria-hidden="true" focusable="false">
+        <use xlink:href="/uswds/img/sprite.svg#edit"></use>
+      </svg>
+    </button>
+    <a class="edit edit-issue" role="button" target="_blank" href="https://github.com/GSA/digitalgov.gov/issues/new?body=%0D%0A%2A%2A%2A%2A%0D%0Ahttps%3A%2F%2Fdigital.gov%2F%2f%0D%0A%0D%0A---%0D%0A%0D%0A%2A%2APlease+describe+the+issue+clearly.+Include+a+screenshot+if+needed%2A%2A%0D%0A">
+      <svg class="usa-icon dg-icon dg-icon--large margin-bottom-05" aria-hidden="true" focusable="false">
+        <use xlink:href="/uswds/img/sprite.svg#bug_report"></use>
+      </svg>
+      <span class="usa-sr-only">Report an issue</span>
+    </a>
+  </div>
+
+</body>
+
+<script src='/dist/jquery.min.js'></script>
+<script src='/dist/uswds.min.js'></script>
+<script src='/dist/common.js'></script>
+
+
+
+
+<script type="text/javascript">
+  var root_url = "/";
+  var all_images_json = "/images/v1/json/";
+</script>
+
+
+</html>
