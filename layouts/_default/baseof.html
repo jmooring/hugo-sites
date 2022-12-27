@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+  <meta name="description" content="A curated list of sites built with the Hugo static site generator.">
+  <meta>
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
   <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
   {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
