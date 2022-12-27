@@ -1,15 +1,13 @@
 # Hugo Sites
 
-Clone and build this Hugo site to render a curated list of other sites built with Hugo.
+These sites were created with the [Hugo] static site generator.
+
+[Hugo]: https://gohugo.io
 
 To appear on this list, the site's home page must contain a `meta` element with the `name` attribute set to `generator`, and "Hugo" must appear in the `content` attribute.
 
 The version, title, and description are retrieved from each site's home page every time this site is built.
 
-With a cold `getresource` cache, Hugo builds this site in less than a minute. 
+To add a site to this list, or to reclassify an existing item, please [submit an issue].
 
-This list was compiled from:
-- <https://discourse.gohugo.io/t/cool-sites-that-run-hugo/36815>
-- <https://gohugo.io/showcase/>
-
-To add a site to the list, please submit an issue.
+[submit an issue]: https://github.com/jmooring/hugo-sites/issues/new/choose

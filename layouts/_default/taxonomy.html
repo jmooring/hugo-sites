@@ -3,6 +3,8 @@
     {{ .Content }}
   </div>
   {{ range .Pages.ByTitle }}
-    <div class="list-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+    {{ if .Pages.Len }}
+      <div class="list-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+    {{ end }}
   {{ end }}
 {{ end }}
