@@ -1,5 +1,6 @@
 +++
 title = 'www.lichtblick.de'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

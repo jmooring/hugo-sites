@@ -1,5 +1,6 @@
 +++
 title = 'www.bypasscensorship.org'
 draft = false
-tags = []
+types = ['nonprofit']
+visibility = []
 +++

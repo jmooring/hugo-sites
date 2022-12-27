@@ -1,5 +1,6 @@
 +++
 title = 'magicalroastcoffee.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

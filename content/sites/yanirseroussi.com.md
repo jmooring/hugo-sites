@@ -1,5 +1,6 @@
 +++
 title = 'yanirseroussi.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

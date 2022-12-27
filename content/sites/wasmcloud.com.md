@@ -1,5 +1,6 @@
 +++
 title = 'wasmcloud.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

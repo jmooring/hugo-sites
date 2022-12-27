@@ -1,5 +1,6 @@
 +++
 title = 'fission.io'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

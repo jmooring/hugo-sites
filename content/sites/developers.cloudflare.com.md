@@ -1,5 +1,6 @@
 +++
 title = 'developers.cloudflare.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

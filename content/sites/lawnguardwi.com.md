@@ -1,5 +1,6 @@
 +++
 title = 'lawnguardwi.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

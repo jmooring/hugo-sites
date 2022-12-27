@@ -1,5 +1,6 @@
 +++
 title = 'phxlabs.ca'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

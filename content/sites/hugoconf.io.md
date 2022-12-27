@@ -1,5 +1,6 @@
 +++
 title = 'hugoconf.io'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

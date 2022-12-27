@@ -1,5 +1,6 @@
 +++
 title = 'appscode.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

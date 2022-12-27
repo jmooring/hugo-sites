@@ -1,5 +1,6 @@
 +++
 title = 'www.paytsoftware.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

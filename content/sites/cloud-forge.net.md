@@ -1,5 +1,6 @@
 +++
 title = 'cloud-forge.net'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

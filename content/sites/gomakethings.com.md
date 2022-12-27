@@ -1,5 +1,6 @@
 +++
 title = 'gomakethings.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

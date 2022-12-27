@@ -1,5 +1,6 @@
 +++
 title = 'nobainternational.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

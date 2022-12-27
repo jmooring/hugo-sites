@@ -1,5 +1,6 @@
 +++
 title = 'telos.kitchen'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

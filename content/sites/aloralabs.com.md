@@ -1,5 +1,6 @@
 +++
 title = 'aloralabs.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

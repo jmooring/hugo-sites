@@ -1,5 +1,6 @@
 +++
 title = 'knopehvac.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

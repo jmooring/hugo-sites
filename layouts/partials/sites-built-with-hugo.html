@@ -51,25 +51,38 @@
         {{- end }}
       {{- end }}
 
-      {{- /* Get tags */}}
-      {{- $tags := "" }}
-      {{- with $p.GetTerms "tags" }}
+      {{- /* Get types. */}}
+      {{- $types := "" }}
+      {{- with $p.GetTerms "types" }}
         {{- range $k, $_ := . }}
           {{- if $k }}
-            {{- $tags = print $tags ", " }}
+            {{- $types = print $types ", " }}
           {{- end }}
-          {{- $tags = print $tags (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle)}}
+          {{- $types = print $types (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle)}}
         {{- end }}
       {{- end }}
 
+      {{- /* Get visibility. */}}
+      {{- $visibility := "" }}
+      {{- with $p.GetTerms "visibility" }}
+        {{- range $k, $_ := . }}
+          {{- if $k }}
+            {{- $visibility = print $visibility ", " }}
+          {{- end }}
+          {{- $visibility = print $visibility (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle)}}
+        {{- end }}
+      {{- end }}
+
+
       {{- /* Build map of sites. */}}
       {{- $hugoSites = $hugoSites | append (dict
-        "host" $host
-        "url" $url
-        "title" (trim $title "\n")
         "description" (trim $description "\n")
-        "tags" $tags
+        "host" $host
+        "title" (trim $title "\n")
+        "types" $types
+        "url" $url
         "version" $version
+        "visibility" $visibility
         )
       }}
 
@@ -84,9 +97,10 @@
     <thead>
       <tr>
         <th>Host</th>
-        <th>Version</th>
         <th>Title</th>
-        <th>Tags</th>
+        <th>Types</th>
+        <th>Visibility</th>
+        <th>Version</th>
         <th>Description</th>
       </tr>
     </thead>
@@ -94,9 +108,10 @@
       {{- range . }}
         <tr>
           <td><a href="{{ .url }}" target="_blank">{{ .host }}</a></td>
-          <td>{{- .version }}</td>
           <td>{{- .title | safeHTML }}</td>
-          <td>{{- .tags | safeHTML }}</td>
+          <td>{{- .types | safeHTML }}</td>
+          <td>{{- .visibility | safeHTML }}</td>
+          <td>{{- .version }}</td>
           <td>{{- .description | safeHTML }}</td>
         </tr>
       {{- end }}

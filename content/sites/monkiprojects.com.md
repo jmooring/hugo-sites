@@ -1,5 +1,6 @@
 +++
 title = 'monkiprojects.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

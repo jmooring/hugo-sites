@@ -1,5 +1,6 @@
 +++
 title = 'thegooddocsproject.dev'
 draft = false
-tags = []
+types = ['documentation']
+visibility = []
 +++

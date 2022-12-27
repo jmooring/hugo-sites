@@ -1,5 +1,6 @@
 +++
 title = 'www.hyperdrivecodes.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

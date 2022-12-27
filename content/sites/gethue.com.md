@@ -1,5 +1,6 @@
 +++
 title = 'gethue.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

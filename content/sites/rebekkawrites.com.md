@@ -1,5 +1,6 @@
 +++
 title = 'rebekkawrites.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

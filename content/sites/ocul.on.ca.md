@@ -1,6 +1,7 @@
 +++
 title = 'ocul.on.ca'
 draft = false
-tags = []
+types = []
+visibility = []
 path = 'topomaps'
 +++

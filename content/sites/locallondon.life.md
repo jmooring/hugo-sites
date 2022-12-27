@@ -1,5 +1,6 @@
 +++
 title = 'locallondon.life'
 draft = false
-tags = []
+types = ['nonprofit']
+visibility = []
 +++

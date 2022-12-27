@@ -1,6 +1,7 @@
 +++
 title = 'shardingsphere.apache.org'
 draft = false
-tags = []
+types = []
+visibility = []
 path = 'document/current/en/overview'
 +++

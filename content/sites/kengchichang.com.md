@@ -1,5 +1,6 @@
 +++
 title = 'kengchichang.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

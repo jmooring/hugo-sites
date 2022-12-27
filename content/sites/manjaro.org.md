@@ -1,5 +1,6 @@
 +++
 title = 'manjaro.org'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

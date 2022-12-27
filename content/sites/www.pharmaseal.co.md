@@ -1,5 +1,6 @@
 +++
 title = 'www.pharmaseal.co'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

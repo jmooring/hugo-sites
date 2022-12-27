@@ -1,5 +1,6 @@
 +++
 title = 'laurakalbag.com'
 draft = false
-tags = []
+types = ['blog','personal']
+visibility = []
 +++

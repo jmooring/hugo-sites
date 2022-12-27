@@ -1,6 +1,7 @@
 +++
 title = 'booksy.com'
 draft = false
-tags = []
+types = []
+visibility = []
 path = 'en-us'
 +++

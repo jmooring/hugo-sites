@@ -1,5 +1,6 @@
 +++
 title = 'heritagebakeshoppe.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

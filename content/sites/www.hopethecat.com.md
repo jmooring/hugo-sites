@@ -1,5 +1,6 @@
 +++
 title = 'www.hopethecat.com'
 draft = false
-tags = []
+types = ['blog','personal']
+visibility = []
 +++

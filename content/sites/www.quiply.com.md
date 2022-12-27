@@ -1,5 +1,6 @@
 +++
 title = 'www.quiply.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

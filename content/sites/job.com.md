@@ -1,5 +1,6 @@
 +++
 title = 'job.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

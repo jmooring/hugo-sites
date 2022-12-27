@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ $p := .Pages.ByTitle }}
+  {{ partial "sites-built-with-hugo.html" $p }}
+
+{{ end }}

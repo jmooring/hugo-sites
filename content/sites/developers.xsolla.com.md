@@ -1,5 +1,6 @@
 +++
 title = 'developers.xsolla.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

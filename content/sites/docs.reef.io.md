@@ -1,5 +1,6 @@
 +++
 title = 'docs.reef.io'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

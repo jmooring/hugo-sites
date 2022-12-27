@@ -1,5 +1,6 @@
 +++
 title = 'sr.ht'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

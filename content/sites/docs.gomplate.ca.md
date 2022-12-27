@@ -1,5 +1,6 @@
 +++
 title = 'docs.gomplate.ca'
 draft = false
-tags = []
+types = ['documentation']
+visibility = []
 +++

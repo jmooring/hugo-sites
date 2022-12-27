@@ -1,5 +1,6 @@
 +++
 title = 'graphviz.org'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

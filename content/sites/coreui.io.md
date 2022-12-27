@@ -1,5 +1,6 @@
 +++
 title = 'coreui.io'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

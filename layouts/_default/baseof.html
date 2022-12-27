@@ -12,6 +12,19 @@
   {{ end }}
 </head>
 <body>
+
+<h1>{{ .Title }}</h1>
+
+{{ with site.Menus.main }}
+  <div class="menu">
+   {{ range $k, $_ := . }}
+    {{ if $k }} | {{ end }}
+     <a href="{{ .URL }}">{{ .Name }}</a>
+   {{ end }}
+  </div>
+{{ end }}
+
+<hr>
 {{ block "main" . }}
 
 {{ end }}

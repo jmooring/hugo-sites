@@ -1,5 +1,6 @@
 +++
 title = 'gocloud.dev'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

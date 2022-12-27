@@ -1,5 +1,6 @@
 +++
 title = 'roofsimple.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

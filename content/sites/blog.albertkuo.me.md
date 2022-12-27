@@ -1,5 +1,6 @@
 +++
 title = 'blog.albertkuo.me'
 draft = false
-tags = []
+types = ['blog']
+visibility = []
 +++

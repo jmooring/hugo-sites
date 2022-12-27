@@ -1,5 +1,6 @@
 +++
 title = 'www.datadoghq.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

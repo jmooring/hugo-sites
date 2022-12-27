@@ -1,5 +1,6 @@
 +++
 title = 'wetlandscapes.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

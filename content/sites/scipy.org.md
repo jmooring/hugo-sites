@@ -1,5 +1,6 @@
 +++
 title = 'scipy.org'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

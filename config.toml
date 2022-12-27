@@ -7,8 +7,24 @@ disableKinds = ['RSS', 'sitemap']
 show_all = false # If false, sites without generator tag will not be shown.
 
 [taxonomies]
-tag = 'tags'
+type = 'types'
+visibility = 'visibility'
 
 [caches.getresource]
 dir = ':resourceDir/_gen'
 maxAge = -1
+
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+weight = '10'
+
+[[menu.main]]
+name = 'Types'
+pageRef = '/types'
+weight = '20'
+
+[[menu.main]]
+name = 'Visibility'
+pageRef = '/visibility'
+weight = '30'

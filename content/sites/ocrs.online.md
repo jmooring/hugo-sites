@@ -1,5 +1,6 @@
 +++
 title = 'ocrs.online'
 draft = false
-tags = []
+types = ['nonprofit']
+visibility = []
 +++

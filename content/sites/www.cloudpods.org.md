@@ -1,6 +1,7 @@
 +++
 title = 'www.cloudpods.org'
 draft = false
-tags = []
+types = ['documentation']
+visibility = []
 path = 'en/docs'
 +++

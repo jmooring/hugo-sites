@@ -1,5 +1,6 @@
 +++
 title = 'www.usecue.com'
 draft = false
-tags = []
+types = ['blog','business']
+visibility = []
 +++

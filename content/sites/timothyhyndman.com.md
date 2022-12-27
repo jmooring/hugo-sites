@@ -1,5 +1,6 @@
 +++
 title = 'timothyhyndman.com'
 draft = false
-tags = []
+types = ['cv']
+visibility = []
 +++

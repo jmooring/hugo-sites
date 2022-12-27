@@ -1,6 +1,7 @@
 +++
 title = 'www.visitparisregion.com'
 draft = false
-tags = []
+types = []
+visibility = []
 path = 'fr'
 +++

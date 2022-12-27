@@ -1,5 +1,6 @@
 +++
 title = 'www.atozmachine.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

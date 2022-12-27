@@ -1,5 +1,6 @@
 +++
 title = 'www.maistra.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

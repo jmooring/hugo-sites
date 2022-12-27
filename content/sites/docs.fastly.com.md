@@ -1,5 +1,6 @@
 +++
 title = 'docs.fastly.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

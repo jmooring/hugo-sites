@@ -1,5 +1,6 @@
 +++
 title = 'statichunt.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

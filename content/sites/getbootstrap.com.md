@@ -1,5 +1,6 @@
 +++
 title = 'getbootstrap.com'
 draft = false
-tags = ['Notable']
+types = ['documentation']
+visibility = ['high']
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'www.whiteclaw.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

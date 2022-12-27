@@ -1,5 +1,6 @@
 +++
 title = 'www.sciencewithme.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

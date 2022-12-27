@@ -1,5 +1,6 @@
 +++
 title = 'datarights.ngo'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

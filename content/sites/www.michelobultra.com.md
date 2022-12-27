@@ -1,5 +1,6 @@
 +++
 title = 'www.michelobultra.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

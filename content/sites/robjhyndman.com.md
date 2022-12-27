@@ -1,5 +1,6 @@
 +++
 title = 'robjhyndman.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

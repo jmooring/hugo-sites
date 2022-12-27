@@ -1,5 +1,6 @@
 +++
 title = 'sroberts.io'
 draft = false
-tags = []
+types = ['blog','personal']
+visibility = []
 +++

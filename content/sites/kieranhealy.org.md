@@ -1,5 +1,6 @@
 +++
 title = 'kieranhealy.org'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

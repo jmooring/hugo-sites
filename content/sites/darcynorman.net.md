@@ -1,5 +1,6 @@
 +++
 title = 'darcynorman.net'
 draft = false
-tags = []
+types = ['blog','cv','personal','portfolio']
+visibility = []
 +++

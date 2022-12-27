@@ -1,5 +1,6 @@
 +++
 title = 'docs.datadoghq.com'
 draft = false
-tags = []
+types = ['documentation']
+visibility = []
 +++

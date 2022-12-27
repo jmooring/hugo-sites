@@ -1,5 +1,6 @@
 +++
 title = 'www.hardwario.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

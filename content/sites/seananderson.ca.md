@@ -1,5 +1,6 @@
 +++
 title = 'seananderson.ca'
 draft = false
-tags = []
+types = ['blog','personal','cv','portfolio']
+visibility = []
 +++

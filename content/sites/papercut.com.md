@@ -1,5 +1,6 @@
 +++
 title = 'papercut.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'bookofconcord.org'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

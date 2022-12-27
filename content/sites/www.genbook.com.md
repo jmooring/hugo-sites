@@ -1,5 +1,6 @@
 +++
 title = 'www.genbook.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

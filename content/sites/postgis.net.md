@@ -1,5 +1,6 @@
 +++
 title = 'postgis.net'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'gitea.io'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

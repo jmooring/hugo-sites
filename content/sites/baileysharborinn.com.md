@@ -1,5 +1,6 @@
 +++
 title = 'baileysharborinn.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

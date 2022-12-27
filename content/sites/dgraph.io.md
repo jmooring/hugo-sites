@@ -1,6 +1,7 @@
 +++
 title = 'dgraph.io'
 draft = false
-tags = []
+types = []
+visibility = []
 path = '/docs/cloud'
 +++

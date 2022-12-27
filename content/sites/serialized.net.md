@@ -1,5 +1,6 @@
 +++
 title = 'serialized.net'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

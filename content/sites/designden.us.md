@@ -1,5 +1,6 @@
 +++
 title = 'designden.us'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

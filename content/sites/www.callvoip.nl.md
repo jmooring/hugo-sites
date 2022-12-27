@@ -1,5 +1,6 @@
 +++
 title = 'www.callvoip.nl'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

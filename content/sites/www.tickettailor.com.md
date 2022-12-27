@@ -1,5 +1,6 @@
 +++
 title = 'www.tickettailor.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

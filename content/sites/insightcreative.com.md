@@ -1,5 +1,6 @@
 +++
 title = 'insightcreative.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'nutspubcrawl.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

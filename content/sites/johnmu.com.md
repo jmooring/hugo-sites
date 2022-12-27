@@ -1,5 +1,6 @@
 +++
 title = 'johnmu.com'
 draft = false
-tags = ['Notable']
+types = ['blog', 'personal']
+visibility = ['high']
 +++

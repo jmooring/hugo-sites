@@ -1,5 +1,6 @@
 +++
 title = 'vote.gov'
 draft = false
-tags = ['Notable']
+types = ['government']
+visibility = ['high']
 +++

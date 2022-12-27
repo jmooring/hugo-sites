@@ -1,5 +1,6 @@
 +++
 title = '{{ .Name }}'
 draft = false
-tags = []
+types = []        # blog, business, cv, documentation, ecommerce, etc. 
+visibility = []   # high, medium, low
 +++

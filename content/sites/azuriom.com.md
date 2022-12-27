@@ -1,5 +1,6 @@
 +++
 title = 'azuriom.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

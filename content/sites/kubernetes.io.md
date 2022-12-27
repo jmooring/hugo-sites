@@ -1,5 +1,6 @@
 +++
 title = 'kubernetes.io'
 draft = false
-tags = ['Notable']
+types = ['business']
+visibility = ['high']
 +++

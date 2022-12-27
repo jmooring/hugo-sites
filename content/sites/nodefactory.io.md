@@ -1,5 +1,6 @@
 +++
 title = 'nodefactory.io'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

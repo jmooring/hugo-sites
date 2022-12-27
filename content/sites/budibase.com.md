@@ -1,5 +1,6 @@
 +++
 title = 'budibase.com'
 draft = false
-tags = []
+types = []
+visibility = []
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'www.lcojlaw.com'
 draft = false
-tags = []
+types = ['business']
+visibility = []
 +++

@@ -1,5 +1,6 @@
 +++
 title = 'covidbahamas.app'
 draft = false
-tags = []
+types = ['healthcare']
+visibility = []
 +++

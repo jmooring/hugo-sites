@@ -1,5 +1,6 @@
 +++
 title = 'jadelsbach.de'
 draft = false
-tags = []
+types = ['blog','cv','personal','portfolio']
+visibility = []
 +++
