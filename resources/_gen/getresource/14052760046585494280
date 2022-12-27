@@ -4,21 +4,21 @@ Accept-Ranges: bytes
 Cache-Control: public
 Content-Security-Policy: upgrade-insecure-requests; frame-ancestors 'self'
 Content-Type: text/html
-Date: Tue, 27 Dec 2022 20:13:47 GMT
-Etag: "80fa5c9ddbbd91:0"
+Date: Tue, 27 Dec 2022 22:52:22 GMT
+Etag: "e46d69ddbbd91:0"
 Last-Modified: Fri, 09 Dec 2022 14:36:25 GMT
-Set-Cookie: visid_incap_163795=B5aFtnyLQF+Cl30HND120ftRq2MAAAAAQUIPAAAAAACbhPonPIRgoTDo8ZcCQ9Eb; expires=Wed, 27 Dec 2023 06:17:59 GMT; HttpOnly; path=/; Domain=.stellaartois.com; Secure; SameSite=None
-Set-Cookie: nlbi_163795=KDpCWMOvDF6CEs9s6ZuymgAAAAAUJR/regejL/CiZLOQkCeo; path=/; Domain=.stellaartois.com; Secure; SameSite=None
-Set-Cookie: incap_ses_2106_163795=ept/A87zUHo0Q6QrBAQ6HftRq2MAAAAAOstYqG/t+w28rUu01SMXng==; path=/; Domain=.stellaartois.com; Secure; SameSite=None
+Set-Cookie: visid_incap_163795=El86FsuHRjW+qFDljf7VJiZ3q2MAAAAAQUIPAAAAAACJl+/bfSSo/6oZAnEwfFMd; expires=Wed, 27 Dec 2023 06:17:59 GMT; HttpOnly; path=/; Domain=.stellaartois.com; Secure; SameSite=None
+Set-Cookie: nlbi_163795=ijC6DNZdQlkm5jUV6ZuymgAAAADCFF0unReY9nwH8tPJ3Ztw; path=/; Domain=.stellaartois.com; Secure; SameSite=None
+Set-Cookie: incap_ses_2106_163795=M7X8D+gbAFjr2PcrBAQ6HSZ3q2MAAAAAMkNGRx+ndkBSDhpWj9B0Vg==; path=/; Domain=.stellaartois.com; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Iinfo: 14-344183883-344183884 NNNN CT(40 86 0) RT(1672172027170 10) q(0 0 2 1) r(2 2) U12
+X-Iinfo: 13-265801081-265801083 NNNN CT(41 84 0) RT(1672181542376 11) q(0 0 2 0) r(2 2) U12
 X-Xss-Protection: 1; mode=block
 
-4558
+4557
 <!doctype html><html lang=en><head>
 <meta name=generator content="Hugo 0.89.4">
 <meta charset=utf-8>
@@ -363,7 +363,7 @@ Holiday
 </div>
 <script>checkCookie(),$('#CountryCode').change(function(){var a=$(this).val();window.location.href=a});let month=$("#month"),day=$("#day"),year=$("#year"),btn=$("button:submit"),ageForm=$("#formDesktop");ageForm.on("keyup",function(){month.val()===""||day.val()===""||year.val()===""?btn.attr("disabled","disabled").removeClass("active"):btn.removeAttr("disabled").addClass("active"),month.val().length===2&&day.focus(),day.val().length===2&&(month.val()===""?month.focus():month.val().length===2&&year.focus())}),ageForm.on('submit',function(c){c.preventDefault();let d=$(this).attr('action'),b=Number(localStorage.getItem('agAttempts'))||0;window.addEventListener("beforeunload",()=>{localStorage.setItem('agAttempts',0)});const a=_getFormData();fetch(`${d}?T=2CECF070-1B17-4514-BE3B-2E6EE9E2ADF9&D=${a.day}&M=${a.month}&Y=${a.year}&C=${a.countryCode}&R=JSON`).then(a=>a.json()).then(a=>{a.IsOfLegalDrinkingAge===!0&&a.IsCountryRestricted===!1?(CookieHelper.createCookie('ldagestella','valid'),$('#new-age-gate').hide(),$('body').removeClass('agegate-active').removeClass('modal-open')):b<1?($('.intro-text').hide(),$('.fail-text').show(),$('.legal-age').text(a.CountryDrinkingAge),localStorage.setItem('agAttempts',b+1)):window.location="https://www.familytalkaboutdrinking.com/"})});function _getFormData(){const a=$('#CountryCode').val(),b=$('#day').val(),c=$('#month').val(),d=$('#year').val();return{countryCode:a,day:b,month:c,year:d}}function getCookie(c){let a=c+"=",b=document.cookie.split(';');for(let d=0;d<b.length;d++){let c=b[d];while(c.charAt(0)==' ')c=c.substring(1);if(c.indexOf(a)==0)return c.substring(a.length,c.length)}return""}function checkCookie(){let a=getCookie("ldagestella");a==='valid'&&($('#new-age-gate').hide(),$('body').removeClass('agegate-active').removeClass('modal-open'))}</script>
 <script src=/js/bundle.aa283ca774740aefa161e1dc47e5716b0fbdcf907eff979993f7a69a1db4e325.js></script>
-<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1125559012"></script>
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=207364052"></script>
 </body>
 </html>
 0
