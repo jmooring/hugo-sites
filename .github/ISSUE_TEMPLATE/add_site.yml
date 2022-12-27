@@ -1,0 +1,40 @@
+name: Add site
+description: Add a new site to the curated list of sites built with Hugo
+labels: add site
+assignees: jmooring
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Site
+      description: Please provide a fully qualified URL to the site
+      placeholder: https://example.org/docs/
+    validations:
+      required: true
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Type
+      description: Please indicate the type of site by selecting one or more of the following options
+      options:
+        - label: Blog
+        - label: Business
+        - label: CV/Resume
+        - label: Documentation
+        - label: Ecommerce
+        - label: Education
+        - label: Entertainment
+        - label: Event
+        - label: Government
+        - label: Healthcare
+        - label: Membership
+        - label: News
+        - label: Nonprofit
+        - label: Personal
+        - label: Portfolio
+        - label: Other
+  - type: input
+    id: type_other
+    attributes:
+      label: Other
+      description: If you selected "Other" please briefly describe the type of site
