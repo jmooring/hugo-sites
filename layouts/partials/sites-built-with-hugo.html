@@ -7,7 +7,7 @@
 {{- $regexTitle := `(?s)<title>.*?</title>` }}
 {{- $regexTitleValue := `(?s)<title>(.*)</title>` }}
 {{- $regexVersion := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
-{{- $regexVersionValue := `.*"Hugo\s+(.*)".*` }}
+{{- $regexVersionValue := `.*"Hugo\s+(\d+\.\d+\.?\d*).*".*` }}
 
 {{- range $p := . }}
 
