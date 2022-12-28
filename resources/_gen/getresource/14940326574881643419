@@ -3,20 +3,20 @@ Transfer-Encoding: chunked
 Cache-Control: public
 Content-Security-Policy: upgrade-insecure-requests; frame-ancestors 'self'
 Content-Type: text/html
-Date: Wed, 28 Dec 2022 17:19:20 GMT
-Etag: "l1igz6"
+Date: Wed, 28 Dec 2022 22:42:23 GMT
+Etag: "1tdhnp6"
 Permissions-Policy: interest-cohort=()
-Set-Cookie: visid_incap_163812=dDTjaipBQW2+hdl01YNAk5h6rGMAAAAAQUIPAAAAAACug9n3/bz+GEhS+i8Zo2rR; expires=Thu, 28 Dec 2023 06:18:07 GMT; HttpOnly; path=/; Domain=.michelobultra.com; Secure; SameSite=None
-Set-Cookie: nlbi_163812=dF2IY+rpOgK2kx2nxSpWpAAAAAAuaeNWyAZZCloya8QdDuwQ; path=/; Domain=.michelobultra.com; Secure; SameSite=None
-Set-Cookie: incap_ses_2106_163812=2D2TD+FROU664NwtBAQ6HZh6rGMAAAAAeinMm8Kmz7AxFzDWyXLzbQ==; path=/; Domain=.michelobultra.com; Secure; SameSite=None
+Set-Cookie: visid_incap_163812=HVdjVfbPRWqc8l2JZyyhYE7GrGMAAAAAQUIPAAAAAAAS9+qd+5OjA3Cy0ZESjMZt; expires=Thu, 28 Dec 2023 06:18:00 GMT; HttpOnly; path=/; Domain=.michelobultra.com; Secure; SameSite=None
+Set-Cookie: nlbi_163812=p1HZat8nZiGjana/xSpWpAAAAAC2JjdVKNOFwIxB3j28kPJ9; path=/; Domain=.michelobultra.com; Secure; SameSite=None
+Set-Cookie: incap_ses_2106_163812=0HDHThmvfiGLjnAuBAQ6HU/GrGMAAAAA0BXxDfNptvnLKTq8Q4bWhw==; path=/; Domain=.michelobultra.com; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 9-67051701-67051705 NNNN CT(41 85 0) RT(1672247960308 18) q(0 0 1 0) r(4 4) U12
+X-Iinfo: 16-597802931-597802933 NNNN CT(42 86 0) RT(1672267342503 14) q(0 0 1 0) r(5 5) U12
 X-Xss-Protection: 1; mode=block
 
-b1d3
+c597
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -41,16 +41,16 @@ b1d3
 	<link rel="stylesheet" href="/_app/immutable/assets/RecipeCard-7874c37d.css">
 	<link rel="stylesheet" href="/_app/immutable/assets/HistoryEvent-1ff1195b.css">
 	<link rel="stylesheet" href="/_app/immutable/assets/Modal-e15c370f.css">
-	<link rel="modulepreload" href="/_app/immutable/start-0c1b0079.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/index-9e8b71ad.js">
+	<link rel="modulepreload" href="/_app/immutable/start-2e9ff4c8.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-26a05067.js">
 	<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper-60cab3ee.js">
-	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-fd63070d.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/componentRegistry-90bf5c13.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-c25edaa8.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/componentRegistry-4b9fb5f1.js">
 	<link rel="modulepreload" href="/_app/immutable/chunks/index-b25f192c.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/RecipeCard-b66e6fff.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/HistoryEvent-6db6ca70.js">
-	<link rel="modulepreload" href="/_app/immutable/chunks/Modal-3da557e0.js">
-	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-692ec7e3.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/RecipeCard-48c104f4.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/HistoryEvent-e6142a40.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/Modal-2efe4a67.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/index.svelte-c695e49f.js">
 	</head>
 	<body>
 		<div>
@@ -58,31 +58,444 @@ b1d3
 
 
 
-<div id="agegate" class="svelte-4ivtjp"><div class="agegate-container svelte-4ivtjp"><div class="left svelte-4ivtjp"><div class="inner-left svelte-4ivtjp"><h2>Can we see some ID?</h2>
-                <p>You must be of legal drinking age to enter this site. Don&#39;t sweat - your data won&#39;t be stored or shared!</p>
-                <p>Please enter your date of birth.</p>
-                <p id="ageError" class="svelte-4ivtjp">You must be of legal drinking age to view this site.</p>
-                <form id="ageForm" action="/" method="POST"><div class="field svelte-4ivtjp"><label for="month" class="svelte-4ivtjp">Month</label>
-                        <input type="number" min="1" max="12" id="month" name="month" value="" placeholder="MM" maxlength="2" required class="svelte-4ivtjp"></div>
-                    <div class="field svelte-4ivtjp"><label for="day" class="svelte-4ivtjp">Day</label>
-                        <input type="number" min="1" max="31" id="day" name="day" value="" placeholder="DD" maxlength="2" required class="svelte-4ivtjp"></div>
-                    <div class="field svelte-4ivtjp"><label for="year" class="svelte-4ivtjp">Year</label>
-                        <input type="number" min="1900" max="3000" id="year" name="year" value="" placeholder="YYYY" maxlength="4" required class="svelte-4ivtjp"></div>
-                    
-                    <button class="button red svelte-4ivtjp" type="submit">Enter</button></form>
-                <div class="desktop-text svelte-4ivtjp"><h4 class="svelte-4ivtjp">Enjoy Responsibly</h4>
-                    <p class="disclaimer svelte-4ivtjp">©2022 A-B, MICHELOB ULTRA ® BEER, ST. LOUIS, MO. By submitting this form, you agree to be bound by the <a href="/terms-and-conditions" class="svelte-4ivtjp">Terms of Service</a> and <a href="/privacy-policy" class="svelte-4ivtjp">Privacy Policy</a>. <a href="/california-residents-privacy-rights" class="svelte-4ivtjp">Do Not Sell My Personal Information</a></p></div></div></div>
-        <div class="right svelte-4ivtjp"><div class="bulderImage svelte-4ivtjp"><picture><source type="image/webp" srcset="https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?format=webp&amp;width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf">
-  <img loading="lazy" alt="Michelob Ultra Product Cans" role="presentation" class="builder-image product img svelte-1udbavg" src="https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf" srcset="https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf">
-  <source srcset="https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Ffebf645f88824b3da0ca4801ab12edcf"></picture>
+<div builder-content-id="5a97696c6dab415da46b28d2e9ef8093" builder-model="symbol"><!-- HTML_TAG_START --><style>
+/*
+* Custom CSS styles
+*
+* Global by default, but use `&` to scope to just this content, e.g.
+*
+*   & .foo {
+*     color: 'red'
+*   }
+*/
 
-<div class="builder-image-sizer div svelte-1udbavg"></div>
+body.age-valid #customAgeGate {
+    display: none !important;
+}
 
+#customAgeGate a {
+    text-decoration: underline;
+    color: white;
+}
+#ageForm input::placeholder {
+    color: white;
+}
 
+#ageForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+    margin-top: 18px;
+}
+#ageForm label {
+    display: block;
+    flex-basis: 100%;
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+}
+#ageForm .field {
+    flex: 1;
+    box-sizing: border-box;
+}
+#ageForm input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    border: 0.8px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    background-color: transparent;
+}
 
-</div>
-            <div class="mobile-text svelte-4ivtjp"><h4 class="svelte-4ivtjp">Enjoy Responsibly</h4>
-                <p class="disclaimer svelte-4ivtjp">©2022 A-B, MICHELOB ULTRA ® BEER, ST. LOUIS, MO. By submitting this form, you agree to be bound by the <a href="/terms-and-conditions" class="svelte-4ivtjp">Terms of Service</a> and <a href="/privacy-policy" class="svelte-4ivtjp">Privacy Policy</a>. <a href="/california-residents-privacy-rights" class="svelte-4ivtjp">Do Not Sell My Personal Information</a></p></div></div></div></div>
+#ageForm button {
+    flex-basis: 100%;
+    max-width: 100%;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    margin-top: 1em;
+    background: rgba(208, 2, 27, 1);
+    color: #fff;
+    border: 0;
+    padding: 15px 0;
+}
+
+#ageError {
+    color: red;
+    display: none;
+}
+</style><!-- HTML_TAG_END -->
+    <div class="builder-blocks div svelte-jzu5nw" dataset="[object Object]">
+
+  
+
+  <div id="customAgeGate" builder-id="builder-3b2433bd27384645882ecee2cc837893" class="builder-3b2433bd27384645882ecee2cc837893 builder-block">
+
+      
+
+  
+
+  <div builder-id="builder-4a06715f9d084b7aaa0aee6d41c837d4" class="builder-4a06715f9d084b7aaa0aee6d41c837d4 builder-block">
+
+      
+
+  
+
+  <div builder-id="builder-16621d7e473e4f7d99e5591470096eeb" class="builder-16621d7e473e4f7d99e5591470096eeb builder-block">
+
+      
+
+  
+
+  <div builder-id="builder-d4564695b5b04293859a86c63d5505ec" class="builder-d4564695b5b04293859a86c63d5505ec builder-block"><span class="builder-text"><!-- HTML_TAG_START --><p>can we see some id?</p>
+<!-- HTML_TAG_END --></span>
+
+      
+
+      </div>
+
+  
+
+  <div builder-id="builder-fceb06115d994d4c90816fda5c27a54b" class="builder-fceb06115d994d4c90816fda5c27a54b builder-block"><span class="builder-text"><!-- HTML_TAG_START --><p>To be a part of this golf club you must be of legal drinking age.</p>
+<!-- HTML_TAG_END --></span>
+
+      
+
+      </div>
+
+      <!-- HTML_TAG_START --><style>.builder-d4564695b5b04293859a86c63d5505ec {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+line-height: normal;
+height: auto;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+text-transform: uppercase;
+font-size: 55px;
+font-weight: 600;
+  } @media (max-width: 991px) {
+      .builder-d4564695b5b04293859a86c63d5505ec {
+    font-size: 30px;
+margin-top: 20px;
+  }
+    } @media (max-width: 640px) {
+      .builder-d4564695b5b04293859a86c63d5505ec {
+    font-size: 25px;
+margin-top: 0px;
+  }
+    }</style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-fceb06115d994d4c90816fda5c27a54b {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: 10px;
+line-height: normal;
+height: auto;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+font-size: 20px;
+  }  </style><!-- HTML_TAG_END --></div>
+
+  
+
+  <div builder-id="builder-3c5a7274d39c4399a06ae26b48a3e6e4" class="builder-3c5a7274d39c4399a06ae26b48a3e6e4 builder-block">
+
+      
+
+  
+
+  <div builder-id="builder-4f91c5f3a9974f87ab945e1e380f5da6" class="builder-4f91c5f3a9974f87ab945e1e380f5da6 builder-block"><span class="builder-text"><!-- HTML_TAG_START --><p>Please enter your date of birth</p>
+<!-- HTML_TAG_END --></span>
+
+      
+
+      </div>
+
+      <!-- HTML_TAG_START --><style>.builder-4f91c5f3a9974f87ab945e1e380f5da6 {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: auto;
+line-height: normal;
+height: auto;
+color: rgba(255, 255, 255, 1);
+font-size: 18px;
+  }  @media (max-width: 640px) {
+      .builder-4f91c5f3a9974f87ab945e1e380f5da6 {
+    font-weight: 600;
+  }
+    }</style><!-- HTML_TAG_END --></div>
+
+  
+
+  <div builder-id="builder-487395952aca4703b417e2710203c30b" class="builder-487395952aca4703b417e2710203c30b builder-block"><div class="builder-custom-code"><!-- HTML_TAG_START --><p id="ageError">You must be of legal drinking age to view this site.</p>
+<form id="ageForm" action="/" method="POST">
+  <div class="field">
+    <label for="month">Month</label>
+    <input
+      type="number"
+      min="1"
+      max="12"
+      id="month"
+      name="month"
+      value=""
+      placeholder="MM"
+      maxlength="2"
+      required
+    />
+  </div>
+  <div class="field">
+    <label for="day">Day</label>
+    <input
+      type="number"
+      min="1"
+      max="31"
+      id="day"
+      name="day"
+      value=""
+      placeholder="DD"
+      maxlength="2"
+      required
+    />
+  </div>
+  <div class="field">
+    <label for="year">Year</label>
+    <input
+      type="number"
+      min="1900"
+      max="3000"
+      id="year"
+      name="year"
+      value=""
+      placeholder="YYYY"
+      maxlength="4"
+      required
+    />
+  </div>
+  <div class="field zipcode" style="display:none;">
+    <label for="zipcode">Zip Code</label>
+    <input
+      type="number"
+      id="zipcode"
+      name="zipcode"
+      value=""
+      placeholder="00000"
+      maxlength="5"
+    />
+  </div>
+  <button class="button red" type="submit">Enter</button>
+</form>
+<!-- HTML_TAG_END --></div>
+
+      
+
+      </div>
+
+  
+
+  <div builder-id="builder-d2283cce1fef415dbfd7fe7bb171e48e" class="builder-d2283cce1fef415dbfd7fe7bb171e48e builder-block">
+
+      
+
+  
+
+  <div builder-id="builder-26b49d59cefc475cabe233aed66c5e56" class="builder-26b49d59cefc475cabe233aed66c5e56 builder-block"><span class="builder-text"><!-- HTML_TAG_START --><p>Enjoy Responsibly</p><!-- HTML_TAG_END --></span>
+
+      
+
+      </div>
+
+  
+
+  <div builder-id="builder-5f2aa325d16c4bb8b7b419ce463a54dc" class="builder-5f2aa325d16c4bb8b7b419ce463a54dc builder-block"><span class="builder-text"><!-- HTML_TAG_START --><p>&copy; A-B, MICHELOB ULTRA &reg; BEER, ST. LOUIS, MO. By submitting this form, you agree to bound by the <a href="https://www.michelobultra.com/terms-and-conditions">Terms of Service</a> and <a href="https://www.michelobultra.com/privacy-policy">Privacy Policy</a>. <a href="https://www.michelobultra.com/california-residents-privacy-rights">Do Not Sell My Personal Information</a></p>
+<!-- HTML_TAG_END --></span>
+
+      
+
+      </div>
+
+      <!-- HTML_TAG_START --><style>.builder-26b49d59cefc475cabe233aed66c5e56 {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: 20px;
+line-height: normal;
+height: auto;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+font-weight: 600;
+font-size: 20px;
+  }  @media (max-width: 640px) {
+      .builder-26b49d59cefc475cabe233aed66c5e56 {
+    margin-top: 0px;
+top: 2vw;
+  }
+    }</style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-5f2aa325d16c4bb8b7b419ce463a54dc {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: 20px;
+line-height: normal;
+height: auto;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+  }  @media (max-width: 640px) {
+      .builder-5f2aa325d16c4bb8b7b419ce463a54dc {
+    margin-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 12px;
+  }
+    }</style><!-- HTML_TAG_END --></div>
+
+  
+
+  <div builder-id="builder-f3542c71b8664af9b28feca42b74a808" class="builder-f3542c71b8664af9b28feca42b74a808 builder-block">
+
+      
+
+      </div>
+
+      <!-- HTML_TAG_START --><style>.builder-16621d7e473e4f7d99e5591470096eeb {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: 20px;
+height: auto;
+width: 100%;
+z-index: 1;
+  }  </style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-3c5a7274d39c4399a06ae26b48a3e6e4 {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: auto;
+height: auto;
+padding-bottom: 0px;
+align-items: center;
+justify-content: center;
+width: 100%;
+z-index: 1;
+  } @media (max-width: 991px) {
+      .builder-3c5a7274d39c4399a06ae26b48a3e6e4 {
+    margin-top: 0px;
+  }
+    } @media (max-width: 640px) {
+      .builder-3c5a7274d39c4399a06ae26b48a3e6e4 {
+    margin-top: 50px;
+  }
+    }</style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-487395952aca4703b417e2710203c30b {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-left: auto;
+max-width: 600px;
+margin-right: auto;
+z-index: 1;
+  }  </style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-d2283cce1fef415dbfd7fe7bb171e48e {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: auto;
+height: auto;
+margin-bottom: 60px;
+z-index: 1;
+  } @media (max-width: 991px) {
+      .builder-d2283cce1fef415dbfd7fe7bb171e48e {
+    bottom: 1vw;
+  }
+    } @media (max-width: 640px) {
+      .builder-d2283cce1fef415dbfd7fe7bb171e48e {
+    margin-top: 40px;
+bottom: 1vw;
+  }
+    }</style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-f3542c71b8664af9b28feca42b74a808 {
+    position: absolute;
+height: 100%;
+width: 100%;
+background: #000;
+z-index: 0;
+top: 0;
+opacity: 0.44;
+  }  </style><!-- HTML_TAG_END --></div>
+
+      <!-- HTML_TAG_START --><style>.builder-4a06715f9d084b7aaa0aee6d41c837d4 {
+    display: flex;
+flex-direction: column;
+position: relative;
+flex-shrink: 0;
+box-sizing: border-box;
+margin-top: 0px;
+height: 100%;
+width: 100%;
+background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2Fd934c8e0ad0f450299178fe22fc35aad?width=2000);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 20px;
+padding-bottom: 20px;
+flex-grow: 1;
+  } @media (max-width: 991px) {
+      .builder-4a06715f9d084b7aaa0aee6d41c837d4 {
+    height: 80vw;
+  }
+    } @media (max-width: 640px) {
+      .builder-4a06715f9d084b7aaa0aee6d41c837d4 {
+    background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fe0fca8d64db046d1b57b40ef5c005355%2F09ad26d9f38b4427ae882c18959a013e?width=638);
+height: 100%;
+  }
+    }</style><!-- HTML_TAG_END --></div><img src="https://cdn.builder.io/api/v1/pixel?apiKey=e0fca8d64db046d1b57b40ef5c005355" role="presentation" width="0" height="0" builder-id="builder-pixel-ubd6jqjxn7" class="builder-pixel-ubd6jqjxn7 builder-block">
+
+  
+
+  
+
+  <!-- HTML_TAG_START --><style>.builder-3b2433bd27384645882ecee2cc837893 {
+    position: fixed;
+height: 100%;
+z-index: 9999;
+top: 0;
+width: 100%;
+  }  </style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-pixel-ubd6jqjxn7 {
+    height: 0;
+width: 0;
+display: inline-block;
+opacity: 0;
+overflow: hidden;
+pointer-events: none;
+  }  </style><!-- HTML_TAG_END -->
+</div></div>
 
 <div class="header main"><a href="https://www.michelobultra.com/" class="logoWrap"><img class="logo" src="/img/logos/logo.png" alt="Michelob Ultra Logo"></a>
     <div class="nav desktop"><a href="#menu" id="menuController"><i class="fa-regular fa-bars"></i>Main Menu</a>
@@ -499,7 +912,7 @@ margin-top: -21px;
 
       
 
-      </div><img src="https://cdn.builder.io/api/v1/pixel?apiKey=e0fca8d64db046d1b57b40ef5c005355" role="presentation" width="0" height="0" builder-id="builder-pixel-4gsvzz57z8n" class="builder-pixel-4gsvzz57z8n builder-block">
+      </div><img src="https://cdn.builder.io/api/v1/pixel?apiKey=e0fca8d64db046d1b57b40ef5c005355" role="presentation" width="0" height="0" builder-id="builder-pixel-7mb4wuxotjp" class="builder-pixel-7mb4wuxotjp builder-block">
 
   
 
@@ -604,7 +1017,7 @@ flex-direction: column;
 position: relative;
 flex-shrink: 0;
 box-sizing: border-box;
-  }  </style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-pixel-4gsvzz57z8n {
+  }  </style><!-- HTML_TAG_END --><!-- HTML_TAG_START --><style>.builder-pixel-7mb4wuxotjp {
     height: 0;
 width: 0;
 display: inline-block;
@@ -652,10 +1065,10 @@ pointer-events: none;
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1d1xt6b">
-		import { start } from "/_app/immutable/start-0c1b0079.js";
+		<script type="module" data-sveltekit-hydrate="m4uz4i">
+		import { start } from "/_app/immutable/start-2e9ff4c8.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1d1xt6b"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="m4uz4i"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -671,7 +1084,7 @@ pointer-events: none;
 		});
 	</script></div>
 		<script src="./app.js?ver=3"></script>
-	<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=229398896"></script>
+	<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1905050369"></script>
 </body>
 </html>
 
