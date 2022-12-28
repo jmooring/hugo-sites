@@ -15,7 +15,7 @@
 
   {{- with resources.GetRemote $url }}
     {{- with .Err }}
-      {{- errorf "%s" . }}
+      {{- errorf "Unable to reach %s: %s" $url . }}
     {{- else }}
 
       {{- /* Get version. */}}
