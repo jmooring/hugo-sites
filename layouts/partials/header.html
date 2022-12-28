@@ -1,0 +1,10 @@
+<h1>{{ .Title }}</h1>
+<div class="header">
+  <div class="menu">
+    {{ partial "menu.html" . }}
+  </div>
+  <div class="updated">
+    Updated {{ now | time.Format ":date_medium" }}
+  </div>
+</div>
+<hr>

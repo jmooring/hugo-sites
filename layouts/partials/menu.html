@@ -1,15 +1,11 @@
 {{- $page := . }}
-{{- with site.Menus.main }}
-  <nav class="menu">
-    {{- range $k, $_ := . }}
-      {{- if $k }} | {{ end }}
-      {{- if $page.IsMenuCurrent "main" . }}
-        <a class="active" aria-current="page" href="{{ .URL }}">{{- .Name }}</a>
-      {{- else if $page.HasMenuCurrent "main" . }}
-        <a class="active" aria-current="true" href="{{ .URL }}">{{- .Name }}</a>
-      {{- else }}
-        <a href="{{ .URL }}">{{- .Name }}</a>
-      {{- end }}
-    {{- end }}
-  </nav>
+{{- range $k, $_ := site.Menus.main }}
+  {{- if $k }} | {{ end }}
+  {{- if $page.IsMenuCurrent "main" . }}
+    <a class="active" aria-current="page" href="{{ .URL }}">{{- .Name }}</a>
+  {{- else if $page.HasMenuCurrent "main" . }}
+    <a class="active" aria-current="true" href="{{ .URL }}">{{- .Name }}</a>
+  {{- else }}
+    <a href="{{ .URL }}">{{- .Name }}</a>
+  {{- end }}
 {{- end }}

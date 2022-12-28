@@ -13,10 +13,8 @@
   {{ end }}
 </head>
 <body>
-<h1>{{ .Title }}</h1>
 
-{{ partial "menu.html" . }}
-<hr>
+{{ partial "header.html" . }}
 
 {{ block "main" . }}
 
