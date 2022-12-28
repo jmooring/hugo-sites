@@ -8,9 +8,4 @@
   {{ $p := (where (where site.RegularPages "Type" "sites") "Params.visibility" "intersect" (slice "high")).ByTitle }}
   {{ partial "sites-built-with-hugo.html" $p }}
 
-  <h2>All</h2>
-
-  {{ $p := (where site.RegularPages "Type" "sites").ByTitle }}
-  {{ partial "sites-built-with-hugo.html" $p }}
-
 {{ end }}

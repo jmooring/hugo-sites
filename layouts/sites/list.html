@@ -2,9 +2,6 @@
   <div class="content">
     {{ .Content }}
   </div>
-  {{ range .Pages.ByTitle }}
-    {{ $url := printf "https://%s" (path.Join .Title .Params.path) }}
-    {{/*  <p><a href="{{ $url }}" target="_blank">{{ .LinkTitle }}</a></p>  */}}
-    <div class="list-item"><a href="{{ $url }}" target="_blank">{{ .LinkTitle }}</a></div>
-  {{ end }}
+  {{ $p := .Pages.ByTitle }}
+  {{ partial "sites-built-with-hugo.html" $p }}
 {{ end }}
