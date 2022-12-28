@@ -1,9 +1,13 @@
 {{- $hugoSites := slice }}
 
-{{- $regexGenerator := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
-{{- $regexMetaDesc := `(?s)<meta\s+name="?description"?\s+content=".*?"\s*/?>` }}
-{{- $regexOGDesc := `(?s)<meta\s+property="?og:description"?\s+content=".*?"\s*/?>` }}
+{{- /* Use \x22 instead of double quote to get around VS Code syntax highlighting bug. */}}
+{{- $regexDescMeta := `(?s)<meta\s+(?:itemprop|name)=\s*(\x22|')?description(\x22|')?\s+content=\s*(\x22|')?.*?(\x22|')?\s*/?>`  }}
+{{- $regexDescOG :=  `(?s)<meta\s+property=\s*(\x22|')?og:description(\x22|')?\s+content=\s*(\x22|')?.*?(\x22|')?\s*/?>` }}
+{{- $regexDescValue :=  `(?s).*content=\s*(?:\x22|')?(.*?)(?:\x22|').*` }}
 {{- $regexTitle := `(?s)<title>.*?</title>` }}
+{{- $regexTitleValue := `(?s)<title>(.*)</title>` }}
+{{- $regexVersion := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
+{{- $regexVersionValue := `.*"Hugo\s+(.*)".*` }}
 
 {{- range $p := . }}
 
@@ -19,27 +23,27 @@
     {{- else }}
 
       {{- /* Get version. */}}
-      {{- with findRE $regexGenerator .Content }}
+      {{- with findRE $regexVersion .Content }}
         {{- with index . 0 }}
-          {{- $version = replaceRE `.*"Hugo\s+(.*)".*` "$1" . }}
+          {{- $version = replaceRE $regexVersionValue "$1" . }}
         {{- end }}
       {{- else }}
-        {{ if not site.Params.show_all }}
+        {{- if not site.Params.show_all }}
           {{- /* Hugo may have not built this site. */}}
           {{- continue }}
-        {{ end }}
+        {{- end }}
       {{- end }}
 
       {{- /* Get description from OpenGraph data. */}}
-      {{- with findRE $regexOGDesc .Content }}
+      {{- with findRE $regexDescOG .Content }}
         {{- with index . 0 }}
-          {{- $description = replaceRE `(?s).*content="(.*)".*` "$1" . | safeHTML }}
+          {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
         {{- end }}
       {{- else }}
-      {{- /* Get description from meta element. */}}
-        {{- with findRE $regexMetaDesc .Content }}
+        {{- /* Get description from meta element. */}}
+        {{- with findRE $regexDescMeta .Content }}
           {{- with index . 0 }}
-            {{- $description = replaceRE `(?s).*content="(.*)".*` "$1" . | safeHTML }}
+            {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
           {{- end }}
         {{- end }}
       {{- end }}
@@ -47,7 +51,7 @@
       {{- /* Get title. */}}
       {{- with findRE $regexTitle .Content }}
         {{- with index . 0 }}
-          {{- $title = replaceRE `(?s)<title>(.*)</title>` "$1" . | safeHTML }}
+          {{- $title = replaceRE $regexTitleValue "$1" . | safeHTML }}
         {{- end }}
       {{- end }}
 
@@ -58,7 +62,7 @@
           {{- if $k }}
             {{- $types = print $types ", " }}
           {{- end }}
-          {{- $types = print $types (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle)}}
+          {{- $types = print $types (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
         {{- end }}
       {{- end }}
 
@@ -69,7 +73,7 @@
           {{- if $k }}
             {{- $visibility = print $visibility ", " }}
           {{- end }}
-          {{- $visibility = print $visibility (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle)}}
+          {{- $visibility = print $visibility (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
         {{- end }}
       {{- end }}
 
@@ -117,4 +121,4 @@
       {{- end }}
     </tbody>
   </table>
-{{ end -}}
+{{- end -}}
