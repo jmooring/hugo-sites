@@ -1,0 +1,1204 @@
+HTTP/2.0 200 OK
+Content-Length: 49862
+Content-Security-Policy: default-src 'self' https://developer.singaporeair.com https://www.google.com https://www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://developer.singaporeair.com https://cdn.jsdelivr.net https://code.jquery.com https://s3-us-west-1.amazonaws.com/mashery.assets/ https://cdn.polyfill.io https://polyfill.io www.gstatic.com www.google-analytics.com *.googleapis.com https://www.google.com https://www.googletagmanager.com; style-src 'self' blob: data: 'unsafe-inline' https://developer.singaporeair.com;connect-src 'self'  https://apigw.singaporeair.com *.google-analytics.com *.doubleclick.net ; img-src 'self' https://developer.singaporeair.com www.google-analytics.com data: *.doubleclick.net ; font-src https://developer.singaporeair.com;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 28 Dec 2022 17:18:50 GMT
+Etag: "327115d5"
+P3p: policyref="/w3c/p3p.xml",CP="CAO COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT STA"
+Server: Mashery Proxy
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Mashery-Client-Ip: 97.113.41.46
+X-Xss-Protection: 1
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="P3Pv1" href="/w3c/p3p.xml" />
+        <script type="text/javascript">
+            //<![CDATA[
+            var mashery_info = {
+                        };
+
+            // iframe'd detection, to pop out if in an iframe
+            if (window.location !== parent.window.location && !(/(page|docs|blog)\/preview/.test(window.location.pathname))) {
+                parent.window.location = window.location;
+            }
+            //]]>
+        </script>
+            <title>developer.singaporeair.com - Welcome to the SingaporeAir Developer Network!</title>
+    <link rel="stylesheet"  type="text/css" media="screen" href="/public/Mashery/styles-min/Mashery-base.css" />
+    <link rel="stylesheet"  type="text/css" media="screen" href="/public/Mashery/styles/community/mashery-blue.css" />
+    <link rel="stylesheet"  media="print" type="text/css" href="/public/Mashery/styles/print-default.css" />
+    <script src="/public/Mashery/scripts/Mashery/Mashery-base.js?25453" type="text/javascript"></script>
+    <script src="https://developer.singaporeair.com/files/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.write('<style>body { display: none; } </style>');
+$(document).ready(function() {
+	$('head').empty();
+	$('head').append('<meta charset="utf-8">');
+	$('head').append('<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>');
+	$('head').append('<meta content="" name="description">');
+	$('head').append('<meta content="Mark Otto, Jacob Thornton, and Bootstrap contributors" name="author">');
+	$('head').append('<meta content="Hugo 0.79.0" name="generator">');
+	$('head').append('<title>Singapore Airlines | developer.singaporeair.com</title>');
+	$('head').append('<!-- Bootstrap core CSS -->');
+	$('head').append('<link href="https://developer.singaporeair.com/files/bootstrap.min.css" rel="stylesheet">');
+	$('head').append('<link href="https://developer.singaporeair.com/files/slick.css" rel="stylesheet" type="text/css"/>');
+	$('head').append('<link href="https://developer.singaporeair.com/files/slick-theme.css" rel="stylesheet" type="text/css"/>');
+	$('head').append('<meta content="#7952b3" name="theme-color">');
+$('head').append('<script src="https://developer.singaporeair.com/files/googletmhead.js" type="text/javascript"><\/script>');
+	$('head').append('<style>'
+		+ '.bd-placeholder-img {'
+		+ 'font-size: 1.125rem;'
+		+ 'text-anchor: middle;'
+		+ '-webkit-user-select: none;'
+		+ '-moz-user-select: none;'
+		+ 'user-select: none;'
+		+ '}'
+
+		+ '@media (min-width: 768px) {'
+			+ '.bd-placeholder-img-lg {'
+				+ 'font-size: 3.5rem;'
+			+ '}'
+		+ '}'
+		+ '@media (max-width: 576px) {'
+		+ '.search-box {'
+				+ 'width: 120px;'
+				+ 'background: transparent;'
+			+ '}'
+		+ '}'
+		
+	+ '</style>');
+	$('head').append('<!-- Custom styles for this template -->');
+	$('head').append('<link href="https://developer.singaporeair.com/files/offcanvas.css" rel="stylesheet">');
+	$('head').append('<link href="https://developer.singaporeair.com/files/portailmain.css" rel="stylesheet">');
+	$('head').append('<link href="https://developer.singaporeair.com/files/user-menu.css" rel="stylesheet">');
+
+
+	let bodySelector = "#page-page";
+	if (window.location.pathname.includes("login")) {
+		bodySelector = "#page-login";
+	}
+        else if (window.location.pathname.includes("member")) {
+		bodySelector = "#page-member";
+	}
+        else if (window.location.pathname.includes("apps/register") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("apps/mykeys") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("key/key-activity") ) {
+		bodySelector = "#page-key";
+	}
+    else if (window.location.pathname.includes("key/delete-key") ) {
+		bodySelector = "#page-key";
+	}
+	else if (window.location.pathname.includes("apps/myapps") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("apps/edit") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("apps/delete") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("apps/select") ) {
+		bodySelector = "#page-apps";
+	}
+	else if (window.location.pathname.includes("apps/tos") ) {
+		bodySelector = "#page-apps";
+	}
+       else if (window.location.pathname.includes("logout/logout") ) {
+		bodySelector = "#page-logout";
+	}
+       else if(window.location.pathname.includes("contact"))
+	{
+		bodySelector = "#page-contact";	
+	}
+	if(window.location.pathname.includes("search"))
+   {
+	   bodySelector = "#page-search";	
+   }
+	else {
+		$("body").addClass("bg-light");
+	}
+$(bodySelector).append('<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRCD2G6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>');
+	$(bodySelector).append('<nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top navbar-white bg-white">'
+	   + '<div class="menu container-fluid" id="menum">'
+	    + '<div class="menu__logo d-none d-lg-block">'
+	      + '<a href="/"><img alt="Singapore Airlines" src="/files/logo.svg"></a>'
+	    + '</div>'
+	    + '<div class="menu__logo d-lg-none">'
+	      + '<a href="/"><img alt="Singapore Airlines" src="/files/Header-mobile.png"></a>'
+	    + '</div>'
+		 + '<div style="display: flex;">'
+            + '<div id="newv" class="d-lg-none" style="padding-right: 12px;">'
+            +'</div>'
+            + '<div>'
+	      + '<button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" data-bs-toggle="offcanvas" type="button">'
+	        + '<span class="mobile-menu-icon navbar-toggler-icon"></span>'
+	      + '</button>'
+	    + '</div>'
+       + '</div>'
+	    + '<div class="navbar-collapse offcanvas-collapse mobile-menu-collapse" id="navbarsExampleDefault">'
+	      + '<ul class="navbar-nav top-menu me-auto mb-2  mb-lg-0 main__menu">'
+	        + '<li class="menu__item apiProducts nav-item dropdown active">'
+			   +'<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle d-none d-lg-block"  href="api_landing" id="dropdown01">API Products</a>'
+	          +'<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle d-block d-lg-none" data-bs-toggle="dropdown" href="#" id="dropdown01">API Products</a>'
+	          + '<span class="divider"></span>'
+	          + '<ul aria-labelledby="dropdown01" class="subMenu__list dropdown-menu">'
+	            + '<li>'
+	              + '<div class="submenu-container container">'
+                       + '<div class="d-flex d-lg-none">'
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="">'
+	                        + '<a class="nav-link link_pad " href="/api_landing">API Home</a>'
+	                      + '</li>'
+						   + '</ul>'
+	                  + '</div>'
+	                + '</div>'
+	                + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+	                + '<div class="d-flex ">'
+
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/informative.svg" />'
+
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+                             
+	                      + '<li class="menu__item-link">'
+	                        + '<a>Informative APIs</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_flight_destination">  Destinations</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/flight_status"> Flight Status</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_booking_information"> Booking Information</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_flight_schedule"> Flight Schedules</a>'
+	                      + '</li>'
+	                       + '<li class="d-none d-lg-block">'
+	                        + '<a></br></a>'
+	                      + '</li>'
+                                + '<li class="d-none d-lg-block">'
+	                        + '<a></br></a>'
+	                      + '</li>'
+	                    + '</ul>'
+	                  + '</div>'
+	                + '</div>'
+	                + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+	                + '<div class="d-flex ">'
+
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/membership.svg">'
+
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="menu__item-link">'
+	                        + '<a > Flight Booking APIs</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/flight"> Flight Search</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_flight_booking"> Flight Booking</a>'
+	                      + '</li>'
+
+	                    + '</ul>'
+	                  + '</div>'
+
+	                + '</div>'
+	                + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+
+	              + '</div>'
+
+	            + '</li>'
+	            + '<li>'
+	              + '<div class="container">'
+	                + '<div class="d-flex ">'
+
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/manage-booking.svg">'
+
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="menu__item-link">'
+	                        + '<a> Manage Booking APIs</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_checkin"> Check-In</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_seat_selection"> Seat Selection</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_meal_selection"> Meal Selection</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link" href="/api_excess_baggage"> Excess Baggage</a>'
+	                      + '</li>'
+	                      + '<li class="d-none d-lg-block">'
+	                        + '<a></br></a>'
+	                      + '</li>'
+	                      + '<li class="d-none d-lg-block">'
+	                        + '<a></br></a>'
+	                      + '</li>'
+	                    + '</ul>'
+	                  + '</div>'
+
+	                + '</div>'
+	                + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+	                + '<div class="d-flex">'
+
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/membership.svg" />'
+
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="menu__item-link">'
+	                        + '<a> Membership APIs</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link"> HighFlyer registration  <span class="comtext">Coming Soon</span></a>'
+							
+	                      + '</li>'
+	                     
+	                      + '<li class="d-none d-lg-block">'
+	                        + '<a></br></a>'
+	                      + '</li>'
+	                    + '</ul>'
+	                  + '</div>'
+	                + '</div>'
+                      + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+	              + '</div>'
+	            + '</li>'
+	            + '<li>'
+	              + '<div class="container">'
+	                + '<div class="d-flex ">'
+
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/SIA-Group.svg" />'
+
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="menu__item-link">'
+	                        + '<a> KrisFlyer</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/krisflyer_partnership"> KrisFlyer partner membership</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/KrisFlyer_credit_miles"> Credit non-air miles</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/KrisFlyer_NonAir_Redemption"> Non-air redemption</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/KrisFlyer_KrissPass_API"> KrisPass</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/Displaymem_Kris"> Display member miles</a>'
+	                      + '</li>'
+	                      + '<li class="d-none d-lg-block" style="margin:0px; padding:0px;">'
+	                        + '<a style="margin:0px; padding:0px;"></br></a>'
+	                      + '</li>'
+	                    + '</ul>'
+	                  + '</div>'
+	                + '</div>'
+	                + '<hr class="mobile-menu-divider mt-3 mb-3 d-lg-none">'
+	                + '<div class="d-flex style="margin-top:-5px;"">'
+	                  + '<img alt="logo" class="subMenuIcon bd-placeholder-img" src="/files/SIA-Group.svg" />'
+	                  + '<div>'
+	                    + '<ul class="menu__item-submenu-list">'
+	                      + '<li class="menu__item-link">'
+	                        + '<a> SIA Group APIs</a>'
+	                      + '</li>'
+	                      + '<li>'
+	                        + '<a class="nav-link " href="/scoot_api_connect"> Scoot APIs</a>'
+	                      + '</li>'
+	                    + '</ul>'
+	                  + '</div>'
+					+ '</div>'
+					+ '<hr class="mobile-menu-divider mt-3 mb-3 d-none">'
+	              + '</div>'
+	            + '</li>'
+	    + '</ul>'
+	        + '</li>'
+	        + '<li class="menu__item nav-item dropdown">'
+			   + '<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle d-none d-lg-block"  href="/ndc"  id="dropdown02">NDC</a>'
+	          + '<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle d-block d-lg-none" data-bs-toggle="dropdown" href="#"  id="dropdown02">NDC</a>'
+	          + '<ul aria-labelledby="dropdown02" class="subMenu__list singleMenu__list dropdown-menu">'
+                     + '<li>'
+	              + '<a class="nav-link d-lg-none" href="/ndc">NDC Home</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/what_is_ndc">What Is NDC</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/benefits_of_ndc">Benefits&nbspOf&nbspNDC</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/connect_with_us">Connect&nbspWith&nbspUs</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/ndc_techpartners">SIA\'s&nbspTechnology&nbspPartners</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/ndc_api_catalogue">NDC&nbspAPI&nbspCatalogue</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/release_note_ndc">NDC&nbspRelease&nbspNotes</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/ndc_faqs">NDC&nbspFAQs</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/ndc_newsandmedia">NDC&nbspNews&nbsp&&nbspMedia</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/ndc_resource">NDC&nbspResources</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/contact">Contact&nbspUs</a>'
+	            + '</li>'
+	          + '</ul>'
+	        + '</li>'
+	        + '<li class="menu__item nav-item dropdown">'
+	          + '<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="dropdown04">Resources</a>'
+	          + '<ul aria-labelledby="dropdown04" class="subMenu__list singleMenu__list dropdown-menu">'
+	            + '<li>'
+	              + '<a class="nav-link " href="/resources_partnershowcase">Partner&nbspShowcase</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/sandbox">Sandbox</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/resource_faq">SQAPI&nbspFAQs</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/aboutKrisconnect">About&nbspKrisConnect</a>'
+	            + '</li>'
++ '<li>'
+	              + '<a class="nav-link " href="/terms_of_use">API&nbspTerms&nbspof&nbspUse</a>'
+	            + '</li>'
+	            + '<li>'
+	              + '<a class="nav-link " href="/contact">Contact&nbspUs</a>'
+	            + '</li>'
+	          + '</ul>'
+	        + '</li>'
+	      + '</ul>'
+        + '<div class="searchandsign">'
+         + ' <div id="search-new"></div>'
+          + '<div id="user-nav-new"></div>'
+        + '</div>'
+	  + '</div>'
+	  + '</div>'
+	+ '</nav>');
+
+        if (window.location.pathname.includes("login")) {
+    	$("#signin_member_mashery").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/sign-in.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/sign-in.js" type="text/javascript"><\/script>');
+	}
+        else if(window.location.pathname.includes("member/register"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/register.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/register.js" type="text/javascript"><\/script>');
+        
+	} else if(window.location.pathname.includes("member/edit"))
+	{
+	     $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_EditAccount.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_EditAccount.js" type="text/javascript"><\/script>');
+         
+	}
+	else if(window.location.pathname.includes("member/email"))
+	{
+	     $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_ChangeEmail.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_ChangeEmail.js" type="text/javascript"><\/script>');
+         
+	}else if(window.location.pathname.includes("member/passwd"))
+	{
+	      $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_ChangePassword.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_ChangePassword.js" type="text/javascript"><\/script>');
+          
+	}
+	else if(window.location.pathname.includes("member/remove"))
+	{
+	     $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_RemoveAccount.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_RemoveAccount.js" type="text/javascript"><\/script>');
+          
+	}
+	else if(window.location.pathname.includes("apps/register"))
+	{
+	    $("#main").appendTo(bodySelector);
+        
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/RegisterNewApp.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/RegisterNewApp.js" type="text/javascript"><\/script>');
+        
+	}
+	else if(window.location.pathname.includes("apps/mykeys"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_Apikey_landing.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_Apikey_landing.js" type="text/javascript"><\/script>');
+        
+	}
+	else if(window.location.pathname.includes("key/key-activity"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_Apikey_report.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_Apikey_report.js" type="text/javascript"><\/script>');
+        
+	}
+	else if(window.location.pathname.includes("key/delete-key"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_Apikey_Delete.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_Apikey_Delete.js" type="text/javascript"><\/script>');
+        
+	}
+else if(window.location.pathname.includes("member/lost"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/forgetPassword.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/forgetPassword.js" type="text/javascript"><\/script>');
+        
+	}
+	else if(window.location.pathname.includes("member/lost-username"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/forgetUserName.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/forgetUserName.js" type="text/javascript"><\/script>');
+        
+	}
+    else if(window.location.pathname.includes("apps/myapps"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_MyApp.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_MyApp.js" type="text/javascript"><\/script>');
+        
+	} 
+	else if(window.location.pathname.includes("apps/edit"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_MyApp_Edit.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_MyApp_Edit.js" type="text/javascript"><\/script>');
+        
+	}else if(window.location.pathname.includes("apps/delete"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_MyApp_Delete.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_MyApp_Delete.js" type="text/javascript"><\/script>');
+        
+	} else if(window.location.pathname.includes("apps/select"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_MyApp_Add_API.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/MyAccount_MyApp_Add_API.js" type="text/javascript"><\/script>');
+        
+	} 
+        else if(window.location.pathname.includes("logout/logout"))
+	{
+	    $("#main").appendTo(bodySelector);
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/signout.css" rel="stylesheet" type="text/css"/>');
+    	
+        
+	}
+        else if(window.location.pathname.includes("contact"))
+	{
+	    $("#content").appendTo(bodySelector);
+         
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/contactUs.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/contactUs.js" type="text/javascript"><\/script>');
+        
+	}
+	else if(window.location.pathname.includes("search"))
+    {
+		$("#main").appendTo(bodySelector);
+		$(bodySelector).children(".page").children(".content").removeClass("hide-data");
+		$(bodySelector).append('<link href="https://developer.singaporeair.com/files/search.css" rel="stylesheet" type="text/css"/>');
+		$(bodySelector).append('<script src="/files/search.js" type="text/javascript"><\/script>');
+    }else if(window.location.pathname.includes("apps/tos")){
+		 $("#main").appendTo(bodySelector);
+		 $(bodySelector).append('<link href="https://developer.singaporeair.com/files/MyAccount_TOS.css" rel="stylesheet" type="text/css"/>');
+    	
+	}else if(window.location.pathname.includes("developement_page")){
+		 $("#main").appendTo(bodySelector);
+	       
+    	$(bodySelector).append('<link href="https://developer.singaporeair.com/files/Loyalty_UnAuth.css" rel="stylesheet" type="text/css"/>');
+    	$(bodySelector).append('<script src="/files/Loyalty_UnAuth.js" type="text/javascript"><\/script>');	
+	}
+    	else {
+        $(".section-body").appendTo(bodySelector);
+	}
+ 
+
+	$(bodySelector).append('<section class="footer-section">'
+	  + '<div class="container">'
+	    + '<div class="row container">'
+	      + '<div class="col-md col-md-4">'
+	        + '<div class="">'
+	          + '<div class="row ">'
+	            + '<img alt="Singapore Airlines" class="bitmap-copy" src="/files/krisconnect_logo_clearbg.png">'
+	          + '</div>'
+	          + '<div class="row">'
+	+ '<span class="footer-description pb-5">The SIA KrisConnect Programme is an intiative '
+	    + 'to make information and functionalities on SIA\'s '
+	    + 'digital platforms more readily available to '
+	    + 'partners, thereby enhancing overall customer '
+	    + 'experience.</span>'
+	          + '</div>'
+	        + '</div>'
+	      + '</div>'
+	      + '<div class="col-sm footer-row">'
+	        + '<div class="row footer-header">'
+	          + '<span>Product</span>'
+	        + '</div>'
+	        + '<div class="row">'
+	          + '<ul class="list-unstyled footer-ul">'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="ndc">NDC</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="api_flight_booking">Flight Booking APIs</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="api_product_catalogue#booking">Manage Booking APIs</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="api_product_catalogue#informative">Informative APIs</a>'
+	            + '</li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="api_product_catalogue#krisflyer">KrisFlyer APIs</a>'
+	            + '</li>'
+	           
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="api_product_catalogue#group">SIA Group APIs</a>'
+	          + '</ul>'
+	        + '</div>'
+	      + '</div>'
+	      + '<div class="col-sm footer-row">'
+	        + '<div class="row footer-header">'
+	          + '<span>Resources</span>'
+	        + '</div>'
+	        + '<div class="row">'
+	          + '<ul class="list-unstyled footer-ul">'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="resources_partnershowcase">API Partner Showcase</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="sandbox">Sandbox</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="resource_faq">SQAPI FAQs</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="ndc_resource">NDC Resources</a>'
+	            + '</li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="ndc_faqs">NDC FAQs</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="ndc_newsandmedia">NDC News & Media</a></li>'
+	          + '</ul>'
+	        + '</div>'
+	      + '</div>'
+	      + '<div class="col-sm footer-row">'
+	        + '<div class="row footer-header">'
+	          + '<span>Company</span>'
+	        + '</div>'
+	        + '<div class="row">'
+	          + '<ul class="list-unstyled footer-ul">'
+				+ '<li><a class="text-decoration-none ndc-flight-booking-a" href="aboutKrisconnect">About KrisConnect</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="terms_of_use">API Terms of Use</a></li>'
+	            + '<li><a class="text-decoration-none ndc-flight-booking-a" href="contact">Contact Us</a>'
+	          + '</ul>'
+	        + '</div>'
+	      + '</div>'
+	    + '</div>'
+	  + '</div>'
+	+ '</section>'
+	+ '<section class="copy-right-section">'
+	  + '<div class="copyright">'
+	    + '<span>© 2021 Singapore Airlines  |  All Rights Reserved  |  Singapore Co. Reg. No. 197200078R</span>'
+	    + '<div class="social-media d-flex">'
+	      + '<a class="facebook" href="https://www.facebook.com/singaporeair/"><img src="/files/fb-logo.svg" style="height:60%;"></a>'
+	      + '<a href="https://www.linkedin.com/company/singapore-airlines/"><img src="/files/linkedin-logo.svg"></a>'
+	      + '<a href="https://twitter.com/SingaporeAir/"><img src="/files/twitter-logo.svg"></a>'
+	      + '<a href="https://www.instagram.com/singaporeair/"><img src="/files/instagram-logo.svg"></a>'
+	    + '</div>'
+	  + '</div>'
+	+ '</section>'
+	+ '<script src="/files/jquery-migrate-3.3.2.js" type="text/javascript">'
+	+ '<\/script>'
+	+ '<script src="/files/bootstrap.bundle.min.js">'
+	+ '<\/script>'
+	+ '<script src="/files/offcanvas.js">'
+	+ '<\/script>'
+	+ '<script src="/files/slick.min.js" type="text/javascript">'
+	+ '<\/script>'
+	+ '<script type="text/javascript">'
+	  + '$(function () {'
+	      + 'var slickOpts = {'
+	        + 'dots: true'
+	      + '};'
+
+	      + '$(\'.slider\').slick(slickOpts);'
+	      + '$(\'.slick-partners\').slick({'
+	        + 'dots: true,'
+	        + 'infinite: false,'
+	        + 'speed: 300,'
+	        + 'slidesToShow: 5,'
+	        + 'slidesToScroll: 5,'
+	        + 'responsive: ['
+	          + '{'
+	            + 'breakpoint: 1024,'
+	            + 'settings: {'
+	              + 'slidesToShow: 3,'
+	              + 'slidesToScroll: 3,'
+	              + 'infinite: true,'
+	              + 'dots: true'
+	            + '}'
+	          + '},'
+	          + '{'
+	            + 'breakpoint: 600,'
+	            + 'settings: {'
+	              + 'slidesToShow: 2,'
+	              + 'slidesToScroll: 2'
+	            + '}'
+	          + '},'
+	          + '{'
+	            + 'breakpoint: 480,'
+	            + 'settings: {'
+	              + 'slidesToShow: 1,'
+	              + 'slidesToScroll: 1'
+	            + '}'
+	          + '}'
+	        + ']'
+	      + '});'
+        + '$(\'.partner\').slick({'
+		  + 'dots: false,'
+		  + 'arrows: true,'
+		  + 'autoplay: true,'
+          + 'autoplaySpeed: 9500,'
+         
+		  + 'responsive: ['
+			+ '{'
+			  + 'breakpoint: 1024,'
+			  + 'settings: {'
+				+ 'arrows: true,'
+				+ 'autoplay: true,'
+				+ 'autoplaySpeed: 9500,'
+				+ 'dots: false,'
+				
+				
+			  + '}'
+			+ '},'
+			
+		  + ']'
+		+ '});'
+		
+	    + '});'
+
+	    + 'function toggleDropdown (e) {'
+	      + 'const _d = $(e.target).closest(\'.dropdown\'),'
+	      + '_m = $(\'.dropdown-menu\', _d);'
+	      + 'setTimeout(function(){'
+	        + 'const shouldOpen = e.type !== \'click\' && _d.is(\':hover\');'
+	        + '_m.toggleClass(\'show\', shouldOpen);'
+	        + '_d.toggleClass(\'show\', shouldOpen);'
+	        + '$(\'[data-toggle="dropdown"]\', _d).attr(\'aria-expanded\', shouldOpen);'
+	      + '}, e.type === \'mouseleave\' ? 100 : 200);'
+	    + '}'
+          
+	   +'$(\'body\')'
+	    + '.on(\'mouseenter mouseleave\',\'.dropdown\',toggleDropdown)'
+		
+	+ '/* not needed, prevents page reload for SO example on menu link clicked */'
+	+ '<\/script>');
+
+
+    
+    //$("#page").empty(); // @note this is breaking certain pages 
+    //$("#scrollUp").empty();
+    //$("#mashery-tooltip").empty();
+    //$("#uvpn_rate_us").empty();
+    $("#footer").empty();
+    $("body").fadeIn(2000);
+  $('#user-nav-new').html($('#user-nav').html());
+   $('#search-new').html($('#search').html());
+   $('#user-nav').hide();
+   $('#search').hide();
+   $('#search-new').children("form").children("div").addClass("search-div");
+   $('#search-new').children("form").children("div").children('input').attr("value"," ");
+    $("#mashery-tooltip").addClass("hide-data");
+   $('#user-nav-new').addClass("usernav-new");
+   //$('#user-nav-new').children("ul").children("li").eq(0).addClass("hide-data");
+   $('#user-nav-new').children("ul").children(".first").addClass("register-link");
+   $('#user-nav-new').children("ul").children(".register").addClass("register-nav");
+   $('#newv').html($('#search').html());
+   $('#newv').children("form").children("div").children('input').attr("value"," ");
+   $('#user-nav-new').children("ul").children(".register-nav").children("a").addClass("register-button");
+   $('#branding').addClass("hide-data");
+   // to hide extra data from mashery
+   $('#page').children(".content").addClass("hide-data");
+
+   //Search box Fix
+   
+	if($('.account').length > 0) 
+	 {   
+	 $('#search-new').css("margin-top", "initial");
+	}
+
+ if(window.location.pathname.includes("member/register"))
+    {
+     $('#user-nav-new').children("ul").append('<li class="sign-in"><a href="https://developer.singaporeair.com/login">Sign In</a></li>');
+     }
+	 if(window.location.pathname.includes("member/resend-confirmation"))
+    {
+     $(bodySelector).append('<link href="https://developer.singaporeair.com/files/register.css" rel="stylesheet" type="text/css"/>');
+     }
+if($('#user-nav-new').children("ul").children(".status")){
+$('#user-nav-new').children("ul").children(".status").addClass("hide-data");}
+});
+//]]>
+</script>
+        <!-- add syntax highlighter -->
+        <script type="text/javascript">
+            if(window.SyntaxHighlighter != undefined) { // check for syntax highlighter load before using
+                SyntaxHighlighter.all();
+            }
+        </script>
+        <!-- end syntax highlighter -->
+        <!--[if lt IE 7.]>
+            <link href="/public/Mashery/styles/IE6.css" type="text/css" media="screen" rel="stylesheet" />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link href="/public/Mashery/styles/IE7.css" type="text/css" media="screen" rel="stylesheet" />
+        <![endif]-->
+        <!--[if gte IE 8]>
+            <link href="/public/Mashery/styles/IE8.css" type="text/css" media="screen" rel="stylesheet" />
+        <![endif]-->
+
+    </head>
+    <body id="page-page" class="page-page read en_US">
+        <!-- PAGE -->
+        <div id="page" class="page read no_sub">
+
+            <!-- HEADER -->
+            <div id="header" class="header">
+                <div id="branding" class="branding">
+                    <div id="branding-logo" class="branding-logo">
+                        developer.singaporeair.com                    </div><!-- /branding-logo -->
+                    <div id="branding-tagline">
+                    </div><!-- /branding-tagline -->
+                    <!--div id="branding-mashery"></div --><!-- /branding-mashery -->
+                </div><!-- /branding -->
+                <div id="search" class="search">
+    <form id="search-input" class="search-input" method="get" action="/search">
+        <div>
+            <input id="search-box" class="search-box" type="text"
+                    value="" name="q" />
+            <input id="search-button" class="search-button" type="submit"
+                    value="Search" />
+        </div>
+    </form>
+</div>
+            </div>
+            <!-- /HEADER -->
+
+            <div id="user" class="user">
+                <div id="user-auth" class="user-auth">
+                </div><!-- /user-auth -->
+                <div id="user-main" class="user-main">
+                </div><!-- /user-main -->
+                <div id="user-nav" class="user-nav">
+                    <ul>
+                                        <li class="first sign-in">
+            <a href="https://developer.singaporeair.com/login/login?r=https%3A%2F%2Fdeveloper.singaporeair.com%2F&amp;h=a0d51ba6449f0b7da0ecb2b9982a65bd">Sign In</a>        </li>
+                            <li class="register">
+                <a href="https://developer.singaporeair.com/member/register">Register</a>            </li>
+        
+        
+                        </ul>
+                </div><!-- /user-nav -->
+                <div id="user-menu">
+    </div>
+            </div><!-- /user -->
+
+            <div id="info" class="info" style="display: none;">
+            </div><!-- /info -->
+
+            <!-- CONTENT -->
+            <div id="content" class="content">
+
+                
+                <div id="main" class="main">
+                    <h1 class="first">Welcome to the SingaporeAir Developer Network!</h1>
+
+    <div class="section">
+
+        <div class="section-body">
+            <link href="/files/page-loader.css" rel="stylesheet">  
+<div id="loadingcardid" class="loadingcard">
+  <div class="card__title1 loading"></div>
+  <div class="card__title2 loading"></div>
+  <div class="card__title3 loading"></div>
+  <div class="card__title4 loading"></div>
+  <div class="card__title5 loading"></div>
+  <div class="card__description loading"></div>
+</div>
+
+<section class="hero-banner" id="s1" >
+  <div class="slider">
+    <div>
+      <div class="bg-image hero-img-1">
+        <div class="container">
+          <div class="row hero-title">
+Welcome To SIA KrisConnect
+          </div>
+          <div class="row hero-description">
+The SIA KrisConnect programme is an initiative to make information and functionalities on SIA's digital platforms more readily available to partners.
+          </div>
+          <div class="row read-more">
+            <button class="btn-read-more" onclick="window.location.href='/aboutKrisconnect'">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <div class="bg-image hero-img-2">
+        <div class="container">
+          <div class="row hero-title">
+Innovate Travel Experience
+          </div>
+          <div class="row hero-description">
+Our API allow you to make a flight booking, service a booking or provide you information about a customer's booking.
+          </div>
+          <div class="row read-more">
+            <button class="btn-read-more" onclick="window.location.href='/api_landing'">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <div class="bg-image hero-img-3">
+        <div class="container">
+          <div class="row hero-title">
+Transform The Way Air Travel Is Retailed To Customers
+          </div>
+          <div class="row hero-description">
+With the adoption of IATA's New Distribution Capability (NDC), gain access to a wide array of offers and ancillary products not available in legacy channels.
+          </div>
+          <div class="row read-more">
+            <button class="btn-read-more" onclick="window.location.href='/ndc'">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="overlay-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 overlay-col">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 sia-api-logo">
+
+              </div>
+              <div class="col-sm-12 col-md-9 sia-api-col">
+                <div>
+                  <div class="row overlay-title">
+                    <span>SIA APIs</span>
+                  </div>
+                  <div class="row overlay-description">
+											<span>Find out more about SIA APIs that you can integrate on your
+												platform</span>
+                  </div>
+                  <div class="row button-row">
+                    <button class="overlay-btn" onclick="location.href='/api_landing'">Explore SIA APIs<i
+                        class="arrow right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 overlay-col">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 ndc-api-logo">
+
+              </div>
+              <div class="col-sm-12 col-md-9 sia-api-col ndc-api-col">
+                <div>
+                  <div class="row overlay-title">
+                    <span>NDC</span>
+                  </div>
+                  <div class="row overlay-description">
+											<span>Elevate the booking experience and capabilities of your platform with
+												SIA's industry standard NDC APIs</span>
+                  </div>
+                  <div class="row button-row">
+                    <button class="overlay-btn" onclick="location.href='/ndc'">Explore NDC</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<section class="highlights" id="s2" >
+  <div class="container">
+    <div class="row justify-content-center">
+
+				<span class="text-center highlightTitle"> Benefits Of Connecting With SIA APIs
+
+				</span>
+
+    </div>
+    <div class="grid-box row">
+      <div class="col-sm-6 col-md highlight-col">
+        <div class="highlight-box container">
+          <div class="imagerow offer-image row">
+
+          </div>
+          <div class="descriptionrow row">
+							<span> Access to SIA flight offers and information</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-md highlight-col">
+        <div class="highlight-box container">
+          <div class="imagerow sandbox-image row">
+
+          </div>
+          <div class="descriptionrow row">
+							<span> Sandbox environment for you to test out APIs</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-md highlight-col">
+        <div class="highlight-box container">
+          <div class="imagerow integration-image row">
+
+          </div>
+          <div class="descriptionrow row">
+							<span> Easy integration with our RESTful APIs</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-md highlight-col">
+        <div class="highlight-box container">
+          <div class="imagerow free-image row">
+
+          </div>
+          <div class="descriptionrow row">
+            <span> Free to use*</span>
+          </div>
+          <div class="disclaimer row">
+            <span>
+              *other commercial terms may apply</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-md highlight-col">
+        <div class="highlight-box container">
+          <div class="imagerow support-image row">
+
+          </div>
+          <div class="descriptionrow row">
+							<span> Dedicated technical support</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="partners" id="s3" >
+  <div class="container">
+    <div class="row">
+      <div class="partner-flex d-flex justify-content-between">
+        <div>
+						<span class="row-title">
+							<h1 style="font-family: 'proximanova-semibold';font-size: 28px;">Trusted By Partners Worldwide</h1>
+						</span>
+        </div>
+        <a class="role-link partner-link" href="resources_partnershowcase"> Read our partner stories</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="partner row slick-partners">
+          <div>
+            <img class="partner-logo" src="/files/DBS.png">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/kayak.png">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/dohop.png" style="width:55%;">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/uob.png" style="margin-top:25px; width: 100%">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/infinitejourney.png" style="margin-top:25px;">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/cirium.png">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/ctp.png">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/krisshop.png" style="margin-top:13px;">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/pelago.svg" style="margin-top:20px;">
+          </div>
+          <div>
+            <img class="partner-logo" src="/files/hotspot.png" style="margin-top:15px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="help-section" id="s4" >
+  <div class="container">
+    <div class="row role-title justify-content-center">
+
+				<span class="text-center ">
+					<h1>Engage With Us
+					</h1>
+				</span>
+
+    </div>
+    <div class="row justify-content-center">
+
+				<span class="help row-description text-center"> Do you need help or are you looking
+					
+
+				</span>
+      
+
+    </div>
+     <div class="row justify-content-center">
+
+			
+        <span class="help row-description text-center"> 
+					for a certain product?
+
+				</span>
+
+    </div>
+    <div class="row justify-content-center">
+      <button class="btn roleBtn"><a href="contact"  style="text-decoration:none;">Contact Us</a></button>
+    </div>
+  </div>
+
+</section>
+<script type="text/javascript">
+document.onreadystatechange = function() {
+    var state = document.readyState
+    if (state == 'interactive') {
+        document.getElementById('s1').style.visibility = "hidden";
+        document.getElementById('s2').style.visibility = "hidden";
+        document.getElementById('s3').style.visibility = "hidden";
+        document.getElementById('s4').style.visibility = "hidden";
+       
+
+    } else if (state == 'complete') {
+        document.getElementById('interactive');
+        document.getElementById('loadingcardid').style.display = "none";
+
+        document.getElementById('s1').style.visibility = "visible";
+        document.getElementById('s2').style.visibility = "visible";
+        document.getElementById('s3').style.visibility = "visible";
+        document.getElementById('s4').style.visibility = "visible";
+    }
+}
+</script>        </div>
+
+        
+    </div>
+    <!-- END SECTION -->
+
+    
+                </div><!-- /main -->
+
+                <!-- SUB -->
+                <div id="sub" class="sub">
+                                    </div>
+                <!-- /SUB -->
+
+                <div id="breadcrumbs">
+                </div><!-- /breadcrumbs -->
+
+                <div id="local" class="local">
+                                    </div><!-- /local -->
+
+                                    <div id="nav" class="nav">
+                    </div><!-- /nav -->
+                            </div>
+            <!-- /CONTENT -->
+
+            <div id="footer" class="footer">
+
+                
+                <!-- SITEINFO -->
+                <div id="siteinfo" class="siteinfo">
+                                        </div>
+                <!-- /SITEINFO -->
+            </div><!-- /footer -->
+        </div>
+        <!-- /page -->
+
+        <!-- Start Branding script tag -->
+        <script type="text/javascript">
+            // get the branding logo to set the mouseover/out and onclick
+            var brandingLogo = document.getElementById('branding-logo');
+            if(brandingLogo != undefined) {
+                brandingLogo['onclick'] = function() {
+                    location.href = "/";
+                };
+                brandingLogo['onmouseover'] = function() {
+                    this.style.cursor = 'pointer';
+                };
+                brandingLogo['onmouseout'] = function() {
+                    this.style.cursor = 'auto';
+                };
+            }
+
+            // get the mashery logo to set the mouseover/out and onclick
+            var masheryLogo = document.getElementById('branding-mashery');
+            if(masheryLogo != undefined) {
+                masheryLogo['onclick'] = function() {
+                    location.href = "http://www.mashery.com/";
+                };
+                masheryLogo['onmouseover'] = function() {
+                    this.style.cursor = 'pointer';
+                };
+                masheryLogo['onmouseout'] = function() {
+                    this.style.cursor = 'auto';
+                };
+            }
+        </script>
+        <!-- End Branding script tag -->
+            <!-- <div id="extra1">&nbsp;</div>
+            <div id="extra2">&nbsp;</div> -->
+
+            </body>
+</html>

@@ -11,7 +11,7 @@
   {{- $host := .Title }}
   {{- $title := "" }}
   {{- $version := "" }}
-  {{- $url := printf "https://%s" (path.Join .Title .Params.path) }}
+  {{- $url := printf "https://%s/" (path.Join .Title .Params.path) }}
 
   {{- with resources.GetRemote $url }}
     {{- with .Err }}
