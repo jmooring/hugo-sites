@@ -118,7 +118,7 @@
     <tbody>
       {{- range . }}
         <tr>
-          <td class="host"><a href="{{ .url }}" target="_blank">{{ .host }}</a></td>
+          <td class="host"><a href="{{ .url }}">{{ .host }}</a></td>
           <td class="title">{{- trim .title " \n" | safeHTML }}</td>
           <td class="types">{{- .types | safeHTML }}</td>
           <td class="visibility">{{- .visibility | safeHTML }}</td>
