@@ -15,10 +15,6 @@ h1 {
   margin: 0.5rem 0;
 }
 
-hr {
-  margin-bottom: 1rem;
-}
-
 table {
   border-collapse: collapse;
 }
@@ -49,4 +45,36 @@ th {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 0.75rem;
+}
+
+@media (max-width: 576px) {
+  .last-updated,
+  .types {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .version,
+  .visibility {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .description {
+    display: none;
+  }
 }

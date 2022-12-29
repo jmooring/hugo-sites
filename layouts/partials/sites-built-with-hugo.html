@@ -107,23 +107,23 @@
   <table>
     <thead>
       <tr>
-        <th>Host</th>
-        <th>Title</th>
-        <th>Types</th>
-        <th>Visibility</th>
-        <th>Version</th>
-        <th>Description</th>
+        <th class="host">Host</th>
+        <th class="title">Title</th>
+        <th class="types">Types</th>
+        <th class="visibility">Visibility</th>
+        <th class="version">Version</th>
+        <th class="description">Description</th>
       </tr>
     </thead>
     <tbody>
       {{- range . }}
         <tr>
-          <td><a href="{{ .url }}" target="_blank">{{ .host }}</a></td>
-          <td>{{- trim .title " \n" | safeHTML }}</td>
-          <td>{{- .types | safeHTML }}</td>
-          <td>{{- .visibility | safeHTML }}</td>
-          <td>{{- .version }}</td>
-          <td>{{- trim .description " \n" | safeHTML }}</td>
+          <td class="host"><a href="{{ .url }}" target="_blank">{{ .host }}</a></td>
+          <td class="title">{{- trim .title " \n" | safeHTML }}</td>
+          <td class="types">{{- .types | safeHTML }}</td>
+          <td class="visibility">{{- .visibility | safeHTML }}</td>
+          <td class="version">{{- .version }}</td>
+          <td class="description">{{- trim .description " \n" | safeHTML }}</td>
         </tr>
       {{- end }}
     </tbody>

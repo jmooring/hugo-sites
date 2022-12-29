@@ -1,9 +1,18 @@
 <h1>{{ .Title }}</h1>
 <div class="header">
-  <div class="menu">
-    {{ partial "menu.html" . }}
-  </div>
-  <div class="updated">
+  <ul class="nav">
+    {{- $page := . }}
+    {{- range site.Menus.main }}
+      {{- if $page.IsMenuCurrent "main" . }}
+        <li class="nav-item active"><a class="nav-link" aria-current="page" href="{{ .URL }}">{{- .Name }}</a></li>
+      {{- else if $page.HasMenuCurrent "main" . }}
+        <li class="nav-item active"><a class="nav-link" aria-current="true" href="{{ .URL }}">{{- .Name }}</a></li>
+      {{- else }}
+        <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{- .Name }}</a></li>
+      {{- end }}
+    {{- end }}
+  </ul>
+  <div class="last-updated">
     Updated {{ now | time.Format ":date_medium" }}
   </div>
 </div>
