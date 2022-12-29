@@ -1,6 +1,6 @@
 +++
 title = 'www.atozmachine.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

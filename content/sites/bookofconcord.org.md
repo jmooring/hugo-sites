@@ -1,6 +1,6 @@
 +++
 title = 'bookofconcord.org'
 draft = false
-types = []
+types = ['nonprofit']
 visibility = []
 +++

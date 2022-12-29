@@ -1,6 +1,6 @@
 +++
 title = 'www.philenflo.nl'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

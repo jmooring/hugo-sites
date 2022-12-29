@@ -1,6 +1,6 @@
 +++
 title = 'thegooddocsproject.dev'
 draft = false
-types = ['documentation']
+types = ['documentation','project']
 visibility = []
 +++

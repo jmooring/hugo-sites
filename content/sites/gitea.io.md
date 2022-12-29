@@ -1,6 +1,6 @@
 +++
 title = 'gitea.io'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

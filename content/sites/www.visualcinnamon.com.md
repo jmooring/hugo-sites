@@ -1,6 +1,6 @@
 +++
 title = 'www.visualcinnamon.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

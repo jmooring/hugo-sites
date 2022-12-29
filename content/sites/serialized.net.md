@@ -1,6 +1,6 @@
 +++
 title = 'serialized.net'
 draft = false
-types = []
+types = ['blog','personal']
 visibility = []
 +++

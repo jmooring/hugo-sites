@@ -1,6 +1,6 @@
 +++
 title = 'nats.io'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

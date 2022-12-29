@@ -1,6 +1,6 @@
 +++
 title = 'job.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

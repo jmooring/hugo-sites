@@ -1,6 +1,6 @@
 +++
 title = 'fission.io'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

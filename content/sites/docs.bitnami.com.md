@@ -1,6 +1,6 @@
 +++
 title = 'docs.bitnami.com'
 draft = false
-types = ['documentation']
+types = ['business','documentation']
 visibility = []
 +++

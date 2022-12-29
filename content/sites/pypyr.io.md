@@ -1,6 +1,6 @@
 +++
 title = 'pypyr.io'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

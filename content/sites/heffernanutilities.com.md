@@ -1,6 +1,6 @@
 +++
 title = 'heffernanutilities.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

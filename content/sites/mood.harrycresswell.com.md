@@ -1,6 +1,6 @@
 +++
 title = 'mood.harrycresswell.com'
 draft = false
-types = []
+types = ['portfolio','personal']
 visibility = []
 +++

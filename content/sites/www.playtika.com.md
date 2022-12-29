@@ -1,6 +1,6 @@
 +++
 title = 'www.playtika.com'
 draft = false
-types = []        # blog, business, cv, documentation, ecommerce, etc. 
-visibility = []   # high, medium, low
+types = ['business']
+visibility = []
 +++

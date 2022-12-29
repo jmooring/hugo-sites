@@ -1,6 +1,6 @@
 +++
 title = 'www.navidrome.org'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

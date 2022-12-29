@@ -1,6 +1,6 @@
 +++
 title = 'ipfs.eth.link'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

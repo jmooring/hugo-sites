@@ -1,6 +1,6 @@
 +++
 title = 'www.ii.com'
 draft = false
-types = []
+types = ['blog','personal']
 visibility = []
 +++

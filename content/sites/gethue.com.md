@@ -1,6 +1,6 @@
 +++
 title = 'gethue.com'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

@@ -1,6 +1,6 @@
 +++
 title = 'www.sciencewithme.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

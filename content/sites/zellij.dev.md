@@ -1,6 +1,6 @@
 +++
 title = 'zellij.dev'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

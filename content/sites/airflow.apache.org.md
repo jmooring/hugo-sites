@@ -1,6 +1,6 @@
 +++
 title = 'airflow.apache.org'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

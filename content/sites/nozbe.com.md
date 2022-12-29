@@ -1,6 +1,6 @@
 +++
 title = 'nozbe.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

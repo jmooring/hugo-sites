@@ -1,6 +1,6 @@
 +++
 title = 'fireship.io'
 draft = false
-types = []
+types = ['business','education']
 visibility = []
 +++

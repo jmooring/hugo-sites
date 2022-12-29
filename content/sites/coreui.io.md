@@ -1,6 +1,6 @@
 +++
 title = 'coreui.io'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

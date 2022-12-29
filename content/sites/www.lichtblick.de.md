@@ -1,6 +1,6 @@
 +++
 title = 'www.lichtblick.de'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

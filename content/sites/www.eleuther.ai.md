@@ -1,6 +1,6 @@
 +++
 title = 'www.eleuther.ai'
 draft = false
-types = []
+types = ['blog','nonprofit']
 visibility = []
 +++

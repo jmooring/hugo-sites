@@ -1,6 +1,6 @@
 +++
 title = 'tekton.dev'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

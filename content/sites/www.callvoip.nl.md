@@ -1,6 +1,6 @@
 +++
 title = 'www.callvoip.nl'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

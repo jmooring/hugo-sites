@@ -1,6 +1,6 @@
 +++
 title = 'graphviz.org'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

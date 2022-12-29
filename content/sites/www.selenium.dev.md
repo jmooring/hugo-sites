@@ -1,6 +1,6 @@
 +++
 title = 'www.selenium.dev'
 draft = false
-types = []
-visibility = []
+types = ['documentation','project']
+visibility = ['high']
 +++

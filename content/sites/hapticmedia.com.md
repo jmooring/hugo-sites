@@ -1,7 +1,7 @@
 +++
 title = 'hapticmedia.com'
 draft = false
-types = []
+types = ['blog','business']
 visibility = []
 path = '/blog'
 +++

@@ -1,6 +1,6 @@
 +++
 title = 'devdocs.prestashop.com'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

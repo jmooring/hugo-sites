@@ -1,6 +1,6 @@
 +++
 title = 'postgis.net'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

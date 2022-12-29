@@ -1,6 +1,6 @@
 +++
 title = 'fluxcd.io'
 draft = false
-types = []
+types = ['documentation','project']
 visibility = []
 +++

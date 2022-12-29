@@ -1,7 +1,7 @@
 +++
 title = 'tanzu.vmware.com'
 draft = false
-types = []
+types = ['business','documentation']
 visibility = []
 path = '/developer'
 +++

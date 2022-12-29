@@ -1,6 +1,6 @@
 +++
 title = 'grpc.io'
 draft = false
-types = []
+types = ['business','documentation']
 visibility = []
 +++

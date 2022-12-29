@@ -1,6 +1,6 @@
 +++
 title = 'basicattentiontoken.org'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

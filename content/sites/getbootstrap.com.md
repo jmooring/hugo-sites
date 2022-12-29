@@ -1,6 +1,6 @@
 +++
 title = 'getbootstrap.com'
 draft = false
-types = ['documentation']
+types = ['documentation','project']
 visibility = ['high']
 +++

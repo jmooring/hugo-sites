@@ -1,6 +1,6 @@
 +++
 title = 'kubernetes.io'
 draft = false
-types = ['business']
+types = ['documentation','project']
 visibility = ['high']
 +++

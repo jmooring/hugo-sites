@@ -1,6 +1,6 @@
 +++
 title = 'notepad-plus-plus.org'
 draft = false
-types = ['business']
-visibility = []
+types = ['project']
+visibility = ['high']
 +++

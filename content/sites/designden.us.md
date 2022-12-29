@@ -1,6 +1,6 @@
 +++
 title = 'designden.us'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

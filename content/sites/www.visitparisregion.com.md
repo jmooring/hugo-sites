@@ -1,7 +1,7 @@
 +++
 title = 'www.visitparisregion.com'
 draft = false
-types = []
+types = ['business']
 visibility = []
 path = '/fr'
 +++

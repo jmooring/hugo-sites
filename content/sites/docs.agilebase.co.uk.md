@@ -1,6 +1,6 @@
 +++
 title = 'docs.agilebase.co.uk'
 draft = false
-types = ['documentation']
+types = ['business','documentation']
 visibility = []
 +++

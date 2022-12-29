@@ -3,7 +3,17 @@
     {{ .Content }}
   </div>
 
-  {{ $p := .Pages.ByTitle }}
+  {{ $p := slice }}
+  {{ if eq .Data.Term "none" }}
+    {{ range where site.RegularPages "Type" "sites" }}
+      {{ if not (index .Params $.Data.Plural) }}
+        {{ $p = $p | append . }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $p = .Pages.ByTitle }}
+  {{ end }}
+
   {{ partial "sites-built-with-hugo.html" $p }}
 
 {{ end }}

@@ -1,6 +1,6 @@
 +++
 title = 'sourcehut.org'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

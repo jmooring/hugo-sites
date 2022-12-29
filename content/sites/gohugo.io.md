@@ -1,6 +1,6 @@
 +++
 title = 'gohugo.io'
 draft = false
-types = ['documentation']
+types = ['documentation','project']
 visibility = ['high']
 +++

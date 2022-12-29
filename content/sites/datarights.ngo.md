@@ -1,6 +1,6 @@
 +++
 title = 'datarights.ngo'
 draft = false
-types = []
+types = ['nonprofit']
 visibility = []
 +++

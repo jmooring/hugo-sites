@@ -1,6 +1,6 @@
 +++
 title = 'help.ampio.com'
 draft = false
-types = ['documentation']
+types = ['business','documentation']
 visibility = []
 +++

@@ -2,9 +2,11 @@
   <div class="content">
     {{ .Content }}
   </div>
-  {{ range .Pages.ByTitle }}
-    {{ if .Pages.Len }}
+
+  {{ range .Pages.ByLinkTitle }}
+    {{ if or .Pages.Len (eq .Data.Term "none") }}
       <div class="list-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
     {{ end }}
   {{ end }}
+
 {{ end }}

@@ -1,6 +1,6 @@
 +++
 title = 'si.solutions'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

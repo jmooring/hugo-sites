@@ -1,6 +1,6 @@
 +++
 title = 'letsencrypt.org'
 draft = false
-types = ['business']
+types = ['nonprofit']
 visibility = ['high']
 +++

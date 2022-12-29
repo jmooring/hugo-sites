@@ -1,6 +1,6 @@
 +++
 title = 'www.inbeat.co'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

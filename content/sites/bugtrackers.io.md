@@ -1,6 +1,6 @@
 +++
 title = 'bugtrackers.io'
 draft = false
-types = []
+types = ['news']
 visibility = []
 +++

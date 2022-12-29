@@ -1,6 +1,6 @@
 +++
 title = 'jvmperf.net'
 draft = false
-types = []
+types = ['project']
 visibility = []
 +++

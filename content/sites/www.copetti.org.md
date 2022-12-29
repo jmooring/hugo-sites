@@ -1,6 +1,6 @@
 +++
 title = 'www.copetti.org'
 draft = false
-types = []
+types = ['blog','personal']
 visibility = []
 +++

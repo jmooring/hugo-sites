@@ -1,6 +1,6 @@
 +++
 title = 'cloud-forge.net'
 draft = false
-types = []
+types = ['business']
 visibility = []
 +++

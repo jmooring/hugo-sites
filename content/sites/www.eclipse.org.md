@@ -1,6 +1,6 @@
 +++
 title = 'www.eclipse.org'
 draft = false
-types = ['business']
+types = ['nonprofit']
 visibility = ['high']
 +++
