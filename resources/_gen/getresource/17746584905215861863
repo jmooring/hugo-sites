@@ -1,0 +1,665 @@
+HTTP/2.0 200 OK
+Age: 31903
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 28 Dec 2022 23:36:53 GMT
+Etag: "de3d354e968a511fa434279470c45c2f-ssl-df"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Nf-Request-Id: 01GNEFYNXD2KH91SXH0B76DWM1
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SPIFFE &ndash; Secure Production Identity Framework for Everyone</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.7.0/tocbot.css">
+<link rel="stylesheet" href="/css/style.1db1f4238dfe329e043f994d70fa2006780c816bd84f444fe31b09794695a59e.css">
+
+    <script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
+  </head>
+  <body class="is-page is-home-page has-navbar-fixed-top">
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar is-fixed-top is-light">
+  <div class="container  ">
+    <div class="navbar-brand">
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target=".navbar-top">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu navbar-top">
+
+      <div class="navbar-end"><a class="navbar-item has-text-weight-bold" href="/downloads/">
+          Get SPIRE
+        </a>
+
+        <a class="navbar-item has-text-weight-bold" href="/docs/latest/">
+          Documentation
+        </a><div class="navbar-item">
+          <p class="control">
+            <a class="button is-black" href="https://blog.spiffe.io/">
+              <span class="icon">
+                <i class="fab fa-medium"></i>
+              </span>
+              <span>
+                Blog
+              </span>
+            </a>
+
+            <a class="button is-twitter-blue" href="https://twitter.com/SPIFFEio">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+            </a>
+
+            <a class="button is-black" href="https://github.com/spiffe">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+            </a>
+
+            <a class="button is-slack-green" href="https://slack.spiffe.io/">
+              <span class="icon">
+                <i class="fab fa-slack"></i>
+              </span>
+            </a>
+
+            <a class="button is-stack-overflow-orange" href="https://stackoverflow.com/questions/tagged/spiffe">
+              <span class="icon">
+                <i class="fab fa-stack-overflow"></i>
+              </span>
+            </a>
+
+            <a class="button is-youtube-red" href="https://www.youtube.com/channel/UCVzeW7j02FDNggkI5JKPvJg/f">
+              <span class="icon">
+                <i class="fab fa-youtube"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div></div>
+    
+  </div>
+</nav>
+
+
+    <main class="is-main">
+      
+
+<section class="hero is-medium is-light">
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <img class="title is-hero-logo" src="/img/logos/spiffe/horizontal/color/spiffe-horizontal-color.png">
+
+      <br />
+
+      <p class="project-title is-size-4 is-size-4-mobile has-text-weight-bold">
+        Secure Production Identity Framework for Everyone
+      </p>
+      <p class="subtitle is-size-3 is-size-5-mobile has-text-weight-light">
+        A universal identity control plane for distributed systems
+      </p>
+    </div>
+
+
+  </div>
+</section>
+
+<section class="section has-text-centered use-cases">
+  <div class="container">
+
+    <div class="columns is-variable is-6">
+      <div class="column content is-medium">
+        <p class="image">
+            <a href="#">
+              <img src="/img/usecases/uc1-secure.svg">
+            </a>
+        </p>
+        <p>Secure microservices communication automatically with Envoy, X.509 PKI, or JWT</p>
+      </div> 
+
+      <div class="column content is-medium">
+        <p class="image">
+            <a href="#">
+              <img src="/img/usecases/uc2-svcs.svg">
+            </a>
+        </p>
+        <p>Authenticate securely to common databases or platforms without passwords or API keys</p>
+      </div>
+
+      <div class="column content is-medium">
+        <p class="image">
+            <a href="#">
+              <img src="/img/usecases/uc3-mesh.svg">
+            </a>
+        </p>
+        <p>Build, bridge, and extend service mesh across organizations without sharing keys</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="news is-medium">
+    <div class="has-text-centered">
+      <div class="container">
+        <p class="is-size-5 is-size-5-mobile">
+            <strong>New!</strong> SPIFFE and SPIRE are now <a href="https://www.cncf.io/announcements/2022/09/20/spiffe-and-spire-projects-graduate-from-cloud-native-computing-foundation-incubator/">graduate projects</a> of the Cloud Native Computing Foundation
+        </p>
+    </div>
+  </section>
+
+<section class="newsbar is-medium is-light">
+    <div class="has-text-centered">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-one-third video-text">
+            <p class="is-size-4 is-size-5-mobile">New to SPIFFE and SPIRE? Learn the basics in 10 minutes.</p>
+          </div>
+          
+          <div class="column is-paddingless video-wrapper">
+            <br>
+            <div class="embed-container">
+              <iframe src="https://www.youtube.com/embed/Q2SiGeebRKY" frameborder="0"></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="section what-is">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-9">
+        <p class="title is-size-3 is-size-4-mobile has-text-white-bis">
+          What is SPIFFE?
+        </p>
+
+        <p class="is-size-5 is-size-6-mobile">
+          <strong>SPIFFE</strong>, the Secure Production Identity Framework For Everyone, provides a secure identity, in the form of a specially crafted X.509 certificate, to every workload in a modern production environment. SPIFFE removes the need for application-level authentication and complex network-level ACL configuration. &#8226; <strong><a href="/docs/latest/spiffe/overview/">Read more</a></strong>
+        </p>
+      </div> 
+
+      <div class="column has-text-right is-hidden-mobile">
+        <img class="is-home-desktop-logo" src="/img/logos/spiffe/icon/color/spiffe-icon-color.png">
+      </div> 
+    </div> 
+
+    <div class="columns is-hidden-tablet">
+      <div class="column has-text-centered">
+        <img class="is-home-mobile-logo" src="/img/logos/spiffe/icon/color/spiffe-icon-color.png">
+      </div> 
+    </div> 
+
+    <hr class="is-large has-background-grey">
+
+    <div class="columns is-vcentered">
+      <div class="column has-text-left is-hidden-mobile">
+        <img class="is-home-desktop-logo" src="/img/logos/spire/icon/color/spire-icon-color.png">
+      </div> 
+
+      <div class="column is-9 has-text-right">
+        <p class="title is-size-3 is-size-4-mobile has-text-white-bis">
+          What is SPIRE?
+        </p>
+
+        <p class="is-size-5 is-size-6-mobile">
+          <strong>SPIRE</strong>, the SPIFFE Runtime Environment, is an extensible system that implements the principles embodied in the SPIFFE standards. SPIRE manages platform and workload attestation, provides an API for controlling attestation policies, and coordinates certificate issuance and rotation. &#8226; <strong><a href="/docs/latest/spire/understand/concepts/">Read more</a></strong>
+        </p>
+      </div> 
+    </div> 
+
+    <div class="columns is-hidden-tablet">
+      <div class="column has-text-centered is-hidden-tablet">
+        <img class="is-home-mobile-logo" src="/img/logos/spire/icon/color/spire-icon-color.png">
+      </div> 
+    </div> 
+  </div> 
+</section> 
+
+<section class="newsbar is-medium is-light">
+  <div class="has-text-centered">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-half">
+          <p class="is-size-5 is-size-6-mobile">
+            In this book, security experts and SPIFFE community members provide a deep understanding of the identity
+            problem and how to solve it. &#8226; <strong><a href="book/">Read more</a></strong>
+          </p>
+        </div>
+        <div class="column stretch">
+          <a href="book/">
+            <img src="../img/book_cover.png" alt="Book cover" class="book-cover small" />
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="title is-size-2 is-size-3-mobile is-spaced">
+      Who uses SPIFFE?
+    </p>
+
+    <p class="subtitle is-size-4 is-size-5-mobile">
+      SPIFFE is currently used by a variety of projects that both <strong>issue</strong> and <strong>consume</strong> SPIFFE IDs.
+    </p>
+
+    <br />
+
+    <div class="columns is-variable is-6">
+      <div class="column content is-medium">
+        <h2>
+          Issuers
+        </h2>
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="/docs/latest/spire/understand/concepts/">
+            <img src="/img/logos/spire/icon/color/spire-icon-color.png">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="/docs/latest/spire/understand/concepts/">
+            The SPIRE project
+          </a>
+        </h3>
+
+        SPIRE is an open-source toolchain that implements the SPIFFE specification in a wide variety of environments
+        <a href="/docs/latest/spire/understand/concepts/">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="/docs/latest/spire/understand/concepts/">
+            <img src="/img/logos/spire/icon/color/spire-icon-color.png">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://istio.io/latest/docs/concepts/security/#pki">
+            <img src="/img/logos/istio.svg">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://istio.io/latest/docs/concepts/security/#pki">
+            Istio
+          </a>
+        </h3>
+
+        The Istio control plane issues SPIFFE IDs for all workloads
+        <a href="https://istio.io/latest/docs/concepts/security/#pki">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://istio.io/latest/docs/concepts/security/#pki">
+            <img src="/img/logos/istio.svg">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://www.consul.io/segmentation.html">
+            <img src="/img/logos/consul.svg">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://www.consul.io/segmentation.html">
+            HashiCorp Consul
+          </a>
+        </h3>
+
+        The Consul Connect service mesh uses the SPIFFE specification for establishing service identities, enabling Consul Connect services to connect with other SPIFFE-compliant systems
+        <a href="https://www.consul.io/segmentation.html">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://www.consul.io/segmentation.html">
+            <img src="/img/logos/consul.svg">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://kuma.io">
+            <img src="/img/logos/kuma.svg">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://kuma.io">
+            Kuma
+          </a>
+        </h3>
+
+        Kuma automatically generates SPIFFE-compatible certificates that identify all the services and workloads running in the service mesh, and encrypts all the traffic generated between them
+        <a href="https://kuma.io">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://kuma.io">
+            <img src="/img/logos/kuma.svg">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://github.com/cert-manager/csi-driver-spiffe">
+            <img src="/img/logos/cert-manager.png">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://github.com/cert-manager/csi-driver-spiffe">
+            cert-manager CSI driver
+          </a>
+        </h3>
+
+        csi-driver-spiffe is a cert-manager project that delivers SPIFFE compliant X.509-SVIDs to Kubernetes Pods using CSI, based on the identity of the mounting ServiceAccount.
+        <a href="https://github.com/cert-manager/csi-driver-spiffe">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://github.com/cert-manager/csi-driver-spiffe">
+            <img src="/img/logos/cert-manager.png">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+      </div> 
+
+      <div class="column content is-medium">
+        <h2>
+          Consumers
+        </h2>
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
+            <img src="/img/logos/envoy.svg">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
+            The Envoy proxy
+          </a>
+        </h3>
+
+        Customers can use SPIFFE IDs to establish <a href="https://en.wikipedia.org/wiki/Mutual_authentication#mTLS">mTLS</a> connections between Envoy proxies
+        <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
+            <img src="/img/logos/envoy.svg">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
+            <img src="/img/logos/pinterest.png">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
+            Pinterest Knox
+          </a>
+        </h3>
+
+        Customers can authenticate to Knox with SPIFFE IDs
+        <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
+            <img src="/img/logos/pinterest.png">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+        
+<div class="card">
+  <div class="card-content">
+    <article class="media">
+      <figure class="media-left is-hidden-mobile">
+        <p class="image is-64x64">
+          <a href="https://github.com/square/ghostunnel">
+            <img src="/img/logos/square.jpg">
+          </a>
+        </p>
+      </figure>
+      <div class="media-content">
+        <h3>
+          <a class="has-text-dark" href="https://github.com/square/ghostunnel">
+            The Ghostunnel proxy
+          </a>
+        </h3>
+
+        Customers can use SPIFFE IDs to establish <a href="https://en.wikipedia.org/wiki/Mutual_authentication#mTLS">mTLS</a> connections between Ghostunnel proxies with built-in support for obtaining X.509-SVID identities via the <a href="/docs/latest/spiffe-about/spiffe-concepts/#spiffe-workload-api">SPIFFE Workload API</a>
+        <a href="https://github.com/square/ghostunnel">Read more</a>
+
+        <div class="is-user-mobile-logo is-hidden-tablet">
+          <a href="https://github.com/square/ghostunnel">
+            <img src="/img/logos/square.jpg">
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+      </div> 
+    </div> 
+  </div> 
+</section> 
+
+
+<section class="section has-text-centered">
+  <div class="container">
+    <p class="is-size-5 is-size-6-mobile has-text-weight-light">
+      SPIFFE and SPIRE are graduate projects of the <a href="https://cncf.io" target="_blank">Cloud Native Computing Foundation</a>
+    </p>
+
+    <img class="cncf-logo" src="/img/logos/cncf-color.png" alt="Cloud Native Computing Foundation logo">
+  </div>
+</section>
+
+
+    </main>     
+
+<footer class="footer has-background-dark">
+  <div class="container">
+    <img class="is-footer-logo" src="/img/logos/spiffe/horizontal/white/spiffe-horizontal-white.png">
+
+    <hr class="is-large has-background-grey-light">
+
+    <div class="columns">
+
+      <div class="column">
+        <p class="title is-size-4 has-text-white-bis">
+          Community
+        </p>
+
+        <div class="buttons">
+          <a class="button is-white" href="https://blog.spiffe.io/">
+            <span class="icon">
+              <i class="fab fa-medium"></i>
+            </span>
+            <span>
+              Blog
+            </span>
+          </a>
+
+          <a class="button is-twitter-blue" href="https://twitter.com/SPIFFEio">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+            <span>
+              Twitter
+            </span>
+          </a>
+
+          <a class="button is-white" href="https://github.com/spiffe">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>
+              GitHub
+            </span>
+          </a>
+
+          <a class="button is-slack-green" href="https://slack.spiffe.io/">
+            <span class="icon">
+              <i class="fab fa-slack"></i>
+            </span>
+            <span>
+              Slack
+            </span>
+          </a>
+
+          <a class="button is-stack-overflow-orange" href="https://stackoverflow.com/questions/tagged/spiffe">
+            <span class="icon">
+              <i class="fab fa-stack-overflow"></i>
+            </span>
+            <span>
+              StackOverflow
+            </span>
+          </a>
+
+          <a class="button is-youtube-red" href="https://www.youtube.com/channel/UCVzeW7j02FDNggkI5JKPvJg/f">
+            <span class="icon">
+              <i class="fab fa-youtube"></i>
+            </span>
+            <span>
+              YouTube
+            </span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <section class="has-text-centered">
+      <span class="has-text-grey-lighter">
+        &copy; 2022 The SPIFFE authors
+      </span>
+    </section>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.7.0/tocbot.min.js"></script>
+<script src="/js/jquery-3.3.1.min.1dc33fb32cfedd9ef0049ed3cb8b007bad6f7e57eafc760e8ea0553fe823a6d6.js"></script>
+<script src="/js/clipboard-2.0.0.min.7380537dbe37c039bf72de37aa10f732ca0712daf47483baee10016c2082d9d1.js"></script>
+<script src="/js/anchor-4.1.1.min.3231b81e93880d1db128c90bbea3b3540c38b614ddba93b568ca2d9092a385db.js"></script>
+<script src="/js/app.min.617a05c100ed36a2346c25067114dbd48e917ccf7bb370a378b95a03e7391fcc.js"></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-99605331-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <script>
+      ga('send', 'pageview', {
+        'Branch':  'master'
+      });
+    </script>
+    <script>
+      var captureOutboundLink = function(url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          'transport': 'beacon',
+          'hitCallback': function(){ document.location = url; }
+        });
+      }
+    </script> 
+  </body>
+</html>

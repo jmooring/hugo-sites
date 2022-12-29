@@ -1,0 +1,1613 @@
+HTTP/2.0 200 OK
+Age: 260536
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 26 Dec 2022 08:06:16 GMT
+Etag: "987158c48d3c81a6f4f852dc996639fc-ssl-df"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Nf-Request-Id: 01GNEFYJF7PTNXHHSJ6591DBZB
+
+<!doctype html><html lang=en-us>
+<head>
+<meta name=generator content="Hugo 0.93.2">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel=alternate type=application/rss+xml href=https://keda.sh/ title=KEDA>
+<link rel=canonical href=https://keda.sh/>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content="kedaorg">
+<meta name=twitter:creator content="kedaorg">
+<meta name=twitter:image content="https://keda.sh/img/logos/keda-icon-color.png">
+<meta name=twitter:image:alt content="KEDA color logo">
+<meta property="og:url" content="https://keda.sh/">
+<meta property="og:title" content="KEDA">
+<meta property="og:description" content="Application autoscaling made simple">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KEDA">
+<meta property="og:image" content="https://keda.sh/img/logos/keda-icon-color.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="KEDA color logo">
+<meta property="og:locale" content="en_US">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YSWMV22VTQ"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-YSWMV22VTQ",{anonymize_ip:!1})}</script>
+<title>KEDA | Kubernetes Event-driven Autoscaling</title><link rel=stylesheet href=/css/style.be15a0b043588576b96968efbea15c445e34faf573638509d93071cb3c7137b5.css integrity="sha256-vhWgsENYhXa5aWjvvqFcRF40+vVzY4UJ2TBxyzxxN7U=">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css>
+<link rel="shortcut icon" href=/favicon.png>
+</head><body class="is-page has-navbar-fixed-top">
+<main class=is-main>
+<nav id=mainnav style=padding:10px class="navbar is-transparent has-background-pattern is-fixed-top" role=navigation aria-label="main navigation" x-data="{ open: false }">
+<div class=container>
+<div class="navbar-brand is-left-padded" style=align-items:end>
+<a class=navbar-item href=https://keda.sh>
+<img src=/img/logos/keda-horizontal-color.png style=transform:scale(2)>
+</a>
+<a role=button class=navbar-burger data-target=navbar-menu aria-label=menu aria-expanded=false @click="open = !open" @click.away="open = false" :class="{ 'is-active': open }">
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+</div><div class=navbar-menu id=navbar-menu :class="{ 'is-active': open }">
+<div class=navbar-end>
+<div class=navbar-item>
+<p class="control has-icons-left">
+<input class="input is-rounded" type=text placeholder=Search id=search-bar>
+<span class="icon is-small is-left">
+<i class="fas fa-search"></i>
+</span>
+</p></div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.9/scalers>Scalers</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.9>
+<span>
+Docs
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-md fa-caret-down"></i>
+</span>
+</a>
+<div class="navbar-dropdown is-radiusless">
+<a class=navbar-item href=/docs/2.9/deploy>
+<span>
+Deploying KEDA
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/concepts/>
+<span>
+Concepts
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/authentication-providers/>
+<span>
+Authentication providers
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/concepts/#architecture>
+<span>
+Architecture
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/operate/>
+<span>
+Operate
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/migration/>
+<span>
+Migration Guide
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/faq/>
+<span>
+FAQ
+</span>
+</a>
+<a class=navbar-item href=/docs/2.9/troubleshooting/>
+<span>
+Troubleshooting
+</span>
+</a>
+</div></div><a class="navbar-item is-size-5-desktop" href=/blog>
+<span>
+Blog
+</span>
+</a>
+<div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless">
+<span>
+Community
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-md fa-caret-down"></i>
+</span>
+</a>
+<div class="navbar-dropdown is-radiusless">
+<a class=navbar-item href=/community/>
+<span>
+Overview
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/samples target=_blank>
+<span>
+Samples
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+</div></div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless">
+<span>
+Project
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-md fa-caret-down"></i>
+</span>
+</a>
+<div class="navbar-dropdown is-radiusless">
+<a class=navbar-item href=https://github.com/cncf/foundation/blob/master/code-of-conduct.md target=_blank>
+<span>
+Code of Conduct
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/keda/blob/main/CHANGELOG.md target=_blank>
+<span>
+Changelog
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/governance/blob/main/GOVERNANCE.md target=_blank>
+<span>
+Governance
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/keda/blob/main/ROADMAP.md target=_blank>
+<span>
+Roadmap
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=/support/>
+<span>
+Support
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/governance/blob/main/DEPRECATIONS.md target=_blank>
+<span>
+Breaking Changes & Deprecations
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/keda/blob/main/CONTRIBUTING.md target=_blank>
+<span>
+Contributing
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/governance/blob/main/BRANDING.md target=_blank>
+<span>
+Colors and Logos
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/keda/blob/main/LICENSE target=_blank>
+<span>
+License
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=https://github.com/kedacore/governance/blob/main/MAINTAINERS.md target=_blank>
+<span>
+Maintainers
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<a class=navbar-item href=/resources/>
+<span>
+Learning Resources
+</span>
+</a>
+</div></div><a class="navbar-item is-size-5-desktop" href=https://store.cncf.io/collections/keda target=_blank>
+<span>
+Merch
+</span>
+<span class="icon has-text-white">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+<div class=navbar-item>
+<div class=buttons>
+<a class="button is-twitter-blue" href=https://twitter.com/kedaorg target=_blank>
+<span class="icon has-text-white">
+<i class="fab fa-twitter"></i>
+</span>
+</a>
+<a class="button is-white" href=https://github.com/kedacore/keda target=_blank>
+<span class="icon has-text-black">
+<i class="fab fa-github"></i>
+</span>
+</a>
+<a class="button is-slack-green" href=https://kubernetes.slack.com/messages/CKZJ36A5D target=_blank>
+<span class="icon has-text-white">
+<i class="fab fa-slack"></i>
+</span>
+</a>
+</div></div></div></div></div></nav><script src=https://code.jquery.com/jquery-3.5.1.slim.min.js integrity=sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js integrity=sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI crossorigin=anonymous></script>
+<script>$(function(){$(document).scroll(function(){var e=$("#mainnav");e.toggleClass("scrolled",$(this).scrollTop()>e.height())})})</script>
+<section class="hero is-medium has-background-pattern">
+<div class=hero-body>
+<div class=container>
+<div class="columns is-vcentered is-variable is-8">
+<div class="column is-one-third">
+<img class=is-hero-logo src=/img/logos/keda-icon-color.png alt="KEDA home hero logo">
+</div><div class=column>
+<p class="title is-size-1 is-size-2-mobile has-text-white-bis has-text-weight-bold has-shadow is-spaced">
+Kubernetes Event-driven Autoscaling
+</p><p class="subtitle is-size-3 has-text-light is-size-4-mobile has-shadow">
+Application autoscaling made simple
+</p><br>
+<div class=buttons>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/concepts>
+<span class="icon has-text-primary">
+<i class="fas fa-stream"></i>
+</span>
+<span>
+Concepts
+</span>
+</a>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/deploy>
+<span class="icon has-text-primary">
+<i class="fas fa-play-circle"></i>
+</span>
+<span>
+Deploying KEDA
+</span>
+</a>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/concepts/#architecture>
+<span class="icon has-text-primary">
+<i class="fas fa-project-diagram"></i>
+</span>
+<span>
+Architecture
+</span>
+</a>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/scalers>
+<span class="icon has-text-primary">
+<i class="fas fa-ruler-vertical"></i>
+</span>
+<span>
+Scalers
+</span>
+</a>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/authentication-providers>
+<span class="icon has-text-primary">
+<i class="fa fa-lock"></i>
+</span>
+<span>
+Auth providers
+</span>
+</a>
+<a class="button is-black is-inverted has-text-weight-bold" href=/blog>
+<span class="icon has-text-primary">
+<i class="fa fa-rss"></i>
+</span>
+<span>
+Blog
+</span>
+</a>
+</div></div></div></div></div></section><script>$(function(){$(document).scroll(function(){var e=$("#mainnav");e.toggleClass("scrolled",$(this).scrollTop()>e.height())})})</script>
+<section class="section has-background-light">
+<div class=container>
+<div class="columns is-vcentered is-flexible is-8">
+<div class="column is-one-third">
+<p style=padding:10px class="title is-inline-block is-size-1 is-size-3-mobile underline--magical-1">
+What is KEDA?
+</p></div><div class=column>
+<div class="content is-medium">
+<p><strong>KEDA</strong> is a <a href=https://kubernetes.io target=_blank>Kubernetes<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a>-based Event Driven Autoscaler. With KEDA, you can drive the scaling of any container in Kubernetes based on the number of events needing to be processed.</p><p><strong>KEDA</strong> is a single-purpose and lightweight component that can be added into any Kubernetes cluster. KEDA works alongside standard Kubernetes components like the <a href=https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/ target=_blank>Horizontal Pod Autoscaler<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> and can extend functionality without overwriting or duplication. With KEDA you can explicitly map the apps you want to use event-driven scale, with other apps continuing to function. This makes KEDA a flexible and safe option to run alongside any number of any other Kubernetes applications or frameworks.</p></div></div></div></div></section><section class=section>
+<div class="container has-text-centered">
+<p style=padding:10px class="title is-inline-block underline--magical is-size-1 is-size-3-mobile" id=features>
+Features
+</p><br>
+<div style=margin-top:20px class="columns is-multiline is-variable is-4">
+<div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-rocket fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Autoscaling Made Simple
+</p><p class="content is-medium">
+Bring rich scaling to every workload in your <a href=https://kubernetes.io target=_blank>Kubernetes<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> cluster
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-bolt fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Event-driven
+</p><p class="content is-medium">
+Intelligently scale your event-driven application
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-cubes fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Built-in Scalers
+</p><p class="content is-medium">
+Catalog of 50+ built-in scalers for various cloud platforms, databases, messaging systems, telemetry systems, CI/CD, and more
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-shapes fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Multiple Workload Types
+</p><p class="content is-medium">
+Support for variety of workload types such as deployments, jobs & custom resources with <code>/scale</code> sub-resource
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-seedling fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Reduce environmental impact
+</p><p class="content is-medium">
+Build sustainable platforms by optimizing workload scheduling and scale-to-zero
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-project-diagram fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Extensible
+</p><p class="content is-medium">
+Bring-your-own or use community-maintained scalers
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fas fa-cloud fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Vendor-Agnostic
+</p><p class="content is-medium">
+Support for triggers across variety of cloud providers & products
+</p></div></div></div><div class="column is-one-third">
+<div class="card has-no-shadow is-borderless has-extra-bottom-margin">
+<div class="card-content is-paddingless">
+<p class="title has-text-secondary is-spaced">
+<span class=icon>
+<i class="fa-lg fab fa-microsoft fa-2x"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+Azure Functions Support
+</p><p class="content is-medium">
+Run and scale your Azure Functions on Kubernetes in production workloads
+</p></div></div></div></div></div></section><section class="section has-background-black has-background-pattern">
+<div class=container>
+<div class="columns is-vcentered">
+<div class=column>
+<p class="title has-text-white-bis is-spaced">
+An overview of Kubernetes Event-Driven Autoscaling (KEDA)
+</p><p class="subtitle has-text-light">
+From KubeCon Europe 2022
+</p></div><div class=column>
+<iframe class=is-youtube-embed src=https://www.youtube.com/embed/vDMLswzc9tI frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div></div></section><section class=section>
+<div class=container>
+<div class=has-text-centered>
+<p style=padding:10px class="title is-inline-block is-size-1 is-size-3-mobile is-spaced underline--magical-2" id=scalers>
+Scalers
+</p><p class="subtitle has-text-dark is-size-4 is-size-5-mobile has-text-centered">
+Scalers represent event sources that KEDA can scale based on
+</p></div><br>
+<div style=margin-top:20px class="columns is-multiline">
+<div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/activemq/>
+ActiveMQ
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on ActiveMQ Queue.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.6+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/artemis/>
+ActiveMQ Artemis
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on ActiveMQ Artemis queues
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/apache-kafka/>
+Apache Kafka
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on an Apache Kafka topic or other services that support Kafka protocol.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/pulsar/>
+Apache Pulsar
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on an Apache Pulsar topic subscription.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.8</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-cloudwatch/>
+AWS CloudWatch
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on AWS CloudWatch.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-dynamodb/>
+AWS DynamoDB
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on the records count in AWS DynamoDB
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.7+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-dynamodb-streams/>
+AWS DynamoDB Streams
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on AWS DynamoDB Streams
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.8+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-kinesis/>
+AWS Kinesis Stream
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on AWS Kinesis Stream.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-sqs/>
+AWS SQS Queue
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on AWS SQS Queue.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-app-insights/>
+Azure Application Insights
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Application Insights metrics.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.6+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-storage-blob/>
+Azure Blob Storage
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on the count of blobs in a given Azure Blob Storage container.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-data-explorer/>
+Azure Data Explorer
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Data Explorer query result.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.7+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-event-hub/>
+Azure Event Hubs
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Event Hubs.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-log-analytics/>
+Azure Log Analytics
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Log Analytics query result
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-monitor/>
+Azure Monitor
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Monitor metrics.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.3+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-pipelines/>
+Azure Pipelines
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on agent pool queues for Azure Pipelines.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.3+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-service-bus/>
+Azure Service Bus
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Service Bus Queues or Topics.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-storage-queue/>
+Azure Storage Queue
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Azure Storage Queues.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cassandra/>
+Cassandra
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Cassandra query results.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/couchdb/>
+CouchDB
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on CouchDB query results.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.9+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cpu/>
+CPU
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on cpu metrics.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cron/>
+Cron
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a cron schedule.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/datadog/>
+Datadog
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Datadog.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.6+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Datadog</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/elasticsearch/>
+Elasticsearch
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on elasticsearch search template query result.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/etcd/>
+Etcd
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on an etcd key-value pair. By watching an etcd key, a passively received push mode, the scaler can activate applications with lower load usage than frequent pull mode
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.9+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Huawei Cloud</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/external/>
+External
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on an external scaler.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/external-push/>
+External Push
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on an external push scaler.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-stackdriver/>
+Google Cloud Platform Stackdriver
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a metric obtained from Stackdriver.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>2.7+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-storage/>
+Google Cloud Platform Storage
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on the count of objects in a given Google Cloud Storage (GCS) bucket.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>2.7+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-pub-sub/>
+Google Cloud Platform‎ Pub/Sub
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Google Cloud Platform‎ Pub/Sub.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/graphite/>
+Graphite
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on metrics in Graphite.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/huawei-cloudeye/>
+Huawei Cloudeye
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a Huawei Cloudeye.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/ibm-mq/>
+IBM MQ
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on IBM MQ Queue
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/influxdb/>
+InfluxDB
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on InfluxDB queries
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/kubernetes-workload/>
+Kubernetes Workload
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on the count of running pods that match the given selectors.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.4+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/liiklus-topic/>
+Liiklus Topic
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Liiklus Topic.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/loki/>
+Loki
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Loki query result.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.9+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/memory/>
+Memory
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on memory metrics.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/metrics-api/>
+Metrics API
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a metric provided by an API
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mongodb/>
+MongoDB
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on MongoDB queries.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mssql/>
+MSSQL
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Microsoft SQL Server (MSSQL) query results.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.2+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mysql/>
+MySQL
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on MySQL query result.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.2+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/nats-jetstream/>
+NATS JetStream
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on NATS JetStream.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.8+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/nats-streaming/>
+NATS Streaming
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on NATS Streaming.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/new-relic/>
+New Relic
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on New Relic NRQL
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>2.6+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/openstack-metric/>
+OpenStack Metric
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a threshold reached by a specific measure from OpenStack Metric API.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.3+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/openstack-swift/>
+OpenStack Swift
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on the count of objects in a given OpenStack Swift container.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/postgresql/>
+PostgreSQL
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on a PostgreSQL query.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.2+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/predictkube/>
+Predictkube
+</a>
+<br><br>
+<div class="content is-medium">
+AI-based predictive scaling based on Prometheus metrics & PredictKube SaaS.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.6+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Dysnix</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/prometheus/>
+Prometheus
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Prometheus.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/rabbitmq-queue/>
+RabbitMQ Queue
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on RabbitMQ Queue.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-lists/>
+Redis Lists
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Redis Lists.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.0+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-cluster-lists/>
+Redis Lists (supports Redis Cluster)
+</a>
+<br><br>
+<div class="content is-medium">
+Redis Lists scaler with support for Redis Cluster topology
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-sentinel-lists/>
+Redis Lists (supports Redis Sentinel)
+</a>
+<br><br>
+<div class="content is-medium">
+Redis Lists scaler with support for Redis Sentinel topology
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-streams/>
+Redis Streams
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Redis Streams.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v1.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-cluster-streams/>
+Redis Streams (supports Redis Cluster)
+</a>
+<br><br>
+<div class="content is-medium">
+Redis Streams scaler with support for Redis Cluster topology
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.1+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-sentinel-streams/>
+Redis Streams (supports Redis Sentinel)
+</a>
+<br><br>
+<div class="content is-medium">
+Redis Streams scaler with support for Redis Sentinel topology
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.5+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/selenium-grid-scaler/>
+Selenium Grid Scaler
+</a>
+<br><br>
+<div class="content is-medium">
+Scales Selenium browser nodes based on number of requests waiting in session queue
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.4+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Volvo Cars</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/solace-pub-sub/>
+Solace PubSub+ Event Broker
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on Solace PubSub+ Event Broker Queues
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>2.4+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div></div></div></section><section class="section has-background-white-bis">
+<div class=container>
+<div class=has-text-centered>
+<p style=padding:10px class="title is-spaced is-size-1 is-size-3-mobile is-inline-block underline--magical-3" id=samples>
+Highlighted Samples
+</p><p class="subtitle is-size-4 is-size-5-mobile">
+We provide a <a href=https://github.com/kedacore/samples target=_blank>variety of samples</a>, but here are some of our highlights:
+</p></div><div style=margin-top:20px class=columns>
+<div class="column is-one-third">
+<div class="card is-info-light">
+<div class=card-content>
+<p class="title is-size-2 is-size-3-mobile is-spaced">
+<span class="icon has-text-primary">
+<i class="fas fa-envelope"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+<a href=https://github.com/kedacore/sample-go-rabbitmq target=_blank>
+RabbitMQ and Go
+</a>
+</p><p class="content is-medium">
+RabbitMQ Consumer written in Go that is scaled with KEDA.
+</p></div></div></div><div class="column is-one-third">
+<div class="card is-info-light">
+<div class=card-content>
+<p class="title is-size-2 is-size-3-mobile is-spaced">
+<span class="icon has-text-primary">
+<i class="fas fa-bolt"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+<a href=https://github.com/kedacore/sample-hello-world-azure-functions target=_blank>
+Azure Functions and Queue
+</a>
+</p><p class="content is-medium">
+Azure Function that triggers on Azure Storage Queues.
+</p></div></div></div><div class="column is-one-third">
+<div class="card is-info-light">
+<div class=card-content>
+<p class="title is-size-2 is-size-3-mobile is-spaced">
+<span class="icon has-text-primary">
+<i class="fas fa-cloud"></i>
+</span>
+</p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
+<a href=https://github.com/kedacore/sample-dotnet-worker-servicebus-queue target=_blank>
+.NET Core worker and Azure Service Bus
+</a>
+</p><p class="content is-medium">
+Scale a .NET Core worker based on an Azure Service Bus queue.
+</p></div></div></div></div></div></section><section class=section>
+<div class=container>
+<div class=has-text-centered>
+<p style=padding:10px class="title is-size-1 is-size-3-mobile is-spaced is-inline-block underline--magical-4">
+Users
+</p><p class="subtitle is-size-4 is-size-5-mobile">
+A variety of users are autoscaling applications with KEDA:
+</p></div><br>
+<div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
+<div class="column is-one-quarter">
+<a href=https://alibabacloud.com/ target=_blank>
+<img src=/img/logos/alibaba-cloud.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://ampify.io/ target=_blank>
+<img src=/img/logos/ampify-io.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://airflow.apache.org/ target=_blank>
+<img src=/img/logos/apache-airflow.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.astronomer.io target=_blank>
+<img src=/img/logos/astronomer.svg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://baseten.co/ target=_blank>
+<img src=/img/logos/baseten.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.bolddesk.com/ target=_blank>
+<img src=/img/logos/bolddesk.svg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://chattermill.com target=_blank>
+<img src=/img/logos/chattermill.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://cisco.com target=_blank>
+<img src=/img/logos/cisco.svg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.cloud-trade.com target=_blank>
+<img src=/img/logos/cloud-trade.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://coralogix.com/ target=_blank>
+<img src=/img/logos/coralogix.gif>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://docplanner.tech target=_blank>
+<img src=/img/logos/docplanner-tech.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.fedex.com/en-us/home.html/ target=_blank>
+<img src=/img/logos/fedex.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://fission.io/ target=_blank>
+<img src=/img/logos/fission.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.freepikcompany.com/ target=_blank>
+<img src=/img/logos/freepik-company.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.grafana.com target=_blank>
+<img src=/img/logos/grafana.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://github.com/hmcts/ target=_blank>
+<img src=/img/logos/hmcts.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://intension.de target=_blank>
+<img src=/img/logos/intension.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.intercept.cloud target=_blank>
+<img src=/img/logos/intercept.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://kendaxa.com target=_blank>
+<img src=/img/logos/kendaxa.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://home.kpmg/uk/en/home.html target=_blank>
+<img src=/img/logos/KPMG.jpeg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://underthehood.meltwater.com/ target=_blank>
+<img src=/img/logos/meltwater.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://metamaze.eu/ target=_blank>
+<img src=/img/logos/metamaze.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://microsoft.com target=_blank>
+<img src=/img/logos/microsoft.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.mivation.com target=_blank>
+<img src=/img/logos/mivation-inc.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://nemlig.com target=_blank>
+<img src=/img/logos/nemlig.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.theproindia.com target=_blank>
+<img src=/img/logos/pro-logo.svg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.purefacts.com target=_blank>
+<img src=/img/logos/purefacts.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://qonto.com target=_blank>
+<img src=/img/logos/qonto.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.reddit.com/ target=_blank>
+<img src=/img/logos/reddit.svg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://roadwork.io target=_blank>
+<img src=/img/logos/roadwork.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.schrederhyperion.com target=_blank>
+<img src=/img/logos/schreder-hyperion.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://scrm.lidl target=_blank>
+<img src=/img/logos/SCRM.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://seldon.io/ target=_blank>
+<img src=/img/logos/seldon.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://sharry.tech/ target=_blank>
+<img src=/img/logos/sharry.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://stilingue.com.br target=_blank>
+<img src=/img/logos/stilingue.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.swisslife.ch/ target=_blank>
+<img src=/img/logos/swisslife.jpg>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.teamleader.eu target=_blank>
+<img src=/img/logos/teamleader.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://vitc.gmbh target=_blank>
+<img src=/img/logos/vitc.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://www.workiva.com target=_blank>
+<img src=/img/logos/workiva.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://zapier.com target=_blank>
+<img src=/img/logos/zapier.png>
+</a>
+</div></div></div></section><hr>
+<section class=section>
+<div class=container>
+<div class=has-text-centered>
+<p style=padding:10px class="title is-size-1 is-size-3-mobile is-spaced is-inline-block underline--magical-4">
+Partners
+</p><p class="subtitle is-size-4 is-size-5-mobile">
+KEDA is supported by and built by our community, including the following companies:
+</p></div><br>
+<div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
+<div class="column is-one-quarter">
+<a href=https://microsoft.com target=_blank>
+<img src=/img/logos/microsoft.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://redhat.com target=_blank>
+<img src=/img/logos/red-hat.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://scrm.lidl target=_blank>
+<img src=/img/logos/SCRM.png>
+</a>
+</div></div></div></section><hr>
+<section class=section>
+<div class=container>
+<div class=has-text-centered>
+<p style=padding:10px class="title is-size-1 is-size-3-mobile is-spaced is-inline-block underline--magical-4">
+Supported by
+</p><p class="subtitle is-size-4 is-size-5-mobile">
+KEDA is supported by the following companies that provide their services for free:
+</p></div><br>
+<div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
+<div class="column is-one-quarter">
+<a href=https://azure.microsoft.com/en-us/services/devops/ target=_blank>
+<img src=/img/logos/azure-devops.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://snyk.io target=_blank>
+<img src=/img/logos/snyk.png>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://vexxhost.com target=_blank>
+<img src=/img/logos/vexxhost.png>
+</a>
+</div></div></div></section><section class="section has-background-light">
+<div class=container>
+<div class=has-text-centered>
+<p class="title is-size-1 is-inline-block underline--magical-5 is-size-3-mobile" id=get-involved>
+Get Involved
+</p></div><div style=margin-top:15px class="content is-medium">
+<p>If you&rsquo;re interested in contributing to or participating in the direction of KEDA, you can join our community meetings.</p><ul>
+<li>Meeting time: Bi-weekly Tues 17:00 (European time - CEST/CET). (Subscribe to <a href="https://calendar.google.com/calendar?cid=bjE0bjJtNWM0MHVmam1ob2ExcTgwdXVkOThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target=_blank>Google Agenda<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> | <a href="https://dateful.com/time-zone-converter?t=04:00%20pm&tz=UTC" target=_blank>Convert to your timezone<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a>)</li><li>Zoom link: <a href="https://zoom.us/j/96655859927?pwd=cGxaWWpHOVZSMEZDY3NuWWVIMERtdz09" target=_blank>https://zoom.us/j/96655859927?pwd=cGxaWWpHOVZSMEZDY3NuWWVIMERtdz09<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> (Password: keda)</li><li>Meeting agenda: <a href="https://docs.google.com/document/d/1zdwD6j86GxcCe5S5ay9suCO77WPrEDnKSfuaI24EwM4/edit?usp=sharing" target=_blank>Google Docs<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a></li></ul><p>Just want to learn or chat about KEDA? Feel free to join the conversation in the <a href=https://kubernetes.slack.com/messages/CKZJ36A5D target=_blank>#keda<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> (general), <a href=https://kubernetes.slack.com/archives/C01JGDP8MB8 target=_blank>#keda-dev<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> & <a href=https://kubernetes.slack.com/archives/C03M2DKCS3H target=_blank>#keda-docs<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a> channel(s) on the <a href=https://slack.k8s.io target=_blank>Kubernetes Slack<sup><i class="fas fa-xs fa-external-link-alt"></i></sup></a>!</p></div></div></section><section class=section>
+<div class="container has-text-centered">
+<p class="title is-size-3 is-size-4-mobile has-text-weight-semibold">
+KEDA is a <a id=cncf href=https://cncf.io target=_blank>Cloud Native Computing Foundation</a> incubation project
+</p><img class=is-cncf-logo src=/img/logos/cncf-color.png alt="CNCF logo">
+</div></section></main><footer class="footer has-background-pattern">
+<div class=container>
+<div class="columns is-vcentered is-variable is-8">
+<div class="column is-one-third">
+<img class=is-footer-logo src=/img/logos/keda-icon-white.png alt="KEDA footer logo">
+</div><div class=column>
+<p class=is-size-4>
+<a href=/blog class="has-text-white has-text-weight-semibold">
+<span>
+Blog
+</span>
+</a>
+</p><p class=is-size-4>
+<a href class="has-text-white has-text-weight-semibold">
+<span>
+Community
+</span>
+</a>
+</p><p class=is-size-4>
+<a href class="has-text-white has-text-weight-semibold">
+<span>
+Project
+</span>
+</a>
+</p><p class=is-size-4>
+<a href=https://store.cncf.io/collections/keda class="has-text-white has-text-weight-semibold">
+<span>
+Merch
+</span>
+<span class="icon has-text-white-bis">
+<i class="fas fa-xs fa-external-link-alt"></i>
+</span>
+</a>
+</p></div><div class=column>
+<div class="buttons are-normal">
+<a class="button is-twitter-blue" href=https://twitter.com/kedaorg target=_blank>
+<span class="icon has-text-white">
+<i class="fab fa-twitter"></i>
+</span>
+<span class="has-text-weight-bold has-text-white">
+Twitter
+</span>
+</a>
+<a class="button is-white" href=https://github.com/kedacore/keda target=_blank>
+<span class="icon has-text-black">
+<i class="fab fa-github"></i>
+</span>
+<span class="has-text-weight-bold has-text-black">
+GitHub
+</span>
+</a>
+<a class="button is-slack-green" href=https://kubernetes.slack.com/messages/CKZJ36A5D target=_blank>
+<span class="icon has-text-white">
+<i class="fab fa-slack"></i>
+</span>
+<span class="has-text-weight-bold has-text-white">
+Slack
+</span>
+</a>
+</div></div></div><div class=has-text-weight-medium>
+<p>
+&copy; KEDA Authors 2014-2022 | Documentation Distributed under <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY-4.0</a>
+</p><br>
+<p>
+&copy; 2022 <a href=https://linuxfoundation.org target=_blank>The Linux Foundation</a>. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=https://linuxfoundation.org/trademark-usage target=_blank>Trademark Usage</a> page.
+</p></div></div></footer><script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.2.1/dist/alpine.js defer></script>
+<script>const navbarHeight=document.getElementsByClassName("navbar")[0].offsetHeight,extraPadding=15,navbarOffset=-1*(navbarHeight+extraPadding);var shiftWindow=function(){scrollBy(0,navbarOffset)};window.addEventListener("hashchange",shiftWindow),window.addEventListener("pageshow",shiftWindow);function load(){window.location.hash&&shiftWindow()}</script>
+<script type=text/javascript src=https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js></script>
+<script type=text/javascript>docsearch({apiKey:"c42d672f33ecea131ab51c71699b7c37",indexName:"keda",inputSelector:"#search-bar",debug:!1})</script>
+<script type=text/javascript>const builtInScalers=document.querySelectorAll("#built-in-scalers"),externalScalers=document.getElementById("external-scalers"),btnFocusOnMount=document.getElementById("btn-focus-on-mount"),builtInSearchResultCount=document.querySelector(".results"),externalSearchResultCount=document.querySelector(".external-results");let btns=document.getElementsByClassName("filterBtn");for(let e=0;e<btns.length;e++)btns[e].addEventListener("click",function(){let t=btns[e].value.toLowerCase();t==="built-in-scalers"?(builtInScalers.forEach(e=>e.style.display="flex"),externalScalers.style.display="none",builtInSearchResultCount.style.display="block",externalSearchResultCount.style.display="none"):t==="external-scalers"&&(btnFocusOnMount.classList.remove("is-focused"),builtInScalers.forEach(e=>e.style.display="none"),externalScalers.style.display="inline",builtInSearchResultCount.style.display="none",externalSearchResultCount.style.display="block")})</script>
+<script src=https://unpkg.com/lunr/lunr.js></script>
+<script>window.addEventListener("DOMContentLoaded",()=>{"use strict";let s,o;const g=window.location.pathname,j=String(g).split("/"),f=j[2],y=document.getElementById("search"),i=document.getElementById("search-input"),a=document.querySelector(".is-search-result"),n=document.querySelector(".is-external-search-result"),b=document.querySelector(".results"),v=document.querySelector(".external-results"),t=document.getElementById("is-search-template"),p=document.getElementById("external-scalers"),_=document.getElementById("built-in-scalers"),d=document.getElementById("external-banner"),h=document.getElementsByClassName("artifacthub-widget-group"),u=500;let e=i.value.trim(),l={};e||(r(),c()),i.addEventListener("input",function(l){l.preventDefault(),clearTimeout(o);const s=i.value.trim(),m=document.querySelectorAll(".filterBtn");if(m.forEach(e=>e.disabled=!0),!s){const e=document.querySelectorAll(".filterBtn");e.forEach(e=>e.disabled=!1)}if(e=s,p.style.display==="inline"){d.style.display="none",e===""&&(d.style.display="block");let t=new URL("https://artifacthub.io/api/v1/packages/search");for(t.search=new URLSearchParams({kind:"8",sort:"relevance",ts_query_web:e!==""?e:""}),o=setTimeout(()=>{h[0].dataset.url=t,c()},u);n.firstChild.nextSibling;)n.removeChild(n.firstChild.nextSibling.nextSibling.nextElementSibling);return}for(o=setTimeout(r,u);a.firstChild.nextSibling;)a.removeChild(t.nextSibling.nextElementSibling)},!1);async function c(){const o=h[0].dataset.url,s=await fetch(o).then(e=>e.json()).then(e=>e.packages).catch(e=>console.error("error:",e));if("content"in t){const o=document.createElement("h3");o.id="external-search-results",o.className="subtitle is-size-3 external-search-results",s.length==0?o.textContent=`No results found for "${e}"`:s.length==1?o.textContent=`Found one result for "${e}"`:s.length>1&&e===""?o.textContent=`${s.length} scalers available`:o.textContent=`Found ${s.length} results for "${e}"`,v.replaceChildren(o),s.forEach(function(e){const s=t.content.cloneNode(!0);s.querySelector(".scaler-title").textContent=e.display_name,s.querySelector(".scaler-title").setAttribute("href",e.repository.url),e.description&&(s.querySelector(".description").textContent=e.description),e.repository.organization_name&&(s.querySelector(".maintainer").textContent=e.repository.organization_name),e.repository.user_alias&&(s.querySelector(".maintainer").textContent=e.repository.user_alias),e.version&&(s.querySelector(".availability").textContent=`v${e.version}`),n.appendChild(s)},this)}}async function r(){const t=await fetch("/index.json",{method:"GET"}).then(e=>e.json()).then(e=>e).catch(e=>console.error("error:",e));s=lunr(function(){const e=t;this.ref("title"),this.field("title",{boost:20,usePipeline:!0,wildcard:lunr.Query.wildcard.TRAILING,presence:lunr.Query.presence.REQUIRED}),this.field("maintainer",{boost:15}),this.field("href",{boost:15}),this.field("description",{boost:10}),this.field("availability",{boost:5}),e.forEach(function(e){e.version===f&&(this.add(e),l[e.title]={href:e.href,title:e.title,maintainer:e.maintainer,description:e.description,availability:e.availability})},this)}),m(e)}function m(e){let o=s.search("");e.length>0&&(o=s.search(e),o=o.length<=0?s.search(`${e}*`):o);const n=o;if("content"in t){const s=document.createElement("h3");s.id="search-results",s.className="subtitle is-size-3",n.length==0?s.textContent=`No results found for "${e}"`:n.length==1?s.textContent=`Found one result for "${e}"`:n.length>1&&e===""?s.textContent=`${n.length} scalers available`:s.textContent=`Found ${n.length} results for "${e}"`,b.replaceChildren(s),n.forEach(function(s){const e=l[s.ref],n=t.content.cloneNode(!0);n.querySelector(".scaler-title").textContent=e.title,n.querySelector(".scaler-title").setAttribute("href",e.href),e.description&&(n.querySelector(".description").textContent=e.description),e.maintainer&&(n.querySelector(".maintainer").textContent=e.maintainer),e.availability&&(n.querySelector(".availability").textContent=e.availability),a.appendChild(n)},this)}}},!1)</script>
+</body></html>

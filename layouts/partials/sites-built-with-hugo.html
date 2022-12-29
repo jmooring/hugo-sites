@@ -17,7 +17,8 @@
   {{- $version := "" }}
   {{- $url := printf "https://%s/" (path.Join .Title .Params.path) }}
 
-  {{- with resources.GetRemote $url }}
+  {{ $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
+  {{- with resources.GetRemote $url $opts}}
     {{- with .Err }}
       {{- errorf "Unable to reach %s: %s" $url . }}
     {{- else }}

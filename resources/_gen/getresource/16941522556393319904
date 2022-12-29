@@ -1,0 +1,265 @@
+HTTP/2.0 200 OK
+Age: 84752
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 28 Dec 2022 08:55:57 GMT
+Etag: "5d5b3ffa40ac306b2e71b78abc6694cb-ssl-df"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Nf-Request-Id: 01GNEFYFD88Y14CW53GJ4JJT4R
+
+<!doctype html><html lang=en class=no-js>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=generator content="Hugo 0.89.4"><link rel=alternate type=application/rss+xml href=https://etcd.io/index.xml>
+<meta name=ROBOTS content="INDEX, FOLLOW">
+<link rel="shortcut icon" href=/favicon.png>
+<title>etcd</title>
+<meta name=description content="
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+        
+          
+          
+          
+            
+                
+
+
+  A distributed, reliable key-value store for …">
+<meta property="og:title" content="etcd">
+<meta property="og:description" content="A distributed, reliable key-value store for the most critical data of a distributed system">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://etcd.io/"><meta property="og:site_name" content="etcd">
+<meta itemprop=name content="etcd">
+<meta itemprop=description content="A distributed, reliable key-value store for the most critical data of a distributed system"><meta name=twitter:card content="summary">
+<meta name=twitter:title content="etcd">
+<meta name=twitter:description content="A distributed, reliable key-value store for the most critical data of a distributed system">
+<link rel=preload href=/scss/main.min.f11292a568be4c98f972cbeacbe461f111cd57cd74f0ea6a3db235f8483ad7a6.css as=style>
+<link href=/scss/main.min.f11292a568be4c98f972cbeacbe461f111cd57cd74f0ea6a3db235f8483ad7a6.css rel=stylesheet integrity>
+<script src=https://code.jquery.com/jquery-3.5.1.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://unpkg.com/lunr@2.3.8/lunr.min.js integrity=sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY crossorigin=anonymous></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VF9H3EHMDK"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-VF9H3EHMDK',{anonymize_ip:!1})}</script>
+</head>
+<body class=td-home>
+<header>
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+<a class=navbar-brand href=/>
+<span class=navbar-logo><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="-6.31 3.69 510.12 493.62"><defs><style>.cls-1{fill:#419eda}</style></defs><path d="M228.175 224.684a31.994 31.994.0 11-32.007-31.986 32.011 32.011.0 0132.007 31.986zm41.37.0a32.007 32.007.0 1032.007-31.986 31.988 31.988.0 00-32.007 31.986z" class="cls-1"/><path d="M487.371 259.399a87.82 87.82.0 01-7.07.267 92.362 92.362.0 01-40.621-9.455 377.209 377.209.0 005.47-71.86 371.808 371.808.0 00-46.507-55.11 92.396 92.396.0 0132.772-35.102l6.016-3.729-4.695-5.3a244.906 244.906.0 00-85.524-62.377l-6.507-2.828-1.654 6.862a92.144 92.144.0 01-23.19 42.096 371.928 371.928.0 00-67.006-27.602 370.624 370.624.0 00-66.908 27.558 91.915 91.915.0 01-23.098-42.003l-1.681-6.884-6.486 2.817A247.232 247.232.0 0065.164 79.104l-4.689 5.3 6.005 3.724a92.249 92.249.0 0132.695 34.917A374.63 374.63.0 0052.75 177.953a376.956 376.956.0 005.328 72.334 92.115 92.115.0 01-40.376 9.374 86.36 86.36.0 01-7.086-.268l-7.053-.551.655 7.042a243.413 243.413.0 0032.897 100.678l3.581 6.098 5.372-4.575a92.052 92.052.0 0143.592-20.406 373.97 373.97.0 0037.308 60.76 377.717 377.717.0 0070.69 17.382 91.87 91.87.0 01-5.885 48.232l-2.686 6.54 6.9 1.529a246.355 246.355.0 0052.966 5.857l52.954-5.857 6.906-1.529-2.675-6.54a91.755 91.755.0 01-5.869-48.286 377.784 377.784.0 0070.407-17.328 372.3 372.3.0 0037.335-60.815 92.233 92.233.0 0143.81 20.428l5.377 4.553 3.587-6.049a242.844 242.844.0 0032.859-100.672l.655-7.037zM324.644 345.45a285.884 285.884.0 01-151.628.0 290.124 290.124.0 01-46.141-143.385 288.675 288.675.0 0154.957-52.315 293.065 293.065.0 0167.028-36.462 293.976 293.976.0 0166.891 36.364 290.886 290.886.0 0155.198 52.675 292.253 292.253.0 01-13.817 74.682 293.726 293.726.0 01-32.488 68.441z" class="cls-1"/></svg></span><span class="text-uppercase font-weight-bold">etcd</span>
+</a>
+<div class="td-navbar-nav-scroll ml-md-auto" id=main_navbar>
+<ul class="navbar-nav mt-2 mt-lg-0">
+<li class="nav-item mr-4 mb-2 mb-lg-0">
+<a class=nav-link href=/docs/latest/><span>Docs</span></a>
+</li>
+<li class="nav-item mr-4 mb-2 mb-lg-0">
+<a class=nav-link href=/blog/><span>Blog</span></a>
+</li>
+<li class="nav-item mr-4 mb-2 mb-lg-0">
+<a class=nav-link href=/community/><span>Community</span></a>
+</li>
+<li class="nav-item mr-4 mb-2 mb-lg-0">
+<a class=nav-link href=/docs/latest/install/><span>Install</span></a>
+</li>
+<li class="nav-item mr-4 mb-2 mb-lg-0">
+<a class=nav-link href=http://play.etcd.io/play target=_blank><span>Play</span></a>
+</li>
+<li class="nav-item dropdown mr-4 d-none d-lg-block">
+<a class="nav-link dropdown-toggle disabled" id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Versions</a>
+</li>
+</ul>
+</div>
+<div class="navbar-nav d-none d-lg-block">
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.dfef2c3091cb6a9080e31d1b3c9e65fb.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+</div>
+</nav>
+</header>
+<div class="container-fluid td-default td-outer">
+<main role=main class=td-main>
+<section id=td-cover-block-0 class="row td-cover-block td-cover-block--height-min td-overlay td-overlay--dark -bg-primary">
+<div class="container td-overlay__inner">
+<div class=row>
+<div class=col-12>
+<div class=text-center>
+<div class="pt-3 lead">
+<img src=etcd-horizontal-white.png class=site-logo>
+<h2 class=mt-4>
+A distributed, reliable key-value store for the most critical data of a distributed system
+</h2>
+<div class="mt-5 mx-auto">
+<a class="btn btn-lg btn-secondary mr-3 mb-4" href=/docs/v3.5/>
+Learn more
+</a>
+<a class="btn btn-lg btn-primary mr-3 mb-4" href=/docs/v3.5/quickstart>
+Quickstart<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<a id=td-block-1 class=td-offset-anchor></a>
+<section class="row td-box td-box--white position-relative td-box--gradient td-box--height-auto">
+<div class="container text-center td-arrow-down">
+<span class="h4 mb-0">
+<h1>What is etcd?</h1>
+<p>
+<b>etcd</b> is a strongly consistent, distributed key-value store that
+provides a reliable way to store data that needs to be accessed by a
+distributed system or cluster of machines. It gracefully handles leader
+elections during network partitions and can tolerate machine failure, even
+in the leader node.
+<a href=/docs/v3.5/>Learn more<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+</p>
+</span>
+</div>
+</section>
+<div class=container>
+<section class=bg-gray-100>
+<h1>Features</h1>
+<div class=c-features>
+<div class="col-md-4 o-features__feature">
+<div>
+<h3>Simple interface</h3>
+<p class=lead>Read and write values using standard HTTP tools, such as curl</p>
+</div>
+<img class=o-feature__icon src=/img/interface.svg alt="Simple interface feature icon">
+</div>
+<div class="col-md-4 o-features__feature">
+<div>
+<h3>Key-value storage</h3>
+<p class=lead>Store data in hierarchically organized directories, as in a standard filesystem</p>
+</div>
+<img class=o-feature__icon src=/img/kv.svg alt="Key-value storage feature icon">
+</div>
+<div class="col-md-4 o-features__feature">
+<div>
+<h3>Watch for changes</h3>
+<p class=lead>Watch specific keys or directories for changes and react to changes in values</p>
+</div>
+<img class=o-feature__icon src=/img/watch.svg alt="Watch for changes feature icon">
+</div>
+</div>
+<hr>
+<div class="c-features mt-5">
+<div class=col-md-3>
+<h3><i class="fas fa-lock"></i></h3>
+<p>Optional SSL client certificate authentication</p>
+</div>
+<div class=col-md-3>
+<h3><i class="fas fa-chart-bar"></i></h3>
+<p>Benchmarked at 1000s of writes/s per instance</p>
+</div>
+<div class=col-md-3>
+<h3><i class="fas fa-clock"></i></h3>
+<p>Optional TTLs for keys expiration</p>
+</div>
+<div class=col-md-3>
+<h3><i class="fas fa-arrows-alt"></i></h3>
+<p>Properly distributed via Raft protocol</p>
+</div>
+</div>
+</section>
+<section class=home--top-section>
+<h1>Used by</h1>
+<div class=c-used-by__users>
+<div class=c-used-by__user>
+<a href=https://kubernetes.io target=_blank rel=noopener>
+<img class=used-by-logo src=https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/horizontal/color/kubernetes-horizontal-color.png alt="Kubernetes logo">
+</a>
+</div><div class=c-used-by__user>
+<a href=https://rook.io target=_blank rel=noopener>
+<img class=used-by-logo src=https://raw.githubusercontent.com/cncf/artwork/master/projects/rook/horizontal/color/rook-horizontal-color.png alt="Rook logo">
+</a>
+</div><div class=c-used-by__user>
+<a href=https://coredns.io target=_blank rel=noopener>
+<img class=used-by-logo src=https://raw.githubusercontent.com/cncf/artwork/master/projects/coredns/horizontal/color/coredns-horizontal-color.png alt="CoreDNS logo">
+</a>
+</div><div class=c-used-by__user>
+<a href=https://eng.uber.com/m3/ target=_blank rel=noopener>
+<img class=used-by-logo src=/img/m3-logo.png alt="M3 logo">
+</a>
+</div>
+</div>
+</section>
+<section class=home--top-section>
+<h4>etcd is a <a href=https://cncf.io>CNCF</a> project</h4>
+<img class=cncf-logo src=https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/color/cncf-color.png alt="Cloud Native Computing Foundation logo">
+</section>
+</div>
+</main>
+<footer class="bg-dark py-5 row d-print-none">
+<div class="container-fluid mx-sm-5">
+<div class=row>
+<div class="col-6 col-sm-4 text-xs-center order-sm-2">
+<ul class="list-inline mb-0">
+<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Google Group" aria-label="Google Group">
+<a class=text-white target=_blank rel=noopener href="https://groups.google.com/forum/?hl=en#!forum/etcd-dev" aria-label="Google Group">
+<i class="fab fa-google"></i>
+</a>
+</li>
+<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title=Twitter aria-label=Twitter>
+<a class=text-white target=_blank rel=noopener href=https://twitter.com/etcdio aria-label=Twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Stack Overflow" aria-label="Stack Overflow">
+<a class=text-white target=_blank rel=noopener href=https://stackoverflow.com/questions/tagged/etcd aria-label="Stack Overflow">
+<i class="fab fa-stack-overflow"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+<ul class="list-inline mb-0">
+<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Etcd on GitHub" aria-label="Etcd on GitHub">
+<a class=text-white target=_blank rel=noopener href=https://github.com/etcd-io/etcd aria-label="Etcd on GitHub">
+<i class="fab fa-github-square"></i>
+</a>
+</li>
+<li class="list-inline-item mx-2 h3" data-toggle=tooltip data-placement=top title="Etcd.io on GitHub" aria-label="Etcd.io on GitHub">
+<a class=text-white target=_blank rel=noopener href=https://github.com/etcd-io/website aria-label="Etcd.io on GitHub">
+<i class="fab fa-github"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+<small class=text-white>&copy; 2013-2022 etcd Authors</small>
+</div>
+</div>
+<div class="row text-center text-white small">
+<div class="col-12 text-center py-2 order-sm-2">
+<a href=https://www.linuxfoundation.org/terms target=_blank rel=noopener>Terms</a> |
+<a href=https://www.linuxfoundation.org/privacy target=_blank rel=noopener>Privacy</a> |
+<a href=https://www.linuxfoundation.org/trademark-usage target=_blank rel=noopener>Trademarks</a> |
+<a href=https://github.com/etcd-io/website/blob/main/LICENSE target=_blank rel=noopener>License</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js integrity=sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js integrity=sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF crossorigin=anonymous></script>
+<script src=/js/tabpane-persist.js></script>
+<script src=/js/main.min.3b172c13b62c2bea8b1c9d2599cddc8cf89718a92d792c680871c81ba43d8c85.js integrity="sha256-OxcsE7YsK+qLHJ0lmc3cjPiXGKkteSxoCHHIG6Q9jIU=" crossorigin=anonymous></script>
+</body>
+</html>
