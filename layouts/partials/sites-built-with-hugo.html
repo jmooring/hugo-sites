@@ -1,9 +1,9 @@
 {{- $hugoSites := slice }}
 
-{{- /* Use \x22 instead of double quote to get around VS Code syntax highlighting bug. */}}
-{{- $regexDescMeta := `(?s)<meta\s+(?:itemprop|name)=\s*(\x22|')?description(\x22|')?\s+content=\s*(\x22|')?.*?(\x22|')?\s*/?>`  }}
-{{- $regexDescOG :=  `(?s)<meta\s+property=\s*(\x22|')?og:description(\x22|')?\s+content=\s*(\x22|')?.*?(\x22|')?\s*/?>` }}
-{{- $regexDescValue :=  `(?s).*content=\s*(?:\x22|')?(.*?)(?:\x22|').*` }}
+{{- $regexDescMeta := `(?s)<meta\s+(?:itemprop|name)=\s*"?description"?\s+content=\s*"?.*?"?\s*/?>`  }}
+{{- $regexDescOG :=  `(?s)<meta\s+property=\s*"?og:description"?\s+content=\s*"?.*?"?\s*/?>` }}
+{{- $regexDescTwitter :=  `(?s)<meta\s+name=\s*"?twitter:description"?\s+content=\s*"?.*?"?\s*/?>` }}
+{{- $regexDescValue :=  `(?s).*content=\s*"?(.*?)".*` }}
 {{- $regexTitle := `(?s)<title>.*?</title>` }}
 {{- $regexTitleValue := `(?s)<title>(.*)</title>` }}
 {{- $regexVersion := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
@@ -17,7 +17,7 @@
   {{- $version := "" }}
   {{- $url := printf "https://%s/" (path.Join .Title .Params.path) }}
 
-  {{ $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
+  {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
   {{- with resources.GetRemote $url $opts}}
     {{- with .Err }}
       {{- errorf "Unable to reach %s: %s" $url . }}
@@ -41,10 +41,17 @@
           {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
         {{- end }}
       {{- else }}
-        {{- /* Get description from meta element. */}}
-        {{- with findRE $regexDescMeta .Content }}
+        {{- /* Get description from Twitter data. */}}
+        {{- with findRE $regexDescTwitter .Content }}
           {{- with index . 0 }}
             {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
+          {{- end }}
+        {{- else }}
+          {{- /* Get description from meta element. */}}
+          {{- with findRE $regexDescMeta .Content }}
+            {{- with index . 0 }}
+              {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
+            {{- end }}
           {{- end }}
         {{- end }}
       {{- end }}
@@ -112,11 +119,11 @@
       {{- range . }}
         <tr>
           <td><a href="{{ .url }}" target="_blank">{{ .host }}</a></td>
-          <td>{{- .title | safeHTML }}</td>
+          <td>{{- trim .title " \n" | safeHTML }}</td>
           <td>{{- .types | safeHTML }}</td>
           <td>{{- .visibility | safeHTML }}</td>
           <td>{{- .version }}</td>
-          <td>{{- .description | safeHTML }}</td>
+          <td>{{- trim .description " \n" | safeHTML }}</td>
         </tr>
       {{- end }}
     </tbody>
