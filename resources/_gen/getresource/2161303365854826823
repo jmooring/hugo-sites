@@ -1,0 +1,981 @@
+HTTP/2.0 200 OK
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 29 Dec 2022 07:03:48 GMT
+Etag: "c261b0ea8d7cee39ea6bfb1176e45dcb-ssl-df"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Nf-Request-Id: 01GNEB3DAXA107YE37Z107SB0G
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.105.0">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>
+keptn | Cloud-native application life-cycle orchestration
+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="wDzKASaTgmwGTtV-z_O-NU_6e1wOgA7spKT96o9r8XE" />
+
+  
+<meta property="og:description" content="Keptn automates observability, SLO-driven multi-stage delivery, and operations">
+<meta property="og:title" content="Keptn - Cloud-native application life-cycle orchestration.">
+<meta property="og:image" content="https://keptn.sh/favicon.png">
+<meta property="og:url" content="https://keptn.sh/index.html">
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <link rel="icon" href="/favicon.png">
+  
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://code.jquery.com/" crossorigin>
+
+  
+  
+  
+  
+
+  <link rel="stylesheet" href="/css/style.min.56b93bfe602dd5ecc99ef2f7d475dbe947189cb519a05da79140791715e44356.css">
+  <link rel="stylesheet" href="/js/libs/doc/lightbox/css/lightbox.min.min.d624bb073151d487c75b7ef80a4ed989f9a38c3e18c905630a0d9c44ef609cb5.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+  <link rel="stylesheet" href="/css/owl.carousel.min.04c8ababb3cc94432effe5257019b3cbe246115252aa77d489d9c6e69d2caced.css">
+  <link rel="stylesheet" href="/css/owl.theme.min.85b6a337d83e29f4956a7522d210b874abc829709771eff299509f9e663ba65c.css">
+
+  
+  
+
+  
+
+
+
+  <script>
+    var branchName = "";
+    var docTitle = "Home";
+    var iconFile = "https:\/\/keptn.sh/images/icons.svg";
+    var buttonCopy = '';
+    var buttonPrint = '';
+    var buttonDownload = '';
+  </script>
+</head>
+
+<body class="page 
+page-home
+">
+  
+<div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+
+    <li class="menu-item-klt">
+      <a href="https://lifecycle.keptn.sh/">
+        <span>Lifecycle Toolkit</span>
+      </a>
+    </li>
+
+    
+    
+    <li class="menu-item-keptn v1 docs ">
+      <a href="/docs/">
+        
+        <span>Keptn v1 Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-community ">
+      <a href="/community/">
+        
+        <span>Community</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-resources ">
+      <a href="/resources/">
+        
+        <span>Resources</span>
+      </a>
+    </li>
+    
+
+    <li class="menu-item-tutorials">
+      <a href="https://tutorials.keptn.sh">
+        <span>Tutorials</span>
+      </a>
+    </li>
+
+    <li class="menu-item-integrations">
+      <a href="/docs/integrations/">
+        <span>Integrations</span>
+      </a>
+    </li>
+
+    <li class="menu-item-community">
+      <a href="https://github.com/keptn/community" target="_blank">
+        <span>Community</span>
+      </a>
+    </li>
+
+    <li class="menu-item-quickstart">
+      <a class="button button-secondary" href="/docs/quickstart/">Quick Start</a>
+    </li>
+  </ul>
+</div>
+
+
+
+  <div class="wrapper">
+    <div class="header fixed-top push-down">
+  <div class="container">
+    <div class="logo">
+      <a href="/">
+        <img alt="Keptn Homepage" class="logo-js" src="https://keptn.sh/images/home/hero/keptn-logo-white.svg">
+      </a>
+    </div>
+
+    <div class="logo-mobile">
+      <a href="/">
+        <img alt="Keptn Homepage" src="https://keptn.sh/images/logo-mobile.svg">
+      </a>
+    </div>
+
+    
+<div id="main-menu" class="main-menu">
+  <ul>
+
+    <li class="menu-item-klt">
+      <a href="https://lifecycle.keptn.sh/">
+        <span>Keptn Lifecycle Toolkit</span>
+      </a>
+    </li>
+
+    
+    
+    <li class="menu-item-keptn v1 docs ">
+      <a href="/docs/">
+        
+        <span>Keptn v1 Docs</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-community ">
+      <a href="/community/">
+        
+        <span>Community</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-resources ">
+      <a href="/resources/">
+        
+        <span>Resources</span>
+      </a>
+    </li>
+    
+
+
+    <li class="menu-item-tutorials">
+      <a href="https://tutorials.keptn.sh">
+        <span>Tutorials</span>
+      </a>
+    </li>
+
+    <li class="menu-item-integrations">
+      <a href="/docs/integrations/">
+        <span>Integrations</span>
+      </a>
+    </li>
+
+    
+    
+  </ul>
+  <a class="button button--header" href="/docs/quickstart/">Quick Start</a>
+</div>
+
+
+    
+<button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" role="presentation" aria-label="mobile menu trigger">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+  
+
+
+
+
+
+
+  
+    <div class="main">
+      
+
+
+<div class="teaser teaser-box--white section-primary push-down">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-column text-center">
+        <h3>Keptn 1.0.0 is available! Find <a href="./docs/news/release_announcements/keptn-100/">details on this release here</a>.</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="intro position-relative">
+  <div class="container pt-5">
+    <div class="row pt-4 pt-md-5">
+      <div class="col-12 teaser-box">
+        <div class="logo-intro d-none d-md-block">
+          <a href="/">
+            <img alt="Keptn Homepage" src="https://keptn.sh/images/home/hero/keptn-logo-white.svg">
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-5 col-lg-3 teaser-box teaser-box--white teaser-box--intro mr-lg-5 mr-xl-0">
+        
+        <h1 id="cloud-native-application-life-cycle-orchestration">Cloud-native application life-cycle orchestration</h1>
+
+        
+      </div>
+      <div class="col-12 col-md-7 col-lg-6 teaser-box teaser-box--white teaser-box--intro ml-lg-5 ml-lg-0">
+        
+        <h3 id="keptn-automates">Keptn automates</h3>
+<ul>
+<li>Observability, dashboards &amp; alerting</li>
+<li>SLO-driven multi-stage delivery</li>
+<li>Operations &amp; remediation</li>
+</ul>
+<p>declarative, extensible and based on GitOps</p>
+
+        
+        <div class="d-block d-lg-flex">
+          <div class="d-block">
+            <a class="d-inline-block button button--filledGreen mb-3 mb-lg-0 mr-0 mr-lg-3"
+               href="https://keptn.sh/docs/quickstart/">
+              Install Keptn!
+            </a>
+          </div>
+           
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pl-0 pr-0 pt-5 pt-sm-0 pt-md-5 pt-xl-0 pb-lg-5">
+    <div class="row pb-sm-4">
+      <div class="col-12 teaser-box teaser-box--negativeMargin">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/images/home/hero/graphic-hero.svg">
+          <img src="/images/home/hero/graphic-hero-XS.svg">
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="usage">
+  <div class="container pt-4 pt-md-0">
+    <div class="row">
+      <div class="col-12 teaser-box">
+        
+        <h2 id="keptn-overview">Keptn Overview</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/H4tZhpKxVC4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Keptn Overview Video"></iframe>
+</div>
+
+<h4 id="enabling-sres-to-declaratively-automate">Enabling SREs to declaratively automate</h4>
+<h2 id="observability-dashboards--alerting">Observability, Dashboards &amp; Alerting</h2>
+<p>Save time through automated configuration of observability tools, creation of dashboards, and alerting based on Service-Level Objectives (SLOs).</p>
+
+        
+
+        <div class="d-block d-md-flex">
+          <div class="d-block">
+            <a class="button button--filledGreen d-inline-block mb-3 mb-lg-0 mr-0 mr-md-3" href="https://keptn.sh/docs/quickstart/">
+              Start now!
+            </a>
+          </div>
+          
+          <div class="d-block">
+            <a class="button button--outlinedBlue d-inline-block" href="https://keptn.sh/docs/">
+              Read docs
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pl-0 pr-0 pt-5 pb-5">
+    <div class="row pb-4">
+      <div class="col-12 teaser-box">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/images/home/use-cases/graphic-use-case-01.svg">
+          <source media="(min-width: 576px)" srcset="/images/home/use-cases/graphic-use-case-01-S.svg">
+          <img src="/images/home/use-cases/graphic-use-case-01-XS.svg">
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="delivery">
+    <div class="container pt-4 pt-md-5">
+        <div class="row">
+            <div class="col-12 teaser-box">
+                
+                <h4 id="helping-sres-and-devops-to-automate">Helping SREs and DevOps to automate</h4>
+<h2 id="slo-driven-multi-stage-delivery">SLO-driven Multi-stage Delivery</h2>
+<p>Automatically set up a multi-stage environment with built-in quality gates orchestrating your continuous delivery workflow, and integrate your testing tools for performance testing, chaos testing, and more. Deploy reliably and confidently with SLO-based quality evaluations.</p>
+
+                
+
+                <div class="d-block d-md-flex">
+                    <a class="button d-inline-block button--filledGreen" href="https://keptn.sh/docs/quickstart/">
+                        Start now!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pl-0 pr-0 pt-5 pb-5">
+        <div class="row pb-4">
+            <div class="col-12 teaser-box">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="/images/home/use-cases/graphic-use-case-02.svg">
+                    <source media="(min-width: 576px)" srcset="/images/home/use-cases/graphic-use-case-02-S.svg">
+                    <img src="/images/home/use-cases/graphic-use-case-02-XS.svg">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="remediation">
+    <div class="container pt-4 pt-md-5">
+        <div class="row d-flex">
+            <div class="col-12 col-lg-8 pr-lg-5 pt-lg-4 teaser-box remediation-graphic d-none d-md-block">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="/images/home/use-cases/graphic-use-case-03a.svg">
+                    <img class="" src="/images/home/use-cases/graphic-use-case-03-XS.svg">
+                </picture>
+            </div>
+            <div class="col-12 col-lg-4 teaser-box pl-lg-5  remediation-content">
+                
+                <h4 id="resolving-production-issues-and-automating">Resolving production issues and automating</h4>
+<h2 id="operations-by-closed-loop-remediation">Operations by Closed-Loop Remediation</h2>
+<p>Keptn orchestrates &amp; evaluates remediation-actions such as scaling up, toggling feature flags or custom scripts.</p>
+
+                
+                <div class="d-inline-block d-md-flex">
+                    <a class="button button--filledGreen" href="https://keptn.sh/docs/quickstart/">
+                        Start now!
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-md-5">
+            <div class="col-12 pt-md-2 pt-lg-5 teaser-box remediation-graphic-bottom">
+                <picture>
+                    <img src="/images/home/use-cases/graphic-use-case-03b.svg">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="container pl-0 pr-0 pt-5 pb-5 d-md-none">
+        <div class="row pb-4">
+            <div class="col-12 teaser-box">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="/images/home/use-cases/graphic-use-case-03-S.svg">
+                    <img class="" src="/images/home/use-cases/graphic-use-case-03-XS.svg">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="capabilities">
+    <div class="container pb-5 pt-4 pt-md-5">
+        <div class="row pt-md-3 teaser-box teaser-box--white">
+            <div class="col-12 pb-4">
+                
+                <h4 id="key-capabilities">Key capabilities</h4>
+<h2 id="keptn-offers">Keptn offers</h2>
+
+                
+            </div>
+        </div>
+        <div class="pt-md-2 pb-4 teaser-card-container">
+  <div class="teaser-card teaser-card--blue mr-sm-4 mb-3 mb-sm-4">
+    <div class="teaser-card-picture">
+      <picture>
+        <img src="/images/home/capabilities/capabilities-01.svg">
+      </picture>
+    </div>
+    <div class="teaser-card-content">
+      
+      <h3 id="declarative-automation">Declarative automation</h3>
+<p>Multi-stage delivery without the need to write any pipeline code.</p>
+
+      
+    </div>
+  </div>
+
+  <div class="teaser-card teaser-card--blue mr-lg-4 mb-3 mb-sm-4">
+    <div class="teaser-card-picture">
+      <picture>
+        <img src="/images/home/capabilities/capabilities-02.svg">
+      </picture>
+    </div>
+    <div class="teaser-card-content">
+      
+      <h3 id="gitops-based">GitOps based</h3>
+<p>Delivery and operation workflows are based on Git.</p>
+
+      
+    </div>
+  </div>
+
+  <div class="teaser-card teaser-card--blue mr-sm-4 mr-lg-0 mb-3 mb-sm-4 mb-md-4">
+    <div class="teaser-card-picture">
+      <picture>
+        <img src="/images/home/capabilities/capabilities-03.svg">
+      </picture>
+    </div>
+    <div class="teaser-card-content">
+      
+      <h3 id="slo-driven-evaluation">SLO driven evaluation</h3>
+<p>Built-in quality-gates based on SRE principles.</p>
+
+      
+    </div>
+  </div>
+
+
+
+  <div class="teaser-card teaser-card--blue mr-lg-4 mb-3 mb-sm-4 mb-lg-0">
+    <div class="teaser-card-picture">
+      <picture>
+        <img src="/images/home/capabilities/capabilities-04.svg">
+      </picture>
+    </div>
+    <div class="teaser-card-content">
+      
+      <h3 id="closed-loop-remediation">Closed-loop remediation</h3>
+<p>Multi-step Auto-remediation workflows with built-in evaluation.</p>
+
+      
+    </div>
+  </div>
+
+  <div class="teaser-card teaser-card--blue mr-sm-4 mb-3 mb-sm-0">
+    <div class="teaser-card-picture">
+      <picture>
+        <img src="/images/home/capabilities/capabilities-05.svg">
+      </picture>
+    </div>
+    <div class="teaser-card-content">
+      
+      <h3 id="standard-based-interoperability">Standard-based Interoperability</h3>
+<p>Integrate or extend Keptn easily to work with your tool-suite.</p>
+
+      
+    </div>
+  </div>
+  <div class="teaser-card teaser-card--verticalCentered">
+    <div class="teaser-card-content teaser-card-content--blue teaser-card-content--courier">
+      
+      <h5 id="cloud-native-application-life-cycle-orchestration-by-keptn">Cloud-native application life-cycle orchestration by Keptn.</h5>
+<p>A declarative approach to automate delivery and operations for your workloads.</p>
+
+      
+      <div class="col-12 col-md-10 pr-0 pl-0 pt-4">
+        <a class="button button--filledGreen d-inline-block" href="https://keptn.sh/why-keptn/">
+          Explore more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+
+
+<div class="happy-users position-relative">
+    <div class="container pt-4 pt-md-5 pb-md-3">
+        <div class="row pt-md-3">
+            <div class="text col-12 pb-md-0 pb-4 teaser-box">
+                
+                <h4 id="some-of-our-happy-users">Some of our happy users</h4>
+<h2 id="adopted-by">Adopted by</h2>
+
+                
+            </div>
+            <div class="text col-12 pt-md-3 happy-users-logos pb-lg-4">
+    
+    
+    <div>
+        <img class="js-happy-users-logo" data-proofer-ignore>
+    </div>
+    
+    <div>
+        <img class="js-happy-users-logo" data-proofer-ignore>
+    </div>
+    
+    <div>
+        <img class="js-happy-users-logo" data-proofer-ignore>
+    </div>
+    
+    <div>
+        <img class="js-happy-users-logo" data-proofer-ignore>
+    </div>
+    
+    <div>
+        <img class="js-happy-users-logo" data-proofer-ignore>
+    </div>
+    
+    <a href="https://github.com/keptn/keptn/blob/master/ADOPTERS.md">
+        <img src="/images/home/add-organisation.svg">
+    </a>
+</div>
+        </div>
+    </div>
+    <div class="container clients pl-0 pr-0 pl-lg-3 pr-lg-3 pb-lg-4">
+        <div class="row pt-lg-5 pb-lg-5 pb-4">
+            <div class="col-12">
+                <div class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-01.png');"></div>
+                                <div class="splide__content">
+                                    <p>"Keptn allowed us to accelerate our adoption of Kubernetes by at least a year. It’s a unique value proposition that has enabled us to create an intelligent and fully automated continuous delivery pipeline."
+                                    </p>
+                                    <p class="splide__name">
+                                        Sebastian Bonk
+                                    </p>
+                                    <p class="splide__info">
+                                        Manager of Software Development Avodaq
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-02.jpg');"></div>
+                                <div class="splide__content">
+                                    <p>"Keptn enables us to shift-left within our development life-cycle and have faster turnaround times by adding another layer of quality evaluations to our pipelines. These quality gates help us to prevent shipping bad code to production - all done automatically without human intervention."
+                                    </p>
+                                    <p class="splide__name">
+                                        Christian Heckelmann
+                                    </p>
+                                    <p class="splide__info">
+                                        Senior DevOps Engineer at ERT
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-03.jpg');"></div>
+                                <div class="splide__content">
+                                    <p>"With Keptn we are continuously evaluating resiliency of our microservices and infrastructure by running everyday performance and chaos tests. Keptn allowed us to easily evaluate test results using native metrics and gives a lot of flexibility for the future implementations."
+                                    </p>
+                                    <p class="splide__name">
+                                        Sebastian Świerczyna
+                                    </p>
+                                    <p class="splide__info">
+                                        Chief Architect at Kitopi
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-04.jpg');"></div>
+                                <div class="splide__content">
+                                    <p>"The combination of LitmusChaos testing and SLO-based evaluations with Keptn allows our users to identify and fix weaknesses in the resiliency of their applications. Keptn’s data-driven approach based on open-source standards allowed us to build an integration flawlessy."
+                                    </p>
+                                    <p class="splide__name">
+                                        Uma Mukkara
+                                    </p>
+                                    <p class="splide__info">
+                                        Co-founder&COO of MayaData and Maintainer at LitmusChaos
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-05.jpg');"></div>
+                                <div class="splide__content">
+                                    <p>"Keptn Quality Gates integrated into our CD helped us improve speed of delivery by 75&nbsp;% and reduce manual work to evaluate results by 80&nbsp;%."
+                                    </p>
+                                    <p class="splide__name">
+                                        Wim Verhaeghe
+                                    </p>
+                                    <p class="splide__info">
+                                        KBI-Connect DevOps team lead at Inetum – RealDolmen
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex">
+                                <div class="splide__image" style="background-image: url('/images/home/img-client-06.jpg');"></div>
+                                <div class="splide__content">
+                                    <p>"Keptn enables us to deliver new features and updates fast while maintaining a high standard of quality. With Keptn Quality Gates we can be sure only good builds make it to production. Keptn also saves us ~80&nbsp;% time that is otherwise spent in manual maintaining and analyzing our delivery pipelines!"
+                                    </p>
+                                    <p class="splide__name">
+                                        Patrick Hofmann
+                                    </p>
+                                    <p class="splide__info">
+                                        Senior Consultant at amasol AG
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="tools">
+  <div class="container pt-2 pt-lg-5 pb-5">
+    <div class="row">
+      <div class="col-12 pb-1 pb-md-0">
+        <div class="text teaser-box">
+          
+          <h4 id="interoperability">Interoperability</h4>
+<h2 id="keptn-connects-all-your-tools">Keptn connects all your tools</h2>
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="pt-md-2 pb-4 teaser-card-container">
+  <div class="teaser-card mr-sm-4 mb-3 mb-sm-4">
+    <h5 class="teaser-card-title">
+      Delivery
+    </h5>
+    <div class="teaser-card-content">
+      <div class="teaser-card-container">
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Argo" title="Argo" src="/images/home/integrations/tools-delivery-argo.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Azure DevOps" title="Azure DevOps" src="/images/home/integrations/tools-delivery-azure.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="GitLab" title="GitLab" src="/images/home/integrations/tools-delivery-gitlab.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+          <img alt="Helm" title="Helm" src="/images/home/integrations/tools-delivery-helm.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+          <img alt="Jenkins" title="Jenkins" src="/images/home/integrations/tools-delivery-jenkins.png">
+        </div>
+        <a alt="Suggest or contribute an integration" title="Suggest or contribute an integration" class="teaser-card teaser-card--smallPadding teaser-card--outline" href="https://github.com/keptn/integrations/issues/new?assignees=&labels=integrations&template=integration_template.yaml&title=%5Bintegration%5D+">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="teaser-card mr-lg-4 mb-3 mb-sm-4">
+    <h5 class="teaser-card-title">
+      Observability
+    </h5>
+    <div class="teaser-card-content">
+      <div class="teaser-card-container">
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Dynatrace" title="Dynatrace" src="/images/home/integrations/tools-observability-dynatrace.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Grafana" title="Grafana" src="/images/home/integrations/tools-observability-grafana.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="OpenTelemetry" title="OpenTelemetry" src="/images/home/integrations/tools-observability-opentelementry.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+          <img alt="Prometheus" title="Prometheus" src="/images/home/integrations/tools-observability-prometheus.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+        </div>
+        <a alt="Suggest or contribute an integration" title="Suggest or contribute an integration" class="teaser-card teaser-card--smallPadding teaser-card--outline" href="https://github.com/keptn/integrations/issues/new?assignees=&labels=integrations&template=integration_template.yaml&title=%5Bintegration%5D+">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="teaser-card mr-sm-4 mr-lg-0 mb-3 mb-sm-4 mb-md-4">
+    <h5 class="teaser-card-title">
+      Testing
+    </h5>
+    <div class="teaser-card-content">
+      <div class="teaser-card-container">
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="JMeter" title="JMeter" src="/images/home/integrations/tools-testing-jmeter.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="LitmusChaos" title="LitmusChaos" src="/images/home/integrations/tools-testing-litmus.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Locust" title="Locust" src="/images/home/integrations/tools-testing-locust.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding ">
+          <img alt="NeoLoad" title="NeoLoad" src="/images/home/integrations/tools-testing-neoload.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding ">
+          <img alt="Selenium" title="Selenium" src="/images/home/integrations/tools-testing-selenium.png">
+        </div>
+        <a alt="Suggest or contribute an integration" title="Suggest or contribute an integration" class="teaser-card teaser-card--smallPadding teaser-card--outline" href="https://github.com/keptn/integrations/issues/new?assignees=&labels=integrations&template=integration_template.yaml&title=%5Bintegration%5D+">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="teaser-card mr-lg-4 mb-3 mb-sm-4 mb-lg-0">
+    <h5 class="teaser-card-title">
+      Notifications
+    </h5>
+    <div class="teaser-card-content">
+      <div class="teaser-card-container">
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Any tool via webhook" title="Any tool via webhook" src="/images/home/integrations/tools-notifications-webhook.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Slack" title="Slack" src="/images/home/integrations/tools-notifications-slack.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="MS Teams" title="MS Teams" src="/images/home/integrations/tools-notifications-teams.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding ">
+          <img alt="Cisco Webex" title="Cisco Webex" src="/images/home/integrations/tools-notifications-webex.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding ">
+        </div>
+        <a alt="Suggest or contribute an integration" title="Suggest or contribute an integration" class="teaser-card teaser-card--smallPadding teaser-card--outline" href="https://github.com/keptn/integrations/issues/new?assignees=&labels=integrations&template=integration_template.yaml&title=%5Bintegration%5D+">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="teaser-card mr-sm-4 mb-3 mb-sm-0">
+    <h5 class="teaser-card-title">
+      Automation
+    </h5>
+    <div class="teaser-card-content">
+      <div class="teaser-card-container">
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Ansible" title="Ansible" src="/images/home/integrations/tools-automation-ansible.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Bash" title="Bash" src="/images/home/integrations/tools-automation-bash.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding mb-4">
+          <img alt="Python" title="Python" src="/images/home/integrations/tools-automation-python.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+          <img alt="ServiceNow" title="ServiceNow" src="/images/home/integrations/tools-automation-servicenow.png">
+        </div>
+        <div class="teaser-card teaser-card--smallPadding">
+          <img alt="Any container or external tool" title="Any container or external tool" src="/images/home/integrations/tools-automation-webhook.png">
+        </div>
+        <a alt="Suggest or contribute an integration" title="Suggest or contribute an integration" class="teaser-card teaser-card--smallPadding teaser-card--outline" href="https://github.com/keptn/integrations/issues/new?assignees=&labels=integrations&template=integration_template.yaml&title=%5Bintegration%5D+">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="teaser-card teaser-card--darkBlue teaser-card--verticalCentered">
+    <div class="teaser-card-content teaser-card-content--white teaser-card-content--courier">
+      
+      <p>Keptn integrations translate well-defined CloudEvents into proprietary vendor APIs and hide complex automation for advanced tasks.</p>
+
+      
+      <div class="col-12 col-md-10 pr-0 pl-0 pt-4">
+        <a class="button button--filledGreen d-inline-block" href="https://keptn.sh/docs/integrations/">
+          Explore more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<div class="get-started teaser-box teaser-box--white">
+  <div class="container pt-4 pt-md-5 pb-5">
+    <div class="row pt-4 pt-md-5 pb-2 pb-md-3">
+
+      <div class="col-12 col-lg-7 pb-4 pb-md-0">
+        <div class="pt-2">
+          
+          <h2 id="get-started-with-keptn-in-5-minutes">Get started with Keptn in 5 minutes!</h2>
+<p>Keptn helps developers and SREs to deliver software in a cloud-native way.</p>
+
+          
+
+          <div class="d-block d-md-flex mb-md-5 mb-lg-0">
+            <div class="d-block z-index">
+              <a href="https://keptn.sh/docs/quickstart/" class="d-inline-block button button--filledGreen mb-3 mb-lg-0 mr-md-2">Start now!</a>
+              &nbsp;&nbsp;&nbsp;
+            </div>
+            
+            <div class="d-block z-index">
+              <a href="https://keptn.sh/docs/" class="button button--outlinedWhite d-inline-block">Read docs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 d-flex flex-column justify-content-md-between pb-md-0">
+        <img src="/images/home/cloud-native-computing-foundation.svg">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="copy-indicator">
+  <img class="icon" src="/images/general/icon-copy-to-clipboard.svg" alt="Copied to clipboard">
+  Successfully copied to clipboard!
+</div>
+
+
+    </div>
+  
+    <div class="footer pb-5">
+  <div class="container pt-5 position-relative">
+        <a class="footer-icon-link footer-icon-link--top" onclick="window.scrollTo({ top: 0 });"
+           href="javascript: void(0)">
+          <img class="footer-icon" alt="Back to top" src="https://keptn.sh/images/home/icon-arrow.svg">
+        </a>
+    <div class="row">
+      <div class="col-md-6 text-left">
+        <img class="footer-logo" alt="Keptn Homepage" src="https://keptn.sh/images/home/logo-white.svg">
+      </div>
+      <div class="col-6 col-md-2">
+        <p class="footer-title mb-2">Sitemap</p>
+        <ul class="footer-links">
+          <li><a href="/why-keptn/" class="footer-link">Why Keptn?</a></li>
+          <li><a href="https://keptn.sh/docs" class="footer-link">Docs</a></li>
+          <li><a href="https://tutorials.keptn.sh" class="footer-link">Tutorials</a></li>
+          <li><a href="https://github.com/keptn-contrib" class="footer-link">Integrations</a></li>
+          <li><a href="https://keptn.sh/docs/explore/" class="footer-link">Explore Keptn</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <p class="footer-title mb-2">Resources</p>
+        <ul class="footer-links">
+          <li><a href="https://github.com/keptn/keptn" class="footer-link">Github</a></li>
+          <li><a href="https://github.com/keptn/keptn/releases/" class="footer-link">Releases</a></li>
+          <li><a href="https://github.com/keptn/keptn/issues" class="footer-link">Issues</a></li>
+          <li><a href="https://slack.keptn.sh" class="footer-link">Slack</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 pt-3 pt-md-0">
+        <p class="footer-title mb-2">Community</p>
+        <div class="footer-icons">
+          <a href="https://slack.keptn.sh" class="footer-icon-link">
+            <img class="footer-icon" alt="Keptn Homepage" src="https://keptn.sh/images/home/icon-slack.svg">
+          </a>
+          <a href="https://twitter.com/keptnProject" class="footer-icon-link">
+            <img class="footer-icon" alt="Keptn Homepage" src="https://keptn.sh/images/home/icon-twitter.svg">
+          </a>
+          <a href="https://keptn.sh/community/newsletter" class="footer-icon-link">
+            <img class="footer-icon" alt="Keptn Homepage" src="https://keptn.sh/images/home/icon-mail.svg">
+          </a>
+          <a href="https://github.com/keptn/keptn" class="footer-icon-link">
+            <img class="footer-icon" alt="Keptn Homepage" src="https://keptn.sh/images/home/icon-github.svg">
+          </a>
+          <a href="https://www.youtube.com/c/keptn" class="footer-icon-link">
+            <img class="footer-icon" alt="Keptn Homepage" src="https://keptn.sh/images/home/icon-youtube.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-3 pt-md-0">
+      <div class="col-12 pt-4">
+        <p class="footer-text"> Keptn is a <a href=https://www.cncf.io/projects/ class="footer-text" target="_blank" rel="noopener">CNCF Incubating Project</a>.
+          Initially created by <a href="https://www.dynatrace.com"  class="footer-text" target="_blank" rel="noopener">Dynatrace</a> in 2019.
+        </p>
+        
+        <p class="footer-text">
+        &copy; 2022 The Keptn Authors | Documentation Distributed under CC-BY-4.0
+        </br>
+        &copy; 2022 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/" class="footer-text">Trademark Usage</a> page.
+        </p>
+        <p class="footer-text">This website is powered by <a href="https://www.netlify.com/"  class="footer-text" target="_blank" rel="noopener">Netlify</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
+  
+  <script type="text/javascript" src="/js/scripts.min.d414b91dcce5818aaae1984102e38768ba4d3e31738980270e90ea941ec3073f.js"></script>
+  <script type="text/javascript" src="/js/libs/doc/utils.min.cc672d0fc8295833354233771f06a24d6b57a5f0fd0fa276fa8518c5ad6819fc.js"></script>
+  <script type="text/javascript" src="/js/libs/doc/misc.min.cacc53c2cd729c6e3d8cb9b5aa84bafdb26ce6671641c5f4301ebaa4e69c5ee1.js"></script>
+  <script type="text/javascript" src="/js/libs/doc/prism.min.92c2ff4fc5368abaa405cdeca1cf9163d84913e6f0b4a0e1d3c17073ee482b24.js"></script>
+  <script type="text/javascript" src="/js/libs/doc/lightbox/js/lightbox-plus-jquery.min.min.4ee9e52e3bd091c21fa4d6253435a756505251d1928fe70903f7f7998aa98153.js"></script>
+  <script type="text/javascript" src="/js/libs/owl.carousel.min.min.23e191af33b9fa06b4cf6ff186053674f1b2eb35924ea7151ffe8086f5637f95.js"></script>
+  <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=13e376ac-bd9d-475b-8be1-5ea293d4328d" style="width: 1px;"/>
+
+  
+
+  
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133584243-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-133584243-1');
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1862 @@
+HTTP/2.0 200 OK
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 78111e9aa9f1fa32-SJC
+Content-Type: text/html
+Date: Thu, 29 Dec 2022 08:20:59 GMT
+Last-Modified: Tue, 13 Dec 2022 08:18:48 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GkJ6b%2F37pEEQ%2FkkzZ6LRfwB5d%2FzMaeArciqsUTLmExnrIvgbWFbM7iMB2jTW6ZTn%2BZsCPDsIijG2Ilr5kBO%2B2K1jgzvJzxaIXx6DNc5NF8rF3WaKL4FxB9qjzFAm16E%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unikraft</title>
+<script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+<script defer src="/js/kraft-cast.min.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
+<script defer src="/js/helper/fadeinout.min.58d290b487a552ce9c144bf938c2758c4a3afbc4f17d70d11771c9e3c61fe3d0.js"></script>
+<script>
+  "use strict";
+
+  window.onload = function() {
+    
+    var languagedir = JSON.parse("\"ltr\"");
+    
+    var baseurl = JSON.parse("\"https://unikraft.org\"");
+    
+    var permalink = JSON.parse("\"https://unikraft.org/\"");
+
+    
+    var toggleSidebarElem = document.getElementById("toggle-sidebar");
+    var toggleMenuElem = document.getElementById("toggle-menu");
+    var tocBodyElem = document.querySelector('.toc__body');
+    var tocLabelElem = document.querySelector('.toc__label');
+    var listMainElem = document.getElementById('list-main');
+    var listSideElem = document.getElementById('list-side');
+    var singleMenuElem = document.getElementById('single-menu');
+    var sliderIcons = document.querySelectorAll('.slider__icon');
+
+    toggleSidebarElem ?
+      toggleSidebarElem.addEventListener('change', function (e) {
+        if (e.target.checked) {
+          if (tocBodyElem) {
+            fadeIn(tocBodyElem, 200);
+          }
+          if (tocLabelElem) {
+            fadeIn(tocLabelElem, 200);
+          }
+          if (listMainElem && listSideElem) {
+            listMainElem.className = 'm';
+            listSideElem.className = 'r';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+
+        } else {
+          if (tocBodyElem) {
+            fadeOut(tocBodyElem, 200);
+          }
+          if (tocLabelElem) {
+            fadeOut(tocLabelElem, 200);
+          }
+          if (listMainElem && listSideElem) {
+            listMainElem.className = 'mr';
+            listSideElem.className = 'hide';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+        }
+      }) : null;
+
+    toggleMenuElem ?
+      toggleMenuElem.addEventListener('change', function (e) {
+        if (e.target.checked) {
+          if (listMainElem && singleMenuElem) {
+            listMainElem.className = 'm';
+            singleMenuElem.className = 'l';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+
+        } else {
+          if (listMainElem && singleMenuElem) {
+            listMainElem.className = 'lm';
+            singleMenuElem.className = 'hide';
+          }
+
+          sliderIcons && sliderIcons.forEach(function (elem) {
+            if (elem.classList.contains('hide')) {
+              elem.classList.remove('hide');
+            } else {
+              elem.classList.add('hide');
+            }
+          });
+        }
+      }) : null;
+    
+
+
+    
+    var navCollapseBtn = document.getElementById('navCollapseBtn');
+    navCollapseBtn ? navCollapseBtn.addEventListener('click', function(e) {
+      var navCollapse = document.querySelector('.navbar__collapse');
+      
+      if (navCollapse) {
+        var dataOpen = navCollapse.getAttribute('data-open');
+
+        if (dataOpen === 'true') {
+          navCollapse.setAttribute('data-open', 'false');
+          navCollapse.style.maxHeight = 0;
+        } else {
+          navCollapse.setAttribute('data-open', 'true');
+          navCollapse.style.maxHeight = navCollapse.scrollHeight + "px";
+        }
+      }
+    }) : null;
+    
+
+
+    
+    var expandBtn = document.querySelectorAll('.expand__button');
+
+    for (let i = 0; i < expandBtn.length; i++) {
+      expandBtn[i].addEventListener("click", function () {
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          this.querySelector('svg').classList.add('expand-icon__right');
+          this.querySelector('svg').classList.remove('expand-icon__down');
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          this.querySelector('svg').classList.remove('expand-icon__right');
+          this.querySelector('svg').classList.add('expand-icon__down');
+        }
+      });
+    }
+    
+
+
+
+    
+    document.querySelectorAll('.tab') ? 
+    document.querySelectorAll('.tab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var tabLinks = elem.querySelectorAll('.tab__link');
+      var tabContents = elem.querySelectorAll('.tab__content');
+      var ids = [];
+
+      tabLinks && tabLinks.length > 0 ?
+      tabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                tabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              tabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
+
+    
+    document.querySelectorAll('.codetab') ? 
+    document.querySelectorAll('.codetab').forEach(function(elem, idx) {
+      var containerId = elem.getAttribute('id');
+      var containerElem = elem;
+      var codetabLinks = elem.querySelectorAll('.codetab__link');
+      var codetabContents = elem.querySelectorAll('.codetab__content');
+      var ids = [];
+
+      codetabLinks && codetabLinks.length > 0 ?
+      codetabLinks.forEach(function(link, index, self) {
+        link.onclick = function(e) {
+          for (var i = 0; i < self.length; i++) {
+            if (index === parseInt(i, 10)) {
+              if (!self[i].classList.contains('active')) {
+                self[i].classList.add('active');
+                codetabContents[i].style.display = 'block';
+              }
+            } else {
+              self[i].classList.remove('active');
+              codetabContents[i].style.display = 'none';
+            }
+          }
+        }
+      }) : null;
+    }) : null;
+    
+
+    
+    
+    
+    var enableDarkMode = JSON.parse("true");
+    var root = document.getElementById('root');
+    var toggleToLightBtn = document.getElementById('toggleToLight');
+    var toggleToDarkBtn = document.getElementById('toggleToDark');
+
+    if (!enableDarkMode) {
+      root.className = 'theme__light';
+      localStorage.setItem('theme', 'light');
+    }
+    
+    if (toggleToDarkBtn) {
+      toggleToDarkBtn.onclick = function (e) {
+        root.className = 'theme__dark';
+        localStorage.setItem('theme', 'dark');
+        toggleToLightBtn.className = 'navbar__icons--icon';
+        toggleToDarkBtn.className = 'hide';
+      }
+    }
+
+    if (toggleToLightBtn) {
+      toggleToLightBtn.onclick = function (e) {
+        root.className = 'theme__light';
+        localStorage.setItem('theme', 'light');
+        toggleToLightBtn.className = 'hide';
+        toggleToDarkBtn.className = 'navbar__icons--icon';
+      }
+    }
+
+    
+    document.querySelectorAll('.menu__list').forEach(function(elem) {
+      if (elem.classList.contains('active')) {
+        elem.style.maxHeight = elem.scrollHeight + "px"; 
+      }
+    });
+    
+    document.querySelectorAll('.menu__title--collapse').forEach(function(elem) {
+      elem.addEventListener('click', function (e) {
+        var content = this.nextElementSibling;
+        var menuTitleIcon = this.querySelector('.menu__title--icon');
+        if (!content) {
+          return null;
+        }
+
+        var parent = elem.parentNode;
+        while (parent.classList.contains('menu__list') && parent.classList.contains('active')) {
+          parent.style.maxHeight = 100 * parent.children.length + "px";
+          parent = parent.parentNode;
+        }
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          content.classList.remove('active');
+          menuTitleIcon.classList.add('right');
+          
+          if (languagedir === 'rtl') {
+            menuTitleIcon.classList.remove('downrtl');
+          } else {
+            menuTitleIcon.classList.remove('down');
+          }
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          content.classList.add('active');
+          menuTitleIcon.classList.remove('right');
+          
+          if (languagedir === 'rtl') {
+            menuTitleIcon.classList.add('downrtl');
+          } else {
+            menuTitleIcon.classList.add('down');
+          }
+        }
+      });
+    });
+    
+
+
+    
+    var mobileLogo = document.getElementById('mobileLogo');
+    var modal = document.getElementById("myModal");
+    var drawer = document.getElementById('myDrawer');
+    var drawerCloseBtn = document.querySelector('.drawer__close');
+
+    var openDrawer = function() {
+      modal.style.opacity = 1;
+
+      if (languagedir === 'rtl') {
+        modal.style.right = 0;
+        drawer.style.right = 0;
+      } else {
+        modal.style.left = 0;
+        drawer.style.left = 0;
+      }
+    }
+
+    var closeDrawer = function() {
+      modal.style.opacity = 0;
+
+      if (languagedir === 'rtl') {
+        drawer.style.right = '-100%';
+      } else {
+        drawer.style.left = '-100%';
+      }
+
+      
+      setTimeout(function () {
+        if (languagedir === 'rtl') {
+          modal.style.right = '-100%';
+        } else {
+          modal.style.left = '-100%';
+        }
+      }, 250);
+    }
+
+    mobileLogo.onclick = function () {
+      openDrawer();
+      localStorage.setItem('isDrawerOpen', 'true');
+    }
+
+    modal.onclick = function () {
+      closeDrawer();
+      localStorage.setItem('isDrawerOpen', 'false');
+    }
+
+    drawerCloseBtn.onclick = function () {
+      closeDrawer();
+      localStorage.setItem('isDrawerOpen', 'false');
+    }
+  
+
+
+  
+    var lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var tocElem = document.querySelector('.toc');
+    var tableOfContentsElem = tocElem ? tocElem.querySelector('#TableOfContents') : null;
+    var singleContentsElem = document.querySelector('.single__contents');
+    var dataBGImgs = document.querySelectorAll('div[data-bgimg]');
+
+    
+    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
+
+    if (tocLevels) {
+      tocLevels = tocLevels.toString();
+    } else {
+      tocLevels = "h1, h2, h3, h4, h5, h6";
+    }
+
+    
+    var isLandingBgImg = JSON.parse("null");
+    
+    var isHome = JSON.parse("true");
+
+    function setNavbarBG(scrollTop) {
+      if (isHome && isLandingBgImg && Object.keys(isLandingBgImg).length) {
+        if (isLandingBgImg.height <= scrollTop) {
+          dataBGImgs.forEach(function(elem) {
+            elem.setAttribute('data-bgimg', 'false');
+          });
+        } else {
+          dataBGImgs.forEach(function (elem) {
+            elem.setAttribute('data-bgimg', 'true');
+          });
+        }
+      }
+    }
+    setNavbarBG(lastScrollTop);
+
+    window.onscroll = function () {
+      var st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) { 
+        singleContentsElem ? 
+        singleContentsElem.querySelectorAll(tocLevels.toString()).forEach(function(elem) {
+          if (document.documentElement.scrollTop >= elem.offsetTop) {
+            if (tableOfContentsElem) {
+              var id = elem.getAttribute('id');
+              tocElem.querySelectorAll('a').forEach(function (elem) {
+                elem.classList.remove('active');
+              });
+              tocElem.querySelector('a[href="#' + id + '"]') ? 
+              tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
+            }
+          }
+        }) : null;
+        setNavbarBG(st);
+      } else { 
+        singleContentsElem ? 
+        singleContentsElem.querySelectorAll(tocLevels.toString()).forEach(function(elem) {
+          if (document.documentElement.scrollTop >= elem.offsetTop) {
+            if (tableOfContentsElem) {
+              var id = elem.getAttribute('id');
+              tocElem.querySelectorAll('a').forEach(function (elem) {
+                elem.classList.remove('active');
+              });
+              tocElem.querySelector('a[href="#' + id + '"]') ? 
+              tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
+            }
+          }
+        }) : null;
+        setNavbarBG(st);
+      }
+      lastScrollTop = st <= 0 ? 0 : st;
+    };
+    
+
+
+
+    
+    var mobileSearchInputElem = document.querySelector('#search-mobile');
+    var mobileSearchClassElem = document.querySelector('.mobile-search');
+    var mobileSearchBtnElem = document.querySelector('#mobileSearchBtn');
+    var mobileSearchCloseBtnElem = document.querySelector('#search-mobile-close');
+    var mobileSearchContainer = document.querySelector('#search-mobile-container');
+    var mobileSearchResultsElem = document.querySelector('#search-mobile-results');
+    var htmlElem = document.querySelector('html');
+
+    if (mobileSearchClassElem) {
+      mobileSearchClassElem.style.display = 'none';
+    }
+
+    mobileSearchBtnElem ? 
+    mobileSearchBtnElem.addEventListener('click', function () {
+      if (mobileSearchContainer) {
+        mobileSearchContainer.style.display = 'block';
+      }
+
+      if (mobileSearchInputElem) {
+        mobileSearchInputElem.focus();
+      }
+
+      if (htmlElem) {
+        htmlElem.style.overflowY = 'hidden';
+      }
+    }) : null;
+
+    mobileSearchCloseBtnElem ? 
+    mobileSearchCloseBtnElem.addEventListener('click', function() {
+      if (mobileSearchContainer) {
+        mobileSearchContainer.style.display = 'none';
+      }
+
+      if (mobileSearchInputElem) {
+        mobileSearchInputElem.value = '';
+      }
+      
+      if (mobileSearchResultsElem) {
+        while (mobileSearchResultsElem.firstChild) {
+          mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);
+        }
+      }
+
+      if (htmlElem) {
+        htmlElem.style.overflowY = 'visible';
+      }
+    }) : null;
+
+    mobileSearchInputElem ? 
+    mobileSearchInputElem.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        if (mobileSearchContainer) {
+          mobileSearchContainer.style.display = 'none';
+        }
+        
+        if (mobileSearchInputElem) {
+          mobileSearchInputElem.value = '';
+        }
+
+        if (mobileSearchResultsElem) {
+          while (mobileSearchResultsElem.firstChild) {
+            mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);
+          }
+        }
+        if (htmlElem) {
+          htmlElem.style.overflowY = 'visible';
+        }
+      }
+    }) : null;
+  
+
+
+  
+    var localTheme = localStorage.getItem('theme');
+    var rootEleme = document.getElementById('root');
+    var selectThemeElem = document.querySelectorAll('.select-theme');
+    var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
+    
+    if (localTheme) {
+      selectThemeItemElem ? 
+      selectThemeItemElem.forEach(function (elem) {
+        if (elem.text.trim() === localTheme) {
+          elem.classList.add('is-active');
+        } else {
+          elem.classList.remove('is-active');
+        }
+      }) : null;
+    }
+
+    selectThemeItemElem ? 
+    selectThemeItemElem.forEach(function (v, i) {
+      v.addEventListener('click', function (e) {
+        var selectedThemeVariant = e.target.text.trim();
+        localStorage.setItem('theme', selectedThemeVariant);
+
+        rootEleme.removeAttribute('class');
+        rootEleme.classList.add(`theme__${selectedThemeVariant}`);
+        selectThemeElem.forEach(function(rootElem) {
+          rootElem.querySelectorAll('a').forEach(function (elem) {
+            if (elem.classList) {
+              if (elem.text.trim() === selectedThemeVariant) {
+                if (!elem.classList.contains('is-active')) {
+                  elem.classList.add('is-active');
+                }
+              } else {
+                if (elem.classList.contains('is-active')) {
+                  elem.classList.remove('is-active');
+                }
+              }
+            }
+          });
+        });
+
+        if (window.mermaid) {
+          if (selectedThemeVariant === "dark" || selectedThemeVariant === "hacker") {
+            mermaid.initialize({ theme: 'dark' });
+            location.reload();
+          } else {
+            mermaid.initialize({ theme: 'default' });
+            location.reload();
+          }
+        }
+
+        var utterances = document.querySelector('iframe');
+        if (utterances) {
+          utterances.contentWindow.postMessage({
+            type: 'set-theme',
+            theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
+          }, 'https://utteranc.es');
+        }
+      });
+    }) : null;
+  
+
+
+  
+    
+    var langprefix = JSON.parse("\"\"");
+    var searchResults = null;
+    var searchMenu = null;
+    var searchText = null;
+    
+    
+    var enableSearchHighlight = JSON.parse("true");
+    
+    var enableSearch = JSON.parse("true");
+
+    var fuse = null;
+
+    if (enableSearch) {
+      (function initFuse() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', baseurl + langprefix + "/index.json");
+        xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+        xhr.onload = function () {
+          if (xhr.status === 200) {
+            fuse = new Fuse(JSON.parse(xhr.response.toString('utf-8')), {
+              keys: ['title', 'description', 'content'],
+              includeMatches: enableSearchHighlight,
+              shouldSort: true,
+              threshold: 0.4,
+              location: 0,
+              distance: 100,
+              maxPatternLength: 32,
+              minMatchCharLength: 1,
+            });
+          }
+          else {
+            console.error(`[${xhr.status}]Error:`, xhr.statusText);
+          }
+        };
+        xhr.send();
+      })();
+    }
+    
+    function makeLi(ulElem, obj) {
+      var li = document.createElement('li');
+      li.className = 'search-result__item';
+      
+      var a = document.createElement('a');
+      a.innerHTML = obj.title;
+      a.setAttribute('class', 'search-result__item--title');
+      a.setAttribute('href', obj.permalink);
+
+      var descDiv = document.createElement('div');
+      descDiv.setAttribute('class', 'search-result__item--desc');
+      if (obj.description) {
+        descDiv.innerHTML = obj.description;
+      } else if (obj.content) {
+        descDiv.innerHTML = obj.content.substring(0, 80);
+      }
+      
+      li.appendChild(a);
+      li.appendChild(descDiv);
+      ulElem.appendChild(li);
+    }
+
+    function makeHighlightLi(ulElem, obj) {
+      var li = document.createElement('li');
+      li.className = 'search-result__item';
+      var descDiv = null;
+
+      var a = document.createElement('a');
+      a.innerHTML = obj.item.title;
+      a.setAttribute('class', 'search-result__item--title');
+      a.setAttribute('href', obj.item.uri);
+
+      if (obj.matches && obj.matches.length) {
+        for (var i = 0; i < obj.matches.length; i++) {
+          if ('title' === obj.matches[i].key) {
+            a = document.createElement('a');
+            a.innerHTML = generateHighlightedText(obj.matches[i].value, obj.matches[i].indices);
+            a.setAttribute('class', 'search-result__item--title');
+            a.setAttribute('href', obj.item.uri);
+          }
+          
+          if ('description' === obj.matches[i].key) {
+            descDiv = document.createElement('div');
+            descDiv.setAttribute('class', 'search-result__item--desc');
+            descDiv.innerHTML = generateHighlightedText(obj.item.description, obj.matches[i].indices);
+          } else if ('content' === obj.matches[i].key) {
+            if (!descDiv) {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = generateHighlightedText(obj.item.content.substring(0, 80), obj.matches[i].indices);
+            }
+          } else {
+            if (obj.item.description) {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = obj.item.description;
+            } else {
+              descDiv = document.createElement('div');
+              descDiv.setAttribute('class', 'search-result__item--desc');
+              descDiv.innerHTML = obj.item.content.substring(0, 80);
+            }
+          }
+        }
+
+        li.appendChild(a);
+        if (descDiv) {
+          li.appendChild(descDiv);
+        }
+        if (li) {
+          ulElem.appendChild(li);
+        }
+      }
+    }
+
+    function renderSearchResults(searchText, results) {
+      searchResults = document.getElementById('search-results');
+      searchMenu = document.getElementById('search-menu');
+      searchResults.setAttribute('class', 'dd is-active');
+      
+      var ul = document.createElement('ul');
+      ul.setAttribute('class', 'dd-content search-content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.setAttribute('href', result.uri);
+          a.setAttribute('class', 'dd-item');
+          a.appendChild(li);
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.title;
+          titleDiv.setAttribute('class', 'search-result__item--title');
+
+          var descDiv = document.createElement('div');
+          descDiv.setAttribute('class', 'search-result__item--desc');
+          if (result.description) {
+            descDiv.innerHTML = result.description;
+          } else if (result.content) {
+            descDiv.innerHTML = result.content.substring(0, 80);
+          }
+
+          li.appendChild(titleDiv);
+          li.appendChild(descDiv);
+          ul.appendChild(a);
+        });
+      } else {
+        var li = document.createElement('li');
+        li.setAttribute('class', 'dd-item');
+        li.innerText = 'No results found';
+        ul.appendChild(li);
+      }
+
+      while (searchMenu.hasChildNodes()) {
+        searchMenu.removeChild(
+          searchMenu.lastChild
+        );
+      }
+      
+      searchMenu.appendChild(ul);
+    }
+
+    function renderSearchHighlightResults(searchText, results) {
+      searchResults = document.getElementById('search-results');
+      searchMenu = document.getElementById('search-menu');
+      searchResults.setAttribute('class', 'dd is-active');
+
+      var ul = document.createElement('ul');
+      ul.setAttribute('class', 'dd-content search-content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          var descDiv = null;
+
+          a.setAttribute('href', result.item.uri);
+          a.setAttribute('class', 'dd-item');
+          a.appendChild(li);
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.item.title;
+          titleDiv.setAttribute('class', 'search-result__item--title');
+          
+          if (result.matches && result.matches.length) {
+            for (var i = 0; i < result.matches.length; i++) {
+              if ('title' === result.matches[i].key) {
+                titleDiv.innerHTML = generateHighlightedText(result.matches[i].value, result.matches[i].indices);
+              }
+
+              if ('description' === result.matches[i].key) {
+                descDiv = document.createElement('div');
+                descDiv.setAttribute('class', 'search-result__item--desc');
+                descDiv.innerHTML = generateHighlightedText(result.item.description, result.matches[i].indices);
+              } else if ('content' === result.matches[i].key) {
+                if (!descDiv) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'search-result__item--desc');
+                  descDiv.innerHTML = generateHighlightedText(result.item.content.substring(0, 80), result.matches[i].indices);
+                }
+              } else {
+                if (result.item.description) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'search-result__item--desc');
+                  descDiv.innerHTML = result.item.description;
+                } else {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'search-result__item--desc');
+                  descDiv.innerHTML = result.item.content.substring(0, 80);
+                }
+              }
+            }
+            
+            li.appendChild(titleDiv);
+            if (descDiv) {
+              li.appendChild(descDiv);
+            }
+            ul.appendChild(a);
+          }
+        });
+      } else {
+        var li = document.createElement('li');
+        li.setAttribute('class', 'dd-item');
+        li.innerText = 'No results found';
+        ul.appendChild(li);
+      }
+
+      while (searchMenu.hasChildNodes()) {
+        searchMenu.removeChild(
+          searchMenu.lastChild
+        );
+      }
+      searchMenu.appendChild(ul);
+    }
+
+    function renderSearchResultsMobile(searchText, results) {
+      searchResults = document.getElementById('search-mobile-results');
+
+      var content = document.createElement('div');
+      content.setAttribute('class', 'mobile-search__content');
+
+      if (results.length > 0) {
+        results.forEach(function (result) {
+          var item = document.createElement('a');
+          item.setAttribute('href', result.uri);
+          item.innerHTML = '<div class="mobile-search__item"><div class="mobile-search__item--title">📄 ' + result.title + '</div><div class="mobile-search__item--desc">' + (result.description ? result.description : result.content) + '</div></div>';
+          content.appendChild(item);
+        });
+      } else {
+        var item = document.createElement('span');
+        content.appendChild(item);
+      }
+
+      let wrap = document.getElementById('search-mobile-results');
+      while (wrap.firstChild) {
+        wrap.removeChild(wrap.firstChild)
+      }
+      searchResults.appendChild(content);      
+    }
+
+    function renderSearchHighlightResultsMobile(searchText, results) {
+      searchResults = document.getElementById('search-mobile-results');
+
+      var ul = document.createElement('div');
+      ul.setAttribute('class', 'mobile-search__content');
+
+      if (results.length) {
+        results.forEach(function (result) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          var descDiv = null;
+
+          a.setAttribute('href', result.item.uri);
+          a.appendChild(li);
+          li.setAttribute('class', 'mobile-search__item');
+
+          var titleDiv = document.createElement('div');
+          titleDiv.innerHTML = result.item.title;
+          titleDiv.setAttribute('class', 'mobile-search__item--title');
+          
+          if (result.matches && result.matches.length) {
+            for (var i = 0; i < result.matches.length; i++) {
+              if ('title' === result.matches[i].key) {
+                titleDiv.innerHTML = generateHighlightedText(result.matches[i].value, result.matches[i].indices);
+              }
+
+              if ('description' === result.matches[i].key) {
+                descDiv = document.createElement('div');
+                descDiv.setAttribute('class', 'mobile-search__item--desc');
+                descDiv.innerHTML = generateHighlightedText(result.item.description, result.matches[i].indices);
+              } else if ('content' === result.matches[i].key) {
+                if (!descDiv) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = generateHighlightedText(result.item.content.substring(0, 150), result.matches[i].indices);
+                }
+              } else {
+                if (result.item.description) {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = result.item.description;
+                } else {
+                  descDiv = document.createElement('div');
+                  descDiv.setAttribute('class', 'mobile-search__item--desc');
+                  descDiv.innerHTML = result.item.content.substring(0, 150);
+                }
+              }
+            }
+            
+            li.appendChild(titleDiv);
+            if (descDiv) {
+              li.appendChild(descDiv);
+            }
+            ul.appendChild(a);
+          }
+        });
+      } else {
+        var item = document.createElement('span');
+        ul.appendChild(item);
+      }
+
+      let wrap = document.getElementById('search-mobile-results');
+      while (wrap.firstChild) {
+        wrap.removeChild(wrap.firstChild)
+      }
+      searchResults.appendChild(ul);
+    }
+
+    function generateHighlightedText(text, regions) {
+      if (!regions) {
+        return text;
+      }
+
+      var content = '', nextUnhighlightedRegionStartingIndex = 0;
+
+      regions.forEach(function(region) {
+        if (region[0] === region[1]) {
+          return null;
+        }
+        
+        content += '' +
+          text.substring(nextUnhighlightedRegionStartingIndex, region[0]) +
+          '<span class="search__highlight">' +
+            text.substring(region[0], region[1] + 1) +
+          '</span>' +
+        '';
+        nextUnhighlightedRegionStartingIndex = region[1] + 1;
+      });
+
+      content += text.substring(nextUnhighlightedRegionStartingIndex);
+
+      return content;
+    };
+
+    var searchElem = document.getElementById('search');
+    var searchMobile = document.getElementById('search-mobile');
+    var searchResultsContainer = document.getElementById('search-results');
+
+    searchElem ? 
+    searchElem.addEventListener('input', function(e) {
+      if (!e.target.value | window.innerWidth < 770) {
+        searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dd') : null;
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+
+      if (enableSearchHighlight) {
+        renderSearchHighlightResults(searchText, results);
+      } else {
+        renderSearchResults(searchText, results);
+      }
+
+      var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
+      dropdownItems ? dropdownItems.forEach(function (item) {
+        item.addEventListener('mousedown', function (e) {
+          e.target.click();
+        });
+      }) : null;
+    }) : null;
+
+    searchElem ? 
+    searchElem.addEventListener('blur', function() {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+      searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dd') : null;
+    }) : null;
+
+    searchElem ? 
+    searchElem.addEventListener('click', function(e) {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+      if (!e.target.value) {
+        searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dd') : null;
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+
+      if (enableSearchHighlight) {
+        renderSearchHighlightResults(searchText, results);
+      } else {
+        renderSearchResults(searchText, results);
+      }
+
+      var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
+      dropdownItems ? dropdownItems.forEach(function (item) {
+        item.addEventListener('mousedown', function (e) {
+          e.target.click();
+        });
+      }) : null;
+    }) : null;
+
+    var searchMenuElem = document.getElementById("search-menu");
+    var activeItem = document.querySelector('#search-menu .dd-item.is-active');
+    var activeIndex = null;
+    var items = null;
+    var searchContainerMaxHeight = 350;
+
+    searchElem ? 
+    searchElem.addEventListener('keydown', function(e) {
+      if (window.innerWidth < 770) {
+        return null;
+      }
+
+      var items = document.querySelectorAll('#search-menu .dd-item');
+      
+      if (e.key === 'ArrowDown') {
+        if (activeIndex === null) {
+          activeIndex = 0;
+          items[activeIndex].classList.remove('is-active');
+        } else {
+          items[activeIndex].classList.remove('is-active');
+          activeIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        }
+        items[activeIndex].classList.add('is-active');
+
+        let overflowedPixel = items[activeIndex].offsetTop + items[activeIndex].clientHeight - searchContainerMaxHeight;
+        if (overflowedPixel > 0) {
+          document.querySelector(".search-content").scrollTop += items[activeIndex].getBoundingClientRect().height;
+        } else if (activeIndex === 0) {
+          document.querySelector(".search-content").scrollTop = 0;
+        }
+      } else if (e.key === 'ArrowUp') {
+        if (activeIndex === null) {
+          activeIndex = items.length - 1;
+          items[activeIndex].classList.remove('is-active');
+        } else {
+          items[activeIndex].classList.remove('is-active');
+          activeIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        }
+        items[activeIndex].classList.add('is-active');
+        
+        let overflowedPixel = items[activeIndex].offsetTop + items[activeIndex].clientHeight - searchContainerMaxHeight;
+        if (overflowedPixel < 0) {
+          document.querySelector(".search-content").scrollTop -= items[activeIndex].getBoundingClientRect().height;
+        } else {
+          document.querySelector(".search-content").scrollTop = overflowedPixel + items[activeIndex].getBoundingClientRect().height;
+        }
+      } else if (e.key === 'Enter') {
+        var currentItemLink = items[activeIndex].getAttribute('href');
+        if (currentItemLink) {
+          location.href = currentItemLink;
+        }
+      } else if (e.key === 'Escape') {
+        e.target.value = null;
+        if (searchResults) {
+          searchResults.classList.remove('is-active');
+        }
+      }
+    }) : null;
+
+    searchMobile ? 
+    searchMobile.addEventListener('input', function(e) {
+      if (!e.target.value) {
+        let wrap = document.getElementById('search-mobile-results');
+        while (wrap.firstChild) {
+          wrap.removeChild(wrap.firstChild);
+        }
+        return null;
+      }
+
+      searchText = e.target.value;
+      var results = fuse.search(e.target.value);
+      
+      if (enableSearchHighlight) {
+        renderSearchHighlightResultsMobile(searchText, results);
+      } else {
+        renderSearchResultsMobile(searchText, results);
+      }
+
+      var dropdownItems = searchResultsContainer.querySelectorAll('.dd-item');
+      dropdownItems ? dropdownItems.forEach(function (item) {
+        item.addEventListener('mousedown', function (e) {
+          e.target.click();
+        });
+      }) : null;
+    }) : null;
+  
+  }
+</script>
+<link rel="stylesheet" href="/css/main.min.css">
+<link rel="alternate" type="application/rss&#43;xml" title="RSS" href="https://unikraft.org/index.xml">
+<meta name="description" content="Extreme Specialization for Security and Performance" />
+<meta name="keywords" content="">
+<meta name="created" content="2020-01-26T04:15:05&#43;0900">
+<meta name="modified" content="2020-01-26T04:15:05&#43;0900">
+<meta property="og:site_name" content="Unikraft">
+<meta property="og:title" content="Unikraft">
+<meta property="og:url" content="https://unikraft.org/">
+<meta property="og:type" content="website">
+<meta name="generator" content="Hugo 0.98.0" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://unikraft.org/">
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url" : "https://unikraft.org/",
+    "name": "Unikraft",
+    "description": "Extreme Specialization for Security and Performance",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://unikraft.org"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Unikraft",
+      "url": "https://unikraft.org"
+    }
+  }
+</script>
+</head>
+<body id="root" class="theme__light">
+<script>
+        var rootElem = document.getElementById('root');
+        var themeOptions = JSON.parse("[\"light\",\"dark\"]");
+        var localTheme = localStorage.getItem('theme');
+
+        if (localTheme) {
+            if (themeOptions && themeOptions.length > 0) {
+                themeOptions.includes(localTheme) ? 
+                rootElem.className = `theme__${localTheme}` :
+                rootElem.className = `theme__${themeOptions[0]}`;
+            }
+        }
+    </script>
+<div id="container">
+<div id="myDrawer" class="drawer" style="">
+<div class="drawer__header">
+<a href="/" class="drawer__header--text">
+Unikraft
+</a>
+<div class="grow"></div>
+<div class="drawer__close">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path fill="currentColor" d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z" /></svg>
+</div>
+</div>
+<div class="drawer__body">
+<div class="menu">
+<ul>
+</ul>
+<div class="pr-3 pb-6">
+<div class="bg-blue-100 rounded-lg p-4 text-sm">
+Automatically deploy lightweight VMs with 20-50% savings with <a class="font-bold text-orange-400 underline hover:text-orange-500" href="https://unikraft.io">Unikraft Cloud</a>.
+</div>
+</div>
+</div>
+<script>
+  var menuTitle = document.querySelectorAll('.menu__title');
+  var modal = document.getElementById("myModal");
+  var drawer = document.getElementById('myDrawer');
+
+  var closeDrawer = function () {
+    setTimeout(function () {
+      modal.style.opacity = 0;
+      drawer.style.left = '-100%';
+      modal.style.left = '-100%';
+    }, 250);
+  }
+
+  menuTitle ? 
+  menuTitle.forEach(function(elem) {
+    elem.onclick = function() {
+      closeDrawer();
+      localStorage.setItem('isDrawerOpen', 'false');
+    }
+  }) : null;
+</script>
+</div>
+</div>
+<div id="myModal" class="modal" style=""></div>
+<script>
+  var isDrawerOpen = localStorage.getItem('isDrawerOpen');
+  var modal = document.getElementById("myModal");
+  var drawer = document.getElementById('myDrawer');
+  
+  
+  var languagedir = JSON.parse("\"ltr\"");
+
+  var openDrawer = function () {
+    modal.style.opacity = 1;
+    
+    if (languagedir === "rtl") {
+      modal.style.right = 0;
+      drawer.style.right = 0;
+    } else {
+      modal.style.left = 0;
+      drawer.style.left = 0;
+    }
+  }
+
+  if (isDrawerOpen && isDrawerOpen === 'true') {
+    openDrawer();
+  }
+</script>
+<nav class="nav">
+<div class="navbar__wrapper" data-bgimg="false">
+<div class="container">
+<div class="navbar lmr navbar-is-home">
+<div class="hidden md:flex">
+<div id="siteLogo" class="navbar__logo--wrapper">
+<a href="/" title="" rel="home" class="navbar__logo--link">
+<img src="/assets/imgs/unikraft-u.svg" alt="Unikraft" class="navbar__logo">
+</a>
+</div>
+</div>
+<div class="navbar__menu--wrapper">
+<div id="mobileLogo" class="block md:hidden">
+<a href="#" class="navbar__logo--link">
+<div class="navbar__icons--icon text-white">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path fill="currentColor" d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z" /></svg>
+</div>
+</a>
+</div>
+<span id="navMenuMobile" class="block md:hidden">
+<button id="navCollapseBtn" class="navbar__dropdown--title text-white" aria-label="Section Menu" data-dir="ltr">
+Unikraft
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z" /></svg>
+</button>
+<div class="navbar__collapse" data-open="false">
+<ul>
+<li class="navbar__menu--mobile-item ">
+<a href="/docs" class="">Docs</a>
+</li>
+<li class="navbar__menu--mobile-item ">
+<a href="/releases" class="">Releases</a>
+</li>
+<li class="navbar__menu--mobile-item ">
+<a href="/blog" class="">Blog</a>
+</li>
+<li class="navbar__menu--mobile-item ">
+<a href="/community" class="">Community</a>
+</li>
+</ul>
+</div>
+</span>
+<ul id="navMenu" class="navbar__menu hidden md:flex">
+<li class="navbar__menu--item ">
+<a href="/docs" data-bgimg="false">Docs</a>
+</li>
+<li class="navbar__menu--item ">
+<a href="/releases" data-bgimg="false">Releases</a>
+</li>
+<li class="navbar__menu--item ">
+<a href="/blog" data-bgimg="false">Blog</a>
+</li>
+<li class="navbar__menu--item ">
+<a href="/community" data-bgimg="false">Community</a>
+</li>
+</ul>
+</div>
+<div class="grow"></div>
+<div id="siteSearch" class="hidden sm:block">
+<div class="search">
+<span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" /></svg>
+</span>
+<input id="search" aria-label="Search docs..." class="input" type="text" autocomplete="off" placeholder="Search docs...">
+<div id="search-results" class="dropdown">
+<div id="search-menu" class="dropdown-menu">
+ </div>
+</div>
+</div>
+</div>
+<div id="mobileSearch" class="flex sm:hidden">
+<div id="mobileSearchBtn" class="mobile-search__btn text-white">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z" /><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" /></svg>
+</div>
+<div id="search-mobile-container" class="mobile-search hide">
+<div class="mobile-search__top">
+<input id="search-mobile" type="text" aria-label="Mobile Search" placeholder="Search docs..." class="mobile-search__top--input text-white" />
+<div id="search-mobile-close" class="mobile-search__top--icon text-white">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z" /><path fill="currentColor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z" /></svg>
+</div>
+</div>
+<div id="search-mobile-results" class="mobile-search__body">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<div class="top"></div>
+<div class="mid">
+<main class="main">
+<div class="bg-backdrop bg-blue-800">
+<div class="container mx-auto">
+<div class="mx-auto py-16 lg:py-24 md:grid grid-cols-5 lg:grid-cols-4 gap-x-8">
+<div class="grid px-4 xs:px-12 md:px-0 xl:px-4 items-center col-span-2 lg:col-span-1">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 sm:gap-x-8 md:gap-x-0">
+<img class="mb-4 lg:mb-8" src="/assets/imgs/unikraft.svg" />
+<div class="grid col-span-1">
+<a href="/docs/getting-started" class="text-xl block p-5 text-center inline-flex items-center justify-center text-white font-medium bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg shadow-sm hover:shadow-lg py-3 px-3 border border-white border-opacity-10 transform-gpu hover:-translate-y-0.5 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 mb-4">
+Quick Start
+</a>
+<a href="https://github.com/unikraft/unikraft" class="mx-4 text-md block p-2 text-center inline-flex items-center justify-center text-white font-medium bg-blue-400 bg-opacity-20 hover:bg-opacity-30 rounded-lg shadow-sm hover:shadow-lg py-3 px-3 border border-blue-400 border-opacity-10 transform-gpu hover:-translate-y-0.5 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 mb-4">
+View on GitHub
+</a>
+<div class="text-center">
+<a href="/docs/concepts" class="text-blue-400 hover:text-white hover:underline">What&#39;s a unikernel?</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 px-4 sm:px-0 lg:mt-0 col-span-3 xl:ml-12">
+<div class="pb-5">
+<div class="inline-flex space-x-4 rounded-full bg-blue-900 p-2">
+<span class="rounded-full bg-gradient-to-br from-orange-300 to-orange-400 px-2.5 py-1 text-xs font-semibold text-white tracking-wide uppercase group-hover:bg-orange-300 border-t border-orange-300">
+LATEST
+</span>
+<a href="/blog/2022-12-02-unikraft-releases-janus" class="inline-flex items-center text-sm font-medium text-blue-200 space-x-1 transform-gpu hover:translate-x-0.5 transition-all duration-150 hover:underline">
+<span class="group-hover:underline">Unikraft releases v0.11.0 (Janus)!</span>
+<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+ <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+</svg>
+</a>
+</div>
+</div>
+<h1 class="text-4xl font-bold text-white mb-4 xl:pr-24">
+Unikraft is a fast, secure and open-source Unikernel Development Kit
+</h1>
+<p class="text-lg leading-2 text-white mb-4">
+By tailoring the operating system, libraries and configuration to the particular needs of your application, it vastly reduces virtual machine and container image sizes to a few KBs, provides blazing performance, and drastically cuts down your software stack&rsquo;s attack surface.
+</p>
+<dl class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-4">
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#blazing-fast" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Blazing fast
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#developer-friendly" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Developer-friendly
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#small-footprint" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Small footprint &amp; green
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#cloud-native-ready" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Cloud-native ready
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#posix-compatible" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+POSIX-compatible
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#fully-modular" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Fully modular
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#research-backed" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Research-backed
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#fully-modular" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Feature-rich
+</a>
+</dt>
+</div>
+<div class="relative">
+<dt>
+<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+<a href="#production-ready" class="ml-9 text-blue-100 hover:text-blue-200 text-lg leading-6 font-medium text-white hover:underline">
+Production ready
+</a>
+</dt>
+</div>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div id="blazing-fast" class="py-12 bg-gradient-to-br from-blue-100 to-blue-50 border-b-4 border-blue-400">
+<div class="container px-4 md:px-0 mx-auto">
+<h2 class="text-base font-semibold text-left sm:text-center text-blue-400 uppercase tracking-wide">Blazing Fast</h2>
+<p class="mt-2 text-3xl text-gray-900 text-left sm:text-center">Unikraft is faster than Linux</p>
+<p class="text-left sm:text-center mt-2 md:mb-8 text-xl">On Unikraft, NGINX is 166% faster than on Linux and 182% faster than on Docker</p>
+<div class="flex grid lg:grid-cols-3 lg:grid-flow-col-dense lg:gap-8">
+<div class="col-span-2 order-2 lg:order-1">
+<div class="grid gap-y-4 md:gap-y-0 md:grid-cols-2 lg:gap-8 pt-4 pb-8 border-b border-blue-200">
+<p class="text-lg prose">
+<strong>Unikraft outperforms well-configured custom Linux kernel images</strong>, even those with security mitigations turned off! Compared to other Unikernel Development Kits, library OSes and containers, Unikraft still comes out on top.
+</p>
+<p class="text-lg prose">
+We benchmarked NGINX throughput in terms of requests per second compared to other unikernels, Linux and Docker; Unikraft achieves 182% performance improvement with respect to Docker.
+</p>
+</div>
+<div class="pt-8 pb-8 lg:pb-0 text-base">
+Unikraft has been extensively and carefully benchmarked, <a class=" font-medium text-blue-400 hover:underline" href="/docs/features/performance">read more about performance →</a>
+</div>
+</div>
+<div class="col-span-2 lg:col-span-1 md:px-24 lg:px-0 order-1">
+<div class="p-8 lg:p-4 mt-8 md:mt-0 mb-4 lg:mb-0 bg-white rounded-lg ring-1 ring-blue-200">
+ <img class="w-full width-fit img-fluid" src="/assets/imgs/figs/nginx-perf.svg" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="developer-friendly" class="developer-friendly relative bg-white py-16">
+<div class="mx-auto container lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-8">
+<div class="flex items-center">
+<div class="px-4 sm:px-0">
+<h2 class="text-base font-semibold text-orange-400 uppercase tracking-wide">Developer Friendly</h2>
+<p class="mt-4 text-3xl text-gray-900">Build Unikernels Quickly and Easily</p>
+<p class="mt-4 text-lg text-gray-500 prose">
+With the Unikraft companion command-line client <code>kraft</code>, you can quickly and easily define, configure, build, and run unikernel applications. Get everything from OS library dependencies to pre-built binaries and more.
+</p>
+<div class="mt-6 mb-12 lg:mb-0 text-center lg:text-left hidden xs:block">
+<a href="/docs/getting-started/" class="text-xl inline-block p-2 text-center inline-flex items-center justify-center text-white font-semibold bg-blue-400 rounded-lg shadow-sm hover:shadow-lg py-3 px-5 border border-blue-500 transform-gpu hover:-translate-y-0.5 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2">
+Get started
+</a>
+</div>
+</div>
+</div>
+<div class="md:px-24 lg:px-0 hidden xs:block">
+<div id="kraft-cast" class="w-full overflow-hidden"></div>
+</div>
+</div>
+</div>
+<div class="bg-backdrop -bg-backdrop-20 bg-gradient-to-br from-cool-gray-700 to-cool-gray-600 py-4 xs:py-8 border-b-4 border-t-4 border-cool-gray-700">
+<div class="container mx-auto px-4 md:px-0">
+<div class="grid grid-cols-1 space-y-4 lg:space-y-0 lg:grid-cols-3 lg:gap-8">
+<a id="#" href="/docs/features/performance" class="group bg-gradient-to-br from-cool-gray-400 to-cool-gray-500 py-12 px-10 flex flex-col sm:flex-row lg:flex-col items-center rounded-lg ring-1 ring-inset ring-cool-gray-400 shadow-lg hover:shadow-xl transform-gpu hover:-translate-y-1 transition-all duration-150 gap-8 lg:gap-0 focus:outline-none focus:ring-2 focus:ring-offset-2">
+<div class="text-center col-3 flex flex-items-center flex-items-start grid items-center rounded h-20 w-20 bg-gradient-to-br from-cool-gray-700 to-cool-gray-600 lg:mb-4 ring-1 ring-cool-gray-400">
+<img class="w-16 h-16 mx-auto" src="/assets/imgs/pallet.svg">
+</div>
+<div class="md:col-12 col-10 flex flex-col justify-center items-center">
+<h1 class="pb-2 text-3xl text-cool-gray-800 text-center">
+High density
+</h1>
+<p class="text-cool-gray-700 text-base text-center">
+Saturate servers and squeeze maximum utility. 1K&#43; VM guests on a single server.
+</p>
+<p class="pt-4 lg:pt-8">
+<span class="text-cool-gray-200 font-medium group-hover:underline">Learn more →</span>
+</p>
+</div>
+</a>
+<a id="#" href="/docs/features/performance" class="group bg-gradient-to-br from-cool-gray-300 to-cool-gray-400 py-12 px-10 flex flex-col sm:flex-row lg:flex-col items-center rounded-lg ring-1 ring-inset ring-cool-gray-200 shadow-lg hover:shadow-xl transform-gpu hover:-translate-y-1 transition-all duration-150 gap-8 lg:gap-0 focus:outline-none focus:ring-2 focus:ring-offset-2">
+<div class="text-center col-3 flex flex-items-center flex-items-start grid items-center rounded h-20 w-20 bg-gradient-to-br from-cool-gray-700 to-cool-gray-600 lg:mb-4 ring-1 ring-cool-gray-100">
+<img class="w-16 h-16 mx-auto" src="/assets/imgs/binary-code.svg">
+</div>
+<div class="md:col-12 col-10 flex flex-col justify-center items-center">
+<h1 class="pb-2 text-3xl text-cool-gray-800 text-center">
+Binary Optimizations
+</h1>
+<p class="text-cool-gray-700 text-base text-center">
+Optimize images with built-in Dead-Code Elimination, Link-Time Optizations and more.
+ </p>
+<p class="pt-4 lg:pt-8">
+<span class="text-cool-gray-100 font-medium group-hover:underline">Learn more →</span>
+</p>
+</div>
+</a>
+<a id="posix-compatible" href="/docs/features/posix-compatibility" class="group bg-gradient-to-br from-cool-gray-200 to-cool-gray-300 py-12 px-10 flex flex-col sm:flex-row lg:flex-col items-center rounded-lg ring-1 ring-inset ring-cool-gray-100 hover:shadow-xl transform-gpu hover:-translate-y-1 transition-all duration-150 gap-8 lg:gap-0 focus:outline-none focus:ring-2 focus:ring-offset-2">
+<div class="text-center col-3 flex flex-items-center flex-items-start grid items-center rounded h-20 w-20 bg-gradient-to-br from-cool-gray-700 to-cool-gray-600 lg:mb-4 ring-1 ring-cool-gray-100">
+<img class="w-16 h-16 mx-auto" src="/assets/imgs/puzzle.svg">
+</div>
+<div class="md:col-12 col-10 flex flex-col justify-center items-center">
+<h1 class="pb-2 text-3xl text-cool-gray-800 text-center">
+POSIX-compatible
+</h1>
+<p class="text-cool-gray-700 text-base text-center">
+With the more than 160&#43; syscalls and multiple lib-C&#39;s and standard libraries.
+</p>
+<p class="pt-4 lg:pt-8">
+<span class="text-white font-medium group-hover:underline">Learn more →</span>
+</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div id="research-backed" class="affiliate-institutions py-12 bg-white">
+<div class="container mx-auto px-4 sm:px-0">
+<h2 class="text-base font-semibold text-left sm:text-center text-orange-400 uppercase tracking-wide">
+Research Backed
+</h2>
+<p class="mt-2 text-3xl text-gray-900 text-left sm:text-center">
+Built and used by leading academic institutes and companies
+</p>
+<p class="text-left sm:text-center mt-2 mb-8 text-lg lg:px-24 xl:px-40">
+Unikraft&#39;s design, performance and security have been extensively developed, evaluated and put into production at leading companies and academic institutes.
+</p>
+<div class="mx-auto">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-upb.png" alt="Politehnica University of Bucharest" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-lancs.svg" alt="Lancaster University" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-manchester.svg" alt="University of Manchester" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-kit.svg" alt="Karlsruher Institut Für Technologie" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-liege.svg" alt="University of Liège" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/company-nec.svg" alt="NEC" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/company-arm.svg" alt="ARM" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/company-opensynergy.svg" alt="OpenSynergy" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-texas.svg" alt="University of Texas in Austin" />
+</div>
+<div class="col-span-1 flex justify-center md:col-span-6 lg:col-span-1">
+<img class="h-12" src="/assets/imgs/uni-icl.svg" alt="Imperial College London" />
+</div>
+</div>
+</div>
+<div class="pt-8 text-base text-center sm:px-20 md:px-32 lg:px-0">
+The award-winning Unikraft research work has appeared in top-tier research and industry conferences, <a class="font-medium text-blue-400 hover:underline" href="/community/research">read more about research and development →</a>
+</div>
+</div>
+</div>
+<div id="fully-modular" class="highly-modular relative">
+<div style="background-position: 10px 10px;" class="absolute inset-0 bg-grid-gray-700/25 bg-grid z-1"></div>
+<div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-x-8 z-2">
+<div class="grid justify-items-center items-center">
+<img class="md:px-24 lg:px-0 pt-12 lg:pt-0 px-4 sm:px-0" src="/assets/imgs/unikraft-overview-inverse.svg" />
+</div>
+<div class="relative py-12 xl:py-24 px-4 sm:px-0">
+<h2 class="text-sm font-semibold text-orange-400 tracking-wide uppercase">
+Fully Modular
+</h2>
+<p class="mt-3 text-3xl text-white">
+Build highly customized, performant and secure VM images for your use case
+</p>
+<p class="mt-5 text-lg text-blue-100">
+Unikraft is fully modular, with a constantly growing ecosystem with many popular open-source operating system and application libraries like <code>musl</code> and <code>openssl</code> available for use, allowing you to pick and choose exactly what you need for your target application.
+</p>
+<div class="mt-12">
+<h2 id="feature-rich" class="text-sm font-semibold text-orange-400 tracking-wide uppercase">
+Feature Rich
+</h2>
+<div class="grid mt-3 grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2">
+<p>
+<span class="block text-2xl font-bold text-white">100&#43;</span>
+<span class="mt-1 block text-base text-blue-100"><span class="font-medium text-white">Libraries</span> to choose from.</span>
+</p>
+<p>
+<span class="block text-2xl font-bold text-white">25K&#43;</span>
+<span class="mt-1 block text-base text-blue-100"><span class="font-medium text-white">Options</span> to configure your application with.</span>
+</p>
+<p>
+<span class="block text-2xl font-bold text-white">160&#43;</span>
+<span class="mt-1 block text-base text-blue-100"><span class="font-medium text-white">Syscalls</span> are available, covering more than 90% of use cases.</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="py-12 bg-white">
+<div class="container mx-auto px-4 sm:px-0">
+<h2 class="text-base font-semibold text-center text-orange-400 uppercase tracking-wide">
+Production Ready
+</h2>
+<p class="mt-2 text-3xl text-gray-900 text-center">
+Runs on Major Cloud Platforms
+</p>
+<p class="text-center mt-2 mb-8 text-lg">
+Along with major CPU architectures, Unikraft can be deployed on leading cloud providers.
+</p>
+<div class="mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+<div class="col-span-1 flex justify-center">
+<img class="h-12" src="/assets/imgs/company-aws.svg" alt="Amazon Web Services" />
+</div>
+<div class="col-span-1 flex justify-center">
+<img class="h-10" src="/assets/imgs/company-google-cloud.svg" alt="Google Cloud" />
+</div>
+<div class="col-span-1 flex justify-center">
+<img class="h-10" src="/assets/imgs/company-digitalocean.svg" alt="DigitalOcean" />
+</div>
+<div class="col-span-1 flex justify-center">
+<img class="h-10" src="/assets/imgs/company-ovhcloud.svg" alt="OVHCloud" />
+</div>
+</div>
+<div class="pt-8 text-base text-center">
+To target a specific cloud vendor, <a class=" font-medium text-blue-400 hover:underline" href="/docs/operations/cloud/">read more about deployments →</a>
+</div>
+</div>
+</div>
+<div id="small-footprint" class="bg-backdrop bg-backdrop-bottom relative py-12 bg-gradient-to-br from-green-900 to-green-700 border-b-4 border-t-4 border-green-900">
+<div class="container sm:px-0 xl:max-w-6xl mx-auto px-4">
+<div class="grid grid-cols-12 md:grid-cols-24 gap-8">
+<div class="order-2 col-span-12 sm:col-span-6 md:col-span-8 lg:col-span-6 xl:order-none xl:col-start-1 xl:col-span-5 xl:mt-8 transform rounded-lg ring-1 ring-inset ring-green-400 shadow-lg bg-gradient-to-br from-green-400 to-green-500 py-8 px-4 text-center border border-green-900">
+<span class="block font-bold text-white text-xl"><span class="text-4xl">70%</span> less</span>
+<span class="mt-1 block text-base text-green-100"><span class="font-bold text-white">Power consumption</span> compared to Alpine Linux &amp; RaspianOS.</span>
+</div>
+<div class="order-1 col-span-12 md:col-span-24 xl:order-none xl:col-span-12 xl:mt-2 rounded-lg shadow-lg bg-white py-8 px-8  border border-green-900">
+<h2 class="text-base font-semibold text-center text-green-600 uppercase tracking-wide">
+Small Footprint &amp; green
+</h2>
+<p class="text-3xl text-green-900 text-center">
+Unikraft is green &amp; efficient
+</p>
+<p class="text-center mt-2 text-green-700">
+From cloud to embedded devices, running an application on Unikraft both increases efficiency and reduces power consumption as less resources are necessary.
+</p>
+</div>
+<div class="order-3 col-span-12 sm:col-span-6 md:order-5 md:col-span-8 lg:order-3 lg:col-span-7 xl:order-none xl:col-span-7 xl:mt-14 rounded-lg shadow-lg ring-1 ring-inset ring-green-300 bg-gradient-to-br from-green-300 to-green-400 p-8 text-center  border border-green-900">
+<span class="block font-bold text-white text-xl"><span class="text-4xl">Kilobytes</span></span>
+<span class="mt-1 block text-base text-green-100"><span class="font-bold text-white">Idle memory usage</span> for popular apps like NGINX or Redis.</span>
+</div>
+<div class="order-3 col-span-12 md:col-span-16 lg:order-4 lg:col-span-11 xl:order-none xl:col-start-2 xl:col-span-10 rounded-lg shadow-lg bg-green-300 p-6 ring-1 ring-inset ring-green-200  border border-green-900">
+<img class="h-32 md:h-auto mx-auto" src="/assets/imgs/figs/power-usage.svg" />
+</div>
+<a href="/docs/features/embedded" class="group order-5 col-span-12 md:order-4 md:col-span-16 lg:order-5 lg:col-span-24 xl:order-none xl:col-span-12 xl:mb-5 rounded-lg shadow-lg bg-white p-8 text-center grid items-center  hover:shadow-xl transform-gpu hover:-translate-y-1 transition-all duration-150 border border-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2">
+<p class="block mb-4 text-green-700">Unikraft supports <span class="font-medium">ARM</span> and <span class="font-medium">ARM64</span> architectures and popular platforms including <span class="font-medium">Raspberry Pi B+</span>.</p>
+<span class="text-green-400 font-medium group-hover:underline">Learn more about embedded devices →</span>
+</a>
+</div>
+</div>
+</div>
+<div id="cloud-native-ready" class="cloud-native-ready container mx-auto py-8 px-4 xs:px-0">
+<div class="bg-cloud-native-ready rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+<div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+<div class="lg:self-center">
+<h2 class="text-3xl text-white sm:text-4xl leading-2">
+<span class="block font-bold text-transparent bg-clip-text bg-gradient-to-br from-orange-500 to-orange-300">Unikraft Cloud Platform</span>
+<span class="block font-medium text-bluie">Sign-up for your free trial</span>
+</h2>
+<p class="mt-4 text-lg leading-6 text-indigo-200">
+The cloud is essential to your business but you know you are overpaying. Automatically deploy your app as an extremely efficient, green, and highly secure image with the click of a button on the <strong>Unikraft Cloud Platform</strong>.
+</p>
+<a href="https://unikraft.io" class="mt-8 text-white hover:text-white text-xl font-semibold bg-orange-400 border border-transparent rounded-lg shadow px-5 py-3 inline-flex items-center text-base hover:bg-orange-500 transform-gpu hover:-translate-y-0.5 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 hover:shadow-lg ring-1 ring-orange-400">
+Learn more
+</a>
+</div>
+</div>
+<div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+<img class="transform translate-x-6 translate-y-6 md:rounded-lg object-cover object-left-top sm:translate-x-16 lg:translate-y-20 shadow-xl ring-1 ring-black ring-opacity-5" src="https://unikraft.io/imgs/unikraft-dashboard-preview.png" alt="App screenshot">
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-blue-900" aria-labelledby="footerHeading">
+<h2 id="footerHeading" class="sr-only">Footer</h2>
+<div class="container mx-auto py-12 lg:py-16 px-4 xs:px-0">
+<div class="grid grid-cols-24 gap-2 pb-12">
+<div class="col-span-8 lg:col-span-2 items-center hidden xl:grid">
+<img class="h-32 xl:h-auto" src="/assets/imgs/powered-by-unikraft-inverse.svg" alt="Powered by Unikraft">
+</div>
+<div class="col-span-16 lg:col-span-6 place-content-around justify-items-center xl:pl-24 hidden xl:grid">
+<img class="h-16" src="/assets/imgs/linux-foundation.svg" />
+<img class="h-16" src="/assets/imgs/xen-project.svg" />
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 col-span-24 xl:col-span-16">
+<div class="grid grid-cols-1 gap-6 xl:text-right">
+<h3 class="text-sm font-semibold text-white tracking-wider uppercase">
+Getting Started
+</h3>
+<ul class="space-y-4">
+<li>
+<a href="/docs/concepts/" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+What is a unikernel?
+</a>
+</li>
+<li>
+<a href="/docs/usage/install" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Install CLI companion tool
+</a>
+</li>
+<li>
+<a href="https://unikraft.io" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Unikraft Cloud
+</a>
+</li>
+<li>
+<a href="/docs/help-and-support" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Help &amp; Support
+</a>
+</li>
+</ul>
+</div>
+<div class="grid grid-cols-1 gap-6 xl:text-right">
+<h3 class="text-sm font-semibold text-white tracking-wider uppercase">
+Community
+</h3>
+<ul class="space-y-4">
+<li>
+<a href="/community/events" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Meetings
+</a>
+</li>
+<li>
+<a href="/community/publications" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Publications
+</a>
+</li>
+<li>
+<a href="/community/talks" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Presentations &amp; Talks
+</a>
+</li>
+<li>
+<a href="/community/people" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+People
+</a>
+</li>
+<li>
+ <a href="/privacy" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Privacy Policy
+</a>
+</li>
+<li>
+<a href="/imprint" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Imprint
+</a>
+</li>
+</ul>
+</div>
+<div class="grid grid-cols-1 gap-6 xl:text-right">
+<h3 class="text-sm font-semibold text-white tracking-wider uppercase">
+Features
+</h3>
+<ul class="space-y-4">
+<li>
+<a href="/docs/features/performance" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Performance
+</a>
+</li>
+<li>
+<a href="/docs/features/security" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Security
+</a>
+</li>
+<li>
+<a href="/docs/features/green" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+Environmental Impact
+</a>
+</li>
+<li>
+<a href="/docs/features/posix-compatibility" class="text-base text-blue-500 hover:text-blue-200 hover:underline">
+POSIX-Compatibility
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="border-t border-blue-800 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
+<div class="mb-8 lg:mb-0">
+<p class="text-base text-blue-500">
+Partly funded by the <span class="font-medium">European Union&rsquo;s Horizon 2020</span> research and innovation programme trough the <a class="font-medium hover:underline hover:text-white" href="http://unicore-project.eu/">UNICORE project</a>, grant agreeent No. 825377.
+</p>
+</div>
+<div class="flex max-w-md grid-cols-2 gap-6 items-end">
+<a href="http://unicore-project.eu/">
+<img class="h-12" src="/assets/imgs/unicore-project.svg" />
+</a>
+<img class="h-12" src="/assets/imgs/european-union.svg" />
+</div>
+</div>
+<div class="mt-8 border-t border-blue-800 pt-8 md:flex md:items-center md:justify-between">
+<div class="flex space-x-6 md:order-2">
+<a href="https://github.com/unikraft/unikraft" class="text-blue-600 hover:text-blue-300">
+<span class="sr-only">GitHub</span>
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+<path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+</svg>
+</a>
+<a href="https://www.linkedin.com/company/unikraft-sdk/" class="text-blue-600 hover:text-blue-300">
+<span class="sr-only">LinkedIn</span>
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+<path fill="currentColor" d="M17.04 17.043h-2.962v-4.64c0-1.107-.023-2.531-1.544-2.531c-1.544 0-1.78 1.204-1.78 2.449v4.722H7.793V7.5h2.844v1.3h.039c.397-.75 1.364-1.54 2.808-1.54c3.001 0 3.556 1.974 3.556 4.545v5.238zM4.447 6.194c-.954 0-1.72-.771-1.72-1.72s.767-1.72 1.72-1.72a1.72 1.72 0 0 1 0 3.44zm1.484 10.85h-2.97V7.5h2.97v9.543zM18.521 0H1.476C.66 0 0 .645 0 1.44v17.12C0 19.355.66 20 1.476 20h17.042c.815 0 1.482-.644 1.482-1.44V1.44C20 .646 19.333 0 18.518 0h.003z"></path>
+</svg>
+</a>
+<a href="https://twitter.com/UnikraftSDK" class="text-blue-600 hover:text-blue-300">
+<span class="sr-only">Twitter</span>
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+</svg>
+</a>
+<a href="https://bit.ly/UnikraftDiscord" class="text-blue-600 hover:text-blue-300">
+<span class="sr-only">Discord</span>
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z" fill="currentColor"></path>
+</svg>
+</a>
+<a href="https://www.youtube.com/channel/UCP2-A06KLk0_qgGtKAla65A" class="text-blue-600 hover:text-blue-300">
+<span class="sr-only">YouTube</span>
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73z" fill="currentColor"></path>
+</svg>
+</a>
+</div>
+<p class="mt-8 text-base text-blue-500 md:mt-0 md:order-1">
+© 2022 The Unikraft Authors. All rights reserved. Documentation distributed under CC BY-NC 4.0.
+</p>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
