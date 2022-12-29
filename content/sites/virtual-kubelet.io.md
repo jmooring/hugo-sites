@@ -1,7 +1,7 @@
-+++
-title = 'virtual-kubelet.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: virtual-kubelet.io
+types:
+- documentation
+- project
+visibility: []
+---

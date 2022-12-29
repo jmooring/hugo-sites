@@ -1,7 +1,6 @@
-+++
-title = 'sos.dev'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: sos.dev
+types:
+- project
+visibility: []
+---

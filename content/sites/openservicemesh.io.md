@@ -1,7 +1,7 @@
-+++
-title = 'openservicemesh.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: openservicemesh.io
+types:
+- documentation
+- project
+visibility: []
+---

@@ -1,6 +1,7 @@
-+++
-title = 'docs.agilebase.co.uk'
-draft = false
-types = ['business','documentation']
-visibility = []
-+++
+---
+title: docs.agilebase.co.uk
+types:
+- business
+- documentation
+visibility: []
+---

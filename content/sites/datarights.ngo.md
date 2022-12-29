@@ -1,6 +1,6 @@
-+++
-title = 'datarights.ngo'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: datarights.ngo
+types:
+- nonprofit
+visibility: []
+---

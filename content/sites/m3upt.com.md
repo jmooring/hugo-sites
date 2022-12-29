@@ -1,6 +1,5 @@
-+++
-title = 'm3upt.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: m3upt.com
+types: []
+visibility: []
+---

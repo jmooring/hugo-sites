@@ -1,6 +1,5 @@
-+++
-title = 'manjaro.org'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: manjaro.org
+types: []
+visibility: []
+---

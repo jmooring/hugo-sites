@@ -1,6 +1,7 @@
-+++
-title = 'vote.gov'
-draft = false
-types = ['government']
-visibility = ['high']
-+++
+---
+title: vote.gov
+types:
+- government
+visibility:
+- high
+---

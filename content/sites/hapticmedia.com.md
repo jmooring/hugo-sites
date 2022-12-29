@@ -1,7 +1,8 @@
-+++
-title = 'hapticmedia.com'
-draft = false
-types = ['blog','business']
-visibility = []
-path = '/blog'
-+++
+---
+path: /blog
+title: hapticmedia.com
+types:
+- blog
+- business
+visibility: []
+---

@@ -1,6 +1,6 @@
-+++
-title = 'ipfs.eth.link'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: ipfs.eth.link
+types:
+- project
+visibility: []
+---

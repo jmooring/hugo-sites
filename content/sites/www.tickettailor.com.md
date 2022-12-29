@@ -1,6 +1,6 @@
-+++
-title = 'www.tickettailor.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.tickettailor.com
+types:
+- business
+visibility: []
+---

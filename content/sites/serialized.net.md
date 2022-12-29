@@ -1,6 +1,7 @@
-+++
-title = 'serialized.net'
-draft = false
-types = ['blog','personal']
-visibility = []
-+++
+---
+title: serialized.net
+types:
+- blog
+- personal
+visibility: []
+---

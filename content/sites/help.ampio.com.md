@@ -1,6 +1,7 @@
-+++
-title = 'help.ampio.com'
-draft = false
-types = ['business','documentation']
-visibility = []
-+++
+---
+title: help.ampio.com
+types:
+- business
+- documentation
+visibility: []
+---

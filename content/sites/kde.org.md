@@ -1,6 +1,7 @@
-+++
-title = 'kde.org'
-draft = false
-types = ['project']
-visibility = ['high']
-+++
+---
+title: kde.org
+types:
+- project
+visibility:
+- high
+---

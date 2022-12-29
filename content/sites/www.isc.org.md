@@ -1,6 +1,6 @@
-+++
-title = 'www.isc.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: www.isc.org
+types:
+- nonprofit
+visibility: []
+---

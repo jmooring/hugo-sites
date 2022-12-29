@@ -1,6 +1,6 @@
-+++
-title = 'coreui.io'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: coreui.io
+types:
+- business
+visibility: []
+---

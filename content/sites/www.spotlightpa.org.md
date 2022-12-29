@@ -1,6 +1,5 @@
-+++
-title = 'www.spotlightpa.org'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.spotlightpa.org
+types: []
+visibility: []
+---

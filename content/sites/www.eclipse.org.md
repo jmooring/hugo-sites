@@ -1,6 +1,7 @@
-+++
-title = 'www.eclipse.org'
-draft = false
-types = ['nonprofit']
-visibility = ['high']
-+++
+---
+title: www.eclipse.org
+types:
+- nonprofit
+visibility:
+- high
+---

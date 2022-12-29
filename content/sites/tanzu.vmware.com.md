@@ -1,7 +1,8 @@
-+++
-title = 'tanzu.vmware.com'
-draft = false
-types = ['business','documentation']
-visibility = []
-path = '/developer'
-+++
+---
+path: /developer
+title: tanzu.vmware.com
+types:
+- business
+- documentation
+visibility: []
+---

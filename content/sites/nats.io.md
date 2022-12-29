@@ -1,6 +1,6 @@
-+++
-title = 'nats.io'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: nats.io
+types:
+- project
+visibility: []
+---

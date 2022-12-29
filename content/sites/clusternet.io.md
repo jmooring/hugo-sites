@@ -1,6 +1,7 @@
-+++
-title = 'clusternet.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: clusternet.io
+types:
+- documentation
+- project
+visibility: []
+---

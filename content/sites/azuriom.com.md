@@ -1,6 +1,5 @@
-+++
-title = 'azuriom.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: azuriom.com
+types: []
+visibility: []
+---

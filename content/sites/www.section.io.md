@@ -1,6 +1,5 @@
-+++
-title = 'www.section.io'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.section.io
+types: []
+visibility: []
+---

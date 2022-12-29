@@ -1,6 +1,6 @@
-+++
-title = 'telos.kitchen'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: telos.kitchen
+types:
+- business
+visibility: []
+---

@@ -1,7 +1,8 @@
-+++
-title = 'purelb.gitlab.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = 'docs'
-+++
+---
+path: docs
+title: purelb.gitlab.io
+types:
+- documentation
+- project
+visibility: []
+---

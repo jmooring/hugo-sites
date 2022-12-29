@@ -1,6 +1,7 @@
-+++
-title = 'memcached.org'
-draft = false
-types = ['project']
-visibility = ['high']
-+++
+---
+title: memcached.org
+types:
+- project
+visibility:
+- high
+---

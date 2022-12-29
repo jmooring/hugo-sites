@@ -1,6 +1,8 @@
-+++
-title = 'kubernetes.io'
-draft = false
-types = ['documentation','project']
-visibility = ['high']
-+++
+---
+title: kubernetes.io
+types:
+- documentation
+- project
+visibility:
+- high
+---

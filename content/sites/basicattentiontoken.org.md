@@ -1,6 +1,6 @@
-+++
-title = 'basicattentiontoken.org'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: basicattentiontoken.org
+types:
+- business
+visibility: []
+---

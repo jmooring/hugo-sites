@@ -1,6 +1,7 @@
-+++
-title = 'graphviz.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: graphviz.org
+types:
+- documentation
+- project
+visibility: []
+---

@@ -1,6 +1,5 @@
-+++
-title = 'wasmcloud.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: wasmcloud.com
+types: []
+visibility: []
+---

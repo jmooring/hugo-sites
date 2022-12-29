@@ -1,6 +1,6 @@
-+++
-title = 'www.philenflo.nl'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.philenflo.nl
+types:
+- business
+visibility: []
+---

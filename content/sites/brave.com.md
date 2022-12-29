@@ -1,6 +1,7 @@
-+++
-title = 'brave.com'
-draft = false
-types = ['business']
-visibility = ['high']
-+++
+---
+title: brave.com
+types:
+- business
+visibility:
+- high
+---

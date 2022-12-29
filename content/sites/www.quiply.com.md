@@ -1,6 +1,5 @@
-+++
-title = 'www.quiply.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.quiply.com
+types: []
+visibility: []
+---

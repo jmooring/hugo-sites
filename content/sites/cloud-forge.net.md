@@ -1,6 +1,6 @@
-+++
-title = 'cloud-forge.net'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: cloud-forge.net
+types:
+- business
+visibility: []
+---

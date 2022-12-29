@@ -1,6 +1,8 @@
-+++
-title = 'getbootstrap.com'
-draft = false
-types = ['documentation','project']
-visibility = ['high']
-+++
+---
+title: getbootstrap.com
+types:
+- documentation
+- project
+visibility:
+- high
+---

@@ -1,6 +1,8 @@
-+++
-title = 'www.selenium.dev'
-draft = false
-types = ['documentation','project']
-visibility = ['high']
-+++
+---
+title: www.selenium.dev
+types:
+- documentation
+- project
+visibility:
+- high
+---

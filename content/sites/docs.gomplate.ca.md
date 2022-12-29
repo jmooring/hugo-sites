@@ -1,6 +1,7 @@
-+++
-title = 'docs.gomplate.ca'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: docs.gomplate.ca
+types:
+- documentation
+- project
+visibility: []
+---

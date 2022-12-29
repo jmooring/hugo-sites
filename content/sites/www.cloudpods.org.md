@@ -1,7 +1,8 @@
-+++
-title = 'www.cloudpods.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = '/en/docs'
-+++
+---
+path: /en/docs
+title: www.cloudpods.org
+types:
+- documentation
+- project
+visibility: []
+---

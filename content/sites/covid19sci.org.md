@@ -1,6 +1,6 @@
-+++
-title = 'covid19sci.org'
-draft = false
-types = ['healthcare']
-visibility = []
-+++
+---
+title: covid19sci.org
+types:
+- healthcare
+visibility: []
+---

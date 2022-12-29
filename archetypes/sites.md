@@ -1,7 +1,5 @@
-+++
-title = '{{ .Name }}'
-draft = false
-types = []
-visibility = []
-path = ''
-+++
+---
+title: {{ .Name }}
+types: []
+visibility: []
+---

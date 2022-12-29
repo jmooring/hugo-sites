@@ -1,6 +1,6 @@
-+++
-title = 'jdbc.postgresql.org'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: jdbc.postgresql.org
+types:
+- project
+visibility: []
+---

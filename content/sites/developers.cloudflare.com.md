@@ -1,6 +1,5 @@
-+++
-title = 'developers.cloudflare.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: developers.cloudflare.com
+types: []
+visibility: []
+---

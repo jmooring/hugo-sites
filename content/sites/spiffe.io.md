@@ -1,7 +1,7 @@
-+++
-title = 'spiffe.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: spiffe.io
+types:
+- documentation
+- project
+visibility: []
+---

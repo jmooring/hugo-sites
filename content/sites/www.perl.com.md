@@ -1,6 +1,6 @@
-+++
-title = 'www.perl.com'
-draft = false
-types = ['news']
-visibility = []
-+++
+---
+title: www.perl.com
+types:
+- news
+visibility: []
+---

@@ -1,7 +1,7 @@
-+++
-title = 'spinnaker.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: spinnaker.io
+types:
+- documentation
+- project
+visibility: []
+---

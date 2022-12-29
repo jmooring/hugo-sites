@@ -1,7 +1,6 @@
-+++
-title = 'buildpacks.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: buildpacks.io
+types:
+- project
+visibility: []
+---

@@ -1,7 +1,7 @@
-+++
-title = 'opentelemetry.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: opentelemetry.io
+types:
+- documentation
+- project
+visibility: []
+---

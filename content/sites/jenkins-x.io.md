@@ -1,7 +1,7 @@
-+++
-title = 'jenkins-x.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: jenkins-x.io
+types:
+- documentation
+- project
+visibility: []
+---

@@ -1,6 +1,6 @@
-+++
-title = 'zellij.dev'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: zellij.dev
+types:
+- project
+visibility: []
+---

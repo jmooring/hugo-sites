@@ -1,7 +1,7 @@
-+++
-title = 'jmmv.dev'
-draft = false
-types = ['blog','personal']
-visibility = []
-path = ''
-+++
+---
+title: jmmv.dev
+types:
+- blog
+- personal
+visibility: []
+---

@@ -1,7 +1,6 @@
-+++
-title = 'servo.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: servo.org
+types:
+- project
+visibility: []
+---

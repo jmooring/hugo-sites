@@ -1,7 +1,6 @@
-+++
-title = 'tinkerbell.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: tinkerbell.org
+types:
+- project
+visibility: []
+---

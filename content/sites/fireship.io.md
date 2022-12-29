@@ -1,6 +1,7 @@
-+++
-title = 'fireship.io'
-draft = false
-types = ['business','education']
-visibility = []
-+++
+---
+title: fireship.io
+types:
+- business
+- education
+visibility: []
+---

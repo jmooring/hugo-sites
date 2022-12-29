@@ -1,6 +1,6 @@
-+++
-title = 'www.lichtblick.de'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.lichtblick.de
+types:
+- business
+visibility: []
+---

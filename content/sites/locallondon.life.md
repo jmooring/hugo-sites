@@ -1,6 +1,6 @@
-+++
-title = 'locallondon.life'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: locallondon.life
+types:
+- nonprofit
+visibility: []
+---

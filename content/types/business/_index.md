@@ -1,7 +1,4 @@
-+++
-title = 'Business Sites'
-linkTitle = 'Business'
-date = 2022-12-27T12:03:06-08:00
-draft = false
-types = []
-+++
+---
+linkTitle: Business
+title: Business Sites
+---

@@ -1,6 +1,6 @@
-+++
-title = 'blog.albertkuo.me'
-draft = false
-types = ['blog']
-visibility = []
-+++
+---
+title: blog.albertkuo.me
+types:
+- blog
+visibility: []
+---

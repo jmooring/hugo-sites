@@ -1,6 +1,7 @@
-+++
-title = 'www.usecue.com'
-draft = false
-types = ['blog','business']
-visibility = []
-+++
+---
+title: www.usecue.com
+types:
+- blog
+- business
+visibility: []
+---

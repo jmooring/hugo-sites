@@ -1,7 +1,9 @@
-+++
-title = 'www.linode.com'
-draft = false
-types = ['business','documentation']
-visibility = ['high']
-path = '/docs'
-+++
+---
+path: /docs
+title: www.linode.com
+types:
+- business
+- documentation
+visibility:
+- high
+---

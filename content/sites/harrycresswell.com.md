@@ -1,7 +1,7 @@
-+++
-title = 'harrycresswell.com'
-draft = false
-types = ['blog','business']
-visibility = []
-path = ''
-+++
+---
+title: harrycresswell.com
+types:
+- blog
+- business
+visibility: []
+---

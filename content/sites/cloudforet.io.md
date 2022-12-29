@@ -1,7 +1,7 @@
-+++
-title = 'cloudforet.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: cloudforet.io
+types:
+- documentation
+- project
+visibility: []
+---

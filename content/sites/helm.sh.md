@@ -1,7 +1,6 @@
-+++
-title = 'helm.sh'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: helm.sh
+types:
+- project
+visibility: []
+---

@@ -1,7 +1,6 @@
-+++
-title = 'www.vam.ac.uk'
-draft = false
-types = []
-visibility = []
-path = '/collections'
-+++
+---
+path: /collections
+title: www.vam.ac.uk
+types: []
+visibility: []
+---

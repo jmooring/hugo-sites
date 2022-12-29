@@ -1,7 +1,6 @@
-+++
-title = 'luraproject.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: luraproject.org
+types:
+- project
+visibility: []
+---

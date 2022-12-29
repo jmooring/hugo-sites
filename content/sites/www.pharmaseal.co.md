@@ -1,6 +1,6 @@
-+++
-title = 'www.pharmaseal.co'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.pharmaseal.co
+types:
+- business
+visibility: []
+---

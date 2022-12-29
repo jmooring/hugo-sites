@@ -1,7 +1,6 @@
-+++
-title = 'www.linuxboot.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: www.linuxboot.org
+types:
+- project
+visibility: []
+---

@@ -1,6 +1,6 @@
-+++
-title = 'designden.us'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: designden.us
+types:
+- business
+visibility: []
+---

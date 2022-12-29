@@ -1,6 +1,6 @@
-+++
-title = 'bugtrackers.io'
-draft = false
-types = ['news']
-visibility = []
-+++
+---
+title: bugtrackers.io
+types:
+- news
+visibility: []
+---

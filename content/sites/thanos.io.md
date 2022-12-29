@@ -1,7 +1,7 @@
-+++
-title = 'thanos.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: thanos.io
+types:
+- documentation
+- project
+visibility: []
+---

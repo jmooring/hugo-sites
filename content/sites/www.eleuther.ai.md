@@ -1,6 +1,7 @@
-+++
-title = 'www.eleuther.ai'
-draft = false
-types = ['blog','nonprofit']
-visibility = []
-+++
+---
+title: www.eleuther.ai
+types:
+- blog
+- nonprofit
+visibility: []
+---

@@ -1,6 +1,5 @@
-+++
-title = 'octobrerose.curie.fr'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: octobrerose.curie.fr
+types: []
+visibility: []
+---

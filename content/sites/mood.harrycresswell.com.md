@@ -1,6 +1,7 @@
-+++
-title = 'mood.harrycresswell.com'
-draft = false
-types = ['portfolio','personal']
-visibility = []
-+++
+---
+title: mood.harrycresswell.com
+types:
+- portfolio
+- personal
+visibility: []
+---

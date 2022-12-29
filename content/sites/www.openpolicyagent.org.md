@@ -1,7 +1,7 @@
-+++
-title = 'www.openpolicyagent.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: www.openpolicyagent.org
+types:
+- documentation
+- project
+visibility: []
+---

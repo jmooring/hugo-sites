@@ -1,7 +1,7 @@
-+++
-title = 'coredns.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: coredns.io
+types:
+- documentation
+- project
+visibility: []
+---

@@ -1,6 +1,7 @@
-+++
-title = 'developers.xsolla.com'
-draft = false
-types = ['business','documentation']
-visibility = []
-+++
+---
+title: developers.xsolla.com
+types:
+- business
+- documentation
+visibility: []
+---

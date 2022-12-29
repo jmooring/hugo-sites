@@ -1,6 +1,6 @@
-+++
-title = 'www.visualcinnamon.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.visualcinnamon.com
+types:
+- business
+visibility: []
+---

@@ -1,6 +1,7 @@
-+++
-title = 'thegooddocsproject.dev'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: thegooddocsproject.dev
+types:
+- documentation
+- project
+visibility: []
+---

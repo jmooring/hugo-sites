@@ -1,6 +1,7 @@
-+++
-title = 'www.kubeflow.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: www.kubeflow.org
+types:
+- documentation
+- project
+visibility: []
+---

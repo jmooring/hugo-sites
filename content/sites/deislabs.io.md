@@ -1,6 +1,5 @@
-+++
-title = 'deislabs.io'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: deislabs.io
+types: []
+visibility: []
+---

@@ -1,7 +1,6 @@
-+++
-title = 'rclone.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: rclone.org
+types:
+- project
+visibility: []
+---

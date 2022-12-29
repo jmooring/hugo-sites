@@ -1,6 +1,5 @@
-+++
-title = 'hugoconf.io'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: hugoconf.io
+types: []
+visibility: []
+---

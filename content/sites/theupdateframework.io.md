@@ -1,7 +1,7 @@
-+++
-title = 'theupdateframework.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: theupdateframework.io
+types:
+- documentation
+- project
+visibility: []
+---

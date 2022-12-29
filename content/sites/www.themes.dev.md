@@ -1,6 +1,6 @@
-+++
-title = 'www.themes.dev'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.themes.dev
+types:
+- business
+visibility: []
+---

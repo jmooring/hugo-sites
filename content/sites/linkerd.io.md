@@ -1,7 +1,6 @@
-+++
-title = 'linkerd.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: linkerd.io
+types:
+- project
+visibility: []
+---

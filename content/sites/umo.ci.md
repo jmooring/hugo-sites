@@ -1,7 +1,7 @@
-+++
-title = 'umo.ci'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: umo.ci
+types:
+- documentation
+- project
+visibility: []
+---

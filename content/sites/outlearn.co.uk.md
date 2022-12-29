@@ -1,6 +1,6 @@
-+++
-title = 'outlearn.co.uk'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: outlearn.co.uk
+types:
+- nonprofit
+visibility: []
+---

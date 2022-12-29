@@ -1,7 +1,6 @@
-+++
-title = 'parallaxsecond.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: parallaxsecond.org
+types:
+- project
+visibility: []
+---

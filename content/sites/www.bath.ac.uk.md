@@ -1,6 +1,5 @@
-+++
-title = 'www.bath.ac.uk'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.bath.ac.uk
+types: []
+visibility: []
+---

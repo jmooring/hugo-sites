@@ -1,6 +1,7 @@
-+++
-title = 'developer.gimp.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: developer.gimp.org
+types:
+- documentation
+- project
+visibility: []
+---

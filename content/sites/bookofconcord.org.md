@@ -1,6 +1,6 @@
-+++
-title = 'bookofconcord.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: bookofconcord.org
+types:
+- nonprofit
+visibility: []
+---

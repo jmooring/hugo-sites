@@ -1,6 +1,6 @@
-+++
-title = 'www.understandingreligion.org.uk'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: www.understandingreligion.org.uk
+types:
+- nonprofit
+visibility: []
+---

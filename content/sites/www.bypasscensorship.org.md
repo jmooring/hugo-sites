@@ -1,6 +1,6 @@
-+++
-title = 'www.bypasscensorship.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: www.bypasscensorship.org
+types:
+- nonprofit
+visibility: []
+---

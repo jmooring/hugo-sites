@@ -1,6 +1,7 @@
-+++
-title = 'gitea.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: gitea.io
+types:
+- documentation
+- project
+visibility: []
+---

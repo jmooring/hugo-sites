@@ -1,7 +1,7 @@
-+++
-title = 'www.jaegertracing.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: www.jaegertracing.io
+types:
+- documentation
+- project
+visibility: []
+---

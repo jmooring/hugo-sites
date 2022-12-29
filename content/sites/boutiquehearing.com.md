@@ -1,6 +1,6 @@
-+++
-title = 'boutiquehearing.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: boutiquehearing.com
+types:
+- business
+visibility: []
+---

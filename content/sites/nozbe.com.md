@@ -1,6 +1,6 @@
-+++
-title = 'nozbe.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: nozbe.com
+types:
+- business
+visibility: []
+---

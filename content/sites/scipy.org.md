@@ -1,6 +1,6 @@
-+++
-title = 'scipy.org'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: scipy.org
+types:
+- project
+visibility: []
+---

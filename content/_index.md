@@ -1,9 +1,6 @@
-+++
-title = 'Hugo Sites'
-date = 2022-12-27T01:26:57-08:00
-draft = false
-types = []
-+++
+---
+title: Hugo Sites
+---
 
 These sites were created with the [Hugo] static site generator.
 

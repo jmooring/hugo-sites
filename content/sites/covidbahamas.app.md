@@ -1,6 +1,6 @@
-+++
-title = 'covidbahamas.app'
-draft = false
-types = ['healthcare']
-visibility = []
-+++
+---
+title: covidbahamas.app
+types:
+- healthcare
+visibility: []
+---

@@ -1,7 +1,6 @@
-+++
-title = 'openpowerfoundation.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-path = ''
-+++
+---
+title: openpowerfoundation.org
+types:
+- nonprofit
+visibility: []
+---

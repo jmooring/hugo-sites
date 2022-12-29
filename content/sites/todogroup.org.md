@@ -1,7 +1,6 @@
-+++
-title = 'todogroup.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-path = ''
-+++
+---
+title: todogroup.org
+types:
+- nonprofit
+visibility: []
+---

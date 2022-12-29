@@ -1,6 +1,9 @@
-+++
-title = 'jadelsbach.de'
-draft = false
-types = ['blog','cv','personal','portfolio']
-visibility = []
-+++
+---
+title: jadelsbach.de
+types:
+- blog
+- cv
+- personal
+- portfolio
+visibility: []
+---

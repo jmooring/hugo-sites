@@ -1,6 +1,8 @@
-+++
-title = 'www.freebsd.org'
-draft = false
-types = ['documentation','project']
-visibility = ['high'] 
-+++
+---
+title: www.freebsd.org
+types:
+- documentation
+- project
+visibility:
+- high
+---

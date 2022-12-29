@@ -1,7 +1,6 @@
-+++
-title = 'cnab.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: cnab.io
+types:
+- project
+visibility: []
+---

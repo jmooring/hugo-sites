@@ -1,6 +1,5 @@
-+++
-title = 'papercut.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: papercut.com
+types: []
+visibility: []
+---

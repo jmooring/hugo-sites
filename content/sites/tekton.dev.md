@@ -1,6 +1,7 @@
-+++
-title = 'tekton.dev'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: tekton.dev
+types:
+- documentation
+- project
+visibility: []
+---

@@ -1,7 +1,6 @@
-+++
-title = 'longhorn.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: longhorn.io
+types:
+- project
+visibility: []
+---

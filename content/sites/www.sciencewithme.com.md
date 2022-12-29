@@ -1,6 +1,6 @@
-+++
-title = 'www.sciencewithme.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: www.sciencewithme.com
+types:
+- business
+visibility: []
+---

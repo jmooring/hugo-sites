@@ -1,7 +1,6 @@
-+++
-title = 'www.kicad.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: www.kicad.org
+types:
+- project
+visibility: []
+---

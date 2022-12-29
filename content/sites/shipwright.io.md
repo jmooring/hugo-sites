@@ -1,7 +1,7 @@
-+++
-title = 'shipwright.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: shipwright.io
+types:
+- documentation
+- project
+visibility: []
+---

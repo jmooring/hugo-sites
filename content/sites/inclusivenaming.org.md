@@ -1,7 +1,6 @@
-+++
-title = 'inclusivenaming.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-path = ''
-+++
+---
+title: inclusivenaming.org
+types:
+- nonprofit
+visibility: []
+---

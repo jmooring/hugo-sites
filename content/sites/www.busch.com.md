@@ -1,6 +1,5 @@
-+++
-title = 'www.busch.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.busch.com
+types: []
+visibility: []
+---

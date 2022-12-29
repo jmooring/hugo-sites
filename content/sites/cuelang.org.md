@@ -1,6 +1,7 @@
-+++
-title = 'cuelang.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: cuelang.org
+types:
+- documentation
+- project
+visibility: []
+---

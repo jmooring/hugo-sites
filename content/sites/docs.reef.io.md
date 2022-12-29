@@ -1,6 +1,5 @@
-+++
-title = 'docs.reef.io'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: docs.reef.io
+types: []
+visibility: []
+---

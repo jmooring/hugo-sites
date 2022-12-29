@@ -1,6 +1,6 @@
-+++
-title = 'appscode.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: appscode.com
+types:
+- business
+visibility: []
+---

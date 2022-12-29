@@ -1,7 +1,6 @@
-+++
-title = 'smi-spec.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: smi-spec.io
+types:
+- project
+visibility: []
+---

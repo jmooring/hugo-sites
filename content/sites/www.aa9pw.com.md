@@ -1,6 +1,6 @@
-+++
-title = 'www.aa9pw.com'
-draft = false
-types = ['education']
-visibility = []
-+++
+---
+title: www.aa9pw.com
+types:
+- education
+visibility: []
+---

@@ -1,6 +1,5 @@
-+++
-title = 'us.budweiser.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: us.budweiser.com
+types: []
+visibility: []
+---

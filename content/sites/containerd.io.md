@@ -1,7 +1,7 @@
-+++
-title = 'containerd.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: containerd.io
+types:
+- documentation
+- project
+visibility: []
+---

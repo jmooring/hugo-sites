@@ -1,6 +1,6 @@
-+++
-title = 'istio.io'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: istio.io
+types:
+- project
+visibility: []
+---

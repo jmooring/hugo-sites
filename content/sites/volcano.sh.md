@@ -1,7 +1,7 @@
-+++
-title = 'volcano.sh'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: volcano.sh
+types:
+- documentation
+- project
+visibility: []
+---

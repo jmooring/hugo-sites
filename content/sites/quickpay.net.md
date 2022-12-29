@@ -1,6 +1,6 @@
-+++
-title = 'quickpay.net'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: quickpay.net
+types:
+- business
+visibility: []
+---

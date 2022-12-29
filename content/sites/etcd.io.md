@@ -1,7 +1,7 @@
-+++
-title = 'etcd.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: etcd.io
+types:
+- documentation
+- project
+visibility: []
+---

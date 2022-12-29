@@ -1,6 +1,5 @@
-+++
-title = 'digital.gov'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: digital.gov
+types: []
+visibility: []
+---

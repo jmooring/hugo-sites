@@ -1,7 +1,7 @@
-+++
-title = 'kernelci.org'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: kernelci.org
+types:
+- documentation
+- project
+visibility: []
+---

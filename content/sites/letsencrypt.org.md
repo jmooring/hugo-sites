@@ -1,6 +1,7 @@
-+++
-title = 'letsencrypt.org'
-draft = false
-types = ['nonprofit']
-visibility = ['high']
-+++
+---
+title: letsencrypt.org
+types:
+- nonprofit
+visibility:
+- high
+---

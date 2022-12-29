@@ -1,7 +1,6 @@
-+++
-title = 'c2pa.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-path = ''
-+++
+---
+title: c2pa.org
+types:
+- nonprofit
+visibility: []
+---

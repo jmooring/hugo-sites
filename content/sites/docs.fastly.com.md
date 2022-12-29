@@ -1,6 +1,5 @@
-+++
-title = 'docs.fastly.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: docs.fastly.com
+types: []
+visibility: []
+---

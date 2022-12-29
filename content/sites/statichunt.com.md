@@ -1,6 +1,5 @@
-+++
-title = 'statichunt.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: statichunt.com
+types: []
+visibility: []
+---

@@ -1,6 +1,5 @@
-+++
-title = 'buoyant.io'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: buoyant.io
+types: []
+visibility: []
+---

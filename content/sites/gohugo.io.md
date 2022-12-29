@@ -1,6 +1,8 @@
-+++
-title = 'gohugo.io'
-draft = false
-types = ['documentation','project']
-visibility = ['high']
-+++
+---
+title: gohugo.io
+types:
+- documentation
+- project
+visibility:
+- high
+---

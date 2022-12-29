@@ -1,7 +1,7 @@
-+++
-title = 'www.visitparisregion.com'
-draft = false
-types = ['business']
-visibility = []
-path = '/fr'
-+++
+---
+path: /fr
+title: www.visitparisregion.com
+types:
+- business
+visibility: []
+---

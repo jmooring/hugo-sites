@@ -1,6 +1,6 @@
-+++
-title = 'ocrs.online'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: ocrs.online
+types:
+- nonprofit
+visibility: []
+---

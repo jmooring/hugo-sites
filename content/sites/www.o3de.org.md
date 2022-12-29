@@ -1,7 +1,6 @@
-+++
-title = 'www.o3de.org'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: www.o3de.org
+types:
+- project
+visibility: []
+---

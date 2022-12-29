@@ -1,7 +1,7 @@
-+++
-title = 'krustlet.dev'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: krustlet.dev
+types:
+- documentation
+- project
+visibility: []
+---

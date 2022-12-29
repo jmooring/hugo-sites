@@ -1,6 +1,5 @@
-+++
-title = 'sr.ht'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: sr.ht
+types: []
+visibility: []
+---

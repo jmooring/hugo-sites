@@ -1,6 +1,6 @@
-+++
-title = 'design.angelinvestmentnetwork.co.uk'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: design.angelinvestmentnetwork.co.uk
+types:
+- business
+visibility: []
+---

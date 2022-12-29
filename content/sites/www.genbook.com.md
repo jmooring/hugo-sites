@@ -1,6 +1,5 @@
-+++
-title = 'www.genbook.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.genbook.com
+types: []
+visibility: []
+---

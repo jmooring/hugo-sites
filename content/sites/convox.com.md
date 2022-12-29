@@ -1,6 +1,5 @@
-+++
-title = 'convox.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: convox.com
+types: []
+visibility: []
+---

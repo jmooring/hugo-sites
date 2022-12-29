@@ -1,7 +1,7 @@
-+++
-title = 'kubeedge.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: kubeedge.io
+types:
+- documentation
+- project
+visibility: []
+---

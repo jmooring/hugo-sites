@@ -1,6 +1,7 @@
-+++
-title = 'docs.datadoghq.com'
-draft = false
-types = ['business','documentation']
-visibility = []
-+++
+---
+title: docs.datadoghq.com
+types:
+- business
+- documentation
+visibility: []
+---

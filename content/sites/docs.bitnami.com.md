@@ -1,6 +1,7 @@
-+++
-title = 'docs.bitnami.com'
-draft = false
-types = ['business','documentation']
-visibility = []
-+++
+---
+title: docs.bitnami.com
+types:
+- business
+- documentation
+visibility: []
+---

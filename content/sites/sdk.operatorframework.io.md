@@ -1,7 +1,7 @@
-+++
-title = 'sdk.operatorframework.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-path = ''
-+++
+---
+title: sdk.operatorframework.io
+types:
+- documentation
+- project
+visibility: []
+---

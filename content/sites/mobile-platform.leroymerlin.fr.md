@@ -1,6 +1,6 @@
-+++
-title = 'mobile-platform.leroymerlin.fr'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: mobile-platform.leroymerlin.fr
+types:
+- project
+visibility: []
+---

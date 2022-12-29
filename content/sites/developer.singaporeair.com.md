@@ -1,6 +1,5 @@
-+++
-title = 'developer.singaporeair.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: developer.singaporeair.com
+types: []
+visibility: []
+---

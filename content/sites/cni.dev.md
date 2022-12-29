@@ -1,7 +1,6 @@
-+++
-title = 'cni.dev'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: cni.dev
+types:
+- project
+visibility: []
+---

@@ -1,7 +1,8 @@
-+++
-title = 'dgraph.io'
-draft = false
-types = ['business','documentation']
-visibility = []
-path = '/docs/cloud'
-+++
+---
+path: /docs/cloud
+title: dgraph.io
+types:
+- business
+- documentation
+visibility: []
+---

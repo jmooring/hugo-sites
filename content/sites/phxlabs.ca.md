@@ -1,6 +1,6 @@
-+++
-title = 'phxlabs.ca'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: phxlabs.ca
+types:
+- business
+visibility: []
+---

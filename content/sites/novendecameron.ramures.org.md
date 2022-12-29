@@ -1,6 +1,6 @@
-+++
-title = 'novendecameron.ramures.org'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: novendecameron.ramures.org
+types:
+- project
+visibility: []
+---

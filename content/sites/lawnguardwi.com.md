@@ -1,6 +1,5 @@
-+++
-title = 'lawnguardwi.com'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: lawnguardwi.com
+types: []
+visibility: []
+---

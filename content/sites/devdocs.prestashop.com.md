@@ -1,6 +1,7 @@
-+++
-title = 'devdocs.prestashop.com'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: devdocs.prestashop.com
+types:
+- documentation
+- project
+visibility: []
+---

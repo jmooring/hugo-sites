@@ -1,6 +1,6 @@
-+++
-title = 'blackthorn.z13.web.core.windows.net'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: blackthorn.z13.web.core.windows.net
+types:
+- business
+visibility: []
+---

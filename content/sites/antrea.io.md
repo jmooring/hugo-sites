@@ -1,7 +1,6 @@
-+++
-title = 'antrea.io'
-draft = false
-types = ['project']
-visibility = []
-path = ''
-+++
+---
+title: antrea.io
+types:
+- project
+visibility: []
+---

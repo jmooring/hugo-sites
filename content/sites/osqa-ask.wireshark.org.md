@@ -1,6 +1,6 @@
-+++
-title = 'osqa-ask.wireshark.org'
-draft = false
-types = ['nonprofit']
-visibility = []
-+++
+---
+title: osqa-ask.wireshark.org
+types:
+- nonprofit
+visibility: []
+---

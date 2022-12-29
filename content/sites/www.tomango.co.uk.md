@@ -1,6 +1,5 @@
-+++
-title = 'www.tomango.co.uk'
-draft = false
-types = []
-visibility = []
-+++
+---
+title: www.tomango.co.uk
+types: []
+visibility: []
+---

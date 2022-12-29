@@ -1,6 +1,6 @@
-+++
-title = 'opencoreventures.com'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: opencoreventures.com
+types:
+- business
+visibility: []
+---

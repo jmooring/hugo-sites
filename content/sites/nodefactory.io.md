@@ -1,6 +1,6 @@
-+++
-title = 'nodefactory.io'
-draft = false
-types = ['business']
-visibility = []
-+++
+---
+title: nodefactory.io
+types:
+- business
+visibility: []
+---

@@ -1,6 +1,7 @@
-+++
-title = 'fluxcd.io'
-draft = false
-types = ['documentation','project']
-visibility = []
-+++
+---
+title: fluxcd.io
+types:
+- documentation
+- project
+visibility: []
+---

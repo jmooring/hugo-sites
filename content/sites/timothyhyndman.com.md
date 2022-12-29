@@ -1,6 +1,6 @@
-+++
-title = 'timothyhyndman.com'
-draft = false
-types = ['cv']
-visibility = []
-+++
+---
+title: timothyhyndman.com
+types:
+- cv
+visibility: []
+---

@@ -1,6 +1,6 @@
-+++
-title = 'gethue.com'
-draft = false
-types = ['project']
-visibility = []
-+++
+---
+title: gethue.com
+types:
+- project
+visibility: []
+---
