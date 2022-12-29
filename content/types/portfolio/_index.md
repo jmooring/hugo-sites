@@ -1,4 +1,4 @@
 ---
 linkTitle: Portfolio
-title: Portfolio Sites
+title: Portfolio sites
 ---

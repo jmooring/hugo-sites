@@ -1,4 +1,4 @@
 ---
 linkTitle: Documentation
-title: Documentation Sites
+title: Documentation sites
 ---

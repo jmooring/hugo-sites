@@ -1,4 +1,4 @@
 ---
 linkTitle: CV
-title: CV Sites
+title: CV sites
 ---

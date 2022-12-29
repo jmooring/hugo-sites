@@ -1,4 +1,4 @@
 ---
 linkTitle: Business
-title: Business Sites
+title: Business sites
 ---

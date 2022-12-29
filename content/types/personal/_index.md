@@ -1,4 +1,4 @@
 ---
 linkTitle: Personal
-title: Personal Sites
+title: Personal sites
 ---

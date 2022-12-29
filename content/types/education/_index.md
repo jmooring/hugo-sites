@@ -1,4 +1,4 @@
 ---
 linkTitle: Education
-title: Education Sites
+title: Education sites
 ---

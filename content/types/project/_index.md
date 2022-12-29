@@ -1,4 +1,4 @@
 ---
 linkTitle: Project
-title: Project Sites
+title: Project sites
 ---

@@ -1,4 +1,4 @@
 ---
 linkTitle: Entertainment
-title: Entertainment Sites
+title: Entertainment sites
 ---

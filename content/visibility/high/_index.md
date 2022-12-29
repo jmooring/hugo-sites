@@ -1,4 +1,4 @@
 ---
 linkTitle: High
-title: High Visibility Sites
+title: High visibility sites
 ---

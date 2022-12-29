@@ -1,4 +1,4 @@
 ---
 linkTitle: Low
-title: Low Visibility Sites
+title: Low visibility sites
 ---

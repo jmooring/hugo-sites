@@ -1,4 +1,4 @@
 ---
 linkTitle: Nonprofit
-title: Nonprofit / NGO Sites
+title: Nonprofit / NGO sites
 ---

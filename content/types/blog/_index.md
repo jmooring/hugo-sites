@@ -1,4 +1,4 @@
 ---
 linkTitle: Blog
-title: Blog Sites
+title: Blog sites
 ---

@@ -1,4 +1,4 @@
 ---
 linkTitle: Membership
-title: Membership Sites
+title: Membership sites
 ---

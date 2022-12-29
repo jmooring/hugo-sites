@@ -1,4 +1,4 @@
 ---
 linkTitle: Ecommerce
-title: Ecommerce Sites
+title: Ecommerce sites
 ---

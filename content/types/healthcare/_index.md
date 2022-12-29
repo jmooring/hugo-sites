@@ -1,4 +1,4 @@
 ---
 linkTitle: Healthcare
-title: Healthcare Sites
+title: Healthcare sites
 ---

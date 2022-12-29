@@ -1,4 +1,4 @@
 ---
 linkTitle: Event
-title: Event Sites
+title: Event sites
 ---

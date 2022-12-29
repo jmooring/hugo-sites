@@ -1,4 +1,4 @@
 ---
 linkTitle: Government
-title: Government Sites
+title: Government sites
 ---

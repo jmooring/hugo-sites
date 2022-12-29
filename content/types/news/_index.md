@@ -1,4 +1,4 @@
 ---
 linkTitle: News
-title: News Sites
+title: News sites
 ---
