@@ -1,7 +1,7 @@
 +++
-title = '{{ .Name }}'
+title = 'helm.sh'
 draft = false
-types = []
+types = ['project']
 visibility = []
 path = ''
 +++

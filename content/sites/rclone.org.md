@@ -1,7 +1,7 @@
 +++
-title = '{{ .Name }}'
+title = 'rclone.org'
 draft = false
-types = []
+types = ['project']
 visibility = []
 path = ''
 +++
