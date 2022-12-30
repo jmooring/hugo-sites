@@ -65,13 +65,16 @@ th {
 @media (max-width: 576px) {
   .last-updated,
   .title,
-  .types {
+  .version {
     display: none;
+  }
+  table.sites {
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-  .version,
+  .types,
   .visibility {
     display: none;
   }

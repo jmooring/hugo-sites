@@ -104,14 +104,14 @@
 {{- end }}
 
 {{- with $hugoSites }}
-  <table>
+  <table class="sites">
     <thead>
       <tr>
         <th class="host">Host</th>
         <th class="title">Title</th>
+        <th class="version">Version</th>
         <th class="types">Types</th>
         <th class="visibility">Visibility</th>
-        <th class="version">Version</th>
         <th class="description">Description</th>
       </tr>
     </thead>
@@ -120,9 +120,9 @@
         <tr>
           <td class="host"><a href="{{ .url }}">{{ .host }}</a></td>
           <td class="title">{{- trim .title " \n" | safeHTML }}</td>
+          <td class="version">{{- .version }}</td>
           <td class="types">{{- .types | safeHTML }}</td>
           <td class="visibility">{{- .visibility | safeHTML }}</td>
-          <td class="version">{{- .version }}</td>
           <td class="description">{{- trim .description " \n" | safeHTML }}</td>
         </tr>
       {{- end }}
