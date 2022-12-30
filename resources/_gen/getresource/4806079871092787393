@@ -1,27 +1,27 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: Content-Type
-Age: 0
+Age: 563
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cache-Control: public, max-age=3600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 781129b16a87c3a7-SEA
+Cf-Ray: 781756b4ed8fc36d-SEA
 Content-Type: text/html
-Date: Thu, 29 Dec 2022 08:28:32 GMT
-Expires: Thu, 29 Dec 2022 09:28:32 GMT
-Last-Modified: Mon, 19 Dec 2022 18:08:01 GMT
+Date: Fri, 30 Dec 2022 02:27:51 GMT
+Expires: Fri, 30 Dec 2022 03:18:28 GMT
+Last-Modified: Thu, 29 Dec 2022 15:03:16 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bt8Pkr9L4qdYlMiXbn%2FYk2zLRhcGqFAyVWCnkhDu3azngkq76Jx1CsoDBw1pw8k8T1ErreXFheiLZJ2iZu1Ci2at%2BhR1h%2BWSfEKLW8HcDKP0bUHt1OIemS8n8lT9"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IN5itsfMGXyeXZXogjFvScrfR0fAnP%2Br%2FsOGNhs6lc%2BGD7uRITYzkYfzqpiVMgf5hAoQhxVsNfxsZfA1FwH0jtP%2FGxpdhtKJVxpCSmBUR3opgsQN7LN3gcYYrnIa"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-X-Goog-Generation: 1671473281350694
-X-Goog-Hash: crc32c=jVK9fQ==
-X-Goog-Hash: md5=e3AhQwUubsH/tbLlq5ftlQ==
-X-Goog-Meta-Goog-Reserved-File-Mtime: 1671473271
+X-Goog-Generation: 1672326196066488
+X-Goog-Hash: crc32c=z5X8IA==
+X-Goog-Hash: md5=b77ewlf8jvF9nklOU5a7Qg==
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1672326183
 X-Goog-Metageneration: 1
 X-Goog-Storage-Class: STANDARD
 X-Goog-Stored-Content-Encoding: identity
-X-Goog-Stored-Content-Length: 29748
-X-Guploader-Uploadid: ADPycds7A1NZFDlcuOCH3Z-EY-4JnRYD2CMEEEWijvcIzVMZkX40DTyELeAtnoNbXifxru52A4H4qQaE2zBstCONIRa6rQ
+X-Goog-Stored-Content-Length: 29732
+X-Guploader-Uploadid: ADPycdswfnfClZwQxLOglRg4oEpDsRPxFohTnms-p2Sdh0tifqoXNbQtuIA_Rl1lgHs6aOjiVi6zMt0QKpoHmtjm6LbJ
 
 <!DOCTYPE html>
 <html lang="en" class="">
@@ -130,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </nav>
 <script src="https://linkerd.io/js/navbar.min.94a823c229699317971e763064602dbe0187a2dd3474965df186db85b76e64a3.js"></script>
 <div class="homepage-notification has-background-light-blue has-text-navy-black center has-text-centered">
-<p>2022-12-01 <strong>New blog post! What really happens at startup: Linkerd, init containers, the CNI, and more <a href="2022/12/01/what-really-happens-at-startup-linkerd-init-containers-the-cni-and-more/" target="_blank">Read more »</a></strong></p>
+<p>2022-12-28 <strong><a href="2022/12/28/service-mesh-2022-recap-ebpf-gateway-api/" target="_blank">Service mesh 2022 recap: Linkerd adoption doubled, and what we learned about eBPF, the Gateway API, and more. Read now »</a></strong></p>
 </div>
 <section class="hero">
 <main aria-role="main" class="hero-body">
@@ -426,7 +426,7 @@ Why Linkerd doesn&#39;t use Envoy
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <div class="column is-narrow is-11-mobile">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who can relate? 👀<a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a> has the best getting-started guide I have seen 🙌✨ <a href="https://t.co/a7xNL9iWNi">pic.twitter.com/a7xNL9iWNi</a></p>&mdash; Anaïs Urlichs ☀️ (@urlichsanais) <a href="https://twitter.com/urlichsanais/status/1384463767459844097?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who can relate? 👀<a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a> has the best getting-started guide I have seen 🙌✨ <a href="https://t.co/a7xNL9iWNi">pic.twitter.com/a7xNL9iWNi</a></p>&mdash; Anaïs Urlichs Ⓥ (@urlichsanais) <a href="https://twitter.com/urlichsanais/status/1384463767459844097?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <div class="column is-narrow is-11-mobile">

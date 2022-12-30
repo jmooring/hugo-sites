@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Cache-Control: max-age=0, no-cache
 Content-Type: text/html; charset=utf-8
-Date: Thu, 29 Dec 2022 08:28:32 GMT
+Date: Fri, 30 Dec 2022 02:27:48 GMT
 Vary: Accept-Encoding
-X-Azure-Ref: 20221229T082832Z-7u7kwgxsp56ed3ygt2k1gwqh7g000000050000000000abxb
+X-Azure-Ref: 0pUyuYwAAAADvsSm5NE5oRoFDV8DqWP0EV1NURURHRTA4MTAAMGJjMGU0NDYtYmIwZC00M2IzLThiZDYtYzAxOWY2YTBkYmY2
 X-Cache: CONFIG_NOCACHE
 X-Page-Speed: 1.11.33.3-0
 
@@ -35,7 +35,7 @@ X-Page-Speed: 1.11.33.3-0
 <meta name=twitter:description content="Welcome to the Ortelius Open Source Project Site"/>
 <script type="application/javascript">var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-186940925-1','auto');ga('send','pageview');}</script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-<link href="/scss/main.min.ae251b2b0ff8001b140a2acc9b3545034beacd48a047068debe47410efa74c02.css" rel=stylesheet integrity="">
+<link href="/scss/main.min.b567c913a8a5c6b7a95f387f9783b1eafae6aa3c01698e05d88085b3a82f8fa9.css" rel=stylesheet integrity="">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin=anonymous></script>
 <script src="/js/script.js"></script>
 <style>a{color:#00f}.td-box--white p>a{color:#00f}.td-box--primary p>a{color:#00f}</style>
@@ -96,11 +96,9 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class=col>
 <div class="row ">
 <div class=col-12>
-<div style=max-width:500px>
-<h1 class=text-left>An Open Source Microservice Catalog for Supply Chain Management</h1>
-</div>
+<h1 class=text-center>An Open Source Microservice Catalog for Supply Chain Management</h1>
 <div id=home-github>
-<p class=text-left><button><a href="https://github.com/ortelius/ortelius"><span>Join the GitHub Project</span></a></button></p>
+<p><button><a href="https://github.com/ortelius/ortelius"><span>Join the GitHub Project</span></a></button></p>
 </div>
 </div>
 </div>
@@ -111,12 +109,10 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class=col>
 <div class="row ">
 <div class=col-12>
-<h1 class=text-center>A Centralized Supply Chain Evidence Store</h1>
+<h1 class=text-center>What is Ortelius?</h1>
 <hr>
 </div>
-<p>Ortelius is central catalog of supply chain and DevOps intelligence. It is designed to track and version composition details for every component of your software supply chain along with all consuming &lsquo;logical&rsquo; applications. With Ortelius, you can easily view your &lsquo;logical&rsquo; application&rsquo;s SBOM, CVEs, service dependencies, and inventory based on versions, even in a decoupled microservices architecture.</p>
-<p>Ortelius aggregates DevOps, security and supply chain data for each independent component moving through the pipeline. It is particularly useful in cloud-native, microservices architectures where the &lsquo;logical application&rsquo; becomes ambiguous. Ortelius tracks who is consuming shared components, versions them when they are updated and then creates new release candidates for every &lsquo;logical application&rsquo; that is impacted by a component change. It then aggregates that data to the &lsquo;logical&rsquo; application level so you don&rsquo;t have to.</p>
-<p>The latest version of Ortelius is maintained by the Ortelius Community managed by the <a href="http://cd.foundation/">Continuous Delivery Foundation</a> (Linux Foundation). It was originally created by <a href="https://www.deployhub.com/">DeployHub</a> and <a href="https://www.openmakesoftware.com">OpenMake Software</a>. Our mission is to simplify the adoption of modern architecture through a world-class microservice catalog driven by a supportive and diverse global open source community.</p>
+<p>Ortelius is a unified microservice catalog designed to track and version your microservice software supply chain along with all consuming &lsquo;logical&rsquo; applications. With Ortelius, you can easily view your &lsquo;logical&rsquo; application&rsquo;s SBOM, CVEs, service dependencies, and inventory based on versions. Ortelius generates new versions of microservices and their consuming logical applications each time you update your container registry. By centralizing and tracking detailed supply chain data, Ortelius provides you a proactive view of your microservice architecture and the differences between each service update. The latest version of Ortelius is maintained by the Ortelius Community managed by the <a href="http://cd.foundation/">Continuous Delivery Foundation</a> (Linux Foundation). It was originally created by <a href="https://www.deployhub.com/">DeployHub</a> and <a href="https://www.openmakesoftware.com">OpenMake Software</a>. Our mission is to simplify the adoption of modern architecture through a world-class microservice catalog driven by a supportive and diverse global open source community.</p>
 <p></p>
 </div>
 </div>
@@ -126,7 +122,7 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class=col>
 <div class="row ">
 <div class=col-12>
-<h1 class=text-center> Continuous Versioning of Your Software Composition</h1>
+<h1 class=text-center>What Ortelius Does</h1>
 <hr>
 <p></p>
 </div>
@@ -134,15 +130,15 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class="mb-4 h1">
 <i class="fas fa-3x fa-sitemap"></i>
 </div>
-<h4 class=h3>Versioning</h4>
+<h4 class=h3>Microservice Dependency Mapping</h4>
 <p class=mb-0></p>
-<p><a href="/versioning/">Read more …</a></p>
+<p><a href="/microservicemapping/">Read more …</a></p>
 </div>
 <div class="col-lg-4 mb-5 mb-lg-0 text-center ">
 <div class="mb-4 h1">
 <i class="fas fa-3x fa-share-square"></i>
 </div>
-<h4 class=h3>Supply Chain Data</h4>
+<h4 class=h3>Microservice Catalog</h4>
 <p class=mb-0></p>
 <p><a href="/catalog/">Read more …</a></p>
 </div>
@@ -150,15 +146,16 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class="mb-4 h1">
 <i class="fas fa-3x fa-box-open"></i>
 </div>
-<h4 class=h3>Logical Application Tracking</h4>
+<h4 class=h3>Microservice Supply Chain with Versioning</h4>
 <p class=mb-0></p>
-<p><a href="/microservicemapping/">Read more …</a></p>
+<p><a href="/versioning/">Read more …</a></p>
 </div>
 </div>
 </div>
 </section>
+<p>
 <a id=td-block-3 class=td-offset-anchor></a>
-<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+<section class="row td-box td-box--primary td-box--gradient td-box--height-auto">
 <div class=col>
 <div class="row ">
 <div class=col-12>
@@ -198,6 +195,31 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <div class=col>
 <div class="row ">
 <div class=col-12>
+<h1 class=text-center>Sign-up for the Ortelius Test Environment</h1>
+<hr>
+<p></p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<p>Ortelius has a test instance running on Azure Kubernetes. You can use this instance to test the latest version and pull requests. A private domain with sample test data will be created when you complete the sign-up. This allows you to test independently, so don&rsquo;t worry about breaking anything.</p>
+<p>Please submit any issues you find in the <a href="https://github.com/ortelius/ortelius/issues">ortelius/ortelius</a> repo.</p>
+<p align=center>
+<svg height=280px width=280px aria-hidden=true focusable=false data-prefix=fas data-icon=pen-field class="svg-inline--fa fa-pen-field fa-w-20" role=img xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill=currentColor d="M192 320c0 17.67 14.33 32 32 32s32-14.33 32-32S241.7 288 224 288S192 302.3 192 320zM96 320c0 17.67 14.33 32 32 32s32-14.33 32-32S145.7 288 128 288S96 302.3 96 320zM639.1 69.79c0-11.26-4.295-22.52-12.89-31.11L601.3 12.89c-8.592-8.592-19.85-12.89-31.11-12.89S547.7 4.295 539.1 12.89L311.7 240.3c-3.072 3.072-5.164 6.984-6.016 11.24l-17.46 87.32c-.1486 .7434-.2188 1.471-.2188 2.191c0 6.012 4.924 10.94 10.94 10.94c.7197 0 1.449-.0707 2.192-.2194l87.33-17.46c4.258-.8516 8.168-2.945 11.24-6.016l227.4-227.4C635.7 92.31 639.1 81.05 639.1 69.79zM511.1 326.6C511.1 326.6 511.1 326.6 511.1 326.6L511.1 448H63.1V192h228.1l63.1-64H63.1C28.66 128 0 156.7 0 192v256c0 35.35 28.66 64 63.1 64h447.1c35.34 0 63.1-28.65 63.1-63.1L576 219.9l-64 63.99L511.1 326.6z"></path></svg>
+</p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div align=center>
+<iframe width=600px height=550px src="https://dev.ortelius.io/dmadminweb/signup.html" frameBorder=0 scrolling=no></iframe>
+<p>Already signed up - <a href="https://dev.ortelius.io/dmadminweb/Login#dhmain">Login Here</a></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<a id=td-block-5 class=td-offset-anchor></a>
+<section class="row td-box td-box--primary td-box--gradient td-box--height-auto">
+<div class=col>
+<div class="row ">
+<div class=col-12>
 <h1 class=text-center>Ortelius Features</h1>
 <hr>
 <p></p>
@@ -213,27 +235,27 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 </thead>
 <tbody>
 <tr>
-<td>Component ownership.</td>
+<td>Microservice ownership.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Logical application versioning.</td>
+<td>Logical application versions with SBOMs and CVEs.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Component blast radius.</td>
+<td>Microservice blast radius.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Component &lsquo;Drift&rsquo; reporting.</td>
+<td>Difference reports over time, microservice and logical application.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Component inventory usage across all clusters.</td>
+<td>Microservice inventory usage across all clusters.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Component key value pairs management.</td>
+<td>Microservice key value pairs management.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 </tbody>
@@ -251,11 +273,11 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 </thead>
 <tbody>
 <tr>
-<td>Application Level SBOM Reporting.</td>
+<td>Helm and Ansible Support.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Application Level CVE Reporting.</td>
+<td>Reusable actions and templated deployment logic.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
@@ -263,15 +285,15 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Integration with Deployment Engines.</td>
+<td>Blue/Green and Canary deployment models.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Integrates into DevOps Pipelines.</td>
+<td>Rollback and roll forward recovery.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 <tr>
-<td>Easily extendable.</td>
+<td>Integrates with CI/CD.</td>
 <td><i class="fas fa-3x fa-check-square"></i></td>
 </tr>
 </tbody>
@@ -281,8 +303,9 @@ pagespeed.lazyLoadInit(true, "/pagespeed_static/1.JiBnMqyl6S.gif");
 </div>
 </div>
 </section>
-<a id=td-block-5 class=td-offset-anchor></a>
-<section class="row td-box td-box--primary td-box--gradient td-box--height-auto">
+</p>
+<a id=td-block-6 class=td-offset-anchor></a>
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
 <div class=col>
 <div class="row ">
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">

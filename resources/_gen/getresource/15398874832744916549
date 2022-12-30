@@ -1,0 +1,2459 @@
+HTTP/2.0 200 OK
+Cache-Control: max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 7817568e8efa08b6-SEA
+Content-Type: text/html
+Date: Fri, 30 Dec 2022 02:27:45 GMT
+Last-Modified: Wed, 28 Dec 2022 16:48:38 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+Via: 1.1 9adef5b1c5fc9ca80d6f4f8d19e103a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: r_CnaujSGb56wtyoa2MVG7aJD-W5KAcAEZwl-PhrUCPfaT-RGQdzvg==
+X-Amz-Cf-Pop: SEA19-C3
+X-Cache: RefreshHit from cloudfront
+
+<!DOCTYPE html>
+<html>
+  <head>
+          <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      
+      <link rel="canonical" href="https://docs.redis.com/latest/" />
+      <meta name="generator" content="Hugo 0.92.1" />
+      <title>Redis Documentation | Redis Documentation Center</title>
+      <link rel="shortcut icon" href="./images/icon_logo/favicon-32x32.png" type="image/x-icon" />
+      <link href="./css/font-awesome.min.css" rel="stylesheet">
+      <link href="./css/nucleus.css" rel="stylesheet">
+      <link href="./css/bootstrap.min.css" rel="stylesheet">
+      <link href="./css/foundation-icons.css" rel="stylesheet">
+      
+      <link href="./theme-flex/style.9432374dd7f0ef71b5de7d0b391fa3062bdd18ae9e4426053c1253ec0127b379.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+      <script src="./js/jquery-2.x.min.js"></script>
+      <script type="text/javascript">
+            var baseurl = "https:\/\/docs.redis.com\/latest";
+      </script>
+      
+  
+    
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KNWQXKB');</script>
+
+
+  
+
+
+      
+      <style>
+            @media screen and (max-width: 768px) {
+                  .nice-select {
+                  display: none !important;
+                  }
+            }
+      </style>
+      
+
+  </head>
+  <body data-url="./">
+    
+  
+    
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNWQXKB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  
+
+
+<div class="header-wrap-outer">
+  <header id="header">
+      <div class="header-wrap">
+        <div class="logo">
+          
+	
+  
+    <p><a href="https://redis.com"><img src="./images/icon_logo/logo-redis-3.svg" alt="Redis"></a></p>
+
+  
+
+        </div>
+          <nav class="shortcuts">
+  <li class="" role="">
+    <label>Cloud</label>
+
+    <div class="submenu-wrapper cloud">
+
+      <ul class="vertical menu submenu is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+        <div class="row align-center">
+          <div class="small-12 columns submenu-list">
+            <li id="menu-item-49314"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49314 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Redis Enterprise"
+              data-is-click="false">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Redis Enterprise Cloud</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21240"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21240"><a
+                          href="https://redis.com/redis-enterprise-cloud/overview/">Overview<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21237"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21237"><a
+                          href="https://redis.com/redis-enterprise-cloud/migrate/">Cloud Migration<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-26146"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26146"><a
+                          href="https://redis.com/redis-enterprise-cloud/cloud-native/">Cloud-Native<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21238"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21238"><a
+                          href="https://redis.com/redis-enterprise-cloud/pricing/">Pricing<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49314"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49314 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Redis Enterprise"
+              data-is-click="false">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Cloud Partners</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21243"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21243"><a
+                          href="https://redis.com/cloud-partners/microsoft-azure/">Azure<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21242"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21242"><a
+                          href="https://redis.com/cloud-partners/google/">Google Cloud<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21244"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21244"><a
+                          href="https://redis.com/cloud-partners/aws/">AWS<i class="icon-right-open"></i></a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="" role="">
+    <label>Software</label>
+    <div class="submenu-wrapper software">
+
+      <ul class="vertical menu submenu is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+        <div class="row align-center">
+          <div class="small-12 columns submenu-list">
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Redis Enterprise Software">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Redis Enterprise Software</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21236"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21236"><a
+                          href="https://redis.com/redis-enterprise-software/overview/">Overview<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21248"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21248"><a
+                          href="https://redis.com/redis-enterprise-software/deployment/">Deployment<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21246"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21246"><a
+                          href="https://redis.com/redis-enterprise-software/pricing/">Pricing<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21247"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21247"><a
+                          href="https://redis.com/redis-enterprise-software/download-center/">Download Center<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="" role="">
+    <label>Platform</label>
+    <div class="submenu-wrapper platform">
+
+      <ul class="vertical menu submenu is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+        <div class="row align-center">
+          <div class="small-12 columns submenu-list">
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Redis Enterprise">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Redis Enterprise</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-562"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a
+                          href="https://redis.com/redis-enterprise/advantages/">Advantages<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21254"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21254"><a
+                          href="https://redis.com/redis-enterprise/data-structures/">Data Structures<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-564"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a
+                          href="https://redis.com/redis-enterprise/modules/">Modules<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-565"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-565"><a
+                          href="https://redis.com/redis-enterprise/multi-model/">Multi-Model<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21260"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21260"><a
+                          href="https://redis.com/redis-enterprise/redis-insight/">RedisInsight<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-5287"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5287"><a
+                          href="https://redis.com/redis-enterprise/technology/">Technology<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Deployment">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Deployment</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-5305"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5305"><a
+                          href="https://redis.com/deployment/method/">Method<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21255"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21255"><a
+                          href="https://redis.com/deployment/infrastructure/">Infrastructure<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21304"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21304"><a
+                          href="https://redis.com/deployment/customer-success/">Customer Success<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21258"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21258"><a
+                          href="https://redis.com/deployment/support/">Support<i class="icon-right-open"></i></a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Modules">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Modules</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21314"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21314"><a
+                          href="https://redis.com/modules/redis-search/">RediSearch<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21262"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21262"><a
+                          href="https://redis.com/modules/redis-json/">RedisJSON<i class="icon-right-open"></i></a>
+                      </li>
+                      <li id="menu-item-21265"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21265"><a
+                          href="https://redis.com/modules/redis-gears/">RedisGears<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21266"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21266"><a
+                          href="https://redis.com/modules/redis-ai/">RedisAI<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21268"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21268"><a
+                          href="https://redis.com/modules/redis-graph/">RedisGraph<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21263"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21263"><a
+                          href="https://redis.com/modules/redis-timeseries/">RedisTimeSeries<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21264"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21264"><a
+                          href="https://redis.com/modules/redis-bloom/">RedisBloom<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="More">
+              <div>
+                <div>
+                  <a class="submenu-section-title">More</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21271"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21271"><a
+                          href="https://redis.com/redis-enterprise/more/connectors/">Connectors<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21273"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21273"><a
+                          href="https://redis.com/redis-enterprise/more/clients/">Clients<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21261"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21261"><a
+                          href="https://redis.com/redis-enterprise/more/redis-edge/">RedisEdge<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="" role="">
+    <label>Solutions</label>
+    <div class="submenu-wrapper solutions">
+
+      <ul class="vertical menu submenu is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+        <div class="row align-center">
+          <div class="small-12 columns submenu-list">
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Use Cases">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Use Cases</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21274"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21274"><a
+                          href="https://redis.com/solutions/use-cases/caching/">Caching<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-5435"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5435"><a
+                          href="https://redis.com/solutions/use-cases/session-management/">Session
+                          Management<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21275"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21275"><a
+                          href="https://redis.com/solutions/use-cases/fraud-mitigation/">Fraud Detection<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-5291"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5291"><a
+                          href="https://redis.com/solutions/use-cases/real-time-inventory/">Real Time
+                          Inventory<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21282"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21282"><a
+                          href="https://redis.com/solutions/use-cases/claims-processing/">Claims Processing<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21283"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21283"><a
+                          href="https://redis.com/solutions/use-cases/leaderboards/">Leaderboards<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21284"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21284"><a
+                          href="https://redis.com/solutions/use-cases/messaging/">Messaging<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21285"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21285"><a
+                          href="https://redis.com/solutions/use-cases/fast-data-ingest/">Fast Data Ingest<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21288"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21288"><a
+                          href="https://redis.com/solutions/use-cases/microservices/">Microservices<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49320"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49320 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Industries">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Industries</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21277"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21277"><a
+                          href="https://redis.com/solutions/industries/financial-services/">Financial
+                          Services<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21278"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21278"><a
+                          href="https://redis.com/solutions/industries/retail/">Retail<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21276"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21276"><a
+                          href="https://redis.com/solutions/industries/healthcare/">Healthcare<i
+                            class="icon-right-open"></i></a></li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </li>
+
+  <li class="" role="">
+    <label>Developers</label>
+    <div class="submenu-wrapper developers">
+
+      <ul class="vertical menu submenu is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+        <div class="row align-center">
+          <div class="small-12 columns submenu-list">
+            <li id="menu-item-49322"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49322 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Start Here">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Start Here</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      
+                      <li id="menu-item-21290"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21290"><a
+                          href="https://developer.redis.com/">Developer Hub<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-26433"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26433"><a
+                          href="https://redis.com/community/">Community<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-5301"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5301"><a
+                          target="_blank" rel="noopener noreferrer"
+                          href="https://redis.com/modules/get-started/">Get Started with Modules<i
+                            class="icon-right-open"></i></a></li>
+                      <li id="menu-item-5302"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5302"><a
+                          target="_blank" rel="noopener noreferrer"
+                          href="https://redis.com/redis-best-practices/introduction/">Redis Best Practices<i class="icon-right-open"></i></a>
+                      </li>
+                     </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+            <li id="menu-item-49323"
+              class="nav-head menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49323 is-dropdown-submenu-parent opens-right"
+              role="menuitem" aria-haspopup="true" aria-expanded="false" aria-label="Become a Redis Expert">
+              <div>
+                <div>
+                  <a class="submenu-section-title">Learn</a>
+                </div>
+
+                <ul class="vertical menu submenu is-dropdown-submenu" data-submenu="" aria-hidden="true" role="menu">
+                  <div class="row align-center">
+                    <div class="small-12 columns submenu-list__children">
+                      <li id="menu-item-21292"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21292"><a
+                          href="https://docs.redis.com/latest/index.html">Documentation<i class="icon-right-open"></i></a></li>
+                      <li id="menu-item-21293"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21293"><a
+                          href="https://redis.com/blog/">Blog<i class="icon-right-open"></i></a>
+                      </li>
+                      <li id="menu-item-21294"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21294"><a
+                          href="https://university.redis.com/">University<i class="icon-right-open"></i></a>
+                      </li>
+                      <li id="menu-item-21294"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21294"><a
+                          href="https://university.redis.com/certification/">Certification<i class="icon-right-open"></i></a>
+                      </li>
+                      <li id="menu-item-25663"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25663"><a
+                          href="https://redis.com/ebooks/">e-Books<i class="icon-right-open"></i></a></li>
+                      </div>
+                  </div>
+                </ul>
+              </div>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </li>
+</nav>
+
+        <nav class="shortcuts shortcuts-right">
+          <li class="" role="">
+              <a href="https://app.redislabs.com/#/login" rel="noopener">
+                <label>Login</label>
+              </a>
+          </li>
+          <li class="" role="">
+            <a href="https://redis.com/redis-enterprise-deployment/" rel="noopener">
+              <label>Try Free</label>
+            </a>
+          </li>
+        </nav>
+      </div>
+  </header>
+</div>
+<a id="top"></a>
+<article>
+    
+
+      
+
+      <div class="nav-select">
+          <center>
+          <select onchange="javascript:location.href = this.value;">
+          
+    <option value="https://docs.redis.com/latest/rc/" >
+   Redis Enterprise Cloud</option>
+    <option value="https://docs.redis.com/latest/rs/" >
+   Redis Enterprise Software</option>
+    <option value="https://docs.redis.com/latest/kubernetes/" >
+   Redis Enterprise Software on Kubernetes</option>
+    <option value="https://docs.redis.com/latest/modules/" >
+   Redis Stack and modules</option>
+    <option value="https://docs.redis.com/latest/ri/" >
+   RedisInsight</option>
+    <option value="https://docs.redis.com/latest/glossary/" >
+   Glossary</option>
+    <option value="https://docs.redis.com/latest/copy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-architecture-operator/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-architecture/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-container-images/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-openshift-old-getting-started-openshift-crdb/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-openshift-old-index/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-openshift-openshift-cli/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-openshift-openshift-operatorhub/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-openshift/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-quick-start/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-tanzu-pcf/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-tanzu/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment-using-kustomize/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-deployment/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-docs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-faqs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-logs-collect-logs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-logs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-memory-node-selection/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-memory-persistent-volumes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-memory-pod-stability/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-memory-sizing-on-kubernetes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-memory/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-old-index/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-cluster-recovery/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-connect-prometheus-operator/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-connect-to-admin-console/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-create-aa-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-delete_custom_resources/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-redis-on-flash/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters-upgrade-redis-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-clusters/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases-db-controller/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases-ingress_routing_with_istio/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases-replica-redb/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases-routes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases-set-up-ingress-controller/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-re-databases/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-reference-cluster-options/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-reference-db-options/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-reference-supported_k8s_distributions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-reference/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-5-4-10-8-january-2020/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-5-4-14-2-2020-03/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-12-5-2021-02/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-20-12-2021-07/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-20-4-2021-05/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-6-11-2020-07/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-6-23-2020-08/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-6-24-2020-08/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-6-6-2020-06/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-8-1-2020-10/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-0-8-20-2020-12/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-10-34-2022-05/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-10-4-2022-03/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-10-45-2022-07/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-12-1/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-18-3/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-18-41/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-4-1-2021-09/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-8-11-2022-01/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-8-15-2022-01/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes-k8s-6-2-8-2-2021-11/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-security-add-client-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-security-internode-encryption/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-security-manage-rec-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-security-manage-rec-credentials/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-kubernetes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-docs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-enterprise-capabilities/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-install-add-module-to-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-install-add-module-to-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-install-packaging-modules/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-install-upgrade-module/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-install/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-modules-lifecycle/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-modules-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redis-stack/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisai-redisai-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisai-release-notes-redisai-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisai-release-notes-redisai-1.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisai-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisai/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-redisbloom-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-release-notes-redisbloom-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-release-notes-redisbloom-1.1-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-release-notes-redisbloom-2.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-release-notes-redisbloom-2.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisbloom/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-redisearch-2-upgrade/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-redisearch-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-redisearch-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-1.1-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-1.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-1.4-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-1.6-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-2.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-2.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes-redisearch-2.4-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch-search-json-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisearch/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-installing-redisgears/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-accumulate/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-accumulateby/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-asyncfilter/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-asyncforeach/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-asyncmap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-callnext/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-callnextarray/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-collect/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-config-get/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-count/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-creategearsbuilder/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-execute/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-executearray/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-filter/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-flatmap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-foreach/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-hashtag/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-localaccumulateby/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-log/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-map/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-register/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-repartition/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder-run/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsbuilder/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsfuture-seterror/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsfuture-setresult/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-gearsfuture/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-commandoverrider/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-commandreader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-javareader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-keysonlyreader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-keysreader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-shardsidreader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers-streamreader/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes-readers/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-classes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-commands-rg-jdumpsessions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-commands-rg-jexecute/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-install/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-recipes-write-behind/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm-recipes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-jvm/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-python-install/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-python-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-python-recipes-write-behind/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-python-recipes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-python/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-register-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-release-notes-redisgears-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-release-notes-redisgears-1.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgears/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-redisgraph-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-1.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-2.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-2.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-2.4-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes-redisgraph-2.8-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisgraph/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-redisjson-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-release-notes-redisjson-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-release-notes-redisjson-2.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-release-notes-redisjson-2.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redisjson/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-redistimeseries-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-release-notes-redistimeseries-1.0-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-release-notes-redistimeseries-1.2-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-release-notes-redistimeseries-1.4-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-release-notes-redistimeseries-1.6-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules-redistimeseries/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-modules/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-accounts-account-settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-accounts-user-profile/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-accounts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-audit-system-logs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-back-up-and-import-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-create-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-dryrun-cost-estimates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-manage-cloud-accounts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-manage-subscriptions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-metrics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-security-and-privacy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-update-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-usage-quota-and-throttling/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples-view-account-information/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-examples/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-faq/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started-enable-the-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started-manage-api-keys/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started-manage-tasks/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started-process-lifecycle/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started-use-rest-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-get-started/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-how-to-manage-api-keys/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api-how-to-metrics-and-performance-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-billing-and-payments/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-cloud-accounts-iam-resources-aws-console/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-cloud-accounts-iam-resources-cloudformation/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-cloud-accounts-iam-resources-terraform/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-cloud-accounts-iam-resources/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-cloud-accounts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-aws-marketplace/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-gcp-marketplace/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations-prometheus-integration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-cloud-integrations/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-active-active-redis/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-back-up-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-configuration-clustering/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-configuration-data-eviction-policies/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-configuration-data-persistence/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-configuration-high-availability/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-configuration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-create-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-delete-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-flush-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-import-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-migrate-databases/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-monitor-performance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-system-logs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-usage-reports/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases-view-edit-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-databases/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-docs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-rc-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-access-management/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-cidr-whitelist/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-database-security-network-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-database-security-passwords-users-roles/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-database-security-tls-ssl/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-database-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-encryption-at-rest/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-multi-factor-authentication/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-shared-responsibility-model/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-single-sign-on-saml-sso/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-single-sign-on-social-login/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-single-sign-on/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security-vpc-peering/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-create-active-active-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-create-fixed-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-create-flexible-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-delete-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-view-fixed-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions-view-flexible-subscription/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc-subscriptions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rc/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-docs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-faqs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing-configurations/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing-install-docker/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing-install-ec2/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing-install-k8s/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing-install-redis-desktop/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-installing/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-memory-optimizations/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.32/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.33/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.34.1/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.34.2/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.34/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.35/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.36/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.37/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.38/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.39/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.40.1/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.40/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.41/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive-v0.9.42/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-archive/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v.2.14.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v.2.16.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v.2.4.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v.2.6.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.0.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.1.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.10.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.11.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.12.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.13.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.2.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.3.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.4.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.5.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.6.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.7.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.8.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v1.9.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v2.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v2.10.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v2.12.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v2.2.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes-v2.8.0/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-add-instance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-api-get/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-auth-database/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-auto-discover-databases/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-browser/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-cli/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-cluster-management/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-configuration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-java-serialized-objects/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-memory-analysis/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-overview/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-profiler/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-proxy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-slowlog/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight-troubleshooting/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri-using-redisinsight/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-ri/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-add-node/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-cluster-recovery/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-configure-cluster-settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-configure-license-keys/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-configure-rack-zone-awareness/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-configure-sync-clocks/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-configure/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-log-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-redis-slow-log/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-rsyslog-logging-bdb-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-rsyslog-logging-cluster-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-rsyslog-logging-node-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-rsyslog-logging-user-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging-rsyslog-logging/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-logging/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-maintenance-mode/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring-console-metrics-definitions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring-nagios-plugin/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring-prometheus-integration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring-prometheus-metrics-definitions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring-uptrace-integration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-monitoring/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-new-cluster-setup/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-disk-sizing-heavy-write-scenarios/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-memtier-benchmark/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-optimization/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-oss-cluster-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-turn-off-services/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize-wait/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-optimize/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-remove-node/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters-replace-node/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-clusters/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-causal-consistency/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-connect/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-create/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-delete/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-app-failover-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-hashes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-hyperloglog/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-lists/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-sets/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-sorted-sets/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-streams/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types-strings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-data-types/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop-develop-for-aa/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-develop/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-get-started/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-manage/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-planning/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-syncer/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active-synchronization-mode/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure-database-persistence/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure-oss-cluster-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure-proxy-policy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure-replica-ha/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure-shard-placement/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-configure/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-connect-supported-clients-browsers/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-connect-test-client-connectivity/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-connect/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-create/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-delete/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-durability-ha-clustering/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-durability-ha-consistency/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-durability-ha-discovery-service/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-durability-ha-replication/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-durability-ha/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-export-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-flush/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-import-data/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-migrate-to-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-replica-of-create/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-replica-of-replicaof-repeatedly-fails/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-replica-of/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export-schedule-backups/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-import-export/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-memory-performance-eviction-policy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-memory-performance-memory-limit/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-memory-performance-shard-placement-policy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-memory-performance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-recover/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-redis-on-flash-rof-quickstart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases-redis-on-flash/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-databases/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-docs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-configuring-centos-rhel-7-firewall/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-configuring-change-location-socket-files/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-configuring-configuring-aws-instances/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-configuring-linux-swap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-configuring/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-creating-support-package/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-customize-install-directories/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-customize-user-and-group/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-file-locations/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-get-started-docker/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-get-started-redis-enterprise-software/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-hardware-requirements/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-manage-installation-questions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-offline-installation/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-persistent-ephemeral-storage/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-product-lifecycle/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-supported-platforms/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-uninstalling/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading-upgrading/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-installing-upgrading/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-cluster-dns/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-cluster-lba-setup/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-configuring-aws-route53-dns-redis-enterprise/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-multi-ip-ipv6/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-port-configurations/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking-private-public-endpoints/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networking/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-networkingns/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-new-features-redis-enterprise/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-add-instance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-create/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-delete/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-flush/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-get/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-health-report/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-list/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-purge-instance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-remove-instance/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb-update/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-crdb/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-task-cancel/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-task-list/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-task-status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli-task/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-crdb-cli/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-redis-cli/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-bind/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-certificate/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-create/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-debug_info/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-join/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-ocsp/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-recover/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-reset_password/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-running_actions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster-stats_archiver/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-failover/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-help/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-info/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-migrate/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-addr/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-enslave/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-external-addr/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-maintenance-mode/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-recovery-path/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-remove/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node-snapshot/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-node/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-placement/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-recover/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-restart/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-suffix/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-tune/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-upgrade/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin-verify/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rladmin/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities-rlcheck/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-cli-utilities/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_c/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_csharp/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_drupal/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_ioredis/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_java/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_nodejs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_php/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_python/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references-client_ruby/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-client_references/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-clustering-redis/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-connection/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-data-types/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-generic/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-pub-sub/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-scripting/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-server/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands-transactions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-commands/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility-config-settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-compatibility/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-connecting-to-redis/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-memtier-benchmark/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-action/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-alert/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-backup_location/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-dataset_import_sources/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-replica_sources_status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-replica_sync/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-snapshot_policy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb-syncer_sources/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bdb_group/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-cluster_identity/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-credentials/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-identity/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-limits/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-node_identity/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-paths/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap-policy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-bootstrap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-check_result/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-cluster-alert_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-cluster-cluster_alert_settings_with_threshold/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-cluster_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-cluster_info/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-database_config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-health_report-health_report_configuration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-health_report/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-instance_info/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb-modify_request/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-crdb_task/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-db_alerts_settings-bdb_alert_settings_with_threshold/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-db_alerts_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-backup_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-cert_rotation_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-log_rotation_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-node_checks_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-redis_cleanup_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler-rotate_ccs_job_settings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-job_scheduler/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-jwt_authorize/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-ldap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-ldap_mapping/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-module/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-node/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-ocsp/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-ocsp_status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-proxy/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-redis_acl/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-role/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-cm_server/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-crdb_coordinator/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-crdb_worker/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-pdns_server/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-saslauthd/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration-stats_archiver/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configuration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-services_configurationns_server/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-shard-backup/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-shard-loading/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-shard-sync/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-shard/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-state-machine/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-statistics-cluster-metrics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-statistics-db-metrics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-statistics-node-metrics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-statistics-shard-metrics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-statistics/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-suffix/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects-user/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-objects/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-permissions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-quick-start/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-actions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-backup_reset_status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-export/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-export_reset_status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-import/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-import_reset_status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions-optimize_shards_placement/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-actions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-alerts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-crdt_sources-alerts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-modules-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-modules-upgrade/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-modules/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-passwords/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-peer_stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-replica_sources-alerts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-stats-last/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-sync_source_stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs-upgrade/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bdbs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bootstrap-validate/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-bootstrap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-actions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-alerts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-certificates-rotate/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-ldap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-module-capabilities/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-services_configuration/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-stats-last/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster-update-cert/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-cluster/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdb_tasks/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdbs-flush/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdbs-health_report/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdbs-purge/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdbs-updates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-crdbs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-endpoints-stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-jsonschema/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-ldap_mappings/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-license/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-logs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-modules-config/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-modules-upgrade/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-modules/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-nodes-actions/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-nodes-alerts/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-nodes-stats-last/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-nodes-stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-nodes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-ocsp-status/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-ocsp-test/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-ocsp/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-redis_acls/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-roles/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-shards-stats-last/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-shards-stats/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-suffix/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-suffixes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-users-authorize/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-users-password/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-users-refresh_jwt/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests-users/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api-requests/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-rest-api/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references-terminology/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-references/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-redis-enterprise-5/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-redis-pack-4-5-0-may-2017/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-release-notes-redis-enterprise-software-v5-0-2/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-0-99-5-11-january-2015/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-0-99-february-2015/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-4-0-june-2015/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-4-2-october-2015/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-4-3-aug-2016/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rlec-4-4-dec-2016/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-2-2-august-2018/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-2-june-2018/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-3-beta-july-2018/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-10-december-2019/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-14-february-2020/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-2-april-2019/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-4-june-2019/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-6-july-2019/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes-rs-5-4-december-2018/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-legacy-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-5-5-preview-april-2019/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-5-6-0-april-2020/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-0-12-january-2021/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-0-20-april-2021/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-0-8-september-2020/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-0-may-2020/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-2-10-february-2022/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-2-12/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-2-18/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-2-4-august-2021/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes-rs-6-2-8-october-2021/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-release-notes/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-active-active/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-configure-acl/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-create-roles/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap-cluster-based-ldap-authentication/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap-enable-role-based-ldap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap-map-ldap-groups-to-roles/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap-migrate-to-role-based-ldap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap-update-database-acls/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-ldap/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-manage-users-add-users/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-manage-users-default-user/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-manage-users-login-lockout/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-manage-users-manage-passwords/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control-manage-users/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-access-control/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-admin-console-security-encryption/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-admin-console-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-audit-events/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-certificates-create-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-certificates-ocsp-stapling/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-certificates-updating-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-certificates/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-internode-encryption/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-tls-ciphers/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-tls-enable-tls/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-tls-tls-protocols/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security-tls/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs-security/" >
+   </option>
+    <option value="https://docs.redis.com/latest/pdf-gen-rs/" >
+   </option>
+    <option value="https://docs.redis.com/latest/embeds/" >
+   Embeds</option>
+
+
+
+      </select>
+      </center>
+      </div>
+
+      
+
+
+    
+      <section class="home-hero">
+    <h1>Documentation</h1>
+    <p>Redis Enterprise in a variety of deployment options</p>
+
+    <div id="redis-sitesearch" class="redis-sitesearch redis-sitesearch-home">
+      <input class="redis-sitesearch-input" />
+
+      <div class="redis-sitesearch-result-list-wrapper">
+        <ul class="redis-sitesearch-result-list"></ul>
+        <div class="redisearch-logo">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/redis-sitesearch.min.js"></script>
+    <script type="text/javascript" src="./js/search.js"></script>
+    <link href="./css/redis-sitesearch.css" rel="stylesheet">
+    <link href="./css/redis-sitesearch-overrides.css" rel="stylesheet">
+</section>
+
+      <section class="home-options">
+        <div class="home-options__option" style="transform: translateY(10px);">
+            <div class="tile-opener">
+            <a href="./rc">
+                <div class="home-options__option__icon">
+                    <img src="./theme-flex/img/RedisLabs_Homepage_Getstarted_Cloud.svg" alt="Cloud Icon" style="width:70px;transform: translateY(-2px); margin-top:13px; margin-bottom:24px;">
+                </div>
+                <h5>Cloud</h5>
+                <p>Hosted and serverless database-as-a-service (DBaaS). The fastest way to deploy Redis Enterprise via Amazon AWS, Google Cloud Platform, or Microsoft Azure.</p>
+            </a>
+            </div>
+            <hr>
+            <ul>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc">Overview</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/subscriptions/">Subscriptions</a></li>
+                </section>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./rc/rc-quickstart/">Get started</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rc/databases/">Databases</a></li>
+                </section>
+            </ul>
+        </div>
+
+        <div class="home-options__option" style="transform: translateY(-1px);">
+            <div class="tile-opener">
+            <a href="./rs">
+                <div class="home-options__option__icon">
+                    <img src="./theme-flex/img/RedisLabs_Homepage_Getstarted_Software.svg" alt="Software Icon" style="width: 70px; margin-top:13px; margin-bottom:14px;">
+                </div>
+                <h5>Software</h5>
+                <p>A self-managed data platform that unlocks the full potential of Redis at enterprise scale. </p>
+            </a>
+            </div>
+            <hr>
+            <ul>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rs">Overview</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rs/clusters">Clusters</a></li>
+                </section>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rs/getting-started">Get
+                            started</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./rs/databases">Databases</a></li>
+                </section>
+            </ul>
+        </div>
+
+        <div class="home-options__option" style="transform: translateY(-5px);">
+            <div class="tile-opener">
+            <a href="./ri">
+                <div class="home-options__option__icon">
+                    <img src="./theme-flex/img/ico-redisinsight.svg" alt="RedisInsight Icon" style="height: 70%; margin-top:20px;">
+                </div>
+                <h5>RedisInsight</h5>
+                <p>RedisInsight is a cross-platform GUI for Redis, with a focus on reducing memory usage and improving application performance.
+                </p>
+            </a>
+            </div>
+            <hr>
+            <ul>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./ri/installing">Installation
+                        guide</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./ri/using-redisinsight">Using RedisInsight</a></li>
+                </section>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./ri/memory-optimizations/">Optimize
+                        memory</a></li>
+                        <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./ri/faqs">FAQs</a></li>
+                </section>
+            </ul>
+        </div>
+
+        <div class="home-options__option">
+            <div class="tile-opener">
+            <a href="./modules">
+                <div class="home-options__option__icon">
+                    <img src="./theme-flex/img/ico-modules.svg" alt="Modules Icon" class="modules-icon">
+                </div>
+                <h5>Modules</h5>
+                <p>Redis Modules are add-ons that extend Redis to cover most of the popular use cases in many
+                industries.
+                </p>
+            </a>
+            </div>
+            <hr>
+            <ul>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./modules">Overview</a></li>
+
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./modules/redisjson/">RedisJSON</a></li>
+                </section>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./modules/redisearch/">RediSearch</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./modules/redisgraph/">RedisGraph</a></li>
+                </section>
+            </ul>
+        </div>
+
+        <div class="home-options__option" style="transform: translateY(-4.5px);">
+            <div class="tile-opener">
+            <a href="./platforms">
+                <div class="home-options__option__icon">
+                    <img src="./theme-flex/img/ico-platforms.svg" alt="Platforms Icon" class="platforms-icon">
+                </div>
+                <h5>Kubernetes</h5>
+                <p>Redis Enterprise deployed on containerized software platforms and integrated with our partners.</p>
+            </a>
+            </div>
+            <hr>
+            <ul>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./kubernetes/architecture">Architecture</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a
+                            href="./kubernetes/rec/">Clusters</a></li>
+                </section>
+                <section>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./kubernetes/deployment/">Deployments</a></li>
+                    <li><i class="fa fa-angle-right fa-lg category-icon"></i><a href="./kubernetes/redb/">Databases</a></li>
+                </section>
+            </ul>
+        </div>
+</section>
+
+    
+
+    
+    </section>
+</article>
+
+<footer class="footer" role="contentinfo" id="footer">
+    <div class="footer-wrapper">
+        <div id="inner-footer" class="row">
+            <div class="large-12 medium-12 columns">
+                <nav role="navigation">
+                    <div class="row expanded small-up-2 medium-up-3 large-up-5">
+                        <style>
+                            #inner-footer .nav-head a {
+                                color: white;
+                            }
+                        </style>
+
+                        <div class="left-columns">
+                            <div class="column column-block">
+                                <h6>Company</h6>
+                                <ul class="no-bullet">
+                                    <li id="menu-item-49231"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49231"><a
+                                            href="https://redis.com/company/">About Us</a></li>
+                                    <li id="menu-item-49232"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49232"><a
+                                            href="https://redis.com/company/team/">Team</a></li>
+                                    <li id="menu-item-49233"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49233"><a
+                                            href="https://redis.com/company/careers/">Careers</a></li>
+                                    <li id="menu-item-49234"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49234"><a
+                                            href="https://redis.com/company/newsroom/">Newsroom</a></li>
+                                    <li id="menu-item-49236"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49236"><a
+                                            href="https://redis.com/company/contact/">Contact Us</a></li>
+                                    <li id="menu-item-58205"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58205"><a
+                                            href="https://redis.com/company/contact/support/">Support</a></li>
+                                    <li id="menu-item-49742"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49742"><a
+                                            href="https://redis.com/company/compliance-and-privacy/">Compliance</a></li>
+                                    <li id="menu-item-51462"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51462"><a
+                                            href="https://redis.com/legal/">Legal Notices</a></li>
+                                </ul>
+                            </div>
+                            <div class="column column-block">
+                                <h6>Resources</h6>
+                                <ul class="no-bullet">
+                                    <li id="menu-item-57423"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57423"><a
+                                            href="https://redis.com/blog/">Blog</a></li>
+                                    <li id="menu-item-57425"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57425"><a
+                                            href="https://redis.com/events/upcoming/">Events</a></li>
+                                    <li id="menu-item-49237"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49237"><a
+                                            href="https://redis.com/webinars/">Webinars</a></li>
+                                    <li id="menu-item-49238"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49238"><a
+                                            href="https://redis.com/whitepapers/">Whitepapers</a></li>
+                                    <li id="menu-item-49239"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49239"><a
+                                            href="https://redis.com/datasheets/">Datasheets</a></li>
+                                    <li id="menu-item-49241"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49241"><a
+                                            href="https://redis.com/tech-videos/">Tech Videos</a></li>
+                                    <li id="menu-item-49243"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49243"><a
+                                            href="https://redis.com/tech-talks/">Tech Talks</a></li>
+                                </ul>
+                            </div>
+                            <div class="column column-block">
+                                <h6>Partners</h6>
+                                <ul class="no-bullet partners">
+                                    <li id="menu-item-49278"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49278"><a
+                                            href="https://redis.com/partners/">Partner Center</a></li>
+                                    <li id="menu-item-49280"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49280"><a
+                                            href="https://redis.com/partners/find-a-partner/">Find a Partner</a></li>
+                                </ul>
+
+                                <h6>Customers</h6>
+                                <ul class="no-bullet">
+                                    <li><a href="https://redis.com/customer-stories/">
+                                        Customer Stories
+                                    </a>
+                                    </li>
+                                    <li><a href="https://redis.com/case-studies/">Case Studies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column column-block">
+                            <div class="cta">
+                                <p class="cta-title">TRY REDIS ENTERPRISE CLOUD FREE</p>
+                                <p class="cta-text">Redis Enterprise Cloud provides complete automation of day-to-day database operations. Start now with 30MB of free storage.</p></div>
+                                <p class="cta-btn"><a target="_blank" href="https://redis.com/#signup-modal" class="button pill">Try Now</a></p>
+                            <div>
+                            <div class="social small-only-text-center">
+                                <a href="https://twitter.com/Redisinc" target="_blank" rel="noopener noreferrer"><i
+                                        class="fi-social-twitter"></i></a>
+                                <a href="https://www.youtube.com/c/redisinc/" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://docs.redis.com/latest/images/yt.png">
+                                </a>
+                                <a href="https://www.facebook.com/Redisinc" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://docs.redis.com/latest/images/fb.png">
+                                </a>
+                                <br>
+                                <a href="https://www.linkedin.com/company/redisinc" target="_blank" rel="noopener noreferrer">
+                                    <img
+                                        src="https://docs.redis.com/latest/images/in.png">
+                                </a>
+                                <a href="https://www.glassdoor.com/Overview/Working-at-Redis-Labs-EI_IE928722.11,21.htm"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <img loading="lazy"
+                                        width="20px"
+                                        style="width:20px;"
+                                        src="https://docs.redis.com/latest/images/gd.png"
+                                        data-lazy-src="https://docs.redis.com/latest/images/gd.png">
+                                    <noscript><img
+                                            style="width:20px;"
+                                            src="https://docs.redis.com/latest/images/gd.png"
+                                            width="20px"></noscript>
+                                </a>
+                                <a href="https://www.instagram.com/redisinc/" target="_blank" rel="noopener noreferrer">
+                                    <img loading="lazy"
+                                    width="23px"
+                                    src="https://docs.redis.com/latest/images/ig.png"
+                                        data-lazy-src="https://docs.redis.com/latest/images/ig.png">
+                                    <noscript><img
+                                            src="https://docs.redis.com/latest/images/ig.png"
+                                            width="23px"></noscript>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="row v-bottom">
+            <div class="small-12 medium-12 columns">
+                <img width="26" class="float-left footer-logo" src="https://docs.redis.com/latest/images/icon-redis.svg"></noscript>
+                <p class="source-org copyright">&copy; 2022 Redis. Redis and the cube logo are registered
+                    trademarks of Redis, Inc.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="gdpr-modal" style="display: none; background-color: rgb(48, 59, 74); color: rgb(167, 167, 167); padding: 0.5em 2em 1em; text-align: center; line-height: 1.5; font-size: smaller; position: sticky; bottom: 0px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <p style="
+        margin: .5em 0 0 0;
+        font-size: 17px;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;">
+        By continuing to use this site, you consent to our updated privacy agreement as <a href="https://redis.com/privacy/" style="color: #5961ff;">described here</a>. You can change your cookie settings at any time as <a href="https://redis.com/privacy/" style="color: #5961ff;">described here</a> but parts of our site will not function correctly without them.</p>
+        <a id="gdpr-button" style="
+            cursor: pointer;
+            display: inline-block;
+            margin-top: .5em;
+            color: #fff;
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 500;
+            border-radius: 6px!important;
+            padding: 12px 40px 12px;
+            background-color: #5961ff;
+            text-decoration: none;
+            border: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        " class="button" tabindex="0" onclick="acceptGDPR()">Continue</a>
+    </div>
+</div>
+
+
+<div class="search-box" style="display: none">
+    <form role="search" method="get" class="search-form" action="https://redislabs.com/">
+        <input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:">
+        <div class="input-group-button">
+            <input type="submit" class="search-submit button" value="Search"><a data-close="" aria-label="Close modal"
+                class="close button secondary hollow"><span aria-hidden="true">×</span></a>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  
+  function acceptGDPR() {
+    localStorage.setItem('gdpr_accepted', true);
+    window.location.reload();    
+  };
+
+  (function() {
+    if(!localStorage.getItem('gdpr_accepted')) {
+      const e = document.getElementById('gdpr-modal');
+      if(!e) return;
+
+      e.style.display = 'block';
+    }
+  })();
+</script>
+
+<script src="https://docs.redis.com/latest/theme-flex/modernizr-custom.js" defer></script>
+<script src="https://docs.redis.com/latest/theme-flex/classie.js" defer></script>
+<script src="https://docs.redis.com/latest/theme-flex/polyfills.js" defer></script>
+<script src="https://docs.redis.com/latest/theme-flex/jquery.nice-select.min.js" defer></script>
+<script src="https://docs.redis.com/latest/theme-flex/custom.js" defer></script>
+
+<script src="https://docs.redis.com/latest/js/clipboard.min.js" defer></script>
+<script src="https://docs.redis.com/latest/js/bootstrap.min.js" defer></script>
+<link href="https://docs.redis.com/latest/css/featherlight.min.css" rel="stylesheet">
+<script src="https://docs.redis.com/latest/js/featherlight.min.js" defer></script>
+
+
+
+<script src="https://docs.redis.com/latest/theme-flex/script.js" defer></script>
+
+
+
+    
+    
+
+    
+  </body>
+</html>
