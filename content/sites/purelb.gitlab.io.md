@@ -1,5 +1,5 @@
 ---
-path: docs
+path: /docs
 title: purelb.gitlab.io
 types:
 - documentation
