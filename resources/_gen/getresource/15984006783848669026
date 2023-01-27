@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
-Age: 122362
+Age: 3607
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 28 Dec 2022 16:28:25 GMT
-Etag: "09ea595550589857f93f7a994d6ea282-ssl-df"
+Date: Fri, 27 Jan 2023 17:34:33 GMT
+Etag: "200fab5b8ff1cef7a15429fd51addfa0-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
+X-Nf-Request-Id: 01GQT857HFFABQ9WS50YQQMK4E
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -38,7 +38,7 @@ X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.css" />
   <link rel="preconnect" href="https://app.snipcart.com">
   <link rel="preconnect" href="https://cdn.snipcart.com">
-  <link href='https://d33wubrfki0l68.cloudfront.net/css/a56bcce7a5b2fd33874725e7d64eef30c48b3734/css/styles.css' rel='stylesheet'/>
+  <link href='https://d33wubrfki0l68.cloudfront.net/css/6c2b25370e3c8d77cdb8626611817ad126144eb2/css/styles.css' rel='stylesheet'/>
   <meta name="description" content="The place to get delicious sandwiches, fresh baked goods, healthy bulk foods, coffee, and grill seasonings ">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
@@ -98,7 +98,15 @@ X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
     </ul>
     <a href="#" class="cart-parent snipcart-checkout"><span class="snipcart-items-count"></span><span class="cart-word">CART</span><img src="https://d33wubrfki0l68.cloudfront.net/357c59f4a1ad58ba1c371e98926c7fbe4a8950d1/8db2d/images/cart.png" alt="cart icon" class="cart "></a>
   </nav>
-
+  
+  <div class="popup" id='popup'  hidden>
+    <h3>Winter 2022 Hours</h3>
+    <p>We're open Tues - Wed 8AM to 5PM and closed the first three weeks of January,  reopening January 25. Happy New Year!</p>
+    <br>
+    <img src="https://d33wubrfki0l68.cloudfront.net/64c06d22738c491c0ac2582ff021166ff2351c21/d78e1/images/new-year.jpg" alt="new year">
+    <button type="button" name="button" class="btn-tan" onclick="hidePopup()">Go To Site</button>
+  </div>
+  
 </header>
 
     
@@ -107,13 +115,7 @@ X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
     color: white;
   }
 </style>
-<div class="popup" id='popup'  >
-  <h3>Winter 2022 Hours</h3>
-  <p>We're open Tues - Wed 8AM to 5PM and closed the first three weeks of January,  reopening January 25. Happy New Year!</p>
-  <br>
-  <img src="https://d33wubrfki0l68.cloudfront.net/64c06d22738c491c0ac2582ff021166ff2351c21/d78e1/images/new-year.jpg" alt="new year">
-  <button type="button" name="button" class="btn-tan" onclick="hidePopup()">Go To Site</button>
-</div>
+
 <!-- Main Hero Section-->
 <section class="hero">
   <div class="hero-bg">
@@ -360,6 +362,15 @@ X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
   <p><a href="/privacy-policy">Privacy Policy</a> <br>  <a href="/terms-and-conditions">Terms and Conditions</a> </p>
 
 </footer>
+<script>
+  
+  let session = sessionStorage.getItem('session')
+  if (session == 'active')
+  document.querySelector('#popup').style.display = "none";
+  else {
+  document.querySelector('#popup').style.display = "none";
+  }
+  </script>
 <div class="privacy hide" id='privacy' >
   <p>By continuing to use this site, you are agreeing to accept our <a href="/terms-and-conditions">Terms and Conditions</a> and <a href="/privacy-policy">Privacy Policy</a></p>
   <button type="button" name="button" class="btn-tan" onclick="accept()">OK</button>
@@ -367,7 +378,7 @@ X-Nf-Request-Id: 01GNGDPQGJEZPDNRM2GAZA79TM
 <script async src="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.js"></script>
 
 <div hidden id="snipcart" data-api-key="YjI4MTE0MjUtNDI4ZC00OTUyLTlhMjEtMmNjOGQ2YWFhNDhhNjM3NDMyNDE2NTE2MTY4NzY4" data-config-modal-style="side" data-templates-url="/snipcart-templates.html">
-<script src='https://d33wubrfki0l68.cloudfront.net/js/593a54d3aa0bf1264a6f3755979ee23e40d53a66/js/index.js' type='text/javascript'></script>
+<script src='https://d33wubrfki0l68.cloudfront.net/js/289adbf949f5e3750c14f3dc1792dc22d007ca21/js/index.js' type='text/javascript'></script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

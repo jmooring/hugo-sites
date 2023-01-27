@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
-Age: 273
+Age: 275
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Fri, 30 Dec 2022 02:23:16 GMT
-Etag: W/"21d9259f22a2db14e4ca4f027dbe0d10"
-Last-Modified: Tue, 27 Dec 2022 11:05:27 GMT
+Date: Fri, 27 Jan 2023 18:30:05 GMT
+Etag: W/"57bf70627e3b9ce7d3a7871d4639acc2"
+Last-Modified: Tue, 24 Jan 2023 13:15:26 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 a847181d425b7fc57e81eb3c800bfdf2.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: 1TfN6LRcmzmIcJM67j6rH-WctrittuaqLLdozih0v6cnzEya8vjylQ==
+Via: 1.1 b2f9564ebf9c745cc2ceae96d434977e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: e7neOguxP3k8JmdKO9jhWcSjI5jOc6HU7iUIUGFAwo3JzLug-3xvuA==
 X-Amz-Cf-Pop: SEA19-C2
-X-Amz-Id-2: 0A7D7qeNfDotpnLsOW5E99S/axwQf6CmDnZqAEtV9zmi3qnPH3vm2tLWBqX54TXPGmnt06m2F4A=
-X-Amz-Request-Id: 6S3EZVAKBWMY752X
+X-Amz-Id-2: V9Qh5j14giKg4hhTxJmTf8O3DCPVfBaqQJqdDa74dZusXR+lg3EFzjB2XzX8o/Yj3KyyU2NeY+k=
+X-Amz-Request-Id: CQR83GH0B7X6YC50
 X-Cache: Hit from cloudfront
 X-Frame-Options: deny
 
@@ -22,44 +22,6 @@ X-Frame-Options: deny
 	<meta name="generator" content="Hugo 0.77.0" />
   
     <title>Nozbe - best project management and collaboration tool</title>
-    
-
-<style>.async-hide { opacity: 0 !important} </style>
-<script>
-  if (!localStorage.getItem('block_stat_marketing_cookies')) {
-    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-    })(window,document.documentElement,'async-hide','dataLayer',4000,
-    {'GTM-MGGDFP3':true});
-  }
-
-  var GOexperimentAID
-
-  
-  function getGOVariant() {
-    const variant = window.google_optimize && window.google_optimize.get(GOexperimentAID)
-    return variant ? `variant${Number(variant) + 1}` : `There's no active experiment`
-  }
-
-  function gtag() {dataLayer.push(arguments)}
-
-  function switchForm(value, name) {
-    GOexperimentAID = name
-
-    if (value ===  '0') {
-      document.body.classList.add('variant1')
-    } else if (value === '1') {
-      document.body.classList.add('variant2')
-    }
-  }
-
-  gtag('event', 'optimize.callback', {
-    name: GOexperimentAID,
-    callback: switchForm
-  })
-</script>
-
     
 
 
@@ -170,11 +132,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=e3644b44e67347560d6751157939ebf9" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=c8097bee0447d707269332d35925406e" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=943776e1a304affbeff1232fb214b9e4">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=da8f9ca4692718dea3599674fa05cc9c">
 
 
 <meta property="og:locale" content="en" />
@@ -475,8 +437,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </li>
           <li class="header-nav__link"><a href="https://nozbe.com/guide">How it works</a></li>
           <li class="header-nav__link"><a href="https://nozbe.com/free">Pricing</a></li>
-          <li class="header-nav__link"><a href="https://nozbe.com/refer">Refer a friend</a></li>
         </ul>
+
+        
+          <a class="button header-nav__button bg-yellow demo-button" href="https://nozbe.com/demo">Book a demo</a>
+        
 
         <div class="modal__overlay" data-modal-overlay="login"></div>
 
@@ -515,12 +480,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
               
               <a class="siwa-button"
+                data-track-button="login"
                 href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
                 <img src="/images/icons/siwa.svg" class="siwa-button__icon">
                 <span class="siwa-button__title">Sign in with Apple</span>
               </a>
 
               <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US"
+                data-track-button="login"
                 class="google-signin-button">
                 <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
                 <span class="google-signin-button__title">Sign in with Google</span>
@@ -2144,14 +2111,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--white hidden" data-section-name="cards-grid_3" data-section-index="7">
+    <div class="nt-section__container nt-section__container--white " data-section-name="cards-grid_3" data-section-index="7">
         
 
 
 
 
 
-<div class="nt-section__content" id="experts">
+<div class="nt-section__content" id="">
   
     <h2 class="nt-learn-more__box-title nooffice-section__title">
       Meet Nozbe Experts
@@ -2332,7 +2299,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--white " data-section-name="cards-grid_1" data-section-index="8">
+    <div class="nt-section__container nt-section__container--orange " data-section-name="cards-grid_1" data-section-index="8">
         
 
 
@@ -2499,7 +2466,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--orange " data-section-name="pricing" data-section-index="9">
+    <div class="nt-section__container nt-section__container--white " data-section-name="pricing" data-section-index="9">
         
 
 <div class="nt-section__content" id="">
@@ -2625,7 +2592,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
               </svg>
               <span class="nt-pricing__benefit-text">
-                Sharing projects with other teams
+                Sharing projects with other teams for free
               </span>
             </li>
           
@@ -2680,7 +2647,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
               </svg>
               <span class="nt-pricing__benefit-text">
-                Flexible price as your team grows
+                Separate subscriptions for each of your teams
+              </span>
+            </li>
+          
+            <li class="nt-pricing__benefit">
+              <svg class="nt-pricing__benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+                <title>checklist-done</title>
+                <path
+                  d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
+              </svg>
+              <span class="nt-pricing__benefit-text">
+                Adjusting the user limit without additional costs
               </span>
             </li>
           
@@ -2698,6 +2676,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </ul>
 
         <div class="nt-pricing__switcher">
+          <span class="nt-pricing__switcher-title strong">Subscription</span>
           <div class="pricing__plan-switcher">
             <div class="pricing__plan-switcher-text">Monthly</div>
             <div class="pricing__plan-switcher-toggle">
@@ -2707,124 +2686,129 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
-        <div class="pricing-plan__slider nt-pricing__slider">
-          <div class="pricing-plan__slider-options">
-            
 
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="1" attr-plan-users="1" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  1
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="2" attr-plan-users="2" attr-plan-name="premium">
+        <div class="pricing-plan__slider-container">
+          <div class="nt-pricing__slider-title strong">How many people do you want to have in this team?</div>
+          <div class="pricing-plan__slider nt-pricing__slider">
+            <div class="pricing-plan__slider-options">
+              
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  2
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="3" attr-plan-users="3" attr-plan-name="premium">
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="1" attr-plan-users="1" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  3
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="5" attr-plan-users="5" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    1
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="2" attr-plan-users="2" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  5
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="7" attr-plan-users="7" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    2
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="3" attr-plan-users="3" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  7
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="10" attr-plan-users="10" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    3
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="5" attr-plan-users="5" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  10
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="15" attr-plan-users="15" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    5
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="7" attr-plan-users="7" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  15
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="20" attr-plan-users="20" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    7
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="10" attr-plan-users="10" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  20
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="30" attr-plan-users="30" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    10
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="15" attr-plan-users="15" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  30
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="50" attr-plan-users="50" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    15
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="20" attr-plan-users="20" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  50
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="75" attr-plan-users="75" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    20
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="30" attr-plan-users="30" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  75
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-              <div class="pricing-plan__slider-option" attr-plan-id="100" attr-plan-users="100" attr-plan-name="premium">
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    30
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="50" attr-plan-users="50" attr-plan-name="premium">
 
-                <span class="pricing-plan__slider-option-info">
-                  <span class="icon">R</span>
-                  100
-                </span>
-                <span class="pricing-plan__slider-option-disc"></span>
-              </div>
-            
-          </div>
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    50
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="75" attr-plan-users="75" attr-plan-name="premium">
 
-          <div class="pricing-plan__slider-range">
-            <div class="pricing-plan__slider-range-placeholder"></div>
-            <div class="pricing-plan__slider-range-selected"></div>
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    75
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+                <div class="pricing-plan__slider-option" attr-plan-id="100" attr-plan-users="100" attr-plan-name="premium">
+
+                  <span class="pricing-plan__slider-option-info">
+                    <span class="icon">R</span>
+                    100
+                  </span>
+                  <span class="pricing-plan__slider-option-disc"></span>
+                </div>
+              
+            </div>
+
+            <div class="pricing-plan__slider-range">
+              <div class="pricing-plan__slider-range-placeholder"></div>
+              <div class="pricing-plan__slider-range-selected"></div>
+            </div>
           </div>
         </div>
 
@@ -2931,7 +2915,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--white " data-section-name="image-columns_2" data-section-index="10">
+    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns_2" data-section-index="10">
         
 
 
@@ -3062,7 +3046,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--orange " data-section-name="carousel" data-section-index="11">
+    <div class="nt-section__container nt-section__container--white " data-section-name="carousel" data-section-index="11">
         
 
 
@@ -3401,7 +3385,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--white " data-section-name="image-columns_3" data-section-index="12">
+    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns_3" data-section-index="12">
         
 
 
@@ -3565,7 +3549,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns_4" data-section-index="13">
+    <div class="nt-section__container nt-section__container--white " data-section-name="image-columns_4" data-section-index="13">
         
 
 
@@ -3575,7 +3559,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="nt-section__content" id="">
-  <div class="nt-columns-container nt-columns-container--align-start">
+  <div class="nt-columns-container nt-columns-container--align-center">
     
   
 
@@ -3612,9 +3596,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__image"
-    src="https://files.nozbe.com/images/pages-teams/Hero_Course,remote_teamwork_the_ultimate_guide.svg"
-    alt="Remote Teamwork the Ultimate Guide" />
+  <picture>
+    <source type="image/webp"
+      srcset="https://files.nozbe.com/images/pages-teams/remote_work_online_course.webp"
+      
+    >
+    <img class="nt-column__image"
+      src="https://files.nozbe.com/images/pages-teams/remote_work_online_course.png"
+      
+      alt="Remote Teamwork the Ultimate Guide">
+  </picture>
 
     </div>
   
@@ -3694,7 +3685,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    <div class="nt-section__container nt-section__container--white " data-section-name="blogpost-cards" data-section-index="14">
+    <div class="nt-section__container nt-section__container--orange " data-section-name="blogpost-cards" data-section-index="14">
         
 
 
@@ -3731,6 +3722,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   <div class="nt-grid-container" data-columns="3">
+    
+      <div class="nt-column nt-column--3 nt-column--align-start">
+        <a href="https://nozbe.com/blog/best-software-techniques-for-virtual-assistants/">
+          
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+  <picture>
+    <source type="image/webp"
+      srcset="https://files.nozbe.com/images/blog/best-software-tools-for-virtual-assistant-productivity.webp"
+      
+    >
+    <img class="nt-column__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/best-software-tools-for-virtual-assistant-productivity.jpg"
+      
+      alt="">
+  </picture>
+
+          
+
+          
+            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Best Software For Virtual Assistants - Productivity Blog</h3>
+          
+
+          
+            <div class="paragraph nt-learn-more__box-description">Do you work as a virtual assistant? Improve your productivity and be more effective by using the best software tools and techniques for virtual assitants.</div>
+          
+        </a>
+      </div>
     
       <div class="nt-column nt-column--3 nt-column--align-start">
         <a href="https://nozbe.com/blog/nozbe-new-features-product-vlog-11-2022/">
@@ -3808,44 +3837,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
       </div>
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <a href="https://nozbe.com/blog/nozbe-sidebar-2022/">
-          
-            
-            
-            
-            
-
-
-
-
-
-
-
-
-  <picture>
-    <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/nozbe-sidebard.webp"
-      
-    >
-    <img class="nt-column__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/nozbe-sidebard.jpg"
-      
-      alt="">
-  </picture>
-
-          
-
-          
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Nozbe Sidebar - How to Easily Manage Your Work</h3>
-          
-
-          
-            <div class="paragraph nt-learn-more__box-description">Simplicity in project management and communication lets you increase your productivity and save time for what really matters to your business.</div>
-          
-        </a>
-      </div>
-    
   </div>
 
   
@@ -3913,7 +3904,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="nt-footer__wrapper">
-  <footer class="nt-footer nt-footer--orange">
+  <footer class="nt-footer nt-footer--white">
     <div class="nt-footer__columns">
       <div class="nt-footer__logo-column ">
         <a href="https://nozbe.com/"
@@ -3925,7 +3916,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="nt-footer__copyrights-title">
             Nozbe
           </div>
-          Copyright © Nozbe 2007-2022
+          Copyright © Nozbe 2007-2023
         </div>
 
         
@@ -4203,6 +4194,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   <!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

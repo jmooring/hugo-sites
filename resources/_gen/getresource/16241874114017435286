@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
-Age: 75670
+Age: 59605
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 29 Dec 2022 05:26:33 GMT
-Etag: "2c48766ec612357d4ca48081669617e3-ssl-df"
+Date: Fri, 27 Jan 2023 02:01:10 GMT
+Etag: "8d73101e5318e4c8f49c2e1a22cc6688-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GNGDPJCR8B5JW4X4Y1XTEBND
+X-Nf-Request-Id: 01GQT853NBRPQKHZWS7MYQR5V4
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +48,7 @@ X-Nf-Request-Id: 01GNGDPJCR8B5JW4X4Y1XTEBND
 
 
 
-<link href="/sass/main.min.0e34e1d6095337b129a64a28df22e0fd5c42479f9f6e62520098b9122a614efb.css" rel="stylesheet">
+<link href="/sass/main.min.586e01fb05c4236ae9d4f7e605df32d85c7fa1efead1f44248b3d0967f4e1eec.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
@@ -89,8 +89,8 @@ X-Nf-Request-Id: 01GNGDPJCR8B5JW4X4Y1XTEBND
         <li class="mobile-menu-item">New? Start Here</li>
       </a><a href="/about/">
         <li class="mobile-menu-item">About</li>
-      </a><a href="/resources/">
-        <li class="mobile-menu-item">Resources</li>
+      </a><a href="/recs/">
+        <li class="mobile-menu-item">Recs</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">Archive</li>
       </a><a href="/subscribe/">
@@ -120,7 +120,7 @@ X-Nf-Request-Id: 01GNGDPJCR8B5JW4X4Y1XTEBND
       </li><li class="menu-item">
         <a class="menu-item-link" href="/about/">About</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/resources/">Resources</a>
+        <a class="menu-item-link" href="/recs/">Recs</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">Archive</a>
       </li><li class="menu-item">
@@ -148,7 +148,7 @@ X-Nf-Request-Id: 01GNGDPJCR8B5JW4X4Y1XTEBND
   
   <div class="post-content">
     <div class="post-summary">
-      As a biostatistics PhD alumnus who just graduated earlier this year, I thought I would share some of the things I learned regarding potential career paths. If you are a current PhD student, I would highly encourage you to seriously think about your future career plans by your third or fourth year, with some level of detail beyond “I want to stay in academia” or “I want to go into industry.
+      As a biostatistics PhD alumnus who just graduated earlier this year, I thought I would share some of the things I learned regarding potential career paths. If you are a current PhD student, I would encourage you to seriously think about your future career plans in your third or fourth year, with some level of detail beyond “I want to stay in academia” or “I want to go into industry.
     </div>
     <div class="read-more">
       <a href="/post/2022-12-03-career-paths-for-phd-students-in-biostatistics/" class="read-more-link">Read more...</a>
@@ -258,6 +258,19 @@ For those who may be unfamiliar, the thesis defense is the third and last major 
       </div>
     </main>
 
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-77MX3CP5RY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-77MX3CP5RY', { 'anonymize_ip': true });
+}
+</script>
+
+
     <footer id="footer" class="footer">
       <div class="social-links">
       <a href="mailto:blogbyalbert@gmail.com" class="iconfont icon-email" title="email"></a>
@@ -280,7 +293,7 @@ For those who may be unfamiliar, the thesis defense is the third and last major 
   <span class="copyright-year">
     &copy; 
     2019 - 
-    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span><a class="hexo-link" href="https://albertkuo.me">Albert</a></span>
+    2023<span class="heart"><i class="iconfont icon-heart"></i></span><span><a class="hexo-link" href="https://albertkuo.me">Albert</a></span>
   </span>
   
 <script src="//yihui.name/js/math-code.js"></script>
@@ -325,7 +338,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-98438367-2', 'auto');
+	ga('create', 'G-77MX3CP5RY', 'auto');
 	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }

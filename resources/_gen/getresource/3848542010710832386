@@ -2,12 +2,12 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Fri, 30 Dec 2022 02:27:50 GMT
-Etag: W/"63ae165c-8800"
-Last-Modified: Thu, 29 Dec 2022 22:36:12 GMT
+Date: Fri, 27 Jan 2023 18:34:41 GMT
+Etag: W/"63c06145-8454"
+Last-Modified: Thu, 12 Jan 2023 19:36:37 GMT
 Server: nginx/1.18.0 (Ubuntu)
 
-8800
+8454
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -241,91 +241,6 @@ Server: nginx/1.18.0 (Ubuntu)
 
 
 
-<style>
-  #top-alert 
-    {
-    position: fixed;
-    bottom: 0;
-    z-index: 99999;
-    }
-  
-    .top-bar {
-    text-align:right;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: rgb(46, 254, 254);
-    position: sticky;
-    top: 0px;
-    padding: 0px 0px;
-    z-index: 100;
-  }
-  
-   
-  .marquee {
-      margin: 0 auto;
-      white-space: nowrap;
-      overflow: hidden;
-  }
-  
-  .marquee span {
-    position: relative;
-    left: -100%;
-      font-size: 3.25em;
-      color: rgb(250, 250, 250);
-      display: inline-block;
-      padding-left: 100%;
-      animation: marquee 180s linear infinite;
-      line-height: 1.2em;
-  }
-
-   
-  .marquee a {
-    text-decoration: none; 
-  }
-
-  .marquee a:hover {text-decoration: none; color: white;}
-  
-   
-  @keyframes marquee {
-      0%   { transform: translate(0, 0); }
-      100% { transform: translate(-100%, 0); }
-  }
-
-    
- 
-  </style>
-
-<div class="top-bar">
-  <p class="marquee">
-    <span><a href="https://discord.gg/gwMVhKWxbr" target="_blank">LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;LAST CHANCE TOP GRAB CHRISTMAS DISCOUNT&nbsp;🙀🙀🙀&nbsp;
-
-
-
-</a></span>
-  </p>
-</div>
-
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-  <script>
-    var senseSpeed = 5;
-    var previousScroll = 0;
-    $(window).scroll(function(event){
-    var scroller = $(this).scrollTop();
-    if (scroller-senseSpeed > previousScroll) {
-      $("div.top-bar").filter(':not(:animated)').slideUp();
-    } 
-    else if (scroller+senseSpeed < previousScroll) {
-      $("div.top-bar").filter(':not(:animated)').slideDown();
-    }
-  previousScroll = scroller;
-  });
-  </script>
-
-
-
-
-
 <nav id="navbar" class="navbar main-nav navbar-expand-lg p-0 navbar-fixed-top ">
   <div class="container">
     <a class="navbar-brand" href="https://patchxr.com">
@@ -442,6 +357,26 @@ Server: nginx/1.18.0 (Ubuntu)
 	<div class="container">
 		<div class="row">
 			<div class="testimonial-slider owl-carousel owl-theme ">
+				
+				<div class="item"> 
+					<div class="row">
+					<div class="col-lg mt-4" data-aos="fade-in">
+						<div class="ratings">
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<ion-icon name="star"></ion-icon>
+							<span class="text-white">115 Ratings</span>
+						</div>
+						<div class="mt-5 cyan">
+							<p>The best music software for VR, this will change music production forever. Period.<br>by corprinus</p></div>
+
+					</div>
+					<div class="col-lg" data-aos="fade-in">
+						<p class="feature-text pt-0">You pretty much have your own music production studio here, but unlike many music apps on Quest, in this one you have every tool you need to make REAL quality music. You can do your own music show like a live or pre-recorded concert or you can literally just play around in a virtual music world and jam out. But here is where things get freaking crazy: Patchworld will let you custom EVERYTHING. Yes...you can import your own 3D objects, custom make instruments and create REAL music studio equipment and God knows what else. I've never seen an app do so many things and completely nail it.</p>
+					</div>
+				</div>				</div>
 				
 				<div class="item"> 
 					<div class="row">
@@ -776,13 +711,13 @@ Server: nginx/1.18.0 (Ubuntu)
 			  <div class="row">
 			  <div class="col-lg-6">
 				  <div class="imageblock" style="position: relative">
-				  <img loading="lazy" src="/uploads/nudi_low2.gif" class="img-fluid featureimages">
+				  <img loading="lazy" src="/uploads/nudi-homepage.jpg" class="img-fluid featureimages">
 				  <a href="https://discord.gg/gwMVhKWxbr">
 						<div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Join Discord</div></a>
 			  </div>
 			  </div>
 			<div class="col-lg-6" style="padding-left:0.875em">
-			  <p class="feature-text ">Join our Discord channel to access our community and register for the PatchMaker beta for early access to even more powerful creative features.</p>
+			  <p class="feature-text ">Join our Discord channel to access our community and unlock the beta features for early access to even more powerful creative building blocks.</p>
 			</div>
 		  </div>
 	  </div>
@@ -805,15 +740,15 @@ Server: nginx/1.18.0 (Ubuntu)
 								<div class="row">
 								<div class="col-lg-6">
 									<div class="imageblock" style="position: relative">
-									<img loading="lazy" src="/uploads/best-quest-2-games-1-1021x580.jpg" class="img-fluid featureimages">
+									<img loading="lazy" src="/uploads/levblog.jpg" class="img-fluid featureimages">
 									<a href="/blog"><div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Blog</div></a>
 								</div>
 								</div>
 							<div class="col-lg-6" style="padding-left:0.875em">
-								<p class="feature-text mb-3">PatchWorld ranking 19th best rated Oculus Quest game</p>
+								<p class="feature-text mb-3"> First Intro to Making Music in VR with PatchWorld: Interviews with Two Creators</p>
 								
-								<p><a href="https://patchxr.com/blog/best-quest-game/">Read More <i class="tf-ion-android-arrow-forward"></i></a></p><br>
-								<span class="mt-3 text-white">December 20, 2022</span><br>
+								<p><a href="https://patchxr.com/blog/-first-intro-to-making-music-in-vr-with-patchworld/">Read More <i class="tf-ion-android-arrow-forward"></i></a></p><br>
+								<span class="mt-3 text-white">January 06, 2023</span><br>
 							</div>
 							</div>
 						</div>
@@ -983,7 +918,7 @@ Server: nginx/1.18.0 (Ubuntu)
 
 <div class="row pb-3">
   <div class="col-md-12  text-left ml-1">
-    <span class="text-dark">Copyright &copy; 2022 PatchXR AG. All rights reserved.</span>
+    <span class="text-dark">Copyright &copy; 2023 PatchXR AG. All rights reserved.</span>
   </div>
 </div>
 

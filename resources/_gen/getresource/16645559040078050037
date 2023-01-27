@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
-Age: 42026
+Age: 84529
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 29 Dec 2022 14:47:24 GMT
-Etag: "987158c48d3c81a6f4f852dc996639fc-ssl-df"
+Date: Thu, 26 Jan 2023 19:05:52 GMT
+Etag: "0d734013c6db61d488f8565894e5a51d-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GNGDPTWFP7HCW041KH6MGXJY
+X-Nf-Request-Id: 01GQT859JQTG3SN9268VV4DX2C
 
 <!doctype html><html lang=en-us>
 <head>
@@ -41,7 +41,7 @@ X-Nf-Request-Id: 01GNGDPTWFP7HCW041KH6MGXJY
 <div class=container>
 <div class="navbar-brand is-left-padded" style=align-items:end>
 <a class=navbar-item href=https://keda.sh>
-<img src=/img/logos/keda-horizontal-color.png style=transform:scale(2)>
+<img src=/img/logos/keda-horizontal-color.png style=transform:scale(2) height=28 width=66 alt="Keda logo">
 </a>
 <a role=button class=navbar-burger data-target=navbar-menu aria-label=menu aria-expanded=false @click="open = !open" @click.away="open = false" :class="{ 'is-active': open }">
 <span aria-hidden=true></span>
@@ -338,7 +338,7 @@ Features
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-rocket fa-2x"></i>
+<i class="fa-lg fas fa-rocket fa-2x" alt="Autoscaling Made Simple"></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Autoscaling Made Simple
@@ -349,7 +349,7 @@ Bring rich scaling to every workload in your <a href=https://kubernetes.io targe
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-bolt fa-2x"></i>
+<i class="fa-lg fas fa-bolt fa-2x" alt=Event-driven></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Event-driven
@@ -360,7 +360,7 @@ Intelligently scale your event-driven application
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-cubes fa-2x"></i>
+<i class="fa-lg fas fa-cubes fa-2x" alt="Built-in Scalers"></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Built-in Scalers
@@ -371,7 +371,7 @@ Catalog of 50+ built-in scalers for various cloud platforms, databases, messagin
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-shapes fa-2x"></i>
+<i class="fa-lg fas fa-shapes fa-2x" alt="Multiple Workload Types"></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Multiple Workload Types
@@ -382,7 +382,7 @@ Support for variety of workload types such as deployments, jobs & custom resourc
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-seedling fa-2x"></i>
+<i class="fa-lg fas fa-seedling fa-2x" alt="Reduce environmental impact"></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Reduce environmental impact
@@ -393,7 +393,7 @@ Build sustainable platforms by optimizing workload scheduling and scale-to-zero
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-project-diagram fa-2x"></i>
+<i class="fa-lg fas fa-project-diagram fa-2x" alt=Extensible></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Extensible
@@ -404,7 +404,7 @@ Bring-your-own or use community-maintained scalers
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fas fa-cloud fa-2x"></i>
+<i class="fa-lg fas fa-cloud fa-2x" alt=Vendor-Agnostic></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Vendor-Agnostic
@@ -415,7 +415,7 @@ Support for triggers across variety of cloud providers & products
 <div class="card-content is-paddingless">
 <p class="title has-text-secondary is-spaced">
 <span class=icon>
-<i class="fa-lg fab fa-microsoft fa-2x"></i>
+<i class="fa-lg fab fa-microsoft fa-2x" alt="Azure Functions Support"></i>
 </span>
 </p><p class="subtitle is-size-3 is-size-4-mobile has-text-weight-bold">
 Azure Functions Support
@@ -430,7 +430,7 @@ An overview of Kubernetes Event-Driven Autoscaling (KEDA)
 </p><p class="subtitle has-text-light">
 From KubeCon Europe 2022
 </p></div><div class=column>
-<iframe class=is-youtube-embed src=https://www.youtube.com/embed/vDMLswzc9tI frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="An overview of KEDA" class=is-youtube-embed src=https://www.youtube.com/embed/vDMLswzc9tI frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading=lazy></iframe>
 </div></div></div></section><section class=section>
 <div class=container>
 <div class=has-text-centered>
@@ -1324,163 +1324,171 @@ A variety of users are autoscaling applications with KEDA:
 <div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
 <div class="column is-one-quarter">
 <a href=https://alibabacloud.com/ target=_blank>
-<img src=/img/logos/alibaba-cloud.png>
+<img src=/img/logos/alibaba-cloud.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://ampify.io/ target=_blank>
-<img src=/img/logos/ampify-io.png>
+<img src=/img/logos/ampify-io.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://airflow.apache.org/ target=_blank>
-<img src=/img/logos/apache-airflow.png>
+<img src=/img/logos/apache-airflow.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.astronomer.io target=_blank>
-<img src=/img/logos/astronomer.svg>
+<img src=/img/logos/astronomer.svg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://baseten.co/ target=_blank>
-<img src=/img/logos/baseten.png>
+<img src=/img/logos/baseten.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.bolddesk.com/ target=_blank>
-<img src=/img/logos/bolddesk.svg>
+<img src=/img/logos/bolddesk.svg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://chattermill.com target=_blank>
-<img src=/img/logos/chattermill.png>
+<img src=/img/logos/chattermill.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://cisco.com target=_blank>
-<img src=/img/logos/cisco.svg>
+<img src=/img/logos/cisco.svg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.cloud-trade.com target=_blank>
-<img src=/img/logos/cloud-trade.png>
+<img src=/img/logos/cloud-trade.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://coralogix.com/ target=_blank>
-<img src=/img/logos/coralogix.gif>
+<img src=/img/logos/coralogix.gif alt=Logo>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://cyera.io target=_blank>
+<img src=/img/logos/cyera.png alt=Logo>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://dig.security target=_blank>
+<img src=/img/logos/digsecurity.gif alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://docplanner.tech target=_blank>
-<img src=/img/logos/docplanner-tech.png>
+<img src=/img/logos/docplanner-tech.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.fedex.com/en-us/home.html/ target=_blank>
-<img src=/img/logos/fedex.png>
+<img src=/img/logos/fedex.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://fission.io/ target=_blank>
-<img src=/img/logos/fission.png>
+<img src=/img/logos/fission.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.freepikcompany.com/ target=_blank>
-<img src=/img/logos/freepik-company.png>
+<img src=/img/logos/freepik-company.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.grafana.com target=_blank>
-<img src=/img/logos/grafana.png>
+<img src=/img/logos/grafana.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://github.com/hmcts/ target=_blank>
-<img src=/img/logos/hmcts.png>
+<img src=/img/logos/hmcts.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://intension.de target=_blank>
-<img src=/img/logos/intension.png>
+<img src=/img/logos/intension.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.intercept.cloud target=_blank>
-<img src=/img/logos/intercept.png>
+<img src=/img/logos/intercept.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://kendaxa.com target=_blank>
-<img src=/img/logos/kendaxa.png>
+<img src=/img/logos/kendaxa.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://home.kpmg/uk/en/home.html target=_blank>
-<img src=/img/logos/KPMG.jpeg>
+<img src=/img/logos/KPMG.jpeg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://underthehood.meltwater.com/ target=_blank>
-<img src=/img/logos/meltwater.png>
+<img src=/img/logos/meltwater.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://metamaze.eu/ target=_blank>
-<img src=/img/logos/metamaze.png>
+<img src=/img/logos/metamaze.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://microsoft.com target=_blank>
-<img src=/img/logos/microsoft.png>
+<img src=/img/logos/microsoft.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.mivation.com target=_blank>
-<img src=/img/logos/mivation-inc.png>
+<img src=/img/logos/mivation-inc.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://nemlig.com target=_blank>
-<img src=/img/logos/nemlig.png>
+<img src=/img/logos/nemlig.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.theproindia.com target=_blank>
-<img src=/img/logos/pro-logo.svg>
+<img src=/img/logos/pro-logo.svg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.purefacts.com target=_blank>
-<img src=/img/logos/purefacts.png>
+<img src=/img/logos/purefacts.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://qonto.com target=_blank>
-<img src=/img/logos/qonto.png>
+<img src=/img/logos/qonto.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.reddit.com/ target=_blank>
-<img src=/img/logos/reddit.svg>
+<img src=/img/logos/reddit.svg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://roadwork.io target=_blank>
-<img src=/img/logos/roadwork.png>
+<img src=/img/logos/roadwork.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.schrederhyperion.com target=_blank>
-<img src=/img/logos/schreder-hyperion.png>
+<img src=/img/logos/schreder-hyperion.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://scrm.lidl target=_blank>
-<img src=/img/logos/SCRM.png>
+<img src=/img/logos/SCRM.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://seldon.io/ target=_blank>
-<img src=/img/logos/seldon.png>
+<img src=/img/logos/seldon.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://sharry.tech/ target=_blank>
-<img src=/img/logos/sharry.png>
+<img src=/img/logos/sharry.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://stilingue.com.br target=_blank>
-<img src=/img/logos/stilingue.png>
+<img src=/img/logos/stilingue.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.swisslife.ch/ target=_blank>
-<img src=/img/logos/swisslife.jpg>
+<img src=/img/logos/swisslife.jpg alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.teamleader.eu target=_blank>
-<img src=/img/logos/teamleader.png>
+<img src=/img/logos/teamleader.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://vitc.gmbh target=_blank>
-<img src=/img/logos/vitc.png>
+<img src=/img/logos/vitc.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.workiva.com target=_blank>
-<img src=/img/logos/workiva.png>
+<img src=/img/logos/workiva.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://zapier.com target=_blank>
-<img src=/img/logos/zapier.png>
+<img src=/img/logos/zapier.png alt=Logo>
 </a>
 </div></div></div></section><hr>
 <section class=section>
@@ -1494,15 +1502,15 @@ KEDA is supported by and built by our community, including the following compani
 <div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
 <div class="column is-one-quarter">
 <a href=https://microsoft.com target=_blank>
-<img src=/img/logos/microsoft.png>
+<img src=/img/logos/microsoft.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://redhat.com target=_blank>
-<img src=/img/logos/red-hat.png>
+<img src=/img/logos/red-hat.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://scrm.lidl target=_blank>
-<img src=/img/logos/SCRM.png>
+<img src=/img/logos/SCRM.png alt=Logo>
 </a>
 </div></div></div></section><hr>
 <section class=section>
@@ -1516,15 +1524,15 @@ KEDA is supported by the following companies that provide their services for fre
 <div style=margin-top:20px class="columns is-centered is-multiline is-vcentered is-variable is-8">
 <div class="column is-one-quarter">
 <a href=https://azure.microsoft.com/en-us/services/devops/ target=_blank>
-<img src=/img/logos/azure-devops.png>
+<img src=/img/logos/azure-devops.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://snyk.io target=_blank>
-<img src=/img/logos/snyk.png>
+<img src=/img/logos/snyk.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://vexxhost.com target=_blank>
-<img src=/img/logos/vexxhost.png>
+<img src=/img/logos/vexxhost.png alt=Logo>
 </a>
 </div></div></div></section><section class="section has-background-light">
 <div class=container>
@@ -1542,7 +1550,7 @@ KEDA is a <a id=cncf href=https://cncf.io target=_blank>Cloud Native Computing F
 <div class=container>
 <div class="columns is-vcentered is-variable is-8">
 <div class="column is-one-third">
-<img class=is-footer-logo src=/img/logos/keda-icon-white.png alt="KEDA footer logo">
+<img class=is-footer-logo src=/img/logos/keda-icon-white.png alt="KEDA Logo">
 </div><div class=column>
 <p class=is-size-4>
 <a href=/blog class="has-text-white has-text-weight-semibold">
@@ -1599,10 +1607,10 @@ Slack
 </a>
 </div></div></div><div class=has-text-weight-medium>
 <p>
-&copy; KEDA Authors 2014-2022 | Documentation Distributed under <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY-4.0</a>
+&copy; KEDA Authors 2014-2023 | Documentation Distributed under <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY-4.0</a>
 </p><br>
 <p>
-&copy; 2022 <a href=https://linuxfoundation.org target=_blank>The Linux Foundation</a>. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=https://linuxfoundation.org/trademark-usage target=_blank>Trademark Usage</a> page.
+&copy; 2023 <a href=https://linuxfoundation.org target=_blank>The Linux Foundation</a>. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=https://linuxfoundation.org/trademark-usage target=_blank>Trademark Usage</a> page.
 </p></div></div></footer><script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.2.1/dist/alpine.js defer></script>
 <script>const navbarHeight=document.getElementsByClassName("navbar")[0].offsetHeight,extraPadding=15,navbarOffset=-1*(navbarHeight+extraPadding);var shiftWindow=function(){scrollBy(0,navbarOffset)};window.addEventListener("hashchange",shiftWindow),window.addEventListener("pageshow",shiftWindow);function load(){window.location.hash&&shiftWindow()}</script>
 <script type=text/javascript src=https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js></script>

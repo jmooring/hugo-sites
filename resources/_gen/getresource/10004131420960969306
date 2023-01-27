@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 781756755ad508fb-SEA
+Cf-Ray: 79039549abd9eb5f-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Fri, 30 Dec 2022 02:27:41 GMT
-Last-Modified: Wed, 21 Dec 2022 17:52:57 GMT
+Date: Fri, 27 Jan 2023 18:34:34 GMT
+Last-Modified: Fri, 27 Jan 2023 18:30:51 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -60,7 +60,7 @@ X-Xss-Protection: 1; mode=block
     .tutorialsbg { background-image: url("/images/backgrounds/tutorials.png")  !important }
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
 </style>
-<link rel="stylesheet" href="/main.min.6f908ce318be626355b0fb2275cbc0b6eae75d1fadd6f38f9aa203a7203710ab.css">
+<link rel="stylesheet" href="/main.min.789d5c6777abc6ee06153b9d4d1a84030ab84d10f1fe94c6e8e54d98f23fb97b.css">
 
 </head>
 
@@ -100,15 +100,7 @@ X-Xss-Protection: 1; mode=block
       </a>
     </li>
     <li role="menuitem"  data-show="always" data-flex="grow"></li>
-    <li role="menuitem" class="nav-item-desktop" data-show="desktop">
-    <a href="/products"> Products</a>
-</li><li role="menuitem" class="nav-item-desktop" data-show="desktop">
-    <a href="/tutorials"> Tutorials</a>
-</li><li role="menuitem" class="nav-item-desktop" data-show="desktop">
-    <a href="/reference"> Reference</a>
-</li><li role="menuitem" class="nav-item-desktop" data-show="desktop">
-    <a href="/support"> Support</a>
-</li>
+    <li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/products"> Products</a></li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/tutorials"> Tutorials</a></li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/reference"> Reference</a></li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/support"> Support</a></li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/developer-center" class=""> Developer Center <span class="developer-center-nav-new" style="font-size: 12px; border: 1px solid blue; padding: 2px 4px; border-radius: 3px; margin-left: 4px;">New</span></a></li>
     <li role="menuitem"  data-show="always"  class="searchbox search-nav-button">
       <button id="search-by" class="search_button use-universal-search-js">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="auto"
@@ -140,15 +132,7 @@ X-Xss-Protection: 1; mode=block
 
 <div class="sidebar-primary-navigation">
     <ul class="primary primary-menu-mobile" role="menubar" data-show="mobile" >
-        <li role="menuitem" class="nav-item-mobile" data-show="mobile">
-    <a href="/products"> Products</a>
-</li><li role="menuitem" class="nav-item-mobile" data-show="mobile">
-    <a href="/tutorials"> Tutorials</a>
-</li><li role="menuitem" class="nav-item-mobile" data-show="mobile">
-    <a href="/reference"> Reference</a>
-</li><li role="menuitem" class="nav-item-mobile" data-show="mobile">
-    <a href="/support"> Support</a>
-</li>
+        <li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/products"> Products</a></li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/tutorials"> Tutorials</a></li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/reference"> Reference</a></li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/support"> Support</a></li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/developer-center" class=""> Developer Center <span class="developer-center-nav-new" style="font-size: 12px; border: 1px solid blue; padding: 2px 4px; border-radius: 3px; margin-left: 4px;">New</span></a></li>
     </ul>
 </div>
 
@@ -318,15 +302,17 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="16-december-2022">16 December 2022</h3>
+<h3 id="24-january-2023">24 January 2023</h3>
 <ul><li>
-            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.91.0">v1.91.0 of doctl</a>, the official DigitalOcean CLI. This release adds support for creating and updating firewall rules for load balancers.</p>
-        </li></ul><h3 id="15-december-2022">15 December 2022</h3>
+            <p>Starting on 1 March 2023, Spaces will automatically delete any incomplete <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html">Multipart Uploads</a> older than 90 days, to prevent them from being billed and to free up storage.</p>
+        </li></ul><h3 id="6-january-2023">6 January 2023</h3>
 <ul><li>
-            <p>RancherOS images are no longer available for creating new Droplets in the control panel and API. Per our <a href="/products/platform/image-deprecation/">image deprecation policy</a> notice was given 30 days ago via email. Existing RancherOS Droplets will continue to function normally.</p>
-        </li></ul><h3 id="12-december-2022">12 December 2022</h3>
+            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.92.0">v1.92.0 of doctl</a>, the official DigitalOcean CLI. This release updates the <code>doctl auth init</code> prompt and deprecates the <code>--algorithm</code> flag for load balancer sub-commands.</p>
+        </li></ul><h3 id="5-january-2023">5 January 2023</h3>
 <ul><li>
-            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.89.0">v1.89.0 of doctl</a>, the official DigitalOcean CLI. This release adds support for creating serverless namespaces in the <code>syd1</code> region and creating monitoring alert policies for load balancer metrics.</p>
+            <p><p>The Fedora 35 distribution has reached end of life and is <a href="/products/platform/image-deprecation/">deprecated</a> as of 6 January 2023:</p>
+<p>The image will be removed from the control panel starting on 6 January 2023 but will remain accessible for Droplet creation via the API for 30 days after the initial deprecation. If you need to use Fedora 35 after the image has been fully deprecated, you can create Droplets from a <a href="/products/images/snapshots/how-to/snapshot-droplets/">snapshot of a Droplet</a> with that version or from a <a href="/products/images/custom-images/">custom image</a>.</p>
+</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
@@ -431,7 +417,7 @@ function logToLooker(actionValue,nameValue,valueValue)
 
 
 
-<script src="/js/main.min.e799dd061d47d7de8eba70ab607f30374d2fe0a953bb26400b15c5aa8c5c1f4a.js" integrity="sha256-55ndBh1H196OunCrYH8wN00v4KlTuyZACxXFqoxcH0o="></script>
+<script src="/js/main.min.e179c8a1a43236e8898727ab9f7acd819b322fc7b51b7931f095a6a09f205ef5.js" integrity="sha256-4XnIoaQyNuiJhyern3rNgZsyL8e1G3kx8JWmoJ8gXvU="></script>
 
     
 

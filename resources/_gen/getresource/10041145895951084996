@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 13
+Age: 38
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"63adeb14-3dea"
-Last-Modified: Thu, 29 Dec 2022 19:31:32 GMT
+Etag: W/"63d3ebfd-3d88"
+Last-Modified: Fri, 27 Jan 2023 15:21:33 GMT
 Server: CloudSoft_Enterprise/v0.01
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
@@ -13,7 +13,7 @@ Via: 1.1 wfe2.nyi.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 108366460 108179785
+X-Varnish: 141593979 141447854
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ X-Xss-Protection: 1; mode=block
 <head>
 <meta name="generator" content=
 "HTML Tidy for HTML5 for FreeBSD version 5.8.0">
-<meta name="generator" content="Hugo 0.105.0">
+<meta name="generator" content="Hugo 0.109.0">
 <meta charset="utf-8">
 <meta name="description" content=
 "FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms.">
@@ -34,20 +34,20 @@ X-Xss-Protection: 1; mode=block
 "https://www.freebsd.org/css/fixed.css">
 <link rel="search" type="application/opensearchdescription+xml"
 href="https://www.freebsd.org/opensearch/man.xml" title=
-"FreeBSD Manual Pages">
+"FreeBSD Man">
 <link rel="search" type="application/opensearchdescription+xml"
 href=
 "https://www.freebsd.org/opensearch/man-freebsd-release-ports.xml"
-title="FreeBSD + Ports Manual Pages">
+title="FreeBSD Man+P">
 <link rel="search" type="application/opensearchdescription+xml"
 href="https://www.freebsd.org/opensearch/ports.xml" title=
-"FreeBSD Ports and Packages Collection">
+"FreeBSD Ports">
 <link rel="search" type="application/opensearchdescription+xml"
 href="https://www.freebsd.org/opensearch/message-id.xml" title=
-"FreeBSD Mailing List Message-ID Search">
+"FreeBSD M-ID">
 <link rel="search" type="application/opensearchdescription+xml"
 href="https://www.freebsd.org/opensearch/markmail.xml" title=
-"FreeBSD Mailing List Search by MarkMail">
+"MarkMail FBSD">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@freebsd">
 <meta property="og:title" content="The FreeBSD Project">
@@ -247,9 +247,9 @@ More</a></div>
 Releases</a></h2>
 <ul id="frontreleaseslist">
 <li>Production: <a href=
-"https://www.FreeBSD.org/releases/12.4R/announce/">12.4</a>,
-<a href=
 "https://www.FreeBSD.org/releases/12.3R/announce/">12.3</a>,
+<a href=
+"https://www.FreeBSD.org/releases/12.4R/announce/">12.4</a>,
 <a href=
 "https://www.FreeBSD.org/releases/13.1R/announce/">13.1</a></li>
 <li>Upcoming: <a href=
@@ -308,6 +308,9 @@ FreeBSD?</a></div>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-01-26</span><br>
+<a href="/news/newsflash/#2023-01-26:1">October-December 2022
+Status Report</a></p>
 <p><span class="txtdate">2022-12-05</span><br>
 <a href="/news/newsflash/#2022-12-05:1">FreeBSD 12.4-RELEASE
 Available</a></p>
@@ -323,9 +326,6 @@ Available</a></p>
 <p><span class="txtdate">2022-10-21</span><br>
 <a href="/news/newsflash/#2022-10-21:1">FreeBSD 12.4-BETA1
 Available</a></p>
-<p><span class="txtdate">2022-10-21</span><br>
-<a href="/news/newsflash/#2022-10-21:2">July-September 2022 Status
-Report</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -452,7 +452,7 @@ FreeBSD-EN-22:27.loader</a></p>
 </div>
 </main>
 <footer><a href="https://www.freebsd.org/copyright/">Legal
-Notices</a> | © 1995-2022 The FreeBSD Project All rights reserved.
+Notices</a> | © 1995-2023 The FreeBSD Project All rights reserved.
 The mark FreeBSD is a registered trademark of The FreeBSD
 Foundation and is used by The FreeBSD Project with the permission
 of <a href=

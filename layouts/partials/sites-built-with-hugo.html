@@ -20,7 +20,7 @@
   {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
   {{- with resources.GetRemote $url $opts}}
     {{- with .Err }}
-      {{- errorf "Unable to reach %s: %s" $url . }}
+      {{- warnf "Unable to reach %s: skipping: %s" $url . }}
     {{- else }}
 
       {{- /* Get version. */}}
@@ -99,7 +99,7 @@
 
     {{- end }}
   {{- else }}
-    {{- errorf "Unable to reach %s" . }}
+    {{- warnf "Unable to reach %s: skipping" . }}
   {{- end }}
 {{- end }}
 

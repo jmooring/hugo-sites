@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
-Age: 88697
+Age: 173880
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 29 Dec 2022 01:49:31 GMT
-Etag: "4b13784592a406792d82e0402ae15559-ssl-df"
+Date: Wed, 25 Jan 2023 18:16:40 GMT
+Etag: "febe661ea093bd884674436eead9f368-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GNGDPRSMTW2FY9DJ6YKHVWZW
+X-Nf-Request-Id: 01GQT8590Q3E02JWS7DQ4GAKSF
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -128,7 +128,7 @@ X-Nf-Request-Id: 01GNGDPRSMTW2FY9DJ6YKHVWZW
     if(!cookieBanned){
         if (pageLang === 'en') {
             if (nowPathName.startsWith('/zh')) {
-                window.location.href =  nowPathName.slice(2,)
+                window.location.href =  nowPathName.slice(3,)
             }
         } else {
             if (!nowPathName.startsWith('/zh')) {

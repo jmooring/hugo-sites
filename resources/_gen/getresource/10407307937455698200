@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 2236
+Age: 1584
 Content-Type: text/html
-Date: Fri, 30 Dec 2022 02:27:51 GMT
-Etag: "56fa-5f055e0165680-gzip"
-Last-Modified: Wed, 21 Dec 2022 12:41:46 GMT
+Date: Fri, 27 Jan 2023 18:34:43 GMT
+Etag: "5971-5f33f22bf39c0-gzip"
+Last-Modified: Fri, 27 Jan 2023 13:49:35 GMT
 Server: Apache
 Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300051-BFI
-X-Timer: S1672367271.458070,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400042-BFI
+X-Timer: S1674844483.130922,VS0,VE2
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1672367271.458070,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2022-12-19T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-01-26T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -69,8 +69,14 @@ X-Timer: S1672367271.458070,VS0,VE1
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-  <link rel="alternate" type="application/rss&#43;xml" href="/index.xml" title="ISC">
-  <link rel="alternate" type="application/json" href="/index.json" title="ISC">
+
+
+
+
+
+
+  <link rel="alternate" type="application/rss+xml" href="https://www.isc.org/index.xml" title="ISC" />
+  <link rel="alternate" type="application/json" href="https://www.isc.org/index.json" title="ISC" />
   <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
@@ -193,7 +199,9 @@ X-Timer: S1672367271.458070,VS0,VE1
           </li>
           
           
-        </ul>
+<link rel="alternate" type="application/rss+xml" href="https://www.isc.org/index.xml" title="ISC" />
+<link rel="alternate" type="application/json" href="https://www.isc.org/index.json" title="ISC" />
+</ul>
         
         <div class="search px-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search text-white"></i></button>
@@ -355,11 +363,23 @@ X-Timer: S1672367271.458070,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/blue-colored basketball net'" />
+          <div class="post-content">
+            <a href="/blogs/nanog87-dns-fundamentals/"><h4 class="text-white">NANOG 87 - DNS Fundamentals</h4></a>
+            <p class="text-white">ISC&rsquo;s Eddy Winstead will be giving a one-day DNS Fundamentals course at the upcoming NANOG meeting in Atlanta.</p>
+            <a href="/blogs/nanog87-dns-fundamentals/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" />
           <div class="post-content">
-            <a href="/blogs/2023-changes-to-isc-software-signing/"><h4 class="text-white">Changes to ISC Software Signing</h4></a>
-            <p class="text-white">At the end of 2022, we are introducing some changes to the tools and procedures we use for signing the source code releases of our software, to make the whole process simpler and more robust.</p>
-            <a href="/blogs/2023-changes-to-isc-software-signing/" class="btn btn-sm btn-outline-primary">Read</a>
+            <a href="/blogs/2023-BIND-9.18-extended-support/"><h4 class="text-white">BIND 9.18 Branch Enters Extended Support</h4></a>
+            <p class="text-white">With the January, 2023 maintenance releases, ISC is now encouraging all our users to consider updating to the 9.</p>
+            <a href="/blogs/2023-BIND-9.18-extended-support/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>
@@ -369,9 +389,9 @@ X-Timer: S1672367271.458070,VS0,VE1
         <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
           <div class="post-content">
-            <a href="/blogs/2022-holiday-card/"><h4 class="text-white">Happy Holidays from ISC!</h4></a>
-            <p class="text-white">There was some good news this year, and plenty of bad news.</p>
-            <a href="/blogs/2022-holiday-card/" class="btn btn-sm btn-outline-primary">Read</a>
+            <a href="/blogs/2023-cyber-resilience-act-comment/"><h4 class="text-white">ISC and the EU Cyber Resilience Act</h4></a>
+            <p class="text-white">What is the EU Cyber Resilience Act (CRA)? The EU Cyber Resilience Act is new proposed legislation from the EU Commission that aims to improve the cybersecurity of products containing software, by requiring the application of a &ldquo;CE Mark&rdquo; for software.</p>
+            <a href="/blogs/2023-cyber-resilience-act-comment/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>
@@ -379,23 +399,11 @@ X-Timer: S1672367271.458070,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/static-images-event.jpg" />
+          <img class="img-fluid w-100" src="/images/blog/acidkea.jpg"  onerror="this.onerror = null; this.src='\/green and purple computer with hands'" />
           <div class="post-content">
-            <a href="/blogs/upcoming-webinars-2022/"><h4 class="text-white">Fall 2022 DNS Webinars</h4></a>
-            <p class="text-white">Aliasing in the DNS and HTTPS/SCVB RRs It would be very handy to be able to establish an alias for an apex record in the DNS.</p>
-            <a href="/blogs/upcoming-webinars-2022/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/static-images-event.jpg" />
-          <div class="post-content">
-            <a href="/blogs/dns-wildcards-webinar-2022/"><h4 class="text-white">DNS Wildcards Webinar</h4></a>
-            <p class="text-white">DNS Wildcards A &ldquo;wildcard&rdquo; is a DNS resource record whose owner&rsquo;s name starts with an asterisk.</p>
-            <a href="/blogs/dns-wildcards-webinar-2022/" class="btn btn-sm btn-outline-primary">Read</a>
+            <a href="/blogs/kea-webinar-series-2023/"><h4 class="text-white">Webinar Series - Using the Kea DHCP Server</h4></a>
+            <p class="text-white">ISC is delighted to announce its spring 2023 webinar series, focused on Kea DHCP.</p>
+            <a href="/blogs/kea-webinar-series-2023/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>
@@ -516,6 +524,8 @@ X-Timer: S1672367271.458070,VS0,VE1
           <li class="list-inline-item"><a href="https://www.youtube.com/user/ISCdotorg"><i class="ti-youtube"></i></a></li>
           
           <li class="list-inline-item"><a href="https://www.linkedin.com/company/internet-systems-consortium/"><i class="ti-linkedin"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://isc.org/index.xml"><i class="ti-rss"></i></a></li>
           
         </ul>
       </div>

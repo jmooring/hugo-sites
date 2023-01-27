@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
-Age: 9745
+Age: 1369
 Content-Type: text/html
-Date: Thu, 29 Dec 2022 23:45:39 GMT
-Etag: W/"77cbaff532b28f6b9101c024ad1fee1e"
-Last-Modified: Wed, 28 Dec 2022 23:45:22 GMT
+Date: Fri, 27 Jan 2023 18:12:03 GMT
+Etag: W/"d647d21812b433795af94adc433853a3"
+Last-Modified: Fri, 27 Jan 2023 18:11:54 GMT
 Server: AmazonS3
 Vary: Accept-Encoding
-Via: 1.1 1d000d0dfe9d69b4983f619fdc5499d6.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: piNN5pV0OsU4SRh-WKO7B-qtMNcWvK-hw7aSsd2M6tup2_fO79Y6Qw==
+Via: 1.1 5c7981a979abd51ba7e5ca7d464fd048.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: H5FTkPfzJjCQAxvqvrjen6owAFrn4p1wUM4aPC_U1wdFJ3WNux0XTg==
 X-Amz-Cf-Pop: SEA19-C3
-X-Amz-Id-2: jiiYdTqGSPoJ22nO2C7o473L4vd+/MVVuTo/ikwvn0ba519ywMUMFkAMK+AB2YLS0XwPgDMDir8=
-X-Amz-Request-Id: JGPEHJB18N6BGTT6
+X-Amz-Id-2: CmfYGqUfpARav0DZ0v2yynq+htyhVU/bR881XrSLjgLMI1x3ldO0numnfVGMqy604Ldiq+GpHko=
+X-Amz-Request-Id: ETA9AWH85JSS8T2S
 X-Cache: Hit from cloudfront
 
 <!DOCTYPE html>
@@ -182,7 +182,7 @@ X-Cache: Hit from cloudfront
         "name": "White Claw Seltzer Co.",
         "url": "https://www.whiteclaw.com/",
         "description": "White Claw® Hard Seltzer is your open invitation to escape to pure enjoyment, whatever that means for you.",
-        "logo": "https://www.whiteclaw.com/img/assets/logo-blk.png",
+        "logo": "https://www.whiteclaw.com/img/assets/logo-black.png",
         "brand": {"@type": "Brand", "name": "White Claw Hard Seltzer"},
         "slogan": "Discover pure refreshment with White Claw Hard Seltzer",
         "parentOrganization": "White Claw Seltzer Co.",
@@ -214,9 +214,9 @@ X-Cache: Hit from cloudfront
           <div class="row text-center position-relative">
             
             <picture class="align-self-center mx-auto d-block img-fluid my-4 my-lg-5">
-              <source srcset='/img/assets/logo-blk.webp' type="image/webp" />
-              <source srcset='/img/assets/logo-blk.png' type="image/png" />
-              <img id="age-gate-logo" src='https://www.whiteclaw.com/img/assets/logo-blk.png'>
+              <source srcset='/img/assets/logo-black.webp' type="image/webp" />
+              <source srcset='/img/assets/logo-black.png' type="image/png" />
+              <img id="age-gate-logo" src='https://www.whiteclaw.com/img/assets/logo-black.png'>
             </picture>
             <div class="position-absolute country-selector" data-toggle="modal" data-target="#country-selector">
               <img src='https://www.whiteclaw.com/img/assets/icons/globe-white.svg' class="globe-white" alt="Globe Icon" />
@@ -822,6 +822,16 @@ X-Cache: Hit from cloudfront
                     </picture>
                   </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    
+                    <picture>
+                      <source srcset='img/carousel/bottleshot/white-claw-peach-us.webp' type="image/webp" />
+                      <source srcset='img/carousel/bottleshot/white-claw-peach-us.png' type="image/png" />
+                      <img src='img/carousel/bottleshot/white-claw-peach-us.png' title="Peach" data-page='https://www.whiteclaw.com/flavors/peach' data-flavor="pineapple" data-content="">
+                    </picture>
+                  </div>
+                </div>
                 
                 <div class="swiper-slide">
                   <div class="swiper-zoom-container">
@@ -1075,6 +1085,11 @@ X-Cache: Hit from cloudfront
                     <input type="email" placeholder="Email*" name="email" />
                     <div class="err">This field is required.</div>
                   </div>
+                  <div class="position-relative">
+                    <input type="text" placeholder="Date of Birth*" name="dob" class="dob" maxlength="10" onfocus="this.placeholder='MM/DD/YYYY'" onblur="this.placeholder='Date of Birth*'"/>
+                    <div class="err">Expected format MM/DD/YYYY.</div>
+                  </div>
+                  <div class="error-msg">To subscribe, you must be of legal drinking age.</div>
                   <input type="submit" value="SUBMIT" />
                 </form>
               </div>
@@ -1163,7 +1178,7 @@ X-Cache: Hit from cloudfront
               </div>
             </div>
             <div class="copyright-blurb">
-              <p>Please Drink Responsibly. Hard Seltzer with Flavors. All Registered Trademarks, used under license by White Claw Seltzer Works, Chicago, IL 60661</p>
+              <p>Please Drink Responsibly. All Registered Trademarks, used under license by White Claw Seltzer Works. Chicago, IL 60661.</p>
             </div>
           </div>
         </div>
@@ -1195,7 +1210,12 @@ X-Cache: Hit from cloudfront
                   <input type="email" placeholder="Email*" name="email" />
                   <div class="err">This field is required.</div>
                 </div>
+                <div class="position-relative">
+                  <input type="text" placeholder="Date of Birth*" name="dob" class="dob" maxlength="10" onfocus="this.placeholder='MM/DD/YYYY'" onblur="this.placeholder='Date of Birth*'"/>
+                  <div class="err">Expected format MM/DD/YYYY.</div>
+                </div>
               </div>
+              <div class="error-msg">To subscribe, you must be of legal drinking age.</div>
               <input type="submit" value="SUBMIT" />
             </form>
           </div>

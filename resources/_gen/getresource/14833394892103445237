@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Fri, 30 Dec 2022 02:27:43 GMT
-Etag: W/"63ab130a-6e36"
-Expires: Fri, 30 Dec 2022 02:37:43 GMT
-Last-Modified: Tue, 27 Dec 2022 15:45:14 GMT
+Date: Fri, 27 Jan 2023 18:34:36 GMT
+Etag: W/"63d2d0cc-6f5c"
+Expires: Fri, 27 Jan 2023 17:44:29 GMT
+Last-Modified: Thu, 26 Jan 2023 19:13:16 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Fastly-Request-Id: 0d80474224485aa1cdb8daec6bcd0b06b36cf5cc
-X-Github-Request-Id: 8C08:8C6A:18E59:1D80E:63AE4C9F
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: be71f6951c09287c8ba2c9b3b69f917e5428f97d
+X-Github-Request-Id: 26BC:2520:5C0DDF:6AF22A:63D40B25
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400069-BFI
-X-Timer: S1672367264.877537,VS0,VE85
+X-Served-By: cache-bfi-krnt7300027-BFI
+X-Timer: S1674844477.591612,VS0,VE71
 
 <!doctype html><html lang=en xmlns=http://www.w3.org/1999/xhtml xmlns:fb=http://ogp.me/ns/fb#>
 <head>
@@ -111,6 +111,22 @@ engineering. Mostly.</p>
 <div class=col-md-9>
 <div class=row>
 <div class=col>
+<div class="media my-4">
+<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
+<div class=media-body>
+<h2 class=mt-0><a href=/2023/01/endbasic-parsing-difficulties.html>BASIC parsing difficulties in EndBASIC</a></h2>
+<p>The original BASIC parser in EndBASIC 0.1 was very rudimentary and it stayed pretty much unmodified until the 0.10 release last month. This release brought major changes to the parser to support new features, but it wasn&rsquo;t easy to implement them. In this post, I want to look into various difficulties that arose implementing certain BASIC constructs in EndBASIC. Overcoming these difficulties was difficult, but it was also fascinating because it gave me a glimpse of the design choices that the original BASIC designers must have faced. Capturing these ah-ha moments in a post is also tricky, but I&rsquo;ll try anyway.</p>
+<p class=text-muted>January 13, 2023
+&#183;
+Tags:
+<a class=text-reset href=/tags/endbasic>endbasic</a>
+<br>
+<a class=text-reset href=/2023/01/endbasic-parsing-difficulties.html>Continue reading (about
+14 minutes)
+</a>
+</p>
+</div>
+</div>
 <div class="media my-4">
 <img class=mr-3 src=/octicons/star.svg width=32px height=32px>
 <div class=media-body>
@@ -210,23 +226,6 @@ Tags:
 <br>
 <a class=text-reset href=/2022/06/endbasic-0.9.html>Continue reading (about
 6 minutes)
-</a>
-</p>
-</div>
-</div>
-<div class="media my-4">
-<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
-<div class=media-body>
-<h2 class=mt-0><a href=/2022/05/remembering-buildtool.html>Remembering Buildtool</a></h2>
-<p>Build systems are one of my favorite topics in software engineering. If I recall correctly, my interest in this area started when I got into NetBSD in 2002&mdash;20 years ago&mdash;and became a pkgsrc contributor. Packaging software for NetBSD made me fight various build systems and, in particular, experience the pains of debugging the GNU Autotools.
-Around that same time, I was also writing small tools here and there. Out of inertia, I used the GNU Autotools for these and, the more I used them, the more I saw an opportunity for improvement.</p>
-<p class=text-muted>May 13, 2022
-&#183;
-Tags:
-<a class=text-reset href=/tags/buildtool>buildtool</a>
-<br>
-<a class=text-reset href=/2022/05/remembering-buildtool.html>Continue reading (about
-21 minutes)
 </a>
 </p>
 </div>
@@ -335,6 +334,12 @@ Software Engineer<br>
 <div class=col>
 <h2>Archive</h2>
 <ul>
+<li>
+<a data-toggle=collapse href=#archive-year-2023>2023</a> (1)
+<ul id=archive-year-2023 class=collapse>
+<li><a href=/archive.html#2023-01>January 2023</a> (1)</li>
+</ul>
+</li>
 <li>
 <a data-toggle=collapse href=#archive-year-2022>2022</a> (32)
 <ul id=archive-year-2022 class=collapse>
@@ -607,7 +612,7 @@ Software Engineer<br>
 <p class=float-right><a href=#>Back to top</a></p>
 </div>
 <div class="col-8 order-1 mr-auto">
-<p>Copyright 2004&ndash;2022 Julio Merino</p>
+<p>Copyright 2004&ndash;2023 Julio Merino</p>
 </div>
 </div>
 </footer>

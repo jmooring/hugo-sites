@@ -1,22 +1,23 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
+Age: 39
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Fri, 30 Dec 2022 02:27:43 GMT
-Etag: "2d04eb2b3ba6688ba44bdf5a39262703"
-Last-Modified: Wed, 21 Dec 2022 20:26:41 GMT
+Date: Fri, 27 Jan 2023 18:33:57 GMT
+Etag: "cc01a61c57b1b8e00ecba5a4a60bc726"
+Last-Modified: Tue, 17 Jan 2023 22:27:44 GMT
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 ce71f64ad5dca81beca846466f2d5008.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: RFac-lK4fUTf_bpN3uPjFo6xi2xvkXMm9te3ziAApp8htbB6WK030A==
+Via: 1.1 32c16f33c8f5601364fa8229b0d74dc2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: FYd8AucMpCkK9gvmdUlOH_TmrtqCqzCF2FnJK-q-_qb3jXSg2rr4Zw==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
-X-Cache: Miss from cloudfront
+X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: 5c0f47b3-c38a-4bc4-7bfc-797337eff70e
+X-Vcap-Request-Id: f6d63bc0-1229-4725-4618-95d5b00e4f0e
 X-Xss-Protection: 1; mode=block
 
 
@@ -114,7 +115,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         href="https://vote.gov/assets/img/favicon-144.png">
 
   
-  <link rel="stylesheet" href="/assets/styles/main.css?v=5ca348e81">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=18c2939be">
   
   
 
@@ -164,7 +165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <ul class="usa-language__primary usa-accordion">
     <li class="usa-language__primary-item">
-      <button class="usa-button usa-language__link" role="button" aria-expanded="false"
+      <button class="usa-button usa-language__link" data-test="language-button" role="button" aria-expanded="false"
         aria-controls="language-options">
         Select Language
       </button>
@@ -409,7 +410,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
-            <a class="site-logo" href="/" aria-label="Vote.gov">
+            <a class="site-logo" data-test="vote-logo" href="/" aria-label="Vote.gov">
               <div class="logo-text">Vote.gov</div>
               <div id="SiteLogo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 170 210" width="200" height="247" enable-background="new 0 0 170 210" xml:space="preserve">
@@ -915,7 +916,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 
 
-<script src="/assets/scripts/main.js?v=5ca348e81"></script>
+<script src="/assets/scripts/main.js?v=18c2939be"></script>
 
 
 
