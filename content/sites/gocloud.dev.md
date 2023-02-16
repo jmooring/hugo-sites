@@ -3,5 +3,6 @@ title: gocloud.dev
 types:
 - documentation
 - project
-visibility: []
+visibility:
+- high
 ---
