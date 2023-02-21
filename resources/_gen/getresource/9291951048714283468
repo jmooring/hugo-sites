@@ -1,0 +1,307 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Tue, 21 Feb 2023 00:55:30 GMT
+Etag: "2dde-5f51e427452db-gzip"
+Last-Modified: Mon, 20 Feb 2023 09:26:36 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.110.0">
+<title>Home | Springtij Architecten</title>
+<meta charset="utf-8" /> 
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/img/icon-192x192.png">
+<link rel="shortcut icon" sizes="192x192" href="/img/icon-192x192.png">
+<link rel="apple-touch-icon" href="/img/icon-192x192.png">
+
+<link rel="canonical" href="https://www.springtijarchitecten.nl/">
+
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script>
+
+$( document ).ready(function() {
+    
+    $.fn.randomize = function(selector){
+    (selector ? this.find(selector) : this).parent().each(function(){
+        $(this).children(selector).sort(function(){
+            return Math.random() - 0.5;
+        }).detach().appendTo(this);
+    });
+
+    return this;
+    };
+
+    $('.slide').randomize();
+    $('.slide').each(function(index,obj){
+        if(index==4) {
+            $(obj).attr("style",$(obj).attr("data-style"));
+        }
+        if(index>4) {
+            $(obj).remove();
+        }
+    });
+
+});
+
+setInterval(function(){ 
+
+    $('.slide').first().hide();
+    $('body').append($('.slide').first()); 
+    $('.slide').last().fadeIn();
+
+}, 3000);
+
+setTimeout(function() {
+    $('.slide').each(function(index,obj){
+        $(obj).attr("style",$(obj).attr("data-style"));
+    });
+},1500);
+
+
+</script>
+<script>
+if (screen.width < 600) {
+    document.getElementById("viewport").setAttribute("content", "width=370");
+} else {
+    document.getElementById("viewport").setAttribute("content", "width=device-width, initial-scale=1");
+}
+</script>
+</head>
+
+<body id="body" class="landing">
+    
+        
+           
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/ons-podium-amsterdam/img-7792_hu5f0f67b203703e00d742995e5ccf1c2d_456888_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Ons Podium Amsterdam, 56 woningen, commerciële ruimte en parkeergarage</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/twee-villas-zandvoortselaan/zandvoortselaan-drone-na_hu83adf97ee7cf7fcd201f54847645a08a_858702_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>2 villa&rsquo;s Zandvoortselaan Zandvoort</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/watertoren-zandvoort/32119-ext-01-new-lager-small_hu0203da3f6380e0312dd6ccff4a4c7343_614439_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>De Nieuwe Watertoren Zandvoort</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/strandvilla-zandvoort-zuid/img-2772_hu3c679890ee80afc187669a4ee2e2b804_896765_0x2500_resize_q50_box.jpeg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Detail zonwering strandvilla boulevard Zandvoort</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/beach-house-77/img-5186_hu5c9000286658460dd0b9c0bc31b69e01_640506_0x2500_resize_q50_box.jpeg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Gevelfragment Beachhouse 77</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/watertoren-zandvoort/006-koffietafelboek-dnw-20x80-4-def-p20_hue860506cb1c1a8ced4983eb02da0f130_1475629_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Herontwikkeling Watertoren Zandvoort</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/hotel-paradis-zandvoort/paradijsweg-hekwerk_hu83ce41192ed66b608a10477eb7108e0c_990153_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Hotel Paradis Zandvoort, Fase 1</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/hotel-paradis-zandvoort/website-slide-hotel-paradis_hue1b36bf417799fe0da51eede4ddbea00_441286_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Hotel Paradis Zandvoort, 62 kamers</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/hotel-paradis-zandvoort/gm000345_hu249824d53b693591e1dd2cebbaab0249_4355523_0x2500_resize_q50_box.JPG') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Hotel Paradis, 62 hotelkamers</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/watertoren-zandvoort/32119-int-05-bnr-08-master-bedroom-small_hud18868f676f6c60049fedd71f532cb04_531001_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Interieur de nieuwe watertoren</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/obs-parkschool-coevorden/parkschool-coevorden-00001-1024x684_hua96822e02f9e083f3db431f01cc580a4_113470_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>OBS Parkschool Coevorden</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/ons-podium-amsterdam/6b74cef8-60bc-4e03-89fc-754883cf1a84_hu2f8f899b1b7a9b4ee04b7d8d01bd6c3d_647587_0x2500_resize_q50_box.jpeg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Ons Podium Amsterdam, 56 woningen, commerciële ruimte en parkeergarage</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/ons-podium-amsterdam/502f09ae-5ba6-4e4e-9a6f-719499a85478_hu7d7ca64fca1f48a12a970c678bc117df_767045_0x2500_resize_q50_box.jpeg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Ons Podium Amsterdam, 56 woningen, commerciële ruimte en parkeergarage</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/ons-podium-amsterdam/img-7699_hu342beb1dbda281dd1e88106cb1a14705_718960_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Ons Podium Amsterdam, 56 woningen, commerciële ruimte en parkeergarage</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/ons-podium-amsterdam/img-7692-1_huaddc40e787473511c990cf4598c79d79_545942_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Ons Podium Amsterdam, 56 woningen, commerciële ruimte en parkeergarage</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/oostertuinen-beverwijk/voorgevel_huf55370e2d262408e970d0ed584ddeb4a_635615_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Nieuwbouw 13 woningen<br>
+Oosterparkstraat Beverwijk<br>
+Oplevering 2014</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/de-perfecte-verbouwing/ext-v01_hu1341cc11af762b32913941ce97f936b4_574832_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Rtl4: de perfecte verbouwing, Wenum Wiesel</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/glasfabriek-schiedam/dsc01126_hu601ecec8baa6786088a0485dfe262c7f_411664_0x2500_resize_q50_box.JPG') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Stedebouwkundige visie Glasfabriek Schiedam </p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/duurzame-starterswoningen-steenbergen/stp-01-final_hu27d45b77bb07c251ab8ba08579f73133_1460349_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Duurzame starterswoningen Steenbergen</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/duurzame-starterswoningen-steenbergen/stp-03-final_hu7e2ad2b8a49b3677e5c4bdc478a28c90_1347587_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Duurzame starterswoningen Steenbergen</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/duurzame-starterswoningen-steenbergen/stp-02-final_hu757658a572fa33051b097d6e9dadb4b5_1520135_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Duurzame starterswoningen Steenbergen</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+    <a href="/projecten" class="slide" data-style="background: url('/uploads/projects/strandvilla-zandvoort-zuid/dsf4426_hu9025a7ab0eeeb7a3b7926808c77fc7a8_2141231_0x2500_resize_q50_box.jpg') center center / cover no-repeat;">
+        <div class="innerslide">
+            <div class="title" style="color: white;"><p>Strandvilla Zandvoort Zuid</p>
+</div> 
+        </div>
+    </a>
+
+    
+
+
+
+    
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+    <link rel="stylesheet" href="/css/lightbox.css">
+
+    <script>
+        function loadMorePosts() {
+            var items = document.querySelectorAll('.griditem');
+            var counter = 0;
+            items.forEach(function(item) {
+                if(item.classList.contains('hidden') && counter < 16){
+                    counter++;
+                    item.classList.remove('hidden');
+                }
+            });
+            if(!document.querySelectorAll('.griditem.hidden').length) {
+                document.querySelector('.loadmore').remove();
+            }
+        }
+    </script>
+    <img src="/form.php" style="position: absolute; bottom: 0; pointer-events: none; opacity: 0;" alt="No image">
+</body>
+</html>
