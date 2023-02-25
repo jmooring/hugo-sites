@@ -1,28 +1,21 @@
 HTTP/2.0 200 OK
-Age: 0
-Cache-Control: public, max-age=3600
-Cdn-Cache: HIT
-Cdn-Cachedat: 01/23/2023 15:27:51
-Cdn-Edgestorageid: 959
-Cdn-Proxyver: 1.03
-Cdn-Pullzone: 909992
-Cdn-Requestcountrycode: US
-Cdn-Requestid: 7f51c44e5847ddd0c82ca608014d753f
-Cdn-Requestpullcode: 200
-Cdn-Requestpullsuccess: True
-Cdn-Status: 200
-Cdn-Uid: 47a9f825-5ac0-49f2-99c5-ff122e76bff6
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=0, must-revalidate
 Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' data: https://cdn.jsdelivr.net https://fonts.gstatic.com
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 27 Jan 2023 18:34:37 GMT
-Etag: W/"330d21b5f92e3304e9290cd740c36324-ssl"
+Date: Sat, 25 Feb 2023 00:34:39 GMT
+Etag: "bc8353f10c0d8f84cd3ed58680f405f0-ssl-df"
 Referrer-Policy: strict-origin-when-cross-origin
-Server: BunnyCDN-WA1-959
-Strict-Transport-Security: max-age=31536000
+Server: Netlify
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
+Via: 1.1 50faaaa196a6b0875217ef7827f97d7c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DIa3EabZ-vDuP05TShcUxVBXIixCPhaDc3dTnmFF5e4gB2qbcuCZrA==
+X-Amz-Cf-Pop: SEA19-C3
+X-Cache: RefreshHit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01GQFKWABS5E0KZHPQSZ9MEZE1
+X-Nf-Request-Id: 01GT1D4C5DXH8SCK9GV10RXPAQ
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -342,6 +335,8 @@ Join us by <a href="https://github.com/go-gitea/gitea">contributing</a> to make 
 					</p>
 					<p>
 						
+						<a class="nav-link" href="https://gitea.io/en-us" hreflang="en-us">English</a>
+						
 						<a class="nav-link" href="https://gitea.io/zh-cn" hreflang="zh-cn">中文(简体)</a>
 						
 						<a class="nav-link" href="https://gitea.io/zh-tw" hreflang="zh-tw">中文(繁體)</a>
@@ -353,8 +348,6 @@ Join us by <a href="https://github.com/go-gitea/gitea">contributing</a> to make 
 						<a class="nav-link" href="https://gitea.io/ko-kr" hreflang="ko-kr">한국어</a>
 						
 						<a class="nav-link" href="https://gitea.io/ja-jp" hreflang="ja-jp">日本語</a>
-						
-						<a class="nav-link" href="https://gitea.io/en-us" hreflang="en-us">English</a>
 						
 						<a class="nav-link" href="https://gitea.io/ru-ru" hreflang="ru-ru">Русский</a>
 						

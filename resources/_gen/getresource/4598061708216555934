@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Content-Security-Policy: default-src https://jadelsbach.de;form-action 'self';base-uri 'self';img-src 'self';script-src 'self' 'unsafe-inline';object-src 'none';style-src 'self' 'unsafe-inline'; frame-ancestors 'self'
 Content-Type: text/html
-Date: Fri, 27 Jan 2023 18:34:35 GMT
-Etag: W/"63d38657-7c27"
-Last-Modified: Fri, 27 Jan 2023 08:07:51 GMT
+Date: Sat, 25 Feb 2023 00:34:24 GMT
+Etag: W/"63e24b9f-8449"
+Last-Modified: Tue, 07 Feb 2023 13:01:19 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -77,6 +77,78 @@ X-Xss-Protection: 1; mode=block
 </header>
 
     <section id="main" class="outer">
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/07-02-23-hp-3478a-standbypower/">HP 3478a Standby Power Supply</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/07-02-23-hp-3478a-standbypower/" class="article-date">
+                        <time datetime='2023-02-07T13:46:21.000&#43;01:00' itemprop="datePublished">2023-02-07</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/07-02-23-hp-3478a-standbypower/"><img width=1000 height=100 alt="Banner" src="/post/07-02-23-hp-3478a-standbypower//banner.jpg"></a><br>
+                    A while ago I replaced the battery in my HP 3478a multimeter, this battery is in charge of keeping the calibration values inside an SRAM. Since I norally have the multimeter plugged into the wall anyhow I decided it may be a good idea to add a standby power supply such that the battery doesn&rsquo;t drain that much (other than its internal resistance).
+So I did. There is a 78L05M generating a 5V rail, and I also added some super capacitors for good measure that on their own will keep the SRAM supplied for &gt;1 week without the battery.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/07-02-23-hp-3478a-standbypower/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/hp3478a">hp3478a
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/hp">hp
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/hewlett-packard">hewlett packard
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/multimeter">multimeter
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/soldering">soldering
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/projects">projects
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
         
         <article class="article article-type-post" itemscope itemprop="blogPost">
             <div class="article-inner">
@@ -606,37 +678,6 @@ After it arrived I tried to power it on - nothing. Line fuse was okay, so I star
                         
                     </ul>
                 </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/post/25-07-22-microscope-lamp-dimmer/">Dual Channel Microscope Lamp Dimmer</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/post/25-07-22-microscope-lamp-dimmer/" class="article-date">
-                        <time datetime='2022-07-25T16:42:14.000&#43;02:00' itemprop="datePublished">2022-07-25</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/post/25-07-22-microscope-lamp-dimmer/"><img width=1000 height=100 alt="Banner" src="/post/25-07-22-microscope-lamp-dimmer//banner.jpg"></a><br>
-                    I built another lamp controller for my microscopy lights. This is a simple DC dimming circuit designed for 15W tungsten microscopy lights, such as for my LOMO OI-19 (ЛОМО ОИ-19). Though I have a couple other similar lamps from Carl Zeiss Jena and Leitz.
-The circuit is powered using an external 7.5V 5A power supply. I calculated the heat sink to heat up 40K in the worst case, assuming around 20C room temperature this is still within the limit of the polystyrol enclosure.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/post/25-07-22-microscope-lamp-dimmer/">Read More</a>
-                    </p>
-                </div>
-
                 
             </div>
         </article>

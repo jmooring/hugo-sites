@@ -11,17 +11,17 @@ Access-Control-Expose-Headers: X-Chunked-Output
 Access-Control-Expose-Headers: X-Ipfs-Path
 Access-Control-Expose-Headers: X-Ipfs-Roots
 Access-Control-Expose-Headers: X-Stream-Output
-Age: 1583
-Cache-Control: max-age=86400
-Cf-Cache-Status: HIT
-Cf-Ray: 79039570fa8ac5b0-SEA
+Cache-Control: max-age=60, stale-while-revalidate=86400, stale-if-error=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 79ec5b4cfbf2eb5f-SEA
 Content-Security-Policy: frame-ancestors 'self'
 Content-Type: text/html
-Date: Fri, 27 Jan 2023 18:34:40 GMT
+Date: Sat, 25 Feb 2023 00:34:43 GMT
 Etag: W/"bafybeiddamod5xk4uipjz52xodu4z62ul5xk6lzo3qaiz32yc3t6vd7xqa"
-Last-Modified: Fri, 27 Jan 2023 18:08:17 GMT
+Last-Modified: Sat, 25 Feb 2023 00:34:43 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Server: cloudflare
+Set-Cookie: __cf_bm=.IlDDJrJZiGcBb3T9aLZXh33OPA385yOs5G2aTgASXo-1677285283-0-AV9YP5SlL6EXDUdF2KINMiA96+IfuRN34QqcbUWTNMQ/WKOw3i/Njy1v2/6ncYeBjeXsJ7ZaeahHPtyPHokoXrE=; path=/; expires=Sat, 25-Feb-23 01:04:43 GMT; domain=.cloudflare-ipfs.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Cf-Ipfs-Cache-Status: miss
 X-Content-Type-Options: nosniff

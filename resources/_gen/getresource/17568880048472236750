@@ -1,21 +1,41 @@
 HTTP/2.0 200 OK
-Age: 260823
+Age: 26196
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 790395560abe30a8-SEA
+Cf-Ray: 79ec5ae91b9eec6c-SEA
+Content-Security-Policy: default-src 'self' http: https: ws: wss: data: blob: 'unsafe-inline'; frame-ancestors 'self';
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 27 Jan 2023 18:34:35 GMT
+Date: Sat, 25 Feb 2023 00:34:24 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lgC3zIm5yxr04eREHwENeVSOVQEkYGop3qNkvulXc6LkEAcPrwYdyPgOufF87K%2F3H0UaxaXCnsbx1N1Fo56Arqi%2F0ukyL7iswbbl6SWNa2tLEl1mWaD8KmuiaQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Permissions-Policy: interest-cohort=()
+Referrer-Policy: no-referrer-when-downgrade
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D6WcdhJuqV3GI1ogBdNs8vqzspu3WvgHrN%2FVj879Z%2BL0C%2FzYB1ZahGKaTGWAsTgZP5qaG2r7wtcs4Fg4iT6MCngeBS9aZrvOO8VnZyYXnMelarpsKjuA5stNlQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
+X-Content-Type-Options: nosniff
+X-Nf-Request-Id: 01GT2ZW3FH5TMVTK97885GF4QR
+X-Xss-Protection: 1; mode=block
+
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
 
 <head>
+
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-58V4RXS');</script>
+  
+
   <script>
     
     var subPaths = {
@@ -399,10 +419,10 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
       var urlSplit = pathSplit[pathSplit.length - 1].split("#");
       var origPath = "/" + pathSplit[pathSplit.length - 2] + "/#" + urlSplit[1];
       if (origPath in subPaths) {
-        loc = "https:\/\/dgraph.io\/docs\/cloud\/" + subPaths[origPath];
+        loc = "https:\/\/dgraph.io\/docs\/" + subPaths[origPath];
         window.location.replace(loc);
       } else if (urlSplit[1]) { 
-        loc = "https:\/\/dgraph.io\/docs\/cloud\/" + pathSplit.slice(4, pathSplit.length-1).join("/") + "/#" + urlSplit[1];
+        loc = "https:\/\/dgraph.io\/docs\/" + pathSplit.slice(4, pathSplit.length-1).join("/") + "/#" + urlSplit[1];
         window.location.replace(loc);
       }
     }
@@ -410,28 +430,28 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="referrer" content="no-referrer-when-downgrade">
-  <meta name="generator" content="Hugo 0.79.0" />
+  <meta name="generator" content="Hugo 0.91.0" />
   <meta name="description" content="">
 
-  <link rel="canonical" href="https://dgraph.io/docs/cloud/" />
+  <link rel="canonical" href="https://dgraph.io/docs/dgraphcloud/" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="./images/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="./images/favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="./images/favicons/favicon-194x194.png" sizes="194x194">
-  <link rel="icon" type="image/png" href="./images/favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="./images/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="./images/favicons/manifest.json">
-  <link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#fe2c06">
-  <link rel="shortcut icon" href="./images/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://dgraph.io/docs/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="https://dgraph.io/docs/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://dgraph.io/docs/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="https://dgraph.io/docs/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="https://dgraph.io/docs/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://dgraph.io/docs/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="https://dgraph.io/docs/images/favicons/manifest.json">
+  <link rel="mask-icon" href="https://dgraph.io/docs/images/favicons/safari-pinned-tab.svg" color="#fe2c06">
+  <link rel="shortcut icon" href="https://dgraph.io/docs/images/favicons/favicon.ico">
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
@@ -456,16 +476,16 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
     
     
 
-    window.DGRAPH_ENDPOINT = "https://play.dgraph.io/query?latency=true";
+    window.DGRAPH_ENDPOINT =  "https://play.dgraph.io/query?latency=true" ;
   </script>
 
-  <title>Dgraph Cloud</title>
+  <title>Dgraph Cloud - Dgraphcloud</title>
 
-  <link href='./css/theme.css?6a79ff0832398fa8541cbaef6b6dd556'
+  <link href='https://dgraph.io/docs/css/theme.css?383e0318ea09d1808b27ed19bb419f84'
     rel="stylesheet" />
-  <link href='./css/runnable.css?46648956d99faa2e057d109b9f2a52e6'
+  <link href='https://dgraph.io/docs/css/runnable.css?46648956d99faa2e057d109b9f2a52e6'
     rel="stylesheet" />
-  <link href='./css/tabs.css?035edc32762cb7973b740e3067101ced'
+  <link href='https://dgraph.io/docs/css/tabs.css?035edc32762cb7973b740e3067101ced'
     rel="stylesheet" />
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -484,80 +504,68 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
 
   
-  <script>
-    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="aQlf725vSBKhpQnINiGBc6rCtFyVCiAP";analytics.SNIPPET_VERSION="4.13.2";
-      analytics.load("aQlf725vSBKhpQnINiGBc6rCtFyVCiAP");
-      analytics.page();
-      
-      document.addEventListener('DOMContentLoaded', () => {
-        const links = document.querySelectorAll('a');
-        links.forEach((link) => 
-          analytics.trackLink(link, 'Click', {
-            id: link.id,
-            to: link.href,
-            text: link.innerText
-          })
-        );
-      });
-    }}();
-  </script>
+
+
+  
 </head>
 
 <body>
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58V4RXS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
   <nav id="header">
   <div class="header-left">
     <div>
       <a href="https://dgraph.io/" class="brand">
-        <img src="https://dgraph.io/docs/cloud//images/dgraph.svg" alt="dgraph" class="logo" />
+        <img src="https://dgraph.io/docs//images/dgraph.svg" alt="dgraph" class="logo" />
       </a>
       <div class="logo-tagline">
         <span>Documentation</span>
       </div>
     </div>
     <ul class="menu">
-      <li >
-        <a href="https://dgraph.io/docs">Dgraph</a>
-      </li>
       <li class="active">
-        <a href="https://dgraph.io/docs/cloud">Cloud</a>
+        <a href="https://dgraph.io/docs">Dgraph</a>
       </li>
     </ul>
   </div>
   <div class="header-right">
-    <div style="
-      margin-top: 10px;
-    ">
       <div class="menu-search align-middle">
-        <div class="menu-search-inner">
-          <input type="search" class="form-control form-control-sm" id="algolia-doc-search" placeholder="Search documentation" aria-label="Search docs" autocomplete="off">
+        <div class="menu-search-inner" id="searchbox">
+
+          <div class="menu-search-inner" id="hits">
+            <div class="menu-search-inner" id="algolia-doc-search">
+            </div>
+          </div>
         </div>
-      </div>
+        <div>
+          <ul class="menu">
+            <li>
+              <a href="https://dgraph.io/" target="_blank">Home</a>
+            </li>
+            <li>
+              <a href="https://dgraph.io/learn" target="_blank">Learn</a>
+            </li>
+            <li>
+              <a href="https://dgraph.io/tour" target="_blank">Tour</a>
+            </li>
+            <li>
+              <a href="https://dgraph.io/pricing" target="_blank">Pricing</a>
+            </li>
+            <li>
+              <a href="https://discuss.dgraph.io/" target="_blank">Community</a>
+            </li>
+            
+              <li>
+                <a href="https://github.com/dgraph-io/dgraph-docs" target="_blank">GitHub</a>
+              </li>
+            
+          </ul>
+        </div>
+     </div>
     </div>
-    <div>
-      <ul class="menu">
-        <li>
-          <a href="https://dgraph.io/" target="_blank">Home</a>
-        </li>
-        <li>
-          <a href="https://dgraph.io/learn" target="_blank">Learn</a>
-        </li>
-        <li>
-          <a href="https://dgraph.io/tour" target="_blank">Tour</a>
-        </li>
-        <li>
-          <a href="https://dgraph.io/pricing" target="_blank">Pricing</a>
-        </li>
-        <li>
-          <a href="https://discuss.dgraph.io/" target="_blank">Community</a>
-        </li>
-        
-          <li>
-            <a href="https://github.com/dgraph-io/cloud-docs" target="_blank">GitHub</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
   <a href="#" id="sidebar-toggle">
     <i class="fa fa-bars"></i>
   </a>
@@ -566,82 +574,156 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   <aside id="sidebar">
   <div class="menu-header">
     
+    <div class="heading">
+      Dgraph version:
+    </div>
+    
+    
+    <select class="version-selector">
+      
+        
+          <option value="">v22.0 (latest)</option>
+        
+      
+        
+          
+          
+            
+              <option value="v21.03">v21.03</option>
+            
+          
+        
+      
+    </select>
+    
   </div>
 
   <ul class="topics">
     
     
       
+      
         
-          <li class="topic children  active">
+          <li class="topic main-topic">
+            <a id="home"  href="https://dgraph.io/docs/">
+              
+              Home
+            </a>
+          </li>
+        
+      
+        
+          <li class="topic main-topic">
+            <a id="dgraph-overview"  href="https://dgraph.io/docs/dgraph-overview/">
+              
+              Dgraph Overview
+            </a>
+          </li>
+        
+      
+        
+          <li id="graphql-api" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/graphql/">
+              
+              GraphQL API
+            </a>
+            <div class="arrow-down"></div>
             <ul class="sub-topics">
               
                 <li class="topic sub-topic">
-                  <a href="./introduction/">Dgraph Cloud Overview</a>
+                  
+                  <a href="https://dgraph.io/docs/graphql/quick-start/">Quick Start</a>
                   
                 </li>
               
                 <li class="topic sub-topic">
-                  <a href="./cloud-quick-start/">Dgraph Cloud Quick Start</a>
                   
-                </li>
-              
-                <li class="topic sub-topic">
-                  <a href="./advanced-queries/">Advanced Queries with DQL</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  <a href="./multitenancy/">Multi-tenancy in Dgraph Cloud</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  <a href="./security/">Securing Your GraphQL endpoint</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  <a href="./migrating-from-hosted-dgraph/">Migrating from Self-Managed Dgraph</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  <a href="./admin/">Administering Your Backend</a>
-                  
+                    <a id="schema" href="https://dgraph.io/docs/graphql/schema/">Schema</a>
                     <div class="arrow-down"></div>
                     <ul class="sub-topics">
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/overview/">Overview</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/types/">Types</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/authentication/">Authentication</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/graph-links/">Relationships</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/schema/">Fetching and Updating Your Schema</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/reserved/">Reserved Names</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/import-export/">Importing and Exporting data from Dgraph Cloud</a>
+                          
+                            <a id="directives" href="https://dgraph.io/docs/graphql/schema/directives/">Directives</a>
+                            <div class="arrow-down"></div>
+                            <ul class="sub-topics">
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/directives/deprecated/">@deprecated</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/directives/ids/">@id</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/directives/search/">Search and Filtering</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/directives/generate/">@generate</a>
+                                </li>
+                              
+                            </ul>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/drop-data/">Dropping Data from your Backend</a>
+                          
+                            <a id="authorization" href="https://dgraph.io/docs/graphql/schema/authorization/">Authorization</a>
+                            <div class="arrow-down"></div>
+                            <ul class="sub-topics">
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/authorization/authorization-overview/">Overview</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/authorization/auth/">The @auth Directive</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/authorization/mutations/">Mutations</a>
+                                </li>
+                              
+                            </ul>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/schema-modes/">Switch Schema Modes</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/migration/">Schema Migration</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/clone/">Cloning Backend</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/documentation/">Documentation and Comments</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./admin/monitoring/">Monitoring with Prometheus</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/schema/dgraph-schema/">Dgraph Schema Fragment</a>
+                          
                         </li>
                       
                     </ul>
@@ -649,33 +731,271 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
                 </li>
               
                 <li class="topic sub-topic">
-                  <a href="./cloud-api/">Dgraph Cloud API</a>
                   
+                    <a id="queries" href="https://dgraph.io/docs/graphql/queries/">Queries</a>
                     <div class="arrow-down"></div>
                     <ul class="sub-topics">
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/overview/">Overview</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/queries-overview/">Overview</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/authentication/">Authentication</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/search-filtering/">Search and Filtering</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/schema/">Schema</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/aggregate/">Aggregate Queries</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/backend/">Backend</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/persistent-queries/">Persistent Queries</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/backup/">Backup</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/and-or-not/">And, Or and Not</a>
+                          
                         </li>
                       
                         <li class="topic sub-topic">
-                          <a href="./cloud-api/lambda/">Lambda</a>
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/cached-results/">Cached Results</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/order-page/">Order and Pagination</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/cascade/">@cascade Directive</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/skip-include/">@skip and @include Directives</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="mutations" href="https://dgraph.io/docs/graphql/mutations/">Mutations</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/mutations-overview/">Overview</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/add/">Add</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/upsert/">Upsert</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/update/">Update</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/delete/">Delete</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/mutations/deep/">Deep</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/graphql/subscriptions/">Subscriptions</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="custom-resolvers" href="https://dgraph.io/docs/graphql/custom/">Custom Resolvers</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/custom-overview/">Overview</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/directive/">The @custom Directive</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/query/">Custom Queries</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/mutation/">Custom Mutations</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/field/">Custom Fields</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/custom/dql/">Custom DQL</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="client-api" href="https://dgraph.io/docs/graphql/api/">Client API</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/api/requests/">Requests and Responses</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/api/variables/">GraphQL Variables</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/api/fragments/">GraphQL Fragments</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/api/multiples/">Multiple GraphQL Operations in a Request</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/api/errors/">GraphQL Errors</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/graphql/admin/">Administrative API</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/graphql/federation/">Apollo Federation</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/graphql/dgraph/">GraphQL on Existing Dgraph</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="to-do-list-app-tutorial" href="https://dgraph.io/docs/graphql/todo-app-tutorial/">To-Do List App Tutorial</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-overview/">Overview</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-schema-design/">Schema Design</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-ui/">Creating a Basic UI</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-auth-rules/">Authorization Rules</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-auth0-jwt/">Using Auth0</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/todo-firebase-jwt/">Using Firebase Authentication</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/todo-app-tutorial/deploy/">Deploying on Dgraph Cloud</a>
+                          
                         </li>
                       
                     </ul>
@@ -687,19 +1007,1128 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
         
       
         
-          <li class="topic main-topic">
+          <li id="dgraph-query-language" class="topic main-topic children ">
             <a href="https://dgraph.io/docs/dql/">
               
-              DQL Docs
+              Dgraph Query Language
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/get-started/">Quick Start</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="dql-syntax" href="https://dgraph.io/docs/dql-syntax/">DQL Syntax</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/dql-syntax/dql-query/">DQL query</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/dql-syntax/dql-mutation/">DQL mutation</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/dql-syntax/dql-rdf/">RDF</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/dql-syntax/json-mutation-format/">JSON Mutation Format</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/dql/predicate-types/">Predicate types</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/dql/predicate-indexing/">Predicate indexing</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="query-language" href="https://dgraph.io/docs/query-language/">Query Language</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/graphql-fundamentals/">Running examples</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/functions/">Functions</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/connecting-filters/">Connecting Filters</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/alias/">Aliases</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/pagination/">Pagination</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/count/">Count</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/sorting/">Sorting</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/multiple-query-blocks/">Multiple Query Blocks</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/query-variables/">Query Variables</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/value-variables/">Value Variables</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/aggregation/">Aggregation</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/math-on-value-variables/">Math on Value Variables</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/groupby/">GroupBy</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/expand-predicates/">Expand Predicates</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/cascade-directive/">Cascade Directive</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/normalize-directive/">@normalize Directive</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/ignorereflex-directive/">@ignorereflex Directive</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/debug/">Debug</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/facets/">Facets and Edge attributes</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/kshortest-path-quries/">Shortest Path Queries</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/recurse-query/">Recurse Query</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/fragments/">Fragments</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/graphql-variables/">GraphQL Variables</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/indexing-custom-tokenizers/">Indexing with Custom Tokenizers</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/query-language/language-support/"> Language Support</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/tips/">DQL: Tips and Tricks</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/dql/type-system/">Node types</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="mutations" href="https://dgraph.io/docs/mutations/">Mutations</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/mutations/uid-upsert/">uid function in upsert</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/mutations/val-upsert/">val function in upsert</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/mutations/external-ids-upsert-block/">External IDs and Upsert Block</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/tutorials/">Tutorials</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="installation" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/installation/">
+              
+              Installation
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/installation/download/">Download</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/installation/production-checklist/">Production checklist</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/installation/single-host-setup/">Learning Environment</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="production-environment" href="https://dgraph.io/docs/installation/kubernetes/">Production Environment</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/installation/kubernetes/cluster-types/">Cluster Types</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/installation/kubernetes/single-server-cluster/">Single Server Cluster Setup</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/installation/kubernetes/ha-cluster/">Highly Available Cluster Setup</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/installation/kubernetes/monitoring-cluster/">Monitoring the Cluster</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="clients" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/clients/">
+              
+              Clients
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/overview/">Overview</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/go/">Go</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/csharp/">C#</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/java/">Java</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="javascript" href="https://dgraph.io/docs/clients/javascript/">JavaScript</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/clients/javascript/grpc/">gRPC Client</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/clients/javascript/http/">HTTP Client</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/python/">Python</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/unofficial-clients/">Unofficial Dgraph Clients</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/clients/raw-http/">Raw HTTP</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="ratel-ui" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/ratel/">
+              
+              Ratel UI
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/overview/">Ratel Overview</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/connection/">Connection</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/console/">Console</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/schema/">Schema</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/cluster/">Cluster</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/ratel/backups/">Backups</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="data-migration" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/migration/">
+              
+              Data migration
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/migration/about-data-migration/">Data migration</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/migration/loading-csv-data/">CSV data</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/migration/migrate-tool/">MySQL data</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="dgraph-cloud" class="topic main-topic children  active">
+            <a href="https://dgraph.io/docs/cloud/">
+              
+              Dgraph Cloud
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/introduction/">Dgraph Cloud Overview</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/dgraphcloud/provision-backend/">Provision a backend</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/provision-cluster/">Provision a cluster</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/advanced-queries/">Advanced Queries with DQL</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/cloud-multitenancy/">Multi-tenancy in Dgraph Cloud</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/security/">Securing Your GraphQL endpoint</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/cloud/migrating-from-hosted-dgraph/">Migrating from Self-Managed Dgraph</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="administering-your-backend" href="https://dgraph.io/docs/cloud/admin/">Administering Your Backend</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/overview/">Overview</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/authentication/">Authentication</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/schema/">Fetching and Updating Your Schema</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/import-export/">Importing and Exporting data from Dgraph Cloud</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/drop-data/">Dropping Data from your Backend</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/schema-modes/">Switch Schema Modes</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/clone/">Cloning Backend</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/admin/monitoring/">Monitoring with Prometheus</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="dgraph-cloud-api" href="https://dgraph.io/docs/cloud/cloud-api/">Dgraph Cloud API</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/cloud-api/authentication/">Authentication</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/cloud-api/schema/">Schema</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/cloud-api/backend/">Backend</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/backup/">Backup</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/cloud/cloud-api/backup/">Backup</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                            <a id="lambda" href="https://dgraph.io/docs/cloud/cloud-api/lambda/">Lambda</a>
+                            <div class="arrow-down"></div>
+                            <ul class="sub-topics">
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/overview/">Overview</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/field/">Lambda Fields</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/query/">Lambda Queries</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/mutation/">Lambda Mutations</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/webhook/">Lambda Webhooks</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/lambda/server/">Lambda Server</a>
+                                </li>
+                              
+                            </ul>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="self-managed-cluster" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/deploy/">
+              
+              Self-managed cluster
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/overview/">Deployment and Management Overview</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/config/">Config</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/dgraph-zero/">More about Dgraph Zero</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/dgraph-alpha/">More about Dgraph Alpha</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/cluster-setup/">Cluster Setup</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/cluster-checklist/">Cluster Checklist</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="administration" href="https://dgraph.io/docs/deploy/admin/">Administration</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/dgraph-administration/">Dgraph Administration</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/log-format/">Logging</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/ludicrous-mode/">Ludicrous Mode</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/monitoring/">Monitoring</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/metrics/">Metrics</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/tracing/">Tracing</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/data-compression/">Data compression on Disk</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="security" href="https://dgraph.io/docs/deploy/security/">Security</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/ports-usage/">Ports Usage</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/deploy/tls-configuration/">TLS Configuration</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/decrypt/">Data Decryption</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/cli-command-reference/">Dgraph CLI Reference</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/deploy/troubleshooting/">Troubleshooting</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="enterprise-features" href="https://dgraph.io/docs/enterprise-features/">Enterprise Features</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/access-control-lists/">Access Control Lists</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/audit-logs/">Audit Logging</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/lsbackup/">Backup List Tool</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/binary-backups/">Binary Backups</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/change-data-capture/">Change Data Capture</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/encryption-at-rest/">Encryption at Rest</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/learner-nodes/">Learner Nodes</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/license/">License</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/enterprise-features/multitenancy/">Multi-Tenancy</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="how-to-guides" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/howto/">
+              
+              How To Guides
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="command-line" href="https://dgraph.io/docs/howto/commandline/">Command line</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/commandline/about-cli/">Command-line completion</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/commandline/create-cli/">Create a completion script</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="export-data" href="https://dgraph.io/docs/howto/exportdata/">Export data</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/exportdata/about-export/">Export data</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/exportdata/export-data-cloud/">Export data from Dgraph Cloud</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/exportdata/export-data/">Export data from Dgraph</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                    <a id="import-data" href="https://dgraph.io/docs/howto/importdata/">Import data</a>
+                    <div class="arrow-down"></div>
+                    <ul class="sub-topics">
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/importdata/about_import/">Import data</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/importdata/live-loader/">Live import</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/howto/importdata/bulk-loader/">Initial import (Bulk Loader)</a>
+                          
+                        </li>
+                      
+                    </ul>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/using-debug-tool/">Using the Debug Tool</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/completion/">Shell Completion</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/dgraph-sentry-integration/">Using the Dgraph Sentry Integration</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/retrieving-debug-information/">Retrieving Debug Information</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/using-increment-tool/">Using the Increment Tool</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/giving-nodes-type/">Giving Nodes a Type</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/login-system/">A Simple Login System</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/load-balancing-nginx/">Load Balancing Queries with NGINX</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/upserts/">Upserts</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/jepsen-tests/">Run Jepsen Tests</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/concurrent-modification-java-multithreaded/">Concurrent mutations and conflicts</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/dql-schema-request/">Query Dgraph types</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/update-dgraph-types/">Update Dgraph types</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/howto/drop-data/">Drop all data</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li id="design-concepts" class="topic main-topic children ">
+            <a href="https://dgraph.io/docs/design-concepts/">
+              
+              Design Concepts
+            </a>
+            <div class="arrow-down"></div>
+            <ul class="sub-topics">
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/design-concepts/transactions-faq/">Transactions: FAQ</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/design-concepts/consistency-model/">Consistency Model</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/design-concepts/concepts/">Concepts</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/design-concepts/minimizing-network-calls/">How Dgraph Minimizes Network Calls</a>
+                  
+                </li>
+              
+                <li class="topic sub-topic">
+                  
+                  <a href="https://dgraph.io/docs/design-concepts/raft/">RAFT</a>
+                  
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+        
+          <li class="topic main-topic">
+            <a id="releases"  href="https://dgraph.io/docs/releases/">
+              
+              Releases
             </a>
           </li>
         
       
         
           <li class="topic main-topic">
-            <a href="https://dgraph.io/docs/graphql/">
+            <a id="dgraph-glossary"  href="https://dgraph.io/docs/dgraph-glossary/">
               
-              GraphQL Docs
+              Dgraph Glossary
             </a>
           </li>
         
@@ -725,17 +2154,18 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
 
 <main class="content-wrapper">
   <div class="content">
+
+    
+
+    
+      
+    
+
     <article id="">
       
-        
 <a class="question-btn" target="_blank" href="https://discuss.dgraph.io/c/docs/49">
   <i class="fa fa-question-circle"></i> Ask a Question
 </a>
-        <a class="edit-btn" target="_blank"
-  href='https://github.com/dgraph-io/cloud-docs/edit/master/content/_index.md'>
-  <i class="fa fa-github-alt"></i> Edit Page
-</a>
-      
 
       <h1 class="post-title">Dgraph Cloud</h1>
 
@@ -751,7 +2181,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-play" aria-hidden="true"></i></div>
-    <a  href="./cloud-quick-start/">
+    <a  href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">
       <h2>Dgraph Cloud Quick Start</h2>
       <p>
         Get started with a simple "to-do" list app built on Dgraph Cloud
@@ -760,7 +2190,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-rocket" aria-hidden="true"></i></div>
-    <a href="./advanced-queries/">
+    <a href="https://dgraph.io/docs/dgraphcloud/advanced-queries/">
       <h2>Advanced Queries with DQL</h2>
       <p>
         Generate advanced queries to interact with your database using the HTTP or gRPC endpoint 
@@ -769,7 +2199,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-package" aria-hidden="true"></i></div>
-    <a href="./cloud-api/overview/">
+    <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/overview/">
       <h2>Dgraph Cloud API</h2>
       <p>
         Programmatically launch and manage your Cloud backups.
@@ -778,7 +2208,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-shield" aria-hidden="true"></i></div>
-    <a href="./security/">
+    <a href="https://dgraph.io/docs/dgraphcloud/security/">
       <h2>Secure Your Endpoint</h2>
       <p>
         Tips for securing your Dgraph Cloud backend
@@ -787,7 +2217,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-cogs" aria-hidden="true"></i></div>
-    <a href="./migrating-from-hosted-dgraph/">
+    <a href="https://dgraph.io/docs/dgraphcloud/migrating-from-hosted-dgraph/">
       <h2>Migrate from Self-Managed Dgraph</h2>
       <p>
         Easily migrate your app's existing Dgraph backend to Dgraph Cloud
@@ -796,7 +2226,7 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   </div>
   <div class="item">
     <div class="icon"><i class="lni lni-control-panel" aria-hidden="true"></i></div>
-    <a href="./admin/">
+    <a href="https://dgraph.io/docs/dgraphcloud/admin/">
       <h2>Administer Your Backend</h2>
       <p>
         Programmatically set and update your schema, import or export your data, and switch or clone your Dgraph Cloud backend
@@ -815,8 +2245,48 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
 <li><a href="https://dgraph.io/docs/graphql/api/api-overview">Dgraph GraphQL API Reference</a>, which serves as a guide to using your new <code>/graphql</code> endpoint</li>
 </ul>
 
+        <ul class="contents">
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/provision-backend/">Provision a backend</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/introduction/">Dgraph Cloud Overview</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/advanced-queries/">Advanced Queries with DQL</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/cloud-multitenancy/">Multi-tenancy in Dgraph Cloud</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/security/">Securing Your GraphQL endpoint</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/migrating-from-hosted-dgraph/">Migrating from Self-Managed Dgraph</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/admin/">Administering Your Backend</a>
+          </li>
+          
+          <li>
+            <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/">Dgraph Cloud API</a>
+          </li>
+          
+        </ul>
       </div>
     </article>
+
   </div>
 </main>
 
@@ -836,25 +2306,9 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
 
 
     
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script type="text/javascript">
-      if (window.docsearch) {
-        var version = 'latest';
-        var path = window.location.pathname;
-        var arr = /(?:\/)?((?:master)|(?:v[0-9][^\/]+))(?:\/)?.*$/.exec(path);
-        if (arr != null && arr.length > 1) {
-          version = arr[1];
-        }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 
-        window.docsearch({
-          apiKey: 'fe4cbc1640c6c87bbc5f099902d86f97',
-          indexName: 'dgraph',
-          inputSelector: '#algolia-doc-search',
-          algoliaOptions: { 'filters': `version:${version}` },
-          debug: false 
-        });
-      }
-    </script>
     <script type="text/javascript">
       adroll_adv_id = "L42C3U2UXBBPVAMISVXVLC";
       adroll_pix_id = "MOR4VUNPK5B2LHEZ2NNTDX";
@@ -881,9 +2335,23 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
       adroll.track("pageView");
   </script>
 
-  <script src='./js/clipboard.min.js'></script>
-  <script src='./js/dgraph.js?a9873668f1334ff6c49d4edea0a4bc38'></script>
-  <script src='./js/runnable.js?6e7f328df4134d18ba5c8dd11f84deb8'></script>
+  <script src='https://dgraph.io/docs/js/clipboard.min.js'></script>
+  <script src='https://dgraph.io/docs/js/dgraph.js?86e848a4487ede1ebe91e45ac86acdad'></script>
+  <script src='https://dgraph.io/docs/js/runnable.js?6e7f328df4134d18ba5c8dd11f84deb8'></script>
+  <script type="text/javascript">
+
+    var version = 'latest';
+    var path = window.location.pathname;
+    var arr = /(?:\/)?((?:main)|(?:v[0-9][^\/]+))(?:\/)?.*$/.exec(path);
+    if (arr != null && arr.length > 1) {
+      version = arr[1];
+    }
+
+
+     setAlgolia("v22.0")
+     
+
+  </script>
   <script>
     hljs.initHighlightingOnLoad();
   </script>
@@ -891,12 +2359,6 @@ X-Nf-Request-Id: 01GQT854GRK9BPGNRX8ZA9S7XQ
   <script async src="//unpkg.com/@dgraph-io/community"></script>
   <script src='https://cdn.ranksci.com/dgraph-411505.min.js' type='text/javascript'></script>
 
-  <script>
-(function() {
-  if (!location.href.endsWith('/')) {
-    window.location = location.href + '/'
-  }
-}())
-</script></body>
+  </body>
 </html>
 

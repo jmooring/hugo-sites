@@ -1,35 +1,51 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 259
+Age: 0
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 790395a0df14c3ac-SEA
+Cf-Ray: 79ec5ba48ec3c372-SEA
 Content-Type: text/html; charset=utf-8
-Date: Fri, 27 Jan 2023 18:34:47 GMT
-Expires: Tue, 24 Jan 2023 12:40:42 GMT
-Last-Modified: Tue, 24 Jan 2023 12:24:25 GMT
+Date: Sat, 25 Feb 2023 00:34:54 GMT
+Expires: Sat, 25 Feb 2023 00:44:54 GMT
+Last-Modified: Wed, 15 Feb 2023 16:20:33 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Fb2hjTr8OiU2gqqErG3sG56KuObun%2FRSnT29yHWdqwb%2FQzTKu3Sc5TvPbLeoZKAdvUHfkj3A84NPM%2FeBCet5p62SCYlQu8Jon1o56kVqJweQPknKt2NqBR%2BYVo0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jLgO4sxY5yeVGvsHM1Ibr4zwS4%2FFoA61aIkWJHn8kd4uCWQMLaW2kvNVUmqkOQnKdlPKk%2F0aRrzUmfYwn5cFX%2FAfeK3rDEz%2FvCEUGXEIW4Poj9vi67nF68Q3zyg%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache: MISS
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: fb8c7783630abe39f537dcd80ef47b643f13f8e7
-X-Github-Request-Id: 5C2E:2C9A:275199:2D8295:63CFCF72
+X-Fastly-Request-Id: 2728591949a30606115ad4b93268ea09e0952475
+X-Github-Request-Id: 3BEA:1C2E:A77DC9:BF4650:63F957AE
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao17469-PAO
-X-Timer: S1674844488.876897,VS0,VE1
+X-Served-By: cache-pao17431-PAO
+X-Timer: S1677285295.867877,VS0,VE86
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servo</title>
+  
+  <title>Servo, the parallel browser engine</title>
+  <meta property="og:title" content="Servo, the parallel browser engine">
+  
+
+  <meta name="description" content="Servo is an independent, modular, embeddable web rendering engine written in Rust">
+  <meta name="keywords" content="servo, servo engine, servo rendering engine, web engine, web rendering engine, web browser, web browser engine, rust">
+  <meta name="author" content="The Servo Project Developers">
+
+  <meta property="og:site_name" content="Servo">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/servo-color-positive.png">
+  <meta property="og:image:alt" content="Servo logo">
+  <meta property="og:logo" content="/img/servo-symbol-color-no-container.png">
+  <meta property="og:description" content="Servo is an independent, modular, embeddable web rendering engine written in Rust">
+  <meta property="og:url" content="/">
+
   <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" href="/img/servo-symbol-color-no-container.png">
   <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
@@ -42,7 +58,7 @@ X-Timer: S1674844488.876897,VS0,VE1
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="/img/servo-color-negative-no-container.png" alt="Servo">
+        <img src="/img/servo-color-negative-no-container.png" alt="Home">
       </a>
 
       <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="menu" aria-expanded="false">
@@ -55,29 +71,79 @@ X-Timer: S1674844488.876897,VS0,VE1
     <div class="navbar-menu" id="navbar-menu">
       
         
-        <a class="navbar-item" href="https://github.com/servo/servo/blob/master/docs/HACKING_QUICKSTART.md" target="_blank">
-          How to start
-        </a>
+        
+          
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link
+            
+              
+            
+          " href="/about/">
+              About
+            </a>
+            <div class="navbar-dropdown">
+              
+                <a class="navbar-item" href="/governance/">
+                  Governance
+                </a>
+              
+            </div>
+          </div>
+        
       
         
-        <a class="navbar-item" href="https://github.com/servo/servo/blob/master/CONTRIBUTING.md" target="_blank">
-          Contributing
-        </a>
+        
+          <a class="navbar-item" href="/download/">
+            Download
+          </a>
+        
       
         
-        <a class="navbar-item" href="/blog/">
-          Blog
-        </a>
+        
+          
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link
+            
+              
+            
+              
+            
+              
+            
+          " href="/get-involved/">
+              Get Involved
+            </a>
+            <div class="navbar-dropdown">
+              
+                <a class="navbar-item" href="/contributing/">
+                  Contributing
+                </a>
+              
+                <a class="navbar-item" href="/documentation/">
+                  Documentation
+                </a>
+              
+                <a class="navbar-item" href="/coc/">
+                  Code of Conduct
+                </a>
+              
+            </div>
+          </div>
+        
       
         
-        <a class="navbar-item" href="/governance/">
-          Governance
-        </a>
+        
+          <a class="navbar-item" href="/sponsorship/">
+            Sponsorship
+          </a>
+        
       
         
-        <a class="navbar-item" href="/download/">
-          Download
-        </a>
+        
+          <a class="navbar-item" href="/blog/">
+            Blog
+          </a>
+        
       
       <div class="navbar-end">
   
@@ -89,16 +155,16 @@ X-Timer: S1674844488.876897,VS0,VE1
     </div>
   
     <div class="navbar-item">
-      <a class="button is-twitter-color" href="https://twitter.com/ServoDev">
-        <span class="icon"><i class="fab fa-twitter"></i></span>
-        <span>Twitter</span>
+      <a class="button is-mastodon-color" href="https://floss.social/@servo" rel="me">
+        <span class="icon"><i class="fab fa-mastodon"></i></span>
+        <span>Mastodon</span>
       </a>
     </div>
   
     <div class="navbar-item">
-      <a class="button is-mastodon-color" href="https://floss.social/@servo" rel="me">
-        <span class="icon"><i class="fab fa-mastodon"></i></span>
-        <span>Mastodon</span>
+      <a class="button is-twitter-color" href="https://twitter.com/ServoDev">
+        <span class="icon"><i class="fab fa-twitter"></i></span>
+        <span>Twitter</span>
       </a>
     </div>
   
@@ -109,29 +175,38 @@ X-Timer: S1674844488.876897,VS0,VE1
 </nav>
 
       <section class="container hero is-primary is-bold is-medium">
-  <div class="hero-body columns">
+  <div class="hero-body columns is-vcentered">
     <div class="column">
-      <img src="/img/screenshot-wikipedia.png" alt="Screenshot from wikipedia page">
+      <p class="title">
+        Servo, the parallel browser engine
+      </p>
+      <p class="subtitle">
+        Servo is an independent, modular, embeddable web rendering engine written in Rust
+      </p>
+      <hr>
+      <div class="columns">
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2023-02-03</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/02/03/servo-2023-roadmap/">Servo 2023 Roadmap</a></strong></big></p>
+              <p>Servo project roadmap for 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2023-01-16</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/01/16/servo-2023/">Servo to Advance in 2023</a></strong></big></p>
+              <p>A brief update on the Servo project's renewed activity in 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="column">
-      <p>
-        Servo’s mission is to provide an independent, modular, embeddable web engine,
-        which allows developers to deliver content and applications using web
-        standards.
-      </p>
-      <br>
-      <p>
-        Servo is written in <a href="https://rust-lang.org">Rust</a>, and shares code with Mozilla
-        Firefox and the wider Rust ecosystem. Since its creation in 2012, Servo has contributed to
-        W3C/WHATWG web standards by reporting specification issues and submitting new
-        cross-browser automated tests, and core team members have co-edited new
-        standards that have been adopted by other browsers. As a result, the Servo
-        project helps drive the entire web platform forward while building on a
-        platform of reusable, modular technologies that implement web standards.
-      </p>
-    </div>
-    <div class="column">
-      <img src="/img/screenshot-servo.png" alt="Screenshot of servo.org website">
+      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/epEQ-9VAY_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -139,95 +214,105 @@ X-Timer: S1674844488.876897,VS0,VE1
       <section class="section">
         <div class="container">
           <div class="content">
-            <h2 id="support-and-donations" tabindex="-1">Support and donations <a class="header-anchor" href="#support-and-donations">
-        <span class="icon hashlink"><i class="fas fa-link"></i></span>
-      </a></h2>
-<p>Interested in helping out the Servo Project? Please do! You could <a href="https://github.com/servo/servo/">write code</a>
-or documentation, test nightlies and file issues, or <a href="https://crowdfunding.lfx.linuxfoundation.org/projects/servo">donate</a>
-to help cover the project’s CI and hosting costs. If you know a company that would like to
-support the Servo Project, please have a look at our <a href="governance/participation-agreement.pdf">Participation Agreement</a>
-get in touch: <a href="/cdn-cgi/l/email-protection#ddb4b3bbb29daeb8afabb2f3b2afba"><span class="__cf_email__" data-cfemail="dab3b4bcb59aa9bfa8acb5f4b5a8bd">[email&#160;protected]</span></a>.</p>
+            <div class="columns">
+  <div class="column">
 <h2 id="contact" tabindex="-1">Contact <a class="header-anchor" href="#contact">
         <span class="icon hashlink"><i class="fas fa-link"></i></span>
       </a></h2>
 <ul>
-<li>Zulip: <a href="https://servo.zulipchat.com">https://servo.zulipchat.com</a></li>
-<li>GitHub discussion: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></li>
-<li>Email: <a href="/cdn-cgi/l/email-protection#deb7b0b8b19eadbbaca8b1f0b1acb9"><span class="__cf_email__" data-cfemail="dfb6b1b9b09facbaada9b0f1b0adb8">[email&#160;protected]</span></a></li>
+<li>
+<p>Zulip chat: <a href="https://servo.zulipchat.com/">https://servo.zulipchat.com/</a></p>
+</li>
+<li>
+<p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
+</li>
+<li>
+<p>Email: <a href="/cdn-cgi/l/email-protection#b2dbdcd4ddf2c1d7c0c4dd9cddc0d5"><span class="__cf_email__" data-cfemail="5b32353d341b283e292d347534293c">[email&#160;protected]</span></a></p>
+</li>
+<li>
+<p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
+</li>
+<li>
+<p>Twitter: <a href="https://twitter.com/ServoDev">https://twitter.com/ServoDev</a></p>
+</div>
+<div class="column">
+</li>
 </ul>
+<h2 id="downloads" tabindex="-1">Downloads <a class="header-anchor" href="#downloads">
+        <span class="icon hashlink"><i class="fas fa-link"></i></span>
+      </a></h2>
+<div class="downloads">
+  <p>
+    <div class="buttons has-addons">
+      <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe" style="width: 15ch;">Windows EXE</a>
+      <span class="button is-static" id="date-windows-exe" style="width: 12ch;">?</span>
+      <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
+    </div>
+  </p>
+  <p>
+    <div class="buttons has-addons">
+      <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip" style="width: 15ch;">Windows ZIP</a>
+      <span class="button is-static" id="date-windows-zip" style="width: 12ch;">?</span>
+      <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
+    </div>
+  </p>
+  <p>
+    <div class="buttons has-addons">
+      <a class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg" style="width: 15ch;">macOS (x64)</a>
+      <span class="button is-static" id="date-mac" style="width: 12ch;">?</span>
+      <a class="button" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
+    </div>
+  </p>
+  <p>
+    <div class="buttons has-addons">
+      <a class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz" style="width: 15ch;">Linux (x64)</a>
+      <span class="button is-static" id="date-linux" style="width: 12ch;">?</span>
+      <a class="button" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
+    </div>
+  </p>
+</div>
+  </div>
+  <div class="column">
+<h2 id="sponsorship" tabindex="-1">Sponsorship <a class="header-anchor" href="#sponsorship">
+        <span class="icon hashlink"><i class="fas fa-link"></i></span>
+      </a></h2>
+<p>You can support the project’s infrastructure (CI) and hosting costs by donating to the <a href="https://crowdfunding.lfx.linuxfoundation.org/projects/servo">LFX crowdfunding page for Servo</a>.</p>
+<p>For more information about how to sponsor the project, visit the <a href="/sponsorship/"><strong>sponsorship page</strong></a>.</p>
+  </div>
+</div>
 
           </div>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <div class="content">
-            <h2 id="download">
-              Downloads
-              <a class="headline-hash" href="#download">
-                <span class="icon hashlink">
-                  <i class="fas fa-link"></i>
-                </span>
-              </a>
-            </h2>
-          </div>
-        </div>
-        <div class="container">
-  <div class="content">
-    <div class="columns">
-      <div class="column">
-        <p>
-          These pre-built nightly snapshots allow developers to try Servo and
-          <a href="https://github.com/servo/servo/issues/new">report issues</a> without
-          <a href="https://github.com/servo/servo/blob/master/docs/HACKING_QUICKSTART.md">building Servo locally</a>.
-          <strong>Please don’t log into your bank with Servo just yet!</strong>
-          Now that we’ve released our first developer preview,
-          we’ll be investing in formal security audits and improving our security
-          practices using both existing libraries and Rust – more information
-          coming soon!
-        </p>
-      </div>
-      <div class="column">
-        <div class="downloads">
-          
-          <p>
-            <div class="buttons has-addons">
-              <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe">Windows EXE</a>
-              <span class="button is-static" id="date-windows-exe">?</span>
-              <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
-            </div>
-          </p>
-          
-          <p>
-            <div class="buttons has-addons">
-              <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip">Windows ZIP</a>
-              <span class="button is-static" id="date-windows-zip">?</span>
-              <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
-            </div>
-          </p>
-          
-          <p>
-            <div class="buttons has-addons">
-              <a class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg">macOS (x64)</a>
-              <span class="button is-static" id="date-mac">?</span>
-              <a class="button" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
-            </div>
-          </p>
-          
-          <p>
-            <div class="buttons has-addons">
-              <a class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz">Linux (x64)</a>
-              <span class="button is-static" id="date-linux">?</span>
-              <a class="button" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
-            </div>
-          </p>
-          
-        </div>
-      </div>
-    </div>
+    </main>
+    <footer class="footer">
+  <div class="container" style="text-align: center;">
+    <a href="/coc/">Code of Conduct</a> |
+    Contact: <a href="/cdn-cgi/l/email-protection#3c55525a537c4f594e4a5312534e5b"><span class="__cf_email__" data-cfemail="afc6c1c9c0efdccaddd9c081c0ddc8">[email&#160;protected]</span></a>,
+    <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
+    <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
+    <a href="https://floss.social/@servo">Mastodon</a>,
+    <a href="https://twitter.com/ServoDev">Twitter</a>
   </div>
-</div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+  <div class="container" style="text-align: center; font-size: 0.875em;">
+    <p><a href="https://www.linuxfoundation.org"><img src="/img/lf-logo.png" alt="Linux Foundation logo" width="112" style="margin: 1em;"></a></p>
+    <p>&copy; 2023 The Servo Project Developers</p>
+    <p>Copyright &copy; Servo Project a Series of LF Projects, LLC. LF Projects, LLC is an affiliate of the <a href="https://www.linuxfoundation.org">Linux Foundation</a>.</p>
+    <p>For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.</p>
+  </div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+  $(() => {
+    const burger = $(".navbar-burger");
+    const menu = $(".navbar-menu");
+    burger.click(() => {
+      [burger, menu].forEach((el) => el.toggleClass('is-active'));
+    });
+  });
+</script>
+
+    <script type="text/javascript">
   window.onload = load_build_info;
 
   function load_build_info() {
@@ -288,29 +373,6 @@ get in touch: <a href="/cdn-cgi/l/email-protection#ddb4b3bbb29daeb8afabb2f3b2afb
           return xml_doc;
       }
   }
-</script>
-
-      </section>
-    </main>
-    <footer class="footer">
-  <div class="container">
-    <p class="is-size-6 has-text-light has-text-weight-light">
-      &copy; 2023 The Servo Project Developers
-    </p>
-    <p>Copyright © Servo Project a Series of LF Projects, LLC. LF Projects, LLC is an affiliate of the <a href="https://www.linuxfoundation.org">Linux Foundation</a>.</p>
-    <p>For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.</p>
-    <p><a href="https://www.linuxfoundation.org"><img src="/img/lf-logo.png" alt="Linux Foundation logo" width="112"></a></p>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>
-  $(() => {
-    const burger = $(".navbar-burger");
-    const menu = $(".navbar-menu");
-    burger.click(() => {
-      [burger, menu].forEach((el) => el.toggleClass('is-active'));
-    });
-  });
 </script>
 
   </body>

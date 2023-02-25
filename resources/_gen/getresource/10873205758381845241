@@ -1,19 +1,18 @@
 HTTP/2.0 200 OK
-Age: 275
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Fri, 27 Jan 2023 18:30:05 GMT
-Etag: W/"57bf70627e3b9ce7d3a7871d4639acc2"
-Last-Modified: Tue, 24 Jan 2023 13:15:26 GMT
+Date: Sat, 25 Feb 2023 00:34:31 GMT
+Etag: W/"54702269f560552d3b0d731fb7cb0140"
+Last-Modified: Fri, 24 Feb 2023 07:46:10 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 b2f9564ebf9c745cc2ceae96d434977e.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: e7neOguxP3k8JmdKO9jhWcSjI5jOc6HU7iUIUGFAwo3JzLug-3xvuA==
-X-Amz-Cf-Pop: SEA19-C2
-X-Amz-Id-2: V9Qh5j14giKg4hhTxJmTf8O3DCPVfBaqQJqdDa74dZusXR+lg3EFzjB2XzX8o/Yj3KyyU2NeY+k=
-X-Amz-Request-Id: CQR83GH0B7X6YC50
-X-Cache: Hit from cloudfront
+Via: 1.1 b4085435efbe95a420f374958bd145be.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Swd0eM7vAhjgQZORUdXlgF0aBONgQAuVc1haZiCWs8AQG63y6-Aqbw==
+X-Amz-Cf-Pop: SEA19-C1
+X-Amz-Id-2: aeHrvKTLBhOklbhzhpAYCBIwYC8XnxFWf7q4Qqli6PDV6eUrSYG9jFwsTsUPKJavcgCm4fImVMI=
+X-Amz-Request-Id: 25AS62G36608XYXQ
+X-Cache: RefreshHit from cloudfront
 X-Frame-Options: deny
 
 <!DOCTYPE html>
@@ -132,11 +131,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=c8097bee0447d707269332d35925406e" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=e7a457d42c4489b6b29472f442d41731" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=da8f9ca4692718dea3599674fa05cc9c">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=0f47b85101c6dfaf9cf6dbb04898e734">
 
 
 <meta property="og:locale" content="en" />
@@ -344,7 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <li class="header-nav__link header-nav__secondary-nav-trigger" data-modal-trigger="secondary-nav" data-modal="secondary-nav">
             <div class="header-nav__secondary-nav-trigger-content">
-              Why Nozbe
+              <span>Why Nozbe</span>
               <img class="header-nav__link-point-down-icon" src="/images/teams/icons/arrow-down.svg">
             </div>
 
@@ -436,6 +435,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </li>
           <li class="header-nav__link"><a href="https://nozbe.com/guide">How it works</a></li>
+          <li class="header-nav__link"><a href="https://nozbe.com/download">Download</a></li>
           <li class="header-nav__link"><a href="https://nozbe.com/free">Pricing</a></li>
         </ul>
 
@@ -446,7 +446,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="modal__overlay" data-modal-overlay="login"></div>
 
         <div class="login-button-container">
-          <a class="button header-nav__button bg-orange" id="login-button" data-modal-trigger="login" href="https://nozbe.com/login-chooser">Log in</a>
+          <a class="button header-nav__button bg-orange" data-modal-trigger="login" href="https://nozbe.com/login-chooser">Log in</a>
           <div class="login-modal" data-modal="login">
             <div class="login-modal__section" data-nt-form>
               <div class="login-modal__heading">
@@ -468,9 +468,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <input type="password" name="password" id="login-password" class="login-modal__form-input" placeholder="Enter your password" required>
                 </div>
                 <a class="login-modal__forgot-password-link" href="https://teams.nozbe.com/password_reset">Forgot your password?</a>
-                <button class="button bg-purple login-modal__login-button">
+                <button class="button bg-purple">
                   Log in
-                  <span class="signup-teams-form__spinner spinner hidden" data-login-spinner></span>
+                  <span class="spinner spinner--white hidden"></span>
                 </button>
               </form>
 
@@ -513,16 +513,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         
-          <a href="https://nozbe.com/signup-teams"
-            class="button header-nav__button bg-purple"
-            data-signup-link="header">Sign up for free</a>
+          <div class="header-nav__signup-container">
+            <a href="https://nozbe.com/signup-teams"
+              class="button header-nav__button header-nav__button--last bg-purple"
+              data-signup-link="header">Sign up for free</a>
+
+            
+            <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+              <img src="/images/badges/img_ios_en.svg">
+            </a>
+
+            
+            <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+              <img src="/images/badges/img_android_en.svg">
+            </a>
+          </div>
         
       </nav>
 
       
-        <a href="https://nozbe.com/signup-teams"
-          class="button header-nav__button bg-purple header-nav__mobile-sticky-button"
-          data-signup-link="header-sticky">Sign up for free</a>
+        <div class="header-nav__mobile-sticky-button-container">
+          <a href="https://nozbe.com/signup-teams"
+            class="button bg-purple header-nav__mobile-sticky-button"
+            data-signup-link="header-sticky">Sign up for free</a>
+
+          
+          <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge signup-buttons__store-badge--sticky hidden" data-store-badge="app-store">
+            <img src="/images/badges/img_ios_en.svg">
+          </a>
+
+          
+          <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge signup-buttons__store-badge--sticky hidden" data-store-badge="google-play-store">
+            <img src="/images/badges/img_android_en.svg">
+          </a>
+        </div>
       
 
       <div class="modal__overlay" data-modal-overlay="mobile-menu"></div>
@@ -588,10 +612,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
 
 
-
-
-
-
   
   
     
@@ -604,30 +624,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
   
-
-
-
-
+  
+    
+  
+    
+  
   
 
+
+
+
+
+
+
+<div class="signup-buttons__container signup-buttons__container--left "
+  data-has-3rdparty
   
-
-
-
-
-
-
-
-
-
-
-<div class="signup-buttons__container" data-has-3rdparty >
-  <form class="signup-teams-form " data-success-url="thank-you">
+  
+>
+  <form class="signup-teams-form" data-success-url="thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--left">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="signup-teams-form__spinner spinner hidden"></span>
+        <span class="spinner spinner--white hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -640,17 +660,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
+    
     <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
       <img src="/images/icons/siwa.svg" class="siwa-button__icon">
       <span class="siwa-button__title">Sign in with Apple</span>
     </a>
 
+    
     <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
       <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
       <span class="google-signin-button__title">Sign in with Google</span>
     </a>
   
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
+  </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+
+
     
   </div>
 
@@ -739,21 +776,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -763,15 +793,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--start mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--start">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -789,6 +896,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="nt-section__container nt-section__container--orange hidden" data-section-name="carousel_1" data-section-index="2">
         
+
+
 
 
 <div class="nt-section__content" id="key-features">
@@ -848,13 +957,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/spark_your_teamwork.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/stay_organized_in_sync.webp"
       
     >
     <img class=""
-      src="https://files.nozbe.com/images/pages-teams/spark_your_teamwork.jpg"
+      src="https://files.nozbe.com/images/pages-teams/stay_organized_in_sync.jpg"
       
-      alt="stay organized &amp; in sync">
+      alt="stay organized and in sync">
   </picture>
 
     
@@ -867,19 +976,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
 
 
-
-
-
-
   
   
   
-  
-  
-
-
-
-
   
 
   
@@ -890,15 +989,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
         </div>
     
   </div>
@@ -953,13 +1128,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/thrive_at_project_management_1.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/easily_manage_your_tasks.webp"
       
     >
     <img class=""
-      src="https://files.nozbe.com/images/pages-teams/thrive_at_project_management_1.jpg"
+      src="https://files.nozbe.com/images/pages-teams/easily_manage_your_tasks.jpg"
       
-      alt="track progress">
+      alt="easily_manage_your_tasks">
   </picture>
 
     
@@ -972,19 +1147,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
 
 
-
-
-
-
   
   
   
-  
-  
-
-
-
-
   
 
   
@@ -995,15 +1160,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
         </div>
     
   </div>
@@ -1058,13 +1299,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/advance_your_productivity.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/stay_productive_not_busy.webp"
       
     >
     <img class=""
-      src="https://files.nozbe.com/images/pages-teams/advance_your_productivity.jpg"
+      src="https://files.nozbe.com/images/pages-teams/stay_productive_not_busy.jpg"
       
-      alt="make time for what is profitable">
+      alt="stay_productive_not_busy">
   </picture>
 
     
@@ -1077,19 +1318,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
 
 
-
-
-
-
   
   
   
-  
-  
-
-
-
-
   
 
   
@@ -1100,15 +1331,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
         </div>
     
   </div>
@@ -1163,13 +1470,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/inspire_smooth_communication.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/never_miss_a_deadline.webp"
       
     >
     <img class=""
-      src="https://files.nozbe.com/images/pages-teams/inspire_smooth_communication.jpg"
+      src="https://files.nozbe.com/images/pages-teams/never_miss_a_deadline.jpg"
       
-      alt="ditch email and chat">
+      alt="never_miss_a_deadline">
   </picture>
 
     
@@ -1182,19 +1489,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
 
 
-
-
-
-
   
   
   
-  
-  
-
-
-
-
   
 
   
@@ -1205,15 +1502,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
         </div>
     
   </div>
@@ -1239,16 +1612,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   
     
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
+
   
 
 
@@ -1257,18 +1629,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--small signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
 
+  
 
-
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -1368,21 +1814,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -1392,15 +1831,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -1535,21 +2051,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -1559,15 +2068,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -1588,12 +2174,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__content nt-testimonial nt-testimonial--loading" id="">
-  <div class="nt-testimonial__spinner">
-    <div class="spinner"></div>
-  </div>
 
-  <div class="nt-card-container nt-testimonial__content" id="testimonial-card">
+
+
+
+
+  
+  
+  
+  
+
+
+<div class="nt-section__content nt-testimonial"  id="">
+  <div class="spinner center-x"></div>
+
+  <div class="nt-card-container nt-testimonial__content hidden" id="testimonial-card">
     <div class="nt-testimonial__top">
       <div class="nt-testimonial__avatar-container">
         <img data-src="https://files.nozbe.com/images/pages-teams/testimonial-avatar-en.jpg" alt="Andre Tzschaschel, CEO of Valuemedia GmbH" class="nt-testimonial__avatar" />
@@ -1601,7 +2196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="nt-testimonial__text-container">
         <h3 class="nt-testimonial__heading" data-message="{name} recommends Nozbe">Andre recommends Nozbe</h3>
-        <p class="nt-testimonial__text">Nozbe is our productivity booster. We use it for all team-related and personal our to-do&#39;s and things that need to be organized and accomplished. It is our external brain.</p>
+        <p class="nt-testimonial__text">Nozbe is our productivity booster. We use it for all team-related and personal our to-do's and things that need to be organized and accomplished. It is our external brain.</p>
         <p class="nt-testimonial__name">Andre Tzschaschel, CEO of Valuemedia GmbH</p>
       </div>
     </div>
@@ -1612,10 +2207,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
 
 
-
-
-
-
   
   
     
@@ -1628,30 +2219,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
   
-
-
-
-
+  
+    
+  
+    
+  
   
 
+
+
+
+
+
+
+<div class="signup-buttons__container signup-buttons__container--center "
+  data-has-3rdparty
   
-
-
-
-
-
-
-
-
-
-
-<div class="signup-buttons__container" data-has-3rdparty >
-  <form class="signup-teams-form button--nospacing" data-success-url="https://nozbe.com/thank-you">
+  
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="signup-teams-form__spinner spinner hidden"></span>
+        <span class="spinner spinner--white hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -1664,17 +2255,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
+    
     <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
       <img src="/images/icons/siwa.svg" class="siwa-button__icon">
       <span class="siwa-button__title">Sign in with Apple</span>
     </a>
 
+    
     <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
       <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
       <span class="google-signin-button__title">Sign in with Google</span>
     </a>
   
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
+  </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+
+
 
         
           <span class="nt-pricing__footer-login-note" data-message="Sign up today and thanks to {name} get 15 USD of free extra credits!"></span>
@@ -2065,17 +2673,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
   </ul>
   
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
+      
 
 
   
   
   
   
+
   
 
 
@@ -2084,18 +2691,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--small signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
 
+  
 
-
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -2251,21 +2932,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -2275,15 +2949,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -2418,21 +3169,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -2442,15 +3186,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -2838,10 +3659,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
 
 
-
-
-
-
   
   
     
@@ -2852,37 +3669,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
   
-
-
-
-
+  
+    
+  
+    
+  
+    
+  
   
 
+
+
+
+
+
+
+<div class="signup-buttons__container signup-buttons__container--center "
   
-
-
-
-
-
-
-
-
-
-
-<div class="signup-buttons__container"  >
-  <form class="signup-teams-form button--nospacing" data-success-url="https://nozbe.com/thank-you">
+  
+  
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="signup-teams-form__spinner spinner hidden"></span>
+        <span class="spinner spinner--white hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
   </form>
 
   
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
+  </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container hidden"
+  >
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
 </div>
+  
+</div>
+
+
 
         
           <span class="nt-pricing__footer-login-note">Already have an account? <a href="https://teams.nozbe.com/login">Log in</a> and go to Settings to choose your plan!</span>
@@ -3000,18 +3875,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
 
 
-
-
-
-
   
   
   
   
-  
-
-
-
 
   
 
@@ -3021,15 +3888,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
     </div>
   
 </div>
@@ -3048,6 +3991,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="nt-section__container nt-section__container--white " data-section-name="carousel" data-section-index="11">
         
+
+
 
 
 <div class="nt-section__content" id="">
@@ -3340,16 +4285,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   
     
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
+
   
 
 
@@ -3358,18 +4302,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--small signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
 
+  
 
-
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
     </div>
@@ -3417,11 +4435,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
 
-      
-
-
-
-
+      <div class="nt-section__buttons-row-container">
+        
 
 
   
@@ -3436,30 +4451,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
   
-
-
-
-
+  
+    
+  
+    
+  
   
 
+
+
+
+
+
+
+<div class="signup-buttons__container signup-buttons__container--start "
+  data-has-3rdparty
   
-
-
-
-
-
-
-
-
-
-
-<div class="signup-buttons__container" data-has-3rdparty >
-  <form class="signup-teams-form " data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--small signup-teams-form__row--left">
+  
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--small signup-teams-form__row--start">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-purple ">
         Sign up for free
-        <span class="signup-teams-form__spinner spinner hidden"></span>
+        <span class="spinner spinner--white hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -3472,17 +4487,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
+    
     <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
       <img src="/images/icons/siwa.svg" class="siwa-button__icon">
       <span class="siwa-button__title">Sign in with Apple</span>
     </a>
 
+    
     <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
       <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
       <span class="google-signin-button__title">Sign in with Google</span>
     </a>
   
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
+  </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+
+
+      </div>
     
   </div>
 
@@ -3623,11 +4656,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
 
-      
-
-
-
-
+      <div class="nt-section__buttons-row-container">
+        
 
 
   
@@ -3640,29 +4670,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
   
-
-
-
-
+  
+    
+  
+    
+  
   
 
+
+<a href="https://nozbe.com/remotework"
+  id=""
+  class="button bg-orange "
   
+  
+  
+>
+  
+  <span>Remote Teamwork - the Ultimate Guide</span>
+</a>
 
 
-
-
-
-
-
-<div class="nt-section__button-container nt-section__button-container--left  ">
-  <a href="https://nozbe.com/remotework"
-    id=""
-    class="button bg-orange "
-    data-role=
-  >
-    Remote Teamwork - the Ultimate Guide
-  </a>
-</div>
+      </div>
     
   </div>
 
@@ -3722,6 +4750,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   <div class="nt-grid-container" data-columns="3">
+    
+      <div class="nt-column nt-column--3 nt-column--align-start">
+        <a href="https://nozbe.com/blog/16-birthday-nozbe-productivity-tool-for-entrepreneurs/">
+          
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+  <picture>
+    <source type="image/webp"
+      srcset="https://files.nozbe.com/images/blog/nozbe-16-birthday.webp"
+      
+    >
+    <img class="nt-column__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/nozbe-16-birthday.jpg"
+      
+      alt="">
+  </picture>
+
+          
+
+          
+            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Nozbe 16th Birthday 🎉</h3>
+          
+
+          
+            <div class="paragraph nt-learn-more__box-description">Nozbe - our simple productivity tool for entrepreneurs is 16 today! See how the company evolved.</div>
+          
+        </a>
+      </div>
     
       <div class="nt-column nt-column--3 nt-column--align-start">
         <a href="https://nozbe.com/blog/best-software-techniques-for-virtual-assistants/">
@@ -3799,63 +4865,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
       </div>
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <a href="https://nozbe.com/blog/nooffice-43-gtd-in-a-team-david-allen/">
-          
-            
-            
-            
-            
-
-
-
-
-
-
-
-
-  <picture>
-    <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/nooffice-ep-43-gtd-for-teams.webp"
-      
-    >
-    <img class="nt-column__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/nooffice-ep-43-gtd-for-teams.jpg"
-      
-      alt="">
-  </picture>
-
-          
-
-          
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">David Allen: Introducing GTD in a Team - *No Office* Podcast, ep. 43</h3>
-          
-
-          
-            <div class="paragraph nt-learn-more__box-description">See how to get your team organized and productive by introducing the GTD methodology.</div>
-          
-        </a>
-      </div>
-    
   </div>
 
   
     
-    
-
-
-
-
+    <div class="nt-section__buttons-row-container">
+      
 
 
   
   
   
   
-  
-
-
-
 
   
 
@@ -3865,15 +4886,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__button-container nt-section__button-container--center  nt-section__button-container--full">
-  <a href="https://nozbe.com/signup-teams"
-    id=""
-    class="button bg-orange  button--full button--mobile-only "
-    data-role=
-  >
-    Sign up for free
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
+  
+  
+  data-automatic-button="signup"
+>
+  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
+      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
+      <button type="submit" class="signup-teams-form__button bg-orange ">
+        Sign up for free
+        <span class="spinner spinner--white hidden"></span>
+      </button>
+    </div>
+    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
+  </form>
+
+  
+
+  
+  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
+    <img src="/images/badges/img_ios_en.svg">
   </a>
+
+  
+  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
+    <img src="/images/badges/img_android_en.svg">
+  </a>
+
+  
+  
 </div>
+  
+
+
+<a href="https://nozbe.com/signup-teams"
+  id=""
+  class="button bg-orange  button--full mobile-only "
+  
+  data-automatic-button="link"
+  
+>
+  
+  <span>Sign up for free</span>
+</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="payments-button__container mobile-only"
+  data-automatic-button="payments">
+  <p class="payments-button__message"
+    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
+    
+  >
+    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
+  </p>
+  
+
+
+<a href=""
+  id=""
+  class="button bg-orange "
+  
+  
+  data-role="payments-button"
+>
+  
+  <span>Buy Premium</span>
+</a>
+</div>
+
+
+    </div>
   
 </div>
 
@@ -4081,6 +5179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="https://nozbe.com/lawyers">Lawyers</a></li>
             <li><a href="https://nozbe.com/startup">Startup</a></li>
             <li><a href="https://nozbe.com/marketing">Marketing</a></li>
+            <li><a href="https://nozbe.com/virtualassistant">Virtual Assistants</a></li>
           </ul>
 
           <ul class="nt-footer__column">
@@ -4153,12 +5252,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   
-    <script>
-      window.__lc = window.__lc || {};
-      window.__lc.license = 14785629;
-      ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
-    </script>
-    <noscript><a href="https://www.livechat.com/chat-with/14785629/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <div class="contact-form">
+  <button class="nt-contact-form-trigger contact-form-trigger contact-form-trigger--violet icon hidden">U</button>
+
+  <div class="contact-form__container hidden">
+    <div class="contact-form__inner hidden">
+      <h4 class="contact-form__header">Leave us a message</h4>
+      <form class="contact-form__form" method="POST">
+        <div class="contact-form__msg msg error hidden">Field cannot be empty</div>
+
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="title" placeholder="Subject" required />
+        <textarea name="body" placeholder="Your message..." required></textarea>
+
+        <button type="submit" class="button button--primary bg-purple">
+          Send
+          <span class="spinner spinner--white hidden"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="contact-form__confirmation hidden">
+    <span class="contact-form__confirmation-icon icon">Ì</span>
+    Thanks for sending us a message. We&#39;ll get in touch as soon as possible!
+  </div>
+</div>
+
+
   
 
 
@@ -4194,6 +5315,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   <!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

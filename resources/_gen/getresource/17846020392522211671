@@ -2,13 +2,13 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Fri, 27 Jan 2023 18:34:41 GMT
-Etag: W/"63c17c81-cc01"
+Date: Fri, 24 Feb 2023 21:01:00 GMT
+Etag: W/"63ddeb05-cc2e"
 Front-End-Https: on
-Last-Modified: Fri, 13 Jan 2023 15:45:05 GMT
+Last-Modified: Sat, 04 Feb 2023 05:20:05 GMT
 Server: nginx/1.18.0
 
-cc01
+cc2e
 
 <!DOCTYPE html>
 <html lang="en" data-figures="" class="home">
@@ -361,7 +361,7 @@ security, bug fixes and performance enhancements
   <div class="excerpt">
     <div class="excerpt_header">
       <h3 class="post_link">
-        <a href="/2022/08/25/tip-upgrading-postgis-sfcgal/" title="Upgrading postgis_sfcgal to 3.1 or higher">Upgrading postgis_sfcgal to 3.1 or higher</a>
+        <a href="/2023/02/03/tip-removing-raster-from-2-3/" title="Fixing a broken postgis raster install">Fixing a broken postgis raster install</a>
       </h3>
 			
       
@@ -372,8 +372,8 @@ security, bug fixes and performance enhancements
 </svg>
 </span>
     <span class="post_date">
-      Aug 25, 2022</span> <b>tips</b>
-    <span class="post_time"> · 3 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/newbie' title="newbie" class="post_tag button button_translucent">newbie
+      Feb 3, 2023</span> <b>tips</b>
+    <span class="post_time"> · 2 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/newbie' title="newbie" class="post_tag button button_translucent">newbie
         </a><a href='/tags/upgrade' title="upgrade" class="post_tag button button_translucent">upgrade
         </a>
     </span>
@@ -384,14 +384,14 @@ security, bug fixes and performance enhancements
       <div class="excerpt_footer">
         <div class="pale">
           
-            <p>As of PostGIS 3.1, the PostGIS sfcgal support library is no longer part of the
-<code>postgis</code> core library, but instead spun off into a new library <code>postgis_sfcgal-3</code>.</p>
-<p>This change is not an issue for people doing regular, soft-upgrades from a PostGIS &lt; 3.1 compiled with SFCGAL
-to a PostGIS &gt;= 3.1 with SFCGAL
-using <code>ALTER …</code></p>
+            <p>As of PostGIS 3.0, the PostGIS raster support is no longer part of the
+<code>postgis</code> extension, but instead spun off into a PostGIS extension called <code>postgis_raster</code>.</p>
+<p><a href="/2022/01/14/tip-upgrading-raster-from-2-3">Upgrading raster from 2.* to 3.*</a> covers the proper
+way of upgrading your install from PostGIS 2+ to PostGIS 3+.</p>
+<p>Unfortunately many people in a heat of panic when …</p>
           
           <br>
-          <a href="/2022/08/25/tip-upgrading-postgis-sfcgal/" title="Read More" class="excerpt_more button">Read More</a>
+          <a href="/2023/02/03/tip-removing-raster-from-2-3/" title="Read More" class="excerpt_more button">Read More</a>
         </div>
       </div>
     </div>
@@ -415,7 +415,7 @@ using <code>ALTER …</code></p>
         
         <a href='/category/tips/' class="post_tag button button_translucent" title="tips">
           TIPS
-          <span class="button_tally">13</span>
+          <span class="button_tally">14</span>
         </a>
         
         <a href='/category/casestudy/' class="post_tag button button_translucent" title="casestudy">
@@ -476,7 +476,7 @@ using <code>ALTER …</code></p>
         
         <a href='/tags/newbie/' class="post_tag button button_translucent" title="newbie">
           NEWBIE
-          <span class="button_tally">13</span>
+          <span class="button_tally">14</span>
         </a>
         
         <a href='/tags/eol/' class="post_tag button button_translucent" title="eol">
@@ -718,7 +718,7 @@ using <code>ALTER …</code></p>
             </a>
             
             
-            <a href='/tags/newbie/' class=" post_tag button button_translucent" data-position=13 title="newbie">NEWBIE<span class="button_tally">13</span>
+            <a href='/tags/newbie/' class=" post_tag button button_translucent" data-position=14 title="newbie">NEWBIE<span class="button_tally">14</span>
             </a>
             
             
@@ -854,7 +854,7 @@ using <code>ALTER …</code></p>
             </a>
             
             
-            <a href='/tags/upgrade/' class=" post_tag button button_translucent" data-position=4 title="upgrade">UPGRADE<span class="button_tally">4</span>
+            <a href='/tags/upgrade/' class=" post_tag button button_translucent" data-position=5 title="upgrade">UPGRADE<span class="button_tally">5</span>
             </a>
             
             

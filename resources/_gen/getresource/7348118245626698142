@@ -3,7 +3,7 @@ Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
 Content-Type: text/html; charset=utf-8
-Date: Fri, 27 Jan 2023 18:34:39 GMT
+Date: Sat, 25 Feb 2023 00:34:29 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -14,7 +14,7 @@ X-Frame-Options: DENY
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 
-fa99
+10014
 
 
 <!DOCTYPE html>
@@ -39,26 +39,22 @@ Manjaro
 "/>
         <meta name="description" content="
 
-Manjaro is a Linux based distribution that can be installed as a alternative operating system on a wide range of devices.
+This page provides an overview of Manjaro Linux, an open source operating system designed for ease of use. Learn about its features, installation, and support options. Get the most out of Manjaro Linux with the latest news, downloads, and tips from our helpful community.
 
 " />
-        <link rel="icon" type="image/x-icon" href="/static/img/favicon.141795b4bb59.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.da228a990781.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.18afe0c65f85.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.bdb50486b5a7.png">
-        <link rel="manifest" href="/static/site.b9aa277fcfc3.webmanifest">
-        <link rel="mask-icon" href="/static/img/safari-pinned-tab.9568175a86ae.svg" color="#5bbad5">
+        <link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
+        <link rel="icon" type="image/png" href="/static/img/favicon.png">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#00695c">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         
 
-<link rel="preload" href="/static/css/styles.91b9f25bdc47.css" as="style">
+<link rel="preload" href="/static/css/styles.8d9720b99666.css" as="style">
 
         
 
-<link rel="stylesheet" href="/static/css/styles.91b9f25bdc47.css">
+<link rel="stylesheet" href="/static/css/styles.8d9720b99666.css">
 
 
 
@@ -136,22 +132,25 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
         
         
         <li class="">
-          <a  href="https://manjaro.org/donate/"
+          <a  href="https://manjaro.org/contact/"
             class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
-            donate
+            Contact
           </a>
         </li>
         
         
-        <li>
-          <a href="https://manjaro.org/contact/"
-            class="font-bold tracking-wide link-decor-right link-decor relative z-0 flex items-center justify-center px-2 h-[36px]">
-            Get in touch
+        
+        <li class="">
+          <a  href="https://manjaro.org/download/"
+            class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
+            Download
           </a>
         </li>
+        
+        
       </ul>
-      <form id="search-form" action="/search/" method="get" class="relative text-sm hidden lg:flex">
-        <input id="search-query" placeholder="Search.." class="focus:border-pink-500 focus:border-b-2 border-gray-200 shadow-inner h-[34px] transition duration-200 bg-gray-200 border-0 border-b-2 appearance-none focus:ring-0" type="text" name="query">
+      <form id="search-form" action="/search/" method="get" class="relative text-sm hidden lg:flex w-[60%]">
+        <input id="search-query" placeholder="Search.." class="w-full focus:border-pink-500 focus:border-b-2 border-gray-200 shadow-inner h-[34px] transition duration-200 bg-gray-200 border-0 border-b-2 appearance-none focus:ring-0" type="text" name="query" >
         <button class="hidden lg:block fa fa-magnifying-glass text-teal-900 bg-teal-accent-700 w-10" type="submit"></button>
     </form>
     </div>
@@ -373,10 +372,10 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
         </li>
         
         <li class="ml-4 w-full flex justify-end">
-          <a id="download-btn" href="https://manjaro.org/download/"
-            class="inline-block text-sm px-4 py-2 leading-none border font-semibold rounded text-teal-500 bg-gray-200">
-            <i class="fa-solid fa-circle-arrow-down"></i>
-            Download
+          <a id="donate-btn" href="https://manjaro.org/donate/"
+            class="inline-block text-sm px-4 py-2 leading-none border font-semibold rounded text-teal-800 bg-gray-200">
+            <i class="fa-solid fa-heart text-red-400 drop-shadow-sm"></i>
+            Donate
           </a>
         </li>
       </ul>
@@ -386,22 +385,22 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
 
 <!-- Mobile menu -->
 <div id="nav-mobile" class="lg:hidden relative">
-  <div class="w-full fixed bottom-0 left-0 z-40 flex" style="filter: drop-shadow(0 -1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 -1px 1px rgb(0 0 0 / 0.06));">
-    <a href="https://manjaro.org" aria-label="Home"
-    class="shadow bg-white flex justify-center items-center w-auto h-[55px]">
-    <img src="/static/img/block-logo.b2f8f38599a5.svg" alt="manjaro logo" width="50" height="auto" class="w-[50px]">
-  </a>
+  <div class="w-full fixed top-0 left-0 z-40 flex h-[50px]" style="filter: drop-shadow(0 -1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 -1px 1px rgb(0 0 0 / 0.06));">
     <button id="toggle-mobile-btn" aria-label="Open Menu"
-    class="bottom-1 text-2xl px-4 shadow h-[55px] justify-center bg-gray-900 text-gray-200 flex items-center">
+    class="w-[50px] text-2xl px-4 shadow h-[50px] justify-center bg-gray-900 text-gray-200 flex items-center">
     <i class="fa-solid fa-bars"></i>
   </button>
+  <a href="https://manjaro.org" aria-label="Home"
+  class="shadow bg-white flex justify-center items-center w-auto h-[50px]">
+  <img src="/static/img/favicon.e5c7e6f4fd28.svg" alt="manjaro logo" width="100%" height="100%" class="p-2 w-16">
+</a>
   <form id="search-form-mobile" action="/search/" method="get" class="text-sm flex bg-white w-full">
-    <input id="search-query-mobile" class="h-[55px] w-full transition duration-200 bg-white border-0 appearance-none focus:ring-0" type="text" placeholder="Search.." name="query">
-    <button class="fa fa-magnifying-glass text-teal-900 bg-teal-accent-700 w-10" type="submit"></button>
-</form>
+    <input id="search-query-mobile" class="h-[50px] w-full transition duration-200 bg-white border-0 appearance-none focus:ring-0" type="text" placeholder="Search.." name="query" >
+    <button class="fa fa-magnifying-glass text-teal-900 bg-teal-accent-700 w-[50px] px-4" type="submit"></button>
+  </form>
   </div>
-  <div id="mobile-menu"
-    class="z-[30] max-w-50 fixed top-0 left-0 h-[100vh] lg:h-auto translate-x-[-150%] lg:translate-x-0 transition-transform duration-500 shadow-md will-change-transform transform-gpu">
+
+  <div id="mobile-menu" class="mt-[50px] z-[30] max-w-50 fixed top-0 left-0 h-[100vh] lg:h-auto translate-x-[-150%] lg:translate-x-0 transition-transform duration-500 shadow-md will-change-transform transform-gpu">
     <div class="px-2 shadow-lg bg-gradient-to-b from-teal-accent-400 to-teal-accent-700 h-[100vh] font-bold text-gray-200 capitalize text-center">
       <nav class="overflow-y-scroll h-[100vh] pb-16 px-2">
         <ul class="py-2">
@@ -412,7 +411,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://blog.manjaro.org"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               Blog</a>
           </li>
           
@@ -422,7 +421,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://repo.manjaro.org/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               mirrors</a>
           </li>
           
@@ -432,7 +431,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/update-status/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               update status</a>
           </li>
           
@@ -442,7 +441,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/team/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               team</a>
           </li>
           
@@ -452,7 +451,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/volunteer/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               volunteer</a>
           </li>
           
@@ -465,7 +464,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/videos/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               Videos</a>
           </li>
           
@@ -475,7 +474,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://software.manjaro.org"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               software</a>
           </li>
           
@@ -485,7 +484,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://packages.manjaro.org/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               packages</a>
           </li>
           
@@ -498,7 +497,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://forum.manjaro.org"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               forum</a>
           </li>
           
@@ -508,7 +507,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://wiki.manjaro.org"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               wiki</a>
           </li>
           
@@ -518,7 +517,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://docs.manjaro.org"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               docs</a>
           </li>
           
@@ -528,7 +527,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://forum.manjaro.org/c/contributions/tutorials/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               Mini tutorials</a>
           </li>
           
@@ -538,7 +537,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://wiki.manjaro.org/index.php/CheatSheet"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               CheatSheet</a>
           </li>
           
@@ -551,7 +550,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/sponsors/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               sponsors</a>
           </li>
           
@@ -561,7 +560,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/partners/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               partners</a>
           </li>
           
@@ -572,7 +571,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a target="_blank"  href="https://manjaro.myspreadshop.net/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               merchandise</a>
           </li>
           
@@ -581,7 +580,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           <li class="py-2">
             <a  href="https://manjaro.org/hardware/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               hardware</a>
           </li>
           
@@ -589,27 +588,32 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
           
           
           <li class="py-2">
-            <a  href="https://manjaro.org/donate/"
-              class="shadow-inset-blue-gray-900 inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
-              donate</a>
+            <a  href="https://manjaro.org/contact/"
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              Contact</a>
+          </li>
+          
+          
+          
+          
+          <li class="py-2">
+            <a  href="https://manjaro.org/download/"
+              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
+              Download</a>
           </li>
           
           
           
           <li class="py-2">
-            <a href="https://manjaro.org/download/"
-              class="shadow-inset-blue-gray-900 shadow-inset-blue-gray-900 inline-block text-ellipsis whitespace-nowrap py-4 px-6 bg-blue-gray-800 w-full rounded-full">download</a>
-          </li>
-          <li class="py-2">
-            <a href="https://manjaro.org/contact/"
-              class="shadow-inset-blue-gray-900 inline-block text-ellipsis whitespace-nowrap py-4 px-6 bg-blue-gray-800 w-full rounded-full">get in touch</a>
+            <a href="https://manjaro.org/donate/"
+              class="shadow inline-block text-ellipsis whitespace-nowrap py-4 px-6 bg-blue-gray-800 w-full rounded-full">donate</a>
           </li>
         </ul>
       </nav>
     </div>
   </div>
 </div> <!-- mobile menu -->
-<div id="loading" class="bg-blue-gray-900 p-4 z-50 absolute flex flex-wrap flex-col items-center justify-center top-0 left-0 right-0 bottom-0">
+<div id="loading" class="bg-blue-gray-900 p-4 z-50 fixed flex flex-wrap flex-col items-center justify-center top-0 left-0 right-0 bottom-0">
   <img src="/static/img/admin-logo.344b7b87b00e.svg" alt="manjaro logo"  width="150" height="auto">
   <span class="block -ml-10 -mt-24"></span>
 </div>
@@ -640,16 +644,15 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
     <div id="promo" class="flex flex-col gap-10 items-center justify-between lg:flex-row w-full z-[2] relative">
 
       <div class="lg:w-1/2 text-teal-900 font-bold">
-        <h1 class="mb-6 font-extrabold text-[2.2rem] tracking-tight leading-none text-left">
+        <h1 class="mb-6 mt-16 font-extrabold text-[2.2rem] tracking-tight leading-none text-left">
           <span class="uppercase">
             Manjaro empowering devices and users</span>
         </h1>
         <p class="mb-4 text-left font-semibold">
-          Manjaro is a Linux based alternative operating system with no adverts or licensing fees, it respects user privacy and gives them full control over their hardware. It can be used for development, gaming, 3D, office or home and installed on tablets, mobile, desktops, laptops and boards.
+          Manjaro is a free and open source Linux operating system that emphasizes user privacy and control of their hardware. It is user-friendly and suitable for those new to computers, and can be installed on a wide range of devices.. Architectures supported include x86-64 and ARM, making it a great choice for any device or computing environment. Manjaro provides numerous customization options and applications, as well as security and privacy features. It also offers several graphical user interfaces.
         </p>
         <div class="grid gap-5 row-gap-10 mx-auto">
           <div class="flex flex-col justify-center">
-            <h2 class="mb-4 font-bold text-teal-900 uppercase">Features</h2>
             <div class="flex flex-wrap md:gap-4 capitalize">
               <ul class="font-semibold pr-6">
                 <li class="flex p-1 pl-0">
@@ -694,7 +697,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
               </ul>             
             </div>
             <a id="download-btn" href="https://manjaro.org/download/"
-                class="hidden lg:block shadow capitalize lg:mt-4 w-60 text-base px-6 py-4 text-center font-semibold rounded text-teal-500 bg-gray-200">
+                class="hidden mt-6 lg:block shadow capitalize lg:mt-6 w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
                 <i class="fa-solid fa-circle-arrow-down"></i>
                 get manjaro
               </a> 
@@ -704,21 +707,21 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
 
       
       <div class="relative flex flex-col w-full lg:w-2/3 justify-end pb-20 lg:pb-0">
-        <picture class="self-start px-[20%] pb-12">
-          <img alt="device" class="object-contain promo-glow" height="309" src="/media/images/beelink_pgkOzGE.width-420.format-webp.webp" width="419">
+        <picture class="self-start px-[20%] pb-4 lg:pb-6 mx-auto">
+          <img alt="device" class="object-contain promo-glow" height="410" src="/media/images/slimbook.width-420.format-webp.webp" width="415">
         </picture>
         <div>
           <div class="p-5 relative text-gray-200 bg-blue-gray-800 px-4 md:rounded shadow group hover:shadow-2xl">
-            <a id="promo-btn" href="https://www.bee-link.com/beelink-ser5-5600h-manjaro-os-minipc" target="_blank"
+            <a id="promo-btn" href="https://slimbook.es/en/store/titan/titan-2-comprar" target="_blank"
               class="leading-none absolute top-4 right-5 shadow-md text-sm rounded py-2 px-4 capitalize font-bold tracking-wide text-white bg-pink-600 focus:shadow-outline focus:outline-none">
               <i class="fa-solid fa-circle-info"></i>
               details
             </a>
             <h2 class="pb-4 font-bold capitalize"><i class="fa-solid fa-star mr-2 text-amber-600"></i>
-              Beelink SER5
+              Slimbook Titan
             </h2>
             <p class="text-xs">
-              Powerful Performance Gaming Mini PC with Ryzen 5 and Manjaro pre-installed
+              The Slimbook Titan is a high-performance laptop designed for power users and professionals. Equipped with the latest processors, high-end graphics cards, and fast storage, this laptop delivers exceptional performance for demanding tasks. Its sleek and modern design makes it a stylish choice for anyone in need of a powerful laptop.
             </p>
           </div>
         </div>
@@ -760,17 +763,15 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
     </svg>
   </div>
 
-  <div class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
-    <div class="w-full flex items-center justify-center text-2xl text-teal-900">
-      <div class="flex items-center justify-center w-16 h-16 mb-6 mt-4 rounded-full bg-yellow-accent-700">
-        <i class="fa-solid fa-list-check"></i>
-      </div>
-    </div>
+  <div id="manjaro" class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
     <h3
-      class="w-full bg-clip-text uppercase mb-6 font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="w-full uppercase mb-6 lg:mt-24 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
+        <i class="fa-solid fa-list-check"></i>
+      </span>
       Do any task in Manjaro
     </h3>
-    <div id="manjaro" class="flex flex-col gap-4 lg:flex-row">
+    <div class="flex flex-col gap-4 lg:flex-row">
       <div class="mx-auto w-full lg:max-w-screen-xl md:px-4">
         <div class="relative grid gap-4 lg:grid-cols-2 text-gray-800">
           <div 
@@ -923,7 +924,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
   </a>
 </div>
 
-<div id="software" class="h-full xl:h-[100vh] bg-cover relative z-0 pb-10 lg:pb-0">
+<div id="software" class="h-full xl:min-h-[100vh] bg-cover relative z-0 pb-10 lg:pb-0">
   <div class="bg-teal-accent-400 absolute h-full w-full z-[-1]">
     <div class="w-full justify-center lg:flex relative">
       <img src="/static/img/green-woble.3e5970c0cd4b.svg" alt="wobble"
@@ -944,15 +945,13 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
     </div>
 
   </div>
-  <div class="text-teal-900 px-4 relative flex justify-center flex-col lg:min-h-screen mx-auto w-full max-w-screen-xl">
-    <div class="w-full flex items-center justify-center">
-      <div class="flex items-center justify-center w-16 h-16 mt-4 mb-6 rounded-full bg-yellow-accent-700 text-3xl">
-        <i class="fa-brands fa-linux"></i>
-      </div>
-    </div>
+  <div class="text-teal-900 px-4 relative flex flex-col lg:min-h-screen mx-auto w-full max-w-screen-xl">
     <h3
-      class="w-full bg-clip-text uppercase mb-4 font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
-      manjaro linux software
+      class="w-full uppercase mb-4 lg:mt-24 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
+        <i class="fa-brands fa-linux"></i>
+      </span>
+      additional software
     </h3>
     <div class="flex items-center justify-center ">
       
@@ -972,27 +971,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
             </a>
             <p
               class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              manjaro running in the cloud with Shells on any device, from anywhere in the world, featuring secure end-to-end encryption and backups.
-            </p>
-          </div>
-        </div>
-        
-        
-        
-        <div class="overflow-hidden max-w-full md:max-w-sm">
-          
-          <img src="/media/images/boxes_SoftmakerOFFICE.width-380.format-webp.webp" class="object-contain w-full h-64" width="380" height="auto" alt="Softmaker Office" />
-          <div class="w-full text-center">
-            <a target="_blank" href="https://softmaker.com/go/manjaro"
-              class="inline-block mb-3 link-decor link-decor-xl relative">
-              <h4 class="inline-block mb-3 pb-2 capitalize text-2xl font-bold leading-5 text-center">
-                <i class="fa fa-link text-sm align-bottom mr-2"></i>
-                Softmaker Office
-              </h4>
-            </a>
-            <p
-              class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              Softmaker Office lets you create spreadsheets and presentations using the Microsoft formats DOCX, XLSX and PPTX as its default file formats, this lets you edit your documents in Microsoft Office directly and without conversion.
+              Introducing Shells, the revolutionary new cloud-based service running Manjaro. With Shells, you can access your applications and files from any device and location around the world, with secure end-to-end encryption and backups. Shells makes taking your work on the go easy and secure, so you don&#x27;t have to worry about getting left behind. Plus, Shells is fast, reliable, and affordable, so you never have to worry about downtime. Start your Shells experience today and enjoy the freedom and security of cloud-based computing!
             </p>
           </div>
         </div>
@@ -1012,7 +991,27 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
             </a>
             <p
               class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              Protect your personal data, keep yourself and your loved ones safe with a single subscription covering an unlimited number of devices.
+              Surfshark is the ultimate protection tool for your personal data. With a single subscription, you can keep yourself and your loved ones safe on an unlimited number of devices. Surfshark uses Virtual Private Network (VPN) technology to encrypt your data, ensuring you are secure and private at all times. VPN also allows you to access content from overseas. Surfshark is easy to use and provides the peace of mind you need to know you and your family are safe online. With Surfshark you can protect your data, access all the content you need, and remain secure and private
+            </p>
+          </div>
+        </div>
+        
+        
+        
+        <div class="overflow-hidden max-w-full md:max-w-sm">
+          
+          <img src="/media/images/boxes_SoftmakerOFFICE.width-380.format-webp.webp" class="object-contain w-full h-64" width="380" height="auto" alt="Softmaker Office" />
+          <div class="w-full text-center">
+            <a target="_blank" href="https://softmaker.com/go/manjaro"
+              class="inline-block mb-3 link-decor link-decor-xl relative">
+              <h4 class="inline-block mb-3 pb-2 capitalize text-2xl font-bold leading-5 text-center">
+                <i class="fa fa-link text-sm align-bottom mr-2"></i>
+                Softmaker Office
+              </h4>
+            </a>
+            <p
+              class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
+              Softmaker Office is the perfect solution for you if you&#x27;re looking for a reliable yet affordable software package. It offers all the features of an industry-leading office suite, including powerful document, spreadsheet, and presentation editing. You have access to all the features you&#x27;d expect to find in a professional office suite, including advanced formatting, charting and illustration features. Plus, you create spreadsheets and presentations using the Microsoft formats DOCX, XLSX and PPTX as its default file formats, meaning you can edit your documents in Softmaker Office directly and without conversion.
             </p>
           </div>
         </div>
@@ -1056,23 +1055,21 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
   <div class="relative flex flex-col items-center justify-center px-4 mx-auto w-full lg:max-w-screen-xl">
     <div class="flex flex-col justify-center">
       <div class="text-gray-200">
-        <div class="w-full flex items-center justify-center">
-          <div class="flex items-center justify-center w-16 h-16 mb-6 mt-4 rounded-full bg-yellow-accent-700">
-            <svg class="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
-              <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                points=" 8,5 8,1 16,1 16,5" stroke-linejoin="round"></polyline>
-              <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                points="9,15 1,15 1,5 23,5 23,15 15,15" stroke-linejoin="round"></polyline>
-              <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                points="22,18 22,23 2,23 2,18" stroke-linejoin="round"></polyline>
-              <rect x="9" y="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-miterlimit="10" width="6" height="4" stroke-linejoin="round"></rect>
-            </svg>
-          </div>
-        </div>
         <h3
-          class="text-center w-full uppercase mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none max-w-lg mx-auto">
-          Let us handle your OS integration, partner with us
+          class="w-full uppercase mb-6 lg:mt-24 flex justify-center items-center font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+            <div class="flex text-xl items-center justify-center w-12 h-12 rounded-full bg-yellow-accent-700 mr-2">
+              <svg class="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
+                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                  points=" 8,5 8,1 16,1 16,5" stroke-linejoin="round"></polyline>
+                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                  points="9,15 1,15 1,5 23,5 23,15 15,15" stroke-linejoin="round"></polyline>
+                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                  points="22,18 22,23 2,23 2,18" stroke-linejoin="round"></polyline>
+                <rect x="9" y="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-miterlimit="10" width="6" height="4" stroke-linejoin="round"></rect>
+              </svg>
+            </div>
+          Collaborate with us on OS integration.
         </h3>
         <div
           class="relative grid md:gap-4 grid-cols-1 md:grid-cols-2 text-gray-800">
@@ -1085,7 +1082,7 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
             <div class="p-5">
               <p class="mb-2 font-bold capitalize"><i class="fa-solid fa-microchip mr-4 text-teal-400"></i>Manjaro on devices</p>
               <p class="text-sm leading-5 pb-8 lg:pb-0">
-                We are on a mission to get the popular Manjaro Linux to the masses and get it working on your hardware straight out of the box. Our partners are already benefiting from what open source software has to offer, it is reliable, cost effective and has better security by default. </p>
+                Our ambition is to make Manjaro Linux available to everyone and guarantee it runs smoothly on their device right after installation. We strive to make sure that everyone can enjoy the latest and greatest features of Manjaro Linux. Our partners are taking full advantage of open-source software which is reliable, budget-friendly, and has an elevated level of security by default. The open-source nature of Manjaro Linux also allows for customization to suit the needs of any user. Having Manjaro as an OEM product opens a new market for hardware products and improves hardware support directly from manufacturers. This makes Manjaro an attractive choice for manufacturers looking to provide a reliable operating system that can be tailored to their needs. Furthermore, users can benefit from improved timely stable updates as well as the peace of mind that comes with knowing their devices are running a secure, reliable operating system. </p>
             </div>
           </div>
         </div>
@@ -1123,16 +1120,26 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
     </div>
   </div>
   <div class="text-gray-200 px-4 w-full lg:max-w-screen-xl mx-auto">
-    <div class="w-full flex items-center justify-center text-teal-900">
-      <div class="flex items-center justify-center w-16 h-16 mt-4 mb-6 rounded-full bg-yellow-accent-700 text-3xl">
-        <i class="fa-solid fa-blog"></i>
-      </div>
-    </div>
     <h3
-      class="text-teal-900 w-full bg-clip-text uppercase mb-4 font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="text-teal-900 w-full uppercase mb-4 lg:mt-24 flex justify-center items-center font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
+        <i class="fa-solid fa-blog"></i>
+      </span>
       Latest Posts
     </h3>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 mb-4 lg:mb-12">
+    
+    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
+      <a href="https://blog.manjaro.org/fosdem-2023/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
+            
+            <img src="/media/images/FoMkaGaWQAAt2YU.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
+            alt="image" />
+          <div class="p-4 text-sm">
+            <h4 class="font-bold leading-5 mb-2 text-base">FOSDEM 2023</h4>
+            <p data-block-key="rpyy4">Fosdem 2023 was a great experience.</p>
+        </div>
+      </a>
+    </div>
     
     <div class="text-gray-200 flex flex-wrap justify-center mb-8">
       <a href="https://blog.manjaro.org/new-manjaro-search-engine-is-available/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
@@ -1158,18 +1165,6 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
       </a>
     </div>
     
-    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
-      <a href="https://blog.manjaro.org/november-2022-in-manjaro-arm/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
-            
-            <img src="/media/images/november_2022_blog.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
-            alt="image" />
-          <div class="p-4 text-sm">
-            <h4 class="font-bold leading-5 mb-2 text-base">November 2022 in Manjaro ARM</h4>
-            <p data-block-key="1y8nl">* Slow updates from Arch Linux ARM</p><p data-block-key="c675h">* Plasma Mobile Beta 13 released</p><p data-block-key="23rfq">* Pinebook Pro images will be back</p>
-        </div>
-      </a>
-    </div>
-    
   </div>
   </div>
 </div>
@@ -1185,10 +1180,10 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
 
 
 
-<footer id="footer" class="text-sm text-gray-200 bg-blue-gray-900 font-bold px-4">
+<footer id="footer" class="text-sm text-gray-200 font-bold bg-blue-gray-900 z-10 relative">
   <div class="w-full justify-center lg:flex relative">
     <img src="/static/img/darker-woble.0ac171200dd6.svg" alt="wobble"
-      class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl">
+      class="absolute top-[-24px] w-full h-16 py-4 sm:max-w-screen-lg lg:max-w-screen-xl">
   </div>
     <div class="flex relative gap-0 flex-wrap lg:flex-nowrap max-w-screen-xl mx-auto py-4 z-1">
       <div class="w-full md:1/2 lg:w-1/3">
@@ -1386,16 +1381,18 @@ Manjaro is a Linux based distribution that can be installed as a alternative ope
         
       </div>
     </div>
-    <div class="mx-auto max-w-screen-xl h-[28px] pb-36 lg:pb-0">
-      <span class="float-left text-blue-gray-200">
+    <div class="p-4 md:p-8">
+      <div class="text-blue-gray-200 mb-4 md:mb-0 md:float-left">
         © Copyright 2023 Manjaro GmbH & Co KG All rights reserved.
-      </span>
-      <a rel="nofollow" href="/admin/" aria-label="Log in"
-        class="link-decor link-decor-ft float-right relative z-0">log in</a>
+      </div>
+      <div class="text-right w-full md:w-auto md:float-right">
+        <a rel="nofollow" href="/admin/" aria-label="Log in"
+        class="link-decor link-decor-ft relative z-0">log in</a>
+      </div>
     </div>
 </footer>
 
-        <script async type="text/javascript" src="/static/js/manjaro.b5524dae53ce.js"></script>
+        <script async type="text/javascript" src="/static/js/manjaro.b877af3fd070.js"></script>
 
         
 <script>

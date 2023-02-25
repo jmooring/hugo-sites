@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 27 Jan 2023 18:34:43 GMT
-Etag: "7149fbd81c07afa343418a66f0212b39-ssl-df"
+Date: Sat, 25 Feb 2023 00:34:36 GMT
+Etag: "975366df0a08fde8ef4248f422d6dc49-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=AD8FAD44A1F7BBE8C6CA503D383B5221~000000000000000000000000000000~YAAQpBI2F/9e9fCFAQAA8K6C9BLtQH8N2B0v92OerImyC95Akfh9ikdRlx+ItgRnkPM6h8lU/kFKH8UCG33nvA1fFTXg3iu1i++9azW0wteiuHzX+YXK+sFSNa6bqH+vzO3yRm0PAMp9ia140lHrg0xzr/gQYCzPIQrx4ilKvzi48iGB3x6uuq7i+07rZVlPE14XvtnOQUsF3fg0MXyeutpNTiJH4TAt+J1eqgWJcSICmPvDfS4MyX9Xlb36oJJWB/2qeQ1G+eUJhPGaBZKNftS98aj2Hc13MQf+va4GvNf4Dj1ycQlUGRSy7cOjvE561tduSZtqgorP/EtGTOoEiadDjA+LdTqJ1WCGD6SGk76a4BhcKg4z7wkX0uKbWn0HalcMscV7sM+e; Domain=.vmware.com; Path=/; Expires=Fri, 27 Jan 2023 20:34:42 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=ECEE0F46F777D6817E29154073DFAB8A~YAAQpBI2FwBf9fCFAQAA8K6C9BLQG3UO8o0UTOi9m8p5b8LrcIO69/ezifRk8pOxXLWL/3/ykDYcigH7bAYsvk3GqFyRfq36knAyTlhDQgPlF8qliBjZbHcaw+m+zO2GBMg+rkeYz8plIEEyp8AlSNS8C6usiwy0OlotOV8dSi5JDwHCpvqsflevd4NmPzAU2BD8ZOf9fJCn7Rtou9Kl2jeAJVa9K94x/qr7doXl2nsVgnyxZRTcO3FxRq9z3vGNWVWduKYCLxoiM2OHFIcnhX5ncp/sd7cV1LvhMFd+440DMmbKXGeUc3I4lKWO+O5Z5kWLngJNfw==~1; Domain=.vmware.com; Path=/; Expires=Fri, 27 Jan 2023 18:34:43 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=FF3D59B67C6EDFC86F7DDDF088ED32ED~000000000000000000000000000000~YAAQHSI1F3ZKyX2GAQAAnDn+hRLNwvnDj9D1lNTJVBO/S9KP/6DmUCwZdr7cF067xaLoVIs8oOxIlgztidczu2PP39LppHf50EBuxQ9QdGj8TLvb0FN2naTnVtrnr9dkyVT5B4SumJsw3F29aDs8O9SWTex+YcJ/EIt0FUwkFS3v1ulGQXwcv+scDcD06kJYt2TzWBdWLmXJoyt4iGnswYGRU6P9272mKC7ak59O4z6TApPAJiAhzOX2+Q/Zwrs0X1R8H+RBkK4Q+/4uUkgcwSfkmlVsHLpDAM7xbTWWnOKwV1ya2IHAP9yplwlIYdcd1ltJSCd00EjDRJv7TMO+A8JLTHQ/nY22pUO4neWx57RixGiSRMYG0ud2RuOybH1pib00nFWkTiL9; Domain=.vmware.com; Path=/; Expires=Sat, 25 Feb 2023 02:34:35 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=FA0985694A26C2701B001483D41101B1~YAAQHSI1F3dKyX2GAQAAnDn+hRIxBurPSxDkgjyMsqiTsR4mfsLMV196eV6PZCp6gGt2r9fp6gqMDfh7RUteIykPdJbCd3AVzauvj3YFSyjEwXqjyNd45IGkCIJGFkl7PMUaKlEL/Dxkju9UR/sd0cwmCQkOqLdKzm4kL8zbWDiyDSdSz9NU9dunuaMnvfAt1z2f9KEZn37vZtjZggbDzRlvRK+cMVlufDkyuvkV5fx9HRxjjyXQcwosDssm7rLg75GN7PDhGcfTr05FKY+AR5S8DwtavGmv1fcZX0SI51O8hhLiBGbs2MuiENG123IJ04ZO6UOTWQ==~1; Domain=.vmware.com; Path=/; Expires=Sat, 25 Feb 2023 00:34:36 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 12817 0 pmb=mTOE,2
-X-Nf-Request-Id: 01GQT85BNT6KGH8PP2726RDAD6
+X-Akamai-Transformed: 9 12758 0 pmb=mTOE,2
+X-Nf-Request-Id: 01GT2ZWE9TCEDMY5FVRTQCKWKJ
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,7 +48,7 @@ if (document.cookie.indexOf('OptanonConsent') > -1 && document.cookie.indexOf('g
 Sentry.init({
   dsn: "https://91138cf7f17842fd8a57d45372bf538c@o448817.ingest.sentry.io/5712977",
   integrations: [new Sentry.Integrations.BrowserTracing()],
-  release: '7c1d2f97520361f6656e98a089592b5a13aaf7c1',
+  release: '0908e023daa5ee79ec42400037e9fb2dfe18240a',
   environment: 'production',
   
   
@@ -177,6 +177,18 @@ function isTvShowLive(showName) {
     episodes.push(epInfo);
   
     var epInfo = {
+      startTime: new Date("2023-03-09T08:00:00-08:00"),
+      endTime: new Date(new Date("2023-03-09T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/35\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2023-03-07T11:00:00-08:00"),
       endTime: new Date(new Date("2023-03-07T11:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
@@ -193,6 +205,18 @@ function isTvShowLive(showName) {
       endTime: new Date(new Date("2023-03-02T11:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
       link: "\/developer\/tv\/golden-path\/10\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-03-02T08:00:00-08:00"),
+      endTime: new Date(new Date("2023-03-02T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/34\/"
     };
 
     
@@ -225,6 +249,30 @@ function isTvShowLive(showName) {
     episodes.push(epInfo);
   
     var epInfo = {
+      startTime: new Date("2023-02-23T08:00:00-08:00"),
+      endTime: new Date(new Date("2023-02-23T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/33\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-02-21T12:30:00-07:00"),
+      endTime: new Date(new Date("2023-02-21T12:30:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Spring Office Hours",
+      link: "\/developer\/tv\/spring-office-hours\/0030\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2023-02-21T11:00:00-08:00"),
       endTime: new Date(new Date("2023-02-21T11:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
@@ -233,90 +281,6 @@ function isTvShowLive(showName) {
 
     
     epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-14T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-14T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/5\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-09T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-09T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/4\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-09T08:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-09T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/31\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-07T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-07T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/3\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-02T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-02T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/2\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-01-31T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-01-31T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/1\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-01-24T08:45:00Z"),
-      endTime: new Date(new Date("2023-01-24T08:45:00Z").getTime() + ( 120  * 60000)),
-      show: "Tanzu Talk",
-      link: "\/developer\/tv\/talk\/172\/"
-    };
-
-    
-    epInfo["stream"] = "6h01xxh96-Y";
     
     episodes.push(epInfo);
   
@@ -485,11 +449,11 @@ function getCookie(name) {
 
 
 
-<link rel="preload" href="/developer/css/main.min.7cfd35fc0b13361802d5a4b7a234d48e2b16f53fdacedba0283f46407f4489fc.css" as="style">
+<link rel="preload" href="/developer/css/main.min.1bc358be338245d69f159e03c0f394413da667242914ef9d99d7bac0df2b9b79.css" as="style">
 <link rel="preload" href="/developer/css/custom.min.4fe73e4cebf2951aa671a296d46ef6b901716d868e35965504b40d759d66f9a4.css" as="style">
 <link rel="preload" href="/developer/css/light-theme.min.e52330a3cb9d6d0825dceca514857ccd3afe235f1be2c1ce2c232c8acfb79f16.css" as="style">
 <link href="/developer/css/custom.min.4fe73e4cebf2951aa671a296d46ef6b901716d868e35965504b40d759d66f9a4.css" rel="stylesheet" integrity="">
-<link href="/developer/css/main.min.7cfd35fc0b13361802d5a4b7a234d48e2b16f53fdacedba0283f46407f4489fc.css" rel="stylesheet" integrity="">
+<link href="/developer/css/main.min.1bc358be338245d69f159e03c0f394413da667242914ef9d99d7bac0df2b9b79.css" rel="stylesheet" integrity="">
 
 
 <script>
@@ -526,7 +490,7 @@ function changeTheme(mode, firstLoad) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="279441451"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/10a7f01d"  defer></script></head>
+  <script >bazadebezolkohpepadr="863758298"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337be4b3"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -1498,5 +1462,5 @@ function changeTheme(mode, firstLoad) {
 
 <script src="/developer/js/main.2f851494a853f5a2aa4b144ee7fce526cd77f377c2abe3f907333c32dff604bb.js" integrity="sha256-L4UUlKhT9aKqSxRO5/zlJs1383fCq&#43;P5BzM8Mt/2BLs=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_10a7f01d?a=dD03YTk4NzgwMzM0NTk0NWY2MzdmNmIxZDcyZTU2MWJmZTYzZTdjNzhmJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337be4b3?a=dD05NmIyODkwZTlmNGZiNGQwMDE0ZmVmMmNmNjM0NzM0YTM4ODc3YzA4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

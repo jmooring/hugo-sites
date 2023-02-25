@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Fri, 27 Jan 2023 18:34:39 GMT
-Etag: "5129-5f2de388a868c-gzip"
-Last-Modified: Sun, 22 Jan 2023 18:12:08 GMT
+Date: Sat, 25 Feb 2023 00:34:30 GMT
+Etag: "608a-5f53c08e43cd8-gzip"
+Last-Modified: Tue, 21 Feb 2023 20:57:59 GMT
 Server: Apache
 Vary: Accept-Encoding,User-Agent
 
@@ -13,7 +13,7 @@ Vary: Accept-Encoding,User-Agent
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover"> 
-    <meta name="generator" content="Hugo 0.109.0">
+    <meta name="generator" content="Hugo 0.110.0">
   
     
     <meta name="robots" content="index, follow, archive">
@@ -21,15 +21,17 @@ Vary: Accept-Encoding,User-Agent
     <meta name="google-site-verification" content="PQWzsanPpUNRGqPwYiEtN_9NoNkDJ4EbDIN2pxezqHM" />
     
     
-      <title>Hugo, Webdesign, CSS/SCSS, SEO, Tools - tekki-tipps.de</title>
       
-      <meta name="description" content="Blog über Hugo, Webdesign, CSS/SCSS, SEO, Tools, ...">
+      <title>Blog über Hugo, Webdesign, CSS/SCSS, SEO, Tools - tekki-tipps.de 🇩🇪</title>
+      
+      <meta name="description" content="Blog über Hugo, Webdesign, CSS/SCSS, SEO, Tools">
       
     
   
     
     
-    <link rel="alternate" hreflang="en" href="https://tekki-tipps.de/en/" title="English">
+    <link rel="alternate" hreflang="en" href="https://tekki-tipps.de/en/">
+    <link rel="alternate" type="application/rss&#43;xml" href="https://tekki-tipps.de/index.xml" title="tekki-tipps.de 🇩🇪" />
     
     
     
@@ -45,10 +47,9 @@ Vary: Accept-Encoding,User-Agent
     
     <link rel="canonical" href="https://tekki-tipps.de/">
 
-  
     
     
-    <link rel="stylesheet" href="https://tekki-tipps.de/style.888c27e84272c90d39f961d28a7405953a95d81e3971071dcf92912e0eb56307.css">
+    <link rel="stylesheet" href="https://tekki-tipps.de/style.aef434607b6bb4ba969bcf220e59bcb801fb47a7c5951887f1fd3e0dfea7367b.css">
   
     <style type="text/css">.fouc {background-color: black;display: none;}</style>
   
@@ -56,7 +57,7 @@ Vary: Accept-Encoding,User-Agent
     
     
     
-    <script src="https://tekki-tipps.de/bundle.min.eb13d6377716a0c5b982af457a21fa4aff2b3dcec385c9a697255db8758abfd3.js"></script>
+    <script src="https://tekki-tipps.de/bundle.min.8dba913fa11e541dd5897ef6a582d9247492ba12310e182d41b167f65bf01352.js"></script>
   
     
     <script type="text/javascript">
@@ -91,6 +92,14 @@ Vary: Accept-Encoding,User-Agent
 			
 			<a href='./' id="logo"><img src=https://tekki-tipps.de/img/tt-logo.png class="ttlogo" alt="tekki-tipps Logo" /><span>tekki-tipps.de</span></a>
 			<ul class="util-nav">
+				<li id="rss-header" title="RSS">
+					<a href='./rss-info' class="rss-infolink">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16">
+							<path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+							<path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"/>
+						</svg>
+					</a>
+				</li>
 				<li id="theme-toggle" title="Theme Switcher" onclick="toggleTheme()">
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
 						<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
@@ -98,20 +107,19 @@ Vary: Accept-Encoding,User-Agent
 				</li>
 			</ul>
 			<ul class="i18n">
+			
 				
-					
+				
+				
 						
-						
-					<li><a title="English" href="https://tekki-tipps.de/en/"><img id="trans-flag" src=https://tekki-tipps.de/img/flag-great-britain.png alt="Flag Great Britain" /></a></li>
-						
+						<li><a title="English" href="./en/"><img id="trans-flag" src=https://tekki-tipps.de/img/flag-great-britain.png alt="Flag Great Britain" /></a></li>
 					
 				
+			
 			</ul>
 		</div>
 	</div>
 </header>
-
-
     <nav id="navigation-bar">
 	<div class="container">
 		<div class="navbutton">
@@ -178,6 +186,7 @@ Vary: Accept-Encoding,User-Agent
 			</li>			
 			
 	</ul>
+	<a href='./rss-info'>RSS-Feed Info</a>
 </div>
     <div id="content">
       <div class="content-header">
@@ -185,6 +194,263 @@ Vary: Accept-Encoding,User-Agent
 		<h1>Ein Blog über Hugo, Webdesign, CSS/SCSS, ..</h1>
 		<p>Tipps und Tricks rund um den statischen Webseitengenerator Hugo.</p>	
 	</div>
+</div><div class="blog-content">
+	<article class="container">
+		<div class="blogteaser-content-block-1">
+      <div class="sub-title">i18n - Teil 3 von 3 aufeinander aufbauenden Anleitungen für das Erstellen einer Hugo multilingualen Website.</div>
+      <a href="./hugo-i18n-howto-teil-3/"><h2>Hugo - Anleitung Teil 3 - i18n multilinguale Site erstellen</h2></a>
+		</div>
+		<div class="img-teaser-big">
+			<a href="./hugo-i18n-howto-teil-3/">
+			
+				<img src="./hugo-i18n-howto-teil-3/img/hugo-i18n-howto-3-big-teaser.jpg" class="img-articleteaserbigimg" alt="Part 3 Hugo i18n HowTo">
+			
+			</a>
+		</div>
+		<div class="blogteaser-content-block-2">
+			<a href="./hugo-i18n-howto-teil-3/">
+			
+				<img src="./hugo-i18n-howto-teil-3/img/hugo-i18n-howto-3-teaser.jpg" class="img-articleteaserimg" alt="Part 3 Hugo i18n HowTo">
+			
+			</a>
+      <a href="./hugo-i18n-howto-teil-3/"><p>i18n - Teil 3 von 3 Anleitungen für das Erstellen einer Hugo multilingualen Website. Mit den folgenden Themen: Die T (Translate) Funktion von Hugo, das Umschalten der Sprache auf der Website inkl. Sourcecode und SCSS, Hugo Probleme mit multilingualen Tags, Tag Wolke als Themenübersicht, Tag Beitragsliste inkl. Sourcecode und SCSS, interne Verlinkung.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</div>
+			</a>
+			<div class="date-and-comment">
+				<div class="date">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+					</svg>
+					
+
+
+
+
+	
+	
+
+
+	
+	<time datetime="2023-02-21">21.02.2023</time>
+
+				</div>
+				<div class="tag-links">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg>
+
+					
+            <a href="./tags/hugo/">#hugo</a>
+          
+            <a href="./tags/multilingual/">#multilingual</a>
+          
+            <a href="./tags/webdesign/">#webdesign</a>
+          
+
+				</div>
+			</div>
+    </div>
+  </article>
+</div><div class="blog-content">
+	<article class="container">
+		<div class="blogteaser-content-block-1">
+      <div class="sub-title">i18n - Teil 2 von 3 aufeinander aufbauenden Anleitungen für das Erstellen einer Hugo multilingualen Website.</div>
+      <a href="./hugo-i18n-howto-teil-2/"><h2>Hugo - Anleitung Teil 2 - i18n multilinguale Site erstellen</h2></a>
+		</div>
+		<div class="img-teaser-big">
+			<a href="./hugo-i18n-howto-teil-2/">
+			
+				<img src="./hugo-i18n-howto-teil-2/img/hugo-i18n-howto-2-big-teaser.jpg" class="img-articleteaserbigimg" alt="Part 2 Hugo i18n HowTo">
+			
+			</a>
+		</div>
+		<div class="blogteaser-content-block-2">
+			<a href="./hugo-i18n-howto-teil-2/">
+			
+				<img src="./hugo-i18n-howto-teil-2/img/hugo-i18n-howto-2-teaser.jpg" class="img-articleteaserimg" alt="Part 2 Hugo i18n HowTo">
+			
+			</a>
+      <a href="./hugo-i18n-howto-teil-2/"><p>i18n - Teil 2 von 3 Anleitungen für das Erstellen einer Hugo multilingualen Website. Der zweite Teil geht in die Tiefe der Theme-Entwicklung und zeigt die Programmierung der multilingualen Website. Mit den folgenden Themen: Einträge im html und head Tag der baseof.html und Menüstruktur in der hugo.toml, inklusiv der Navigation Partials nav.html und sidepanel.html.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</div>
+			</a>
+			<div class="date-and-comment">
+				<div class="date">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+					</svg>
+					
+
+
+
+
+	
+	
+
+
+
+	
+	<strong>Update:</strong>&nbsp;<time datetime="2023-02-16">16.02.2023</time>
+
+				</div>
+				<div class="tag-links">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg>
+
+					
+            <a href="./tags/hugo/">#hugo</a>
+          
+            <a href="./tags/multilingual/">#multilingual</a>
+          
+            <a href="./tags/seo/">#seo</a>
+          
+            <a href="./tags/webdesign/">#webdesign</a>
+          
+
+				</div>
+			</div>
+    </div>
+  </article>
+</div><div class="blog-content">
+	<article class="container">
+		<div class="blogteaser-content-block-1">
+      <div class="sub-title">i18n - Teil 1 von 3 aufeinander aufbauenden Anleitungen für das Erstellen einer Hugo multilingualen Website.</div>
+      <a href="./hugo-i18n-howto-teil-1/"><h2>Hugo - Anleitung Teil 1 - i18n multilinguale Site erstellen</h2></a>
+		</div>
+		<div class="img-teaser-big">
+			<a href="./hugo-i18n-howto-teil-1/">
+			
+				<img src="./hugo-i18n-howto-teil-1/img/hugo-i18n-howto-1-big-teaser.jpg" class="img-articleteaserbigimg" alt="Part 1 Hugo i18n HowTo">
+			
+			</a>
+		</div>
+		<div class="blogteaser-content-block-2">
+			<a href="./hugo-i18n-howto-teil-1/">
+			
+				<img src="./hugo-i18n-howto-teil-1/img/hugo-i18n-howto-1-teaser.jpg" class="img-articleteaserimg" alt="Part 1 Hugo i18n HowTo">
+			
+			</a>
+      <a href="./hugo-i18n-howto-teil-1/"><p>Teil 1 von 3 Anleitungen für das Erstellen einer Hugo multilingualen Website. Es gibt immer mehrere Wege um etwas zu realisieren. In diesen Anleitungen beschreibe ich meinen Weg.<br>
+Die Themen im Teil 1 sind - hugo.toml allgemein, Page Bundle Struktur der Webseiten und Front Matter Einträge in den Markdown Dateien.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</div>
+			</a>
+			<div class="date-and-comment">
+				<div class="date">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+					</svg>
+					
+
+
+
+
+	
+	
+
+
+
+	
+	<strong>Update:</strong>&nbsp;<time datetime="2023-02-11">11.02.2023</time>
+
+				</div>
+				<div class="tag-links">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg>
+
+					
+            <a href="./tags/front-matter/">#front matter</a>
+          
+            <a href="./tags/hugo/">#hugo</a>
+          
+            <a href="./tags/multilingual/">#multilingual</a>
+          
+            <a href="./tags/webdesign/">#webdesign</a>
+          
+
+				</div>
+			</div>
+    </div>
+  </article>
+</div><div class="blog-content">
+	<article class="container">
+		<div class="blogteaser-content-block-1">
+      <div class="sub-title">In der Markdown Datei Bilder per Shortcodes aus dem Page Bundle einbinden.</div>
+      <a href="./hugo-page-bundles-images/"><h2>Hugo - Page Bundle Shortcodes für Bilder</h2></a>
+		</div>
+		<div class="img-teaser-big">
+			<a href="./hugo-page-bundles-images/">
+			
+				<img src="./hugo-page-bundles-images/img/pagebundle-img-big-teaser.jpg" class="img-articleteaserbigimg" alt="Page Bundles images">
+			
+			</a>
+		</div>
+		<div class="blogteaser-content-block-2">
+			<a href="./hugo-page-bundles-images/">
+			
+				<img src="./hugo-page-bundles-images/img/pagebundle-img-teaser.jpg" class="img-articleteaserimg" alt="Page Bundles images">
+			
+			</a>
+      <a href="./hugo-page-bundles-images/"><p>In diesem Beitrag beschreibe ich wie Bilder des Page Bundle im Front Matter der Markdown Datei deklariert werden. Da mir die Markdown Möglichkeiten der Bildausgabe nicht ausreichen, habe ich zwei Shortcodes mit mehr Möglichkeiten ( Größe, Positionierung, Caption) programmiert.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</div>
+			</a>
+			<div class="date-and-comment">
+				<div class="date">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+					</svg>
+					
+
+
+
+
+	
+	
+
+
+	
+	<time datetime="2023-01-30">30.01.2023</time>
+
+				</div>
+				<div class="tag-links">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg>
+
+					
+            <a href="./tags/bilder/">#bilder</a>
+          
+            <a href="./tags/css-scss/">#CSS SCSS</a>
+          
+            <a href="./tags/front-matter/">#front matter</a>
+          
+            <a href="./tags/hugo/">#hugo</a>
+          
+            <a href="./tags/shortcodes/">#shortcodes</a>
+          
+            <a href="./tags/webdesign/">#webdesign</a>
+          
+
+				</div>
+			</div>
+    </div>
+  </article>
 </div><div class="blog-content">
 	<article class="container">
 		<div class="blogteaser-content-block-1">
@@ -204,7 +470,7 @@ Vary: Accept-Encoding,User-Agent
 				<img src="./hugo-lastmod-i18n-anpassen/img/adjust-date-teaser.jpg" class="img-articleteaserimg" alt="Adapt date country-specific i18n">
 			
 			</a>
-      <a href="./hugo-lastmod-i18n-anpassen/"><p>Wenn das Erstellungsdatum (date) und Änderungsdatum (lastmod - last modifikation) auf der Webseite angezeigt wird, sollte die Anzeige je nach Sprache länderspezifisch angepasst werden. In dem nachfolgenden Hugo Partial zeige ich wie es auf meinen Webseiten eingesetzt wird.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+      <a href="./hugo-lastmod-i18n-anpassen/"><p>Wenn das Erstellungsdatum (date) oder Änderungsdatum (lastmod - last modifikation) auf der Webseite angezeigt wird, sollte die Anzeige je nach Sprache länderspezifisch angepasst werden. In dem nachfolgenden Hugo Partial zeige ich wie es auf meinen Webseiten eingesetzt wird.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
 						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
 					</svg>
 				</div>
@@ -215,15 +481,18 @@ Vary: Accept-Encoding,User-Agent
 						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
 						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
 					</svg>
-					<time datetime='2023-01-18'>
-	18.01.2023
-</time>
+					
+
 
 
 
 	
+	
 
 
+
+	
+	<strong>Update:</strong>&nbsp;<time datetime="2023-01-30">30.01.2023</time>
 
 				</div>
 				<div class="tag-links">
@@ -238,191 +507,6 @@ Vary: Accept-Encoding,User-Agent
             <a href="./tags/hugo/">#hugo</a>
           
             <a href="./tags/multilingual/">#multilingual</a>
-          
-
-				</div>
-			</div>
-    </div>
-  </article>
-</div><div class="blog-content">
-	<article class="container">
-		<div class="blogteaser-content-block-1">
-      <div class="sub-title">i18n - Die Sprache der aktuellen Webseite für ein if/else ermitteln.</div>
-      <a href="./hugo-sprache-webseite-feststellen/"><h2>Hugo - Multilingual - Sprache der Webseite feststellen</h2></a>
-		</div>
-		<div class="img-teaser-big">
-			<a href="./hugo-sprache-webseite-feststellen/">
-			
-				<img src="./hugo-sprache-webseite-feststellen/img/german-or-english-big-teaser.jpg" class="img-articleteaserbigimg" alt="Hugo - Multilingual - Determine webpage language">
-			
-			</a>
-		</div>
-		<div class="blogteaser-content-block-2">
-			<a href="./hugo-sprache-webseite-feststellen/">
-			
-				<img src="./hugo-sprache-webseite-feststellen/img/german-or-english-teaser.jpg" class="img-articleteaserimg" alt="Hugo - Multilingual - Determine webpage language">
-			
-			</a>
-      <a href="./hugo-sprache-webseite-feststellen/"><p>Bei der Programmierung einer multilingualen Website muss bei einigen Programmteilen die Sprache der jeweiligen Webseite festgestellt werden. Nur so kann entsprechend reagiert und je nach Sprache unterschiedlicher Programmcode erstellt werden.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-					</svg>
-				</div>
-			</a>
-			<div class="date-and-comment">
-				<div class="date">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-					</svg>
-					<time datetime='2023-01-12'>
-	12.01.2023
-</time>
-
-
-
-	
-
-
-
-				</div>
-				<div class="tag-links">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
-						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
-						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
-					</svg>
-
-					
-            <a href="./tags/hugo/">#hugo</a>
-          
-            <a href="./tags/kurztipp/">#kurztipp</a>
-          
-            <a href="./tags/multilingual/">#multilingual</a>
-          
-
-				</div>
-			</div>
-    </div>
-  </article>
-</div><div class="blog-content">
-	<article class="container">
-		<div class="blogteaser-content-block-1">
-      <div class="sub-title">Durch einen Trick die Länge von langen Markdown Header Anker Links verkürzen.</div>
-      <a href="./hugo-links-verkuerzen/"><h2>Hugo - Markdown Header Anker Links verkürzen</h2></a>
-		</div>
-		<div class="img-teaser-big">
-			<a href="./hugo-links-verkuerzen/">
-			
-				<img src="./hugo-links-verkuerzen/img/shorten-header-link-big-teaser.jpg" class="img-articleteaserbigimg" alt="Hugo - Shorten Markdown Header Anchor Links">
-			
-			</a>
-		</div>
-		<div class="blogteaser-content-block-2">
-			<a href="./hugo-links-verkuerzen/">
-			
-				<img src="./hugo-links-verkuerzen/img/shorten-header-link-teaser.jpg" class="img-articleteaserimg" alt="Hugo - Shorten Markdown Header Anchor Links">
-			
-			</a>
-      <a href="./hugo-links-verkuerzen/"><p>Markdown Header Anker Links <code>h2 bis h6</code> erstellt Hugo beim Generieren automatisch aus dem Titeltext. Durch einen Trick kann die Titellänge für den Link verkürzt werden. Kürzere Links sind gut für die SEO.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-					</svg>
-				</div>
-			</a>
-			<div class="date-and-comment">
-				<div class="date">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-					</svg>
-					<time datetime='2022-01-15'>
-	15.01.2022
-</time>
-
-
-
-	
-
-
-
-				</div>
-				<div class="tag-links">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
-						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
-						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
-					</svg>
-
-					
-            <a href="./tags/hugo/">#hugo</a>
-          
-            <a href="./tags/kurztipp/">#kurztipp</a>
-          
-            <a href="./tags/links/">#links</a>
-          
-            <a href="./tags/markdown/">#markdown</a>
-          
-            <a href="./tags/seo/">#seo</a>
-          
-
-				</div>
-			</div>
-    </div>
-  </article>
-</div><div class="blog-content">
-	<article class="container">
-		<div class="blogteaser-content-block-1">
-      <div class="sub-title">Durch einen Markdown Render Hook, optische Header Anker Links automatisch erstellen.</div>
-      <a href="./hugo-header-anker-links/"><h2>Hugo - Optische Header Anker Links automatisch erstellen</h2></a>
-		</div>
-		<div class="img-teaser-big">
-			<a href="./hugo-header-anker-links/">
-			
-				<img src="./hugo-header-anker-links/img/header-links-big-teaser.png" class="img-articleteaserbigimg" alt="Create header links with Markdown Render Hook">
-			
-			</a>
-		</div>
-		<div class="blogteaser-content-block-2">
-			<a href="./hugo-header-anker-links/">
-			
-				<img src="./hugo-header-anker-links/img/header-links-teaser.png" class="img-articleteaserimg" alt="Create header links with Markdown Render Hook">
-			
-			</a>
-      <a href="./hugo-header-anker-links/"><p>Hugo kann durch einen Markdown Render Hook automatisch Anker Links für <code>h2 bis h6</code> Header erstellen und diese durch ein SVG-Symbol anzeigen. Dadurch werden Besucher der Webseite optisch darauf hingewiesen, dass der Header direkt verlinkt werden kann. Die Automatik generiert dies ohne zusätzlichen Arbeitsaufwand.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-					</svg>
-				</div>
-			</a>
-			<div class="date-and-comment">
-				<div class="date">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-					</svg>
-					<time datetime='2022-01-12'>
-	12.01.2022
-</time>
-
-
-
-	
-
-
-
-				</div>
-				<div class="tag-links">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
-						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
-						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
-					</svg>
-
-					
-            <a href="./tags/hugo/">#hugo</a>
-          
-            <a href="./tags/kurztipp/">#kurztipp</a>
-          
-            <a href="./tags/links/">#links</a>
-          
-            <a href="./tags/markdown/">#markdown</a>
-          
-            <a href="./tags/seo/">#seo</a>
           
 
 				</div>
