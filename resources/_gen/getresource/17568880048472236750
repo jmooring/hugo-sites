@@ -1,21 +1,20 @@
 HTTP/2.0 200 OK
-Age: 26196
+Age: 18085
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 79ec5ae91b9eec6c-SEA
-Content-Security-Policy: default-src 'self' http: https: ws: wss: data: blob: 'unsafe-inline'; frame-ancestors 'self';
+Cf-Ray: 7a2b9518dbcf27ee-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 25 Feb 2023 00:34:24 GMT
+Date: Sat, 04 Mar 2023 16:44:11 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D6WcdhJuqV3GI1ogBdNs8vqzspu3WvgHrN%2FVj879Z%2BL0C%2FzYB1ZahGKaTGWAsTgZP5qaG2r7wtcs4Fg4iT6MCngeBS9aZrvOO8VnZyYXnMelarpsKjuA5stNlQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uCJrNIfvwFRLqzzze%2BdSTLyA%2FMihJpVXJ1iKduuym7s65jm0VsXdd1ZivrO%2Fk91oqX6cvaVZSAv7crsX8EUV0U1GUPkBjeVcWfBfUoevOCXVzxXCDcG9DUEKVQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01GT2ZW3FH5TMVTK97885GF4QR
+X-Nf-Request-Id: 01GTPR4TYEENGP0BXHVG1HE10M
 X-Xss-Protection: 1; mode=block
 
 
@@ -1501,7 +1500,7 @@ X-Xss-Protection: 1; mode=block
       
         
           <li id="dgraph-cloud" class="topic main-topic children  active">
-            <a href="https://dgraph.io/docs/cloud/">
+            <a href="https://dgraph.io/docs/dgraphcloud/">
               
               Dgraph Cloud
             </a>
@@ -1510,7 +1509,7 @@ X-Xss-Protection: 1; mode=block
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/introduction/">Dgraph Cloud Overview</a>
+                  <a href="https://dgraph.io/docs/dgraphcloud/introduction/">Dgraph Cloud Overview</a>
                   
                 </li>
               
@@ -1522,91 +1521,79 @@ X-Xss-Protection: 1; mode=block
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/provision-cluster/">Provision a cluster</a>
+                  <a href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
                   
                 </li>
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
+                  <a href="https://dgraph.io/docs/dgraphcloud/cloud-multitenancy/">Multi-tenancy in Dgraph Cloud</a>
                   
                 </li>
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/advanced-queries/">Advanced Queries with DQL</a>
+                  <a href="https://dgraph.io/docs/dgraphcloud/security/">Securing Your GraphQL endpoint</a>
                   
                 </li>
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/cloud-multitenancy/">Multi-tenancy in Dgraph Cloud</a>
+                  <a href="https://dgraph.io/docs/dgraphcloud/migrating-from-hosted-dgraph/">Migrating from Self-Managed Dgraph</a>
                   
                 </li>
               
                 <li class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/cloud/security/">Securing Your GraphQL endpoint</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  
-                  <a href="https://dgraph.io/docs/cloud/migrating-from-hosted-dgraph/">Migrating from Self-Managed Dgraph</a>
-                  
-                </li>
-              
-                <li class="topic sub-topic">
-                  
-                    <a id="administering-your-backend" href="https://dgraph.io/docs/cloud/admin/">Administering Your Backend</a>
+                    <a id="administering-your-backend" href="https://dgraph.io/docs/dgraphcloud/admin/">Administering Your Backend</a>
                     <div class="arrow-down"></div>
                     <ul class="sub-topics">
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/overview/">Overview</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/overview/">Overview</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/authentication/">Authentication</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/authentication/">Authentication</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/schema/">Fetching and Updating Your Schema</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/schema/">Fetching and Updating Your Schema</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/import-export/">Importing and Exporting data from Dgraph Cloud</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/import-export/">Importing and Exporting data from Dgraph Cloud</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/drop-data/">Dropping Data from your Backend</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/drop-data/">Dropping Data from your Backend</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/schema-modes/">Switch Schema Modes</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/schema-modes/">Switch Schema Modes</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/clone/">Cloning Backend</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/clone/">Cloning Backend</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/admin/monitoring/">Monitoring with Prometheus</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/admin/monitoring/">Monitoring with Prometheus</a>
                           
                         </li>
                       
@@ -1616,25 +1603,25 @@ X-Xss-Protection: 1; mode=block
               
                 <li class="topic sub-topic">
                   
-                    <a id="dgraph-cloud-api" href="https://dgraph.io/docs/cloud/cloud-api/">Dgraph Cloud API</a>
+                    <a id="dgraph-cloud-api" href="https://dgraph.io/docs/dgraphcloud/cloud-api/">Dgraph Cloud API</a>
                     <div class="arrow-down"></div>
                     <ul class="sub-topics">
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/cloud-api/authentication/">Authentication</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/authentication/">Authentication</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/cloud-api/schema/">Schema</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/schema/">Schema</a>
                           
                         </li>
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/cloud-api/backend/">Backend</a>
+                          <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/backend/">Backend</a>
                           
                         </li>
                       
@@ -1646,18 +1633,12 @@ X-Xss-Protection: 1; mode=block
                       
                         <li class="topic sub-topic">
                           
-                          <a href="https://dgraph.io/docs/cloud/cloud-api/backup/">Backup</a>
-                          
-                        </li>
-                      
-                        <li class="topic sub-topic">
-                          
-                            <a id="lambda" href="https://dgraph.io/docs/cloud/cloud-api/lambda/">Lambda</a>
+                            <a id="lambda" href="https://dgraph.io/docs/dgraphcloud/cloud-api/lambda/">Lambda</a>
                             <div class="arrow-down"></div>
                             <ul class="sub-topics">
                               
                                 <li class="topic sub-topic">
-                                  <a href="https://dgraph.io/docs/graphql/lambda/overview/">Overview</a>
+                                  <a href="https://dgraph.io/docs/graphql/lambda/lambda-overview/">Overview</a>
                                 </li>
                               
                                 <li class="topic sub-topic">
@@ -2189,15 +2170,6 @@ X-Xss-Protection: 1; mode=block
     </a>
   </div>
   <div class="item">
-    <div class="icon"><i class="lni lni-rocket" aria-hidden="true"></i></div>
-    <a href="https://dgraph.io/docs/dgraphcloud/advanced-queries/">
-      <h2>Advanced Queries with DQL</h2>
-      <p>
-        Generate advanced queries to interact with your database using the HTTP or gRPC endpoint 
-      </p>
-    </a>
-  </div>
-  <div class="item">
     <div class="icon"><i class="lni lni-package" aria-hidden="true"></i></div>
     <a href="https://dgraph.io/docs/dgraphcloud/cloud-api/overview/">
       <h2>Dgraph Cloud API</h2>
@@ -2257,10 +2229,6 @@ X-Xss-Protection: 1; mode=block
           
           <li>
             <a href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
-          </li>
-          
-          <li>
-            <a href="https://dgraph.io/docs/dgraphcloud/advanced-queries/">Advanced Queries with DQL</a>
           </li>
           
           <li>

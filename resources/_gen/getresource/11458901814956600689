@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 25 Feb 2023 00:34:36 GMT
-Etag: "975366df0a08fde8ef4248f422d6dc49-ssl-df"
+Date: Sat, 04 Mar 2023 16:44:22 GMT
+Etag: "20873ad0237f0ca352f899fbf5f51a49-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=FF3D59B67C6EDFC86F7DDDF088ED32ED~000000000000000000000000000000~YAAQHSI1F3ZKyX2GAQAAnDn+hRLNwvnDj9D1lNTJVBO/S9KP/6DmUCwZdr7cF067xaLoVIs8oOxIlgztidczu2PP39LppHf50EBuxQ9QdGj8TLvb0FN2naTnVtrnr9dkyVT5B4SumJsw3F29aDs8O9SWTex+YcJ/EIt0FUwkFS3v1ulGQXwcv+scDcD06kJYt2TzWBdWLmXJoyt4iGnswYGRU6P9272mKC7ak59O4z6TApPAJiAhzOX2+Q/Zwrs0X1R8H+RBkK4Q+/4uUkgcwSfkmlVsHLpDAM7xbTWWnOKwV1ya2IHAP9yplwlIYdcd1ltJSCd00EjDRJv7TMO+A8JLTHQ/nY22pUO4neWx57RixGiSRMYG0ud2RuOybH1pib00nFWkTiL9; Domain=.vmware.com; Path=/; Expires=Sat, 25 Feb 2023 02:34:35 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=FA0985694A26C2701B001483D41101B1~YAAQHSI1F3dKyX2GAQAAnDn+hRIxBurPSxDkgjyMsqiTsR4mfsLMV196eV6PZCp6gGt2r9fp6gqMDfh7RUteIykPdJbCd3AVzauvj3YFSyjEwXqjyNd45IGkCIJGFkl7PMUaKlEL/Dxkju9UR/sd0cwmCQkOqLdKzm4kL8zbWDiyDSdSz9NU9dunuaMnvfAt1z2f9KEZn37vZtjZggbDzRlvRK+cMVlufDkyuvkV5fx9HRxjjyXQcwosDssm7rLg75GN7PDhGcfTr05FKY+AR5S8DwtavGmv1fcZX0SI51O8hhLiBGbs2MuiENG123IJ04ZO6UOTWQ==~1; Domain=.vmware.com; Path=/; Expires=Sat, 25 Feb 2023 00:34:36 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=FF12530EEC0621B5F74DF429DE06E0C3~000000000000000000000000000000~YAAQBXk1F0gHJquGAQAAj5eCrRN6sflcaxnWybrPVQAYQ6yqO5xXjnfacLNT6zHMoD3ruaRx8Y6y63MH75FImghYXP2U/QfEs8oj0UYt8plXoY/usB2Kg76G4dG/lb38C7JljZNf5IxT6ua04ytTe9nwr5NESWiHU9UYTCFIDmOsJF5Ynh9A9NxYL/3v0fq+hJWAwiXq17K/ro+iTTzDT38d9Qog6Hz/FsYDi1A9Ekf9Ku8h/nEZ93CpR2BOxE/hGdAIkdFIlahvvVjwtVgR1Pr8Sfw8h7sw/rPmWrai5H49yNkrCtAJMWe2qz7Wbv6P/BTjtg4ZYw+/79yCa7ylgk+0dblQ7KDsZQoOM2ydx1KCdiSfClrX2dlyLFfsV7I8AhIb2sKTVzVp; Domain=.vmware.com; Path=/; Expires=Sat, 04 Mar 2023 18:44:21 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=9E44F9B7395620A6536D02BDD1BB32AE~YAAQBXk1F0kHJquGAQAAj5eCrRPXoI7M//nlD1FBkCRVODvCjH6AQNcO5VTuk/yGhD8PaYs7LVf3dJ+39RV+wT3vigj+tyBQSwWDlaRYNcOme7rGTReuA3DnAxqGqh7uHyk3fW5jNsH2eJKtRx+gb4XjDRzP/Tp4bvolL9wEqn01VPe4ApDhgSZIQmbYTJh96ZsAggmKLicEIL6TxrIQJ0X4xmDHUBw1K5wdBu+LmIdrViqtz6YSfrJ5iDrkzRS6dSkQnVx21T8BmI+S/P6zobx/byIk/BURJyqrCSFBSPvUi7yrHqiKwkPyxIEmzPghhs2hC+UrZw==~1; Domain=.vmware.com; Path=/; Expires=Sat, 04 Mar 2023 16:44:22 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 12758 0 pmb=mTOE,2
-X-Nf-Request-Id: 01GT2ZWE9TCEDMY5FVRTQCKWKJ
+X-Akamai-Transformed: 9 12696 0 pmb=mTOE,2
+X-Nf-Request-Id: 01GTPR55Q5V53JW32EZAEQ07V6
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,7 +48,7 @@ if (document.cookie.indexOf('OptanonConsent') > -1 && document.cookie.indexOf('g
 Sentry.init({
   dsn: "https://91138cf7f17842fd8a57d45372bf538c@o448817.ingest.sentry.io/5712977",
   integrations: [new Sentry.Integrations.BrowserTracing()],
-  release: '0908e023daa5ee79ec42400037e9fb2dfe18240a',
+  release: '580f0a792e14ad01f0ea658b1cf8564d20cd7367',
   environment: 'production',
   
   
@@ -165,6 +165,18 @@ function isTvShowLive(showName) {
     episodes.push(epInfo);
   
     var epInfo = {
+      startTime: new Date("2023-03-10T08:00:00-08:00"),
+      endTime: new Date(new Date("2023-03-10T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/36\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2023-03-09T11:00:00-08:00"),
       endTime: new Date(new Date("2023-03-09T11:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
@@ -229,54 +241,6 @@ function isTvShowLive(showName) {
       endTime: new Date(new Date("2023-02-28T11:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
       link: "\/developer\/tv\/golden-path\/9\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-23T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-23T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/8\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-23T08:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-23T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/33\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-21T12:30:00-07:00"),
-      endTime: new Date(new Date("2023-02-21T12:30:00-07:00").getTime() + ( 60  * 60000)),
-      show: "Spring Office Hours",
-      link: "\/developer\/tv\/spring-office-hours\/0030\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-21T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-21T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/7\/"
     };
 
     
@@ -449,11 +413,11 @@ function getCookie(name) {
 
 
 
-<link rel="preload" href="/developer/css/main.min.1bc358be338245d69f159e03c0f394413da667242914ef9d99d7bac0df2b9b79.css" as="style">
+<link rel="preload" href="/developer/css/main.min.0bedd484d3a586da7d00230e27e18a57d86cc3bf0a7a0cbd057a4910a0672fef.css" as="style">
 <link rel="preload" href="/developer/css/custom.min.4fe73e4cebf2951aa671a296d46ef6b901716d868e35965504b40d759d66f9a4.css" as="style">
 <link rel="preload" href="/developer/css/light-theme.min.e52330a3cb9d6d0825dceca514857ccd3afe235f1be2c1ce2c232c8acfb79f16.css" as="style">
 <link href="/developer/css/custom.min.4fe73e4cebf2951aa671a296d46ef6b901716d868e35965504b40d759d66f9a4.css" rel="stylesheet" integrity="">
-<link href="/developer/css/main.min.1bc358be338245d69f159e03c0f394413da667242914ef9d99d7bac0df2b9b79.css" rel="stylesheet" integrity="">
+<link href="/developer/css/main.min.0bedd484d3a586da7d00230e27e18a57d86cc3bf0a7a0cbd057a4910a0672fef.css" rel="stylesheet" integrity="">
 
 
 <script>
@@ -490,7 +454,7 @@ function changeTheme(mode, firstLoad) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="863758298"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337be4b3"  defer></script></head>
+  <script >bazadebezolkohpepadr="863758298"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337be7ad"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -1462,5 +1426,5 @@ function changeTheme(mode, firstLoad) {
 
 <script src="/developer/js/main.2f851494a853f5a2aa4b144ee7fce526cd77f377c2abe3f907333c32dff604bb.js" integrity="sha256-L4UUlKhT9aKqSxRO5/zlJs1383fCq&#43;P5BzM8Mt/2BLs=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337be4b3?a=dD05NmIyODkwZTlmNGZiNGQwMDE0ZmVmMmNmNjM0NzM0YTM4ODc3YzA4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337be7ad?a=dD05NmIyODkwZTlmNGZiNGQwMDE0ZmVmMmNmNjM0NzM0YTM4ODc3YzA4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

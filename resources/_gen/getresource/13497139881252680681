@@ -1,23 +1,18 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-Cache-Control: public, max-age=31536000
+Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 79ec5ae52feaec88-SEA
-Content-Security-Policy: default-src 'self'; img-src 'self'; script-src 'self' 'unsafe-inline'; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://connect.facebook.net; style-src 'self' 'unsafe-inline'; connect-src *.facebook.com/* https://www.facebook.com/*; frame-src https://connect.facebook.net/ https://www.facebook.com/;
+Cf-Ray: 7a2b95145c43f8d1-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 25 Feb 2023 00:34:24 GMT
-Feature-Policy: geolocation 'self';  microphone 'none'; camera 'none'; usb 'none';
+Date: Sat, 04 Mar 2023 16:44:10 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Referrer-Policy: strict-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1z4q8FaxZ7bRFF1zqqMSG0ADQXra6LPrM8%2BmT8z2ljLWYEbqVjPbD7b1Ou%2BFeCppYU9BACIjGwabUVcDAimLF8KlR%2BIPpVbshFDQbIttbkZObPIu5Vq8Q5kWlej1eIU%3D"}],"group":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EnygTzrST410wZENW8MplQFu%2BUTDsa5Jvug%2FAVzKfLXxUedpI01%2F9zgNqIzceC%2FWp4cMEOKMd1ajDXUOmY1iX73z7dspMxu4LARot458bczwPqORnqECJV%2B2GO1X8sw%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Server-Timing: cf-q-config;dur=5.0000016926788e-06
-Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server-Timing: cf-q-config;dur=6.9999987317715e-06
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,8 +35,8 @@ X-Xss-Protection: 1; mode=block
 <link rel="mask-icon" href="https://designden.us/safari-pinned-tab.svg" color="#e60b3b">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GE6G8X8CML" type="0b6dc33debd361e72197c83a-text/javascript"></script>
-<script type="0b6dc33debd361e72197c83a-text/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GE6G8X8CML" type="461a2bcd9819a49a721035c0-text/javascript"></script>
+<script type="461a2bcd9819a49a721035c0-text/javascript">
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -53,16 +48,17 @@ X-Xss-Protection: 1; mode=block
     "@context" : "http://schema.org",
     "@type" : "ProfessionalService",
     "@id": "https:\/\/designden.us\/",
-    "name" : "Website Design | Wyalusing, Towanda, and Tunkhannock PA",
+    "name" : "Design Den",
     "image" : "images\/logo.png",
     "telephone" : "843 826 0597",
 
     
     "address": {
     "@type": "PostalAddress",
-    "addressLocality": "",
-    "addressRegion": "",
-    "postalCode": "",
+    "addressLocality": "Sugar Run",
+    "addressRegion": "PA",
+    "postalCode": "18846",
+    "streetAddress": "137 Riverview Rd",
     "addressCountry": "US"
     },
     "url" : "https:\/\/designden.us\/",
@@ -70,24 +66,12 @@ X-Xss-Protection: 1; mode=block
     "https://www.facebook.com/DesignDenUS",
     "https://www.instagram.com/designden.us",
     "https://twitter.com/DesignDen4",
-    "https://tiktok.com/@",
-    "https://pintrest.com/designdenus"
+    "https://tiktok.com/@designdenus",
+    "https://pintrest.com/designdenus",
+    "https://www.linkedin.com/company/design-den-us"
     ]
   }
 </script>
-<script type="application/ld+json">
-	{
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-    "@type": "ListItem",
-    "position":  1 ,
-    "item":
-    {
-        "@id": "https:\/\/designden.us\/",
-        "name": "Website Design | Wyalusing, Towanda, and Tunkhannock PA"
-    }
-}]}</script>
 <meta property="og:title" content="Website Design | Wyalusing, Towanda, and Tunkhannock PA" />
 <meta property="og:description" content="Providing SEO, and performance optimized static websites at affordable rates for local organizations and small businesses. Let us help you promote your business with a new website to sell your hand-crafted items or services" />
 <meta property="og:type" content="website" />
@@ -142,7 +126,7 @@ X-Xss-Protection: 1; mode=block
 <li><a href="https://twitter.com/DesignDen4" target="_blank"><i class="fab fa-twitter"></i></a></li>
 <li><a href="https://facebook.com/DesignDenUS" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 <li><a href="https://instagram.com/designden.us" target="_blank"><i class="fab fa-instagram"></i></a></li>
-<li><a href="https://tiktok.com/@designdenus" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+<li><a href="https://tiktok.com/designdenus" target="_blank"><i class="fab fa-tiktok"></i></a></li>
 <li><a href="https://pinterest.com/designdenus" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
 </ul>
 </div>
@@ -154,30 +138,30 @@ X-Xss-Protection: 1; mode=block
 <div class="col-12 text-center reveal">
 <h2>Our Services</h2>
 </div>
-<div class="col-lg-4 col-sm-6 mb-4 reveal">
+<div class="col-6 col-lg-4 col-sm-6 mb-4 reveal">
 <div class="card border-0 shadow rounded-xs pt-5">
 <div class="card-body">
 <i class="fas fa-search icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
 <h4 class="mt-4 mb-3"><a href="https://designden.us/services/search-engine-optimization/">Search Engine Optimization</a></h4>
-<p> Services include optimization, indexing, sitemaps, Google/Bing search console setup, business listings, and various other SEO methods. Contact for more information.</p>
+<p class="d-none d-sm-block"> Services include optimization, indexing, sitemaps, Google/Bing search console setup, business listings, and various other SEO methods. Contact for more information.</p>
 </div>
 </div>
 </div>
-<div class="col-lg-4 col-sm-6 mb-4 reveal">
+<div class="col-6 col-lg-4 col-sm-6 mb-4 reveal">
 <div class="card border-0 shadow rounded-xs pt-5">
 <div class="card-body">
 <i class="fas fa-drafting-compass icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
 <h4 class="mt-4 mb-3"><a href="https://designden.us/services/website-design/">Website Design</a></h4>
-<p>Elevate your online presence with my freelance website design and development services. Experience cutting-edge technology and innovative solutions for a visually appealing and functional website optimized for search engines. Contact me for a unique website tailored to your brand&#39;s vision</p>
+<p class="d-none d-sm-block">Elevate your online presence with my freelance website design and development services. Experience cutting-edge technology and innovative solutions for a visually appealing and functional website optimized for search engines. Contact me for a unique website tailored to your brand&#39;s vision</p>
 </div>
 </div>
 </div>
-<div class="col-lg-4 col-sm-6 mb-4 reveal">
+<div class="col-6 col-lg-4 col-sm-6 mb-4 reveal">
 <div class="card border-0 shadow rounded-xs pt-5">
- <div class="card-body">
+<div class="card-body">
 <i class="fas fa-server icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3"></i>
 <h4 class="mt-4 mb-3"><a href="https://designden.us/services/website-hosting-and-management/">Website Hosting and Management</a></h4>
-<p>Affordable and reliable website hosting and management services offered by a freelance designer and developer. Ensure website availability, up-to-date software, security, optimization for performance, and protection against cyber threats. Contact for more information</p>
+<p class="d-none d-sm-block">Affordable and reliable website hosting and management services offered by a freelance designer and developer. Ensure website availability, up-to-date software, security, optimization for performance, and protection against cyber threats. Contact for more information</p>
 </div>
 </div>
 </div>
@@ -234,18 +218,18 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 <h2>Local websites designed by <strong>us</strong></h2>
 </div>
 <div class="row pt-5 pb-5 justify-content-md-center text-center">
-<div class="col-sm-12 col-md-6 col-lg-6 portfolio-item reveal">
+<div class="col-6 col-sm-6 col-md-6 col-lg-6 portfolio-item reveal">
 <a href="https://designden.us/portfolio/millcreekindustrial/">
 <picture>
 <source media="(max-width: 375px)" srcset="https://designden.us/portfolio/millcreekindustrial/3-devices-black_hu90368229ce9d7678c57b7b1d372dcc23_497010_126ad3651d37a50d6f9713c87054d25b.webp">
 <source media="(max-width: 575px)" srcset="https://designden.us/portfolio/millcreekindustrial/3-devices-black_hu90368229ce9d7678c57b7b1d372dcc23_497010_21033e33770cbd0fd4029aa424d9235f.webp">
 <source media="(max-width: 767px)" srcset="https://designden.us/portfolio/millcreekindustrial/3-devices-black_hu90368229ce9d7678c57b7b1d372dcc23_497010_161e2745bec19e9ee7ea32dfdf7c8767.webp">
-  <img src="https://designden.us/portfolio/millcreekindustrial/3-devices-black_hu90368229ce9d7678c57b7b1d372dcc23_497010_16b1cdf2a8166c1250db104e8b7ad1ae.webp" alt="Website desined for Mill Creek Industrial in Wyalusing, PA">
+<img src="https://designden.us/portfolio/millcreekindustrial/3-devices-black_hu90368229ce9d7678c57b7b1d372dcc23_497010_16b1cdf2a8166c1250db104e8b7ad1ae.webp" alt="Website desined for Mill Creek Industrial in Wyalusing, PA">
 </picture>
 </a>
 <a href="https://designden.us/portfolio/millcreekindustrial/" class="thumnail-text ">View</a>
 </div>
-<div class="col-sm-12 col-md-6 col-lg-6 portfolio-item reveal">
+<div class="col-6 col-sm-6 col-md-6 col-lg-6 portfolio-item reveal">
 <a href="https://designden.us/portfolio/ryce-lawn-care/">
 <picture>
 <source media="(max-width: 375px)" srcset="https://designden.us/portfolio/ryce-lawn-care/3-devices-black_hu9073693a01fcb3071e17be7241c1dfc9_656136_56239065d62e892db5192e961d048875.webp">
@@ -256,7 +240,7 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 </a>
 <a href="https://designden.us/portfolio/ryce-lawn-care/" class="thumnail-text ">View</a>
 </div>
-<div class="col-sm-12 col-md-6 col-lg-6 portfolio-item reveal">
+<div class="col-6 col-sm-6 col-md-6 col-lg-6 portfolio-item reveal">
 <a href="https://designden.us/portfolio/stagecoachcrushing/">
 <picture>
 <source media="(max-width: 375px)" srcset="https://designden.us/portfolio/stagecoachcrushing/3-devices-black_hud60abf0f28ba2ea0caa67e217f1995b9_637405_bcf524b2d89fb6cf18984b847e6ec3f5.webp">
@@ -267,7 +251,7 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 </a>
 <a href="https://designden.us/portfolio/stagecoachcrushing/" class="thumnail-text ">View</a>
 </div>
-<div class="col-sm-12 col-md-6 col-lg-6 portfolio-item reveal">
+<div class="col-6 col-sm-6 col-md-6 col-lg-6 portfolio-item reveal">
 <a href="https://designden.us/portfolio/strictlyorganicfarms/">
 <picture>
 <source media="(max-width: 375px)" srcset="https://designden.us/portfolio/strictlyorganicfarms/3-devices-black_hu879fb9a94cb9bce1e3c8a17618e4077d_482886_7c0586e7091037f1377b64c070f3a6b6.webp">
@@ -278,7 +262,7 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 </a>
 <a href="https://designden.us/portfolio/strictlyorganicfarms/" class="thumnail-text ">View</a>
 </div>
-<div class="col-sm-12 col-md-6 col-lg-6 portfolio-item reveal">
+<div class="col-6 col-sm-6 col-md-6 col-lg-6 portfolio-item reveal">
 <a href="https://designden.us/portfolio/zonexservices/">
 <picture>
 <source media="(max-width: 375px)" srcset="https://designden.us/portfolio/zonexservices/3-devices-black_hudb263b6a6f6a9d083b66fb624d537517_652288_1ac11d3243ba65444c8c57d0be22816b.webp">
@@ -298,9 +282,9 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 <div class="col-12 col-sm-12 col-md-6 col-lg-8">
 <h3 class="display-4">The only contact your businesses needs</h3>
 <p class="lead mb-0">for your website design needs</p>
-<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https:\/\/designden.us\//contact-info.vcf'" class="btn btn-outline-light" id="btn-add" data-cf-modified-0b6dc33debd361e72197c83a-=""><i class="fas fa-address-book"></i>Add us to your contacts</button>
-<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='tel:843 826 0597'" class="btn btn-outline-light" id="btn-call" data-cf-modified-0b6dc33debd361e72197c83a-=""><i class="fas fa-phone"></i>Give us a call</button>
-<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https:\/\/designden.us\//contact'" class="btn btn-outline-light" id="btn-email" data-cf-modified-0b6dc33debd361e72197c83a-=""><i class="fas fa-address-book"></i>Contact Us</button>
+<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https:\/\/designden.us\//contact-info.vcf'" class="btn btn-outline-light" id="btn-add" data-cf-modified-461a2bcd9819a49a721035c0-=""><i class="fas fa-address-book"></i>Add us to your contacts</button>
+<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='tel:843 826 0597'" class="btn btn-outline-light" id="btn-call" data-cf-modified-461a2bcd9819a49a721035c0-=""><i class="fas fa-phone"></i>Give us a call</button>
+<button type="button" onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href='https:\/\/designden.us\//contact'" class="btn btn-outline-light" id="btn-email" data-cf-modified-461a2bcd9819a49a721035c0-=""><i class="fas fa-address-book"></i>Contact Us</button>
 </div>
 <div class="col-12 col-sm-12 col-md-6 col-lg-4 reveal">
 <picture>
@@ -346,8 +330,18 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 <div class="col-lg-4 col-sm-6 mb-4">
 <div class="card border-0 shadow rounded-xs pt-5">
 <div class="card-body">
+<img src="https://designden.us/blog/face-vs-brand/images/face-vs-brand-thumbnail_hud3097d2640fb13839b12c9a74a314c69_263244_1920x0_resize_q75_h2_box_3.webp" alt="" style="width:100%">
+<h4 class="mt-4 mb-3"><a href="https://designden.us/blog/face-vs-brand/">Why Having a Face to the Company is More Important than Having a Brand</a></h4>
+<p>February 28, 2023</p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6 mb-4">
+<div class="card border-0 shadow rounded-xs pt-5">
+<div class="card-body">
 <img src="https://designden.us/blog/why-nap-is-important/images/nap-thumbnail_hub917527791fd3a6f1d87e349c8f8c1d5_329281_1920x0_resize_q75_h2_box_3.webp" alt="" style="width:100%">
 <h4 class="mt-4 mb-3"><a href="https://designden.us/blog/why-nap-is-important/">The Importance of NAP for SEO</a></h4>
+<p>February 15, 2023</p>
 </div>
 </div>
 </div>
@@ -356,14 +350,7 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 <div class="card-body">
 <img src="https://designden.us/blog/fire-department-ads/images/fire-department-ads-thumbnail_hu0acac3cb4a351b93366d0968aeee2717_423337_1920x0_resize_q75_h2_box_3.webp" alt="" style="width:100%">
 <h4 class="mt-4 mb-3"><a href="https://designden.us/blog/fire-department-ads/">Free social media ads for the first 5 fire departments to contact us</a></h4>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-sm-6 mb-4">
-<div class="card border-0 shadow rounded-xs pt-5">
-<div class="card-body">
-<img src="https://designden.us/blog/how-to-find-rate-sheets/images/how-to-find-rate-sheets-thumbnail_hu61ec03eec55cdf6c851ed339ee24245b_1224305_1920x0_resize_q75_h2_box_3.webp" alt="" style="width:100%">
-<h4 class="mt-4 mb-3"><a href="https://designden.us/blog/how-to-find-rate-sheets/">How to find rate sheets of other companies</a></h4>
+<p>June 4, 2022</p>
 </div>
 </div>
 </div>
@@ -395,20 +382,37 @@ Website are hand-coded to achieve a custom look for your brand and business. We 
 </main>
 </div>
 <div class="footer">
-<div class="container">
+<div class="container pt-5 pb-5">
 <div class="row">
-<div class="col-6">
-<a href="tel:843%20826%200597"><i class="fas fa-phone"></i>843 826 0597</a>
-<a href="/cdn-cgi/l/email-protection#1b6f6e78707e695b7f7e68727c757f7e75356e68"><i class="fas fa-at"></i><span class="__cf_email__" data-cfemail="89fdfceae2ecfbc9edecfae0eee7edece7a7fcfa">[email&#160;protected]</span></a>
+<div class="col-12 col-lg-4 col-sm-4 mb-4">
+<h3 class="text-light">Contact Us</h3>
+<a href="tel:843%20826%200597"><i class="fas fa-phone"></i>843 826 0597</a><br>
+<a href="/cdn-cgi/l/email-protection#502425333b35221034352339373e34353e7e2523"><i class="fas fa-at"></i><span class="__cf_email__" data-cfemail="6c18190f07091e2c08091f050b0208090242191f">[email&#160;protected]</span></a><br>
+<a href="https://www.google.com/maps/place/Design+Den/@41.6394626,-76.2426943,18z/data=!4m6!3m5!1s0x89c54d87b6910a9f:0x802e66778e7207b6!8m2!3d41.6392541!4d-76.2436974!16s%2Fg%2F11lrf3zh5c"><i class="fa fa-map-marker"></i>137 Riverview Rd, Sugar Run, PA 18846</a>
 <a href="https://www.google.com/a/designden.us/ServiceLogin?continue=https://mail.google.com/">Email Login</a>
 </div>
-<div class="col-6">
-<a href="https://designden.us/" class="float-right">https://designden.us/</a>
+<div class="col-12 col-lg-4 col-sm-4 mb-4">
+<h3 class="text-light">Services</h3>
+<ul style="list-style: none; padding:0px;">
+<li><a href="https://designden.us/services/search-engine-optimization/">Search Engine Optimization</a></li>
+<li><a href="https://designden.us/services/website-design/">Website Design</a></li>
+<li><a href="https://designden.us/services/website-hosting-and-management/">Website Hosting and Management</a></li>
+</ul>
+</div>
+<div class="col-12 col-lg-4 col-sm-4 mb-4">
+<h3 class="text-light">Connect</h3>
+<ul class="list-none" style="list-style: none; padding:0px;">
+<li><i class="fab fa-facebook-square bullet"></i><a href="https://www.facebook.com/DesignDenUS" target="_blank">Connect with us on Facebook</a></li>
+<li><i class="fab fa-instagram bullet"></i><a href="https://www.instagram.com/designden.us" target="_blank">Instagram</a></li>
+<li><i class="fab fa-twitter-square bullet"></i><a href="https://twitter.com/DesignDen4" target="_blank">Twitter</a></li>
+<li><i class="fab fa-youtube-square bullet"></i><a href="https://www.youtube.com/channel/" target="_blank">YouTube</a></li>
+<li><i class="fab fa-linkedin bullet"></i><a href="https://www.linkedin.com/company/design-den-us" target="_blank">Linked In</a></li>
+</ul>
 </div>
 </div>
 </div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/bundle.js" type="0b6dc33debd361e72197c83a-text/javascript"></script>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="0b6dc33debd361e72197c83a-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"79ec5ae52feaec88","version":"2023.2.0","r":1,"token":"6cd974afcab041ea8626f9697d732585","si":100}' crossorigin="anonymous"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/bundle.js" type="461a2bcd9819a49a721035c0-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="461a2bcd9819a49a721035c0-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7a2b95145c43f8d1","version":"2023.2.0","r":1,"token":"6cd974afcab041ea8626f9697d732585","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>

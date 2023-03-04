@@ -2,9 +2,9 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Age: 0
 Content-Type: text/html
-Date: Sat, 25 Feb 2023 00:34:34 GMT
-Etag: "59f1-5f577416b07c0-gzip"
-Last-Modified: Fri, 24 Feb 2023 19:37:11 GMT
+Date: Sat, 04 Mar 2023 16:44:22 GMT
+Etag: "5923-5f6016310d140-gzip"
+Last-Modified: Fri, 03 Mar 2023 16:25:01 GMT
 Server: Apache
 Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400107-BFI
-X-Timer: S1677285274.912635,VS0,VE112
+X-Served-By: cache-bfi-kbfi7400108-BFI
+X-Timer: S1677948262.101268,VS0,VE127
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1677285274.912635,VS0,VE112
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-02-16T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-02-27T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -363,6 +363,18 @@ X-Timer: S1677285274.912635,VS0,VE112
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  onerror="this.onerror = null; this.src='\/BIND 9 logo image'" />
+          <div class="post-content">
+            <a href="/blogs/2022-bind9-retrospective/"><h4 class="text-white">BIND 9 - 2022 Retrospective</h4></a>
+            <p class="text-white">BIND 9 Development BIND 9.18 was released at the beginning of 2022.</p>
+            <a href="/blogs/2022-bind9-retrospective/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/blue-colored basketball net'" />
           <div class="post-content">
             <a href="/blogs/2023-f-root-update/"><h4 class="text-white">The State of F-Root</h4></a>
@@ -392,18 +404,6 @@ X-Timer: S1677285274.912635,VS0,VE112
             <a href="/blogs/2023-BIND-9.18-extended-support/"><h4 class="text-white">BIND 9.18 Branch Enters Extended Support</h4></a>
             <p class="text-white">With the January, 2023 maintenance releases, ISC is now encouraging all our users to consider updating to the 9.</p>
             <a href="/blogs/2023-BIND-9.18-extended-support/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
-          <div class="post-content">
-            <a href="/blogs/2023-cyber-resilience-act-comment/"><h4 class="text-white">ISC and the EU Cyber Resilience Act</h4></a>
-            <p class="text-white">What is the EU Cyber Resilience Act (CRA)? The EU Cyber Resilience Act is new proposed legislation from the EU Commission that aims to improve the cybersecurity of products containing software, by requiring the application of a &ldquo;CE Mark&rdquo; for software.</p>
-            <a href="/blogs/2023-cyber-resilience-act-comment/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

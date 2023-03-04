@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Sat, 25 Feb 2023 00:34:30 GMT
-Etag: "608a-5f53c08e43cd8-gzip"
-Last-Modified: Tue, 21 Feb 2023 20:57:59 GMT
+Date: Sat, 04 Mar 2023 16:44:20 GMT
+Etag: "6254-5f5faf61bc313-gzip"
+Last-Modified: Fri, 03 Mar 2023 08:45:03 GMT
 Server: Apache
 Vary: Accept-Encoding,User-Agent
 
@@ -13,7 +13,7 @@ Vary: Accept-Encoding,User-Agent
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover"> 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.111.1">
   
     
     <meta name="robots" content="index, follow, archive">
@@ -28,6 +28,12 @@ Vary: Accept-Encoding,User-Agent
       
     
   
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./icon-144.png" type="image/png">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
     
     
     <link rel="alternate" hreflang="en" href="https://tekki-tipps.de/en/">
@@ -194,6 +200,72 @@ Vary: Accept-Encoding,User-Agent
 		<h1>Ein Blog über Hugo, Webdesign, CSS/SCSS, ..</h1>
 		<p>Tipps und Tricks rund um den statischen Webseitengenerator Hugo.</p>	
 	</div>
+</div><div class="blog-content">
+	<article class="container">
+		<div class="blogteaser-content-block-1">
+      <div class="sub-title">Mail - postfix für macOS, MAMP und Hugo benutzen</div>
+      <a href="./mail-macos-postfix-mamp/"><h2>Mail, macOS - Postfix Konfiguration für MAMP Webserver</h2></a>
+		</div>
+		<div class="img-teaser-big">
+			<a href="./mail-macos-postfix-mamp/">
+			
+				<img src="./mail-macos-postfix-mamp/img/config-postfix-macos-big-teaser.jpg" class="img-articleteaserbigimg" alt="macOS - Postfix Configuration for MAMP">
+			
+			</a>
+		</div>
+		<div class="blogteaser-content-block-2">
+			<a href="./mail-macos-postfix-mamp/">
+			
+				<img src="./mail-macos-postfix-mamp/img/config-postfix-macos-teaser.jpg" class="img-articleteaserimg" alt="macOS - Postfix Configuration for MAMP">
+			
+			</a>
+      <a href="./mail-macos-postfix-mamp/"><p>Die PHP Funktion mail() setzt bei einem lokalen Webserver eine funktionierende Postfix oder ähnliche Mail Server Konfiguration voraus. Diese Anleitung hilft dabei Postfix unter macOS zu konfigurieren. Für den populären PHPMailer wird die Postfix Konfiguration und auch die Änderung in der MAMP php.ini nicht benötigt. Es kommt halt auf den Einsatzzweck für die Mail Anwendung an.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+					</svg>
+				</div>
+			</a>
+			<div class="date-and-comment">
+				<div class="date">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+					</svg>
+					
+
+
+
+
+	
+	
+
+
+
+	
+	<strong>Update:</strong>&nbsp;<time datetime="2023-03-02">02.03.2023</time>
+
+				</div>
+				<div class="tag-links">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+					</svg>
+
+					
+            <a href="./tags/macos/">#macos</a>
+          
+            <a href="./tags/mail/">#mail</a>
+          
+            <a href="./tags/mamp/">#mamp</a>
+          
+            <a href="./tags/php/">#php</a>
+          
+            <a href="./tags/tools/">#tools</a>
+          
+
+				</div>
+			</div>
+    </div>
+  </article>
 </div><div class="blog-content">
 	<article class="container">
 		<div class="blogteaser-content-block-1">
@@ -445,68 +517,6 @@ Die Themen im Teil 1 sind - hugo.toml allgemein, Page Bundle Struktur der Websei
             <a href="./tags/shortcodes/">#shortcodes</a>
           
             <a href="./tags/webdesign/">#webdesign</a>
-          
-
-				</div>
-			</div>
-    </div>
-  </article>
-</div><div class="blog-content">
-	<article class="container">
-		<div class="blogteaser-content-block-1">
-      <div class="sub-title">i18n - Die länderspezifische Schreibweise des lastmod Datums entsprechend der Sprache anpassen.</div>
-      <a href="./hugo-lastmod-i18n-anpassen/"><h2>Hugo - i18n Multilingual - lastmod Datum länderspezifisch anpassen</h2></a>
-		</div>
-		<div class="img-teaser-big">
-			<a href="./hugo-lastmod-i18n-anpassen/">
-			
-				<img src="./hugo-lastmod-i18n-anpassen/img/adjust-date-big-teaser.jpg" class="img-articleteaserbigimg" alt="Adapt date country-specific i18n">
-			
-			</a>
-		</div>
-		<div class="blogteaser-content-block-2">
-			<a href="./hugo-lastmod-i18n-anpassen/">
-			
-				<img src="./hugo-lastmod-i18n-anpassen/img/adjust-date-teaser.jpg" class="img-articleteaserimg" alt="Adapt date country-specific i18n">
-			
-			</a>
-      <a href="./hugo-lastmod-i18n-anpassen/"><p>Wenn das Erstellungsdatum (date) oder Änderungsdatum (lastmod - last modifikation) auf der Webseite angezeigt wird, sollte die Anzeige je nach Sprache länderspezifisch angepasst werden. In dem nachfolgenden Hugo Partial zeige ich wie es auf meinen Webseiten eingesetzt wird.</p><div class="arrow-right">Weiterlesen<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-						<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-					</svg>
-				</div>
-			</a>
-			<div class="date-and-comment">
-				<div class="date">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-						<path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-						<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-					</svg>
-					
-
-
-
-
-	
-	
-
-
-
-	
-	<strong>Update:</strong>&nbsp;<time datetime="2023-01-30">30.01.2023</time>
-
-				</div>
-				<div class="tag-links">
-					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
-						<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
-						<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
-					</svg>
-
-					
-            <a href="./tags/date/">#date</a>
-          
-            <a href="./tags/hugo/">#hugo</a>
-          
-            <a href="./tags/multilingual/">#multilingual</a>
           
 
 				</div>

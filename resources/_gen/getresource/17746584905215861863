@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
-Age: 26861
+Age: 164387
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 24 Feb 2023 17:07:04 GMT
-Etag: "5750d667f120dc19be24fad203211659-ssl-df"
+Date: Thu, 02 Mar 2023 19:04:34 GMT
+Etag: "1d1e498b85444767fb2a848ccfcd02f4-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
+X-Nf-Request-Id: 01GTPR54Q3KHZE7Y5TVMQHZPJ6
 
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.7.0/tocbot.css">
-<link rel="stylesheet" href="/css/style.1db1f4238dfe329e043f994d70fa2006780c816bd84f444fe31b09794695a59e.css">
+<link rel="stylesheet" href="/css/style.721760157718f37d5b1fb4d2bc0360e0780a1beeaa1455bf5e803a4bdd268769.css">
 
     <script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
   </head>
@@ -42,6 +42,9 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
 <nav class="navbar is-fixed-top is-light">
   <div class="container  ">
     <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/img/logos/spiffe/horizontal/color/spiffe-horizontal-color.png">
+      </a>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target=".navbar-top">
         <span aria-hidden="true"></span>
@@ -108,60 +111,6 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
 
     <main class="is-main">
       
-
-<section class="hero is-medium is-light">
-  <div class="hero-body has-text-centered">
-    <div class="container">
-      <img class="title is-hero-logo" src="/img/logos/spiffe/horizontal/color/spiffe-horizontal-color.png">
-
-      <br />
-
-      <p class="project-title is-size-4 is-size-4-mobile has-text-weight-bold">
-        Secure Production Identity Framework for Everyone
-      </p>
-      <p class="subtitle is-size-3 is-size-5-mobile has-text-weight-light">
-        A universal identity control plane for distributed systems
-      </p>
-    </div>
-
-
-  </div>
-</section>
-
-<section class="section has-text-centered use-cases">
-  <div class="container">
-
-    <div class="columns is-variable is-6">
-      <div class="column content is-medium">
-        <p class="image">
-            <a href="#">
-              <img src="/img/usecases/uc1-secure.svg">
-            </a>
-        </p>
-        <p>Secure microservices communication automatically with Envoy, X.509 PKI, or JWT</p>
-      </div> 
-
-      <div class="column content is-medium">
-        <p class="image">
-            <a href="#">
-              <img src="/img/usecases/uc2-svcs.svg">
-            </a>
-        </p>
-        <p>Authenticate securely to common databases or platforms without passwords or API keys</p>
-      </div>
-
-      <div class="column content is-medium">
-        <p class="image">
-            <a href="#">
-              <img src="/img/usecases/uc3-mesh.svg">
-            </a>
-        </p>
-        <p>Build, bridge, and extend service mesh across organizations without sharing keys</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="news is-medium">
     <div class="has-text-centered">
       <div class="container">
@@ -171,370 +120,636 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
     </div>
   </section>
 
-<section class="newsbar is-medium is-light">
-    <div class="has-text-centered">
-      <div class="container">
-        <div class="columns is-vcentered">
-          <div class="column is-one-third video-text">
-            <p class="is-size-4 is-size-5-mobile">New to SPIFFE and SPIRE? Learn the basics in 10 minutes.</p>
-          </div>
-          
-          <div class="column is-paddingless video-wrapper">
-            <br>
-            <div class="embed-container">
-              <iframe src="https://www.youtube.com/embed/Q2SiGeebRKY" frameborder="0"></iframe>
+
+<section class="hero is-medium is-light">
+  <div class="hero-body is-flex is-align-items-center is-columns-centered p-3 flex-column-mobile-reverse">
+    <div class="">
+      <div class="text-container">
+        <h4 class="title is-2 is-size-4-mobile">Universal identity control plane for distributed systems</h4>
+        <p class="subtitle is-5 subtitle-text">SPIFFE and SPIRE provide strongly attested, cryptographic identities to workloads across a wide variety of platforms</p>
+        <div class="flex">
+          <a href="/spiffe">
+            <button class="button is-medium is-dark">Get started</button>
+          </a>
+          <a href="/downloads">
+            <button class="button is-medium is-dark">Download</button>
+          </a>
+        </div>
+    </div>
+    </div>
+    
+    <div class="container has-text-centered spiffe-bg">
+      <img src="/img/spiffe-turtle.svg" alt="spiffe turtle" class="spiffe-turtle">
+    </div>
+  </div>
+</section>
+
+
+<section class="section has-text-centered">
+        <h2 class="title is-size-3-mobile is-spaced">
+          Used By
+        </h2>
+        <div id="infinite" class="image-slider">
+          <div class="container image-barrier">
+            <div class="grid is-space-between margin-md-top-bottom-mobile image-lane">
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.amazon.com/">
+    <img src="/img/logos/Amazon-logo.svg" class="image" alt="Amazon logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.anthem.com/">
+    <img src="/img/logos/Anthem-Inc.-logo.svg" class="image" alt="Anthem logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.arm.com/">
+    <img src="/img/logos/ARM-architecture-logo.svg" class="image" alt="Arm logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.bloomberg.com/">
+    <img src="/img/logos/Bloomberg-L.P.-logo.svg" class="image" alt="Bloomberg logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.cisco.com/">
+    <img src="/img/logos/Cisco-Systems-logo.svg" class="image" alt="Cisco Systems logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.duke-energy.com/">
+    <img src="/img/logos/Duke_Energy_logo.svg" class="image" alt="Duke Energy logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.google.com/">
+    <img src="/img/logos/Google-logo.svg" class="image" alt="Google logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.hashicorp.com/">
+    <img src="/img/logos/HashiCorp-logo.svg" class="image" alt="Hashicorp logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.hpe.com/us/en/home.html">
+    <img src="/img/logos/Hewlett-Packard-Enterprise-logo.svg" class="image" alt="Hewlett-Packard Enterprise logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.ibm.com/us-en/">
+    <img src="/img/logos/IBM-logo.svg" class="image" alt="IBM logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.indeed.com/">
+    <img src="/img/logos/Indeed_logo.svg" class="image" alt="Indeed logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.intel.com/content/www/us/en/homepage.html">
+    <img src="/img/logos/Intel-logo.svg" class="image" alt="Intel logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.netflix.com/">
+    <img src="/img/logos/Netflix-logo.svg" class="image" alt="Netflix logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.sap.com/">
+    <img src="/img/logos/SAP-SE-logo.svg" class="image" alt="SAP logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://wise.com/">
+    <img src="/img/logos/TransferWise-logo.svg" class="image" alt="TransferWise logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.twilio.com/">
+    <img src="/img/logos/Twilio-logo.svg" class="image" alt="Twilio logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.uber.com/">
+    <img src="/img/logos/Uber-logo.svg" class="image" alt="Uber logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://unity.com/">
+    <img src="/img/logos/Unity-Technologies-logo.svg" class="image" alt="Unity Technologies logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.vmware.com/">
+    <img src="/img/logos/VMware-Inc.-logo.svg" class="image" alt="VMware logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.yahoo.com/">
+    <img src="/img/logos/Yahoo-logo.svg" class="image" alt="Yahoo logo">
+  </a>
+</div>
+
+
+
+                
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.amazon.com/">
+    <img src="/img/logos/Amazon-logo.svg" class="image" alt="Amazon logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.anthem.com/">
+    <img src="/img/logos/Anthem-Inc.-logo.svg" class="image" alt="Anthem logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.arm.com/">
+    <img src="/img/logos/ARM-architecture-logo.svg" class="image" alt="Arm logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.bloomberg.com/">
+    <img src="/img/logos/Bloomberg-L.P.-logo.svg" class="image" alt="Bloomberg logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.cisco.com/">
+    <img src="/img/logos/Cisco-Systems-logo.svg" class="image" alt="Cisco Systems logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.duke-energy.com/">
+    <img src="/img/logos/Duke_Energy_logo.svg" class="image" alt="Duke Energy logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.google.com/">
+    <img src="/img/logos/Google-logo.svg" class="image" alt="Google logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.hashicorp.com/">
+    <img src="/img/logos/HashiCorp-logo.svg" class="image" alt="Hashicorp logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.hpe.com/us/en/home.html">
+    <img src="/img/logos/Hewlett-Packard-Enterprise-logo.svg" class="image" alt="Hewlett-Packard Enterprise logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.ibm.com/us-en/">
+    <img src="/img/logos/IBM-logo.svg" class="image" alt="IBM logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.indeed.com/">
+    <img src="/img/logos/Indeed_logo.svg" class="image" alt="Indeed logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.intel.com/content/www/us/en/homepage.html">
+    <img src="/img/logos/Intel-logo.svg" class="image" alt="Intel logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.netflix.com/">
+    <img src="/img/logos/Netflix-logo.svg" class="image" alt="Netflix logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.sap.com/">
+    <img src="/img/logos/SAP-SE-logo.svg" class="image" alt="SAP logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://wise.com/">
+    <img src="/img/logos/TransferWise-logo.svg" class="image" alt="TransferWise logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.twilio.com/">
+    <img src="/img/logos/Twilio-logo.svg" class="image" alt="Twilio logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.uber.com/">
+    <img src="/img/logos/Uber-logo.svg" class="image" alt="Uber logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://unity.com/">
+    <img src="/img/logos/Unity-Technologies-logo.svg" class="image" alt="Unity Technologies logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.vmware.com/">
+    <img src="/img/logos/VMware-Inc.-logo.svg" class="image" alt="VMware logo">
+  </a>
+</div>
+
+
+                
+<div class="img-container-sm image-item">
+  <a href="https://www.yahoo.com/">
+    <img src="/img/logos/Yahoo-logo.svg" class="image" alt="Yahoo logo">
+  </a>
+</div>
+
+
             </div>
+          </div>
+        </div>
+</section>
+
+<section class="section has-text-centered">
+    <h2 class="title">Overview</h2>
+    <p class="container is-size-4 is-size-5-mobile margin-md-top-bottom-mobile">SPIFFE and SPIRE provide a uniform identity control plane across modern and heterogeneous infrastructure. Since software and application architectures have grown substantially, they are spread across virtual machines in public clouds and private data centers. Security models for the organizations that manage them must keep up with these infrastructure technologies. And this is where SPIFFE and SPIRE come in. With SPIFFE/SPIRE, developers and operators can build software using new infrastructure technologies, while allowing security teams to step back from time-consuming security processes.</p>
+</section>
+<section class="section has-text-centered use-cases">
+  <h2 class="title">Key Use Cases</h2>
+  <div class="container margin-md-top-bottom-mobile">
+    <div class="columns is-variable is-6">
+      <div class="column content is-medium fullwidth-mobile">
+        <div class="image">
+          <img src="/img/usecases/uc1-secure.svg" alt="image describing secured microservices"/>
+        </div>
+        <p>
+          Secure microservices communication automatically with Envoy, X.509
+          PKI, or JWT
+        </p>
+      </div>
+      <div class="column content is-medium fullwidth-mobile">
+        <div class="image">
+          <img src="/img/usecases/uc2-svcs.svg" alt="image describing secured authentication"/>
+        </div>
+        <p>
+          Authenticate securely to common databases or platforms without
+          passwords or API keys
+        </p>
+      </div>
+      <div class="column content is-medium fullwidth-mobile">
+        <div class="image">
+          <img src="/img/usecases/uc3-mesh.svg" alt="image illustrating service mesh connections"/>
+        </div>
+        <p>
+          Build, bridge, and extend service mesh across organizations without
+          sharing keys
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container width-md fullwidth-mobile">
+    <div class="columns is-variable is-6">
+      <div class="column content is-medium fullwidth-mobile">
+        <div class="image">
+          <img src="/img/usecases/cross_service_auth.svg" alt="image describing cross service authentication"/>
+        </div>
+        <p>
+          Cross-service authentication for zero trust security model
+        </p>
+      </div>
+
+      <div class="column content is-medium fullwidth-mobile">
+        <div class="image">
+          <img src="/img/usecases/k8s_bridge.svg" alt="image describing the relationship between Kubernetes and other platforms"/>
+        </div>
+        <p>
+          Bridging the gap between Kubernetes and other platforms
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section has-text-centered">
+    <h2 class="title is-size-3-mobile is-spaced">
+        Integrations & Implementations
+    </h2>
+    <div class="is-flex is-space-between margin-md-top-bottom">
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/Amazon-Web-Services-logo.svg" class="image" alt="AWS logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/azure.png" class="image" alt="Azure logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/cert-manager.png" class="image" alt="cert-manager CSI driver logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/Dapr_logo.svg" class="image" alt="Dapr logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/google-cloud.png" class="image" alt="GCP logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/consul.svg" class="image" alt="HashiCorp Consul logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/istio.svg" class="image" alt="Istio logo">
+  </a>
+</div>
+
+
+        
+<div class="img-container-sm image-item">
+  <a href="">
+    <img src="/img/logos/Kubernetes_logo.png" class="image" alt="Kubernetes logo">
+  </a>
+</div>
+
+
+    </div>
+</section> 
+
+<section class="newsbar slideshow-container is-medium is-light">
+  <div class="has-text-centered mySlides fade">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-one-third video-text">
+          <p class="is-size-4 is-size-5-mobile">
+            New to SPIFFE and SPIRE? Learn the basics in 10 minutes.
+          </p>
+        </div>
+
+        <div class="column is-paddingless video-wrapper">
+          <br />
+          <div class="embed-container">
+            <iframe
+              src="https://www.youtube.com/embed/Q2SiGeebRKY"
+              frameborder="0"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-
-<section class="section what-is">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-9">
-        <p class="title is-size-3 is-size-4-mobile has-text-white-bis">
-          What is SPIFFE?
-        </p>
-
-        <p class="is-size-5 is-size-6-mobile">
-          <strong>SPIFFE</strong>, the Secure Production Identity Framework For Everyone, provides a secure identity, in the form of a specially crafted X.509 certificate, to every workload in a modern production environment. SPIFFE removes the need for application-level authentication and complex network-level ACL configuration. &#8226; <strong><a href="/docs/latest/spiffe/overview/">Read more</a></strong>
-        </p>
-      </div> 
-
-      <div class="column has-text-right is-hidden-mobile">
-        <img class="is-home-desktop-logo" src="/img/logos/spiffe/icon/color/spiffe-icon-color.png">
-      </div> 
-    </div> 
-
-    <div class="columns is-hidden-tablet">
-      <div class="column has-text-centered">
-        <img class="is-home-mobile-logo" src="/img/logos/spiffe/icon/color/spiffe-icon-color.png">
-      </div> 
-    </div> 
-
-    <hr class="is-large has-background-grey">
-
-    <div class="columns is-vcentered">
-      <div class="column has-text-left is-hidden-mobile">
-        <img class="is-home-desktop-logo" src="/img/logos/spire/icon/color/spire-icon-color.png">
-      </div> 
-
-      <div class="column is-9 has-text-right">
-        <p class="title is-size-3 is-size-4-mobile has-text-white-bis">
-          What is SPIRE?
-        </p>
-
-        <p class="is-size-5 is-size-6-mobile">
-          <strong>SPIRE</strong>, the SPIFFE Runtime Environment, is an extensible system that implements the principles embodied in the SPIFFE standards. SPIRE manages platform and workload attestation, provides an API for controlling attestation policies, and coordinates certificate issuance and rotation. &#8226; <strong><a href="/docs/latest/spire/understand/concepts/">Read more</a></strong>
-        </p>
-      </div> 
-    </div> 
-
-    <div class="columns is-hidden-tablet">
-      <div class="column has-text-centered is-hidden-tablet">
-        <img class="is-home-mobile-logo" src="/img/logos/spire/icon/color/spire-icon-color.png">
-      </div> 
-    </div> 
-  </div> 
-</section> 
-
-<section class="newsbar is-medium is-light">
-  <div class="has-text-centered">
+  <div class="has-text-centered mySlides fade">
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-half">
           <p class="is-size-5 is-size-6-mobile">
-            In this book, security experts and SPIFFE community members provide a deep understanding of the identity
-            problem and how to solve it. &#8226; <strong><a href="book/">Read more</a></strong>
+            In this book, security experts and SPIFFE community members provide
+            a deep understanding of the identity problem and how to solve it.
+            &#8226; <strong><a href="book/">Read more</a></strong>
           </p>
         </div>
         <div class="column stretch">
           <a href="book/">
-            <img src="../img/book_cover.png" alt="Book cover" class="book-cover small" />
+            <img
+              src="../img/book_cover.png"
+              alt="Book cover"
+              class="book-cover small"
+            />
           </a>
         </div>
       </div>
     </div>
+  </div>
+
+  
+  <div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</section>
+
+
+<section class="section">
+  <h2 class="title has-text-centered">Deep Dive</h2>
+  <div class="columns is-flex margin-md-top-bottom is-columns-centered is-align-items-center width-md fullwidth-mobile flex-column-mobile">
+      <div class="column">
+          <div class="img-container-lg">
+              <img src="/img/logos/spiffe/icon/color/spiffe-icon-color.png" alt="spiffe logo">
+          </div>
+      </div>
+      <div class="text-container column content is-medium fullwidth-mobile">
+          SPIFFE, the Secure Production Identity Framework For Everyone (SPIFFE) Project defines a framework and set of standards for identifying and securing communications between application services.
+      </div>
+  </div>
+  <div class="columns is-flex margin-md-top-bottom is-columns-centered is-align-items-center width-md fullwidth-mobile flex-column-mobile">
+      <div class="column">
+          <div class="img-container-lg">
+              <img src="/img/logos/spire/icon/color/spire-icon-color.png" alt="Spire logo">
+          </div>
+      </div>
+      <div class="text-container column content is-medium fullwidth-mobile">
+          SPIRE (the SPIFFE Runtime Environment) is a toolchain of APIs for establishing trust between software systems across a wide variety of hosting platforms.
+      </div>
+  </div>
+  <div class="has-text-centered">
+    <a href="/spiffe">
+      <button class="button is-medium btn-wide is-dark margin-md-top-bottom">LEARN</button>
+    </a>
+  </div>
 </section>
 
 <section class="section">
-  <div class="container">
-    <p class="title is-size-2 is-size-3-mobile is-spaced">
-      Who uses SPIFFE?
-    </p>
-
-    <p class="subtitle is-size-4 is-size-5-mobile">
-      SPIFFE is currently used by a variety of projects that both <strong>issue</strong> and <strong>consume</strong> SPIFFE IDs.
-    </p>
-
-    <br />
-
-    <div class="columns is-variable is-6">
-      <div class="column content is-medium">
-        <h2>
-          Issuers
-        </h2>
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="/docs/latest/spire/understand/concepts/">
-            <img src="/img/logos/spire/icon/color/spire-icon-color.png">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="/docs/latest/spire/understand/concepts/">
-            The SPIRE project
-          </a>
-        </h3>
-
-        SPIRE is an open-source toolchain that implements the SPIFFE specification in a wide variety of environments
-        <a href="/docs/latest/spire/understand/concepts/">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="/docs/latest/spire/understand/concepts/">
-            <img src="/img/logos/spire/icon/color/spire-icon-color.png">
-          </a>
+    <h2 class="title has-text-centered">Benefits</h2>
+    <div class="is-flex width-lg is-columns-centered gap-md">
+        <div class="img-long is-hidden-mobile">
+            <img src="/img/benefits/spiffe_benefits.svg" alt="">
         </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://istio.io/latest/docs/concepts/security/#pki">
-            <img src="/img/logos/istio.svg">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://istio.io/latest/docs/concepts/security/#pki">
-            Istio
-          </a>
-        </h3>
-
-        The Istio control plane issues SPIFFE IDs for all workloads
-        <a href="https://istio.io/latest/docs/concepts/security/#pki">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://istio.io/latest/docs/concepts/security/#pki">
-            <img src="/img/logos/istio.svg">
-          </a>
+        <div class="fullwidth">
+            <div class="is-flex margin-md-top-bottom is-align-items-center gap-sm">
+                <div class="img-container-xsm">
+                    <img src="/img/benefits/defense_icon.png" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Enable defense in depth</h4>
+                    <p>Provide strongly attested identities to reduce the likelihood of breach through credential comprise</p>
+                </div>
+            </div>
+            <div class="is-flex margin-md-top-bottom is-align-items-center gap-sm">
+                <div class="img-container-xsm">
+                    <img src="/img/benefits/operation_complexity.png" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Reduce operational complexity</h4>
+                    <p>Consistent, automated management of identity reduces the burden of devops teams</p>
+                </div>
+            </div>
+            <div class="is-flex margin-md-top-bottom is-align-items-center gap-sm">
+                <div class="img-container-xsm">
+                    <img src="/img/benefits/interoperability.png" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Interoperability</h4>
+                    <p>Simplifies the technical aspects of full interoperability across multiple stacks</p>
+                </div>
+            </div>
+            <div class="is-flex margin-md-top-bottom is-align-items-center gap-sm">
+                <div class="img-container-xsm">
+                    <img src="/img/benefits/compliance.png" alt="">
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Compliance and auditability</h4>
+                    <p>Enables mutually authenticated TLS and multiple roots of trust to meet regulatory requirements</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://www.consul.io/segmentation.html">
-            <img src="/img/logos/consul.svg">
+    </div>
+    <div class="has-text-centered margin-md-top-bottom">
+        <a href="/spiffe">
+            <button class="button is-medium is-dark">Get started</button>
           </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://www.consul.io/segmentation.html">
-            HashiCorp Consul
+          <a href="/downloads">
+            <button class="button is-medium is-dark">Download</button>
           </a>
-        </h3>
-
-        The Consul Connect service mesh uses the SPIFFE specification for establishing service identities, enabling Consul Connect services to connect with other SPIFFE-compliant systems
-        <a href="https://www.consul.io/segmentation.html">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://www.consul.io/segmentation.html">
-            <img src="/img/logos/consul.svg">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://kuma.io">
-            <img src="/img/logos/kuma.svg">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://kuma.io">
-            Kuma
-          </a>
-        </h3>
-
-        Kuma automatically generates SPIFFE-compatible certificates that identify all the services and workloads running in the service mesh, and encrypts all the traffic generated between them
-        <a href="https://kuma.io">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://kuma.io">
-            <img src="/img/logos/kuma.svg">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://github.com/cert-manager/csi-driver-spiffe">
-            <img src="/img/logos/cert-manager.png">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://github.com/cert-manager/csi-driver-spiffe">
-            cert-manager CSI driver
-          </a>
-        </h3>
-
-        csi-driver-spiffe is a cert-manager project that delivers SPIFFE compliant X.509-SVIDs to Kubernetes Pods using CSI, based on the identity of the mounting ServiceAccount.
-        <a href="https://github.com/cert-manager/csi-driver-spiffe">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://github.com/cert-manager/csi-driver-spiffe">
-            <img src="/img/logos/cert-manager.png">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-      </div> 
-
-      <div class="column content is-medium">
-        <h2>
-          Consumers
-        </h2>
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
-            <img src="/img/logos/envoy.svg">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
-            The Envoy proxy
-          </a>
-        </h3>
-
-        Customers can use SPIFFE IDs to establish <a href="https://en.wikipedia.org/wiki/Mutual_authentication#mTLS">mTLS</a> connections between Envoy proxies
-        <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://blog.envoyproxy.io/securing-the-service-mesh-with-spire-0-3-abb45cd79810">
-            <img src="/img/logos/envoy.svg">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
-            <img src="/img/logos/pinterest.png">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
-            Pinterest Knox
-          </a>
-        </h3>
-
-        Customers can authenticate to Knox with SPIFFE IDs
-        <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://medium.com/@Pinterest_Engineering/secret-management-in-multi-tenant-environments-debc9236a744">
-            <img src="/img/logos/pinterest.png">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-        
-<div class="card">
-  <div class="card-content">
-    <article class="media">
-      <figure class="media-left is-hidden-mobile">
-        <p class="image is-64x64">
-          <a href="https://github.com/square/ghostunnel">
-            <img src="/img/logos/square.jpg">
-          </a>
-        </p>
-      </figure>
-      <div class="media-content">
-        <h3>
-          <a class="has-text-dark" href="https://github.com/square/ghostunnel">
-            The Ghostunnel proxy
-          </a>
-        </h3>
-
-        Customers can use SPIFFE IDs to establish <a href="https://en.wikipedia.org/wiki/Mutual_authentication#mTLS">mTLS</a> connections between Ghostunnel proxies with built-in support for obtaining X.509-SVID identities via the <a href="/docs/latest/spiffe-about/spiffe-concepts/#spiffe-workload-api">SPIFFE Workload API</a>
-        <a href="https://github.com/square/ghostunnel">Read more</a>
-
-        <div class="is-user-mobile-logo is-hidden-tablet">
-          <a href="https://github.com/square/ghostunnel">
-            <img src="/img/logos/square.jpg">
-          </a>
-        </div>
-      </div>
-    </article>
-  </div>
-</div>
-
-      </div> 
-    </div> 
-  </div> 
-</section> 
-
+    </div>
+</section>
 
 <section class="section has-text-centered">
   <div class="container">
@@ -550,84 +765,22 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
     </main>     
 
 <footer class="footer has-background-dark">
-  <div class="container">
-    <img class="is-footer-logo" src="/img/logos/spiffe/horizontal/white/spiffe-horizontal-white.png">
-
-    <hr class="is-large has-background-grey-light">
-
-    <div class="columns">
-
-      <div class="column">
-        <p class="title is-size-4 has-text-white-bis">
-          Community
-        </p>
-
-        <div class="buttons">
-          <a class="button is-white" href="https://blog.spiffe.io/">
-            <span class="icon">
-              <i class="fab fa-medium"></i>
-            </span>
-            <span>
-              Blog
-            </span>
-          </a>
-
-          <a class="button is-twitter-blue" href="https://twitter.com/SPIFFEio">
-            <span class="icon">
-              <i class="fab fa-twitter"></i>
-            </span>
-            <span>
-              Twitter
-            </span>
-          </a>
-
-          <a class="button is-white" href="https://github.com/spiffe">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
-            <span>
-              GitHub
-            </span>
-          </a>
-
-          <a class="button is-slack-green" href="https://slack.spiffe.io/">
-            <span class="icon">
-              <i class="fab fa-slack"></i>
-            </span>
-            <span>
-              Slack
-            </span>
-          </a>
-
-          <a class="button is-stack-overflow-orange" href="https://stackoverflow.com/questions/tagged/spiffe">
-            <span class="icon">
-              <i class="fab fa-stack-overflow"></i>
-            </span>
-            <span>
-              StackOverflow
-            </span>
-          </a>
-
-          <a class="button is-youtube-red" href="https://www.youtube.com/channel/UCVzeW7j02FDNggkI5JKPvJg/f">
-            <span class="icon">
-              <i class="fab fa-youtube"></i>
-            </span>
-            <span>
-              YouTube
-            </span>
-          </a>
-
-        </div>
-      </div>
+  <div class="container is-flex is-space-between is-columns-stacked-mobile">
+    <div class="column">
+      <a href="/">
+        <img class="is-footer-logo" src="/img/logos/spiffe/horizontal/white/spiffe-horizontal-white.png">
+      </a>
+    </div>
+    <div class="has-text-centered py-2 order-sm-2 column">
+      <a href="https://www.linuxfoundation.org/terms" target="_blank" rel="noopener">Terms</a> |
+      <a href="https://www.linuxfoundation.org/privacy" target="_blank" rel="noopener">Privacy</a> |
+      <a href="https://www.linuxfoundation.org/trademark-usage" target="_blank" rel="noopener">Trademarks</a> |
+      <a href="https://github.com/spiffe/spiffe.io/tree/master/LICENSE" target="_blank" rel="noopener">License</a>
     </div>
 
-    <br />
-
-    <section class="has-text-centered">
-      <span class="has-text-grey-lighter">
+    <div class="column has-text-grey-lighter copyright">
         &copy; 2023 The SPIFFE authors
-      </span>
-    </section>
+    </div>
   </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.7.0/tocbot.min.js"></script>
@@ -635,6 +788,7 @@ X-Nf-Request-Id: 01GT2ZWQAA48SBS894Q3Q4JF40
 <script src="/js/clipboard-2.0.0.min.7380537dbe37c039bf72de37aa10f732ca0712daf47483baee10016c2082d9d1.js"></script>
 <script src="/js/anchor-4.1.1.min.3231b81e93880d1db128c90bbea3b3540c38b614ddba93b568ca2d9092a385db.js"></script>
 <script src="/js/app.min.617a05c100ed36a2346c25067114dbd48e917ccf7bb370a378b95a03e7391fcc.js"></script>
+<script src="/js/slider.min.f92d330d81618514c6cf222f52373aaeabc71ed77029f6f8de943119eca03366.js"></script>
 
     
 <script type="application/javascript">

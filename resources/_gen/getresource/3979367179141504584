@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cache-Control: public, max-age=16070400, must-revalidate
-Cf-Cache-Status: EXPIRED
-Cf-Ray: 79ec5ae37c03275c-SEA
+Cf-Cache-Status: REVALIDATED
+Cf-Ray: 7a2b951feae1c382-SEA
 Content-Security-Policy: default-src 'none'; base-uri 'self'; form-action 'self'; connect-src 'self' https://api.github.com; font-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self';
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 25 Feb 2023 00:34:24 GMT
-Etag: "e8fba1e064fbbb9966f9f9e19733ec50-ssl-df"
+Date: Sat, 04 Mar 2023 16:44:12 GMT
+Etag: "8572ba1733b6889b5bd1a99ad245b82b-ssl-df"
 Expect-Ct: max-age=86400, enforce
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: same-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ot%2FehyZWyxkSEr8eViHk%2BKcFu70fAhZkrfO7Q8xoIOrP43RSG5bX5MPQOtLFT6awx5znYxE%2FH8tIJBbI%2BAi%2Fx%2BMDJa3KFOwGi0XHcgPrLdGZboRBr7Vgqh6PR1xOlQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GyBGJ1RObej6UarZ4MsHbv93rhVyZ2Uk%2BbN0m3joB7UuzUIidUUKJrPUAs%2BAN1Yjb7wcbwKrlBpgI%2FkeD3fe%2Bg48H5Msi7YkCaxvmzKb0TSfKP1%2BQReHlaLwNzIoRA%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Nf-Request-Id: 01GT2ZW2N6S6D8TQ2ACXCPRE74
+X-Nf-Request-Id: 01GTJGSKMSP406CJBH2WC3VJ0X
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -53,6 +53,7 @@ X-Xss-Protection: 1; mode=block
   <link rel="alternate" hreflang="en" href="https://azuriom.com/en/">
   <link rel="alternate" hreflang="id" href="https://azuriom.com/id/">
   <link rel="alternate" hreflang="nl" href="https://azuriom.com/nl/">
+  <link rel="alternate" hreflang="pt-br" href="https://azuriom.com/pt-br/">
   <link rel="alternate" hreflang="de" href="https://azuriom.com/de/">
   <link rel="alternate" hreflang="uk" href="https://azuriom.com/uk/">
   <link rel="alternate" hreflang="zh-cn" href="https://azuriom.com/zh-cn/">
@@ -232,6 +233,11 @@ X-Xss-Protection: 1; mode=block
                         <a class="dropdown-item" data-locale="nl" href="https://azuriom.com/nl/">
                             <img src="https://azuriom.com/assets/svg/country/nl.svg" class="svg" alt="Nederlands">
                             Nederlands
+                        </a>
+                        
+                        <a class="dropdown-item" data-locale="pt-br" href="https://azuriom.com/pt-br/">
+                            <img src="https://azuriom.com/assets/svg/country/br.svg" class="svg" alt="Brasil">
+                            Brasil
                         </a>
                         
                         <a class="dropdown-item" data-locale="de" href="https://azuriom.com/de/">
