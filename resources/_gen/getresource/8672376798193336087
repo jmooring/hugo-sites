@@ -1,10 +1,11 @@
 HTTP/2.0 200 OK
-Age: 318972
+Accept-Ranges: bytes
+Age: 223028
 Cache-Control: public, max-age=0, must-revalidate
 Content-Security-Policy: default-src 'none'; font-src 'self'; style-src 'unsafe-inline' 'self'; script-src 'unsafe-eval' 'unsafe-inline' 'self' data: https://www.google-analytics.com https://www.googleadservices.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://donorbox.org https://js.stripe.com/v3/ https://sdks.shopifycdn.com https://www.paypal.com https://static.elevate.salesforce.org ; img-src 'self' data: blob: https://www.google-analytics.com https://www.paypal.com https://www.paypalobjects.com https://ak2s.abmr.net https://ak1s.abmr.net https://www.google.com https://cdn.shopify.com https://v.shopify.com ; frame-src https://donorbox.org https://www.youtube.com https://www.youtube-nocookie.com https://bid.g.doubleclick.net https://js.stripe.com/v3/ https://js.stripe.com/v2/ https://www.paypal.com https://pages.elevate.salesforce.org/ https://outreach.abetterinternet.org ; connect-src 'self' https://d4twhgtvn0ff5.cloudfront.net/ https://letsencrypt-merch.myshopify.com https://monorail-edge.shopifysvc.com https://www.paypal.com ;
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 01 Mar 2023 00:07:56 GMT
-Etag: "798150fda8dc6a3c88bde56f23366114-ssl-df"
+Date: Mon, 03 Apr 2023 00:10:27 GMT
+Etag: "05692216ea4982781ae29fa148952e8d-ssl-df"
 Permissions-Policy: geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(self), vibrate=(), fullscreen=(self), interest-cohort=()
 Referrer-Policy: no-referrer
 Server: Netlify
@@ -12,7 +13,7 @@ Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01GTPR4RW77S2S3GCSFQ3WGJSF
+X-Nf-Request-Id: 01GX8VX3V5EJS2CBCWQA9HA0VZ
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -343,6 +344,17 @@ X-Xss-Protection: 1; mode=block
                 
                 
                   <li>
+                    <span class="post-meta">Mar 23, 2023</span>
+                    <h2>
+                      <a class="post-link" href="/2023/03/23/improving-resliiency-and-reliability-with-ari.html" hreflang="en-US">Improving Resiliency and Reliability for Let’s Encrypt with ARI</a>
+                    </h2>
+                    
+                      The ACME Renewal Information (ARI) protocol extension enables certificate revocation and renewal at scale.
+                    
+                    <p><a href="/2023/03/23/improving-resliiency-and-reliability-with-ari.html" hreflang="en-US">Read more</a></p>
+                  </li>
+                
+                  <li>
                     <span class="post-meta">Jan 19, 2023</span>
                     <h2>
                       <a class="post-link" href="/2023/01/19/renewing-sponsors.html" hreflang="en-US">Thank you to our 2023 renewing sponsors</a>
@@ -384,17 +396,6 @@ X-Xss-Protection: 1; mode=block
                       It&rsquo;s been an exciting year for ISRG and its projects: from Let&rsquo;s Encrypt issuing its three billionth certificate to Prossimo supporting the efforts to get Rust into the Linux kernel.
                     
                     <p><a href="/2022/12/05/ed-letter-2022.html" hreflang="en-US">Read more</a></p>
-                  </li>
-                
-                  <li>
-                    <span class="post-meta">Sep 12, 2022</span>
-                    <h2>
-                      <a class="post-link" href="/2022/09/12/remembering-peter-eckersley.html" hreflang="en-US">Remembering Peter Eckersley</a>
-                    </h2>
-                    
-                      Peter Eckersley, a Let’s Encrypt co-founder, passed away unexpectedly on September 2, 2022.
-                    
-                    <p><a href="/2022/09/12/remembering-peter-eckersley.html" hreflang="en-US">Read more</a></p>
                   </li>
                 
               </ul>
@@ -577,6 +578,8 @@ X-Xss-Protection: 1; mode=block
               <a href="https://www.4kdownload.com/-1uvr6/video-downloader"  ><img src="/images/sponsors/small/4kdownload-logo.png" alt="Video Downloader" width="80" height="48" class="sponsor-logo-small"></a>
 
               <a href="https://www.vpsserver.com/"  ><img src="/images/sponsors/small/VPSServer-logo.svg" alt="VPSServer.com" width="80" height="48" class="sponsor-logo-small"></a>
+
+              <a href="https://www.entri.com/"  ><img src="/images/sponsors/small/entri-logo.svg" alt="Entri" width="80" height="48" class="sponsor-logo-small"></a>
 
             </div>
           </div>

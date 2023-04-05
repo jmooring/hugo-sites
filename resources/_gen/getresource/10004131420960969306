@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7a2b95015f3cc37b-SEA
+Cf-Ray: 7b325babbbf0ebcb-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Sat, 04 Mar 2023 16:44:07 GMT
-Last-Modified: Fri, 03 Mar 2023 21:57:13 GMT
+Date: Wed, 05 Apr 2023 14:07:34 GMT
+Last-Modified: Tue, 04 Apr 2023 21:22:08 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -62,7 +62,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.6982ccec3e770fa6c0502ac34e2aad0875a091969b9a286ed6343fd95003b29a.css">
+<link rel="stylesheet" href="/main.min.44b1d566ac978b84654c80d5129bea1a6fde9f086ccb1c50e3dfc951c5436d12.css">
 
 </head>
 
@@ -342,23 +342,17 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="22-february-2023">22 February 2023</h3>
+<h3 id="30-march-2023">30 March 2023</h3>
 <ul><li>
-            <p><p>Premium Intel CPUs are now available for CPU-Optimized Droplets. You can create CPU-Optimized Droplets with Premium Intel CPUs in NYC1, NYC3, FRA1, AMS3, SFO3, and SYD1.</p>
-<p>Compared to CPU-Optimized Droplets with Regular Intel CPUs, CPU-Optimized Droplets with Premium Intel CPUs have the latest hardware and five times more network throughput.</p>
-<p>Additionally, for a promotional period from 1 February through 30 April 2023, we will not bill for outbound data transfer at speeds faster than 2 Gbps for CPU-Optimized Droplets with Premium Intel CPUs. <a href="/products/billing/bandwidth/">Learn more about bandwidth billing.</a></p>
-<p>You can use this plan for both standalone Droplets and Kubernetes nodes. You can also resize your existing Droplets to this node plan.</p>
+            <p><p>You can now <a href="/products/app-platform/how-to/url-rewrites/">remap and redirect URL paths</a> in your apps on App Platform. For example, if you have the existing path <code>/your-app/api/functions/js/post</code> in your app, you can create a rewrite that masks that path with the simpler path, <code>/your-app/api/post</code>. Or you can redirect traffic from a specified path to a different URL on the internet.</p>
+<p>Additionally, app routing information is now specified under the <code>ingress</code> stanza of <a href="/products/app-platform/reference/app-spec/">app specs</a>.</p>
 </p>
-        </li></ul><h3 id="2-february-2023">2 February 2023</h3>
+        </li></ul><h3 id="27-march-2023">27 March 2023</h3>
 <ul><li>
-            <p>Newer Spaces buckets now have an improved limit of 800 total operations per second. To check whether a bucket has this new limit, see our <a href="/products/spaces/details/limits/#rate-limits">Spaces rate limits</a>.</p>
-        </li></ul><h3 id="24-january-2023">24 January 2023</h3>
+            <p>The largest CPU-Optimized Droplet plan is now available in BLR1.</p>
+        </li></ul><h3 id="24-march-2023">24 March 2023</h3>
 <ul><li>
-            <p><p>We have deprecated our legacy load balancer scaling system in all datacenter regions. This includes the deprecation of the <code>do-loadbalancer-size-slug</code> annotation for DigitalOcean Kubernetes load balancers.</p>
-<p><a href="/products/networking/load-balancers/how-to/scale/">Horizontal scaling</a> is now available in all regions.</p>
-</p>
-        </li><li>
-            <p>Starting on 1 March 2023, Spaces will automatically delete any incomplete <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html">Multipart Uploads</a> older than 90 days, to prevent them from being billed and to free up storage.</p>
+            <p>We have extended the promotional period for CPU-Optimized Droplets with Premium Intel CPUs (no billing for outbound data transfer at speeds faster than 2 Gbps) from 30 April 2023 to 30 June 2023. <a href="/products/billing/bandwidth/">Learn more about bandwidth billing.</a></p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

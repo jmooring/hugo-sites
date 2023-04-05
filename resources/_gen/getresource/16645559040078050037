@@ -1,13 +1,14 @@
 HTTP/2.0 200 OK
-Age: 50478
+Accept-Ranges: bytes
+Age: 0
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 02:43:11 GMT
-Etag: "61f0e969a2a57e8825cc138a7e486ec1-ssl-df"
+Date: Wed, 05 Apr 2023 14:07:45 GMT
+Etag: "3e2dc0d45c4add95e496205b7ab1bffd-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GTPR5CJ4NXXMXQ1FQ4C0VNBY
+X-Nf-Request-Id: 01GX8VXDM1JR1BAXE2BG2HB255
 
 <!doctype html><html lang=en-us>
 <head>
@@ -57,9 +58,9 @@ X-Nf-Request-Id: 01GTPR5CJ4NXXMXQ1FQ4C0VNBY
 <i class="fas fa-search"></i>
 </span>
 </p></div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
-<a class="navbar-link is-arrowless" href=/docs/2.9/scalers>Scalers</a>
+<a class="navbar-link is-arrowless" href=/docs/2.10/scalers>Scalers</a>
 </div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
-<a class="navbar-link is-arrowless" href=/docs/2.9>
+<a class="navbar-link is-arrowless" href=/docs/2.10>
 <span>
 Docs
 </span>
@@ -68,42 +69,42 @@ Docs
 </span>
 </a>
 <div class="navbar-dropdown is-radiusless">
-<a class=navbar-item href=/docs/2.9/deploy>
+<a class=navbar-item href=/docs/2.10/deploy>
 <span>
 Deploying KEDA
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/concepts/>
+<a class=navbar-item href=/docs/2.10/concepts/>
 <span>
 Concepts
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/authentication-providers/>
+<a class=navbar-item href=/docs/2.10/authentication-providers/>
 <span>
 Authentication providers
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/concepts/#architecture>
+<a class=navbar-item href=/docs/2.10/concepts/#architecture>
 <span>
 Architecture
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/operate/>
+<a class=navbar-item href=/docs/2.10/operate/>
 <span>
 Operate
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/migration/>
+<a class=navbar-item href=/docs/2.10/migration/>
 <span>
 Migration Guide
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/faq/>
+<a class=navbar-item href=/docs/2.10/faq/>
 <span>
 FAQ
 </span>
 </a>
-<a class=navbar-item href=/docs/2.9/troubleshooting/>
+<a class=navbar-item href=/docs/2.10/troubleshooting/>
 <span>
 Troubleshooting
 </span>
@@ -270,7 +271,7 @@ Kubernetes Event-driven Autoscaling
 Application autoscaling made simple
 </p><br>
 <div class=buttons>
-<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/concepts>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.10/concepts>
 <span class="icon has-text-primary">
 <i class="fas fa-stream"></i>
 </span>
@@ -278,7 +279,7 @@ Application autoscaling made simple
 Concepts
 </span>
 </a>
-<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/deploy>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.10/deploy>
 <span class="icon has-text-primary">
 <i class="fas fa-play-circle"></i>
 </span>
@@ -286,7 +287,7 @@ Concepts
 Deploying KEDA
 </span>
 </a>
-<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/concepts/#architecture>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.10/concepts/#architecture>
 <span class="icon has-text-primary">
 <i class="fas fa-project-diagram"></i>
 </span>
@@ -294,7 +295,7 @@ Deploying KEDA
 Architecture
 </span>
 </a>
-<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/scalers>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.10/scalers>
 <span class="icon has-text-primary">
 <i class="fas fa-ruler-vertical"></i>
 </span>
@@ -302,7 +303,7 @@ Architecture
 Scalers
 </span>
 </a>
-<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.9/authentication-providers>
+<a class="button is-black is-inverted has-text-weight-bold" href=/docs/2.10/authentication-providers>
 <span class="icon has-text-primary">
 <i class="fa fa-lock"></i>
 </span>
@@ -443,7 +444,7 @@ Scalers represent event sources that KEDA can scale based on
 <div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/activemq/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/activemq/>
 ActiveMQ
 </a>
 <br><br>
@@ -457,7 +458,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/artemis/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/artemis/>
 ActiveMQ Artemis
 </a>
 <br><br>
@@ -471,7 +472,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/apache-kafka/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/apache-kafka/>
 Apache Kafka
 </a>
 <br><br>
@@ -485,7 +486,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/pulsar/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/pulsar/>
 Apache Pulsar
 </a>
 <br><br>
@@ -499,7 +500,21 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-cloudwatch/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/arangodb/>
+ArangoDB
+</a>
+<br><br>
+<div class="content is-medium">
+Scale applications based on ArangoDB query result.
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.10+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/aws-cloudwatch/>
 AWS CloudWatch
 </a>
 <br><br>
@@ -513,7 +528,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-dynamodb/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/aws-dynamodb/>
 AWS DynamoDB
 </a>
 <br><br>
@@ -527,7 +542,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-dynamodb-streams/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/aws-dynamodb-streams/>
 AWS DynamoDB Streams
 </a>
 <br><br>
@@ -541,7 +556,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-kinesis/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/aws-kinesis/>
 AWS Kinesis Stream
 </a>
 <br><br>
@@ -555,7 +570,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/aws-sqs/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/aws-sqs/>
 AWS SQS Queue
 </a>
 <br><br>
@@ -569,7 +584,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-app-insights/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-app-insights/>
 Azure Application Insights
 </a>
 <br><br>
@@ -583,7 +598,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-storage-blob/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-storage-blob/>
 Azure Blob Storage
 </a>
 <br><br>
@@ -597,7 +612,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-data-explorer/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-data-explorer/>
 Azure Data Explorer
 </a>
 <br><br>
@@ -611,7 +626,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-event-hub/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-event-hub/>
 Azure Event Hubs
 </a>
 <br><br>
@@ -625,7 +640,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-log-analytics/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-log-analytics/>
 Azure Log Analytics
 </a>
 <br><br>
@@ -639,7 +654,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-monitor/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-monitor/>
 Azure Monitor
 </a>
 <br><br>
@@ -653,7 +668,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-pipelines/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-pipelines/>
 Azure Pipelines
 </a>
 <br><br>
@@ -667,7 +682,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-service-bus/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-service-bus/>
 Azure Service Bus
 </a>
 <br><br>
@@ -681,7 +696,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/azure-storage-queue/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/azure-storage-queue/>
 Azure Storage Queue
 </a>
 <br><br>
@@ -695,7 +710,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cassandra/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/cassandra/>
 Cassandra
 </a>
 <br><br>
@@ -709,7 +724,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/couchdb/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/couchdb/>
 CouchDB
 </a>
 <br><br>
@@ -723,7 +738,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cpu/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/cpu/>
 CPU
 </a>
 <br><br>
@@ -737,7 +752,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/cron/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/cron/>
 Cron
 </a>
 <br><br>
@@ -751,7 +766,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/datadog/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/datadog/>
 Datadog
 </a>
 <br><br>
@@ -765,7 +780,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Datadog</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/elasticsearch/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/elasticsearch/>
 Elasticsearch
 </a>
 <br><br>
@@ -779,7 +794,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/etcd/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/etcd/>
 Etcd
 </a>
 <br><br>
@@ -793,7 +808,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Huawei Cloud</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/external/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/external/>
 External
 </a>
 <br><br>
@@ -807,7 +822,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/external-push/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/external-push/>
 External Push
 </a>
 <br><br>
@@ -821,7 +836,21 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-stackdriver/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/github-runner/>
+Github Runner Scaler
+</a>
+<br><br>
+<div class="content is-medium">
+Scale GitHub Runners based on the number of queued jobs in GitHub Actions
+</div></div><footer class=card-footer>
+<div class="card-footer-item is-spaced card-is-wrapped">
+Availability&nbsp;<span class=has-text-weight-bold>v2.10+</span>
+</div><div class="card-footer-item card-is-wrapped">
+Maintainer:&nbsp;<span class=has-text-weight-bold>GitHub</span>
+</div></footer></div></div><div class="column is-one-third">
+<div class=card>
+<div class=card-content>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/gcp-stackdriver/>
 Google Cloud Platform Stackdriver
 </a>
 <br><br>
@@ -835,7 +864,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-storage/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/gcp-storage/>
 Google Cloud Platform Storage
 </a>
 <br><br>
@@ -849,7 +878,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/gcp-pub-sub/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/gcp-pub-sub/>
 Google Cloud Platform‎ Pub/Sub
 </a>
 <br><br>
@@ -863,7 +892,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/graphite/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/graphite/>
 Graphite
 </a>
 <br><br>
@@ -877,7 +906,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/huawei-cloudeye/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/huawei-cloudeye/>
 Huawei Cloudeye
 </a>
 <br><br>
@@ -891,7 +920,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/ibm-mq/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/ibm-mq/>
 IBM MQ
 </a>
 <br><br>
@@ -905,7 +934,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/influxdb/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/influxdb/>
 InfluxDB
 </a>
 <br><br>
@@ -919,7 +948,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/kubernetes-workload/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/kubernetes-workload/>
 Kubernetes Workload
 </a>
 <br><br>
@@ -933,7 +962,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/liiklus-topic/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/liiklus-topic/>
 Liiklus Topic
 </a>
 <br><br>
@@ -947,7 +976,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/loki/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/loki/>
 Loki
 </a>
 <br><br>
@@ -961,7 +990,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/memory/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/memory/>
 Memory
 </a>
 <br><br>
@@ -975,7 +1004,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/metrics-api/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/metrics-api/>
 Metrics API
 </a>
 <br><br>
@@ -989,7 +1018,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mongodb/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/mongodb/>
 MongoDB
 </a>
 <br><br>
@@ -1003,7 +1032,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mssql/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/mssql/>
 MSSQL
 </a>
 <br><br>
@@ -1017,7 +1046,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/mysql/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/mysql/>
 MySQL
 </a>
 <br><br>
@@ -1031,7 +1060,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/nats-jetstream/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/nats-jetstream/>
 NATS JetStream
 </a>
 <br><br>
@@ -1045,7 +1074,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/nats-streaming/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/nats-streaming/>
 NATS Streaming
 </a>
 <br><br>
@@ -1059,7 +1088,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/new-relic/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/new-relic/>
 New Relic
 </a>
 <br><br>
@@ -1073,7 +1102,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/openstack-metric/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/openstack-metric/>
 OpenStack Metric
 </a>
 <br><br>
@@ -1087,7 +1116,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/openstack-swift/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/openstack-swift/>
 OpenStack Swift
 </a>
 <br><br>
@@ -1101,7 +1130,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/postgresql/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/postgresql/>
 PostgreSQL
 </a>
 <br><br>
@@ -1115,7 +1144,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/predictkube/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/predictkube/>
 Predictkube
 </a>
 <br><br>
@@ -1129,7 +1158,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Dysnix</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/prometheus/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/prometheus/>
 Prometheus
 </a>
 <br><br>
@@ -1143,7 +1172,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/rabbitmq-queue/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/rabbitmq-queue/>
 RabbitMQ Queue
 </a>
 <br><br>
@@ -1157,7 +1186,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Microsoft</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-lists/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-lists/>
 Redis Lists
 </a>
 <br><br>
@@ -1171,7 +1200,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-cluster-lists/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-cluster-lists/>
 Redis Lists (supports Redis Cluster)
 </a>
 <br><br>
@@ -1185,7 +1214,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-sentinel-lists/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-sentinel-lists/>
 Redis Lists (supports Redis Sentinel)
 </a>
 <br><br>
@@ -1199,7 +1228,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-streams/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-streams/>
 Redis Streams
 </a>
 <br><br>
@@ -1213,7 +1242,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-cluster-streams/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-cluster-streams/>
 Redis Streams (supports Redis Cluster)
 </a>
 <br><br>
@@ -1227,7 +1256,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/redis-sentinel-streams/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/redis-sentinel-streams/>
 Redis Streams (supports Redis Sentinel)
 </a>
 <br><br>
@@ -1241,7 +1270,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Community</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/selenium-grid-scaler/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/selenium-grid-scaler/>
 Selenium Grid Scaler
 </a>
 <br><br>
@@ -1255,7 +1284,7 @@ Maintainer:&nbsp;<span class=has-text-weight-bold>Volvo Cars</span>
 </div></footer></div></div><div class="column is-one-third">
 <div class=card>
 <div class=card-content>
-<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.9/scalers/solace-pub-sub/>
+<a class="title is-size-4 is-size-5-mobile has-text-primary has-text-weight-bold" href=/docs/2.10/scalers/solace-pub-sub/>
 Solace PubSub+ Event Broker
 </a>
 <br><br>
@@ -1429,6 +1458,10 @@ A variety of users are autoscaling applications with KEDA:
 </div><div class="column is-one-quarter">
 <a href=https://nemlig.com target=_blank>
 <img src=/img/logos/nemlig.png alt=Logo>
+</a>
+</div><div class="column is-one-quarter">
+<a href=https://opsworks.co target=_blank>
+<img src=/img/logos/opsworks.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://www.theproindia.com target=_blank>
@@ -1617,5 +1650,5 @@ Slack
 <script type=text/javascript>docsearch({apiKey:"c42d672f33ecea131ab51c71699b7c37",indexName:"keda",inputSelector:"#search-bar",debug:!1})</script>
 <script type=text/javascript>const builtInScalers=document.querySelectorAll("#built-in-scalers"),externalScalers=document.getElementById("external-scalers"),btnFocusOnMount=document.getElementById("btn-focus-on-mount"),builtInSearchResultCount=document.querySelector(".results"),externalSearchResultCount=document.querySelector(".external-results");let btns=document.getElementsByClassName("filterBtn");for(let e=0;e<btns.length;e++)btns[e].addEventListener("click",function(){let t=btns[e].value.toLowerCase();t==="built-in-scalers"?(builtInScalers.forEach(e=>e.style.display="flex"),externalScalers.style.display="none",builtInSearchResultCount.style.display="block",externalSearchResultCount.style.display="none"):t==="external-scalers"&&(btnFocusOnMount.classList.remove("is-focused"),builtInScalers.forEach(e=>e.style.display="none"),externalScalers.style.display="inline",builtInSearchResultCount.style.display="none",externalSearchResultCount.style.display="block")})</script>
 <script src=https://unpkg.com/lunr/lunr.js></script>
-<script>window.addEventListener("DOMContentLoaded",()=>{"use strict";let s,o;const g=window.location.pathname,j=String(g).split("/"),f=j[2],y=document.getElementById("search"),i=document.getElementById("search-input"),a=document.querySelector(".is-search-result"),n=document.querySelector(".is-external-search-result"),b=document.querySelector(".results"),v=document.querySelector(".external-results"),t=document.getElementById("is-search-template"),p=document.getElementById("external-scalers"),_=document.getElementById("built-in-scalers"),d=document.getElementById("external-banner"),h=document.getElementsByClassName("artifacthub-widget-group"),u=500;let e=i.value.trim(),l={};e||(r(),c()),i.addEventListener("input",function(l){l.preventDefault(),clearTimeout(o);const s=i.value.trim(),m=document.querySelectorAll(".filterBtn");if(m.forEach(e=>e.disabled=!0),!s){const e=document.querySelectorAll(".filterBtn");e.forEach(e=>e.disabled=!1)}if(e=s,p.style.display==="inline"){d.style.display="none",e===""&&(d.style.display="block");let t=new URL("https://artifacthub.io/api/v1/packages/search");for(t.search=new URLSearchParams({kind:"8",sort:"relevance",ts_query_web:e!==""?e:""}),o=setTimeout(()=>{h[0].dataset.url=t,c()},u);n.firstChild.nextSibling;)n.removeChild(n.firstChild.nextSibling.nextSibling.nextElementSibling);return}for(o=setTimeout(r,u);a.firstChild.nextSibling;)a.removeChild(t.nextSibling.nextElementSibling)},!1);async function c(){const o=h[0].dataset.url,s=await fetch(o).then(e=>e.json()).then(e=>e.packages).catch(e=>console.error("error:",e));if("content"in t){const o=document.createElement("h3");o.id="external-search-results",o.className="subtitle is-size-3 external-search-results",s.length==0?o.textContent=`No results found for "${e}"`:s.length==1?o.textContent=`Found one result for "${e}"`:s.length>1&&e===""?o.textContent=`${s.length} scalers available`:o.textContent=`Found ${s.length} results for "${e}"`,v.replaceChildren(o),s.forEach(function(e){const s=t.content.cloneNode(!0);s.querySelector(".scaler-title").textContent=e.display_name,s.querySelector(".scaler-title").setAttribute("href",e.repository.url),e.description&&(s.querySelector(".description").textContent=e.description),e.repository.organization_name&&(s.querySelector(".maintainer").textContent=e.repository.organization_name),e.repository.user_alias&&(s.querySelector(".maintainer").textContent=e.repository.user_alias),e.version&&(s.querySelector(".availability").textContent=`v${e.version}`),n.appendChild(s)},this)}}async function r(){const t=await fetch("/index.json",{method:"GET"}).then(e=>e.json()).then(e=>e).catch(e=>console.error("error:",e));s=lunr(function(){const e=t;this.ref("title"),this.field("title",{boost:20,usePipeline:!0,wildcard:lunr.Query.wildcard.TRAILING,presence:lunr.Query.presence.REQUIRED}),this.field("maintainer",{boost:15}),this.field("href",{boost:15}),this.field("description",{boost:10}),this.field("availability",{boost:5}),e.forEach(function(e){e.version===f&&(this.add(e),l[e.title]={href:e.href,title:e.title,maintainer:e.maintainer,description:e.description,availability:e.availability})},this)}),m(e)}function m(e){let o=s.search("");e.length>0&&(o=s.search(e),o=o.length<=0?s.search(`${e}*`):o);const n=o;if("content"in t){const s=document.createElement("h3");s.id="search-results",s.className="subtitle is-size-3",n.length==0?s.textContent=`No results found for "${e}"`:n.length==1?s.textContent=`Found one result for "${e}"`:n.length>1&&e===""?s.textContent=`${n.length} scalers available`:s.textContent=`Found ${n.length} results for "${e}"`,b.replaceChildren(s),n.forEach(function(s){const e=l[s.ref],n=t.content.cloneNode(!0);n.querySelector(".scaler-title").textContent=e.title,n.querySelector(".scaler-title").setAttribute("href",e.href),e.description&&(n.querySelector(".description").textContent=e.description),e.maintainer&&(n.querySelector(".maintainer").textContent=e.maintainer),e.availability&&(n.querySelector(".availability").textContent=e.availability),a.appendChild(n)},this)}}},!1)</script>
+<script>window.addEventListener("DOMContentLoaded",()=>{"use strict";let s,o;const g=window.location.pathname,j=String(g).split("/"),f=j[2],y=document.getElementById("search"),i=document.getElementById("search-input"),a=document.querySelector(".is-search-result"),n=document.querySelector(".is-external-search-result"),b=document.querySelector(".results"),v=document.querySelector(".external-results"),t=document.getElementById("is-search-template"),p=document.getElementById("external-scalers"),_=document.getElementById("built-in-scalers"),d=document.getElementById("external-banner"),h=document.getElementsByClassName("artifacthub-widget-group"),u=500;let e=i.value.trim(),l={};e||(r(),c()),i.addEventListener("input",function(l){l.preventDefault(),clearTimeout(o);const s=i.value.trim(),m=document.querySelectorAll(".filterBtn");if(m.forEach(e=>e.disabled=!0),!s){const e=document.querySelectorAll(".filterBtn");e.forEach(e=>e.disabled=!1)}if(e=s,p.style.display==="inline"){d.style.display="none",e===""&&(d.style.display="block");let t=new URL("https://artifacthub.io/api/v1/packages/search");for(t.search=new URLSearchParams({kind:"8",sort:"relevance",ts_query_web:e!==""?e:""}),o=setTimeout(()=>{h[0].dataset.url=t,c()},u);n.firstChild.nextSibling;)n.removeChild(n.firstChild.nextSibling.nextSibling.nextElementSibling);return}for(o=setTimeout(r,u);a.firstChild.nextSibling;)a.removeChild(t.nextSibling.nextElementSibling)},!1);async function c(){const o=h[0].dataset.url,s=await fetch(o).then(e=>e.json()).then(e=>e.packages).catch(e=>console.error("error:",e));if("content"in t){const o=document.createElement("h3");o.id="external-search-results",o.className="subtitle is-size-3 external-search-results",s.length==0?o.textContent=`No results found for "${e}"`:s.length==1?o.textContent=`Found one result for "${e}"`:s.length>1&&e===""?o.textContent=`${s.length} scalers available`:o.textContent=`Found ${s.length} results for "${e}"`,v.replaceChildren(o),s.forEach(function(e){const s=t.content.cloneNode(!0);s.querySelector(".scaler-title").textContent=e.display_name,s.querySelector(".scaler-title").setAttribute("href","https://artifacthub.io/packages/keda-scaler/"+e.repository.name+"/"+e.normalized_name),e.description&&(s.querySelector(".description").textContent=e.description),e.repository.organization_name&&(s.querySelector(".maintainer").textContent=e.repository.organization_name),e.repository.user_alias&&(s.querySelector(".maintainer").textContent=e.repository.user_alias),e.version&&(s.querySelector(".availability").textContent=`v${e.version}`),n.appendChild(s)},this)}}async function r(){const t=await fetch("/index.json",{method:"GET"}).then(e=>e.json()).then(e=>e).catch(e=>console.error("error:",e));s=lunr(function(){const e=t;this.ref("title"),this.field("title",{boost:20,usePipeline:!0,wildcard:lunr.Query.wildcard.TRAILING,presence:lunr.Query.presence.REQUIRED}),this.field("maintainer",{boost:15}),this.field("href",{boost:15}),this.field("description",{boost:10}),this.field("availability",{boost:5}),e.forEach(function(e){e.version===f&&(this.add(e),l[e.title]={href:e.href,title:e.title,maintainer:e.maintainer,description:e.description,availability:e.availability})},this)}),m(e)}function m(e){let o=s.search("");e.length>0&&(o=s.search(e),o=o.length<=0?s.search(`${e}*`):o);const n=o;if("content"in t){const s=document.createElement("h3");s.id="search-results",s.className="subtitle is-size-3",n.length==0?s.textContent=`No results found for "${e}"`:n.length==1?s.textContent=`Found one result for "${e}"`:n.length>1&&e===""?s.textContent=`${n.length} scalers available`:s.textContent=`Found ${n.length} results for "${e}"`,b.replaceChildren(s),n.forEach(function(s){const e=l[s.ref],n=t.content.cloneNode(!0);n.querySelector(".scaler-title").textContent=e.title,n.querySelector(".scaler-title").setAttribute("href",e.href),e.description&&(n.querySelector(".description").textContent=e.description),e.maintainer&&(n.querySelector(".maintainer").textContent=e.maintainer),e.availability&&(n.querySelector(".availability").textContent=e.availability),a.appendChild(n)},this)}}},!1)</script>
 </body></html>

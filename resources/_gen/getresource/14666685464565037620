@@ -1,13 +1,14 @@
 HTTP/2.0 200 OK
-Age: 42174
+Accept-Ranges: bytes
+Age: 52204
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 05:01:15 GMT
-Etag: "e1700adc64562963d612b01f9044b714-ssl-df"
+Date: Tue, 04 Apr 2023 23:37:31 GMT
+Etag: "be88ffbd2429ff36b50125024fda4fd8-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
+X-Nf-Request-Id: 01GX8VX3N6N70E861F2Z29RK99
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -35,7 +36,7 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
 		<ul class="desktop-links">
 			<li><a href="/" class="active">Home</a></li>
 			<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-			<li><a href="/docs/v1.10.0" >Documentation</a></li>
+			<li><a href="/docs/v1.11.0" >Documentation</a></li>
 			<li><a href="/blog/" >Blog</a></li>
 			<li><a href="/presentations/" >Presentations</a></li>
 			<li><a href="/community/" >Community</a></li>
@@ -50,7 +51,7 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
 			<ul class="header-links">
 				<li><a href="/" class="active">Home</a></li>
 				<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-				<li><a href="/docs/v1.10.0" >Documentation</a></li>
+				<li><a href="/docs/v1.11.0" >Documentation</a></li>
 				<li><a href="/blog/" >Blog</a></li>
 				<li><a href="/presentations/" >Presentations</a></li>
 				<li><a href="/community/" >Community</a></li>
@@ -93,8 +94,8 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
 		<div class="bg-grey introduction">
 			<div class="wrapper grid two">
 				<div class="col">
-					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v1.10.0">View Latest Release</a></p>
-					<p>Antrea v1.10.0 is now available.</p>
+					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v1.11.0">View Latest Release</a></p>
+					<p>Antrea v1.11.0 is now available.</p>
 				</div>
 				<div class="col">
 					<p class="strong"><a href="https://www.cncf.io/webinars/securing-and-accelerating-the-kubernetes-cni-data-plane-with-project-antrea-and-nvidia-mellanox-connectx-smartnics/">CNCF Webinar</a></p>
@@ -139,6 +140,20 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
             
 					<div class="col">
     <div class="icon">
+        <img src="/img/antrea-logo.svg" alt="A series of blog posts on Antrea cloud-native observability" />
+    </div>
+    <div class="content">
+        <h3>
+            
+                <a href="https://sdefinitive.net/category/antrea/">A series of blog posts on Antrea cloud-native observability</a>
+            
+        </h3>
+        <p>Posts by Jose Hernandez</p>
+    </div>
+</div>
+			
+					<div class="col">
+    <div class="icon">
         <img src="/img/antrea-logo.svg" alt="A series of blog posts on Antrea integrations with NSX" />
     </div>
     <div class="content">
@@ -165,20 +180,6 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
     </div>
 </div>
 			
-					<div class="col">
-    <div class="icon">
-        <img src="/img/posts/policy-tiers.png" alt="Antrea Network Policies" />
-    </div>
-    <div class="content">
-        <h3>
-            
-                <a href="https://yikes.guzware.net/2021/07/10/antrea-network-policies/">Antrea Network Policies</a>
-            
-        </h3>
-        <p>Post by Andreas Marqvardsen</p>
-    </div>
-</div>
-			
         </div>
         <p class="center"><a href="/blog/" class="button secondary">See All Posts</a></p>
     </div>
@@ -192,7 +193,7 @@ X-Nf-Request-Id: 01GTPR4RY8PKCSXCBD9TTQYA1J
 			<p>To help you get started, see the documentation.</p>
 		</div>
 		<div class="right-side">
-			<a href="/docs/v1.10.0" class="button">Documentation</a>
+			<a href="/docs/v1.11.0" class="button">Documentation</a>
 		</div>
 	</div>
 </div>

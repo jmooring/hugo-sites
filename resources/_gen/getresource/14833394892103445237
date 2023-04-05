@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 Mar 2023 16:44:17 GMT
-Etag: W/"64025dca-6f3e"
-Expires: Sat, 04 Mar 2023 16:54:17 GMT
-Last-Modified: Fri, 03 Mar 2023 20:51:22 GMT
+Date: Wed, 05 Apr 2023 14:07:36 GMT
+Etag: W/"6427635f-7154"
+Expires: Wed, 05 Apr 2023 12:24:28 GMT
+Last-Modified: Fri, 31 Mar 2023 22:49:03 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Fastly-Request-Id: de956c1c4883f5c18074757a4ca9000a1b6a6bca
-X-Github-Request-Id: B93E:13BE:2EEA25:362385:64037561
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: be02a5aae05fdf8f20396f691f2dd9c9b97480e4
+X-Github-Request-Id: 6FC0:5AE5:507C9:61F9D:642D6624
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-krnt7300114-BFI
-X-Timer: S1677948257.250720,VS0,VE67
+X-Served-By: cache-bfi-krnt7300107-BFI
+X-Timer: S1680703656.204058,VS0,VE67
 
 <!doctype html><html lang=en xmlns=http://www.w3.org/1999/xhtml xmlns:fb=http://ogp.me/ns/fb#>
 <head>
@@ -111,6 +111,25 @@ engineering. Mostly.</p>
 <div class=col-md-9>
 <div class=row>
 <div class=col>
+<div class="media my-4">
+<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
+<div class=media-body>
+<h2 class=mt-0><a href=/2023/03/introducing-iii-iv.html>Introducing III-IV</a></h2>
+<p>Over the last couple of years, I have developed two small web services in Rust: one for EndBASIC and one for this blog. Those two web services contained significant copy/pasted helper code, which always bothered me because small bug fixes in one rarely propagated to the other. But because this only impacted two inconsequential side projects, the hinderance wasn&rsquo;t a big deal.
+Until now. I now face the need to write two more web services (details TBA), and duplicating those foundations twice more felt just wrong. So I spent the last couple of weeks pulling the common code out of the existing services into a&mldr; you guessed it&mldr; framework, which I have called III-IV ("three four" if you read it out loud) and am ready to announce.
+Find the code in https://github.com/jmmv/iii-iv.
+</p>
+<p class=text-muted>March 13, 2023
+&#183;
+Tags:
+<a class=text-reset href=/tags/iii-iv>iii-iv</a>
+<br>
+<a class=text-reset href=/2023/03/introducing-iii-iv.html>Continue reading (about
+7 minutes)
+</a>
+</p>
+</div>
+</div>
 <div class="media my-4">
 <img class=mr-3 src=/octicons/note.svg width=32px height=32px>
 <div class=media-body>
@@ -208,24 +227,6 @@ Tags:
 <br>
 <a class=text-reset href=/2022/06/autoconf-caching.html>Continue reading (about
 10 minutes)
-</a>
-</p>
-</div>
-</div>
-<div class="media my-4">
-<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
-<div class=media-body>
-<h2 class=mt-0><a href=/2022/06/endbasic-0.9.html>EndBASIC 0.9: Run shared demos easily</a></h2>
-<p>It is with great pleasure that I announce the release of EndBASIC 0.9.0 😎️.
-The major feature in this new release is the ability to launch publicly-shared files via a click of a URL without having to create an account first. Here, try running my jmmv/bounce.bas or jmmv/paint.bas demos in your browser, now!
-</p>
-<p class=text-muted>June 5, 2022
-&#183;
-Tags:
-<a class=text-reset href=/tags/endbasic>endbasic</a>
-<br>
-<a class=text-reset href=/2022/06/endbasic-0.9.html>Continue reading (about
-6 minutes)
 </a>
 </p>
 </div>
@@ -335,8 +336,9 @@ Software Engineer<br>
 <h2>Archive</h2>
 <ul>
 <li>
-<a data-toggle=collapse href=#archive-year-2023>2023</a> (1)
+<a data-toggle=collapse href=#archive-year-2023>2023</a> (2)
 <ul id=archive-year-2023 class=collapse>
+<li><a href=/archive.html#2023-03>March 2023</a> (1)</li>
 <li><a href=/archive.html#2023-01>January 2023</a> (1)</li>
 </ul>
 </li>

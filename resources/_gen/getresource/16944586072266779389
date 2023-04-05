@@ -1,34 +1,32 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 2365
+Age: 2336
 Content-Type: text/html
-Date: Sat, 04 Mar 2023 16:44:13 GMT
-Etag: "4fe9-5f2dc43aa1a95-gzip"
-Last-Modified: Sun, 22 Jan 2023 15:52:05 GMT
+Date: Wed, 05 Apr 2023 14:07:35 GMT
+Etag: "4c77-5f84f0e974542-gzip"
+Last-Modified: Sat, 01 Apr 2023 23:55:14 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
 X-Cache-Hits: 1, 1
-X-Served-By: cache-hel1410020-HEL, cache-bfi-krnt7300099-BFI
-X-Timer: S1677948253.045227,VS0,VE10
+X-Served-By: cache-hel1410027-HEL, cache-bfi-krnt7300116-BFI
+X-Timer: S1680703655.977394,VS0,VE165
 
 <!DOCTYPE html>
 
 
-<html>
+<html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.63.2" />
+	<meta name="generator" content="Hugo 0.111.3">
   <meta name="description" content="Apache Community Development"/>
   <meta name="keywords" content="apache, apache community, community development, opensource"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:title" content="Apache Community Development - Welcome" />
 <meta property="og:description" content="The Community Development project creates and provides tools, processes, and advice to help open-source software projects improve their own community health." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://community.apache.org/" />
-<meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/>
-<meta property="og:site_name" content="Apache Community Development" />
+<meta property="og:url" content="https://community.apache.org/" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="og:site_name" content="Apache Community Development" />
 
 
   <title>Apache Community Development - Apache Community Development - Welcome</title>
@@ -38,14 +36,6 @@ X-Timer: S1677948253.045227,VS0,VE10
   <link href="/css/main.css" rel="stylesheet" media="screen">
   <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <style type="text/css">
-       
-      .gsc-search-box input.gsc-input, .gcse-search-box input.gsc-input:focus {
-          -webkit-box-shadow:none;
-          box-shadow:none;
-          -moz-box-shadow:none;
-          border-radius:0px;
-      }
-
       .footer {
           text-align:center;
           color:grey;
@@ -57,6 +47,25 @@ X-Timer: S1677948253.045227,VS0,VE10
           height: 50px;
       }
   </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
 </head>
 
 <body>
@@ -83,10 +92,10 @@ X-Timer: S1677948253.045227,VS0,VE10
                 <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
                 <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
                 <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
-                <a class="dropdown-item" href="/comdevboardresolution.html">ComDev Original Board Resolution</a>
+                <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
                 <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
-                <a class="dropdown-item" href="/links.html">Links to additional material</a>
-                <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development JIRA</a>
+                <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+                <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
                 <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
@@ -107,12 +116,12 @@ X-Timer: S1677948253.045227,VS0,VE10
                 <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-uppercase disabled" href="#">Google Summer of Code</a>
-                <a class="dropdown-item" href="/gsoc.html">Google Summer Of Code Information</a>
-                <a class="dropdown-item" href="/mentee-ranking-process.html">Mentee Ranking Process</a>
-                <a class="dropdown-item" href="/mentoring/experiences.html">Past GSoC Experiences</a>
-                <a class="dropdown-item" href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
-                <a class="dropdown-item" href="/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a>
-                <a class="dropdown-item" href="/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+                <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+                <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+                <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+                <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+                <a class="dropdown-item" href="/gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+                <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -130,34 +139,16 @@ X-Timer: S1677948253.045227,VS0,VE10
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="mentorDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Mentoring
-              </a>
-              <div class="dropdown-menu" aria-labelledby="mentorDropdown">
-                <a class="dropdown-item" href="/mentoringprogramme.html">Mentoring Program</a>
-                <a class="dropdown-item" href="/mentorprogrammeformaleducation.html">Mentoring in Formal Education</a>
-                <a class="dropdown-item" href="/mentorprogrammeapplication.html">Applying for the Mentoring Program</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-uppercase disabled" href="#">Additional Resources</a>
-                <a class="dropdown-item" href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
-                <a class="dropdown-item" href="/mentor-request-mail.html">Mentor Request Email Example</a>
-                
-              </div>
-            </li>
-            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Events
               </a>
               <div class="dropdown-menu" aria-labelledby="eventDropdown">
-                <a class="dropdown-item" href="https://apachecon.com/">ApacheCon - The official event of the ASF</a>
-                <a class="dropdown-item" href="/calendars/">Major Apache-related Events</a>
-                <a class="dropdown-item" href="https://www.apache.org/events/meetups.html">Upcoming Apache-related meetups</a>
+                <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+                <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
                 <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-uppercase disabled" href="#">Speakers</a>
-                <a class="dropdown-item" href="/speakers/">Speaker Information</a>
-                <a class="dropdown-item" href="/speakers/speakers.html">Finding Speakers / Listing Yourself as a Speaker</a>
-                <a class="dropdown-item" href="/speakers/slides.html">Apache-related Slides</a>
+                <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+                <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -182,9 +173,6 @@ X-Timer: S1677948253.045227,VS0,VE10
         <div class="col-md-9">
           <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
         </div>
-        <div class="col-md-3 pull-right">
-          <div class="gcse-search"></div>
-        </div>
         <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
       </section>
       
@@ -205,18 +193,25 @@ X-Timer: S1677948253.045227,VS0,VE10
 
       <hr>
       
-	<div class="jumbotron">
+	<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search" });
+    });
+</script>
+<div class="jumbotron">
 <a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-125x125.png" style="float: right;"/></a>
-<h2>Apache Community Development!</h2>
+<h2 id="apache-community-development">Apache Community Development! <a class="headerlink" title="Permalink" href="#apache-community-development">&para;</a></h2>
 <p>Mission: The Community Development project creates and provides tools,
-processes, and advice to help open-source software projects improve their own
-community health. We are, of course, primarily focused on Apache Software Foundation (ASF)
-projects. However, because we believe that the Apache Way is, in fact, the
+processes, and advice to help open-source projects improve their own
+community health. We are primarily focused on Apache Software Foundation (ASF)
+projects; however, because we believe that the Apache Way is the
 best way to manage a software project, we strive also to make these
-artifacts releasable to the open source community as a whole.</p>
-<p>We do not focus on
-specific projects here, but rather on the common processes and policies
-called The Apache Way found in most Apache projects. Our goal is to help you
+artifacts releasable to the open-source community as a whole.</p>
+<p>Here, we focus on the common processes and policies
+(called The Apache Way) found in most ASF projects. Our goal is to help you
 <em>understand how the ASF works</em> and give you the confidence to participate
 in the specific Apache projects that interest you.</p>
 </div>
@@ -224,81 +219,70 @@ in the specific Apache projects that interest you.</p>
 <!-- Row 1 -->
 <div class="row">
     <div class="col-md-4">
-        <h4>Newcomers to Apache</h4>
-        <p>If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.</p>
-        <p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
-        <p>The ASF is a large organization made up of many separate projects: each project community may have its own ways of working, while still following the basic Apache Way process.</p>
-    </div>
-    <div class="col-md-4">
-        <h4>Event Organizers and Speakers</h4>
-        <p>We have a <a href="speakers/index.html">list of speaker resources</a> for conference organizers and speakers, including some useful Apache slides.</p>
-        <p>Producers should read our <a href="https://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.</p>
-        <p>The <a href="https://events.apache.org/event/calendar.html">master event calendar</a> contains an aggregation of many different Apache-related events, including ApacheCon and BarCamps.</p>
-    </div>
-    <div class="col-md-4">
-        <h4>The Foundation</h4>
-        <p>The Apache Software Foundation (ASF) is a <a href="https://www.apache.org/foundation/">US 501(c)3 non-profit public charity</a>. The Foundation is <a href="https://www.apache.org/foundation/governance/">governed by a Board of Directors</a>, elected by our Membership, and we publish our <a href="https://www.apache.org/foundation/board/calendar.html">monthly board meeting minutes</a>.</p>
-        <p>Our mission is to create software for the public good that we <a href="https://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support of Apache</a>.</p>
-    </div>
+<h4 id="newcomers-to-the-asf">Newcomers to the ASF <a class="headerlink" title="Permalink" href="#newcomers-to-the-asf">&para;</a></h4>
+<p>If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.</p>
+<p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
+<p>The ASF is a large organization made up of many separate projects. Each project community may have its own ways of working, while still following the basic Apache Way process.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="events">Events <a class="headerlink" title="Permalink" href="#events">&para;</a></h4>
+<p>Producers should read our <a href="https://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.</p>
+<p>The <a href="https://events.apache.org/event/calendar.html">event calendar</a> lists approved Apache-related events, including Community Over Code (formerly ApacheCon) and project summits.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="the-foundation">The Foundation <a class="headerlink" title="Permalink" href="#the-foundation">&para;</a></h4>
+<p>The Apache Software Foundation (ASF) is a <a href="https://www.apache.org/foundation/">US 501(c)3 non-profit public charity</a>. The Foundation is <a href="https://www.apache.org/foundation/governance/">governed by a Board of Directors</a>, elected by our Membership, and we publish our <a href="https://www.apache.org/foundation/board/calendar.html">monthly board meeting minutes</a>.</p>
+<p>Our mission is to create software for the public good that we <a href="https://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support of Apache</a>.</p>
+  </div>
 </div>
 <!-- Row 2 -->
 <div class="row">
-    <div class="col-md-4">
-        <h4>Open Source Contributors</h4>
-        <p>If you know a little about open source and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.</p>
-        <p>We also have a collection of <a href="links.html">links</a> to relevant information.</p>
-        <p>Apache Committers should read our <a href="committers/index.html">committers' section</a> and see the <a href="https://www.apache.org/dev/">Developer Information site</a>.</p>
-    </div>
-    <div class="col-md-4">
-        <h4>How Apache works</h4>
-        <p>Our <a href="apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a> defines a structure for evaluating our projects (communities & technology) that can serve as an example for other communities.</p>
-        <p>Our <a href="https://www.apache.org/foundation/how-it-works.html" target="_blank">how Apache works</a> guide describes key ASF
-        concepts such as the difference between ASF Members and project committers, how decisions are made (voting), how elections take place, 
-        and the ASF's structure and organization.</p>
-    </div>
-    <div class="col-md-4">
-          <h4>FAQ & Code of Conduct</h4>
-          <p>Please be nice! The ASF has a <a href="https://www.apache.org/foundation/policies/conduct">Code of Conduct</a> that we expect participants in our mailing lists and projects to abide by.</p>
-          <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a>, send us an e-mail at <code>dev@community.apache.org</code>, or read the <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:" target="_blank">Community mail archives</a>.</p>
-    </div>
+  <div class="col-md-4">
+<h4 id="open-source-contributors">Open Source Contributors <a class="headerlink" title="Permalink" href="#open-source-contributors">&para;</a></h4>
+<p>If you know a little about open source, and want to understand how the ASF works, our <a href="contributors/index.html">contributors&rsquo; section</a> is for you.</p>
+<p>We also have a collection of <a href="links.html">links</a> to relevant information.</p>
+<p>Apache Committers should read our <a href="committers/index.html">committers&rsquo; section</a> and see the <a href="https://www.apache.org/dev/">Developer Information site</a>.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="how-apache-works">How Apache works <a class="headerlink" title="Permalink" href="#how-apache-works">&para;</a></h4>
+<p>Our <a href="apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a> defines a structure for evaluating our projects (communities &amp; technology) that can serve as an example for other communities.</p>
+<p>Our <a href="https://www.apache.org/foundation/how-it-works.html" target="_blank">how Apache works</a> guide describes key ASF
+concepts, such as the difference between ASF Members and project committers, how decisions are made (voting), how elections take place,
+and the ASF&rsquo;s structure and organization.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="faq--code-of-conduct">FAQ &amp; Code of Conduct <a class="headerlink" title="Permalink" href="#faq--code-of-conduct">&para;</a></h4>
+<p>Please be nice! The ASF has a <a href="https://www.apache.org/foundation/policies/conduct">Code of Conduct</a> that we expect participants to abide by.</p>
+<p>If you still haven&rsquo;t found what you are looking for, try our <a href="newbiefaq.html">FAQ</a>, send us an e-mail at <code><a href="mailto:dev@community.apache.org">dev@community.apache.org</a></code>, or read the <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:" target="_blank">Community mail archives</a>.</p>
 </div>
 <!-- Row 3 -->
 <div class="row">
-    <div class="col-md-4">
-        <h4>Diversity and Inclusion</h4>
-        <p>The <a href="http://diversity.apache.org/">Apache Diversity</a> website has more information
-        on that project, dedicated to understanding and promoting diversity and inclusion in Apache Software Foundation communities.
-        </p>
-    </div>
-    <div class="col-md-4">
-          <h4>Google Summer of Code program (GSoC)</h4>
-          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year since 2005, we've taken on between 30 and 45 students. Many of these have gone on to become long-term committers to projects and even Members of the Foundation.
-          <br/><br/>
-          Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>
-    </div>
-    <div class="col-md-4">
-        <h4>Apache Local Community (ALC)</h4>
-        <p>The <a href="https://s.apache.org/alc">Apache Local Community</a> comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.
-        </p>
-        <p>The ALC Chapters spread awareness on Apache in local communities, host local events to share information about ASF, The Apache Way, and various Apache  projects and bring together project users and developers.
-        </p>
-    </div>
+  <div class="col-md-4">
+<h4 id="diversity-and-inclusion">Diversity and Inclusion <a class="headerlink" title="Permalink" href="#diversity-and-inclusion">&para;</a></h4>
+<p>The <a href="http://diversity.apache.org/">Apache Diversity</a> website has more information
+on that project, dedicated to understanding and promoting diversity and inclusion in ASF communities.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="google-summer-of-code-program-gsoc">Google Summer of Code program (GSoC) <a class="headerlink" title="Permalink" href="#google-summer-of-code-program-gsoc">&para;</a></h4>
+<p>The Community Development project also manages the <a href="/gsoc/">ASF&rsquo;s participation in the Google Summer of Code program</a>. Each year since 2005, we&rsquo;ve taken on between 30 and 45 students. Many have gone on to become long-term committers to projects, and even Members of the Foundation.</p>
+<p>Read about a few of our <a href="/gsoc/experiences.html">GSoC successes</a>.</p>
+  </div>
+  <div class="col-md-4">
+<h4 id="apache-local-community-alc">Apache Local Community (ALC) <a class="headerlink" title="Permalink" href="#apache-local-community-alc">&para;</a></h4>
+<p>The <a href="https://s.apache.org/alc">Apache Local Community</a> comprises local groups of Apache (Open Source) enthusiasts, called an &lsquo;ALC Chapter&rsquo;. There will be a single ALC chapter per town/city.</p>
+<p>The ALC Chapters spread awareness of the ASF in local communities, hosting local events to share information about the ASF, The Apache Way, and various Apache projects by bringing together project users and developers.</p>
+  </div>
 </div>
 <div>
-    <h4>How to ask questions</h4>
-    <p>All Apache projects use <a href="https://lists.apache.org/">publicly-archived mailing lists</a> that anyone may subscribe
-        to. There you can ask questions related to that Apache project and gain a sense of its current activities and focus.  Most projects have a
-        <code>dev@project.apache.org</code> mailing list for technical discussions about the code, and a
-        <code>user@</code> or <code>users@</code> mailing list for questions about the product or features.
-        <br/><br/>
-        We have a <a href="/contributors/etiquette">Code of Conduct and Etiquette guidelines</a> to help you write good emails.
-        <br/><br/>
-        The ComDev project has our own mailing list where you can ask general questions
-        about Apache at <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:">dev@community.apache.org</a>.</p>
+<h4 id="how-to-ask-questions">How to ask questions <a class="headerlink" title="Permalink" href="#how-to-ask-questions">&para;</a></h4>
+<p>All Apache projects use <a href="https://lists.apache.org/">publicly-archived mailing lists</a> that anyone may subscribe
+to. There you can ask questions related to that specific project and gain a sense of its current activities and focus.  Most projects have a
+<code><a href="mailto:dev@project.apache.org">dev@project.apache.org</a></code> mailing list for technical discussions about the code, and a
+<code>user@</code> or <code>users@</code> mailing list for questions about the product or features.</p>
+<p>We have a <a href="/contributors/etiquette">Code of Conduct and Etiquette guidelines</a> to help you write good emails.</p>
+<p>The ComDev project has our own mailing list where you can ask general questions
+about Apache at <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:"><a href="mailto:dev@community.apache.org">dev@community.apache.org</a></a>.</p>
 </div>
-<div class="container" type="helpwanted" project="comdev" description="Community Development"></div>
-<script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
-<!-- dummy change (42) to test asf-site commit -->
 
 
     </div>
@@ -337,17 +321,5 @@ in the specific Apache projects that interest you.</p>
 
   <script src="/js/jquery-1.9.1.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
-  <script>
-    (function() {
-      var cx = '012254517474945470291:vhsfv7eokdc';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-          '//www.google.com/cse/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-    })();
-  </script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 17124
+Content-Length: 17335
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 16:44:28 GMT
-Etag: "63ee4939-42e4"
-Last-Modified: Thu, 16 Feb 2023 15:18:17 GMT
+Date: Wed, 05 Apr 2023 14:07:45 GMT
+Etag: "64189d67-43b7"
+Last-Modified: Mon, 20 Mar 2023 17:52:39 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000
 
@@ -124,7 +124,7 @@ Strict-Transport-Security: max-age=31536000
     <section class="info">
     <article class="info__about flow">
         <h2>
-            Why pgJDBC ?
+            Why pgJDBC?
         </h2>
         <p>
             The PostgreSQL JDBC Driver allows Java programs to connect to a PostgreSQL database using standard, database
@@ -138,10 +138,14 @@ Strict-Transport-Security: max-age=31536000
             Latest Releases
         </h2>
         <p>
-            pgJDBC has released v42.5.4 on 16 February, 2023. This release fixes some tests that were failing in 42.5.3. 
-            There are no changes to functionality. 
+            pgJDBC has released v42.6.0 on 17 March, 2023. This release has two major changes: Remove most uses of synchronized
+            in favour of reentrant locks, and remove the use of finalize.
         </p>
         <ul role="list">
+            
+            <li role="listitem">
+                <strong>42.6.0</strong> · 17 March 2023 · <a href="/changelogs/2023-03-17-42.6.0-release/">Notes</a>
+            </li>
             
             <li role="listitem">
                 <strong>42.5.4</strong> · 16 February 2023 · <a href="/changelogs/2023-02-16-42.5.4-release/">Notes</a>

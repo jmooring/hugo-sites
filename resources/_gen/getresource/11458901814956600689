@@ -1,15 +1,16 @@
 HTTP/2.0 200 OK
+Accept-Ranges: bytes
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 16:44:22 GMT
-Etag: "20873ad0237f0ca352f899fbf5f51a49-ssl-df"
+Date: Wed, 05 Apr 2023 14:07:49 GMT
+Etag: "2281a141c30e3e2aed7b7eb6705e5dd8-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=FF12530EEC0621B5F74DF429DE06E0C3~000000000000000000000000000000~YAAQBXk1F0gHJquGAQAAj5eCrRN6sflcaxnWybrPVQAYQ6yqO5xXjnfacLNT6zHMoD3ruaRx8Y6y63MH75FImghYXP2U/QfEs8oj0UYt8plXoY/usB2Kg76G4dG/lb38C7JljZNf5IxT6ua04ytTe9nwr5NESWiHU9UYTCFIDmOsJF5Ynh9A9NxYL/3v0fq+hJWAwiXq17K/ro+iTTzDT38d9Qog6Hz/FsYDi1A9Ekf9Ku8h/nEZ93CpR2BOxE/hGdAIkdFIlahvvVjwtVgR1Pr8Sfw8h7sw/rPmWrai5H49yNkrCtAJMWe2qz7Wbv6P/BTjtg4ZYw+/79yCa7ylgk+0dblQ7KDsZQoOM2ydx1KCdiSfClrX2dlyLFfsV7I8AhIb2sKTVzVp; Domain=.vmware.com; Path=/; Expires=Sat, 04 Mar 2023 18:44:21 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=9E44F9B7395620A6536D02BDD1BB32AE~YAAQBXk1F0kHJquGAQAAj5eCrRPXoI7M//nlD1FBkCRVODvCjH6AQNcO5VTuk/yGhD8PaYs7LVf3dJ+39RV+wT3vigj+tyBQSwWDlaRYNcOme7rGTReuA3DnAxqGqh7uHyk3fW5jNsH2eJKtRx+gb4XjDRzP/Tp4bvolL9wEqn01VPe4ApDhgSZIQmbYTJh96ZsAggmKLicEIL6TxrIQJ0X4xmDHUBw1K5wdBu+LmIdrViqtz6YSfrJ5iDrkzRS6dSkQnVx21T8BmI+S/P6zobx/byIk/BURJyqrCSFBSPvUi7yrHqiKwkPyxIEmzPghhs2hC+UrZw==~1; Domain=.vmware.com; Path=/; Expires=Sat, 04 Mar 2023 16:44:22 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=33826F1CA20F1B7EEFF1012C4AC3A004~000000000000000000000000000000~YAAQ5awiF5w/EjGHAQAA1MW+URNqvpgaSYcylY9k7qamApCBW1nvJINwt91w6YE37TIR6VWOvedSVD7iuWSjoZzDuaEEw9h/NeCuZeWS/we8RhKARTa3ijquo1SKsypnnyuFRtCkBJaU0y2cU/4QFW6IMlYVO+JetUTR/CbodZ3iX6kQkNjOLABGRTePoGVR38gyYbJJ/ICdUObnKfHbigyRTQG/w+Avy/cXgX3ExJy1ABFEV6+Lgd+oQZndQQATEkrmqfv0yfkdvKBeWAeMFzzlHD2CT8Puk83Qbt6znsIHw8S/W24S6LQQpwr7MqHey0xNRFGAZBcyKvozlM7l54XFCwqUt5gnuPPAkgmKw4mOiJpbHemZvp2iHlisGti65I3q5Emo6iL0; Domain=.vmware.com; Path=/; Expires=Wed, 05 Apr 2023 16:07:49 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: bm_mi=FBBAD9113ED22A4162F8E854CFBCB229~YAAQ5awiF50/EjGHAQAA1MW+URMYZE5YQAvepyzIzsH3wHN0iqPBaZK4baHLgPq6qaCGPttDajSyi8Oo2ycwEbGCUNURWxFf9LAOAUiQ1Jz+FKdPOTbO8+hCnFi57XdDn7llI6stJ74Q2XnfEm66GsVsTkTs3/ViptvUZhEi5W3hOFCk3NgeOwsBBn5tYHfYLuHuUBPE6joNZGXvc/3pEnIeC4D9HTcw/N8Vs0Ww9jaHIhtOIQ8kxGgpOfYWYgJ/RTx63cQ0i9QxCLlHRzS+14z5wQufZWEazTTVeNWdzJ5OjnkJuvulxWuF5rEshJrt1izexX2ejQ==~1; Domain=.vmware.com; Path=/; Expires=Wed, 05 Apr 2023 14:07:49 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 12696 0 pmb=mTOE,2
-X-Nf-Request-Id: 01GTPR55Q5V53JW32EZAEQ07V6
+X-Akamai-Transformed: 9 12722 0 pmb=mTOE,2
+X-Nf-Request-Id: 01GX8VXHCYNT7074Q6T5W9AYW3
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,7 +49,7 @@ if (document.cookie.indexOf('OptanonConsent') > -1 && document.cookie.indexOf('g
 Sentry.init({
   dsn: "https://91138cf7f17842fd8a57d45372bf538c@o448817.ingest.sentry.io/5712977",
   integrations: [new Sentry.Integrations.BrowserTracing()],
-  release: '580f0a792e14ad01f0ea658b1cf8564d20cd7367',
+  release: 'ee6003614ae66adbfc7dc5a556fa731dc95b71f2',
   environment: 'production',
   
   
@@ -93,6 +94,126 @@ function isTvShowLive(showName) {
   episodes = [];
   
     var epInfo = {
+      startTime: new Date("2023-04-27T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-27T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/26\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-25T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-25T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/25\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-20T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-20T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/24\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-18T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-18T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/23\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-13T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-13T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/22\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-11T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-11T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/21\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-06T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-06T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/20\/"
+    };
+
+    
+    epInfo["stream"] = "";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-04-04T11:00:00-07:00"),
+      endTime: new Date(new Date("2023-04-04T11:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "The Golden Path to SpringOne",
+      link: "\/developer\/tv\/golden-path\/19\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-03-31T08:00:00-07:00"),
+      endTime: new Date(new Date("2023-03-31T08:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/41\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-03-31T10:05:19Z"),
+      endTime: new Date(new Date("2023-03-31T10:05:19Z").getTime() + ( 120  * 60000)),
+      show: "Tanzu Talk",
+      link: "\/developer\/tv\/talk\/182\/"
+    };
+
+    
+    epInfo["stream"] = "OLxZJX58ApQ";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2023-03-30T11:00:00-07:00"),
       endTime: new Date(new Date("2023-03-30T11:00:00-07:00").getTime() + ( 60  * 60000)),
       show: "The Golden Path to SpringOne",
@@ -105,142 +226,10 @@ function isTvShowLive(showName) {
     episodes.push(epInfo);
   
     var epInfo = {
-      startTime: new Date("2023-03-28T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-03-28T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/17\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-23T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-03-23T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/16\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-21T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-03-21T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/15\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-16T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-03-16T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/14\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-14T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-03-14T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/13\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-10T08:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-10T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      startTime: new Date("2023-03-30T08:00:00-07:00"),
+      endTime: new Date(new Date("2023-03-30T08:00:00-07:00").getTime() + ( 60  * 60000)),
       show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/36\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-09T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-09T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/12\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-09T08:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-09T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/35\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-07T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-07T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/11\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-02T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-02T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/10\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-03-02T08:00:00-08:00"),
-      endTime: new Date(new Date("2023-03-02T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/34\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-02-28T11:00:00-08:00"),
-      endTime: new Date(new Date("2023-02-28T11:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/9\/"
+      link: "\/developer\/tv\/enlightning\/40\/"
     };
 
     
@@ -454,7 +443,7 @@ function changeTheme(mode, firstLoad) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="863758298"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337be7ad"  defer></script></head>
+  <script >bazadebezolkohpepadr="863756408"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337be3f7"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -1426,5 +1415,5 @@ function changeTheme(mode, firstLoad) {
 
 <script src="/developer/js/main.2f851494a853f5a2aa4b144ee7fce526cd77f377c2abe3f907333c32dff604bb.js" integrity="sha256-L4UUlKhT9aKqSxRO5/zlJs1383fCq&#43;P5BzM8Mt/2BLs=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337be7ad?a=dD05NmIyODkwZTlmNGZiNGQwMDE0ZmVmMmNmNjM0NzM0YTM4ODc3YzA4JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337be3f7?a=dD1hOTVjZmJhMTkyZjAwNzYwODg3ZjMwMWZkNmIyNjVlMzAxNTYwMTM5JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

@@ -3,7 +3,7 @@ Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 Mar 2023 16:44:17 GMT
+Date: Wed, 05 Apr 2023 14:07:38 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -14,7 +14,7 @@ X-Frame-Options: DENY
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 
-ffdc
+102bf
 
 
 <!DOCTYPE html>
@@ -46,15 +46,16 @@ This page provides an overview of Manjaro Linux, an open source operating system
         <link rel="icon" type="image/png" href="/static/img/favicon.png">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#00695c">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         
 
-<link rel="preload" href="/static/css/styles.a3d913f76261.css" as="style">
+<link rel="preload" href="/static/css/styles.2b6b06ebb7e9.css" as="style">
 
         
 
-<link rel="stylesheet" href="/static/css/styles.a3d913f76261.css">
+<link rel="stylesheet" href="/static/css/styles.2b6b06ebb7e9.css">
 
 
 
@@ -114,7 +115,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
         
         
         <li class="">
-          <a  target="_blank"  href="https://manjaro.myspreadshop.net/"
+          <a  target="_blank"  href="https://manjaro.org/merchandise/"
             class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
             merchandise
           </a>
@@ -184,17 +185,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 <i class="fa-solid fa-server"></i>
                 mirrors
                 <span class="block text-xs text-blue-gray-600 hover:text-teal-600">check repositories state</span>
-              </a>
-            </li>
-            
-            
-            
-            <li class="relative text-sm py-2">
-              <a  href="https://manjaro.org/update-status/"
-                class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
-                <i class="fa-solid fa-wrench"></i>
-                update status
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">check manjaro updates</span>
               </a>
             </li>
             
@@ -430,16 +420,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
           
           
           <li class="py-2">
-            <a  href="https://manjaro.org/update-status/"
-              class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
-              update status</a>
-          </li>
-          
-          
-          
-          
-          
-          <li class="py-2">
             <a  href="https://manjaro.org/team/"
               class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               team</a>
@@ -570,7 +550,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
           
           
           <li class="py-2">
-            <a target="_blank"  href="https://manjaro.myspreadshop.net/"
+            <a target="_blank"  href="https://manjaro.org/merchandise/"
               class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               merchandise</a>
           </li>
@@ -639,8 +619,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
     <circle fill-opacity="0.3" fill="currentColor" cx="44" cy="44" r="22.5"></circle>
   </svg>
 
-  <div
-    class="flex relative justify-items-center mx-auto max-w-screen-xl px-4 lg:min-h-screen">
+  <div class="flex relative justify-items-center mx-auto max-w-screen-xl px-4 lg:min-h-screen">
+        
     <div id="promo" class="flex flex-col gap-10 items-center justify-between lg:flex-row w-full z-[2] relative">
 
       <div class="lg:w-1/2 text-teal-900 font-bold">
@@ -765,7 +745,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
 
   <div id="manjaro" class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
     <h3
-      class="w-full uppercase mb-6 lg:mt-24 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="w-full uppercase mb-6 lg:mt-20 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
       <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
         <i class="fa-solid fa-list-check"></i>
       </span>
@@ -777,15 +757,17 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div 
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa fa-heart mr-4 text-red-700"></i>Open Source</p>
+              <h4 class="mb-2 font-bold"><i class="fa fa-heart mr-4 text-red-700"></i>Open Source<h4>
               <p class="text-sm leading-5">
-                Feel right at home with Manjaro operating system using your favorit desktop environment from a wide choice,
-                install many of the available 
+                Choose a desktop user interface to create your ideal computing environment.
+                With Manjaro, you can easily install a plethora of 
                 <a target="_blank" id="open-source" class="link" href="https://opensource.com/resources/what-open-source">open source</a>
-                 software, use native packages,
-                <a target="_blank" id="flatpak" class="link" href="https://docs.flatpak.org/en/latest/introduction.html">flatpak</a> or 
-                <a target="_blank" id="snap" class="link" href="https://ubuntu.com/core/services/guide/snaps-intro">snap</a> or build your own packages using the 
-                <a target="_blank" id="aur" class="link" href="https://wiki.archlinux.org/title/Arch_User_Repository">arch user repository</a>
+                 software, utilizing either native packages,
+                <a target="_blank" id="flatpak" class="link" href="https://docs.flatpak.org/en/latest/introduction.html">Flatpak</a> or 
+                <a target="_blank" id="snap" class="link" href="https://ubuntu.com/core/services/guide/snaps-intro">Snap packages</a>. 
+                Additionally, you can take advantage of the 
+                <a target="_blank" id="aur" class="link" href="https://wiki.archlinux.org/title/Arch_User_Repository">Arch User Repository</a>
+                to build your own customized packages. Manjaro provides the ultimate flexibility and control over your computing experience.
               </p>
             </div>
             <div
@@ -795,12 +777,13 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-plug mr-4 text-teal-400"></i>Compatibility</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-plug mr-4 text-teal-400"></i>Compatibility</h4>
               <p class="text-sm leading-5">
-                Manjaro works on computers independently of their age, boost older Hardware or super boost new hardware,
-                 powered by the <a target="_blank" id="linux" class="link" href="https://www.linux.com/what-is-linux/">Linux kernel</a>, it lets you use touch screens and sound cards, graphic cards and peripherals out of the box,
-                  without having to fetch for 
-                  <a target="_blank" id="drivers" class="link" href="https://en.wikipedia.org/wiki/Device_driver">device drivers</a> from manufactures</p>
+                Boost older hardware or fully harness the capabilities of the latest hardware. Manjaro is powered by the robust 
+                <a target="_blank" id="linux" class="link" href="https://en.wikipedia.org/wiki/Linux_kernel">Linux kernel</a> and supports touchscreens, sound cards, graphics cards, and peripherals out of the box, without the need to search for 
+                <a target="_blank" id="drivers" class="link" href="https://en.wikipedia.org/wiki/Device_driver">drivers</a>
+                 from manufacturers. This means you can enjoy a hassle-free experience with Manjaro, focusing on your work or leisure activities rather than dealing with tedious driver installations.
+                  </p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -809,11 +792,11 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-envelopes-bulk mr-4 text-teal-400"></i>Office</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-envelopes-bulk mr-4 text-teal-400"></i>Office</h4>
               <p class="text-sm leading-5">
-                Easily accomplish any office task with the available office suites,
-                multiple document formats are supported and compatible with document format standards.
-                 Get your email on check with the best email clients</p>
+                Effortlessly tackle any office task with the comprehensive office suites available.
+                 These suites support multiple document formats and adhere to document format standards, ensuring compatibility and ease of use.
+                 In addition, Manjaro offers a range of email clients, allowing you to stay on top of your email inbox and communication needs. Stay organized, productive, and efficient.</p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -822,20 +805,14 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-gamepad mr-4 text-teal-400"></i>Gaming</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-gamepad mr-4 text-teal-400"></i>Gaming</h4>
               <p class="text-sm leading-5">
-                Play native games using 
-                <a target="_blank" id="steam" class="link" href="https://store.steampowered.com/about/">steam</a>
-                 or 
-                 <a target="_blank" id="lutris" class="link" href="https://lutris.net/about">lutris</a>
-                 , 
-                emulate other game platforms with steam
-                <a target="_blank" id="proton" class="link" href="https://www.protondb.com/">proton</a> 
-                or 
-                <a target="_blank" id="wine" class="link" href="https://www.winehq.org/about">wine</a>, 
-                use retro emulators
-                 and get all your games in one place, play media or video content or setup a media center,
-                  connect controllers over usb or bluetooth</p>
+                Seamless gaming experience with the option to play native games using Steam
+                 or Lutris.
+                 You can also emulate other game platforms with Steam Proton or Wine.
+                Retro gaming enthusiasts can enjoy playing their favorite classic games using the various retro emulators available on the platform.
+                Simplified media consumption with the ability to play media or video content, and even set up a dedicated media center.
+                Additionally, connecting controllers is made easy with support for both USB and Bluetooth controllers.</p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -844,23 +821,14 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-pen mr-4 text-teal-400"></i>Creativity</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-pen mr-4 text-teal-400"></i>Creativity</h4>
               <p class="text-sm leading-5">
-                Design using 
-                <a target="_blank" id="inkscape" class="link" href="https://inkscape.org/">inkscape</a> 
-                or 
-                <a target="_blank" id="gimp" class="link" href="https://www.gimp.org/">gimp</a>,
-                 do 3d with 
-                 <a target="_blank" id="blender" class="link" href="https://www.blender.org/features/">blender</a> or 
-                 <a target="_blank" id="freecad" class="link" href="https://www.freecadweb.org/">freecad</a>
-                  and bring them to life on your 3d printer with
-                  <a target="_blank" id="prusa" class="link" href="https://www.prusa3d.com/prusaslicer/">prusa slicer</a>,
-                 do video editing using 
-                 <a target="_blank" id="kde-live" class="link" href="https://kdenlive.org/en/features/">kde-live</a>,
-                 or 
-                 <a target="_blank" id="openshot" class="link" href="https://www.openshot.org/features/">openshot</a>
-                 , record or stream videos with 
-                 <a target="_blank" id="obs" class="link" href="https://obsproject.com/">open broadcast software</a>
+                Unleash your creativity and bring your design projects to life.
+                Design graphics and vector art using Inkscape or GIMP, or create 3D models with Blender or FreeCAD.
+                When you're ready to print your 3D designs, use Prusa Slicer to simplify the process. 
+                You can also edit your videos using popular software options like KDE-Live or OpenShot. 
+                For content creators Open Broadcast Software (OBS) for recording and streaming videos.
+                Take your designs and video content to the next level.
               </p>
             </div>
             <div
@@ -870,10 +838,13 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-server mr-4 text-teal-400"></i>DevOps</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-server mr-4 text-teal-400"></i>DevOps</h4>
               <p class="text-sm leading-5">
-                Use git version control for your projects, deploy and run virtual machines, manage docker or kubernetes instances,
-                 access configure and administer your remote machines via ssh, vnc, rdp or telnet</p>
+             Take full control of your projects by utilizing the powerful git version control system.
+             In addition, the platform offers robust virtualization capabilities, enabling you to deploy and run virtual machines with ease.
+             Simplified containerization with the ability to manage Docker or Kubernetes instances.
+              You can remotely access, configure, and administer your machines via various protocols such as SSH, VNC, RDP, or Telnet,
+               giving you unparalleled flexibility and control over your computing environment. Streamline your development workflows and achieve greater productivity.</p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -882,10 +853,13 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-code mr-4 text-teal-400"></i>Development</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-code mr-4 text-teal-400"></i>Development</h4>
               <p class="text-sm leading-5">
-                Build software and user interfaces with any programming language and test on top of the latest software with a rolling release model,
-                use text editors like visual studio code, pycharm, sublime text or run a IDE such as eclipse or apache netbeans</p>
+                Manjaro offers a versatile platform for software development with support for many programming language.
+                 You can build software and user interfaces using your preferred programming language and test on the latest software with a rolling release model.
+                 The platform also provides access to a range of popular text editors, including Visual Studio Code,
+                 PyCharm, and Sublime Text. For more complex development projects, you can run a comprehensive integrated development environment (IDE) such as Eclipse or Apache NetBeans.
+                 Bring your software development projects to life.</p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -894,10 +868,13 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div
             class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
             <div class="py-2 px-4">
-              <p class="mb-2 font-bold"><i class="fa-solid fa-walkie-talkie mr-4 text-teal-400"></i>Communication</p>
+              <h4 class="mb-2 font-bold"><i class="fa-solid fa-walkie-talkie mr-4 text-teal-400"></i>Communication</h4>
               <p class="text-sm leading-5">
-                Keep on top of your team communication in realtime, do chat or video mettings using mattermost, slack,
-                 telegram or any other available tool from many choices available in the Manjaro repositories</p>
+               Stay connected with your team in real-time using a variety of communication tools.
+                Conduct chat or video meetings seamlessly using Mattermost, Slack, Telegram.
+                The platform offers a vast selection of communication tools to suit your team's specific needs.
+                Easily collaborate and communicate with your team, no matter where you are located.
+                Stay connected, stay productive, and achieve your goals.</p>
             </div>
             <div
               class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
@@ -945,9 +922,9 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 
   </div>
-  <div class="text-teal-900 px-4 relative flex flex-col lg:min-h-screen mx-auto w-full max-w-screen-xl">
+  <div class="text-teal-900 px-4 relative flex flex-col justify-center lg:min-h-screen mx-auto w-full max-w-screen-xl">
     <h3
-      class="w-full uppercase mb-4 lg:mt-24 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="w-full uppercase mb-4 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
       <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
         <i class="fa-brands fa-linux"></i>
       </span>
@@ -1021,7 +998,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
       
     </div>
   </div>
-  <a href="#partner" class="scroll-btn z-10 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
+  <a href="#merch" class="scroll-btn z-10 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
     aria-label="scroll">
     <div class="chevron-container">
       <div class="chevron"></div>
@@ -1031,7 +1008,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
   </a>
 </div>
 
-<div id="partner" class="relative lg:min-h-[100vh] flex justify-center">
+<div id="merch" class="relative lg:min-h-[100vh] flex justify-center">
   <div class="bg-blue-gray-800 absolute h-full w-full">
     <div class="w-full justify-center lg:flex relative">
       <img src="/static/img/dark-woble.02708e7af716.svg" alt="wobble"
@@ -1056,36 +1033,198 @@ This page provides an overview of Manjaro Linux, an open source operating system
     <div class="flex flex-col justify-center">
       <div class="text-gray-200">
         <h3
-          class="w-full uppercase mb-6 lg:mt-24 flex justify-center items-center font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+          class="w-full uppercase mb-6 flex justify-center items-center font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
             <div class="flex text-xl items-center justify-center w-12 h-12 rounded-full bg-yellow-accent-700 mr-2">
-              <svg class="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
-                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                  points=" 8,5 8,1 16,1 16,5" stroke-linejoin="round"></polyline>
-                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                  points="9,15 1,15 1,5 23,5 23,15 15,15" stroke-linejoin="round"></polyline>
-                <polyline fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
-                  points="22,18 22,23 2,23 2,18" stroke-linejoin="round"></polyline>
-                <rect x="9" y="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-miterlimit="10" width="6" height="4" stroke-linejoin="round"></rect>
-              </svg>
+              <i class="fa-solid fa-shop text-teal-900"></i>
             </div>
-          Collaborate with us on OS integration.
+          Latest Merchandise
         </h3>
-        <div
-          class="relative grid md:gap-4 grid-cols-1 md:grid-cols-2 text-gray-800">
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
-            <img src="/static/img/partner.da9abed428bf.webp" class="object-cover h-full" width="auto" height="auto" alt="partners">
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white md:rounded md:rounded-b-none lg:rounded-b shadow-xl group hover:shadow-2xl">
-            <div class="p-5">
-              <p class="mb-2 font-bold capitalize"><i class="fa-solid fa-microchip mr-4 text-teal-400"></i>Manjaro on devices</p>
-              <p class="text-sm leading-5 pb-8 lg:pb-0">
-                Our ambition is to make Manjaro Linux available to everyone and guarantee it runs smoothly on their device right after installation. We strive to make sure that everyone can enjoy the latest and greatest features of Manjaro Linux. Our partners are taking full advantage of open-source software which is reliable, budget-friendly, and has an elevated level of security by default. The open-source nature of Manjaro Linux also allows for customization to suit the needs of any user. Having Manjaro as an OEM product opens a new market for hardware products and improves hardware support directly from manufacturers. This makes Manjaro an attractive choice for manufacturers looking to provide a reliable operating system that can be tailored to their needs. Furthermore, users can benefit from improved timely stable updates as well as the peace of mind that comes with knowing their devices are running a secure, reliable operating system. </p>
+        
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+         
+         <div class="flex relative bg-gray-200 flex-wrap rounded">
+          
+          
+
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/products/T812A39PA5882PT17X48Y3D319851789W25000H25000PA5886PT17X64Y61D319851822W21849H21849/views/1,width=500,height=500,appearanceId=39,backgroundColor=c6c0c0,crop=list,modelId=1111/linux-is-not-about-windows-its-about-freedom.jpg" class="w-full rounded-t" alt="Merchandise">
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="p-6 font-bold text-center text-lg bg-blue-gray-900 w-full h-[88px] rounded-b">
+              <a href="https://manjaro.org/merchandise/#!/create" class="px-6 py-2 bg-teal-600 block rounded max-w-fit mx-auto">
+                <i class="fa-solid fa-cart-shopping mr-4"></i>Customize your own</a>
             </div>
-          </div>
-        </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+
+          
+      </div>
+        
+         <div class="flex relative bg-gray-200 flex-wrap rounded">
+          
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/products/T813A29PA3805PT17X35Y0D319851789W21059H21059PA5870PT17X38Y45D319851822W20144H20144/views/1,width=500,height=500,appearanceId=29,backgroundColor=c6c0c0,crop=list,modelId=2456/linux-is-not-about-windows-its-about-freedom.jpg" class="w-full rounded-t" alt="Merchandise">
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <p class="p-4 font-bold text-center text-lg bg-blue-gray-900 h-[88px] w-full flex justify-center items-center rounded-b">
+              Linux is not about windows. It&#x27;s about freedom.
+            </p>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+      </div>
+        
+         <div class="flex relative bg-gray-200 flex-wrap rounded">
+          
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <img src="https://image.spreadshirtmedia.net/image-server/v1/products/T1155A195PA2485PT17X1Y17D319851789W24872H24872PA2483PT17X0Y16D319851822W25069H25069/views/1,width=500,height=500,appearanceId=195,backgroundColor=c6c0c0/linux-is-not-about-windows-its-about-freedom.jpg" class="w-full rounded-t" alt="Merchandise">
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div class="p-6 font-bold text-center text-lg bg-blue-gray-900 w-full h-[88px] rounded-b">
+              <a href="https://manjaro.org/merchandise/" class="px-6 py-2 bg-teal-600 block rounded max-w-fit mx-auto">
+                <i class="fa-solid fa-cart-shopping mr-4"></i>Discover Merch</a>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+      </div>
+        
+      </div>
       </div>
     </div>
   </div>
@@ -1121,7 +1260,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
   </div>
   <div class="text-gray-200 px-4 w-full lg:max-w-screen-xl mx-auto">
     <h3
-      class="text-teal-900 w-full uppercase mb-4 lg:mt-24 flex justify-center items-center font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="text-teal-900 w-full uppercase mb-4 flex justify-center items-center font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
       <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
         <i class="fa-solid fa-blog"></i>
       </span>
@@ -1392,7 +1531,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 </footer>
 
-        <script async type="text/javascript" src="/static/js/manjaro.b877af3fd070.js"></script>
+        <script async type="text/javascript" src="/static/js/manjaro.5eff76876796.js"></script>
 
         
 <script>
@@ -1436,39 +1575,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
   tippy('#drivers', {
     content: "WHAT ARE DRIVERS" + tooltipIcon,
     allowHTML: true,
-  })
-  tippy('#steam', {
-    content: "GAMING WITH STEAM" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#lutris', {
-    content: "GAMING WITH LUTRIS" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#proton', {
-    content: "CHECK PROTONDB" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#wine', {
-    content: "WHAT IS WINE" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#inkscape', {
-    content: "FOR VECTOR GRAPHICS" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#gimp', {
-    content: "PHOTOSHOP REPLACEMENT" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#blender', {
-    content: "ALL IN ONE 3D SOFTWARE" + tooltipIcon,
-    allowHTML: true,
-  })
-  tippy('#freecad', {
-    content: "PARAMETRIC 3D MODELER" + tooltipIcon,
-    allowHTML: true,
-  })
+  })  
   tippy('#features', {
     content: "MANJARO TRAITS AND SOFTWARE" + tooltipIcon,
     allowHTML: true,

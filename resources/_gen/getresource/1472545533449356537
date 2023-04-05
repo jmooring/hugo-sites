@@ -1,14 +1,15 @@
 HTTP/2.0 200 OK
+Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 10006
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 16:44:35 GMT
-Etag: "fc8bb028bf33a8d28630b3f251e46e97-ssl-df"
+Date: Wed, 05 Apr 2023 11:21:06 GMT
+Etag: "d6252160b40f87d3b19760c88e32db84-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GTPR5JP2EXXBEHM64423W71Y
+X-Nf-Request-Id: 01GX8VXM6FGAZ4VH853RP9KBGS
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -87,9 +88,7 @@ X-Nf-Request-Id: 01GTPR5JP2EXXBEHM64423W71Y
               <h1 class="mb-3">Your application, and everything you need to deploy, together 💖</h1>
               <h2>Package your application, client tools, configuration, and deployment logic into an installer that you can distribute and run with a single command.</h2>
 
-              <button class="btn btn-github mt-3 btn-lg text-center">
-                <h2 class="mb-0 p-2 txt-github"><a style=" text-decoration:none; color:white" href="https://getporter.org/quickstart">Get Started  </a></h2>
-              </button>
+              <a role="button" class="mb-0 txt-github btn btn-github mt-3" href="https://getporter.org/quickstart">Get Started  </a>
             </div>
             
           </section>

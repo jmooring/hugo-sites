@@ -1,18 +1,19 @@
 HTTP/2.0 200 OK
+Age: 70
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Sat, 04 Mar 2023 16:44:19 GMT
-Etag: W/"6b413b3dc03c36ed923b419050644da7"
-Last-Modified: Fri, 03 Mar 2023 14:32:30 GMT
+Date: Wed, 05 Apr 2023 14:06:36 GMT
+Etag: W/"4c1975caddc4289500cd0008105cecf6"
+Last-Modified: Tue, 04 Apr 2023 09:37:21 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 ec2a2c75c16156e4d43504606c118b90.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: -bd401PocxglofD7ACHKNR3Ps_YxO5CEdNsO3s_5DsidO3fJdk3qIw==
+Via: 1.1 6ca7826fb0f4c565b1af9c7737725c48.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LIEzTeYOOoAhGN_WZ9jsDuo86iDy2ZwDCL4VeCFCSsLv27Ugr0UQZA==
 X-Amz-Cf-Pop: SEA19-C1
-X-Amz-Id-2: PfUVomUoikFygOfCvsurNDeAhbSMq+FFjLV+SMLpeE7BPey+y7egTLrhGL83b5ovS4wjHAxUvPc=
-X-Amz-Request-Id: 72Y522W1GGAQ3MZX
-X-Cache: RefreshHit from cloudfront
+X-Amz-Id-2: Yw7UiGUnQV35DMQl1uuRlbGD9+jHYUgQSxz8r8n1Z985hrmQQLWCzPsCTf82lH7LmElJMhd45+0=
+X-Amz-Request-Id: K3J5DJSXBPF48FX8
+X-Cache: Hit from cloudfront
 X-Frame-Options: deny
 
 <!DOCTYPE html>
@@ -131,11 +132,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=5080a38e7737a663d03dc564a2059007" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=6d78964c1903b4be573fb1565ad34711" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=406199d73804a3a5f0069b5f5c018775">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=804377444519269e16e4b2ed201c4099">
 
 
 <meta property="og:locale" content="en" />
@@ -212,12 +213,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
-  <div class="container ">
-    
+  
     
 
 
-    
+  
     
     
     
@@ -470,7 +470,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a class="login-modal__forgot-password-link" href="https://teams.nozbe.com/password_reset">Forgot your password?</a>
                 <button class="button bg-purple">
                   Log in
-                  <span class="spinner spinner--white hidden"></span>
+                  <span class="spinner spinner--white spinner--inline hidden"></span>
                 </button>
               </form>
 
@@ -514,7 +514,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         
           <div class="header-nav__signup-container">
-            <a href="https://nozbe.com/signup-teams"
+            <a href="https://nozbe.com/signup"
               class="button header-nav__button header-nav__button--last bg-purple"
               data-signup-link="header">Sign up for free</a>
 
@@ -533,7 +533,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
         <div class="header-nav__mobile-sticky-button-container">
-          <a href="https://nozbe.com/signup-teams"
+          <a href="https://nozbe.com/signup"
             class="button bg-purple header-nav__mobile-sticky-button"
             data-signup-link="header-sticky">Sign up for free</a>
 
@@ -555,7 +555,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
-    <div class="nt-testimonial__banner hidden" data-signup-href="https://nozbe.com/signup-teams">
+    <div class="nt-testimonial__banner hidden" data-signup-href="https://nozbe.com/signup">
       <span class="nt-testimonial__banner-text">Sign up today and thanks to <strong>{name}</strong> get <strong>{credits}</strong> of free extra credits</span>
       <span class="nt-testimonial__banner-close-icon">/</span>
     </div>
@@ -564,22 +564,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+  <div class="container ">
     <div class="nt-content">
       
     
+  
 
+  
+  
 
-    
+  
 
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="hero" data-section-index="0">
-        
+  <div class="nt-section__container nt-section__container--white" data-section-name="hero" data-section-index="0">
+      
 
 
 
@@ -587,7 +584,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__content nt-hero nt-columns-container nt-columns-container--align-start nt-columns-container--with-borderless" id="homepage-hero">
+<div class="section__content nt-hero nt-columns-container nt-columns-container--align-start nt-columns-container--with-borderless" id="homepage-hero">
   <div class="nt-column nt-column--left nt-column--normal nt-column--with-borderless">
     
       <h1 class="nt-hero__title nt-hero__title--left">Make Work Less Stressful</h1>
@@ -608,7 +605,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     
-      
+    
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--left">
+    
       
 
 
@@ -647,7 +652,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -660,17 +665,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    
-    <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
-      <img src="/images/icons/siwa.svg" class="siwa-button__icon">
-      <span class="siwa-button__title">Sign in with Apple</span>
-    </a>
+    <div class="oauth-buttons-container">
+      
+      <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
+        <img src="/images/icons/siwa.svg" class="siwa-button__icon">
+        <span class="siwa-button__title">Sign in with Apple</span>
+      </a>
 
-    
-    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
-      <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
-      <span class="google-signin-button__title">Sign in with Google</span>
-    </a>
+      
+      <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
+        <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
+        <span class="google-signin-button__title">Sign in with Google</span>
+      </a>
+    </div>
   
 
   
@@ -689,6 +696,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     
+  </div>
+
   </div>
 
   
@@ -714,25 +723,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   
 </div>
-    </div>
+  </div>
 
-    
+  
 
-    
+  
+  
 
-    
+  
 
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="video" data-section-index="1">
-        
+  <div class="nt-section__container nt-section__container--orange" data-section-name="video" data-section-index="1">
+      
 
 
 
-<div class="nt-section__content" id="product-video">
+
+<div class="section__content" id="product-video">
   <div class="nt-section-video__container">
     
       <h2 class="nt-hero__title nt-hero__title--left">A project management system that works for you</h2>
@@ -775,8 +781,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -793,17 +806,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="signup-buttons__container signup-buttons__container--start mobile-only"
+<div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
   data-automatic-button="signup"
 >
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--big signup-teams-form__row--start">
+    <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -827,7 +840,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -878,37 +891,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
+  
 
-    
+  
+  
 
-    
+  
 
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange hidden" data-section-name="carousel_1" data-section-index="2">
-        
+  <div class="nt-section__container nt-section__container--orangehidden" data-section-name="carousel_1" data-section-index="2">
+      
 
 
 
 
-<div class="nt-section__content" id="key-features">
+
+<div class="section__content section__content--center" id="key-features">
   
 
   
 
   
 
-  <div class="nt-carousel" data-interval="8">
-    <div class="nt-carousel__wrapper">
+  <div class="carousel" data-interval="8">
+    <div class="carousel__wrapper">
       
         
         
@@ -916,9 +927,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
-          <div class="nt-carousel__item">
+          <div class="carousel__item section__content section__content--align-center">
             
   
   
@@ -926,8 +938,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   
+  
 
-  <div class="nt-column nt-column--center nt-column--wide">
+  <div class="column column--wide column--align-center">
     
 
     
@@ -969,113 +982,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     
-      
-        
-
-        <div class="nt-section__bottom-button-container">
-          
-
-
-  
-  
-  
-  
-
-  
-
-
-
-
-
-
-
-<div class="signup-buttons__container signup-buttons__container--center mobile-only"
-  
-  
-  data-automatic-button="signup"
->
-  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--big signup-teams-form__row--center">
-      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
-        Sign up for free
-        <span class="spinner spinner--white hidden"></span>
-      </button>
-    </div>
-    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
-  </form>
-
-  
-
-  
-  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
-    <img src="/images/badges/img_ios_en.svg">
-  </a>
-
-  
-  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
-    <img src="/images/badges/img_android_en.svg">
-  </a>
-
-  
-  
-</div>
-  
-
-
-<a href="https://nozbe.com/signup-teams"
-  id=""
-  class="button bg-orange  button--full mobile-only "
-  
-  data-automatic-button="link"
-  
->
-  
-  <span>Sign up for free</span>
-</a>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="payments-button__container mobile-only"
-  data-automatic-button="payments">
-  <p class="payments-button__message"
-    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
     
-  >
-    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
-  </p>
-  
-
-
-<a href=""
-  id=""
-  class="button bg-orange "
-  
-  
-  data-role="payments-button"
->
-  
-  <span>Buy Premium</span>
-</a>
-</div>
-
-
-        </div>
     
+
+
+
+
   </div>
 
           </div>
@@ -1087,9 +999,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
-          <div class="nt-carousel__item">
+          <div class="carousel__item section__content section__content--align-center">
             
   
   
@@ -1097,8 +1010,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   
+  
 
-  <div class="nt-column nt-column--center nt-column--wide">
+  <div class="column column--wide column--align-center">
     
 
     
@@ -1140,113 +1054,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     
-      
-        
-
-        <div class="nt-section__bottom-button-container">
-          
-
-
-  
-  
-  
-  
-
-  
-
-
-
-
-
-
-
-<div class="signup-buttons__container signup-buttons__container--center mobile-only"
-  
-  
-  data-automatic-button="signup"
->
-  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--big signup-teams-form__row--center">
-      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
-        Sign up for free
-        <span class="spinner spinner--white hidden"></span>
-      </button>
-    </div>
-    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
-  </form>
-
-  
-
-  
-  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
-    <img src="/images/badges/img_ios_en.svg">
-  </a>
-
-  
-  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
-    <img src="/images/badges/img_android_en.svg">
-  </a>
-
-  
-  
-</div>
-  
-
-
-<a href="https://nozbe.com/signup-teams"
-  id=""
-  class="button bg-orange  button--full mobile-only "
-  
-  data-automatic-button="link"
-  
->
-  
-  <span>Sign up for free</span>
-</a>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="payments-button__container mobile-only"
-  data-automatic-button="payments">
-  <p class="payments-button__message"
-    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
     
-  >
-    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
-  </p>
-  
-
-
-<a href=""
-  id=""
-  class="button bg-orange "
-  
-  
-  data-role="payments-button"
->
-  
-  <span>Buy Premium</span>
-</a>
-</div>
-
-
-        </div>
     
+
+
+
+
   </div>
 
           </div>
@@ -1258,9 +1071,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
-          <div class="nt-carousel__item">
+          <div class="carousel__item section__content section__content--align-center">
             
   
   
@@ -1268,8 +1082,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   
+  
 
-  <div class="nt-column nt-column--center nt-column--wide">
+  <div class="column column--wide column--align-center">
     
 
     
@@ -1311,113 +1126,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     
-      
-        
-
-        <div class="nt-section__bottom-button-container">
-          
-
-
-  
-  
-  
-  
-
-  
-
-
-
-
-
-
-
-<div class="signup-buttons__container signup-buttons__container--center mobile-only"
-  
-  
-  data-automatic-button="signup"
->
-  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--big signup-teams-form__row--center">
-      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
-        Sign up for free
-        <span class="spinner spinner--white hidden"></span>
-      </button>
-    </div>
-    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
-  </form>
-
-  
-
-  
-  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
-    <img src="/images/badges/img_ios_en.svg">
-  </a>
-
-  
-  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
-    <img src="/images/badges/img_android_en.svg">
-  </a>
-
-  
-  
-</div>
-  
-
-
-<a href="https://nozbe.com/signup-teams"
-  id=""
-  class="button bg-orange  button--full mobile-only "
-  
-  data-automatic-button="link"
-  
->
-  
-  <span>Sign up for free</span>
-</a>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="payments-button__container mobile-only"
-  data-automatic-button="payments">
-  <p class="payments-button__message"
-    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
     
-  >
-    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
-  </p>
-  
-
-
-<a href=""
-  id=""
-  class="button bg-orange "
-  
-  
-  data-role="payments-button"
->
-  
-  <span>Buy Premium</span>
-</a>
-</div>
-
-
-        </div>
     
+
+
+
+
   </div>
 
           </div>
@@ -1429,9 +1143,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
-          <div class="nt-carousel__item">
+          <div class="carousel__item section__content section__content--align-center">
             
   
   
@@ -1439,8 +1154,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   
+  
 
-  <div class="nt-column nt-column--center nt-column--wide">
+  <div class="column column--wide column--align-center">
     
 
     
@@ -1482,137 +1198,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
     
-      
-        
-
-        <div class="nt-section__bottom-button-container">
-          
-
-
-  
-  
-  
-  
-
-  
-
-
-
-
-
-
-
-<div class="signup-buttons__container signup-buttons__container--center mobile-only"
-  
-  
-  data-automatic-button="signup"
->
-  <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--big signup-teams-form__row--center">
-      <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
-        Sign up for free
-        <span class="spinner spinner--white hidden"></span>
-      </button>
-    </div>
-    <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
-  </form>
-
-  
-
-  
-  <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store">
-    <img src="/images/badges/img_ios_en.svg">
-  </a>
-
-  
-  <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store">
-    <img src="/images/badges/img_android_en.svg">
-  </a>
-
-  
-  
-</div>
-  
-
-
-<a href="https://nozbe.com/signup-teams"
-  id=""
-  class="button bg-orange  button--full mobile-only "
-  
-  data-automatic-button="link"
-  
->
-  
-  <span>Sign up for free</span>
-</a>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="payments-button__container mobile-only"
-  data-automatic-button="payments">
-  <p class="payments-button__message"
-    data-default-message="Get started with Nozbe Premium today. &lt;br/&gt; Get organized or get your money back!"
     
-  >
-    Get started with Nozbe Premium today. <br/> Get organized or get your money back!
-  </p>
-  
-
-
-<a href=""
-  id=""
-  class="button bg-orange "
-  
-  
-  data-role="payments-button"
->
-  
-  <span>Buy Premium</span>
-</a>
-</div>
-
-
-        </div>
     
+
+
+
+
   </div>
 
           </div>
         
       
     </div>
-    <div class="nt-carousel__dots">
-      <div class="nt-carousel__dots-container">
+    <div class="carousel__dots">
+      <div class="carousel__dots-container">
         
-          <div class="nt-carousel__dot" data-index="0"></div>
+          <div class="carousel__dot" data-index="0"></div>
         
-          <div class="nt-carousel__dot" data-index="1"></div>
+          <div class="carousel__dot" data-index="1"></div>
         
-          <div class="nt-carousel__dot" data-index="2"></div>
+          <div class="carousel__dot" data-index="2"></div>
         
-          <div class="nt-carousel__dot" data-index="3"></div>
+          <div class="carousel__dot" data-index="3"></div>
         
-        <div class="nt-carousel__active-dot-highlight"></div>
+        <div class="carousel__active-dot-highlight"></div>
       </div>
     </div>
   </div>
+
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -1639,7 +1262,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -1663,7 +1286,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -1714,59 +1337,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
+  
 
-    
+  
+  
 
-    
+  
 
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="cards-grid_2" data-section-index="3">
-        
+  <div class="nt-section__container nt-section__container--white" data-section-name="cards-grid_2" data-section-index="3">
+      
 
 
 
 
 
-<div class="nt-section__content" id="">
+
+
+
+<div class="section__content section__content--center" id="">
   
 
   
 
   
 
-  <div class="nt-grid-container" data-columns="3">
+  <div class="cards-grid grid grid-cols-3" data-columns="3">
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Manage your team</h3>
+            <h3 class="cards-grid__title text-center">Manage your team</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description"><strong>Use Nozbe with your team and give everyone access to all the important information in one easy-to-use app, on all of their devices. It’s quick to set up, so your team can focus on getting stuff done straight away.</strong></div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center"><strong>Use Nozbe with your team and give everyone access to all the important information in one easy-to-use app, on all of their devices. It’s quick to set up, so your team can focus on getting stuff done straight away.</strong></div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -1780,41 +1409,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       srcset="https://files.nozbe.com/images/pages-teams/why_hero_nobackround,manage_your_team.webp"
       
     >
-    <img class="nt-column__thumbnail--small"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
       src="https://files.nozbe.com/images/pages-teams/why_hero_nobackround,manage_your_team.png"
       
       alt="Manage your team">
   </picture>
 
+            </div>
           
 
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Easily handle various facets of your professional and personal life.<br> Remember that you can <a href="https://nozbe.com/blog/multiple-teams-in-nozbe-teams/">have more than just one team in Nozbe</a>!</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center">Easily handle various facets of your professional and personal life.<br> Remember that you can <a href="https://nozbe.com/blog/multiple-teams-in-nozbe-teams/">have more than just one team in Nozbe</a>!</div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Everyone can be organized</h3>
+            <h3 class="cards-grid__title text-center">Everyone can be organized</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description"><strong>Nozbe is suitable also for teams of one. We want to support everyone in your work and help you get more done smoothly and effectively - no matter if you need to manage your one-person business or private projects.</strong></div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center"><strong>Nozbe is suitable also for teams of one. We want to support everyone in your work and help you get more done smoothly and effectively - no matter if you need to manage your one-person business or private projects.</strong></div>
           
         </div>
-      </div>
+      
     
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -1841,7 +1480,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -1865,7 +1504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -1916,51 +1555,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="cards-grid" data-section-index="4">
-        
-
-
-
-
-
-<div class="nt-section__content" id="">
   
-    <h2 class="nt-learn-more__box-title nooffice-section__title">
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="cards-grid" data-section-index="4">
+      
+
+
+
+
+
+
+
+
+<div class="section__content section__content--left" id="">
+  
+    <h2 class="section__title text-left">
       Nozbe is free <br> for everyone, everywhere!
     </h2>
   
 
   
-    <h3 class="nt-learn-more__box-subtitle">Start getting things done better, today!</h3>
+    <h3 class="section__subtitle text-left">Start getting things done better, today!</h3>
   
 
   
 
-  <div class="nt-grid-container" data-columns="3">
+  <div class="cards-grid grid grid-cols-3" data-columns="3">
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -1969,29 +1612,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--normal"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
     src="https://files.nozbe.com/images/pages-teams/Free,it_is_free.svg"
     alt="It’s free" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">It’s free</h3>
+            <h3 class="cards-grid__title text-left">It’s free</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Nozbe is free for <strong>up to 5 active projects and 5 team members</strong>. No time limit. No credit card required. <br> Easily <a href="https://nozbe.com/free">upgrade to Premium</a> when you need it, or join our <a href="https://nozbe.com/refer">referral program</a> to get Premium<br> for free!</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">Nozbe is free for <strong>up to 5 active projects and 5 team members</strong>. No time limit. No credit card required. <br> Easily <a href="https://nozbe.com/free">upgrade to Premium</a> when you need it, or join our <a href="https://nozbe.com/refer">referral program</a> to get Premium<br> for free!</div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -2000,29 +1648,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--normal"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
     src="https://files.nozbe.com/images/pages-teams/its_for_everyone.svg"
     alt="for everyone" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">It’s for everyone</h3>
+            <h3 class="cards-grid__title text-left">It’s for everyone</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Get organized today, alone or with a team. <strong>Everyone will easily get the hang of it</strong>. The app is simple to install and intuitive. <br> It’s easy to create a project, add a task, or post a comment.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">Get organized today, alone or with a team. <strong>Everyone will easily get the hang of it</strong>. The app is simple to install and intuitive. <br> It’s easy to create a project, add a task, or post a comment.</div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -2031,27 +1684,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--normal"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
     src="https://files.nozbe.com/images/pages-teams/anywhere.svg"
     alt="everywhere" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">It’s everywhere!</h3>
+            <h3 class="cards-grid__title text-left">It’s everywhere!</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Nozbe <strong>works like a charm on every device</strong>. It’s available as a web app that you can use on any computer, as well as an app for Android smartphones, iPhones, and iPads. <br>And it even works <strong>offline</strong>!</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">Nozbe <strong>works like a charm on every device</strong>. It’s available as a web app that you can use on any computer, as well as an app for Android smartphones, iPhones, and iPads. <br>And it even works <strong>offline</strong>!</div>
           
         </div>
-      </div>
+      
     
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -2078,7 +1739,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -2102,7 +1763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -2153,24 +1814,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
+  
 
-    
+  
+  
 
-    
+  
 
-    
-    
+  <div class="nt-section__container nt-section__container--white" data-section-name="testimonial" data-section-index="5">
+      
 
-    
 
-    <div class="nt-section__container nt-section__container--white " data-section-name="testimonial" data-section-index="5">
-        
+
 
 
 
@@ -2185,10 +1846,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<div class="nt-section__content nt-testimonial"  id="">
+<div class="section__content nt-testimonial"  id="testimonial">
   <div class="spinner center-x"></div>
 
-  <div class="nt-card-container nt-testimonial__content hidden" id="testimonial-card">
+  <div class="card__container nt-testimonial__content hidden" id="testimonial-card">
     <div class="nt-testimonial__top">
       <div class="nt-testimonial__avatar-container">
         <img data-src="https://files.nozbe.com/images/pages-teams/testimonial-avatar-en.jpg" alt="Andre Tzschaschel, CEO of Valuemedia GmbH" class="nt-testimonial__avatar" />
@@ -2202,8 +1863,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     
-      <div class="nt-pricing__footer">
-        
+    
+    
+
+
+
+
+
+
+  
+
+  <div class="card__bottom-section ">
+    <div class="section__buttons-container section__buttons-container--center section__buttons-container--no-margin ">
+      
         
 
 
@@ -2242,7 +1914,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -2255,17 +1927,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    
-    <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
-      <img src="/images/icons/siwa.svg" class="siwa-button__icon">
-      <span class="siwa-button__title">Sign in with Apple</span>
-    </a>
+    <div class="oauth-buttons-container">
+      
+      <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
+        <img src="/images/icons/siwa.svg" class="siwa-button__icon">
+        <span class="siwa-button__title">Sign in with Apple</span>
+      </a>
 
-    
-    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
-      <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
-      <span class="google-signin-button__title">Sign in with Google</span>
-    </a>
+      
+      <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
+        <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
+        <span class="google-signin-button__title">Sign in with Google</span>
+      </a>
+    </div>
   
 
   
@@ -2283,35 +1957,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-
-        
-          <span class="nt-pricing__footer-login-note" data-message="Sign up today and thanks to {name} get 15 USD of free extra credits!"></span>
-        
-      </div>
+      
+    </div>
     
+      <span class="nt-pricing__footer-login-note" data-message="Sign up today and thanks to {name} get 15 USD of free extra credits!"></span>
+    
+  </div>
+
   </div>
 </div>
 
-    </div>
+  </div>
 
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns-list" data-section-index="6">
-        
-
-
-<div class="nt-section__content" id="">
   
-    <h2 class="nt-learn-more__box-title nooffice-section__title">
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="image-columns-list" data-section-index="6">
+      
+
+
+
+
+<div class="section__content section__content--left" id="homepage-why-nozbe">
+  
+    <h2 class="section__title text-left">
       Here’s why you should choose Nozbe for you or your team:
     </h2>
   
@@ -2320,7 +1993,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <ul class="nt-image-columns-list">
+  <ul class="image-columns-list">
     
       
 
@@ -2341,8 +2014,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
       
 
-      <div class="nt-columns-container nt-columns-container--align-center nt-image-columns-list__item">
+      <div class="image-columns image-columns--align-center">
         
+  
+  
   
 
   
@@ -2357,7 +2032,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--narrow nt-column--left">
+    <div class="nt-column__image-container nt-column--narrow nt-column--left image-columns__image-column">
       
 
       
@@ -2389,14 +2064,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-column nt-column--wide">
-    <h2 class="nt-learn-more__box-title"></h2>
+  <div class="nt-column nt-column--wide image-columns__text-column">
+    
+
     
       <h3 class="nt-image-columns__subtitle">So much more time for actual work!</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Without the constant flood of emails, messages, or meetings, everyone will have longer stretches of uninterrupted time to do the actual work! This means a much higher Return On Investment (ROI) on everyone’s time.</p>
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Without the constant flood of emails, messages, or meetings, everyone will have longer stretches of uninterrupted time to do the actual work! This means a much higher Return On Investment (ROI) on everyone’s time.</p>
 <p>Deliver better results much quicker!</p>
 </div>
+    
 
     
   </div>
@@ -2424,26 +2103,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
       
 
-      <div class="nt-columns-container nt-columns-container--align-center nt-image-columns-list__item">
+      <div class="image-columns image-columns--align-center">
         
   
-
-  
-  
   
   
 
   
+  
+  
+  
 
-  <div class="nt-column nt-column--wide">
-    <h2 class="nt-learn-more__box-title"></h2>
+  
+
+  <div class="nt-column nt-column--wide image-columns__text-column">
+    
+
     
       <h3 class="nt-image-columns__subtitle">Put an end to chaotic emails and chats!</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Once you start using Nozbe and put everything into projects, tasks, and comments, you will finally get rid of lengthy email chains and chaotic chats.</p>
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Once you start using Nozbe and put everything into projects, tasks, and comments, you will finally get rid of lengthy email chains and chaotic chats.</p>
 <p>Nozbe is as easy to use as email, Slack, WhatsApp, or Messenger… but much more organized and clear!</p>
 <p>Say goodbye to chaos!</p>
 </div>
+    
 
     
   </div>
@@ -2455,7 +2140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--narrow nt-column--right">
+    <div class="nt-column__image-container nt-column--narrow nt-column--right image-columns__image-column">
       
 
       
@@ -2515,8 +2200,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
       
 
-      <div class="nt-columns-container nt-columns-container--align-center nt-image-columns-list__item">
+      <div class="image-columns image-columns--align-center">
         
+  
+  
   
 
   
@@ -2531,7 +2218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--narrow nt-column--left">
+    <div class="nt-column__image-container nt-column--narrow nt-column--left image-columns__image-column">
       
 
       
@@ -2570,15 +2257,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-column nt-column--wide">
-    <h2 class="nt-learn-more__box-title"></h2>
+  <div class="nt-column nt-column--wide image-columns__text-column">
+    
+
     
       <h3 class="nt-image-columns__subtitle">We make it so easy to share tasks!</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Add tasks, set deadlines, and delegate them effortlessly. Put all the necessary info in comments and attach documents.</p>
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>Add tasks, set deadlines, and delegate them effortlessly. Put all the necessary info in comments and attach documents.</p>
 <p>Every team member knows what they’re responsible for and what others are currently busy with.</p>
 <p>Benefits? Fewer meetings, clear assignments, less time spent organizing work, and more time to do the actual work!</p>
 </div>
+    
 
     
   </div>
@@ -2606,26 +2297,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
       
 
-      <div class="nt-columns-container nt-columns-container--align-center nt-image-columns-list__item">
+      <div class="image-columns image-columns--align-center">
         
   
-
-  
-  
   
   
 
   
+  
+  
+  
 
-  <div class="nt-column nt-column--wide">
-    <h2 class="nt-learn-more__box-title"></h2>
+  
+
+  <div class="nt-column nt-column--wide image-columns__text-column">
+    
+
     
       <h3 class="nt-image-columns__subtitle">Fewer and better meetings!</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>With actual work done within tasks and comments, you won’t need to run to so many meetings!</p>
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description"><p>With actual work done within tasks and comments, you won’t need to run to so many meetings!</p>
 <p>And when you need to host a meeting, it won’t take as much time and will be more effective – because the main discussion is run in Nozbe.</p>
 <p>No more unnecessary and lengthy meetings!</p>
 </div>
+    
 
     
   </div>
@@ -2637,7 +2334,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--narrow nt-column--right">
+    <div class="nt-column__image-container nt-column--narrow nt-column--right image-columns__image-column">
       
 
       
@@ -2672,9 +2369,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     
   </ul>
+
   
-    <div class="nt-section__buttons-row-container">
-      
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
+    
       
 
 
@@ -2701,7 +2406,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -2725,7 +2430,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -2776,51 +2481,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="cards-grid_3" data-section-index="7">
-        
-
-
-
-
-
-<div class="nt-section__content" id="">
   
-    <h2 class="nt-learn-more__box-title nooffice-section__title">
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--white" data-section-name="cards-grid_3" data-section-index="7">
+      
+
+
+
+
+
+
+
+
+<div class="section__content section__content--center" id="">
+  
+    <h2 class="section__title text-left">
       Meet Nozbe Experts
     </h2>
   
 
   
-    <h3 class="nt-learn-more__box-subtitle">Our Certified Experts introduce clients to Nozbe and help them achieve new levels of productivity!</h3>
+    <h3 class="section__subtitle text-left">Our Certified Experts introduce clients to Nozbe and help them achieve new levels of productivity!</h3>
   
 
   
 
-  <div class="nt-grid-container" data-columns="3">
+  <div class="cards-grid grid grid-cols-3" data-columns="3">
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <a href="https://nozbe.com/michael-st-pierre">
+      
+
+      <a href="https://nozbe.com/michael-st-pierre">
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -2831,34 +2540,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/michael-st-pierre.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/michael-st-pierre_NN.webp"
       
     >
-    <img class="nt-column__thumbnail--small"
-      src="https://files.nozbe.com/images/pages-teams/michael-st-pierre.jpg"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
+      src="https://files.nozbe.com/images/pages-teams/michael-st-pierre_NN.jpg"
       
       alt="Michael St. Pierre">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle text-black grid__column-title">Michael St. Pierre</h3>
+            <h3 class="cards-grid__title text-center">Michael St. Pierre</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Founder of Nonprofit Productive, Executive Director of a nonprofit of university professionals in the United States.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center">Founder of Nonprofit Productive, Executive Director of a nonprofit of university professionals in the United States.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <a href="https://nozbe.com/robby-miles">
+      
+
+      <a href="https://nozbe.com/robby-miles">
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -2869,34 +2583,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/Robby_Miles_Nozbe_expert.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/Robby_Miles_Nozbe_expert_NN.webp"
       
     >
-    <img class="nt-column__thumbnail--small"
-      src="https://files.nozbe.com/images/pages-teams/Robby_Miles_Nozbe_expert.jpeg"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
+      src="https://files.nozbe.com/images/pages-teams/Robby_Miles_Nozbe_expert_NN.jpg"
       
       alt="Robby Miles">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle text-black grid__column-title">Robby Miles</h3>
+            <h3 class="cards-grid__title text-center">Robby Miles</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Helps busy entrepreneurs free up time to work on their business as they scale to one million dollars.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center">Helps busy entrepreneurs free up time to work on their business as they scale to one million dollars.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <a href="https://nozbe.com/sean-mahoney">
+      
+
+      <a href="https://nozbe.com/sean-mahoney">
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -2907,32 +2626,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/pages-teams/Sean_Mahoney_Nozbe_expert.webp"
+      srcset="https://files.nozbe.com/images/pages-teams/Sean_Mahoney_Nozbe_expert_NN.webp"
       
     >
-    <img class="nt-column__thumbnail--small"
-      src="https://files.nozbe.com/images/pages-teams/Sean_Mahoney_Nozbe_expert.png"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
+      src="https://files.nozbe.com/images/pages-teams/Sean_Mahoney_Nozbe_expert_NN.jpg"
       
       alt="Sean Mahoney">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle text-black grid__column-title">Sean Mahoney</h3>
+            <h3 class="cards-grid__title text-center">Sean Mahoney</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Customer Experience professional who works with clients to improve their business by using voice-of-the-customer insights and analysis.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center">Customer Experience professional who works with clients to improve their business by using voice-of-the-customer insights and analysis.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -2959,7 +2686,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -2983,7 +2710,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -3034,32 +2761,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="cards-grid_1" data-section-index="8">
-        
-
-
-
-
-
-<div class="nt-section__content" id="">
   
-    <h2 class="nt-learn-more__box-title nooffice-section__title">
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="cards-grid_1" data-section-index="8">
+      
+
+
+
+
+
+
+
+
+<div class="section__content section__content--center" id="">
+  
+    <h2 class="section__title text-left">
       Be in control!
     </h2>
   
@@ -3067,18 +2794,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="paragraph nt-learn-more__box-description">Are you very busy? Are there hundreds of projects on your plate? <br> Nozbe will handle it for you.<br><br>Thanks to our unique task-based communication system, everyone on your team can focus on tasks they choose as <strong>Priority</strong>, easily respond to the <strong>Incoming</strong> to-dos, and follow the team’s <strong>Activity</strong> to see what everyone’s up to.<br><br></div>
+    <div class="section__description paragraph markdown-text-container text-left">Are you very busy? Are there hundreds of projects on your plate? <br> Nozbe will handle it for you.<br><br>Thanks to our unique task-based communication system, everyone on your team can focus on tasks they choose as <strong>Priority</strong>, easily respond to the <strong>Incoming</strong> to-dos, and follow the team’s <strong>Activity</strong> to see what everyone’s up to.</div>
   
 
-  <div class="nt-grid-container" data-columns="3">
+  <div class="cards-grid grid grid-cols-3" data-columns="3">
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -3087,29 +2818,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--small"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
     src="https://files.nozbe.com/images/pages-teams/Priority.svg"
     alt="priority" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Priority</h3>
+            <h3 class="cards-grid__title text-center">Priority</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description"><strong>What’s important?</strong><br><br>Choose which tasks to focus on<br>↓<br>Mark them with a star<br>↓<br>See all Priorities in one place<br>↓<br> <strong>Get them done</strong>!</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center"><strong>What’s important?</strong><br><br>Choose which tasks to focus on<br>↓<br>Mark them with a star<br>↓<br>See all Priorities in one place<br>↓<br> <strong>Get them done</strong>!</div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -3118,29 +2854,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--small"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
     src="https://files.nozbe.com/images/pages-teams/Incoming.svg"
     alt="incoming" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Incoming</h3>
+            <h3 class="cards-grid__title text-center">Incoming</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description"><strong>Where am I needed?</strong><br><br>Receive tasks from others<br>↓<br>Respond to comments<br>↓<br>Act on reminders<br>↓<br>Never miss a task’s due date<br>↓<br><strong>Achieve balance between teamwork <br> and focused work!</strong></div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center"><strong>Where am I needed?</strong><br><br>Receive tasks from others<br>↓<br>Respond to comments<br>↓<br>Act on reminders<br>↓<br>Never miss a task’s due date<br>↓<br><strong>Achieve balance between teamwork <br> and focused work!</strong></div>
           
         </div>
-      </div>
+      
     
-      <div class="nt-column nt-column--3 nt-column--align-center">
-        <div>
+      
+
+      
+        <div class="column column--full column--align-center">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-center">
+              
 
 
 
@@ -3149,27 +2890,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <img class="nt-column__thumbnail--small"
+  <img class="cards-grid__thumbnail cards-grid__thumbnail--small"
     src="https://files.nozbe.com/images/pages-teams/Activity.svg"
     alt="activity" />
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Activity</h3>
+            <h3 class="cards-grid__title text-center">Activity</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description"><strong>What’s going on?</strong><br><br>Follow the activity in projects you care about<br>↓<br>Give feedback to your teammates<br>↓<br><strong>Stay on top of things!</strong></div>
+            <div class="cards-grid__description paragraph markdown-text-container text-center"><strong>What’s going on?</strong><br><br>Follow the activity in projects you care about<br>↓<br>Give feedback to your teammates<br>↓<br><strong>Stay on top of things!</strong></div>
           
         </div>
-      </div>
+      
     
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -3196,7 +2945,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -3220,7 +2969,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -3271,33 +3020,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="pricing" data-section-index="9">
-        
-
-<div class="nt-section__content" id="">
-  <h2 class="nt-learn-more__box-title nt-pricing__title">
-    You are free <br> to start working better
-  </h2>
+  </div>
 
   
 
-  <div class="nt-card-container nt-pricing__container embeded__pricing pricing-plans__premium">
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--white" data-section-name="pricing" data-section-index="9">
+      
+
+
+
+
+<div class="section__content" id="">
+  
+    <h2 class="section__title text-center">
+      You are free to start working better
+    </h2>
+  
+
+  
+
+  
+
+  <div class="card__container embeded__pricing pricing-plans__premium">
     <div class="nt-pricing__columns">
       <div class="nt-pricing__column">
         <h3 class="nt-learn-more__box-title strong">Free</h3>
@@ -3333,6 +3086,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
               </svg>
               <span class="nt-pricing__benefit-text">
+                Access up to 7 days of tasks history
+              </span>
+            </li>
+          
+            <li class="nt-pricing__benefit">
+              <svg class="nt-pricing__benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+                <title>checklist-done</title>
+                <path
+                  d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
+              </svg>
+              <span class="nt-pricing__benefit-text">
                 Unlimited tasks and comments
               </span>
             </li>
@@ -3350,9 +3114,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
         </ul>
 
-        <picture>
+        <picture class="nt-column__image nt-pricing__image">
           <source type="image/webp"
-            class="nt-column__image nt-pricing__image"
             srcset="https://files.nozbe.com/images/pages-teams/285w/devices.webp 285w, https://files.nozbe.com/images/pages-teams/340w/devices.webp 340w, https://files.nozbe.com/images/pages-teams/470w/devices.webp 470w, https://files.nozbe.com/images/pages-teams/555w/devices.webp 555w, https://files.nozbe.com/images/pages-teams/670w/devices.webp 670w, https://files.nozbe.com/images/pages-teams/940w/devices.webp 940w, https://files.nozbe.com/images/pages-teams/1100w/devices.webp 1100w, https://files.nozbe.com/images/pages-teams/1340w/devices.webp 1340w"
             sizes="(max-width: 767px) 90vw, (max-width: 1199px) 47vw, 555px"
             alt="Nozbe Teams devices" />
@@ -3403,6 +3166,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </svg>
               <span class="nt-pricing__benefit-text">
                 Unlimited storage
+              </span>
+            </li>
+          
+            <li class="nt-pricing__benefit">
+              <svg class="nt-pricing__benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+                <title>checklist-done</title>
+                <path
+                  d="M22,7.85712A14.14288,14.14288,0,1,0,36.14288,22,14.14286,14.14286,0,0,0,22,7.85712Zm7.15125,11.33746-8.95746,8.791a1.56918,1.56918,0,0,1-1.10035.44959H19.0766a1.57514,1.57514,0,0,1-1.10645-.47266l-3.723-3.80731a1.57136,1.57136,0,0,1,2.24665-2.19757l2.62268,2.6825,7.8341-7.68909a1.57134,1.57134,0,1,1,2.20063,2.24359Z" />
+              </svg>
+              <span class="nt-pricing__benefit-text">
+                Unlimited access to tasks history
               </span>
             </li>
           
@@ -3654,8 +3428,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     
-      <div class="nt-pricing__footer">
-        
+    
+
+
+
+
+
+
+  
+
+  <div class="card__bottom-section ">
+    <div class="section__buttons-container section__buttons-container--center section__buttons-container--no-margin ">
+      
         
 
 
@@ -3694,7 +3478,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -3758,12 +3542,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-
-        
-          <span class="nt-pricing__footer-login-note">Already have an account? <a href="https://teams.nozbe.com/login">Log in</a> and go to Settings to choose your plan!</span>
-        
-      </div>
+      
+    </div>
     
+  </div>
+
   </div>
 </div>
 
@@ -3777,31 +3560,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   var promoTo = "2022-11-30T07:00:59Z"
   var promoCode = "BF22"
 </script>
-    </div>
+  </div>
 
+  
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="image-columns_2" data-section-index="10">
+      
+
+
+
+
+
+<div class="section__content" id="">
+  <div class="image-columns image-columns--align-center">
     
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns_2" data-section-index="10">
-        
-
-
-
-
-
-
-
-<div class="nt-section__content" id="">
-  <div class="nt-columns-container nt-columns-container--align-center">
-    
+  
+  
   
 
   
@@ -3811,12 +3590,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-column nt-column--normal">
-    <h2 class="nt-learn-more__box-title">Made with 💜</h2>
+  <div class="nt-column nt-column--normal image-columns__text-column">
+    
+      <h2 class="nt-learn-more__box-title">Made with 💜</h2>
+    
+
     
       <h3 class="nt-image-columns__subtitle">by an all-remote team that’s been perfecting this system for many years!</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description">Founded in 2007 by Michael Sliwinski, Nozbe is a small, 20+ all-remote team that’s been obsessed with getting individuals and teams organized. We’ve been working from our homes in Europe, Asia and the USA since the very beginning, and we’re well-known for our unorthodox way of working.</div>
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description">Founded in 2007 by Michael Sliwinski, Nozbe is a small, 20+ all-remote team that’s been obsessed with getting individuals and teams organized. We’ve been working from our homes in Europe, Asia and the USA since the very beginning, and we’re well-known for our unorthodox way of working.</div>
+    
 
     
   </div>
@@ -3828,7 +3613,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--normal nt-column--right">
+    <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
 
       
@@ -3870,9 +3655,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
+  
+  
+
+  
+  
     
-    <div class="nt-section__bottom-button-container">
+    
+
+    <div class="section__buttons-container section__buttons-container--center  mobile-only">
       
+        
 
 
   
@@ -3898,7 +3691,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -3922,7 +3715,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -3973,37 +3766,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
+      
     </div>
   
 </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="carousel" data-section-index="11">
-        
 
 
 
 
-<div class="nt-section__content" id="">
+
+
+
+
+
+  </div>
+
+  
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--white" data-section-name="carousel" data-section-index="11">
+      
+
+
+
+
+
+<div class="section__content section__content--left" id="">
   
 
   
 
   
 
-  <div class="nt-carousel" data-interval="10">
-    <div class="nt-carousel__wrapper">
+  <div class="carousel" data-interval="10">
+    <div class="carousel__wrapper">
       
         
         
@@ -4021,25 +3821,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
           
 
-          <div class="nt-columns-container nt-columns-container--align-center nt-carousel__item">
+          <div class="image-columns image-columns--align-center carousel__item">
             
   
-
-  
-  
   
   
 
   
+  
+  
+  
 
-  <div class="nt-column nt-column--normal">
-    <h2 class="nt-learn-more__box-title">We use Nozbe <br> to build Nozbe</h2>
+  
+
+  <div class="nt-column nt-column--normal image-columns__text-column">
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description">We practice what we preach. We use and keep perfecting our own app to make it better. We test each new feature internally to make sure that it’s spot on. <br>People ask us about the secret to our success, creativity, and leadership – and the answer is simple. It’s all thanks to efficient communication through tasks in Nozbe!</div>
+      <h2 class="nt-learn-more__box-title">We use Nozbe <br> to build Nozbe</h2>
+    
+
+    
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description">We practice what we preach. We use and keep perfecting our own app to make it better. We test each new feature internally to make sure that it’s spot on. <br>People ask us about the secret to our success, creativity, and leadership – and the answer is simple. It’s all thanks to efficient communication through tasks in Nozbe!</div>
+    
 
     
   </div>
@@ -4051,7 +3860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--normal nt-column--right">
+    <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
 
       
@@ -4109,25 +3918,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
           
 
-          <div class="nt-columns-container nt-columns-container--align-center nt-carousel__item">
+          <div class="image-columns image-columns--align-center carousel__item">
             
   
-
-  
-  
   
   
 
   
+  
+  
+  
 
-  <div class="nt-column nt-column--normal">
-    <h2 class="nt-learn-more__box-title">We have no office<br>We all work from <br> our homes</h2>
+  
+
+  <div class="nt-column nt-column--normal image-columns__text-column">
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description">That’s why Nozbe is so great for hybrid and remote teams, where not everyone works on site. We don’t need to be in the same office to be on the same page! We even publish a <a href="https://nozbe.com/nooffice/">podcast on it</a>!</div>
+      <h2 class="nt-learn-more__box-title">We have no office<br>We all work from <br> our homes</h2>
+    
+
+    
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description">That’s why Nozbe is so great for hybrid and remote teams, where not everyone works on site. We don’t need to be in the same office to be on the same page! We even publish a <a href="https://nozbe.com/nooffice/">podcast on it</a>!</div>
+    
 
     
   </div>
@@ -4139,7 +3957,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--normal nt-column--right">
+    <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
 
       
@@ -4197,25 +4015,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
           
         
+        
 
         
           
 
-          <div class="nt-columns-container nt-columns-container--align-center nt-carousel__item">
+          <div class="image-columns image-columns--align-center carousel__item">
             
   
-
-  
-  
   
   
 
   
+  
+  
+  
 
-  <div class="nt-column nt-column--normal">
-    <h2 class="nt-learn-more__box-title">We celebrate <br> Mighty Fridays</h2>
+  
+
+  <div class="nt-column nt-column--normal image-columns__text-column">
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description">We’re world-famous for working on day-to-day stuff from Mondays to Thursdays only. Fridays are different: we do our weekly review, and then every team member is free to focus on their personal development.</div>
+      <h2 class="nt-learn-more__box-title">We celebrate <br> Mighty Fridays</h2>
+    
+
+    
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description">We’re world-famous for working on day-to-day stuff from Mondays to Thursdays only. Fridays are different: we do our weekly review, and then every team member is free to focus on their personal development.</div>
+    
 
     
   </div>
@@ -4227,7 +4054,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--normal nt-column--right">
+    <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
 
       
@@ -4270,22 +4097,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
       
     </div>
-    <div class="nt-carousel__dots">
-      <div class="nt-carousel__dots-container">
+    <div class="carousel__dots">
+      <div class="carousel__dots-container">
         
-          <div class="nt-carousel__dot" data-index="0"></div>
+          <div class="carousel__dot" data-index="0"></div>
         
-          <div class="nt-carousel__dot" data-index="1"></div>
+          <div class="carousel__dot" data-index="1"></div>
         
-          <div class="nt-carousel__dot" data-index="2"></div>
+          <div class="carousel__dot" data-index="2"></div>
         
-        <div class="nt-carousel__active-dot-highlight"></div>
+        <div class="carousel__active-dot-highlight"></div>
       </div>
     </div>
   </div>
+
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -4312,7 +4147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -4336,7 +4171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -4387,34 +4222,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
-    </div>
+  </div>
 
+  
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="image-columns_3" data-section-index="12">
+      
+
+
+
+
+
+<div class="section__content" id="">
+  <div class="image-columns image-columns--align-center">
     
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="image-columns_3" data-section-index="12">
-        
-
-
-
-
-
-
-
-<div class="nt-section__content" id="">
-  <div class="nt-columns-container nt-columns-container--align-center">
-    
+  
+  
   
 
   
@@ -4424,19 +4256,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-column nt-column--normal">
-    <h2 class="nt-learn-more__box-title"></h2>
+  <div class="nt-column nt-column--normal image-columns__text-column">
+    
+
     
       <h3 class="nt-image-columns__subtitle"><strong>Get Nozbe today for free!</strong><br><br>Experience the change to a more organized, calm <br> and overall just better life.</h3>
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description"></div>
+
+    
 
     
       
       
 
-      <div class="nt-section__buttons-row-container">
+      <div class="section__buttons-container section__buttons-container--left ">
         
+          
 
 
   
@@ -4464,17 +4299,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="signup-buttons__container signup-buttons__container--start "
+<div class="signup-buttons__container signup-buttons__container--left "
   data-has-3rdparty
   
   
 >
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
-    <div class="signup-teams-form__row--small signup-teams-form__row--start">
+    <div class="signup-teams-form__row--small signup-teams-form__row--left">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-purple ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -4487,17 +4322,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
 
-    
-    <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
-      <img src="/images/icons/siwa.svg" class="siwa-button__icon">
-      <span class="siwa-button__title">Sign in with Apple</span>
-    </a>
+    <div class="oauth-buttons-container">
+      
+      <a class="siwa-button" href="https://appleid.apple.com/auth/authorize?client_id=com.nozbe4.web&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fapple-signin&response_type=code%20id_token&scope=name%20email&response_mode=form_post&state=locale%3Den-US">
+        <img src="/images/icons/siwa.svg" class="siwa-button__icon">
+        <span class="siwa-button__title">Sign in with Apple</span>
+      </a>
 
-    
-    <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
-      <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
-      <span class="google-signin-button__title">Sign in with Google</span>
-    </a>
+      
+      <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&response_type=code&include_granted_scopes=true&&redirect_uri=https%3A%2F%2Fapi4.nozbe.com%2Fv1%2Fgoogle-signin&client_id=514521098392-odj3gq10qm9fhrird3ui0bb1dlgb0jc7.apps.googleusercontent.com&state=locale%3Den-US" class="google-signin-button">
+        <img src="/images/icons/google-signin.svg" class="google-signin-button__icon">
+        <span class="google-signin-button__title">Sign in with Google</span>
+      </a>
+    </div>
   
 
   
@@ -4515,6 +4352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
+        
       </div>
     
   </div>
@@ -4526,7 +4364,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <div class="nt-column__image-container nt-column--normal nt-column--right">
+    <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
 
       
@@ -4568,22 +4406,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
+  
+  
+
+  
+  
 </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--white " data-section-name="image-columns_4" data-section-index="13">
-        
 
 
 
@@ -4591,24 +4419,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="nt-section__content" id="">
-  <div class="nt-columns-container nt-columns-container--align-center">
-    
+
+
+  </div>
+
   
 
   
   
-  
-  
 
   
+
+  <div class="nt-section__container nt-section__container--white" data-section-name="image-columns_4" data-section-index="13">
+      
+
+
+
+
+
+<div class="section__content" id="">
+  <div class="image-columns image-columns--align-center">
     
   
   
   
 
   
-    <div class="nt-column__image-container nt-column--narrow nt-column--left">
+  
+  
+  
+
+  
+    
+  
+  
+  
+
+  
+    <div class="nt-column__image-container nt-column--narrow nt-column--left image-columns__image-column">
       
 
       
@@ -4647,17 +4495,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-column nt-column--wide">
-    <h2 class="nt-learn-more__box-title">Still not convinced? <br> Get our free course!</h2>
+  <div class="nt-column nt-column--wide image-columns__text-column">
     
-    <div class="paragraph markdown-text-container nt-learn-more__box-description">We agree with you – change is hard. Switching from things you know, like email, meetings, or just having everyone in the office at all times, can be hard.<br><br> So if you’re not 100% convinced that Nozbe is for you, <strong>get our free 3-step course</strong> instead&hellip; <br><br> …where our CEO will show you the way we work. He will give you an unprecedented backstage view on how a team like ours, spread across many cities and countries, can work as one.</div>
+      <h2 class="nt-learn-more__box-title">Still not convinced? <br> Get our free course!</h2>
+    
+
+    
+
+    
+      <div class="paragraph markdown-text-container nt-learn-more__box-description">We agree with you – change is hard. Switching from things you know, like email, meetings, or just having everyone in the office at all times, can be hard.<br><br> So if you’re not 100% convinced that Nozbe is for you, <strong>get our free 3-step course</strong> instead&hellip; <br><br> …where our CEO will show you the way we work. He will give you an unprecedented backstage view on how a team like ours, spread across many cities and countries, can work as one.</div>
+    
 
     
       
       
 
-      <div class="nt-section__buttons-row-container">
+      <div class="section__buttons-container section__buttons-container--left ">
         
+          
 
 
   
@@ -4690,6 +4545,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
 
 
+        
       </div>
     
   </div>
@@ -4699,48 +4555,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
-</div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    
-
-    
-
-    <div class="nt-section__container nt-section__container--orange " data-section-name="blogpost-cards" data-section-index="14">
-        
-
-
-
-
-
-
-
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-<div class="nt-section__content" id="">
   
-    <h2 class="nt-learn-more__box-title nooffice-section__title">
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+  
+
+  
+  
+
+  
+
+  <div class="nt-section__container nt-section__container--orange" data-section-name="blogpost-cards" data-section-index="14">
+      
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section__content section__content--left" id="">
+  
+    <h2 class="section__title text-left">
       Get more insights, tips <br> and inspiration
     </h2>
   
@@ -4749,15 +4618,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
 
-  <div class="nt-grid-container" data-columns="3">
+  <div class="cards-grid grid grid-cols-3" data-columns="3">
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <a href="https://nozbe.com/blog/16-birthday-nozbe-productivity-tool-for-entrepreneurs/">
+      
+
+      <a href="https://nozbe.com/blog/nooffice-44-why-you-should-interview-your-customers/">
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -4768,34 +4641,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/nozbe-16-birthday.webp"
+      srcset="https://files.nozbe.com/images/blog/nooffice-ep-44-talking-to-customers.webp"
       
     >
-    <img class="nt-column__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/nozbe-16-birthday.jpg"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/nooffice-ep-44-talking-to-customers.png"
       
       alt="">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Nozbe 16th Birthday 🎉</h3>
+            <h3 class="cards-grid__title text-left">Why You Should Interview Your Customers - *No Office* Podcast, ep. 44</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Nozbe - our simple productivity tool for entrepreneurs is 16 today! See how the company evolved.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">What is the one thing every company or product owner should do to grow their business.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <a href="https://nozbe.com/blog/best-software-techniques-for-virtual-assistants/">
+      
+
+      <a href="https://nozbe.com/blog/nozbe-new-features-product-vlog-03-2023/">
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -4806,34 +4684,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/best-software-tools-for-virtual-assistant-productivity.webp"
+      srcset="https://files.nozbe.com/images/blog/nozbe-product-vlog-new-features-03-2023-en.webp"
       
     >
-    <img class="nt-column__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/best-software-tools-for-virtual-assistant-productivity.jpg"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/nozbe-product-vlog-new-features-03-2023-en.jpg"
       
       alt="">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Best Software For Virtual Assistants - Productivity Blog</h3>
+            <h3 class="cards-grid__title text-left">New In Nozbe: Windows App, Delegating Tasks to Anyone Via Email And More!</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">Do you work as a virtual assistant? Improve your productivity and be more effective by using the best software tools and techniques for virtual assitants.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">See what you can do to work even more efficiently! Watch our product vlog and see what new features and improvements we offer in Nozbe and how to implement them.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
-      <div class="nt-column nt-column--3 nt-column--align-start">
-        <a href="https://nozbe.com/blog/nozbe-new-features-product-vlog-11-2022/">
+      
+
+      <a href="https://nozbe.com/blog/monitor-progress-in-projects/">
+        <div class="column column--full column--align-left">
           
             
             
             
-            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
 
 
 
@@ -4844,32 +4727,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <picture>
     <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/nozbe-product-vlog-new-features-11-2022-en.webp"
+      srcset="https://files.nozbe.com/images/blog/monitoring-progress-status.webp"
       
     >
-    <img class="nt-column__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/nozbe-product-vlog-new-features-11-2022-en.jpg"
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/monitoring-progress-status.jpg"
       
       alt="">
   </picture>
 
+            </div>
           
 
           
-            <h3 class="nt-learn-more__box-subtitle  grid__column-title">Productivity Boosting Features: Team Comments & Weekly Calendar View!</h3>
+            <h3 class="cards-grid__title text-left">How To Track Team's Progress In Projects - Status Tasks</h3>
           
 
           
-            <div class="paragraph nt-learn-more__box-description">See what can you do to work even more effectively! Watch our product vlog and see what are the new features and improvements in Nozbe and how to use them.</div>
+            <div class="cards-grid__description paragraph markdown-text-container text-left">How to monitor employees' efficiency without complicated reports and meetings - with the best collaboration app for teams.</div>
           
-        </a>
-      </div>
+        </div>
+      </a>
     
   </div>
 
   
+  
+
+
+
+
+  
+
+  <div class="section__buttons-container section__buttons-container--center mobile-only">
     
-    <div class="nt-section__buttons-row-container">
       
 
 
@@ -4896,7 +4787,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
       <button type="submit" class="signup-teams-form__button bg-orange ">
         Sign up for free
-        <span class="spinner spinner--white hidden"></span>
+        <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
     </div>
     <div class="signup-teams-form__message--error hidden">We could not register your account. Please try again later.</div>
@@ -4920,7 +4811,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
-<a href="https://nozbe.com/signup-teams"
+<a href="https://nozbe.com/signup"
   id=""
   class="button bg-orange  button--full mobile-only "
   
@@ -4971,15 +4862,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    </div>
-  
+    
+  </div>
+
 </div>
 
 
 
-    </div>
-
-    
+  </div>
 
 
     </div>
@@ -5001,170 +4891,169 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   
-  <div class="nt-footer__wrapper">
-    <footer class="nt-footer nt-footer--white">
-      <div class="nt-footer__columns">
-        <div class="nt-footer__logo-column ">
-          <a href="https://nozbe.com/"
-            class="nt-footer__logo">
-            <img src="/images/base/index/nt/nt-mono-footer.svg" alt="Nozbe Teams">
-          </a>
+  <footer class="nt-footer nt-footer--white">
+    <div class="nt-footer__columns section__content">
+      <div class="nt-footer__logo-column ">
+        <a href="https://nozbe.com/"
+          class="nt-footer__logo">
+          <img src="/images/base/index/nt/nt-mono-footer.svg" alt="Nozbe Teams">
+        </a>
 
-          <div>
-            <div class="nt-footer__copyrights">
-              <div class="nt-footer__copyrights-title">
-                Nozbe
-              </div>
-              Copyright © Nozbe 2007-2023
+        <div>
+          <div class="nt-footer__copyrights">
+            <div class="nt-footer__copyrights-title">
+              Nozbe
+            </div>
+            Copyright © Nozbe 2007-2023
+          </div>
+
+          
+            <div class="nt-footer__social-media">
+              <a href="https://www.facebook.com/NozbePoland" class="nt-footer__social-media-icon">
+                <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/facebook.png" alt="Facebook icon">
+              </a>
+              <a href="https://www.instagram.com/nozbe" class="nt-footer__social-media-icon">
+                <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/instagram.png" alt="Instagram icon">
+              </a>
+              <a href="https://twitter.com/nozbe" class="nt-footer__social-media-icon">
+                <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/twitter.png" alt="Twitter icon">
+              </a>
+              <a href="https://www.youtube.com/channel/UCMstQmk1lU3hV1-pJspEpLQ" class="nt-footer__social-media-icon">
+                <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/youtube.png" alt="Youtube icon">
+              </a>
             </div>
 
-            
-              <div class="nt-footer__social-media">
-                <a href="https://www.facebook.com/NozbePoland" class="nt-footer__social-media-icon">
-                  <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/facebook.png" alt="Facebook icon">
-                </a>
-                <a href="https://www.instagram.com/nozbe" class="nt-footer__social-media-icon">
-                  <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/instagram.png" alt="Instagram icon">
-                </a>
-                <a href="https://twitter.com/nozbe" class="nt-footer__social-media-icon">
-                  <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/twitter.png" alt="Twitter icon">
-                </a>
-                <a href="https://www.youtube.com/channel/UCMstQmk1lU3hV1-pJspEpLQ" class="nt-footer__social-media-icon">
-                  <img class="nt-footer__social-media-icon" src="https://files.nozbe.com/images/icons/youtube.png" alt="Youtube icon">
-                </a>
-              </div>
+            <div class="select-container nt-flag-select">
 
-              <div class="select-container nt-flag-select">
-
-                <!-- Flag icons designed by Freepik, downloaded from https://www.flaticon.com/packs/international-flags-6 -->
-                
-                <img src="/images/base/flags/en.svg" alt="en" class="nt-flag-select__icon" />
-                <select id="langSelect">
-                  
-                    
-                    
-
-                    
-                      
-                      
-                    
-
-                    
-                    
-                    
-                    
-
-                    
-                      
-                      
-                      
-                        <option value="en" data-url="https://nozbe.com/">
-                          Global
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="pl" data-url="https://nozbe.com/pl/">
-                          Polski
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="es" data-url="https://nozbe.com/es/">
-                          Español
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="de" data-url="https://nozbe.com/de/">
-                          Deutsch
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="fr" data-url="https://nozbe.com/fr/">
-                          Français
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="ru" data-url="https://nozbe.com/ru/">
-                          Pусский
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="nl" data-url="https://nozbe.com/nl/">
-                          Nederlands
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="ja" data-url="https://nozbe.com/ja/">
-                          日本語
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="ko" data-url="https://nozbe.com/ko/">
-                          한국어
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="zh-cn" data-url="https://nozbe.com/zh-cn/">
-                          中文(简体)
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="zh-tw" data-url="https://nozbe.com/zh-tw/">
-                          中文(繁體)
-                        </option>
-                      
-                    
-                      
-                      
-                      
-                        <option value="ua" data-url="https://nozbe.com/ua/">
-                          Український
-                        </option>
-                      
-                    
-                  
-                </select>
-              </div>
-            </div>
-
-            <div class="footer-download-button">
+              <!-- Flag icons designed by Freepik, downloaded from https://www.flaticon.com/packs/international-flags-6 -->
               
+              <img src="/images/base/flags/en.svg" alt="en" class="nt-flag-select__icon" />
+              <select id="langSelect">
+                
+                  
+                  
+
+                  
+                    
+                    
+                  
+
+                  
+                  
+                  
+                  
+
+                  
+                    
+                    
+                    
+                      <option value="en" data-url="https://nozbe.com/">
+                        Global
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="pl" data-url="https://nozbe.com/pl/">
+                        Polski
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="es" data-url="https://nozbe.com/es/">
+                        Español
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="de" data-url="https://nozbe.com/de/">
+                        Deutsch
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="fr" data-url="https://nozbe.com/fr/">
+                        Français
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="ru" data-url="https://nozbe.com/ru/">
+                        Pусский
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="nl" data-url="https://nozbe.com/nl/">
+                        Nederlands
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="ja" data-url="https://nozbe.com/ja/">
+                        日本語
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="ko" data-url="https://nozbe.com/ko/">
+                        한국어
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="zh-cn" data-url="https://nozbe.com/zh-cn/">
+                        中文(简体)
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="zh-tw" data-url="https://nozbe.com/zh-tw/">
+                        中文(繁體)
+                      </option>
+                    
+                  
+                    
+                    
+                    
+                      <option value="ua" data-url="https://nozbe.com/ua/">
+                        Український
+                      </option>
+                    
+                  
+                
+              </select>
+            </div>
+          </div>
+
+          <div class="footer-download-button">
+            
 
 
 
 
 
-  <div class="store-badge__container">
-    <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge hidden" data-store-badge="app-store" data-download-current="ios">
+  <div class="store-badge__container hidden" data-store-badge="app-store" data-download-current="ios">
+    <a href="https://apps.apple.com/app/nozbe-teams/id1457232572" class="signup-buttons__store-badge">
       <img src="/images/badges/img_ios_en.svg" alt="Download on the App Store">
     </a>
     
@@ -5172,12 +5061,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-  <div class="store-badge__container">
-    <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge hidden" data-store-badge="google-play-store" data-download-current="android">
+  <div class="store-badge__container hidden" data-store-badge="google-play-store" data-download-current="android">
+    <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge">
       <img src="/images/badges/img_android_en.svg" alt="Download on the Google Play">
     </a>
     
   </div>
+
+
 
 
 
@@ -5234,78 +5125,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
 
 
+          </div>
+
+          <div class="footer__source-forge-badge-top">
+            <div class="sf-root" data-id="3244152" data-badge="light-default" data-variant-id="sf" style="width: 125px;">
+              <a href="https://sourceforge.net/software/product/Nozbe/" target="_blank">Nozbe Reviews</a>
             </div>
-          
-        </div>
-
-        
-          
-          
-          
-
-          <div class="nt-footer__links">
-            <ul class="nt-footer__column">
-              <h3>NOZBE</h3>
-              <li><a href="https://nozbe.com/why">Why choose Nozbe</a></li>
-              <li><a href="https://nozbe.com/guide">How it works</a></li>
-              <li><a href="https://nozbe.com/download">Get our apps</a></li>
-              <li><a href="https://nozbe.com/free">Pricing</a></li>
-              <li><a href="https://nozbe.com/refer">Referral Program</a></li>
-              <li><a href="https://nozbe.com/expert">Nozbe Expert Program</a></li>
-            </ul>
-
-            <ul class="nt-footer__column">
-              <h3>SOLUTIONS</h3>
-              <li><a href="https://nozbe.com/business">Get Business Done</a></li>
-              <li><a href="https://nozbe.com/realestate">Real Estate</a></li>
-              <li><a href="https://nozbe.com/lawyers">Lawyers</a></li>
-              <li><a href="https://nozbe.com/startup">Startup</a></li>
-              <li><a href="https://nozbe.com/marketing">Marketing</a></li>
-              <li><a href="https://nozbe.com/virtualassistant">Virtual Assistants</a></li>
-            </ul>
-
-            <ul class="nt-footer__column">
-              <h3>OUR COMPANY</h3>
-              <li><a href="https://nozbe.com/contact">Contact us</a></li>
-              <li><a href="https://nozbe.com/about">About us</a></li>
-              <li><a href="https://nozbe.com/press">Press kit</a></li>
-              <li><a href="https://nozbe.com/shop">Nozbe merch</a></li>
-              <li><a href="https://nozbe.com/terms">Terms and Privacy</a></li>
-            </ul>
-
-            <ul class="nt-footer__column">
-              <h3>OUR VALUES</h3>
-              <li><a href="https://nozbe.com/email">Stop using email!</a></li>
-              <li><a href="https://nozbe.com/tasks">Communicate through tasks</a></li>
-              <li><a href="https://nozbe.com/meetings">Have fewer &amp; better meetings</a></li>
-              <li><a href="https://nozbe.com/friday">Work on Friday differently</a></li>
-              <li><a href="https://nozbe.com/mobile">Work is mobile</a></li>
-              <li><a href="https://nozbe.com/trust">Build trust in your team</a></li>
-            </ul>
-
-            <ul class="nt-footer__column">
-              <h3>RESOURCES</h3>
-              <li><a href="https://nozbe.help/general/release-notes">New features &amp; fixes</a></li>
-              <li><a href="https://nozbe.help">Get Support: Help Page</a></li>
-              <li><a href="https://nozbe.com/integrations">Integrations</a></li>
-              <li><a href="https://nozbe.com/blog">Nozbe blog</a></li>
-              <li><a href="https://nozbe.com/nooffice">No Office Podcast</a></li>
-              <li><a href="https://nozbe.com/remotework">Online Training: Remote Teamwork</a></li>
-            </ul>
-
-            <ul class="nt-footer__column">
-              <img src="https://files.nozbe.com/images/pages-teams/Nozbe_Personal_logo_main.svg" class="nt-footer__np-logo" />
-              <li><a href="https://nozbe.com/personal">Nozbe Personal Home</a></li>
-              <li><a href="https://nozbe.com/compare">Compare products</a></li>
-              <li><a href="https://help.nozbe.com">Nozbe Personal: Help Page</a></li>
-              <li><a href="https://nozbe.com/personal/terms">Nozbe Personal: Terms</a></li>
-            </ul>
+            <script>(function () {var sc=document.createElement('script');sc.async=true;sc.src='https://b.sf-syn.com/badge_js?sf_id=3244152&variant_id=sf';var p=document.getElementsByTagName('script')[0];p.parentNode.insertBefore(sc, p);})();
+            </script>
           </div>
         
-
       </div>
-    </footer>
-  </div>
+
+      
+        
+        
+        
+
+        <div class="nt-footer__links">
+          <ul class="nt-footer__column">
+            <h3>NOZBE</h3>
+            <li><a href="https://nozbe.com/why">Why choose Nozbe</a></li>
+            <li><a href="https://nozbe.com/guide">How it works</a></li>
+            <li><a href="https://nozbe.com/download">Get our apps</a></li>
+            <li><a href="https://nozbe.com/free">Pricing</a></li>
+            <li><a href="https://nozbe.com/refer">Referral Program</a></li>
+            <li><a href="https://nozbe.com/expert">Nozbe Expert Program</a></li>
+          </ul>
+
+          <ul class="nt-footer__column">
+            <h3>SOLUTIONS</h3>
+            <li><a href="https://nozbe.com/business">Get Business Done</a></li>
+            <li><a href="https://nozbe.com/realestate">Real Estate</a></li>
+            <li><a href="https://nozbe.com/lawyers">Lawyers</a></li>
+            <li><a href="https://nozbe.com/startup">Startup</a></li>
+            <li><a href="https://nozbe.com/marketing">Marketing</a></li>
+            <li><a href="https://nozbe.com/virtualassistant">Virtual Assistants</a></li>
+          </ul>
+
+          <ul class="nt-footer__column">
+            <h3>OUR COMPANY</h3>
+            <li><a href="https://nozbe.com/contact">Contact us</a></li>
+            <li><a href="https://nozbe.com/about">About us</a></li>
+            <li><a href="https://nozbe.com/press">Press kit</a></li>
+            <li><a href="https://nozbe.com/shop">Nozbe merch</a></li>
+            <li><a href="https://nozbe.com/terms">Terms and Privacy</a></li>
+          </ul>
+
+          <ul class="nt-footer__column">
+            <h3>OUR VALUES</h3>
+            <li><a href="https://nozbe.com/email">Stop using email!</a></li>
+            <li><a href="https://nozbe.com/tasks">Communicate through tasks</a></li>
+            <li><a href="https://nozbe.com/meetings">Have fewer &amp; better meetings</a></li>
+            <li><a href="https://nozbe.com/friday">Work on Friday differently</a></li>
+            <li><a href="https://nozbe.com/mobile">Work is mobile</a></li>
+            <li><a href="https://nozbe.com/trust">Build trust in your team</a></li>
+          </ul>
+
+          <ul class="nt-footer__column">
+            <h3>RESOURCES</h3>
+            <li><a href="https://nozbe.help/general/release-notes">New features &amp; fixes</a></li>
+            <li><a href="https://nozbe.help">Get Support: Help Page</a></li>
+            <li><a href="https://nozbe.com/integrations">Integrations</a></li>
+            <li><a href="https://nozbe.com/blog">Nozbe blog</a></li>
+            <li><a href="https://nozbe.com/nooffice">No Office Podcast</a></li>
+            <li><a href="https://nozbe.com/remotework">Online Training: Remote Teamwork</a></li>
+          </ul>
+
+          <ul class="nt-footer__column">
+            <img src="https://files.nozbe.com/images/pages-teams/Nozbe_Personal_logo_main.svg" class="nt-footer__np-logo" />
+            <li><a href="https://nozbe.com/personal">Nozbe Personal Home</a></li>
+            <li><a href="https://nozbe.com/compare">Compare products</a></li>
+            <li><a href="https://help.nozbe.com">Nozbe Personal: Help Page</a></li>
+            <li><a href="https://nozbe.com/personal/terms">Nozbe Personal: Terms</a></li>
+          </ul>
+        </div>
+      
+
+      <div class="footer__source-forge-badge-bottom">
+        <div class="sf-root " data-id="3244152" data-badge="light-default" data-variant-id="sf" style="width: 125px;">
+          <a href="https://sourceforge.net/software/product/Nozbe/" target="_blank">Nozbe Reviews</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 
 
   <footer class="footer__nt-terms">
@@ -5349,7 +5253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <button type="submit" class="button button--primary bg-purple">
           Send
-          <span class="spinner spinner--white hidden"></span>
+          <span class="spinner spinner--white spinner--inline hidden"></span>
         </button>
       </form>
     </div>
@@ -5397,169 +5301,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   <!-- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

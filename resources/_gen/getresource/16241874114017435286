@@ -1,13 +1,14 @@
 HTTP/2.0 200 OK
-Age: 0
+Accept-Ranges: bytes
+Age: 239866
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 Mar 2023 16:44:17 GMT
-Etag: "e34ed8267f0527d41bbaeea0a7a2474b-ssl-df"
+Date: Sun, 02 Apr 2023 19:29:48 GMT
+Etag: "4d4a243cc4476525fcc9b331baa663f1-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GTPR50ZZ8S7PT4SD3272PZVK
+X-Nf-Request-Id: 01GX8VX2VM1YHVYVC62W7VQV7R
 
 <!DOCTYPE html>
 <html lang="en">
@@ -137,6 +138,29 @@ X-Nf-Request-Id: 01GTPR50ZZ8S7PT4SD3272PZVK
           <section id="posts" class="posts">
     <article class="post">
   <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/2023-02-27-debugging-your-analysis-as-a-data-scientist/">“Debugging” Your Analysis as a Data Scientist</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2023-03-04 </span>
+      <div class="post-category">
+          <a href="/categories/statistics/"> statistics </a>
+          </div>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      Recently, I’ve been working on revisions for a paper1 from my PhD and it reminded me of a valuable lesson I learned while working on some tricky statistical analysis for that project.
+The idea is what I think of as “debugging” your analysis.2 Debugging in a programming context refers to the process of identifying and fixing bugs (errors in your code).
+But a similar concept of “debugging” also applies to data science.
+    </div>
+    <div class="read-more">
+      <a href="/post/2023-02-27-debugging-your-analysis-as-a-data-scientist/" class="read-more-link">Read more...</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
+  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/post/2022-12-03-career-paths-for-phd-students-in-biostatistics/">Career Paths for PhD Students in Biostatistics</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2022-12-03 </span>
@@ -217,28 +241,6 @@ To do this, I first need to download my data from Fitbit. One way is to export y
     </div>
     <div class="read-more">
       <a href="/post/2022-04-02-plotting-your-fitbit-data-in-r/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/2022-03-06-my-thesis-defense/">My Thesis Defense</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2022-03-12 </span>
-      <div class="post-category">
-          <a href="/categories/experience/"> experience </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      Last week, I successfully defended my thesis! Just like I did with my preliminary oral exam, I will write about my experience here and give some insight into what happens behind-the-scenes.
-For those who may be unfamiliar, the thesis defense is the third and last major milestone in our PhD program. The first is the written comprehensive exam (taken after your first or second year), the second is the preliminary oral exam (typically taken in your third year), and the third is the thesis defense (typically taken in your fifth year).
-    </div>
-    <div class="read-more">
-      <a href="/post/2022-03-06-my-thesis-defense/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>

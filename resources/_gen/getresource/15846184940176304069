@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 42335
+Age: 7169
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 Mar 2023 16:44:25 GMT
-Etag: W/"5a165b8c398072b0de21b89be8b0e19d"
+Date: Wed, 05 Apr 2023 14:07:53 GMT
+Etag: W/"d45b26c79dbc8c5f38204e893357f849"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1:pdx1::jnw9g-1677948265969-0736e9532230
+X-Vercel-Id: pdx1:pdx1::2d4ql-1680703673144-dcd0c20665b6
 X-Xss-Protection: 0
 
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ X-Xss-Protection: 0
   <link rel="preload" href="https://d1tzmx204wa22c.cloudfront.net/fonts/ionicons.ttf?v=2.0.1" as="font" type="font/ttf" crossorigin="anonymous" />
   <link rel="preload" href="https://d1tzmx204wa22c.cloudfront.net/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="/css/style.15914417.css" />
+  <link rel="stylesheet" href="/css/style.d3458f26.css" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Build and Run Synthetics That Scale" />
@@ -122,7 +122,7 @@ X-Xss-Protection: 0
 
 
 <body class="landing">
-  <nav class="navbar navbar-gray  navbar-toggleable-md">
+  <nav class="navbar  navbar-toggleable-md">
   <div class="container">
     <button
       class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -369,37 +369,80 @@ X-Xss-Protection: 0
 
   <div class="main">
     <div class="landing" id="landing">
-      <section class="hero-section">
+      <div id="landing-header" class="product markdown code-test-deploy-hero-section">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-10 col-lg-8">
-        <h1 class="display-3">Build and Run Synthetics<br/>That Scale</h1>
-        <p class="lead"><a href="https://www.checklyhq.com/product/monitoring-as-code/">Monitoring as code</a> workflow for developers: programmable, fast, reliable.</p>
-        <div>
-          <a id="signup-button" class="signup-button btn btn-success btn-lg" data-signup="data-signup" href="https://app.checklyhq.com/signup" rel="noopener">
-            Start for free
-          </a>
+  <div class="row justify-content-center mb-5">
+    <div class="col-12 col-lg-6 pr-lg-5 left-header mt-auto mb-auto">
+      <div class="d-flex justify-content-center justify-content-md-start">
+        <span class="terraform-text">MONITORING AS CODE</span>
+      </div>
+      <h1 class="terraform-title text-center text-md-left">
+        Code, test, and deploy synthetic monitoring at scale.
+      </h1>
+      <p class="text-center text-md-left terraform-sub">Unite E2E testing and monitoring in one monitoring as code (MaC) workflow, enabled by the Checkly CLI. Code, test, and deploy API and Playwright-based checks that scale.</p>
+      <div class="d-flex justify-content-center align-items-center justify-content-md-start flex-column flex-sm-row flex-lg-wrap flex-xl-nowrap">
+        <a href="https://app.checklyhq.com/signup"><button type="button" class="btn btn-primary b-cta">Sign up for Free</button></a>
+        <div class="mx-3 my-2">and</div>
+        <div id="copy-cli-installation-code" class="code-block dark d-flex justify-content-center align-items-center mt-lg-3 mt-xl-0">
+          <pre id="cli-installation-pre"><code id="cli-installation-code">npm create @checkly/cli</code></pre>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <picture>
-          <source type="image/webp" srcset="/landing/home-hero-screenshot@2x.caad29f8.webp">
-          <source type="image/png" srcset="/landing/home-hero-screenshot@2x.5faf0600.png">
-          <img  class="hero-image big-drop-shadow img-fluid" src="/landing/home-hero-screenshot@2x.5faf0600.png" alt="checkly monitoring dashboard" width="1100" height="580" />
-        </picture>
+      <div class="d-flex mt-2 justify-content-center justify-content-md-start">
+        <a class="cta-link" href="/docs/cli/">Read the docs</a>
       </div>
     </div>
-  </div>
-</section>
+    <div class="col-12 col-lg-6 pb-0 right-header mac-landing">
+      <img class="img-fluid d-block d-md-none code-block-header rounded" src="/product/monitoring-as-code/code-block-mac.13612b5f.png" alt="checkly code"/>
+      <div class="d-flex justify-content-start align-bottom">
+        <div>
+          <div class="tab-code-wrapper">
+            <div class="window-header">
+              <div class="dots d-flex pl-2">
+                <div class="dot mr-2 ml-1"></div>
+                <div class="dot mr-2"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="text">ecommerce-frontend - zsh</div>
+              <div class="dots"></div>
+            </div>
+            <div class="code-block dark">
+<pre>
+<code><span class="font-italic">$</span> npx checkly test
 
+Running 3 checks in eu-west-1.
+
+<span class="code-red">✖ Cart Checkout</span> (6s)
+
+src/__checks__/cart.check.ts
+
+  <span class="code-red">✖</span> Cart Checkout (6s)
+
+  INFO, 7:30:56 PM, <span class="code-grey">Running Playwright test script
+    Error: expect(received).toBeLessThan(expected)</span>
+
+__checks__/api.check.ts
+   <span class="code-green">✔</span> Homepage - fetch stats (65ms)
+
+__checks__/browser.check.ts
+   <span class="code-green">✔</span> Homepage spec (7s)
+
+<span class="code-red">1 failed</span>, <span class="code-green">2 passed, </span>3 total
+</code>
+</pre>
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div>
+  </div>
+</div>
 
       <section class="trusted-by-section"><div class="container"><div class="row"><div class="col-sm-12 col-lg-10 offset-lg-1"><h5 class="section-super-header mb-3">Trusted by engineering teams at</h5></div></div><div class="row"><div class="col-sm-12">
   <picture>
-  	<source type="image/webp" srcset="/images/testimonials/testimonial-logos@2x.9411bb65.webp">
-    <source type="image/png" srcset="/images/testimonials/testimonial-logos@2x.997427da.png">
-    <img  class="trusted-by-image" src="/images/testimonials/testimonial-logos@2x.997427da.png" alt="trusted by companies for api and synthetic monitoring" width="1100" height="53.5"  />
+  	<source type="image/webp" srcset="/images/testimonials/testimonial-logos@2x.e577140b.webp">
+    <source type="image/png" srcset="/images/testimonials/testimonial-logos@2x.e577140b.png">
+    <img  class="trusted-by-image" src="/images/testimonials/testimonial-logos@2x.e577140b.png" alt="trusted by companies for api and synthetic monitoring" width="1100" height="53.5"  />
   </picture>
 </div></div></div></section>
 
@@ -1044,6 +1087,6 @@ if (window.location.search || restoredUtmTags) {
   })
 }
 </script>
+  <script src="/js/cliCopyButton.7eb1cf03.js"></script>
 </body>
-
 </html>

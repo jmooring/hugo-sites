@@ -2,10 +2,10 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=600
 Content-Type: text/html
-Date: Sat, 04 Mar 2023 16:44:17 GMT
-Etag: "2f4b-5f1c33b505efb-gzip"
-Expires: Sat, 04 Mar 2023 16:54:17 GMT
-Last-Modified: Sun, 08 Jan 2023 16:34:59 GMT
+Date: Wed, 05 Apr 2023 14:07:36 GMT
+Etag: "2f30-5f81eb4ea63e2-gzip"
+Expires: Wed, 05 Apr 2023 14:17:36 GMT
+Last-Modified: Thu, 30 Mar 2023 14:14:11 GMT
 Server: Apache
 Vary: Accept-Encoding,User-Agent
 
@@ -34,7 +34,7 @@ Vary: Accept-Encoding,User-Agent
 
 
 
-<meta name="generator" content="Hugo 0.109.0 with theme even" />
+<meta name="generator" content="Hugo 0.111.3 with theme even" />
 
 
 <link rel="canonical" href="https://kieranhealy.org/" />
@@ -417,6 +417,28 @@ Vary: Accept-Encoding,User-Agent
 <br />  
 <h1>Recent Writing</h1>  
   
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Assault Deaths in the OECD 1960-2020</a></h3> <em>30 March 2023</em>
+  
+  <p>While we&rsquo;re redoing some classics, here is the time series of assault deaths in the United States and eighteen other OECD countries from 1960 to 2020.</p>
+  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Read More…</a></p>
+  	
+</section>
+
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Life Expectancy and Health Spending in the OECD</a></h3> <em>29 March 2023</em>
+  
+  The visualization exercise of the day for class is a re-creation of a figure I first saw Lane Kenworthy make. It&rsquo;s a connected scatterplot of total health spending in real terms and life expectancy of the population as a whole. The fact that real spending and expectancy tend to steadily increase for most countries in most years makes the year-to-year connections work even though they&rsquo;re not labeled as such.
+A connected scatterplot of life expectancy against total health spending in the US and eighteen other OECD countries.
+  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Read More…</a></p>
+  	
+</section>
+
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Reading Remote Data Files</a></h3> <em>25 March 2023</em>
+  
+  Sometimes data arrives as a series of individual files each of which is organized in the same way&mdash;which is to say, each of which has the same variables, features, or columns. Imagine a series of tables reporting mandated information about every school in the state, or a hundred spreadsheets each with information about a different country, or thirty seven CSVs each with the same columns of information about representatives in each U.
+  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Read More…</a></p>
+  	
+</section>
+
   <h3><a href="https://kieranhealy.org/blog/archives/2023/01/08/escaping-the-malthusian-trap/">Escaping the Malthusian Trap</a></h3> <em>8 January 2023</em>
   
   The Broadberry et al GDP series has estimates of England&rsquo;s real GDP and population from the year 1270 onwards. It&rsquo;s available, along with a lot of other long-run data, from The Bank of England. Here&rsquo;s an animation of the series. I sometimes use this as a scene-setter when teaching social theory. It&rsquo;s great because, in addition to the basic story that the series tells (which I find the animation brings out very nicely), it also naturally invites questions about the nature of the data itself.
@@ -428,30 +450,6 @@ Vary: Accept-Encoding,User-Agent
   
   “Happy families are all alike; every unhappy family is unhappy in its own way” runs the opening sentence of Anna Karenina. Hadley Wickham echoes the sentiment in a somewhat different context: “Tidy datasets are all alike, but every messy dataset is messy in its own way”. Data analysis is mostly data wrangling. That is, before you can do anything at all with your data, you need to get it into a format that your software can read.
   <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2022/07/22/unhappy-in-its-own-way/">Read More…</a></p>
-  	
-</section>
-
-  <h3><a href="https://kieranhealy.org/blog/archives/2022/06/29/skyline-timeline/">Skyline Timeline</a></h3> <em>29 June 2022</em>
-  
-  One more from the Manhattan data. Here&rsquo;s a plot of all Manhattan&rsquo;s presently existing buildings with their year of construction on the x-axis and their height in feet on the y-axis. With a nice wide aspect ratio and the use of geom_rect() to make the columns, we get a plot that looks a little like a skyline itself. Or, as was pointed out on Twitter, a Manhattan Plot of Manhattan itself.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2022/06/29/skyline-timeline/">Read More…</a></p>
-  	
-</section>
-
-  <h3><a href="https://kieranhealy.org/blog/archives/2022/06/24/new-york-building-ages/">New York Building Ages</a></h3> <em>24 June 2022</em>
-  
-  Following up on yesterday&rsquo;s first cut at a map of Manhattan&rsquo;s buildings by height, which I&rsquo;ll be revisiting soon, here are two maps of the city&rsquo;s building&rsquo;s by age. First for Manhattan alone and then for the whole of New York City. The latter one is quite compressed, unfortunately, as it contains data on every building footprint in the city.
-Manhattan Buildings by Nearest Decade of Construction.
-New York City buildings by Decade of Construction.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2022/06/24/new-york-building-ages/">Read More…</a></p>
-  	
-</section>
-
-  <h3><a href="https://kieranhealy.org/blog/archives/2022/06/23/manhattan-building-heights/">Manhattan Building Heights</a></h3> <em>23 June 2022</em>
-  
-  New York&rsquo;s Open Data initiative continues to provide a lot of really excellent material to experiment with visually. Here is a map of building footprints in Manhattan, with their roof heights designated by color. Made with R and ggplot along with the sf package. The PNG is relatively high-resolution so you should be able to zoom in a bit to see some familiar outlines.
-Building footprints and roof heights in Manhattan.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2022/06/23/manhattan-building-heights/">Read More…</a></p>
   	
 </section>
 

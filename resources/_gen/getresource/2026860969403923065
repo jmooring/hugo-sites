@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 2104
+Age: 4687
 Content-Type: text/html
-Date: Sat, 04 Mar 2023 16:44:07 GMT
-Etag: "21318-5f60193490f3e-gzip"
-Last-Modified: Fri, 03 Mar 2023 16:38:29 GMT
+Date: Wed, 05 Apr 2023 14:07:33 GMT
+Etag: "213e3-5f880dcfabeb6-gzip"
+Last-Modified: Tue, 04 Apr 2023 11:20:30 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 9, 1
-X-Served-By: cache-hel1410033-HEL, cache-bfi-krnt7300048-BFI
-X-Timer: S1677948247.216455,VS0,VE1
+X-Cache-Hits: 2, 1
+X-Served-By: cache-hel1410034-HEL, cache-bfi-krnt7300082-BFI
+X-Timer: S1680703654.659654,VS0,VE1
 
 
 
@@ -78,8 +78,8 @@ X-Timer: S1677948247.216455,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.f89ac45d4ec255f9e4edabff1240cc639ccf7769065b5107f6bb6c8f7a6eec89.css" as="style">
-    <link href="/scss/main-custom.min.f89ac45d4ec255f9e4edabff1240cc639ccf7769065b5107f6bb6c8f7a6eec89.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.e392ae5255986803f880ac5f5d5ad436ae96fc6ac9030dbd450303163e5826a3.css" as="style">
+    <link href="/scss/main-custom.min.e392ae5255986803f880ac5f5d5ad436ae96fc6ac9030dbd450303163e5826a3.css" rel="stylesheet" integrity="">
 
 
 
@@ -115,7 +115,10 @@ X-Timer: S1677948247.216455,VS0,VE1
     
 
 
-<nav class="js-navbar-scroll navbar">
+<a href="https://airflowsummit.org" target="_blank" class="d-block fixed-top px-3 py-2 bg-success text-center text-bold text-white">
+    Airflow Summit 2023 is coming September 19-21. Register now!
+</a>
+<nav class="js-navbar-scroll navbar" style="top: 40px;">
     <div class="navbar__icon-container">
         <a href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="155.314" height="60" viewBox="0 0 155.314 60">
@@ -1206,12 +1209,12 @@ X-Timer: S1677948247.216455,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/firebase/firestore.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-openfaas/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Firestore</span>
+        <span class="box-event__integration--name">OpenFaaS</span>
     </div>
 </div>
 
@@ -1219,12 +1222,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/translate.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-cassandra/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Translation</span>
+        <span class="box-event__integration--name">Apache Cassandra</span>
     </div>
 </div>
 
@@ -1232,12 +1235,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-mssql/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Secret Manager</span>
+        <span class="box-event__integration--name">Microsoft SQL Server (MSSQL)</span>
     </div>
 </div>
 
@@ -1245,12 +1248,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-sqlite/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-hdfs/stable/operators/webhdfs.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">SQLite</span>
+        <span class="box-event__integration--name">WebHDFS</span>
     </div>
 </div>
 
@@ -1258,12 +1261,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-salesforce/stable/operators/salesforce_apex_rest.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-discord/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Salesforce</span>
+        <span class="box-event__integration--name">Discord</span>
     </div>
 </div>
 
@@ -1271,12 +1274,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/rds.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon SecretsManager</span>
+        <span class="box-event__integration--name">Amazon RDS</span>
     </div>
 </div>
 
@@ -1284,12 +1287,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/marketing_platform/analytics.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google</span>
+        <span class="box-event__integration--name">Google Analytics360</span>
     </div>
 </div>
 
@@ -1297,12 +1300,12 @@ X-Timer: S1677948247.216455,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-apache-sqoop/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-yandex/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Apache Sqoop</span>
+        <span class="box-event__integration--name">Yandex.Cloud</span>
     </div>
 </div>
 
