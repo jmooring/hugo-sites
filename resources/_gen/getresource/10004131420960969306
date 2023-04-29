@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7b325babbbf0ebcb-SEA
+Cf-Ray: 7bf84dff1893283b-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Wed, 05 Apr 2023 14:07:34 GMT
-Last-Modified: Tue, 04 Apr 2023 21:22:08 GMT
+Date: Sat, 29 Apr 2023 14:41:14 GMT
+Last-Modified: Fri, 28 Apr 2023 21:03:43 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -342,17 +342,58 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="30-march-2023">30 March 2023</h3>
+<h3 id="20-april-2023">20 April 2023</h3>
+<ul><li>
+            <p><p>We have updated the following buildpacks:</p>
+<ul>
+<li><a href="/products/app-platform/reference/buildpacks/hugo/">Hugo buildpack</a>: The default version of Hugo has been updated from v0.109.0 to v0.111.3. You can override the default version by setting a <code>HUGO_VERSION</code> environment variable. For more information and configuration options, see <a href="/products/app-platform/reference/buildpacks/hugo/">the buildpack&rsquo;s documentation page</a>.</li>
+<li><a href="/products/app-platform/reference/buildpacks/go/">Go buildpack</a>: Additional Go versions have been added and default versions of Go have been updated. For more information and configuration options, see <a href="/products/app-platform/reference/buildpacks/go/">the buildpack&rsquo;s documentation page</a>.
+<ul>
+<li>Add go1.20, go1.20.1, and go1.20.2</li>
+<li>Add go1.19.4, go1.19.5, go1.19.6, and go1.19.7</li>
+<li>Add go1.18.9, go1.18.10</li>
+<li>go1.20 defaults to 1.20.2</li>
+<li>go1.19 defaults to 1.19.7</li>
+<li>go1.18 defaults to go1.18.10</li>
+</ul>
+</li>
+<li><a href="/products/app-platform/reference/buildpacks/php/">PHP buildpack</a>: Updates to the PHP v1 buildpack are listed below. If you have an existing PHP app that is on v0, please <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrade to v1</a>.
+<ul>
+<li>PHP buildpack v1:
+<ul>
+<li>Add PHP/8.1.17</li>
+<li>Add PHP/8.0.28</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/products/app-platform/reference/buildpacks/python/">Python buildpack</a>: A new Python v2 buildpack version has been released that removes support for Python 3.6. Updates to the Python v1 buildpack are listed below. If you have an existing Python app that is on v1 or v0, please <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrade to v2</a>.
+<ul>
+<li>Python buildpack v2:
+<ul>
+<li>Drop support for Python 3.6</li>
+<li>Add Python 3.10.11, 3.10.10, 3.11.3, and 3.11.2</li>
+<li>Default Python version is now 3.11.3</li>
+</ul>
+</li>
+<li>Python buildpack v1:
+<ul>
+<li>Add Python 3.10.10 and 3.11.2</li>
+<li>Default Python version is now 3.11.2</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</p>
+        </li></ul><h3 id="18-april-2023">18 April 2023</h3>
+<ul><li>
+            <p>Premium Intel CPUs are now available for CPU-Optimized Droplets in BLR1.</p>
+        </li></ul><h3 id="30-march-2023">30 March 2023</h3>
 <ul><li>
             <p><p>You can now <a href="/products/app-platform/how-to/url-rewrites/">remap and redirect URL paths</a> in your apps on App Platform. For example, if you have the existing path <code>/your-app/api/functions/js/post</code> in your app, you can create a rewrite that masks that path with the simpler path, <code>/your-app/api/post</code>. Or you can redirect traffic from a specified path to a different URL on the internet.</p>
 <p>Additionally, app routing information is now specified under the <code>ingress</code> stanza of <a href="/products/app-platform/reference/app-spec/">app specs</a>.</p>
 </p>
-        </li></ul><h3 id="27-march-2023">27 March 2023</h3>
-<ul><li>
-            <p>The largest CPU-Optimized Droplet plan is now available in BLR1.</p>
-        </li></ul><h3 id="24-march-2023">24 March 2023</h3>
-<ul><li>
-            <p>We have extended the promotional period for CPU-Optimized Droplets with Premium Intel CPUs (no billing for outbound data transfer at speeds faster than 2 Gbps) from 30 April 2023 to 30 June 2023. <a href="/products/billing/bandwidth/">Learn more about bandwidth billing.</a></p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

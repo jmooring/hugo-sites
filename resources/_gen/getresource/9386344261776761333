@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 93512
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 05 Apr 2023 14:07:35 GMT
-Etag: "044d37671d2ade979bdfb88157a2a674-ssl-df"
+Date: Fri, 28 Apr 2023 12:42:43 GMT
+Etag: "552ec26469013281e5b92358fddb5f1a-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GX8VX3B3MYHZPB23GYEK5J2E
+X-Nf-Request-Id: 01GZ6QC021V0NX0T7D7BQHH239
 
 <!DOCTYPE html>
 <html lang="en-us"><head>
@@ -287,7 +287,7 @@ input {
 }
 
 .navbar { border-bottom: 2px solid black;
-; padding: .25rem 1rem!important}
+; padding: .25rem 1rem!important; white-space:nowrap}
 
 
 </style>
@@ -371,7 +371,7 @@ input {
           
           
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://amaze-space.com">Space</a>
+            <a class="nav-link" target="_blank" href="https://amaze-space.com">Enter Space</a>
           </li>
           
           
@@ -392,8 +392,6 @@ input {
     </div>
   </nav>
 </header>
-
-
 
 
 
@@ -422,29 +420,28 @@ input {
          </div>
       </div>
     </div>
+
+
 <style>
-  .floaty {
-    z-index: 10000;
+.floaty {
   animation: MoveUpDown 0.4s linear infinite;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
+  position: absolute; left: 0; bottom: 0; z-index: 10000;
 }
-
-@keyframes MoveUpDown {
-  0%, 100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 5px;
-  }
+@keyframes MoveUpDown {0%, 100% {bottom: 0;} 50% {bottom: 5px;}}
+.floaty2 {
+  animation: MoveUpDown 0.5s linear infinite;
+  position: absolute; left: 0; bottom: 20; z-index: 10000;
+  margin-bottom: 50px;
 }
+@keyframes MoveUpDown {0%, 100% { bottom: 0;} 50% {bottom: 5px;}}
 </style>
-    <div class="row buttons-menu pb-5 pt-3 floaty" >
-      <a href="https://eventix.shop/antaj2uu" target="_blank" class="btn btn-hero1 btn-rounded">Get your Tickets!</a>
- </div>
-  
+<div class="row buttons-menu pb-5 pt-3 floaty2" >
+  <a href="https://eventix.shop/antaj2uu" target="_blank" class="btn btn-hero1 btn-rounded">Get your Tickets!</a>
+</div>
+<div class="row buttons-menu pb-5 pt-3 floaty" >
+      <a href="https://amaze-space.com" target="_blank" class="btn btn-hero2 btn-rounded">Enter Online Festival</a><br>
+</div>
+
 
     </div>
   </section>
@@ -742,19 +739,6 @@ input {
           
           <div class="col-sm-6">
             <article class="blog-article  mb-4">
-  <a href="https://2023.amaze-berlin.de/news/a-maze.and-syncreality-xr-game-jam/"></a>
-  <div class="content post-header">
-
-    <h4 class="my-3"><a href="https://2023.amaze-berlin.de/news/a-maze.and-syncreality-xr-game-jam/">Calling for A MAZE. and SyncReality XR Game Jam</a></h4>
-    <p class="mb-4 summary">The A MAZE. and SyncReality XR GAME Jam is organized by A MAZE.</p>
-    <a href="https://2023.amaze-berlin.de/news/a-maze.and-syncreality-xr-game-jam/" class="read-more  h6">Read More ↗︎</a>
-  </div>
-</article>
-
-          </div>
-          
-          <div class="col-sm-6">
-            <article class="blog-article  mb-4">
   <a href="https://2023.amaze-berlin.de/news/a-maze.awards-2023-nominees-and-honorable-mentions/"></a>
   <div class="content post-header">
 
@@ -897,6 +881,21 @@ We are extremely happy that artists from 56 countries submitted 287 works!</p>
     
     <div class="row mb-5">
       <div class="col-lg-8">
+        <h1 class="mb-4  text-dark text-sm">HARDWARE SPONSORS</h1>
+      </div>
+      <div class="col-lg-12 d-flex align-items-center">
+        
+        <div class="client-item">
+          
+          <a href="https://www.tulparnotebook.de" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/tulpar.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="row mb-5">
+      <div class="col-lg-8">
         <h1 class="mb-4  text-dark text-sm">SILVER SPONSORS</h1>
       </div>
       <div class="col-lg-12 d-flex align-items-center">
@@ -945,6 +944,12 @@ We are extremely happy that artists from 56 countries submitted 287 works!</p>
         
         <div class="client-item">
           
+          <a href="https://transmediale.de/en" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/transmediale.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
           <a href="https://intheory.events/" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/intheory.png" alt="" class="sponsor-fluid"></a>
           
         </div>
@@ -970,6 +975,12 @@ We are extremely happy that artists from 56 countries submitted 287 works!</p>
         <div class="client-item">
           
           <a href="https://www.sae.edu/" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/sae.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="http://crunchingkoalas.com" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/CK.png" alt="" class="sponsor-fluid"></a>
           
         </div>
         
@@ -1006,6 +1017,24 @@ We are extremely happy that artists from 56 countries submitted 287 works!</p>
         <div class="client-item">
           
           <a href="https://www.institutfrancais.com/en" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/IF_LogoNovembre-numerique_noir.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://devolution.online" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/_devolution.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://www.ue-germany.com" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/_ue-logo.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://www.netherlandsworldwide.nl/" target="_blank"><img src="https://2023.amaze-berlin.de/images/clients/netherlands.png" alt="" class="sponsor-fluid"></a>
           
         </div>
         

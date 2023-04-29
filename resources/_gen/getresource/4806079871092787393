@@ -1,27 +1,27 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: Content-Type
-Age: 1654
+Age: 0
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cache-Control: public, max-age=3600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7b325bfbe8c9092f-SEA
+Cf-Ray: 7bf84e58afa2c586-SEA
 Content-Type: text/html
-Date: Wed, 05 Apr 2023 14:07:46 GMT
-Expires: Wed, 05 Apr 2023 14:40:12 GMT
-Last-Modified: Mon, 27 Mar 2023 18:03:38 GMT
+Date: Sat, 29 Apr 2023 14:41:28 GMT
+Expires: Sat, 29 Apr 2023 15:41:28 GMT
+Last-Modified: Thu, 27 Apr 2023 19:11:35 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ix4wGme%2FHhm7sIDgbbA%2B%2FWMvtRpoWIRCpclOMpCjwZJC40XKUBJaPz4FU90Loxk3gcKkkrzLVhgD7T8vhTzXJXPhLQIkiVQBDm652qWnEb%2BnK5aM%2FnmloGzY60%2BU"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HnPIF4i713xLq2QzSMdqBUW3Efn1C7Hue8X0G3DTVxg0krDWc1JGLxe6r1Ws%2Bqfprpu6PLR3T2xiYX6fCxhJ4CJsAf0rpzCKD2tB8jFIFqrXYvvkublVfJ5quPGi"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-X-Goog-Generation: 1679940218357625
-X-Goog-Hash: crc32c=FU+T0w==
-X-Goog-Hash: md5=3G/YvkwuDsfgCPeu3ftUXg==
-X-Goog-Meta-Goog-Reserved-File-Mtime: 1679940183
+X-Goog-Generation: 1682622695616881
+X-Goog-Hash: crc32c=r6c1jw==
+X-Goog-Hash: md5=6vFuWuemAn3yWpWOpzzQgA==
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1682622652
 X-Goog-Metageneration: 1
 X-Goog-Storage-Class: STANDARD
 X-Goog-Stored-Content-Encoding: identity
-X-Goog-Stored-Content-Length: 29946
-X-Guploader-Uploadid: ADPycdtMwuQUOlYi-C-a97g0xweNXRB92jFKBaK8onU6Y8Q5J58hHZ0dHQQ7RzT3GmX3FCbkWYo32DnDLVWpwOmZSjQQ5BIgo3Vv
+X-Goog-Stored-Content-Length: 30630
+X-Guploader-Uploadid: ADPycdsptJTORFdm7SAN7oBflu7tNTvuda0TvNizHXOgVvjUQH22JaMcBOQeDpQXA-LILB3WCLFe8xrefEMo2bJsS5Pa
 
 <!DOCTYPE html>
 <html lang="en" class="">
@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="/css/prism-a11y-dark.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/command-line/prism-command-line.min.css" integrity="sha256-QViEGvwX/42OrD49huSb2mGZtUQwVKNA5Ux58tMWLOs=" crossorigin="anonymous" />
 <link rel="shortcut icon" href="/images/identity/favicon/linkerd-favicon.png" />
-<link rel="stylesheet" href="/css/style.27ee4a4e9d469ba6ad8913081da52c41663b5f3e272fd3696db76661b752f899.css">
+<link rel="stylesheet" href="/css/style.716a0f43f1f5383a2b3574e3d2071f116febebef810d88a3d3a7a34b7690e9b4.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
@@ -92,9 +92,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="dropdown-menu">
 <button class="dropdown-item back has-text-bright-blue">&lt; Back</button>
 <div class="dropdown-content">
-<a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/cncf-hosted-co-located-events/linkerd-day/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary " target="_blank">
-<span class="navbar-item-helper">Linkerd Day 2023 EU</span>
-</a>
 <a href="/community/get-involved/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
 <span class="navbar-item-helper">Get Involved</span>
 </a>
@@ -107,8 +104,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <a href="/community/heroes/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
 <span class="navbar-item-helper">Linkerd Heroes</span>
 </a>
-<a href="/community/anchor/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
-<span class="navbar-item-helper">Community Anchors</span>
+<a href="https://linkerd.buoyant.io" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary " target="_blank">
+<span class="navbar-item-helper">Buoyant&#39;s Linkerd Forum</span>
 </a>
 </div>
 </div>
@@ -133,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </nav>
 <script src="https://linkerd.io/js/navbar.min.94a823c229699317971e763064602dbe0187a2dd3474965df186db85b76e64a3.js"></script>
 <div class="homepage-notification has-background-light-blue has-text-navy-black center has-text-centered">
-<p>2022-01-20 <strong><a href="2023/01/20/announcing-linkerd-day-2023/" target="_blank">Announcing Linkerd Day at Kubecon EU in April 2023! Read now »</a></strong></p>
+<p>2023-04-11 <strong><a href="https://buoyant.io/newsroom/buoyant-announces-linkerd-2-13-with-new-reliability-and-security-features-for-kubernetes" target="_blank">Announcing Linkerd 2.13 with new reliability and security features! Read now »</a></strong></p>
 </div>
 <section class="hero">
 <main aria-role="main" class="hero-body">
@@ -173,6 +170,25 @@ Get Involved
 </div>
 </div>
 </div>
+<div class="wrapper has-background-white ">
+<div class="container pt-6 pb-2 cta-bouyant">
+<div class="container">
+<div class="has-text-centered pt-4 block-created-by">
+<p class="has-text-weight-medium has-text-color">Linkerd was created by </p>
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSI0NDAiCiAgaGVpZ2h0PSI5MiIKICBmaWxsPSJub25lIgogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI&#43;Cjwvc3ZnPg==" data-src="/uploads/buoyant-logo-blue.png" class="lazyload " alt="Learn more about Buoyant" class="" />
+</figure>
+</div>
+</div>
+<div class="container">
+<div class="column has-text-centered">
+<a href="https://buoyant.io/" target="_blank" class="button is-primary is-large cta-bouyant-button">
+Learn more about Buoyant
+</a>
+</div>
+</div>
+</div>
+</div>
 <div class="wrapper has-background-white py-6">
 <div class="container columns is-multiline is-centered">
 <div class="column is-half py-5 px-5">
@@ -192,7 +208,7 @@ Get Involved
 <div class="has-text-color">Self-contained control plane, incrementally deployable data plane, and lots and lots of diagnostics and debugging tools.</div>
 </div>
 <div class="column is-half py-5 px-5">
- <h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Drop-in reliability features</h3>
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Drop-in reliability features</h3>
 <div class="has-text-color">Instantly add latency-aware load balancing, request retries, timeouts, and blue-green deploys to keep your applications resilient.</div>
 </div>
 <div class="column is-half py-5 px-5">
@@ -206,7 +222,7 @@ Get Involved
 <div class="container columns is-multiline is-centered is-mobile is-narrow is-vcentered">
 <div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
 <div class="is-size-1">
-5+
+6+
 </div>
 <div class="is-size-6">
 Years in production
@@ -214,7 +230,7 @@ Years in production
 </div>
 <div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
 <div class="is-size-1">
-7,500+
+8,500+
 </div>
 <div class="is-size-6">
 Slack channel members
@@ -472,7 +488,7 @@ of Conduct</a>
 <a href="https://www.youtube.com/buoyantio" class="has-text-color has-text-weight-light">
 <span class="navbar-item-helper">YouTube</span>
 </a>
- </p>
+</p>
 <p>
 <a href="https://twitter.com/linkerd" class="has-text-color has-text-weight-light">
 <span class="navbar-item-helper">Twitter</span>

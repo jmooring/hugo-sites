@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 7169
+Age: 82194
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:53 GMT
-Etag: W/"d45b26c79dbc8c5f38204e893357f849"
+Date: Sat, 29 Apr 2023 14:41:34 GMT
+Etag: W/"a22b9c05a076629b1179dc1a9916c352"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1:pdx1::2d4ql-1680703673144-dcd0c20665b6
+X-Vercel-Id: pdx1:pdx1::qk6lb-1682779294020-7a2d9e4eb8bb
 X-Xss-Protection: 0
 
 <!DOCTYPE html>
@@ -24,10 +24,10 @@ X-Xss-Protection: 0
   <meta name="description" content="Monitoring as code workflow for developers: programmable, fast, reliable." />
   <meta name="viewport" content="width=device-width" initial-scale="1" maximum-scale="1" />
 
-  <link rel="preload" href="https://d1tzmx204wa22c.cloudfront.net/fonts/ionicons.ttf?v=2.0.1" as="font" type="font/ttf" crossorigin="anonymous" />
-  <link rel="preload" href="https://d1tzmx204wa22c.cloudfront.net/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="https://cdn.checklyhq.com/fonts/ionicons.ttf?v=2.0.1" as="font" type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="https://cdn.checklyhq.com/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="/css/style.d3458f26.css" />
+  <link rel="stylesheet" href="/css/style.2e07d500.css" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Build and Run Synthetics That Scale" />
@@ -382,9 +382,9 @@ X-Xss-Protection: 0
       <p class="text-center text-md-left terraform-sub">Unite E2E testing and monitoring in one monitoring as code (MaC) workflow, enabled by the Checkly CLI. Code, test, and deploy API and Playwright-based checks that scale.</p>
       <div class="d-flex justify-content-center align-items-center justify-content-md-start flex-column flex-sm-row flex-lg-wrap flex-xl-nowrap">
         <a href="https://app.checklyhq.com/signup"><button type="button" class="btn btn-primary b-cta">Sign up for Free</button></a>
-        <div class="mx-3 my-2">and</div>
+        <div class="mx-3 my-2"></div>
         <div id="copy-cli-installation-code" class="code-block dark d-flex justify-content-center align-items-center mt-lg-3 mt-xl-0">
-          <pre id="cli-installation-pre"><code id="cli-installation-code">npm create @checkly/cli</code></pre>
+          <pre id="cli-installation-pre"><code id="cli-installation-code">npm create checkly</code></pre>
         </div>
       </div>
       <div class="d-flex mt-2 justify-content-center justify-content-md-start">
@@ -465,17 +465,17 @@ __checks__/browser.check.ts
       <div class="col-sm-12 col-lg-7">
         <div class="image-side right">
           <picture>
-            <source type="image/png" srcset="/landing/synthetic_bg.a59c489f.png" />            
+            <source type="image/png" srcset="https://cdn.checklyhq.com/landing/synthetic_bg.png" />
             <img
               class="big-landing-image big-drop-shadow first fade-in lazy rounded"
-              src="/landing/synthetic_bg.a59c489f.png"
+              src="https://cdn.checklyhq.com/landing/synthetic_bg.png"
               alt="checkly browser screenshots"
               width="760"
               height="472"
             />
           </picture>
           <picture>
-            <source type="image/png" srcset="/landing/synthetic_detail.e95dd02d.png" />
+            <source type="image/png" srcset="https://cdn.checklyhq.com/landing/synthetic_detail.png" />
             <img
               class="
                 big-landing-image big-drop-shadow
@@ -485,7 +485,7 @@ __checks__/browser.check.ts
                 lazy
                 rounded
               "
-              src="/landing/synthetic_detail.e95dd02d.png"
+              src="https://cdn.checklyhq.com/landing/synthetic_detail.png"
               alt="webshop add to cart"
               width="760"
               height="475"
@@ -543,7 +543,7 @@ __checks__/browser.check.ts
       <div class="col-sm-12 text-center">
         <picture>
           
-          <img class="location-image img-fluid" src="https://d1tzmx204wa22c.cloudfront.net/landing/private-locations-stacked%402x.png" alt="checkly alerting settings" width="2347" height="1090" />
+          <img class="location-image img-fluid" src="https://cdn.checklyhq.com/landing/private-locations-stacked%402x.png" alt="checkly alerting settings" width="2347" height="1090" />
         </picture>
       </div>
     </div>
@@ -1087,6 +1087,6 @@ if (window.location.search || restoredUtmTags) {
   })
 }
 </script>
-  <script src="/js/cliCopyButton.7eb1cf03.js"></script>
+  <script src="/js/cliCopyButton.165e5ba3.js"></script>
 </body>
 </html>

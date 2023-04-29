@@ -2,10 +2,10 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=600
 Content-Type: text/html
-Date: Wed, 05 Apr 2023 14:07:36 GMT
-Etag: "2f30-5f81eb4ea63e2-gzip"
-Expires: Wed, 05 Apr 2023 14:17:36 GMT
-Last-Modified: Thu, 30 Mar 2023 14:14:11 GMT
+Date: Sat, 29 Apr 2023 14:41:17 GMT
+Etag: "2fee-5fa4fca85e6a7-gzip"
+Expires: Sat, 29 Apr 2023 14:51:17 GMT
+Last-Modified: Thu, 27 Apr 2023 11:38:10 GMT
 Server: Apache
 Vary: Accept-Encoding,User-Agent
 
@@ -50,7 +50,7 @@ Vary: Accept-Encoding,User-Agent
 <link rel="stylesheet" href="https://use.typekit.net/axi7fmh.css">
   
 
-<link href="https://kieranhealy.org/dist/even.ec1d5b96.min.css" rel="stylesheet">
+<link href="https://kieranhealy.org/dist/even.bfd0cd4a.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="https://kieranhealy.org/css/dark.css">
 <link rel="stylesheet" href="https://kieranhealy.org/css/bigfoot-default.css">
@@ -78,8 +78,8 @@ Vary: Accept-Encoding,User-Agent
 </head>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="https://kieranhealy.org/" class="logo">Kieran Healy</a>
+  <div class="mobile-header-logo scp">
+    <a href="https://kieranhealy.org/" class="logo">kieran healy</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -104,14 +104,17 @@ Vary: Accept-Encoding,User-Agent
 </nav>
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="https://kieranhealy.org/" class="logo">Kieran Healy&nbsp;</a>
-      <a href="http://twitter.com/kjhealy" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="http://github.com/kjhealy" class="iconfont icon-github" title="github"></a>
-  <a href="https://kieranhealy.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+        <div class="logo-wrapper scp">
+  <a href="https://kieranhealy.org/" class="logo">kieran healy</a>&thinsp; &middot; &thinsp; 
 
+<a href="https://twitter.com/kjhealy" class="logo" title="Twitter"><img class="icon-svg" src = "/icons/twitter.svg"></a>
+<a href="https://mastodon.social/@kjhealy" class="logo" title="Mastodon"><img class="icon-svg" src = "/icons/mastodon.svg"></a>
+<a href="https://github.com/kjhealy" class="logo" title="GitHub"><img class="icon-svg" src = "/icons/github.svg"></a>
+<a href="https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en" class="logo" title="Google Scholar"><img class="icon-svg" src = "/icons/googlescholar.svg"></a>
 </div>
 
+
+  
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
@@ -128,12 +131,15 @@ Vary: Accept-Encoding,User-Agent
   </ul>
 </nav>
 
+
+
+
     </header>
 
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <p>I am <a href = "http://sociology.duke.edu">Professor of Sociology</a> at Duke University. (<a href = "about/">&rarr; More about me.</a>)
+          <p>I am Professor of <a href = "https://sociology.duke.edu">Sociology</a> at <a href = "https://www.duke.edu">Duke University</a>. &rarr; <a href = "about/">More about me.</a>
 
 
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
@@ -168,10 +174,10 @@ Vary: Accept-Encoding,User-Agent
 
   
   <li>
-    <em>Data Visualization</em>. Princeton University Press. /    
+    <em>Data Visualization</em>. Princeton University Press.     
     
-     <a href="https://kieranhealy.org/publications/dataviz/">Overview</a> /  
-     <a  href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624" style = "background-color: #F99F46; border-radius: 5px; ">&nbsp;Buy on Amazon&nbsp;</a> 
+     » <a class="scp" href="https://kieranhealy.org/publications/dataviz/">overview</a> 
+
   </li>
 
   
@@ -204,10 +210,10 @@ Vary: Accept-Encoding,User-Agent
 
   
   <li>
-    &ldquo;Fuck Nuance.&rdquo; <em>Sociological Theory</em> 35:118-127. /    
-    <a href="https://kieranhealy.org/files/papers/fuck-nuance.pdf">PDF</a>
+    &ldquo;Fuck Nuance.&rdquo; <em>Sociological Theory</em> 35:118-127.     
+     »  <a class="scp" href="https://kieranhealy.org/files/papers/fuck-nuance.pdf">pdf</a>
     
-    
+
   </li>
 
   
@@ -224,38 +230,10 @@ Vary: Accept-Encoding,User-Agent
 
   
   <li>
-    &ldquo;Seeing Like a Market.&rdquo; <em>Socio-Economic Review</em>, 15:9-29. /    
-    <a href="https://kieranhealy.org/files/papers/slam-2.pdf">PDF</a>
-    
-    
-  </li>
-
-  
- 
-  
-
+    &ldquo;Seeing Like a Market.&rdquo; <em>Socio-Economic Review</em>, 15:9-29.     
+     »  <a class="scp" href="https://kieranhealy.org/files/papers/slam-2.pdf">pdf</a>
     
 
-  
-
-    
-
-  
-
-    
-
-  
-
-    
-
-  
-
-  
-  <li>
-    &ldquo;The Performativity of Networks.&rdquo; <em>European Journal of Sociology</em>, 56:175–205. /    
-    <a href="https://kieranhealy.org/files/papers/performativity.pdf">PDF</a>
-    
-    
   </li>
 
   
@@ -278,6 +256,34 @@ Vary: Accept-Encoding,User-Agent
 
   
 
+  
+  <li>
+    &ldquo;The Performativity of Networks.&rdquo; <em>European Journal of Sociology</em>, 56:175–205.     
+     »  <a class="scp" href="https://kieranhealy.org/files/papers/performativity.pdf">pdf</a>
+    
+
+  </li>
+
+  
+ 
+  
+
+    
+
+  
+
+    
+
+  
+
+    
+
+  
+
+    
+
+  
+
     
 
   
@@ -336,10 +342,10 @@ Vary: Accept-Encoding,User-Agent
 
   
   <li>
-    <em>Last Best Gifts</em>. University of Chicago Press. /    
+    <em>Last Best Gifts</em>. University of Chicago Press.     
     
-     <a href="https://kieranhealy.org/publications/lbg/">Overview</a> /  
-     <a  href="https://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378" style = "background-color: #F99F46; border-radius: 5px; ">&nbsp;Buy on Amazon&nbsp;</a> 
+     » <a class="scp" href="https://kieranhealy.org/publications/lbg/">overview</a> 
+
   </li>
 
   
@@ -417,42 +423,39 @@ Vary: Accept-Encoding,User-Agent
 <br />  
 <h1>Recent Writing</h1>  
   
-  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Assault Deaths in the OECD 1960-2020</a></h3> <em>30 March 2023</em>
-  
-  <p>While we&rsquo;re redoing some classics, here is the time series of assault deaths in the United States and eighteen other OECD countries from 1960 to 2020.</p>
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Read More…</a></p>
-  	
-</section>
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Assault Deaths in the OECD 1960-2020</a></h3><p> <em>30 March 2023</em>
 
-  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Life Expectancy and Health Spending in the OECD</a></h3> <em>29 March 2023</em>
-  
-  The visualization exercise of the day for class is a re-creation of a figure I first saw Lane Kenworthy make. It&rsquo;s a connected scatterplot of total health spending in real terms and life expectancy of the population as a whole. The fact that real spending and expectancy tend to steadily increase for most countries in most years makes the year-to-year connections work even though they&rsquo;re not labeled as such.
+ While we&rsquo;re redoing some classics, here is the time series of assault deaths in the United States and eighteen other OECD countries from 1960 to 2020. Again, this is the sort of plot that you could choose to draw in a variety of ways depending on what it was that you wanted to emphasize. Code and data for this way of doing it are available on GitHub.
+Assault deaths in the OECD, 1960-2020.
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/03/30/assault-deaths-in-the-oecd-1960-2020/">Continue reading…</a></em></p>
+
+
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Life Expectancy and Health Spending in the OECD</a></h3><p> <em>29 March 2023</em>
+
+ The visualization exercise of the day for class is a re-creation of a figure I first saw Lane Kenworthy make. It&rsquo;s a connected scatterplot of total health spending in real terms and life expectancy of the population as a whole. The fact that real spending and expectancy tend to steadily increase for most countries in most years makes the year-to-year connections work even though they&rsquo;re not labeled as such.
 A connected scatterplot of life expectancy against total health spending in the US and eighteen other OECD countries.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Read More…</a></p>
-  	
-</section>
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Continue reading…</a></em></p>
 
-  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Reading Remote Data Files</a></h3> <em>25 March 2023</em>
-  
-  Sometimes data arrives as a series of individual files each of which is organized in the same way&mdash;which is to say, each of which has the same variables, features, or columns. Imagine a series of tables reporting mandated information about every school in the state, or a hundred spreadsheets each with information about a different country, or thirty seven CSVs each with the same columns of information about representatives in each U.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Read More…</a></p>
-  	
-</section>
 
-  <h3><a href="https://kieranhealy.org/blog/archives/2023/01/08/escaping-the-malthusian-trap/">Escaping the Malthusian Trap</a></h3> <em>8 January 2023</em>
-  
-  The Broadberry et al GDP series has estimates of England&rsquo;s real GDP and population from the year 1270 onwards. It&rsquo;s available, along with a lot of other long-run data, from The Bank of England. Here&rsquo;s an animation of the series. I sometimes use this as a scene-setter when teaching social theory. It&rsquo;s great because, in addition to the basic story that the series tells (which I find the animation brings out very nicely), it also naturally invites questions about the nature of the data itself.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2023/01/08/escaping-the-malthusian-trap/">Read More…</a></p>
-  	
-</section>
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Reading Remote Data Files</a></h3><p> <em>25 March 2023</em>
 
-  <h3><a href="https://kieranhealy.org/blog/archives/2022/07/22/unhappy-in-its-own-way/">Unhappy in its Own Way</a></h3> <em>22 July 2022</em>
-  
-  “Happy families are all alike; every unhappy family is unhappy in its own way” runs the opening sentence of Anna Karenina. Hadley Wickham echoes the sentiment in a somewhat different context: “Tidy datasets are all alike, but every messy dataset is messy in its own way”. Data analysis is mostly data wrangling. That is, before you can do anything at all with your data, you need to get it into a format that your software can read.
-  <p class="text-right"><a href="https://kieranhealy.org/blog/archives/2022/07/22/unhappy-in-its-own-way/">Read More…</a></p>
-  	
-</section>
+ Sometimes data arrives as a series of individual files each of which is organized in the same way&mdash;which is to say, each of which has the same variables, features, or columns. Imagine a series of tables reporting mandated information about every school in the state, or a hundred spreadsheets each with information about a different country, or thirty seven CSVs each with the same columns of information about representatives in each U.
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Continue reading…</a></em></p>
 
+
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/01/08/escaping-the-malthusian-trap/">Escaping the Malthusian Trap</a></h3><p> <em>8 January 2023</em>
+
+ The Broadberry et al GDP series has estimates of England&rsquo;s real GDP and population from the year 1270 onwards. It&rsquo;s available, along with a lot of other long-run data, from The Bank of England. Here&rsquo;s an animation of the series. I sometimes use this as a scene-setter when teaching social theory. It&rsquo;s great because, in addition to the basic story that the series tells (which I find the animation brings out very nicely), it also naturally invites questions about the nature of the data itself.
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/01/08/escaping-the-malthusian-trap/">Continue reading…</a></em></p>
+
+
+  <h3><a href="https://kieranhealy.org/blog/archives/2022/07/22/unhappy-in-its-own-way/">Unhappy in its Own Way</a></h3><p> <em>22 July 2022</em>
+
+ “Happy families are all alike; every unhappy family is unhappy in its own way” runs the opening sentence of Anna Karenina. Hadley Wickham echoes the sentiment in a somewhat different context: “Tidy datasets are all alike, but every messy dataset is messy in its own way”. Data analysis is mostly data wrangling. That is, before you can do anything at all with your data, you need to get it into a format that your software can read.
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2022/07/22/unhappy-in-its-own-way/">Continue reading…</a></em></p>
+
+	
+</section>
         </div>
         
 
@@ -461,6 +464,11 @@ A connected scatterplot of life expectancy against total health spending in the 
 
     <footer id="footer" class="footer">
       
+
+
+
+
+
 
 
 

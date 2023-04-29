@@ -3,7 +3,7 @@ Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:38 GMT
+Date: Sat, 29 Apr 2023 14:41:19 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -14,7 +14,7 @@ X-Frame-Options: DENY
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 
-102bf
+10230
 
 
 <!DOCTYPE html>
@@ -51,11 +51,11 @@ This page provides an overview of Manjaro Linux, an open source operating system
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         
 
-<link rel="preload" href="/static/css/styles.2b6b06ebb7e9.css" as="style">
+<link rel="preload" href="/static/css/styles.b39405fc7549.css" as="style">
 
         
 
-<link rel="stylesheet" href="/static/css/styles.2b6b06ebb7e9.css">
+<link rel="stylesheet" href="/static/css/styles.b39405fc7549.css">
 
 
 
@@ -75,11 +75,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
             </div>
         </noscript>
 
-
-<!-- Matomo -->
 <script>
     var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(["setCookieDomain", "*.manjaro.org"]);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
@@ -90,9 +87,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
     })();
-  </script>
-  <!-- End Matomo Code -->
-  
+  </script>  
   
     </head>
 
@@ -113,15 +108,12 @@ This page provides an overview of Manjaro Linux, an open source operating system
     <div class="nav relative flex gap-4 w-full pl-4 h-[34px] text-right">
       <ul class="items-center flex capitalize text-sm gap-4 w-full">
         
-        
         <li class="">
-          <a  target="_blank"  href="https://manjaro.org/merchandise/"
+          <a  href="https://manjaro.org/merchandise/"
             class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
             merchandise
           </a>
         </li>
-        
-        
         
         <li class="">
           <a  href="https://manjaro.org/hardware/"
@@ -130,8 +122,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
           </a>
         </li>
         
-        
-        
         <li class="">
           <a  href="https://manjaro.org/contact/"
             class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
@@ -139,15 +129,12 @@ This page provides an overview of Manjaro Linux, an open source operating system
           </a>
         </li>
         
-        
-        
         <li class="">
           <a  href="https://manjaro.org/download/"
             class="flex items-center justify-center w-full  font-bold tracking-wide link-decor-right link-decor relative z-0 h-[36px]">
             Download
           </a>
         </li>
-        
         
       </ul>
       <form id="search-form" action="/search/" method="get" class="relative text-sm hidden lg:flex w-[60%]">
@@ -157,7 +144,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 
     <div class="nav relative flex items-center gap-4 bg-gradient-to-b from-blue-gray-800 to-blue-gray-900 pl-4 pr-2 rounded-b-md text-gray-200 h-[46px]">
-      <ul class="items-center hidden lg:flex text-md font-bold capitalize space-x-4 w-full">
+      <ul id="left-menu" class="items-center hidden lg:flex text-md font-bold capitalize space-x-4 w-full">
         
         <li>
           
@@ -165,7 +152,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
             class="Project font-bold inline-flex capitalize tracking-wide link-decor link-decor-left relative z-0"><i
               class="fa-solid fa-ellipsis-vertical pt-1 pr-4"></i> Project</button>
           <ul id="submenuProject"
-            class="mt-4 dropdown rounded overflow-hidden absolute hidden flex flex-col drop-shadow-xl px-2 bg-gray-200">
+            class="dropdown rounded overflow-hidden absolute hidden flex flex-col">
+            <div class="bg-gray-200 px-2 mt-4 rounded-t drop-shadow">
             
             
             <li class="relative text-sm py-2">
@@ -211,6 +199,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
             </li>
             
             
+          </div>
           </ul>
           
         </li>
@@ -221,7 +210,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
             class="Explore font-bold inline-flex capitalize tracking-wide link-decor link-decor-left relative z-0"><i
               class="fa-solid fa-ellipsis-vertical pt-1 pr-4"></i> Explore</button>
           <ul id="submenuExplore"
-            class="mt-4 dropdown rounded overflow-hidden absolute hidden flex flex-col drop-shadow-xl px-2 bg-gray-200">
+            class="dropdown rounded overflow-hidden absolute hidden flex flex-col">
+            <div class="bg-gray-200 px-2 mt-4 rounded-t drop-shadow">
             
             
             <li class="relative text-sm py-2">
@@ -256,6 +246,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
             </li>
             
             
+          </div>
           </ul>
           
         </li>
@@ -266,7 +257,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
             class="Learn font-bold inline-flex capitalize tracking-wide link-decor link-decor-left relative z-0"><i
               class="fa-solid fa-ellipsis-vertical pt-1 pr-4"></i> Learn</button>
           <ul id="submenuLearn"
-            class="mt-4 dropdown rounded overflow-hidden absolute hidden flex flex-col drop-shadow-xl px-2 bg-gray-200">
+            class="dropdown rounded overflow-hidden absolute hidden flex flex-col">
+            <div class="bg-gray-200 px-2 mt-4 rounded-t drop-shadow">
             
             
             <li class="relative text-sm py-2">
@@ -323,6 +315,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
             </li>
             
             
+          </div>
           </ul>
           
         </li>
@@ -333,7 +326,8 @@ This page provides an overview of Manjaro Linux, an open source operating system
             class="supporters font-bold inline-flex capitalize tracking-wide link-decor link-decor-left relative z-0"><i
               class="fa-solid fa-ellipsis-vertical pt-1 pr-4"></i> supporters</button>
           <ul id="submenusupporters"
-            class="mt-4 dropdown rounded overflow-hidden absolute hidden flex flex-col drop-shadow-xl px-2 bg-gray-200">
+            class="dropdown rounded overflow-hidden absolute hidden flex flex-col">
+            <div class="bg-gray-200 px-2 mt-4 rounded-t drop-shadow">
             
             
             <li class="relative text-sm py-2">
@@ -357,6 +351,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
             </li>
             
             
+          </div>
           </ul>
           
         </li>
@@ -550,7 +545,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
           
           
           <li class="py-2">
-            <a target="_blank"  href="https://manjaro.org/merchandise/"
+            <a  href="https://manjaro.org/merchandise/"
               class="shadow inline-block py-4 px-6 text-ellipsis whitespace-nowrap bg-blue-gray-800 w-full rounded-full">
               merchandise</a>
           </li>
@@ -604,7 +599,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
 <script src="https://unpkg.com/tippy.js@6"></script>
 
         <main class="min-h-[calc(100vh-82px)] ">
-        
           
 
 
@@ -1269,6 +1263,18 @@ This page provides an overview of Manjaro Linux, an open source operating system
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 mb-4 lg:mb-12">
     
     <div class="text-gray-200 flex flex-wrap justify-center mb-8">
+      <a href="https://blog.manjaro.org/pamac-package-manager-with-latest-improvements/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
+            
+            <img src="/media/images/Screenshot_from_2023-04-03_10-28-00.width-500.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
+            alt="image" />
+          <div class="p-4 text-sm">
+            <h4 class="font-bold leading-5 mb-2 text-base">Pamac Package Manager with latest improvements</h4>
+            
+        </div>
+      </a>
+    </div>
+    
+    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
       <a href="https://blog.manjaro.org/february-2023-in-manjaro-arm/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
             
             <img src="/media/images/february.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
@@ -1288,18 +1294,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
           <div class="p-4 text-sm">
             <h4 class="font-bold leading-5 mb-2 text-base">FOSDEM 2023</h4>
             <p data-block-key="rpyy4">Fosdem 2023 was a great experience.</p>
-        </div>
-      </a>
-    </div>
-    
-    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
-      <a href="https://blog.manjaro.org/january-2023-in-manjaro-arm/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
-            
-            <img src="/media/images/january.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
-            alt="image" />
-          <div class="p-4 text-sm">
-            <h4 class="font-bold leading-5 mb-2 text-base">January 2023 in Manjaro ARM</h4>
-            <ul><li data-block-key="sc2c8">Restructuring arm-profiles</li><li data-block-key="8f265">Pinebook Pro U-boot issues</li><li data-block-key="2jn5o">CPUIDLE support?</li></ul>
         </div>
       </a>
     </div>
@@ -1531,7 +1525,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 </footer>
 
-        <script async type="text/javascript" src="/static/js/manjaro.5eff76876796.js"></script>
+        <script async type="text/javascript" src="/static/js/manjaro.8a291f6a294a.js"></script>
 
         
 <script>

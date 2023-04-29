@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
-Content-Length: 14526
+Content-Length: 14520
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:47 GMT
-Etag: "54649cd5864fd62a838b4c15d10040b9454e6b077baf3fa80030edcf954e15a8"
-Expires: Wed, 05 Apr 2023 14:17:47 UTC
-Last-Modified: Wed, 07 Sep 2022 12:57:41 GMT
+Date: Sat, 29 Apr 2023 14:41:26 GMT
+Etag: "07676da26e0c76e11a5fd920b0666c7082f625720c1b0f165ea0a5c2f9a0234b"
+Expires: Sat, 29 Apr 2023 14:51:26 UTC
+Last-Modified: Thu, 13 Apr 2023 20:14:01 GMT
 Permissions-Policy: interest-cohort=()
 Vary: Origin
 
@@ -14,13 +14,13 @@ Vary: Origin
 <!DOCTYPE html>
 <html>
   <head>
-	<meta name="generator" content="Hugo 0.75.1" />
+	<meta name="generator" content="Hugo 0.111.3">
     <title>
 	 :: PureLB
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2022-09-07T12:57:41 UTC">
+<meta name="revised" content="2023-04-13T20:14:01 UTC">
 <meta name="description" content="Description of PureLB">
 
 
@@ -49,7 +49,7 @@ Vary: Origin
 <link rel="stylesheet" type="text/css" href='https://purelb.gitlab.io/docs/sass/shortcodes/children.css'>
 <link rel="stylesheet" type="text/css" href='https://purelb.gitlab.io/docs/sass/shortcodes/attachments.css'>
 <link rel="stylesheet" type="text/css" href='https://purelb.gitlab.io/docs/sass/shortcodes/alert.css'>
-<link rel="stylesheet" type="text/css" href='/docs/css/docport.css'>
+<link rel="stylesheet" type="text/css" href='/css/docport.css'>
 
 <script src='/docs/js/docport.js'></script>
 <script type="text/javascript">
@@ -58,16 +58,14 @@ Vary: Origin
 
 
 
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7X5FYG9N9"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-180188455-2', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-K7X5FYG9N9', { 'anonymize_ip': false });
 }
 </script>
 
@@ -615,6 +613,10 @@ Use of CRDs simplifies configuration with validation</p>
 <li>
 <p><strong>Dual Stack Support for IPv4 &amp; IPv6.</strong>
 PureLB provides Dual Stack IPv6 support (subject to your cluster &amp; network configuration)</p>
+</li>
+<li>
+<p><strong>Supports GARP for Datacenters using EVPN/VXLAN.</strong>
+GARP can be enabled to support ARP suppression mechanisms used in EVPN/VXLAN</p>
 </li>
 <li>
 <p><strong>Extensible to support external IPAM.</strong>

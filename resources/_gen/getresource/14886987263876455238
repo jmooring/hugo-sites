@@ -1,19 +1,19 @@
 HTTP/2.0 200 OK
-Content-Length: 6688
+Content-Length: 6764
 Accept-Ranges: bytes
 Cache-Control: private
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 05 Apr 2023 14:07:37 GMT
-Etag: "1a20-5f88ee939d897"
-Last-Modified: Wed, 05 Apr 2023 04:06:05 GMT
+Date: Sat, 29 Apr 2023 14:41:17 GMT
+Etag: "1a6c-5fa7263470908"
+Last-Modified: Sat, 29 Apr 2023 04:54:42 GMT
 Server: Apache/2.4.53 (Red Hat Enterprise Linux) OpenSSL/3.0.1
-Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=03c44d39c457c312727787036e352dae; path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=9a4d55d1a9df5bfcb7c1bfc6d4cca526; path=/; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=300
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Served-By: cache-bfi-krnt7300054-BFI
-X-Timer: S1680703657.950848,VS0,VE246
+X-Served-By: cache-bfi-kbfi7400023-BFI
+X-Timer: S1682779278.524730,VS0,VE243
 
 <!doctype html>
 <html lang="en">
@@ -153,17 +153,17 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" 
 <tbody>
 <tr>
 <td>Port to GTK3</td>
-<td>nearly done</td>
-<td>GtkAction→GMenuModel port remaining</td>
+<td><strong>done</strong></td>
+<td>(except minor API usage, but no major tasks anymore)</td>
 </tr>
 <tr>
 <td>Port away from intltool</td>
-<td>done</td>
+<td><strong>done</strong></td>
 <td>We are now full gettext</td>
 </tr>
 <tr>
 <td>Port to meson build</td>
-<td>done</td>
+<td><strong>done</strong></td>
 <td>Extensive testing phase. Autotools build still available as fallback</td>
 </tr>
 <tr>
@@ -183,7 +183,7 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" 
 </tr>
 <tr>
 <td>Multi-layer selection</td>
-<td>done</td>
+<td><strong>done</strong></td>
 <td>Most code is multilayer aware…</td>
 </tr>
 <tr>

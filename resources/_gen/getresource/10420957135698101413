@@ -4,25 +4,25 @@ Age: 0
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7b325c294f4fec6c-SEA
+Cf-Ray: 7bf84e8debdbc4aa-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:53 GMT
-Expires: Wed, 05 Apr 2023 13:06:14 GMT
-Last-Modified: Thu, 16 Mar 2023 16:26:50 GMT
+Date: Sat, 29 Apr 2023 14:41:37 GMT
+Expires: Sat, 29 Apr 2023 14:51:37 GMT
+Last-Modified: Tue, 25 Apr 2023 14:55:37 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7jduoDO3Ica3VUFNLrMeGXX3xgPLtIqmHCWULsZNCdlanoJi14a4PA6SXmKyossexHWFyuC9q7yftxKu0m4b4r%2FOC%2Bj%2FrUL%2Bhzs%2FyMBBPG7CR3Vk3tH4nkfSHUM%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uqjmVUhefi2VnkMG5%2F%2Bi4VkfDeIY53jstR4hnwgqsTwPm7%2BG9iDeKwI65q7a5XQl%2BsMqdgM9EnCfR9XUWQbtgXl2BnoC5qjcAqh2S%2FIZFfMASTLrR0vPaKAsQME%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache: MISS
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: d922e1b748dbccf00eb7b9b793f7c4a30436aa4a
-X-Github-Request-Id: 4042:905E:5F8D6:74818:642D6FEE
+X-Fastly-Request-Id: 7e77469819591b31728bda3c0b7767f6dd1d3220
+X-Github-Request-Id: 1768:5984:2C973A:33687B:644D2CA1
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao17438-PAO
-X-Timer: S1680703674.861641,VS0,VE83
+X-Served-By: cache-pao17441-PAO
+X-Timer: S1682779297.046043,VS0,VE105
 
 <!DOCTYPE html>
 <html lang="en">
@@ -188,18 +188,18 @@ X-Timer: S1680703674.861641,VS0,VE83
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2023-03-16</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/03/16/making-easier-to-contribute/">Making it easier to contribute to Servo</a></strong></big></p>
-              <p>Improvements to how we run tests, yielding faster builds and fewer failures due to flaky tests</p>
+              <span class="tag is-light">2023-04-13</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/04/13/layout-2013-vs-2020/">Layout 2013 and Layout 2020</a></strong></big></p>
+              <p>Overview of the effort to rewrite Servo’s layout engine, and our proposal for layout in Servo going forward.</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2023-02-03</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/02/03/servo-2023-roadmap/">Servo 2023 Roadmap</a></strong></big></p>
-              <p>Servo project roadmap for 2023</p>
+              <span class="tag is-light">2023-03-16</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/03/16/making-easier-to-contribute/">Making it easier to contribute to Servo</a></strong></big></p>
+              <p>Improvements to how we run tests, yielding faster builds and fewer failures due to flaky tests</p>
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@ X-Timer: S1680703674.861641,VS0,VE83
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#3a53545c557a495f484c551455485d"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0d3c5d2d6cf8ecfd2c7">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#325b5c545d72415740445d1c5d4055"><span class="__cf_email__" data-cfemail="96fff8f0f9d6e5f3e4e0f9b8f9e4f1">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -244,30 +244,30 @@ X-Timer: S1680703674.861641,VS0,VE83
 <div class="downloads">
   <p>
     <div class="buttons has-addons">
-      <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe" style="width: 15ch;">Windows EXE</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe" style="width: 15ch;">Windows EXE</a>
       <span class="button is-static" id="date-windows-exe" style="width: 12ch;">?</span>
-      <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip" style="width: 15ch;">Windows ZIP</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip" style="width: 15ch;">Windows ZIP</a>
       <span class="button is-static" id="date-windows-zip" style="width: 12ch;">?</span>
-      <a class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg" style="width: 15ch;">macOS (x64)</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg" style="width: 15ch;">macOS (x64)</a>
       <span class="button is-static" id="date-mac" style="width: 12ch;">?</span>
-      <a class="button" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz" style="width: 15ch;">Linux (x64)</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz" style="width: 15ch;">Linux (x64)</a>
       <span class="button is-static" id="date-linux" style="width: 12ch;">?</span>
-      <a class="button" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
     </div>
   </p>
 </div>
@@ -288,7 +288,7 @@ X-Timer: S1680703674.861641,VS0,VE83
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#01686f676e41726473776e2f6e7366"><span class="__cf_email__" data-cfemail="d1b8bfb7be91a2b4a3a7beffbea3b6">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#3c55525a537c4f594e4a5312534e5b"><span class="__cf_email__" data-cfemail="e68f888089a69583949089c8899481">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,
@@ -316,37 +316,31 @@ X-Timer: S1680703674.861641,VS0,VE83
   window.onload = load_build_info;
 
   function load_build_info() {
-      var builds = [
-        
-          ["windows-exe", "nightly/windows-msvc/servo-latest.exe" ],
-        
-          ["windows-zip", "nightly/windows-msvc/servo-latest.zip" ],
-        
-          ["mac", "nightly/mac/servo-latest.dmg" ],
-        
-          ["linux", "nightly/linux/servo-latest.tar.gz" ],
-        
-      ];
+      var url = "https://api.github.com/repos/servo/servo-nightly-builds/releases/latest";
+      get_request(url, function (text) {
+          var release = JSON.parse(text);
+          var builds = [
+            
+              "windows-exe",
+            
+              "windows-zip",
+            
+              "mac",
+            
+              "linux",
+            
+          ];
 
-      builds.forEach(function (item, index) {
-          load_build_date("date-" + item[0], item[1]);
+          for (const build of builds) {
+            set_build_date(build, release.tag_name);
+          }
       });
   }
 
-  function load_build_date(id, prefix) {
-      var url = "https://servo-builds2.s3.amazonaws.com/?list-type=2&prefix=" + prefix;
-      get_request(url, function (text) {
-          var xml = parse_xml(text);
-          var contents_tag = xml.getElementsByTagName("Contents")[0];
-          var last_modified_tag = contents_tag.getElementsByTagName("LastModified")[0];
-
-          var last_modified = last_modified_tag.textContent;
-          var last_modified_date = last_modified.split("T")[0];
-
-          var el = document.getElementById(id);
-          el.innerText = last_modified_date;
-          el.title = last_modified;
-      });
+  function set_build_date(build, build_date) {
+      var el = document.getElementById('date-' + build);
+      el.innerText = build_date;
+      el.title = build_date;
   }
 
   function get_request(url, callback) {
@@ -358,20 +352,6 @@ X-Timer: S1680703674.861641,VS0,VE83
       };
       xhttp.open("GET", url, true);
       xhttp.send();
-  }
-
-  function parse_xml(text) {
-      if (window.DOMParser) {
-          var parser = new DOMParser();
-          var xml_doc = parser.parseFromString(text, "text/xml");
-          return xml_doc;
-      } else {
-          // Internet Explorer
-          var xml_doc = new ActiveXObject("Microsoft.XMLDOM");
-          xml_doc.async = false;
-          xml_doc.loadXML(text);
-          return xml_doc;
-      }
   }
 </script>
 

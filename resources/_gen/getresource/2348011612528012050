@@ -1,25 +1,24 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 157
+Age: 0
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7b325bbcfb01c37b-SEA
+Cf-Ray: 7bf84e108c40283e-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:36 GMT
-Expires: Wed, 05 Apr 2023 06:05:38 GMT
-Last-Modified: Mon, 03 Apr 2023 16:51:34 GMT
+Date: Sat, 29 Apr 2023 14:41:17 GMT
+Expires: Sat, 29 Apr 2023 10:12:50 GMT
+Last-Modified: Thu, 27 Apr 2023 07:38:44 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=Quxfb6J0RPfmBSNOgNXDM2oIegAUoTiq2YIdrfnwhj0-1680703656-0-AfN/BEAHg12qhQLhG/yhS3gJZOlNDCyT9mP6I1Vbhl3t3/XrU0dz5v9O0mRy1uQfv++Ag8TVENOQ5Y8z2ssW6Lg=; path=/; expires=Wed, 05-Apr-23 14:37:36 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=CWdalTs4WM18pExK4oheARVMfByhLupeX33rX3Ave.8-1682779277-0-ARl6e2GInB/bb8rBUuMeYIFipqy1kqhPUzGTMzOLfYac5pbth9ueg9c6TW+RTQZE4ZcN9YKGoXRc8qGX/j3Vpkg=; path=/; expires=Sat, 29-Apr-23 15:11:17 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
-X-Fastly-Request-Id: 9edf46d5f4cefffeab6fe5aca6b4416db54cab4f
-X-Github-Request-Id: DB0C:6563:102344:128D86:642D0D5A
-X-Origin-Cache: HIT
+X-Fastly-Request-Id: bee10ede69c7b79ff15a98e54a6ae8e799916a4e
+X-Github-Request-Id: C1BC:9F90:246697:29C9B7:644CEB4A
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao17474-PAO
-X-Timer: S1680703657.538226,VS0,VE1
+X-Served-By: cache-pao17455-PAO
+X-Timer: S1682779277.981207,VS0,VE97
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -47,15 +46,15 @@ X-Timer: S1680703657.538226,VS0,VE1
     
 
     
-    <link href="/css/font-awesome.min.css?1680540623" rel="stylesheet">
-    <link href="/css/syntax-github.css?1680540623" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1680540623" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1680540623" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1682498257" rel="stylesheet">
+    <link href="/css/syntax-github.css?1682498257" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1682498257" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1682498257" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.1" />
-    <link href="/style.css?1680540623" rel="stylesheet">
+    <link href="/style.css?1682498257" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1680540623"></script>
+    <script src="/js/jquery-3.3.1.min.js?1682498257"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -93,6 +92,7 @@ X-Timer: S1680703657.538226,VS0,VE1
     
   
     
+    
     <div class="version-selector-container">
       <div class="version-selector" aria-label="Documentation version">
         <div class="version-selector-current">
@@ -106,11 +106,17 @@ X-Timer: S1680703657.538226,VS0,VE1
           </svg>
         </div>
         <ul class="version-selector-dropdown">
-          <li><a href="/1.7/">
-              PrestaShop 1.7
-              <span class="version-selector-meta">Previous</span></a></li><li><a href="/8/">
-              PrestaShop 8
-              <span class="version-selector-meta">Current</span></a></li>
+          <li>
+                <a href="/1.7/">
+              
+                PrestaShop 1.7
+                <span class="version-selector-meta">Previous</span></a>
+            </li><li>
+                <a href="/8/">
+              
+                PrestaShop 8
+                <span class="version-selector-meta">Current</span></a>
+            </li>
         </ul>
       </div>
     </div>
@@ -429,6 +435,8 @@ X-Timer: S1680703657.538226,VS0,VE1
         <ul>
           
           
+            
+          
           
 
         
@@ -463,7 +471,7 @@ X-Timer: S1680703657.538226,VS0,VE1
  
   
     
-      <li data-nav-id="/8/basics/keeping-up-to-date/migration/" title="How to migrate to PrestaShop 1.7" class="dd-item ">
+      <li data-nav-id="/8/basics/keeping-up-to-date/migration/" title="How to migrate to PrestaShop 8" class="dd-item ">
         <a href="/8/basics/keeping-up-to-date/migration/">
         Migration
         
@@ -512,6 +520,134 @@ X-Timer: S1680703657.538226,VS0,VE1
         </a>
     </li>
      
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    
+    <li data-nav-id="/8/basics/keeping-up-to-date/upgrade-module/" title="Upgrade Module" class="dd-item
+        
+        
+        
+        isParent
+        ">
+      <a href="/8/basics/keeping-up-to-date/upgrade-module/">
+          <span>
+            Upgrade Module
+          </span>
+
+          
+
+          
+            <i class="fa fa-angle-down"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/basics/keeping-up-to-date/upgrade-module/upgrade-module-internal-behavior/" title="Upgrade Module internal behavior" class="dd-item ">
+        <a href="/8/basics/keeping-up-to-date/upgrade-module/upgrade-module-internal-behavior/">
+        Upgrade Module internal behavior
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/basics/keeping-up-to-date/upgrade-module/upgrade-process-steps/" title="Upgrade Process Steps" class="dd-item ">
+        <a href="/8/basics/keeping-up-to-date/upgrade-module/upgrade-process-steps/">
+        Upgrade Process Steps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/basics/keeping-up-to-date/upgrade-module/channels/" title="Upgrade channels" class="dd-item ">
+        <a href="/8/basics/keeping-up-to-date/upgrade-module/channels/">
+        Upgrade channels
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/basics/keeping-up-to-date/upgrade-module/upgrade-cli/" title="Upgrade CLI" class="dd-item ">
+        <a href="/8/basics/keeping-up-to-date/upgrade-module/upgrade-cli/">
+        Upgrade CLI
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
   
  
 
@@ -3133,6 +3269,27 @@ X-Timer: S1680703657.538226,VS0,VE1
       <li data-nav-id="/8/development/components/database/objectmodel/" title="ObjectModel class" class="dd-item ">
         <a href="/8/development/components/database/objectmodel/">
         ObjectModel class
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/development/components/database/prestashopcollection/" title="PrestaShopCollection class" class="dd-item ">
+        <a href="/8/development/components/database/prestashopcollection/">
+        PrestaShopCollection class
         
         </a>
     </li>
@@ -5860,134 +6017,6 @@ X-Timer: S1680703657.538226,VS0,VE1
 
           
       </a>
-      
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    
-    <li data-nav-id="/8/development/upgrade-module/" title="Upgrade Module" class="dd-item
-        
-        
-        
-        isParent
-        ">
-      <a href="/8/development/upgrade-module/">
-          <span>
-            Upgrade Module
-          </span>
-
-          
-
-          
-            <i class="fa fa-angle-down"></i>
-          
-      </a>
-      
-        <ul>
-          
-          
-          
-
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/8/development/upgrade-module/upgrade-module-internal-behavior/" title="Upgrade Module internal behavior" class="dd-item ">
-        <a href="/8/development/upgrade-module/upgrade-module-internal-behavior/">
-        Upgrade Module internal behavior
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/8/development/upgrade-module/upgrade-process-steps/" title="Upgrade Process Steps" class="dd-item ">
-        <a href="/8/development/upgrade-module/upgrade-process-steps/">
-        Upgrade Process Steps
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/8/development/upgrade-module/channels/" title="Upgrade channels" class="dd-item ">
-        <a href="/8/development/upgrade-module/channels/">
-        Upgrade channels
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/8/development/upgrade-module/upgrade-cli/" title="Upgrade CLI" class="dd-item ">
-        <a href="/8/development/upgrade-module/upgrade-cli/">
-        Upgrade CLI
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
       
     </li>
   
@@ -9437,6 +9466,27 @@ X-Timer: S1680703657.538226,VS0,VE1
       <li data-nav-id="/8/modules/sample-modules/extending-sf-form-with-upload-image-field/" title="Extending Symfony form with upload image field" class="dd-item ">
         <a href="/8/modules/sample-modules/extending-sf-form-with-upload-image-field/">
         Extending Symfony form with upload image field
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/modules/sample-modules/extend-product-page/" title="Extending the new product page form" class="dd-item ">
+        <a href="/8/modules/sample-modules/extend-product-page/">
+        Extending the new product page form
         
         </a>
     </li>
@@ -13778,35 +13828,6 @@ X-Timer: S1680703657.538226,VS0,VE1
 </span>
 
 <style type="text/css">
-	#home .container {
-		display: flex;
-		justify-content: center;
-		width: auto;
-	}
-
-	#home .container > div {
-		margin: 0 20px;
-		width: 30%;
-	}
-
-	#home .btn {
-		font-size: 20px !important;
-		color: #fff;
-		padding: 20px 30px !important;
-	}
-
-	#home .btn:hover {
-		color: #fff !important;
-	}
-
-	.dev .btn {
-		background: #df0067;
-	}
-
-	.user .btn {
-		background: #251b5b;
-	}
-
 	#body-inner {
 		margin-right: 0;
 	}
@@ -13839,23 +13860,3187 @@ X-Timer: S1680703657.538226,VS0,VE1
 <div id="home">
 	
 	
-<h1 id="prestashop-developer-documentation">PrestaShop Developer Documentation<a href="#prestashop-developer-documentation"></a></h1><p>PrestaShop is a free and Open Source e-commerce web platform, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), and more! <a href="https://www.prestashop.com/">Learn more about PrestaShop</a>.</p>
+<h1 id="prestashop-developer-documentation">PrestaShop Developer Documentation<a href="#prestashop-developer-documentation"></a></h1><p>PrestaShop is a free and Open Source e-commerce web platform, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), and more! <a href="https://www.prestashop-project.org/">Learn more about PrestaShop Project</a>.</p>
 <p>This site covers the technical aspects of PrestaShop and it&rsquo;s tailored for theme, module and core developers.</p>
 
-	
+<div class="notices note" >Are you a PrestaShop user?
+<a class="" href="https://docs.prestashop-project.org/">head to User Documentation</a></div>
 
-	<div class="container">
-		<div class="dev">
-			<h2>I'm a developer</h2>
-			<p>Show me the good stuff!</p>
-			<a class="btn" href="8/basics/introduction/">Get started</a>
-		</div>
-		<div class="user">
-			<h2>I'm a user</h2>
-			<p>Head over to</p>
-			<a class="btn" href="https://docs.prestashop-project.org/">User Documentation</a>
-		</div>
-	</div>
+
+
+<div class="mainCategories">
+
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-play"></i>
+                    
+                </div>
+                
+                    <a href="/8/basics/">
+                        Basics
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/basics/introduction/">
+                                    Introduction
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/basics/installation/">
+                                    Installation
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/basics/deployment/">
+                                    Deployment
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/basics/keeping-up-to-date/">
+                                    Staying up-to-date
+                                </a>
+                            
+                        </li>
+                    
+                
+            </ul>
+            <a href="/8/basics/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Basics 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-book"></i>
+                    
+                </div>
+                
+                    <a href="/8/development/">
+                        Core Reference
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/development/architecture/">
+                                    Architecture
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/development/database/">
+                                    Database
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/development/configuration/">
+                                    Configuration
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/development/components/">
+                                    Components
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <a href="/8/development/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Core Reference 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-puzzle-piece"></i>
+                    
+                </div>
+                
+                    <a href="/8/modules/">
+                        Modules
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/modules/creation/">
+                                    Getting Started
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/modules/concepts/">
+                                    Extension concepts
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/modules/core-updates/">
+                                    Core changes
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/modules/sample-modules/">
+                                    Sample modules and how to&#39;s
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+            </ul>
+            <a href="/8/modules/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Modules 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-paint-brush"></i>
+                    
+                </div>
+                
+                    <a href="/8/themes/">
+                        Themes
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/themes/getting-started/">
+                                    Getting started
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/themes/reference/">
+                                    Reference
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/themes/distribution/">
+                                    Distribution
+                                </a>
+                            
+                        </li>
+                    
+                
+            </ul>
+            <a href="/8/themes/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Themes 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-plug"></i>
+                    
+                </div>
+                
+                    <a href="/8/webservice/">
+                        Webservice API
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/webservice/getting-started/">
+                                    Getting Started
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/webservice/tutorials/">
+                                    Tutorials
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/webservice/reference/">
+                                    Reference
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/webservice/cheat-sheet/">
+                                    Cheat sheet
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+            </ul>
+            <a href="/8/webservice/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Webservice API 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-github"></i>
+                    
+                </div>
+                
+                    <a href="/8/contribute/">
+                        Contribute
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/contribute/contribution-guidelines/">
+                                    Contribution guidelines
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/contribute/contribute-pull-requests/">
+                                    Submitting code changes
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/contribute/documentation/">
+                                    Improve the documentation
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/contribute/contribution-process/">
+                                    How contributions are handled
+                                </a>
+                            
+                        </li>
+                    
+                
+            </ul>
+            <a href="/8/contribute/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Contribute 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-rocket"></i>
+                    
+                </div>
+                
+                    <a href="/8/scale/">
+                        Scale
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/scale/benchmark/">
+                                    How to benchmark
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/scale/webservers/">
+                                    Optimize your webserver
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/scale/optimizations/">
+                                    Optimize your PrestaShop
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/scale/taking-care/">
+                                    Taking care of your PrestaShop
+                                </a>
+                            
+                        </li>
+                    
+                
+            </ul>
+            <a href="/8/scale/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    Scale 
+                
+                topics
+            </a>
+        </div>
+        
+    
+        
+    
+        
+        <div class="mainCategory">
+            <h3>
+                <div class="indexCategory">
+                    
+                        <i class="fa fa-question-circle"></i>
+                    
+                </div>
+                
+                    <a href="/8/faq/">
+                        FAQ
+                    </a>
+                
+            </h3>
+            <ul>
+                
+                    
+                        <li>
+                            
+                                <a href="/8/faq/tips-and-tricks/">
+                                    Tips &amp; tricks
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/faq/i-need-help/">
+                                    I need help
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/faq/product/">
+                                    Product FAQ
+                                </a>
+                            
+                        </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                        <li>
+                            
+                                <a href="/8/faq/upgrade/">
+                                    Upgrade FAQ
+                                </a>
+                            
+                        </li>
+                    
+                
+            </ul>
+            <a href="/8/faq/" class="explore-all">
+                <i class="fa fa-arrow-right"></i> 
+                All 
+                
+                    FAQ 
+                
+                topics
+            </a>
+        </div>
+        
+    
+
+</div>
+
+
+
+<div class="mostViewedPagesIcon">
+    <i class="fa fa-star"></i>
+</div>
+<h3 class="mostViewedPagesHeading">
+    Most viewed pages
+</h3>
+
+<div class="mostViewedPages">
+    
+        
+
+    
+
+    
+
+
+    
+
+    
+    <div class="mostViewedPage">
+        
+            <a href="/8/basics/installation/system-requirements/">
+                System requirements
+            </a>
+        
+    </div>
+
+
+
+    
+    <div class="mostViewedPage">
+        
+            <a href="/8/basics/installation/localhost/">
+                Development environment
+            </a>
+        
+    </div>
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+    <div class="mostViewedPage">
+        
+            <a href="/8/development/components/hook/subscribing-to-hook/">
+                Subscribing to a Hook
+            </a>
+        
+    </div>
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+    
+    <div class="mostViewedPage">
+        
+            <a href="/8/modules/concepts/hooks/list-of-hooks/">
+                List of hooks
+            </a>
+        
+    </div>
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+
+    
+</div>
+
+	
 </div>
 
         
@@ -13869,17 +17054,17 @@ X-Timer: S1680703657.538226,VS0,VE1
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1680540623"></script>
-    <script src="/js/perfect-scrollbar.min.js?1680540623"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1680540623"></script>
-    <script src="/js/jquery.sticky.js?1680540623"></script>
-    <script src="/js/featherlight.min.js?1680540623"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1680540623"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1680540623"></script>
-    <script src="/js/learn.js?1680540623"></script>
-    <script src="/js/hugo-learn.js?1680540623"></script>
+    <script src="/js/clipboard.min.js?1682498257"></script>
+    <script src="/js/perfect-scrollbar.min.js?1682498257"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1682498257"></script>
+    <script src="/js/jquery.sticky.js?1682498257"></script>
+    <script src="/js/featherlight.min.js?1682498257"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1682498257"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1682498257"></script>
+    <script src="/js/learn.js?1682498257"></script>
+    <script src="/js/hugo-learn.js?1682498257"></script>
     
-    <script src="/main.js?1680540623"></script>
+    <script src="/main.js?1682498257"></script>
     
     
     

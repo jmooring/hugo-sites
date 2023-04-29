@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Wed, 05 Apr 2023 14:07:36 GMT
-Etag: W/"6427635f-7154"
-Expires: Wed, 05 Apr 2023 12:24:28 GMT
-Last-Modified: Fri, 31 Mar 2023 22:49:03 GMT
+Date: Sat, 29 Apr 2023 14:41:17 GMT
+Etag: W/"6443f15a-70f5"
+Expires: Sat, 29 Apr 2023 14:51:16 GMT
+Last-Modified: Sat, 22 Apr 2023 14:38:18 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
-X-Fastly-Request-Id: be02a5aae05fdf8f20396f691f2dd9c9b97480e4
-X-Github-Request-Id: 6FC0:5AE5:507C9:61F9D:642D6624
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 31f7e21d892b948af25434cf081d6d1052edf9fb
+X-Github-Request-Id: 26F2:5413:3A89A4:5E1C19:644D2C8C
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-krnt7300107-BFI
-X-Timer: S1680703656.204058,VS0,VE67
+X-Served-By: cache-yvr1525-YVR
+X-Timer: S1682779277.957303,VS0,VE77
 
 <!doctype html><html lang=en xmlns=http://www.w3.org/1999/xhtml xmlns:fb=http://ogp.me/ns/fb#>
 <head>
@@ -40,7 +40,7 @@ X-Timer: S1680703656.204058,VS0,VE67
 <meta property="twitter:card" content="summary">
 <link rel=canonical href=https://jmmv.dev/>
 <link rel=alternate type=application/rss+xml title="Julio Merino (jmmv.dev)" href=/feed.xml>
-<link rel=stylesheet href=/sass/main.min.5d366047f09324608b55206a068dfa3f6effbaff17c015612d16e13d984cd714.css>
+<link rel=stylesheet href=/sass/main.min.ce628ad32d280a2570d17aa4a7e3cb429d327b6b044032d289bf9e395f5365ba.css>
 <link rel=stylesheet href=/css/chroma.css>
 <meta property="og:image" content="/images/favicons/favicon-1200x1200.png">
 <link rel=icon type=image/png href=/images/favicons/favicon-16x16.png sizes=16x16>
@@ -111,6 +111,24 @@ engineering. Mostly.</p>
 <div class=col-md-9>
 <div class=row>
 <div class=col>
+<div class="media my-4">
+<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
+<div class=media-body>
+<h2 class=mt-0><a href=/2023/03/addressing-bazel-ooms.html>Addressing Bazel OOMs</a></h2>
+<p>Here at Snowflake, the Developer Productivity organization (DPE for short) is tackling some important problems we face as a company: namely, lengthening build times and complex development environments. A key strategy we are pursuing to resolve these is the migration of key build processes from CMake and Maven to Bazel.
+We are still in the early stages of this migration and cannot yet share many details or a success story, but we can start explaining some of the issues we encounter as we work through this ambitious project.
+</p>
+<p class=text-muted>March 16, 2023
+&#183;
+Tags:
+<a class=text-reset href=/tags/bazel>bazel</a>, <a class=text-reset href=/tags/snowflake>snowflake</a>
+<br>
+<a class=text-reset href=/2023/03/addressing-bazel-ooms.html>Continue reading (about
+16 minutes)
+</a>
+</p>
+</div>
+</div>
 <div class="media my-4">
 <img class=mr-3 src=/octicons/note.svg width=32px height=32px>
 <div class=media-body>
@@ -209,24 +227,6 @@ Tags:
 <br>
 <a class=text-reset href=/2022/07/markdown-lists.html>Continue reading (about
 6 minutes)
-</a>
-</p>
-</div>
-</div>
-<div class="media my-4">
-<img class=mr-3 src=/octicons/note.svg width=32px height=32px>
-<div class=media-body>
-<h2 class=mt-0><a href=/2022/06/autoconf-caching.html>Speeding up autoconf with caching</a></h2>
-<p>In the recent Remembering Buildtool post, I described how setting up a cache of configuration checks was an important step in Buildtool&rsquo;s installation process. The goal was to avoid pointless repetitive work on every build by performing such common checks once.
-Episode 457 of BSD Now featured my post and Allan Jude wondered how much time would be saved in a bulk build of all FreeBSD packages if we could just do that same kind of caching with GNU Autoconf. And, you know what? It is indeed possible to do so. I had mentioned it en passing in my post but I guess I wasn&rsquo;t clear enough, so let&rsquo;s elaborate!
-</p>
-<p class=text-muted>June 17, 2022
-&#183;
-Tags:
-<a class=text-reset href=/tags/freebsd>freebsd</a>, <a class=text-reset href=/tags/netbsd>netbsd</a>
-<br>
-<a class=text-reset href=/2022/06/autoconf-caching.html>Continue reading (about
-10 minutes)
 </a>
 </p>
 </div>
@@ -336,9 +336,9 @@ Software Engineer<br>
 <h2>Archive</h2>
 <ul>
 <li>
-<a data-toggle=collapse href=#archive-year-2023>2023</a> (2)
+<a data-toggle=collapse href=#archive-year-2023>2023</a> (3)
 <ul id=archive-year-2023 class=collapse>
-<li><a href=/archive.html#2023-03>March 2023</a> (1)</li>
+<li><a href=/archive.html#2023-03>March 2023</a> (2)</li>
 <li><a href=/archive.html#2023-01>January 2023</a> (1)</li>
 </ul>
 </li>

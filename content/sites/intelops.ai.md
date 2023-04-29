@@ -1,7 +1,6 @@
 ---
-title: engineering.plex.com
+title: intelops.ai
 types:
-- blog
 - business
 visibility: []
 ---

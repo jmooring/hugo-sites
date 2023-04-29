@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
-Age: 70
+Age: 292
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Wed, 05 Apr 2023 14:06:36 GMT
-Etag: W/"4c1975caddc4289500cd0008105cecf6"
-Last-Modified: Tue, 04 Apr 2023 09:37:21 GMT
+Date: Sat, 29 Apr 2023 14:36:34 GMT
+Etag: W/"599eb777254dd520635de475c84d2aaa"
+Last-Modified: Thu, 20 Apr 2023 11:22:28 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 6ca7826fb0f4c565b1af9c7737725c48.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: LIEzTeYOOoAhGN_WZ9jsDuo86iDy2ZwDCL4VeCFCSsLv27Ugr0UQZA==
+Via: 1.1 0bb842bd5868b86440983b936bb0adee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: e6jXMZnO7G60qdUafvL9ZasPO7VNJSG6_OqkP-_CrE5LE64V9K-hHg==
 X-Amz-Cf-Pop: SEA19-C1
-X-Amz-Id-2: Yw7UiGUnQV35DMQl1uuRlbGD9+jHYUgQSxz8r8n1Z985hrmQQLWCzPsCTf82lH7LmElJMhd45+0=
-X-Amz-Request-Id: K3J5DJSXBPF48FX8
+X-Amz-Id-2: LczQwEwoh/AAZLG0nRfGA7UKCICeLSgnmQH7orZe0LrLVr4w6ltuQpyqLYM+rRw7iA06+0rUKXw=
+X-Amz-Request-Id: QRD9J5Z6VGDA4AHV
 X-Cache: Hit from cloudfront
 X-Frame-Options: deny
 
@@ -43,7 +43,7 @@ X-Frame-Options: deny
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Best personal and team productivity collaboration tool. Use Nozbe - task management software and increase productivity."/>
-<meta name="keywords" content="personal, productivity,, best, collaboration, tool,, task, management, software,, increase, team, productivity,, remote, work, tool,, best, gtd, app"/>
+<meta name="keywords" content="tool, for, entrepreneurs,, personal, productivity,, asynchronous, communication,, How, to, coordinate, tasks,, best, productivity, app,, manage, projects,, task, management, solution,, company, management, app,, remote, work, tool,, focus, on, work"/>
 <meta charset="utf-8" />
 
 <link rel="canonical" href="https://nozbe.com/" />
@@ -87,12 +87,13 @@ X-Frame-Options: deny
     if (location.hostname === 'www.nozbe.com') {
       location.href = 'https://nozbe.com' + location.pathname + location.search
     }
-    else if (location.pathname === '/' && location.hostname === 'nozbe.com') {
+    else if ((location.pathname === '/' || location.pathname === '/nozbe/') && location.hostname === 'nozbe.com') {
       
       if (userLang && userLang !== 'en') {
-        location.pathname = '/' + userLang + '/'
+        location.pathname = '/' + userLang + location.pathname
       }
     }
+
 
     
     if (location.pathname === '/free/' && location.search.match(/email=/)) {
@@ -132,11 +133,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=6d78964c1903b4be573fb1565ad34711" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=f501602996cd4b261ff49c28f140939b" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=804377444519269e16e4b2ed201c4099">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=7f63192f4c581bc059aeb3824eb84521">
 
 
 <meta property="og:locale" content="en" />
@@ -705,21 +706,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    
-    
-    
-    
+    <div class=" nt-column__image-container nt-column--normal nt-column--right nt-column__image-container--borderless video-column">
+      
 
-    <div class=" nt-column__image-container nt-column--normal nt-column--right nt-column__image-container--borderless">
-      <video class="lazy nt-column__image nt-column__image--borderless"
-        data-dimensions="1920x1080" 
-        poster="https://files.nozbe.com/images/pages-teams/Hero_Final_3.jpg"
-         autoplay playsinline 
-         muted 
-        
-         loop >
-        <source data-src="https://files.nozbe.com/images/pages-teams/Hero_Final_3-opt.mp4" type="video/mp4" alt="">
-      </video>
+
+
+
+
+<div class="video-container loading ">
+  <video class="nt-column__image nt-column__image--borderless image-columns__image-column lazy "
+    data-dimensions="1920x1080"
+    
+    
+     autoplay playsinline 
+     muted 
+    
+     loop 
+  >
+    <source data-src="https://files.nozbe.com/images/pages-teams/Hero_Final_3-opt.mp4" type="video/mp4" alt="">
+  </video>
+</div>
     </div>
   
 </div>
@@ -1960,7 +1966,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
     </div>
     
-      <span class="nt-pricing__footer-login-note" data-message="Sign up today and thanks to {name} get 15 USD of free extra credits!"></span>
+      <span class="nt-pricing__footer-login-note" data-message="Sign up today and thanks to {name} get {credits} of free extra credits!"></span>
     
   </div>
 
@@ -4622,6 +4628,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
       
 
+      <a href="https://nozbe.com/blog/why-users-choose-nozbe-productivity-app/">
+        <div class="column column--full column--align-left">
+          
+            
+            
+            
+
+            <div class="cards-grid__thumbnail-container column--align-left">
+              
+
+
+
+
+
+
+
+
+  <picture>
+    <source type="image/webp"
+      srcset="https://files.nozbe.com/images/blog/why-users-choose-nozbe-productivity-app.webp"
+      
+    >
+    <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
+      src="https://files.nozbe.com/images/blog/why-users-choose-nozbe-productivity-app.png"
+      
+      alt="">
+  </picture>
+
+            </div>
+          
+
+          
+            <h3 class="cards-grid__title text-left">Customer Success Story: Why I Can’t Quit Nozbe</h3>
+          
+
+          
+            <div class="cards-grid__description paragraph markdown-text-container text-left">See, why users choose Nozbe to manage their tasks and projects and what makes them stick to our productivity app.</div>
+          
+        </div>
+      </a>
+    
+      
+
       <a href="https://nozbe.com/blog/nooffice-44-why-you-should-interview-your-customers/">
         <div class="column column--full column--align-left">
           
@@ -4702,49 +4751,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           
             <div class="cards-grid__description paragraph markdown-text-container text-left">See what you can do to work even more efficiently! Watch our product vlog and see what new features and improvements we offer in Nozbe and how to implement them.</div>
-          
-        </div>
-      </a>
-    
-      
-
-      <a href="https://nozbe.com/blog/monitor-progress-in-projects/">
-        <div class="column column--full column--align-left">
-          
-            
-            
-            
-
-            <div class="cards-grid__thumbnail-container column--align-left">
-              
-
-
-
-
-
-
-
-
-  <picture>
-    <source type="image/webp"
-      srcset="https://files.nozbe.com/images/blog/monitoring-progress-status.webp"
-      
-    >
-    <img class="cards-grid__thumbnail cards-grid__thumbnail--normal"
-      src="https://files.nozbe.com/images/blog/monitoring-progress-status.jpg"
-      
-      alt="">
-  </picture>
-
-            </div>
-          
-
-          
-            <h3 class="cards-grid__title text-left">How To Track Team's Progress In Projects - Status Tasks</h3>
-          
-
-          
-            <div class="cards-grid__description paragraph markdown-text-container text-left">How to monitor employees' efficiency without complicated reports and meetings - with the best collaboration app for teams.</div>
           
         </div>
       </a>
@@ -5062,7 +5068,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <div class="store-badge__container hidden" data-store-badge="google-play-store" data-download-current="android">
-    <a href="market://details?id=com.nozbe4" class="signup-buttons__store-badge">
+    <a href="market://details?id=com.nozbe4" data-desktop-href="https://play.google.com/store/apps/details?id=com.nozbe4" class="signup-buttons__store-badge">
       <img src="/images/badges/img_android_en.svg" alt="Download on the Google Play">
     </a>
     
@@ -5123,6 +5129,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <img class="button__icon" src="/images/teams/icons/windows-logo.svg" />
   <span>Download for Windows</span>
 </a>
+
+
+
+  <div class="hidden" data-download-current-fallback>
+    
+    
+
+
+<a href="https://nozbe.app"
+  id=""
+  class="button bg-black "
+  
+  
+  
+>
+  
+  <span>Open web app</span>
+</a>
+  </div>
 
 
           </div>
@@ -5301,6 +5326,262 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   <!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

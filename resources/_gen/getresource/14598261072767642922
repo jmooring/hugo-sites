@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 74709
+Age: 146763
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Fri, 24 Mar 2023 20:03:16 GMT
-Etag: W/"1bdcb9c3a111802abdd94862eee94b27"
+Date: Sat, 29 Apr 2023 14:41:23 GMT
+Etag: W/"faef6fad6a1d48e42d9cdf35d54ca7ae"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
+X-Vercel-Id: pdx1:pdx1::f8h47-1682779283054-6dcca1f5ea66
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -163,6 +163,11 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
 
 </style>
 
+<script>
+    console.log("")
+</script>
+
+
 <div class="tabs is-small site-tabs">
     <ul>
         <li class="site-tab">
@@ -172,7 +177,9 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
             <a href="/shoppers/" class=""><p>Shopper Help</p></a>
         </li>
     </ul>
-</div><style>
+</div>
+
+<style>
     .search-icon {
         background: url('brand/search.png');
         height: 1em;
@@ -257,6 +264,9 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
                 </a>
                 
                 
+
+            
+
             </div>
             
         
@@ -270,9 +280,11 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
     </div>
 </nav>
 
-    
+
+
 
     
+  
     <section><style>
     element.style {
         background-color: black;
@@ -286,14 +298,14 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
         color: white !important;
       }
     
-      p span {
+      .home-highlight {
         color: #E1FF00 !important;
     }  
 </style>
 
 <div class="container mb-6">
 
-    <p class="title content has-text-centered">Welcome to Bolt Help for <span>Merchants</span> & <span>Developers</span></p>  
+    <p class="title content has-text-centered">Welcome to Bolt Help for <span class="home-highlight">Merchants</span> & <span class="home-highlight">Developers</span></p>  
 
     <section class="columns mt-3 mb-6 is-multiline is-centered ml-1 mr-1">
         
@@ -532,15 +544,15 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
     <div class="mb-1 mt-0">
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/products/checkout/">Checkout</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/products/accounts/">Accounts</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/products/remote-checkout/">Checkout Everywhere</a>
+            <a class="is-link" href="/products/checkout/">Checkout</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/checkout-everywhere/">Checkout Everywhere</a>
         </p>
         
     </div>
@@ -1105,9 +1117,9 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
     </div>
     <div class="message-body" style="color: black; background-color:#7ddb8b24">
       <ul class="announcement-items">
-        <li>You're invited to a webinar to tour our redesigned Merchant Dashboard. <a href="https://boltapp.zoom.us/webinar/register/WN_jDvKogJVTPC7rw2YdvV9zQ"><strong>Register here!</strong></a></li>
+        <li>Miss the new Merchant Dashboard Tour webinar? <a href="/get-started/dashboard/"><strong>Watch it here!</strong></a></li>
         <li>Bolt has a new look! <a href="https://www.bolt.com/"><strong>Check it out!</strong></a></li>
-        <li>The <a href="/releases/2022-10-31"><strong>Merchant Dashboard Redesign</strong></a> is now available in Beta to all merchants!</li>
+        <li>The <a href="/releases/2022-10-31"><strong>Merchant Dashboard Redesign</strong></a> is now available to all merchants!</li>
       </ul>        
 
         <p class="mt-5 mb-2 is-size-8 content is-italic announcement-releases">Didn't see an update you were expecting? <a href="/releases/"> <strong> Go to our release notes to see what we've been working on.</strong></a></p>
@@ -1136,6 +1148,7 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
 
     </section>
     
+    
 
 
     </section>
@@ -1152,6 +1165,10 @@ X-Vercel-Id: pdx1:pdx1::thlb2-1679688196480-102280c4672a
 <script src="/js/mermaid.js"></script>
 <script src="/js/drawer.js"></script>
 <script src="/js/clip.js"></script>
+<script src="/js/pendo.js"></script>
+<script src="/js/session-uuid.js"></script>
+<script src="/js/pages.js"></script>
+
 
 <script type="module" src="/js/adv-search.js"></script>
 
