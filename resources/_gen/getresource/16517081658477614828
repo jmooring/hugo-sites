@@ -1,0 +1,523 @@
+HTTP/2.0 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Type
+Age: 1199
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+Cache-Control: public, max-age=3600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 7c52e3efdb4ac5a4-SEA
+Content-Type: text/html
+Date: Wed, 10 May 2023 14:32:14 GMT
+Expires: Wed, 10 May 2023 15:12:15 GMT
+Last-Modified: Tue, 02 May 2023 20:44:29 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=33qzfs6buFHC0LJoxXCPz05rTcyaTp7136s5LztN7MU7oLYaaIdWKbWUPXleWHkdaMsP%2FF%2BE%2Bmvqga8FGDeOdTo5N%2BGs34qOyhkPIck05O%2BIWn0iCMUGVvuHT8ri"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+X-Goog-Generation: 1683060269503918
+X-Goog-Hash: crc32c=flLsxA==
+X-Goog-Hash: md5=lLS12fanyGQH4iwvnu3ijw==
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1683060239
+X-Goog-Metageneration: 1
+X-Goog-Storage-Class: STANDARD
+X-Goog-Stored-Content-Encoding: identity
+X-Goog-Stored-Content-Length: 30639
+X-Guploader-Uploadid: ADPycdv0gOidcoGaCJCZqM2ynZg6wqITF0lOTFE0PLU9qp0ZZNqxros45uaC8wSrYUlVSeJ8eS8xi8OR6QcfYJNrp12j4g
+
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+<meta name="generator" content="Hugo 0.78.1" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The world&#39;s lightest, fastest service mesh. | Linkerd</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Linkerd adds critical security, observability, and reliability to your Kubernetes stack, without any code changes." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://linkerd.io/images/logo-only-200h.png" />
+<meta name="twitter:title" content="The world&#39;s lightest, fastest service mesh." />
+<meta name="twitter:description" content="Linkerd adds critical security, observability, and reliability to your Kubernetes stack, without any code changes." />
+<meta property="og:title" content="The world&#39;s lightest, fastest service mesh." />
+<meta property="og:description" content="Linkerd adds critical security, observability, and reliability to your Kubernetes stack, without any code changes." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://linkerd.io/" />
+<meta property="og:image" content="https://linkerd.io/images/logo-only-200h.png" />
+<link rel="canonical" href=https://linkerd.io/>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXBDGKJ');</script>
+<link rel="stylesheet" href="/css/prism-a11y-dark.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/command-line/prism-command-line.min.css" integrity="sha256-QViEGvwX/42OrD49huSb2mGZtUQwVKNA5Ux58tMWLOs=" crossorigin="anonymous" />
+<link rel="shortcut icon" href="/images/identity/favicon/linkerd-favicon.png" />
+<link rel="stylesheet" href="/css/style.8f0252b53bf73f3116d2e344e44aecbb9dc5dd2dbbd3c56ebe5212f075c580c5.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+  analytics.load("bNkUVlprW8hKE72fgjKIEm9FI6pOzhT4");
+  analytics.page();
+  }}();
+</script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js"></script>
+<script src="https://linkerd.io/js/modal.js"></script>
+<script defer src="https://linkerd.io/js/docs-heading-link.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body class="has-background-grey-light has-navbar-fixed-top ">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXBDGKJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+<nav class="has-background-navy-black navbar is-fixed-top is-fixed-top-touch is-spaced" role="navigation" aria-label="main navigation" id="navbar">
+<div class="navbar-brand center">
+<a class="navbar-item" href="/">
+<img src="/images/identity/png/Linkerd-Linky-flatter-larger-light.png" alt="logo" />
+</a>
+<a id="expandMenuBtn" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div>
+<div id="mainMenu" class="navbar-menu">
+<div class="navbar-end">
+<a href="/docs/" class="navbar-item has-text-white is-uppercase ">
+<span class="navbar-item-helper">Docs</span>
+</a>
+<div class="dropdown">
+<div class="dropdown-trigger">
+<button class="navbar-item has-text-white is-uppercase">Community</button>
+</div>
+<div class="dropdown-menu">
+<button class="dropdown-item back has-text-bright-blue">&lt; Back</button>
+<div class="dropdown-content">
+<a href="/community/get-involved/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
+<span class="navbar-item-helper">Get Involved</span>
+</a>
+<a href="/community/adopters/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
+<span class="navbar-item-helper">Adopters</span>
+</a>
+<a href="/community/ambassadors/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
+<span class="navbar-item-helper">Linkerd Ambassadors</span>
+</a>
+<a href="/community/heroes/" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary ">
+<span class="navbar-item-helper">Linkerd Heroes</span>
+</a>
+<a href="https://linkerd.buoyant.io" class="dropdown-item py-3 has-text-color is-uppercase is-family-secondary " target="_blank">
+<span class="navbar-item-helper">Buoyant&#39;s Linkerd Forum</span>
+</a>
+</div>
+</div>
+</div>
+<a href="/blog/" class="navbar-item has-text-white is-uppercase ">
+<span class="navbar-item-helper">Blog</span>
+</a>
+<a href="/faq/" class="navbar-item has-text-white is-uppercase ">
+<span class="navbar-item-helper">FAQ</span>
+</a>
+<a href="/support-training/" class="navbar-item has-text-white is-uppercase ">
+<span class="navbar-item-helper">Support &amp; Training</span>
+</a>
+<a href="https://github.com/linkerd/linkerd2" class="navbar-item has-text-white is-uppercase " target="_blank">
+<span class="navbar-item-helper"><i class='fab fa-github fa-lg' aria-hidden='true'></i>GitHub</span>
+</a>
+<a href="/getting-started/" class="navbar-item has-text-white is-uppercase ">
+<span class="navbar-item-helper"><span class='button-spacer'>GET STARTED</span></span>
+</a>
+</div>
+</div>
+</nav>
+<script src="https://linkerd.io/js/navbar.min.94a823c229699317971e763064602dbe0187a2dd3474965df186db85b76e64a3.js"></script>
+<div class="homepage-notification has-background-light-blue has-text-navy-black center has-text-centered">
+<p>2023-04-11 <strong><a href="https://buoyant.io/newsroom/buoyant-announces-linkerd-2-13-with-new-reliability-and-security-features-for-kubernetes" target="_blank">Announcing Linkerd 2.13 with new reliability and security features! Read now »</a></strong></p>
+</div>
+<section class="hero">
+<main aria-role="main" class="hero-body">
+<div class="wrapper body-header has-background-bright-blue has-text-white">
+<div class="columns center-column is-marginless is-fullwidth">
+<div class="column">
+<div class="container columns homepage-top-hero is-marginless">
+<div class="column bg-texture center">
+<figure class="image">
+<iframe style="height: 315px;" width="560" height="315" src="https://www.youtube.com/embed/up3fKwXdEgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+</div>
+<div class="column center">
+<div class="notification">
+<h1 class="title is-size-1">A different kind of service mesh</h1>
+<h5 class="title is-size-5">Ultra light, ultra simple, ultra powerful. Linkerd adds security, observability, and reliability to Kubernetes, <em>without</em> the complexity. CNCF-hosted and 100% open source.</h5>
+<div class="columns">
+<div class="column">
+<a href="/getting-started/" class="button is-primary is-large is-fullwidth">
+Get Started
+</a>
+</div>
+<div class="column">
+<a href="/community/get-involved/" class="button is-primary is-large is-fullwidth">
+Get Involved
+</a>
+</div>
+</div>
+<div class="github-stat-buttons">
+<a class="github-button" href="https://github.com/linkerd/linkerd2" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star linkerd/linkerd2 on GitHub">Star</a>
+<a class="github-button" href="https://github.com/linkerd/linkerd2/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch linkerd/linkerd2 on GitHub" data-proofer-ignore>Watch</a>
+<a class="github-button" href="https://github.com/linkerd/linkerd2/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork linkerd/linkerd2 on GitHub">Fork</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper has-background-white ">
+<div class="container pt-6 pb-2 cta-bouyant">
+<div class="container">
+<div class="has-text-centered pt-4 block-created-by">
+<p class="has-text-weight-medium has-text-color">Linkerd was created by </p>
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSI0NDAiCiAgaGVpZ2h0PSI5MiIKICBmaWxsPSJub25lIgogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI&#43;Cjwvc3ZnPg==" data-src="/uploads/buoyant-logo-blue.png" class="lazyload " alt="Learn more about Buoyant" class="" />
+</figure>
+</div>
+</div>
+<div class="container">
+<div class="column has-text-centered">
+<a href="https://buoyant.io/" target="_blank" class="button is-primary is-large cta-bouyant-button">
+Learn more about Buoyant
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper has-background-white py-6">
+<div class="container columns is-multiline is-centered">
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Instant platform health metrics</h3>
+<div class="has-text-color">Instantly track success rates, latencies, and request volumes for every meshed workload, without changes or config.</div>
+</div>
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Simpler than any other mesh</h3>
+<div class="has-text-color">Minimalist, Kubernetes-native design. No hidden magic, as little YAML and as few CRDs as possible.</div>
+</div>
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Zero-config mutual TLS</h3>
+<div class="has-text-color">Transparently add mutual TLS to any on-cluster TCP communication with no configuration.</div>
+</div>
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Designed by engineers, for engineers</h3>
+<div class="has-text-color">Self-contained control plane, incrementally deployable data plane, and lots and lots of diagnostics and debugging tools.</div>
+</div>
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">Drop-in reliability features</h3>
+<div class="has-text-color">Instantly add latency-aware load balancing, request retries, timeouts, and blue-green deploys to keep your applications resilient.</div>
+</div>
+<div class="column is-half py-5 px-5">
+<h3 class="title is-size-5 has-text-weight-bold is-marginless has-text-color">State-of-the-art ultralight Rust dataplane</h3>
+<div class="has-text-color">Incredibly small and blazing fast Linkerd2-proxy <em>micro-proxy</em> written in Rust for security and performance.</div>
+</div>
+</div>
+</div>
+<div class="wrapper has-background-bright-blue">
+<div class="container">
+<div class="container columns is-multiline is-centered is-mobile is-narrow is-vcentered">
+<div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
+<div class="is-size-1">
+6+
+</div>
+<div class="is-size-6">
+Years in production
+</div>
+</div>
+<div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
+<div class="is-size-1">
+8,500+
+</div>
+<div class="is-size-6">
+Slack channel members
+</div>
+</div>
+<div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
+<div class="is-size-1">
+10,000+
+</div>
+<div class="is-size-6">
+GitHub stars
+</div>
+</div>
+<div class="column has-text-centered has-text-white is-half-mobile stats-list-item">
+<div class="is-size-1">
+200+
+</div>
+<div class="is-size-6">
+Contributors
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper image-list has-background-light-blue">
+<div class="container">
+<div class="container columns is-multiline is-centered is-mobile">
+<div class="column is-half-mobile is-2">
+<a href="https://www.expedia.com" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/expedia.png" class="lazyload " alt="https://www.expedia.com" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://offerup.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/offerup.png" class="lazyload " alt="https://offerup.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://tradeshift.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDIiCiAgaGVpZ2h0PSIxMjIiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/tradeshift.png" class="lazyload " alt="https://tradeshift.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.adidas.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDIiCiAgaGVpZ2h0PSIxMjIiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/adidas.png" class="lazyload " alt="https://www.adidas.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.webex.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/cisco-webex.png" class="lazyload " alt="https://www.webex.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.cloverhealth.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/clover-health.png" class="lazyload " alt="https://www.cloverhealth.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://godaddy.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/godaddy.png" class="lazyload " alt="https://godaddy.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.heb.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/heb.png" class="lazyload " alt="https://www.heb.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.walmart.com/" target="_blank">
+<figure class="image">
+<img src="/uploads/logos/blue/walmart.svg" class="" alt="https://www.walmart.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.planet.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/planet.png" class="lazyload " alt="https://www.planet.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.strava.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/strava.png" class="lazyload " alt="https://www.strava.com/" />
+</figure>
+</a>
+</div>
+<div class="column is-half-mobile is-2">
+<a href="https://www.elkjopnordic.com/" target="_blank">
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIyNDEiCiAgaGVpZ2h0PSIxMjEiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/logos/blue/elkjop.png" class="lazyload " alt="https://www.elkjopnordic.com/" />
+</figure>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper featured-blogs">
+<div class="container columns is-multiline py-6">
+<div class="column is-full has-text-centered has-text-dark-grey">
+<h2 class="has-text-weight-light py-5 is-uppercase featured-blogs__heading">FEATURED BLOG POSTS</h2>
+</div>
+<div class="column is-half related-card">
+<a class="has-text-color" href="/2023/01/30/mtls-and-linkerd/">
+<div class="card">
+<div class="card-image">
+<figure class="image level-item">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSI0OTIiCiAgaGVpZ2h0PSI0OTIiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/uploads/2023/01/vecteezy-padlock-14719453-thumbnail.png" class="lazyload " alt="featured image" />
+</figure>
+</div>
+<div class="card-content">
+<div class="content">
+<div class="level is-marginless is-mobile related-card-header">
+<div class="level-left">
+<span class="level-item">
+11 min read
+</span>
+</div>
+<div class="level-right">
+<span class="level-item">Jan 30, 2023</span>
+</div>
+</div>
+<h3 class="title is-3 is-marginless">
+mTLS and Linkerd
+</h3>
+</div>
+<footer class="card-footer">
+<div class="card-footer-item has-text-grey-dark">
+<figure class="image is-32x32">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSI4MDAiCiAgaGVpZ2h0PSI4MDAiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/images/authors/flynn.png" class="lazyload is-rounded" alt="Flynn" />
+</figure>
+<div class="has-text-dark-grey">Flynn</div>
+</footer>
+</div>
+</div>
+</a>
+</div>
+<div class="column is-half related-card">
+<a class="has-text-color" href="/2022/06/27/announcing-the-completion-of-linkerds-2022-security-audit/">
+<div class="card">
+<div class="card-image">
+<figure class="image level-item">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSI4MDAiCiAgaGVpZ2h0PSI1MzAiCiAgZmlsbD0ibm9uZSIKICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L3N2Zz4=" data-src="/images/etienne-girardet-sgYamIzhAhg-unsplash.jpg" class="lazyload " alt="featured image" />
+</figure>
+</div>
+<div class="card-content">
+<div class="content">
+<div class="level is-marginless is-mobile related-card-header">
+<div class="level-left">
+<span class="level-item">
+5 min read
+</span>
+</div>
+<div class="level-right">
+<span class="level-item">Jun 27, 2022</span>
+</div>
+</div>
+<h3 class="title is-3 is-marginless">
+Announcing the completion of Linkerd&#39;s 2022 Security Audit
+</h3>
+</div>
+<footer class="card-footer">
+<div class="card-footer-item has-text-grey-dark">
+<figure class="image is-32x32">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxMjAwIgogIGhlaWdodD0iMTIwMCIKICBmaWxsPSJub25lIgogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI&#43;Cjwvc3ZnPg==" data-src="/uploads/WilliamMorgan.jpg" class="lazyload is-rounded" alt="William Morgan" />
+</figure>
+<div class="has-text-dark-grey">William Morgan</div>
+</footer>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="wrapper body-header foundation-member has-background-white">
+<div class="columns is-marginless is-fullwidth is-centered">
+<div class="column is-5">
+<h4 class="title is-size-4 has-text-centered is-capitalize has-text-color">Linkerd is a CNCF graduated project</h4>
+<figure class="image">
+<img src="data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxNjgxIgogIGhlaWdodD0iMjY3IgogIGZpbGw9Im5vbmUiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9zdmc&#43;" data-src="/uploads/CNCF_Alternate_Pantone.png" class="lazyload " alt="Linkerd is a CNCF graduated project" />
+</figure>
+</div>
+</div>
+</div>
+<div class="wrapper has-background-light-blue tweets">
+<div class="container">
+<h2 class="title is-size-1 center has-text-color has-text-centered-mobiledropdown navigation">Engineers Love Linkerd</h2>
+<div class="columns is-mobile is-multiline is-centered is-marginless">
+<div class="column is-narrow is-11-mobile">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I absolutely love <a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a> - among other things it makes load balancing of grpc service trivial. <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a></p>&mdash; Vito Botta (@vitobotta) <a href="https://twitter.com/vitobotta/status/1538086745732001793?ref_src=twsrc%5Etfw">June 18, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="column is-narrow is-11-mobile">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A year ago I switched from Istio to <a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a>. Ever since then I never had this &quot;...oh maybe that issue is caused by our service mesh&quot; feeling again.</p>&mdash; Kharf (@kharf_) <a href="https://twitter.com/kharf_/status/1550395663489409024?ref_src=twsrc%5Etfw">July 22, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="column is-narrow is-11-mobile">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who can relate? 👀<a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a> has the best getting-started guide I have seen 🙌✨ <a href="https://t.co/a7xNL9iWNi">pic.twitter.com/a7xNL9iWNi</a></p>&mdash; Anaïs Urlichs Ⓥ (@urlichsanais) <a href="https://twitter.com/urlichsanais/status/1384463767459844097?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div class="column is-narrow is-11-mobile">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In few hours we are able to tap in our production and staging applications logs thanks to <a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@Linkerd</a>, wonderful slack support also available, solved one issue came in while injecting <a href="https://twitter.com/Linkerd?ref_src=twsrc%5Etfw">@linkerd</a>, it will help our team to see it before client share with us</p>&mdash; Siddique Ahmad (@siddiqueESL) <a href="https://twitter.com/siddiqueESL/status/1381614377170825216?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="hero-foot">
+<div class="wrapper is-paddingless footer-links has-background-white">
+<div class="container columns">
+<div class="column buoyant-info has-text-centered-mobile">
+<figure class="image logo">
+<img src=/images/identity/svg/linkerd_primary_color_black.svg alt="logo" />
+</figure>
+<p class="has-text-dark-grey">
+Linkerd was originally created by <a class="" target="_blank" href="https://buoyant.io/">Buoyant</a>
+</p>
+<p class="has-text-dark-grey">
+View <a class="" target="_blank" href="https://github.com/linkerd/linkerd/wiki/Linkerd-code-of-conduct">Code
+of Conduct</a>
+</p>
+</div>
+<div class="column is-one-third has-text-centered-mobile">
+<div class="columns is-mobile is-centered">
+<div class="column is-one-half list-of-links">
+<p class="has-text-weight-bold">Community</p>
+<p>
+<a href="https://github.com/linkerd/linkerd2" target="_blank" class="has-text-color has-text-weight-light"><span class="navbar-item-helper">GitHub</span></a>
+</p>
+<p>
+<a href="https://slack.linkerd.io/" target="_blank" class="has-text-color has-text-weight-light"><span class="navbar-item-helper">Slack</span></a>
+</p>
+</div>
+<div class="column is-one-thirds list-of-links">
+<p class="has-text-weight-bold">Follow</p>
+<p>
+<a href="https://www.youtube.com/buoyantio" class="has-text-color has-text-weight-light">
+<span class="navbar-item-helper">YouTube</span>
+</a>
+</p>
+<p>
+<a href="https://twitter.com/linkerd" class="has-text-color has-text-weight-light">
+<span class="navbar-item-helper">Twitter</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="is-paddingless has-background-navy-black">
+<div class="container columns footer has-background-navy-black">
+<p class="column is-narrow">
+<a href="https://github.com/linkerd/website/tree/main/linkerd.io/content" class="">Edit This Site</a>
+</p>
+<p class="column has-text-white">Copyright © 2023 Linkerd Authors. All rights reserved.</p>
+<img alt="scarf" referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=134c11a9-d08b-45e0-8cc9-d1ed96a92343" />
+</div>
+</div>
+</footer>
+</section>
+<div class="modal" id="galleryModal">
+<div class="modal-background" onclick="hideImageModal()"></div>
+<div class="modal-content">
+<p class="image">
+<img id="galleryModalImage" data-proofer-ignore>
+</p>
+</div>
+<button class="modal-close is-large" aria-label="close" onclick="hideImageModal()"></button>
+</div>
+</body>
+</html>

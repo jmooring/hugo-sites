@@ -1,0 +1,1009 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Age: 31
+Content-Type: text/html; charset=utf-8
+Date: Wed, 10 May 2023 14:32:07 GMT
+Etag: "643672ee-7e39"
+Last-Modified: Wed, 12 Apr 2023 08:59:26 GMT
+Server: nginx/1.23.4
+Strict-Transport-Security: max-age=15768000
+Vary: Accept-Encoding
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: HIT, HIT
+X-Cache-Hits: 3, 1
+X-Served-By: cache-iad-kjyo7100132-IAD, cache-bfi-kbfi7400020-BFI
+X-Timer: S1683729127.140396,VS0,VE56
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.59.0" />
+  <title> Perl.com - programming news, code and culture </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""/>
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="TZowffo_LX2mmsw2DbeNNbukCMnIOA8T-6CMJPiYllI" />
+
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@PerlFoundation">
+<meta property="og:url" content="https://perl.com/" />
+<meta property="og:title" content="Perl.com - programming news, code and culture" />
+<meta property="og:description" content="Since 1997 Perl.com has published articles about the Perl programming language, its culture and community.">
+<meta property="og:site_name" content="Perl.com" />
+
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://perl.com/images/site/perl-onion.png" />
+
+
+  <link rel="icon" href="/favicon.ico">
+  <link href="/article/index.xml" rel="alternate" type="application/rss+xml" title="Perl.com - programming news, code and culture" />
+  <link href="/article/index.xml" rel="feed" type="application/rss+xml" title="Perl.com - programming news, code and culture" />
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/perldotcom.css"/>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50555-22', 'auto');
+ga('create', 'UA-85734801-2', 'auto', 'editor');
+ga('send', 'pageview');
+ga('editor.send', 'pageview');
+</script>
+
+</head>
+<body>
+
+<div class="container-fluid full-width antonio">
+ <div class="row">
+  <div class="navbar-inverse" style="border-radius:none !important" role="navigation">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav pull-right follow">
+          <li>MORE:</li>
+          <li><a href="https://perl.org">
+              <img src="/images/site/perl-onion_20.png" alt="Perl Onion"></a><li>
+          <li><a href="https://twitter.com/intent/follow?screen_name=perlfoundation">
+              <img src="/images/site/twitter_20.png" alt="twitter"></a><li>
+          <li><a href="/article/index.xml" />
+              <img src="/images/site/rss_20.png" alt="rss"></a></li>
+          <li><a href="https://github.com/tpf/perldotcom" />
+              <img src="/images/site/github_light_20.png" alt="GitHub logo"></a></li>
+      </ul>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-nav" href="/">
+            <div class="header-logo">Perl.com</div>
+          </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/about">
+              <div class="circle">
+                <img src="/images/site/perl-camel.png" alt="" />
+              </div>
+                  &nbsp;&nbsp;ABOUT</a>
+          </li>
+          <li><a href="/authors">
+              <div class="circle">
+                  <span class="glyphicon glyphicon-user txt-blue-major" aria-hidden="true"></span>
+              </div>
+                  &nbsp;&nbsp;AUTHORS</a>
+          </li>
+          <li><a href="/categories">
+              <div class="circle">
+                  <span class="glyphicon glyphicon-folder-open txt-blue-major" aria-hidden="true"></span>
+              </div>
+                  &nbsp;&nbsp;CATEGORIES</a>
+          </li>
+          <li><a href="/tags">
+              <div class="circle">
+                <span class="txt-blue-major" aria-hidden="true"><strong>#</strong></span>
+              </div>
+                  &nbsp;&nbsp;TAGS</a>
+          </li>
+          <li>
+            <form class="search" name="ddg" action="https://duckduckgo.com/" method="get">
+              <input type="text" name ="q" placeholder="SEARCH" />
+              <input type="hidden" value="perl.com" name="sites" />
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+<section id="content" role="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/passing-by/relay.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/passing-by/" rel="bookmark" title="Link to Passing by">
+      <h2 class="blog-post-title">Passing by</h2>
+    </a>
+    <p class="blog-post-meta">Mar 29, 2022 by
+    
+      
+      <a href="/authors/thibault-duponchelle">Thibault Duponchelle</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/development">development</a></div>
+      
+      <div class="tag"><a href="/tags/reference">reference</a></div>
+      
+      <div class="tag"><a href="/tags/functions">functions</a></div>
+      
+    </div>
+    <p>Looking at how arguments are passed to subs</p>
+    <h5><a class="moretag" href="https://perl.com/article/passing-by/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/perl-one-liners/on_the_mat.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/perl-one-liners-part-2/" rel="bookmark" title="Link to Perl / Unix One-liner Cage Match, Part 2">
+      <h2 class="blog-post-title">Perl / Unix One-liner Cage Match, Part 2</h2>
+    </a>
+    <p class="blog-post-meta">May 25, 2021 by
+    
+      
+      <a href="/authors/sundeep-agarwal">Sundeep Agarwal</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/tutorials">tutorials</a></div>
+      
+      <div class="tag"><a href="/tags/one-liners">one-liners</a></div>
+      
+    </div>
+    <p></p>
+    <h5><a class="moretag" href="https://perl.com/article/perl-one-liners-part-2/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/perl-one-liners/cage_match.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/perl-one-liners-part-1/" rel="bookmark" title="Link to Perl / Unix One-liner Cage Match, Part 1">
+      <h2 class="blog-post-title">Perl / Unix One-liner Cage Match, Part 1</h2>
+    </a>
+    <p class="blog-post-meta">May 12, 2021 by
+    
+      
+      <a href="/authors/sundeep-agarwal">Sundeep Agarwal</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/tutorials">tutorials</a></div>
+      
+      <div class="tag"><a href="/tags/one-liners">one-liners</a></div>
+      
+    </div>
+    <p></p>
+    <h5><a class="moretag" href="https://perl.com/article/perl-one-liners-part-1/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/author/mark-gardner.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/downloading-and-installing-perl-in-2021/" rel="bookmark" title="Link to Downloading and Installing Perl in 2021">
+      <h2 class="blog-post-title">Downloading and Installing Perl in 2021</h2>
+    </a>
+    <p class="blog-post-meta">Apr 27, 2021 by
+    
+      
+      <a href="/authors/mark-gardner">Mark Gardner</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/tutorials">tutorials</a></div>
+      
+      <div class="tag"><a href="/tags/perl">perl</a></div>
+      
+      <div class="tag"><a href="/tags/download">download</a></div>
+      
+      <div class="tag"><a href="/tags/install">install</a></div>
+      
+      <div class="tag"><a href="/tags/linux">linux</a></div>
+      
+      <div class="tag"><a href="/tags/windows">windows</a></div>
+      
+      <div class="tag"><a href="/tags/mac">mac</a></div>
+      
+      <div class="tag"><a href="/tags/unix">unix</a></div>
+      
+      <div class="tag"><a href="/tags/perlbrew">perlbrew</a></div>
+      
+      <div class="tag"><a href="/tags/plenv">plenv</a></div>
+      
+      <div class="tag"><a href="/tags/activestate">activestate</a></div>
+      
+      <div class="tag"><a href="/tags/strawberry-perl">strawberry-perl</a></div>
+      
+    </div>
+    <p>How to download and install Perl on Windows, macOS, and Linux</p>
+    <h5><a class="moretag" href="https://perl.com/article/downloading-and-installing-perl-in-2021/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/interview-trying-to-catch-paul-leonerd-evans/thumb_pevans-2021-03-29_18-50-22.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/interview-trying-to-catch-paul-leonerd-evans/" rel="bookmark" title="Link to Interview: Trying to Catch Paul &#34;LeoNerd&#34; Evans">
+      <h2 class="blog-post-title">Interview: Trying to Catch Paul &#34;LeoNerd&#34; Evans</h2>
+    </a>
+    <p class="blog-post-meta">Mar 30, 2021 by
+    
+      
+      <a href="/authors/mark-gardner">Mark Gardner</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+      <div class="tag"><a href="/tags/perl">perl</a></div>
+      
+      <div class="tag"><a href="/tags/interview">interview</a></div>
+      
+      <div class="tag"><a href="/tags/cpan">cpan</a></div>
+      
+      <div class="tag"><a href="/tags/syntax">syntax</a></div>
+      
+      <div class="tag"><a href="/tags/core">core</a></div>
+      
+      <div class="tag"><a href="/tags/object-oriented">object-oriented</a></div>
+      
+      <div class="tag"><a href="/tags/future">future</a></div>
+      
+      <div class="tag"><a href="/tags/async-await">async-await</a></div>
+      
+      <div class="tag"><a href="/tags/promises">promises</a></div>
+      
+      <div class="tag"><a href="/tags/asynchronous-programming">asynchronous-programming</a></div>
+      
+      <div class="tag"><a href="/tags/perl-7">perl-7</a></div>
+      
+      <div class="tag"><a href="/tags/corinna">corinna</a></div>
+      
+    </div>
+    <p>The prolific CPAN and Perl core developer talks about exceptions and other Perl topics.</p>
+    <h5><a class="moretag" href="https://perl.com/article/interview-trying-to-catch-paul-leonerd-evans/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/why_i_wrote_net_google_civicinformation/polling_place.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/why-i-wrote-net-google-civicinformation/" rel="bookmark" title="Link to Why I wrote Net::Google::CivicInformation">
+      <h2 class="blog-post-title">Why I wrote Net::Google::CivicInformation</h2>
+    </a>
+    <p class="blog-post-meta">Mar 9, 2021 by
+    
+      
+      <a href="/authors/nick-tonkin">Nick Tonkin</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/apps">apps</a></div>
+      
+      <div class="tag"><a href="/tags/community">community</a></div>
+      
+    </div>
+    <p></p>
+    <h5><a class="moretag" href="https://perl.com/article/why-i-wrote-net-google-civicinformation/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/the_hijack_of_perldotcom/crime.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/the-hijacking-of-perl-com/" rel="bookmark" title="Link to The Hijacking of Perl.com">
+      <h2 class="blog-post-title">The Hijacking of Perl.com</h2>
+    </a>
+    <p class="blog-post-meta">Feb 28, 2021 by
+    
+      
+      <a href="/authors/brian-d-foy">brian d foy</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+    </div>
+    <p>Handling the response to our missing domain</p>
+    <h5><a class="moretag" href="https://perl.com/article/the-hijacking-of-perl-com/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/author/david-farrell.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/the-trouble-with-reference-counting/" rel="bookmark" title="Link to The Trouble with Reference Counting">
+      <h2 class="blog-post-title">The Trouble with Reference Counting</h2>
+    </a>
+    <p class="blog-post-meta">Jan 25, 2021 by
+    
+      
+      <a href="/authors/david-farrell">David Farrell</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/perl-internals">perl-internals</a></div>
+      
+      <div class="tag"><a href="/tags/garbage-collection">garbage-collection</a></div>
+      
+      <div class="tag"><a href="/tags/tracing">tracing</a></div>
+      
+      <div class="tag"><a href="/tags/optimization">optimization</a></div>
+      
+    </div>
+    <p>Is tracing garbage collection a realistic alternative?</p>
+    <h5><a class="moretag" href="https://perl.com/article/the-trouble-with-reference-counting/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/author/brian-d-foy.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/extracting-the-list-of-o-reilly-animals/" rel="bookmark" title="Link to Extracting the list of O&#39;Reilly Animals">
+      <h2 class="blog-post-title">Extracting the list of O&#39;Reilly Animals</h2>
+    </a>
+    <p class="blog-post-meta">Jan 11, 2021 by
+    
+      
+      <a href="/authors/brian-d-foy">brian d foy</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+      <div class="tag"><a href="/tags/mojolicious">mojolicious</a></div>
+      
+      <div class="tag"><a href="/tags/promises">promises</a></div>
+      
+      <div class="tag"><a href="/tags/oreilly">oreilly</a></div>
+      
+    </div>
+    <p>Website fun with Mojolicious&rsquo;s Promises</p>
+    <h5><a class="moretag" href="https://perl.com/article/extracting-the-list-of-o-reilly-animals/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/author/david-farrell.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/closures-as-objects/" rel="bookmark" title="Link to Closures as objects">
+      <h2 class="blog-post-title">Closures as objects</h2>
+    </a>
+    <p class="blog-post-meta">Dec 13, 2020 by
+    
+      
+      <a href="/authors/david-farrell">David Farrell</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/programming-languages">programming-languages</a></div>
+      
+      <div class="tag"><a href="/tags/closure">closure</a></div>
+      
+      <div class="tag"><a href="/tags/lisp">lisp</a></div>
+      
+      <div class="tag"><a href="/tags/moose">moose</a></div>
+      
+      <div class="tag"><a href="/tags/metaobject-protocol">metaobject-protocol</a></div>
+      
+      <div class="tag"><a href="/tags/object-oriented">object-oriented</a></div>
+      
+    </div>
+    <p>How lexical scope and anonymous functions can create powerful object systems</p>
+    <h5><a class="moretag" href="https://perl.com/article/closures-as-objects/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/bang-bang/santam16.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/bang-bang/" rel="bookmark" title="Link to Bang Bang">
+      <h2 class="blog-post-title">Bang Bang</h2>
+    </a>
+    <p class="blog-post-meta">Nov 11, 2020 by
+    
+      
+      <a href="/authors/thibault-duponchelle">Thibault Duponchelle</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/development">development</a></div>
+      
+      <div class="tag"><a href="/tags/shebang">shebang</a></div>
+      
+    </div>
+    <p>Fun with the perl shebang</p>
+    <h5><a class="moretag" href="https://perl.com/article/bang-bang/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/stupid-data-tricks/clipboard.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/stupid-data-tricks/" rel="bookmark" title="Link to Stupid DATA Tricks">
+      <h2 class="blog-post-title">Stupid DATA Tricks</h2>
+    </a>
+    <p class="blog-post-meta">Oct 5, 2020 by
+    
+      
+      <a href="/authors/brian-d-foy">brian d foy</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/syntax">syntax</a></div>
+      
+    </div>
+    <p>When your data file is the program</p>
+    <h5><a class="moretag" href="https://perl.com/article/stupid-data-tricks/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/the-perl-ambassador-damian-conway/damian-conway-thumbnail.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/the-perl-ambassador-damian-conway/" rel="bookmark" title="Link to The Perl Ambassador: Damian Conway">
+      <h2 class="blog-post-title">The Perl Ambassador: Damian Conway</h2>
+    </a>
+    <p class="blog-post-meta">Oct 1, 2020 by
+    
+      
+      <a href="/authors/mohammad-anwar">Mohammad S Anwar</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+    </div>
+    <p>Three-time winner of the &ldquo;Larry Wall Award for Practical Utility&rdquo;.</p>
+    <h5><a class="moretag" href="https://perl.com/article/the-perl-ambassador-damian-conway/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/author/edoardo-mantovani.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/searching-internet-rfcs/" rel="bookmark" title="Link to Searching Internet RFCs">
+      <h2 class="blog-post-title">Searching Internet RFCs</h2>
+    </a>
+    <p class="blog-post-meta">Sep 24, 2020 by
+    
+      
+      <a href="/authors/edoardo-mantovani">Edoardo Mantovani</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/tooling">tooling</a></div>
+      
+      <div class="tag"><a href="/tags/Request%20for%20Comments">Request for Comments</a></div>
+      
+      <div class="tag"><a href="/tags/perl%20tools">perl tools</a></div>
+      
+      <div class="tag"><a href="/tags/protocols%20knoweledge">protocols knoweledge</a></div>
+      
+    </div>
+    <p>A smart way to scrape RFCs</p>
+    <h5><a class="moretag" href="https://perl.com/article/searching-internet-rfcs/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/the-perl-ambassador-curtis-poe/curtis-poe-thumbnail.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/the-perl-ambassador-curtis-poe/" rel="bookmark" title="Link to The Perl Ambassador: Curtis &#39;Ovid&#39; Poe">
+      <h2 class="blog-post-title">The Perl Ambassador: Curtis &#39;Ovid&#39; Poe</h2>
+    </a>
+    <p class="blog-post-meta">Aug 8, 2020 by
+    
+      
+      <a href="/authors/mohammad-anwar">Mohammad S Anwar</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+    </div>
+    <p>The person behind the text-based Massive Multiplayer Online Browser Game (MMOBG), Tau Station</p>
+    <h5><a class="moretag" href="https://perl.com/article/the-perl-ambassador-curtis-poe/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/181/thumb_88AAA022-2639-11E5-B854-07139DAABC69.png)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/what-s-new-on-cpan-june-2020/" rel="bookmark" title="Link to What&#39;s new on CPAN - June 2020">
+      <h2 class="blog-post-title">What&#39;s new on CPAN - June 2020</h2>
+    </a>
+    <p class="blog-post-meta">Jul 29, 2020 by
+    
+      
+      <a href="/authors/david-farrell">David Farrell</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/cpan">cpan</a></div>
+      
+      <div class="tag"><a href="/tags/cpanel">cpanel</a></div>
+      
+      <div class="tag"><a href="/tags/neo4j">neo4j</a></div>
+      
+      <div class="tag"><a href="/tags/guacamole">guacamole</a></div>
+      
+      <div class="tag"><a href="/tags/slack">slack</a></div>
+      
+      <div class="tag"><a href="/tags/opentelemetry">opentelemetry</a></div>
+      
+      <div class="tag"><a href="/tags/opentracing">opentracing</a></div>
+      
+      <div class="tag"><a href="/tags/excel">excel</a></div>
+      
+      <div class="tag"><a href="/tags/cpanfile">cpanfile</a></div>
+      
+      <div class="tag"><a href="/tags/pipe2">pipe2</a></div>
+      
+      <div class="tag"><a href="/tags/mrkdwn">mrkdwn</a></div>
+      
+      <div class="tag"><a href="/tags/project-fluent">project-fluent</a></div>
+      
+      <div class="tag"><a href="/tags/open-smtpd">open-smtpd</a></div>
+      
+    </div>
+    <p>A curated look at June&rsquo;s new CPAN uploads</p>
+    <h5><a class="moretag" href="https://perl.com/article/what-s-new-on-cpan-june-2020/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/a-tour-with-net-ftp/thumb_kidyes.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/a-tour-with-net-ftp/" rel="bookmark" title="Link to A tour with Net::FTP">
+      <h2 class="blog-post-title">A tour with Net::FTP</h2>
+    </a>
+    <p class="blog-post-meta">Jul 13, 2020 by
+    
+      
+      <a href="/authors/thibault-duponchelle">Thibault Duponchelle</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/development">development</a></div>
+      
+      <div class="tag"><a href="/tags/ftp">ftp</a></div>
+      
+      <div class="tag"><a href="/tags/net-ftp">net-ftp</a></div>
+      
+      <div class="tag"><a href="/tags/pure-ftpd">pure-ftpd</a></div>
+      
+    </div>
+    <p>How to write an FTP client in Perl</p>
+    <h5><a class="moretag" href="https://perl.com/article/a-tour-with-net-ftp/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/listen-to-larry-wall-s-state-of-the-onion-2000-on-youtube/thumb_larry-wall.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/listen-to-larry-wall-s-state-of-the-onion-2000-on-youtube/" rel="bookmark" title="Link to Listen to Larry Wall&#39;s State of the Onion 2000 on YouTube">
+      <h2 class="blog-post-title">Listen to Larry Wall&#39;s State of the Onion 2000 on YouTube</h2>
+    </a>
+    <p class="blog-post-meta">Jul 10, 2020 by
+    
+      
+      <a href="/authors/david-farrell">David Farrell</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/community">community</a></div>
+      
+      <div class="tag"><a href="/tags/larry-wall">larry-wall</a></div>
+      
+      <div class="tag"><a href="/tags/youtube">youtube</a></div>
+      
+      <div class="tag"><a href="/tags/state-of-the-onion">state-of-the-onion</a></div>
+      
+    </div>
+    <p></p>
+    <h5><a class="moretag" href="https://perl.com/article/listen-to-larry-wall-s-state-of-the-onion-2000-on-youtube/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/announcing-perl-7/thumb_seven_on_blue_wall.jpg)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/announcing-perl-7/" rel="bookmark" title="Link to Announcing Perl 7">
+      <h2 class="blog-post-title">Announcing Perl 7</h2>
+    </a>
+    <p class="blog-post-meta">Jun 24, 2020 by
+    
+      
+      <a href="/authors/brian-d-foy">brian d foy</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/perl7">perl7</a></div>
+      
+      <div class="tag"><a href="/tags/tpcitc">tpcitc</a></div>
+      
+      <div class="tag"><a href="/tags/preparing-for-perl-7">preparing-for-perl-7</a></div>
+      
+      <div class="tag"><a href="/tags/indirect">indirect</a></div>
+      
+    </div>
+    <p>Perl 5 with modern defaults</p>
+    <h5><a class="moretag" href="https://perl.com/article/announcing-perl-7/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+          
+            
+
+<article>
+<div class="row blog-post">
+  <div class="col-sm-2">
+    
+    
+    <div class="circle-avatar" style="background-image:url(/images/176/thumb_2A6DE1D0-0ACE-11E5-A57F-EAC87F6D3C83.png)"></div>
+  </div>
+  <div class="col-sm-9">
+    <a href="/article/what-s-new-on-cpan-may-2020/" rel="bookmark" title="Link to What&#39;s new on CPAN - May 2020">
+      <h2 class="blog-post-title">What&#39;s new on CPAN - May 2020</h2>
+    </a>
+    <p class="blog-post-meta">Jun 20, 2020 by
+    
+      
+      <a href="/authors/david-farrell">David Farrell</a>
+    
+    </p>
+    <div class="tags">
+      <div class="category"><a href="/categories/cpan">cpan</a></div>
+      
+      <div class="tag"><a href="/tags/libfido2">libfido2</a></div>
+      
+      <div class="tag"><a href="/tags/mapzen">mapzen</a></div>
+      
+      <div class="tag"><a href="/tags/nauty">nauty</a></div>
+      
+      <div class="tag"><a href="/tags/mojolicious">mojolicious</a></div>
+      
+      <div class="tag"><a href="/tags/dancer2">dancer2</a></div>
+      
+      <div class="tag"><a href="/tags/catalyst">catalyst</a></div>
+      
+      <div class="tag"><a href="/tags/nauty">nauty</a></div>
+      
+      <div class="tag"><a href="/tags/karabiner-elements">karabiner-elements</a></div>
+      
+      <div class="tag"><a href="/tags/digi-id">digi-id</a></div>
+      
+      <div class="tag"><a href="/tags/platypus">platypus</a></div>
+      
+      <div class="tag"><a href="/tags/json-schema">json-schema</a></div>
+      
+    </div>
+    <p>A curated look at May&rsquo;s new CPAN uploads</p>
+    <h5><a class="moretag" href="https://perl.com/article/what-s-new-on-cpan-may-2020/">Read it</a></h5>
+  </div>
+</div>
+</article>
+
+          
+        
+        <nav id="nav-below" class="navigation" role="navigation">
+<div class="older">
+    <a href="/page/2/">&laquo; Older Posts</a>
+  </div>
+
+  <div class="clearfix"></div>
+  <div class="pagination">Page 1 of 55</div>
+</nav>
+
+      </div>
+      <div class="col-sm-3">
+        <div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+  <script async src="/widget/toplinks/toplinks.js" type="text/javascript"></script>
+    <div id="toplinks"></div>
+  </div>
+</div>
+
+<div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+    <a class="twitter-timeline" data-height="640" data-dnt="true" data-theme="dark" href="https://twitter.com/perlfoundation?ref_src=twsrc%5Etfw">Tweets by perlfoundation</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+
+<div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+    <script src="https://www.reddit.com/r/perl/hot/.embed?limit=10&t=all" type="text/javascript"></script>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="push"></div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+        <h5>Site Map</h5>
+        <ul>
+        <li><a href="/">Home</a></li>
+        <hr>
+        <li><a href="/about">About</a></li>
+        <hr>
+        <li><a href="/authors">Authors</a></li>
+        <hr>
+        <li><a href="/categories">Categories</a></li>
+        <hr>
+        <li><a href="/tags">Tags</a></li>
+        <hr>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Contact Us</h5>
+        <p>To get in touch, send an email to <i>perl.com-editor@perl.org</i>, or <A href="https://github.com/tpf/perldotcom/issues">submit an issue to tpf/perldotcom</a> on GitHub.</p>
+        <p><a href="https://perl.org">
+              <img src="/images/site/perl-onion_20.png" alt="Perl Onion"></a>
+          <a href="https://twitter.com/intent/follow?screen_name=perlfoundation">
+              <img src="/images/site/twitter_20.png" alt="twitter"></a>
+          <a href="/article/index.xml" /><img src="/images/site/rss_20.png" alt="rss"></a>
+          <a href="https://github.com/tpf/perldotcom">
+              <img src="/images/site/github_light_20.png" alt="GitHub logo"></a></p>
+      </div>
+      <div class="col-md-2">
+          <h5>License</h5>
+          <p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p>
+          <p><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a></p>
+      </div>
+      <div class="col-md-5">
+          <h5>Legal</h5>
+          <p>Perl.com and the authors make no representations with respect to the accuracy or completeness of the contents of all work on this website and specifically disclaim all warranties, including without limitation warranties of fitness for a particular purpose. The information published on this website may not be suitable for every situation. All work on this website is provided with the understanding that Perl.com and the authors are not engaged in rendering professional services. Neither Perl.com nor the authors shall be liable for damages arising herefrom.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/javascript/jquery.min.js"></script>
+<script src="/javascript/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+   $('#latest-articles').load("/latest_articles/");
+});
+</script>
+
+</body>
+</html>
+

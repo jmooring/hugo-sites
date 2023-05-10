@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7bf84dff1893283b-SEA
+Cf-Ray: 7c52ccc28a7deb6f-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Sat, 29 Apr 2023 14:41:14 GMT
-Last-Modified: Fri, 28 Apr 2023 21:03:43 GMT
+Date: Wed, 10 May 2023 14:16:24 GMT
+Last-Modified: Tue, 09 May 2023 22:12:20 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -20,7 +20,7 @@ X-Xss-Protection: 1; mode=block
 <head>
 	<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-<meta name="generator" content="Hugo 0.107.0">
+<meta name="generator" content="Hugo 0.110.0">
 
 
 
@@ -62,7 +62,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.44b1d566ac978b84654c80d5129bea1a6fde9f086ccb1c50e3dfc951c5436d12.css">
+<link rel="stylesheet" href="/main.min.b1ef0a5f17ef5507bff4ab905478bbd6f73ab52d06a01b123096c2c2d77de6ce.css">
 
 </head>
 
@@ -342,7 +342,13 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="20-april-2023">20 April 2023</h3>
+<h3 id="5-may-2023">5 May 2023</h3>
+<ul><li>
+            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.94.0">v1.94.0 of doctl</a>, the official DigitalOcean CLI. This release updates the <code>doctl auth init</code> prompt and deprecates the <code>--algorithm</code> flag for load balancer sub-commands.</p>
+        </li></ul><h3 id="4-may-2023">4 May 2023</h3>
+<ul><li>
+            <p><a href="https://getfedora.org/en/workstation/download/">Fedora 38</a> (<code>fedora-38-x64</code>) base image is now available in the control panel and via the API.</p>
+        </li></ul><h3 id="20-april-2023">20 April 2023</h3>
 <ul><li>
             <p><p>We have updated the following buildpacks:</p>
 <ul>
@@ -385,14 +391,6 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 </ul>
 </li>
 </ul>
-</p>
-        </li></ul><h3 id="18-april-2023">18 April 2023</h3>
-<ul><li>
-            <p>Premium Intel CPUs are now available for CPU-Optimized Droplets in BLR1.</p>
-        </li></ul><h3 id="30-march-2023">30 March 2023</h3>
-<ul><li>
-            <p><p>You can now <a href="/products/app-platform/how-to/url-rewrites/">remap and redirect URL paths</a> in your apps on App Platform. For example, if you have the existing path <code>/your-app/api/functions/js/post</code> in your app, you can create a rewrite that masks that path with the simpler path, <code>/your-app/api/post</code>. Or you can redirect traffic from a specified path to a different URL on the internet.</p>
-<p>Additionally, app routing information is now specified under the <code>ingress</code> stanza of <a href="/products/app-platform/reference/app-spec/">app specs</a>.</p>
 </p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

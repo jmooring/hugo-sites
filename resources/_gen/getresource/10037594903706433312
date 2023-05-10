@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
-Age: 59
+Age: 31
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Sat, 29 Apr 2023 14:40:18 GMT
-Etag: "9e6d4ce68b1cc93eedc7d66df5543424"
-Last-Modified: Fri, 28 Apr 2023 16:15:51 GMT
+Date: Wed, 10 May 2023 14:15:55 GMT
+Etag: "691f1991be448a15c3788b979ebccaa2"
+Last-Modified: Tue, 09 May 2023 23:51:49 GMT
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 a73a41b271f533a1a5ed460f3f9ae94c.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: CX2FcNWjgpJCz22XAl0MQ7aJcrv_QQKInCrMoGdp3Y400kjJ9JqFwg==
+Via: 1.1 fb443c18b96387905f8eb633d8d34cf2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mzmi0DLwnVFcr3y20D5RsrQWhECKkDHtlT7yGIbnsWk0QoTJyQMgmg==
 X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Hit from cloudfront
@@ -18,7 +18,7 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: 4d031dd3-8913-4a46-5fb3-616588ece05e
+X-Vcap-Request-Id: 2f26dbf8-3bd8-4e2b-7e76-080f3d241f98
 X-Xss-Protection: 1; mode=block
 
 
@@ -116,7 +116,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         href="https://vote.gov/assets/img/favicons/favicon-vote-144.png">
 
   
-  <link rel="stylesheet" href="/assets/styles/main.css?v=58003a1c1">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=53fd55184">
   
   
 
@@ -138,8 +138,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 
 
+<header class="usa-header">
 <a class="usa-skipnav" href="#skip-target" onclick="document.getElementById('skip-target').focus();">Skip to main content</a>
-<header class="usa-header" role="banner">
 
   <section class="usa-banner" aria-label="Official government website">
     <div class="usa-accordion">
@@ -164,9 +164,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="usa-language-container usa-language--big">
 
-  <ul class="usa-language__primary usa-accordion">
-    <li class="usa-language__primary-item">
-      <button class="usa-button usa-language__link" data-test="language-button" role="button" aria-expanded="false"
+  <div class="usa-language__primary usa-accordion">
+    <div class="usa-language__primary-item">
+      <button class="usa-button usa-language__link" data-test="language-button" aria-expanded="false"
         aria-controls="language-options">
         Select Language
       </button>
@@ -233,8 +233,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </li>
       
       </ul>
-    </li>
-  </ul>
+    </div>
+  </div>
 
 </div>
 
@@ -264,7 +264,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <strong>Secure .gov websites use HTTPS</strong>
                 <br />
                 A lock (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64"
-                                               viewBox="0 0 52 64" class="usa-banner__lock-image">
+                                               viewBox="0 0 52 64" class="usa-banner__lock-image" role="none">
                     <path fill="#000000" fill-rule="evenodd"
                           d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
                     </path>
@@ -287,7 +287,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <ul class="usa-language__primary usa-accordion">
     <li class="usa-language__primary-item">
-      <button class="usa-button usa-language__link" role="button" aria-expanded="false"
+      <button class="usa-button usa-language__link" aria-expanded="false"
         aria-controls="language-options-1">
         Select Language
       </button>
@@ -368,7 +368,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<div class="bg-lightblue search-container">
+<div class="bg-lightblue search-container" role="search" aria-label="Search Vote.gov">
   <div class="grid-container">
     <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
           action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
@@ -393,7 +393,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
         <img
-          src="/assets/img/usa-icons-bg/search--white.svg"
+          src="/assets/img/search--white.svg"
           class="usa-search__submit-icon"
           alt="Search Vote.gov "
         />
@@ -405,16 +405,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-  <div class="page-vote-main" id="main" role="main">
+  <main class="page-vote-main" id="main">
 
     <div class="bg-blue css-arrow">
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
-            <a class="site-logo" data-test="vote-logo" href="/" aria-label="Vote.gov">
+            <div class="site-logo" data-test="vote-logo" aria-label="Vote.gov">
               <div class="logo-text">Vote.gov</div>
               <div id="SiteLogo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 170 210" width="200" height="247" enable-background="new 0 0 170 210" xml:space="preserve">
+	 viewBox="0 0 170 210" width="200" height="247" role="img" aria-label="Vote.gov" enable-background="new 0 0 170 210" xml:space="preserve">
+	 <title>Vote.gov</title>
 <polygon fill="#112E51" points="26.6,131.1 10.8,156 82.4,203.1 154,156 138.2,131.1 "/>
 <polygon fill="#0071BC" points="82.4,17.1 14,61.5 14,151.3 82.4,196.3 150.7,151.3 150.7,61.5 "/>
 <polygon fill="#112E51" points="150.7,151.3 150.7,61.5 82.4,108.1 82.4,196.3 "/>
@@ -475,10 +476,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <rect x="42.4" y="65.2" fill="#0071BC" width="80.9" height="13.5"/>
 </svg>
 </div>
-            </a>
+            </div>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
-            <section class="register align-bottom">
+            <section class="register align-bottom" role="region" aria-label="Register to vote">
               <header>
                 <h1 class="main-heading" data-test="main-header">Register to vote</h1>
               </header>
@@ -625,12 +626,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
           </div>
           <div class="tablet:grid-col-8 right-shift">
-
-            <section>
+   
               
 
 
 
+<section aria-label="Vote.gov helps you:">
 <header>
   <h2 class="content-heading">Vote.gov helps you:</h2>
 </header>
@@ -749,10 +750,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   
 </div>
+</section>
 
-            </section>
-
-            <section class="page-section registered" id="already-registered">
+            <section class="page-section registered" aria-label="Already registered?">
               <header>
                 <h2 class="content-heading">Already registered?</h2>
               </header>
@@ -765,18 +765,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul class="registered-resources">
                   
                   <li><a
-                      href="https://www.usa.gov/absentee-voting">Absentee voting</a>
-                  </li>
-                  
-                  <li><a
-                      href="https://www.usa.gov/election-day">Voting on election day</a>
-                  </li>
-                  <li><a
-                      href="https://www.usa.gov/voter-id">Voter ID requirements</a>
-                  </li>
-                  <li><a
-                      href="https://www.usa.gov/election">Election process</a>
-                  </li>
+                    href="https://www.usa.gov/absentee-voting">Absentee voting</a>
+                </li>
+                
+                <li><a
+                    href="https://www.usa.gov/election-day">Voting on election day</a>
+                </li>
+                <li><a
+                    href="https://www.usa.gov/voter-id">Voter ID requirements</a>
+                </li>
+                <li><a
+                    href="https://www.usa.gov/election">Election process</a>
+                </li>
                 </ul>
               </div>
             </section>
@@ -784,50 +784,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
   
   
-<footer>
-  <div class="bg-white">
+<footer role="contentinfo">
+  <section class="bg-white" title="Email sign-up" aria-label="Email sign-up">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4"></div>
         <div class="tablet:grid-col-8 right-shift">
-          <form class="form-signup" action="https://connect.usa.gov/subscribe" method="get">
-            <h2 class="text-blue font-size-medium">Sign up to get emails from USAGov</h2>
+            <form class="form-signup" action="https://connect.usa.gov/subscribe" method="get">
+              <h2 class="text-blue font-size-medium">Sign up to get emails from USAGov</h2>
 
-            <label class="max-width-input text-grey" for="email-2"
-                   id="emailsub">Enter your email address</label>
-            <input id="email-2" name="email" type="email" class="usa-input max-width-input">
+              <label class="max-width-input text-grey" for="email-2"
+                    id="emailsub">Enter your email address</label>
+              <input id="email-2" name="email" type="email" class="usa-input max-width-input">
 
-            <button class="usa-button max-width-input" id="user-submit" type="submit">
-              Sign Up
-            </button>
-          </form>
+              <button class="usa-button max-width-input" id="user-submit" type="submit">
+                Sign Up
+              </button>
+            </form>            
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  
-
-
+    
 
 
-<div class="bg-lightblue footer-contact" data-test="footer-contact">
 
+
+<section class="bg-lightblue footer-contact" data-test="footer-contact" title="Contact" aria-label="Contact">
     <div class="grid-container eac-vote-partnership">
       <div class="grid-row">
         <div class="tablet:grid-col-auto">
           <div class="vote-txt">Vote.gov</div>
           <img class="vote-logo" loading="lazy" width="130" height="160" src="/assets/img/ballot_box-blue.svg"
-            alt="Web design standards">
+            alt="Illustration of voter box with checked ballot being inserted to indicate voting action" aria-label="Vote.gov">
         </div>
         <div class="tablet:grid-col-auto partnership-txt">in partnership with</div>
         <div class="tablet:grid-col-auto eac-container">
           <a href="https://www.eac.gov/">
-            <img class="eac-logo" width="146" height="48" src="/assets/img/eac-logo.webp" alt="In partnership with U.S. Election Assistance Commission">
+            <img class="eac-logo" width="146" height="48" src="/assets/img/eac-logo.webp" alt="U.S. Election Assistance Commission logo which indicates a partnership with Vote.gov">
           </a>
         
         </div>
@@ -835,28 +834,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="tablet:grid-col-auto twitter-container">
           <a href="https://twitter.com/votegov" class="twitter-link">
             <span>Follow Vote.gov on Twitter</span>
-            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" height="28" width="28" role="none">
               <use xlink:href="/assets/img/sprite.svg#twitter"></use>
             </svg>
           </a>
         </div>
       </div>
     </div>
-</div>
+  </section>
 
 
 
 <div class="footer-identifier" data-test="footer">
   <div class="grid-container">
-    <section class="identifier-gsa grid-row grid-gap-2" aria-label="Agency identifier">
+    <section class="identifier-gsa grid-row grid-gap-2" title="Agency identifier" aria-label="Agency identifier">
       <div><img src="/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
-      <div aria-label="Agency description" class="grid-col-auto">
+      <div class="grid-col-auto">
         Vote.gov <br>
-        <strong>An official website of the 
+        <strong aria-label="Agency description" >An official website of the 
 <a href="https://www.gsa.gov/">General Services Administration</a></strong>
       </div>
     </section>
-    <nav class="grid-row grid-gap identifier" aria-label="Important links">
+    <nav class="grid-row grid-gap identifier" title="Important links" aria-label="Important links">
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
           <li><a href="/about-us">About Vote.gov</a></li>
@@ -882,7 +881,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </ul>
       </div>
     </nav>
-    <section aria-label="Government information and services" class="identifier-gov-info">Looking for U.S. government information and services? 
+    <section title="Government information and services" aria-label="Government information and services" class="identifier-gov-info">Looking for U.S. government information and services? 
 <a href="https://www.usa.gov/">Visit USA.gov</a>
 
     </section>
@@ -890,7 +889,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 
-
+    
+    
+    <div id="ext-link-title" data-title="External link opens new window" />
 </footer>
 
   
@@ -915,7 +916,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 
 
-<script src="/assets/scripts/main.js?v=58003a1c1"></script>
+<script src="/assets/scripts/main.js?v=53fd55184"></script>
 
 
 

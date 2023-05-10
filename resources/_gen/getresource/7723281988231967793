@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 27779
+Age: 219427
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 29 Apr 2023 06:58:20 GMT
-Etag: "052362ff113960d9be488929838db258-ssl-df"
+Date: Mon, 08 May 2023 01:19:20 GMT
+Etag: "ef7ccb22e9ee93a67e8d24c598cb0545-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01GZ6QC3TZP3EPY4K7Y32K3MYD
+X-Nf-Request-Id: 01H030AGBA0QE9SXAKS6FVT18P
 
 <!DOCTYPE html>
   
@@ -793,6 +793,8 @@ $ gomplate -d 'cities=env:///CITIES?type=application/yaml' -d 'weather=https://w
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
     
     <script src="/js/search.js"></script>
+    
+    <script src="/js/faro.js"></script>
     
 
     <script>

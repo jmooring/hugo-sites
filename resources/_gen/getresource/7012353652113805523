@@ -1,17 +1,14 @@
 HTTP/2.0 200 OK
-Age: 45007
 Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7c3a9d6bec71eb5f-SEA
+Cf-Ray: 7c52cce44b19c74d-SEA
 Content-Type: text/html
-Date: Sun, 07 May 2023 15:49:47 GMT
+Date: Wed, 10 May 2023 14:16:30 GMT
 Last-Modified: Fri, 05 May 2023 14:22:00 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xk6zcnWG0j%2BZcq7D8oafSZCbgeHYkfjJlZ51uvZ5naqjeeNX6ZvpxZ1IZNfgTaOVVE4c5q2bZJnC99KZo5htjQbeNhUrVKP7CwWKenskJTSnkB7u4iRQpJSGIxji%2Ffd%2Ba4kfmJ0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MFGffgRrIHhhqgSFgPxKVPFwm5SbUExiBRdOv4YSrtwwU0GEYEHHhtivkV3GWggD9hEonq6ejCU8a4VkSuo9RNXpN9xHJX%2BrOQRwvyIXNRag%2BNmt5ABI4y1MrHs2dLmVRfpsVuA%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Vary: Accept-Encoding
-X-Cache: HIT
-X-Ms-Request-Id: 9c9066e5-001e-003a-5492-8055ad000000
+X-Ms-Request-Id: 6cfabd9f-a01e-0023-4a4a-83d516000000
 X-Ms-Version: 2018-03-28
 
 <!DOCTYPE html>
@@ -276,7 +273,6 @@ In this blog post, I&rsquo;ll walk you through a simple solution to this problem
 </article>
 <div class="pagination mt-8">
 <nav class="pagination__container  flex pl-0 rounded list-none flex-wrap justify-center">
-
 <span aria-current="page" class="pagination__text pagination__current">1</span>
 <a class="pagination__link" href="https://www.eliostruyf.com/page/2/" title="Go to page number: 2">
 2
@@ -290,6 +286,7 @@ In this blog post, I&rsquo;ll walk you through a simple solution to this problem
 <a class="pagination__link" href="https://www.eliostruyf.com/page/5/" title="Go to page number: 5">
 5
 </a>
+
 
 
 <a class="pagination__link pagination__link--next" href="/page/2/" title="Go to next page">
@@ -521,11 +518,13 @@ May 2023</a> (1)
 <li class="mb-1">
 
 
+
 <a class="" href="https://www.eliostruyf.com/2023/03/" title="Check: 2023 (5)" target="_blank" rel="noopener noreferrer">
 March 2023</a> (5)
 </a>
 </li>
 <li class="mb-1">
+
 
 
 <a class="" href="https://www.eliostruyf.com/2023/02/" title="Check: 2023 (3)" target="_blank" rel="noopener noreferrer">
