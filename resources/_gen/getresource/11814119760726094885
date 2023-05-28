@@ -4,19 +4,19 @@ Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' data: https://cdn.jsdelivr.net https://fonts.gstatic.com
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 May 2023 14:32:11 GMT
-Etag: "4d067dc59753727d78ccc4c471a2a489-ssl-df"
+Date: Sun, 28 May 2023 14:13:03 GMT
+Etag: "0ca46c35f450e3aa1382a7d41df8dc50-ssl-df"
 Referrer-Policy: strict-origin-when-cross-origin
 Server: Netlify
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
-Via: 1.1 28fdf6e146f70e7372911f118404fb20.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: nUrVB1hOpCxcLzTJqrkYSkozf1Fvjplnh0enyG4LL2ciHlrRlw43hA==
+Via: 1.1 7545e37b10b5fcf5e3df98185c85194a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LxXyP4c5QyRX7yfQ5jeFhHfcGQjbWPNHH5yEA3xlK55rDQKpWf5cCg==
 X-Amz-Cf-Pop: SEA19-C3
 X-Cache: RefreshHit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01H0127X0N2ZRZ9WD8DKT831M4
+X-Nf-Request-Id: 01H16BMM5ZDQGYWWJNNE4A4VH6
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -278,39 +278,15 @@ Join us by <a href="https://github.com/go-gitea/gitea">contributing</a> to make 
 			<h2 class="subtitle is-2">Sponsors</h2>
 			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
 				<div class="column">
-					<a href="http://inblockchain.com"><img style="height: 100px" src="/images/inblockchain.png" alt="INBlockchain"></a>
-				</div>
-				<div class="column">
 					<a href="https://metal.equinix.com"><img style="height: 100px" src="/images/EM-Standard-Color.png" alt="Equinix Metal is an on-demand bare metal service from Equinix."></a>
 				</div>
-			</div>
-			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
 				<div class="column">
 					<a href="https://www.twosigma.com"><img src="/images/twosigma.svg" style="vertical-align: top;margin-top: 16px;" alt="Two Sigma"></a>
 				</div>
+			</div>
+			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
 				<div class="column">
 					<a href="https://allspice.io"><img src="/images/allspice.svg" style="height:100px;" alt="Allspice"></a>
-				</div>
-			</div>
-			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
-				<div class="column">
-					<a href="https://soebes.io/"><img src="/images/soebes.gif" style="height:100px;" alt="SoEBeS"></a>
-				</div>
-				<div class="column">
-					<a href="https://towhee.io/"><img src="/images/towhee.png" style="height:100px" alt="Towhee"></a>
-				</div>
-			</div>
-			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
-				<div class="column">
-					<a href="https://opencollective.com/gitea"><img src="/images/opencollective.svg" style="height:100px" alt="Open Collective"></a>
-				</div>
-				<div class="column">
-					<a href="https://hostea.org/blog/"><img src="/images/hostea.png" style="height:100px" alt="Hostea"></a>
-				</div>
-			</div>
-			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
-				<div class="column">
-					<a href="https://nlnet.nl/project/Gitea/"><img src="/images/nlnet.png" style="height:100px" alt="NLnet"></a>
 				</div>
 				<div class="column">
 					<a href="https://www.klett-it.net/"><img src="/images/klett_it.svg" style="height:100px;width: 150px;" alt="Klett-IT"></a>
@@ -319,6 +295,9 @@ Join us by <a href="https://github.com/go-gitea/gitea">contributing</a> to make 
 			<div class="columns" style="align-items: center;justify-content: center;margin-top:15px;">
 				<div class="column">
 					<a href="https://hostedgitea.com/"><img src="/images/hosted-gitea-wordmark.svg" style="height:100px" alt="Hosted Gitea"></a>
+				</div>
+				<div class="column">
+					<a href="https://opencollective.com/gitea"><img src="/images/opencollective.svg" style="height:100px" alt="Open Collective"></a>
 				</div>
 			</div>
 		</div>
@@ -332,13 +311,13 @@ Join us by <a href="https://github.com/go-gitea/gitea">contributing</a> to make 
 						Copyright &copy; 2023 <a href="https://gitea.io">The Gitea Authors</a>. All rights reserved. Made with <i class="fa fa-heart" aria-hidden="true"></i> and <a href="https://gohugo.io">Hugo</a>.
 					</p>
 					<p>
-						 Sponsored by <a href="http://inblockchain.com">INBlockchain</a>, <a href="https://metal.equinix.com/">Equinix Metal</a>, <a href="https://www.twosigma.com">Two Sigma</a>, <a href="https://soebes.io/">SoEBeS</a>, <a href="https://www.allspice.io/">Allspice</a>, <a href="https://towhee.io/">Towhee</a>, <a href="https://hostea.org/blog/">Hostea</a>, Jeff Moe, <a href="https://klett-it.net">Klett-IT</a>, <a href="https://hostedgitea.com/">Hosted Gitea</a>, and all of our backers on <a href="https://opencollective.com/gitea">Open Collective</a>.
+						 Sponsored by <a href="https://metal.equinix.com/">Equinix Metal</a>, <a href="https://www.twosigma.com">Two Sigma</a>, <a href="https://www.allspice.io/">Allspice</a>, Jeff Moe, <a href="https://klett-it.net">Klett-IT</a>, <a href="https://hostedgitea.com/">Hosted Gitea</a>, and all of our backers on <a href="https://opencollective.com/gitea">Open Collective</a>.
 					</p>
 					<p>
 						
-						<a class="nav-link" href="https://gitea.io/zh-cn" hreflang="zh-cn">中文(简体)</a>
-						
 						<a class="nav-link" href="https://gitea.io/en-us" hreflang="en-us">English</a>
+						
+						<a class="nav-link" href="https://gitea.io/zh-cn" hreflang="zh-cn">中文(简体)</a>
 						
 						<a class="nav-link" href="https://gitea.io/zh-tw" hreflang="zh-tw">中文(繁體)</a>
 						

@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Content-Type: text/html
-Date: Wed, 10 May 2023 14:32:14 GMT
-Etag: W/"439a-5fb3aa2185e6e"
+Date: Sun, 28 May 2023 14:13:03 GMT
+Etag: W/"4756-5fc8c21476fbc"
 Host-Header: 8441280b0c35cbc1147f8ba998a563a7
-Last-Modified: Tue, 09 May 2023 03:48:49 GMT
+Last-Modified: Thu, 25 May 2023 22:27:47 GMT
 Server: nginx
 Vary: Accept-Encoding
 X-Httpd: 1
@@ -13,7 +13,7 @@ X-Proxy-Cache: HIT
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.326">
+<meta name="generator" content="quarto-1.4.51">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -292,6 +292,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
     });
   }
       let selectedAnnoteEl;

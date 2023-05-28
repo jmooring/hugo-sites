@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 2564
+Age: 0
 Content-Type: text/html
-Date: Wed, 10 May 2023 14:32:05 GMT
-Etag: "213dc-5fadd60769ff9-gzip"
-Last-Modified: Thu, 04 May 2023 12:33:16 GMT
+Date: Sun, 28 May 2023 14:12:59 GMT
+Etag: "21406-5fcafc7645ac9-gzip"
+Last-Modified: Sat, 27 May 2023 16:59:38 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
-X-Cache: HIT, HIT
-X-Cache-Hits: 1, 2
-X-Served-By: cache-hel1410024-HEL, cache-bfi-krnt7300033-BFI
-X-Timer: S1683729126.953042,VS0,VE0
+X-Cache: HIT, MISS
+X-Cache-Hits: 4, 0
+X-Served-By: cache-hel1410025-HEL, cache-bfi-kbfi7400042-BFI
+X-Timer: S1685283179.891918,VS0,VE533
 
 
 
@@ -1209,12 +1209,12 @@ X-Timer: S1683729126.953042,VS0,VE0
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-segment/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/glue.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Segment</span>
+        <span class="box-event__integration--name">AWS Glue</span>
     </div>
 </div>
 
@@ -1222,12 +1222,12 @@ X-Timer: S1683729126.953042,VS0,VE0
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-apache-sqoop/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/natural_language.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Apache Sqoop</span>
+        <span class="box-event__integration--name">Google Cloud Natural Language</span>
     </div>
 </div>
 
@@ -1235,12 +1235,12 @@ X-Timer: S1683729126.953042,VS0,VE0
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/cloudformation.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/automl.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon CloudFormation</span>
+        <span class="box-event__integration--name">Google AutoML</span>
     </div>
 </div>
 
@@ -1248,51 +1248,12 @@ X-Timer: S1683729126.953042,VS0,VE0
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-zendesk/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-dbt-cloud/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Zendesk</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Deployment Manager</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/speech_to_text.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Speech-to-Text</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-telegram/stable/operators.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Telegram</span>
+        <span class="box-event__integration--name">dbt Cloud</span>
     </div>
 </div>
 
@@ -1305,7 +1266,46 @@ X-Timer: S1683729126.953042,VS0,VE0
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Web Services</span>
+        <span class="box-event__integration--name">AWS Security Token Service (STS)</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Microsoft Azure Data Explorer</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">AWS Step Functions</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-samba/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Samba</span>
     </div>
 </div>
 

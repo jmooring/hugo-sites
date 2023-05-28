@@ -2,974 +2,1662 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Wed, 10 May 2023 14:32:14 GMT
-Etag: W/"641b1ca3-cc2e"
+Date: Sun, 28 May 2023 14:13:06 GMT
+Etag: W/"646ede70-c254"
 Front-End-Https: on
-Last-Modified: Wed, 22 Mar 2023 15:20:03 GMT
+Last-Modified: Thu, 25 May 2023 04:05:04 GMT
 Server: nginx/1.18.0
 X-Frame-Options: DENY
 
-cc2e
-
+c254
 <!DOCTYPE html>
-<html lang="en" data-figures="" class="home">
+<html
+  lang="en"
+  class="color-toggle-hidden"
+  
+>
   <head>
-	<meta name="generator" content="Hugo 0.97.3" />
-<title>About PostGIS | PostGIS</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+<meta name="referrer" content="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="light dark" />
+<meta name="generator" content="Hugo 0.97.3" />
 
-<meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping." />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:creator" content="@postgis">
-<meta name="twitter:title" content="About PostGIS" />
-<meta property="og:url" content="/" />
-<meta property="og:title" content="About PostGIS" />
-<meta property="og:description" content="PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping." />
-<meta property="og:image" content="/logos/stock_globe-32x31.png" />
-  <meta name="keywords" content="postgis,database,spatial,sql,mapping,queries,gis,geocoding,routing,raster,opensource gis" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/stock_globe-32x31.png">
-<link rel="icon" type="image/x-icon" sizes="32x32" href="/icons/favicon.ico">
-<link rel="manifest" href="/icons/site.webmanifest">
+    <title>PostGIS</title>
 
-<link rel="canonical" href="/">
-<link rel="alternate" type="application/rss+xml" href="/feed.xml" title="PostGIS" />
-<link rel="alternate" type="application/json" href="/index.json" title="PostGIS" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/favicon/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon/favicon-16x16.png"
+/>
 
     
 
     
-    
-    <link rel="preload" href="/css/styles.cade18ecf13f063a7b7f3e56bea0ebb723a40dfeb5c7ea4a7904529bb8ee2fa91a05dad44f2333426f1b1466e9d93c3c4427a8f80ad1cdc4793a58b757906d84.css" integrity = "sha512-yt4Y7PE/Bjp7fz5WvqDrtyOkDf61x&#43;pKeQRSm7juL6kaBdrUTyMzQm8bFGbp2Tw8RCeo&#43;ArRzcR5Oli3V5BthA==" as="style" crossorigin="anonymous">
-    <link rel="preload" href="/en/js/bundle.a7e29fae500d5aa0b137ab7f9ecfd16d0097f9aa642ebaa2e50088be505404a8995af89844f4456b23bc5b90b9387e95dc08247598a2bd7d816f88bfe4d7bceb.js" as="script" integrity=
-    "sha512-p&#43;KfrlANWqCxN6t/ns/RbQCX&#43;apkLrqi5QCIvlBUBKiZWviYRPRFayO8W5C5OH6V3AgkdZiivX2Bb4i/5Ne86w==" crossorigin="anonymous">
+  <meta property="og:site_name" content="PostGIS" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://postgis.net/" />
+
+
+
+
+  <meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Home" />
+
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "PostGIS",
+      "url": "https://postgis.net",
+      "license": "CC BY-SA 4.0",
+      "inLanguage": "en"
+  }
+  </script>
+
 
     
-    <link rel="stylesheet" type="text/css" href="/css/styles.cade18ecf13f063a7b7f3e56bea0ebb723a40dfeb5c7ea4a7904529bb8ee2fa91a05dad44f2333426f1b1466e9d93c3c4427a8f80ad1cdc4793a58b757906d84.css" integrity="sha512-yt4Y7PE/Bjp7fz5WvqDrtyOkDf61x&#43;pKeQRSm7juL6kaBdrUTyMzQm8bFGbp2Tw8RCeo&#43;ArRzcR5Oli3V5BthA==" crossorigin="anonymous">
-    
+  <script src="/js/colortheme-d3e4d351.bundle.min.js"></script>
+<script src="/js/main-fbb9c8b0.bundle.min.js"></script>
+
+<link
+  rel="preload"
+  as="font"
+  href="/fonts/Metropolis.woff2"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
+<link
+  rel="preload"
+  as="font"
+  href="/fonts/LiberationSans.woff2"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
+
+<link
+  rel="preload"
+  href="/main-ba0e2765.min.css"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/main-ba0e2765.min.css"
+  media="all"
+/>
+
+<link
+  rel="preload"
+  href="/mobile-79ddc617.min.css"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/mobile-79ddc617.min.css"
+  media="screen and (max-width: 45rem)"
+/>
+
+<link
+  rel="preload"
+  href="/print-735ccc12.min.css"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/print-735ccc12.min.css"
+  media="print"
+/>
+
+<link
+  rel="preload"
+  href="/custom.css"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/custom.css"
+  media="all"
+/>
+  <link href="https://postgis.net/" rel="canonical" type="text/html" />
+
+<!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
+
+    <link rel="alternate" type="application/rss+xml" href="https://postgis.net/feed.xml" title="PostGIS" />
+
   </head>
-  
-  
+
+  <body itemscope itemtype="https://schema.org/WebPage">
     
-  
-  <body data-code="12" data-lines="false" id="documentTop">
+  <!-- geekdoc include: sprites/geekdoc.svg -->
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_back" xmlns="http://www.w3.org/2000/svg"><path d="M24 10.526v2.947H5.755l8.351 8.421-2.105 2.105-12-12 12-12 2.105 2.105-8.351 8.421H24z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_left_alt" xmlns="http://www.w3.org/2000/svg"><path d="M5.965 10.526V6.035L0 12l5.965 5.965v-4.491H24v-2.947H5.965z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_arrow_right_alt" xmlns="http://www.w3.org/2000/svg"><path d="M18.035 10.526V6.035L24 12l-5.965 5.965v-4.491H0v-2.947h18.035z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_bitbucket" xmlns="http://www.w3.org/2000/svg"><path d="M15.905 13.355c.189 1.444-1.564 2.578-2.784 1.839-1.375-.602-1.375-2.784-.034-3.403 1.151-.705 2.818.223 2.818 1.564zm1.907-.361c-.309-2.44-3.076-4.056-5.328-3.042-1.426.636-2.389 2.148-2.32 3.747.086 2.097 2.08 3.815 4.176 3.626s3.729-2.234 3.472-4.331zm4.108-9.315c-.756-.997-2.045-1.169-3.179-1.358-3.214-.516-6.513-.533-9.727.034-1.066.172-2.269.361-2.939 1.323 1.1 1.031 2.664 1.186 4.073 1.358 2.544.327 5.156.344 7.699.017 1.426-.172 3.008-.309 4.073-1.375zm.979 17.788c-.481 1.684-.206 3.953-1.994 4.932-3.076 1.701-6.806 1.89-10.191 1.289-1.787-.327-3.884-.894-4.864-2.578-.43-1.65-.705-3.334-.98-5.018l.103-.275.309-.155c5.121 3.386 12.288 3.386 17.427 0 .808.241.206 1.22.189 1.805zM26.01 4.951c-.584 3.764-1.255 7.51-1.908 11.257-.189 1.1-1.255 1.719-2.148 2.183-3.214 1.615-6.96 1.89-10.483 1.512-2.389-.258-4.829-.894-6.771-2.389-.911-.705-.911-1.908-1.083-2.922-.602-3.523-1.289-7.046-1.719-10.604.206-1.547 1.942-2.217 3.231-2.698C6.848.654 8.686.362 10.508.19c3.884-.378 7.854-.241 11.618.859 1.341.395 2.784.945 3.695 2.097.412.533.275 1.203.189 1.805z"/></svg><svg viewBox="-7.27 -7.27 38.55 38.55" id="gdoc_bookmark" xmlns="http://www.w3.org/2000/svg"><path d="M15.268 4.392q.868 0 1.532.638t.664 1.506v17.463l-7.659-3.268-7.608 3.268V6.536q0-.868.664-1.506t1.532-.638h10.876zm4.34 14.144V4.392q0-.868-.638-1.532t-1.506-.664H6.537q0-.868.664-1.532T8.733 0h10.876q.868 0 1.532.664t.664 1.532v17.412z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_auto" xmlns="http://www.w3.org/2000/svg"><path d="M16.846 18.938h2.382L15.22 7.785h-2.44L8.772 18.938h2.382l.871-2.44h3.95zm7.087-9.062L27.999 14l-4.066 4.124v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809zm-11.385 4.937L14 10.282l1.452 4.531h-2.904z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_dark" xmlns="http://www.w3.org/2000/svg"><path d="M14 21.435q3.079 0 5.257-2.178T21.435 14t-2.178-5.257T14 6.565q-1.51 0-3.079.697 1.917.871 3.108 2.701T15.22 14t-1.191 4.037-3.108 2.701q1.568.697 3.079.697zm9.933-11.559L27.999 14l-4.066 4.124v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_brightness_light" xmlns="http://www.w3.org/2000/svg"><path d="M14 21.435q3.079 0 5.257-2.178T21.435 14t-2.178-5.257T14 6.565 8.743 8.743 6.565 14t2.178 5.257T14 21.435zm9.933-3.311v5.809h-5.809L14 27.999l-4.124-4.066H4.067v-5.809L.001 14l4.066-4.124V4.067h5.809L14 .001l4.124 4.066h5.809v5.809L27.999 14z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_check" xmlns="http://www.w3.org/2000/svg"><path d="M8.885 20.197 25.759 3.323l2.24 2.24L8.885 24.677 0 15.792l2.24-2.24z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_check_circle_outline" xmlns="http://www.w3.org/2000/svg"><path d="M14 25.239q4.601 0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784 0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm6.441 7.822 1.972 1.972-11.239 11.239L4.207 14l1.972-1.972 4.995 4.995z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_cloud_off" xmlns="http://www.w3.org/2000/svg"><path d="M9.023 10.5H7q-1.914 0-3.281 1.395t-1.367 3.309 1.367 3.281T7 19.852h11.375zM3.5 4.976l1.477-1.477L24.5 23.022l-1.477 1.477-2.352-2.297H6.999q-2.898 0-4.949-2.051t-2.051-4.949q0-2.844 1.969-4.867t4.758-2.133zm19.086 5.578q2.242.164 3.828 1.832T28 16.351q0 3.008-2.461 4.758l-1.695-1.695q1.805-.984 1.805-3.063 0-1.422-1.039-2.461t-2.461-1.039h-1.75v-.602q0-2.68-1.859-4.539t-4.539-1.859q-1.531 0-2.953.711l-1.75-1.695Q11.431 3.5 14.001 3.5q2.953 0 5.496 2.078t3.09 4.977z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_code" xmlns="http://www.w3.org/2000/svg"><path d="M9.917 24.5a1.75 1.75 0 1 0-3.501.001 1.75 1.75 0 0 0 3.501-.001zm0-21a1.75 1.75 0 1 0-3.501.001A1.75 1.75 0 0 0 9.917 3.5zm11.666 2.333a1.75 1.75 0 1 0-3.501.001 1.75 1.75 0 0 0 3.501-.001zm1.75 0a3.502 3.502 0 0 1-1.75 3.026c-.055 6.581-4.721 8.039-7.82 9.023-2.898.911-3.846 1.349-3.846 3.117v.474a3.502 3.502 0 0 1 1.75 3.026c0 1.932-1.568 3.5-3.5 3.5s-3.5-1.568-3.5-3.5c0-1.294.711-2.424 1.75-3.026V6.526A3.502 3.502 0 0 1 4.667 3.5c0-1.932 1.568-3.5 3.5-3.5s3.5 1.568 3.5 3.5a3.502 3.502 0 0 1-1.75 3.026v9.06c.93-.456 1.914-.766 2.807-1.039 3.391-1.075 5.323-1.878 5.359-5.687a3.502 3.502 0 0 1-1.75-3.026c0-1.932 1.568-3.5 3.5-3.5s3.5 1.568 3.5 3.5z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_copy" xmlns="http://www.w3.org/2000/svg"><path d="M23.502 25.438V7.626H9.562v17.812h13.94zm0-20.315q1.013 0 1.787.745t.774 1.757v17.812q0 1.013-.774 1.787t-1.787.774H9.562q-1.013 0-1.787-.774t-.774-1.787V7.625q0-1.013.774-1.757t1.787-.745h13.94zM19.689 0v2.562H4.438v17.812H1.936V2.562q0-1.013.745-1.787T4.438.001h15.251z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_dangerous" xmlns="http://www.w3.org/2000/svg"><path d="M21.802 19.833 15.969 14l5.833-5.833-1.969-1.969L14 12.031 8.167 6.198 6.198 8.167 12.031 14l-5.833 5.833 1.969 1.969L14 15.969l5.833 5.833zM19.833 0 28 8.167v11.666L19.833 28H8.167L0 19.833V8.167L8.167 0h11.666z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_date" xmlns="http://www.w3.org/2000/svg"><path d="M27.192 28.844V11.192H4.808v17.652h22.384zm0-25.689q1.277 0 2.253.976t.976 2.253v22.459q0 1.277-.976 2.216t-2.253.939H4.808q-1.352 0-2.291-.901t-.939-2.253V6.385q0-1.277.939-2.253t2.291-.976h1.577V.001h3.23v3.155h12.769V.001h3.23v3.155h1.577zm-3.155 11.267v3.155h-3.23v-3.155h3.23zm-6.46 0v3.155h-3.155v-3.155h3.155zm-6.384 0v3.155h-3.23v-3.155h3.23z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_download" xmlns="http://www.w3.org/2000/svg"><path d="M2.866 28.209h26.269v3.79H2.866v-3.79zm26.268-16.925L16 24.418 2.866 11.284h7.493V.001h11.283v11.283h7.493z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_email" xmlns="http://www.w3.org/2000/svg"><path d="M28.845 9.615v-3.23L16 14.422 3.155 6.385v3.23L16 17.577zm0-6.46q1.277 0 2.216.977T32 6.385v19.23q0 1.277-.939 2.253t-2.216.977H3.155q-1.277 0-2.216-.977T0 25.615V6.385q0-1.277.939-2.253t2.216-.977h25.69z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_error_outline" xmlns="http://www.w3.org/2000/svg"><path d="M14 25.239q4.601 0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784 0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm-1.38 6.967h2.761v8.413H12.62V6.967zm0 11.239h2.761v2.826H12.62v-2.826z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_fire" xmlns="http://www.w3.org/2000/svg"><path d="M17.689 21.998q-.32.32-.8.576t-.864.384q-1.152.384-2.272.032t-1.888-.992q-.128-.128-.096-.256t.16-.192q1.216-.384 1.92-1.216t.96-1.792q.192-.896-.064-1.728t-.384-1.728q-.128-.704-.096-1.376t.288-1.312q0-.128.128-.128t.192.064q.384.832.992 1.472t1.28 1.216 1.216 1.248.672 1.568q.064.384.064.704.064.96-.32 1.92t-1.088 1.536zm3.84-10.944q-.768-.704-1.6-1.28t-1.6-1.344q-1.536-1.536-2.016-3.584t.16-4.16q.128-.32-.096-.544t-.544-.096q-.768.32-1.44.768t-1.312.896q-1.984 1.664-3.136 3.936T8.633 10.51t.8 5.088q0 .128.032.256t.032.256q0 .576-.512.832t-1.024-.192q-.128-.192-.192-.32-1.024-1.28-1.376-2.912t-.096-3.232q.064-.384-.288-.576t-.608.128q-1.28 1.664-1.856 3.68t-.448 4.064q0 .576.096 1.184t.288 1.184q.448 1.536 1.216 2.816 1.216 2.048 3.264 3.424t4.416 1.696q2.496.32 5.024-.256t4.448-2.304q1.408-1.344 2.208-3.104t.864-3.68-.704-3.712q-.064-.128-.096-.224t-.096-.224q-.576-1.088-1.28-1.984-.256-.384-.544-.704t-.672-.64z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_git" xmlns="http://www.w3.org/2000/svg"><path d="M27.472 12.753 15.247.529a1.803 1.803 0 0 0-2.55 0l-2.84 2.84 2.137 2.137a2.625 2.625 0 0 1 3.501 3.501l3.499 3.499a2.625 2.625 0 1 1-1.237 1.237l-3.499-3.499c-.083.04-.169.075-.257.106v7.3a2.626 2.626 0 1 1-1.75 0v-7.3a2.626 2.626 0 0 1-1.494-3.607L8.62 4.606l-8.09 8.09a1.805 1.805 0 0 0 0 2.551l12.225 12.224a1.803 1.803 0 0 0 2.55 0l12.168-12.168a1.805 1.805 0 0 0 0-2.551z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_gitea" xmlns="http://www.w3.org/2000/svg"><path d="M5.581 7.229c-2.46-.005-5.755 1.559-5.573 5.48.284 6.125 6.56 6.693 9.068 6.743.275 1.149 3.227 5.112 5.412 5.32h9.573c5.741-.381 10.04-17.363 6.853-17.427-5.271.248-8.395.373-11.073.395v5.3l-.835-.369-.005-4.928c-3.075-.001-5.781-.144-10.919-.397-.643-.004-1.539-.113-2.501-.116zm.348 2.166h.293c.349 3.14.917 4.976 2.067 7.781-2.933-.347-5.429-1.199-5.888-4.38-.237-1.647.563-3.365 3.528-3.401zm11.409 3.087c.2.003.404.04.596.128l.999.431-.716 1.305h-.007a.996.996 0 0 0-.321.053l.006-.002c-.349.114-.593.406-.593.749 0 .097.019.189.055.275l-.002-.006a.767.767 0 0 0 .151.233l-.001-.001-1.235 2.248a.99.99 0 0 0-.302.052l.006-.002c-.349.114-.593.406-.593.749 0 .097.019.189.055.275l-.002-.006c.128.31.457.527.843.527a.987.987 0 0 0 .31-.049l-.006.002c.348-.114.592-.406.592-.749 0-.097-.02-.19-.056-.277l.002.006a.784.784 0 0 0-.211-.293l1.203-2.189a.999.999 0 0 0 .397-.041l-.006.002a.942.942 0 0 0 .285-.15l-.001.001c.464.195.844.353 1.117.488.411.203.556.337.6.487.044.147-.004.429-.236.925-.173.369-.46.893-.799 1.511h-.02a.991.991 0 0 0-.321.053l.006-.002c-.349.114-.593.406-.593.749 0 .097.019.189.055.275l-.002-.006c.128.31.457.527.843.527a.987.987 0 0 0 .31-.049l-.006.002c.348-.114.592-.406.592-.749a.703.703 0 0 0-.055-.275l.002.006a.802.802 0 0 0-.183-.27l.001.001c.335-.611.623-1.136.808-1.531.251-.536.381-.935.267-1.32s-.467-.636-.933-.867c-.307-.151-.689-.311-1.147-.503a.723.723 0 0 0-.052-.324l.002.006a.792.792 0 0 0-.194-.279l.704-1.284 3.899 1.684c.704.305.995 1.053.653 1.68l-2.68 4.907c-.343.625-1.184.884-1.888.58l-5.516-2.384c-.704-.304-.996-1.053-.653-1.68l2.68-4.905c.235-.431.707-.687 1.207-.707z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_github" xmlns="http://www.w3.org/2000/svg"><path d="M16 .394c8.833 0 15.999 7.166 15.999 15.999 0 7.062-4.583 13.062-10.937 15.187-.813.146-1.104-.354-1.104-.771 0-.521.021-2.25.021-4.396 0-1.5-.5-2.458-1.083-2.958 3.562-.396 7.312-1.75 7.312-7.896 0-1.75-.625-3.167-1.646-4.291.167-.417.708-2.042-.167-4.25-1.333-.417-4.396 1.646-4.396 1.646a15.032 15.032 0 0 0-8 0S8.937 6.602 7.603 7.018c-.875 2.208-.333 3.833-.167 4.25-1.021 1.125-1.646 2.542-1.646 4.291 0 6.125 3.729 7.5 7.291 7.896-.458.417-.875 1.125-1.021 2.146-.917.417-3.25 1.125-4.646-1.333-.875-1.521-2.458-1.646-2.458-1.646-1.562-.021-.104.979-.104.979 1.042.479 1.771 2.333 1.771 2.333.938 2.854 5.396 1.896 5.396 1.896 0 1.333.021 2.583.021 2.979 0 .417-.292.917-1.104.771C4.582 29.455-.001 23.455-.001 16.393-.001 7.56 7.165.394 15.998.394zM6.063 23.372c.042-.083-.021-.187-.146-.25-.125-.042-.229-.021-.271.042-.042.083.021.187.146.25.104.062.229.042.271-.042zm.646.709c.083-.062.062-.208-.042-.333-.104-.104-.25-.146-.333-.062-.083.062-.062.208.042.333.104.104.25.146.333.062zm.625.937c.104-.083.104-.25 0-.396-.083-.146-.25-.208-.354-.125-.104.062-.104.229 0 .375s.271.208.354.146zm.875.875c.083-.083.042-.271-.083-.396-.146-.146-.333-.167-.417-.062-.104.083-.062.271.083.396.146.146.333.167.417.062zm1.187.521c.042-.125-.083-.271-.271-.333-.167-.042-.354.021-.396.146s.083.271.271.312c.167.062.354 0 .396-.125zm1.313.104c0-.146-.167-.25-.354-.229-.187 0-.333.104-.333.229 0 .146.146.25.354.229.187 0 .333-.104.333-.229zm1.208-.208c-.021-.125-.187-.208-.375-.187-.187.042-.312.167-.292.312.021.125.187.208.375.167s.312-.167.292-.292z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_gitlab" xmlns="http://www.w3.org/2000/svg"><path d="M1.629 11.034 14 26.888.442 17.048a1.09 1.09 0 0 1-.39-1.203l1.578-4.811zm7.217 0h10.309l-5.154 15.854zM5.753 1.475l3.093 9.559H1.63l3.093-9.559a.548.548 0 0 1 1.031 0zm20.618 9.559 1.578 4.811c.141.437-.016.922-.39 1.203l-13.558 9.84 12.371-15.854zm0 0h-7.216l3.093-9.559a.548.548 0 0 1 1.031 0z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_heart" xmlns="http://www.w3.org/2000/svg"><path d="M16 29.714a1.11 1.11 0 0 1-.786-.321L4.072 18.643c-.143-.125-4.071-3.714-4.071-8 0-5.232 3.196-8.357 8.535-8.357 3.125 0 6.053 2.464 7.464 3.857 1.411-1.393 4.339-3.857 7.464-3.857 5.339 0 8.535 3.125 8.535 8.357 0 4.286-3.928 7.875-4.089 8.035L16.785 29.392c-.214.214-.5.321-.786.321z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_home" xmlns="http://www.w3.org/2000/svg"><path d="M24.003 15.695v8.336c0 .608-.504 1.111-1.111 1.111h-6.669v-6.669h-4.446v6.669H5.108a1.119 1.119 0 0 1-1.111-1.111v-8.336c0-.035.017-.069.017-.104L14 7.359l9.986 8.232a.224.224 0 0 1 .017.104zm3.873-1.198-1.077 1.285a.578.578 0 0 1-.365.191h-.052a.547.547 0 0 1-.365-.122L14 5.831 1.983 15.851a.594.594 0 0 1-.417.122.578.578 0 0 1-.365-.191L.124 14.497a.57.57 0 0 1 .069-.781L12.679 3.314c.729-.608 1.91-.608 2.64 0l4.237 3.543V3.471c0-.313.243-.556.556-.556h3.334c.313 0 .556.243.556.556v7.085l3.803 3.161c.226.191.26.556.069.781z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_info_outline" xmlns="http://www.w3.org/2000/svg"><path d="M12.62 9.793V6.967h2.761v2.826H12.62zM14 25.239q4.601 0 7.92-3.319T25.239 14 21.92 6.08 14 2.761 6.08 6.08 2.761 14t3.319 7.92T14 25.239zM14 0q5.784 0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0zm-1.38 21.033V12.62h2.761v8.413H12.62z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_keyboard_arrow_down" xmlns="http://www.w3.org/2000/svg"><path d="M3.281 5.36 14 16.079 24.719 5.36 28 8.641l-14 14-14-14z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_keyboard_arrow_left" xmlns="http://www.w3.org/2000/svg"><path d="M25.875 28.25 22.125 32 6.126 16.001 22.125.002l3.75 3.75-12.25 12.25z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_keyboard_arrow_right" xmlns="http://www.w3.org/2000/svg"><path d="M6.125 28.25 18.375 16 6.125 3.75 9.875 0l15.999 15.999L9.875 31.998z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_keyboard_arrow_up" xmlns="http://www.w3.org/2000/svg"><path d="M24.719 22.64 14 11.921 3.281 22.64 0 19.359l14-14 14 14z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_language" xmlns="http://www.w3.org/2000/svg"><path d="M20.112 16.826h4.732q.394-1.84.394-2.826t-.394-2.826h-4.732q.197 1.38.197 2.826t-.197 2.826zm-2.497 7.756q1.643-.526 3.418-2.005t2.695-2.991h-4.141q-.657 2.629-1.972 4.995zm-.329-7.756q.197-1.38.197-2.826t-.197-2.826h-6.573q-.197 1.38-.197 2.826t.197 2.826h6.573zM14 25.173q1.84-2.695 2.695-5.587h-5.39q.854 2.892 2.695 5.587zM8.413 8.413q.789-2.826 1.972-4.995-1.643.526-3.451 2.005T4.272 8.414h4.141zM4.272 19.587q.854 1.512 2.662 2.991t3.451 2.005q-1.315-2.366-1.972-4.995H4.272zm-1.117-2.761h4.732Q7.69 15.446 7.69 14t.197-2.826H3.155q-.394 1.84-.394 2.826t.394 2.826zM14 2.826q-1.84 2.695-2.695 5.587h5.39Q15.841 5.521 14 2.826zm9.727 5.587q-.92-1.512-2.695-2.991t-3.418-2.005q1.183 2.169 1.972 4.995h4.141zM14 0q5.784 0 9.892 4.108T28 14t-4.108 9.892T14 28t-9.892-4.108T0 14t4.108-9.892T14 0z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_link" xmlns="http://www.w3.org/2000/svg"><path d="M24.037 7.963q3.305 0 5.634 2.366T32 16t-2.329 5.671-5.634 2.366h-6.46v-3.08h6.46q2.028 0 3.493-1.465t1.465-3.493-1.465-3.493-3.493-1.465h-6.46v-3.08h6.46zM9.615 17.578v-3.155h12.77v3.155H9.615zM3.005 16q0 2.028 1.465 3.493t3.493 1.465h6.46v3.08h-6.46q-3.305 0-5.634-2.366T0 16.001t2.329-5.671 5.634-2.366h6.46v3.08h-6.46q-2.028 0-3.493 1.465t-1.465 3.493z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_mastodon" xmlns="http://www.w3.org/2000/svg"><path d="M30.924 10.506c0-6.941-4.548-8.976-4.548-8.976C24.083.477 20.144.034 16.054.001h-.101C11.862.034 7.926.477 5.633 1.53c0 0-4.548 2.035-4.548 8.976 0 1.589-.031 3.491.02 5.505.165 6.79 1.245 13.479 7.522 15.14 2.893.765 5.379.927 7.38.816 3.629-.2 5.667-1.296 5.667-1.296l-.12-2.633s-2.593.817-5.505.719c-2.887-.099-5.932-.311-6.399-3.855a7.069 7.069 0 0 1-.064-.967v-.028.001s2.833.693 6.423.857c2.195.1 4.253-.129 6.344-.377 4.009-.479 7.5-2.949 7.939-5.207.689-3.553.633-8.676.633-8.676zm-5.366 8.945h-3.329v-8.159c0-1.72-.724-2.592-2.171-2.592-1.6 0-2.403 1.035-2.403 3.083v4.465h-3.311v-4.467c0-2.048-.803-3.083-2.403-3.083-1.447 0-2.171.873-2.171 2.592v8.159H6.441v-8.404c0-1.719.437-3.084 1.316-4.093.907-1.011 2.092-1.528 3.565-1.528 1.704 0 2.995.655 3.848 1.965l.828 1.391.829-1.391c.853-1.311 2.144-1.965 3.848-1.965 1.472 0 2.659.517 3.565 1.528.877 1.009 1.315 2.375 1.315 4.093z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_matrix" xmlns="http://www.w3.org/2000/svg"><path d="M.843.734v30.532H3.04v.733H0V0h3.04v.733zm9.391 9.68v1.543h.044a4.417 4.417 0 0 1 1.489-1.365c.577-.327 1.248-.487 2-.487.72 0 1.377.143 1.975.419.597.277 1.047.776 1.36 1.477.339-.499.8-.941 1.379-1.323.579-.383 1.267-.573 2.061-.573.604 0 1.163.075 1.68.223a3.34 3.34 0 0 1 1.324.707c.368.327.652.745.861 1.268.203.523.307 1.151.307 1.889v7.637h-3.132v-6.468c0-.381-.013-.745-.043-1.083a2.315 2.315 0 0 0-.246-.893l.006.013a1.484 1.484 0 0 0-.577-.593l-.007-.004c-.259-.147-.609-.221-1.047-.221-.443 0-.8.085-1.071.252-.267.166-.483.39-.635.656l-.005.009a2.558 2.558 0 0 0-.307.915l-.002.013a7.156 7.156 0 0 0-.08 1.044v6.359h-3.133v-6.4c0-.339-.005-.671-.024-1.003a2.772 2.772 0 0 0-.197-.936l.007.019a1.41 1.41 0 0 0-.548-.667l-.006-.003c-.259-.167-.635-.253-1.139-.253-.148 0-.345.032-.585.099-.24.068-.48.191-.707.376-.228.184-.425.449-.585.793-.16.345-.24.8-.24 1.36v6.621H7.279v-11.42zm20.923 20.852V.734H28.96V.001H32V32h-3.04v-.733z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_menu" xmlns="http://www.w3.org/2000/svg"><path d="M.001 5.334h31.998v3.583H.001V5.334zm0 12.416v-3.5h31.998v3.5H.001zm0 8.916v-3.583h31.998v3.583H.001z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_notification" xmlns="http://www.w3.org/2000/svg"><path d="m22.615 19.384 2.894 2.894v1.413H2.49v-1.413l2.894-2.894V12.25q0-3.365 1.716-5.856t4.745-3.231v-1.01q0-.875.606-1.514T13.999 0t1.548.639.606 1.514v1.01q3.029.74 4.745 3.231t1.716 5.856v7.134zM14 27.999q-1.211 0-2.053-.808t-.841-2.019h5.788q0 1.144-.875 1.986T14 27.999z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_path" xmlns="http://www.w3.org/2000/svg"><path d="M28 12.62h-9.793V8.414h-2.826v11.173h2.826v-4.206H28V26.62h-9.793v-4.206H12.62v-14H9.794v4.206H.001V1.381h9.793v4.206h8.413V1.381H28V12.62z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_person" xmlns="http://www.w3.org/2000/svg"><path d="M16 20.023q5.052 0 10.526 2.199t5.473 5.754v4.023H0v-4.023q0-3.555 5.473-5.754t10.526-2.199zM16 16q-3.275 0-5.614-2.339T8.047 8.047t2.339-5.661T16 0t5.614 2.386 2.339 5.661-2.339 5.614T16 16z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_search" xmlns="http://www.w3.org/2000/svg"><path d="M11.925 20.161q3.432 0 5.834-2.402t2.402-5.834-2.402-5.834-5.834-2.402-5.834 2.402-2.402 5.834 2.402 5.834 5.834 2.402zm10.981 0L32 29.255 29.255 32l-9.094-9.094v-1.458l-.515-.515q-3.26 2.831-7.721 2.831-4.976 0-8.45-3.432T.001 11.925t3.474-8.45 8.45-3.474 8.407 3.474 3.432 8.45q0 1.802-.858 4.075t-1.973 3.646l.515.515h1.458z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_shield" xmlns="http://www.w3.org/2000/svg"><path d="M22.167 15.166V3.5h-8.166v20.726c.93-.492 2.424-1.349 3.883-2.497 1.95-1.531 4.284-3.919 4.284-6.562zm3.499-13.999v14c0 7.674-10.737 12.523-11.192 12.724-.146.073-.31.109-.474.109s-.328-.036-.474-.109c-.456-.201-11.192-5.049-11.192-12.724v-14C2.334.529 2.863 0 3.501 0H24.5c.638 0 1.167.529 1.167 1.167z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_star" xmlns="http://www.w3.org/2000/svg"><path d="M14 22.052 5.324 27.31l2.3-9.859L0 10.813l10.056-.854L14 .692l3.944 9.267L28 10.813l-7.624 6.638 2.3 9.859z"/></svg><svg viewBox="-7.27 -7.27 42.55 42.55" id="gdoc_tag" xmlns="http://www.w3.org/2000/svg"><path d="M17.52 17.52v-7.041h-7.041v7.041h7.041zM28 10.479h-7.041v7.041H28v3.439h-7.041V28H17.52v-7.041h-7.041V28H7.04v-7.041H-.001V17.52H7.04v-7.041H-.001V7.04H7.04V-.001h3.439V7.04h7.041V-.001h3.439V7.04H28v3.439z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_timer" xmlns="http://www.w3.org/2000/svg"><path d="M16 29q4.428 0 7.536-3.143t3.107-7.571-3.107-7.536T16 7.643 8.464 10.75t-3.107 7.536 3.107 7.571T16 29zM26.714 9.786q1.214 1.571 2.107 4.036t.893 4.464q0 5.643-4 9.678T16 32t-9.714-4.036-4-9.678 4-9.678T16 4.572q1.929 0 4.464.929t4.107 2.143l2.143-2.214q1.143.929 2.143 2.143zM14.5 19.857v-9.143h3v9.143h-3zM20.571.001v3.071h-9.143V.001h9.143z"/></svg><svg viewBox="-7.27 -7.27 46.55 46.55" id="gdoc_xmpp" xmlns="http://www.w3.org/2000/svg"><path d="M31.995 4.237c-.449.175-1.12.433-1.936.745-1.544.591-2.328.891-2.924 1.093-.613.208-1.287.409-2.635.813-.911.272-1.672.495-2.212.651-.031.875 0 2.177-.292 3.635a21.837 21.837 0 0 1-2.016 5.765c-1.496 2.944-3.236 4.817-3.88 5.476-.056-.059-.112-.117-.168-.179-.707-.763-2.403-2.703-3.815-5.683-1.053-2.223-1.484-4.044-1.605-4.584-.356-1.589-.427-2.955-.427-4.117 0-.075-.036-.129-.101-.149-.721-.223-1.765-.519-2.887-.853-1.271-.379-2.193-.744-3.408-1.2-.493-.185-1.409-.547-2.217-.859C.723 4.499.113 4.236.041 4.236c-.005 0-.015 0-.023.012a.131.131 0 0 0-.019.076c.009.593.08 1.361.256 2.365.615 3.503 2.688 7.061 4.36 9.244 0 0 3.717 5.035 9.128 8.144l.303.176c-.009.008-.02.015-.028.021-1.717 1.316-3.201 1.977-3.579 2.14a15.71 15.71 0 0 1-2.219.772v.407a25.31 25.31 0 0 0 2.72-.487 26.72 26.72 0 0 0 5.075-1.792c.136.067.276.136.42.204 1.527.725 3.571 1.627 6.073 2.048.613.103 1.136.165 1.507.195a.109.109 0 0 0 .115-.091.55.55 0 0 0 .004-.217.107.107 0 0 0-.063-.073c-.505-.209-1.201-.4-1.983-.719-.935-.381-2.241-1.067-3.648-2.128a13.528 13.528 0 0 1-.367-.287c4.64-2.656 7.989-6.588 7.989-6.588 1.735-2.036 4.441-5.623 5.431-9.795.349-1.473.539-2.741.5-3.628z"/></svg></defs></svg>
 
-<header class="nav_header" >
-  <nav class="nav"><a href='/' class="nav_brand nav_item" title="PostGIS">
-  <img src="/logos/postgis-logo-small.png" class="logo" alt="PostGIS">
-  <div class="nav_close">
-    <div><svg class="icon">
-  <title>open-menu</title>
-  <use xlink:href="#open-menu"></use>
-</svg>
-<svg class="icon">
-  <title>closeme</title>
-  <use xlink:href="#closeme"></use>
-</svg>
-</div>
-  </div>
-</a>
 
-    <div class='nav_body nav_body_right'>
+
+
+    <div
+      class="wrapper "
+    >
+      <input type="checkbox" class="hidden" id="menu-control" />
+      <input type="checkbox" class="hidden" id="menu-header-control" />
       
-      
-      
+      <header class="gdoc-header">
+  <div class="container flex align-center justify-between">
+    
+      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
+        <svg class="gdoc-icon gdoc_menu">
+          <title>Open Navigation</title>
+          <use xlink:href="#gdoc_menu"></use>
+        </svg>
+        <svg class="gdoc-icon gdoc_arrow_back">
+          <title>Close Navigation</title>
+          <use xlink:href="#gdoc_arrow_back"></use>
+        </svg>
+      </label>
+    
+    <div>
+      <a class="gdoc-brand gdoc-header__link" href="https://postgis.net">
+        <span class="flex align-center">
+         <img
+            class="gdoc-brand__img"
+            src="/brand.svg"
+            alt=""
+          />
+          <span class="gdoc-brand__title">PostGIS</span>
+        </span>
+      </a>
+    </div>
+    <div class="gdoc-menu-header">
+      <span class="gdoc-menu-header__items">
         
 
-  <div class="nav_parent nav_active">
-    <a href="/" class="nav_item" title="Home">Home </a>
-  </div>
-  <div class="nav_parent">
-    <a href="/install/" class="nav_item" title="Download">Download </a>
-  </div>
-  <div class="nav_parent">
-    <a href="/documentation/" class="nav_item" title="Documentation">Documentation </a>
-  </div>
-  <div class="nav_parent">
-    <a href="/development/" class="nav_item" title="Development">Development </a>
-  </div>
-  <div class="nav_parent">
-    <a href="/sponsor/" class="nav_item" title="Sponsor">Sponsor </a>
-  </div>
-  <div class="nav_parent">
-    <a href="/support/" class="nav_item" title="Support">Support </a>
-  </div>
-      
-			<a href="https://osgeo.org"><img src="/logos/logo-osgeo.svg" style="height:31px" /></a>
-<div class='follow'>
-    
-  <a href="/feed.xml">
-    <svg class="icon">
-  <title>rss</title>
-  <use xlink:href="#rss"></use>
-</svg>
 
-  </a>
-<div class="color_mode">
-  <input type="checkbox" class="color_choice" id="mode">
-</div>
+        <span id="gdoc-color-theme">
+          <svg class="gdoc-icon gdoc_brightness_dark">
+            <title>Toggle Dark/Light/Auto mode</title>
+            <use xlink:href="#gdoc_brightness_dark"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_brightness_light">
+            <title>Toggle Dark/Light/Auto mode</title>
+            <use xlink:href="#gdoc_brightness_light"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_brightness_auto">
+            <title>Toggle Dark/Light/Auto mode</title>
+            <use xlink:href="#gdoc_brightness_auto"></use>
+          </svg>
+        </span>
 
-</div>
+        <span class="gdoc-menu-header__home">
+          <a href="https://postgis.net" class="gdoc-header__link">
+            <svg class="gdoc-icon gdoc_home">
+              <title>Back to homepage</title>
+              <use xlink:href="#gdoc_home"></use>
+            </svg>
+          </a>
+        </span>
 
+        
+
+
+
+        <span class="gdoc-menu-header__control">
+          <label for="menu-header-control">
+            <svg class="gdoc-icon gdoc_keyboard_arrow_right">
+              <use xlink:href="#gdoc_keyboard_arrow_right"></use>
+              <title>Close Menu Bar</title>
+            </svg>
+          </label>
+        </span>
+      </span>
+      <label for="menu-header-control" class="gdoc-menu-header__control">
+        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
+          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+          <title>Open Menu Bar</title>
+        </svg>
+      </label>
     </div>
-  </nav>
+  </div>
 </header>
 
-    <main>
+
+
+      <main class="container flex flex-even">
+        
+          <aside class="gdoc-nav">
+            <nav>
+  
+  <div class="gdoc-search flex align-center">
+    <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
+    <input
+      type="text"
+      id="gdoc-search-input"
+      class="gdoc-search__input"
+      placeholder="Search..."
+      aria-label="Search"
+      maxlength="64"
+      data-site-base-url="https://postgis.net"
+      data-site-lang="en"
+    />
+    <ul id="gdoc-search-results" class="gdoc-search__list"></ul>
+  </div>
+
+
+
+
+  <section class="gdoc-nav--main">
+    
+    
+      
+
   
 
-<div class="grid-inverse wrap content">
 
-  <article>
-		<a href="https://git.osgeo.org/gitea/postgis/postgis.net/src/branch/website/content/_index.md" class="post_tag button button_translucent">Edit this page</a>
-    <h1 class="post_title">About PostGIS</h1>
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/"
+                    class="gdoc-nav__entry"
+                  >
+                    Documentation
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/getting_started/"
+                    class="gdoc-nav__entry"
+                  >
+                    Getting Started
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/manual/"
+                    class="gdoc-nav__entry"
+                  >
+                    Official Manual
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/tips/"
+                    class="gdoc-nav__entry"
+                  >
+                    Tips &amp; Tricks
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/training/"
+                    class="gdoc-nav__entry"
+                  >
+                    Training Materials
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/documentation/faq/"
+                    class="gdoc-nav__entry"
+                  >
+                    FAQ
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/"
+                    class="gdoc-nav__entry"
+                  >
+                    Community
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/events/"
+                    class="gdoc-nav__entry"
+                  >
+                    Events
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+      
+        
+      
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/support/"
+                    class="gdoc-nav__entry"
+                  >
+                    Support
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/mailinglists/"
+                    class="gdoc-nav__entry"
+                  >
+                    Mailing Lists
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/chat/"
+                    class="gdoc-nav__entry"
+                  >
+                    Chat
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/video/"
+                    class="gdoc-nav__entry"
+                  >
+                    Video
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/web/"
+                    class="gdoc-nav__entry"
+                  >
+                    Web Forums
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/community/conduct/"
+                    class="gdoc-nav__entry"
+                  >
+                    Code of Conduct
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/development/"
+                    class="gdoc-nav__entry"
+                  >
+                    Development
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/development/source_code/"
+                    class="gdoc-nav__entry"
+                  >
+                    Source Code
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/development/getting_involved/"
+                    class="gdoc-nav__entry"
+                  >
+                    Getting Involved
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/development/bug_reporting/"
+                    class="gdoc-nav__entry"
+                  >
+                    Bug Reporting
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/development/versions_eol/"
+                    class="gdoc-nav__entry"
+                  >
+                    Versioning &amp; EOL
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+    
+  </ul>
+
+
 
 
 
 
     
-    <div class="post_body"><span itemscope itemtype="http://www.schema.org/SoftwareApplication">
-<span itemprop="about">
-<p><span itemprop="name">PostGIS</span> is a  <span itemprop="applicationSubCategory">spatial</span> <span itemprop="applicationCategory">database</span> extender for <a href="https://postgresql.org" target="_blank">PostgreSQL</a> object-relational database.  It adds support for geographic objects allowing location queries to be run in SQL. </span></p>
-<br />
-<ul>
-<li><a href="/docs/">Docs for latest stable release</a></li>
-<li><a href="/docs/manual-dev">Docs for latest development release</a></li>
-<li><a href="/workshops/postgis-intro/">PostGIS Intro Workshop</a></li>
-</ul>
-<p>In addition to basic location awareness, PostGIS offers many features rarely found in other competing spatial databases
-such as Oracle Locator/Spatial and SQL Server. Refer to <a href="/features/">PostGIS Feature List</a> for more details.</p>
-</span>
-<h2 id="license">License</h2>
-<span>
-PostGIS is released under the GNU General Public License (<a
-href="http://opensource.org/licenses/gpl-2.0.php" rel="license"
-target="_blank">GPLv2</a> or later).
-Refer to <a href="/docs/manual-dev/PostGIS_FAQ.html#license_faq" target="_blank">License FAQ</a> for more information.
-PostGIS is developed by a group of contributors led by a Project Steering Committee. </span>
-<h2 id="should-you-upgrade-now">Should you upgrade now?</h2>
-<p>Not sure if you are running the best possible PostGIS for your PostgreSQL?
-Refer to our <a href="/eol_policy/">Version compatibility and EOL Policy</a>.</p>
-<h2 id="hello-postgis">Hello PostGIS</h2>
-<p>Here is a sample spatial query to try out in your PostGIS enabled database:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-postgres" data-lang="postgres"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="k">WITH</span> <span class="n">city</span> <span class="k">AS</span> <span class="p">(</span>
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl">  <span class="k">SELECT</span> <span class="s1">&#39;Gotham&#39;</span> <span class="k">AS</span> <span class="k">name</span><span class="p">,</span>
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl">	<span class="n">ST_Buffer</span><span class="p">(</span><span class="n">ST_Point</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">0</span><span class="p">),</span> <span class="mf">10</span><span class="p">)</span> <span class="k">AS</span> <span class="n">geom</span>
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl"> <span class="p">,</span> <span class="n">superhero</span><span class="p">(</span><span class="k">name</span><span class="p">,</span><span class="n">geom</span><span class="p">)</span> <span class="k">AS</span> <span class="p">(</span>
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl">    <span class="k">VALUES</span>
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl">      <span class="p">(</span><span class="s1">&#39;Bat Boy&#39;</span><span class="p">,</span> <span class="n">ST_Point</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0</span><span class="p">))</span>
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">    <span class="p">,</span> <span class="p">(</span><span class="s1">&#39;Bat Girl&#39;</span><span class="p">,</span> <span class="n">ST_Point</span><span class="p">(</span><span class="mf">1</span><span class="p">,</span><span class="mf">1</span><span class="p">)</span> <span class="p">)</span>
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="k">SELECT</span> <span class="n">superhero</span><span class="mf">.</span><span class="k">name</span>
-</span></span><span class="line"><span class="ln">11</span><span class="cl"><span class="k">FROM</span> <span class="n">city</span> <span class="k">INNER</span> <span class="k">JOIN</span> <span class="n">superhero</span>
-</span></span><span class="line"><span class="ln">12</span><span class="cl">	<span class="k">ON</span> <span class="n">ST_Contains</span><span class="p">(</span><span class="n">city</span><span class="mf">.</span><span class="n">geom</span><span class="p">,</span> <span class="n">superhero</span><span class="mf">.</span><span class="n">geom</span><span class="p">);</span>
-</span></span></code></pre></div>
-    </div>
-		<h2>News</h2>
-		<div><a class="twitter" href="https://twitter.com/postgis?ref_src=postgis" rel="nofollow"> <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
- @postgis tweets</a></div>
+  </section>
+
+  
 
 
-		<div id="posts" class="posts">
-			<ul style="list-style-type: none; padding-left: 0;">
-					<li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/2022/11/13/postgis-3.3.2-3.2.4-3.1.8-3.0.8-patch-releases/" title="PostGIS 3.3.2, 3.2.4, 3.1.8, 3.0.8 Patch Releases">PostGIS 3.3.2, 3.2.4, 3.1.8, 3.0.8 Patch Releases</a>
-      </h3>
-			
+  <section class="gdoc-nav--more">
+    
+      <h2>More</h2>
       
-  	<div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 13, 2022</span> <b>news</b>
-    <span class="post_time"> · 2 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/release' title="release" class="post_tag button button_translucent">release
-        </a><a href='/tags/3.3' title="3.3" class="post_tag button button_translucent">3.3
-        </a><a href='/tags/3.2' title="3.2" class="post_tag button button_translucent">3.2
-        </a><a href='/tags/3.1' title="3.1" class="post_tag button button_translucent">3.1
-        </a><a href='/tags/3' title="3" class="post_tag button button_translucent">3
-        </a>
-    </span>
-  </div>
 
-			
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
+  
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+      
+      
+
+
+      <li>
+        
+        
           
-            <p>The PostGIS development team is pleased to provide
+          
+          
+          
+          
+          
+          
+
+          
+          
+
+          
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              <span class="flex">
+                
+                  <svg class="gdoc-icon gdoc_notification"><use xlink:href="#gdoc_notification"></use></svg>
+                
+                <a
+                  href="/news"
+                  class="gdoc-nav__entry"
+                >
+                  News
+                </a>
+              </span>
+              
+            </label>
+          
+        
+
+        
+      </li>
+    
+      
+      
+
+
+      <li>
+        
+        
+          
+          
+          
+          
+          
+          
+          
+
+          
+          
+
+          
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              <span class="flex">
+                
+                  <svg class="gdoc-icon gdoc_download"><use xlink:href="#gdoc_download"></use></svg>
+                
+                <a
+                  href="/development/source_code"
+                  class="gdoc-nav__entry"
+                >
+                  Releases
+                </a>
+              </span>
+              
+            </label>
+          
+        
+
+        
+      </li>
+    
+      
+      
+
+
+      <li>
+        
+        
+          
+          
+          
+          
+          
+          
+          
+
+          
+          
+
+          
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              <span class="flex">
+                
+                  <svg class="gdoc-icon gdoc_github"><use xlink:href="#gdoc_github"></use></svg>
+                
+                <a
+                  href="
+                    https://git.osgeo.org/gitea/postgis/postgis"
+                  class="gdoc-nav__entry"
+                >
+                  View Source
+                </a>
+              </span>
+              
+            </label>
+          
+        
+
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+
+    
+  </section>
+</nav>
+
+          </aside>
+        
+
+
+        <div class="gdoc-page">
+          
+
+
+<article class="gdoc-markdown postgis_home">
+  <h1 class="postgis_home">About PostGIS</h1>
+  <p>PostGIS extends the capabilities of the <a
+  class="gdoc-markdown__link"
+  href="https://postgresql.org"
+>PostgreSQL</a> relational database by adding support storing, indexing and querying geographic data.</p>
+<p>PostGIS features include:</p>
+<ul>
+<li><strong>Spatial Data Storage</strong>: Store different types of spatial data such as points, lines, polygons, and multi-geometries, in both 2D and <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/PostGIS_Special_Functions_Index.html#PostGIS_3D_Functions"
+>3D</a> data.</li>
+<li><strong>Spatial Indexing</strong>: Quickly <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/using_postgis_dbmanagement.html#build-indexes"
+>search</a> and retrieve spatial data based on its location.</li>
+<li><strong>Spatial Functions</strong>: A wide range of spatial functions that allow you to filter and analyze spatial data, measuring <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/ST_Distance.html"
+>distances</a> and <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/ST_Area.html"
+>areas</a>, <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/ST_Intersection.html"
+>intersecting</a> geometries, <a
+  class="gdoc-markdown__link"
+  href="postgis.net/docs/ST_Buffer.html"
+>buffering</a>, and more.</li>
+<li><strong>Geometry Processing</strong>: Tools for <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/ST_Union.html"
+>processing</a> and <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/ST_Translate.html"
+>manipulating</a> geometry data, such as <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/ST_Simplify.html"
+>simplification</a>, <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/ST_AsMVT.html"
+>conversion</a>, and generalization.</li>
+<li><strong>Raster Data Support</strong>: Storage and processing of <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/RT_reference.html"
+>raster data</a>, such as elevation data and weather data.</li>
+<li><strong>Geocoding and Reverse Geocoding</strong>: Functions for <a
+  class="gdoc-markdown__link"
+  href="http://postgis.net/docs/postgis_installation.html#loading_extras_tiger_geocoder"
+>geocoding</a> and reverse geocoding.</li>
+<li><strong>Integration</strong>: Access and work with PostGIS using third party tools such as QGIS, GeoServer, ArcGIS, Tableau, and MapServer.</li>
+</ul>
+
+</article>
+
+
+<section class="gdoc-markdown">
+  <h2>Latest News</h2>
+
+
+  <h3><a href="https://postgis.net/2022/11/PostGIS-3.3.2-3.2.4-3.1.8-3.0.8-Patch-Releases/">PostGIS 3.3.2, 3.2.4, 3.1.8, 3.0.8 Patch Releases</a></h3>
+  <p><p>The PostGIS development team is pleased to provide
 security, bug fixes and performance enhancements
-3.3.2, 3.2.4, 3.1.8 and 3.0.8 for the 3.3, 3.2, 3.1, and 3.0 stable branches.</p>
-          
-          <br>
-          <a href="/2022/11/13/postgis-3.3.2-3.2.4-3.1.8-3.0.8-patch-releases/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-
-  </li>
-
-					<li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/2022/11/12/postgis-2.5.9-eol/" title="PostGIS 2.5.9 EOL">PostGIS 2.5.9 EOL</a>
-      </h3>
-			
-      
-  	<div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Nov 12, 2022</span> <b>news</b>
-    <span class="post_time"> · 1 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/release' title="release" class="post_tag button button_translucent">release
-        </a><a href='/tags/2.5' title="2.5" class="post_tag button button_translucent">2.5
-        </a><a href='/tags/eol' title="EOL" class="post_tag button button_translucent">EOL
-        </a>
-    </span>
-  </div>
-
-			
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>The PostGIS Team is pleased to release PostGIS 2.5.9! This is the end-of-life release of the 2.5 branch.</p>
-<p><strong>2.5.9</strong></p>
-<ul>
-<li><a href="https://download.osgeo.org/postgis/source/postgis-2.5.9.tar.gz">source download</a> <a href="/stuff/postgis-2.5.9.tar.gz.md5">md5</a></li>
-<li><a href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/2.5.9/NEWS">NEWS</a></li>
-<li><a href="https://download.osgeo.org/postgis/docs/postgis-2.5.9.pdf">PDF docs en</a></li>
-</ul>
-<p>This release is a bug fix release, addressing issues found in the previous 2.5 releases.</p>
-          
-          <br>
-          <a href="/2022/11/12/postgis-2.5.9-eol/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-
-  </li>
-
-					<li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/2022/09/10/postgis-3.3.1/" title="PostGIS 3.3.1">PostGIS 3.3.1</a>
-      </h3>
-			
-      
-  	<div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Sep 10, 2022</span> <b>news</b>
-    <span class="post_time"> · 1 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/release' title="release" class="post_tag button button_translucent">release
-        </a><a href='/tags/3.3' title="3.3" class="post_tag button button_translucent">3.3
-        </a>
-    </span>
-  </div>
-
-			
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>The PostGIS Team is pleased to release PostGIS 3.3.1.</p>
-<p>This is a bug fix release to address an issue compiling against PostgreSQL 15 Beta 4.</p>
-<p>Best served with <a href="https://www.postgresql.org/about/news/postgresql-15-beta-4-released-2507/">PostgreSQL 15 Beta 4</a>.</p>
-          
-          <br>
-          <a href="/2022/09/10/postgis-3.3.1/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-
-  </li>
-
-			</ul>
-	 </div>
-<div class="post_comments">
+3.3.2, 3.2.4, 3.1.8 and 3.0.8 for the 3.3, 3.2, 3.1, and 3.0 stable branches.</p></p>
   
-  
-  
-</div>
-
-
-
-
-  </article>
-<aside class="sidebar">
-  <section class="sidebar_inner">
-		<br>
+    <a
+      class="flex-inline align-center fake-link"
+      title="Read more"
+      href="/2022/11/PostGIS-3.3.2-3.2.4-3.1.8-3.0.8-Patch-Releases/"
+    >
+      Read more
+      <i class="gdoc-icon">gdoc_arrow_right_alt</i>
+    </a>
     
 
-    
-    
-		
 
-		<h3><a href="/category/events">Upcoming Events</a></h3>
-		
-				
-	<div class="pale wrapper">
-		<a href="https://2023.foss4g.org/"><img src="https://2023.foss4g.org/img/logo.png" alt="FOSS4G 2023" style="height:50px;flex: content;" /></a>
-		<br /><a href="https://2023.foss4g.org/"><b>FOSS4G 2023</b></a><br /> 2023 Jun 26th To Jul 2nd, Prizren, Kosovo
-	</div>
-<br/>
-		
-		<br /><br />
-		<h3><a href="/category/events">Past Events</a></h3>
-		
-				
-	<div class="pale wrapper">
-		<a href="https://uk.osgeo.org/foss4guk2022local/"><img src="https://uk.osgeo.org/foss4guk2022local/images/logo.png" alt="FOSS4G:UK Local 2022" style="height:50px;flex: content;" /></a>
-		<br /><a href="https://uk.osgeo.org/foss4guk2022local/"><b>FOSS4G:UK Local 2022</b></a><br /> 2022 Nov 17th, Virtual and 6 UK locations<a class="post_tag button button_translucent" href="https://www.youtube.com/c/FOSS4GUK/streams">Videos</a><br />
-	</div>
+</section>
 
-		
-				
-	<div class="pale wrapper">
-		<a href="https://info.crunchydata.com/postgis-day-2022"><img src="https://info.crunchydata.com/hs-fs/hubfs/Logo-16.png?width=1692&amp;name=Logo-16.png" alt="Virtual PostGIS Day 2022" style="height:50px;flex: content;" /></a>
-		<br /><a href="https://info.crunchydata.com/postgis-day-2022"><b>Virtual PostGIS Day 2022</b></a><br /> 2022 November 17th, Online<a class="post_tag button button_translucent" href="https://www.youtube.com/playlist?list=PLesw5jpZchudJTmRukWO1eP5-6zPpIm5x">Videos</a><br />
-	</div>
 
-		
 
-		<h2>Tips</h2>
-		<ul style="list-style-type: none; padding-left: 0;">
-			
-					<li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="/2023/02/03/tip-removing-raster-from-2-3/" title="Fixing a broken postgis raster install">Fixing a broken postgis raster install</a>
-      </h3>
-			
-      
-  	<div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Feb 3, 2023</span> <b>tips</b>
-    <span class="post_time"> · 2 min read</span> &nbsp;<b>Regina Obe</b><span>&nbsp;· <a href='/tags/newbie' title="newbie" class="post_tag button button_translucent">newbie
-        </a><a href='/tags/upgrade' title="upgrade" class="post_tag button button_translucent">upgrade
-        </a>
-    </span>
-  </div>
 
-			
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>As of PostGIS 3.0, the PostGIS raster support is no longer part of the
-<code>postgis</code> extension, but instead spun off into a PostGIS extension called <code>postgis_raster</code>.</p>
-<p><a href="/2022/01/14/tip-upgrading-raster-from-2-3">Upgrading raster from 2.* to 3.*</a> covers the proper
-way of upgrading your install from PostGIS 2+ to PostGIS 3+.</p>
-<p>Unfortunately many people in a heat of panic when …</p>
-          
-          <br>
-          <a href="/2023/02/03/tip-removing-raster-from-2-3/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
+          <div class="gdoc-page__footer flex flex-wrap justify-between">
+            
 
-  </li>
 
-			
-		</ul>
-    <div>
-      <h2 class="mt-4 taxonomy" id="category-section"></h2>
-      <nav class="tags_nav">
-        <a href='/category/news/' class="post_tag button button_translucent" title="news">
-          NEWS
-          <span class="button_tally">199</span>
-        </a>
-        
-        <a href='/category/events/' class="post_tag button button_translucent" title="events">
-          EVENTS
-          <span class="button_tally">16</span>
-        </a>
-        
-        <a href='/category/tips/' class="post_tag button button_translucent" title="tips">
-          TIPS
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/category/casestudy/' class="post_tag button button_translucent" title="casestudy">
-          CASESTUDY
-          <span class="button_tally">9</span>
-        </a>
-        
-        <a href='/category/rfcs/' class="post_tag button button_translucent" title="rfcs">
-          RFCS
-          <span class="button_tally">3</span>
-        </a>
-        
-        
-      </nav>
-    </div>
-    <div>
-      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
-      <nav class="tags_nav">
-        <a href='/tags/release/' class="post_tag button button_translucent" title="release">
-          RELEASE
-          <span class="button_tally">160</span>
-        </a>
-        
-        <a href='/tags/events/' class="post_tag button button_translucent" title="events">
-          EVENTS
-          <span class="button_tally">20</span>
-        </a>
-        
-        <a href='/tags/2.4/' class="post_tag button button_translucent" title="2.4">
-          2.4
-          <span class="button_tally">16</span>
-        </a>
-        
-        <a href='/tags/3/' class="post_tag button button_translucent" title="3">
-          3
-          <span class="button_tally">15</span>
-        </a>
-        
-        <a href='/tags/2.1/' class="post_tag button button_translucent" title="2.1">
-          2.1
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/tags/2.3/' class="post_tag button button_translucent" title="2.3">
-          2.3
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/tags/2.5/' class="post_tag button button_translucent" title="2.5">
-          2.5
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/tags/3.1/' class="post_tag button button_translucent" title="3.1">
-          3.1
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/tags/newbie/' class="post_tag button button_translucent" title="newbie">
-          NEWBIE
-          <span class="button_tally">14</span>
-        </a>
-        
-        <a href='/tags/eol/' class="post_tag button button_translucent" title="eol">
-          EOL
-          <span class="button_tally">11</span>
-        </a>
-        
-        <a href='/tags/2.2/' class="post_tag button button_translucent" title="2.2">
-          2.2
-          <span class="button_tally">10</span>
-        </a>
-        
-        <a href='/tags/3.2/' class="post_tag button button_translucent" title="3.2">
-          3.2
-          <span class="button_tally">10</span>
-        </a>
-        
-        <a href='/tags/1/' class="post_tag button button_translucent" title="1">
-          1
-          <span class="button_tally">9</span>
-        </a>
-        
-        <a href='/tags/1.1/' class="post_tag button button_translucent" title="1.1">
-          1.1
-          <span class="button_tally">8</span>
-        </a>
-        
-        
-        <br>
-        <div class="post_tags_toggle button">All Tags</div>
-        <div class="post_tags">
-          <div class="tags_list">
-            
-            <a href='/tags/0.1/' class=" post_tag button button_translucent" data-position=1 title="0.1">0.1<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/0.2/' class=" post_tag button button_translucent" data-position=1 title="0.2">0.2<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/0.5/' class=" post_tag button button_translucent" data-position=1 title="0.5">0.5<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/0.6/' class=" post_tag button button_translucent" data-position=3 title="0.6">0.6<span class="button_tally">3</span>
-            </a>
-            
-            
-            <a href='/tags/0.7/' class=" post_tag button button_translucent" data-position=6 title="0.7">0.7<span class="button_tally">6</span>
-            </a>
-            
-            
-            <a href='/tags/0.7.0/' class=" post_tag button button_translucent" data-position=1 title="0.7.0">0.7.0<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/0.8/' class=" post_tag button button_translucent" data-position=3 title="0.8">0.8<span class="button_tally">3</span>
-            </a>
-            
-            
-            <a href='/tags/0.9/' class=" post_tag button button_translucent" data-position=3 title="0.9">0.9<span class="button_tally">3</span>
-            </a>
-            
-            
-            <a href='/tags/1/' class=" post_tag button button_translucent" data-position=9 title="1">1<span class="button_tally">9</span>
-            </a>
-            
-            
-            <a href='/tags/1.0/' class=" post_tag button button_translucent" data-position=4 title="1.0">1.0<span class="button_tally">4</span>
-            </a>
-            
-            
-            <a href='/tags/1.1/' class=" post_tag button button_translucent" data-position=8 title="1.1">1.1<span class="button_tally">8</span>
-            </a>
-            
-            
-            <a href='/tags/1.2/' class=" post_tag button button_translucent" data-position=2 title="1.2">1.2<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/1.3/' class=" post_tag button button_translucent" data-position=6 title="1.3">1.3<span class="button_tally">6</span>
-            </a>
-            
-            
-            <a href='/tags/1.4/' class=" post_tag button button_translucent" data-position=3 title="1.4">1.4<span class="button_tally">3</span>
-            </a>
-            
-            
-            <a href='/tags/1.5/' class=" post_tag button button_translucent" data-position=8 title="1.5">1.5<span class="button_tally">8</span>
-            </a>
-            
-            
-            <a href='/tags/2/' class=" post_tag button button_translucent" data-position=7 title="2">2<span class="button_tally">7</span>
-            </a>
-            
-            
-            <a href='/tags/2.1/' class=" post_tag button button_translucent" data-position=14 title="2.1">2.1<span class="button_tally">14</span>
-            </a>
-            
-            
-            <a href='/tags/2.2/' class=" post_tag button button_translucent" data-position=10 title="2.2">2.2<span class="button_tally">10</span>
-            </a>
-            
-            
-            <a href='/tags/2.3/' class=" post_tag button button_translucent" data-position=14 title="2.3">2.3<span class="button_tally">14</span>
-            </a>
-            
-            
-            <a href='/tags/2.4/' class=" post_tag button button_translucent" data-position=16 title="2.4">2.4<span class="button_tally">16</span>
-            </a>
-            
-            
-            <a href='/tags/2.5/' class=" post_tag button button_translucent" data-position=14 title="2.5">2.5<span class="button_tally">14</span>
-            </a>
-            
-            
-            <a href='/tags/3/' class=" post_tag button button_translucent" data-position=15 title="3">3<span class="button_tally">15</span>
-            </a>
-            
-            
-            <a href='/tags/3.0/' class=" post_tag button button_translucent" data-position=1 title="3.0">3.0<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/3.1/' class=" post_tag button button_translucent" data-position=14 title="3.1">3.1<span class="button_tally">14</span>
-            </a>
-            
-            
-            <a href='/tags/3.2/' class=" post_tag button button_translucent" data-position=10 title="3.2">3.2<span class="button_tally">10</span>
-            </a>
-            
-            
-            <a href='/tags/3.3/' class=" post_tag button button_translucent" data-position=8 title="3.3">3.3<span class="button_tally">8</span>
-            </a>
-            
-            
-            <a href='/tags/3d/' class=" post_tag button button_translucent" data-position=1 title="3d">3D<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/academic/' class=" post_tag button button_translucent" data-position=1 title="academic">ACADEMIC<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/agriculture/' class=" post_tag button button_translucent" data-position=1 title="agriculture">AGRICULTURE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/awards/' class=" post_tag button button_translucent" data-position=1 title="awards">AWARDS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/bioinformatics/' class=" post_tag button button_translucent" data-position=1 title="bioinformatics">BIOINFORMATICS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/brazil/' class=" post_tag button button_translucent" data-position=1 title="brazil">BRAZIL<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/cz/' class=" post_tag button button_translucent" data-position=1 title="cz">CZ<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/data-visualization/' class=" post_tag button button_translucent" data-position=1 title="data-visualization">DATA-VISUALIZATION<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/decision-support/' class=" post_tag button button_translucent" data-position=1 title="decision-support">DECISION-SUPPORT<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/developers/' class=" post_tag button button_translucent" data-position=1 title="developers">DEVELOPERS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/eol/' class=" post_tag button button_translucent" data-position=11 title="eol">EOL<span class="button_tally">11</span>
-            </a>
-            
-            
-            <a href='/tags/events/' class=" post_tag button button_translucent" data-position=20 title="events">EVENTS<span class="button_tally">20</span>
-            </a>
-            
-            
-            <a href='/tags/fdw/' class=" post_tag button button_translucent" data-position=1 title="fdw">FDW<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/foss4g/' class=" post_tag button button_translucent" data-position=5 title="foss4g">FOSS4G<span class="button_tally">5</span>
-            </a>
-            
-            
-            <a href='/tags/france/' class=" post_tag button button_translucent" data-position=1 title="france">FRANCE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/geoconcept/' class=" post_tag button button_translucent" data-position=1 title="geoconcept">GEOCONCEPT<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/geography/' class=" post_tag button button_translucent" data-position=3 title="geography">GEOGRAPHY<span class="button_tally">3</span>
-            </a>
-            
-            
-            <a href='/tags/geometry/' class=" post_tag button button_translucent" data-position=5 title="geometry">GEOMETRY<span class="button_tally">5</span>
-            </a>
-            
-            
-            <a href='/tags/geos/' class=" post_tag button button_translucent" data-position=2 title="geos">GEOS<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/geos-2.1/' class=" post_tag button button_translucent" data-position=2 title="geos-2.1">GEOS-2.1<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/ghana/' class=" post_tag button button_translucent" data-position=1 title="ghana">GHANA<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/government/' class=" post_tag button button_translucent" data-position=1 title="government">GOVERNMENT<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/gsoc/' class=" post_tag button button_translucent" data-position=1 title="gsoc">GSOC<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/hangout/' class=" post_tag button button_translucent" data-position=1 title="hangout">HANGOUT<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/imagery/' class=" post_tag button button_translucent" data-position=1 title="imagery">IMAGERY<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/neuroscience/' class=" post_tag button button_translucent" data-position=1 title="neuroscience">NEUROSCIENCE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/newbie/' class=" post_tag button button_translucent" data-position=14 title="newbie">NEWBIE<span class="button_tally">14</span>
-            </a>
-            
-            
-            <a href='/tags/ogc/' class=" post_tag button button_translucent" data-position=1 title="ogc">OGC<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/ogr/' class=" post_tag button button_translucent" data-position=1 title="ogr">OGR<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/oracle/' class=" post_tag button button_translucent" data-position=1 title="oracle">ORACLE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/osdb2/' class=" post_tag button button_translucent" data-position=1 title="osdb2">OSDB2<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/osgis/' class=" post_tag button button_translucent" data-position=1 title="osgis">OSGIS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/pgcon/' class=" post_tag button button_translucent" data-position=2 title="pgcon">PGCON<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/pgconeu/' class=" post_tag button button_translucent" data-position=1 title="pgconeu">PGCONEU<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/pgopen/' class=" post_tag button button_translucent" data-position=1 title="pgopen">PGOPEN<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/pgrouting/' class=" post_tag button button_translucent" data-position=1 title="pgrouting">PGROUTING<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/pgsessions/' class=" post_tag button button_translucent" data-position=1 title="pgsessions">PGSESSIONS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/phd/' class=" post_tag button button_translucent" data-position=1 title="phd">PHD<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/postgisday/' class=" post_tag button button_translucent" data-position=7 title="postgisday">POSTGISDAY<span class="button_tally">7</span>
-            </a>
-            
-            
-            <a href='/tags/postgresvision/' class=" post_tag button button_translucent" data-position=2 title="postgresvision">POSTGRESVISION<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/power-usage/' class=" post_tag button button_translucent" data-position=1 title="power-usage">POWER-USAGE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/proj/' class=" post_tag button button_translucent" data-position=1 title="proj">PROJ<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/property-appraisal/' class=" post_tag button button_translucent" data-position=2 title="property-appraisal">PROPERTY-APPRAISAL<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/raster/' class=" post_tag button button_translucent" data-position=4 title="raster">RASTER<span class="button_tally">4</span>
-            </a>
-            
-            
-            <a href='/tags/release/' class=" post_tag button button_translucent" data-position=160 title="release">RELEASE<span class="button_tally">160</span>
-            </a>
-            
-            
-            <a href='/tags/research/' class=" post_tag button button_translucent" data-position=1 title="research">RESEARCH<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/sfcgal/' class=" post_tag button button_translucent" data-position=2 title="sfcgal">SFCGAL<span class="button_tally">2</span>
-            </a>
-            
-            
-            <a href='/tags/sfsql/' class=" post_tag button button_translucent" data-position=1 title="sfsql">SFSQL<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_coveredby/' class=" post_tag button button_translucent" data-position=1 title="st_coveredby">ST_COVEREDBY<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_dwithin/' class=" post_tag button button_translucent" data-position=1 title="st_dwithin">ST_DWITHIN<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_flipcoordinates/' class=" post_tag button button_translucent" data-position=1 title="st_flipcoordinates">ST_FLIPCOORDINATES<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_intersection/' class=" post_tag button button_translucent" data-position=1 title="st_intersection">ST_INTERSECTION<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_intersects/' class=" post_tag button button_translucent" data-position=1 title="st_intersects">ST_INTERSECTS<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_setsrid/' class=" post_tag button button_translucent" data-position=1 title="st_setsrid">ST_SETSRID<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_transform/' class=" post_tag button button_translucent" data-position=1 title="st_transform">ST_TRANSFORM<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_value/' class=" post_tag button button_translucent" data-position=1 title="st_value">ST_VALUE<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/st_valuecount/' class=" post_tag button button_translucent" data-position=1 title="st_valuecount">ST_VALUECOUNT<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/tile-server/' class=" post_tag button button_translucent" data-position=1 title="tile-server">TILE-SERVER<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/uk/' class=" post_tag button button_translucent" data-position=1 title="uk">UK<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/university/' class=" post_tag button button_translucent" data-position=1 title="university">UNIVERSITY<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/upgrade/' class=" post_tag button button_translucent" data-position=5 title="upgrade">UPGRADE<span class="button_tally">5</span>
-            </a>
-            
-            
-            <a href='/tags/urban-research/' class=" post_tag button button_translucent" data-position=1 title="urban-research">URBAN-RESEARCH<span class="button_tally">1</span>
-            </a>
-            
-            
-            <a href='/tags/us/' class=" post_tag button button_translucent" data-position=5 title="us">US<span class="button_tally">5</span>
-            </a>
-            
-            
-            <a href='/tags/web-apps/' class=" post_tag button button_translucent" data-position=1 title="web-apps">WEB-APPS<span class="button_tally">1</span>
-            </a>
-            
-            <div class="tags_sort"><span title="sort alphabetically">[A~Z]</span><span title="sort by count">[0~9]</span>
-            </div>
-            <span class="tags_hide"><svg class="icon">
-            <use xlink:href="#closeme"></use>
-          </svg></span>
+
+
+
+
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
           </div>
         </div>
-      </nav>
+      </main>
+
+      <footer class="gdoc-footer">
+  <nav class="container flex">
+    <div>
+      <section class="flex flex-wrap align-center">
+        <span class="gdoc-footer__item gdoc-footer__item--row">
+          Copyright &copy 2023, PostGIS PSC &amp; OSGeo
+          
+        </span>
+        
+        
+      </section>
+      
+        <section class="flex flex-wrap align-center">
+          <span class="gdoc-footer__item">
+            Content licensed under
+
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="gdoc-footer__link no-wrap">CC BY-SA 4.0</a>
+          </span>
+        </section>
+      
     </div>
-  </section>
-</aside>
 
-  
-</div>
-    </main><svg width="0" height="0" class="hidden">
-  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
-    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
-    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
-      ></path>
-  </symbol>
-  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
-    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
-    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
-    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
-    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212" id="gitlab">
-    <path d="M12.3 74.7h54L43.3 3c-1-3.6-6.4-3.6-7.6 0L12.3 74.8z" />
-    <path d="M12.3 74.7L.5 111c-1 3.2 0 6.8 3 8.8l101.6 74-92.5-119z"/>
-    <path d="M105 193.7l-38.6-119h-54l92.7 119z"/>
-    <path d="M105 193.7l38.7-119H66.4l38.7 119z"/>
-    <path d="M105 193.7l38.7-119H198l-93 119z"/>
-    <path d="M198 74.7l11.6 36.2c1 3 0 6.6-3 8.6l-101.5 74 93-119z"/>
-    <path d="M198 74.7h-54.3L167 3c1.2-3.6 6.4-3.6 7.6 0L198 74.8z"/>
-  </symbol>
-  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
-    <circle cx="3.429" cy="20.571" r="3.429"></circle>
-    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
-    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
-  </symbol>
-  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
-    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
-    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
-  </symbol>
-  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="carly">
-    <path d="M504.971 239.029L448 182.059V84c0-46.317-37.682-84-84-84h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c19.851 0 36 16.149 36 36v108c0 6.365 2.529 12.47 7.029 16.971L454.059 256l-47.029 47.029A24.002 24.002 0 0 0 400 320v108c0 19.851-16.149 36-36 36h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c46.318 0 84-37.683 84-84v-98.059l56.971-56.971c9.372-9.372 9.372-24.568 0-33.941zM112 192V84c0-19.851 16.149-36 36-36h44c13.255 0 24-10.745 24-24S205.255 0 192 0h-44c-46.318 0-84 37.683-84 84v98.059l-56.971 56.97c-9.373 9.373-9.373 24.568 0 33.941L64 329.941V428c0 46.317 37.682 84 84 84h44c13.255 0 24-10.745 24-24s-10.745-24-24-24h-44c-19.851 0-36-16.149-36-36V320c0-6.365-2.529-12.47-7.029-16.971L57.941 256l47.029-47.029A24.002 24.002 0 0 0 112 192z"></path>
-  </symbol>
-  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy">
-    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
-    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
-    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
-    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
-    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id=youtube>
-    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
-    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="xing">
-    <path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/>
-  </symbol>
-
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="gitea">
-		<path d="M4.209 4.603c-.247 0-.525.02-.84.088c-.333.07-1.28.283-2.054 1.027C-.403 7.25.035 9.685.089 10.052c.065.446.263 1.687 1.21 2.768c1.749 2.141 5.513 2.092 5.513 2.092s.462 1.103 1.168 2.119c.955 1.263 1.936 2.248 2.89 2.367c2.406 0 7.212-.004 7.212-.004s.458.004 1.08-.394c.535-.324 1.013-.893 1.013-.893s.492-.527 1.18-1.73c.21-.37.385-.729.538-1.068c0 0 2.107-4.471 2.107-8.823c-.042-1.318-.367-1.55-.443-1.627c-.156-.156-.366-.153-.366-.153s-4.475.252-6.792.306c-.508.011-1.012.023-1.512.027v4.474l-.634-.301c0-1.39-.004-4.17-.004-4.17c-1.107.016-3.405-.084-3.405-.084s-5.399-.27-5.987-.324c-.187-.011-.401-.032-.648-.032zm.354 1.832h.111s.271 2.269.6 3.597C5.549 11.147 6.22 13 6.22 13s-.996-.119-1.641-.348c-.99-.324-1.409-.714-1.409-.714s-.73-.511-1.096-1.52C1.444 8.73 2.021 7.7 2.021 7.7s.32-.859 1.47-1.145c.395-.106.863-.12 1.072-.12zm8.33 2.554c.26.003.509.127.509.127l.868.422l-.529 1.075a.686.686 0 0 0-.614.359a.685.685 0 0 0 .072.756l-.939 1.924a.69.69 0 0 0-.66.527a.687.687 0 0 0 .347.763a.686.686 0 0 0 .867-.206a.688.688 0 0 0-.069-.882l.916-1.874a.667.667 0 0 0 .237-.02a.657.657 0 0 0 .271-.137a8.826 8.826 0 0 1 1.016.512a.761.761 0 0 1 .286.282c.073.21-.073.569-.073.569c-.087.29-.702 1.55-.702 1.55a.692.692 0 0 0-.676.477a.681.681 0 1 0 1.157-.252c.073-.141.141-.282.214-.431c.19-.397.515-1.16.515-1.16c.035-.066.218-.394.103-.814c-.095-.435-.48-.638-.48-.638c-.467-.301-1.116-.58-1.116-.58s0-.156-.042-.27a.688.688 0 0 0-.148-.241l.516-1.062l2.89 1.401s.48.218.583.619c.073.282-.019.534-.069.657c-.24.587-2.1 4.317-2.1 4.317s-.232.554-.748.588a1.065 1.065 0 0 1-.393-.045l-.202-.08l-4.31-2.1s-.417-.218-.49-.596c-.083-.31.104-.691.104-.691l2.073-4.272s.183-.37.466-.497a.855.855 0 0 1 .35-.077z"/>
-	</symbol>
-</svg>
-
-
-<footer class="footer">
-  <div class="footer_inner wrap pale">
-    <img src='/icons/stock_globe-32x31.png' class="icon icon_2 transparent" alt="PostGIS">
-    <p>Copyright&nbsp;<span class="year"></span>&nbsp;POSTGIS. All Rights Reserved Built with <a href="https://gohugo.io/"><b>Hugo</b></a> using <a href="https://github.com/chipzoller/hugo-clarity"><b>Clarity theme</b></a></p><a class="to_top" href="#documentTop">
-  <svg class="icon">
-  <title>to-top</title>
-  <use xlink:href="#to-top"></use>
-</svg>
-
-</a>
-
-  </div>
+    
+      <div class="flex flex-25 justify-end">
+        <span class="gdoc-footer__item text-right">
+          <a class="gdoc-footer__link fake-link" href="#" aria-label="Back to top">
+            <svg class="gdoc-icon gdoc_keyboard_arrow_up">
+              <use xlink:href="#gdoc_keyboard_arrow_up"></use>
+            </svg>
+            <span class="hidden-mobile">Back to top</span>
+          </a>
+        </span>
+      </div>
+    
+  </nav>
 </footer>
 
-    <script type="text/javascript" src="/en/js/bundle.a7e29fae500d5aa0b137ab7f9ecfd16d0097f9aa642ebaa2e50088be505404a8995af89844f4456b23bc5b90b9387e95dc08247598a2bd7d816f88bfe4d7bceb.js" integrity="sha512-p&#43;KfrlANWqCxN6t/ns/RbQCX&#43;apkLrqi5QCIvlBUBKiZWviYRPRFayO8W5C5OH6V3AgkdZiivX2Bb4i/5Ne86w==" crossorigin="anonymous"></script>
+    </div>
+
     
+  <script defer src="/js/search-83320133.bundle.min.js"></script>
+
   </body>
 </html>
 

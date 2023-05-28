@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 4825
+Age: 0
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 May 2023 13:11:59 GMT
-Etag: "8cb8ed85a7e301babcbb0ed548fa036f-ssl-df"
+Date: Sun, 28 May 2023 14:13:18 GMT
+Etag: "652df32993f6c869611ba0b32643d53f-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H0317Q21257MYE3C90RT8H77
+X-Nf-Request-Id: 01H1HB9N6AKV9CPQ04Y2XVHH8Q
 
 <!DOCTYPE html>
 <html lang="cs">
@@ -91,20 +91,20 @@ X-Nf-Request-Id: 01H0317Q21257MYE3C90RT8H77
               
             
             <li class = "d-inline-block px-5 py-0"><span class="font-gray2 active" href="https://www.hardwario.com/">English</span></li>
-            
+
           </ul>
           <span class = "close-selector" id = "close-selector">&nbsp;</span>
         </div>
     </div>
     </div>
-    
+
   </div>
 
   <script src="/_assets/js/jquery.min-c8e1c8b3.js"></script>
   <script src="/_assets/js/jquery.cookie.js"></script>
   <script>
 
-    
+
 
   </script>
 
@@ -116,22 +116,22 @@ X-Nf-Request-Id: 01H0317Q21257MYE3C90RT8H77
          user_lang = data.country;
          console.log("user_lang: " + user_lang);
      }).done(function() {
-        
-      var is_lang = $.cookie('hio_lang'); 
+
+      var is_lang = $.cookie('hio_lang');
       var web_lang = "en";
-      
+
       console.log("is_lang: " + is_lang);
       console.log("web_lang: " + web_lang);
 
       if(web_lang == "en"){ web_lang = "EN"}
       else if(web_lang == "cs"){ web_lang = "CZ"}
       else if(web_lang == "de"){ web_lang = "DE"}
-      
+
       if(is_lang){
-        
-      } 
+
+      }
       else if(user_lang == web_lang){
-       
+
       }
       else{
         $('.language-selector').addClass('lang-visible');
@@ -139,19 +139,20 @@ X-Nf-Request-Id: 01H0317Q21257MYE3C90RT8H77
 
 
       });
-      
     });
     $( ".close-selector" ).click(function() {
       $('.language-selector .selector').hide();
       $( "#languagues" ).removeClass("language-selector");
       $.cookie('hio_lang', 'set', { expires: 30, path: '/' });
     });
+
+
 </script>
 
 <div class="top-nav  fixed ">
 
   <div class = "container">
-    
+
     <div class = "row">
       <div class="col-10 col-md-11 col-lg-2 text-left">
         <a href="/"><img src = "/_assets/images/hw-logo.svg"  style = "height: 36px; margin: 7px 0"/></a>
@@ -203,8 +204,8 @@ X-Nf-Request-Id: 01H0317Q21257MYE3C90RT8H77
             <a href = "/about/" class = "">About</a>
           </li>
           
-          
-          
+          <li><a href = "https://shop.hardwario.com" target="_blank"><span class = "nav-cta">E-Shop</span></a></li>
+
         </ul>
       </div>
     </div>
@@ -1038,3 +1039,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </body>
 </html>
+

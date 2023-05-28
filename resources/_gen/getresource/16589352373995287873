@@ -2,9 +2,9 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=0
 Content-Type: text/html; charset=utf-8
-Date: Wed, 10 May 2023 14:32:11 GMT
-Expires: Wed, 10 May 2023 14:32:11 GMT
-Last-Modified: Wed, 10 May 2023 14:30:39 GMT
+Date: Sun, 28 May 2023 14:13:03 GMT
+Expires: Sun, 28 May 2023 14:13:03 GMT
+Last-Modified: Sun, 28 May 2023 04:05:30 GMT
 Server: nginx
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
@@ -150,7 +150,7 @@ X-Ua-Compatible: IE=edge
 	<p><p class="no-margin-bottom"><strong>Hi, I’m Chris Ferdinandi.</strong></p>
 <h1 class="text-xlarge text-normal no-padding-top margin-bottom-small">I help people learn vanilla&nbsp;JavaScript.</h1></p>
 
-<p><mark>💥 <em><strong>Flash Sale!</strong> This week only, get 50% off <a href="https://vanillajsguides.com">every JavaScript course and ebook</a>. Learn more at <a href="https://vanillajsguides.com">VanillaJSGuides.com</a>.</em></mark></p>
+
 
 
 
@@ -195,12 +195,12 @@ X-Ua-Compatible: IE=edge
 		</footer>
 
 		<script>
-			/*! gmt v2.0.0 | (c) 2022 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
-!function(){"use strict";document.querySelectorAll(".edd-buy-now-button").length>0&&document.addEventListener("click",(function(e){e.target.classList.contains("edd-buy-now-button")&&(0!==e.button||e.metaKey||e.ctrlKey||(e.target.innerHTML="Adding to cart...",e.target.classList.add("disabled")))})),function(e){let t=document.querySelector('[data-form="convertkit"]');if(!t)return;let x=t.querySelector("#email");if(!x)return;let n=t.querySelector("[data-status]"),a=t.querySelector("[data-processing]"),s="Please provide an email address.",c="Please use a valid email address.";function r(e,t){n&&(n.textContent=e,t?(n.classList.add("success-message"),n.classList.remove("error-message"),x.classList.remove("error")):(n.classList.add("error-message"),n.classList.remove("success-message"),x.classList.add("error")))}function i(){return x.value.length<1?(r(s),!1):!!/^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$/.test(x.value)||(r(c),!1)}t.addEventListener("submit",(function(e){e.preventDefault(),t.hasAttribute("data-submitting")||(r(a.getAttribute("data-processing"),!0),i()&&(t.setAttribute("data-submitting",""),fetch(t.action,{method:"POST",body:new FormData(t),headers:{Accept:"application/json"}}).then((function(e){if(e.ok)return e.json();throw e})).then((function(e){r(e.msg,!0),e.redirect&&(window.location.href=e.redirect)})).catch((function(e){e.json().then((function(e){r(e.msg)}))})).finally((function(){t.removeAttribute("data-submitting")}))))})),t.setAttribute("novalidate","")}(),document.body.matches(".type-articles.page-single, .type-notes.page-single, [data-heading-links]")&&function(e,t,x){if(!e)return;let n=document.querySelectorAll(e),a=document.createElement("a");a.textContent=t||"#",a.className=x||"anchor-link";for(let e of n){if(!e.id)continue;let t=a.cloneNode(!0);t.href="#"+e.id,e.append(" ",t)}}("h2, h3, h4, h5, h6","#","link-no-underline")}();
+			/*! gmt v2.0.0 | (c) 2023 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
+!function(){"use strict";document.querySelectorAll(".edd-buy-now-button").length>0&&document.addEventListener("click",(function(e){e.target.classList.contains("edd-buy-now-button")&&(0!==e.button||e.metaKey||e.ctrlKey||(e.target.innerHTML="Adding to cart...",e.target.classList.add("disabled")))}));!function(e){let t=document.querySelector('[data-form="convertkit"]');if(!t)return;let n=t.querySelector("#email");if(!n)return;let a=t.querySelector("[data-status]"),s=t.querySelector("[data-processing]"),r="Please provide an email address.",x="Please use a valid email address.";function o(e,t){a&&(a.textContent=e,t?(a.classList.add("success-message"),a.classList.remove("error-message"),n.classList.remove("error")):(a.classList.add("error-message"),a.classList.remove("success-message"),n.classList.add("error")))}function c(){return n.value.length<1?(o(r),!1):!!/^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$/.test(n.value)||(o(x),!1)}t.addEventListener("submit",(function(e){e.preventDefault(),t.hasAttribute("data-submitting")||(o(s.getAttribute("data-processing"),!0),c()&&(t.setAttribute("data-submitting",""),fetch(t.action,{method:"POST",body:new FormData(t),headers:{Accept:"application/json"}}).then((function(e){if(e.ok)return e.json();throw e})).then((function(e){o(e.msg,!0),e.redirect&&(window.location.href=e.redirect)})).catch((function(e){e.json().then((function(e){o(e.msg)}))})).finally((function(){t.removeAttribute("data-submitting")}))))})),t.setAttribute("novalidate","")}(),document.body.matches(".type-articles.page-single, .type-notes.page-single, [data-heading-links]")&&function(e,t,n){if(!e)return;let a=document.querySelectorAll(e),s=document.createElement("a");s.textContent=t||"#",s.className=n||"anchor-link";for(let e of a){if(!e.id)continue;let t=s.cloneNode(!0);t.href="#"+e.id,e.append(" ",t)}}("h2, h3, h4, h5, h6","#","link-no-underline"),function(){let e=new URL(window.location.href),t=e.searchParams.get("friend");t&&(e.searchParams.delete("friend"),history.replaceState(history.state,"",e.href),document.cookie=`gmt_aff=${t}; path=/; max-age=2419200;`)}(),function(e=".edd-buy-now-button"){let t=function(){let e=("; "+document.cookie).split("; gmt_aff=");if(2==e.length)return e.pop().split(";").shift()}();if(!t)return;let n=document.querySelectorAll(e);for(let e of n){let n=new URL(e);n.searchParams.set("friend",t),e.href=n.href}}('[href*="https://learnvanillajs.com"], [href*="https://vanillajsprojects.com"], [href*="https://vanillajsguides.com"], [href*="https://vanillajsacademy.com"], [href*="https://vanillajsshorts.com"], [href*="https://leanwebclub.com"], .edd-buy-now-button')}();
 
 			
 			
-			/*! gmt v2.0.0 | (c) 2022 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
+			/*! gmt v2.0.0 | (c) 2023 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/go-make-things | Credits: https://github.com/toddmotto/fluidvids */
 !function(){"use strict";navigator&&navigator.serviceWorker&&navigator.serviceWorker.register("/sw.js"),navigator.serviceWorker.controller&&window.addEventListener("load",(function(){navigator.serviceWorker.controller.postMessage("cleanUp")}))}();
 
 		</script>

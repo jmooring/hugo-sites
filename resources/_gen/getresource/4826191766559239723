@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7c52e3bdaec56808-SEA
+Cf-Ray: 7ce718791f33c36c-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Wed, 10 May 2023 14:32:06 GMT
-Last-Modified: Tue, 09 May 2023 22:12:20 GMT
+Date: Sun, 28 May 2023 14:12:58 GMT
+Last-Modified: Fri, 26 May 2023 14:47:53 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -62,7 +62,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.b1ef0a5f17ef5507bff4ab905478bbd6f73ab52d06a01b123096c2c2d77de6ce.css">
+<link rel="stylesheet" href="/main.min.0f33200b09cc44d100f893f5c5cb7e47ba512ca89218fc21ee134d38852e5179.css">
 
 </head>
 
@@ -165,34 +165,54 @@ X-Xss-Protection: 1; mode=block
     <div id="mostViewedDocsHTML">
         <ol id="mostViewedDocsList"><li>
                 <a href="/products/droplets/how-to/connect-with-ssh/" title="Use a terminal to connect to Droplets using OpenSSH or PuTTY for shell access to your remote server."
-                   onclick="logToLooker('Click Popular Docs Link', '#1: \/products\/droplets\/how-to\/connect-with-ssh\/', 118923 )">How to Connect to Droplets with SSH</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#1: \/products\/droplets\/how-to\/connect-with-ssh\/', 118923 )">
+                    <span id="mostViewedArticleName">How to Connect to Droplets with SSH</span>
+                </a>
             </li><li>
                 <a href="/products/droplets/how-to/add-ssh-keys/" title="Improve security when you log in by creating SSH keys and adding them to Droplets."
-                   onclick="logToLooker('Click Popular Docs Link', '#2: \/products\/droplets\/how-to\/add-ssh-keys\/', 107131 )">How-to Add SSH Keys to New or Existing Droplets</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#2: \/products\/droplets\/how-to\/add-ssh-keys\/', 107131 )">
+                    <span id="mostViewedArticleName">How-to Add SSH Keys to New or Existing Droplets</span>
+                </a>
             </li><li>
                 <a href="/support/" title="Looking for technical support with your DigitalOcean account or infrastructure? Start here."
-                   onclick="logToLooker('Click Popular Docs Link', '#3: \/support\/', 84630 )">Support Home</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#3: \/support\/', 84630 )">
+                    <span id="mostViewedArticleName">Support Home</span>
+                </a>
             </li><li>
                 <a href="/support/how-can-i-renew-lets-encrypt-certificates/" title="You can renew your certificate manually using Certbot."
-                   onclick="logToLooker('Click Popular Docs Link', '#4: \/support\/how-can-i-renew-lets-encrypt-certificates\/', 69781 )">How can I renew Let&#39;s Encrypt certificates?</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#4: \/support\/how-can-i-renew-lets-encrypt-certificates\/', 69781 )">
+                    <span id="mostViewedArticleName">How can I renew Let&#39;s Encrypt certificates?</span>
+                </a>
             </li><li>
                 <a href="/products/networking/dns/" title="Manage DNS for Droplets, DigitalOcean Load Balancers, and non-DigitalOcean resources all in the same place."
-                   onclick="logToLooker('Click Popular Docs Link', '#5: \/products\/networking\/dns\/', 65064 )">Domains and DNS</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#5: \/products\/networking\/dns\/', 65064 )">
+                    <span id="mostViewedArticleName">Domains and DNS</span>
+                </a>
             </li><li>
                 <a href="/products/" title="Information on DigitalOcean product features, pricing, availability, and limits; how to use products from the control panel; how to manage your account, teams, and billing; and platform details, release notes, and product policies."
-                   onclick="logToLooker('Click Popular Docs Link', '#6: \/products\/', 49501 )">Product Docs Home</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#6: \/products\/', 49501 )">
+                    <span id="mostViewedArticleName">Product Docs Home</span>
+                </a>
             </li><li>
                 <a href="/support/how-do-i-install-an-ssl-certificate-on-a-droplet/" title="There are a few ways to install an SSL on your Droplet, depending on where you get the certificate from."
-                   onclick="logToLooker('Click Popular Docs Link', '#7: \/support\/how-do-i-install-an-ssl-certificate-on-a-droplet\/', 44423 )">How do I install an SSL Certificate on a Droplet?</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#7: \/support\/how-do-i-install-an-ssl-certificate-on-a-droplet\/', 44423 )">
+                    <span id="mostViewedArticleName">How do I install an SSL Certificate on a Droplet?</span>
+                </a>
             </li><li>
                 <a href="/tutorials/dns-registrars/" title="Instructions on how to set up DNS records with various registrars."
-                   onclick="logToLooker('Click Popular Docs Link', '#8: \/tutorials\/dns-registrars\/', 43710 )">Point to DigitalOcean Nameservers From Common Domain Registrars</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#8: \/tutorials\/dns-registrars\/', 43710 )">
+                    <span id="mostViewedArticleName">Point to DigitalOcean Nameservers From Common Domain Registrars</span>
+                </a>
             </li><li>
                 <a href="/" title="Information on DigitalOcean product features, pricing, availability, and limits; how to use products from the control panel; how to manage your account, teams, and billing; and platform details, release notes, and product policies."
-                   onclick="logToLooker('Click Popular Docs Link', '#9: \/', 43344 )">Docs Home</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#9: \/', 43344 )">
+                    <span id="mostViewedArticleName">Docs Home</span>
+                </a>
             </li><li>
                 <a href="/products/app-platform/how-to/manage-domains/" title="Add a custom domain to use for your app, in addition to its included ondigitalocean.com subdomain."
-                   onclick="logToLooker('Click Popular Docs Link', '#10: \/products\/app-platform\/how-to\/manage-domains\/', 33907 )">How to Manage Domains in App Platform</a>
+                   onclick="logToLooker('Click Popular Docs Link', '#10: \/products\/app-platform\/how-to\/manage-domains\/', 33907 )">
+                    <span id="mostViewedArticleName">How to Manage Domains in App Platform</span>
+                </a>
             </li></ol>
     </div>
 </div>
@@ -342,56 +362,15 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="5-may-2023">5 May 2023</h3>
+<h3 id="22-may-2023">22 May 2023</h3>
+<ul><li>
+            <p>PostgreSQL 15 is <a href="/products/databases/postgresql/how-to/create/#choose-a-database-engine">now available for database clusters</a>. You can also now <a href="/products/databases/postgresql/how-to/upgrade-version/">perform in-place upgrades</a> for PostgreSQL clusters to newer versions without any downtime. We currently support PostgreSQL 12, 13, 14, and 15.</p>
+        </li></ul><h3 id="16-may-2023">16 May 2023</h3>
+<ul><li>
+            <p>Premium Intel CPUs are now available for CPU-Optimized Droplets in TOR1.</p>
+        </li></ul><h3 id="5-may-2023">5 May 2023</h3>
 <ul><li>
             <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.94.0">v1.94.0 of doctl</a>, the official DigitalOcean CLI. This release updates the <code>doctl auth init</code> prompt and deprecates the <code>--algorithm</code> flag for load balancer sub-commands.</p>
-        </li></ul><h3 id="4-may-2023">4 May 2023</h3>
-<ul><li>
-            <p><a href="https://getfedora.org/en/workstation/download/">Fedora 38</a> (<code>fedora-38-x64</code>) base image is now available in the control panel and via the API.</p>
-        </li></ul><h3 id="20-april-2023">20 April 2023</h3>
-<ul><li>
-            <p><p>We have updated the following buildpacks:</p>
-<ul>
-<li><a href="/products/app-platform/reference/buildpacks/hugo/">Hugo buildpack</a>: The default version of Hugo has been updated from v0.109.0 to v0.111.3. You can override the default version by setting a <code>HUGO_VERSION</code> environment variable. For more information and configuration options, see <a href="/products/app-platform/reference/buildpacks/hugo/">the buildpack&rsquo;s documentation page</a>.</li>
-<li><a href="/products/app-platform/reference/buildpacks/go/">Go buildpack</a>: Additional Go versions have been added and default versions of Go have been updated. For more information and configuration options, see <a href="/products/app-platform/reference/buildpacks/go/">the buildpack&rsquo;s documentation page</a>.
-<ul>
-<li>Add go1.20, go1.20.1, and go1.20.2</li>
-<li>Add go1.19.4, go1.19.5, go1.19.6, and go1.19.7</li>
-<li>Add go1.18.9, go1.18.10</li>
-<li>go1.20 defaults to 1.20.2</li>
-<li>go1.19 defaults to 1.19.7</li>
-<li>go1.18 defaults to go1.18.10</li>
-</ul>
-</li>
-<li><a href="/products/app-platform/reference/buildpacks/php/">PHP buildpack</a>: Updates to the PHP v1 buildpack are listed below. If you have an existing PHP app that is on v0, please <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrade to v1</a>.
-<ul>
-<li>PHP buildpack v1:
-<ul>
-<li>Add PHP/8.1.17</li>
-<li>Add PHP/8.0.28</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="/products/app-platform/reference/buildpacks/python/">Python buildpack</a>: A new Python v2 buildpack version has been released that removes support for Python 3.6. Updates to the Python v1 buildpack are listed below. If you have an existing Python app that is on v1 or v0, please <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrade to v2</a>.
-<ul>
-<li>Python buildpack v2:
-<ul>
-<li>Drop support for Python 3.6</li>
-<li>Add Python 3.10.11, 3.10.10, 3.11.3, and 3.11.2</li>
-<li>Default Python version is now 3.11.3</li>
-</ul>
-</li>
-<li>Python buildpack v1:
-<ul>
-<li>Add Python 3.10.10 and 3.11.2</li>
-<li>Default Python version is now 3.11.2</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
@@ -501,13 +480,8 @@ function logToLooker(actionValue,nameValue,valueValue)
     
 
 
-<iframe
-  src="https://cloud.digitalocean.com/post-message-app"
-  title="DigitalOcean Iframe"
-  sandbox="allow-scripts allow-same-origin allow-top-navigation"
-  style="display: none"
->
-</iframe>
+
+
 
 <script type="text/javascript">
   

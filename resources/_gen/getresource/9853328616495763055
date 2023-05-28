@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
-Age: 87635
+Age: 147916
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7c52e3d2cbdf2766-SEA
+Cf-Ray: 7ce7188e5cefc515-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 May 2023 14:32:09 GMT
+Date: Sun, 28 May 2023 14:13:01 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z9TyGOedMbveYqBXD58DcXugWNqMv1yvzngDt0OqMZF%2BErcepPxOVJ3II82kviv9QE6OfvYFUj%2BHLk%2FNG3JLsxKDsqmukEJjagZgJlTSgOTIbVRaZKih7OTuTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BSimGUXOsMpkfj5xa4Nm9mdWiJ2E6FbRu0f9go8%2F9grOx2zQTMJQ48nue3F26bN01le9MklEFiL6SwEQEz6GiBcXfvycKfXRF%2FY8pIyJsWB%2BTD9GUs35G%2BJCHw%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01H0317806RK22AEMHMVHECGRD
+X-Nf-Request-Id: 01H1HB95A0HSESCEJDWDQZZXVJ
 X-Xss-Protection: 1; mode=block
 
 
@@ -231,14 +231,25 @@ X-Xss-Protection: 1; mode=block
     <select class="version-selector">
       
         
-          <option value="">v22.0 (latest)</option>
+          <option value="">v23.0 (latest)</option>
         
       
         
           
           
             
-              <option value="v21.03">v21.03</option>
+              <option value="v22.0">v22.0</option>
+            
+          
+        
+      
+        
+          
+          
+            
+              
+                <option value="v21.03">v21.03</option>
+              
             
           
         
@@ -735,21 +746,15 @@ X-Xss-Protection: 1; mode=block
                   
                 </li>
               
-                <li id="predicate-types"  class="topic sub-topic">
+                <li id="dgraph-types-schema"  class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/dql/predicate-types/">Predicate types</a>
-                  
-                </li>
-              
-                <li id="predicate-indexing"  class="topic sub-topic">
-                  
-                  <a href="https://dgraph.io/docs/dql/predicate-indexing/">Predicate indexing</a>
+                  <a href="https://dgraph.io/docs/dql/dql-schema/">Dgraph types schema</a>
                   
                 </li>
               
-                <li id="node-types"  class="topic sub-topic">
+                <li id="predicate-indexes"  class="topic sub-topic">
                   
-                  <a href="https://dgraph.io/docs/dql/type-system/">Node types</a>
+                  <a href="https://dgraph.io/docs/dql/predicate-indexing/">Predicate indexes</a>
                   
                 </li>
               
@@ -1156,12 +1161,6 @@ X-Xss-Protection: 1; mode=block
                 <li id="provision-a-backend"  class="topic sub-topic">
                   
                   <a href="https://dgraph.io/docs/dgraphcloud/provision-backend/">Provision a backend</a>
-                  
-                </li>
-              
-                <li id="dgraph-cloud-quick-start"  class="topic sub-topic">
-                  
-                  <a href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
                   
                 </li>
               
@@ -1658,12 +1657,6 @@ X-Xss-Protection: 1; mode=block
                   
                 </li>
               
-                <li id="giving-nodes-a-type"  class="topic sub-topic">
-                  
-                  <a href="https://dgraph.io/docs/howto/giving-nodes-type/">Giving Nodes a Type</a>
-                  
-                </li>
-              
                 <li id="a-simple-login-system"  class="topic sub-topic">
                   
                   <a href="https://dgraph.io/docs/howto/login-system/">A Simple Login System</a>
@@ -1947,10 +1940,6 @@ X-Xss-Protection: 1; mode=block
           </li>
           
           <li>
-            <a href="https://dgraph.io/docs/dgraphcloud/cloud-quick-start/">Dgraph Cloud Quick Start</a>
-          </li>
-          
-          <li>
             <a href="https://dgraph.io/docs/dgraphcloud/advanced-queries/">Advanced Queries with DQL</a>
           </li>
           
@@ -2035,7 +2024,7 @@ X-Xss-Protection: 1; mode=block
     }
 
 
-     setAlgolia("v22.0")
+     setAlgolia("v23.0")
      
 
   </script>
