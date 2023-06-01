@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 3553
 Content-Type: text/html
-Date: Mon, 29 May 2023 14:42:18 GMT
-Etag: "597d-5fc9945cfdec0-gzip"
-Last-Modified: Fri, 26 May 2023 14:08:35 GMT
+Date: Thu, 01 Jun 2023 14:25:19 GMT
+Etag: "5932-5fd102aaf7840-gzip"
+Last-Modified: Thu, 01 Jun 2023 11:59:21 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
+X-Cache: HIT
+X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300039-BFI
-X-Timer: S1685371339.658469,VS0,VE87
+X-Served-By: cache-bfi-krnt7300092-BFI
+X-Timer: S1685629520.699817,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1685371339.658469,VS0,VE87
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-05-23T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-05-31T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -363,6 +363,18 @@ X-Timer: S1685371339.658469,VS0,VE87
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/blue-colored basketball net'" />
+          <div class="post-content">
+            <a href="/blogs/ripe86-notes/"><h4 class="text-white">RIPE 86 - Rotterdam Trip Notes</h4></a>
+            <p class="text-white">Five of us from ISC attended the RIPE 86 meeting in Rotterdam, May 22 - 26th, 2023.</p>
+            <a href="/blogs/ripe86-notes/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
           <div class="post-content">
             <a href="/blogs/isc-profile-ankney/"><h4 class="text-white">Meet an ISC Engineer - Darren Ankney!</h4></a>
@@ -392,18 +404,6 @@ X-Timer: S1685371339.658469,VS0,VE87
             <a href="/blogs/bind-architecture-25-years/"><h4 class="text-white">25 years of BIND 9 architecture</h4></a>
             <p class="text-white">The first lines of code for BIND 9 were produced in 1998, which means that the original BIND 9 architecture is 25 years old!</p>
             <a href="/blogs/bind-architecture-25-years/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
-          <div class="post-content">
-            <a href="/blogs/isc-profile-sury/"><h4 class="text-white">Meet an ISC Engineer - Ondřej Surý!</h4></a>
-            <p class="text-white">Each quarter we like to profile one of our engineers, to acquaint our customers and users with some of the people they may interact with as they use our software.</p>
-            <a href="/blogs/isc-profile-sury/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

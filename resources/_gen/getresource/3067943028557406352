@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 85
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7cef81155a9ec39a-SEA
+Cf-Ray: 7d08205acc4febab-SEA
 Content-Type: text/html; charset=utf-8
-Date: Mon, 29 May 2023 14:42:29 GMT
-Expires: Sat, 27 May 2023 05:26:41 GMT
-Last-Modified: Mon, 22 May 2023 11:46:18 GMT
+Date: Thu, 01 Jun 2023 14:25:31 GMT
+Expires: Wed, 31 May 2023 14:29:01 GMT
+Last-Modified: Wed, 31 May 2023 14:01:16 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FYMxDz0LgDOAwB8PmwSRPCccRLLHQqtu4PFnTgeH9Oki%2BhA7zHGcxH1MTX%2BmM5Qima39uIIctrQkx6ecDPESlKvE4JhN7UlQL7yZuvex6U3tkcX6KGCxWM3WiqE%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8PdRBWY6udJfuzLLTpTUJ445ig9KFRcoI9yrY4KKUButET%2Fp1yCM8xuUkwLycXsJDyiRu%2FEjPV1Dgy8AGET1SLw4K7F7XDa547aPlQYWZwECxUQUi3%2BKARn%2FATg%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
@@ -18,11 +18,12 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 7502d2cd7658f59f47773ec05d4cd8653c24cea8
-X-Github-Request-Id: E1E6:506F:570ACF7:811F872:64719239
+X-Fastly-Request-Id: 0c7807ec71074e01fdcc8f1fd4dd054de3ba30d1
+X-Github-Request-Id: E1E6:506F:6939554:9DE4ADD:64775755
+X-Origin-Cache: HIT
 X-Proxy-Cache: MISS
-X-Served-By: cache-chi-kigq8000094-CHI
-X-Timer: S1685371350.515018,VS0,VE1
+X-Served-By: cache-chi-kigq8000043-CHI
+X-Timer: S1685629532.506988,VS0,VE22
 
 <!DOCTYPE html>
 <html lang="en">
@@ -188,25 +189,25 @@ X-Timer: S1685371350.515018,VS0,VE1
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2023-04-13</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/04/13/layout-2013-vs-2020/">Layout 2013 and Layout 2020</a></strong></big></p>
-              <p>Overview of the effort to rewrite Servo’s layout engine, and our proposal for layout in Servo going forward.</p>
+              <span class="tag is-light">2023-05-31</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/05/31/adding-support-for-outline-properties/">Adding support for ‘outline’ properties</a></strong></big></p>
+              <p>Guide to the ‘outline’ implementation in Layout 2020, plus the tests and spec issues we added along the way.</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2023-03-16</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/03/16/making-easier-to-contribute/">Making it easier to contribute to Servo</a></strong></big></p>
-              <p>Improvements to how we run tests, yielding faster builds and fewer failures due to flaky tests</p>
+              <span class="tag is-light">2023-04-13</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/04/13/layout-2013-vs-2020/">Layout 2013 and Layout 2020</a></strong></big></p>
+              <p>Overview of the effort to rewrite Servo’s layout engine, and our proposal for layout in Servo going forward.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="column">
-      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/epEQ-9VAY_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/IdHvHoAO5oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -227,7 +228,7 @@ X-Timer: S1685371350.515018,VS0,VE1
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#335a5d555c73405641455c1d5c4154"><span class="__cf_email__" data-cfemail="056c6b636a45766077736a2b6a7762">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#b6dfd8d0d9f6c5d3c4c0d998d9c4d1"><span class="__cf_email__" data-cfemail="f69f989099b68593848099d8998491">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -288,7 +289,7 @@ X-Timer: S1685371350.515018,VS0,VE1
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#fb92959d94bb889e898d94d594899c"><span class="__cf_email__" data-cfemail="0861666e67487b6d7a7e6726677a6f">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#2940474f46695a4c5b5f4607465b4e"><span class="__cf_email__" data-cfemail="97fef9f1f8d7e4f2e5e1f8b9f8e5f0">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,
