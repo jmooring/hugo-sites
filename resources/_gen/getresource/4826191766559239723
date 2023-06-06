@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7d081fd509ddc5b0-SEA
+Cf-Ray: 7d2dc57f8a12281f-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Thu, 01 Jun 2023 14:25:10 GMT
-Last-Modified: Wed, 31 May 2023 18:56:06 GMT
+Date: Tue, 06 Jun 2023 04:04:29 GMT
+Last-Modified: Mon, 05 Jun 2023 20:35:05 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -62,7 +62,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.a7eec1e0e117f87fac9b5fd02179677dd09c74c95004756ec3095c1b73cf4227.css">
+<link rel="stylesheet" href="/main.min.8d8adb176acf879fe60e7c03b070a24700180f813b482c593ca351dc361832bb.css">
 
 </head>
 
@@ -362,15 +362,15 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="22-may-2023">22 May 2023</h3>
+<h3 id="5-june-2023">5 June 2023</h3>
+<ul><li>
+            <p>The <a href="/products/networking/dns/">Domains and DNS management service</a> now only allows you to add domains with known top-level domains (TLDs) <a href="https://publicsuffix.org/list/public_suffix_list.dat">publicly recognized by ICANN</a>.</p>
+        </li></ul><h3 id="22-may-2023">22 May 2023</h3>
 <ul><li>
             <p>PostgreSQL 15 is <a href="/products/databases/postgresql/how-to/create/#choose-a-database-engine">now available for database clusters</a>. You can also now <a href="/products/databases/postgresql/how-to/upgrade-version/">perform in-place upgrades</a> for PostgreSQL clusters to newer versions without any downtime. We currently support PostgreSQL 12, 13, 14, and 15.</p>
         </li></ul><h3 id="16-may-2023">16 May 2023</h3>
 <ul><li>
             <p>Premium Intel CPUs are now available for CPU-Optimized Droplets in TOR1.</p>
-        </li></ul><h3 id="5-may-2023">5 May 2023</h3>
-<ul><li>
-            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.94.0">v1.94.0 of doctl</a>, the official DigitalOcean CLI. This release updates the <code>doctl auth init</code> prompt and deprecates the <code>--algorithm</code> flag for load balancer sub-commands.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
@@ -456,11 +456,27 @@ function logToLooker(actionValue,nameValue,valueValue)
                     name: nameValue,
                     value: valueValue
                 });
+
+                var thumbsUpButton = document.querySelector('.thumbs-up');
+                var thumbsDownButton = document.querySelector('.thumbs-down');
+                var nero = document.querySelector('.nero');
+
+                if (valueValue) {
+                    thumbsUpButton.classList.add('clicked');
+                    thumbsDownButton.classList.add('disabled');
+                    nero.classList.add('clicked');
+                } else {
+                    thumbsDownButton.classList.add('clicked');
+                    thumbsUpButton.classList.add('disabled');
+                    nero.classList.add('clicked');
+                };
+                
             }
         }
         console.log(actionValue,nameValue,valueValue);
     } catch (e) {}
 }
+
 </script>
 
 
