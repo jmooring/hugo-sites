@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
-Age: 31085
+Age: 64674
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7d46b235aee830ec-SEA
+Cf-Ray: 7da9b1fa3a4a9642-SJC
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 09 Jun 2023 04:40:23 GMT
+Date: Wed, 21 Jun 2023 05:01:43 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7mSbc2xREogIAg3JkEbtKZ9VMeYFsWXyI8xAxYsJ%2FX%2BAM7SIgezar5FZ8gTrpd84HBn2F3B%2BF9ixgkFFMwzwV%2FWZAqhSRHKS01uGFymK0jb2imkVlnYGjHuwMXxTQhpChRQ%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PqrCX6Wo%2FaT%2BhDmYoe8XOuTRCiDtfTG4hn%2Fbw%2BqaXd3TigYrVcQdqpmuQY1a0jUFFENonZkHJu88chrZEnewfr4G1aoehmC3FW%2BPmxp1WMfKcigdrudWM4EoO4rd3PksBzMy"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Set-Cookie: session22=eyJpZCI6ImY4YWQ4MGJkLWQ4MmItNGRhOC1hOTg0LTNjMDRhZTQxNDQyMiIsImFidGVzdCI6eyJ0ZXN0TmFtZSI6Ijc4LW1scG9wIiwidmVyc2lvbiI6ImIiLCJ3ZWlnaHQiOjAuNX19; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
-Set-Cookie: session22.sig=YjpNExMpQGgssm0vzqHsLpoeRmk; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
+Set-Cookie: session22=eyJpZCI6ImU1MjEwOTMxLWFjNTItNGNlMC1iOGE5LTI3MTYyNzViOWRkNSIsImFidGVzdCI6eyJ0ZXN0TmFtZSI6Ijc4LW1scG9wIiwidmVyc2lvbiI6ImIiLCJ3ZWlnaHQiOjAuNX19; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
+Set-Cookie: session22.sig=uRsaxDeACMM-s-pXYjL9_xjP7hY; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 vegur
-X-Nf-Request-Id: 01H2F797NCCZ4PGESZZR9BAV16
+X-Nf-Request-Id: 01H3E58YGJF1RYMBZ7B9W50QD9
 X-Powered-By: Express
 
 <!DOCTYPE html>
@@ -35,7 +35,7 @@ X-Powered-By: Express
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/style.min.3db1a64bb88471b8a59eb052e6fd7ad1004f43c59c2cbbc48453bf75bfe2485e.css" integrity="">
+<link rel="stylesheet" href="/css/style.min.3db1a64bb88471b8a59eb052e6fd7ad1004f43c59c2cbbc48453bf75bfe2485e.css" integrity>
 <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -63,6 +63,14 @@ X-Powered-By: Express
   gtag('js', new Date());
   gtag('config', 'UA-61177467-8');
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11026916948"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11026916948');
+</script>
 <meta name="cf-2fa-verify" content="4b0c6e4fdce624f0a62994514dd31ba5">
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
@@ -81,7 +89,7 @@ X-Powered-By: Express
 <div class="px-40 pt-60 pb-60 inner">
 <div class="logo color-white mb-30">
 <a href="/" onclick="gtag('event','Logo Click',{'event_category':'Hamburger Menu','event_label':'Logo Mobile'});">
-<svg width="170px" height="60px" viewBox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="170px" height="60px" viewbox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>logo_white</title>
 <desc>Stay22 logo</desc>
 <g id="logo_white" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -112,7 +120,7 @@ X-Powered-By: Express
 <div class="col-lg-2">
 <div class="logo">
 <a href="/" onclick="gtag('event','Navbar Link Click',{'event_category':'Navbar','event_label':'Logo Navbar'});">
-<svg width="170px" height="60px" viewBox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="170px" height="60px" viewbox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>logo</title>
 <desc>Stay22 logo</desc>
 <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -285,7 +293,7 @@ white-space: nowrap;
 <div class="col-lg-8">
 <div class="mb-3 logo d-block d-xl-none text-center">
 <a href="/" onclick="gtag('event','Logo Click',{'event_category':'Homepage','event_label':'Logo Mobile'});">
-<svg width="180px" height="100px" viewBox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="180px" height="100px" viewbox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>logo</title>
 <desc>Stay22 logo</desc>
 <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -312,7 +320,7 @@ white-space: nowrap;
 <div class="row justify-content-center">
 <div class="col-lg-12 mt-0 mb-40 mx-auto mw-full" id="map">
 <div class="mt-70 mb-40">Real live demo!
-<svg height="40px" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+<svg height="40px" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
 <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
 						c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
 						s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
@@ -401,7 +409,7 @@ No API's, just an easy <code>iframe</code> integration.
 <div class="row justify-content-center justify-content-lg-between">
 <div class="col-xl-7 col-lg-6 col-md-6 col-sm-8 col-10 d-lg-flex justify-content-end">
 <div class="d-lg-inline-block relative">
-<video alt="" class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
+<video alt class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
 <source src="https://diq45fgy0aukd.cloudfront.net/stay22-inventory-video.mp4" type="video/mp4">
 </video>
 </div>
@@ -426,7 +434,7 @@ over 220 countries and territories. </div>
 <div class="row justify-content-center justify-content-lg-between">
 <div class="col-xl-7 col-lg-6 col-md-6 col-sm-8 col-10 pt-50 justify-content-end mobile-only">
 <div class="d-lg-inline-block relative">
-<video alt="" class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
+<video alt class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
 <source src="https://diq45fgy0aukd.cloudfront.net/stay22-filters-video.mp4" type="video/mp4">
 </video>
 </div>
@@ -444,7 +452,7 @@ accommodation.</div>
 </div>
 <div class="col-xl-7 col-lg-6 col-md-6 col-sm-8 col-10 pt-50 justify-content-end desktop-only">
 <div class="d-lg-inline-block relative">
-<video alt="" class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
+<video alt class="h-500 img radius8" playsinline autoplay muted loop data-aos-duration="10" data-aos="fade-down" data-aos-delay="0">
 <source src="https://diq45fgy0aukd.cloudfront.net/stay22-filters-video.mp4" type="video/mp4">
 </video>
 </div>
@@ -493,7 +501,7 @@ page</span>
 <div class="container px-xl-0 text-center">
 <div class="row justify-content-center">
 <div class="col-lg-12" data-aos-duration="400" data-aos="fade-up" data-aos-delay="0">
-<h2 class="small">Our partners<br /></h2>
+<h2 class="small">Our partners<br/></h2>
 <div class="f-14 text-uppercase semibold color-heading sp-20 mt-15 mb-45 w-full">We partnered with
 the most trusted companies to offer travelers +35M options in 226 countries</div>
 </div>
@@ -595,7 +603,7 @@ up</a>
 <div class="row">
 <div class="col-12">
 <a href="/" class="mb-30 logo link color-main">
-<svg width="170px" height="60px" viewBox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="170px" height="60px" viewbox="0 0 1301 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>logo</title>
 <desc>Stay22 logo</desc>
 <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -672,7 +680,7 @@ You've been added to our product update newsletter!
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/js/script.js?1686164081"></script>
+<script src="/js/script.js?1686762794"></script>
 <script type="text/javascript">
   (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
   for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?

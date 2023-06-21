@@ -2,24 +2,24 @@ HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=2592000
 Cache-Control: public, max-age=0
 Cdn-Cache: HIT
-Cdn-Cachedat: 05/26/2023 13:15:38
-Cdn-Edgestorageid: 1075
+Cdn-Cachedat: 06/12/2023 11:18:38
+Cdn-Edgestorageid: 865
 Cdn-Proxyver: 1.03
 Cdn-Pullzone: 163353
 Cdn-Requestcountrycode: US
-Cdn-Requestid: 669fe6954216aa38fffb34422e3e9f30
+Cdn-Requestid: 5aae99652268ccbfb58a812ec88f7a28
 Cdn-Requestpullcode: 200
 Cdn-Requestpullsuccess: True
 Cdn-Status: 200
 Cdn-Uid: 5670e6d3-0858-4164-aef3-51088e52ffd2
-Content-Security-Policy: default-src 'none'; child-src 'self'; connect-src 'self' https://backend.datenanfragen.de https://search.datenanfragen.de blob:; font-src data: https://static.dacdn.de; form-action 'self' https://www.paypal.com https://backend.datenanfragen.de; frame-src https://media.datenanfragen.de; img-src 'self' data:; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://static.dacdn.de/fonts/; worker-src 'self'; manifest-src 'self'
+Content-Security-Policy: default-src 'none'; child-src 'self'; connect-src 'self' https://backend.datenanfragen.de https://search.datenanfragen.de blob:; font-src data: https://static.dacdn.de; form-action 'self' https://www.paypal.com https://backend.datenanfragen.de; frame-src https://media.datenanfragen.de; img-src 'self' data:; media-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://static.dacdn.de/fonts/; worker-src 'self'; manifest-src 'self'
 Content-Type: text/html; charset=utf-8
-Date: Fri, 09 Jun 2023 04:39:45 GMT
-Etag: W/"rr3rd1jbz"
+Date: Wed, 21 Jun 2023 05:01:23 GMT
+Etag: W/"rw50oljew"
 Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; battery 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; geolocation 'none'; gyroscope 'none'; legacy-image-formats 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; publickey-credentials-get 'none'; usb 'none'; wake-lock 'none'; xr-spatial-tracking 'none'
-Last-Modified: Mon, 06 Mar 2023 14:10:13 GMT
+Last-Modified: Mon, 12 Jun 2023 11:17:09 GMT
 Referrer-Policy: no-referrer
-Server: BunnyCDN-DE1-864
+Server: BunnyCDN-DE1-1078
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
@@ -38,13 +38,14 @@ X-Xss-Protection: 1; mode=block
 <link rel=alternate hreflang=es href=https://www.solicituddedatos.es/>
 <link rel=alternate hreflang=hr href=https://www.osobnipodaci.org/>
 <link rel=alternate hreflang=nl href=https://www.gegevensaanvragen.nl/>
+<link rel=alternate hreflang=cs href=https://www.zadostioudaje.org/>
 <link rel=alternate hreflang=de href=https://www.datenanfragen.de/>
 <link rel=preconnect href=https://static.dacdn.de>
 <link rel=preload as=font crossorigin=anonymous integrity=sha384-tNBae8zgEksCqZQj7CBECeZFk2QtL2mxVPeHSxF75N/wvJzzmQHcZzv7F/X/fp5C type=font/woff2 href=https://static.dacdn.de/fonts/fira-go/FiraGO-1001-Regular.woff2>
 <link rel=preload as=font crossorigin=anonymous integrity=sha384-+OpL6cf+m9YfQ7ygI08Ss1/7tIegMPGBWnHayunHLqV5SKsNylANZ4+PeiVC5SSN type=font/woff2 href=https://static.dacdn.de/fonts/fira-go/FiraGO-1001-SemiBold.woff2>
 <link rel=preload as=font crossorigin=anonymous integrity=sha384-OweSPaeB1JE8kKcxBY0uMLQ+uMLCkQkkxItLG7y88xrf/KREX5J3LrjBXdGrrh1v type=font/woff2 href=https://static.dacdn.de/fonts/fira-go/FiraGO-1001-Italic.woff2>
 <link rel=preload as=font crossorigin=anonymous integrity=sha384-sWa20lMbvqJHIjx/smLcYHI2mJE8aJTZ1nvZaP6APJ0D45qxe+r7+/UYGy47CuLc type=font/woff2 href=https://static.dacdn.de/fonts/spartan-mb/SpartanMB-1005-ExtraBold.woff>
-<link rel=stylesheet href=https://www.datenanfragen.de/styles/index.min.css integrity="sha256-hp77CwMcZaHRWCzLn3jnswceI8Uzjf96S/iZqluFhqg=">
+<link rel=stylesheet href=https://www.datenanfragen.de/styles/index.min.css integrity="sha256-c9P34f0RgOcfkT+J7cJzDGq8uFEbyV7Uf8daRfvyAQk=">
 <link href=https://www.datenanfragen.de/blog/index.xml rel=alternate type=application/rss+xml title=Datenanfragen.de>
 <link href=https://www.datenanfragen.de/blog/index.xml rel=feed type=application/rss+xml title=Datenanfragen.de>
 <meta name=generator content="Hugo 0.88.1">
@@ -334,7 +335,7 @@ Wir arbeiten transparent nach Kriterien der <a href=https://www.datenanfragen.de
 </div>
 </footer>
 <script>window.SUPPORTED_COUNTRIES=['all','at','be','ch','cz','de','dk','es','fi','fr','gb','gr','ie','it','li','lu','nl','no','pl','pt','se','sk']</script>
-<script>window.LOCALE="de",window.SUPPORTED_LANGUAGES={en:"https://www.datarequests.org/",fr:"https://www.demandetesdonnees.fr/",pt:"https://www.pedidodedados.org/",es:"https://www.solicituddedatos.es/",hr:"https://www.osobnipodaci.org/",nl:"https://www.gegevensaanvragen.nl/"},window.BASE_URL="https://www.datenanfragen.de/"</script>
+<script>window.LOCALE="de",window.SUPPORTED_LANGUAGES={en:"https://www.datarequests.org/",fr:"https://www.demandetesdonnees.fr/",pt:"https://www.pedidodedados.org/",es:"https://www.solicituddedatos.es/",hr:"https://www.osobnipodaci.org/",nl:"https://www.gegevensaanvragen.nl/",cs:"https://www.zadostioudaje.org/"},window.BASE_URL="https://www.datenanfragen.de/"</script>
 <script src=https://www.datenanfragen.de/js/runtime.gen.js></script>
 <script src=https://www.datenanfragen.de/js/vendors.bundle.gen.js></script>
 <script src=https://www.datenanfragen.de/js/commons.bundle.gen.js></script>
