@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 26245
+Age: 184991
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Wed, 21 Jun 2023 05:01:17 GMT
-Etag: W/"972a003fe02c3dd580ca53e2512af837"
+Date: Mon, 26 Jun 2023 01:41:16 GMT
+Etag: W/"471ff3b73261febbf2e182a8411dc5aa"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1::9vb4v-1687323677379-1702d3f9cee4
+X-Vercel-Id: pdx1::2mv2k-1687743676150-ed78c94b9bed
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -113,63 +113,13 @@ X-Vercel-Id: pdx1::9vb4v-1687323677379-1702d3f9cee4
 
 </head>
   <body class="" data-url="/" style="background-color:black;">
-    <style>
-    .tabs ul {
-        background-color: #f8f8f8 !important;
-        border: 0px !important;
-        color: black !important;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
-    .tabs:not(:last-child) {
-        padding-bottom: 0;
-        margin-bottom: 0;
-        
-    }
-
-
-    .site-tabs a {
-        border: 0px !important;
-        color: black !important;        
-    }
-
-    .site-tabs a:hover {
-        font-weight: bold !important;
-    }
-
-    .site-tabs .is-active-tab {
-        color: #E1FF00 !important;
-        background-color: black !important;
-        font-weight: bolder !important;
-        
-    }
-
-    .site-tab {
-        margin-top: 0px;
-        transform: skewX(-20deg) !important;
-    }
-
-    .site-tab p {
-        transform: skewX(20deg) !important;
-    }
-
-    .tabs ul {
-        padding-bottom: 0;
-        max-width: none;
-        flex-direction: none !important;
-      }
-      
-
-</style>
-
-<script>
+    <script>
     console.log("")
 </script>
 
 
 <div class="tabs is-small site-tabs">
-    <ul>
+    <ul class="site-tab-group">
         <li class="site-tab">
             <a href="/" class="ml-6 is-active-tab "><p>Merchant Help</p></a>
         </li>
@@ -1034,15 +984,15 @@ X-Vercel-Id: pdx1::9vb4v-1687323677379-1702d3f9cee4
     <div class="mb-1 mt-0">
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/developers/webhooks/">Webhook Setup</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/developers/get-started/">Get Started</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/developers/tools/">Developer Tools</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/developers/apis/">APIs</a>
         </p>
         
     </div>

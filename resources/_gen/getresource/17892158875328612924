@@ -2,15 +2,15 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 21 Jun 2023 05:01:24 GMT
-Etag: "649a33255868d713460e64c56cf6de7e-ssl-df"
+Date: Mon, 26 Jun 2023 01:41:23 GMT
+Etag: "ecfcb8a97d708365633a9420b2c6ccfd-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=B78EBC30297C0ECEFE45581175D0EA23~000000000000000000000000000000~YAAQBiI1F2XyQ9uIAQAAaS9U3BTfzc/6wpDvgm1iDSoPNdegmC6H8D+F8J10GxSjDQFQHATcv15MX7+M4Q1IsB5k32FsgUOLBzde8PpAEIOYMXPk+5eElsu214fe+IYQhUFxBapqYc3Dt9ciOqiNuSUvYRhiXEEJ5Kp3fPCVMZmddmmYb4kB1rX2LLdVp9ip1Z6Vrrq9j5oaoLZ3BA+bMiwPz1IJCOA9CgIulTwzAyHjf45bNowcCV/Z+pTB3My61tubW06XMjOxIwKaVYqz2HsFJjhlT59pL2l6KMsnN42BPsVry/xYP9Z+nbC7/OL14okCIqjNZ92mpvS+fxBHvXk2JvI9G2GEvkChck1OS6M5HkiravfolF6AwuZaXJeqITNrb/hbXg==; Domain=.vmware.com; Path=/; Expires=Wed, 21 Jun 2023 07:01:24 GMT; Max-Age=7200; HttpOnly
-Set-Cookie: bm_mi=04F2C39B83F1810919E0ED0568298967~YAAQBiI1F2byQ9uIAQAAaS9U3BRD22KhgvyvtNHaSIxAfuYr4jal76tbAwcroZpnCtTkvD5snVLYOS69tSyu942id+wRvjt2Hdz+k9MI0D/qaH9TEl5FHB8O6uWv6so1D/omRycC48dICM7U4+L2f2oNRaSZnZze6m22+iTejLBepN4xY0BriFYyYHhF/VsmtxGrl19iUVF7GyBpWZfCeP+4U/n9eoLaID6uxrMk2H+jMNtOZnbRX39dQ0QqgJEg3ulLAkySgT21RnhEfCIqbo/7EOlPx83bzDJCEWpqoz05sShRNoa3B91IkaPD0XxkhW//johPs7M=~1; Domain=.vmware.com; Path=/; Expires=Wed, 21 Jun 2023 05:01:24 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=6BCD38A827409D20A44A2F2479F0B32A~000000000000000000000000000000~YAAQnawiF1gS7eSIAQAApNpc9RRkng8OM60rfNn03SbUL7wWmWKqxZ+dUu36B+Z1AMNr5pCkgOA6FPo/7tkYBXz/UoxUx6SKToTIIaJa6e6cNOqYzxMe2JDik33MkSvF8RrNW60dgMdw5qEQATrbwChF/0kLFWIguhCSVLNvkSyyy90tk/YL+d1/VjvHczzmHkYnLC6SYXNQ2V6AiuKmYiF8eKM6US8xlebtxC7BFsItEEkRb4aAj0NOsTCyQm7UeLjgVC45YjwOXBFNQnFhbH0jEi98gnD0y3lbpI3+ILgd0QXrjZklGxARgTuTuY2omZBJ3etx/u1wOhyBOAtjlc3+vi4Cy4QaF+NZ4H6An3GmkE41e8VqENa3fnZM5ACq+pxYOi12Zw==; Domain=.vmware.com; Path=/; Expires=Mon, 26 Jun 2023 03:41:22 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=ED754D6D58E7FBC03420F186E0B1C568~YAAQnawiF1kS7eSIAQAApNpc9RQ/7a50giIpIowkAY5f+B+Ff3/TBCtrWUkomcPXQTy7TavYpwdnM92TnVWXl9+8Qw5rzun6Q/684tBJ339DuA/dAdqEWyHWsMQ41Lql9nrHsaR7TxuGK1vdb+DfPQf3/HZKjgCl+k8gpyE6jb6sWrDBeV/UIxXbH9uDa9y+M792duAlPYpO9AOuuFoioZFGAZ6DMXbYEWIdq2m1HS2qRuxT0iRs4iNTBRv7MNWOo3nbhCkszkQ3vzQ9Q4Ld7rXTIbiM080PVUmoAGK72+p80M0zBUJZI+e0kMiDBv0ojuT+3k9JHI4=~1; Domain=.vmware.com; Path=/; Expires=Mon, 26 Jun 2023 01:41:23 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 13279 0 pmb=mTOE,2
-X-Nf-Request-Id: 01H3E58BRNQGJ4XHYTEAR5HGPJ
+X-Akamai-Transformed: 9 13170 0 pmb=mTOE,2
+X-Nf-Request-Id: 01H3TNSPH79ZKMZ31C98YBXBFP
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -49,7 +49,7 @@ if (document.cookie.indexOf('OptanonConsent') > -1 && document.cookie.indexOf('g
 Sentry.init({
   dsn: "https://91138cf7f17842fd8a57d45372bf538c@o448817.ingest.sentry.io/5712977",
   integrations: [new Sentry.Integrations.BrowserTracing()],
-  release: '1d3711db74132bf94c69b8af7bfa56bd8779ef64',
+  release: '6b7f34301f5fb99b28dbe2b4ada7109a34aef7dc',
   environment: 'production',
   
   
@@ -185,7 +185,7 @@ function isTvShowLive(showName) {
     };
 
     
-    epInfo["stream"] = "";
+    epInfo["stream"] = "p6jWhPe8SxQ";
     
     episodes.push(epInfo);
   
@@ -209,7 +209,7 @@ function isTvShowLive(showName) {
     };
 
     
-    epInfo["stream"] = "";
+    epInfo["stream"] = "Jef-FsBkd8o";
     
     episodes.push(epInfo);
   
@@ -242,54 +242,6 @@ function isTvShowLive(showName) {
       endTime: new Date(new Date("2023-06-15T08:00:00-07:00").getTime() + ( 60  * 60000)),
       show: "Enlightning",
       link: "\/developer\/tv\/enlightning\/50\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-06-13T12:30:00-07:00"),
-      endTime: new Date(new Date("2023-06-13T12:30:00-07:00").getTime() + ( 60  * 60000)),
-      show: "Spring Office Hours",
-      link: "\/developer\/tv\/spring-office-hours\/0042\/"
-    };
-
-    
-    epInfo["stream"] = "6QeYgSpntpg";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-06-13T11:00:00-07:00"),
-      endTime: new Date(new Date("2023-06-13T11:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "The Golden Path to SpringOne",
-      link: "\/developer\/tv\/golden-path\/39\/"
-    };
-
-    
-    epInfo["stream"] = "HFRDpCp_4bg";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-06-13T08:58:25Z"),
-      endTime: new Date(new Date("2023-06-13T08:58:25Z").getTime() + ( 120  * 60000)),
-      show: "Tanzu Talk",
-      link: "\/developer\/tv\/talk\/192\/"
-    };
-
-    
-    epInfo["stream"] = "CRGhlL1M9N0";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-06-12T12:00:00-05:00"),
-      endTime: new Date(new Date("2023-06-12T12:00:00-05:00").getTime() + ( 120  * 60000)),
-      show: "Between Chair and Keyboard",
-      link: "\/developer\/tv\/bcak\/82\/"
     };
 
     
@@ -519,7 +471,7 @@ function getCookie(name) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="1838436491"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/6d9453d2"  defer></script></head>
+  <script >bazadebezolkohpepadr="1838436491"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/6d945156"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -1449,5 +1401,5 @@ function getCookie(name) {
 
 <script src="/developer/js/main.95be6fe333215185bccb3582b6f87e6160288550fda90c73806497b229a38c5f.js" integrity="sha256-lb5v4zMhUYW8yzWCtvh&#43;YWAohVD9qQxzgGSXsimjjF8=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_6d9453d2?a=dD0zY2ZmYzY0MmQzYmRkYmM1ZjVkZjU2N2M2NzA1OWE3MTAwM2Y3YjJlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_6d945156?a=dD0zY2ZmYzY0MmQzYmRkYmM1ZjVkZjU2N2M2NzA1OWE3MTAwM2Y3YjJlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>
