@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
-Age: 109748
+Age: 72405
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7dd1bfc8184b1597-SJC
+Cf-Ray: 7e2901146ec915b8-SJC
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 26 Jun 2023 01:41:39 GMT
+Date: Thu, 06 Jul 2023 15:50:35 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q%2FnHKxYMXXoFpekrlxOLcpu3IPgoExGojBPDfH47Qy33oT4xg4FCnfGL1C4zddkJHytciJjaPO2tcjm3dSbKYs5WS3JS42uS01xb4JPfu7zLtE8wuA8nmqpb%2BResT0i0wCL8"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yzAg8IcAhNDI6%2F4T4bHFlg4HUiuzPd6gbBBxcIYDRBSvNu7XHXQd8EqQLxCjr%2FTkHnL4fLwfTi49qmtYFzsR1aL%2FlT5TdUw2ArQQhsd%2BSmXQ0yo%2BYFCJSn8nXdKdf%2FnMfG%2BY"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Set-Cookie: session22=eyJpZCI6Ijk3OTFhODY2LWY0M2EtNDc2Ny05NDE5LWFjM2JkZmY2NWYxZSIsImFidGVzdCI6eyJ0ZXN0TmFtZSI6Ijc4LW1scG9wIiwidmVyc2lvbiI6ImN0cmwiLCJ3ZWlnaHQiOjAuNX19; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
-Set-Cookie: session22.sig=x0oW0l25fXB4AKpklSgAk6lZCfU; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
+Set-Cookie: session22=eyJpZCI6IjdlMjczNTcwLTgzODItNDkwYy05MmJiLTYxMTU1YWEzZTJlOCIsImFidGVzdCI6eyJ0ZXN0TmFtZSI6Ijc5LXZhcmlvdXNwb3B0ZXN0IiwidmVyc2lvbiI6ImN0cmwiLCJ3ZWlnaHQiOjAuNX19; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
+Set-Cookie: session22.sig=QNgV56N6P1_DzG2W2UyVQPT0lWw; path=/; expires=Tue, 19 Jan 2038 03:14:07 GMT; samesite=none; secure; httponly
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 vegur
-X-Nf-Request-Id: 01H3TNT6GGWX80R1VGKM0EAPYE
+X-Nf-Request-Id: 01H4NYBTDYQZHD9KC4KV1HZSVN
 X-Powered-By: Express
 
 <!DOCTYPE html>
@@ -680,7 +680,7 @@ You've been added to our product update newsletter!
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/js/script.js?1687430623"></script>
+<script src="/js/script.js?1688491545"></script>
 <script type="text/javascript">
   (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
   for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?

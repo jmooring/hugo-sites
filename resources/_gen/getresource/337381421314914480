@@ -1,8 +1,9 @@
 HTTP/2.0 200 OK
+Alt-Svc: h3=":443"; ma=2592000
 Content-Type: text/html; charset=utf-8
-Date: Mon, 26 Jun 2023 01:41:27 GMT
-Etag: "rrm0ih1e20"
-Last-Modified: Thu, 16 Mar 2023 10:44:41 GMT
+Date: Thu, 06 Jul 2023 15:50:20 GMT
+Etag: "rx2lb91fk4"
+Last-Modified: Fri, 30 Jun 2023 14:23:33 GMT
 Server: Caddy
 Vary: Accept-Encoding
 
@@ -16,13 +17,7 @@ Vary: Accept-Encoding
     <meta name="description" content="Rclone syncs your files to cloud storage: Google Drive, S3, Swift, Dropbox, Google Cloud Storage, Azure, Box and many more.">
     <meta name="author" content="Nick Craig-Wood">
     <link rel="shortcut icon" type="image/png" href="/img/rclone-32x32.png"/>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-51081799-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-51081799-1');
-    </script>
+    <script defer data-domain="rclone.org" src="https://weblog.rclone.org/js/script.js"></script>
     <title>Rclone</title>
     <link rel="canonical" href="https://rclone.org/">
     <link href="/css/bootstrap.min.4.4.1.css" rel="stylesheet">
@@ -392,6 +387,7 @@ Vary: Accept-Encoding
           <a class="dropdown-item" href="/swift/"><i class="fa fa-space-shuttle fa-fw"></i> Openstack Swift</a>
           <a class="dropdown-item" href="/oracleobjectstorage/"><i class="fa fa-cloud fa-fw"></i> Oracle Object Storage</a>
           <a class="dropdown-item" href="/pcloud/"><i class="fa fa-cloud fa-fw"></i> pCloud</a>
+          <a class="dropdown-item" href="/pikpak/"><i class="fa fa-cloud fa-fw"></i> PikPak</a>
           <a class="dropdown-item" href="/premiumizeme/"><i class="fa fa-user fa-fw"></i> premiumize.me</a>
           <a class="dropdown-item" href="/putio/"><i class="fas fa-parking fa-fw"></i> put.io</a>
           <a class="dropdown-item" href="/seafile/"><i class="fa fa-server fa-fw"></i> Seafile</a>
@@ -413,7 +409,12 @@ Vary: Accept-Encoding
         <a class="nav-link" href="/contact/"><i class="fa fa-envelope fa-fw"></i> Contact</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/donate/"><i class="fa fa-heart heart fa-fw"></i> Donate</a>
+        <a class="nav-link" href="/sponsor/"><i class="fa fa-heart heart fa-fw"></i> Sponsor</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a href="https://rclone.com/" target="_blank" class="nav-link bizbutton" title="Click here for support and advertising contracts"><i class="fa fa-briefcase"></i> For Business</a>
       </li>
     </ul>
     <form class="form-inline" name="search_form" action="https://google.com/search" target="_blank" onsubmit="on_search();">
@@ -619,7 +620,7 @@ WebDAV or S3, that work out of the box.)</p>
     Arvan Cloud Object Storage (AOS)
   </span>
   <span>
-    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.arvancloud.com/en/products/cloud-storage" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.arvancloud.ir/en/products/cloud-storage" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#arvan-cloud-object-storage-aos"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
@@ -691,6 +692,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://storagemadeeasy.com/about/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/filefabric/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Fastmail Files
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.fastmail.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/webdav/#fastmail-files"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -936,6 +947,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Blomp Cloud Storage
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://rclone.org/swift/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/swift/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     OpenDrive
   </span>
   <span>
@@ -991,6 +1012,26 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.pcloud.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/pcloud/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Petabox
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://petabox.io/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#petabox"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    PikPak
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://mypikpak.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/pikpak/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1350,7 +1391,7 @@ WebDAV or S3, that work out of the box.)</p>
       <i class="fa fa-comments fa-fw" aria-hidden="true"></i> <a href="https://forum.rclone.org">Rclone forum</a><br />
       <i class="fab fa-github fa-fw" aria-hidden="true"></i> <a href="https://github.com/rclone/rclone">GitHub project</a><br />
       <i class="fa fa-book fa-fw" aria-hidden="true"></i> <a href="https://github.com/rclone/rclone/wiki">Rclone Wiki</a><br />
-      <i class="fa fa-heart heart fa-fw" aria-hidden="true"></i> <a href="/donate/">Donate</a><br />
+      <i class="fa fa-heart heart fa-fw" aria-hidden="true"></i> <a href="/sponsor/">Sponsor</a><br />
       <i class="fab fa-twitter fa-fw" aria-hidden="true"></i> <a href="https://twitter.com/njcw">@njcw</a>
     </p>
   </div>
@@ -1377,7 +1418,7 @@ WebDAV or S3, that work out of the box.)</p>
               <p style="font-size: 90%;">
                 &copy; <a href="https://www.craig-wood.com/nick/">Nick Craig-Wood</a> 2014-2023<br>
                 Source file <a href="https://github.com/rclone/rclone/blob/master/docs/content/_index.md">_index.md</a>
-                last updated <a href="https://github.com/rclone/rclone/commit/ffd4ab222cab53d9e60f13febc17ba1b1b78c4a0">2023-03-10</a><br>
+                last updated <a href="https://github.com/rclone/rclone/commit/9e1b3861e758e94612fec30f351278a9d55b4d57">2023-05-19</a><br>
                 Uploaded with <a href="https://rclone.org">rclone</a>.
                 Built with <a href="https://github.com/spf13/hugo">Hugo</a>.
                 Logo by <a href="https://twitter.com/andy23">@andy23</a>.

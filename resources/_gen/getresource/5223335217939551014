@@ -1,12 +1,12 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=86400
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7dd1bf72f9bac725-SEA
+Cf-Ray: 7e2900bbafbc283e-SEA
 Content-Type: text/html
-Date: Mon, 26 Jun 2023 01:41:26 GMT
-Last-Modified: Mon, 19 Jun 2023 09:32:13 GMT
+Date: Thu, 06 Jul 2023 15:50:21 GMT
+Last-Modified: Thu, 06 Jul 2023 11:51:50 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5FeSZhV6cvHhxrfFdlcnc8ooxP4JbaM7HXTfQqX8%2BDW%2BI7WefhmtRg9UKVEDLbSM73geczLCn6Jl6tSF5L3L%2BNFeVqUkc65uL4utc%2Bd8B8ODi746OE%2FYBxUNC0%2F0CCU%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ny8exvFxqdccslG6fp4CnO62mvuCqygKOexJrrzBLHEX0gd8%2Fk3oI6hF0%2FY1fx2l2SDJcJZD5%2Fs17ickdECU2xghH2pNqvWudszXJ6qWoGqLXiv788LuX9%2BI%2F%2FDnkig%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 
 <!DOCTYPE html>
@@ -1807,14 +1807,17 @@ POSIX-Compatibility
 </div>
 </div>
 <div class="border-t border-blue-800 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
-<div class="mb-8 lg:mb-0">
+<div class="mb-8 xl:pr-8 lg:mb-0">
 <p class="text-base text-blue-500">
-Partly funded by the <span class="font-medium">European Union&rsquo;s Horizon 2020</span> research and innovation programme trough the <a class="font-medium hover:underline hover:text-white" href="http://unicore-project.eu/">UNICORE project</a>, grant agreeent No. 825377.
+Partly funded by the European Union’s Horizon 2020 research and innovation programme trough the <a class="font-medium hover:underline hover:text-white" href="http://unicore-project.eu/">UNICORE project</a>, grant agreeent No. 825377, and <a class="font-medium hover:underline hover:text-white" href="https://www.accordion-project.eu/">ACCORDION project</a>, grant agreement No. 871793.
 </p>
 </div>
-<div class="flex max-w-md grid-cols-2 gap-6 items-end">
+<div class="flex min-w-max grid-cols-2 gap-6 items-end">
 <a href="http://unicore-project.eu/">
 <img class="h-12" src="/assets/imgs/unicore-project.svg" />
+</a>
+<a href="http://accordion-project.eu/" class="flex-shrink-0">
+<img class="h-12" src="https://www.accordion-project.eu/wp-content/uploads/2020/03/cropped-ACCORDION-logo.png" />
 </a>
 <img class="h-12" src="/assets/imgs/european-union.svg" />
 </div>

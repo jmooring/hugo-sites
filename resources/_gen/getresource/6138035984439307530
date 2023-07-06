@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Content-Type: text/html; charset=utf-8
-Date: Mon, 26 Jun 2023 01:41:07 GMT
-Etag: W/"cbc6eb8b44f87f89a0ab41928da77936"
-Last-Modified: Thu, 15 Jun 2023 21:31:09 GMT
+Date: Thu, 06 Jul 2023 15:50:06 GMT
+Etag: W/"7a4dd7d1d0c5e193e4714c5aef9e5af9"
+Last-Modified: Thu, 29 Jun 2023 21:51:43 GMT
 Server: AmazonS3
 Vary: Accept-Encoding
-Via: 1.1 68d7631a80a5cf5b8745df91a8fa30a0.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: zZ21xFUEgy6MvpQvsCANHBs1LI8O17B6BFP8v6AibMbei3dZxcy8LA==
+Via: 1.1 94d1167faad8c4981cbe31298f27eeb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SaeCZ0TjFA91P9VsXf7MDU03mIcZwFDhXUhzJn4xkdaxW3BAt8ZS4A==
 X-Amz-Cf-Pop: SEA73-P3
-X-Cache: RefreshHit from cloudfront
+X-Cache: Miss from cloudfront
 
 <!doctype html><html><head>
 <meta name=generator content="Hugo 0.92.1">
@@ -106,11 +106,25 @@ Getting Started
 <li data-nav-id=/asset-metadata/ class="nav-item my-1">
 <a class="nav-link p-0" href=/asset-metadata/><h6>Asset Metadata</h6></a>
 </li>
-<li data-nav-id=/single-sign-on/ class="nav-item my-1">
+<li data-nav-id=/single-sign-on/ class="nav-item my-1 haschildren">
 <a class="nav-link p-0" href=/single-sign-on/><h6>Single Sign On (SSO) Configuration Guide</h6></a>
+<ul class="list-unstyled ml-2">
+<li data-nav-id=/single-sign-on/okta/ class="nav-item my-1">
+<a href=/single-sign-on/okta/ class="nav-link p-0">
+Okta SAML 2.0 (SSO) Configuration Guide
+</a>
 </li>
-<li data-nav-id=/scim/ class="nav-item my-1">
+</ul>
+</li>
+<li data-nav-id=/scim/ class="nav-item my-1 haschildren">
 <a class="nav-link p-0" href=/scim/><h6>System for Cross-Domain Identity Management (SCIM) Configuration Guide</h6></a>
+<ul class="list-unstyled ml-2">
+<li data-nav-id=/scim/okta/ class="nav-item my-1">
+<a href=/scim/okta/ class="nav-link p-0">
+Okta SCIM Configuration Guide
+</a>
+</li>
+</ul>
 </li>
 </ul>
 </div>

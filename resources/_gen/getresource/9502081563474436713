@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 2762
+Age: 683
 Content-Type: text/html
-Date: Mon, 26 Jun 2023 01:41:19 GMT
-Etag: "58f5-5fea3f2f7be40-gzip"
-Last-Modified: Wed, 21 Jun 2023 13:43:13 GMT
+Date: Thu, 06 Jul 2023 15:50:15 GMT
+Etag: "5886-5ffd0dd8f74c0-gzip"
+Last-Modified: Thu, 06 Jul 2023 12:43:39 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300028-BFI
-X-Timer: S1687743679.267296,VS0,VE4
+X-Served-By: cache-bfi-krnt7300035-BFI
+X-Timer: S1688658616.672318,VS0,VE2
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1687743679.267296,VS0,VE4
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-06-20T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-07-04T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -363,6 +363,18 @@ X-Timer: S1687743679.267296,VS0,VE4
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/greenaurora.jpg"  onerror="this.onerror = null; this.src='\/Green aurora'" />
+          <div class="post-content">
+            <a href="/blogs/kea-2-4-0/"><h4 class="text-white">Kea 2.4.0 Released</h4></a>
+            <p class="text-white">Kea 2.4 is our newest stable branch of the Kea DHCP server, suitable for production deployment.</p>
+            <a href="/blogs/kea-2-4-0/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/blue-colored basketball net'" />
           <div class="post-content">
             <a href="/blogs/nanog88-notes/"><h4 class="text-white">NANOG 88 - Seattle Trip Notes</h4></a>
@@ -392,18 +404,6 @@ X-Timer: S1687743679.267296,VS0,VE4
             <a href="/blogs/isc-profile-ankney/"><h4 class="text-white">Meet an ISC Engineer - Darren Ankney!</h4></a>
             <p class="text-white">Each quarter we like to profile one of our engineers, to let our customers and users get more familiar with some of the people they may interact with as they use our software.</p>
             <a href="/blogs/isc-profile-ankney/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
-          <div class="post-content">
-            <a href="/blogs/2023-cyber-resilience-act-letter/"><h4 class="text-white">A Plea for Fairness for Non-profit Developers of Open Source Software</h4></a>
-            <p class="text-white">ISC and NLnet Labs today sent a joint letter to the European Parliament committee working on the EU Cyber Resilience Act.</p>
-            <a href="/blogs/2023-cyber-resilience-act-letter/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

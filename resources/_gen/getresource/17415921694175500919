@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
-Age: 53358
+Age: 56098
 Content-Security-Policy: connect-src 'self' https://brave-software.ghost.io; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://try.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://survey.brave.com https://contact.ads.brave.com https://html5-player.libsyn.com https://social-growth.bravesoftware.com https://try.bravesoftware.com https://player.vimeo.com https://boards.greenhouse.io https://www.surveymonkey.com https://www.youtube-nocookie.com https://js.driftt.com https://app.boostr.com/; img-src 'self' data: https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://analytics.brave.com https://boards.greenhouse.io https://js.driftt.com; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
 Content-Type: text/html
 Cross-Origin-Opener-Policy: same-origin
-Date: Sun, 25 Jun 2023 10:51:46 GMT
-Etag: W/"c677396d7985bfdb18561ee73f9d55f5"
-Last-Modified: Wed, 21 Jun 2023 18:12:54 GMT
+Date: Thu, 06 Jul 2023 00:15:04 GMT
+Etag: W/"f965ef56285139c98ea278c6abdc1b2c"
+Last-Modified: Wed, 05 Jul 2023 21:03:15 GMT
 Onion-Location: https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: AmazonS3
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
-Via: 1.1 89b24af8db05335e68292856e0a53668.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: _ts1fYkhhMu0yyG-yv8ded-CxIse-OGDp5HQsXmHV3OyA5TbxnbVBQ==
-X-Amz-Cf-Pop: HIO52-P2
+Via: 1.1 884680276f0c3ab3c1a683a7d44cb4c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Q2FbDcBwtK8gp1xFQbCKWDnwOks4O4-Yz2OkI8gi80Qrlm5nL5SBrA==
+X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
-X-Amz-Version-Id: pwyqKZB1Ze52K.vZr_QP.pogNSsXWvci
+X-Amz-Version-Id: cYOF.HC2l22G3bkbpIOtEbxT1w5qSFxS
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Download-Options: noopen
@@ -59,7 +59,7 @@ X-Xss-Protection: 1; mode=block
 <meta property="og:locale:alternate" content="ru" />
 <meta property="og:locale:alternate" content="vi" />
 <meta property="og:image" content="https://brave.com/static-assets/images/brave-og.png"/>
-<meta property="og:updated_time" content="2023-06-01T00:00:00+00:00" /><meta property="og:site_name" content="Brave Browser" />
+<meta property="og:updated_time" content="2023-06-27T00:00:00+00:00" /><meta property="og:site_name" content="Brave Browser" />
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brave.com/static-assets/images/brave-og.png"/>
 <meta name="twitter:title" content="Secure, Fast, &amp; Private Web Browser with Adblocker | Brave Browser"/>
@@ -158,6 +158,7 @@ X-Xss-Protection: 1; mode=block
     
 
 <body class="home-page  theme--dark">
+    
 
 
 
@@ -992,6 +993,11 @@ X-Xss-Protection: 1; mode=block
     
     
     <li class="my-1 first:mt-0 last:mb-0 inline-block">
+        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/27-localhost-permission/" class="no-underline text-light-01">Localhost Resource Permission</a></h3>
+        <p class="leading-normal normal-case text-xs p-0 mb-3">Starting in version 1.54, Brave for desktop and Android will include more powerful features for controlling which sites can access local …</p>
+    </li>
+    
+    <li class="my-1 first:mt-0 last:mb-0 inline-block">
         <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/26-request-off-the-record/" class="no-underline text-light-01">Request &#34;Off the Record&#34;</a></h3>
         <p class="leading-normal normal-case text-xs p-0 mb-3">Request OTR is another in Brave&#39;s suite of features that support the privacy needs of individual users, protecting far beyond the &#34;standard&#34; …</p>
     </li>
@@ -999,11 +1005,6 @@ X-Xss-Protection: 1; mode=block
     <li class="my-1 first:mt-0 last:mb-0 inline-block">
         <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/25-forgetful-browsing/" class="no-underline text-light-01">Forgetful Browsing</a></h3>
         <p class="leading-normal normal-case text-xs p-0 mb-3">Forgetful Browsing is similar to, but more powerful and protective than, popular browsing extensions and private browsing modes. It&#39;s …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/24-google-sign-in-permission/" class="no-underline text-light-01">&#34;Google Sign-In&#34; Permission</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Starting in version 1.51, Brave will increase user privacy by extending the brower&#39;s permission system to cover legacy Google Sign-In…</p>
     </li>
     
 </ul>
@@ -1587,7 +1588,13 @@ We identify class of covert channels in browsers that are not mitigated by curre
                             
                                 
                                     <li data-nav-control="group">
-                                        <a href='/brave-ads/audience/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Audiences</a>
+                                        <a href='/brave-ads/self-serve/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Self-serve ads</a>
+                                    </li>
+                                
+                            
+                                
+                                    <li data-nav-control="group">
+                                        <a href='/brave-ads/audience/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Audience</a>
                                     </li>
                                 
                             
@@ -1631,8 +1638,8 @@ We identify class of covert channels in browsers that are not mitigated by curre
         
 <li class="my-1 first:mt-0 last:mb-0 inline-block">
     <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#brave-news-ads" class="no-underline text-light-01">
-            Brave News display ads
+        <a href="/brave-ads/ad-formats/#newsfeed-ads" class="no-underline text-light-01">
+            Newsfeed ads
         </a>
     </h3>
     <p class="leading-normal normal-case text-xs p-0 mb-3">
@@ -1644,8 +1651,8 @@ We identify class of covert channels in browsers that are not mitigated by curre
         
 <li class="my-1 first:mt-0 last:mb-0 inline-block">
     <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#brave-search-ads" class="no-underline text-light-01">
-            Brave Search ads
+        <a href="/brave-ads/ad-formats/#search-ads" class="no-underline text-light-01">
+            Search ads
         </a>
     </h3>
     <p class="leading-normal normal-case text-xs p-0 mb-3">
@@ -1670,12 +1677,12 @@ We identify class of covert channels in browsers that are not mitigated by curre
         
 <li class="my-1 first:mt-0 last:mb-0 inline-block">
     <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#push-notifications" class="no-underline text-light-01">
-            Push notification ads
+        <a href="/brave-ads/ad-formats/#notification-ads" class="no-underline text-light-01">
+            Notification ads
         </a>
     </h3>
     <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Push notification ads feature a title and short CTA; clicks drive users to the advertiser&#39;s desired landing page. Ads are served over …
+        Notification ads feature a title and short CTA; clicks drive users to the advertiser&#39;s desired landing page. Ads are served over content at …
     </p>
 </li>
 
@@ -2078,7 +2085,8 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <a class="btn btn--clear font-semibold text-sm capitalize" href="https://search.brave.com" id="top-nav-try-search-button">Try Brave Search</a>
         </div>
     </div>
-</header><main class="site-main">
+</header>
+    <main class="site-main">
 
 
 
@@ -2099,7 +2107,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <p class="br--not-chrome text-2xl">Browse privately. Search privately. And ditch Big Tech.</p>
             <p class="br--chrome text-2xl">3x faster than Chrome. Better protection from Google and Big Tech.</p>
 
-            <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download btn btn--large btn--orange btn--ghost block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download btn btn--large btn--hero block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
         </div>
     </div>
     <picture>
@@ -2936,7 +2944,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
         <div class="container">
             
             <div class="br--safari mt-20 lg:mt-0"></div>
-            <h1 class="font-semibold text-center text-ds-h1 text-white pt-0 2xl:pt-5 pb-2 2xl:pb-5 list-none mt-16 sm:mt-0">Almost there…</h1>
+            <h2 class="font-semibold text-center text-ds-h1 text-white pt-0 2xl:pt-5 pb-2 2xl:pb-5 list-none mt-16 sm:mt-0">Almost there…</h2>
             <h5 class="text-center text-ds-h5 text-white pb-2 2xl:pb-5">You’re just 60 seconds away from the best privacy online</h5>
             <p class="text-center text-white">
                 If your download didn’t start automatically,

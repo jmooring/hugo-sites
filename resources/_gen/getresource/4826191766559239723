@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7dd1bee83a39c6a9-SEA
+Cf-Ray: 7e29004b1a36ec54-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Mon, 26 Jun 2023 01:41:03 GMT
-Last-Modified: Fri, 23 Jun 2023 19:42:42 GMT
+Date: Thu, 06 Jul 2023 15:50:03 GMT
+Last-Modified: Wed, 05 Jul 2023 21:14:05 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -362,17 +362,19 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="5-june-2023">5 June 2023</h3>
+<h3 id="1-july-2023">1 July 2023</h3>
+<ul><li>
+            <p>We no longer bill for outbound data transfer that we determine is dropped by a DigitalOcean firewall rule. Learn more about <a href="/products/billing/bandwidth/">bandwidth billing</a>.</p>
+        </li></ul><h3 id="27-june-2023">27 June 2023</h3>
+<ul><li>
+            <p><p>The Rocky 8.4 and 8.5 images are now <a href="/products/platform/image-deprecation/">deprecated</a>, so these images are now unavailable from the control panel and the API.</p>
+<p>To create a Droplet with Rocky 8.4 or 8.5, you can either use a <a href="/products/images/custom-images/">custom image</a> or a <a href="/products/images/snapshots/how-to/snapshot-droplets/">snapshot of a Droplet</a> already running Rocky 8.4 or 8.5.</p>
+</p>
+        </li><li>
+            <p><a href="https://www.debian.org/News/2023/20230610">Debian 12</a> (<code>debian-12-x64</code>) base image is now available in the control panel and via the API.</p>
+        </li></ul><h3 id="5-june-2023">5 June 2023</h3>
 <ul><li>
             <p>The <a href="/products/networking/dns/">Domains and DNS management service</a> now only allows you to add domains with known top-level domains (TLDs) <a href="https://publicsuffix.org/list/public_suffix_list.dat">publicly recognized by ICANN</a>.</p>
-        </li></ul><h3 id="1-june-2023">1 June 2023</h3>
-<ul><li>
-            <p>Tax collection for IaaS and PaaS services has begun for customers in Rhode Island. <a href="/products/billing/taxes/usa/">Learn more about United States of America taxes</a>.</p>
-        </li><li>
-            <p>Tax collection for Indonesia has begun. <a href="/products/billing/taxes/idn/">Learn more about taxes in Indonesia.</a></p>
-        </li></ul><h3 id="22-may-2023">22 May 2023</h3>
-<ul><li>
-            <p>PostgreSQL 15 is <a href="/products/databases/postgresql/how-to/create/#choose-a-database-engine">now available for database clusters</a>. You can also now <a href="/products/databases/postgresql/how-to/upgrade-version/">perform in-place upgrades</a> for PostgreSQL clusters to newer versions without any downtime. We currently support PostgreSQL 12, 13, 14, and 15.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

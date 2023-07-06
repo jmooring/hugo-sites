@@ -1,25 +1,25 @@
 HTTP/2.0 200 OK
-Content-Length: 6874
+Content-Length: 6601
 Accept-Ranges: bytes
 Cache-Control: private
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 26 Jun 2023 01:41:07 GMT
-Etag: "1ada-5feec5d75728f"
-Last-Modified: Sun, 25 Jun 2023 04:06:57 GMT
+Date: Thu, 06 Jul 2023 15:50:06 GMT
+Etag: "19c9-5ffc9a329c3b4"
+Last-Modified: Thu, 06 Jul 2023 04:06:14 GMT
 Server: Apache/2.4.53 (Red Hat Enterprise Linux) OpenSSL/3.0.7
-Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=1c2bd46a5518539e934df3ceabb45928; path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=ca11da19ed3bcc4bf4c3c02decf44f95; path=/; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=300
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Served-By: cache-bfi-krnt7300034-BFI
-X-Timer: S1687743668.733680,VS0,VE85
+X-Served-By: cache-bfi-kbfi7400064-BFI
+X-Timer: S1688658606.869271,VS0,VE280
 
 <!doctype html>
 <html lang="en">
 
     <head>
-	<meta name="generator" content="Hugo 0.111.3">
+	<meta name="generator" content="Hugo 0.113.0">
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>GIMP Developer - GIMP Development</title>
@@ -96,12 +96,6 @@ X-Timer: S1687743668.733680,VS0,VE85
       <main role="main" class="container">
 
           
-<div class="banner">Google Summer of Code 2023: <a href="https://www.gimp.org/news/2023/03/20/gimp-in-gsoc-2023/" target="_blank" rel="noopener">applications opened</a>
-
- (see our <a href="/core/internship/">Internship page</a>
-
-)!</div>
-
 
 
           
@@ -164,7 +158,7 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" 
 <tr>
 <td>Port to meson build</td>
 <td><strong>done</strong></td>
-<td>Extensive testing phase. Autotools build still available as fallback</td>
+<td>Autotools was removed</td>
 </tr>
 <tr>
 <td>Redesign API for scripts/plug-ins</td>
@@ -195,7 +189,7 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" 
 </tr>
 <tr>
 <td>Documentation</td>
-<td>WIP</td>
+<td>work in progress</td>
 <td>Make sure documentation is up-to-date by release time</td>
 </tr>
 </tbody>
