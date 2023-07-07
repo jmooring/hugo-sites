@@ -1,0 +1,621 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Type: text/html
+Date: Fri, 07 Jul 2023 19:56:04 GMT
+Etag: W/"64a86a45-711c"
+Last-Modified: Fri, 07 Jul 2023 19:40:53 GMT
+Server: nginx
+Strict-Transport-Security: max-age=32140800; includeSubDomains
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+711c
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.110.0">
+    <title>American Registry for Internet Numbers</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <meta name="description" content="ARIN is a nonprofit, member-based organization that administers IP addresses &amp; ASNs in support of the operation and growth of the Internet." />
+    <meta name="keywords" content="" />
+
+    <meta property="og:url" content="https://www.arin.net/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="American Registry for Internet Numbers" />
+    <meta property="og:description" content="ARIN is a nonprofit, member-based organization that administers IP addresses &amp; ASNs in support of the operation and growth of the Internet." />
+    <meta property="og:image" content="https://www.arin.net/img/logo-social.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@teamarin" />
+
+    <link rel="canonical" href="https://www.arin.net/" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" href="https://www.arin.net/rss.xml" title="American Registry for Internet Numbers" />
+    <link href="/css/styles.min.48223bc50dc5dd0c3c1a6e79217ac8226ec003430332e9eef8e3d74ecefbdffb.css" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="/js/head-scripts.min.js"></script>
+    
+    <script src="/js/externals.js"></script>
+
+       
+</head>
+
+<body class="d-flex flex-column">
+  
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VJ67SD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+  <div class="flex-shrink-0">
+  <header>
+
+  <div class="container-fluid" id="top-bar">
+  <a href="#main-con" class="skip-link visually-hidden-focusable">Skip to main content</a>
+
+    <div class="header-con">
+      <div class="row">
+       <div id="top-bar-logo"><a href="/"><img src="/img/logo-inverse-nowords.svg" alt="The ARIN logo" /></a></div>
+        <div id="display-ip">
+          <p>
+          <a id="scroll-icon-link" href="/" aria-label="Home"><img id="scroll-icon" src="/img/icon-inverse-color.svg" alt="The ARIN logo" /></a>
+            Your IP<span id="ip-type"></span> address is <strong id="ip-address"></strong>
+          </p>
+
+        </div>
+        <div id="login-links"><a id="login-link-outage" href="https://www.arin.net/notices" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-container="#top-bar" title="Services currently unavailable" style="display:none">
+              <i class="fa fa-ban fa-fw" aria-hidden="true"></i>
+              <span>Log in</span>
+            </a>
+
+            <span id="notification-link-container"></span>
+
+            <a id="login-link" href="https://account.arin.net/public/login">
+              <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+              <span>Log in</span>
+            </a>
+
+            <a id="account-link-container" aria-expanded="false" href="javascript:void(0)">
+              <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+              <span id="account-link">User</span>
+              <i class="fa fa-caret-down fa-fw" aria-hidden="true"></i>
+            </a>
+          </p>
+
+          <div id="account-link-dropdown">
+            <ul id="account-link-dropdown-list">
+              <li id="account-dashboard-item">
+                <a id="account-dashboard-link" class="account-link-action" href="https://account.arin.net/public/secure/dashboard">
+                  <i class="fa fa-fw fa-dashboard"></i> Dashboard
+                </a>
+              </li>
+              <li id="account-settings-item">
+                <a id="account-settings-link" class="account-link-action" href="https://account.arin.net/public/secure/profile">
+                  Settings
+                  <small>Profile and security information</small>
+                </a>
+              </li>
+              <li>
+                <a id="account-logout-link" href="https://account.arin.net/public/logout">
+                  Log Out
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="container-fluid" id="logo-bar">
+    <div class="header-con">
+      <div class="row" id="universal-links">
+        <div id="logo-con">
+          <a href="/" aria-label="Home">
+            <img src="/img/logo-stnd.svg" alt="The ARIN logo" />
+          </a>
+        </div>
+        <div id="search-con">
+          <div class="input-group" role="search" aria-label="Universal Search">
+            <input type="text" name="q" id="input-box" class="form-control" placeholder="Search Site or Whois" aria-label="Search Site or Whois" onkeyup="InputChanged(event, document.getElementById('input-box').value)" />
+            <button class="btn btn-navbar" type="button" onclick="Search(document.getElementById('input-box').value)">Search</button>
+          </div>
+        </div>
+        <span class="search-tou">all requests subject to <a href="/resources/registry/whois/tou/">terms of use</a>&nbsp;&nbsp;</span>
+      </div>
+    </div>
+  </div> 
+
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">var $aj2 = jQuery.noConflict();</script>
+</header>
+
+    <div class="container-fluid" id="nav-wrapper" data-sj-ignore> 
+    <div class="container"> 
+
+      <nav class="navbar navbar-expand-lg bg-light navbar-light yamm" aria-label="main navigation">
+        <a class="navbar-brand" href="/" aria-label="Home"><i class='fa fa-home fa-fw'></i></a>
+
+
+          <button class="btn btn-navbar" id="navbar-search-btn" type="button" href="javascript:void(0)" onclick="Search()">
+            <span class="visually-hidden">Search</span>
+            <i class="fa fa-lg fa-search"></i>
+          </button>
+
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#js-navbar-collapse" aria-controls="js-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+        
+        <div id="js-navbar-collapse" class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="navbar-nav">
+
+              
+              
+
+<li class="nav-item drophover yamm-fw">
+  <a href="/resources/" class="nav-link drophover-toggle">IP Addresses &amp; ASNs</a><ul class="drophover-menu">
+    <li>
+      <div class="yamm-content">
+        <div class="row">
+          <ul>
+            <li class="mega-header">
+              <a href="/resources/guide/">Get Started</a>
+            </li>
+            <li><a href="/resources/guide/account/">ARIN Account Management</a></li>
+            <li><a href="/resources/guide/request/">Requesting IP Addresses or ASNs</a></li>
+            <li><a href="/resources/guide/ipv6/">IPv6 Information</a></li>
+            <li><a href="/resources/guide/ipv4/">IPv4 Addressing Options</a></li>
+            <li><a href="/resources/guide/asn/">Autonomous System Numbers</a></li>
+            <li><a href="/resources/guide/legacy/">Organizations Holding Legacy Resources</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/resources/fees/">Fee &amp; Billing Information</a>
+            </li>
+            <li><a href="/resources/fees/fee_schedule/">Fee Schedule</a></li>
+            <li><a href="/resources/fees/psp/">Premier Support Plan (PSP)</a></li>
+            <li><a href="/resources/fees/payment/">Make a Payment</a></li>
+            <li><a href="/resources/fees/contact/">How Billing Works</a></li>
+            <li><a href="/resources/fees/returns/">Resource Revocation, Returns, and Reinstatement</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/resources/registry/">IP &amp; ASN Registry Services</a>
+            </li>
+            <li><a href="/resources/registry/manage/">Managing Resource Records</a></li>
+            <li><a href="/resources/registry/transfers/">Transferring IP Addresses &amp; ASNs</a></li>
+            <li><a href="/resources/registry/reassignments/">Reporting Reassignments</a></li>
+            <li><a href="/resources/registry/originas/">Autonomous System Originations (Origin AS)</a></li>
+            <li><a href="/resources/registry/whois/">Using Whois</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/resources/manage/">Resource Management Services</a>
+            </li>
+            <li><a href="/resources/manage/regrws/">Automating Record Management with Reg-RWS</a></li>
+            <li><a href="/resources/manage/dnssec/">Securing DNS (DNSSEC)</a></li>
+            <li><a href="/resources/manage/routingsecurity/">Routing Security Eligibility FAQs</a></li>
+            <li><a href="/resources/manage/rpki/">Resource Certification (RPKI)</a></li>
+            <li><a href="/resources/manage/irr/">Internet Routing Registry (IRR)</a></li>
+            <li><a href="/resources/manage/reverse/">Reverse DNS</a></li>
+            </ul>
+          </div>
+      </div>
+    </li>
+  </ul></li>
+
+<li class="nav-item drophover yamm-fw">
+  <a href="/participate/" class="nav-link drophover-toggle">Policy &amp; Participation</a><ul class="drophover-menu">
+    <li>
+      <div class="yamm-content">
+        <div class="row">
+          <ul>
+            <li class="mega-header">
+              <a href="/participate/policy/">Policy</a>
+            </li>
+            <li><a href="/participate/policy/nrpm/">Number Resource Policy Manual</a></li>
+            <li><a href="/participate/policy/pdp/">Policy Development Process (PDP)</a></li>
+            <li><a href="/participate/policy/drafts/">Draft Policies and Proposals</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/participate/meetings/">Meetings &amp; Events</a>
+            </li>
+            <li><a href="/participate/meetings/upcoming/">Public Policy and Members Meetings</a></li>
+            <li><a href="/participate/meetings/outreach/">Outreach Events</a></li>
+            <li><a href="/participate/meetings/fellowships/">ARIN Fellowship Program</a></li>
+            <li><a href="/participate/meetings/sponsors/">Sponsorship</a></li>
+            <li><a href="/participate/meetings/past/">Past Meetings</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/participate/oversight/">Membership &amp; Elections</a>
+            </li>
+            <li><a href="/participate/oversight/membership/">Membership</a></li>
+            <li><a href="/participate/oversight/elections/">Elections</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/participate/community/">Community Interaction</a>
+            </li>
+            <li><a href="/participate/community/community_surveys/">ARIN Community Satisfaction Surveys</a></li>
+            <li><a href="/participate/community/mailing_lists/">Mailing Lists</a></li>
+            <li><a href="/participate/community/acsp/">Consultations &amp; Suggestions</a></li>
+            </ul>
+          </div>
+      </div>
+    </li>
+  </ul></li>
+
+<li class="nav-item drophover yamm-fw">
+  <a href="/reference/" class="nav-link drophover-toggle">Reference &amp; Tools</a><ul class="drophover-menu">
+    <li>
+      <div class="yamm-content">
+        <div class="row">
+          <ul>
+            <li class="mega-header">
+              <a href="/reference/tools/">Tools</a>
+            </li>
+            <li><a href="/reference/tools/testing/">Operational Test and Evaluation Environment (OT&amp;E)</a></li>
+            <li><a href="/reference/tools/cidr/">CIDR Calculator</a></li>
+            <li><a href="/reference/tools/software/">Community Software Repository</a></li>
+            <li><a href="/reference/tools/fraud_report/">Internet Number Resource Fraud Reporting</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/reference/materials/">Reference</a>
+            </li>
+            <li><a href="/reference/materials/abuse/">Spam &amp; Network Abuse Reporting</a></li>
+            <li><a href="/reference/materials/teamarin/">Blog</a></li>
+            <li><a href="/reference/materials/accuracy/">Data Accuracy</a></li>
+            <li><a href="/reference/materials/security/">Information Security at ARIN</a></li>
+            <li><a href="/reference/materials/software/">ARIN Software Releases</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/reference/research/">Research</a>
+            </li>
+            <li><a href="/reference/research/statistics/">Statistics &amp; Reporting</a></li>
+            <li><a href="/reference/research/whowas/">Historical Whois Data (WhoWas)</a></li>
+            <li><a href="/reference/research/bulkwhois/">Bulk Whois Data</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/reference/training/">Training &amp; Education</a>
+            </li>
+            <li><a href="/reference/training/leadership/">ARIN Leadership Development Program</a></li>
+            <li><a href="/reference/training/webinars/">Instructional Webinars</a></li>
+            <li><a href="/reference/training/resources/">Resource Materials</a></li>
+            <li><a href="/reference/training/help_videos/">ARIN Online Help Videos</a></li>
+            </ul>
+          </div>
+      </div>
+    </li>
+  </ul></li>
+
+<li class="nav-item drophover yamm-fw">
+  <a href="/about/" class="nav-link drophover-toggle">About</a><ul class="drophover-menu">
+    <li>
+      <div class="yamm-content">
+        <div class="row">
+          <ul>
+            <li class="mega-header">
+              <a href="/about/welcome/">Welcome to ARIN</a>
+            </li>
+            <li><a href="/about/welcome/staff/">Organization Structure &amp; Staff</a></li>
+            <li><a href="/about/welcome/region/">Our Region</a></li>
+            <li><a href="/about/welcome/board/">ARIN Board of Trustees</a></li>
+            <li><a href="/about/welcome/ac/">Advisory Council</a></li>
+            <li><a href="/about/welcome/nronc/">NRO Number Council</a></li>
+            <li><a href="/about/welcome/careers/">Careers</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/about/corporate/">Corporate Documentation</a>
+            </li>
+            <li><a href="/about/corporate/documents/">Corporate Documents</a></li>
+            <li><a href="/about/corporate/annual/">Annual Reports</a></li>
+            <li><a href="/about/corporate/planning/">Strategic Planning &amp; Budgeting</a></li>
+            <li><a href="/about/corporate/agreements/">Agreements</a></li>
+            <li><a href="/about/corporate/history/">History of ARIN</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/about/community_grants/">Community Grants</a>
+            </li>
+            <li><a href="/about/community_grants/program/">ARIN Community Grant Program</a></li>
+            <li><a href="/about/community_grants/recipients/">Community Grant Program Recipients</a></li>
+            </ul>
+          <ul>
+            <li class="mega-header">
+              <a href="/about/relations/">External Relations</a>
+            </li>
+            <li><a href="/about/relations/governance/">Internet Governance</a></li>
+            <li><a href="/about/relations/membership/">Memberships, Sponsorships, and MOUs</a></li>
+            <li><a href="/about/relations/law_enforcement/">Law Enforcement &amp; Public Safety</a></li>
+            <li><a href="/about/relations/community/">Technical Community</a></li>
+            </ul>
+          </div>
+      </div>
+    </li>
+  </ul></li>
+
+<li class="nav-item drophover yamm-fw">
+  <a href="/blog/" class="nav-link drophover-toggle no-caret">Blog</a></li>
+
+</ul>
+
+          <a id="payment-btn" class="btn navbar-btn ms-auto" href="/resources/fees/payment" role="button">Pay Now</a>
+          <a id="feedback-btn" class="btn navbar-btn outage-guard" href="javascript:void(0)" role="button">Feedback</a>
+
+        </div> 
+      </nav>
+    </div> 
+  </div> 
+<div id="welcome-con" class="fade-in" role="complementary"><h1 id="arin-is-a-nonprofit-member-based-organization-that-administers-ip-addresses-asns-in-support-of-the-operation-and-growth-of-the-internet">ARIN is a nonprofit, member-based organization that administers IP addresses &amp; ASNs in support of the operation and growth of the Internet.</h1>
+
+</div>
+
+<div class="container" id="main-con" role="main">
+
+<div class="row">
+  <p id="display-ip-mobile">
+    <strong>Your IP<span id="ip-type-mobile"></span> address is </strong><br><strong id="ip-address-mobile"></strong>
+  </p>
+  <ul class="nav top-tasks">
+    <li class="dark">
+      <a href="/new/"><i class="fa fa-info-circle top-tasks-icon" aria-hidden="true"></i><span class="top-tasks-label">New to ARIN</span></a>
+    </li>
+    <li class="blue">
+      <a href="/resources/guide/request/"><i class="fa fa-plus-square top-tasks-icon" aria-hidden="true"></i><span class="top-tasks-label">Request IP Addresses &amp; ASNs</span></a>
+    </li>
+    <li class="red">
+      <a href="/resources/registry/transfers/"><i class="fa fa-recycle top-tasks-icon" aria-hidden="true"></i><span class="top-tasks-label">Transfers</span></a>
+    </li>
+    <li class="purple">
+      <a href="/resources/guide/ipv6/"><i class="fa fa-globe top-tasks-icon" aria-hidden="true"></i><span class="top-tasks-label">IPv6 Info</span></a>
+    </li>
+    <li class="orange-bright">
+      <a href="/get-involved/"><i class="fa fa-handshake-o top-tasks-icon" aria-hidden="true"></i><span class="top-tasks-label">Get Involved</span></a>
+    </li>
+  </ul>
+</div>
+
+  
+
+  <h2 class="homepage-header">Announcements</h2>
+  <div class="row"> 
+    <div class="col-sm-12" id="front-announce">
+        <div class="row">
+          <div class="col-md-4 announcement">
+            <p class="overline overline-governance">Governance</p>
+            <h3><a href="https://www.arin.net/announcements/20230707/">Amy Potter Resigns from ARIN Advisory Council</a></h3>
+            <span class="announce-date">Fri, 07 Jul 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-elections">Elections</p>
+            <h3><a href="https://www.arin.net/announcements/20230707_nominees/">Publication of Received Nominations</a></h3>
+            <span class="announce-date">Fri, 07 Jul 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><a href="https://www.arin.net/announcements/20230706/">Apply Today for the ARIN 52 Fellowship Program</a></h3>
+            <span class="announce-date">Thu, 06 Jul 2023</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
+            <p class="overline overline-internet-number-resources">Internet Number Resources</p>
+            <h3><a href="https://www.arin.net/announcements/20230705/">IPv4 Waiting List Distribution</a></h3>
+            <span class="announce-date">Wed, 05 Jul 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
+            <h3><a href="https://www.arin.net/announcements/20230630-consult/">Consultation on ASN Fee Harmonization</a></h3>
+            <span class="announce-date">Fri, 30 Jun 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-arin">ARIN</p>
+            <h3><a href="https://www.arin.net/announcements/20230629/">Reminder - Annual Fee Cap for New LRSA Entrants Ending 31 December 2023</a></h3>
+            <span class="announce-date">Thu, 29 Jun 2023</span>
+          </div></div> 
+      <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
+    </div> 
+</div> <!-- close row --><div class="row homepage-section">
+    <div class="intro">
+      <div id="event-banner" class="placeholder" data-banners="/homepage/event-banners/57272132_10155871346186290_8565207069412556800_o-1.jpg,/homepage/event-banners/74682741_10156317143096290_7380909145081249792_o.jpg,/homepage/event-banners/75289377_10156317144326290_5731274646922199040_o.jpg,/homepage/event-banners/events-divider.jpg,"></div>
+      <h2 class="homepage-header">Events</h2>
+    </div>
+    <div class="events-list">
+      <p>Education. Policy. Discussion.
+ARIN Meetings and Events are an important part of our open, transparent, bottom-up processes.</p>
+
+
+
+
+<table class="table table-events data-responsive">
+<caption>Upcoming ARIN Events</caption>
+<thead>
+  <tr>
+    <th scope="col">Event</th><th scope="col">Location</th><th scope="col">Date</th>
+  </tr>
+</thead>
+<tbody>
+
+    <tr><td>
+        <strong>ARIN 52</strong>
+      </td><td data-title="Location">
+        San Diego, CA
+      </td><td data-title="Date">
+            19&ndash;20 October 2023</td></tr>
+      
+    <tr><td>
+        <strong>ARIN 53</strong>
+      </td><td data-title="Location">
+        Bridgetown, Barbados
+      </td><td data-title="Date">
+            14&ndash;17 April 2024</td></tr>
+      
+    <tr><td>
+        <strong>ARIN 54</strong>
+      </td><td data-title="Location">
+        Toronto, ON
+      </td><td data-title="Date">
+            24&ndash;25 October 2024</td></tr>
+      
+    <tr><td>
+        <strong>ARIN 55</strong>
+      </td><td data-title="Location">
+        Charlotte, NC
+      </td><td data-title="Date">
+            27&ndash;30 April 2025</td></tr>
+      
+<tr><td colspan="3">
+  &raquo; <a href="/participate/meetings/#all-upcoming-arin-events">View all</a>
+</td></tr>
+</tbody>
+</table>
+
+<!-- the number in the shortcode sets how many events to list -->
+
+    </div>
+    <div class="billboards">
+      <a href="/fellowships"><img src="/homepage/images/fellowship_applynow.svg" alt="Apply for the ARIN 52 Fellowship Program"></a>
+      
+      <a href="/events"><img src="/homepage/images/generic_event_calendar_long.svg" alt="Find the latest ARIN and Community Events"></a>
+      </div>
+  </div> 
+<hr>
+  <div class="row homepage-section">
+    <div class="intro">
+      <h2 class="homepage-header">Recent Blog Posts</h2><p>Visit <a href="/blog/">ARIN&rsquo;s blog homepage</a> for more.</p>
+
+    </div>
+
+      <section class="row row-cols-1 row-cols-md-3">
+
+        
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2023/07/06/arin-52-fellowship-applications/">
+      <img class="card-img-top" src="/blog/2023/07/06/arin-52-fellowship-applications/arin52-fellowship-apply.png" alt="Read the blog Apply Today for the ARIN 52 Fellowship Program">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2023/07/06/arin-52-fellowship-applications/"><h3 class="card-title">Apply Today for the ARIN 52 Fellowship Program</h3></a>
+      <time datetime="2023-07-06 08:15:00 -0400 EDT">6 Jul 2023</time>
+      <p>The call for applications to our ARIN 52 Fellowship Program goes out today! Amanda Gauldin, Community Programs Manager, shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2023/06/28/fellowship-round-2/">
+      <img class="card-img-top" src="/blog/2023/06/28/fellowship-round-2/fellowship-round-two.png" alt="Read the blog Fellowship, Round Two: From Virtual to Hybrid">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2023/06/28/fellowship-round-2/"><h3 class="card-title">Fellowship, Round Two: From Virtual to Hybrid</h3></a>
+      <time datetime="2023-06-28 12:45:00 -0400 EDT">28 Jun 2023</time>
+      <p>A returning ARIN Fellow shares how his experience in the ARIN 51 hybrid-format program differed from and expanded on his participation in the ARIN 50 virtual Fellowship. </p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2023/06/27/arin-bits-june-2023/">
+      <img class="card-img-top" src="/blog/2023/06/27/arin-bits-june-2023/ARIN_BITS_header.jpeg" alt="Read the blog ARIN Bits: June 2023">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2023/06/27/arin-bits-june-2023/"><h3 class="card-title">ARIN Bits: June 2023</h3></a>
+      <time datetime="2023-06-27 08:00:00 -0400 EDT">27 Jun 2023</time>
+      <p>Settle into your lounge chair and drink in this fresh edition of ARIN Bits, which includes updates on our action-packed second quarter and what to expect in the rest of the year. Read up on a wave of new processes, programs, and service upgrades along with ARIN Elections details, the 2022 Annual Report, upcoming industry events, and much more. </p>
+    </div>
+  </div>
+</div>
+
+
+
+      </section>
+          
+    </div>
+  </div> 
+  </div> 
+  <footer>
+  <nav id="foot-top" class="btt" aria-labelledby="foot-top-label"><span id="foot-top-label"><a href="javascript:void(0)">Back to top</a></span></nav>
+    <div id="scroll-btt" class="btt" aria-hidden="true"><i class="fa fa-lg fa-chevron-up"></i><p>Back<br>to top</p></div>
+    <div class="foot-content">
+      <div class="row">
+      <div class="foot-col">
+        <ul class="foot-links">
+          <li><a href="https://account.arin.net/public/terms-of-service">Terms of Service</a></li>
+          <li><a href="/sitemap/">Site Map</a></li>
+          <li><a href="/about/privacy/">Privacy Policy</a></li>
+          <li><a href="/reference/materials/abuse/">Network Abuse</a></li>
+          <li><a href="/reference/accessibility">Accessibility</a></li>
+          <li><a href="/about/corporate/standards/">Standards of Behavior</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-copy">
+          <img src="/img/logo-reverse.svg" alt="The ARIN logo" style="max-width:300px" />
+          &copy; Copyright 1997 &ndash; 2023, American Registry for Internet Numbers, Ltd.
+        </p>
+        <p class="foot-copy">
+          <a href="http://www.nro.net/"><img src="/img/nro-logo2.png" alt="Visit the NRO website" /></a>
+        </p>
+        <p class="foot-copy">
+          A member of the Number Resource Organization
+        </p>
+      </div>
+      <div class="foot-col">
+        <p class="foot-contact">
+          <a href="https://arin.statuspage.io/">Service Status</a>
+        </p>
+        <p class="foot-contact">
+          <a href="/contact/">Contact Us</a>
+        </p>
+        <p class="foot-contact">
+          Registration Services: <a href="tel:+1-703-227-0660">+1.703.227.0660</a><br />
+          Financial Services: <a href="tel:+1-703-227-9886">+1.703.227.9886</a><br />
+          Main: <a href="tel:+1-703-227-9840">+1.703.227.9840</a>
+        </p>
+        <p class="foot-contact">
+          <ul class="foot-social list-inline">
+            <li class="list-inline-item"><a href="https://www.facebook.com/TeamARIN"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i><span>Visit ARIN on Facebook</span></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/TeamARIN"><i class="fa fa-twitter-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on Twitter</span></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/company/arin"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on LinkedIn</span></a></li>
+            <li class="list-inline-item"><a href="https://www.youtube.com/c/teamarin/"><i class="fa fa-youtube-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on YouTube</span></a></li>
+          </ul>
+        </p>
+        <p class="foot-contact">
+          <a href="/about/media/">Media</a>
+        </p>
+
+      </div>
+      </div>
+    </div>
+  </footer>
+  <div id="preload" aria-hidden="true"></div>
+
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/static-utils.js"></script>
+<script src="/js/event_banner.min.5f1084c35848ae266dd9b6910768ff7ff4eeaff78a4766ca1e39a7adef344c32.js"></script>
+
+<script src="/js/global.min.ea006d3e02cac0f68072342cade3553a6d128c9edfe7311c181817763a872955.js"></script>
+<script src="/js/transition.min.28a2443e3d7266e4402239e0dc63bbb08326f45672b678cb52cf06d20930580d.js"></script>
+
+<script src="https://c2y23vzfb5cg.statuspage.io/embed/script.js"></script>
+
+
+</body>
+</html>
+
+0
+
