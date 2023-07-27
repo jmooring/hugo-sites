@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 573452
+Age: 2725
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Thu, 06 Jul 2023 15:50:12 GMT
-Etag: W/"e6d531b58aeed4575dc1e34065d06037"
+Date: Thu, 27 Jul 2023 20:32:26 GMT
+Etag: W/"cad9aa254224765e8ddf3b5e4edb2c00"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
+X-Vercel-Id: pdx1::w7k6x-1690489946119-a369aa417dae
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -105,6 +105,13 @@ X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
 
 
 
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+
+<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-bundle.js"></script>
+<script src="https://unpkg.com/@statuspage/status-widget/dist/index.js"></script>
+
+
 <meta name="google-site-verification" content="xsUs5j8dE0diO-cTwz4nklHOLMuUHvVlvNooAj7_szY" />
 
 
@@ -113,9 +120,7 @@ X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
 
 </head>
   <body class="" data-url="/" style="background-color:black;">
-    <script>
-    console.log("")
-</script>
+    
 
 
 <div class="tabs is-small site-tabs">
@@ -127,6 +132,7 @@ X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
             <a href="/shoppers/" class=""><p>Shopper Help</p></a>
         </li>
     </ul>
+    
 </div>
 
 <style>
@@ -861,15 +867,15 @@ X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
     <div class="mb-1 mt-0">
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/connectors/marketing-and-communications/">Marketing &amp; Communications</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/connectors/3ds2/">3D Secure 2.0 (3DS2) Integrations</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/connectors/alternative-payments/">Alternative Payment Methods</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/connectors/enterprise-resource-planning/">Enterprise Resource Planning</a>
         </p>
         
     </div>
@@ -1177,6 +1183,21 @@ X-Vercel-Id: pdx1::tr7lj-1688658612336-221ea64643fa
     </div>
   </section>
   
+    <style>
+    #fixedbutton {
+        position: fixed;
+        bottom: 0px;
+        left: 0px; 
+        z-index: 1000;
+    }
+</style>
+
+
+<button class="docs-buttons button m-3 is-centered" style="color: #e6ff00 !important;" id="fixedbutton">
+    <statuspage-widget src="https://status.bolt.com"></statuspage-widget>
+</button>
+
+
     </body>
 	<footer>
 		<html>

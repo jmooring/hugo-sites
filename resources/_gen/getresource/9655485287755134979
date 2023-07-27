@@ -1,24 +1,24 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 215
+Age: 0
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7e29005b5d0cec5c-SEA
+Cf-Ray: 7ed7a6ac5e44c383-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 06 Jul 2023 15:50:05 GMT
-Expires: Thu, 06 Jul 2023 14:02:14 GMT
-Last-Modified: Wed, 05 Jul 2023 08:38:20 GMT
+Date: Thu, 27 Jul 2023 20:32:20 GMT
+Expires: Thu, 27 Jul 2023 20:42:20 GMT
+Last-Modified: Tue, 25 Jul 2023 15:22:22 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=OZYv_FsKfoR2ABsUbsjkIyMxDis7qYYpzj2u_DeqGjU-1688658605-0-Abf1IL7WHldbpOZyoQXlJB2A4DYyObJ+b3xzZvkZwpTgaTPxa+JmvWKZBsh96nHEfnbAXIeUvMvln465O4HkKAU=; path=/; expires=Thu, 06-Jul-23 16:20:05 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=ds9aZCN6FgMCnG3tke_FuRjUj9tyZlXUOvvgd1OnIBI-1690489940-0-AZM1vXbb4W+NermdAdYBOfsBuwW+AsnqXl8XiLJWxBVgW3yFrUparxJTcFZKdJbNUqDafhUGUR6qBcJHOtSdeps=; path=/; expires=Thu, 27-Jul-23 21:02:20 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
-X-Fastly-Request-Id: a5287d8948fbe8043375f471150d32d576a5e7fe
-X-Github-Request-Id: E3A2:3222:48B4F0:6D6CBE:64A6C70E
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 969634f8db8e9f24b7b81a648eee6cfab6823473
+X-Github-Request-Id: 350A:5E20:3CAFE1:45C823:64C2D453
 X-Proxy-Cache: MISS
-X-Served-By: cache-chi-kigq8000092-CHI
-X-Timer: S1688658605.465328,VS0,VE1
+X-Served-By: cache-pao-kpao1770083-PAO
+X-Timer: S1690489940.961572,VS0,VE85
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -44,15 +44,15 @@ X-Timer: S1688658605.465328,VS0,VE1
     <title>PrestaShop Developer Documentation</title>
     
     
-    <link href="/css/font-awesome.min.css?1688546222" rel="stylesheet">
-    <link href="/css/syntax-github.css?1688546222" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1688546222" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1688546222" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1690298470" rel="stylesheet">
+    <link href="/css/syntax-github.css?1690298470" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1690298470" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1690298470" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.1" />
-    <link href="/style.css?1688546222" rel="stylesheet">
+    <link href="/style.css?1690298470" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1688546222"></script>
+    <script src="/js/jquery-3.3.1.min.js?1690298470"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -7012,9 +7012,30 @@ X-Timer: S1688658605.465328,VS0,VE1
  
   
     
-      <li data-nav-id="/8/modules/creation/adding-configuration-page/" title="Adding a configuration page" class="dd-item ">
+      <li data-nav-id="/8/modules/creation/adding-configuration-page/" title="Adding a configuration page (Legacy architecture)" class="dd-item ">
         <a href="/8/modules/creation/adding-configuration-page/">
-        Adding a configuration page
+        Adding a configuration page (Legacy architecture)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/modules/creation/adding-configuration-page-modern/" title="Modern configuration page" class="dd-item ">
+        <a href="/8/modules/creation/adding-configuration-page-modern/">
+        Modern configuration page
         
         </a>
     </li>
@@ -7353,6 +7374,9 @@ X-Timer: S1688658605.465328,VS0,VE1
           
 
         
+          
+            
+            
           
             
             
@@ -15744,6 +15768,9 @@ X-Timer: S1688658605.465328,VS0,VE1
 
     
 
+
+    
+
     
 
 
@@ -15776,6 +15803,9 @@ X-Timer: S1688658605.465328,VS0,VE1
             </a>
         
     </div>
+
+
+    
 
 
     
@@ -17569,17 +17599,17 @@ X-Timer: S1688658605.465328,VS0,VE1
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1688546222"></script>
-    <script src="/js/perfect-scrollbar.min.js?1688546222"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1688546222"></script>
-    <script src="/js/jquery.sticky.js?1688546222"></script>
-    <script src="/js/featherlight.min.js?1688546222"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1688546222"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1688546222"></script>
-    <script src="/js/learn.js?1688546222"></script>
-    <script src="/js/hugo-learn.js?1688546222"></script>
+    <script src="/js/clipboard.min.js?1690298470"></script>
+    <script src="/js/perfect-scrollbar.min.js?1690298470"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1690298470"></script>
+    <script src="/js/jquery.sticky.js?1690298470"></script>
+    <script src="/js/featherlight.min.js?1690298470"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1690298470"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1690298470"></script>
+    <script src="/js/learn.js?1690298470"></script>
+    <script src="/js/hugo-learn.js?1690298470"></script>
     
-    <script src="/main.js?1688546222"></script>
+    <script src="/main.js?1690298470"></script>
     
     
     
@@ -19149,6 +19179,11 @@ X-Timer: S1688658605.465328,VS0,VE1
                     },
                 
                     {
+                        name: "displayFooterCategory",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displayfootercategory/"
+                    },
+                
+                    {
                         name: "displayFooterProduct",
                         url: "/8/modules/concepts/hooks/list-of-hooks/displayfooterproduct/"
                     },
@@ -19411,6 +19446,10 @@ X-Timer: S1688658605.465328,VS0,VE1
             
         ];
 
+        let customFacetFilter = 'version:8';
+
+        let showVersionNumber = false;
+
         docsearch({
             appId: '79DO4UR9Y5',
             apiKey: 'fe8683fb1473b7993657dd80ede7b6f9',
@@ -19418,25 +19457,84 @@ X-Timer: S1688658605.465328,VS0,VE1
             placeholder: 'Search DevDocs',
             searchParameters: {
                 facetFilters: [
-                'version:8'
+                    customFacetFilter
                 ],
             },
             container: '#docsearch-container',
-            transformSearchClient: function(searchClient){
+            transformSearchClient: (searchClient) => {
                 return {
                     ...searchClient,
                     search: alterSearch(searchClient.search)
                 };
-            }
+            },
+            getMissingResultsUrl: ({ query }) => {
+                return "https:\/\/github.com\/PrestaShop\/docs\/issues/new?title=Missing+documentation+for+topic+" + query;
+            },
+            transformItems(items) {                
+                return items.map((item) => {
+                    if(showVersionNumber){
+                        const url = item.url;
+                        const version = url.replace("https:\/\/devdocs.prestashop-project.org\/", "").split("/")[0];
+                        const versionPill = '<span class="version-pill">' + version + '</span>';
+                        if(item._snippetResult.content){
+                            item._snippetResult.content.value = versionPill + item._snippetResult.content.value;
+                        }
+                        else if(item._snippetResult.hierarchy){
+                            if(!item._snippetResult.hierarchy.lvl0){
+                                item._snippetResult.hierarchy.lvl0 = {
+                                    value : versionPill
+                                };
+                            } else {
+                                item._snippetResult.hierarchy.lvl0.value = versionPill + item._snippetResult.hierarchy.lvl0.value;
+                            }
+                            if(item._snippetResult.hierarchy.lvl1){
+                                item._snippetResult.hierarchy.lvl1.value = versionPill + item._snippetResult.hierarchy.lvl1.value;
+                            }
+                        }
+                    }
+                    return item;
+                });
+            },
         });
+
 
         function alterSearch(func) {
             return function (...args) {
                 const that = this;
-                return new Promise((resolve, reject) => {
+
+                return new Promise(async (resolve, reject) => {
+
+                    const interceptedResolveFunction = (response) => {
+                        
+                        let otherVersionAlert = document.getElementById("DocSearch-otherVersionAlert");
+                        if(otherVersionAlert){
+                            otherVersionAlert.remove();
+                        }
+                        
+                        const [interceptedResults] = response.results;
+                        if(interceptedResults.nbHits>0){
+                            showVersionNumber = false;
+                            resolve(response);
+                            return;
+                        }
+
+                        showVersionNumber = true;
+
+                        otherVersionAlert = document.createElement("div");
+                        otherVersionAlert.innerHTML = "Results found in other versions of the documentation:";
+                        otherVersionAlert.id = "DocSearch-otherVersionAlert";
+                        document.getElementsByClassName("DocSearch-Dropdown")[0].before(otherVersionAlert);
                     
-                    Promise.resolve(func.apply(that, args)).then(resolve).catch(reject);
-                    
+                        
+                        const [searchQuery] = args;
+                        searchQuery[0].params.facetFilters = [];
+
+                        
+                        Promise.resolve(func.apply(that, [searchQuery])).then(resolve).catch(reject);
+                    };
+
+                    Promise.resolve(func.apply(that, args)).then(interceptedResolveFunction).catch(reject);
+
                     const input = document.getElementById("docsearch-input");
                     let dropdownContainer = document.getElementsByClassName("DocSearch-Dropdown")[0];
                     
@@ -19481,7 +19579,7 @@ X-Timer: S1688658605.465328,VS0,VE1
             };
         }
 
-        const matchQueryWithDynamicHookName = function(search, hookName){
+        const matchQueryWithDynamicHookName = (search, hookName) => {
             const regex = new RegExp("\<(.*)\>", 'i');
             const regexedHookName = hookName.replace(regex, "(.*)");
             if(regexedHookName != hookName){
@@ -19491,7 +19589,7 @@ X-Timer: S1688658605.465328,VS0,VE1
             return false;
         }
 
-        function matchHooks(query){
+        const matchHooks = (query) => {
             if(query.substring(0, 4).toLowerCase() == "hook"){
                 query = query.substring(4);
             }

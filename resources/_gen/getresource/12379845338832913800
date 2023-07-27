@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 774923
+Age: 538919
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 06 Jul 2023 15:50:22 GMT
-Etag: "1492ac9bd408ed44f84914eecdcab694-ssl-df"
+Date: Thu, 27 Jul 2023 20:32:41 GMT
+Etag: "aee5fc5f9de144ea115e9fd0395b58bd-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H4NYBDPRPMN9APBDNCXWK1B7
+X-Nf-Request-Id: 01H6CGVEWXY2NRSM9F66TJ0VFC
 
 <!doctype html><html>
 <head>
@@ -131,13 +131,42 @@ Reward amounts
 </a>
 </h1>
 <p>Reward amounts are determined based on complexity and impact of work:</p>
-<p>| Size | Amount | Nature of improvement |
-| &mdash;&mdash; | &mdash;&mdash;&mdash;&mdash;-|
-| XL | <strong>$10,000 or more</strong> | Complicated, high-impact and lasting improvements that almost certainly prevent major vulnerabilities in the affected code or supporting infrastructure.|
-| L | <strong>$5,000-$10,000</strong> | Moderately complex improvements that offer compelling security benefits.|
-| M | <strong>$1,000-$5,000</strong> | Submissions of modest complexity and impact.|
-| S | <strong>$505</strong> | Small improvements that nevertheless have merit from a security standpoint.|
-| XS | <strong>$100</strong> | Extra-small improvements (one or two line changes).|</p>
+<table>
+<thead>
+<tr>
+<th>Size</th>
+<th>Amount</th>
+<th>Nature of improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XL</td>
+<td><strong>$10,000 or more</strong></td>
+<td>Complicated, high-impact and lasting improvements that almost certainly prevent major vulnerabilities in the affected code or supporting infrastructure.</td>
+</tr>
+<tr>
+<td>L</td>
+<td><strong>$5,000-$10,000</strong></td>
+<td>Moderately complex improvements that offer compelling security benefits.</td>
+</tr>
+<tr>
+<td>M</td>
+<td><strong>$1,000-$5,000</strong></td>
+<td>Submissions of modest complexity and impact.</td>
+</tr>
+<tr>
+<td>S</td>
+<td><strong>$505</strong></td>
+<td>Small improvements that nevertheless have merit from a security standpoint.</td>
+</tr>
+<tr>
+<td>XS</td>
+<td><strong>$100</strong></td>
+<td>Extra-small improvements (one or two line changes).</td>
+</tr>
+</tbody>
+</table>
 <p>Examples of how specific changes may map to award amounts:</p>
 <ul>
 <li><strong>Updating token permissions</strong>: XS-S</li>
@@ -145,7 +174,8 @@ Reward amounts
 <li><strong>Adoption of artifact signing and verification</strong>: S-M</li>
 <li><strong>Adoption of SLSA builders</strong>: S-M</li>
 <li><strong>Adoption of Fuzzing</strong>: S-M</li>
-<li><strong>Fixing issues found by fuzzing</strong>: M-L</li>
+<li><strong>Fixing issues found by fuzzing</strong>: XS-S</li>
+<li><strong>Fixing issues found by fuzzing with a demonstration of an attacker controlling execution flow</strong>: M-L</li>
 <li><strong>Implementing ecosystem wide security improvements</strong>: L-XL</li>
 </ul>
 <p>These examples of award amounts are for illustrative purposes only. We reserve the right to be subjective when determining award amounts.</p>

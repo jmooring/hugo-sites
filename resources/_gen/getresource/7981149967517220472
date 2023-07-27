@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
-Age: 29
+Age: 48
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Thu, 06 Jul 2023 15:49:36 GMT
-Etag: "b98ca4eeeb0eeac5c40af40d317a4359"
-Last-Modified: Thu, 29 Jun 2023 17:01:43 GMT
+Date: Thu, 27 Jul 2023 20:31:30 GMT
+Etag: "ee0b4ee902ab82704f2b1d285dbe9287"
+Last-Modified: Thu, 27 Jul 2023 16:43:48 GMT
 Strict-Transport-Security: max-age=31536000; preload
 Vary: Accept-Encoding
-Via: 1.1 2bedbeaa49b4a77447d30097858cb81a.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: dmcYivHquZKo7pfC6sZC_7VRy20kGm8zaqPBJE41F9si7RFiCRHcNw==
+Via: 1.1 1a53057db389e96b4ef1bfbc925dde1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7tcNbwE7W6WEzxeHjIOd8Kbtk3tQBO1QW7swWm0eJQ7AKN49uISqMw==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Hit from cloudfront
@@ -18,7 +18,7 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: d1aaf9bb-7b4d-43fd-775e-8e8ed6e10c8c
+X-Vcap-Request-Id: f00ed5b6-8071-40ff-7b1d-4b86ede83f2b
 X-Xss-Protection: 1; mode=block
 
 <!--
@@ -242,6 +242,8 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
             class="usa-banner__header-flag"
             src="/uswds/img/us_flag_small.png"
             alt=""
+            width="16"
+            height="11"
           />
         </div>
         <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
@@ -337,6 +339,8 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
             class="logo-black"
             src="/img/digitalgov-logo.svg"
             alt="Digital.gov Logo"
+            width="220"
+            height="36"
           />
         </a>
       </em>
@@ -453,6 +457,40 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
               <h1 class="resources-featured__title">
                 Guidance on building better digital services in government.
               </h1>
+              <a
+                class="btn btn-home"
+                href="/events"
+                title="View events page"
+              >
+                <span>View Events</span>
+                <svg
+                  class="usa-icon dg-icon dg-icon--standard margin-bottom-05"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="img"
+                >
+                  <use
+                    xlink:href="/uswds/img/sprite.svg#arrow_forward"
+                  ></use>
+                </svg>
+              </a>
+              <a
+                class="btn btn-home"
+                href="/communities"
+                title="View communities page"
+              >
+                <span>Join Communities</span>
+                <svg
+                  class="usa-icon dg-icon dg-icon--standard margin-bottom-05"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="img"
+                >
+                  <use
+                    xlink:href="/uswds/img/sprite.svg#arrow_forward"
+                  ></use>
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -463,8 +501,32 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           
       
     
+    <li data-edit-this="resources/21st-century-integrated-digital-experience-act.md"><div class="icon">
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
+    </div><div class="copy">
+        <p>
+          <a href="/resources/21st-century-integrated-digital-experience-act/?dg" title="21st Century Integrated Digital Experience Act">
+            <span>21st Century Integrated Digital Experience Act</span>
+          </a>—21st Century IDEA aims to improve the digital experience for government customers and reinforces existing requirements for federal public …</p>
+      </div>
+    </li>
+          
+      
+    
     <li data-edit-this="resources/checklist-of-requirements-for-federal-digital-services.md"><div class="icon">
-      <img src="/img/digit-50.png" alt="" aria-hidden="true" />
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
     </div><div class="copy">
         <p>
           <a href="/resources/checklist-of-requirements-for-federal-digital-services/?dg" title="Checklist of Requirements for Federal Websites and Digital Services">
@@ -475,42 +537,14 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           
       
     
-    <li data-edit-this="resources/customer-experience-toolkit.md"><div class="icon">
-      <img src="/img/digit-50.png" alt="" aria-hidden="true" />
-    </div><div class="copy">
-        <p>
-          <a href="/resources/customer-experience-toolkit/?dg" title="Customer Experience Toolkit">
-            <span>Customer Experience Toolkit</span>
-          </a>—This Toolkit is intended to help government agencies improve how we deliver services and information to the public.</p>
-      </div>
-    </li>
-      
-    
-    <li data-edit-this="resources/eight-principles-mobile-friendliness.md"><div class="icon">
-      <img src="/logos/digitalgov-icon.png" alt="" aria-hidden="true" />
-    </div><div class="copy">
-        <p>
-          <a href="https://digital.gov/guides/mobile-principles/?dg" title="Eight Principles of Mobile-Friendliness">
-            <span>Eight Principles of Mobile-Friendliness</span>
-          </a>—Following these principles will help you make your site more usable and user-friendly.</p>
-      </div>
-    </li>
-      
-    
-    <li data-edit-this="resources/guide-robotic-process-automation.md"><div class="icon">
-      <img src="/logos/digitalgov-icon.png" alt="" aria-hidden="true" />
-    </div><div class="copy">
-        <p>
-          <a href="https://digital.gov/guides/rpa/?dg" title="Guide to Robotic Process Automation">
-            <span>Guide to Robotic Process Automation</span>
-          </a>—Configure bots to execute repetitive tasks to save users from performing mundane tasks repeatedly for the same process.</p>
-      </div>
-    </li>
-          
-      
-    
     <li data-edit-this="resources/required-web-content-and-links.md"><div class="icon">
-      <img src="/img/digit-50.png" alt="" aria-hidden="true" />
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
     </div><div class="copy">
         <p>
           <a href="/resources/required-web-content-and-links/?dg" title="Required Web Content and Links">
@@ -518,15 +552,58 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           </a>—If you manage a public website in the federal government&rsquo;s executive branch, various policies require you to have certain content—or …</p>
       </div>
     </li>
+          
       
     
-    <li data-edit-this="resources/uswds-maturity-model.md"><div class="icon">
-      <img src="/logos/uswds-icon.png" alt="" aria-hidden="true" />
+    <li data-edit-this="resources/intro-accessibility.md"><div class="icon">
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
     </div><div class="copy">
         <p>
-          <a href="https://designsystem.digital.gov/maturity-model/?dg" title="USWDS Maturity Model">
-            <span>USWDS Maturity Model</span>
-          </a>—How to adopt the design system incrementally and design and build better digital experiences.</p>
+          <a href="/resources/introduction-accessibility/?dg" title="An Introduction to Accessibility">
+            <span>An Introduction to Accessibility</span>
+          </a>—An introduction to accessibility, and why it matters.</p>
+      </div>
+    </li>
+          
+      
+    
+    <li data-edit-this="resources/an-introduction-github.md"><div class="icon">
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
+    </div><div class="copy">
+        <p>
+          <a href="/resources/an-introduction-github/?dg" title="An Introduction to GitHub">
+            <span>An Introduction to GitHub</span>
+          </a>—How to use GitHub in easy, practical steps to create, manage and publish website content.</p>
+      </div>
+    </li>
+          
+      
+    
+    <li data-edit-this="resources/an-introduction-to-pronouns.md"><div class="icon">
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
+    </div><div class="copy">
+        <p>
+          <a href="/resources/an-introduction-to-pronouns/?dg" title="An introduction to pronouns">
+            <span>An introduction to pronouns</span>
+          </a>—A guide for government employees and contractors to understand and use pronouns in the workplace.</p>
       </div>
     </li></ul>
   </div><footer>
@@ -593,6 +670,341 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
         
         
+              
+                
+                
+  
+
+
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2023/07/2023-07-19-gsa-shared-service-provider-program-guide.md"
+  
+  aria-labelledby="title-gsa-shared-service-provider-program-guide"
+>
+  <div class="card__content"><h3 id="title-gsa-shared-service-provider-program-guide">
+      <a href="/2023/07/19/gsa-shared-service-provider-program-guide/">GSA Shared Service Provider Program Guide</a>
+    </h3><div class="summary">The newly-released SSP Program Guide was created for commercial vendors interested in becoming a Shared Service Provider.</div><div class="authors-list authors-list-short">
+    
+    <a
+          class="author"
+          href="/authors/cheryl-jenkins/"
+          rel="author"
+        >
+  <img src="/img/digit-light.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Cheryl Jenkins</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/tyler-jones/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Tyler Jones</span
+          > </a
+        ></div></div>
+
+  <div class="card__media"><div class="media-featured">
+    <a href="/2023/07/19/gsa-shared-service-provider-program-guide/" title="GSA Shared Service Provider Program Guide">
+      <img
+        src="https://s3.amazonaws.com/digitalgov/data-security-concept-comp_w400.png"
+        aria-hidden="true"
+        alt=""
+      />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Jul 19, 2023</div>
+  </div>
+</article>
+
+              
+            
+  
+
+
+
+
+
+
+
+<article
+  class="card card-event 
+    card-event--past
+  card-linked"
+  data-edit-this="events/2023/07/2023-07-05-supporting-inclusive-language-through-automation.md"
+  
+  aria-labelledby="supporting-inclusive-language-through-automation"
+>
+  <div class="card-event__main">
+    <div class="card-event__header"><div class="flex-align-end card-event__kicker">
+          <span>Communicators</span>
+        </div><h2 class="card-event__title" id="supporting-inclusive-language-through-automation">
+        <a
+          href="/event/2023/07/19/supporting-inclusive-language-through-automation/"
+          title="Supporting inclusive language through automation"
+          rel="bookmark"
+          >Supporting inclusive language through automation</a
+        >
+      </h2>
+    </div>
+
+    <div class="card-event__body"><div class="card-event__summary">
+          Join us as we learn about our Inclusion Bot and how it helps to create an inclusive culture in the workplace.
+        </div><p class="card-event__host">
+          Hosted by Digital.gov and the
+          Communicators Community of Practice
+        </p>
+    </div>
+  </div>
+
+  <div class="card-event__aside">
+    <div class="card-event__date">
+      <time class="card-event__datetime" datetime="2023-07-19">
+        <span class="card-event__datetime-month"
+          >Jul</span
+        >
+        <span class="card-event__datetime-day"
+          >19<span class="card-event__datetime-comma">,</span>
+        </span>
+        <span class="card-event__datetime-year--mobile"
+          >2023</span
+        >
+      </time>
+      
+        <span class="card-event__date-label">
+          <span class="card-event__datetime-year"
+            >2023</span
+          >
+        </span>
+      
+    </div>
+  </div>
+</article>
+
+              
+                
+                
+  
+
+
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-edit-this="news/2023/07/2023-07-18-reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows.md"
+  
+  aria-labelledby="title-reflections-on-a-year-in-government-from-11-u.s.-digital-corps-fellows"
+>
+  <div class="card__content"><h3 id="title-reflections-on-a-year-in-government-from-11-u.s.-digital-corps-fellows">
+      <a href="/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/">Reflections on a year in government from 11 U.S. Digital Corps fellows</a>
+    </h3><div class="summary">To celebrate their first year in government, 11 U.S. Digital Corps Fellows reflect on what they have learned.</div><div class="authors-list authors-list-short">
+    
+    <a
+          class="author"
+          href="/authors/kira-tebbe/"
+          rel="author"
+        >
+  <img src="/img/digit-light.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Kira Tebbe</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/samira-sadat/"
+          rel="author"
+        >
+  <img src="https://github.com/SamiraMSadat.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Samira Sadat</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/pierce-lowary/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Pierce Lowary</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/sahithi-n-adari/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Sahithi N. Adari</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/jay-shao/"
+          rel="author"
+        >
+  <img src="/img/digit-light.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Jay Shao</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/nina-anusavice/"
+          rel="author"
+        >
+  <img src="https://github.com/ninaranusavice.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Nina Anusavice</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/karley-thurston/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Karley Thurston</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/jonathan-hart/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Jonathan Hart</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/liane-peng/"
+          rel="author"
+        >
+  <img src="/img/digit-light.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Liane Peng</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/chizobam-nwagwu/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Chizobam Nwagwu</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/nikki-ramos/"
+          rel="author"
+        >
+  <img src="/img/digit-dark.png" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Nikki Ramos</span
+          > </a
+        ></div></div>
+
+  <div class="card__media"><div class="media-featured">
+    <a href="/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/" title="Reflections on a year in government from 11 U.S. Digital Corps fellows">
+      <img
+        src="https://s3.amazonaws.com/digitalgov/u-s-digital-corps-logo_w400.png"
+        aria-hidden="true"
+        alt=""
+      />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Jul 18, 2023</div>
+  </div>
+</article>
+
+              
+            
               
   
 
@@ -941,149 +1353,7 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
   </div>
 </article>
 
-            
-              
-  
-
-
-
-
-<article
-  class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/06/2023-06-08-making-the-big-move-special-report-search-in-support-of-federal-web-modernization.md"
-  
-  aria-labelledby="title-making-the-big-move-special-report-search-in-support-of-federal-web-modernization"
->
-  <div class="card__content">
-    <div class="card__summary">
-      <h3 id="title-making-the-big-move-special-report-search-in-support-of-federal-web-modernization">
-        <a href="/2023/06/05/making-the-big-move-special-report-search-in-support-of-federal-web-modernization/">Making the big move - Special report: Search in support of federal web modernization</a>
-      </h3>
-      <p><p>For the past several years Search.gov has reported each year on the top public needs based on the search terms they used.</p>
-<p>This special report will take a different approach. It still offers a high level view of the public experience of seeking services and information from the government. But it also tells the story of change, and how these changes affect search and findability.</p>
-
-          <em class="card__source source"
-            >— via
-            <a
-              href="https://search.gov/about/updates/year-in-review/special-report/overview.html"
-              title="Read at Search.gov"
-              >Search.gov</a
-            ></em
-          >
-        
-      </p>
-    </div>
-  </div>
-  <div class="card__media">
-    <img src="/logos/searchgov-logo.png" alt="Search.gov logo" />
-  </div>
-  <div class="card__meta">
-    <p class="date">Jun 05, 2023</p>
-  </div>
-</article>
-
-            
-              
-  
-
-
-
-
-<article
-  class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/05/2023-05-26-planning-and-implementing-a-search-engine-for-a-redesigned-federal-government-website.md"
-  
-  aria-labelledby="title-planning-and-implementing-a-search-engine-for-a-redesigned-federal-government-website"
->
-  <div class="card__content">
-    <div class="card__summary">
-      <h3 id="title-planning-and-implementing-a-search-engine-for-a-redesigned-federal-government-website">
-        <a href="/2023/05/26/planning-and-implementing-a-search-engine-for-a-redesigned-federal-government-website/">Planning and implementing a search engine for a redesigned federal government website</a>
-      </h3>
-      <p>In this blog, we walk you through our planning and implementation process for Search.gov. We share lessons learned, as well as resources we found useful.
-          <em class="card__source source"
-            >— via
-            <a
-              href="https://blog-nrrd.doi.gov/search-engine/"
-              title="Read at DOI Revenue Data"
-              >DOI Revenue Data</a
-            ></em
-          >
-        
-      </p>
-    </div>
-  </div>
-  <div class="card__media">
-    <img src="/logos/doi-revenuedata-logo.png" alt="DOI Revenue Data logo" />
-  </div>
-  <div class="card__meta">
-    <p class="date">May 26, 2023</p>
-  </div>
-</article>
-
-            
-  
-
-
-
-
-
-
-
-<article
-  class="card card-event 
-    card-event--past
-  card-linked"
-  data-edit-this="events/2023/05/2023-05-15-strengthening-information-accessibility-for-consumers-with-limited-english-proficiency.md"
-  
-  aria-labelledby="strengthening-information-accessibility-for-consumers-with-limited-english-proficiency"
->
-  <div class="card-event__main">
-    <div class="card-event__header"><div class="flex-align-end card-event__kicker">
-          <span>ConsumerFinance.gov</span>
-        </div><h2 class="card-event__title" id="strengthening-information-accessibility-for-consumers-with-limited-english-proficiency">
-        <a
-          href="/event/2023/05/24/strengthening-information-accessibility-for-consumers-with-limited-english-proficiency/"
-          title="Strengthening information accessibility for consumers with limited English proficiency"
-          rel="bookmark"
-          >Strengthening information accessibility for consumers with limited English proficiency</a
-        >
-      </h2>
-    </div>
-
-    <div class="card-event__body"><div class="card-event__summary">
-          Tune in to learn what the Consumer Financial Protection Bureau (CFPB) is doing to ensure financial products and services are accessible to all consumers, including those with limited English proficiency.
-        </div><p class="card-event__host">
-          Hosted by Digital.gov and the
-          Multilingual Community of Practice and Communicators Community of Practice
-        </p>
-    </div>
-  </div>
-
-  <div class="card-event__aside">
-    <div class="card-event__date">
-      <time class="card-event__datetime" datetime="2023-05-24">
-        <span class="card-event__datetime-month"
-          >May</span
-        >
-        <span class="card-event__datetime-day"
-          >24<span class="card-event__datetime-comma">,</span>
-        </span>
-        <span class="card-event__datetime-year--mobile"
-          >2023</span
-        >
-      </time>
-      
-        <span class="card-event__date-label">
-          <span class="card-event__datetime-year"
-            >2023</span
-          >
-        </span>
-      
-    </div>
-  </div>
-</article>
-<footer>
+            <footer>
           <a
             class="btn"
             href="/news"
@@ -1325,6 +1595,8 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
               src="/img/gsa-logo-w100.png"
               alt="GSA logo"
               role="img"
+              width="100"
+              height="100"
             />
           </a>
         </div>

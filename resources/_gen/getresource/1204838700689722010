@@ -2,14 +2,14 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Thu, 06 Jul 2023 15:50:15 GMT
-Etag: W/"64a61598-c25a"
+Date: Thu, 27 Jul 2023 20:32:30 GMT
+Etag: W/"64c1db5e-cb1d"
 Front-End-Https: on
-Last-Modified: Thu, 06 Jul 2023 01:15:04 GMT
+Last-Modified: Thu, 27 Jul 2023 02:50:06 GMT
 Server: nginx/1.18.0
 X-Frame-Options: DENY
 
-c25a
+cb1d
 <!DOCTYPE html>
 <html
   lang="en"
@@ -826,6 +826,8 @@ c25a
       
         
       
+        
+      
     
   </ul>
 
@@ -1305,6 +1307,50 @@ c25a
               
                 <span class="flex">
                   <a
+                    href="/development/developer_docs/"
+                    class="gdoc-nav__entry"
+                  >
+                    Developer Documentation
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
                     href="/development/versions_eol/"
                     class="gdoc-nav__entry"
                   >
@@ -1522,47 +1568,56 @@ c25a
 <ul>
 <li><strong>Spatial Data Storage</strong>: Store different types of spatial data such as points, lines, polygons, and multi-geometries, in both 2D and <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/PostGIS_Special_Functions_Index.html#PostGIS_3D_Functions"
+  href="docs/PostGIS_Special_Functions_Index.html#PostGIS_3D_Functions"
 >3D</a> data.</li>
 <li><strong>Spatial Indexing</strong>: Quickly <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/using_postgis_dbmanagement.html#build-indexes"
+  href="docs/using_postgis_dbmanagement.html#build-indexes"
 >search</a> and retrieve spatial data based on its location.</li>
 <li><strong>Spatial Functions</strong>: A wide range of spatial functions that allow you to filter and analyze spatial data, measuring <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/ST_Distance.html"
+  href="docs/ST_Distance.html"
 >distances</a> and <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/ST_Area.html"
+  href="docs/ST_Area.html"
 >areas</a>, <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/ST_Intersection.html"
+  href="docs/ST_Intersection.html"
 >intersecting</a> geometries, <a
   class="gdoc-markdown__link"
-  href="postgis.net/docs/ST_Buffer.html"
+  href="docs/ST_Buffer.html"
 >buffering</a>, and more.</li>
 <li><strong>Geometry Processing</strong>: Tools for <a
   class="gdoc-markdown__link"
-  href="https://postgis.net/docs/ST_Union.html"
+  href="docs/ST_Union.html"
 >processing</a> and <a
   class="gdoc-markdown__link"
-  href="https://postgis.net/docs/ST_Translate.html"
+  href="docs/ST_Translate.html"
 >manipulating</a> geometry data, such as <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/ST_Simplify.html"
+  href="docs/ST_Simplify.html"
 >simplification</a>, <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/ST_AsMVT.html"
+  href="docs/ST_AsMVT.html"
 >conversion</a>, and generalization.</li>
 <li><strong>Raster Data Support</strong>: Storage and processing of <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/RT_reference.html"
+  href="docs/RT_reference.html"
 >raster data</a>, such as elevation data and weather data.</li>
 <li><strong>Geocoding and Reverse Geocoding</strong>: Functions for <a
   class="gdoc-markdown__link"
-  href="http://postgis.net/docs/postgis_installation.html#loading_extras_tiger_geocoder"
+  href="docs/postgis_installation.html#loading_extras_tiger_geocoder"
 >geocoding</a> and reverse geocoding.</li>
-<li><strong>Integration</strong>: Access and work with PostGIS using third party tools such as QGIS, GeoServer, ArcGIS, Tableau, and MapServer.</li>
+<li><strong>Integration</strong>: Access and work with PostGIS using third party tools such as <a
+  class="gdoc-markdown__link"
+  href="https://qgis.org"
+>QGIS</a>, <a
+  class="gdoc-markdown__link"
+  href="https://geoserver.org"
+>GeoServer</a>, <a
+  class="gdoc-markdown__link"
+  href="https://mapserver.org"
+>MapServer</a>, ArcGIS, Tableau.</li>
 </ul>
 
 </article>
@@ -1572,15 +1627,57 @@ c25a
   <h2>Latest News</h2>
 
 
-  <h3><a href="https://postgis.net/2023/05/PostGIS-3.3.3-3.2.5-3.1.9-3.0.9-Patch-Releases/">PostGIS 3.3.3, 3.2.5, 3.1.9, 3.0.9 Patch Releases</a></h3>
-  <p><p>The PostGIS development team is pleased to provide
-bug fixes and performance enhancements
-3.3.3, 3.2.5, 3.1.9 and 3.0.9 for the 3.3, 3.2, 3.1, and 3.0 stable branches.</p></p>
+  <h3><a href="https://postgis.net/2023/07/PostGIS-3.4.0beta1/">PostGIS 3.4.0beta1</a></h3>
+  <p><p>The PostGIS Team is pleased to release PostGIS 3.4.0beta1!
+Best Served with <a
+  class="gdoc-markdown__link"
+  href="https://www.postgresql.org/about/news/postgresql-16-beta-2-released-2665/"
+>PostgreSQL 16 Beta2</a>
+and <a
+  class="gdoc-markdown__link"
+  href="https://libgeos.org/posts/2023-06-27-geos-3-12-released/"
+>GEOS 3.12.0</a>.</p>
+<p>This version requires PostgreSQL 12 or higher, GEOS 3.6 or higher, and Proj 6.1+.
+To take advantage of all features, GEOS 3.12+ is needed.
+To take advantage of all SFCGAL features, SFCGAL 1.4.1+ is needed.</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="340beta1"
+    >
+        3.4.0beta1
+        <a data-clipboard-text="https://postgis.net/2023/07/PostGIS-3.4.0beta1/#340beta1" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.4.0beta1" aria-label="Anchor to: 3.4.0beta1" href="#340beta1">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li><a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/source/postgis-3.4.0beta1.tar.gz"
+>source download</a> <a
+  class="gdoc-markdown__link"
+  href="/stuff/postgis-3.4.0beta1.tar.gz.md5"
+>md5</a></li>
+<li><a
+  class="gdoc-markdown__link"
+  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.4.0beta1/NEWS"
+>NEWS</a></li>
+<li>PDF docs: <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-en.pdf"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-ja.pdf"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-fr.pdf"
+>fr</a></li>
+</ul>
+<p>This release is a beta of a major release, it includes bug fixes since PostGIS 3.3.3 and new features.</p></p>
   
     <a
       class="flex-inline align-center fake-link"
       title="Read more"
-      href="/2023/05/PostGIS-3.3.3-3.2.5-3.1.9-3.0.9-Patch-Releases/"
+      href="/2023/07/PostGIS-3.4.0beta1/"
     >
       Read more
       <i class="gdoc-icon">gdoc_arrow_right_alt</i>

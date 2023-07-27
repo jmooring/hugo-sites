@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 303079
+Age: 76588
 Cache-Control: public, max-age=0, must-revalidate
 Content-Security-Policy: default-src 'none'; font-src 'self'; style-src 'unsafe-inline' 'self'; script-src 'unsafe-eval' 'unsafe-inline' 'self' data: https://www.google-analytics.com https://www.googleadservices.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://donorbox.org https://js.stripe.com/v3/ https://sdks.shopifycdn.com https://www.paypal.com ; img-src 'self' data: blob: https://www.google-analytics.com https://www.paypal.com https://www.paypalobjects.com https://ak2s.abmr.net https://ak1s.abmr.net https://www.google.com https://cdn.shopify.com https://v.shopify.com ; frame-src https://donorbox.org https://www.youtube.com https://www.youtube-nocookie.com https://bid.g.doubleclick.net https://js.stripe.com/v3/ https://js.stripe.com/v2/ https://www.paypal.com https://outreach.abetterinternet.org ; connect-src 'self' https://d4twhgtvn0ff5.cloudfront.net/ https://letsencrypt-merch.myshopify.com https://monorail-edge.shopifysvc.com https://www.paypal.com ;
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 06 Jul 2023 15:50:04 GMT
-Etag: "a9adb8e4bbc430375ea2ec7b7ad7fcbc-ssl-df"
+Date: Thu, 27 Jul 2023 20:32:19 GMT
+Etag: "45fc65baa5976901f170896525c84b7f-ssl-df"
 Permissions-Policy: geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(self), vibrate=(), fullscreen=(self), interest-cohort=()
 Referrer-Policy: no-referrer
 Server: Netlify
@@ -13,7 +13,7 @@ Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01H4NYAWM9BPBGXE0CE8HARGAX
+X-Nf-Request-Id: 01H6CGTS3Z24J73WEZ2CJ3JCNX
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -347,6 +347,17 @@ X-Xss-Protection: 1; mode=block
                 
                 
                   <li>
+                    <span class="post-meta">Jul 10, 2023</span>
+                    <h2>
+                      <a class="post-link" href="/2023/07/10/cross-sign-expiration.html" hreflang="en-US">Shortening the Let&#39;s Encrypt Chain of Trust</a>
+                    </h2>
+                    
+                      In late 2024, Let&rsquo;s Encrypt&rsquo;s cross-sign from IdenTrust will expire. Here&rsquo;s everything you need to know about the upcoming transition, and why it will be a non-event for most people.
+                    
+                    <p><a href="/2023/07/10/cross-sign-expiration.html" hreflang="en-US">Read more</a></p>
+                  </li>
+                
+                  <li>
                     <span class="post-meta">May 24, 2023</span>
                     <h2>
                       <a class="post-link" href="/2023/05/24/isrg-10th-anniversary.html" hreflang="en-US">ISRG’s 10th Anniversary</a>
@@ -390,17 +401,6 @@ X-Xss-Protection: 1; mode=block
                     <p><a href="/2023/01/12/eng-culture-at-isrg.html" hreflang="en-US">Read more</a></p>
                   </li>
                 
-                  <li>
-                    <span class="post-meta">Dec 15, 2022</span>
-                    <h2>
-                      <a class="post-link" href="/2022/12/15/ocspcaching.html" hreflang="en-US">Let’s Encrypt improves how we manage OCSP responses</a>
-                    </h2>
-                    
-                      By deploying Redis, Let’s Encrypt has improved our OCSP responses and increased reliability.
-                    
-                    <p><a href="/2022/12/15/ocspcaching.html" hreflang="en-US">Read more</a></p>
-                  </li>
-                
               </ul>
               <p class="rss-subscribe">
                   <i class="fas fa-rss-square" aria-hidden="true"></i>
@@ -414,6 +414,11 @@ X-Xss-Protection: 1; mode=block
             <h2 class="through-line"><a href="/sponsors/">Major Sponsors and Funders</a></h2>
             <div class="text-center home_sponsors">
 
+              <a href="https://www.google.com/chrome/"  rel="nofollow"><img src="/images/sponsors/small/chrome-logo.png" alt="Google Chrome" width="80" height="48" class="sponsor-logo-small"></a>
+
+              <a href="https://aws.amazon.com/"  ><img src="/images/sponsors/small/aws-logo-2.png" alt="Amazon Web Services" width="80" height="48" class="sponsor-logo-small"></a>
+
+
               <a href="https://www.mozilla.org/"  ><img src="/images/sponsors/small/mozilla-logo.png" alt="Mozilla" width="80" height="48" class="sponsor-logo-small"></a>
 
               <a href="https://www.cisco.com/"  ><img src="/images/sponsors/small/cisco-logo.png" alt="Cisco" width="80" height="48" class="sponsor-logo-small"></a>
@@ -422,13 +427,7 @@ X-Xss-Protection: 1; mode=block
 
               <a href="https://www.ovh.com/"  ><img src="/images/sponsors/small/ovh-logo.png" alt="OVH" width="80" height="48" class="sponsor-logo-small"></a>
 
-              <a href="https://www.google.com/chrome/"  rel="nofollow"><img src="/images/sponsors/small/chrome-logo.png" alt="Google Chrome" width="80" height="48" class="sponsor-logo-small"></a>
-
-              <a href="https://www.internetsociety.org/"  ><img src="/images/sponsors/small/isoc-logo.png" alt="Internet Society" width="80" height="48" class="sponsor-logo-small"></a>
-
               <a href="https://www.meta.com/"  ><img src="/images/sponsors/small/meta-logo.png" alt="Meta" width="80" height="48" class="sponsor-logo-small"></a>
-
-              <a href="https://aws.amazon.com/"  ><img src="/images/sponsors/small/aws-logo.png" alt="Amazon Web Services" width="80" height="48" class="sponsor-logo-small"></a>
 
 
               <a href="https://www.identrust.com/"  ><img src="/images/sponsors/small/identrust-logo.png" alt="IdenTrust" width="80" height="48" class="sponsor-logo-small"></a>
