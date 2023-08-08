@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 24543
+Age: 0
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 27 Jul 2023 20:32:30 GMT
-Etag: "fcbf8bdd6fb7bdd823ee4f6c6c66771e-ssl-df"
+Date: Tue, 08 Aug 2023 14:47:21 GMT
+Etag: "28156445d3794c5925242a3231a5d5d4-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H6CGV4GSMW00PE485R843RHY
+X-Nf-Request-Id: 01H7ASVRPW78FREC9F6HJD1MKX
 
 <!doctype html><html lang=en-us>
 <head>
@@ -1521,6 +1521,10 @@ A variety of users are autoscaling applications with KEDA:
 <img src=/img/logos/qonto.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
+<a href=https://redhat.com target=_blank>
+<img src=/img/logos/red-hat.png alt=Logo>
+</a>
+</div><div class="column is-one-quarter">
 <a href=https://www.reddit.com/ target=_blank>
 <img src=/img/logos/reddit.svg alt=Logo>
 </a>
@@ -1581,10 +1585,6 @@ KEDA is supported by and built by our community, including the following compani
 <div class="column is-one-quarter">
 <a href=https://microsoft.com target=_blank>
 <img src=/img/logos/microsoft.png alt=Logo>
-</a>
-</div><div class="column is-one-quarter">
-<a href=https://redhat.com target=_blank>
-<img src=/img/logos/red-hat.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://scrm.lidl target=_blank>
@@ -1692,7 +1692,7 @@ Slack
 </p></div></div></footer><script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.2.1/dist/alpine.js defer></script>
 <script>const navbarHeight=document.getElementsByClassName("navbar")[0].offsetHeight,extraPadding=15,navbarOffset=-1*(navbarHeight+extraPadding);var shiftWindow=function(){scrollBy(0,navbarOffset)};window.addEventListener("hashchange",shiftWindow),window.addEventListener("pageshow",shiftWindow);function load(){window.location.hash&&shiftWindow()}</script>
 <script type=text/javascript src=https://cdn.jsdelivr.net/npm/@docsearch/js@3></script>
-<script type=text/javascript>const currentUrl=window.location.pathname,currentLocation=String(currentUrl).split("/"),currentVersion=currentLocation[2];docsearch({apiKey:"1b7cb5ab29b5b996f6faf71c39cb4171",appId:"3IFB1FERQT",indexName:"keda",container:"#navbar-search",searchParameters:{facetFilters:[`version: ${currentVersion}`]},insights:!0})</script>
+<script type=text/javascript>const latest="2.11";let currentVersion=latest;const currentUrl=window.location.pathname,currentLocation=String(currentUrl).split("/"),docsPage=currentLocation[1];docsPage==="docs"&&(currentVersion=currentLocation[2]),docsearch({apiKey:"1b7cb5ab29b5b996f6faf71c39cb4171",appId:"3IFB1FERQT",indexName:"keda",container:"#navbar-search",searchParameters:{facetFilters:[`version: ${currentVersion}`]},insights:!0})</script>
 <script type=text/javascript>const builtInScalers=document.querySelectorAll("#built-in-scalers"),externalScalers=document.getElementById("external-scalers"),btnFocusOnMount=document.getElementById("btn-focus-on-mount"),builtInSearchResultCount=document.querySelector(".results"),externalSearchResultCount=document.querySelector(".external-results");let btns=document.getElementsByClassName("filterBtn");for(let e=0;e<btns.length;e++)btns[e].addEventListener("click",function(){let t=btns[e].value.toLowerCase();t==="built-in-scalers"?(builtInScalers.forEach(e=>e.style.display="flex"),externalScalers.style.display="none",builtInSearchResultCount.style.display="block",externalSearchResultCount.style.display="none"):t==="external-scalers"&&(btnFocusOnMount.classList.remove("is-focused"),builtInScalers.forEach(e=>e.style.display="none"),externalScalers.style.display="inline",builtInSearchResultCount.style.display="none",externalSearchResultCount.style.display="block")})</script>
 <script src=https://unpkg.com/lunr/lunr.js></script>
 <script>window.addEventListener("DOMContentLoaded",()=>{"use strict";let s,o;const g=window.location.pathname,j=String(g).split("/"),f=j[2],y=document.getElementById("search"),i=document.getElementById("search-input"),a=document.querySelector(".is-search-result"),n=document.querySelector(".is-external-search-result"),b=document.querySelector(".results"),v=document.querySelector(".external-results"),t=document.getElementById("is-search-template"),p=document.getElementById("external-scalers"),_=document.getElementById("built-in-scalers"),d=document.getElementById("external-banner"),h=document.getElementsByClassName("artifacthub-widget-group"),u=500;let e=i.value.trim(),l={};e||(r(),c()),i.addEventListener("input",function(l){l.preventDefault(),clearTimeout(o);const s=i.value.trim(),m=document.querySelectorAll(".filterBtn");if(m.forEach(e=>e.disabled=!0),!s){const e=document.querySelectorAll(".filterBtn");e.forEach(e=>e.disabled=!1)}if(e=s,p.style.display==="inline"){d.style.display="none",e===""&&(d.style.display="block");let t=new URL("https://artifacthub.io/api/v1/packages/search");for(t.search=new URLSearchParams({kind:"8",sort:"relevance",ts_query_web:e!==""?e:""}),o=setTimeout(()=>{h[0].dataset.url=t,c()},u);n.firstChild.nextSibling;)n.removeChild(n.firstChild.nextSibling.nextSibling.nextElementSibling);return}for(o=setTimeout(r,u);a.firstChild.nextSibling;)a.removeChild(t.nextSibling.nextElementSibling)},!1);async function c(){const o=h[0].dataset.url,s=await fetch(o).then(e=>e.json()).then(e=>e.packages).catch(e=>console.error("error:",e));if("content"in t){const o=document.createElement("h3");o.id="external-search-results",o.className="subtitle is-size-3 external-search-results",s.length==0?o.textContent=`No results found for "${e}"`:s.length==1?o.textContent=`Found one result for "${e}"`:s.length>1&&e===""?o.textContent=`${s.length} scalers available`:o.textContent=`Found ${s.length} results for "${e}"`,v.replaceChildren(o),s.forEach(function(e){const s=t.content.cloneNode(!0);s.querySelector(".scaler-title").textContent=e.display_name,s.querySelector(".scaler-title").setAttribute("href","https://artifacthub.io/packages/keda-scaler/"+e.repository.name+"/"+e.normalized_name),e.description&&(s.querySelector(".description").textContent=e.description),e.repository.organization_name&&(s.querySelector(".maintainer").textContent=e.repository.organization_name),e.repository.user_alias&&(s.querySelector(".maintainer").textContent=e.repository.user_alias),e.version&&(s.querySelector(".availability").textContent=`v${e.version}`),n.appendChild(s)},this)}}async function r(){const t=await fetch("/index.json",{method:"GET"}).then(e=>e.json()).then(e=>e).catch(e=>console.error("error:",e));s=lunr(function(){const e=t;this.ref("title"),this.field("title",{boost:20,usePipeline:!0,wildcard:lunr.Query.wildcard.TRAILING,presence:lunr.Query.presence.REQUIRED}),this.field("maintainer",{boost:15}),this.field("href",{boost:15}),this.field("description",{boost:10}),this.field("availability",{boost:5}),e.forEach(function(e){e.version===f&&(this.add(e),l[e.title]={href:e.href,title:e.title,maintainer:e.maintainer,description:e.description,availability:e.availability})},this)}),m(e)}function m(e){let o=s.search("");e.length>0&&(o=s.search(e),o=o.length<=0?s.search(`${e}*`):o);const n=o;if("content"in t){const s=document.createElement("h3");s.id="search-results",s.className="subtitle is-size-3",n.length==0?s.textContent=`No results found for "${e}"`:n.length==1?s.textContent=`Found one result for "${e}"`:n.length>1&&e===""?s.textContent=`${n.length} scalers available`:s.textContent=`Found ${n.length} results for "${e}"`,b.replaceChildren(s),n.forEach(function(s){const e=l[s.ref],n=t.content.cloneNode(!0);n.querySelector(".scaler-title").textContent=e.title,n.querySelector(".scaler-title").setAttribute("href",e.href),e.description&&(n.querySelector(".description").textContent=e.description),e.maintainer&&(n.querySelector(".maintainer").textContent=e.maintainer),e.availability&&(n.querySelector(".availability").textContent=e.availability),a.appendChild(n)},this)}}},!1)</script>

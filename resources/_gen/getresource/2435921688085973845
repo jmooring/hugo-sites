@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 2801
+Age: 2535
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"64c27654-3c9a"
-Last-Modified: Thu, 27 Jul 2023 13:51:16 GMT
+Etag: W/"64d1098f-3c3e"
+Last-Modified: Mon, 07 Aug 2023 15:11:11 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
@@ -13,7 +13,7 @@ Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 11777314 11896309
+X-Varnish: 13181493 13911635
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -21,12 +21,12 @@ X-Xss-Protection: 1; mode=block
 <head>
 <meta name="generator" content=
 "HTML Tidy for HTML5 for FreeBSD version 5.8.0">
-<meta name="generator" content="Hugo 0.111.3">
+<meta name="generator" content="Hugo 0.115.4">
 <meta charset="utf-8">
 <meta name="description" content=
 "FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms.">
 <meta name="keywords" content="FreeBSD, BSD, UNIX, open source">
-<meta name="copyright" content="1995-2021 The FreeBSD Foundation">
+<meta name="copyright" content="1995-2023 The FreeBSD Foundation">
 <title>The FreeBSD Project</title>
 <link rel="shortcut icon" href=
 "https://www.freebsd.org/favicon.ico">
@@ -249,8 +249,6 @@ Releases</a></h2>
 <li>Production: <a href=
 "https://www.FreeBSD.org/releases/13.2R/announce/">13.2</a></li>
 <li>Legacy: <a href=
-"https://www.FreeBSD.org/releases/13.1R/announce/">13.1</a>,
-<a href=
 "https://www.FreeBSD.org/releases/12.4R/announce/">12.4</a></li>
 <li>Upcoming: <a href=
 "https://www.FreeBSD.org/releases/14.0R/schedule/">14.0</a></li>
@@ -387,22 +385,22 @@ Media</a></div>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2023-06-21</span><br>
+<p><span class="txtdate">2023-08-01</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:05.openssh.asc">
-FreeBSD-SA-23:05.openssh</a></p>
-<p><span class="txtdate">2023-06-21</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:09.pam_krb5.asc">
+FreeBSD-SA-23:09.pam_krb5</a></p>
+<p><span class="txtdate">2023-08-01</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:04.pam_krb5.asc">
-FreeBSD-SA-23:04.pam_krb5</a></p>
-<p><span class="txtdate">2023-02-16</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:08.ssh.asc">
+FreeBSD-SA-23:08.ssh</a></p>
+<p><span class="txtdate">2023-08-01</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:03.openssl.asc">
-FreeBSD-SA-23:03.openssl</a></p>
-<p><span class="txtdate">2023-02-16</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:07.bhyve.asc">
+FreeBSD-SA-23:07.bhyve</a></p>
+<p><span class="txtdate">2023-08-01</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:02.openssh.asc">
-FreeBSD-SA-23:02.openssh</a></p>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:06.ipv6.asc">
+FreeBSD-SA-23:06.ipv6</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -419,14 +417,14 @@ FreeBSD-SA-23:02.openssh</a></p>
 <br>
 <h2>ERRATA NOTICES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-08-01</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-23:08.vnet.asc">
+FreeBSD-EN-23:08.vnet</a></p>
 <p><span class="txtdate">2023-06-21</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-EN-23:07.mpr.asc">
 FreeBSD-EN-23:07.mpr</a></p>
-<p><span class="txtdate">2023-06-21</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-23:06.loader.asc">
-FreeBSD-EN-23:06.loader</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=

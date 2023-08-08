@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Thu, 27 Jul 2023 20:32:30 GMT
-Etag: W/"64c299e5-7072"
-Last-Modified: Thu, 27 Jul 2023 16:23:01 GMT
+Date: Tue, 08 Aug 2023 14:47:17 GMT
+Etag: W/"64d2533c-703d"
+Last-Modified: Tue, 08 Aug 2023 14:37:48 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-7072
+703d
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -273,7 +273,7 @@ X-Frame-Options: SAMEORIGIN
               <a href="/reference/materials/">Reference</a>
             </li>
             <li><a href="/reference/materials/abuse/">Spam &amp; Network Abuse Reporting</a></li>
-            <li><a href="/reference/materials/teamarin/">Blog</a></li>
+            <li><a href="/reference/materials/data/">Registry Data Description</a></li>
             <li><a href="/reference/materials/accuracy/">Data Accuracy</a></li>
             <li><a href="/reference/materials/security/">Information Security at ARIN</a></li>
             <li><a href="/reference/materials/software/">ARIN Software Releases</a></li>
@@ -395,6 +395,21 @@ X-Frame-Options: SAMEORIGIN
     <div class="col-sm-12" id="front-announce">
         <div class="row">
           <div class="col-md-4 announcement">
+            <p class="overline overline-directory-services">Directory Services</p>
+            <h3><a href="https://www.arin.net/announcements/20230807-qfp/">Introducing the Qualified Facilitator Program at ARIN</a></h3>
+            <span class="announce-date">Mon, 07 Aug 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-service-update">Service Update</p>
+            <h3><a href="https://www.arin.net/announcements/20230807/">New Features Added to ARIN Online</a></h3>
+            <span class="announce-date">Mon, 07 Aug 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
+            <h3><a href="https://www.arin.net/announcements/20230731/">Now Closed – Consultation on ASN Fee Harmonization</a></h3>
+            <span class="announce-date">Mon, 31 Jul 2023</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
             <p class="overline overline-governance">Governance</p>
             <h3><a href="https://www.arin.net/announcements/20230707/">Amy Potter Resigns from ARIN Advisory Council</a></h3>
             <span class="announce-date">Fri, 07 Jul 2023</span>
@@ -408,21 +423,6 @@ X-Frame-Options: SAMEORIGIN
             <p class="overline overline-internet-number-resources">Internet Number Resources</p>
             <h3><a href="https://www.arin.net/announcements/20230705/">IPv4 Waiting List Distribution</a></h3>
             <span class="announce-date">Wed, 05 Jul 2023</span>
-          </div></div><!-- close first row --><div class="row">
-          <div class="col-md-4 announcement">
-            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
-            <h3><a href="https://www.arin.net/announcements/20230630-consult/">Consultation on ASN Fee Harmonization</a></h3>
-            <span class="announce-date">Fri, 30 Jun 2023</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-arin">ARIN</p>
-            <h3><a href="https://www.arin.net/announcements/20230629/">Reminder - Annual Fee Cap for New LRSA Entrants Ending 31 December 2023</a></h3>
-            <span class="announce-date">Thu, 29 Jun 2023</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-governance">Governance</p>
-            <h3><a href="https://www.arin.net/announcements/20230524-annualreport/">2022 Annual Report Now Available</a></h3>
-            <span class="announce-date">Wed, 24 May 2023</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -500,6 +500,19 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
         
 <div class="col">
   <div class="blog-preview card">
+    <a href="/blog/2023/08/08/introducing-qualified-facilitator/">
+      <img class="card-img-top" src="/blog/2023/08/08/introducing-qualified-facilitator/introducing-qualified-facilitator.png" alt="Read the blog Introducing ARIN’s Qualified Facilitator Program">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2023/08/08/introducing-qualified-facilitator/"><h3 class="card-title">Introducing ARIN’s Qualified Facilitator Program</h3></a>
+      <time datetime="2023-08-08 08:45:00 -0400 EDT">8 Aug 2023</time>
+      <p>Learn about the new resource for organizations navigating the IPv4 and Autonomous System Number (ASN) transfer processes in accordance with ARIN policy. </p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
     <a href="/blog/2023/07/14/caribbean-ipv6-rankings/">
       <img class="card-img-top" src="/blog/2023/07/14/caribbean-ipv6-rankings/caribbean-ipv6-rankings.png" alt="Read the blog Who’s Leading the Charge for IPv6 in the Caribbean?">
     </a>
@@ -520,19 +533,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2023/07/11/legacy-fee-cap/"><h3 class="card-title">Legacy Resource Holders Have Limited Time Left to Lock in Lower Fees</h3></a>
       <time datetime="2023-07-11 08:30:00 -0400 EDT">11 Jul 2023</time>
       <p>To help Internet number resource holders understand ARIN’s legacy fee cap, its impending expiration, and the benefits of bringing legacy resources under a Registration Services Agreement, we&#39;re sharing this thorough overview of the opportunity.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2023/07/06/arin-52-fellowship-applications/">
-      <img class="card-img-top" src="/blog/2023/07/06/arin-52-fellowship-applications/arin52-fellowship-apply.png" alt="Read the blog Apply Today for the ARIN 52 Fellowship Program">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2023/07/06/arin-52-fellowship-applications/"><h3 class="card-title">Apply Today for the ARIN 52 Fellowship Program</h3></a>
-      <time datetime="2023-07-06 08:15:00 -0400 EDT">6 Jul 2023</time>
-      <p>The call for applications to our ARIN 52 Fellowship Program goes out today! Amanda Gauldin, Community Programs Manager, shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.</p>
     </div>
   </div>
 </div>

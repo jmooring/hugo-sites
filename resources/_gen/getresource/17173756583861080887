@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 201498
-Cache-Control: public, max-age=0, must-revalidate
+Age: 78556
+Cache-Control: public,max-age=0,must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 27 Jul 2023 20:32:26 GMT
-Etag: "8709bada866daaad313049f2fc9a6d9c-ssl-df"
+Date: Tue, 08 Aug 2023 14:47:19 GMT
+Etag: "6b129c3e366c95fd985f8fb34a57ce8a-ssl-df"
 Referrer-Policy: same-origin
 Server: Netlify
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01H6CGV0CD2A5GJB6D8W8SK0E6
+X-Nf-Request-Id: 01H7ASVPDBEH65CNGH6TTHNCJ7
 X-Xss-Protection: 1; mode=block
 
 
@@ -4019,6 +4019,75 @@ textarea.form-control-lg {
       overflow-y: auto; }
     .modal-fullscreen-xxl-down .modal-footer {
       border-radius: 0; } }
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.3s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .offcanvas {
+      transition: none; } }
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.25rem; }
+  .offcanvas-header .btn-close {
+    padding: 0.625rem 0.625rem;
+    margin-top: -0.625rem;
+    margin-right: -0.625rem;
+    margin-bottom: -0.625rem; }
+
+.offcanvas-title {
+  margin-bottom: 0;
+  line-height: 1.5; }
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 1.25rem 1.25rem;
+  overflow-y: auto; }
+
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 400px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%); }
+
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 400px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(100%); }
+
+.offcanvas-top {
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 30vh;
+  max-height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateY(-100%); }
+
+.offcanvas-bottom {
+  right: 0;
+  left: 0;
+  height: 30vh;
+  max-height: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateY(100%); }
+
+.offcanvas.show {
+  transform: none; }
 
 .clearfix::after {
   display: block;
@@ -9615,6 +9684,39 @@ footer {
       opacity: 1;
       visibility: visible;
       transform: translateX(-50%) scale(1) rotate(-0.00004deg) rotateY(15deg) rotateX(9.99994deg); }
+
+.mindmap-node {
+  user-select: none; }
+  .mindmap-node.disable {
+    pointer-events: none; }
+
+[data-roadmap] {
+  cursor: pointer;
+  user-select: none; }
+  [data-roadmap] [class^="node-line"],
+  [data-roadmap] .node-bkg {
+    transition: .3s; }
+  [data-roadmap]:hover .node-bkg {
+    filter: brightness(0.9); }
+  [data-roadmap]:hover [class^="node-line"] {
+    stroke: #F16F33 !important; }
+
+.roadmap-list-item {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition: .3s;
+  border-color: #eeeeee !important; }
+  .roadmap-list-item:hover {
+    opacity: .9;
+    transform: scale(0.995);
+    background-color: #eee; }
+
+.content-hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: -200%;
+  top: -200%; }
 </style>
 	
 </head>
@@ -9980,12 +10082,31 @@ footer {
             
             
             
+            
+            
+            
+            
             ">
             <a class="nav-link nav-menu-text dropdown-toggle" id="nav-menu" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
               Resources
             </a>
             <ul class="dropdown-menu ">
+              
+              
+              
+              <li>
+                <a class="dropdown-item " 
+                href="/contact/">
+                <span class="d-flex align-items-start">
+                  
+                  <span class="ms-1">
+                    <span>Contact</span>
+                    
+                  </span>
+                </span>
+                </a>
+              </li>
               
               
               
@@ -10006,11 +10127,11 @@ footer {
               
               <li>
                 <a class="dropdown-item " 
-                href="/contact/">
+                href="/mindmaps/">
                 <span class="d-flex align-items-start">
                   
                   <span class="ms-1">
-                    <span>Contact</span>
+                    <span>Mindmaps</span>
                     
                   </span>
                 </span>
@@ -10163,9 +10284,13 @@ footer {
 
           
           
-          <a href="/contact/" class="btn btn-primary m-1">
-            Join Waitlist <i class="arrow-right "></i>
-          </a>
+          <button class="btn btn-primary m-1" type="button" data-bs-toggle="modal" data-bs-target="#waitListModal" >
+            Join Waitlist
+          </button>
+          
+          
+
+          
           
           
 
@@ -10199,6 +10324,23 @@ footer {
     </svg>
   </div>
 </section>
+
+
+
+
+<div class="modal fade rounded overflow-hidden" id="waitListModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-content border-0 bg-transparent">
+      <div class="text-center p-3"><button type="button" class="border-0 modal-close-btn" data-bs-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg></button></div>
+      <div class="modal-body bg-dark p-0 rounded" style="min-height:500px;">
+        <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/9006002197/f/8cctc0n-11720/8GEW4HG1M3D5G252CY" onwheel="" width="100%" height="100%" style="background: transparent;"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 
@@ -10433,6 +10575,138 @@ footer {
       
       <div class="col-lg-4 col-md-6 blog-card">
         <article class="card border-0 rounded-md overflow-hidden h-100">
+  <a href="/blog/introducing-compagedev-centric-platform-for-auto-code-generation--fortified-security/" title="Introducing Compage – Dev-Centric Platform for Auto-Code Generation &amp; Fortified Security">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+        
+        
+        
+          
+        
+        
+        
+
+
+        
+        
+
+
+        <img
+          
+            src="/images/blog/Introducing-Compage%E2%80%93Dev-Centric-Platform-for-Auto-Code-Generation-&amp;-Fortified%20Security/_huf209e5009d1cfe4fdebfc6357af2ef3b_71740_77b1c15aef3841c14084d79e1600b08b.png" loading="lazy" decoding="async"
+          
+
+          alt=""
+          class=" card-img-top h-auto ghtm-img"
+          width="570"
+          height="299"
+          onerror="this.onerror='null';this.src='\/images\/blog\/Introducing-Compage%E2%80%93Dev-Centric-Platform-for-Auto-Code-Generation-\u0026-Fortified%20Security\/_huf209e5009d1cfe4fdebfc6357af2ef3b_71740_77b1c15aef3841c14084d79e1600b08b.png'" />
+
+        
+      
+      
+    
+    
+  
+
+
+  
+
+    
+  </a>
+  <div class="card-body position-relative">
+    <span class="badge text-white text-uppercase">Aug 04, 2023</span>
+    <h3 class="h5">
+      <a class="blog-title" href="/blog/introducing-compagedev-centric-platform-for-auto-code-generation--fortified-security/" title="Introducing Compage – Dev-Centric Platform for Auto-Code Generation &amp; Fortified Security" >Introducing Compage – Dev-Centric Platform for Auto-Code Generation &amp; Fortified Security</a>
+    </h3>
+    <p class="mb-0" > Organizations today face a slew of challenges that significantly impact their growth. According to a survey …</p>
+  </div>
+
+  
+  
+  
+  <div class="card-footer bg-transparent">
+    <div class="card-author">
+      <div class="d-flex align-items-center">
+        <div class="user-image me-1">
+          
+          
+          
+          
+          <a href="/author/shreya/" title="Shreya Trivedi">
+            <img loading="lazy" decoding="async" class="rounded-circle" src="/images/avatar/shreya_hu8cd57c03ab3b0c9bec837a87a68bb554_206303_dfc2f6ca45f947571cd6f28e9f16e39a.webp" alt="author image" onerror="this.onerror=null;this.src='\/images\/avatar\/shreya_hu8cd57c03ab3b0c9bec837a87a68bb554_206303_30x30_fill_box_smart1_3.png'">
+          </a>
+          
+        </div>
+        <div class="user-info">
+          <p class="font-weight-500 mb-0">by <a href="/author/shreya/" >Shreya Trivedi</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</article>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 blog-card">
+        <article class="card border-0 rounded-md overflow-hidden h-100">
   <a href="/blog/resolving-storybook-issues-in-projects/" title="Troubleshooting Storybook: Fixing Issues in Node.js Projects">
     
     
@@ -10643,116 +10917,6 @@ footer {
         </div>
         <div class="user-info">
           <p class="font-weight-500 mb-0">by <a href="/author/sayan-biswas/" >Dr. Sayan Biswas</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-</article>
-      </div>
-      
-      <div class="col-lg-4 col-md-6 blog-card">
-        <article class="card border-0 rounded-md overflow-hidden h-100">
-  <a href="/blog/evans-cli-a-go-grpc-client/" title="Evans CLI - A Go gRPC Client">
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      <img
-        src="/images/blog/Evans-CLI-A-Go-gRPC-Client/undraw_client.svg"
-        loading="lazy"
-        decoding="async"
-        alt=""
-        class="card-img-top h-auto ghtm-img"
-        width="570"
-        height="" />
-    
-    
-  
-
-
-  
-
-    
-  </a>
-  <div class="card-body position-relative">
-    <span class="badge text-white text-uppercase">Jun 01, 2023</span>
-    <h3 class="h5">
-      <a class="blog-title" href="/blog/evans-cli-a-go-grpc-client/" title="Evans CLI - A Go gRPC Client" >Evans CLI - A Go gRPC Client</a>
-    </h3>
-    <p class="mb-0" > Evans CLI is a command-line tool designed to facilitate interaction with Go gRPC services. It offers a range …</p>
-  </div>
-
-  
-  
-  
-  <div class="card-footer bg-transparent">
-    <div class="card-author">
-      <div class="d-flex align-items-center">
-        <div class="user-image me-1">
-          
-          
-          
-          
-          <a href="/author/azar/" title="Azar M">
-            <img loading="lazy" decoding="async" class="rounded-circle" src="/images/avatar/azar_hud684e461900d470b24d445411d958f0d_43406_5cf7a70b44d4fa434f782daea5a569af.webp" alt="author image" onerror="this.onerror=null;this.src='\/images\/avatar\/azar_hud684e461900d470b24d445411d958f0d_43406_30x30_fill_box_smart1_3.png'">
-          </a>
-          
-        </div>
-        <div class="user-info">
-          <p class="font-weight-500 mb-0">by <a href="/author/azar/" >Azar M</a></p>
         </div>
       </div>
     </div>
@@ -22874,12 +23038,18 @@ if(jQuery.event.special.touchstart={setup:function(e,t,n){"use strict";this.addE
     <div class="modal-content border-0 bg-transparent">
       <div class="text-center p-3"><button type="button" class="border-0 modal-close-btn" data-bs-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg></button></div>
       <div class="modal-body bg-dark p-0 rounded" style="min-height:500px;">
-        <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/9006002197/f/8cctc0n-7520/VCGTBDZHNQ41SR6Y97" onwheel="" width="100%" height="100%" style="background: transparent;"></iframe><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script></script>
+        <iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/9006002197/f/8cctc0n-7520/VCGTBDZHNQ41SR6Y97" onwheel="" width="100%" height="100%" style="background: transparent;"></iframe>
       </div>
     </div>
   </div>
 </div>
 
+
+
+
+
+
+<script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script>
 
 
 	

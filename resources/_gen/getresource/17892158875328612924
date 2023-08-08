@@ -2,15 +2,15 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 27 Jul 2023 20:32:34 GMT
-Etag: "2d61549f7bfafcd416c1ced68c93fada-ssl-df"
+Date: Tue, 08 Aug 2023 14:47:26 GMT
+Etag: "b124087c0665c6e83b8c055fcd9748eb-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=711C3F1BF6131120A889B14FE2FC437B~000000000000000000000000000000~YAAQ5awiF/IX1HaJAQAACaANmRTA1xbWg29N/sMoLhNAM+UaXcS4k9wGFCtV5Yg7WqifJ8vPFGS3cpa4xj9zhVJ5Wvvfx71JYCYTLa6fLqapqMS1JcERIaQC+FNoC5KL7hi7HAWOda0wxH7PvsIH0/w5IMsLgBWhR0vg1PUHv3+8e2kFdOx4Kkwo7VdgzNQhi3ffDMA4MNNnpOXNBYLJD8eAcTop9P4RUMM1KOWD3y4JEVY9f3l9g+lbUMh4w3I9zh/fngfgC6spViSoKR+bogc1N5ZLMdSq6W00YGgnPn1MvJbLvQlZ/n+KX14djUhngvbUgYkZoIjdhQ5HfLW/UWLb8MmkBvo3+IpdgD2lRN8j+W3v//wP8SUE09tbT7ti6IuMLrRt02g=; Domain=.vmware.com; Path=/; Expires=Thu, 27 Jul 2023 22:32:33 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=0C4163BDE594AA02A897E3F2C3AD0613~YAAQ5awiF/MX1HaJAQAACaANmRRIVaW9QZRQmqRrXinaepSfYo44iOnEF5nXSh96G0DGsJL8uJndpqmPHWjl1S1f+J43lbEAVcn2TI9LBEFTsAj5lInt8Y9UD2/q9xlipOOOSdr5wssZ06D0JvA58DKiFLPAE4QJvL+qKLtaNPLUhvu9h77tMV9BKx3hHyNRSrr4Su9a9LpJDQGzEyOhPkasZ/iV7j8UVX2FVQn1NEwrbOV6zJSb4ts+56wWuC6uiBbLOdr1HNo1aELNfZC0wme4geU/yhiIWIzNoKkgffJCdsVdpKTqSFRQ0HHn28sApllT9DF+Yg==~1; Domain=.vmware.com; Path=/; Expires=Thu, 27 Jul 2023 20:32:34 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=D65F4010CB4702480E746FD2FEDDAB7B~000000000000000000000000000000~YAAQBqc3F3dNZNOJAQAABved1RRlRMIsr9G05AdBSdAEHvKI3IVGX4rO6S9+sTKW0qRzmYoVY7HuYVHq/043srZ0xzDA/VRAC3gIOesFnibFMEtUmajSyriRh3o64L3TQKW98Kd/Sfr5nXI9vvR3k/SWGqPT5q+6ZEBxMXguzfms9/SwmUDtrLEHlQ2dLWo9v0K9SoVPkyjTpIwf6YC1/3WE20qxHKuPqqqYLx+iLdJLA+ve+LZWLXymNtzmqi0hrX4tXgUaEnvhhFvF+3+kzfLF02iRBvvNtCIbqyhNglQKj8gF0v7fz++rFjQOk2/ojsh18vORoVo+22dIK6svrCIsY6vzk6hw8yq97r1IVN/EfCyuYjSIYb9KDIwjSJ9g7nFBpGR5AgfW; Domain=.vmware.com; Path=/; Expires=Tue, 08 Aug 2023 16:47:26 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: bm_mi=29C7E3E337013143259CEA7B57B65BE0~YAAQBqc3F3hNZNOJAQAABved1RSqBQcZqKcYtG4aAIggsF31D7xU3z90SzeWvQVsgQAXStZJ133vMgr45vMrkL9yH7a717xAlfFt37z/YN5jnyk/wBsFiibtfi1Hm8hw+CcIUx5/fHNGIBj9e6MRqdWeMGJ7x9goI4tCPn4Ca6l1cGUts0Ln5dkf+Zksw9CqWV/8yGzfdtaD3RItaVqlo8sMXP16wUjj23FPn6P2YVQXlZeORLzkD2S5j2RXWNDA458ywBf1rqDMAdvMItpBIQjZUmylhXj72KoGenY41cJeaQin8jx3F+i5u2bB3M3SuGCH/jWxHw==~1; Domain=.vmware.com; Path=/; Expires=Tue, 08 Aug 2023 14:47:26 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 13074 0 pmb=mTOE,2
-X-Nf-Request-Id: 01H6CGV7VSWZ96QM3PYJK60Y40
+X-Akamai-Transformed: 9 13026 0 pmb=mTOE,2
+X-Nf-Request-Id: 01H7ASVXNFAGAHF7F5WQX4XZS7
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -49,7 +49,7 @@ if (document.cookie.indexOf('OptanonConsent') > -1 && document.cookie.indexOf('g
 Sentry.init({
   dsn: "https://91138cf7f17842fd8a57d45372bf538c@o448817.ingest.sentry.io/5712977",
   integrations: [new Sentry.Integrations.BrowserTracing()],
-  release: '9cef84936a5cdf43a5c141741cd79e6251b03802',
+  release: '77a856b44549677a56112ac58b18da08c80072b0',
   environment: 'production',
   
   
@@ -94,26 +94,50 @@ function isTvShowLive(showName) {
   episodes = [];
   
     var epInfo = {
-      startTime: new Date("2023-07-25T12:30:00-07:00"),
-      endTime: new Date(new Date("2023-07-25T12:30:00-07:00").getTime() + ( 60  * 60000)),
-      show: "Spring Office Hours",
-      link: "\/developer\/tv\/spring-office-hours\/0045\/"
+      startTime: new Date("2023-08-10T08:00:00-07:00"),
+      endTime: new Date(new Date("2023-08-10T08:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/56\/"
     };
 
     
-    epInfo["stream"] = "eUKqjRV1zEE";
+    epInfo["stream"] = "twitch";
     
     episodes.push(epInfo);
   
     var epInfo = {
-      startTime: new Date("2023-07-21T05:30:17Z"),
-      endTime: new Date(new Date("2023-07-21T05:30:17Z").getTime() + ( 120  * 60000)),
-      show: "Tanzu Talk",
-      link: "\/developer\/tv\/talk\/196\/"
+      startTime: new Date("2023-08-07T13:00:00-07:00"),
+      endTime: new Date(new Date("2023-08-07T13:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Spring Office Hours",
+      link: "\/developer\/tv\/spring-office-hours\/0047\/"
     };
 
     
-    epInfo["stream"] = "bQX45vBjM_w";
+    epInfo["stream"] = "2HGYuoEY6eQ";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-08-03T08:00:00-07:00"),
+      endTime: new Date(new Date("2023-08-03T08:00:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/55\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2023-08-01T12:30:00-07:00"),
+      endTime: new Date(new Date("2023-08-01T12:30:00-07:00").getTime() + ( 60  * 60000)),
+      show: "Spring Office Hours",
+      link: "\/developer\/tv\/spring-office-hours\/0046\/"
+    };
+
+    
+    epInfo["stream"] = "SD6v_BDznAU";
     
     episodes.push(epInfo);
   
@@ -339,7 +363,7 @@ function getCookie(name) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="602247657"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/23e591c0"  defer></script></head>
+  <script >bazadebezolkohpepadr="863120184"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/33722af7"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -986,18 +1010,46 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/spring-office-hours/0045/">
+    href="/developer/blog/options-pattern-dotnet/index.md">
     <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 45 - What&#39;s new in Spring</h4>
+    <h5 class="mb-3 text-white">blog</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Demystifying the Options Pattern in .NET</h4>
     
     
     <div class="mb-2">
-        <img src='/developer/team/dan-vega/images/dan-vega_hu1a23ef7a3a3ccb744de7aae99873ce17_626231_175x175_resize_q75_catmullrom.jpg'
-            alt="Dan Vega" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Dan Vega</p>
+        <img src='/developer/team/layla-porter/images/layla-porter_hub881ab6015d621724203284c49194ae7_66126_175x175_resize_catmullrom_3.png'
+            alt="Layla Porter" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Layla Porter</p>
     </div>
     
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/enlightning/55/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Keeping Secrets Secret: Secrets Store CSI Driver</h4>
+    
+    
+    <div class="mb-2">
+        <img src='/developer/team/whitney-lee/images/whitney-lee_huabd76dc314ac50b20eaa3f49a20f2d36_188331_175x175_resize_q75_catmullrom.jpg'
+            alt="Whitney Lee" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Whitney Lee</p>
+    </div>
+    
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/spring-office-hours/0046/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 46 - Why Spring Boot</h4>
     
     
     <div class="mb-2">
@@ -1007,39 +1059,11 @@ function getCookie(name) {
     </div>
     
     
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/blog/a-bootiful-podcast-java-legend-simon-martinelli-on-vaadin-javaooq-and-so-more/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">blog</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">A Bootiful Podcast: Java legend Simon Martinelli on Vaadin, JavaOOQ, and so more </h4>
-    
     
     <div class="mb-2">
-        <img src='/developer/team/josh-long/images/josh-long_hu36f964ee24f8ac8efa06de84b9fbd4b5_32535_175x175_resize_q75_catmullrom.jpg'
-            alt="Josh Long" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Josh Long</p>
-    </div>
-    
-    
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/languages/dotnet/newsletter/first/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">language</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Hooked on .NET - The inaugural edition</h4>
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/layla-porter/images/layla-porter_hub881ab6015d621724203284c49194ae7_66126_175x175_resize_catmullrom_3.png'
-            alt="Layla Porter" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Layla Porter</p>
+        <img src='/developer/team/dan-vega/images/dan-vega_hu1a23ef7a3a3ccb744de7aae99873ce17_626231_175x175_resize_q75_catmullrom.jpg'
+            alt="Dan Vega" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Dan Vega</p>
     </div>
     
     
@@ -1307,7 +1331,7 @@ function getCookie(name) {
         <div class="advocate-card mb-2 mb-lg-0 mx-0 position-relative w-100 p-0" data-toggle="tooltip"
             data-placement="top" title="Kubernetes">
             <a href="/developer/team/tiffany-jernigan/" class="linked-box td-box--gray-dark">
-                <img src="/developer/team/tiffany-jernigan/images/tiffany-jernigan_huf3ebee3d9b9400851b50b74e89a8406f_51631_600x600_resize_q75_catmullrom.jpg"
+                <img src="/developer/team/tiffany-jernigan/images/tiffany-jernigan_huebbfad1edfa8e198fe68a27ac6a615ca_71435_600x600_resize_q75_catmullrom.jpg"
                     alt="Tiffany Jernigan Image" class="card-img-top">
                 <h5 class="text-center pt-3" style="color:white">Tiffany Jernigan</h5>
             </a>
@@ -1447,5 +1471,5 @@ function getCookie(name) {
 
 <script src="/developer/js/main.0265e4d4ac05f3b97e40763a3e0f7152853042c35ae37ebb88dfa8d5166b1b67.js" integrity="sha256-AmXk1KwF87l&#43;QHY6Pg9xUoUwQsNa4367iN&#43;o1RZrG2c=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_23e591c0?a=dD1lMjQ0NTI1NjlmYTZmYTBhNDA2Y2I2YWIxODA0N2YzNGE1MmE2OWE1JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_33722af7?a=dD0xYjdhMTc5MDYyY2EzNjQ5YzMzOGNmYmU0MGE0NGE4NmU5OTY2NGRlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

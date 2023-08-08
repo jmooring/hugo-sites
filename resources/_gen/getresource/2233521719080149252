@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 1618
+Age: 3555
 Content-Type: text/html
-Date: Thu, 27 Jul 2023 20:32:17 GMT
-Etag: "21436-6014dc8880896-gzip"
-Last-Modified: Tue, 25 Jul 2023 11:10:48 GMT
+Date: Tue, 08 Aug 2023 14:47:08 GMT
+Etag: "213de-60263a2da5ece-gzip"
+Last-Modified: Tue, 08 Aug 2023 06:40:17 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 33, 1
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300056-BFI
-X-Timer: S1690489938.609388,VS0,VE151
+X-Cache-Hits: 27, 1
+X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300048-BFI
+X-Timer: S1691506029.981085,VS0,VE1
 
 
 
@@ -1209,12 +1209,64 @@ X-Timer: S1690489938.609388,VS0,VE151
             <div id="integrations-container" class="list-items">
                 
                 
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/dataplex.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Google Dataplex</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-facebook/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Facebook Ads</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-jira/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Atlassian Jira</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-cloudant/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">IBM Cloudant</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
                 <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Data Proc</span>
+        <span class="box-event__integration--name">Google Cloud</span>
     </div>
 </div>
 
@@ -1222,12 +1274,12 @@ X-Timer: S1690489938.609388,VS0,VE151
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/functions.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/batch.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Functions</span>
+        <span class="box-event__integration--name">AWS Batch</span>
     </div>
 </div>
 
@@ -1235,12 +1287,12 @@ X-Timer: S1690489938.609388,VS0,VE151
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-asana/stable/operators/asana.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/spanner.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Asana</span>
+        <span class="box-event__integration--name">Google Cloud Spanner</span>
     </div>
 </div>
 
@@ -1248,64 +1300,12 @@ X-Timer: S1690489938.609388,VS0,VE151
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-pagerduty/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Web Services</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/redshift_data.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Redshift Data</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/ec2.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon EC2</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/cloud_memorystore.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Memorystore</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-psrp/stable/index.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Windows PowerShell Remoting Protocol</span>
+        <span class="box-event__integration--name">Pagerduty</span>
     </div>
 </div>
 

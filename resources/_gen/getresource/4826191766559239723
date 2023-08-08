@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: MISS
-Cf-Ray: 7ed7a6990dacc36c-SEA
+Cf-Ray: 7f388d841addeb77-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Thu, 27 Jul 2023 20:32:17 GMT
-Last-Modified: Thu, 27 Jul 2023 14:04:29 GMT
+Date: Tue, 08 Aug 2023 14:47:08 GMT
+Last-Modified: Tue, 08 Aug 2023 13:31:45 GMT
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
@@ -26,7 +26,9 @@ X-Xss-Protection: 1; mode=block
 
 
 
-<meta name="description" content="Information on DigitalOcean product features, pricing, availability, and limits; how to use products from the control panel; how to manage your account, teams, and billing; and platform details, release notes, and product policies.">
+
+
+<meta name="description" content="Information on DigitalOcean product features, pricing, availability, and limits; how to use products from the control panel; how to manage your account, teams, and billing; and platform details, release notes, and product policies. Relevant terms: ">
 <meta name="google-site-verification" content="CAYPZwe7daX8KlYYZfB4VMjfT4g8Tqrrc4Q3g_wMvI8" />
 
 <meta name="og:title" content="DigitalOcean Documentation">
@@ -62,7 +64,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.f885b2501aece77010649af383b5e0e5d96209c3e2ce1185923639a9817d57d7.css">
+<link rel="stylesheet" href="/main.min.a7297ef11e6fac9275b807113ef0c811c5927f2d60bc477470e09b950f2ab986.css">
 
 </head>
 
@@ -362,17 +364,18 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="27-july-2023">27 July 2023</h3>
+<h3 id="2-august-2023">2 August 2023</h3>
+<ul><li>
+            <p><p>We have released new plans for Basic Droplets with Premium CPUs with different vCPU:RAM ratios.</p>
+<p>The new plans are available through the <a href="/products/droplets/how-to/create/#create-a-droplet-in-the-control-panel">control panel</a> and the <a href="/products/droplets/how-to/create/#create-a-droplet-using-the-api">API</a> for all data centers. However, plans with a 1:4 vCPU:RAM ratio (like the 2 vCPU and 8 GB RAM plan) are not yet available in LON1, SGP1, and NYC1.</p>
+<p>The previous plans for Basic Droplets with Premium CPUs are not available in the control panel, but remain available through the API and CLI with the same slugs: <code>s-1vcpu-1gb-intel</code>, <code>s-1vcpu-2gb-intel</code>, <code>s-2vcpu-2gb-intel</code>, <code>s-2vcpu-4gb-intel</code>, <code>s-4vcpu-8gb-intel</code>, and <code>s-8vcpu-16gb-intel</code>.</p>
+</p>
+        </li></ul><h3 id="27-july-2023">27 July 2023</h3>
 <ul><li>
             <p>We now support ACH direct debit payments for qualifying customers with U.S. bank accounts. Learn more about <a href="/products/billing/manage-payment-methods/">managing payment methods on DigitalOcean</a>.</p>
         </li></ul><h3 id="26-july-2023">26 July 2023</h3>
 <ul><li>
             <p>We have reenabled the creation of new resources in SFO2 for all customers.</p>
-        </li></ul><h3 id="20-july-2023">20 July 2023</h3>
-<ul><li>
-            <p><p>The Ubuntu 22.10 distribution has reached end of life and is <a href="/products/platform/image-deprecation/">deprecated</a> as of 20 July 2023:</p>
-<p>The image will be removed from the control panel starting on 20 July 2023 but will remain accessible for Droplet creation via the API for 30 days after the initial deprecation. If you need to use Ubuntu 22.10 after the image has been fully deprecated, you can create Droplets from a <a href="/products/images/snapshots/how-to/snapshot-droplets/">snapshot of a Droplet</a> with that version or from a <a href="/products/images/custom-images/">custom image</a>.</p>
-</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
@@ -497,7 +500,7 @@ function logToLooker(actionValue,nameValue,valueValue)
 
 
 
-<script src="/js/main.min.6c29a16e3ea81e60cb43e0f5d9ac15cd5c8f27b46a071d62200be7b1190ea38d.js" integrity="sha256-bCmhbj6oHmDLQ&#43;D12awVzVyPJ7RqBx1iIAvnsRkOo40="></script>
+<script src="/js/main.min.1cb7790f2ccad33665e2bd106af0b30c1bb2dedb03a96e65ac069d753e64b608.js" integrity="sha256-HLd5DyzK0zZl4r0QavCzDBuy3tsDqW5lrAaddT5ktgg="></script>
 
     
 

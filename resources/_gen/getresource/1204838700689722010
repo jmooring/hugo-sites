@@ -2,14 +2,14 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Thu, 27 Jul 2023 20:32:30 GMT
-Etag: W/"64c1db5e-cb1d"
+Date: Tue, 08 Aug 2023 14:47:23 GMT
+Etag: W/"64cef671-ccb0"
 Front-End-Https: on
-Last-Modified: Thu, 27 Jul 2023 02:50:06 GMT
+Last-Modified: Sun, 06 Aug 2023 01:25:05 GMT
 Server: nginx/1.18.0
 X-Frame-Options: DENY
 
-cb1d
+ccb0
 <!DOCTYPE html>
 <html
   lang="en"
@@ -60,7 +60,7 @@ cb1d
       "@context": "http://schema.org",
       "@type": "WebSite",
       "name": "PostGIS",
-      "url": "https://postgis.net",
+      "url": "https://postgis.net/",
       "license": "CC BY-SA 4.0",
       "inLanguage": "en"
   }
@@ -166,7 +166,7 @@ cb1d
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://postgis.net">
+      <a class="gdoc-brand gdoc-header__link" href="https://postgis.net/">
         <span class="flex align-center">
          <img
             class="gdoc-brand__img"
@@ -198,7 +198,7 @@ cb1d
         </span>
 
         <span class="gdoc-menu-header__home">
-          <a href="https://postgis.net" class="gdoc-header__link">
+          <a href="https://postgis.net/" class="gdoc-header__link">
             <svg class="gdoc-icon gdoc_home">
               <title>Back to homepage</title>
               <use xlink:href="#gdoc_home"></use>
@@ -245,7 +245,7 @@ cb1d
       placeholder="Search..."
       aria-label="Search"
       maxlength="64"
-      data-site-base-url="https://postgis.net"
+      data-site-base-url="https://postgis.net/"
       data-site-lang="en"
     />
     <ul id="gdoc-search-results" class="gdoc-search__list"></ul>
@@ -1627,8 +1627,8 @@ cb1d
   <h2>Latest News</h2>
 
 
-  <h3><a href="https://postgis.net/2023/07/PostGIS-3.4.0beta1/">PostGIS 3.4.0beta1</a></h3>
-  <p><p>The PostGIS Team is pleased to release PostGIS 3.4.0beta1!
+  <h3><a href="https://postgis.net/2023/08/PostGIS-3.4.0rc1/">PostGIS 3.4.0rc1</a></h3>
+  <p><p>The PostGIS Team is pleased to release PostGIS 3.4.0rc1!
 Best Served with <a
   class="gdoc-markdown__link"
   href="https://www.postgresql.org/about/news/postgresql-16-beta-2-released-2665/"
@@ -1641,10 +1641,10 @@ and <a
 To take advantage of all features, GEOS 3.12+ is needed.
 To take advantage of all SFCGAL features, SFCGAL 1.4.1+ is needed.</p>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="340beta1"
+    <h3 id="340rc1"
     >
-        3.4.0beta1
-        <a data-clipboard-text="https://postgis.net/2023/07/PostGIS-3.4.0beta1/#340beta1" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.4.0beta1" aria-label="Anchor to: 3.4.0beta1" href="#340beta1">
+        3.4.0rc1
+        <a data-clipboard-text="https://postgis.net/2023/08/PostGIS-3.4.0rc1/#340rc1" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.4.0rc1" aria-label="Anchor to: 3.4.0rc1" href="#340rc1">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h3>
@@ -1652,32 +1652,45 @@ To take advantage of all SFCGAL features, SFCGAL 1.4.1+ is needed.</p>
 <ul>
 <li><a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/source/postgis-3.4.0beta1.tar.gz"
+  href="https://download.osgeo.org/postgis/source/postgis-3.4.0rc1.tar.gz"
 >source download</a> <a
   class="gdoc-markdown__link"
-  href="/stuff/postgis-3.4.0beta1.tar.gz.md5"
+  href="/stuff/postgis-3.4.0rc1.tar.gz.md5"
 >md5</a></li>
 <li><a
   class="gdoc-markdown__link"
-  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.4.0beta1/NEWS"
+  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.4.0rc1/NEWS"
 >NEWS</a></li>
-<li>PDF docs: <a
+<li>html online <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-en.pdf"
+  href="https://postgis.net/docs/manual-3.4/"
 >en</a> <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-ja.pdf"
+  href="https://postgis.net/docs/manual-3.4/postgis-de.html"
+>de</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/postgis-ja.html"
 >ja</a> <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0beta1-fr.pdf"
+  href="https://postgis.net/docs/manual-3.4/postgis-ko_KR.html"
+>ko_KR</a></li>
+<li>PDF docs: <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-en.pdf"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-ja.pdf"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-fr.pdf"
 >fr</a></li>
 </ul>
-<p>This release is a beta of a major release, it includes bug fixes since PostGIS 3.3.3 and new features.</p></p>
+<p>This release is a release candidate of a major release, it includes bug fixes since PostGIS 3.3.4 and new features.</p></p>
   
     <a
       class="flex-inline align-center fake-link"
       title="Read more"
-      href="/2023/07/PostGIS-3.4.0beta1/"
+      href="/2023/08/PostGIS-3.4.0rc1/"
     >
       Read more
       <i class="gdoc-icon">gdoc_arrow_right_alt</i>
