@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 521414
+Age: 250490
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 08 Aug 2023 14:47:30 GMT
-Etag: "aee5fc5f9de144ea115e9fd0395b58bd-ssl-df"
+Date: Thu, 07 Sep 2023 15:29:07 GMT
+Etag: "5a660c0572b1f2bf20e4b895fc5c138b-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H7ASW1SX8CFFED2QWSFKC5WJ
+X-Nf-Request-Id: 01H9R45TBPBHXAHEJ0HCW24NN8
 
 <!doctype html><html>
 <head>
@@ -107,7 +107,7 @@ What security improvements qualify?
 <li>Use of <a href=https://github.com/ossf/allstar target=_blank rel=noopener>OpenSSF Allstar</a> and remediation of discovered issues.</li>
 <li>Earning a <a href=https://bestpractices.coreinfrastructure.org/ target=_blank rel=noopener>CII Best Practice Badge</a> (which also improves the Scorecard results).</li>
 <li>Adoption of SLSA builders at level 3 and above, e.g., using the <a href=https://github.com/slsa-framework/slsa-github-generator target=_blank rel=noopener>SLSA GitHub generator project</a>.</li>
-<li>Fixing issues discovered by OSS-Fuzz that exceeded disclosure timeline: <a href="https://bugs.chromium.org/p/oss-fuzz/issues/list?q=Type%3DBug-Security%20label%3ADeadline-Exceeded%20-label%3AStability-UndefinedBehaviorSanitizer%20label%3Areproducible&can=2" target=_blank rel=noopener>all open OSS-Fuzz findings</a>.</li>
+<li>Fixing issues discovered by OSS-Fuzz that exceeded disclosure timeline: <a href="https://bugs.chromium.org/p/oss-fuzz/issues/list?q=Type%3DBug-Security%20label%3ADeadline-Exceeded%20-label%3AStability-UndefinedBehaviorSanitizer%20label%3Areproducible&can=2" target=_blank rel=noopener>all open OSS-Fuzz findings</a>. You will be rewarded based on the impact of the fix, rather than the effort. A small change that fixes a significant vulnerability in a critical project may be rewarded more significantly than a large change with minimal impact to the user.</li>
 </ul>
 <p>We&rsquo;ll continue adding to the above list, so check our <a href=#frequently-asked-questions>FAQ</a> for updates. You may also submit improvements not listed above, if you provide justification and evidence to help us understand the complexity and impact of the work.</p>
 <p>Only work completed after October 1, 2021 qualifies for SOS rewards.</p>
@@ -174,7 +174,7 @@ Reward amounts
 <li><strong>Adoption of artifact signing and verification</strong>: S-M</li>
 <li><strong>Adoption of SLSA builders</strong>: S-M</li>
 <li><strong>Adoption of Fuzzing</strong>: S-M</li>
-<li><strong>Fixing issues found by fuzzing</strong>: XS-S</li>
+<li><strong>Fixing issues found by fuzzing</strong>: S-M</li>
 <li><strong>Fixing issues found by fuzzing with a demonstration of an attacker controlling execution flow</strong>: M-L</li>
 <li><strong>Implementing ecosystem wide security improvements</strong>: L-XL</li>
 </ul>

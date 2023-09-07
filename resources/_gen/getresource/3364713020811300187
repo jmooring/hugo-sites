@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 479780
+Age: 166856
 Cache-Control: public, max-age=0, must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 08 Aug 2023 14:47:22 GMT
-Etag: "70c6b37b08bc3dabbcddf70670c0a3ab-ssl-df"
+Date: Thu, 07 Sep 2023 15:28:58 GMT
+Etag: "2af4844a7bd48a57979c0ce6aa6b89a3-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H7ASVS845828ADVAVNC71TM2
+X-Nf-Request-Id: 01H9R45H7GFGCC3KK0TKWF2X6D
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -82,62 +82,72 @@ X-Nf-Request-Id: 01H7ASVS845828ADVAVNC71TM2
     
 
 
-
-<nav class="navbar no-shadow is-hidden-touch" role="navigation" aria-label="main navigation">
+<style>
+  header {
+    padding: 40px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-size: 40px;
+  }
+</style>
+<header>
+  <h1>
+    The <b>Open Service Mesh</b> project is
+    <a href="https://www.cncf.io/archived-projects">archived</a>.
+    <a href="https://openservicemesh.io/blog/osm-project-update/">Learn more</a
+    >.
+  </h1>
+</header>
+<nav
+  class="navbar no-shadow is-hidden-touch"
+  role="navigation"
+  aria-label="main navigation"
+>
   <div class="container">
     <div id="topNav" class="navbar-menu">
       <div class="navbar-start">
-        <a href="/" class="navbar-item is-secondary">
-          Home
-        </a>
-        <a href="https://docs.openservicemesh.io" class="navbar-item is-secondary">
-          Docs
-        </a>
-        <a href="https://github.com/openservicemesh/osm" class="navbar-item is-secondary">
-          Github
-        </a>
-        <a href="/blog" class="navbar-item is-secondary">
-          Blog
-        </a>
-        <a href="https://cloud-native.slack.com/archives/C018794NV1C" class="navbar-item is-secondary">
-          Slack
-        </a>
-        <a href="https://twitter.com/openservicemesh" class="navbar-item is-secondary">
-          Twitter
-        </a>
+        <a href="/" class="navbar-item is-secondary"> Home </a>
+        <a href="https://docs.openservicemesh.io" class="navbar-item is-secondary"> Docs </a>
+        <a href="https://github.com/openservicemesh/osm" class="navbar-item is-secondary"> Github </a>
+        <a href="/blog" class="navbar-item is-secondary"> Blog </a>
+        <a href="https://cloud-native.slack.com/archives/C018794NV1C" class="navbar-item is-secondary"> Slack </a>
+        <a href="https://twitter.com/openservicemesh" class="navbar-item is-secondary"> Twitter </a>
       </div>
 
-      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-eye" aria-label="Watch openservicemesh/osm on GitHub">Watch</a>
+      <a
+        class="github-button"
+        href="https://github.com/openservicemesh/osm"
+        data-icon="octicon-eye"
+        aria-label="Watch openservicemesh/osm on GitHub"
+        >Watch</a
+      >
 
-      <a class="github-button" href="https://github.com/openservicemesh/osm" data-icon="octicon-star" aria-label="Star openservicemesh/osm on GitHub">Star</a>
+      <a
+        class="github-button"
+        href="https://github.com/openservicemesh/osm"
+        data-icon="octicon-star"
+        aria-label="Star openservicemesh/osm on GitHub"
+        >Star</a
+      >
     </div>
   </div>
 </nav>
 
 <nav class="navbar navbar-mobile is-hidden-desktop">
-
   <a href="/">
-    <img src="https://openservicemesh.io/images/osm-logo-stacked.svg" alt="Open Service Mesh" />
+    <img
+      src="https://openservicemesh.io/images/osm-logo-stacked.svg"
+      alt="Open Service Mesh"
+    />
   </a>
   <div>
-  <a href="/" class="navbar-item is-secondary">
-    Home
-  </a>
-  <a href="https://docs.openservicemesh.io" class="navbar-item is-secondary">
-    Docs
-  </a>
-  <a href="https://github.com/openservicemesh/osm" class="navbar-item is-secondary">
-    Github
-  </a>
-  <a href="/blog" class="navbar-item is-secondary">
-    Blog
-  </a>
-  <a href="https://cloud-native.slack.com/archives/C018794NV1C" class="navbar-item is-secondary">
-    Slack
-  </a>
-  <a href="https://twitter.com/openservicemesh" class="navbar-item is-secondary">
-    Twitter
-  </a>
+    <a href="/" class="navbar-item is-secondary"> Home </a>
+    <a href="https://docs.openservicemesh.io" class="navbar-item is-secondary"> Docs </a>
+    <a href="https://github.com/openservicemesh/osm" class="navbar-item is-secondary"> Github </a>
+    <a href="/blog" class="navbar-item is-secondary"> Blog </a>
+    <a href="https://cloud-native.slack.com/archives/C018794NV1C" class="navbar-item is-secondary"> Slack </a>
+    <a href="https://twitter.com/openservicemesh" class="navbar-item is-secondary"> Twitter </a>
   </div>
 </nav>
 

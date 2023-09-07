@@ -2,14 +2,14 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Tue, 08 Aug 2023 14:47:23 GMT
-Etag: W/"64cef671-ccb0"
+Date: Thu, 07 Sep 2023 15:29:00 GMT
+Etag: W/"64e18d6c-d399"
 Front-End-Https: on
-Last-Modified: Sun, 06 Aug 2023 01:25:05 GMT
+Last-Modified: Sun, 20 Aug 2023 03:50:04 GMT
 Server: nginx/1.18.0
 X-Frame-Options: DENY
 
-ccb0
+d399
 <!DOCTYPE html>
 <html
   lang="en"
@@ -1627,24 +1627,23 @@ ccb0
   <h2>Latest News</h2>
 
 
-  <h3><a href="https://postgis.net/2023/08/PostGIS-3.4.0rc1/">PostGIS 3.4.0rc1</a></h3>
-  <p><p>The PostGIS Team is pleased to release PostGIS 3.4.0rc1!
-Best Served with <a
-  class="gdoc-markdown__link"
-  href="https://www.postgresql.org/about/news/postgresql-16-beta-2-released-2665/"
->PostgreSQL 16 Beta2</a>
-and <a
+  <h3><a href="https://postgis.net/2023/08/PostGIS-3.4.0/">PostGIS 3.4.0</a></h3>
+  <p><p>The PostGIS Team is pleased to release PostGIS 3.4.0!
+This version works with versions PostgreSQL 12-16, GEOS 3.6 or higher, and Proj 6.1+.
+To take advantage of all features, <a
   class="gdoc-markdown__link"
   href="https://libgeos.org/posts/2023-06-27-geos-3-12-released/"
->GEOS 3.12.0</a>.</p>
-<p>This version requires PostgreSQL 12 or higher, GEOS 3.6 or higher, and Proj 6.1+.
-To take advantage of all features, GEOS 3.12+ is needed.
-To take advantage of all SFCGAL features, SFCGAL 1.4.1+ is needed.</p>
+>GEOS 3.12+</a> is needed.
+To take advantage of all SFCGAL features,
+<a
+  class="gdoc-markdown__link"
+  href="https://sfcgal.org"
+>SFCGAL</a> 1.4.1+ is needed.</p>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="340rc1"
+    <h3 id="340"
     >
-        3.4.0rc1
-        <a data-clipboard-text="https://postgis.net/2023/08/PostGIS-3.4.0rc1/#340rc1" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.4.0rc1" aria-label="Anchor to: 3.4.0rc1" href="#340rc1">
+        3.4.0
+        <a data-clipboard-text="https://postgis.net/2023/08/PostGIS-3.4.0/#340" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.4.0" aria-label="Anchor to: 3.4.0" href="#340">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h3>
@@ -1652,45 +1651,102 @@ To take advantage of all SFCGAL features, SFCGAL 1.4.1+ is needed.</p>
 <ul>
 <li><a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/source/postgis-3.4.0rc1.tar.gz"
+  href="https://download.osgeo.org/postgis/source/postgis-3.4.0.tar.gz"
 >source download</a> <a
   class="gdoc-markdown__link"
-  href="/stuff/postgis-3.4.0rc1.tar.gz.md5"
+  href="/stuff/postgis-3.4.0.tar.gz.md5"
 >md5</a></li>
 <li><a
   class="gdoc-markdown__link"
-  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.4.0rc1/NEWS"
+  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.4.0/NEWS"
 >NEWS</a></li>
-<li>html online <a
-  class="gdoc-markdown__link"
-  href="https://postgis.net/docs/manual-3.4/"
->en</a> <a
-  class="gdoc-markdown__link"
-  href="https://postgis.net/docs/manual-3.4/postgis-de.html"
->de</a> <a
-  class="gdoc-markdown__link"
-  href="https://postgis.net/docs/manual-3.4/postgis-ja.html"
->ja</a> <a
-  class="gdoc-markdown__link"
-  href="https://postgis.net/docs/manual-3.4/postgis-ko_KR.html"
->ko_KR</a></li>
 <li>PDF docs: <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-en.pdf"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0-en.pdf"
 >en</a> <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-ja.pdf"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0-ja.pdf"
 >ja</a> <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0rc1-fr.pdf"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.4.0-fr.pdf"
+>fr</a></li>
+<li>HTML Online <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/en/"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/ja/"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/fr/"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/de/"
+>de</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/ko_KR/"
+>ko_KR</a></li>
+<li>Cheat Sheets:
+<ul>
+<li>postgis: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/postgis_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/postgis_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/postgis_cheatsheet-fr.html"
+>fr</a></li>
+<li>postgis_raster: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/raster_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/raster_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/raster_cheatsheet-fr.html"
+>fr</a></li>
+<li>postgis_topology: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/topology_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/topology_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/topology_cheatsheet-fr.html"
+>fr</a></li>
+<li>postgis_sfcgal: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/sfcgal_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/sfcgal_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/sfcgal_cheatsheet-fr.html"
+>fr</a></li>
+<li>address standardizer, postgis_tiger_geocoder: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/tiger_geocoder_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/tiger_geocoder_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.4/tiger_geocoder_cheatsheet-fr.html"
 >fr</a></li>
 </ul>
-<p>This release is a release candidate of a major release, it includes bug fixes since PostGIS 3.3.4 and new features.</p></p>
+</li>
+</ul>
+<p>This release is a major release, it includes bug fixes since PostGIS 3.3.4 and new features.</p></p>
   
     <a
       class="flex-inline align-center fake-link"
       title="Read more"
-      href="/2023/08/PostGIS-3.4.0rc1/"
+      href="/2023/08/PostGIS-3.4.0/"
     >
       Read more
       <i class="gdoc-icon">gdoc_arrow_right_alt</i>

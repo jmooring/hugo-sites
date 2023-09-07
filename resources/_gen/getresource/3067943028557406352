@@ -4,25 +4,25 @@ Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7f388e0a2ce6c39f-SEA
+Cf-Ray: 802ffc43bb646826-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 08 Aug 2023 14:47:29 GMT
-Expires: Tue, 08 Aug 2023 14:57:29 GMT
-Last-Modified: Wed, 26 Jul 2023 09:01:44 GMT
+Date: Thu, 07 Sep 2023 15:29:07 GMT
+Expires: Thu, 07 Sep 2023 13:45:17 GMT
+Last-Modified: Fri, 18 Aug 2023 08:17:52 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CXp0%2BW0Ixol37OdXZXg%2FUbECAOtSSOr66tf6gbahxdFLUIM6J7qQ8v5m%2BSxDfAAd4kT6RGkpLssyfHf3PqYVcnvaz44nwSb5ncdR%2FpWSALmkYV2uV6dqYCIl9WI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mq2da9jYqYyiPb6DCeEnLnQzh2BYVhdUolZkwF1aYg1s2DJktTb3y7gcyNeYFt591csiNJadIgpwVstZ5PtQZxFRG2%2B9kXVtCq2GLYEqq7HYfKOjC%2F%2Fh%2Br4a2WI%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
+X-Cache: HIT
+X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: f2dfc4ad854ed176fd1e28b9f71465d089fcbb6c
-X-Github-Request-Id: 09E6:4BD9:339A05:3AEE2D:64D2557D
+X-Fastly-Request-Id: 889ce26725fda95afefa328c2364dc71884abc3c
+X-Github-Request-Id: 728E:4B7B:7A6343:89C753:64F9D18B
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770023-PAO
-X-Timer: S1691506050.683228,VS0,VE88
+X-Served-By: cache-pao-kpao1770060-PAO
+X-Timer: S1694100547.225827,VS0,VE87
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,13 +78,31 @@ X-Timer: S1691506050.683228,VS0,VE88
             
               
             
-          " href="/about/">
-              About
+              
+            
+              
+            
+              
+            
+          " href="#">
+              Get Involved
             </a>
             <div class="navbar-dropdown">
               
-                <a class="navbar-item" href="/governance/">
-                  Governance
+                <a class="navbar-item" href="/contributing/">
+                  Contributing
+                </a>
+              
+                <a class="navbar-item" href="https://github.com/servo/servo/wiki" target="_blank">
+                  Wiki
+                </a>
+              
+                <a class="navbar-item" href="https://wpt.servo.org/" target="_blank">
+                  WPT pass rates
+                </a>
+              
+                <a class="navbar-item" href="/coc/">
+                  Code of Conduct
                 </a>
               
             </div>
@@ -100,35 +118,16 @@ X-Timer: S1691506050.683228,VS0,VE88
       
         
         
-          
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link
-            
-              
-            
-              
-            
-              
-            
-          " href="/get-involved/">
-              Get Involved
-            </a>
-            <div class="navbar-dropdown">
-              
-                <a class="navbar-item" href="/contributing/">
-                  Contributing
-                </a>
-              
-                <a class="navbar-item" href="/documentation/">
-                  Documentation
-                </a>
-              
-                <a class="navbar-item" href="/coc/">
-                  Code of Conduct
-                </a>
-              
-            </div>
-          </div>
+          <a class="navbar-item" href="/blog/">
+            Blog
+          </a>
+        
+      
+        
+        
+          <a class="navbar-item" href="https://demo.servo.org/" target="_blank">
+            Demos
+          </a>
         
       
         
@@ -139,10 +138,28 @@ X-Timer: S1691506050.683228,VS0,VE88
             
               
             
-          " href="/sponsorship/">
-              Sponsorship
+              
+            
+              
+            
+              
+            
+          " href="#">
+              About
             </a>
             <div class="navbar-dropdown">
+              
+                <a class="navbar-item" href="/about/">
+                  About Servo
+                </a>
+              
+                <a class="navbar-item" href="/governance/">
+                  Governance
+                </a>
+              
+                <a class="navbar-item" href="/sponsorship/">
+                  Sponsorship
+                </a>
               
                 <a class="navbar-item" href="/acknowledgements/">
                   Acknowledgements
@@ -150,13 +167,6 @@ X-Timer: S1691506050.683228,VS0,VE88
               
             </div>
           </div>
-        
-      
-        
-        
-          <a class="navbar-item" href="/blog/">
-            Blog
-          </a>
         
       
       <div class="navbar-end">
@@ -241,7 +251,7 @@ X-Timer: S1691506050.683228,VS0,VE88
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#51383f373e11223423273e7f3e2336"><span class="__cf_email__" data-cfemail="422b2c242d02312730342d6c2d3025">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#650c0b030a25160017130a4b0a1702"><span class="__cf_email__" data-cfemail="b4dddad2dbf4c7d1c6c2db9adbc6d3">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -302,7 +312,7 @@ X-Timer: S1691506050.683228,VS0,VE88
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#f891969e97b88b9d8a8e97d6978a9f"><span class="__cf_email__" data-cfemail="90f9fef6ffd0e3f5e2e6ffbeffe2f7">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#365f58505976455344405918594451"><span class="__cf_email__" data-cfemail="177e79717857647265617839786570">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

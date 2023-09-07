@@ -2,10 +2,10 @@ HTTP/1.1 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=2592000
 Content-Type: text/html
-Date: Tue, 08 Aug 2023 14:47:36 GMT
-Etag: "88ae-602652c00fd96-gzip"
-Expires: Thu, 07 Sep 2023 14:47:36 GMT
-Last-Modified: Tue, 08 Aug 2023 08:30:13 GMT
+Date: Thu, 07 Sep 2023 15:29:39 GMT
+Etag: "873c-603ff94061be1-gzip"
+Expires: Sat, 07 Oct 2023 15:29:39 GMT
+Last-Modified: Mon, 28 Aug 2023 18:08:15 GMT
 Server: Apache
 Strict-Transport-Security: max-age=15552000; includeSubDomains
 Vary: Accept-Encoding
@@ -70,7 +70,7 @@ X-Xss-Protection: 1; mode=block
 <link rel="stylesheet" href="/css/styles.min.css" media="screen" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 </head>
-<body class="container"><nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="hasecke.com Navigation">
+<body class="container"><nav class="navbar navbar-expand-md navbar-light bg-light d-print-none" aria-label="hasecke.com Navigation">
   <div class="container">
     <a class="navbar-brand" href="https://www.hasecke.com">
       
@@ -104,9 +104,9 @@ X-Xss-Protection: 1; mode=block
           <li class="nav-item ms-3">
             <a class="nav-link" href="tel:+492122331483"><i class="bi bi-telephone-outbound"></i><span class="d-none d-lg-inline">&nbsp;0212 2331483</span></a>
           </li>
-          <li class="nav-item ms-3">
-            <a class="nav-link" href="https://matrix.to/#/@juh:hostsharing.net"><i class="bi bi-chat"></i><span class="d-none d-lg-inline">&nbsp;Chat</span></a>
-          </li>
+          
+          
+          
           <li class="nav-item ms-3">
             <a class="nav-link" href="https://www.linkedin.com/in/jan-ulrich-hasecke-587b56220/"><i class="bi bi-linkedin"></i><span class="d-none d-lg-inline">&nbsp;LinkedIn</span></a>
           </li>
@@ -149,9 +149,9 @@ X-Xss-Protection: 1; mode=block
 <a class="btn btn-outline-success" href="mailto:jan.ulrich@hasecke.com?subject=Anfrage"
    ><i class="bi bi-envelope"></i>&nbsp;<span class="d-none d-md-inline">Schreiben</span>
 </a>
-<a class="btn btn-outline-success" href="https://matrix.to/#/@juh:hostsharing.net"
-   ><i class="bi bi-chat"></i>&nbsp;<span class="d-none d-md-inline">Chatten</span>
-</a>
+
+
+
 <a class="btn btn-outline-success" href="tel:+492122331483"
    ><i class="bi bi-telephone-outbound">&nbsp;</i><span class="d-none d-md-inline">Anrufen</span>
 </a>
@@ -532,8 +532,7 @@ Der konzeptionell denkende Texter bringt Sie auf Erfolgskurs.
                     <div class="col">
                       <h3 class="h5">
                         <a class="text-dark text-decoration-none" href="/marketing/open-source-software/"
-                          >Open Source Marketing
-</a
+                          >Marketing für freie Software</a
                         >
                       </h3>
                       <p class="text-muted">
@@ -566,7 +565,7 @@ Nur wer gibt, bekommt etwas zurück.
                   <p class="lead">
                     Hasecke betreut seit 1997 als Webdienstleister Internetprojekte.
 Als freier Werbetexter schreibt er regelmäßig fürs Web.
-Er verbindet Verständnis für die technischen Prozesse im Internet mit einem ausgeprägtem Gespür für die richtigen Texte.
+Er verbindet Verständnis für die technischen Prozesse im Internet mit einem Gespür für die richtigen Texte.
 
                   </p>
                 </div>
@@ -625,7 +624,7 @@ Welche digitalen Kommunikationsprozesse sind notwendig?
                         >
                       </h3>
                       <p class="text-muted">
-                        Minimalistisch und informativ muss es sein: Design, das auf den Punkt kommt und Emotionen weckt.
+                        Minimalistisch und standardkonform – das ist meine Art des Informationsdesigns.
 
                         <a class="text-primary" href="https://www.hasecke.com/website/webdesign/"
                            >weiter…&nbsp;<i class="bi bi-chevron-right"></i></a
@@ -640,7 +639,8 @@ Welche digitalen Kommunikationsprozesse sind notwendig?
                         >
                       </h3>
                       <p class="text-muted">
-                        Hochverfügbar, sicher und konform zur EU-DSGVO. Hosten Sie Ihre Website doch einfach im eigenen Unternehmen.
+                        Hochverfügbar, sicher und DSGVO-konform. 
+Professionelles Hosting für Ihre Website.
 
                         <a class="text-primary" href="https://www.hasecke.com/website/webhosting/"
                            >weiter…&nbsp;<i class="bi bi-chevron-right"></i></a
@@ -746,7 +746,7 @@ Erfolg.
     </div>
 </section>
 
-        </div><footer class="py-3 footer">
+        </div><footer class="py-3 footer d-print-none">
   <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
       <ul class="list-group list-group-flush">

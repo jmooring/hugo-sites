@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
-Age: 16331
+Age: 27094
 Cache-Control: public,max-age=0,must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7f388da0aa3fc670-SEA
+Cf-Ray: 802ffbc4a8b86814-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 08 Aug 2023 14:47:12 GMT
+Date: Thu, 07 Sep 2023 15:28:46 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W%2FD6%2FXWjO874eLKK1O0oJSzTXrox%2FlLr0FcY1n2zaVHIOcvNiqQdmzUtxP5HxnzERrKacdXbURKigYTbrzZzDCjlm18UK8zGEHZUbpK9XHOClfcXtzOQEzeD0g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qhqfQ%2FmqTx0xScmu8zO84qwbBJuxtWgN8ksy5xHCmJXANXEc1ZSrHeJsWkgWmwL%2BAmELOl65Zx4kWXuNt1fOTRVk4CZuXBxleHtKxqX86AqhYGiPUPN361M80w%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01H7ASVG5NSTEBK67PBXSJDFY0
+X-Nf-Request-Id: 01H9R455TSB89THCPVKSK0F5FP
 X-Xss-Protection: 1; mode=block
 
 
@@ -45,18 +45,7 @@ X-Xss-Protection: 1; mode=block
     </style>
 
     
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-58V4RXS");
-    </script>
+    
     
 
     <script>
@@ -151,7 +140,24 @@ X-Xss-Protection: 1; mode=block
 
     
 
-    
+
+    <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){if(window.analytics.initialized)return window.analytics[e].apply(window.analytics,arguments);var i=Array.prototype.slice.call(arguments);i.unshift(e);analytics.push(i);return analytics}};for(var i=0;i<analytics.methods.length;i++){var key=analytics.methods[i];analytics[key]=analytics.factory(key)}analytics.load=function(key,i){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=i};analytics._writeKey="aQlf725vSBKhpQnINiGBc6rCtFyVCiAP";;analytics.SNIPPET_VERSION="4.16.1";
+      analytics.load("aQlf725vSBKhpQnINiGBc6rCtFyVCiAP");
+      analytics.page();
+      
+      document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('a');
+        links.forEach((link) =>
+          analytics.trackLink(link, 'Click', {
+            id: link.id,
+            to: link.href,
+            text: link.innerText
+          })
+        );
+      });
+    }}();
+  </script>
     <meta name="google-site-verification" content="BL0nvRL7rgrDNejIenHatMkYhg0foQpblDpCSTBlrRM" />
 
     <script>
@@ -201,7 +207,7 @@ X-Xss-Protection: 1; mode=block
     </script>
     
     
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58V4RXS" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    
     
     
     <header class="blog-header"><div class="dgraph-header">

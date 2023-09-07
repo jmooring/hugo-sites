@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
-Age: 52534
+Age: 54998
 Content-Security-Policy: connect-src 'self' https://brave-software.ghost.io; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://try.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://survey.brave.com https://contact.ads.brave.com https://html5-player.libsyn.com https://social-growth.bravesoftware.com https://try.bravesoftware.com https://player.vimeo.com https://boards.greenhouse.io https://www.surveymonkey.com https://www.youtube-nocookie.com https://js.driftt.com https://app.boostr.com/; img-src 'self' data: https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://analytics.brave.com https://boards.greenhouse.io https://js.driftt.com; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
 Content-Type: text/html
 Cross-Origin-Opener-Policy: same-origin
-Date: Tue, 08 Aug 2023 00:11:35 GMT
-Etag: W/"8c2ad0f70b478a8a4c41672bc3db4c55"
-Last-Modified: Sat, 05 Aug 2023 19:09:36 GMT
+Date: Thu, 07 Sep 2023 00:12:05 GMT
+Etag: W/"5345f3b5335569e166cefd6855ee3cb5"
+Last-Modified: Wed, 06 Sep 2023 16:53:25 GMT
 Onion-Location: https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: AmazonS3
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
-Via: 1.1 bb1bab66f8005d5949122ff2a4fe3614.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: n8JpfCN4yI8aUmlxGI7xKHT1_JJOpISCTpo8TFoELBv44OcljGdnSg==
+Via: 1.1 4df8cb483525e66d7562e7cbfa63945c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Znd2yxAnGq2o5U5NQ4FgXOm3cUoAyLkopLHvsWKFYyL5eZ2RU9Zwvw==
 X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
-X-Amz-Version-Id: _.wLYH.8Z06ZrdTluuTbuEg1YHvE6SnM
+X-Amz-Version-Id: R1vkclRvwzAhaLzOlPprFAqjVED0Ix5U
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Download-Options: noopen
@@ -26,7 +26,7 @@ X-Xss-Protection: 1; mode=block
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.110.0">
+	<meta name="generator" content="Hugo 0.116.1">
     <script src="/static-assets/js/ie-shims.js"></script>
 
     
@@ -59,7 +59,7 @@ X-Xss-Protection: 1; mode=block
 <meta property="og:locale:alternate" content="ru" />
 <meta property="og:locale:alternate" content="vi" />
 <meta property="og:image" content="https://brave.com/static-assets/images/brave-og.png"/>
-<meta property="og:updated_time" content="2023-08-03T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
+<meta property="og:updated_time" content="2023-08-29T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brave.com/static-assets/images/brave-og.png"/>
 <meta name="twitter:title" content="Secure, Fast, &amp; Private Web Browser with Adblocker | Brave"/>
@@ -131,11 +131,11 @@ X-Xss-Protection: 1; mode=block
         
     
 
-    <link href="/static-assets/css/main.min.css" rel="stylesheet" />
+    <link href="/static-assets/css-old/main.min.css" rel="stylesheet" />
 
     <link href="/static-assets/css/fonts-latin.css" rel="stylesheet" />
 
-    <noscript><link href="/static-assets/css/noscript.min.css" rel="stylesheet" />
+    <noscript><link href="/static-assets/css-old/noscript.min.css" rel="stylesheet" />
     </noscript>
     <script src="/js/is-platform.min.js"></script>
     
@@ -163,1922 +163,296 @@ X-Xss-Protection: 1; mode=block
 
 
 
-
-
-<header class="site-header">
-    <div class="site-header__inner px-6 1.5xl:px-0 flex flex-no-wrap justify-between items-center h-full mx-auto flex-row">
-        <button class="mobile-menu-toggle text-2xl leading-none focus:outline-none focus:text-orange-500 1.5xl:hidden transform rotate-90 m-3 display">|||</button>
-        <input type="checkbox" id="nav-control" class="nav-control hidden" >
-        <label for="nav-control" class="toggle-button">
-          <div class="nojs-toggle">
+<header class="site-header text-xs font-medium overflow-visible top-0 absolute lg:fixed w-full z-20 transition-[height,background-color] duration-300 ease-out">
+    <div class="h-full w-full flex items-center justify-between lg:max-w-7xl lg:mx-auto relative">
+        <a href="https://brave.com/" class="ml-6 mt-0 lg:pt-px">
+            <img src="/static-assets/images/brave-logo-sans-text.svg" alt="Brave Software home" class="site-logo h-10" />
+        </a>
+        <input type="checkbox" id="nav-control" class="nav-control hidden">
+        <label for="nav-control" class="toggle-button lg:hidden z-30 mr-4">
+          <div class="nojs-toggle rounded-xl bg-dark-primary-500">
             <div class="nav-icon"></div>
           </div>
         </label>
-        <nav class="br--not-ie site-nav fixed 1.5xl:absolute top-0 left-0 1.5xl:block z-20 pt-8 1.5xl:pt-10 bg-white 1.5xl:bg-transparent h-full 1.5xl:h-auto pl-3 1.5xl:px-5">
-            <img class="close cursor-pointer text-light-02 ml-3 mb-6 -mt-3 text-2xl 1.5xl:hidden icon" src="/static-assets/icons/close-icon.svg" alt="" />
-            <ul class="flex items-start mx-3 p-0 flex-col 1.5xl:flex-row w-full">
-                
-                <li data-nav-control="group" class="first pr-8 1.5xl:pr-5 list-none w-full 1.5xl:w-auto 1.5xl:flex-grow 1.5xl:place-self-stretch">
-                    <button data-nav-control="trigger" class="top-item z-30 relative text-light-02 1.5xl:text-white font-semibold text-lg 1.5xl:text-ds-tiny w-full text-left 1.5xl:w-auto 1.5xl:text-center transition-color duration-150 inline-flex items-center cursor-auto 1.5xl:block 1.5xl:h-full 1.5xl:border-b 1.5xl:border-transparent">
-                        Browser
-                        <img class="right-chevron 1.5xl:hidden ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                    </button>
-                    
-                    
-                    <div data-nav-control="content" class="bg-white h-screen absolute left-0 top-0 text-gray-800 p-6 pt-0 z-40 1.5xl:z-auto 1.5xl:pt-24 1.5xl:px-8 tracking-tight overflow-y-auto overflow-x-hidden overscroll-contain">
-                        <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none "><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Main menu</span>
+        <nav class="site-nav w-full hidden lg:contents rounded-xl lg:rounded-none mt-5 lg:mt-0 mr-4 lg:mr-0 px-8 lg:pr-0 z-20 shadow-[0_8px_40px_0_rgba(0,0,0,0.35)] lg:shadow-none">
+            
+            <ul class="list-none p-0 block lg:flex justify-start items-center gap-4 text-light-02 pt-6 lg:pt-2 lg:ml-8">
+            
+                <li class="border-t border-dark-gray-60 first:border-none lg:border-none max-lg:mt-1 py-2 max-lg:first:mt-0 max-lg:first:pt-0 max-lg:first:pb-1.5 lg:pt-0">
+                    <span class="nav-item no-underline lg:font-semibold pb-4 uppercase lg:normal-case text-[#A8ADBF] max-lg:text-dark-gray-50 text-[8px] lg:text-xs font-bold tracking-tighter lg:tracking-normal !cursor-text lg:!cursor-default">
+                        Browser 
                         
-                            
-                                <h2 class="text-xs font-bold text-light-03 uppercase">Downloads</h2>
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/download/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Desktop</a>
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px hidden lg:inline-flex lg:pt-1">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
+
+                    </span>
+                    
+                    <span class="dropdown-content lg:absolute lg:bg-white lg:border border-dark-02 block lg:rounded-xl lg:px-6 lg:py-4 lg:-ml-6 lg:mt-3 z-30 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.35)]">
+                        <ul class="list-none p-0 lg:flex gap-10">
+                            <li class="">
+                                    <span class="lg:uppercase lg:text-[#A8ADBF] lg:text-[8px] lg:font-bold lg:tracking-tighter pb-1 pt-2 lg:pt-1 leading-5 flex hidden lg:block">Downloads
+                                        
+                                    </span>
+                                <ul class="list-none p-0 "><li><a href='/download/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Desktop<i class="icon--download-right text-dark-primary-500 text-[8px]"></i></a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/android/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Android</a>
+                                    <li><a href='/android/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Android<i class="icon--download-right text-dark-primary-500 text-[8px]"></i></a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/ios/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">iOS</a>
+                                    <li><a href='/ios/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">iOS<i class="icon--download-right text-dark-primary-500 text-[8px]"></i></a>
+                                        
                                     </li>
-                                
+                                    
+                                </ul>
+                            </li>
+                            <li class="">
+                                    <span class="lg:uppercase lg:text-[#A8ADBF] lg:text-[8px] lg:font-bold lg:tracking-tighter pb-1 pt-2 lg:pt-1 leading-5 flex font-semibold text-light-01 leoButton isPlainFaint isTiny nav-dropdown relative w-full max-lg:!p-0 max-lg:!leading-6 items-center justify-between lg:!text-[8px] lg:!font-bold lg:tracking-tighter lg:pb-1 lg:hover:!text-dark-gray-50 lg:cursor-text lg:!leading-5 lg:!pl-0">Features
+                                        
+                                            
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px lg:hidden">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
+
+                                        
+                                    </span>
+                                <ul class="list-none p-0 lg:col-count-2 lg:columns-2 gap-x-0"><li><a href='/shields/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Shields</a>
+                                        
+                                    </li>
+                                    <li><a href='/firewall-vpn/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">VPN</a>
+                                        
+                                    </li>
+                                    <li><a href='/wallet/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Wallet</a>
+                                        
+                                    </li>
+                                    <li><a href='/brave-rewards/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Rewards</a>
+                                        
+                                    </li>
+                                    <li><a href='/playlist/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Playlist</a>
+                                        
+                                    </li>
+                                    <li><a href='/brave-news/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">News</a>
+                                        
+                                    </li>
+                                    <li><a href='/talk/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Talk</a>
+                                        
+                                    </li>
+                                    <li><a href='/privacy-features/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Advanced privacy</a>
+                                        
+                                    </li>
+                                    <li><a href='/features/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">All features</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                            </li>
                             
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
+                            
+                            
                         </ul>
-                        
-                            
-                                <h2 class="text-xs font-bold text-light-03 uppercase">Features</h2>
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/shields/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Shields</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/firewall-vpn/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">VPN</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/wallet/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Wallet</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/rewards/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Rewards</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/playlist/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Playlist</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/brave-news/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">News</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/talk/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Talk</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/privacy-features/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Advanced privacy</a>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/features/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">All features</a>
-                                    </li>
-                                
-                            
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                        </ul>
-                        
-                    </div>
-                    
+                    </span>
                 </li>
-                
-                <li data-nav-control="group" class="first pr-8 1.5xl:pr-5 list-none w-full 1.5xl:w-auto 1.5xl:flex-grow 1.5xl:place-self-stretch">
-                    <button data-nav-control="trigger" class="top-item z-30 relative text-light-02 1.5xl:text-white font-semibold text-lg 1.5xl:text-ds-tiny w-full text-left 1.5xl:w-auto 1.5xl:text-center transition-color duration-150 inline-flex items-center cursor-auto 1.5xl:block 1.5xl:h-full 1.5xl:border-b 1.5xl:border-transparent">
-                        Brave Search
-                        <img class="right-chevron 1.5xl:hidden ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                    </button>
-                    
-                    
-                    <div data-nav-control="content" class="bg-white h-screen absolute left-0 top-0 text-gray-800 p-6 pt-0 z-40 1.5xl:z-auto 1.5xl:pt-24 1.5xl:px-8 tracking-tight overflow-y-auto overflow-x-hidden overscroll-contain">
-                        <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none "><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Main menu</span>
+            
+                <li class="border-t border-dark-gray-60 first:border-none lg:border-none max-lg:mt-1 py-2 max-lg:first:mt-0 max-lg:first:pt-0 max-lg:first:pb-1.5 lg:pt-0">
+                    <span class="nav-item no-underline lg:font-semibold pb-4 uppercase lg:normal-case text-[#A8ADBF] max-lg:text-dark-gray-50 text-[8px] lg:text-xs font-bold tracking-tighter lg:tracking-normal !cursor-text lg:!cursor-default">
+                        Brave Search 
                         
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='https://search.brave.com/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Try Brave Search</a>
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px hidden lg:inline-flex lg:pt-1">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
+
+                    </span>
+                    
+                    <span class="dropdown-content lg:absolute lg:bg-white lg:border border-dark-02 block lg:rounded-xl lg:px-6 lg:py-4 lg:-ml-6 lg:mt-3 z-30 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.35)]">
+                        <ul class="list-none p-0 ">
+                            <li class="">
+                                <ul class="list-none p-0 "><li><a href='https://search.brave.com/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger" target="_blank" rel="noreferrer noopener">Try Brave Search</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/search/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">About Brave Search</a>
+                                    <li><a href='/search/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">About Brave Search</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project-'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Web Discovery Project</a>
+                                    <li><a href='https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project-'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger" target="_blank" rel="noreferrer noopener">Web Discovery Project</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/search/api/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Search API</a>
+                                    <li><a href='/search/api/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Search API</a>
+                                        
                                     </li>
-                                
+                                    
+                                </ul>
+                            </li>
                             
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
+                            
+                            
                         </ul>
-                        
-                    </div>
-                    
+                    </span>
                 </li>
-                
-                <li data-nav-control="group" class="first pr-8 1.5xl:pr-5 list-none w-full 1.5xl:w-auto 1.5xl:flex-grow 1.5xl:place-self-stretch">
-                    <button data-nav-control="trigger" class="top-item z-30 relative text-light-02 1.5xl:text-white font-semibold text-lg 1.5xl:text-ds-tiny w-full text-left 1.5xl:w-auto 1.5xl:text-center transition-color duration-150 inline-flex items-center cursor-auto 1.5xl:block 1.5xl:h-full 1.5xl:border-b 1.5xl:border-transparent">
-                        Why Brave
-                        <img class="right-chevron 1.5xl:hidden ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                    </button>
-                    
-                    
-                    <div data-nav-control="content" class="bg-white h-screen absolute left-0 top-0 text-gray-800 p-6 pt-0 z-40 1.5xl:z-auto 1.5xl:pt-24 1.5xl:px-8 tracking-tight overflow-y-auto overflow-x-hidden overscroll-contain">
-                        <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none "><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Main menu</span>
+            
+                <li class="border-t border-dark-gray-60 first:border-none lg:border-none max-lg:mt-1 py-2 max-lg:first:mt-0 max-lg:first:pt-0 max-lg:first:pb-1.5 lg:pt-0">
+                    <span class="nav-item no-underline lg:font-semibold pb-4 uppercase lg:normal-case text-[#A8ADBF] max-lg:text-dark-gray-50 text-[8px] lg:text-xs font-bold tracking-tighter lg:tracking-normal !cursor-text lg:!cursor-default">
+                        Why Brave 
                         
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/learn/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Browser &amp; search guides
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px hidden lg:inline-flex lg:pt-1">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/learn/best-private-browser/">
+                    </span>
                     
-                    
-                            
-                        
-                        
-
-
-
-
-
-
-
-
-
-
-
-    <picture class="h-48 1.5xl:h-25 max-w-none mx-auto max-w-maxcontent">
-        <source srcset="/static-assets/images/optimized/learn/images/private-browser@1x.webp,
-    /static-assets/images/optimized/learn/images/private-browser@2x.webp 2x,
-    /static-assets/images/optimized/learn/images/private-browser@3x.webp 3x" sizes="100vw" type="image/webp">
-        <source srcset="/static-assets/images/optimized/learn/images/private-browser@1x.png,
-    /static-assets/images/optimized/learn/images/private-browser@2x.png 2x,
-    /static-assets/images/optimized/learn/images/private-browser@3x.png 3x" sizes="100vw">
-        <img class="h-48 1.5xl:h-25 max-w-none mx-auto" alt="What are the best private browsers to protect your online privacy?" src="/static-assets/images/optimized/learn/images/private-browser@2x.png"loading="lazy">
-    </picture>
-
-
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/learn/best-private-browser/" class="no-underline text-light-01">What are the best private browsers to protect your online privacy?</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Many users rely on private browsers to keep their Internet habits away from prying eyes. But with so many options out there, what&#39;s the best private browser for you? In this article we examine the choices.</p>
-        </li>
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/learn/most-secure-browser/">
-                    
-                    
-                            
-                        
-                        
-
-
-
-
-
-
-
-
-
-
-
-    <picture class="h-48 1.5xl:h-25 max-w-none mx-auto max-w-maxcontent">
-        <source srcset="/static-assets/images/optimized/learn/images/secure-browser@1x.webp,
-    /static-assets/images/optimized/learn/images/secure-browser@2x.webp 2x,
-    /static-assets/images/optimized/learn/images/secure-browser@3x.webp 3x" sizes="100vw" type="image/webp">
-        <source srcset="/static-assets/images/optimized/learn/images/secure-browser@1x.png,
-    /static-assets/images/optimized/learn/images/secure-browser@2x.png 2x,
-    /static-assets/images/optimized/learn/images/secure-browser@3x.png 3x" sizes="100vw">
-        <img class="h-48 1.5xl:h-25 max-w-none mx-auto" alt="What&#39;s the most secure browser?" src="/static-assets/images/optimized/learn/images/secure-browser@2x.png"loading="lazy">
-    </picture>
-
-
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/learn/most-secure-browser/" class="no-underline text-light-01">What&#39;s the most secure browser?</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">In this article, we&#39;ll define what makes a secure browser, and look at some of the best secure browsers available today.</p>
-        </li>
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/learn/fastest-web-browser/">
-                    
-                    
-                            
-                        
-                        
-
-
-
-
-
-
-
-
-
-
-
-    <picture class="h-48 1.5xl:h-25 max-w-none mx-auto max-w-maxcontent">
-        <source srcset="/static-assets/images/optimized/learn/images/fastest-browser@1x.webp,
-    /static-assets/images/optimized/learn/images/fastest-browser@2x.webp 2x,
-    /static-assets/images/optimized/learn/images/fastest-browser@3x.webp 3x" sizes="100vw" type="image/webp">
-        <source srcset="/static-assets/images/optimized/learn/images/fastest-browser@1x.png,
-    /static-assets/images/optimized/learn/images/fastest-browser@2x.png 2x,
-    /static-assets/images/optimized/learn/images/fastest-browser@3x.png 3x" sizes="100vw">
-        <img class="h-48 1.5xl:h-25 max-w-none mx-auto" alt="What’s the fastest browser for surfing the Web?" src="/static-assets/images/optimized/learn/images/fastest-browser@2x.png"loading="lazy">
-    </picture>
-
-
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/learn/fastest-web-browser/" class="no-underline text-light-01">What’s the fastest browser for surfing the Web?</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">In this article, we look at the fastest web browser and discuss some of the factors that affect browser speed, including the browser engine and javascript engine.</p>
-        </li>
-        
-    
-        
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/learn/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                    <span class="dropdown-content lg:absolute lg:bg-white lg:border border-dark-02 block lg:rounded-xl lg:px-6 lg:py-4 lg:-ml-6 lg:mt-3 z-30 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.35)]">
+                        <ul class="list-none p-0 lg:flex gap-10">
+                            <li class="">
+                                <ul class="list-none p-0 "><li><a href='/learn/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Browser &amp; search guides</a>
+                                        <p class="text-[10px] text-[#878DA6] tracking-tighter leading-3 font-semibold ">Privacy, extensions, and the best option for every platform.</p>
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/web3/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Web3 guides
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/web3/what-is-web3/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25">
-                    
-                    
-                        <img src="/static-assets/images/category-thumbnail-web3-basics.svg" class="max-w-none" alt="What is Web3?" loading="lazy" />
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/web3/what-is-web3/" class="no-underline text-light-01">What is Web3?</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Web3 is a whole new philosophy for how the Web should be managed and how users should access it. It&#39;s based on a version of the Internet that is decentralized and uses public blockchains to function. In this article, a primer on the fundamentals of Web3.</p>
-        </li>
-        
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/web3/built-on-web3/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25">
-                    
-                    
-                        <img src="/static-assets/images/category-thumbnail-decentralized-apps.svg" class="max-w-none" alt="What kinds of DApps are being built on Web3?" loading="lazy" />
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/web3/built-on-web3/" class="no-underline text-light-01">What kinds of DApps are being built on Web3?</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Web3 relies on new technologies. You may have started to hear a lot more about blockchains, nodes, cryptocurrency and wallets recently? In this article, we&#39;ll explain what these core terms have to do with DApps, the decentralized applications that are core to Web3.</p>
-        </li>
-        
-        
-        <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-            <div class="gradient--purple-darkpink text-center">
-                <a href="https://brave.com/web3/intro-to-blockchain/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25">
-                    
-                    
-                        <img src="/static-assets/images/category-thumbnail-blockchain.svg" class="max-w-none" alt="An intro to blockchain and the technology that’s powering Web3" loading="lazy" />
-                    
-                </a>
-            </div>
-            <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/web3/intro-to-blockchain/" class="no-underline text-light-01">An intro to blockchain and the technology that’s powering Web3</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Blockchains, Nodes, Cryptocurrency, Wallets… In this article, we’ll define some core Web3 terms, and scratch the surface of decentralized technologies.</p>
-        </li>
-        
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/web3/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/web3/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Web3 guides</a>
+                                        <p class="text-[10px] text-[#878DA6] tracking-tighter leading-3 font-semibold ">Crypto, NFTs, and all things blockchain. Learn the basics of Web3.</p>
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/glossary/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Privacy glossary
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/glossary/privacy/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25 w-full">
-            
-            
-                <img src="/static-assets/generic-featured-images/abstract-featured-7.png" alt="Privacy" loading="lazy" />
-            
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/glossary/privacy/" class="no-underline text-light-01">Privacy</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">In the context of computing, privacy means that your personal data isn&#39;t seen by anyone whom you don&#39;t want to see it, and isn&#39;t used by …</p>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/glossary/security/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25 w-full">
-            
-            
-                <img src="/static-assets/generic-featured-images/abstract-featured-9.png" alt="Security" loading="lazy" />
-            
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/glossary/security/" class="no-underline text-light-01">Security</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Computer security is the protection of computing devices, networks, and data from external threats.</p>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/glossary/browser/" class="flex justify-center items-center overflow-hidden h-48 1.5xl:h-25 w-full">
-            
-            
-                <img src="/static-assets/generic-featured-images/abstract-featured-11.png" alt="Browser" loading="lazy" />
-            
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/glossary/browser/" class="no-underline text-light-01">Browser</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">A browser (or Web browser) is an app for your computer, tablet, or smartphone that lets you look at and interact with websites. The browser …</p>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/glossary/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Terms</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/glossary/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Privacy glossary</a>
+                                        <p class="text-[10px] text-[#878DA6] tracking-tighter leading-3 font-semibold ">Short, plain-language intros to common Internet and computer terms.</p>
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/compare/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Compare</a>
+                                    <li><a href='/compare/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Compare</a>
+                                        <p class="text-[10px] text-[#878DA6] tracking-tighter leading-3 font-semibold ">See how Brave stacks up against other browsers.</p>
                                     </li>
-                                
+                                    
+                                </ul>
+                            </li>
+                            <li class="border-t border-dark-gray-60 lg:border-0">
+                                    <span class="lg:uppercase lg:text-[#A8ADBF] lg:text-[8px] lg:font-bold lg:tracking-tighter pb-1 pt-2 lg:pt-1 leading-5 flex uppercase text-[#A8ADBF] text-[8px] font-bold tracking-tighter">Blogs
+                                        
+                                    </span>
+                                <ul class="list-none p-0 "><li><a href='/blog/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Brave blog</a>
+                                        
+                                    </li>
+                                    <li><a href='/privacy-updates/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Privacy updates</a>
+                                        
+                                    </li>
+                                    <li><a href='/web-standards-at-brave/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Web standards</a>
+                                        
+                                    </li>
+                                    <li><a href='/research/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Research</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                            </li>
                             
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
+                            
+                            
                         </ul>
-                        
-                            
-                                <h2 class="text-xs font-bold text-light-03 uppercase">Blogs</h2>
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/blog/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Brave blog
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <div class="gradient--purple-darkpink text-center">
-            <a href="https://brave.com/image-video-search/">
-                    
-                        
-                        <picture class=" max-w-maxcontent">
-    <source srcset="/static-assets/images/optimized/image-video-search/images/featured.webp" type="image/webp" />
-    <img
-        src="/static-assets/images/optimized/image-video-search/images/featured.jpg"
-        alt="Brave Search launches independent image/video search"
-        class="w-full"loading="lazy"/>
-</picture>
-                
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/image-video-search/" class="no-underline text-light-01">Brave Search launches independent image/video search</a></h3>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <div class="gradient--purple-darkpink text-center">
-            <a href="https://brave.com/vertical-tabs/">
-                    
-                        
-                        <picture class=" max-w-maxcontent">
-    <source srcset="/static-assets/images/optimized/vertical-tabs/images/featured.webp" type="image/webp" />
-    <img
-        src="/static-assets/images/optimized/vertical-tabs/images/featured.jpg"
-        alt="Brave browser now features vertical tabs for desktop users, maximizing on-screen space"
-        class="w-full"loading="lazy"/>
-</picture>
-                
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/vertical-tabs/" class="no-underline text-light-01">Brave browser now features vertical tabs for desktop users, maximizing on-screen space</a></h3>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <div class="gradient--purple-darkpink text-center">
-            <a href="https://brave.com/search-api-launch/">
-                    
-                        
-                        <picture class=" max-w-maxcontent">
-    <source srcset="/static-assets/images/optimized/search-api-launch/images/featured.webp" type="image/webp" />
-    <img
-        src="/static-assets/images/optimized/search-api-launch/images/featured.jpg"
-        alt="Brave releases its Search API, bringing independence and competition to the search landscape"
-        class="w-full"loading="lazy"/>
-</picture>
-                
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/search-api-launch/" class="no-underline text-light-01">Brave releases its Search API, bringing independence and competition to the search landscape</a></h3>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/blog/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/privacy-updates/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Privacy updates
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/27-localhost-permission/" class="no-underline text-light-01">Localhost Resource Permission</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Starting in version 1.54, Brave for desktop and Android will include more powerful features for controlling which sites can access local …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/26-request-off-the-record/" class="no-underline text-light-01">Request &#34;Off the Record&#34;</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Request OTR is another in Brave&#39;s suite of features that support the privacy needs of individual users, protecting far beyond the &#34;standard&#34; …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/privacy-updates/25-forgetful-browsing/" class="no-underline text-light-01">Forgetful Browsing</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Forgetful Browsing is similar to, but more powerful and protective than, popular browsing extensions and private browsing modes. It&#39;s …</p>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/privacy-updates/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/web-standards-at-brave/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Web standards
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/web-standards-at-brave/9-web-environment-integrity/" class="no-underline text-light-01">&#34;Web Environment Integrity&#34;: Locking Down the Web</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Brave strongly opposes Google&#39;s &#34;Web Environment Integrity&#34; proposal, the latest in Google&#39;s efforts to prevent users from being in control …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/web-standards-at-brave/8-first-party-sets/" class="no-underline text-light-01">First-Party Sets: Tearing Down Privacy Defenses Just as They&#39;re Being Built</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">Google is proposing a feature called &#34;First-Party Sets,&#34; which would have browsers reduce privacy barriers between sites. This is both …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/web-standards-at-brave/6-privacy-sandbox-concerns/" class="no-underline text-light-01">Privacy And Competition Concerns with Google’s Privacy Sandbox</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">The UK CMA (along with other regulators and web activists) are largely evaluating Google’s Privacy Sandbox as an isolated, independent set …</p>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/web-standards-at-brave/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
-                                    </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/research/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Research
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Why Brave</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/research/frodo-pir-simple-scalable-single-server-private-information-retrieval/" class="no-underline text-light-01">FrodoPIR: Simple, Scalable, Single-Server Private Information Retrieval</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">We design FrodoPIR — a highly configurable, stateful, single-server Private Information Retrieval (PIR) scheme that involves an offline …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/research/exploiting-browser-resource-pools-for-webtracking/" class="no-underline text-light-01">Pool-Party: Exploiting Browser Resource Pools for Web Tracking</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">
-We identify class of covert channels in browsers that are not mitigated by current defenses, which we call &#34;pool-party&#34; attacks. Pool-party …</p>
-    </li>
-    
-    <li class="my-1 first:mt-0 last:mb-0 inline-block">
-        <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="https://brave.com/research/how-tightly-should-we-integrate-network-functionality-in-browsers/" class="no-underline text-light-01">Tango or Square Dance? How Tightly Should we Integrate Network Functionality in Browsers?</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3">The question at which layer network functionality is presented or abstracted remains a research challenge. Traditionally, network …</p>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-                                            
-                                                <a href='/research/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Papers</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
-                                    </li>
-                                
-                            
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                        </ul>
-                        
-                    </div>
-                    
+                    </span>
                 </li>
-                
-                <li data-nav-control="group" class="first pr-8 1.5xl:pr-5 list-none w-full 1.5xl:w-auto 1.5xl:flex-grow 1.5xl:place-self-stretch">
-                    <button data-nav-control="trigger" class="top-item z-30 relative text-light-02 1.5xl:text-white font-semibold text-lg 1.5xl:text-ds-tiny w-full text-left 1.5xl:w-auto 1.5xl:text-center transition-color duration-150 inline-flex items-center cursor-auto 1.5xl:block 1.5xl:h-full 1.5xl:border-b 1.5xl:border-transparent">
-                        Get help
-                        <img class="right-chevron 1.5xl:hidden ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                    </button>
-                    
-                    
-                    <div data-nav-control="content" class="bg-white h-screen absolute left-0 top-0 text-gray-800 p-6 pt-0 z-40 1.5xl:z-auto 1.5xl:pt-24 1.5xl:px-8 tracking-tight overflow-y-auto overflow-x-hidden overscroll-contain">
-                        <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none "><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Main menu</span>
+            
+                <li class="border-t border-dark-gray-60 first:border-none lg:border-none max-lg:mt-1 py-2 max-lg:first:mt-0 max-lg:first:pt-0 max-lg:first:pb-1.5 lg:pt-0">
+                    <span class="nav-item no-underline lg:font-semibold pb-4 uppercase lg:normal-case text-[#A8ADBF] max-lg:text-dark-gray-50 text-[8px] lg:text-xs font-bold tracking-tighter lg:tracking-normal !cursor-text lg:!cursor-default">
+                        Get help 
                         
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='https://support.brave.com/hc/en-us' target="_blank" class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Help center
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Get help</span>
-                                            
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px hidden lg:inline-flex lg:pt-1">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="https://support.brave.com/hc/en-us/categories/360001053032-Desktop-Browser" class="no-underline text-light-01">
-            Browser support
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Get help with the Brave browser.
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="https://support.brave.com/hc/en-us" class="no-underline text-light-01">
-            Help center home
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Find quick help with anything related to Brave or its products and features.
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="https://support.brave.com/hc/en-us/categories/360001053052-Rewards" class="no-underline text-light-01">
-            Rewards support
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Find answers for common Brave Rewards issues, including earnings and payout questions.
-    </p>
-</li>
-
-    
-    </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='https://support.brave.com/hc/en-us' target="_blank" class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Help articles</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                    </span>
+                    
+                    <span class="dropdown-content lg:absolute lg:bg-white lg:border border-dark-02 block lg:rounded-xl lg:px-6 lg:py-4 lg:-ml-6 lg:mt-3 z-30 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.35)]">
+                        <ul class="list-none p-0 lg:flex gap-5">
+                            <li class="">
+                                <ul class="list-none p-0 "><li><a href='https://support.brave.com/hc/en-us'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger" target="_blank" rel="noreferrer noopener">Help center</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='https://community.brave.com/' target="_blank" class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Community
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Get help</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="https://community.brave.com/" class="no-underline text-light-01">
-            Community home
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Get help with Brave features, and connect with other Brave users.
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="https://community.brave.com/c/brave-feature-requests/57" class="no-underline text-light-01">
-            Feature requests
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Request new features or changes to existing ones, and get community up-votes.
-    </p>
-</li>
-
-    
-    </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                        </div>
+                                    <li><a href='https://community.brave.com/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger" target="_blank" rel="noreferrer noopener">Community</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/latest/' target="_blank" class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Release notes
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Get help</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/latest/#android" class="no-underline text-light-01">
-            Android
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        See what’s new in the latest version of the Brave app for Android.
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/latest/#desktop" class="no-underline text-light-01">
-            Desktop
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        See the latest desktop changes for macOS and Windows.
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/latest/#ios" class="no-underline text-light-01">
-            iOS
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        See what’s new in the latest version of the Brave app for iOS.
-    </p>
-</li>
-
-    
-    </ul>
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/latest/' target="_blank" class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Release notes</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/latest/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Release notes</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/whats-new/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">What&#39;s new in Brave?</a>
+                                    <li><a href='https://status.brave.com/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger" target="_blank" rel="noreferrer noopener">App status</a>
+                                        
                                     </li>
-                                
+                                    
+                                </ul>
+                            </li>
                             
-                                
-                                    <li data-nav-control="group">
-                                        <a href='https://status.brave.com/' target="_blank" class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">App status</a>
-                                    </li>
-                                
                             
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
+                            
+                            <div class="lg:border-l lg:-my-4 lg:pt-4 border-[#C3C6D3]">
+                                
+                                <span class="hidden lg:block pl-6 uppercase text-[8px] text-[#A8ADBF] font-bold tracking-tighter pb-1 pt-2 lg:pt-1">What&#39;s new in Brave?</span>
+                                
+                                
+                                <div class="hidden lg:block pl-6 table-of-contents"><nav>
+  <ul>
+    
+    <li><a href="/whats-new/#try-vertical-tabs-on-desktop">Try vertical tabs on desktop</a></li>
+    <li><a href="/whats-new/#help-improve-brave-search">Help improve Brave Search</a></li>
+    <li><a href="/whats-new/#use-brave-vpn-on-desktop">Use Brave VPN on desktop</a></li>
+    <li><a href="/whats-new/#block-cookie-consent-notices">Block cookie consent notices</a></li>
+    <li><a href="/whats-new/#free-personalized-news-feed-and-rss-reader-in-brave">Free, personalized news feed and RSS reader in Brave</a></li>
+    <li><a href="/whats-new/#brave-wallet-the-secure-built-in-crypto-wallet">Brave Wallet, the secure built-in crypto wallet</a></li>
+  </ul>
+</nav></div>
+                                <div class="hidden lg:block border-t border-[#C3C6D3] -mr-6 mt-4 py-2 text-center">
+                                     <a href='/whats-new/' class=" no-underline font-semibold text-light-01 hover:text-blurple-500">See all updates</a>
+                                </div>
+                                <a href='/whats-new/' class="no-underline font-semibold text-light-01 lg:hidden hover:text-blurple-500">What&#39;s new in Brave?</a>
+                            </div>
+                            
                         </ul>
-                        
-                    </div>
-                    
+                    </span>
                 </li>
-                
-                <li data-nav-control="group" class="first pr-8 1.5xl:pr-5 list-none w-full 1.5xl:w-auto 1.5xl:flex-grow 1.5xl:place-self-stretch">
-                    <button data-nav-control="trigger" class="top-item z-30 relative text-light-02 1.5xl:text-white font-semibold text-lg 1.5xl:text-ds-tiny w-full text-left 1.5xl:w-auto 1.5xl:text-center transition-color duration-150 inline-flex items-center cursor-auto 1.5xl:block 1.5xl:h-full 1.5xl:border-b 1.5xl:border-transparent">
-                        Private advertising
-                        <img class="right-chevron 1.5xl:hidden ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                    </button>
-                    
-                    
-                    <div data-nav-control="content" class="bg-white h-screen absolute left-0 top-0 text-gray-800 p-6 pt-0 z-40 1.5xl:z-auto 1.5xl:pt-24 1.5xl:px-8 tracking-tight overflow-y-auto overflow-x-hidden overscroll-contain">
-                        <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none "><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Main menu</span>
+            
+                <li class="border-t border-dark-gray-60 first:border-none lg:border-none max-lg:mt-1 py-2 max-lg:first:mt-0 max-lg:first:pt-0 max-lg:first:pb-1.5 lg:pt-0">
+                    <span class="nav-item no-underline lg:font-semibold pb-4 uppercase lg:normal-case text-[#A8ADBF] max-lg:text-dark-gray-50 text-[8px] lg:text-xs font-bold tracking-tighter lg:tracking-normal !cursor-text lg:!cursor-default">
+                        Private advertising 
                         
-                            
-                        <ul class="submenu list-none p-0 pb-5 mb-4">
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/brave-ads/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Overview</a>
+<div class="pointer-events-none lg:inline-block text-gray-700 pl-px hidden lg:inline-flex lg:pt-1">
+    <svg class="h-[6px] w-[6px] transition-transform duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="4.34 6.59 11.31 7.07"><path d="m9.293 12.95.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+</div>
+
+                    </span>
+                    
+                    <span class="dropdown-content lg:absolute lg:bg-white lg:border border-dark-02 block lg:rounded-xl lg:px-6 lg:py-4 lg:-ml-6 lg:mt-3 z-30 lg:shadow-[0_8px_40px_0_rgba(0,0,0,0.35)]">
+                        <ul class="list-none p-0 lg:col-count-2 lg:columns-2 gap-x-0">
+                            <li class="">
+                                <ul class="list-none p-0 "><li><a href='/brave-ads/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Overview</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/brave-ads/self-serve/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Self-serve ads</a>
+                                    <li><a href='/brave-ads/self-serve/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Self-serve ads</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group">
-                                        <a href='/brave-ads/audience/'  class="no-underline font-semibold text-light-02 text-lg normal-case" data-nav-control="trigger">Audience</a>
+                                    <li><a href='/brave-ads/audience/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Audience</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/brave-ads/ad-formats/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Ad formats
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Private advertising</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    <ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#newsfeed-ads" class="no-underline text-light-01">
-            Newsfeed ads
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Build consideration for products or services through content-adjacent ads in Brave News, a private news reader in every Brave Browser. …
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#search-ads" class="no-underline text-light-01">
-            Search ads
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Brave Search is the fastest-growing search engine since Bing, with over 6.5 billion annualized searches. Redefine your search marketing …
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#new-tab-takeover" class="no-underline text-light-01">
-            New tab takeover
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        New tab takeovers are like a digital billboard: Big. Eye catching. And effective. They reach large audiences in a short time, and drive real …
-    </p>
-</li>
-
-    
-        
-<li class="my-1 first:mt-0 last:mb-0 inline-block">
-    <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2">
-        <a href="/brave-ads/ad-formats/#notification-ads" class="no-underline text-light-01">
-            Notification ads
-        </a>
-    </h3>
-    <p class="leading-normal normal-case text-xs p-0 mb-3">
-        Notification ads feature a title and short CTA; clicks drive users to the advertiser&#39;s desired landing page. Ads are served over content at …
-    </p>
-</li>
-
-    
-    </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/brave-ads/ad-formats/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Ad formats</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/brave-ads/ad-formats/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Ad formats</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/brave-ads/casestudies/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Case studies
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Private advertising</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    <li class="1.5xl:bg-white 1.5xl:my-5 1.5xl:first:mt-0 1.5xl:last:mb-0 inline-block">
-        <div class="text-center">
-            
-            
-            <a href="https://brave.com/brave-ads/casestudies/verizon/" class="flex h-48 1.5xl:h-25">
-                <img alt="Verizon R/GA" src='/static-assets/images/logo-verizon.svg' class="my-auto mx-auto px-10 1.5xl:px-2"loading="lazy" />
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-2"><a href="https://brave.com/brave-ads/casestudies/verizon/" class="text-light-01 no-underline">Verizon R/GA</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-5 1.5xl:m-3 mt-0 1.5xl:mt-0">Achieved 23.8 million ad views, 8% blended CTR, 57% 10+ second landing visits, and over 1000 Tweets</p>
-    </li>
-    
-    <li class="1.5xl:bg-white 1.5xl:my-5 1.5xl:first:mt-0 1.5xl:last:mb-0 inline-block">
-        <div class="text-center">
-            
-            
-            <a href="/static-assets/files/Engaging-With-Ad-Choosers.pdf" class="flex h-48 1.5xl:h-25">
-                <img alt="Dentsu" src='/static-assets/images/logo-dentsu.svg' class="my-auto mx-auto px-10 1.5xl:px-2"loading="lazy" />
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-2"><a href="/static-assets/files/Engaging-With-Ad-Choosers.pdf" class="text-light-01 no-underline">Dentsu</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-5 1.5xl:m-3 mt-0 1.5xl:mt-0">Engaging the New ‘Ad Chooser’: A co-authored whitepaper from Brave Software and dentsu international</p>
-    </li>
-    
-    <li class="1.5xl:bg-white 1.5xl:my-5 1.5xl:first:mt-0 1.5xl:last:mb-0 inline-block">
-        <div class="text-center">
-            
-            
-            <a href="https://brave.com/brave-ads/casestudies/etoro/" class="flex h-48 1.5xl:h-25">
-                <img alt="eToro" src='/static-assets/images/logo-etoro.svg' class="my-auto mx-auto px-10 1.5xl:px-2"loading="lazy" />
-            </a>
-        </div>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-2"><a href="https://brave.com/brave-ads/casestudies/etoro/" class="text-light-01 no-underline">eToro</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-5 1.5xl:m-3 mt-0 1.5xl:mt-0">Realized 230% increase in new customer registrations and achieved a CTR of 13.8%</p>
-    </li>
-    
-</ul>
-
-
-
-
-                                            
-                                                <a href='/brave-ads/casestudies/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Case studies</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/brave-ads/casestudies/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Case studies</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/brave-ads/podcast/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Podcast
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Private advertising</span>
-                                            
-
-
-
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/brave-ads/podcast/s7-e5/" class="text-center h-48 1.5xl:h-25 flex">
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-    <img
-    class="my-auto mx-auto px-10 1.5xl:px-2 max-h-full"
-    src="/static-assets/images/optimized/brave-ads/podcast/images/logo-OneOf.png"
-    alt="Live from Consensus! Gamifying your Identity and Next Gen Privacy Implications"loading="lazy"/>
-
-
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/brave-ads/podcast/s7-e5/" class="no-underline text-light-01">Live from Consensus! Gamifying your Identity and Next Gen Privacy Implications</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Danny Wright (Chief Brand Officer) and Eddie Satterly (Chief Technology Officer) …</p>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/brave-ads/podcast/s7-e3/" class="text-center h-48 1.5xl:h-25 flex">
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-    <img
-    class="my-auto mx-auto px-10 1.5xl:px-2 max-h-full"
-    src="/static-assets/images/optimized/brave-ads/podcast/images/logo-StudioTBD.png"
-    alt="Ways that Cannabis and Web3 Can Come Together"loading="lazy"/>
-
-
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/brave-ads/podcast/s7-e3/" class="no-underline text-light-01">Ways that Cannabis and Web3 Can Come Together</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Robert Lund, Co-Founder and Chief Creative Officer at Studio TBD, discusses …</p>
-    </li>
-    
-    <li class="1.5xl:bg-white mb-3 1.5xl:mb-5 1.5xl:last:mb-3 inline-block">
-        <a href="https://brave.com/brave-ads/podcast/s7-e2/" class="text-center h-48 1.5xl:h-25 flex">
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-    <img
-    class="my-auto mx-auto px-10 1.5xl:px-2 max-h-full"
-    src="/static-assets/images/optimized/brave-ads/podcast/images/logo-BellaVix.png"
-    alt="Increasing Ad Efficiency and Performance of Your Advertising Strategy"loading="lazy"/>
-
-
-        </a>
-        <h3 class="font-semibold text-md normal-case text-base 1.5xl:mx-3 mb-0 pb-1 1.5xl:pb-3"><a href="https://brave.com/brave-ads/podcast/s7-e2/" class="no-underline text-light-01">Increasing Ad Efficiency and Performance of Your Advertising Strategy</a></h3>
-        <p class="leading-normal normal-case text-xs p-0 mb-3 1.5xl:mx-3 ">Will Haire, Co-Founder of BellaVix, shares the tactics they’re currently …</p>
-    </li>
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/brave-ads/podcast/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Episodes</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/brave-ads/podcast/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Podcast</a>
+                                        
                                     </li>
-                                
-                            
-                                
-                                    <li data-nav-control="group" class="second">
-                                        <a href='/brave-ads/resources/'  class="sub-item no-underline font-semibold text-light-02 text-lg normal-case flex items-center" data-nav-control="trigger">
-                                            Advertiser resources
-                                            <img class="right-chevron ml-auto"  src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                        </a>
-                                        <div data-nav-control="content" class="bg-light-01 h-screen w-20 absolute top-0 -z-10 text-gray-800 p-6 pb-20 1.5xl:pb-6 pt-0 1.5xl:pt-24 overflow-y-auto overscroll-contain">
-                                            <span role="link" tabindex="0" class="go-back 1.5xl:hidden text-xs font-bold text-interactive-04 uppercase cursor-pointer inline-flex items-center px-0 py-5 mt-1 mb-3 leading-none"><img class="right-chevron mr-3 transform rotate-180" src="/static-assets/icons/chevron-right-icon.svg" alt="" />Private advertising</span>
-                                            
-
-
-
-
-
-
-
-
-
-<ul class="list-none px-0 pb-2 1.5xl:pb-6">
-    
-    
-        
-    
-        
-    
-        
-    
-        
-        <li class="my-1 first:mt-0 last:mb-0 inline-block">
-            <h3 class="font-semibold text-md normal-case text-base mb-0 pb-2"><a href="/brave-ads/gallery/" class="no-underline text-light-01">Brave Ads Gallery</a></h3>
-            <p class="leading-normal normal-case text-xs p-0 mb-3">A gallery of high impact New tab takeovers from top brands using Brave.</p>
-        </li>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            
-                                                <a href='/brave-ads/resources/'  class="no-underline font-semibold text-light-02 text-base normal-case pt-5 flex items-center pb-5 1.5xl:pb-0 border-t border-neutral-600">
-                                                    See all 
-                                                    <span class="lowercase ml-1">Resources</span>
-                                                    <img class="right-chevron ml-auto" src="/static-assets/icons/chevron-right-icon.svg" alt="" />
-                                                </a>
-                                            
-                                        </div>
+                                    <li><a href='/brave-ads/resources/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Advertiser resources</a>
+                                        
                                     </li>
-                                
+                                    
+                                </ul>
+                            </li>
                             
-                            <li data-nav-control="group" class="second -mt-1 h-1 w-full"></li>
+                            
+                            
                         </ul>
-                        
-                    </div>
-                    
+                    </span>
                 </li>
-                
+            
             </ul>
-
-            <div class="nav-cta absolute bottom-0 left-0 p-5 w-full flex gap-3 bg-white 1.5xl:hidden z-40 flex-wrap justify-around"><a id="top-nav-download-button-mobile"  data-show-platform="false" class="download  btn btn--none btn--orange btn btn--blurple text-white font-semibold text-sm normal-case invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
-                <a class="btn btn--outline border-interactive-05 text-interactive-05 font-semibold text-sm capitalize" href="https://search.brave.com" id="top-nav-try-search-button">Try Brave Search</a>
+            <div class="flex justify-end flex-grow gap-3 flex-wrap lg:flex-no-wrap pt-3 pb-6 lg:p-0 lg:mr-6 button-block lg:w-min"><a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  icon--download-right btn btn--none btn--orange btn h-9 btn--white font-semibold normal-case py-2 max-w-full w-full lg:w-fit leading-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+                <a class="btn btn--clear font-semibold capitalize max-w-full w-full lg:w-fit leading-none" href="https://search.brave.com" id="top-nav-try-search-button">Try Brave Search</a>
             </div>
         </nav>
-        <div class="nav-overlay fixed w-full h-full top-0 left-0 z-10 bg-interactive-07 transition-opacity duration-300 ease-in-out opacity-0 hidden"></div>
-        <a href="https://brave.com/" class="1.5xl:transform 1.5xl:-translate-x-1/2 absolute 1.5xl:-mt-1">
-            
-                <img src="/static-assets/images/brave-logo.svg" alt="Brave Software home" class="w-20 lg:w-24" />
-            
-        </a>
-        <div class="1.5xl:absolute right-0 mr-3 1.5xl:flex gap-3"><a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  btn btn--none btn--orange hidden 1.5xl:block btn btn--white font-semibold text-sm normal-case invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
-            <a class="btn btn--clear font-semibold text-xs border-0 1.5xl:border 1.5xl:text-sm capitalize" href="https://search.brave.com" id="top-nav-try-search-button">Try Brave Search</a>
-        </div>
     </div>
+    
 </header>
+
+
     <main class="site-main">
 
 
@@ -2094,13 +468,13 @@ We identify class of covert channels in browsers that are not mitigated by curre
 
 
 <section class="hero home-hero-alt gradient--purple-blurple relative overflow-hidden xl:px-0 pb-96">
-    <div class="container text-center z-10 relative">
-        <h1 class="leading-tight mt-16 pt-0 mx-auto text-4xl xs:text-5xl xl:text-6xl font-semibold pb-3">The best privacy online</h1>
+    <div class="container text-center relative">
+        <h1 class="leading-tight sm:mt-8 lg:mt-16 pt-0 mx-auto text-4xl xs:text-5xl xl:text-6xl font-semibold pb-3">The best privacy online</h1>
         <div class="sm:w-9/12 mx-auto leading-snug">
             <p class="br--not-chrome text-2xl">Browse privately. Search privately. And ditch Big Tech.</p>
             <p class="br--chrome text-2xl">3x faster than Chrome. Better protection from Google and Big Tech.</p>
 
-            <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download btn btn--large btn--hero block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download  btn btn--large btn--hero block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
         </div>
     </div>
     <picture>
@@ -2138,7 +512,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
         </noscript>
         
         <div class="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer" style="background-image: url(/static-assets/images/optimized/privacy-browser-video-cover.jpg);">
-            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-opacity-50 hover:bg-black" title="Play Brave - The Privacy Browser video" aria-label="Play Brave - The Privacy Browser video" href="#">
+            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Brave - The Privacy Browser video" aria-label="Play Brave - The Privacy Browser video" href="#">
                 <svg class="w-7/50" xmlns="http://www.w3.org/2000/svg" width="87" height="87" fill="none" viewBox="0 0 87 87"><defs/><path fill="#fff" fill-opacity=".7" fill-rule="evenodd" d="M43.825 86.031c23.754 0 43.012-19.229 43.012-42.949S67.579.135 43.825.135C20.07.134.812 19.363.812 43.083S20.07 86.03 43.825 86.03z" clip-rule="evenodd"/><path fill="#5E6175" fill-rule="evenodd" d="M34.645 56.66V32.573a4.49 4.49 0 014.494-4.487c.955 0 1.886.304 2.657.869l16.447 12.043a4.482 4.482 0 010 7.236L41.796 60.278a4.497 4.497 0 01-6.28-.965 4.482 4.482 0 01-.87-2.653z" clip-rule="evenodd"/></svg>
             </a>
         </div>
@@ -2155,7 +529,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
         </noscript>
         
         <div class="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer" style="background-image: url(/static-assets/images/optimized/speed-past-chrome-cover.png);">
-            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-opacity-50 hover:bg-black" title="Play Speed Past Chrome video" aria-label="Play Speed Past Chrome video" href="#">
+            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Speed Past Chrome video" aria-label="Play Speed Past Chrome video" href="#">
                 <svg class="w-7/50" xmlns="http://www.w3.org/2000/svg" width="87" height="87" fill="none" viewBox="0 0 87 87"><defs/><path fill="#fff" fill-opacity=".7" fill-rule="evenodd" d="M43.825 86.031c23.754 0 43.012-19.229 43.012-42.949S67.579.135 43.825.135C20.07.134.812 19.363.812 43.083S20.07 86.03 43.825 86.03z" clip-rule="evenodd"/><path fill="#5E6175" fill-rule="evenodd" d="M34.645 56.66V32.573a4.49 4.49 0 014.494-4.487c.955 0 1.886.304 2.657.869l16.447 12.043a4.482 4.482 0 010 7.236L41.796 60.278a4.497 4.497 0 01-6.28-.965 4.482 4.482 0 01-.87-2.653z" clip-rule="evenodd"/></svg>
             </a>
         </div>
@@ -2570,7 +944,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <h1 class="leading-tight mt-4 pt-0 mx-auto text-4xl xs:text-4.5xl lg:text-5.5xl font-semibold pb-6">Advanced features</h1>
             <p class="text-xl sm:text-1.5xl lg:text-2xl leading-normal">
                 Only here for the privacy? We got you. Just
-                <a id="home-download-advanced-plank"  data-show-platform="false" class="download  btn btn--medium btn--orange btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">download</a>
+                <a id="home-download-advanced-plank"  data-show-platform="false" class="download   btn btn--medium btn--orange btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">download</a>
                 and enjoy…
                 <br />
             Want a more bespoke experience? Brave’s got great customizations, too:</p>
@@ -2619,7 +993,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
         <section class="text-center">
             <h1 class="leading-tight mt-16 pt-0 mx-auto sm:text-4xl xs:text-3.5xl text-2.5xl font-semibold pb-3">Join the more than 50 million people (and counting) who trust Brave for a faster, safer Web</h1>
             <p class="xl:text-3xl sm:text-2xl text-xl">Import bookmarks and extensions from your old browser in one click.</p>
-            <a id="home-download-button-lower"  data-show-platform="false" class="download icon--download btn btn--large btn--orange btn--ghost block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            <a id="home-download-button-lower"  data-show-platform="false" class="download icon--download  btn btn--large btn--orange btn--ghost block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
         </section><ul class="accordion--alt accordion-faq faq pt-16 lg:mx-24">
             
             <li class="faq__item accordion__item -open">
@@ -2647,7 +1021,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
                     <button class="text-white">Does Brave have a VPN?</button>
                 </h3>
                 <div class="faq__item-content accordion__item-content py-0 text-white">
-                    Yes! <a href="/firewall-vpn/">Brave Firewall + VPN</a> protects everything you do online, on your entire device, <em>even outside the Brave Browser</em>. It&rsquo;s currently available for Android and iOS mobile devices, and will be available on desktop in the very near future.
+                    Yes! <a href="/firewall-vpn/">Brave Firewall + VPN</a> protects everything you do online, on your entire device, <em>even outside the Brave Browser</em>. One subscription covers up to 5 devices, across Android, iOS, and desktop.
                 </div>
             </li>
             
@@ -2717,10 +1091,10 @@ We identify class of covert channels in browsers that are not mitigated by curre
 
 </main>
 <div id="persistent-cta" class="transition transform duration-150 gradient--dark-purple-purple text-center sticky bottom-0 w-full 1.5xl:hidden br--not-brave opacity-0 translate-y-20 -mb-1">
-    <a id="persistent-download-button"  data-show-platform="false" class="download  btn btn--none btn--clear icon--download font-semibold text-white no-underline text-xl leading-4 block pt-6 pb-8 border-none mx-auto w-full max-w-full rounded-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+    <a id="persistent-download-button"  data-show-platform="false" class="download   btn btn--none btn--clear icon--download font-semibold text-white no-underline text-xl leading-4 block pt-6 pb-8 border-none mx-auto w-full max-w-full rounded-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
 </div>
 
-    <footer class="site-footer section pb-12">
+    <footer class="site-footer section pb-12" data-theme="dark">
     <div class="site-footer__container container">
         <div class="site-footer__column">
             <div class="site-footer__grouping">
@@ -2834,7 +1208,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <div class="site-footer__grouping">
                 <label for="language-switcher">Choose a language</label>
 <div class="inline-block relative w-full">
-    <select name="language-switcher" id="language-switcher" class="block appearance-none w-full bg-gray-900 border border-gray-700 hover:border-gray-800 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+    <select name="language-switcher" id="language-switcher" class="block appearance-none w-full bg-gray-900 border border-gray-700 hover:border-gray-800 bg-container-highlight border-gray-20 hover:border-gray-30 px-4 py-2 pr-8 rounded rounded-m leading-tight focus:outline-none focus:ring">
         
             
             <option selected value="en">English</option>
@@ -2905,13 +1279,13 @@ We identify class of covert channels in browsers that are not mitigated by curre
             
         
     </select>
-    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
+    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 text-[currentColor]">
+        <svg class="fill-current fill-[currentColor] h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>
     </div>
 </div>
             </div>
         </div>
-        <div class="w-full flex flex-wrap justify-center sm:justify-between pt-12 mt-6 border-t border-neutral-800">
+        <div class="w-full flex flex-wrap justify-center sm:justify-between pt-12 mt-6 border-t border-neutral-800 border-gray-20">
             <img src="/static-assets/images/brave-logo.svg" alt="Brave Software home" class="w-24 mb-4 sm:mb-0" />
             <div class="w-full sm:w-auto text-center sm:text-right">
                 <a title="Terms of Use" href='/terms-of-use/'>Terms of use</a> | <a title="Report a Security Issue" href="https://hackerone.com/brave" target="_blank" rel="noopener noreferrer">Report a security issue</a>
@@ -2941,7 +1315,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <h5 class="text-center text-ds-h5 text-white pb-2 2xl:pb-5">You’re just 60 seconds away from the best privacy online</h5>
             <p class="text-center text-white">
                 If your download didn’t start automatically,
-                <span class="whitespace-no-wrap"><a  data-show-platform="false" class="download  btn btn--medium btn--orange text-white btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">click here</a>.</span>
+                <span class="whitespace-nowrap"><a  data-show-platform="false" class="download   btn btn--medium btn--orange text-white btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">click here</a>.</span>
             </p>
             <ol class="instructions p-0 grid md:grid-cols-3 list-none gap-10 mt-8 2xl:mt-12 leading-normal">
                 
@@ -3030,7 +1404,7 @@ We identify class of covert channels in browsers that are not mitigated by curre
     
     <script src="/static-assets/js/announcement-banner.js"></script>
 
-    <script src="/static-assets/vendors/lodash.throttle.min.js" defer></script>
+    <script src="/static-assets/vendors/lodash.custom.min.js" defer></script>
             
             <script src="/ab-test.js" defer></script>
         
@@ -3056,9 +1430,6 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <script src="/js/dev.js" defer></script>
         
             
-            <script src="/js/diagonal-movement.js" defer></script>
-        
-            
             <script src="/js/interstitial.js" defer></script>
         
             
@@ -3074,6 +1445,6 @@ We identify class of covert channels in browsers that are not mitigated by curre
             <script src="/js/vimeo.js" defer></script>
         
     
-    <span class="hidden">12345</span>
+    <span class="hidden">1234</span>
 </body>
 </html>

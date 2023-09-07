@@ -1,17 +1,14 @@
 HTTP/2.0 200 OK
-Age: 915
 Alt-Svc: h3=":443"; ma=86400
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 7f388dc61a48ec80-SEA
+Cf-Ray: 802ffbf2bbb0ebe6-SEA
 Content-Type: text/html
-Date: Tue, 08 Aug 2023 14:47:18 GMT
-Last-Modified: Tue, 25 Jul 2023 01:35:08 GMT
+Date: Thu, 07 Sep 2023 15:28:54 GMT
+Last-Modified: Mon, 28 Aug 2023 09:02:54 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8A1slNHOaY9uq2LS%2FjPtmmNOHPyvyIPrymrS52d4udO5reIKfJyYbOIheey3Osc%2Fa4tDrZz5pu5uKdz%2F5ODnugiggew9L8kpl1m%2BAPoKL4lQZQRvWnQP3cDEViKItKehfNfYY0M%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Hd522Nn278zvSwVPXpvCWruJK3KQqZYRLml3U5g26EZ23ommmtXw30lyuBpQI3w416B8gDe9jO%2FHhGC88s3EFT4istyrXHkHEQ%2BKUWAgspMC4L49TazprYl8JsaSxbwDcyJWH%2BQ%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Vary: Accept-Encoding
-X-Cache: HIT
-X-Ms-Request-Id: 892043f8-101e-0009-5205-ca0a06000000
+X-Ms-Request-Id: 09411cda-701e-0030-69a0-e1f11a000000
 X-Ms-Version: 2018-03-28
 
 <!DOCTYPE html>
@@ -37,9 +34,9 @@ X-Ms-Version: 2018-03-28
 <meta name="msvalidate.01" content="BEB2FB590B5FE07CB8DF01A83BB97E55" />
 <meta name="google-site-verification" content="s33eE13RLdX34F38z_xPc3v2_A4lkBo5PTA_tsV8rYk" />
 <link rel="canonical" href="https://www.eliostruyf.com/" />
-<meta name="generator" content="Hugo 0.110.0">
+<meta name="generator" content="Hugo 0.111.3">
 <title>Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts</title>
-<link href="/dist/app.c297821eecd13595c81b.css" rel="stylesheet">
+<link href="/dist/app.0933cc3830c186ba1a55.css" rel="stylesheet">
 <script type="text/javascript">
   (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -153,7 +150,7 @@ if (!doNotTrack) {
     >
 <span class="text-left">Open to new opportunities: Technical Lead or DevRel let's chat and
 explore possibilities!
-<a class="font-bold" href="/cdn-cgi/l/email-protection#2d484144426d5e595f58544b4e42435e58415944434a034f48" title="Contact Elio">Contact Elio</a
+<a class="font-bold" href="/cdn-cgi/l/email-protection#cbaea7a2a48bb8bfb9beb2ada8a4a5b8bea7bfa2a5ace5a9ae" title="Contact Elio">Contact Elio</a
       ></span
     >
 </div>
@@ -180,6 +177,76 @@ Along with acting as VP of BIWUG (Belgian Information Worker User Group), Elio i
 <div class="content_zone__container max-w-7xl mx-auto">
 <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
 <div class="content_zone__container__content w-full md:w-2/3 px-4 mb-4 md:mb-0">
+<article class="-my-8 post__summary">
+<div class="py-8">
+<h2 class>
+<a href="https://www.eliostruyf.com/playwright-reporter-github-actions/" title="The Playwright Reporter for GitHub Actions">The Playwright Reporter for GitHub Actions</a>
+</h2>
+<p class="summary mt-1 text-gray-700 text-sm mb-2">August 28, 2023</p>
+<p class="leading-relaxed">
+For developers leveraging GitHub Actions to automate workflows E2E tests, Playwright provides excellent documentation on its use with GitHub Actions. By default, the setup uses the HTML reporter, offering a detailed look at test results. However, I found myself longing for a more straightforward overview of these results. This led me to develop a GitHub Actions reporter.
+</p>
+<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/playwright-reporter-github-actions/" title="The Playwright Reporter for GitHub Actions">Read more
+<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</article>
+<article class="-my-8 post__summary">
+<div class="py-8">
+<h2 class>
+<a href="https://www.eliostruyf.com/test-unexpected-api-results-playwright-mocking/" title="Test the unexpected API results with Playwright mocking">Test the unexpected API results with Playwright mocking</a>
+</h2>
+<p class="summary mt-1 text-gray-700 text-sm mb-2">August 25, 2023</p>
+<p class="leading-relaxed">
+When building applications, you can expect things to go wrong. For instance, calls you make to APIs like a server issue, incorrect formatted body, throttling, and much more. A great tool to locally test these unexpected scenarios is Microsoft 365 Developer Proxy which can be used for both Microsoft 365 APIs, but also for any other APIs.
+</p>
+<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/test-unexpected-api-results-playwright-mocking/" title="Test the unexpected API results with Playwright mocking">Read more
+<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</article>
+<article class="-my-8 post__summary">
+<div class="py-8">
+<h2 class>
+<a href="https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/" title="End-to-End Test Microsoft 365 Solutions with Playwright">End-to-End Test Microsoft 365 Solutions with Playwright</a>
+</h2>
+<p class="summary mt-1 text-gray-700 text-sm mb-2">August 24, 2023</p>
+<p class="leading-relaxed">
+In the past, I have written a couple of articles about end-to-end (E2E) testing your SharePoint/Microsoft Teams solutions with Cypress, Puppeteer, and Playwright. I was a big fan of Cypress, but I must admit that Playwright caught up and became my favorite tool for E2E testing.
+For me, the most significant advantage of Cypress was the visual UI for running your tests, but the main disadvantage was its use of an iframe, which caused issues for testing SharePoint and Microsoft Teams.
+</p>
+<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/" title="End-to-End Test Microsoft 365 Solutions with Playwright">Read more
+<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</article>
+<article class="-my-8 post__summary">
+<div class="py-8">
+<h2 class>
+<a href="https://www.eliostruyf.com/retrieving-artifact-previous-github-actions-workflow/" title="Retrieving an artifact from a previous GitHub Actions workflow">Retrieving an artifact from a previous GitHub Actions workflow</a>
+</h2>
+<p class="summary mt-1 text-gray-700 text-sm mb-2">August 17, 2023</p>
+<p class="leading-relaxed">
+While configuring some end-to-end tests with Playwright, I wanted to achieve a visual comparison between the current run and the previous one.
+Playwright expects to have a snapshot available for its comparison. When I run this on GitHub Actions, the snapshots should be taken from my previous GitHub Actions workflow run.
+</p>
+<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/retrieving-artifact-previous-github-actions-workflow/" title="Retrieving an artifact from a previous GitHub Actions">Read more
+<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</article>
 <article class="-my-8 post__summary">
 <div class="py-8">
 <h2 class>
@@ -210,77 +277,6 @@ BIWUG News Rollup When I retrieved the news collection data, I only got the fron
 Looking at the Astro documentation, I found several ways to get the HTML.
 </p>
 <a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/render-astro-markdown-content-overviews/" title="Render your Astro markdown content for your overviews">Read more
-<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M5 12h14"></path>
-<path d="M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</article>
-<article class="-my-8 post__summary">
-<div class="py-8">
-<h2 class>
-<a href="https://www.eliostruyf.com/leveraging-astro-react-app-performance-boost/" title="Leveraging Astro for React App Performance Boost">Leveraging Astro for React App Performance Boost</a>
-</h2>
-<p class="summary mt-1 text-gray-700 text-sm mb-2">July 13, 2023</p>
-<p class="leading-relaxed">
-Earlier this week, I was working on optimizing an internal analysis website that uses many JSON files for its content collections. During the local development and with smaller datasets, the website was super fast, but when I received a larger dataset, I noticed that the website got very slow.
-The slowness mainly came from the amount of data and the processing in React.
-</p>
-<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/leveraging-astro-react-app-performance-boost/" title="Leveraging Astro for React App Performance Boost">Read more
-<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M5 12h14"></path>
-<path d="M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</article>
-<article class="-my-8 post__summary">
-<div class="py-8">
-<h2 class>
-<a href="https://www.eliostruyf.com/localization-webviews-visual-studio-code/" title="Localization of Webviews in Visual Studio Code Extensions">Localization of Webviews in Visual Studio Code Extensions</a>
-</h2>
-<p class="summary mt-1 text-gray-700 text-sm mb-2">July 6, 2023</p>
-<p class="leading-relaxed">
-In the previous post, I showed how to localize the extension commands/settings and code. In this post, I want to show how to localize the webviews in Visual Studio Code extensions, as this is a bit more complicated and not yet documented.
-First, webviews allow you to create fully customizable views for your extensions.
-</p>
-<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/localization-webviews-visual-studio-code/" title="Localization of Webviews in Visual Studio Code Extensions">Read more
-<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M5 12h14"></path>
-<path d="M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</article>
-<article class="-my-8 post__summary">
-<div class="py-8">
-<h2 class>
-<a href="https://www.eliostruyf.com/localization-visual-studio-code-extensions/" title="Localization of Visual Studio Code Extensions">Localization of Visual Studio Code Extensions</a>
-</h2>
-<p class="summary mt-1 text-gray-700 text-sm mb-2">July 5, 2023</p>
-<p class="leading-relaxed">
-Welcome to another blog post where we explore the world of Visual Studio Code extensions! In this article, I will delve into localizing your extensions. Localization allows you to make your extension accessible to users around the globe by providing translations in different languages. As some things were unclear to me when I wanted to start localizing one of my extensions, I wrote this article to help others in the same situation.
-</p>
-<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/localization-visual-studio-code-extensions/" title="Localization of Visual Studio Code Extensions">Read more
-<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M5 12h14"></path>
-<path d="M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</article>
-<article class="-my-8 post__summary">
-<div class="py-8">
-<h2 class>
-<a href="https://www.eliostruyf.com/approve-multitenant-permission-scope-spfx-solution/" title="Approve a multi-tenant webApiPermissionRequests scope for your SPFx solution">Approve a multi-tenant webApiPermissionRequests scope for your SPFx solution</a>
-</h2>
-<p class="summary mt-1 text-gray-700 text-sm mb-2">June 29, 2023</p>
-<p class="leading-relaxed">
-It has been a long time ago since I wrote about SharePoint. Lately, I got into a Viva Connections project where I had to approve a multi-tenant webApiPermissionRequests scope and ran into an issue where it was impossible to approve the permission scope.
-Failed permission approval The error that gets returned is The requested permission isn't valid.
-</p>
-<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/approve-multitenant-permission-scope-spfx-solution/" title="Approve a multitenant permission scope for a SPFx solution">Read more
 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
 <path d="M5 12h14"></path>
 <path d="M12 5l7 7-7 7"></path>
@@ -559,6 +555,11 @@ Archive
 <nav class="list-none mb-10">
 <ul>
 <li class="mb-1">
+<a class href="https://www.eliostruyf.com/2023/08/" title="Check: 2023 (4)" target="_blank" rel="noopener noreferrer">
+August 2023</a> (4)
+</a>
+</li>
+<li class="mb-1">
 <a class href="https://www.eliostruyf.com/2023/07/" title="Check: 2023 (5)" target="_blank" rel="noopener noreferrer">
 July 2023</a> (5)
 </a>
@@ -571,11 +572,6 @@ June 2023</a> (1)
 <li class="mb-1">
 <a class href="https://www.eliostruyf.com/2023/05/" title="Check: 2023 (1)" target="_blank" rel="noopener noreferrer">
 May 2023</a> (1)
-</a>
-</li>
-<li class="mb-1">
-<a class href="https://www.eliostruyf.com/2023/03/" title="Check: 2023 (5)" target="_blank" rel="noopener noreferrer">
-March 2023</a> (5)
 </a>
 </li>
 </ul>
@@ -640,6 +636,6 @@ March 2023</a> (5)
 <img src />
 </div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/dist/app.c297821eecd13595c81b.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/dist/app.0933cc3830c186ba1a55.js"></script>
 </body>
 </html>

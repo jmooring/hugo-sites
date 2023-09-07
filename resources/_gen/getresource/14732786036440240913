@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 23519
+Content-Length: 17735
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 08 Aug 2023 14:47:11 GMT
-Etag: "5bdf-60268736faec5"
-Last-Modified: Tue, 08 Aug 2023 12:24:56 GMT
+Date: Thu, 07 Sep 2023 15:28:45 GMT
+Etag: "4547-604c6710b25ab"
+Last-Modified: Thu, 07 Sep 2023 15:23:26 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -28,8 +28,7 @@ Server: Apache
 	<link rel="preload" href="/font/hack-regular-subset.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="/font/myGenericons.woff2" as="font" type="font/woff2" crossorigin>
 
-	<link rel="stylesheet" href="/css/3rdparty/baguetteBox.min.css">
-	<script src="/js/3rdparty/baguetteBox.min.js" async></script>
+	<script src="/js/baguetteBox.min.js" async></script>
 </head><body><div id="page">
 
 <div id="page-header-container">
@@ -100,8 +99,68 @@ Server: Apache
 		<div id="content"><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/audio/ad-infinitum-chapter-iii-downfall/" rel="bookmark" title="Link zu Ad Infinitum - Chapter III: Downfall">Ad Infinitum - Chapter III: Downfall</a></h1><div class="meta">
-	<span class="genericon icon-calendar">8. August 2023</span> ·
+		<h1 class="post-title"><a href="/technik/anwendungen/sublime-text-herunterladen-und-verifizieren/" rel="bookmark" title="Link zu Sublime Text herunterladen und verifizieren">Sublime Text herunterladen und verifizieren</a></h1><div class="meta">
+	<span class="genericon icon-calendar">5. September 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/anwendungen/">Anwendungen</a></span> ·
+		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Sublime HQ bietet den Editor <a href="https://www.sublimetext.com/"   class="genericon icon-extlink">Sublime Text</a> in verschiedenen Varianten zum <a href="https://www.sublimetext.com/download"   class="genericon icon-extlink">Download</a> an. Neben Paketen für die Paketmanager unterschiedlicher Distributionen gibt es auch eine TAR-Datei nebst passender Signatur, mit deren Hilfe der Download verifiziert werden kann.</p>
+<p>Das Vorgehen hierzu ist recht einfach und gliedert sich in drei Schritte:</p>
+<h2 id="public-key-herunterladen-und-einlesen">Public Key herunterladen und einlesen</h2>
+<p>Zuerst wird der Public Key von Sublime HQ heruntergeladen</p>
+<pre tabindex="0"><code>$ wget https://download.sublimetext.com/sublimehq-pub.gpg
+...
+2023-09-01 08:07:58 (65,3 MB/s) - »sublimehq-pub.gpg« gespeichert [3817/3817]
+</code></pre><p>und in einen eigenen Keyring im aktuellen Arbeitsverzeichnis importiert</p>
+<pre tabindex="0"><code>$ gpg --no-default-keyring --homedir ./ --import sublimehq-pub.gpg
+...
+gpg: Schlüssel ADAE6AD28A8F901A: Öffentlicher Schlüssel &#34;Sublime HQ Pty Ltd &lt;support@sublimetext.com&gt;&#34; importiert
+gpg: Anzahl insgesamt bearbeiteter Schlüssel: 1
+gpg:                              importiert: 1
+</code></pre><p>Wer möchte, kann den Public Key natürlich auch seinem Standard-Keyring hinzufügen, hierzu einfach den Parameter &ldquo;&ndash;homedir ./&rdquo; weglassen.</p>
+<h2 id="herunterladen-von-sublime-text-und-signaturdatei">Herunterladen von Sublime Text und Signaturdatei</h2>
+<p>Dann werden Sublime Text und die Signaturdatei heruntergeladen:</p>
+<pre tabindex="0"><code>$ wget wget https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz
+...
+sublime_text_build_4152_ 100%[==================================&gt;]  15,69M  1,23MB/s    in 14s
+
+$ wget https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz.asc
+...
+sublime_text_build_4152_ 100%[==================================&gt;]     819  --.-KB/s    in 0s
+</code></pre><h2 id="verifizieren-des-downloads">Verifizieren des Downloads</h2>
+<p>Als letzter Schritt werden die heruntergeladenen Dateien mit Hilfe des öffentlichen Schlüssels verifiziert</p>
+<pre tabindex="0"><code>$ gpg --homedir ./ --verify sublime_text_build_4152_x64.tar.xz.asc sublime_text_build_4152_x64.tar.xz
+...
+gpg: Signatur vom Mi 30 Aug 2023 04:50:56 CEST
+gpg:                mittels RSA-Schlüssel F57D4F59BD3DF454
+gpg: Korrekte Signatur von &#34;Sublime HQ Pty Ltd &lt;support@sublimetext.com&gt;&#34; [unbekannt]
+gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!
+gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.
+Haupt-Fingerabdruck  = 1EDD E2CD FC02 5D17 F6DA  9EC0 ADAE 6AD2 8A8F 901A
+Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
+</code></pre><p>Der Fingerabdruck ist leider nicht direkt auf der Download-Seite hinterlegt, findet sich aber im <a href="https://forum.sublimetext.com/t/linux-install-add-the-gpg-key-fingerprint-at-least-on-https-www-sublimetext-com-docs-3-linux-repositories-html/32147/4"   class="genericon icon-extlink">Forum</a>:</p>
+<blockquote>
+<ul>
+<li>Non-RPM key: 1EDD E2CD FC02 5D17 F6DA 9EC0 ADAE 6AD2 8A8F 901A</li>
+<li>RPM key: 1B64 2796 75A4 299D CFC7 0858 CA46 4A9A 222D 23D0</li>
+</ul>
+</blockquote>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/sublime-text">Sublime Text</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/audio/amanda-marshall-heavy-lifting/" rel="bookmark" title="Link zu Amanda Marshall - Heavy Lifting">Amanda Marshall - Heavy Lifting</a></h1><div class="meta">
+	<span class="genericon icon-calendar">2. September 2023</span> ·
 		<span class="genericon icon-category"><a href="/category/audio/">Audio</a></span> ·
 		<span class="genericon icon-author"><a href="/author/klaus-seiler/">Klaus Seiler</a></span>
 
@@ -111,22 +170,20 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p><img src="/musik/audio/ad-infinitum-chapter-iii-downfall/cover.jpg" class="alignleft" width="160" height="160" alt="Cover" />Noch so ein Power-Metal-Ding, eigentlich gibt es ja schon recht viele (manche würden sagen: genug) davon.</p>
-<p>Aber hier bekam ich dann doch spitze Ohren. Nicht nur auf Grund der sehr wandelbaren Stimme der Sängerin, die endlich auch mal nicht diesen symphonischen Grundtenor an den Tag legt, sondern eigentlich glockenklar klingt. Wie man lesen kann, beschäftigt sich die Band thematisch mit dem alten Ägypten, okay, kann man im Kontext der Musik einfach mal so stehenlassen.</p>
-<p>Denn instrumental gibt es durchaus ganz leicht arabesk-orientalische Einsprengsel, die aber nur auffallen, wenn man genau hinhört&hellip;..bei &ldquo;Seth&rdquo; zum Beispiel.</p>
-<p>Die Musik hat eigentlich alle Zutaten, die ein gutes Power-Rock-Metal-Album ausmachen. Rockige Gitarren, ein paar Power-Pop-Elemente, eine Prise Goth, wirklich gute Gitarrenriffs und Melissa Bonny darf auch mal zeigen, daß sie auch passabel growlen kann. Wenn dann noch einige orchestrale Passagen mit Wucht und Schmackes aus den Lautsprechern tönen, ist wirklich alles dabei, was in eine solche Mixtur reingehört.</p>
-<p>Das Rad des Power-Metal wird sicherlich nicht neu erfunden, aber <span class="band">Ad Infinitum</span> spielen meiner Ansicht nach in der Oberliga. Und das darf dann gerne auch genügen.</p>
+	<p><img src="/musik/audio/amanda-marshall-heavy-lifting/cover.jpg" class="alignleft" width="160" height="160" alt="Cover" />Amanda Marshall? Da war doch mal was, irgendwann vor langer langer Zeit. Die etwas älteren Leute werden sich noch erinnern können: Mitte der 1990er Jahre mischte eine junge Kanadierin mit rockigen Pop-Songs (&ldquo;Let It Rain&rdquo; / &ldquo;Birmingham&rdquo;) die Pop-Welt auf. Mit markanten Songs und markanter Stimme. Und genau diese markante Stimme macht das neue Album (nach gut 20 Jahren) nach wenigen Augenblicken schon im Opener klar erkennbar. Zumindest für die Leute, die eben Miss Marshall noch gut kennen.</p>
+<p>Das Coverpic mit dem Ghetto-Blaster aus den 1980er Jahren zeigt bereits, wohin die Reise geht: back to the past. Die Produktion ist den &ldquo;modernen&rdquo; Pop-Rock-Zeiten etwas angepasst, aber moderat und ohne daß man von &ldquo;überproduziert&rdquo; reden könnte. Bei Songs wie &ldquo;I&rsquo;m Not Drunk&rdquo; muss man allerdings ein wenig ausblenden, daß die Frau bereits 51 Lenze zählt. Obwohl der Song nicht schlecht tönt, klingt er ein klein wenig zu sehr nach Shania Twain mit ihrer seltsamen &ldquo;Forever Young-Attitüde&rdquo;. Da passt es gut, daß der darauf folgende Song &ldquo;I Built This House&rdquo; wieder in rockige Gefilde mit coolem Saxophon driftet.</p>
+<p>Insgesamt ein sehr gelungenes Album vor allem für all diejenigen, welche Amanda Marshall schon vor langer Zeit mochten und die von ihr auf eine musikalische Reise zu ihren Wurzeln mitgenommen werden möchten. Schön retro, schön vintage.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/ad-infinitum">Ad Infinitum</a> <span class="genericon icon-tag"></span><a href="/tag/cd">CD</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/amanda-marshall">Amanda Marshall</a> <span class="genericon icon-tag"></span><a href="/tag/cd">CD</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/" rel="bookmark" title="Link zu The Lizards 2005-03-06 Bildergalerie">The Lizards 2005-03-06 Bildergalerie</a></h1><div class="meta">
-	<span class="genericon icon-calendar">4. August 2023</span> ·
-		<span class="genericon icon-category"><a href="/category/konzerte/">Konzerte</a></span> ·
+		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-107-adorned-graves-rheingold/" rel="bookmark" title="Link zu Hörenswert #107: Adorned Graves - Rheingold">Hörenswert #107: Adorned Graves - Rheingold</a></h1><div class="meta">
+	<span class="genericon icon-calendar">29. August 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/hoerenswert/">Hörenswert</a></span> ·
 		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
 		·
@@ -135,103 +192,18 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p><span class="band">The Lizards</span> am 06. März 2005 im Krone Music Club in Frankenthal</p>
-
-<div id="gallery-the-lizards-2005-03-06-bildergalerie" class="gallery">
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1893.jpg" data-caption="The Lizards (01/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1893_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1894.jpg" data-caption="The Lizards (02/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1894_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1895.jpg" data-caption="The Lizards (03/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1895_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1896.jpg" data-caption="The Lizards (04/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1896_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1897.jpg" data-caption="The Lizards (05/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1897_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1901.jpg" data-caption="The Lizards (06/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1901_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1902.jpg" data-caption="The Lizards (07/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1902_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1907.jpg" data-caption="The Lizards (08/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1907_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1916.jpg" data-caption="The Lizards (09/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1916_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1921.jpg" data-caption="The Lizards (10/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1921_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-			<a href="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1925.jpg" data-caption="The Lizards (11/11)">
-				<img src="/musik/konzerte/the-lizards-2005-03-06-bildergalerie/2005-03-06_the-Lizards_img_1925_thumb.jpg" alt="The Lizards" width="160" height="160" />
-			</a>
-
-	</div>
+	<p><a href="https://adornedgraves.bandcamp.com/track/rheingold"  ><img src="/img/link/bandcamp-link.jpg"  width="336" height="216"  /></a></p>
+<p><span class="band">Adorned Graves</span> aus Kaiserslautern haben mit &ldquo;<a href="https://adornedgraves.bandcamp.com/album/the-earth-hath-opened-her-mouth"   class="genericon icon-extlink">The Earth hath opened her Mouth</a>&rdquo; kürzlich ihre vierte Scheibe veröffentlicht. Der Song &ldquo;Rheingold&rdquo; ist der für mich stärkste Song des Vorgängers &ldquo;<a href="https://adornedgraves.bandcamp.com/album/being-towards-a-river"   class="genericon icon-extlink">Being Towards A River</a>&rdquo;.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/konzertfotos">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/the-lizards">The Lizards</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/adorned-graves">Adorned Graves</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/" rel="bookmark" title="Link zu Red Dead Redemption II: Nerviger Hochglanz-Western">Red Dead Redemption II: Nerviger Hochglanz-Western</a></h1><div class="meta">
-	<span class="genericon icon-calendar">30. Juli 2023</span> ·
-		<span class="genericon icon-category"><a href="/category/spiele/">Spiele</a></span> ·
-		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Seit kurzem steht hier eine PlayStation 4 und passend dazu habe ich als Sonderangebot <a href="https://de.wikipedia.org/wiki/Red_Dead_Redemption_II"   class="genericon icon-extlink">Red Dead Redemption II</a> gekauft - ein <a href="https://de.wikipedia.org/wiki/Red_Dead_Redemption_II#Rezeption"   class="genericon icon-extlink">hochgelobes</a> Action-Adventure im Western-Setting von <a href="https://de.wikipedia.org/wiki/Rockstar_Studios"   class="genericon icon-extlink">Rockstar Studios</a>.</p>
-<p>Ohne Zweifel ist die Präsentation gelungen: die Welt sieht richtig schick aus, egal ob einzelne Spuren im Schnee, Rauch oder viele andere Details - es macht einfach Spaß auch ohne konkretes Ziel durch die Gegend zu reisen und die Landschaft zu bewundern.</p>
-<span id="-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-1-jpg"><a href="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-1.jpg" data-caption="Red Dead Redemption II Screenshot"><img src="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-1.jpg"  width="768" height="432" alt="Red Dead Redemption II Screenshot" /></a></span>
-<p>Zum Spiel selbst gehört aber natürlich mehr als Sightseeing zu betreiben und in diesem Punkt schwächelt Red Dead Redemption II gewaltig. Eine spielerische Herausforderung ist in vielen Situationen nur rudimentär vorhanden, die meisten zu spielenden Sequenzen erinnern an <a href="https://de.wikipedia.org/wiki/Dragon%E2%80%99s_Lair"   class="genericon icon-extlink">Dragon&rsquo;s Lair</a>:</p>
-<blockquote>
-<p>eine Spielfigur in einem interaktiven Zeichentrickfilm &hellip; Der Spieler musste mit bestimmten Joystickbewegungen zum richtigen Zeitpunkt in die laufende Handlung eingreifen. [<a href="https://de.wikipedia.org/wiki/Dragon%E2%80%99s_Lair"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Sowohl Mitglieder der eigenen Bande als auch andere NPCs bieten zahlreiche Beschäftigungsmöglichkeiten - eine wirkliche Entscheidungsfreiheit oder alternative Lösungswege sind aber weitestgehend Mangelware. Wer vorher Spiele wie <a href="https://de.wikipedia.org/wiki/The_Witcher_%28Computerspiel%29"   class="genericon icon-extlink">The Witcher</a> oder <a href="https://de.wikipedia.org/wiki/Cyberpunk_2077"   class="genericon icon-extlink">Cyberpunk 2077</a> gespielt hat, wird sich wahlweise eingeschränkt und / oder unterfordert vorkommen.</p>
-<p>Die eigentliche Geschichte rund um Spielercharakter Arthur Morgan ist erschreckend unflexibel und alles andere als gelungen inszeniert. Spätestens wenn man über einige der im Spiel versteckten Goldbarren stolpert und anschließend trotz voll ausgebautem Lager immer noch in Geld schwimmt, wird das ständige &ldquo;Wir brauchen Geld!&quot;-Gerede als Motivation unglaubwürdig und nervig. Wie schön wäre es, einfach &ldquo;Wie viel brauchst Du denn?&rdquo; antworten zu können und gut ist, statt mir mehreren tausend Dollar in der Tasche zwangsweise eine &ldquo;Eine handvoll Dollar&rdquo;-Mission starten zu müssen.</p>
-<p>Dazu kommt, daß Arthur Morgan auch massiven Stimmungsschwankungen zu unterliegen scheint: Rettet er im einen Moment noch eine <a href="https://de.wikipedia.org/wiki/Verfolgte_Unschuld"   class="genericon icon-extlink">Damsel in Distress</a> oder verschenkt Arznei an einen jammernden Passanten am Wegesrand, ist in der nächsten Storymission &ldquo;schlagen statt fragen&rdquo; die einzige Handlungsmöglichkeit. Kontinuität und Handlungsoptionen sehen anders aus.</p>
-<span id="-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-3-jpg"><a href="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-3.jpg" data-caption="Red Dead Redemption II Screenshot"><img src="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-3.jpg"  width="768" height="432" alt="Red Dead Redemption II Screenshot" /></a></span>
-<p>Richtig nervig wird es beim Speichern bzw. Laden von Spielständen: wer auch immer dieses Speichersystem ausgedacht hat, hat das Spiel wohl selbst nie damit spielen müssen.</p>
-<p>Die theoretische Möglichkeit, jederzeit frei Speichern zu können wird dadurch ausgehebelt, daß während einer Mission eben kein Speichern möglich ist. Nun ist der Umfang einer Mission (und somit deren zeitliche Dauer) im Voraus nicht abschätzbar und mittendrin nicht speichern können bedeutet, daß man Missionen eigentlich nur beginnen kann bzw. sollte, wenn man anschließend beliebig viel Zeit hat, die Mission unabhängig von ihrer Dauer zu Ende spielen zu können - sonst geht es wieder von vorne los.</p>
-<p>Geht innerhalb einer Mission etwas schief, hilft ein <a href="https://de.wikipedia.org/wiki/Savegame#Festgelegte_Speicherpunkte"   class="genericon icon-extlink">Checkpoint</a>-System nach dem Motto &ldquo;<a href="https://de.wikipedia.org/wiki/Edge_of_Tomorrow"   class="genericon icon-extlink">Live. Die. Repeat.</a>&rdquo; den Abschnitt so oft wiederholen zu können / müssen, bis sich der vorprogrammierte Erfolg einstellt oder gar die Möglichkeit zum Überspringen einer Sequenz erscheint, was im Gegensatz zur Spieldauer den Spielspaß nicht unbedingt erhöht.</p>
-<p>Als wäre das alles nicht bereits nervig genug, kamen die Entwickler auch noch auf die Idee, beim Laden eines gespeicherten Spielstandes Spawnpunkte zu verwenden.</p>
-<p>Konkret bedeutet dies, daß nach dem Laden der Protagonist die Welt nicht wieder genau an dem Punkt betritt, an dem der Spielstand gespeichert wurde, sondern an einem Platz mehr oder minder in der Nähe des Speicherpunktes. Dies kann dann gerne auch mal ein ganzes Ende vom ursprünglichen Speicherpunkt entfernt sein.</p>
-<span id="-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-2-jpg"><a href="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-2.jpg" data-caption="Red Dead Redemption II Screenshot"><img src="/technik/spiele/red-dead-redemption-ii-nerviger-hochglanz-western/screenshot-2.jpg"  width="768" height="432" alt="Red Dead Redemption II Screenshot" /></a></span>
-<p>Gerade als Gelegenheitsspieler habe ich mir in Open-World-Spielen angewöhnt, Speicherpunkte auch als To-Do-Merker zu verwenden, d.h. im Normalfall so zu speichern, daß der Charakter beim Laden genau dahin schaut, wo ich weitermachen möchte: zum Beispiel bei einer <a href="https://www.ign.com/wikis/red-dead-redemption-2/Treasure_Maps"   class="genericon icon-extlink">Schatzsuche</a> genau mit Blick auf die Felsformation zu speichern, die demnächst zu erklimmen ist. Hilft nur leider nix, wenn man beim Laden an einer ganz anderen Ecke wieder auftaucht und den Weg zur Felsformation erneut oder aus einer ganz anderen Richtung zurücklegen muss - sofern man sich noch daran erinnert.</p>
-<p>Red Dead Redemption II war durchgänig ein heißer Kandidat für &ldquo;<a href="/technik/spiele/warum-breche-ich-spiele-ab/"  >Warum breche ich Spiele ab?</a>&rdquo;. Erst im humorvoll inszenierten Epilog rund um John Marston blitzte sowas wie Freude am Spiel auf und dieser hat auch ein wenig für den Rest des Spiels entschädigt.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/playstation">PlayStation</a> <span class="genericon icon-tag"></span><a href="/tag/red-dead-redemption-ii">Red Dead Redemption II</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/misc/imho/sie-koennen-alles-uns-ueberlassen-schalten-sie-den-pc-nicht-aus/" rel="bookmark" title="Link zu Sie können alles uns überlassen - Schalten Sie den PC nicht aus">Sie können alles uns überlassen - Schalten Sie den PC nicht aus</a></h1><div class="meta">
-	<span class="genericon icon-calendar">27. Juli 2023</span> ·
+		<h1 class="post-title"><a href="/misc/imho/microsoft-rewards/" rel="bookmark" title="Link zu Microsoft Rewards">Microsoft Rewards</a></h1><div class="meta">
+	<span class="genericon icon-calendar">25. August 2023</span> ·
 		<span class="genericon icon-category"><a href="/category/imho/">IMHO</a></span> ·
 		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
@@ -241,19 +213,29 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p>Es soll wahrscheinlich ein beruhigendes Versprechen an den Endkunden während der Einrichtung von Windows 10 sein:</p>
-<span id="-misc-imho-sie-koennen-alles-uns-ueberlassen-schalten-sie-den-pc-nicht-aus-screenshot-png"><a href="/misc/imho/sie-koennen-alles-uns-ueberlassen-schalten-sie-den-pc-nicht-aus/screenshot.png" data-caption="Screenshot Windows 10 Installation"><img src="/misc/imho/sie-koennen-alles-uns-ueberlassen-schalten-sie-den-pc-nicht-aus/screenshot.png"  width="768" height="576" alt="Screenshot Windows 10 Installation" /></a></span>
-<p>Für mich klingt &ldquo;Sie können alles uns überlassen. Schalten Sie den PC nicht aus.&rdquo; mehr nach Datenklau und Erpressungstrojaner als nach seriösem Hersteller &hellip; &ldquo;Überlassen Sie uns alles. Schalten Sie den PC nicht aus.&rdquo;</p>
+	<p>Neulich beim Öffnen von Microsoft Edge:</p>
+<img src="/misc/imho/microsoft-rewards/microsoft-rewards.png" class="aligncenter" width="580" height="205" alt="Microsoft Rewards" />
+<p>Vielleicht sehe ich ja einfach nicht den Vorteil, aber kann mir jemand erklären, warum ich bei</p>
+<blockquote>
+<p>Erhalten Sie Belohnungen - Mit Microsoft Rewards sammeln Sie, während Sie suchen und im Internet surfen.</p>
+</blockquote>
+<p>mitmachen sollte? Für was brauche ich <a href="https://www.microsoft.com/de-de/rewards"   class="genericon icon-extlink">Microsoft Rewards</a> und warum sammle ich die, während ich suche (wahrscheinlich nur mit Bing?) oder im Internet surfe?</p>
+<blockquote>
+<p>Sammeln Sie Prämien für sich selbst oder für eine Spende Ihrer Wahl – ganz einfach, indem Sie bei Microsoft suchen, shoppen oder spielen. Belohnen Sie sich und tun Sie Gutes: Es kostet nichts und macht Spaß.</p>
+</blockquote>
+<p>Daß &ldquo;kostet nichts&rdquo; <del>glatt gelogen</del> absichtlich missverständlich ausgedrückt ist, dürfte klar sein: die Teilnehmer zahlen mit ihren Daten - was sie wann, wo und von wo aus (be)suchen, wie lange sie dort verweilen und wohin die virtuelle Reise als Nächstes geht. Erteile ich damit wenigstens nachträglich die offizielle Einverständniserklärung zu &ldquo;<a href="https://www.theverge.com/2023/4/25/23697532/microsoft-edge-browser-url-leak-bing-privacy"   class="genericon icon-extlink">Microsoft Edge is leaking the sites you visit to Bing</a>&rdquo;?</p>
+<p>Man muss aber bestimmt kein schlechtes Gefühl beim Mitmachen haben - Millionen <a href="https://de.wikipedia.org/wiki/Payback_%28Bonusprogramm%29"   class="genericon icon-extlink">Payback</a>-Kunden möchten ja auch keine Privatsphäre.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/windows-10">Windows 10</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/microsoft-edge">Microsoft Edge</a> <span class="genericon icon-tag"></span><a href="/tag/microsoft-rewards">Microsoft Rewards</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-106-oblivion-protocol-the-fall-part-1/" rel="bookmark" title="Link zu Hörenswert #106: Oblivion Protocol - The Fall (Part 1)">Hörenswert #106: Oblivion Protocol - The Fall (Part 1)</a></h1><div class="meta">
-	<span class="genericon icon-calendar">25. Juli 2023</span> ·
+		<h1 class="post-title"><a href="/musik/verschiedenes/urlaubsimpression-x/" rel="bookmark" title="Link zu Urlaubsimpression X">Urlaubsimpression X</a></h1><div class="meta">
+	<span class="genericon icon-calendar">20. August 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/verschiedenes/">Verschiedenes</a></span> ·
 		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
 		·
@@ -262,12 +244,13 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p><a href="https://www.youtube.com/watch?v=ebSK1x_QPwQ"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" alt="Link zu Youtube" /></a></p>
-<p>Mit <span class="band">Oblivion Protocol</span> setzt <span class="band">Threshold</span>-Keyboarder Richard West an, die Geschichte von &ldquo;<a href="/musik/audio/album-highlights-2017/"  >Legend Of The Shires</a>&rdquo; weiterzuerzählen. Die ersten Höreindrücke klingen vielversprechend und lassen gespannt auf den Album-Release am 18. August 2023 warten.</p>
+	<span id="-musik-verschiedenes-urlaubsimpression-x-marstall-jpg"><a href="/musik/verschiedenes/urlaubsimpression-x/marstall.jpg" data-caption="Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson."><img src="/musik/verschiedenes/urlaubsimpression-x/marstall.jpg"  width="768" height="576" alt="Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson." /></a></span>
+<p>In der <a href="https://www.galerie-im-marstall.de/"   class="genericon icon-extlink">Galerie im Marstall</a> in Ahrensburg gastiert vom 07. Juli bis 29. September 2023 eine Ausstellung mit dem sperrigen Namen &ldquo;Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson. Celebrating 50 Years The Dark Side of The Moon&rdquo;</p>
+<p>Auch wenn sich der überwiegende Teil der Ausstellung mit dem Schaffen für <span class="band">Pink Floyd</span> beschäftigt, gibt es noch zahlreiche andere Werke zu bewundern, die z.B. für Peter Gabriel, <span class="band">Led Zeppelin</span> oder Herman Rarebell geschaffen wurden.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/oblivion-protocol">Oblivion Protocol</a> <span class="genericon icon-tag"></span><a href="/tag/threshold">Threshold</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/urlaubsimpression">Urlaubsimpression</a></div>
 
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
@@ -278,15 +261,11 @@ Server: Apache
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/227/" class="page-numbers">227</a>
+	<a href="/page/229/" class="page-numbers">229</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav><script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#gallery-the-lizards-2005-03-06-bildergalerie');
-		baguetteBox.run('#-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-1-jpg');
-		baguetteBox.run('#-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-3-jpg');
-		baguetteBox.run('#-technik-spiele-red-dead-redemption-ii-nerviger-hochglanz-western-screenshot-2-jpg');
-		baguetteBox.run('#-misc-imho-sie-koennen-alles-uns-ueberlassen-schalten-sie-den-pc-nicht-aus-screenshot-png');});
+		baguetteBox.run('#-musik-verschiedenes-urlaubsimpression-x-marstall-jpg');});
 </script>
 		</div></div>
 

@@ -2,10 +2,10 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=600
 Content-Type: text/html
-Date: Tue, 08 Aug 2023 14:47:14 GMT
-Etag: "3052-6003c157aa49a-gzip"
-Expires: Tue, 08 Aug 2023 14:57:14 GMT
-Last-Modified: Tue, 11 Jul 2023 20:38:38 GMT
+Date: Thu, 07 Sep 2023 15:28:48 GMT
+Etag: "3026-60293d4daadc3-gzip"
+Expires: Thu, 07 Sep 2023 15:38:48 GMT
+Last-Modified: Thu, 10 Aug 2023 16:10:14 GMT
 Server: Apache
 Vary: Accept-Encoding,User-Agent
 
@@ -34,7 +34,7 @@ Vary: Accept-Encoding,User-Agent
 
 
 
-<meta name="generator" content="Hugo 0.114.1 with theme even" />
+<meta name="generator" content="Hugo 0.117.0 with theme even" />
 
 
 <link rel="canonical" href="https://kieranhealy.org/" />
@@ -47,7 +47,7 @@ Vary: Accept-Encoding,User-Agent
 <link rel="mask-icon" href="https://kieranhealy.org/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link rel="stylesheet" href="https://use.typekit.net/axi7fmh.css">
+
   
 
 <link href="https://kieranhealy.org/dist/even.bfd0cd4a.min.css" rel="stylesheet">
@@ -437,6 +437,12 @@ Vary: Accept-Encoding,User-Agent
 <br />  
 <h1>Recent Writing</h1>  
   
+  <h3><a href="https://kieranhealy.org/blog/archives/2023/08/10/flipbookr-for-quarto/">Flipbookr for Quarto</a></h3><p> <em>10 August 2023</em>
+
+ {{flipbookr}} is an R package written by Gina Reynolds. It&rsquo;s very useful for teaching. It was developed for use with .Rmd files Xaringan and presently does not work with Quarto. I hacked-up a version of Flipbookr that does work with Quarto. Using it with Xaringan should be exactly the same as before. Right now it&rsquo;s incomplete. I&rsquo;ve just focused on getting the main user-facing function, chunk_reveal() to work. But this is also most of what the package does.
+  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/08/10/flipbookr-for-quarto/">Continue reading…</a></em></p>
+
+
   <h3><a href="https://kieranhealy.org/blog/archives/2023/06/19/the-naming-of-stats/">The Naming of Stats</a></h3><p> <em>19 June 2023</em>
 
  The Naming of Stats is a difficult matter,
@@ -469,12 +475,6 @@ Assault deaths in the OECD, 1960-2020.
  The visualization exercise of the day for class is a re-creation of a figure I first saw Lane Kenworthy make. It&rsquo;s a connected scatterplot of total health spending in real terms and life expectancy of the population as a whole. The fact that real spending and expectancy tend to steadily increase for most countries in most years makes the year-to-year connections work even though they&rsquo;re not labeled as such.
 A connected scatterplot of life expectancy against total health spending in the US and eighteen other OECD countries.
   &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/03/29/life-expectancy-and-health-spending-in-the-oecd/">Continue reading…</a></em></p>
-
-
-  <h3><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Reading Remote Data Files</a></h3><p> <em>25 March 2023</em>
-
- Sometimes data arrives as a series of individual files each of which is organized in the same way&mdash;which is to say, each of which has the same variables, features, or columns. Imagine a series of tables reporting mandated information about every school in the state, or a hundred spreadsheets each with information about a different country, or thirty seven CSVs each with the same columns of information about representatives in each U.
-  &nbsp; <em><a href="https://kieranhealy.org/blog/archives/2023/03/25/reading-remote-data-files/">Continue reading…</a></em></p>
 
 	
 </section>
