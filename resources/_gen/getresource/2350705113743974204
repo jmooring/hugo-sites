@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
-Age: 122083
+Age: 57449
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public,max-age=0,must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 802ffbc17e990891-SEA
+Cf-Ray: 813927fe1d50ebbb-SEA
 Content-Security-Policy: upgrade-insecure-requests
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 07 Sep 2023 15:28:46 GMT
+Date: Mon, 09 Oct 2023 19:51:04 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: microphone=()
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dKu97Ylk0evwBj2cQYrzqkfx9eo5yKn2aeiAI6kduVpbXxGin0PTIielZCFC7N0gr5UU2fRqweal%2Fk%2FWPA2gVCyPxreYkZ81SN96Nujv9uG5b0v3oteStXA%2FRbx3YRepiMWCHqo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OuFBtoqr%2BBmpQddc7QoVXyLH7wtjE2I58P0xw3tLcigIAiUIpmK2SB%2B5h6tbd%2By0AIEZe%2B%2FJLonn4OFIcg0xslbuBinx8EJUqb1DnvOsehvFXMYRejlC2d3gcD5QLXbHPJlyvBk%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Nf-Request-Id: 01H9R4559WF9CST93BZMRQCCB5
+X-Nf-Request-Id: 01HCAZWERV78ZD56BM3KP8PB6V
 X-Xss-Protection: 1; mode=block
 
 <!doctype html><html lang="en" class="h-100 no-js" data-bs-theme="dark">
@@ -24,19 +24,21 @@ X-Xss-Protection: 1; mode=block
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Christian Oliff</title><script>document.documentElement.classList.remove("no-js")</script>
-<link rel="stylesheet" href="/css/style.min.css?v0.118.2">
+<link rel="stylesheet" href="/css/style.min.css?v0.119.0">
 <link rel="preload" href="/fonts/roboto-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script src="/js/scroll-to-top.min.js" defer></script>
 <meta name="description" content="Online Adventures of a Front-End Web Developer">
 <meta property="og:title" content="Christian Oliff">
 <meta property="og:description" content="Online Adventures of a Front-End Web Developer">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://christianoliff.com/"><meta property="og:image" content="https://christianoliff.com/img/header/header-factory.png"><meta property="og:site_name" content="Christian Oliff">
 <meta property="og:locale" content="en_GB">
-<meta property="og:updated_time" content="2023-09-06T03:44:22+00:00"><meta name="twitter:card" content="summary">
+<meta property="og:updated_time" content="2023-10-05T08:20:34+00:00"><meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@christianoliff">
 <meta name="theme-color" content="#04B9EE">
+<meta name="view-transition" content="same-origin">
 <link rel="canonical" href="https://christianoliff.com/">
 <link rel="alternate" type="application/rss+xml" href="https://christianoliff.com/feed.xml" title="Christian Oliff">
 <script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.includes,Array.prototype.find,Number.parseFloat%2CNumber.parse"></script>
@@ -45,8 +47,7 @@ X-Xss-Protection: 1; mode=block
 <link rel="pingback" href="https://webmention.io/christianoliff.com/xmlrpc">
 <meta name="color-scheme" content="light dark">
 <meta name="monetization" content="$ilp.uphold.com/Epqzn3YGr2MB">
-<meta name="generator" content="Hugo 0.118.2">
-<script src="/js/scroll-to-top.min.js" defer></script>
+<meta name="generator" content="Hugo 0.119.0">
 <script defer data-domain="christianoliff.com" data-api="https://christianoliff-pa.2x.workers.dev/api/event" src="https://christianoliff-pa.2x.workers.dev/js/script.outbound-links.js"></script>
 <script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>
 <body class="h-100" id="listjs-body" data-url="/" data-bs-no-jquery><header class="container-fluid container-header px-0" style="background-color:#04b9ee;background-image:url(/img/header/header-factory.svg)">
@@ -65,6 +66,13 @@ X-Xss-Protection: 1; mode=block
 <div class="container-fluid">
 <div class="container py-5"><div class="container-xl mb-5">
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4"><div class="my-3">
+<div class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<div class="card-header top-rounded border-0 ratio" style="background-color:#5c666b;background-image:url(/img/header/2023/markdown-render-hooks-in-hugo.jpg);--bs-aspect-ratio:32%">
+<div><img src="/img/header/2023/markdown-render-hooks-in-hugo.jpg" height="0" class="d-none" loading="lazy" alt>
+</div></div><div class="card-body border-0 pb-0">
+<h3 class="card-title text-white px-2 ml-n2 h6 name">Markdown Render Hooks in Hugo</h3><p class="px-2 ml-n2">
+<a href="/blog/markdown-render-hooks-in-hugo/" class="stretched-link text-decoration-none small">Render Hooks allow custom templates to override markdown rendering functionality.</a>
+</div></div></div><div class="my-3">
 <div class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#04172c;background-image:url(/img/header/2023/header-htmlhint-vscode-extension.jpg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/2023/header-htmlhint-vscode-extension.jpg" height="0" class="d-none" loading="lazy" alt>
@@ -169,13 +177,6 @@ X-Xss-Protection: 1; mode=block
 </div></div><div class="card-body border-0 pb-0">
 <h3 class="card-title text-white px-2 ml-n2 h6 name">Self hosting Google Fonts for improved performance</h3><p class="px-2 ml-n2">
 <a href="/blog/self-hosting-google-fonts-for-improved-performance/" class="stretched-link text-decoration-none small">A Hassle-Free Way to Self-Host Google Fonts</a>
-</div></div></div><div class="my-3">
-<div class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
-<div class="card-header top-rounded border-0 ratio" style="background-color:#fff;background-image:url(/img/header/header-show-password-toggle.svg);--bs-aspect-ratio:32%">
-<div><img src="/img/header/header-show-password-toggle.svg" height="0" class="d-none" loading="lazy" alt>
-</div></div><div class="card-body border-0 pb-0">
-<h3 class="card-title text-white px-2 ml-n2 h6 name">Show Password Toggle for Bootstrap</h3><p class="px-2 ml-n2">
-<a href="/blog/show-password-toggle-for-bootstrap/" class="stretched-link text-decoration-none small">Reveal password as text input button for forms to improve UX</a>
 </div></div></div></div><div class="text-center mt-3">
 <a href="/blog/" class="h6 text-light">
 View All
@@ -210,7 +211,7 @@ View All
 <h4 class="text-muted mt-0">
 christianoliff.com
 </h4><h6 class="text-muted small mb-4 opacity-75">
-Last updated: 2023-09-06</h6><div class="mb-2">
+Last updated: 2023-10-05</h6><div class="mb-2">
 <a href="/uses/" class="btn btn-sm btn-outline-secondary mx-2">Stuff I Use</a>
 <a href="/contact/" class="btn btn-sm btn-outline-secondary mx-2">Contact Me</a>
 </div><div class="opacity-75 my-4">

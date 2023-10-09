@@ -3,12 +3,12 @@ Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 802ffd19297fec44-SEA
+Cf-Ray: 813929687d67ec6c-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 07 Sep 2023 15:29:41 GMT
+Date: Mon, 09 Oct 2023 19:52:02 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pQ9hHvQpCUSccVjV%2FYE%2F26E6cd9E7moha%2F4IAyP69H%2BbbGqxoZqXyAebO8D1HPstgtIaqyZPmwgHIjSrNHLqFGtI%2BScS3kfa11V2bxTRHodc2vTqQaiOK%2Fp5Xuwjq0%2F1JqZqAA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bw2sk73gSwZAJnsqvlrnkhwMo9m%2FG%2FPWi0vHUGky8TRsm2wXhBQRVQ1QpSeolfOt%2BHKK%2Boe96E5y6fArjlXJWYW15YCg%2BZuwikApCxiAjz1OgEgcqVjJ%2B77InGzUckolFPixUA%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
@@ -45,6 +45,7 @@ X-Content-Type-Options: nosniff
 <meta name="generator" content="Hugo 0.105.0"><link rel="stylesheet" href="https://www.marcogriep.de/css/styles.min.css">
 <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="4G1GkiMmDY9l22" src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
 <script type="application/javascript" src="https://sdp.eu.usercentrics.eu/latest/uc-block.bundle.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <header>
@@ -61,8 +62,12 @@ X-Content-Type-Options: nosniff
 <a href="https://connect.marcogriep.de" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 lg:px-5 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Kundenportal</a>
 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
 <span class="sr-only">Menü öffnen</span>
-<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-<svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+</svg>
+<svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg>
 </button>
 </div>
 <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
@@ -71,7 +76,68 @@ X-Content-Type-Options: nosniff
 <a href="/" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Softwareentwicklung</a>
 </li>
 <li>
-<a href="/trainings/programmierung" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Trainings</a>
+<button id="mega-menu-button-2" data-dropdown-toggle="mega-menu-2" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 lg:w-auto hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">IT-Services
+<svg class="w-5 h-5 ml-1 lg:w-4 lg:h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+</svg></button>
+<div id="mega-menu-2" class="absolute z-10 grid hidden w-full bg-white border border-gray-100 shadow-md dark:border-gray-700 lg:rounded-lg lg:w-auto lg:grid-cols-3 dark:bg-gray-700">
+<div class="p-2 text-gray-900 bg-white lg:rounded-lg dark:text-white lg:col-span-2 dark:bg-gray-800">
+<ul>
+<li>
+<a href="/services/cloud-services/" class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+<div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z"></path><path d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z"></path></svg>
+</div>
+<div>
+<div class="font-semibold">Cloud Services</div>
+<div class="text-sm font-light text-gray-500 dark:text-gray-400">Cloud Hosting & Infrastruktur Dienstleistungen</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/services/softwareverteilung/" class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+<div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<div class="font-semibold">Softwareverteilung</div>
+<div class="text-sm font-light text-gray-500 dark:text-gray-400">
+Software über das Netzwerk automatisiert verteilen</div>
+</div>
+</a>
+</li>
+<li>
+<a href="/trainings/programmierung/" class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+<div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+</svg>
+</div>
+<div>
+<div class="font-semibold">IT-Trainings & Schulungen</div>
+<div class="text-sm font-light text-gray-500 dark:text-gray-400">Lernen
+und besser werden.</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="px-5 py-5 bg-gray-50 lg:rounded-lg lg:col-span-1 dark:bg-gray-700">
+<h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white">Beliebte
+Dienstleistungen</h3>
+<ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400">
+<li>
+<a href="/trainings/programmierung/powershell-training/" class="hover:text-primary-600 dark:hover:text-primary-500">PowerShell
+Grundlagen</a>
+</li>
+<li>
+<a href="/services/softwareverteilung/" class="hover:text-primary-600 dark:hover:text-primary-500">Softwareverteilung</a>
+</li>
+</ul>
+</div>
+</div>
 </li>
 <li>
 <a href="/software" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Produkte</a>
@@ -101,7 +167,7 @@ Unverbindlich Anfragen
 </a>
 </div>
 <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-<img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+<img src="https://ik.imagekit.io/8uiikipiqja/marcogriep/_div0_a_vector_graphic_white_background_cloud_services_Infrastr_94d00329-678b-4d4d-af29-6e92af8fe8cd_XpFMoyzM9.png?updatedAt=1695626843726" alt="software cloud development">
 </div>
 </div>
 </section>
@@ -212,7 +278,7 @@ Unverbindlich Anfragen
 <div class="text-center text-gray-900">
 <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl dark:text-white">Erfahren
 Sie, warum das Auslagern von IT-Leistungen für Ihr Unternehmen von Vorteil sein kann.</h2>
-<p class="mb-4 text-xl text-gray-500 dark:text-gray-400">Wir haben die wichtigsten Vorteile für Sie
+<p class="mb-4 text-xl text-gray-500 dark:text-gray-400">Ich habe die wichtigsten Vorteile für Sie
 zusammengefasst.</p>
 <a href="#" class="inline-flex items-center text-lg font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
 <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -264,13 +330,24 @@ Gehälter angezogen werden können, was das Abwerberisiko erhöht.</p>
 <h2 class="mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl">LASST UNS DARÜBER REDEN WIE ICH
 IHNEN HELFEN KANN.</h2>
 <p class="font-light text-gray-400 sm:text-xl">Nutzen Sie jetzt die Chance und lassen Sie uns gemeinsam
-Ihr Projekt erfolgreich umsetzen. Kontaktieren Sie uns noch heute, um mehr über meine
+Ihr Projekt erfolgreich umsetzen. Kontaktieren Sie mich noch heute, um mehr über meine
 Dienstleistungen zu erfahren und ein unverbindliches Angebot zu erhalten.</p>
 </div>
 <div class="mt-6 w-max lg:mt-0">
-<a href="#kontakt" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700">Kontakt
-aufnehmen</a>
+<button id="zammad-feedback-btn" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700">Kontakt
+aufnehmen</button>
 </div>
+<script>
+                $(function() {
+                  $('#zammad-feedback-btn').ZammadForm({
+                    agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
+                    messageTitle: 'Kontaktformular',
+                    messageSubmit: 'Übermitteln',
+                    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Ich melde mich umgehend bei Ihnen.',
+                    modal: true
+                  });
+                });
+                </script>
 </div>
 </div>
 </section>
@@ -278,7 +355,7 @@ aufnehmen</a>
 <div class="items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
 <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
 <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Marco Griep -
-Softwareentwickler & IT-Trainer</h2>
+Softwareentwickler & IT-Berater</h2>
 </h2>
 <p class="mb-4">Als erfahrener <strong>Softwareentwickler</strong> unterstütze ich Existenzgründer, kleine
 und
@@ -323,23 +400,23 @@ Interessiert an Referenzen? Klicken Sie hier, um mehr zu sehen.
 <a class="inline-flex items-center justify-center px-5 py-3 mt-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900" href="/referenzen">Referenzen ansehen</a>
 </div>
 <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 dark:text-gray-400">
-<a href="#" class="flex items-center justify-center">
+<a href="https://www.coach2find.de" rel="nofollow" class="flex items-center justify-center">
 <img src="https://ik.imagekit.io/8uiikipiqja/HSM021_-_coach2find_-_Logo_reduziert__mxo23iwV.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1671532048724" alt="Coach2Find" />
 </a>
-<a href="#" class="flex items-center justify-center">
+<a href="https://www.brandmauer.de" rel="nofollow" class="flex items-center justify-center">
 <img src="https://ik.imagekit.io/8uiikipiqja/BRANDMAUER_IT_Logo_DACH_620px_200617_FIVmGl_tZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673693476857" alt="Brandmauer IT GmbH" />
 </a>
-<a href="#" class="flex items-center justify-center">
-<img src="https://ik.imagekit.io/8uiikipiqja/Logo2_ZTxBmWFHJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673693530105" alt="Drechsel und Holzunikate" />
+<a href="https://www.kaeltewolf.de/" class="flex items-center justify-center">
+<img src="https://ik.imagekit.io/8uiikipiqja/marcogriep/wolf-weiss_xfHDmLzxW.png?tr=h-60,fo-auto" alt="Kältewolf" />
 </a>
 <a href="https://www.fellnasengesundheit.com/" rel="nofollow" class="flex items-center justify-center">
 <img src="https://ik.imagekit.io/8uiikipiqja/marcogriep/Fellnasen_9P8haOOqQ.png?updatedAt=1687339305461" alt="Fellnasengesundheit" />
 </a>
-<a href="#" class="flex items-center justify-center">
+<a href="https://www.german-outdoors.de" class="flex items-center justify-center">
 <img src="https://ik.imagekit.io/8uiikipiqja/german-outdoors/German-Outdoors_Logo2_qeSQRAJFV.png?tr=w-60,h-60,fo-auto" alt="German Outdoors" />
 </a>
-<a href="#" class="flex items-center justify-center">
-<img src="https://ik.imagekit.io/8uiikipiqja/lifestyle-Mag/dd5b1749f84f4d379b213b4afebf334d_6b7_5zfcO_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1635501484642" alt="Lifestyle JETZT" />
+<a href="https://www.ziggurat.ai" rel="nofollow" class="flex items-center justify-center">
+<img src="https://ik.imagekit.io/8uiikipiqja/marcogriep/Artboard-1-1_Wb2KjWogx.svg" alt="Ziggurat" />
 </a>
 </div>
 </div>
@@ -415,33 +492,25 @@ setzen</p>
 </div>
 </div>
 </section>
+<script id="zammad_form_script" src="https://support.marcogriep.de/assets/form/form.js"></script>
 <section class="bg-white dark:bg-gray-900" id="kontakt">
 <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
 <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt</h2>
-<p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Kontaktieren Sie uns
-jetzt, um ein unverbindliches Angebot für Ihre individuelle Softwarelösung zu erhalten.</p>
-<form action="https://formspree.io/f/mlezqqqv" method="post" class="grid max-w-screen-md grid-cols-1 gap-8 mx-auto sm:grid-cols-2">
-<div>
-<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ihre E-Mail
-Adresse</label>
-<input type="email" name="email" data-msg-required="Bitte geben Sie Ihre E-Mail Adressen" data-msg-email="Bitte geben Sie eine gültige E-Mail Adresse an." maxlength="100" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@domain.de" required>
-</div>
-<div class="sm:col-span-2">
-<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Ihre
-Nachricht</label>
-<textarea id="message" data-msg-required="Bitte geben Sie Ihre Nachricht ein." rows="8" name="message" required class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Ihre Nachricht..."></textarea>
-<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie unseren
-<a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a>
-und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a>
-zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte.
-</p>
-</div>
-<button type="submit" class="px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Nachricht
-senden</button>
-</form>
+<p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Kontaktieren Sie mich
+jetzt, um ein unverbindliches Angebot zu erhalten.</p>
+<div id="zammad-feedback-form">Fehler beim Laden des Formulars.</div>
 </div>
 </section>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function() {
+      $('#zammad-feedback-form').ZammadForm({
+        agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
+        messageSubmit: 'Übermitteln',
+        messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Ich melde mich umgehend bei Ihnen.',
+
+      });
+    });
+    </script>
 <script src="https://support.marcogriep.de/assets/chat/chat.min.js"></script>
 <script>
 $(function() {
@@ -509,8 +578,13 @@ Hilfe erhalten
 </h2>
 <ul class="text-gray-500 dark:text-gray-400">
 <li class="mb-4">
-<a href="/cdn-cgi/l/email-protection#6409050d0824090516070b03160d01144a0001" class="hover:underline">E-Mail Support</a
-            >
+<a href="https://connect.marcogriep.de" class="hover:underline">Kundenportal</a>
+</li>
+<li class="mb-4">
+<a href="https://support.marcogriep.de" class="hover:underline">Support-Portal</a>
+</li>
+<li class="mb-4">
+<a href="/cdn-cgi/l/email-protection#3d505c54517d505c4f5e525a4f54584d135958" class="hover:underline">E-Mail Support</a>
 </li>
 </ul>
 </div>
@@ -520,8 +594,7 @@ Rechtliches
 </h2>
 <ul class="text-gray-500 dark:text-gray-400">
 <li class="mb-4">
-<a href="/datenschutz" class="hover:underline">Datenschutzbestimmungen</a
-            >
+<a href="/datenschutz" class="hover:underline">Datenschutzbestimmungen</a>
 </li>
 <li class="mb-4">
 <a href="/agb" class="hover:underline">Allgemeine Geschäftsbedingungen</a>
@@ -556,7 +629,7 @@ Rights Reserved.
 </span>
 <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="inline-flex items-center mt-3 text-sm font-medium text-center text-gray-500 sm:mt-0 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" type="button">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 5 3">
-<desc>Flag of Germany</desc>
+<desc></desc>
 <rect id="black_stripe" width="5" height="3" y="0" x="0" fill="#000" />
 <rect id="red_stripe" width="5" height="2" y="1" x="0" fill="#D00" />
 <rect id="gold_stripe" width="5" height="1" y="2" x="0" fill="#FFCE00" />
@@ -574,8 +647,7 @@ Deutsch
         ">
 <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
 <li>
-<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Deutsch</a
-            >
+<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Deutsch</a>
 </li>
 </ul>
 </div>
@@ -583,6 +655,61 @@ Deutsch
 </div>
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async defer data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" src="https://analytics.marcogriep.de/umami.js"></script>
+<style>
+  .zammad-form > .zammad-form-group{
+    display: block;
+    margin-bottom: 2em; 
+    font-size: medium; 
+    color: gray;
+  }
+
+  .zammad-form > .btn {
+    width: fit-content;
+    --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  font-weight: 500;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175/var(--tw-bg-opacity));
+  }
+
+  .zammad-form-control {
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+  font-size: .875rem;
+  line-height: 1.25rem;  
+  display: block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251/var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219/var(--tw-border-opacity));
+    --tw-text-opacity: 1;
+  color: rgb(17 24 39/var(--tw-text-opacity));
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: .625rem;
+  }
+  .zammad-form-control:focus {
+    border-color: blue;
+  }
+
+
+
+  
+  #zammad-form-agreement-inline {
+    display: flex;
+    float: left;
+  }
+</style>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js"></script>
 </html>

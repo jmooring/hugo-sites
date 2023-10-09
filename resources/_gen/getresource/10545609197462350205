@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 52510
+Age: 168098
 Cache-Control: public,max-age=0,must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 07 Sep 2023 15:29:26 GMT
-Etag: "ad88849109f99b533cc1bd6ab7e4308b-ssl-df"
+Date: Mon, 09 Oct 2023 19:51:18 GMT
+Etag: "df1293aa7b568e9b6de8041957261df9-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H9R46C3TVZAPQA4B2STJH6W2
+X-Nf-Request-Id: 01HCAZWVZ5YHVTV8J11XVSGMDZ
 
 <!DOCTYPE html>
 <html lang="en" translate="no">
@@ -24,7 +24,7 @@ X-Nf-Request-Id: 01H9R46C3TVZAPQA4B2STJH6W2
       }
     </style>
     
-    <link rel="stylesheet" href="/scss/app.min.f410ee77952e83b56c059993e70939d727b6c074483a1914ddb74aeb6413ba9b.css">
+    <link rel="stylesheet" href="/scss/app.min.51b0842e7b1e3750dc5381feccf72730a81166c28297361dc3f0decc31c79a76.css">
     
     
     
@@ -118,6 +118,36 @@ X-Nf-Request-Id: 01H9R46C3TVZAPQA4B2STJH6W2
 				</ul>
 			</nav>
 		</div>
+		<div class="profile show-for-large">
+			<a class="profile__sign-in" href="https://account.phxlabs.ca/en/">Sign in</a>
+			<div class="profile__user">
+				<a class="profile__user-link" href="https://account.phxlabs.ca/en/">
+					<span class="user-pill">
+						<span class="user-pill__name"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" troke-linejoin="round">
+							<path d="m6 9 6 6 6-6"></path>
+						</svg>
+					</span>
+				</a>
+				<div class="profile__submenu">
+					<a class="profile__submenu-link" href="https://account.phxlabs.ca/en/">
+						<span>Account</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+							<circle cx="12" cy="7" r="4"></circle>
+						</svg>
+					</a>
+					<a class="profile__submenu-link" href="https://account.phxlabs.ca/en/sign-out/">
+						<span>Sign out</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logout">
+							<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+							<polyline points="16 17 21 12 16 7"></polyline>
+							<line x1="21" x2="9" y1="12" y2="12"></line>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<nav id="mobile-nav">
 		<ul id="drilldown-menu" class="menu vertical large-horizontal drilldown hide-for-large" data-drilldown>
@@ -161,6 +191,34 @@ X-Nf-Request-Id: 01H9R46C3TVZAPQA4B2STJH6W2
                     
                 </li>
 	        
+			<li class="profile">
+				<div class="profile__user">
+					<a class="profile__user-link" href="https://account.phxlabs.ca/en/">
+						<span class="user-pill">
+							<span class="user-pill__name"></span>
+						</span>
+					</a>
+					<div class="profile__submenu">
+						<a class="profile__submenu-link" href="https://account.phxlabs.ca/en/">
+							<span>Account</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+								stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+								<circle cx="12" cy="7" r="4"></circle>
+							</svg>
+						</a>
+						<a class="profile__submenu-link" href="https://account.phxlabs.ca/en/sign-out/">
+							<span>Sign out</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+								stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logout">
+								<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+								<polyline points="16 17 21 12 16 7"></polyline>
+								<line x1="21" x2="9" y1="12" y2="12"></line>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</li>
 		</ul>
 	</nav>
 	<button class="hamburger hamburger--spin hide-for-large" type="button">
@@ -441,7 +499,7 @@ Together</h3>
 							
 							
 							<div class="image-wrapper parallax-studios-0" data-bg="/images/studios/Montreal_hub92d9f8d765366ceadcafed60e3dab49_2460005_616x956_fill_q75_box_smart1.jpg">
-								<a href="/careers/?location=Montr%c3%a9al%2c%20QC#job-openings" aria-label="Montréal, QC"></a>
+								<a href="/careers/?location=Montreal#job-openings" aria-label="Montreal"></a>
 								<div class="inner">
 									
 									<h3>Montréal </h3>
@@ -461,7 +519,7 @@ Together</h3>
 							
 							
 							<div class="image-wrapper parallax-studios-1" data-bg="/images/studios/Vancouver_hu769f2c42cc963b936195ef5a45c3132a_4488412_616x956_fill_q75_box_smart1.jpg">
-								<a href="/careers/?location=Vancouver%2c%20BC#job-openings" aria-label="Vancouver, BC"></a>
+								<a href="/careers/?location=Vancouver#job-openings" aria-label="Vancouver"></a>
 								<div class="inner">
 									
 									<h3>Vancouver </h3>
@@ -481,7 +539,7 @@ Together</h3>
 							
 							
 							<div class="image-wrapper parallax-studios-2" data-bg="/images/studios/SF_hu08f3d9d6d08351226884a810a29250bc_3590847_616x956_fill_q75_box_smart1.jpg">
-								<a href="/careers/?location=SF%20Bay%20Area%2c%20CA#job-openings" aria-label="SF Bay Area, CA"></a>
+								<a href="/careers/?location=USA#job-openings" aria-label="USA"></a>
 								<div class="inner">
 									
 									<h3>SF Bay Area </h3>
@@ -669,7 +727,7 @@ Together</h3>
     
     
     
-    <script src="/js/bundle.min.6d2a8b5c47eea7d25033a1a5a3727b8cf3c573dfeaa87c6ec6c9d8d6be3e7699.js"></script>
+    <script src="/js/bundle.min.302fd6b596a8b8fd9f5dec2c4570495c3ca122242f1b6fe7f375fff5ad9cdabc.js"></script>
     
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     

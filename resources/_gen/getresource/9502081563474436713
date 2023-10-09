@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 1666
+Age: 3155
 Content-Type: text/html
-Date: Thu, 07 Sep 2023 15:28:58 GMT
-Etag: "5811-604b1ba06e340-gzip"
-Last-Modified: Wed, 06 Sep 2023 14:40:37 GMT
+Date: Mon, 09 Oct 2023 19:51:13 GMT
+Etag: "5898-606e487633580-gzip"
+Last-Modified: Wed, 04 Oct 2023 14:07:34 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400025-BFI
-X-Timer: S1694100538.472667,VS0,VE1
+X-Served-By: cache-bfi-krnt7300071-BFI
+X-Timer: S1696881074.642988,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1694100538.472667,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-07-31T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-09-26T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -363,6 +363,18 @@ X-Timer: S1694100538.472667,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  onerror="this.onerror = null; this.src='\/BIND 9 logo image'" />
+          <div class="post-content">
+            <a href="/blogs/bind-performance-september-2023/"><h4 class="text-white">Comparative Performance Results of BIND Versions in Authoritative Configurations - September 2023</h4></a>
+            <p class="text-white">We are only one quarter away from producing the next stable branch of BIND, and from ending maintenance of BIND 9.</p>
+            <a href="/blogs/bind-performance-september-2023/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
           <div class="post-content">
             <a href="/blogs/isc-profile-nowak/"><h4 class="text-white">Meet an ISC Engineer – Michal Nowak!</h4></a>
@@ -392,18 +404,6 @@ X-Timer: S1694100538.472667,VS0,VE1
             <a href="/blogs/nanog88-notes/"><h4 class="text-white">NANOG 88 - Seattle Trip Notes</h4></a>
             <p class="text-white">Four of us from ISC attended the NANOG 88 meeting in Seattle, Washington on June 12- 14th.</p>
             <a href="/blogs/nanog88-notes/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/blue-colored basketball net'" />
-          <div class="post-content">
-            <a href="/blogs/ripe86-notes/"><h4 class="text-white">RIPE 86 - Rotterdam Trip Notes</h4></a>
-            <p class="text-white">Five of us from ISC attended the RIPE 86 meeting in Rotterdam, May 22 - 26, 2023.</p>
-            <a href="/blogs/ripe86-notes/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

@@ -1,23 +1,24 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
+Age: 1
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Thu, 07 Sep 2023 15:28:44 GMT
-Etag: "3cab3938ee7423068a9fe79b724902c1"
-Last-Modified: Wed, 06 Sep 2023 20:55:28 GMT
+Date: Mon, 09 Oct 2023 19:51:01 GMT
+Etag: "076bdb940cf757aef23063ea4238d2b4"
+Last-Modified: Fri, 06 Oct 2023 20:37:05 GMT
 Strict-Transport-Security: max-age=31536000; preload
 Vary: Accept-Encoding
-Via: 1.1 e66162aafd55b64ba1478ff7105150fa.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: O6A0H1cc5SpEfJm89CJELFfQu5qL3ryVNOd-JvcIzuLJuuFnV0TLqw==
+Via: 1.1 e4d3d5aafc7d7d582423c073065ab562.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: d729tVQ7WtSYPVpXO-v5nhFZvrI38rjDm778-AttPZs0vubcTV2zJA==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
-X-Cache: Miss from cloudfront
+X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: 1813c730-f02e-4e4e-5841-bbc726299e36
+X-Vcap-Request-Id: 284f40f0-4454-4bab-79db-db30d635fa39
 X-Xss-Protection: 1; mode=block
 
 <!--
@@ -195,22 +196,6 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  
-  <script type="text/javascript">
-    git_org          = "GSA";
-    git_repo         = "digitalgov.gov";
-    goUsaUsername    = "s010sdc";
-    goUsaApiKey      = "eb396b6b369804fd6094f0b4100b2d74";
-    branch           = "main";
-    short_url        = "";
-    filename         = "_index.md";
-    
-    filepath         = "_index.md";
-    filepathURL      = "https://github.com/GSA/digitalgov.gov/blob/main/content/_index.md";
-    editpathURL      = "https://github.com/GSA/digitalgov.gov/edit/main/content/_index.md";
-    <!-- "main" | "main" -->
-  </script>
-
   <script
     type="text/javascript"
     src="//script.crazyegg.com/pages/scripts/0007/9651.js"
@@ -325,34 +310,46 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
   </div>
 </section>
 
+  
+  
+  
+  
 
-<section class="usa-site-alert usa-site-alert--info" aria-label="Site alert">
-  <div class="usa-alert">
-    <div class="usa-alert__body">
-      <h3 class="usa-alert__heading">
-        Guidance for U.S. government websites and social media for:
-      </h3>
-      <ul class="usa-list">
-        <li>
-          Hawaii wildfires:
-          <a
-            class="usa-link"
-            href="/resources/hawaii-wildfires-guidance-for-us-government/"
-            >digital.gov/hawaii-wildfires</a
-          >
-        </li>
-        <li>
-          Hurricane Idalia:
-          <a
-            class="usa-link"
-            href="/resources/hurricane-idalia-guidance-for-us-government/"
-            >digital.gov/hurricane-idalia</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
+  
+  
+
+  
+    <section
+      class="dg-site-alert usa-site-alert usa-site-alert--info
+      
+      "
+      aria-label="Site alert"
+    >
+      <div class="usa-alert">
+        <div class="usa-alert__body">
+          
+            <h3 class="usa-alert__heading">Guidance for U.S. government websites and social media for:</h3>
+          
+          
+            <ul class="usa-list">
+              
+                <li>Hawaii wildfires: <a href="/hawaii-wildfires">digital.gov/hawaii-wildfires</a></li>
+              
+                <li>Hurricane Idalia: <a href="/hurricane-idalia">digital.gov/hurricane-idalia</a></li>
+              
+            </ul>
+          
+        </div>
+      </div>
+    </section>
+  
+
+
+<script type="text/javascript">
+  
+  const links = document.querySelectorAll(".dg-site-alert a");
+  links.forEach((link) => link.classList.add("usa-link"));
+</script>
 <div class="usa-overlay"></div>
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
@@ -427,19 +424,8 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
           <li class="usa-nav__secondary-item">
-            <a href="/about/"><span>About</span></a>
-          </li>
-          <li class="usa-nav__secondary-item">
-            <a href="/subscribe/"><span>Subscribe</span></a>
-          </li>
-          <li class="usa-nav__secondary-item">
-            <a href="/contribute/"
-              ><span>Write for us</span></a
-            >
-          </li>
-          <li class="usa-nav__secondary-item">
-            <a href="/about/contact/"
-              ><span>Contact</span></a
+            <a href="/subscribe/"
+              ><span>Subscribe to our newsletter</span></a
             >
           </li>
         </ul>
@@ -524,48 +510,14 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
           <div class="grid-col-12 tablet-lg:grid-col-8">
             <div class="resources-content">
+              
+
               <div class="featured-collection">
-    <h2>Featured guides and resources</h2><ul>
+    <h2>How to implement 21st Century IDEA</h2><ul>
           
       
     
-    <li data-edit-this="resources/hawaii-wildfires-guidance-for-us-government.md"><div class="icon">
-      <img
-        src="/img/digit-50.png"
-        alt=""
-        aria-hidden="true"
-        width="16"
-        height="16"
-      />
-    </div><div class="copy">
-        <p>
-          <a href="/resources/hawaii-wildfires-guidance-for-us-government/?dg" title="Hawaii wildfires guidance for U.S. government websites and social media">
-            <span>Hawaii wildfires guidance for U.S. government websites and social media</span>
-          </a>—Addressing web and digital communications related to Hawaii wildfires</p>
-      </div>
-    </li>
-          
-      
-    
-    <li data-edit-this="resources/hurricane-idalia-guidance-for-us-government.md"><div class="icon">
-      <img
-        src="/img/digit-50.png"
-        alt=""
-        aria-hidden="true"
-        width="16"
-        height="16"
-      />
-    </div><div class="copy">
-        <p>
-          <a href="/resources/hurricane-idalia-guidance-for-us-government/?dg" title="Hurricane Idalia guidance for U.S. government websites and social media">
-            <span>Hurricane Idalia guidance for U.S. government websites and social media</span>
-          </a>—Addressing web and digital communications related to Hurricane Idalia</p>
-      </div>
-    </li>
-          
-      
-    
-    <li data-edit-this="resources/21st-century-integrated-digital-experience-act.md"><div class="icon">
+    <li data-gh-edit-page="resources/21st-century-integrated-digital-experience-act.md"><div class="icon">
       <img
         src="/img/digit-50.png"
         alt=""
@@ -583,7 +535,7 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           
       
     
-    <li data-edit-this="resources/checklist-of-requirements-for-federal-digital-services.md"><div class="icon">
+    <li data-gh-edit-page="guides/hcd/_index.md"><div class="icon">
       <img
         src="/img/digit-50.png"
         alt=""
@@ -593,15 +545,15 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="/resources/checklist-of-requirements-for-federal-digital-services/?dg" title="Checklist of requirements for federal websites and digital services">
-            <span>Checklist of requirements for federal websites and digital services</span>
-          </a>—Links to relevant laws, policies, and regulations for federal agencies.</p>
+          <a href="/guides/hcd/?dg" title="Human-Centered Design Guide Series">
+            <span>Human-Centered Design Guide Series</span>
+          </a>—A series of guides to help you understand and practice human-centered design.</p>
       </div>
     </li>
           
       
     
-    <li data-edit-this="resources/required-web-content-and-links.md"><div class="icon">
+    <li data-gh-edit-page="guides/dap/_index.md"><div class="icon">
       <img
         src="/img/digit-50.png"
         alt=""
@@ -611,17 +563,16 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="/resources/required-web-content-and-links/?dg" title="Required web content and links">
-            <span>Required web content and links</span>
-          </a>—Various policies require you to have certain content—or provide links to content—from specific places on your website.</p>
+          <a href="/guides/dap/?dg" title="Guide to the Digital Analytics Program">
+            <span>Guide to the Digital Analytics Program</span>
+          </a>—The Digital Analytics Program (DAP) offers advanced, easy web analytics for federal agencies.</p>
       </div>
     </li>
-          
       
     
-    <li data-edit-this="resources/intro-accessibility.md"><div class="icon">
+    <li data-gh-edit-page="resources/uswds-design-system.md"><div class="icon">
       <img
-        src="/img/digit-50.png"
+        src="/logos/uswds-icon.png"
         alt=""
         aria-hidden="true"
         width="16"
@@ -629,17 +580,16 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="/resources/introduction-accessibility/?dg" title="An introduction to accessibility">
-            <span>An introduction to accessibility</span>
-          </a>—An introduction to accessibility, and why it matters.</p>
+          <a href="https://designsystem.digital.gov/?dg" title="U.S Web Design System">
+            <span>U.S Web Design System</span>
+          </a>—A design system for the federal government that makes it easier to build accessible, mobile-friendly government websites for the American …</p>
       </div>
     </li>
-          
       
     
-    <li data-edit-this="resources/an-introduction-github.md"><div class="icon">
+    <li data-gh-edit-page="resources/federal-it-dashboard.md"><div class="icon">
       <img
-        src="/img/digit-50.png"
+        src="/logos/federal-it-dashboard-icon.png"
         alt=""
         aria-hidden="true"
         width="16"
@@ -647,35 +597,17 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="/resources/an-introduction-github/?dg" title="An introduction to GitHub">
-            <span>An introduction to GitHub</span>
-          </a>—Steps for managing website content in GitHub.</p>
-      </div>
-    </li>
-          
-      
-    
-    <li data-edit-this="resources/an-introduction-to-pronouns.md"><div class="icon">
-      <img
-        src="/img/digit-50.png"
-        alt=""
-        aria-hidden="true"
-        width="16"
-        height="16"
-      />
-    </div><div class="copy">
-        <p>
-          <a href="/resources/an-introduction-to-pronouns/?dg" title="An introduction to pronouns">
-            <span>An introduction to pronouns</span>
-          </a>—A guide for government employees and contractors to understand and use pronouns in the workplace.</p>
+          <a href="https://www.itdashboard.gov/?dg" title="Federal IT Dashboard">
+            <span>Federal IT Dashboard</span>
+          </a>—Enables the government and the public to understand the value of their federal IT portfolios, manage the health of their IT investments, and …</p>
       </div>
     </li></ul>
   </div><footer>
                 <div class="grid-row tablet-lg:grid-gap-2">
                   <div class="grid-col-12">
                     <p class="more">
-                      <a href="/resources"
-                        ><span>See all guides and resources</span>
+                      <a href="/topics/21st-century-idea/"
+                        ><span>See all 21st Century IDEA resources</span>
                         <svg
                           class="usa-icon dg-icon dg-icon--standard margin-bottom-05"
                           aria-hidden="true"
@@ -742,22 +674,22 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/09/2023-09-06-first-do-no-harm-mistakes-to-avoid-in-creating-accessible-user-experiences.md"
+  data-gh-edit-page="news/2023/10/2023-10-06-ihs-health-information-technology-modernization-the-path-forward.md"
   
-  aria-labelledby="title-first-do-no-harm-mistakes-to-avoid-in-creating-accessible-user-experiences"
+  aria-labelledby="title-ihs-health-information-technology-modernization-the-path-forward"
 >
   <div class="card__content">
     <div class="card__summary">
-      <h3 id="title-first-do-no-harm-mistakes-to-avoid-in-creating-accessible-user-experiences">
-        <a href="/2023/09/05/first-do-no-harm-mistakes-to-avoid-in-creating-accessible-user-experiences/">First, do no harm: mistakes to avoid in creating accessible user experiences</a>
+      <h3 id="title-ihs-health-information-technology-modernization-the-path-forward">
+        <a href="/2023/10/06/ihs-health-information-technology-modernization-the-path-forward/">IHS health information technology modernization: The path forward</a>
       </h3>
-      <p>Accessible design and development practices help us build inclusive experiences. But we can lose sight of the people we serve if we don’t steadily work to better understand our users. To create accessible experiences, avoid these mistakes.
+      <p>Save the date for this year’s fourth Tribal Consultation and Urban Confer, hosted by the IHS Health IT Modernization Program. The virtual event on November 8 will provide updates to the EHR vendor selection and program timeline, as well as host an open and welcoming space for dialogue with IHS leadership.
           <em class="card__source source"
             >— via
             <a
-              href="https://18f.gsa.gov/2023/09/05/first-do-no-harm/"
-              title="Read at 18F"
-              >18F</a
+              href="https://www.ihs.gov/ihscalendar/calendar/tribal-consultation-and-urban-confer-health-information-technology-modernization-the-path-forward/"
+              title="Read at Indian Health Service"
+              >Indian Health Service</a
             ></em
           >
         
@@ -765,49 +697,10 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
     </div>
   </div>
   <div class="card__media">
-    <img src="/logos/18f-logo.png" alt="18F logo" />
+    <img src="/logos/ihs-logo.png" alt="Indian Health Service logo" />
   </div>
   <div class="card__meta">
-    <p class="date">Sep 05, 2023</p>
-  </div>
-</article>
-
-            
-              
-  
-
-
-
-
-<article
-  class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/09/2023-09-05-quarterly-pma-updates-lead-the-way-for-improved-service-delivery-and-trust-building.md"
-  
-  aria-labelledby="title-quarterly-pma-updates-lead-the-way-for-improved-service-delivery-and-trust-building"
->
-  <div class="card__content">
-    <div class="card__summary">
-      <h3 id="title-quarterly-pma-updates-lead-the-way-for-improved-service-delivery-and-trust-building">
-        <a href="/2023/08/30/quarterly-pma-updates-lead-the-way-for-improved-service-delivery-and-trust-building/">Quarterly PMA Updates Lead the Way for Improved Service Delivery and Trust-Building</a>
-      </h3>
-      <p>Today, the Office of Management and Budget (OMB) released its latest updates to the President’s Management Agenda (PMA). This quarter, the Implementation Leads for Customer Experience (Priority 2) share updates on where we are with this PMA priority.
-          <em class="card__source source"
-            >— via
-            <a
-              href="https://www.performance.gov/blog/2023-q3-presidents-management-agenda-updates/"
-              title="Read at Performance.gov"
-              >Performance.gov</a
-            ></em
-          >
-        
-      </p>
-    </div>
-  </div>
-  <div class="card__media">
-    <img src="/logos/performancegov-logo.png" alt="Performance.gov logo" />
-  </div>
-  <div class="card__meta">
-    <p class="date">Aug 30, 2023</p>
+    <p class="date">Oct 06, 2023</p>
   </div>
 </article>
 
@@ -824,20 +717,20 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-article card-linked"
-  data-edit-this="news/2023/08/2023-08-28-inclusivity-and-automation.md"
+  data-gh-edit-page="news/2023/10/2023-10-02-new-idmanagement-gov-is-refreshing-the-conversation-about-zero-trust.md"
   
-  aria-labelledby="title-inclusivity-and-automation"
+  aria-labelledby="title-new-idmanagement.gov-is-refreshing-the-conversation-about-zero-trust"
 >
-  <div class="card__content"><h3 id="title-inclusivity-and-automation">
-      <a href="/2023/08/28/inclusivity-and-automation/">Inclusivity and automation</a>
-    </h3><div class="summary">Bots can help us improve our inclusivity by gently nudging us to use more appropriate language, explaining why some terms are offensive, and prompting us to consider others.</div><div class="authors-list authors-list-short">
+  <div class="card__content"><h3 id="title-new-idmanagement.gov-is-refreshing-the-conversation-about-zero-trust">
+      <a href="/2023/10/02/new-idmanagement-gov-is-refreshing-the-conversation-about-zero-trust/">New IDManagement.gov is refreshing the conversation about Zero Trust</a>
+    </h3><div class="summary">IDmanagement.gov has received an update that makes it easier for users to find exactly what they need.</div><div class="authors-list authors-list-short">
     
     <a
           class="author"
-          href="/authors/frances-carden/"
+          href="/authors/babur-kohy/"
           rel="author"
         >
-  <img src="https://github.com/Frances-Carden.png?size=50" alt="" />
+  <img src="/img/digit-light.png" alt="" />
 
 
 
@@ -845,16 +738,16 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <span class="usa-sr-only">Posts by</span>
           <span
-            >Frances Carden</span
+            >Babur Kohy</span
           > </a
         ></div></div>
 
   <div class="card__media">
 
 <div class="media-featured">
-    <a href="/2023/08/28/inclusivity-and-automation/" title="Inclusivity and automation">
+    <a href="/2023/10/02/new-idmanagement-gov-is-refreshing-the-conversation-about-zero-trust/" title="New IDManagement.gov is refreshing the conversation about Zero Trust">
       <img
-        src="https://s3.amazonaws.com/digitalgov/chatbot-group-comments-gmast3r-istock-getty-images-1362558433-comp_w400.png"
+        src="https://s3.amazonaws.com/digitalgov/id-management-zero-trust_w400.png"
         aria-hidden="true"
         alt=""
       />
@@ -862,12 +755,87 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
   </div></div>
 
   <div class="card__meta">
-    <div class="date">Aug 28, 2023</div>
+    <div class="date">Oct 02, 2023</div>
   </div>
 </article>
 
               
             
+  
+
+
+
+
+
+
+
+<article
+  class="card card-event card-linked"
+  data-gh-edit-page="events/2023/09/2023-09-27-backlogs-and-why-every-website-needs-one.md"
+  
+  aria-labelledby="backlogs-and-why-every-website-needs-one"
+>
+  <div class="card-event__main">
+    <div class="card-event__header"><div class="flex-align-end card-event__kicker">
+          <span>Website backlogs</span>
+        </div><h2 class="card-event__title" id="backlogs-and-why-every-website-needs-one">
+        <a
+          href="/event/2023/10/12/backlogs-and-why-every-website-needs-one/"
+          title="Backlogs and why every website needs one"
+          rel="bookmark"
+          >Backlogs and why every website needs one</a
+        >
+      </h2>
+    </div>
+
+    <div class="card-event__body"><div class="card-event__summary">
+          Join us as we discuss the concept and importance of backlogs and hear real-world examples of successful application in various GSA products and programs.
+        </div><p class="card-event__host">
+          Hosted by Digital.gov and the
+          Web Managers Community of Practice
+        </p>
+    </div>
+  </div>
+
+  <div class="card-event__aside">
+    <div class="card-event__date">
+      <time class="card-event__datetime" datetime="2023-10-12">
+        <span class="card-event__datetime-month"
+          >Oct</span
+        >
+        <span class="card-event__datetime-day"
+          >12<span class="card-event__datetime-comma">,</span>
+        </span>
+        <span class="card-event__datetime-year--mobile"
+          >2023</span
+        >
+      </time>
+      
+        <a
+          aria-label="Register for Backlogs and why every website needs one"
+          class="card-event__cta"
+          href="https://gsa.zoomgov.com/meeting/register/vJItf--rrzMpHTwORod8Ppd5YEJphF-PLpk"
+          onclick="__gaTracker('send', 'event', 'outbound-article', 'https:\/\/gsa.zoomgov.com\/meeting\/register\/vJItf--rrzMpHTwORod8Ppd5YEJphF-PLpk', 'REGISTER NOW');"
+        >
+          Register
+          <time
+            class="card-event__datetime--mobile"
+            datetime="2023-10-12"
+          >
+            <span>for</span>
+            <span class="card-event__datetime-month"
+              >Oct</span
+            >
+            <span class="card-event__datetime-day"
+              >12</span
+            >
+          </time>
+        </a>
+      
+    </div>
+  </div>
+</article>
+
               
   
 
@@ -876,22 +844,22 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/08/2023-08-28-blind-veterans-can-now-read-decision-letters.md"
+  data-gh-edit-page="news/2023/09/2023-09-25-why-the-american-people-deserve-a-digital-government.md"
   
-  aria-labelledby="title-blind-veterans-can-now-read-decision-letters"
+  aria-labelledby="title-why-the-american-people-deserve-a-digital-government"
 >
   <div class="card__content">
     <div class="card__summary">
-      <h3 id="title-blind-veterans-can-now-read-decision-letters">
-        <a href="/2023/08/24/blind-veterans-can-now-read-decision-letters/">Blind Veterans can now read decision letters</a>
+      <h3 id="title-why-the-american-people-deserve-a-digital-government">
+        <a href="/2023/09/22/why-the-american-people-deserve-a-digital-government/">Why the American People Deserve a Digital Government</a>
       </h3>
-      <p>VA now offers accessibility to blind Veterans so they can independently read decision letters online.
+      <p>OMB released new policy guidance for government that includes a variety of actions and standards to help federal agencies design, develop, and deliver modern websites and digital services. Memo M-23-22, Delivering a Digital-First Public Experience, will make it seamless for the public to obtain government information and services online, and help agencies fully implement the 21st Century Integrated Digital Experience Act (21st Century IDEA).
           <em class="card__source source"
             >— via
             <a
-              href="https://news.va.gov/123339/blind-veterans-can-now-read-decision-letters/"
-              title="Read at U.S. Department of Veterans Affairs"
-              >U.S. Department of Veterans Affairs</a
+              href="https://www.whitehouse.gov/omb/briefing-room/2023/09/22/why-the-american-people-deserve-a-digital-government/"
+              title="Read at The White House"
+              >The White House</a
             ></em
           >
         
@@ -899,49 +867,10 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
     </div>
   </div>
   <div class="card__media">
-    <img src="/logos/va-logo.png" alt="U.S. Department of Veterans Affairs logo" />
+    <img src="/logos/whitehouse-logo.png" alt="The White House logo" />
   </div>
   <div class="card__meta">
-    <p class="date">Aug 24, 2023</p>
-  </div>
-</article>
-
-            
-              
-  
-
-
-
-
-<article
-  class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/08/2023-08-23-seven-tips-on-facilitating-unplanned-topics-in-meetings.md"
-  
-  aria-labelledby="title-seven-tips-on-facilitating-unplanned-topics-in-meetings"
->
-  <div class="card__content">
-    <div class="card__summary">
-      <h3 id="title-seven-tips-on-facilitating-unplanned-topics-in-meetings">
-        <a href="/2023/08/22/seven-tips-on-facilitating-unplanned-topics-in-meetings/">Seven tips on facilitating unplanned topics in meetings</a>
-      </h3>
-      <p>Facilitating a workshop can feel like a daunting task. Here at 18F, we’ve identified seven tips to keep your workshop organized and flowing, despite unplanned scenarios.
-          <em class="card__source source"
-            >— via
-            <a
-              href="https://18f.gsa.gov/2023/08/22/7-tips-on-facilitating-unplanned-topics-in-meetings/"
-              title="Read at 18F"
-              >18F</a
-            ></em
-          >
-        
-      </p>
-    </div>
-  </div>
-  <div class="card__media">
-    <img src="/logos/18f-logo.png" alt="18F logo" />
-  </div>
-  <div class="card__meta">
-    <p class="date">Aug 22, 2023</p>
+    <p class="date">Sep 22, 2023</p>
   </div>
 </article>
 
@@ -958,25 +887,25 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
   class="card card-event 
     card-event--past
   card-linked"
-  data-edit-this="events/2023/08/2023-08-03-uswds-monthly-call-august-2023.md"
+  data-gh-edit-page="events/2023/09/2023-09-18-uswds-monthly-call-september-2023.md"
   
-  aria-labelledby="uswds-monthly-call-august-2023"
+  aria-labelledby="uswds-monthly-call-september-2023"
 >
   <div class="card-event__main">
     <div class="card-event__header"><div class="flex-align-end card-event__kicker">
-          <span>USWDS product roadmap updates</span>
-        </div><h2 class="card-event__title" id="uswds-monthly-call-august-2023">
+          <span>USWDS mission and vision</span>
+        </div><h2 class="card-event__title" id="uswds-monthly-call-september-2023">
         <a
-          href="/event/2023/08/17/uswds-monthly-call-august-2023/"
-          title="USWDS Monthly Call - August 2023"
+          href="/event/2023/09/21/uswds-monthly-call-september-2023/"
+          title="USWDS Monthly Call - September 2023"
           rel="bookmark"
-          >USWDS Monthly Call - August 2023</a
+          >USWDS Monthly Call - September 2023</a
         >
       </h2>
     </div>
 
     <div class="card-event__body"><div class="card-event__summary">
-          What&rsquo;s in the newest iteration of the U.S. Web Design System&rsquo;s product roadmap.
+          We&rsquo;ll explore what it means to pursue mission-centered design and decision-making.
         </div><p class="card-event__host">
           Hosted by Digital.gov and the
           U.S. Web Design System
@@ -986,12 +915,12 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
   <div class="card-event__aside">
     <div class="card-event__date">
-      <time class="card-event__datetime" datetime="2023-08-17">
+      <time class="card-event__datetime" datetime="2023-09-21">
         <span class="card-event__datetime-month"
-          >Aug</span
+          >Sep</span
         >
         <span class="card-event__datetime-day"
-          >17<span class="card-event__datetime-comma">,</span>
+          >21<span class="card-event__datetime-comma">,</span>
         </span>
         <span class="card-event__datetime-year--mobile"
           >2023</span
@@ -1009,77 +938,6 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 </article>
 
               
-                
-                
-  
-
-
-
-
-
-
-<article
-  class="card card-article card-linked"
-  data-edit-this="news/2023/08/2023-08-08-4-steps-writers-and-editors-can-take-to-demonstrate-value.md"
-  
-  aria-labelledby="title-4-steps-writers-and-editors-can-take-to-demonstrate-value"
->
-  <div class="card__content"><h3 id="title-4-steps-writers-and-editors-can-take-to-demonstrate-value">
-      <a href="/2023/08/08/4-steps-writers-and-editors-can-take-to-demonstrate-value/">4 steps writers and editors can take to demonstrate value</a>
-    </h3><div class="summary">As plain language writers and editors, we need to demonstrate the value we bring to projects. This writeup explains how to calculate the costs of our work and articulate its value.</div><div class="authors-list authors-list-short">
-    
-    <a
-          class="author"
-          href="/authors/katherine-spivey/"
-          rel="author"
-        >
-  <img src="https://github.com/kpspivey.png?size=50" alt="" />
-
-
-
-
-
-<span class="usa-sr-only">Posts by</span>
-          <span
-            >Katherine Spivey</span
-          > </a
-        ><a
-          class="author"
-          href="/authors/meredith-larson/"
-          rel="author"
-        >
-  <img src="/img/digit-dark.png" alt="" />
-
-
-
-
-
-<span class="usa-sr-only">Posts by</span>
-          <span
-            >Meredith Larson</span
-          > </a
-        ></div></div>
-
-  <div class="card__media">
-
-<div class="media-featured">
-    <a href="/2023/08/08/4-steps-writers-and-editors-can-take-to-demonstrate-value/" title="4 steps writers and editors can take to demonstrate value">
-      <img
-        src="https://s3.amazonaws.com/digitalgov/content-strategy-tarikvision-istock-getty-images-1411514984-comp_w400.png"
-        aria-hidden="true"
-        alt=""
-      />
-    </a>
-  </div></div>
-
-  <div class="card__meta">
-    <div class="date">Aug 08, 2023</div>
-  </div>
-</article>
-
-              
-            
-              
   
 
 
@@ -1087,22 +945,22 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/08/2023-08-04-fact-sheet-notice-of-proposed-rulemaking-on-accessibility-of-web-information-and-services-of-state-and-local-government-entities.md"
+  data-gh-edit-page="news/2023/09/2023-09-22-a-website-refresh-in-3-months.md"
   
-  aria-labelledby="title-fact-sheet-notice-of-proposed-rulemaking-on-accessibility-of-web-information-and-services-of-state-and-local-government-entities"
+  aria-labelledby="title-a-website-refresh-in-3-months"
 >
   <div class="card__content">
     <div class="card__summary">
-      <h3 id="title-fact-sheet-notice-of-proposed-rulemaking-on-accessibility-of-web-information-and-services-of-state-and-local-government-entities">
-        <a href="/2023/08/03/fact-sheet-notice-of-proposed-rulemaking-on-accessibility-of-web-information-and-services-of-state-and-local-government-entities/">Fact Sheet: Notice of Proposed Rulemaking on Accessibility of Web Information and Services of State and Local Government Entities</a>
+      <h3 id="title-a-website-refresh-in-3-months">
+        <a href="/2023/09/21/a-website-refresh-in-3-months/">A website refresh in 3 months</a>
       </h3>
-      <p>The Department of Justice published a Notice of Proposed Rulemaking (NPRM) explaining how they propose updating the regulations for Title II of the Americans with Disabilities Act (ADA) to add more specific requirements about web and mobile application (app) accessibility.
+      <p>A website redesign doesn&rsquo;t have to be a big project. By approaching it as a process of iteration, we launched a refreshed site in the span of several weeks.
           <em class="card__source source"
             >— via
             <a
-              href="https://www.ada.gov/notices/2023/07/20/web-nprm/"
-              title="Read at Department of Justice"
-              >Department of Justice</a
+              href="https://18f.gsa.gov/2023/09/21/18f-website-refresh/"
+              title="Read at 18F"
+              >18F</a
             ></em
           >
         
@@ -1110,14 +968,76 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
     </div>
   </div>
   <div class="card__media">
-    <img src="/logos/doj-logo.png" alt="Department of Justice logo" />
+    <img src="/logos/18f-logo.png" alt="18F logo" />
   </div>
   <div class="card__meta">
-    <p class="date">Aug 03, 2023</p>
+    <p class="date">Sep 21, 2023</p>
   </div>
 </article>
 
             
+  
+
+
+
+
+
+
+
+<article
+  class="card card-event 
+    card-event--past
+  card-linked"
+  data-gh-edit-page="events/2023/09/2023-09-12-cultivating-a-dynamic-career-in-ux.md"
+  
+  aria-labelledby="cultivating-a-dynamic-career-in-ux"
+>
+  <div class="card-event__main">
+    <div class="card-event__header"><div class="flex-align-end card-event__kicker">
+          <span>User Experience</span>
+        </div><h2 class="card-event__title" id="cultivating-a-dynamic-career-in-ux">
+        <a
+          href="/event/2023/09/19/cultivating-a-dynamic-career-in-ux/"
+          title="Cultivating a dynamic career in UX"
+          rel="bookmark"
+          >Cultivating a dynamic career in UX</a
+        >
+      </h2>
+    </div>
+
+    <div class="card-event__body"><div class="card-event__summary">
+          Join us for a discussion on how to adapt your career in user experience (UX) to a quickly changing world.
+        </div><p class="card-event__host">
+          Hosted by Digital.gov and the
+          User Experience Community of Practice
+        </p>
+    </div>
+  </div>
+
+  <div class="card-event__aside">
+    <div class="card-event__date">
+      <time class="card-event__datetime" datetime="2023-09-19">
+        <span class="card-event__datetime-month"
+          >Sep</span
+        >
+        <span class="card-event__datetime-day"
+          >19<span class="card-event__datetime-comma">,</span>
+        </span>
+        <span class="card-event__datetime-year--mobile"
+          >2023</span
+        >
+      </time>
+      
+        <span class="card-event__date-label">
+          <span class="card-event__datetime-year"
+            >2023</span
+          >
+        </span>
+      
+    </div>
+  </div>
+</article>
+
               
   
 
@@ -1126,20 +1046,20 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-elsewhere card-linked"
-  data-edit-this="news/2023/08/2023-08-30-get-to-know-search-gov.md"
+  data-gh-edit-page="news/2023/09/2023-09-21-6-lessons-from-a-project-handoff.md"
   
-  aria-labelledby="title-get-to-know-search.gov"
+  aria-labelledby="title-6-lessons-from-a-project-handoff"
 >
   <div class="card__content">
     <div class="card__summary">
-      <h3 id="title-get-to-know-search.gov">
-        <a href="/2023/07/25/get-to-know-search-gov/">Get to know Search.gov</a>
+      <h3 id="title-6-lessons-from-a-project-handoff">
+        <a href="/2023/09/19/6-lessons-from-a-project-handoff/">6 lessons from a project handoff</a>
       </h3>
-      <p>Search.gov&rsquo;s goal is to deliver a high-quality, government-wide search engine that allows agencies to customize search experiences for the public, regardless of website type or organization. Learn about standard offerings, as well as three major enhancements.
+      <p>Project handoffs are not simple. Teams have their own cultures and work styles. Without planning, a project could lose institutional memory, time, quality, and funding when it passes from one team to the next. Here are 6 lessons we learned as a recent project changed hands.
           <em class="card__source source"
             >— via
             <a
-              href="https://blog.usa.gov/get-to-know-search.gov"
+              href="https://blog.usa.gov/6-lessons-from-a-project-handoff"
               title="Read at USA.gov"
               >USA.gov</a
             ></em
@@ -1152,7 +1072,46 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
     <img src="/logos/usagov-logo.png" alt="USA.gov logo" />
   </div>
   <div class="card__meta">
-    <p class="date">Jul 25, 2023</p>
+    <p class="date">Sep 19, 2023</p>
+  </div>
+</article>
+
+            
+              
+  
+
+
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-gh-edit-page="news/2023/09/2023-09-22-nasa-releases-first-season-of-spanish-language-podcast.md"
+  
+  aria-labelledby="title-nasa-releases-first-season-of-spanish-language-podcast"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-nasa-releases-first-season-of-spanish-language-podcast">
+        <a href="/2023/09/15/nasa-releases-first-season-of-spanish-language-podcast/">NASA Releases First Season of Spanish-language Podcast</a>
+      </h3>
+      <p>In celebration of Hispanic Heritage Month, NASA is releasing new content for Universo curioso de la NASA, the agency’s first Spanish-language podcast. A five-episode season will start Tuesday, September 19, with new episodes released weekly. In each episode, Universo curioso will highlight the contributions of NASA&rsquo;s Hispanic and Latino workforce to the agency&rsquo;s groundbreaking work in Earth and space exploration. The season features interviews with NASA experts, including an astronaut, a space weather scientist, an astrochemist, and oceanographers. Episodes focus on some of NASA’s top missions, bringing the wonder of exploration, space technology, and scientific discoveries to Spanish-speaking audiences around the world.
+          <em class="card__source source"
+            >— via
+            <a
+              href="https://www.nasa.gov/press-release/nasa-releases-first-season-of-spanish-language-podcast/"
+              title="Read at National Aeronautics and Space Administration"
+              >National Aeronautics and Space Administration</a
+            ></em
+          >
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/nasa-logo.png" alt="National Aeronautics and Space Administration logo" />
+  </div>
+  <div class="card__meta">
+    <p class="date">Sep 15, 2023</p>
   </div>
 </article>
 
@@ -1169,20 +1128,20 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <article
   class="card card-article card-linked"
-  data-edit-this="news/2023/07/2023-07-19-gsa-shared-service-provider-program-guide.md"
+  data-gh-edit-page="news/2023/09/2023-09-12-from-pageviews-to-progress.md"
   
-  aria-labelledby="title-gsa-shared-service-provider-program-guide"
+  aria-labelledby="title-from-pageviews-to-progress"
 >
-  <div class="card__content"><h3 id="title-gsa-shared-service-provider-program-guide">
-      <a href="/2023/07/19/gsa-shared-service-provider-program-guide/">GSA Shared Service Provider Program Guide</a>
-    </h3><div class="summary">The newly-released SSP Program Guide was created for commercial vendors interested in becoming a Shared Service Provider.</div><div class="authors-list authors-list-short">
+  <div class="card__content"><h3 id="title-from-pageviews-to-progress">
+      <a href="/2023/09/12/from-pageviews-to-progress/">From pageviews to progress</a>
+    </h3><div class="summary">A 10-year recap of GSA’s Digital Analytics Program (DAP) highlights its impact on federal government agencies and the public, high-level observations using government-wide website analytics and trends, and new goals set for the next decade to help generate useful answers to meaningful questions to make government websites better.</div><div class="authors-list authors-list-short">
     
     <a
           class="author"
-          href="/authors/cheryl-jenkins/"
+          href="/authors/jack-avery/"
           rel="author"
         >
-  <img src="/img/digit-light.png" alt="" />
+  <img src="https://github.com/masterccioli.png?size=50" alt="" />
 
 
 
@@ -1190,14 +1149,14 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <span class="usa-sr-only">Posts by</span>
           <span
-            >Cheryl Jenkins</span
+            >Jack Avery</span
           > </a
         ><a
           class="author"
-          href="/authors/tyler-jones/"
+          href="/authors/marina-fox/"
           rel="author"
         >
-  <img src="/img/digit-dark.png" alt="" />
+  <img src="https://github.com/smarina04.png?size=50" alt="" />
 
 
 
@@ -1205,16 +1164,31 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
 <span class="usa-sr-only">Posts by</span>
           <span
-            >Tyler Jones</span
+            >Marina Fox</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/tlowden/"
+          rel="author"
+        >
+  <img src="https://github.com/tdlowden.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Tim Lowden</span
           > </a
         ></div></div>
 
   <div class="card__media">
 
 <div class="media-featured">
-    <a href="/2023/07/19/gsa-shared-service-provider-program-guide/" title="GSA Shared Service Provider Program Guide">
+    <a href="/2023/09/12/from-pageviews-to-progress/" title="From pageviews to progress">
       <img
-        src="https://s3.amazonaws.com/digitalgov/data-security-concept-comp_w400.png"
+        src="https://s3.amazonaws.com/digitalgov/dap-10-years-total-daily-visitors-featured_w400.png"
         aria-hidden="true"
         alt=""
       />
@@ -1222,7 +1196,78 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
   </div></div>
 
   <div class="card__meta">
-    <div class="date">Jul 19, 2023</div>
+    <div class="date">Sep 12, 2023</div>
+  </div>
+</article>
+
+              
+            
+              
+                
+                
+  
+
+
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-gh-edit-page="news/2023/09/2023-09-12-a-conversation-about-content-audits.md"
+  
+  aria-labelledby="title-a-conversation-about-content-audits"
+>
+  <div class="card__content"><h3 id="title-a-conversation-about-content-audits">
+      <a href="/2023/09/12/a-conversation-about-content-audits/">A conversation about content audits</a>
+    </h3><div class="summary">Content audits can be tedious. Two content designers discuss why we do them anyway, and how to get started.</div><div class="authors-list authors-list-short">
+    
+    <a
+          class="author"
+          href="/authors/michelle-rago/"
+          rel="author"
+        >
+  <img src="https://github.com/michelle-rago.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Michelle Rago</span
+          > </a
+        ><a
+          class="author"
+          href="/authors/ryan-johnson/"
+          rel="author"
+        >
+  <img src="https://github.com/brentryanjohnson.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Ryan Johnson</span
+          > </a
+        ></div></div>
+
+  <div class="card__media">
+
+<div class="media-featured">
+    <a href="/2023/09/12/a-conversation-about-content-audits/" title="A conversation about content audits">
+      <img
+        src="https://s3.amazonaws.com/digitalgov/website-audit-control-panel-olivier-le-moal-istock-getty-images-693699396-comp_w400.png"
+        aria-hidden="true"
+        alt=""
+      />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Sep 12, 2023</div>
   </div>
 </article>
 
@@ -1353,6 +1398,8 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
                     <a href="/about/">About Us</a>
                   </li><li class="usa-footer__secondary-link">
                     <a href="/policies/">Site Policies</a>
+                  </li><li class="usa-footer__secondary-link">
+                    <a href="/about/contact/">Contact Us</a>
                   </li></ul>
             </section>
           </div>
@@ -1418,13 +1465,13 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
                     focusable="false"
                   >
                     <use
-                      xlink:href="/uswds/img/sprite.svg#rss_feed"
+                      xlink:href="/uswds/img/sprite.svg#linkedin"
                     ></use>
                   </svg>
                   <a
                     class="text-ink hover:text-ink text-no-underline hover:text-underline"
-                    href="/index.xml"
-                    >RSS</a
+                    href="https://www.linkedin.com/company/digitalgov-gsa/"
+                    >LinkedIn</a
                   >
                 </li>
                 <li class="usa-footer__secondary-link">
@@ -1434,13 +1481,13 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
                     focusable="false"
                   >
                     <use
-                      xlink:href="/uswds/img/sprite.svg#mail_outline"
+                      xlink:href="/uswds/img/sprite.svg#rss_feed"
                     ></use>
                   </svg>
                   <a
                     class="text-ink hover:text-ink text-no-underline hover:text-underline"
-                    href="mailto:digitalgov@gsa.gov"
-                    >Email us</a
+                    href="/index.xml"
+                    >RSS</a
                   >
                 </li>
               </ul>
@@ -1579,47 +1626,41 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
     <div id="clicks_iframe" class="display-none"></div>
 
-    <div class="edit-tools">
-      <button class="edit edit-open" aria-label="edit" type="button">
-        <svg
-          class="usa-icon dg-icon dg-icon--large margin-bottom-05"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <use xlink:href="/uswds/img/sprite.svg#edit"></use>
-        </svg>
-      </button>
-      <a
-        class="edit edit-issue"
-        role="button"
-        target="_blank"
-        href="https://github.com/GSA/digitalgov.gov/issues/new?body=%0D%0A%2A%2A%2A%2A%0D%0Ahttps%3A%2F%2Fdigital.gov%2F%2f%0D%0A%0D%0A---%0D%0A%0D%0A%2A%2APlease+describe+the+issue+clearly.+Include+a+screenshot+if+needed%2A%2A%0D%0A"
-      >
-        <svg
-          class="usa-icon dg-icon dg-icon--large margin-bottom-05"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <use
-            xlink:href="/uswds/img/sprite.svg#bug_report"
-          ></use>
-        </svg>
-        <span class="usa-sr-only">Report an issue</span>
-      </a>
-    </div>
-  </body>
+
+<div class="gh-edit-tools">
+  <button class="gh-edit-tools__button" aria-label="edit" type="button">
+    <svg
+      class="usa-icon dg-icon dg-icon--large margin-bottom-05"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <use xlink:href="/uswds/img/sprite.svg#edit"></use>
+    </svg>
+  </button>
+  <a
+    class="gh-edit-tools__button gh-edit-tools__issue-link"
+    role="button"
+    target="_blank"
+    rel="noreferrer"
+    href="https://github.com/GSA/digitalgov.gov/issues/new?assignees=&labels=Bug&projects=&template=bug_report.md&title=Bug:+"
+  >
+    <svg
+      class="usa-icon dg-icon dg-icon--large margin-bottom-05"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <use xlink:href="/uswds/img/sprite.svg#bug_report"></use>
+    </svg>
+    <span class="usa-sr-only">Report an issue</span>
+  </a>
+</div>
+</body>
 
   
   <script type="text/javascript">let glossaryPath = null;
     const glossaryIcon = "\/uswds\/img\/sprite.svg#expand_more"
   </script>
 
-  <script src="/dist/js/jquery.min.js"></script>
   <script src="/dist/js/uswds.min.js"></script>
   <script src="/dist/js/main.js"></script>
-
-  
-<script type="text/javascript">
-  var root_url = "/";
-  var all_imagesJson = "/images/v1/json/";
-</script> </html>
+</html>

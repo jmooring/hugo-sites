@@ -4,13 +4,13 @@ Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 802ffc43bb646826-SEA
+Cf-Ray: 81392869cf19c4bb-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 07 Sep 2023 15:29:07 GMT
-Expires: Thu, 07 Sep 2023 13:45:17 GMT
-Last-Modified: Fri, 18 Aug 2023 08:17:52 GMT
+Date: Mon, 09 Oct 2023 19:51:22 GMT
+Expires: Sun, 08 Oct 2023 17:59:26 GMT
+Last-Modified: Thu, 05 Oct 2023 08:55:42 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mq2da9jYqYyiPb6DCeEnLnQzh2BYVhdUolZkwF1aYg1s2DJktTb3y7gcyNeYFt591csiNJadIgpwVstZ5PtQZxFRG2%2B9kXVtCq2GLYEqq7HYfKOjC%2F%2Fh%2Br4a2WI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0l8iLMwb4UpNXLeicd5F2mQucktAIe5eoE7TmHSIPireL4ja4UXTo9Dun16I4KOir%2BK74WoS4OLbA1AaPT6r56NRhTJYlfVGG1XbGmAWOihDeNKxO%2F9ePW3xK34%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
@@ -18,11 +18,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 889ce26725fda95afefa328c2364dc71884abc3c
-X-Github-Request-Id: 728E:4B7B:7A6343:89C753:64F9D18B
+X-Fastly-Request-Id: 791a23983e508e327517f37cafa13fcd4b208660
+X-Github-Request-Id: C096:1489:68A3AB:7C83E9:6522EBA4
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770060-PAO
-X-Timer: S1694100547.225827,VS0,VE87
+X-Served-By: cache-pao-kpao1770069-PAO
+X-Timer: S1696881082.958423,VS0,VE90
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,8 +30,8 @@ X-Timer: S1694100547.225827,VS0,VE87
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Servo, the parallel browser engine</title>
-  <meta property="og:title" content="Servo, the parallel browser engine">
+  <title>Servo, the embeddable, independent, memory-safe, modular, parallel web rendering engine</title>
+  <meta property="og:title" content="Servo, the embeddable, independent, memory-safe, modular, parallel web rendering engine">
   
 
   <meta name="description" content="Servo is an independent, modular, embeddable web rendering engine written in Rust">
@@ -43,7 +43,7 @@ X-Timer: S1694100547.225827,VS0,VE87
   <meta property="og:image" content="/img/servo-color-positive.png">
   <meta property="og:image:alt" content="Servo logo">
   <meta property="og:logo" content="/img/servo-symbol-color-no-container.png">
-  <meta property="og:description" content="Servo is an independent, modular, embeddable web rendering engine written in Rust">
+  <meta property="og:description" content="Servo is a web rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications.">
   <meta property="og:url" content="/">
 
   <link rel="stylesheet" href="/css/style.css">
@@ -198,17 +198,41 @@ X-Timer: S1694100547.225827,VS0,VE87
   </div>
 </nav>
 
-      <section class="container hero is-primary is-bold is-medium">
+      <section class="container is-primary is-bold is-medium">
   <div class="hero-body columns is-vcentered">
     <div class="column">
       <p class="title">
-        Servo, the parallel browser engine
+        The
+        <span style="color: #4fc066;">embeddable</span>,
+        <span style="color: #209e9b;">independent</span>,
+        <span style="color: #f03278;">memory-safe</span>,
+        <span style="color: #f68243;">modular</span>,
+        <span style="color: #faae30;">parallel</span>
+        web rendering engine
       </p>
+      <div style="width: 50px; height: 10px; background: #712b97; margin-bottom: 1rem;"></div>
       <p class="subtitle">
-        Servo is an independent, modular, embeddable web rendering engine written in Rust
+        Servo is a <strong>web rendering engine</strong> written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications.
       </p>
-      <hr>
+    </div>
+    <div class="column">
+      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/9lkIX5ryZZ4" title="Servo Web Rendering Engine Reboot by Manuel Rego at Open Source Summit Europe 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+<section class="container hero is-primary is-bold is-medium">
+  <div class="hero-body columns is-vcentered" style="padding-top: 2rem; padding-bottom: 2rem;">
+    <div class="column">
       <div class="columns">
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2023-09-15</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/09/15/upcoming-events-and-new-browser-ui/">This month in Servo: upcoming events, new browser UI, and more!</a></strong></big></p>
+              <p>Conferences and booths you can find us at in September, plus nightly updates around rustls, WebGPU, ARM32, floats, white-space, crash handling, and browser UI.</p>
+            </div>
+          </div>
+        </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
@@ -227,10 +251,16 @@ X-Timer: S1694100547.225827,VS0,VE87
             </div>
           </div>
         </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2023-05-31</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/05/31/adding-support-for-outline-properties/">Adding support for ‘outline’ properties</a></strong></big></p>
+              <p>Guide to the ‘outline’ implementation in Layout 2020, plus the tests and spec issues we added along the way.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="column">
-      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/pfk8s5OD99A" title="Servo 2023 by Delan Azabani at Web Engines Hackfest 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -251,7 +281,7 @@ X-Timer: S1694100547.225827,VS0,VE87
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#650c0b030a25160017130a4b0a1702"><span class="__cf_email__" data-cfemail="b4dddad2dbf4c7d1c6c2db9adbc6d3">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#472e29212807342235312869283520"><span class="__cf_email__" data-cfemail="ddb4b3bbb29daeb8afabb2f3b2afba">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -312,7 +342,7 @@ X-Timer: S1694100547.225827,VS0,VE87
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#365f58505976455344405918594451"><span class="__cf_email__" data-cfemail="177e79717857647265617839786570">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#1970777f76596a7c6b6f7637766b7e"><span class="__cf_email__" data-cfemail="71181f171e31021403071e5f1e0316">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

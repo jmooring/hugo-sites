@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 83374
-Cache-Control: public, max-age=0, must-revalidate
+Age: 2843
+Cache-Control: public,max-age=0,must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 07 Sep 2023 15:28:57 GMT
-Etag: "1932f651c620acc8e2501082077cede7-ssl-df"
+Date: Mon, 09 Oct 2023 19:51:11 GMT
+Etag: "09fc926b104a91992d14e5e7a5cfed11-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01H9R45FP5S0NH88TMHKN51QJ8
+X-Nf-Request-Id: 01HCAZWNK2M9B79DJ4KAJY3FH5
 
 <!doctype html><html lang=en class=dark>
 <head><meta charset=utf-8>
@@ -85,7 +85,7 @@ X-Nf-Request-Id: 01H9R45FP5S0NH88TMHKN51QJ8
 <h3 id=bgp>BGP</h3>
 <p><strong>BGP</strong> is a mechanism so that networks that rely on routing (layer 3) can ensure that new addresses are advertised to the routing infrastructure. When this information has been updated it transparently means that the router will automatically forward traffic to the correct devices.</p>
 <h3 id=routing-table>Routing Table</h3>
-<p>The <strong>Routing Table</strong> mode is to allow additional routing technologies such as ECMP etc. to be configured so that traffic can be send to a range of nodes (such as your Kubernetes nodes), and kube-vip will manage the addition/deletion of addresses to the routing tables of these nodes so that they can recieve the correct traffic.</p>
+<p>The <strong>Routing Table</strong> mode is to allow additional routing technologies such as ECMP etc. to be configured so that traffic can be send to a range of nodes (such as your Kubernetes nodes), and kube-vip will manage the addition/deletion of addresses to the routing tables of these nodes so that they can receive the correct traffic.</p>
 <h3 id=wireguard>WireGuard</h3>
 <p>The <a href=https://www.wireguard.com/><strong>Wireguard</strong></a> mode allows Kubernetes services to be advertised over the wireguard interface (<code>wg0</code>). One of its main use-case is so that distributed services across multiple clusters can centralise all their advised services on a central network controlled by wireguard.</p>
 <h2 id=features>Features</h2>
@@ -107,7 +107,7 @@ X-Nf-Request-Id: 01H9R45FP5S0NH88TMHKN51QJ8
 <li>Service LoadBalancer address pools per namespace or global</li>
 <li>Service LoadBalancer address via (existing network DHCP)</li>
 <li>Service LoadBalancer address exposure to gateway via UPNP</li>
-<li>... manifest generation, vendor API integrations and many nore...</li>
+<li>... manifest generation, vendor API integrations and many more...</li>
 </ul>
 <p><a href=docs/ class=button>Read the Docs</a></p>
 </div>

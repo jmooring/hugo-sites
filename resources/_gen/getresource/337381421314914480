@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=2592000
 Content-Type: text/html; charset=utf-8
-Date: Thu, 07 Sep 2023 15:29:06 GMT
-Etag: "s0b3311g5p"
-Last-Modified: Fri, 01 Sep 2023 12:09:01 GMT
+Date: Mon, 09 Oct 2023 19:51:21 GMT
+Etag: "s0xlfp1hf8"
+Last-Modified: Wed, 13 Sep 2023 15:52:37 GMT
 Server: Caddy
 Vary: Accept-Encoding
 
@@ -115,6 +115,8 @@ Vary: Accept-Encoding
             
               
                 <a class="dropdown-item" href="/commands/rclone_config/"><i class="fa fa-book fa-fw"></i> rclone config</a>
+              
+            
               
             
               
@@ -390,6 +392,8 @@ Vary: Accept-Encoding
           <a class="dropdown-item" href="/pikpak/"><i class="fa fa-cloud fa-fw"></i> PikPak</a>
           <a class="dropdown-item" href="/premiumizeme/"><i class="fa fa-user fa-fw"></i> premiumize.me</a>
           <a class="dropdown-item" href="/putio/"><i class="fas fa-parking fa-fw"></i> put.io</a>
+          <a class="dropdown-item" href="/protondrive/"><i class="fas fa-folder fa-fw"></i> Proton Drive</a>
+          <a class="dropdown-item" href="/quatrix/"><i class="fas fa-shield-alt"></i> Quatrix</a>
           <a class="dropdown-item" href="/seafile/"><i class="fa fa-server fa-fw"></i> Seafile</a>
           <a class="dropdown-item" href="/sftp/"><i class="fa fa-server fa-fw"></i> SFTP</a>
           <a class="dropdown-item" href="/sia/"><i class="fa fa-globe fa-fw"></i> Sia</a>
@@ -847,6 +851,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Leviia Object Storage
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.leviia.com/object-storage" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#leviia"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     Liara Object Storage
   </span>
   <span>
@@ -1057,6 +1071,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Proton Drive
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://proton.me/drive" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/protondrive/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     QingStor
   </span>
   <span>
@@ -1072,6 +1096,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.qiniu.com/en/products/kodo" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#qiniu"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Quatrix by Maytech
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.maytech.net/products/quatrix-business" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/quatrix/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1182,6 +1216,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://storj.io/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/storj/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Synology
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://c2.synology.com/en-global/object-storage/overview" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#synology-c2"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1382,15 +1426,7 @@ WebDAV or S3, that work out of the box.)</p>
     Silver Sponsor
   </div>
   <div class="card-body">
-    <a href="https://min.io/persona/developers?utm_source=rclone&utm_medium=display&utm_campaign=developers-know-rclone-part-0823" target="_blank" rel="noopener" title="High Performance Object Storage, Any Cloud, Any HW, Any Workload"><img src="/img/logos/minio.svg"></a><br />
-  </div>
-</div>
-<div class="card">
-  <div class="card-header" style="padding: 5px 15px;">
-    Silver Sponsor
-  </div>
-  <div class="card-body">
-    <a href="https://www.storj.io/partner-solutions/rclone" target="_blank" rel="noopener" title="Visit rclone's sponsor Storj to see offer"><img src="/img/logos/storj-rclone-highlight.jpeg" style="max-width: 100%; height: auto;"></a><br />
+    <a href="https://hubs.li/Q0225cFG0" target="_blank" rel="noopener" title="Visit rclone's sponsor Storj to see offer"><img src="/img/logos/storj-rclone-highlight.jpeg" style="max-width: 100%; height: auto;"></a><br />
   </div>
 </div>
 
@@ -1435,7 +1471,7 @@ WebDAV or S3, that work out of the box.)</p>
               <p style="font-size: 90%;">
                 &copy; <a href="https://www.craig-wood.com/nick/">Nick Craig-Wood</a> 2014-2023<br>
                 Source file <a href="https://github.com/rclone/rclone/blob/master/docs/content/_index.md">_index.md</a>
-                last updated <a href="https://github.com/rclone/rclone/commit/19dba3bf281f688d162294904b53a582ce4420a0">2023-07-06</a><br>
+                last updated <a href="https://github.com/rclone/rclone/commit/fa4d171f62a8b681b96367553ced7a0e827130ea">2023-09-10</a><br>
                 Uploaded with <a href="https://rclone.org">rclone</a>.
                 Built with <a href="https://github.com/spf13/hugo">Hugo</a>.
                 Logo by <a href="https://twitter.com/andy23">@andy23</a>.

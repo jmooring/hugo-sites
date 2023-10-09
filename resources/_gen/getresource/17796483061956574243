@@ -1,20 +1,23 @@
 HTTP/1.1 200 OK
-Content-Length: 21101
-Age: 25688
+Content-Length: 22945
+Age: 1724
 Cache-Control: max_age=3600
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com; script-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com blob: 'unsafe-eval' 'unsafe-inline' cdnjs.cloudflare.com stackpath.bootstrapcdn.com www.googletagmanager.com polyfill.io unpkg.com storage.googleapis.com www.google-analytics.com www.snapengage.com code.jquery.com cdn.jsdelivr.net api.mapbox.com cdn.skypack.dev d3js.org ui.customsearch.ai; font-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com data: fonts.gstatic.com cdnjs.cloudflare.com unpkg.com; style-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com 'unsafe-inline' fonts.googleapis.com cdnjs.cloudflare.com hosteduxprod.blob.core.windows.net ; img-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com https://* data:; connect-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com api.mapbox.com www.google-analytics.com cdn.jsdelivr.net www.snapengage.com ui.customsearch.ai; frame-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com www.google.com
 Content-Type: text/html; charset=utf-8
-Date: Thu, 07 Sep 2023 08:21:38 GMT
-Etag: "03fbac8b518d15eaedb2f989544b2201"
-Last-Modified: Thu, 07 Sep 2023 08:17:43 GMT
+Date: Mon, 09 Oct 2023 19:23:23 GMT
+Etag: "6ab0502d307356657a9202bba75e8d31"
+Last-Modified: Mon, 09 Oct 2023 19:14:36 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Permissions-Policy: geolocation=(self)
 Referrer-Policy: no-referrer-when-downgrade
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1696879403&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=omVfEXzKXHgshOMxlLV5mzy%2BtFfvXtBMFip3YfUw0WU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1696879403&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=omVfEXzKXHgshOMxlLV5mzy%2BtFfvXtBMFip3YfUw0WU%3D
 Server: gunicorn/20.0.4
 Strict-Transport-Security: max-age=31536000
-Via: 1.1 vegur, 1.1 a06140ffee86972bad90c57fc682df36.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: ZCJguwVv0HnlRKh9Oxw-STD-r9LN-ONL9EdD2PRLWH9qTxNPas8h1g==
-X-Amz-Cf-Pop: SEA19-C3
+Via: 1.1 vegur, 1.1 3bf1261a2d16c532cd06b9b94420b93a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IRE-MuwD4Sns6HAC-yTKM_zSxt3yzxTFHdLgOvWIHs9J0ejyp84Zhw==
+X-Amz-Cf-Pop: SEA900-P2
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
@@ -49,11 +52,9 @@ X-Proxy-Rule: seven
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' type='text/css' media="all" />
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Mono' type='text/css' media="all" />
     
@@ -62,7 +63,7 @@ X-Proxy-Rule: seven
     
     
     
-    <link rel="stylesheet" href="https://www.rhino3d.com/new-source/scss/style.min.0e7e938fdb4de660bbb8863a57df3009b949efdfb2d690471d29f226e7dc3b00.css">
+    <link rel="stylesheet" href="https://www.rhino3d.com/new-source/scss/style.min.1fe578017e0e2cd3de60c1edc2270be45a8513df5a055629149e784afe84b23b.css">
     
     
     <link rel="preload" as="font" type="font/woff2" href="https://www.rhino3d.com/new-source/webfonts/fa-brands-400.woff2" crossorigin="anonymous"/>
@@ -129,7 +130,7 @@ X-Proxy-Rule: seven
           <a href="/"><span class="logo-text-secondary">design, model, present, analyze, realize...</span></a>
         </div>
         
-        <a href="/"><img id="site-nav-logo" src="https://www.rhino3d.com/new-source/images/rhino-logo.png"/></a>
+        <a href="/"><img id="site-nav-logo" src="https://www.rhino3d.com/new-source/images/rhino-logo.png" alt="Rhino Logo"/></a>
         <div class="clear"></div>
       </div>
     </div>
@@ -145,7 +146,7 @@ X-Proxy-Rule: seven
       <form id="cref" action="https://www.rhino3d.com/searchresults/">
         <input type="hidden" name="cref" value="007988927381198593803:mcq6pshqsn8" />
         <label for="search"><input id="searchtext" type="text" name="q" size="24" value="" placeholder="search" /></label>  
-        <input class="searchBox" type="submit" name="sa" size="2" value=" " />
+        <input class="searchBox" type="submit" name="sa" size="2" aria-label="Search" value=" "/>
       </form>
     </div>
 </div>
@@ -161,6 +162,10 @@ X-Proxy-Rule: seven
           
         
         <a class="menu-item" href="https://www.rhino3d.com/download" target="_self">download</a>
+        
+          
+        
+        <a class="menu-item" href="https://www.rhino3d.com/learn" target="_self">learn</a>
         
           
         
@@ -180,25 +185,88 @@ X-Proxy-Rule: seven
         
           
         
-        <a class="menu-item" href="https://www.rhino3d.com/learn" target="_self">learn</a>
+        <a class="menu-item" href="https://www.rhino3d.com/resources/" target="_self">resources</a>
         
           
         
-        <a class="menu-item" href="https://www.rhino3d.com/support" target="_self">support</a>
-        
-          
-        
-        <a class="menu-item" href="https://www.rhino3d.com/resources/" target="_self">resources</a><span class="logged_in">
+        <a class="menu-item" href="https://www.rhino3d.com/support" target="_self">support</a><span class="logged_in">
         <a href="https://www.rhino3d.com/my-account/" title="Manage your account, licenses, and teams">my account
-            <img alt="user avatar" style="width: 18px; height: 18px; float: right; border-radius: 50%; margin-top: 1px; margin-left: 4px;" src="https://www.rhino3d.com/user/avatar/">
         </a>
       </span>
+      <span class="logged_in" style="height: 24px">
+        <label class="nav-dropdown">
+
+          <a class="dd-button" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg')">
+            <div style="width: 100%; height: 100%;">
+              <img class = "avatar" src="https://www.rhino3d.com/user/avatar/" alt="User Avatar">
+            </div>
+          </a>
+        
+          <input type="checkbox" class="dd-input" id="nav-avatar">
+        
+          <ul class="dd-menu">
+            
+            <li onclick="logout()">
+              <a>sign out</a>
+            </li>
+          </ul>
+          
+        </label>
+      </span>
+
       <span class="logged_out hidden">
         <a href="https://www.rhino3d.com/my-account/" title="Sign in to manage your account, licenses, and teams">sign in</a>
       </span>
+
     </div>
 
 </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="https://www.rhino3d.com/new-source/script/mcneel_accounts_login_status.53c592c69219db2067e789870d0449b68ca1dd6f2fd14733a5fcac75cfdb715e.js"></script>
+<script>
+  const logout = () => {
+        
+        const clientId = window.location.host == "www.rhino3d.com" ? "rhino3dWebsite" : "rhino3dWebsiteDEBUG";
+        var infoCookie = mca.utilities.getCookieForName("MCA_CLIENT_USER_SESSION_INFO-" + clientId);
+  
+        if (infoCookie)
+          {
+            
+            
+            infoCookie = JSON.parse(infoCookie);
+            const dropdownLogoutUrl = mca.utilities.buildURL(`/${encodeURIComponent(clientId)}/mcneel-accounts/logout`, {
+              nonce: infoCookie.nonce,
+              host_url: window.location.origin,
+              dest_url: window.location.href
+            });
+            console.log("dropdownLogoutUrl:", dropdownLogoutUrl)
+            window.location.href = dropdownLogoutUrl;
+          }
+          else{
+          console.log("not logged in")
+          }
+  }
+
+  const toAccount = () => {
+    window.location.href = "https://www.rhino3d.com/my-account";
+  }
+
+  
+  $('#nav-avatar').click(function(event){
+    event.stopPropagation();
+  });
+
+  $(window).click(function(event) {
+    if(event.target.id == "nav-avatar"){
+      event.stopPropagation();
+    }
+    else{
+      
+      $('#nav-avatar').prop('checked', false); 
+    }
+  });
+</script>
 </div>
       <div class="outerbox">
 <style>
@@ -279,18 +347,18 @@ X-Proxy-Rule: seven
         </div>
     </div>    
     <div class="footer-middle">       
-        <a href="https://www.rhino3d.com/mcneel/about">Copyright © 1993-2023 Robert McNeel &amp; Associates. All Rights Reserved.</a>
+        <a href="https://www.rhino3d.com/mcneel/about" alt="About McNeel">Copyright © 1993-2023 Robert McNeel &amp; Associates (TLM, Inc.). All Rights Reserved.</a>
     </div>
     <div class="footer-middle">
-        <a href="https://www.facebook.com/McNeelRhinoceros/" class="fab fa-facebook" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://twitter.com/bobmcneel" class="fab fa-twitter" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://www.linkedin.com/groups/75313/" class="fab fa-linkedin" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://www.youtube.com/user/RhinoGuide/videos" class="fab fa-youtube" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://vimeo.com/rhino" class="fab fa-vimeo" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
-        <a href="http://blog.rhino3d.com/" class="fa"
+        <a href="https://www.facebook.com/McNeelRhinoceros/" aria-label="Facebook" class="fab fa-facebook" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
+        <a href="https://twitter.com/bobmcneel" aria-label="Twitter" class="fab fa-twitter" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
+        <a href="https://www.linkedin.com/groups/75313/" aria-label="LinkedIn" class="fab fa-linkedin" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
+        <a href="https://www.youtube.com/user/RhinoGuide/videos" aria-label="YouTube" class="fab fa-youtube" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
+        <a href="https://vimeo.com/rhino" aria-label="Vimeo" class="fab fa-vimeo" style="padding: 10px; font-size: 30px; text-decoration: none;" target="_blank" rel="noopener noreferrer"></a>
+        <a href="http://blog.rhino3d.com/" aria-label="Blogger" class="fa"
             style="padding: 10px; font-size: 30px; text-decoration: none;  display: inline-flex" target="_blank"
             rel="noopener noreferrer"><img alt="Blogger icon" src="https://www.rhino3d.com/new-source/images/blogger.svg"></a>
-        <a href="https://www.food4rhino.com" class="fa"
+        <a href="https://www.food4rhino.com" aria-label="Food4Rhino" class="fa"
             style="padding: 10px; font-size: 30px; text-decoration: none;  display: inline-flex" target="_blank"
             rel="noopener noreferrer"><img alt="Food4Rhino" src="https://www.rhino3d.com/new-source/images/f4r_icon_01.svg" height="32" width="32"></a>
     </div>
@@ -331,6 +399,9 @@ X-Proxy-Rule: seven
 		if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
 		  done = true;
 		   
+		  if (''){
+		  	SnapEngage.openProactiveChat(true, true); 
+		  }
 		   
 		}
 	  };

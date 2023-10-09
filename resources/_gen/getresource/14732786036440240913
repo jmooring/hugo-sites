@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 17735
+Content-Length: 15650
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 07 Sep 2023 15:28:45 GMT
-Etag: "4547-604c6710b25ab"
-Last-Modified: Thu, 07 Sep 2023 15:23:26 GMT
+Date: Mon, 09 Oct 2023 19:51:03 GMT
+Etag: "3d22-6074aa2cb333c"
+Last-Modified: Mon, 09 Oct 2023 15:56:40 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -99,68 +99,8 @@ Server: Apache
 		<div id="content"><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/anwendungen/sublime-text-herunterladen-und-verifizieren/" rel="bookmark" title="Link zu Sublime Text herunterladen und verifizieren">Sublime Text herunterladen und verifizieren</a></h1><div class="meta">
-	<span class="genericon icon-calendar">5. September 2023</span> ·
-		<span class="genericon icon-category"><a href="/category/anwendungen/">Anwendungen</a></span> ·
-		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Sublime HQ bietet den Editor <a href="https://www.sublimetext.com/"   class="genericon icon-extlink">Sublime Text</a> in verschiedenen Varianten zum <a href="https://www.sublimetext.com/download"   class="genericon icon-extlink">Download</a> an. Neben Paketen für die Paketmanager unterschiedlicher Distributionen gibt es auch eine TAR-Datei nebst passender Signatur, mit deren Hilfe der Download verifiziert werden kann.</p>
-<p>Das Vorgehen hierzu ist recht einfach und gliedert sich in drei Schritte:</p>
-<h2 id="public-key-herunterladen-und-einlesen">Public Key herunterladen und einlesen</h2>
-<p>Zuerst wird der Public Key von Sublime HQ heruntergeladen</p>
-<pre tabindex="0"><code>$ wget https://download.sublimetext.com/sublimehq-pub.gpg
-...
-2023-09-01 08:07:58 (65,3 MB/s) - »sublimehq-pub.gpg« gespeichert [3817/3817]
-</code></pre><p>und in einen eigenen Keyring im aktuellen Arbeitsverzeichnis importiert</p>
-<pre tabindex="0"><code>$ gpg --no-default-keyring --homedir ./ --import sublimehq-pub.gpg
-...
-gpg: Schlüssel ADAE6AD28A8F901A: Öffentlicher Schlüssel &#34;Sublime HQ Pty Ltd &lt;support@sublimetext.com&gt;&#34; importiert
-gpg: Anzahl insgesamt bearbeiteter Schlüssel: 1
-gpg:                              importiert: 1
-</code></pre><p>Wer möchte, kann den Public Key natürlich auch seinem Standard-Keyring hinzufügen, hierzu einfach den Parameter &ldquo;&ndash;homedir ./&rdquo; weglassen.</p>
-<h2 id="herunterladen-von-sublime-text-und-signaturdatei">Herunterladen von Sublime Text und Signaturdatei</h2>
-<p>Dann werden Sublime Text und die Signaturdatei heruntergeladen:</p>
-<pre tabindex="0"><code>$ wget wget https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz
-...
-sublime_text_build_4152_ 100%[==================================&gt;]  15,69M  1,23MB/s    in 14s
-
-$ wget https://download.sublimetext.com/sublime_text_build_4152_x64.tar.xz.asc
-...
-sublime_text_build_4152_ 100%[==================================&gt;]     819  --.-KB/s    in 0s
-</code></pre><h2 id="verifizieren-des-downloads">Verifizieren des Downloads</h2>
-<p>Als letzter Schritt werden die heruntergeladenen Dateien mit Hilfe des öffentlichen Schlüssels verifiziert</p>
-<pre tabindex="0"><code>$ gpg --homedir ./ --verify sublime_text_build_4152_x64.tar.xz.asc sublime_text_build_4152_x64.tar.xz
-...
-gpg: Signatur vom Mi 30 Aug 2023 04:50:56 CEST
-gpg:                mittels RSA-Schlüssel F57D4F59BD3DF454
-gpg: Korrekte Signatur von &#34;Sublime HQ Pty Ltd &lt;support@sublimetext.com&gt;&#34; [unbekannt]
-gpg: WARNUNG: Dieser Schlüssel trägt keine vertrauenswürdige Signatur!
-gpg:          Es gibt keinen Hinweis, daß die Signatur wirklich dem vorgeblichen Besitzer gehört.
-Haupt-Fingerabdruck  = 1EDD E2CD FC02 5D17 F6DA  9EC0 ADAE 6AD2 8A8F 901A
-Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
-</code></pre><p>Der Fingerabdruck ist leider nicht direkt auf der Download-Seite hinterlegt, findet sich aber im <a href="https://forum.sublimetext.com/t/linux-install-add-the-gpg-key-fingerprint-at-least-on-https-www-sublimetext-com-docs-3-linux-repositories-html/32147/4"   class="genericon icon-extlink">Forum</a>:</p>
-<blockquote>
-<ul>
-<li>Non-RPM key: 1EDD E2CD FC02 5D17 F6DA 9EC0 ADAE 6AD2 8A8F 901A</li>
-<li>RPM key: 1B64 2796 75A4 299D CFC7 0858 CA46 4A9A 222D 23D0</li>
-</ul>
-</blockquote>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/sublime-text">Sublime Text</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/audio/amanda-marshall-heavy-lifting/" rel="bookmark" title="Link zu Amanda Marshall - Heavy Lifting">Amanda Marshall - Heavy Lifting</a></h1><div class="meta">
-	<span class="genericon icon-calendar">2. September 2023</span> ·
+		<h1 class="post-title"><a href="/musik/audio/elida-almeida-di-londji/" rel="bookmark" title="Link zu Elida Almeida - Di Londji">Elida Almeida - Di Londji</a></h1><div class="meta">
+	<span class="genericon icon-calendar">9. Oktober 2023</span> ·
 		<span class="genericon icon-category"><a href="/category/audio/">Audio</a></span> ·
 		<span class="genericon icon-author"><a href="/author/klaus-seiler/">Klaus Seiler</a></span>
 
@@ -170,40 +110,22 @@ Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
 	</div></div>
 
 	<div class="post-body">
-	<p><img src="/musik/audio/amanda-marshall-heavy-lifting/cover.jpg" class="alignleft" width="160" height="160" alt="Cover" />Amanda Marshall? Da war doch mal was, irgendwann vor langer langer Zeit. Die etwas älteren Leute werden sich noch erinnern können: Mitte der 1990er Jahre mischte eine junge Kanadierin mit rockigen Pop-Songs (&ldquo;Let It Rain&rdquo; / &ldquo;Birmingham&rdquo;) die Pop-Welt auf. Mit markanten Songs und markanter Stimme. Und genau diese markante Stimme macht das neue Album (nach gut 20 Jahren) nach wenigen Augenblicken schon im Opener klar erkennbar. Zumindest für die Leute, die eben Miss Marshall noch gut kennen.</p>
-<p>Das Coverpic mit dem Ghetto-Blaster aus den 1980er Jahren zeigt bereits, wohin die Reise geht: back to the past. Die Produktion ist den &ldquo;modernen&rdquo; Pop-Rock-Zeiten etwas angepasst, aber moderat und ohne daß man von &ldquo;überproduziert&rdquo; reden könnte. Bei Songs wie &ldquo;I&rsquo;m Not Drunk&rdquo; muss man allerdings ein wenig ausblenden, daß die Frau bereits 51 Lenze zählt. Obwohl der Song nicht schlecht tönt, klingt er ein klein wenig zu sehr nach Shania Twain mit ihrer seltsamen &ldquo;Forever Young-Attitüde&rdquo;. Da passt es gut, daß der darauf folgende Song &ldquo;I Built This House&rdquo; wieder in rockige Gefilde mit coolem Saxophon driftet.</p>
-<p>Insgesamt ein sehr gelungenes Album vor allem für all diejenigen, welche Amanda Marshall schon vor langer Zeit mochten und die von ihr auf eine musikalische Reise zu ihren Wurzeln mitgenommen werden möchten. Schön retro, schön vintage.</p>
+	<p><img src="/musik/audio/elida-almeida-di-londji/cover.jpg" class="alignleft" width="160" height="160" alt="Cover" />Elida Almeida wird recht oft als &ldquo;legitime&rdquo; Nachfolgerin der von mir sehr verehrten Cesária Évora, der &ldquo;Königin der Kapverden und des Morna&rdquo; verstanden. Ein Vergleich, der jedoch ein ganz klein wenig hinkt, denn trotz aller Qualitäten der Frau und des Albums aus 2023 braucht sie noch ein wenig, um in die wirklich großen Fußstapfen der in 2011 verstorbenen Großmeisterin zu treten.</p>
+<p>Dennoch, sie gehört zu einer Garde von jungen, aufstrebenden Sängerinnen der Kapverden, die auf diesen Inseln wie auch in Portugal und Spanien fast schon Superstar-Status genießen.</p>
+<p>Aber zu dem Album: der Stil nennt sich grob Funaná, ein Genre der Kapverden, welches in aller Regel fröhlich-heiter-beschwingt daherkommt und sehr tanzbar ist. Und da passt die leicht rauchige, ausdrucksstarke Stimme von Elida Almeida wie die berühmte Faust aufs Auge.</p>
+<p>Was den Songs auf dem Album in aller Regel fehlt, ist dieser dem Morna eigene Fado-Einschlag, der manche Songs bittersüß-melancholisch klingen lässt und den besagte Cesária Évora wiederum beherrschte wie keine andere.</p>
+<p>Aber das muss hier auch keinesfalls sein, denn hier geht es um Fröhlichkeit und Heiterkeit, sozusagen Musik der Kapverden in Pastellfarben, welche Sie bereits auf dem Vorgängeralbum &ldquo;Gerasonobu&rdquo; trefflich präsentierte und welches noch eine Spur mehr an &ldquo;Afro-Vibes&rdquo; aufwies.</p>
+<p>&ldquo;Di Lonji&rdquo; ist für mich schlicht sowas sie DAS Sommeralbum in diesem Jahr und ein kleines Highlight in meinem Garten der sog. &ldquo;Weltmusik&rdquo;.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/amanda-marshall">Amanda Marshall</a> <span class="genericon icon-tag"></span><a href="/tag/cd">CD</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/cd">CD</a> <span class="genericon icon-tag"></span><a href="/tag/elida-almeida">Elida Almeida</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-107-adorned-graves-rheingold/" rel="bookmark" title="Link zu Hörenswert #107: Adorned Graves - Rheingold">Hörenswert #107: Adorned Graves - Rheingold</a></h1><div class="meta">
-	<span class="genericon icon-calendar">29. August 2023</span> ·
-		<span class="genericon icon-category"><a href="/category/hoerenswert/">Hörenswert</a></span> ·
-		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><a href="https://adornedgraves.bandcamp.com/track/rheingold"  ><img src="/img/link/bandcamp-link.jpg"  width="336" height="216"  /></a></p>
-<p><span class="band">Adorned Graves</span> aus Kaiserslautern haben mit &ldquo;<a href="https://adornedgraves.bandcamp.com/album/the-earth-hath-opened-her-mouth"   class="genericon icon-extlink">The Earth hath opened her Mouth</a>&rdquo; kürzlich ihre vierte Scheibe veröffentlicht. Der Song &ldquo;Rheingold&rdquo; ist der für mich stärkste Song des Vorgängers &ldquo;<a href="https://adornedgraves.bandcamp.com/album/being-towards-a-river"   class="genericon icon-extlink">Being Towards A River</a>&rdquo;.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/adorned-graves">Adorned Graves</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/misc/imho/microsoft-rewards/" rel="bookmark" title="Link zu Microsoft Rewards">Microsoft Rewards</a></h1><div class="meta">
-	<span class="genericon icon-calendar">25. August 2023</span> ·
+		<h1 class="post-title"><a href="/misc/imho/bitmap-books-verpackt-richtig-gut/" rel="bookmark" title="Link zu Bitmap Books verpackt richtig gut">Bitmap Books verpackt richtig gut</a></h1><div class="meta">
+	<span class="genericon icon-calendar">6. Oktober 2023</span> ·
 		<span class="genericon icon-category"><a href="/category/imho/">IMHO</a></span> ·
 		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
@@ -213,29 +135,35 @@ Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
 	</div></div>
 
 	<div class="post-body">
-	<p>Neulich beim Öffnen von Microsoft Edge:</p>
-<img src="/misc/imho/microsoft-rewards/microsoft-rewards.png" class="aligncenter" width="580" height="205" alt="Microsoft Rewards" />
-<p>Vielleicht sehe ich ja einfach nicht den Vorteil, aber kann mir jemand erklären, warum ich bei</p>
-<blockquote>
-<p>Erhalten Sie Belohnungen - Mit Microsoft Rewards sammeln Sie, während Sie suchen und im Internet surfen.</p>
-</blockquote>
-<p>mitmachen sollte? Für was brauche ich <a href="https://www.microsoft.com/de-de/rewards"   class="genericon icon-extlink">Microsoft Rewards</a> und warum sammle ich die, während ich suche (wahrscheinlich nur mit Bing?) oder im Internet surfe?</p>
-<blockquote>
-<p>Sammeln Sie Prämien für sich selbst oder für eine Spende Ihrer Wahl – ganz einfach, indem Sie bei Microsoft suchen, shoppen oder spielen. Belohnen Sie sich und tun Sie Gutes: Es kostet nichts und macht Spaß.</p>
-</blockquote>
-<p>Daß &ldquo;kostet nichts&rdquo; <del>glatt gelogen</del> absichtlich missverständlich ausgedrückt ist, dürfte klar sein: die Teilnehmer zahlen mit ihren Daten - was sie wann, wo und von wo aus (be)suchen, wie lange sie dort verweilen und wohin die virtuelle Reise als Nächstes geht. Erteile ich damit wenigstens nachträglich die offizielle Einverständniserklärung zu &ldquo;<a href="https://www.theverge.com/2023/4/25/23697532/microsoft-edge-browser-url-leak-bing-privacy"   class="genericon icon-extlink">Microsoft Edge is leaking the sites you visit to Bing</a>&rdquo;?</p>
-<p>Man muss aber bestimmt kein schlechtes Gefühl beim Mitmachen haben - Millionen <a href="https://de.wikipedia.org/wiki/Payback_%28Bonusprogramm%29"   class="genericon icon-extlink">Payback</a>-Kunden möchten ja auch keine Privatsphäre.</p>
+	<p>Eigentlich könnte die Einleitung von &ldquo;<a href="/misc/imho/verpackung-bei-jpc/"  >Verpackung bei JPC</a>&rdquo; auch genau so über diesem Beitag stehen, denn die letzten Buchlieferungen von Amazon sahen auch so aus, daß bei Ankunft vom bestellten Zustand &ldquo;neu&rdquo; nur wenig geblieben war: entweder frei in einer viel zu großen Kiste fliegend oder in einen labbrigen Pappumschlag gequetscht, waren die Cover zerkratzt und die Ecken angestoßen.</p>
+
+<div id="gallery-bitmap-books-verpackt-richtig-gut" class="gallery">
+
+			<a href="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_1.jpg" data-caption="Verpackung außen (01/03)">
+				<img src="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_1_thumb.jpg" alt="Verpackung außen" width="160" height="160" />
+			</a>
+
+			<a href="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_2.jpg" data-caption="Verpackung innen (02/03)">
+				<img src="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_2_thumb.jpg" alt="Verpackung innen" width="160" height="160" />
+			</a>
+
+			<a href="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_3.jpg" data-caption="Inhalt (03/03)">
+				<img src="/misc/imho/bitmap-books-verpackt-richtig-gut/bitmap-books_3_thumb.jpg" alt="Inhalt" width="160" height="160" />
+			</a>
+
+	</div>
+<p>Nachdem der örtliche Buchhandel nicht weiterhelfen konnte, habe ich das sehr lesenswerte Buch von <a href="https://www.gamesthatwerent.com/"   class="genericon icon-extlink">Games That Weren&rsquo;t</a> <a href="https://www.bitmapbooks.com/products/the-games-that-werent"   class="genericon icon-extlink">direkt beim Verlag</a> bestellt und war von der Verpackung mehr als angenehm überrascht &hellip; fast schon zu schade zum Auspacken.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/microsoft-edge">Microsoft Edge</a> <span class="genericon icon-tag"></span><a href="/tag/microsoft-rewards">Microsoft Rewards</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bitmap-books">Bitmap Books</a> <span class="genericon icon-tag"></span><a href="/tag/verpackung">Verpackung</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/verschiedenes/urlaubsimpression-x/" rel="bookmark" title="Link zu Urlaubsimpression X">Urlaubsimpression X</a></h1><div class="meta">
-	<span class="genericon icon-calendar">20. August 2023</span> ·
-		<span class="genericon icon-category"><a href="/category/verschiedenes/">Verschiedenes</a></span> ·
+		<h1 class="post-title"><a href="/technik/programmierung/the-url-is-not-dav-enabled-or-not-accessible/" rel="bookmark" title="Link zu The URL is not DAV enabled or not accessible">The URL is not DAV enabled or not accessible</a></h1><div class="meta">
+	<span class="genericon icon-calendar">3. Oktober 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/programmierung/">Programmierung</a></span> ·
 		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
 		·
@@ -244,13 +172,57 @@ Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
 	</div></div>
 
 	<div class="post-body">
-	<span id="-musik-verschiedenes-urlaubsimpression-x-marstall-jpg"><a href="/musik/verschiedenes/urlaubsimpression-x/marstall.jpg" data-caption="Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson."><img src="/musik/verschiedenes/urlaubsimpression-x/marstall.jpg"  width="768" height="576" alt="Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson." /></a></span>
-<p>In der <a href="https://www.galerie-im-marstall.de/"   class="genericon icon-extlink">Galerie im Marstall</a> in Ahrensburg gastiert vom 07. Juli bis 29. September 2023 eine Ausstellung mit dem sperrigen Namen &ldquo;Hipgnosis: Album Cover Art &amp; Photo Design By Aubrey Powell &amp; Storm Thorgerson. Celebrating 50 Years The Dark Side of The Moon&rdquo;</p>
-<p>Auch wenn sich der überwiegende Teil der Ausstellung mit dem Schaffen für <span class="band">Pink Floyd</span> beschäftigt, gibt es noch zahlreiche andere Werke zu bewundern, die z.B. für Peter Gabriel, <span class="band">Led Zeppelin</span> oder Herman Rarebell geschaffen wurden.</p>
+	<p>Nach dem Wechsel des <a href="https://de.wikipedia.org/wiki/Reverse_Proxy"   class="genericon icon-extlink">Reverse-Proxys</a> war ein mit <a href="https://metacpan.org/pod/HTTP::DAV"   class="genericon icon-extlink">HTTP::DAV</a> arbeitendes Perl-Skript nicht mehr in der Lage, Daten abzurufen. Die Fehlermeldung war alles andere als aussagekräftig:</p>
+<pre tabindex="0"><code>The URL &#34;...&#34; is not DAV enabled or not accessible.
+</code></pre><p>Auch eine Erhöhung des DebugLevels von 0 (&ldquo;off&rdquo;) auf 3 (&ldquo;noisy&rdquo;) brachte keine weiteren Erkenntnisse, so daß manuelle Fehlersuche angesagt war. Da weder am Server noch am Skript Änderungen vorgenommen wurden, konzentrierte sich die Suche auf den Reverse-Proxy</p>
+<p>Letztendlich lag der Fehler an einem fehlenden Intermediate-<a href="https://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure#Zertifikat"   class="genericon icon-extlink">Zertifikat</a> des <a href="https://de.wikipedia.org/wiki/Trustcenter"   class="genericon icon-extlink">Trustcenters</a> auf dem Reverse-Proxy. Nach dem Hinzufügen des fehlenden Zertifikats funktionierten die Zugriffe wieder wie erwartet.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/urlaubsimpression">Urlaubsimpression</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/perl">Perl</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-108-subsignal-sliver-the-sheltered-garden/" rel="bookmark" title="Link zu Hörenswert #108: Subsignal - Sliver (The Sheltered Garden)">Hörenswert #108: Subsignal - Sliver (The Sheltered Garden)</a></h1><div class="meta">
+	<span class="genericon icon-calendar">29. September 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/hoerenswert/">Hörenswert</a></span> ·
+		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><a href="https://www.youtube.com/watch?v=e-uGHBrHMEQ"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216"  /></a></p>
+<p>Vor genau einer Woche ist das neue Werk von <span class="band">Subsignal</span> &ldquo;A Poetry Of Rain&rdquo; erschienen. Mein aktueller Ohrwurm aus dem Album ist das oben verlinkte &ldquo;Sliver (The Sheltered Garden)&rdquo;</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/subsignal">Subsignal</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/misc/fundstuecke/rammstein-auto-exchange/" rel="bookmark" title="Link zu Ram(m)stein Auto Exchange">Ram(m)stein Auto Exchange</a></h1><div class="meta">
+	<span class="genericon icon-calendar">24. September 2023</span> ·
+		<span class="genericon icon-category"><a href="/category/fundstuecke/">Fundstücke</a></span> ·
+		<span class="genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Im Zeitraum von 1993-1997 verkaufte Volkswagen den <a href="https://de.wikipedia.org/wiki/Volkswagen_Golf_III#Golf_Sondermodelle:_Logos"   class="genericon icon-extlink">Golf mit verschiedenen Bandlogos</a> wie z.B. <span class="band">Pink Floyd</span>, <span class="band">Rolling Stones</span> oder <span class="band">Bon Jovi</span>.</p>
+<span id="-misc-fundstuecke-rammstein-auto-exchange-auto-exchange-jpg"><a href="/misc/fundstuecke/rammstein-auto-exchange/auto-exchange.jpg" data-caption="Rammstein Auto Exchange"><img src="/misc/fundstuecke/rammstein-auto-exchange/auto-exchange.jpg"  width="768" height="576" alt="Rammstein Auto Exchange" /></a></span>
+<p>Das am 13. Juni 2005 aufgenommene Werbeschild der Rammstein Auto Exchange hat allerdings keinen Bezug zur <a href="https://de.wikipedia.org/wiki/Rammstein"   class="genericon icon-extlink">Band</a>. Seit deren Bekanntwerden passiert es aber <a href="/tag/rammstein/"  >häufiger</a>, daß der Stadt <a href="https://de.wikipedia.org/wiki/Ramstein"   class="genericon icon-extlink">Ramstein</a> ein zusätzliches &ldquo;m&rdquo; spendiert wird - offensichtlich auch von lokalen Händlern. Da wäre ein Blick auf&rsquo;s Ortsschild hilfreich gewesen &hellip;</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/rammstein">Ram(m)stein</a></div>
 
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
@@ -261,11 +233,12 @@ Unter-Fingerabdruck  = E359 79B8 96E9 9725 6457  C632 F57D 4F59 BD3D F454
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/229/" class="page-numbers">229</a>
+	<a href="/page/231/" class="page-numbers">231</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav><script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#-musik-verschiedenes-urlaubsimpression-x-marstall-jpg');});
+		baguetteBox.run('#gallery-bitmap-books-verpackt-richtig-gut');
+		baguetteBox.run('#-misc-fundstuecke-rammstein-auto-exchange-auto-exchange-jpg');});
 </script>
 		</div></div>
 
