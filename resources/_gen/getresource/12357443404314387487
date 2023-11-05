@@ -1,21 +1,20 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
+Access-Control-Allow-Headers: Content-Type, Authorization
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length
 Connection: keep-alive
-Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'
 Content-Type: text/html; charset=utf-8
 Cross-Origin-Opener-Policy: same-origin
-Date: Mon, 09 Oct 2023 19:51:06 GMT
+Date: Sun, 05 Nov 2023 21:09:01 GMT
 Referrer-Policy: same-origin
 Server: nginx
-Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
 Vary: Cookie
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Frame-Options: SAMEORIGIN
-X-Xss-Protection: 1; mode=block
 
-ff90
+f579
 
 
 <!DOCTYPE html>
@@ -52,11 +51,11 @@ This page provides an overview of Manjaro Linux, an open source operating system
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         
 
-<link rel="preload" href="/static/css/styles.9b54975c8755.css" as="style">
+<link rel="preload" href="/static/css/styles.6968dc5da465.css" as="style">
 
         
 
-<link rel="stylesheet" href="/static/css/styles.9b54975c8755.css">
+<link rel="stylesheet" href="/static/css/styles.6968dc5da465.css">
 
 
 
@@ -162,7 +161,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-blog"></i>
                 Blog
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">check latest news</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">latest news</span>
               </a>
             </li>
             
@@ -173,7 +172,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-server"></i>
                 mirrors
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">check repositories state</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">repositories state</span>
               </a>
             </li>
             
@@ -184,7 +183,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-users-between-lines"></i>
                 team
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Meet the team</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Meet us</span>
               </a>
             </li>
             
@@ -195,7 +194,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-signal"></i>
                 Status
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Servicies status</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Server status</span>
               </a>
             </li>
             
@@ -206,7 +205,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-handshake-angle"></i>
                 volunteer
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Help improve Manjaro</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Help the project</span>
               </a>
             </li>
             
@@ -231,7 +230,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-video"></i>
                 Videos
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Manjaro interviews</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Interviews</span>
               </a>
             </li>
             
@@ -242,7 +241,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-shapes"></i>
                 software
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">discover available programs</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">discover software</span>
               </a>
             </li>
             
@@ -253,7 +252,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-box"></i>
                 packages
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">search packages and compare versions</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">search branch packages</span>
               </a>
             </li>
             
@@ -278,7 +277,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-regular fa-comment"></i>
                 forum
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Share knowledge with other users</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Share knowledge</span>
               </a>
             </li>
             
@@ -289,7 +288,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-regular fa-file"></i>
                 wiki
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">community made encyclopedia</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">knowledge base</span>
               </a>
             </li>
             
@@ -300,7 +299,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-book"></i>
                 docs
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">official documentation</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Documentation</span>
               </a>
             </li>
             
@@ -311,7 +310,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-person-circle-exclamation"></i>
                 Mini tutorials
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Community made tutorials</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">Community tutorials</span>
               </a>
             </li>
             
@@ -322,7 +321,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-sheet-plastic"></i>
                 CheatSheet
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">know your manjaro commands</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">manjaro commands</span>
               </a>
             </li>
             
@@ -347,7 +346,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-people-carry-box"></i>
                 sponsors
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">meet our sponsors</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">meet sponsors</span>
               </a>
             </li>
             
@@ -358,7 +357,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
                 class="w-full pl-16 pr-3 py-2 block tracking-wide text-blue-gray-700 hover:text-teal-800 hover:bg-teal-accent-400">
                 <i class="fa-solid fa-handshake"></i>
                 partners
-                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">meet our partners</span>
+                <span class="block text-xs text-blue-gray-600 hover:text-teal-600">meet partners</span>
               </a>
             </li>
             
@@ -397,9 +396,9 @@ This page provides an overview of Manjaro Linux, an open source operating system
   </form>
   </div>
 
-  <div id="mobile-menu" class="mt-[50px] z-[30] max-w-50 fixed top-0 left-0 h-[100vh] lg:h-auto translate-x-[-150%] lg:translate-x-0 transition-transform duration-500 shadow-md will-change-transform transform-gpu">
+  <div id="mobile-menu" class="mt-[50px] z-50 max-w-full right-0 fixed top-0 left-0 h-[100vh] lg:h-auto translate-x-[-150%] lg:translate-x-0 transition-transform duration-500 shadow-md will-change-transform transform-gpu">
     <div class="px-2 shadow-lg bg-gradient-to-b from-teal-accent-400 to-teal-accent-700 h-[100vh] font-bold text-gray-200 capitalize text-center">
-      <nav class="overflow-y-scroll h-[100vh] pb-16 px-2">
+      <nav class="overflow-y-scroll h-[100vh] pb-16 px-2 max-w-sm mx-auto">
         <ul class="py-2">
           
           
@@ -622,9 +621,6 @@ This page provides an overview of Manjaro Linux, an open source operating system
 
         <main class="min-h-[calc(100vh-82px)] ">
           
-
-
-
 <div class="relative h-full w-full bg-cover bg-right-bottom bg-no-repeat overflow-hidden pb-10 lg:pb-0">
   <div class="bg-teal-accent-400 absolute h-full clip w-full"></div>
   <svg viewBox="0 0 88 88" class="text-teal-200 absolute w-full hidden lg:block right-0">
@@ -635,98 +631,78 @@ This page provides an overview of Manjaro Linux, an open source operating system
     <circle fill-opacity="0.3" fill="currentColor" cx="44" cy="44" r="22.5"></circle>
   </svg>
 
-  <div class="flex relative justify-items-center mx-auto max-w-screen-xl px-4 lg:min-h-screen">
-        
+  <div class="flex flex-wrap lg:flex-nowrap relative justify-items-center mx-auto max-w-screen-xl px-4 pb-4 lg:min-h-screen">
     <div id="promo" class="flex flex-col gap-10 items-center justify-between lg:flex-row w-full z-[2] relative">
-
-      <div class="lg:w-1/2 text-teal-900 font-bold">
-        <h1 class="mb-6 mt-16 font-extrabold text-[2.2rem] tracking-tight leading-none text-left">
+      <div class="px-1 text-teal-900 font-bold">
+        <h1 class="text-center lg:text-left mb-6 mt-20 lg:mt-0 font-extrabold text-[2.2rem] tracking-tight leading-none">
           <span class="uppercase">
             Manjaro empowering devices and users</span>
         </h1>
         <p class="mb-4 text-left font-semibold">
-          Manjaro is a free and open source Linux operating system that emphasizes user privacy and control of their hardware. It is user-friendly and suitable for those new to computers, and can be installed on a wide range of devices. Architectures supported include x86-64 and ARM, making it a great choice for any device or computing environment. Manjaro provides numerous customization options and applications, as well as security and privacy features, It also offers several graphical user interfaces.
+          Manjaro is a versatile, free, and open-source Linux operating system designed with a strong focus on safeguarding user privacy and offering extensive control over hardware. This user-friendly OS is an excellent choice for those who seek a fresh computing experience, as it can be seamlessly installed on a diverse array of devices. With support for both x86-64 and ARM architectures, Manjaro stands as an ideal option for any device or computing environment.
+
+Furthermore, Manjaro provides an array of customization options and a rich selection of applications, all while prioritizing security and privacy features. To cater to a wide audience.
         </p>
-        <div class="grid gap-5 row-gap-10 mx-auto">
-          <div class="flex flex-col justify-center">
-            <div class="flex flex-wrap md:gap-4 capitalize">
-              <ul class="font-semibold pr-6">
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Plug & Play Hardware
-                </li>
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Rolling release
-                </li>
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Wide range of software
-                </li>
-              </ul>
-
-              <ul class="font-semibold">
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Secure by default
-                </li>
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Lightning fast
-                </li>
-                <li class="flex p-1 pl-0">
-                  <span class="mr-1">
-                    <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
-                  </span>
-                  Easily installed
-                </li>
-              </ul>             
-            </div>
-            <a id="download-btn" href="https://manjaro.org/download/"
-                class="hidden mt-6 lg:block shadow capitalize lg:mt-6 w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
-                <i class="fa-solid fa-circle-arrow-down"></i>
-                get manjaro
-              </a> 
-          </div>
-        </div>
+        
       </div>
+    </div>
+    <div class="grid gap-5 row-gap-10 mx-auto w-full px-1">
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex md:gap-4 capitalize lg:mb-6">
+          <ul class="font-semibold pr-6">
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Plug & Play Hardware
+            </li>
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Rolling release
+            </li>
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Wide range of software
+            </li>
+          </ul>
 
-      
-      <div class="relative flex flex-col w-full lg:w-2/3 justify-end pb-20 lg:pb-0">
-        <picture class="self-start px-[20%] pb-4 lg:pb-6 mx-auto">
-          <img alt="device" class="object-contain promo-glow" height="410" src="/media/images/slimbook.width-420.format-webp.webp" width="415">
-        </picture>
+          <ul class="font-semibold">
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Secure by default
+            </li>
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Lightning fast
+            </li>
+            <li class="flex p-1 pl-0">
+              <span class="mr-1">
+                <i class="text-sm fa-solid fa-circle w-5 h-5 mt-px text-teal-700"></i>
+              </span>
+              Easily installed
+            </li>
+          </ul>             
+        </div>
         <div>
-          <div class="p-5 relative text-gray-200 bg-blue-gray-800 px-4 md:rounded shadow group hover:shadow-2xl">
-            <a id="promo-btn" href="https://slimbook.es/en/store/titan/titan-2-comprar" target="_blank"
-              class="leading-none absolute top-4 right-5 shadow-md text-sm rounded py-2 px-4 capitalize font-bold tracking-wide text-white bg-pink-600 focus:shadow-outline focus:outline-none">
-              <i class="fa-solid fa-circle-info"></i>
-              details
-            </a>
-            <h2 class="pb-4 font-bold capitalize"><i class="fa-solid fa-star mr-2 text-amber-600"></i>
-              Slimbook Titan
-            </h2>
-            <p class="text-xs">
-              The Slimbook Titan is a high-performance laptop designed for power users and professionals. Equipped with the latest processors, high-end graphics cards, and fast storage, this laptop delivers exceptional performance for demanding tasks. Its sleek and modern design makes it a stylish choice for anyone in need of a powerful laptop.
-            </p>
-          </div>
+          <a id="download-btn" href="https://manjaro.org/download/"
+          class="hidden lg:block shadow capitalize w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+          get manjaro
+        </a> 
         </div>
       </div>
-      
     </div>
   </div>
 
-  <a href="#manjaro" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
+  <a href="#desktops" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-6 h-[56px] left-[50%] translate-x-[-50%]"
     aria-label="scroll">
     <div class="chevron-container">
       <div class="chevron"></div>
@@ -737,9 +713,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
 </div>
 
 
-
-
-<div id="manjaro" class="h-full bg-cover relative z-0 bg-blue-gray-800 pb-10 lg:pb-0">
+<div id="desktops" class="h-full bg-cover relative z-0 bg-blue-gray-800 pb-10 lg:pb-0">
 
   <div class="w-full justify-center lg:flex relative">
     <img src="/static/img/dark-woble.02708e7af716.svg" alt="wobble"
@@ -759,155 +733,44 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </svg>
   </div>
 
-  <div id="manjaro" class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
+  <div class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
     <h3
-      class="w-full uppercase mb-6 lg:mt-20 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="w-full uppercase mt-2 lg:mt-20 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
       <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
         <i class="fa-solid fa-list-check"></i>
       </span>
-      Do any task in Manjaro
+      desktops
     </h3>
-    <div class="flex flex-col gap-4 lg:flex-row">
-      <div class="mx-auto w-full lg:max-w-screen-xl md:px-4">
-        <div class="relative grid gap-4 lg:grid-cols-2 text-gray-800">
-          <div 
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa fa-heart mr-4 text-red-700"></i>Open Source<h4>
-              <p class="text-sm leading-5">
-                Choose a desktop user interface to create your ideal computing environment.
-                With Manjaro, you can easily install a plethora of 
-                <a target="_blank" id="open-source" class="link" href="https://opensource.com/resources/what-open-source">open source</a>
-                 software, utilizing either native packages,
-                <a target="_blank" id="flatpak" class="link" href="https://docs.flatpak.org/en/latest/introduction.html">Flatpak</a> or 
-                <a target="_blank" id="snap" class="link" href="https://ubuntu.com/core/services/guide/snaps-intro">Snap packages</a>. 
-                Additionally, you can take advantage of the 
-                <a target="_blank" id="aur" class="link" href="https://wiki.archlinux.org/title/Arch_User_Repository">Arch User Repository</a>
-                to build your own customized packages. Manjaro provides the ultimate flexibility and control over your computing experience.
-              </p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
+    <div class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-screen-xl">
+          <div class="mb-6">
+            <h2 class="max-w-full text-center lg:text-left mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+              Multiple interfaces
+            </h2>
+            <p class="text-base md:text-lg">
+              Choose your favorite desktop environment from a range of popular options, including Plasma, Gnome and XFCE. Additionally explore various community editions like Cinnamon, Mate and more to customize your desktop experience further.
+            </p>
           </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-plug mr-4 text-teal-400"></i>Compatibility</h4>
-              <p class="text-sm leading-5">
-                Boost older hardware or fully harness the capabilities of the latest hardware. Manjaro is powered by the robust 
-                <a target="_blank" id="linux" class="link" href="https://en.wikipedia.org/wiki/Linux_kernel">Linux kernel</a> and supports touchscreens, sound cards, graphics cards, and peripherals out of the box, without the need to search for 
-                <a target="_blank" id="drivers" class="link" href="https://en.wikipedia.org/wiki/Device_driver">drivers</a>
-                 from manufacturers. This means you can enjoy a hassle-free experience with Manjaro, focusing on your work or leisure activities rather than dealing with tedious driver installations.
-                  </p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
+          <div>
+            <a id="download-btn" href="https://manjaro.org/download/"
+            class="hidden lg:block shadow capitalize w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
+            <i class="fa-solid fa-circle-arrow-down"></i>
+            get manjaro
+          </a> 
           </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-envelopes-bulk mr-4 text-teal-400"></i>Office</h4>
-              <p class="text-sm leading-5">
-                Effortlessly tackle any office task with the comprehensive office suites available.
-                 These suites support multiple document formats and adhere to document format standards, ensuring compatibility and ease of use.
-                 In addition, Manjaro offers a range of email clients, allowing you to stay on top of your email inbox and communication needs. Stay organized, productive, and efficient.</p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-gamepad mr-4 text-teal-400"></i>Gaming</h4>
-              <p class="text-sm leading-5">
-                Seamless gaming experience with the option to play native games using Steam
-                 or Lutris.
-                 You can also emulate other game platforms with Steam Proton or Wine.
-                Retro gaming enthusiasts can enjoy playing their favorite classic games using the various retro emulators available on the platform.
-                Simplified media consumption with the ability to play media or video content, and even set up a dedicated media center.
-                Additionally, connecting controllers is made easy with support for both USB and Bluetooth controllers.</p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-pen mr-4 text-teal-400"></i>Creativity</h4>
-              <p class="text-sm leading-5">
-                Unleash your creativity and bring your design projects to life.
-                Design graphics and vector art using Inkscape or GIMP, or create 3D models with Blender or FreeCAD.
-                When you're ready to print your 3D designs, use Prusa Slicer to simplify the process. 
-                You can also edit your videos using popular software options like KDE-Live or OpenShot. 
-                For content creators Open Broadcast Software (OBS) for recording and streaming videos.
-                Take your designs and video content to the next level.
-              </p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-server mr-4 text-teal-400"></i>DevOps</h4>
-              <p class="text-sm leading-5">
-             Take full control of your projects by utilizing the powerful git version control system.
-             In addition, the platform offers robust virtualization capabilities, enabling you to deploy and run virtual machines with ease.
-             Simplified containerization with the ability to manage Docker or Kubernetes instances.
-              You can remotely access, configure, and administer your machines via various protocols such as SSH, VNC, RDP, or Telnet,
-               giving you unparalleled flexibility and control over your computing environment. Streamline your development workflows and achieve greater productivity.</p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-code mr-4 text-teal-400"></i>Development</h4>
-              <p class="text-sm leading-5">
-                Manjaro offers a versatile platform for software development with support for many programming language.
-                 You can build software and user interfaces using your preferred programming language and test on the latest software with a rolling release model.
-                 The platform also provides access to a range of popular text editors, including Visual Studio Code,
-                 PyCharm, and Sublime Text. For more complex development projects, you can run a comprehensive integrated development environment (IDE) such as Eclipse or Apache NetBeans.
-                 Bring your software development projects to life.</p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <div
-            class="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-gray-200 rounded shadow group hover:shadow-2xl">
-            <div class="py-2 px-4">
-              <h4 class="mb-2 font-bold"><i class="fa-solid fa-walkie-talkie mr-4 text-teal-400"></i>Communication</h4>
-              <p class="text-sm leading-5">
-               Stay connected with your team in real-time using a variety of communication tools.
-                Conduct chat or video meetings seamlessly using Mattermost, Slack, Telegram.
-                The platform offers a vast selection of communication tools to suit your team's specific needs.
-                Easily collaborate and communicate with your team, no matter where you are located.
-                Stay connected, stay productive, and achieve your goals.</p>
-            </div>
-            <div
-              class="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-teal-accent-400 group-hover:scale-x-100">
-            </div>
-          </div>
-          <a id="features" href="/features/"
-            class="self-end mb-12 border font-bold leading-none inline-block text-xs rounded py-2 px-4 capitalize tracking-wide w-max shadow text-teal-500 bg-gray-200">
-            <i class="fa-solid fa-circle-info"></i>
-            More Features
-          </a>
+        </div>
+        <div class="flex items-center justify-center">
+            <img
+              class="object-contain mb-6 rounded drop-shadow-lg"
+              src="/static/img/desktops.0bc083ae5657.webp?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt=""
+            />
         </div>
       </div>
     </div>
-
-
   </div>
-  <a href="#software" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
+  <a href="#software" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-6 h-[56px] left-[50%] translate-x-[-50%]"
     aria-label="scroll">
     <div class="chevron-container">
       <div class="chevron"></div>
@@ -917,11 +780,11 @@ This page provides an overview of Manjaro Linux, an open source operating system
   </a>
 </div>
 
-<div id="software" class="h-full xl:min-h-[100vh] bg-cover relative z-0 pb-10 lg:pb-0">
-  <div class="bg-teal-accent-400 absolute h-full w-full z-[-1]">
+<div id="software" class="relative lg:min-h-[100vh] flex justify-center">
+  <div class="bg-teal-accent-400 absolute h-full w-full">
     <div class="w-full justify-center lg:flex relative">
       <img src="/static/img/green-woble.3e5970c0cd4b.svg" alt="wobble"
-        class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl z-[-1]">
+        class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl">
     </div>
     <div class="relative overflow-hidden h-full w-full">
       <svg class="text-gray-300 absolute hidden md:block right-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
@@ -938,83 +801,111 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 
   </div>
-  <div class="text-teal-900 px-4 relative flex flex-col justify-center lg:min-h-screen mx-auto w-full max-w-screen-xl">
+  <div class="text-teal-900 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
     <h3
-      class="w-full uppercase mb-4 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
-      <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
-        <i class="fa-brands fa-linux"></i>
+      class="w-full uppercase mt-2 lg:mt-20 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      <span class="flex items-center justify-center text-xl mr-2 w-12 h-12 rounded-full bg-yellow-accent-700">
+        <i class="fa-solid fa-list-check"></i>
       </span>
-      promotional software
+      Software
     </h3>
-    <div class="flex items-center justify-center ">
-      
-      <div class="flex flex-wrap gap-12 items-baseline justify-center pb-8">
-        
-        
-        <div class="overflow-hidden max-w-full md:max-w-sm">
-          
-          <img src="/media/images/shells.width-380.format-webp.webp" class="object-contain w-full h-64" width="380" height="auto" alt="shells" />
-          <div class="w-full text-center">
-            <a target="_blank" href="https://www.shells.com/l/en-US/pricing?special=manjaro"
-              class="inline-block mb-3 link-decor link-decor-xl relative">
-              <h4 class="inline-block mb-3 pb-2 capitalize text-2xl font-bold leading-5 text-center">
-                <i class="fa fa-link text-sm align-bottom mr-2"></i>
-                shells
-              </h4>
-            </a>
-            <p
-              class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              Introducing Shells: the innovative cloud service running Manjaro. With Shells, access your apps and files securely from anywhere in the world, with end-to-end encryption and backups. Take your work on the go effortlessly with Shells&#x27; fast, reliable, and affordable solution. Join Shells today for cloud-based freedom and security!
+    <div class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center lg:max-w-screen-xl">
+          <div class="mb-6">
+            <h2 class="max-w-full mb-6 text-center lg:text-left font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none capitalize">
+              application access 
+            </h2>
+            <p class="text-base md:text-lg">
+              Effortlessly install a plethora of applications via the Pamac software center, which seamlessly accommodates an array of package formats such as Flatpaks, Snaps and native packages. Alternatively, you have the option to create your own packages, leveraging the Arch User Repository as a foundational resource for customization.
             </p>
           </div>
-        </div>
-        
-        
-        
-        <div class="overflow-hidden max-w-full md:max-w-sm">
-          
-          <img src="/media/images/Surfshark-Preview-01.width-380.format-webp.webp" class="object-contain w-full h-64" width="380" height="auto" alt="surfshark" />
-          <div class="w-full text-center">
-            <a target="_blank" href="https://get.surfshark.net/aff_c?offer_id=1294&amp;aff_id=14558"
-              class="inline-block mb-3 link-decor link-decor-xl relative">
-              <h4 class="inline-block mb-3 pb-2 capitalize text-2xl font-bold leading-5 text-center">
-                <i class="fa fa-link text-sm align-bottom mr-2"></i>
-                surfshark
-              </h4>
-            </a>
-            <p
-              class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              Surfshark: the ultimate data protection tool. With one subscription, keep yourself and loved ones safe on multiple devices. Enjoy encrypted security and privacy with Surfshark&#x27;s VPN technology. Access overseas content effortlessly. It&#x27;s user-friendly, providing peace of mind for your family&#x27;s online safety. Protect your data, access content, and stay secure with Surfshark.
-            </p>
+          <div>
+            <a id="download-btn" href="https://manjaro.org/download/"
+            class="hidden lg:block shadow capitalize w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
+            <i class="fa-solid fa-circle-arrow-down"></i>
+            get manjaro
+          </a> 
           </div>
         </div>
-        
-        
-        
-        <div class="overflow-hidden max-w-full md:max-w-sm">
-          
-          <img src="/media/images/office-2-box.width-380.format-webp.webp" class="object-contain w-full h-64" width="380" height="auto" alt="Softmaker Office" />
-          <div class="w-full text-center">
-            <a target="_blank" href="https://softmaker.com/go/manjaro"
-              class="inline-block mb-3 link-decor link-decor-xl relative">
-              <h4 class="inline-block mb-3 pb-2 capitalize text-2xl font-bold leading-5 text-center">
-                <i class="fa fa-link text-sm align-bottom mr-2"></i>
-                Softmaker Office
-              </h4>
-            </a>
-            <p
-              class="text-left text-sm bg-blue-gray-800 p-5 text-gray-200 leading-5 md:min-h-[160px] shadow rounded">
-              Softmaker Office: the ideal reliable and affordable software package. It includes all the features of a top-notch office suite, with powerful document, spreadsheet, and presentation editing. Enjoy professional-grade formatting, charting, and illustration tools. Edit your documents directly in Softmaker Office using Microsoft formats (DOCX, XLSX, PPTX) without any conversion hassle.
-            </p>
-          </div>
+        <div class="flex items-center justify-center -mx-4 lg:pl-8 relative">
+            <img
+              class="object-cover mb-6 rounded drop-shadow-lg"
+              src="/static/img/pamac.6cbcd24d38c1.webp?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt=""
+            />
         </div>
-        
-        
       </div>
-      
     </div>
   </div>
-  <a href="#merch" class="scroll-btn z-10 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
+  <a href="#branches" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-6 h-[56px] left-[50%] translate-x-[-50%]"
+  aria-label="scroll">
+  <div class="chevron-container">
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+  </div>
+</a>
+</div>
+
+<div id="branches" class="h-full bg-cover relative z-0 bg-blue-gray-800 pb-10 lg:pb-0">
+
+  <div class="w-full justify-center lg:flex relative">
+    <img src="/static/img/dark-woble.02708e7af716.svg" alt="wobble"
+      class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl">
+  </div>
+  <div class="absolute overflow-hidden h-full w-full">
+    <svg class="text-teal-300 absolute hidden md:block left-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
+      xmlns="http://www.w3.org/2000/svg">
+      <g transform="matrix(-1,0,0,1,140,0)" fill="CurrentColor">
+        <path d="m95 45 45-45v89.915l-45.252 45.085h-94.748l60-55z" fill-opacity=".11748" />
+        <g fill-opacity=".4">
+          <path d="m140 80v-70l-45.252 45-84.748 80h75z" />
+          <path d="m140 70v-50l-45 45-75 70h55z" />
+          <path d="m140 60v-30l-45.252 45-64.748 60h35z" />
+          <path d="m140 50v-10l-45.252 45-49.748 50h10z" />
+        </g>
+    </svg>
+  </div>
+
+  <div class="text-gray-200 relative flex justify-center flex-col lg:min-h-[100vh] w-full">
+    <h3
+      class="w-full uppercase mt-4 lg:mt-20 font-sans flex justify-center items-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
+        <i class="fa-solid fa-list-check"></i>
+      </span>
+      branches
+    </h3>
+    <div class="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center lg:max-w-screen-xl">
+          <div class="mb-6">
+            <h2 class="max-w-full text-center lg:text-left mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none capitalize">
+            software experience
+            </h2>
+            <p class="text-base md:text-lg">
+              The inclusion of multiple branches empowers you to tailor your software experience. By default, you're positioned on the stable branch, yet the flexibility exists to shift to the testing or unstable branches, providing access to diverse software versions.
+            </p>
+          </div>
+          <div>
+            <a id="download-btn" href="https://manjaro.org/download/"
+            class="hidden lg:block shadow capitalize w-max text-base px-4 py-2 text-center font-semibold rounded text-teal-500 bg-gray-200">
+            <i class="fa-solid fa-circle-arrow-down"></i>
+            get manjaro
+          </a> 
+          </div>
+        </div>
+        <div class="flex items-center justify-center -mx-4 lg:pl-8 relative">
+            <img
+              class="object-cover mb-6 rounded drop-shadow-lg"
+              src="/static/img/branch.4525b5815f9f.webp?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt=""
+            />
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#merch" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-6 h-[56px] left-[50%] translate-x-[-50%]"
     aria-label="scroll">
     <div class="chevron-container">
       <div class="chevron"></div>
@@ -1025,15 +916,15 @@ This page provides an overview of Manjaro Linux, an open source operating system
 </div>
 
 <div id="merch" class="relative lg:min-h-[100vh] flex justify-center">
-  <div class="bg-blue-gray-800 absolute h-full w-full">
+  <div class="bg-teal-accent-400 absolute h-full w-full">
     <div class="w-full justify-center lg:flex relative">
-      <img src="/static/img/dark-woble.02708e7af716.svg" alt="wobble"
+      <img src="/static/img/green-woble.3e5970c0cd4b.svg" alt="wobble"
         class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl">
     </div>
     <div class="relative overflow-hidden h-full w-full">
-      <svg class="text-teal-300 absolute hidden md:block left-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
+      <svg class="text-gray-300 absolute hidden md:block right-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
         xmlns="http://www.w3.org/2000/svg">
-        <g transform="matrix(-1,0,0,1,140,0)" fill="CurrentColor">
+        <g fill="CurrentColor">
           <path d="m95 45 45-45v89.915l-45.252 45.085h-94.748l60-55z" fill-opacity=".11748" />
           <g fill-opacity=".4">
             <path d="m140 80v-70l-45.252 45-84.748 80h75z" />
@@ -1045,16 +936,40 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 
   </div>
-  <div class="relative flex flex-col items-center justify-center px-4 mx-auto w-full lg:max-w-screen-xl">
+  <div class="relative flex flex-col items-center justify-center px-4 mx-auto w-full lg:max-w-screen-xl pb-10">
     <div class="flex flex-col justify-center">
-      <div class="text-gray-200">
+      <div class="text-teal-900">
         <h3
-          class="w-full uppercase mb-6 flex justify-center items-center font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+          class="w-full uppercase mb-6 mt-2 flex justify-center items-center font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
             <div class="flex text-xl items-center justify-center w-12 h-12 rounded-full bg-yellow-accent-700 mr-2">
               <i class="fa-solid fa-shop text-teal-900"></i>
             </div>
-          Latest Merchandise
+          Merchandise
         </h3>
+        
+            <div class="bg-pink-500 text-xl text-gray-200 font-bold rounded py-3 px-8 flex justify-center items-center text-center mb-4 mt-[-32px] gap-2 max-w-fit mx-auto">
+                
+                
+                      <span>20% off everything valid until</span>
+                
+                
+                
+                      <span id="expire"></span>
+                      <script>
+                        function toLocaleDate(date) {
+                          let d = new Date(date).toString()
+                          let i = d.lastIndexOf(":")
+                          let arr = d.split(":")
+                          let formatedDate = arr[0] + ":" + arr[1]
+                          return formatedDate
+                        }
+                        document.querySelector("#expire").textContent = toLocaleDate("2023-11-05T23:59:59")
+                      </script>
+                
+                
+                
+                
+            </div>
         
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -1103,9 +1018,9 @@ This page provides an overview of Manjaro Linux, an open source operating system
             
             
             
-            <div class="p-6 font-bold text-center text-lg bg-blue-gray-900 w-full h-[88px] rounded-b">
-              <a href="https://manjaro.org/merchandise/#!/create" class="px-6 py-2 bg-teal-600 block rounded max-w-fit mx-auto">
-                <i class="fa-solid fa-cart-shopping mr-4"></i>Customize your own</a>
+            <div class="p-6 font-bold text-center text-lg bg-blue-gray-800 w-full h-[88px] rounded-b">
+              <a href="https://manjaro.org/merchandise/#!/create" class="text-gray-900 px-6 py-2 bg-gray-200 block rounded max-w-fit mx-auto">
+                <i class="fa-solid fa-cart-shopping mr-4 text-blue-400"></i>Customize your own</a>
             </div>
             
             
@@ -1165,7 +1080,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
             
             
             
-            <p class="p-4 font-bold text-center text-lg bg-blue-gray-900 h-[88px] w-full flex justify-center items-center rounded-b">
+            <p class="text-gray-200 p-4 font-bold text-center text-lg bg-blue-gray-800 h-[88px] w-full flex justify-center items-center rounded-b">
               Always update your system, do it fast, but do it informed.
             </p>
             
@@ -1223,9 +1138,9 @@ This page provides an overview of Manjaro Linux, an open source operating system
             
             
             
-            <div class="p-6 font-bold text-center text-lg bg-blue-gray-900 w-full h-[88px] rounded-b">
-              <a href="https://manjaro.org/merchandise/" class="px-6 py-2 bg-teal-600 block rounded max-w-fit mx-auto">
-                <i class="fa-solid fa-cart-shopping mr-4"></i>Discover Merch</a>
+            <div class="p-6 font-bold text-center text-lg bg-blue-gray-800 w-full h-[88px] rounded-b">
+              <a href="https://manjaro.org/merchandise/" class="text-gray-900 px-6 py-2 bg-gray-200 block rounded max-w-fit mx-auto">
+                <i class="fa-solid fa-cart-shopping mr-4 text-blue-400"></i>Discover Merch</a>
             </div>
             
             
@@ -1244,7 +1159,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
       </div>
     </div>
   </div>
-  <a href="#blog" class="scroll-btn z-10 arrow-links text-6xl hidden xl:block absolute bottom-0 h-[56px] left-0 "
+  <a href="#blog" class="scroll-btn z-1 arrow-links text-6xl hidden xl:block absolute bottom-6 h-[56px] left-[50%] translate-x-[-50%]"
   aria-label="scroll">
   <div class="chevron-container">
     <div class="chevron"></div>
@@ -1255,32 +1170,32 @@ This page provides an overview of Manjaro Linux, an open source operating system
 </div>
 
 <div id="blog" class="h-full lg:h-[100vh] bg-cover relative z-0 flex items-center">  
-  <div class="bg-teal-accent-400 absolute h-full w-full z-[-1]">
+  <div class="bg-blue-gray-800 absolute h-full w-full z-[-1]">
     <div class="w-full justify-center lg:flex relative">
-      <img src="/static/img/green-woble.3e5970c0cd4b.svg" alt="wobble"
+      <img src="/static/img/dark-woble.02708e7af716.svg" alt="wobble"
         class="absolute top-[-24px] w-full h-16 pl-4 pr-4 sm:max-w-screen-lg lg:max-w-screen-xl z-[-1]">
     </div>
     <div class="relative overflow-hidden h-full w-full">
-      <svg class="text-gray-300 absolute hidden md:block right-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
-        xmlns="http://www.w3.org/2000/svg">
-        <g fill="CurrentColor">
-          <path d="m95 45 45-45v89.915l-45.252 45.085h-94.748l60-55z" fill-opacity=".11748" />
-          <g fill-opacity=".4">
-            <path d="m140 80v-70l-45.252 45-84.748 80h75z" />
-            <path d="m140 70v-50l-45 45-75 70h55z" />
-            <path d="m140 60v-30l-45.252 45-64.748 60h35z" />
-            <path d="m140 50v-10l-45.252 45-49.748 50h10z" />
-          </g>
-      </svg>
+      <svg class="text-teal-300 absolute hidden md:block left-0 h-full top-0" version="1.1" viewBox="0 0 140 135"
+      xmlns="http://www.w3.org/2000/svg">
+      <g transform="matrix(-1,0,0,1,140,0)" fill="CurrentColor">
+        <path d="m95 45 45-45v89.915l-45.252 45.085h-94.748l60-55z" fill-opacity=".11748" />
+        <g fill-opacity=".4">
+          <path d="m140 80v-70l-45.252 45-84.748 80h75z" />
+          <path d="m140 70v-50l-45 45-75 70h55z" />
+          <path d="m140 60v-30l-45.252 45-64.748 60h35z" />
+          <path d="m140 50v-10l-45.252 45-49.748 50h10z" />
+        </g>
+    </svg>
     </div>
   </div>
   <div class="text-gray-200 px-4 w-full lg:max-w-screen-xl mx-auto">
     <h3
-      class="text-teal-900 w-full uppercase mb-4 flex justify-center items-center font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+      class="w-full uppercase mb-4 flex justify-center items-center font-sans text-center text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
       <span class="flex items-center justify-center text-xl mr-2 text-teal-900 w-12 h-12 rounded-full bg-yellow-accent-700">
         <i class="fa-solid fa-blog"></i>
       </span>
-      Latest Posts
+      Posts
     </h3>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 mb-4 lg:mb-12">
     
@@ -1335,7 +1250,7 @@ This page provides an overview of Manjaro Linux, an open source operating system
 
 
 
-<footer id="footer" class="text-sm text-gray-200 font-bold bg-blue-gray-900 z-10 relative">
+<footer id="footer" class="text-sm text-gray-200 font-bold bg-blue-gray-900 z-10 relative pb-10">
   <div class="w-full justify-center lg:flex relative">
     <img src="/static/img/darker-woble.0ac171200dd6.svg" alt="wobble"
       class="absolute top-[-24px] w-full h-16 py-4 sm:max-w-screen-lg lg:max-w-screen-xl">
@@ -1529,7 +1444,184 @@ This page provides an overview of Manjaro Linux, an open source operating system
     </div>
 </footer>
 
-        <script async type="text/javascript" src="/static/js/manjaro.8a291f6a294a.js"></script>
+<div id="popUp" class="bg-white select-none mx-auto left-0 right-0 max-w-screen-lg fixed transition-all duration-700 translate-y-[200%] transform-gpu z-40 bottom-0">
+  <div id="ramdomAff" class="lg:h-[130px] flex flex-col overflow-hidden lg:flex-row">
+    <a id="url" href="#" aria-label="" target="_blank" class="flex flex-row bg-white w-full">
+     <div class="hidden relative lg:w-1/4 lg:flex justify-center">
+      <img id="img" src="" alt="" class="object-contain max-h-36 px-4" />
+    </div>
+    <div class="w-full lg:w-3/4 px-4">
+      <h5 id="title" class="w-full capitalize text-2xl font-extrabold leading-none sm:text-3xl"></h5>
+      <p id="desc" class="text-gray-800 w-full"></p>
+    </div>
+    </a>
+  </div>
+</div>
+
+<div id="bg" class="backdrop-opacity-80 h-full pb-[32px] mx-auto left-0 right-0 z-40 translate-y-[200%] transform-gpu duration-700 fixed bottom-0">
+  <div id="offers" class="bg-gray-200 pb-[32px] absolute bottom-0 left-0 right-0 overflow-y-scroll max-w-screen-lg lg:mx-auto flex flex-col gap-2"></div>
+</div>
+
+<div id="titleScrollBtn" class="select-none z-40 mx-auto max-w-[300px] bg-gray-200 fixed bottom-0 left-0 right-0 translate-y-[200%] transition-all duration-700 whitespace-nowrap text-center w-full h-max hover:cursor-pointer">
+  <h5 class="uppercase text-lg font-semibold leading-none h-[32px] flex justify-center items-center">
+    </i><span id="typed"></span><i class="text-blue-gray-800 px-4 fa-solid fa-arrows-up-down"></i>
+  </h5>
+</div>
+
+<style>
+#offers, #popUp {
+  filter: drop-shadow(0 -1px 1px rgb(0 0 0 / 0.1)) drop-shadow(0 -1px 1px rgb(0 0 0 / 0.06));
+ }
+ #offers { 
+  max-height: 100vh
+}
+</style>
+<script>
+function closePopUp() {
+  let pop = document.querySelector("#popUp")
+  pop.classList.replace("max-w-screen-lg", "max-w-[300px]")
+  pop.classList.add("translate-y-[200%]")
+}
+
+function openPopUp() {
+  let pop = document.querySelector("#popUp")
+  pop.classList.remove("translate-y-[200%]")
+}
+
+function openAdsBtn() {
+  closePopUp()
+  let pop = document.querySelector("#titleScrollBtn")
+  pop.classList.remove("translate-y-[200%]")
+}
+
+function openOffers() {  
+    let rotation = document.querySelector("#bg")
+    rotation.classList.remove("translate-y-[200%]")
+}
+
+function closeOffers() {  
+    let rotation = document.querySelector("#bg")
+    rotation.classList.add("translate-y-[200%]")
+}
+
+async function getAffiliates() {
+  let rootSite = window.location.origin
+  if (rootSite.includes("staging")) {
+    origin = "https://staging.manjaro.org"
+  } else if (rootSite.includes("localhost")) {
+    origin = rootSite.replace(/[/]\w*[.]/g, '/')
+  } else {
+    origin = "https://manjaro.org"
+  }
+
+  try {
+    let response = await fetch(origin + "/ads.json");
+  let ads = await response.json();
+  if (Object.keys(ads).length != 0 && ads.constructor === Array) {
+    let randomIndex = Math.floor(Math.random() * ads.length);
+    let item = ads[randomIndex];
+    let url = document.querySelector("#url")
+    let desc = document.querySelector("#desc")
+    let title = document.querySelector("#title")
+    let img = document.querySelector("#img")
+    url.href = item.url
+    desc.textContent = item.desc
+    title.textContent = item.title
+    img.src = rootSite + item.img
+    openPopUp()
+    for (a of ads) {
+      titles.push(a.title)
+      let offers = document.querySelector("#offers")
+      let offersTemplate = `
+      <div class="transition-height duration-700 relative flex flex-col flex-row">
+      <a href="${a.url}" aria-label="${a.title}" target="_blank" class="h-auto lg:h-[130px] flex flex-row bg-white px-2 lg:px-1 w-full">
+      <div class="hidden relative lg:w-1/4 lg:flex justify-center">
+        <img src="${rootSite + a.img}" alt="${a.title}" class="object-contain max-h-36 px-4" />
+      </div>
+      <div class="w-full lg:w-3/4 pr-4">
+        <h5 class="capitalize py-1 text-2xl font-extrabold leading-none sm:text-3xl">${a.title}</h5>
+        <p class="text-gray-800">${a.desc}</p>
+      </div>
+      </a>
+    </div>
+      `
+      offers.insertAdjacentHTML("beforeend", offersTemplate)
+    }
+    var typed = new Typed('#typed', {
+    strings: titles,
+    typeSpeed: 30,
+    shuffle: false,
+    loop: true,
+    loopCount: Infinity,
+    backDelay: 4500,
+    showCursor: false,
+    })
+
+    setTimeout(openAdsBtn, 6000)
+  }
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+const titleScrollBtn = document.querySelector("#titleScrollBtn")
+
+function closeSlider(event) {
+  let target = event.target
+    closeOffers()
+    document.removeEventListener("click", closeSlider)
+}
+  
+function toggleOffers() {
+  let el = document.querySelector("#bg")
+    if (el.classList.contains("translate-y-[200%]")) {      
+        openOffers()
+    } else {
+      closeOffers()
+    }
+  } 
+
+function is_touch_enabled() {
+    return ( 'ontouchstart' in window ) || 
+           ( navigator.maxTouchPoints > 0 ) || 
+           ( navigator.msMaxTouchPoints > 0 );
+}
+
+function initAff() {
+  let typed = document.createElement('script')
+  typed.type = 'text/javascript'
+  typed.src = 'https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js'
+  document.head.appendChild(typed)  
+  const bg = document.querySelector("#bg") 
+  if ( is_touch_enabled() ) {
+    titleScrollBtn.ontouchend = toggleOffers
+    bg.addEventListener('ontouchend', closeSlider)
+  } else {
+    titleScrollBtn.onclick = toggleOffers
+    bg.addEventListener('click', closeSlider)
+  }
+  const affiliatesTimeout = setTimeout(getAffiliates, 3000)
+}
+const titles = []
+if (window.location.pathname.includes("download")) {
+  
+  modal = document.querySelector("#modal-edition")
+
+  function isReady() {
+    if (modal.classList.contains("hidden")) {
+      clearInterval(checkAff)
+      initAff()
+    }
+  }
+
+  var checkAff = setInterval(isReady, 100)
+
+} else if (!window.location.pathname.includes("donate")) {
+  initAff()
+} 
+</script>
+
+        <script async type="text/javascript" src="/static/js/manjaro.522ce2b605f5.js"></script>
 
         
 <script>

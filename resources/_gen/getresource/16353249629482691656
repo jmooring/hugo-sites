@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 44745
+Age: 27780
 Cache-Control: public,max-age=0,must-revalidate
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 09 Oct 2023 19:51:01 GMT
-Etag: "752e11da4809d206dfa2868681105502-ssl-df"
+Date: Sun, 05 Nov 2023 21:08:58 GMT
+Etag: "79509ce5b18f4e2950cd722624e4df60-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
+X-Nf-Request-Id: 01HEGN2FRFNH39SEXTVYJX8KC7
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -40,7 +40,7 @@ X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
 <link rel="icon" type="image/png" href="https://deislabs.io/images/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Nunito&#43;Sans:400,800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.c3880cdb957e4735a354f451ed18e03965987346f949cfc832f3154f5126dbf3.css" integrity="sha256-w4gM25V&#43;RzWjVPRR7RjgOWWYc0b5Sc/IMvMVT1Em2/M=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.d17b39ba2fd6250b6dbb9c3b3e6d5d151c3dc799edd099b8850740c244d54e27.css" integrity="sha256-0Xs5ui/WJQttu5w7Pm1dFRw9x5nt0Jm4hQdAwkTVTic=">
 <link rel="stylesheet" type="text/css" href="https://deislabs.io/css/icons.css">
 <link rel="stylesheet" type="text/css" href="https://deislabs.io/css/prism.css">
 <link rel="stylesheet" type="text/css" href="https://deislabs.io/css/custom.css">
@@ -147,15 +147,6 @@ X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
       </a>
     </span>
     <span class="column is-one-third project-item">
-      <a href="https://brigade.sh">
-        <h4>Brigade</h4>
-        
-          <small class="badge badge-gray">archived</small>
-        
-        <p>Create event-driven workflows and pipelines for your infrastructure, through scriptable, automated tasks.</p>
-      </a>
-    </span>
-    <span class="column is-one-third project-item">
       <a href="/cnab/">
         <h4>CNAB</h4>
         
@@ -170,30 +161,21 @@ X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
       </a>
     </span>
     <span class="column is-one-third project-item">
-      <a href="https://draft.sh">
-        <h4>Draft</h4>
+      <a href="https://github.com/project-copacetic/copacetic">
+        <h4>Copa</h4>
         
-          <small class="badge badge-gray">archived</small>
+          <small class="badge badge-teal">cncf</small>
         
-        <p>A tool to quickly build &amp; run Kubernetes apps, to streamline the dev process.</p>
+        <p>Patch containers directly.</p>
       </a>
     </span>
     <span class="column is-one-third project-item">
-      <a href="https://duffle.sh">
-        <h4>Duffle</h4>
+      <a href="https://github.com/eraser-dev/eraser">
+        <h4>Eraser</h4>
         
-          <small class="badge badge-gray">archived</small>
+          <small class="badge badge-teal">cncf</small>
         
-        <p>A tool that installs and manages distributed app bundles (CNABs).</p>
-      </a>
-    </span>
-    <span class="column is-one-third project-item">
-      <a href="https://github.com/Azure/golua">
-        <h4>Go Lua</h4>
-        
-          <small class="badge badge-gray">archived</small>
-        
-        <p>A Lua 5.3 engine implemented in Go.</p>
+        <p>Clean up vulnerable images from Kubernetes nodes.</p>
       </a>
     </span>
     <span class="column is-one-third project-item">
@@ -247,6 +229,13 @@ X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
       </a>
     </span>
     <span class="column is-one-third project-item">
+      <a href="https://github.com/deislabs/ratify">
+        <h4>Ratify</h4>
+        
+        <p>Verify artifact security metadata and enforce compliance.</p>
+      </a>
+    </span>
+    <span class="column is-one-third project-item">
       <a href="https://github.com/deislabs/runwasi">
         <h4>runwasi</h4>
         
@@ -274,6 +263,42 @@ X-Nf-Request-Id: 01HCAZWBN75F0Z4VFKSGEQEJ6G
         <h4>WAGI</h4>
         
         <p>Write HTTP handlers in WebAssembly with a minimal amount of work.</p>
+      </a>
+    </span>
+    <span class="column is-one-third project-item">
+      <a href="https://brigade.sh">
+        <h4>Brigade</h4>
+        
+          <small class="badge badge-gray">archived</small>
+        
+        <p>Create event-driven workflows and pipelines for your infrastructure, through scriptable, automated tasks.</p>
+      </a>
+    </span>
+    <span class="column is-one-third project-item">
+      <a href="https://draft.sh">
+        <h4>Draft</h4>
+        
+          <small class="badge badge-gray">archived</small>
+        
+        <p>A tool to quickly build &amp; run Kubernetes apps, to streamline the dev process.</p>
+      </a>
+    </span>
+    <span class="column is-one-third project-item">
+      <a href="https://duffle.sh">
+        <h4>Duffle</h4>
+        
+          <small class="badge badge-gray">archived</small>
+        
+        <p>A tool that installs and manages distributed app bundles (CNABs).</p>
+      </a>
+    </span>
+    <span class="column is-one-third project-item">
+      <a href="https://github.com/Azure/golua">
+        <h4>Go Lua</h4>
+        
+          <small class="badge badge-gray">archived</small>
+        
+        <p>A Lua 5.3 engine implemented in Go.</p>
       </a>
     </span>
   </div>

@@ -1,14 +1,17 @@
 HTTP/2.0 200 OK
+Age: 168576
 Alt-Svc: h3=":443"; ma=86400
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 813928ac4eef0937-SEA
+Cf-Ray: 821813fece022810-SEA
 Content-Type: text/html
-Date: Mon, 09 Oct 2023 19:51:32 GMT
-Last-Modified: Fri, 06 Oct 2023 09:52:59 GMT
+Date: Sun, 05 Nov 2023 21:09:30 GMT
+Last-Modified: Wed, 25 Oct 2023 12:20:38 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sia6wr6vk%2BHzvmJJLIJ3UxJEoTrSZIfPR7n8pie6aC47gpsUzOcxMvH3vKWhp8z9mjWSjq%2F4EO1QC%2FJv6jilr%2FO2bCEprzTVNG5zLOLo719Jia1NJD7ql5P8jp%2BoTQ1ovRP3EkA%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TzT9StDInAMCGomu5Ui923krMuvhpmVNqaar6mhB30cFRSqcU9fd9NTcsgwEvAJVsteoOnNXuTIGrAQC9YqLvqkaea1CPQFUwkczOdIF4D0OYhESCK2SJash1FyJpM%2FFg6CDYck%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-X-Ms-Request-Id: 8a10af3e-c01e-008c-47ea-fa27db000000
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Ms-Request-Id: c61c22e9-201e-0070-71a3-0ef622000000
 X-Ms-Version: 2018-03-28
 
 <!DOCTYPE html>
@@ -19,14 +22,14 @@ X-Ms-Version: 2018-03-28
 <meta name="description" content="Azure / Microsoft 365 / Visual Studio Code / Speaker / Blogger" />
 <meta property="og:locale" content="en-us" />
 <meta property="og:site_name" content="Elio Struyf" />
-<meta property="og:image" content="https://www.eliostruyf.com/uploads/2022/07/social-image.png" />
-<meta property="twitter:image:src" content="https://www.eliostruyf.com/uploads/2022/07/social-image.png" />
+<meta property="og:image" content="https://www.eliostruyf.com/uploads/2023/10/social-image-2023.png" />
+<meta property="twitter:image:src" content="https://www.eliostruyf.com/uploads/2023/10/social-image-2023.png" />
 <meta content="summary_large_image" name="twitter:card" />
 <meta content="www.eliostruyf.com" name="twitter:domain" />
 <meta content="@eliostruyf" name="twitter:site" />
 <meta content="@eliostruyf" name="twitter:creator" />
-<meta content="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts" name="twitter:title" />
-<meta property="og:title" content="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts" />
+<meta content="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert" name="twitter:title" />
+<meta property="og:title" content="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.eliostruyf.com/" />
 <meta property="og:description" content="Azure / Microsoft 365 / Visual Studio Code / Speaker / Blogger" />
@@ -35,8 +38,8 @@ X-Ms-Version: 2018-03-28
 <meta name="google-site-verification" content="s33eE13RLdX34F38z_xPc3v2_A4lkBo5PTA_tsV8rYk" />
 <link rel="canonical" href="https://www.eliostruyf.com/" />
 <meta name="generator" content="Hugo 0.111.3">
-<title>Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts</title>
-<link href="/dist/app.a54f46210797277fcf38.css" rel="stylesheet">
+<title>Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert</title>
+<link href="/dist/app.0b63e5d77c649cf1d1cc.css" rel="stylesheet">
 <script type="text/javascript">
   (function(c,l,a,r,i,t,y){
       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -83,7 +86,7 @@ if (!doNotTrack) {
 <header class="navigation md:sticky top-0 w-full z-40 bg-white text-gray-700 body-font">
 <div class="w-full px-5">
 <div class="max-w-7xl mx-auto flex flex-wrap py-5 flex-col lg:flex-row items-center">
-<a id="logo" class="lg:mb-0   flex flex-wrap items-center text-4xl font-display mb-3" href="https://www.eliostruyf.com" title="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts">
+<a id="logo" class="lg:mb-0   flex flex-wrap items-center text-4xl font-display mb-3" href="https://www.eliostruyf.com" title="Elio Struyf | GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert">
 <h2><span class="firstname text-gray-600 dark:text-gray-400">Elio</span
 ><span class="lastname text-lightseagreen-800">Struyf</span>
 </h2>
@@ -137,29 +140,18 @@ if (!doNotTrack) {
 </span>
 </div>
 </div>
-<div id="searchbox" class="relative w-full hidden border-t border-gray-200 bg-lightseagreen-900 shadow-xl px-5">
+<div id="searchbox" class="relative w-full border-t border-gray-200 bg-lightseagreen-900 shadow-xl px-5 overflow-hidden h-0 transition-all">
 <form action="https://www.eliostruyf.com/search" class="max-w-7xl mx-auto p-2 md:px-0 md:py-2 text-black" id="searchform" method="get">
 <input id="s" name="k" class="w-full text-white transition focus:outline-none focus:border-transparent py-2 appearance-none leading-normal text-xl lg:text-2xl bg-lightseagreen-900 placeholder-gray-200" type="search" placeholder="Search" />
 </form>
 </div>
 </header>
 <div class="scrollable">
-<section class="w-full bg-gray-100 py-4 px-5">
-<div class="items-center flex max-w-7xl m-auto leading-none justify-center">
-<span class="flex rounded-full bg-lightcoral-500 text-white uppercase px-2 py-2 text-xs font-bold mr-2">#OpenToWork</span
-    >
-<span class="text-left">Open to new opportunities: Technical Lead or DevRel let's chat and
-explore possibilities!
-<a class="font-bold" href="/cdn-cgi/l/email-protection#2a4f4643456a595e585f534c494544595f465e43444d04484f" title="Contact Elio">Contact Elio</a
-      ></span
-    >
-</div>
-</section>
 <section class="page-title px-5 text-gray-700 body-font">
 <div class="max-w-7xl px-5 py-5 mx-auto">
 <div class="text-center mb-5">
 <h1 class="text-2xl md:text-3xl font-display">
-<span class="font-light block">GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts</span
+<span class="font-light block">GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert</span
         >
 <span class="header__interest font-normal text-lightseagreen-800 block mt-4">Azure | Microsoft 365 | Visual Studio Code</span
         >
@@ -177,6 +169,23 @@ Along with acting as VP of BIWUG (Belgian Information Worker User Group), Elio i
 <div class="content_zone__container max-w-7xl mx-auto">
 <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
 <div class="content_zone__container__content w-full md:w-2/3 px-4 mb-4 md:mb-0">
+<article class="-my-8 post__summary">
+<div class="py-8">
+<h2 class>
+<a href="https://www.eliostruyf.com/vite-bundling-visual-studio-code-extension/" title="Using Vite for bundling your Visual Studio Code extension">Using Vite for bundling your Visual Studio Code extension</a>
+</h2>
+<p class="summary mt-1 text-gray-700 text-sm mb-2">October 18, 2023</p>
+<p class="leading-relaxed">
+A couple of weeks ago, I started looking into the possibility of retrieving the Content Collections from Astro and generating content-types for Front Matter CMS. Eventually, this got me into Vite, and I started to wonder if I could use it to bundle my Visual Studio Code extension to replace the current Webpack setup.
+</p>
+<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/vite-bundling-visual-studio-code-extension/" title="Using Vite for bundling your Visual Studio Code extension">Read more
+<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</a>
+</div>
+</article>
 <article class="-my-8 post__summary">
 <div class="py-8">
 <h2 class>
@@ -263,24 +272,6 @@ When building applications, you can expect things to go wrong. For instance, cal
 </a>
 </div>
 </article>
-<article class="-my-8 post__summary">
-<div class="py-8">
-<h2 class>
-<a href="https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/" title="End-to-End Test Microsoft 365 Solutions with Playwright">End-to-End Test Microsoft 365 Solutions with Playwright</a>
-</h2>
-<p class="summary mt-1 text-gray-700 text-sm mb-2">August 24, 2023</p>
-<p class="leading-relaxed">
-In the past, I have written a couple of articles about end-to-end (E2E) testing your SharePoint/Microsoft Teams solutions with Cypress, Puppeteer, and Playwright. I was a big fan of Cypress, but I must admit that Playwright caught up and became my favorite tool for E2E testing.
-For me, the most significant advantage of Cypress was the visual UI for running your tests, but the main disadvantage was its use of an iframe, which caused issues for testing SharePoint and Microsoft Teams.
-</p>
-<a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/test-microsoft-365-solutions-playwright/" title="End-to-End Test Microsoft 365 Solutions with Playwright">Read more
-<svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M5 12h14"></path>
-<path d="M12 5l7 7-7 7"></path>
-</svg>
-</a>
-</div>
-</article>
 <div class="pagination mt-8">
 <nav class="pagination__container  flex pl-0 rounded list-none flex-wrap justify-center">
 <span aria-current="page" class="pagination__text pagination__current">1</span>
@@ -331,7 +322,7 @@ For me, the most significant advantage of Cypress was the visual UI for running 
 </svg>
 <span class="mx-2 text-sm hidden">GitHub Star</span>
 </a>
-<a class="group absolute flex items-center justify-center bottom-[25%] ml-1 p-1 border border-gray-500 rounded-full bg-gray-100 transform translate-y-1/2" href="https://developers.google.com/profile/u/eliostruyf" title="Google Developer Experts" target="_blank" rel="noopener noreferrer">
+<a class="group absolute flex items-center justify-center bottom-[25%] ml-1 p-1 border border-gray-500 rounded-full bg-gray-100 transform translate-y-1/2" href="https://developers.google.com/profile/u/eliostruyf" title="Google Developer Expert" target="_blank" rel="noopener noreferrer">
 <svg width="30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" xml:space="preserve">
 <path fill="#4285F4" d="M6,19.2c-1.2-0.7-2.3-1.3-3.5-2c-0.5-0.3-1-0.5-1.5-0.9c-0.6-0.4-0.9-1-1-1.8c-0.1-0.9,0.2-1.6,1-2.2
           c0.9-0.6,1.8-0.6,2.8,0c0.8,0.4,1.6,0.9,2.3,1.3c0.6,0.4,1.3,0.7,1.9,1.1c0.6,0.4,1.3,0.7,1.9,1.1c0.7,0.4,1.4,0.8,2.1,1.2
@@ -348,7 +339,7 @@ For me, the most significant advantage of Cypress was the visual UI for running 
           c0.6-0.4,1.2-0.7,1.8-1.1C6.4,9.4,7.2,8.9,8,8.5c0.7-0.4,1.3-0.7,2-1.1c0.5-0.3,1.1-0.3,1.7-0.1c0.8,0.3,1.4,0.8,1.6,1.6
           c0.3,1.1,0,2.1-1.1,2.8c-1.2,0.7-2.5,1.4-3.7,2.2C8.1,14,7.7,14.2,7.4,14.4z" />
 </svg>
-<span class="mx-2 text-sm hidden">Google Developer Experts</span>
+<span class="mx-2 text-sm hidden">Google Developer Expert</span>
 </a>
 </div>
 <div class="inline-flex justify-center items-center mt-5">
@@ -470,7 +461,7 @@ For me, the most significant advantage of Cypress was the visual UI for running 
 ><span class="lastname text-lightseagreen-800">Struyf</span>
 </a>
 <p class="mt-2 font-display text-gray-700">
-<span class="font-normal block dark:text-gray-300">GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Experts</span
+<span class="font-normal block dark:text-gray-300">GitHub Star | M365 Development, Developer Technologies MVP | Google Developer Expert</span
           >
 <span class="footer__interest font-medium text-lightseagreen-800 block mt-2">Azure | Microsoft 365 | Visual Studio Code</span
           >
@@ -552,8 +543,8 @@ Archive
 <nav class="list-none mb-10">
 <ul>
 <li class="mb-1">
-<a class href="https://www.eliostruyf.com/2023/10/" title="Check: 2023 (1)" target="_blank" rel="noopener noreferrer">
-October 2023</a> (1)
+<a class href="https://www.eliostruyf.com/2023/10/" title="Check: 2023 (2)" target="_blank" rel="noopener noreferrer">
+October 2023</a> (2)
 </a>
 </li>
 <li class="mb-1">
@@ -633,6 +624,6 @@ July 2023</a> (5)
 <img src />
 </div>
 </div>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/dist/app.a54f46210797277fcf38.js"></script>
+<script src="/dist/app.0b63e5d77c649cf1d1cc.js"></script>
 </body>
 </html>

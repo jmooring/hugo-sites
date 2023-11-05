@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Mon, 09 Oct 2023 19:51:02 GMT
-Etag: W/"64cbcd21-511e"
-Expires: Mon, 09 Oct 2023 20:01:02 GMT
-Last-Modified: Thu, 03 Aug 2023 15:52:01 GMT
+Date: Sun, 05 Nov 2023 21:08:59 GMT
+Etag: W/"6530329c-524d"
+Expires: Sun, 05 Nov 2023 21:18:59 GMT
+Last-Modified: Wed, 18 Oct 2023 19:31:40 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 85eba0db933601c56a55f678b5115adf4a18efa3
-X-Github-Request-Id: 7008:1C42:285FC9:352A7C:652459A1
+X-Fastly-Request-Id: 70bee5bf40ba04284ef25fb174a0a061168a4f6d
+X-Github-Request-Id: A236:25E105:28FF4C:2E035E:65480461
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1523-YVR
-X-Timer: S1696881062.434012,VS0,VE81
+X-Served-By: cache-bfi-kbfi7400058-BFI
+X-Timer: S1699218540.712156,VS0,VE79
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1696881062.434012,VS0,VE81
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.117.0-DEV">
+    <meta name="generator" content="Hugo 0.120.0-DEV">
     
     
     
@@ -61,6 +61,7 @@ X-Timer: S1696881062.434012,VS0,VE81
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pretired.dazwilkin.com/" />
+
 <meta itemprop="name" content="(p)retired">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(p)retired"/>
@@ -200,15 +201,16 @@ X-Timer: S1696881062.434012,VS0,VE81
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/230709/" class="color-inherit dim link">
-            Prometheus Exporter for Koyeb
+          <a href="/posts/231018/" class="color-inherit dim link">
+            Prometheus Operator support an auth proxy for Service Discovery
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Yet another cloud platform exporter for resource|cost management. This time for Koyeb with Koyeb Exporter.
-Deploying resources to cloud platforms generally incurs cost based on the number of resources deployed, the time each resource is deployed and the cost (per period of time) that the resource is deployed. It is useful to be able to automatically measure and alert on all the resources deployed on all the platforms that you&rsquo;re using and this is an intent of these exporters.
+          CRD linting
+Returning to yesterday&rsquo;s failing tests, it&rsquo;s unclear how to introspect the E2E tests.
+kubectl get namespaces NAME STATUS AGE ... allns-s2os2u-0-90f56669 Active 22h allns-s2qhuw-0-6b33d5eb Active 4m23s kubectl get all \ --namespace=allns-s2os2u-0-90f56669 No resources found in allns-s2os2u-0-90f56669 namespace. kubectl get all \ --namespace=allns-s2qhuw-0-6b33d5eb NAME READY STATUS RESTARTS AGE pod/prometheus-operator-6c96477b9c-q6qm2 1/1 Running 0 4m12s pod/prometheus-operator-admission-webhook-68bc9f885-nq6r8 0/1 ImagePullBackOff 0 4m7s NAME TYPE CLUSTER-IP EXTERNAL-IP PORT(S) AGE service/prometheus-operator ClusterIP 10.152.183.247 &lt;none&gt; 443/TCP 4m9s NAME READY UP-TO-DATE AVAILABLE AGE deployment.
         </div>
-          <a href="/posts/230709/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/231018/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -225,19 +227,17 @@ Deploying resources to cloud platforms generally incurs cost based on the number
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/230708/" class="color-inherit dim link">
-            Kubernetes Python SDK w/ CRDs
+          <a href="/posts/231017/" class="color-inherit dim link">
+            Prometheus Operator support an auth proxy for Service Discovery
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Responded to Get Custom K8s Resource using Python and found the CustomObjectsApi documentation unclear.
-If you have a cluster and a kubeconfig file with a correctly configured current-context, so that you can successfully:
-PLURAL=&#34;checks&#34; kubectl get ${PLURAL} \ --all-namespaces NOTE I&rsquo;m using Ackal&rsquo;s CRDs in these examples.
-Then you can use the following code to access the cluster&rsquo;s REST API server to enumerate its CRDs:
-main.py:
-from __future__ import print_function from kubernetes import client, config from kubernetes.
+          For ackalctld to be deployable to Kubernetes with Prometheus Operator, it is necessary to Enable ScrapeConfig to use (discovery|target) proxies #5966. While I&rsquo;m familiar with Kubernetes, Kubernetes operators (Ackal uses one built with the Operator SDK) and Prometheus Operator, I&rsquo;m unfamiliar with developing Prometheus Operator. This (and subsequent) posts will document some preliminary work on this.
+Cloned Prometheus Operator
+Branched scrape-config-url-proxy
+I&rsquo;m unsure how to effect these changes and unsure whether documentation exists.
         </div>
-          <a href="/posts/230708/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/231017/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -254,18 +254,17 @@ from __future__ import print_function from kubernetes import client, config from
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/230622/" class="color-inherit dim link">
-            GoatCounter with Hugo with Ananke
+          <a href="/posts/231013/" class="color-inherit dim link">
+            Prometheus Operator `ScrapeConfig`
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Thanks to Joe Mooring for his solution to my question as to how to do this.
-I&rsquo;ve decided to ditch Google Analytics and am evaluating using GoatCounter with Hugo with Ananke theme.
-This was the layout of the site:
-. ├── archetypes ├── content │ └── posts ├── go.mod ├── go.sum ├── hugo.toml ├── layouts ├── public └── static This is the structure (of layouts) with the necessary changes:
-. ├── archetypes ├── content │ └── posts ├── go.
+          TL;DR Enable ScrapeConfig to use (discovery|target) proxies
+I&rsquo;ve developed a companion, local daemon (called ackalctld) for Ackal that provides a functionally close version of the service.
+One way to deploy ackalctld is to use Kubernetes and it would be convenient if the Prometheus metrics were scrapeable by Prometheus Operator.
+In order for this to work, Prometheus Operator needs to be able to scrape Google Cloud Run targets because ackalctld creates Cloud Run services for its health check clients.
         </div>
-          <a href="/posts/230622/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/231013/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -282,26 +281,26 @@ This was the layout of the site:
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/230709/" class="link black dim">
+              Prometheus Exporter for Koyeb
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/230708/" class="link black dim">
+              Kubernetes Python SDK w/ CRDs
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/230622/" class="link black dim">
+              GoatCounter with Hugo with Ananke
+            </a>
+          </h2>
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/230607/" class="link black dim">
               Python Protobuf changes
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230530/" class="link black dim">
-              Routing Firestore events to GKE with Eventarc
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230502/" class="link black dim">
-              Deploying Hugo site to DigitalOcean Apps
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230427/" class="link black dim">
-              Robusta KRR w/ GMP
             </a>
           </h2>
         

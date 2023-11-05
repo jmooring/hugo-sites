@@ -3,11 +3,11 @@ Accept-Ranges: bytes
 Cache-Control: max-age=0
 Content-Security-Policy: default-src 'self';                                       base-uri 'self';                                       connect-src 'self' https://admin.combonet.se/ https://ssl.google-analytics.com;                                       form-action 'self';                                       frame-ancestors 'self';                                       frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://embed.ted.com;                                       img-src 'self' https: data:;                                       media-src 'self' https:;                                       script-src 'self' https://admin.combonet.se https://ssl.google-analytics.com;                                       style-src 'self' 'unsafe-inline' https:
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 09 Oct 2023 19:51:36 GMT
-Etag: "76b2-606d091d6c680-gzip"
-Expires: Mon, 09 Oct 2023 19:51:36 GMT
+Date: Sun, 05 Nov 2023 21:09:34 GMT
+Etag: "7764-60884c5a69d40-gzip"
+Expires: Sun, 05 Nov 2023 21:09:34 GMT
 Feature-Policy: display-capture 'none'; camera 'none'; microphone 'none'
-Last-Modified: Tue, 03 Oct 2023 14:18:50 GMT
+Last-Modified: Wed, 25 Oct 2023 06:43:25 GMT
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: Apache/2.4.38 (Debian)
@@ -26,8 +26,8 @@ X-Xss-Protection: 1; mode=block
 <link rel="alternate" type="application/rss+xml" title="rss" href="https://xdeb.org/index.xml">
 <link rel="alternate" type="application/json" title="json" href="https://xdeb.org/index.json">
 <meta name="description" content="Welcome to the blog of Fredrik Jonsson, web developer &amp;amp;amp; Linux sysadmin. ">
-<meta name="created" content="2023-07-20T08:20:00+0200">
-<meta name="modified" content="2023-09-24T14:36:28+0200">
+<meta name="created" content="2023-10-20T20:16:21+0200">
+<meta name="modified" content="2023-10-20T20:16:21+0200">
 <meta name="author" content="Fredrik Jonsson">
 <meta name="contact" content="info@xdeb.org">
 <meta property="og:site_name" content="xdeb.org">
@@ -47,7 +47,7 @@ X-Xss-Protection: 1; mode=block
 <link rel="manifest" href="/site.webmanifest">
 
 <link rel="stylesheet" href="/css/mobile.7c89092782402c8cb45b96f7f073200d5a51947f860091f5309ddccef455fe53.css" media="screen">
-<link rel="stylesheet" href="/css/styles.a46d1f7b1693d94e3e7257cf9116b117fe6bdee4ce6256a5706554fcddf658ad.css">
+<link rel="stylesheet" href="/css/styles.6f3f045e13f52d53ffeae896a648310c6df111d4b873ed8ef152b111dc172cd1.css">
 <link rel="stylesheet" href="/css/print.31e2819287afc91406f2fd43d21a8ba4a0cdfc272e439c90db0c6e47efc7c346.css" media="print">
 
 <script type="application/ld+json">
@@ -86,6 +86,7 @@ X-Xss-Protection: 1; mode=block
 
 <script src="/js/tracking.09cd39fff52a3a6486de31d585853ae38f1b1e29f68c1d4d927573c7656f31c8.js"></script>
 <script defer src="https://admin.combonet.se/matomo/matomo.js"></script>
+
 
 </head>
 
@@ -140,6 +141,20 @@ X-Xss-Protection: 1; mode=block
 </div>
 <article class="list-view list-view--post">
 <header>
+<h2 class="title mb--xxs"><a href="/post/2023/macos-applications-stood-test-time/">macOS applications that has stood the test of time</a></h2>
+<div class="submitted meta">
+<time class="created-date" datetime="2023-10-20T20:16:21&#43;02:00">20 October 2023</time>
+
+</div>
+
+</header>
+<div class="content">
+<p>When I got my new Mac mini with a Apple silicon M2 I decided it was time for a complete reinstall of my system and apps. I believe the last time I did this was when Snow Leopard was released back in 2009.</p>
+</div>
+</article>
+
+<article class="list-view list-view--post">
+<header>
 <h2 class="title mb--xxs"><a href="/post/2023/dell-6k-32-or-studio-display-mac-mini/">Dell 32 6K monitor or Apples Studio display for my Mac mini M2</a></h2>
 <div class="submitted meta">
 <time class="created-date" datetime="2023-07-20T08:20:00&#43;02:00">20 July 2023</time>
@@ -165,20 +180,6 @@ For the last few years I have been using a iMac 27 5K. The best display I have u
 <div class="content">
 <p>I found Hugo in 2017 and since then I have used it to build a lot of web sites. Building sites with Hugo is fun!
 For customer sites where an editor need to keep the site updated I early on started to use Forestry.</p>
-</div>
-</article>
-
-<article class="list-view list-view--post">
-<header>
-<h2 class="title mb--xxs"><a href="/post/2023/build-hugo-site-notion-airtable-api/">Build Hugo site with Notion and Airtable API</a></h2>
-<div class="submitted meta">
-<time class="created-date" datetime="2023-01-08T17:02:10&#43;01:00">8 January 2023</time>
-
-</div>
-
-</header>
-<div class="content">
-<p>Last year I built a number of Hugo sites that takes the content from Notion and Airtable via their respective API. It works really well. Users manage the data in Notion or Airtable and the sites are kept updated in the background automatically.</p>
 </div>
 </article>
 
@@ -210,6 +211,8 @@ For customer sites where an editor need to keep the site updated I early on star
 <section id="blog-archive" class="blog-archive" aria-labelledby="blog-archive-title">
 <h2 id="blog-archive-title">Blog archive</h2>
 <ul>
+<li><a href="/post/2023/build-hugo-site-notion-airtable-api/">Build Hugo site with Notion and Airtable API</a> – <time class="created-date" datetime="2023-01-08T17:02:10&#43;01:00">8 January 2023</time></li>
+
 <li><a href="/post/2023/deploy-hugo-github-pages-actions/">Automatically deploy Hugo site to GitHub pages with actions</a> – <time class="created-date" datetime="2023-01-06T11:33:53&#43;01:00">6 January 2023</time></li>
 
 <li><a href="/post/2021/sennheiser-hd6xx-fiio-k5pro-mac/">Sennheiser HD6XX with FiiO K5PRO connected to a Mac</a> – <time class="created-date" datetime="2021-08-24T18:04:48&#43;02:00">24 August 2021</time></li>

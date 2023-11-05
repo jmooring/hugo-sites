@@ -4,25 +4,25 @@ Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 81392869cf19c4bb-SEA
+Cf-Ray: 821813ba1cbf276b-SEA
 Content-Type: text/html; charset=utf-8
-Date: Mon, 09 Oct 2023 19:51:22 GMT
-Expires: Sun, 08 Oct 2023 17:59:26 GMT
-Last-Modified: Thu, 05 Oct 2023 08:55:42 GMT
+Date: Sun, 05 Nov 2023 21:09:19 GMT
+Expires: Sun, 05 Nov 2023 21:19:19 GMT
+Last-Modified: Thu, 02 Nov 2023 12:33:09 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0l8iLMwb4UpNXLeicd5F2mQucktAIe5eoE7TmHSIPireL4ja4UXTo9Dun16I4KOir%2BK74WoS4OLbA1AaPT6r56NRhTJYlfVGG1XbGmAWOihDeNKxO%2F9ePW3xK34%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bYxBotCHNzbhecJ%2B5t6Zh%2FLfKRdzC9vpe24gTAPbiCOmhQjdkrw2YmNYoMCIzvLLsgEOKL%2FO9CNj94TDWhNtw581nawPGG1l4hsdnZNrdc3PVyjpmQf9hXFrvpo%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache: MISS
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 791a23983e508e327517f37cafa13fcd4b208660
-X-Github-Request-Id: C096:1489:68A3AB:7C83E9:6522EBA4
+X-Fastly-Request-Id: fef6aafb5f2e526f31a9d957bb3c5274a98b11cc
+X-Github-Request-Id: 46C6:8B5B:3064A6:39B310:6548047E
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770069-PAO
-X-Timer: S1696881082.958423,VS0,VE90
+X-Served-By: cache-pao-kpao1770035-PAO
+X-Timer: S1699218559.120194,VS0,VE88
 
 <!DOCTYPE html>
 <html lang="en">
@@ -227,6 +227,15 @@ X-Timer: S1696881082.958423,VS0,VE90
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
+              <span class="tag is-light">2023-10-26</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/10/26/css-filters-testing-tauri/">This month in Servo: CSS filters, testing changes, Tauri, and more!</a></strong></big></p>
+              <p>Catch up on our recent conference talks, embedding news, and testing changes, plus nightly updates around media queries, the DOM, upgrades, CSS filters, and canvas performance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
               <span class="tag is-light">2023-09-15</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/09/15/upcoming-events-and-new-browser-ui/">This month in Servo: upcoming events, new browser UI, and more!</a></strong></big></p>
               <p>Conferences and booths you can find us at in September, plus nightly updates around rustls, WebGPU, ARM32, floats, white-space, crash handling, and browser UI.</p>
@@ -251,15 +260,6 @@ X-Timer: S1696881082.958423,VS0,VE90
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2023-05-31</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/05/31/adding-support-for-outline-properties/">Adding support for ‘outline’ properties</a></strong></big></p>
-              <p>Guide to the ‘outline’ implementation in Layout 2020, plus the tests and spec issues we added along the way.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@ X-Timer: S1696881082.958423,VS0,VE90
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#472e29212807342235312869283520"><span class="__cf_email__" data-cfemail="ddb4b3bbb29daeb8afabb2f3b2afba">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#f29b9c949db2819780849ddc9d8095"><span class="__cf_email__" data-cfemail="b8d1d6ded7f8cbddcaced796d7cadf">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -342,7 +342,7 @@ X-Timer: S1696881082.958423,VS0,VE90
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#1970777f76596a7c6b6f7637766b7e"><span class="__cf_email__" data-cfemail="71181f171e31021403071e5f1e0316">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#e0898e868fa0938592968fce8f9287"><span class="__cf_email__" data-cfemail="2f464149406f5c4a5d594001405d48">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

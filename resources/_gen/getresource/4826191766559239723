@@ -1,16 +1,17 @@
 HTTP/2.0 200 OK
 Cache-Control: private
-Cf-Cache-Status: MISS
-Cf-Ray: 813927deedf5c495-SEA
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8218132ec8deebc3-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Mon, 09 Oct 2023 19:50:59 GMT
-Last-Modified: Mon, 09 Oct 2023 16:23:39 GMT
+Date: Sun, 05 Nov 2023 21:08:57 GMT
+Last-Modified: Fri, 03 Nov 2023 18:11:54 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=uWBCiAGqbeWvqnJZ_poEWPhy85v1TmOkMICLVdv5V18-1696881059-0-AUlVHvsec8MsjCJW9dOSlhDqAx1NO3zjojtCgK8e2+cCV0Itjp/OOXZIqycuhujAgR9LdQHcQd5T0WeqpgtrXAg=; path=/; expires=Mon, 09-Oct-23 20:20:59 GMT; domain=.docs.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=erK4703EzXx5fWgP6aEzH6oiYBl_hBCMR1x70yLnYcs-1699218537-0-AfvH55j7yq67VzpljeRFwhOlBfRNjk74g9gL3awgnHPfb3K7SANHjrPqjtJy7+CnlVbsPXCWGD6p8zBgNh386Rs=; path=/; expires=Sun, 05-Nov-23 21:38:57 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=WwsxgSD6GdEEoiJJ3y4c52k384.9hNY8.eh17l6c7ak-1699218537-0-AYQFpZqLvfA6R5j5k75wYxmcCuhkJyRKcdOW6ujaj2u8deYP7Kq0Ia+o5BzPaQzHzLh/nHC7NBxZrhO+eRvIhN+XBNUZonTeCVxFp6IpLhog; path=/; expires=Sun, 05-Nov-23 21:38:57 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
-X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
+X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
 X-Do-Orig-Status: 200
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
@@ -63,7 +64,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.a5730b399691dcb27a78d81557f4414b3dc3e847e51cf09f437bb61d70a6cbed.css">
+<link rel="stylesheet" href="/main.min.b2a02fcdff8ac951f8e6679af1fbb1a10703e3c141004226607010fc4c136d52.css">
 
 </head>
 
@@ -315,152 +316,15 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="3-october-2023">3 October 2023</h3>
+<h3 id="30-october-2023">30 October 2023</h3>
 <ul><li>
-            <p><p>Ubuntu 22 is now the default stack for all App Platform apps. This upgrade provides security updates, newer versions of buildpacks, and new features, such as upgrading to newer Node.js versions.</p>
-<p>You can <a href="/products/app-platform/how-to/change-stack/">downgrade your app&rsquo;s stack</a> back to Ubuntu 18 if your app experiences compatibility issues.</p>
-</p>
-        </li><li>
-            <p><p>Our <a href="/products/networking/ddos/">DDoS Protection service</a> is now available and active for all DigitalOcean customers at no additional cost.</p>
-<p>DDoS Protection covers Droplets, Kubernetes clusters, managed databases, load balancers, and assigned reserved IPs.</p>
-</p>
-        </li></ul><h3 id="29-september-2023">29 September 2023</h3>
+            <p>We are incrementally making additional Spaces CDN PoPs available for existing customers, starting on 6 November 2023 and finishing on 21 November 2023. For the full upcoming list, see <a href="/products/spaces/details/availability/">Spaces availability</a>.</p>
+        </li></ul><h3 id="25-october-2023">25 October 2023</h3>
 <ul><li>
-            <p><p>When creating or resizing MySQL or PostgreSQL clusters on DigitalOcean, you can now add additional storage independently from your chosen database configuration plan. This provides a more economic option for increasing storage, rather than upgrading your cluster&rsquo;s entire plan.</p>
-<p>For more details, see our guides on how to <a href="/products/databases/mysql/how-to/resize/">resize MySQL clusters</a> and <a href="/products/databases/postgresql/how-to/resize/">resize PostgreSQL clusters</a>.</p>
-</p>
-        </li><li>
-            <p><p>The following MySQL and PostgreSQL plans are now deprecated:</p>
-<ul>
-<li>MySQL and PostgreSQL plans with 8 vCPUs, 32 GB RAM, and 600 GB SSD ($480 per month)</li>
-<li>MySQL and PostgreSQL plans with 16 vCPUs, 64 GB RAM, and 1220 GB SSD ($960 per month)</li>
-</ul>
-<p>All of your existing database clusters with these plans are still functional and accessible to you. However, you cannot resize or fork them. To regain access to these features, migrate your database to a new cluster with a supported plan. For more detailed steps, see our guides on how to <a href="/products/databases/mysql/how-to/migrate/">migrate MySQL databases</a> and <a href="/products/databases/postgresql/how-to/migrate/">migrate PostgreSQL databases</a>.</p>
-</p>
-        </li></ul><h3 id="27-september-2023">27 September 2023</h3>
+            <p><a href="https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534">Ubuntu 23.10</a> (<code>ubuntu-23-10-x64</code>) base image is now available in the control panel and via the API.</p>
+        </li></ul><h3 id="19-october-2023">19 October 2023</h3>
 <ul><li>
-            <p>We have added <a href="/reference/api/api-try-it-now/">Swagger functionality</a> to the API documentation. Using an <a href="/reference/api/create-personal-access-token/">API key</a>, you can now use the Swagger&rsquo;s &ldquo;Try it out&rdquo; feature to interact with the API from the documentation.</p>
-        </li><li>
-            <p><p>Premium CPUs are now available for General Purpose Droplets.</p>
-<div class="expandable-content">
-    <div class="summary">
-        <div class="svg-wrap"><svg class="svg-Icon" aria-hidden="true"><use xlink:href="#_sprite-plus"></use></svg></div>
-        <span class="expand-link-text">Click here to view the full list of new General Purpose Droplet plans with Premium CPUs.</span>
-    </div>
-    <div class="expand-content "><table>
-<thead>
-<tr>
-<th>Slug</th>
-<th>vCPUs</th>
-<th>RAM (GB)</th>
-<th>Disk (GB)</th>
-<th>Transfer (TB)</th>
-<th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>g-2vcpu-8gb-intel</code></td>
-<td>2</td>
-<td>8</td>
-<td>25</td>
-<td>4</td>
-<td>$76.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-2vcpu-8gb-intel</code></td>
-<td>2</td>
-<td>8</td>
-<td>50</td>
-<td>4</td>
-<td>$79.00 per month</td>
-</tr>
-<tr>
-<td><code>g-4vcpu-16gb-intel</code></td>
-<td>4</td>
-<td>16</td>
-<td>50</td>
-<td>5</td>
-<td>$151.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-4vcpu-16gb-intel</code></td>
-<td>4</td>
-<td>16</td>
-<td>100</td>
-<td>5</td>
-<td>$158.00 per month</td>
-</tr>
-<tr>
-<td><code>g-8vcpu-32gb-intel</code></td>
-<td>8</td>
-<td>32</td>
-<td>100</td>
-<td>6</td>
-<td>$302.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-8vcpu-32gb-intel</code></td>
-<td>8</td>
-<td>32</td>
-<td>200</td>
-<td>6</td>
-<td>$317.00 per month</td>
-</tr>
-<tr>
-<td><code>g-16vcpu-64gb-intel</code></td>
-<td>16</td>
-<td>64</td>
-<td>200</td>
-<td>7</td>
-<td>$605.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-16vcpu-64gb-intel</code></td>
-<td>16</td>
-<td>64</td>
-<td>400</td>
-<td>7</td>
-<td>$634.00 per month</td>
-</tr>
-<tr>
-<td><code>g-32vcpu-128gb-intel</code></td>
-<td>32</td>
-<td>128</td>
-<td>400</td>
-<td>8</td>
-<td>$1210.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-32vcpu-128gb-intel</code></td>
-<td>32</td>
-<td>128</td>
-<td>800</td>
-<td>8</td>
-<td>$1268.00 per month</td>
-</tr>
-<tr>
-<td><code>g-48vcpu-192gb-intel</code></td>
-<td>48</td>
-<td>192</td>
-<td>600</td>
-<td>9</td>
-<td>$1814.00 per month</td>
-</tr>
-<tr>
-<td><code>gd-48vcpu-192gb-intel</code></td>
-<td>48</td>
-<td>192</td>
-<td>1200</td>
-<td>9</td>
-<td>$1901.00 per month</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p>The new plans are available through the <a href="/products/droplets/how-to/create/#create-a-droplet-in-the-control-panel">control panel</a> and the <a href="/products/droplets/how-to/create/#create-a-droplet-using-the-api">API</a> in NYC1, NYC3, SFO2, TOR1, FRA1, BLR1, and SYD1.</p>
-</p>
+            <p>SnapShooter accounts created after 19 October 2023 cannot use Google Drive or Dropbox as a SnapShooter storage provider. Please use <a href="/products/snapshooter/details/features/">SnapShooter Simple Storage</a>, <a href="/products/snapshooter/how-to/use-spaces-for-storage/">Spaces Object Storage</a>, or <a href="/products/snapshooter/how-to/use-other-storage-providers/">other storage providers</a> instead.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
@@ -487,7 +351,8 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 
     </div>
     
-
+    
+    
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -495,9 +360,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-KHWBBT');</script>
 
 
-
-
-<script>
+    
+    <script>
 ! function() {
     var analytics = window.analytics = window.analytics || [];
     if (!analytics.initialize)
@@ -568,6 +432,7 @@ function logToLooker(actionValue,nameValue,valueValue)
 }
 
 </script>
+
 
 
 <div id="empty_state_holder" style="display:none;">

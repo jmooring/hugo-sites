@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 169277
 Cache-Control: public,max-age=0,must-revalidate
 Content-Security-Policy: frame-ancestors 'self' https://cockroachlabs.app.workramp.com
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 09 Oct 2023 19:51:53 GMT
-Etag: "d9ce20a9bf108e97d9a8c5ac497023ed-ssl-df"
+Date: Sun, 05 Nov 2023 21:09:20 GMT
+Etag: "c2dc72f3e304b5b76846f5c05f0f8d44-ssl-df"
 Referrer-Policy: no-referrer-when-downgrade
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01HCAZXYFAHGTEXJ31KX821WG9
+X-Nf-Request-Id: 01HEGN35T2A6MEQKXSMF8DDBEG
 X-Xss-Protection: 1; mode=block
 
 <!doctype html>
@@ -107,12 +107,12 @@ X-Xss-Protection: 1; mode=block
 
   
   
-    <link as='style' href='https://d33wubrfki0l68.cloudfront.net/css/d9e03d7c4bc08e717ec90124e485ed33e5d7c777/main.css' rel='preload'/>
+    <link rel="preload" href="/main.css" as="style">
   
 
   
   
-  <link href='https://d33wubrfki0l68.cloudfront.net/css/d9e03d7c4bc08e717ec90124e485ed33e5d7c777/main.css' rel='stylesheet'/>
+  <link rel="stylesheet" href="/main.css" />
   
 
 
@@ -120,9 +120,9 @@ X-Xss-Protection: 1; mode=block
   <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <script src='https://d33wubrfki0l68.cloudfront.net/js/8bffb2f9d34bfa25d90b02e2a7d4c3fc0a5af3fe/js/jquery-3.5.1.min.js'></script>
+  <script src="/js/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer></script>
-  <script defer src='https://d33wubrfki0l68.cloudfront.net/js/b1f91ee085ad731db5cb81c3dd735d8ab465f189/js/bootstrap.min.js'></script><script src="//go.cockroachlabs.com/js/forms2/js/forms2.min.js"></script>
+  <script src="/js/bootstrap.min.js" defer></script><script src="//go.cockroachlabs.com/js/forms2/js/forms2.min.js"></script>
     <link rel="icon" type="image/png" href="https://crl2020.imgix.net/img/crl-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://crl2020.imgix.net/img/crl-32x32.png?w=16h=16" sizes="16x16">
     <link rel="manifest" href="/manifest.json">
@@ -231,8 +231,8 @@ X-Xss-Protection: 1; mode=block
                 "@id": "https://www.cockroachlabs.com/#primaryimage"
             },
 
-            "datePublished": "2023-10-09 19:10:43.665 &#43;0000 UTC",
-            "dateModified": "2023-10-09 19:10:43.665 &#43;0000 UTC",
+            "datePublished": "2023-11-03 15:03:30.516 &#43;0000 UTC",
+            "dateModified": "2023-11-03 15:03:30.516 &#43;0000 UTC",
             "description": "CockroachDB is a distributed database with standard SQL for cloud applications. CockroachDB powers companies like Comcast, Lush, and Bose.",
             "breadcrumb": {
                 "@id": "https://www.cockroachlabs.com/#breadcrumb"
@@ -325,6 +325,39 @@ X-Xss-Protection: 1; mode=block
     <div class="nav-holder">
 
       
+
+
+<div class="top-banner">
+    <div class="container">
+        <div class="row d-flex align-content-between flex-wrap py-3">
+            <div class="col-12 align-self-center text-center px-4 px-md-0">
+                <p class="text-white m-0"><strong>Let the RoachFest binge begin <a href="https://www.cockroachlabs.com/roachfest/2023/" class="pl-2 top-banner-cta"> Watch the talks →</strong></a> </p>
+            </div>        
+        </div>
+    </div>
+    <span class="close_x">×</span>
+</div>
+
+<script>
+    $(document).ready(function() {
+            if (window.localStorage.getItem('close_x')) {
+                $('.top-banner').hide();
+            } else {
+                    $('.top-banner').show();
+            }
+            $(".close_x").click(function() {
+                window.localStorage.setItem('close_x', true);
+                $('.top-banner').fadeOut();
+            });
+    });
+  </script>
+  
+
+
+<style>.top-banner{width: 100%;background: linear-gradient(90deg, #190F33 0%, #0037A5 48.3%, #6933FF 100%) !important;z-index: 10000000;top:0;display:none}.top-banner-btn{background-color: white;color:#6933ff;border-radius: 20px;}.close_x {position: absolute; right: 15px; top: 7px; color: white; font-size: 30px; cursor: pointer;}.top-banner-cta {text-decoration: underline;}</style>
+
+
+  
 
 
 
@@ -813,8 +846,8 @@ X-Xss-Protection: 1; mode=block
 
 <div class="col-md-6 offset-md-1">
     <div>
-        <a href="https://www.cockroachlabs.com/roachfest/2022/">
-            <img src="https://crl2020.imgix.net/img/rf-company.png?auto=format,compress" alt="RoachFest 2023" style="width: 303px;" class="mt-4 mt-md-0">
+        <a href="https://www.cockroachlabs.com/roachfest/2023/">
+            <img src="https://crl2020.imgix.net/img/rf-2023-watch.png?auto=format,compress" alt="RoachFest 2023" style="width: 303px;" class="mt-4 mt-md-0">
         </a>
     </div>
 </div>
@@ -1290,8 +1323,8 @@ X-Xss-Protection: 1; mode=block
 
 <div class="col-md-6 offset-md-1">
     <div>
-        <a href="https://www.cockroachlabs.com/roachfest/2022/">
-            <img src="https://crl2020.imgix.net/img/rf-company.png?auto=format,compress" alt="RoachFest 2023" style="width: 303px;" class="mt-4 mt-md-0">
+        <a href="https://www.cockroachlabs.com/roachfest/2023/">
+            <img src="https://crl2020.imgix.net/img/rf-2023-watch.png?auto=format,compress" alt="RoachFest 2023" style="width: 303px;" class="mt-4 mt-md-0">
         </a>
     </div>
 </div>
@@ -1922,9 +1955,9 @@ function OptanonWrapper() { }
 
     
     
-      <script src='https://d33wubrfki0l68.cloudfront.net/js/56127f6cf54e90f1af06f762cb90b9847cd8edb2/main.js'></script>
+      <script src="/main.js"></script>
     
-    <link href='https://d33wubrfki0l68.cloudfront.net/css/6bdc6a205d1a4d1bb94f0d035ff2f63471f0302e/css/katex.min.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="/css/katex.min.css">
   
-<script async id="netlify-rum-container" src="https://netlify-rum.netlify.app/netlify-rum.js" data-netlify-rum-site-id="dc444f77-e72a-4e8b-b364-d5904ea311de" data-netlify-deploy-branch="master" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiZGM0NDRmNzctZTcyYS00ZThiLWIzNjQtZDU5MDRlYTMxMWRlIiwiYWNjb3VudF9pZCI6IjViNGY5Y2FkYzZhZWQ2NDFlZDc4NDc3YSIsImRlcGxveV9pZCI6IjY1MjQ1NjUxNGQyMTU1MDAwNzZjNDAyNyIsImlzc3VlciI6Im5mc2VydmVyIn0.6-OOkSquMonPEf4hIMqzCWIN-xp2S2UIn1FQY9CJvDc"></script></body>
+<script async id="netlify-rum-container" src="https://netlify-rum.netlify.app/netlify-rum.js" data-netlify-rum-site-id="dc444f77-e72a-4e8b-b364-d5904ea311de" data-netlify-deploy-branch="master" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiZGM0NDRmNzctZTcyYS00ZThiLWIzNjQtZDU5MDRlYTMxMWRlIiwiYWNjb3VudF9pZCI6IjViNGY5Y2FkYzZhZWQ2NDFlZDc4NDc3YSIsImRlcGxveV9pZCI6IjY1NDU2NGIzMDRhNDY4MDAwODMxYjA5OCIsImlzc3VlciI6Im5mc2VydmVyIn0.pvcwHp_qoMJSiBTs2_UDiaUiEBm2x1kiURQEiHL9eeE"></script></body>
 </html>

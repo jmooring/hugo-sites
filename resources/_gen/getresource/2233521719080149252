@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 4190
+Age: 8239
 Content-Type: text/html
-Date: Mon, 09 Oct 2023 19:51:00 GMT
-Etag: "21410-606c514ebb111-gzip"
-Last-Modified: Tue, 03 Oct 2023 00:36:29 GMT
+Date: Sun, 05 Nov 2023 21:08:57 GMT
+Etag: "2121b-60934310993dd-gzip"
+Last-Modified: Fri, 03 Nov 2023 00:00:25 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 41, 1
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300072-BFI
-X-Timer: S1696881060.339502,VS0,VE1
+X-Cache-Hits: 21, 1
+X-Served-By: cache-hel1410029-HEL, cache-bfi-kbfi7400110-BFI
+X-Timer: S1699218537.246942,VS0,VE2
 
 
 
@@ -78,8 +78,8 @@ X-Timer: S1696881060.339502,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.29d5507753e52c1739b6cd1058be3a465ef87e43556024e4f28b6c9d20828b1c.css" as="style">
-    <link href="/scss/main-custom.min.29d5507753e52c1739b6cd1058be3a465ef87e43556024e4f28b6c9d20828b1c.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" as="style">
+    <link href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" rel="stylesheet" integrity="">
 
 
 
@@ -115,10 +115,7 @@ X-Timer: S1696881060.339502,VS0,VE1
     
 
 
-<a href="https://airflowsummit.org" target="_blank" class="d-block fixed-top px-3 py-2 bg-success text-center text-bold text-white">
-    Airflow Summit 2023 is coming September 19-21. Register now!
-</a>
-<nav class="js-navbar-scroll navbar" style="top: 40px;">
+<nav class="js-navbar-scroll navbar">
     <div class="navbar__icon-container">
         <a href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="155.314" height="60" viewBox="0 0 155.314 60">
@@ -1209,6 +1206,32 @@ X-Timer: S1696881060.339502,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
+                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Microsoft Azure</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/leveldb/leveldb.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Google LevelDB</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
                 <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/sagemaker.html">
                     
 
@@ -1222,12 +1245,12 @@ X-Timer: S1696881060.339502,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-databricks/stable/operators/sql.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-odbc/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Databricks SQL</span>
+        <span class="box-event__integration--name">ODBC</span>
     </div>
 </div>
 
@@ -1235,12 +1258,12 @@ X-Timer: S1696881060.339502,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-mysql/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/operators/adf_run_pipeline.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">MySQL</span>
+        <span class="box-event__integration--name">Microsoft Azure Data Factory</span>
     </div>
 </div>
 
@@ -1248,12 +1271,12 @@ X-Timer: S1696881060.339502,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-psrp/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Windows PowerShell Remoting Protocol</span>
+        <span class="box-event__integration--name">Google Data Proc</span>
     </div>
 </div>
 
@@ -1261,12 +1284,12 @@ X-Timer: S1696881060.339502,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/spanner.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Microsoft Azure Batch</span>
+        <span class="box-event__integration--name">Google Cloud Spanner</span>
     </div>
 </div>
 
@@ -1274,38 +1297,12 @@ X-Timer: S1696881060.339502,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/athena.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-beam/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Athena</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-pagerduty/stable/index.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Pagerduty</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-sftp/stable/index.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">SSH File Transfer Protocol (SFTP)</span>
+        <span class="box-event__integration--name">Apache Beam</span>
     </div>
 </div>
 
@@ -1776,10 +1773,6 @@ X-Timer: S1696881060.339502,VS0,VE1
                         
                             <a href="https://www.apache.org/security/" class="footer-section__policies-section--policy-item">
                                 <span>Security</span>
-                            </a>
-                        
-                            <a href="https://cwiki.apache.org/confluence/display/AIRFLOW/Season&#43;of&#43;Docs&#43;2019/" class="footer-section__policies-section--policy-item">
-                                <span>Season of Docs</span>
                             </a>
                         
                             <a href="/privacy-notice/" class="footer-section__policies-section--policy-item">

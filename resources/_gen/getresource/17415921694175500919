@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
-Age: 70810
+Age: 75478
 Content-Security-Policy: connect-src 'self' https://brave-software.ghost.io; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://try.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://survey.brave.com https://contact.ads.brave.com https://html5-player.libsyn.com https://social-growth.bravesoftware.com https://try.bravesoftware.com https://player.vimeo.com https://boards.greenhouse.io https://www.surveymonkey.com https://www.youtube-nocookie.com https://js.driftt.com https://app.boostr.com/; img-src 'self' data: https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://analytics.brave.com https://boards.greenhouse.io https://js.driftt.com; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
 Content-Type: text/html
 Cross-Origin-Opener-Policy: same-origin
-Date: Mon, 09 Oct 2023 00:10:50 GMT
-Etag: W/"5a784872fc5f81e6a06f002ae8d8b641"
-Last-Modified: Fri, 29 Sep 2023 16:49:37 GMT
+Date: Sun, 05 Nov 2023 00:10:59 GMT
+Etag: W/"38943330dd7c01c29daf2d2fe1538c26"
+Last-Modified: Thu, 02 Nov 2023 17:00:03 GMT
 Onion-Location: https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: AmazonS3
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
-Via: 1.1 4793b6b9cde3a68180da20041b40b958.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: cPfkgs7nQfe87YSR4rde9xt6eZvsg6q3EShJLZRAQnd4BrFCX3Jsbg==
+Via: 1.1 69c3a6c1e32b8c96e5765cc20e12c398.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3vEQzhWAnAQC4buhF8d9tJRXpeMT_R4yCFTfMoKngxecvpx7XXLO7w==
 X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
-X-Amz-Version-Id: U_b2RCymWC4uN_M7WeY5zhiDlb1yXJ_L
+X-Amz-Version-Id: id6d6GjUBTdzmXO_MIBwYU8DhrExh99C
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Download-Options: noopen
@@ -26,7 +26,7 @@ X-Xss-Protection: 1; mode=block
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.116.1">
+	<meta name="generator" content="Hugo 0.119.0">
     <script src="/static-assets/js/ie-shims.js"></script>
 
     
@@ -59,7 +59,7 @@ X-Xss-Protection: 1; mode=block
 <meta property="og:locale:alternate" content="ru" />
 <meta property="og:locale:alternate" content="vi" />
 <meta property="og:image" content="https://brave.com/static-assets/images/brave-og.png"/>
-<meta property="og:updated_time" content="2023-09-22T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
+<meta property="og:updated_time" content="2023-11-02T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brave.com/static-assets/images/brave-og.png"/>
 <meta name="twitter:title" content="Secure, Fast, &amp; Private Web Browser with Adblocker | Brave"/>
@@ -221,6 +221,9 @@ X-Xss-Protection: 1; mode=block
                                         
                                     </li>
                                     <li><a href='/firewall-vpn/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">VPN</a>
+                                        
+                                    </li>
+                                    <li><a href='/leo/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Leo AI</a>
                                         
                                     </li>
                                     <li><a href='/wallet/'  class="no-underline font-semibold text-light-01 hover:text-blurple-500" data-nav-control="trigger">Wallet</a>
@@ -388,12 +391,10 @@ X-Xss-Protection: 1; mode=block
                                 <div class="hidden lg:block pl-6 table-of-contents"><nav>
   <ul>
     
-    <li><a href="/whats-new/#try-vertical-tabs-on-desktop">Try vertical tabs on desktop</a></li>
-    <li><a href="/whats-new/#help-improve-brave-search">Help improve Brave Search</a></li>
+    <li><a href="/whats-new/#try-brave-leo-on-desktop">Try Brave Leo on desktop</a></li>
+    <li><a href="/whats-new/#braves-speedreader">Brave&rsquo;s speedreader</a></li>
     <li><a href="/whats-new/#use-brave-vpn-on-desktop">Use Brave VPN on desktop</a></li>
     <li><a href="/whats-new/#block-cookie-consent-notices">Block cookie consent notices</a></li>
-    <li><a href="/whats-new/#free-personalized-news-feed-and-rss-reader-in-brave">Free, personalized news feed and RSS reader in Brave</a></li>
-    <li><a href="/whats-new/#brave-wallet-the-secure-built-in-crypto-wallet">Brave Wallet, the secure built-in crypto wallet</a></li>
   </ul>
 </nav></div>
                                 <div class="hidden lg:block border-t border-[#C3C6D3] -mr-6 mt-4 py-2 text-center">
@@ -452,7 +453,9 @@ X-Xss-Protection: 1; mode=block
                 </li>
             
             </ul>
-            <div class="flex justify-end flex-grow gap-3 flex-wrap lg:flex-no-wrap pt-3 pb-6 lg:p-0 lg:mr-6 button-block lg:w-min"><a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  icon--download-right btn btn--none btn--orange btn h-9 btn--white font-semibold normal-case py-2 max-w-full w-full lg:w-fit leading-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            <div class="flex justify-end flex-grow gap-3 flex-wrap lg:flex-no-wrap pt-3 pb-6 lg:p-0 lg:mr-6 button-block lg:w-min">
+  <a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  btn btn--none btn--orange btn h-9 btn--white font-semibold normal-case py-2 max-w-full w-full lg:w-fit leading-none [--icon-size:1.3em] invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave<span class="icon [--icon-url:url('/leo-icons/download.svg')] bg-[var(--icon-color,currentColor)] ml-1"></span></a>
+
                 <a class="btn btn--clear font-semibold capitalize max-w-full w-full lg:w-fit leading-none" href="https://search.brave.com" id="top-nav-try-search-button">Try Brave Search</a>
             </div>
         </nav>
@@ -488,7 +491,29 @@ X-Xss-Protection: 1; mode=block
                 <p class="br--not-chrome text-2xl">Browse privately. Search privately. And ditch Big Tech.</p>
                 <p class="br--chrome text-2xl">3x faster than Chrome. Better protection from Google and Big Tech.</p>
             
-            <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download  btn btn--large btn--hero block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            <div class="android-only">
+                 
+    <a data-track-event data-event-category="Research" data-event-action="Download Button" data-event-name="Hero Download Button"  class="download inline-block my-8 mx-auto invisible opacity-0" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">
+        <img
+    class="w-64 xs:w-48 sm:w-40"
+    src="/static-assets/images/playstore.png"
+    alt="Google Play Store button"/>
+    </a>
+
+            </div>
+            <div class="ios-only">
+                 
+    <a data-track-event data-event-category="Research" data-event-action="Download Button" data-event-name="Hero Download Button"  class="download inline-block my-8 mx-auto invisible opacity-0" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">
+        <img
+    class="w-64 xs:w-48 sm:w-40"
+    src="/static-assets/images/app-store-badge.png"
+    alt="Apple App Store button"/>
+    </a>
+
+            </div>
+            
+  <a id="home-download-button-hero"  data-show-platform="false" class="download icon--download btn btn--large btn--hero block my-8 mx-auto py-5 sm:px-32 font-medium not-ios not-android invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+
         </div>
     </div>
     <picture>
@@ -526,8 +551,8 @@ X-Xss-Protection: 1; mode=block
         </noscript>
         
         <div class="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer" style="background-image: url(/static-assets/images/optimized/privacy-browser-video-cover.jpg);">
-            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Brave - The Privacy Browser video" aria-label="Play Brave - The Privacy Browser video" href="#">
-                <svg class="w-7/50" xmlns="http://www.w3.org/2000/svg" width="87" height="87" fill="none" viewBox="0 0 87 87"><defs/><path fill="#fff" fill-opacity=".7" fill-rule="evenodd" d="M43.825 86.031c23.754 0 43.012-19.229 43.012-42.949S67.579.135 43.825.135C20.07.134.812 19.363.812 43.083S20.07 86.03 43.825 86.03z" clip-rule="evenodd"/><path fill="#5E6175" fill-rule="evenodd" d="M34.645 56.66V32.573a4.49 4.49 0 014.494-4.487c.955 0 1.886.304 2.657.869l16.447 12.043a4.482 4.482 0 010 7.236L41.796 60.278a4.497 4.497 0 01-6.28-.965 4.482 4.482 0 01-.87-2.653z" clip-rule="evenodd"/></svg>
+            <a class="group play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Brave - The Privacy Browser video" aria-label="Play Brave - The Privacy Browser video" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 128 128" fill="none" class="transition-filter duration-150 ease-linear group-hover:invert w-[20%] max-w-[128px]"><rect width="126" height="126" x="1" y="1" fill="#09090C" stroke="#F5F5F7" stroke-width="2" rx="15"/><path fill="#fff" fill-rule="evenodd" d="M64 99c-19.3 0-35-15.7-35-35s15.7-35 35-35 35 15.7 35 35-15.7 35-35 35Zm0-64.167c-16.083 0-29.167 13.084-29.167 29.167 0 16.082 13.084 29.167 29.167 29.167 16.082 0 29.167-13.085 29.167-29.167 0-16.083-13.085-29.167-29.167-29.167Zm-7.191 45.799 23.46-15.803a1 1 0 0 0 0-1.658l-23.46-15.803a1 1 0 0 0-1.559.83v31.604a1 1 0 0 0 1.559.83Z" clip-rule="evenodd"/></svg>
             </a>
         </div>
         
@@ -543,8 +568,8 @@ X-Xss-Protection: 1; mode=block
         </noscript>
         
         <div class="video-overlay absolute left-0 top-0 h-full w-full bg-center bg-no-repeat bg-cover cursor-pointer" style="background-image: url(/static-assets/images/optimized/speed-past-chrome-cover.png);">
-            <a class="play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Speed Past Chrome video" aria-label="Play Speed Past Chrome video" href="#">
-                <svg class="w-7/50" xmlns="http://www.w3.org/2000/svg" width="87" height="87" fill="none" viewBox="0 0 87 87"><defs/><path fill="#fff" fill-opacity=".7" fill-rule="evenodd" d="M43.825 86.031c23.754 0 43.012-19.229 43.012-42.949S67.579.135 43.825.135C20.07.134.812 19.363.812 43.083S20.07 86.03 43.825 86.03z" clip-rule="evenodd"/><path fill="#5E6175" fill-rule="evenodd" d="M34.645 56.66V32.573a4.49 4.49 0 014.494-4.487c.955 0 1.886.304 2.657.869l16.447 12.043a4.482 4.482 0 010 7.236L41.796 60.278a4.497 4.497 0 01-6.28-.965 4.482 4.482 0 01-.87-2.653z" clip-rule="evenodd"/></svg>
+            <a class="group play-video text-white no-underline text-8xl flex justify-center items-center transition-colors ease-in-out duration-300 absolute w-full h-full hover:bg-black/50" title="Play Speed Past Chrome video" aria-label="Play Speed Past Chrome video" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 128 128" fill="none" class="transition-filter duration-150 ease-linear group-hover:invert w-[20%] max-w-[128px]"><rect width="126" height="126" x="1" y="1" fill="#09090C" stroke="#F5F5F7" stroke-width="2" rx="15"/><path fill="#fff" fill-rule="evenodd" d="M64 99c-19.3 0-35-15.7-35-35s15.7-35 35-35 35 15.7 35 35-15.7 35-35 35Zm0-64.167c-16.083 0-29.167 13.084-29.167 29.167 0 16.082 13.084 29.167 29.167 29.167 16.082 0 29.167-13.085 29.167-29.167 0-16.083-13.085-29.167-29.167-29.167Zm-7.191 45.799 23.46-15.803a1 1 0 0 0 0-1.658l-23.46-15.803a1 1 0 0 0-1.559.83v31.604a1 1 0 0 0 1.559.83Z" clip-rule="evenodd"/></svg>
             </a>
         </div>
         
@@ -648,20 +673,20 @@ X-Xss-Protection: 1; mode=block
         </ul>
         
 <svg xmlns="http://www.w3.org/2000/svg" style="width:0;height:0;position:absolute;">
-	<symbol id="checked" viewBox="0 0 37 37" fill="none">
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4314 36.7838C28.4986 36.7838 36.6597 28.6395 36.6597 18.5931C36.6597 8.5466 28.4986 0.402344 18.4314 0.402344C8.3642 0.402344 0.203125 8.5466 0.203125 18.5931C0.203125 28.6395 8.3642 36.7838 18.4314 36.7838Z" fill="#12A378"/>
-		<path d="M11.7715 18.9428L15.978 22.4411L25.0921 13.3457" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-	</symbol>
+    <symbol id="checked" viewBox="0 0 37 37" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4314 36.7838C28.4986 36.7838 36.6597 28.6395 36.6597 18.5931C36.6597 8.5466 28.4986 0.402344 18.4314 0.402344C8.3642 0.402344 0.203125 8.5466 0.203125 18.5931C0.203125 28.6395 8.3642 36.7838 18.4314 36.7838Z" fill="#12A378"/>
+        <path d="M11.7715 18.9428L15.978 22.4411L25.0921 13.3457" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
 
-	<symbol id="crossed" viewBox="0 0 37 37" fill="none">
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4861 36.7838C28.5532 36.7838 36.7143 28.6395 36.7143 18.5931C36.7143 8.5466 28.5532 0.402344 18.4861 0.402344C8.41887 0.402344 0.257812 8.5466 0.257812 18.5931C0.257812 28.6395 8.41887 36.7838 18.4861 36.7838Z" fill="#EA3A0D"/>
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M 13.3062 25.4118 C 12.9 25.818 12.2415 25.818 11.8354 25.4118 C 11.4292 25.0057 11.4292 24.3472 11.8354 23.941 L 17.2174 18.559 L 11.9646 13.3062 C 11.5585 12.9 11.5585 12.2415 11.9646 11.8354 C 12.3708 11.4292 13.0292 11.4292 13.4354 11.8354 L 18.6882 17.0882 L 23.941 11.8354 C 24.3472 11.4292 25.0057 11.4292 25.4118 11.8354 C 25.818 12.2415 25.818 12.9 25.4118 13.3062 L 20.159 18.559 L 25.541 23.941 C 25.9472 24.3472 25.9472 25.0057 25.541 25.4118 C 25.1349 25.818 24.4764 25.818 24.0703 25.4118 L 18.6882 20.0298 L 13.3062 25.4118 Z"  stroke="white" fill="white" />
-	</symbol>
+    <symbol id="crossed" viewBox="0 0 37 37" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4861 36.7838C28.5532 36.7838 36.7143 28.6395 36.7143 18.5931C36.7143 8.5466 28.5532 0.402344 18.4861 0.402344C8.41887 0.402344 0.257812 8.5466 0.257812 18.5931C0.257812 28.6395 8.41887 36.7838 18.4861 36.7838Z" fill="#EA3A0D"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M 13.3062 25.4118 C 12.9 25.818 12.2415 25.818 11.8354 25.4118 C 11.4292 25.0057 11.4292 24.3472 11.8354 23.941 L 17.2174 18.559 L 11.9646 13.3062 C 11.5585 12.9 11.5585 12.2415 11.9646 11.8354 C 12.3708 11.4292 13.0292 11.4292 13.4354 11.8354 L 18.6882 17.0882 L 23.941 11.8354 C 24.3472 11.4292 25.0057 11.4292 25.4118 11.8354 C 25.818 12.2415 25.818 12.9 25.4118 13.3062 L 20.159 18.559 L 25.541 23.941 C 25.9472 24.3472 25.9472 25.0057 25.541 25.4118 C 25.1349 25.818 24.4764 25.818 24.0703 25.4118 L 18.6882 20.0298 L 13.3062 25.4118 Z"  stroke="white" fill="white" />
+    </symbol>
 
-	<symbol id="limited" viewBox="0 0 37 37" fill="none">
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M18.4314 36.7838C28.4986 36.7838 36.6597 28.6395 36.6597 18.5931C36.6597 8.5466 28.4986 0.402344 18.4314 0.402344C8.3642 0.402344 0.203125 8.5466 0.203125 18.5931C0.203125 28.6395 8.3642 36.7838 18.4314 36.7838Z" fill="#F5C518"/>
-		<path d="M 28.7 17 H 10.3 C 9.6 17 9 17.6 9 18.3 C 9 19 9.6 19.6 10.3 19.6 H 28.8 C 29.4 19.5 30 19 30 18.3 C 30 17.6 29.4 17 28.7 17 Z" stoke="white" stroke-width="3" fill="white"/>
-	</symbol>
+    <symbol id="limited" viewBox="0 0 37 37" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4314 36.7838C28.4986 36.7838 36.6597 28.6395 36.6597 18.5931C36.6597 8.5466 28.4986 0.402344 18.4314 0.402344C8.3642 0.402344 0.203125 8.5466 0.203125 18.5931C0.203125 28.6395 8.3642 36.7838 18.4314 36.7838Z" fill="#F5C518"/>
+        <path d="M 28.7 17 H 10.3 C 9.6 17 9 17.6 9 18.3 C 9 19 9.6 19.6 10.3 19.6 H 28.8 C 29.4 19.5 30 19 30 18.3 C 30 17.6 29.4 17 28.7 17 Z" stoke="white" stroke-width="3" fill="white"/>
+    </symbol>
 </svg>
 
 
@@ -958,7 +983,9 @@ X-Xss-Protection: 1; mode=block
             <h1 class="leading-tight mt-4 pt-0 mx-auto text-4xl xs:text-4.5xl lg:text-5.5xl font-semibold pb-6">Advanced features</h1>
             <p class="text-xl sm:text-1.5xl lg:text-2xl leading-normal">
                 Only here for the privacy? We got you. Just
-                <a id="home-download-advanced-plank"  data-show-platform="false" class="download   btn btn--medium btn--orange btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">download</a>
+                
+  <a id="home-download-advanced-plank"  data-show-platform="false" class="download  btn btn--medium btn--orange btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">download</a>
+
                 and enjoy…
                 <br />
             Want a more bespoke experience? Brave’s got great customizations, too:</p>
@@ -1007,7 +1034,9 @@ X-Xss-Protection: 1; mode=block
         <section class="text-center">
             <h1 class="leading-tight mt-16 pt-0 mx-auto sm:text-4xl xs:text-3.5xl text-2.5xl font-semibold pb-3">Join the more than 50 million people (and counting) who trust Brave for a faster, safer Web</h1>
             <p class="xl:text-3xl sm:text-2xl text-xl">Import bookmarks and extensions from your old browser in one click.</p>
-            <a id="home-download-button-lower"  data-show-platform="false" class="download icon--download  btn btn--large btn--orange btn--ghost block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+            
+  <a id="home-download-button-lower"  data-show-platform="false" class="download icon--download btn btn--large btn--orange btn--ghost block my-8 mx-auto py-5 sm:px-32 font-medium invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+
         </section><ul class="accordion--alt accordion-faq faq pt-16 lg:mx-24">
             
             <li class="faq__item accordion__item -open">
@@ -1105,7 +1134,9 @@ X-Xss-Protection: 1; mode=block
 
 </main>
 <div id="persistent-cta" class="transition transform duration-150 gradient--dark-purple-purple text-center sticky bottom-0 w-full 1.5xl:hidden br--not-brave opacity-0 translate-y-20 -mb-1">
-    <a id="persistent-download-button"  data-show-platform="false" class="download   btn btn--none btn--clear icon--download font-semibold text-white no-underline text-xl leading-4 block pt-6 pb-8 border-none mx-auto w-full max-w-full rounded-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+    
+  <a id="persistent-download-button"  data-show-platform="false" class="download  btn btn--none btn--clear icon--download font-semibold text-white no-underline text-xl leading-4 block pt-6 pb-8 border-none mx-auto w-full max-w-full rounded-none invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">Download Brave</a>
+
 </div>
 
     <footer class="site-footer section pb-12" data-theme="dark">
@@ -1184,6 +1215,7 @@ X-Xss-Protection: 1; mode=block
                     <li><a href='/playlist/'>Playlist</a></li>
                     <li><a href='/features/'>All features</a></li>
                     <li><a href="https://basicattentiontoken.org/" target="_blank" rel="noopener noreferrer">Basic Attention Token</a></li>
+                    <li><a href='/youtube-ad-blocker/'>YouTube ad blocker</a></li>
                 </ul>
             </div>
         </div>
@@ -1326,7 +1358,9 @@ X-Xss-Protection: 1; mode=block
             <h5 class="text-center text-ds-h5 text-white pb-2 2xl:pb-5">You’re just 60 seconds away from the best privacy online</h5>
             <p class="text-center text-white">
                 If your download didn’t start automatically,
-                <span class="whitespace-nowrap"><a  data-show-platform="false" class="download   btn btn--medium btn--orange text-white btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">click here</a>.</span>
+                <span class="whitespace-nowrap">
+  <a  data-show-platform="false" class="download  btn btn--medium btn--orange text-white btn--inline invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV001">click here</a>
+.</span>
             </p>
             <ol class="instructions p-0 grid md:grid-cols-3 list-none gap-10 mt-8 2xl:mt-12 leading-normal">
                 
