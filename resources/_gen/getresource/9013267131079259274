@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 17335
+Content-Length: 18153
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:09:09 GMT
-Etag: "64189d67-43b7"
-Last-Modified: Mon, 20 Mar 2023 17:52:39 GMT
+Date: Wed, 06 Dec 2023 16:30:54 GMT
+Etag: "655bb8e2-46e9"
+Last-Modified: Mon, 20 Nov 2023 19:52:02 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000
 
@@ -12,7 +12,7 @@ Strict-Transport-Security: max-age=31536000
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.109.0">
+	<meta name="generator" content="Hugo 0.120.4">
 
     <meta charset="utf-8">
 
@@ -138,10 +138,15 @@ Strict-Transport-Security: max-age=31536000
             Latest Releases
         </h2>
         <p>
-            pgJDBC has released v42.6.0 on 17 March, 2023. This release has two major changes: Remove most uses of synchronized
-            in favour of reentrant locks, and remove the use of finalize.
+            pgJDBC has released v42.7.0 on November 20, 2023. This release is mostly a maintenance release but the change
+            in allowing SET statemnts in <a href="https://github.com/pgjdbc/pgjdbc/pull/2973">PR #2973</a> is a breaking
+            change which necessitates the major version change.
         </p>
         <ul role="list">
+            
+            <li role="listitem">
+                <strong>42.7.0</strong> · 20 November 2023 · <a href="/changelogs/2023-11-20-42.7.0-release/">Notes</a>
+            </li>
             
             <li role="listitem">
                 <strong>42.6.0</strong> · 17 March 2023 · <a href="/changelogs/2023-03-17-42.6.0-release/">Notes</a>
@@ -188,15 +193,15 @@ Strict-Transport-Security: max-age=31536000
     <section class="example flow">
     <h2>Processing a simple query</h2>
     <p>This example will issue a simple query and print out the first column of each row using a Statement.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Statement</span> <span class="n">st</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="na">createStatement</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">ResultSet</span> <span class="n">rs</span> <span class="o">=</span> <span class="n">st</span><span class="o">.</span><span class="na">executeQuery</span><span class="o">(</span><span class="s">&#34;SELECT * FROM mytable WHERE columnfoo = 500&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="o">(</span><span class="n">rs</span><span class="o">.</span><span class="na">next</span><span class="o">())</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;Column 1 returned &#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">rs</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="mi">1</span><span class="o">));</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span><span class="line"><span class="cl"><span class="n">rs</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">st</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
-</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Statement</span><span class="w"> </span><span class="n">st</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">conn</span><span class="p">.</span><span class="na">createStatement</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">ResultSet</span><span class="w"> </span><span class="n">rs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">st</span><span class="p">.</span><span class="na">executeQuery</span><span class="p">(</span><span class="s">&#34;SELECT * FROM mytable WHERE columnfoo = 500&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">rs</span><span class="p">.</span><span class="na">next</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&#34;Column 1 returned &#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">rs</span><span class="p">.</span><span class="na">getString</span><span class="p">(</span><span class="n">1</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">rs</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">st</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div>
 </section>
     <section class="report flow">
     <h2>Report a bug or Contribute ?</h2>

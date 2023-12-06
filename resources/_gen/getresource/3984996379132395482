@@ -1,11 +1,12 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 20454
+Age: 75792
 Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
 Content-Security-Policy: default-src 'none'; font-src 'self'; style-src 'unsafe-inline' 'self'; script-src 'unsafe-eval' 'unsafe-inline' 'self' data: https://www.google-analytics.com https://www.googleadservices.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://donorbox.org https://js.stripe.com/v3/ https://sdks.shopifycdn.com https://www.paypal.com ; img-src 'self' data: blob: https://www.google-analytics.com https://www.paypal.com https://www.paypalobjects.com https://ak2s.abmr.net https://ak1s.abmr.net https://www.google.com https://cdn.shopify.com https://v.shopify.com ; frame-src https://donorbox.org https://www.youtube.com https://www.youtube-nocookie.com https://bid.g.doubleclick.net https://js.stripe.com/v3/ https://js.stripe.com/v2/ https://www.paypal.com https://outreach.abetterinternet.org ; connect-src 'self' https://d4twhgtvn0ff5.cloudfront.net/ https://letsencrypt-merch.myshopify.com https://monorail-edge.shopifysvc.com https://www.paypal.com ;
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:08:59 GMT
-Etag: "8f76861a44c32d2ce044ab4f9bb4cd2d-ssl-df"
+Date: Wed, 06 Dec 2023 16:30:47 GMT
+Etag: "08cd32890c4cf07674bc4932643f072f-ssl-df"
 Permissions-Policy: geolocation=(), midi=(), notifications=(), push=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(self), vibrate=(), fullscreen=(self), interest-cohort=()
 Referrer-Policy: no-referrer
 Server: Netlify
@@ -13,7 +14,7 @@ Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01HEGN2GMFVCF40VHZWB7ZGX25
+X-Nf-Request-Id: 01HGZZFCR29X8194EJP0NKH4T0
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -29,12 +30,12 @@ X-Xss-Protection: 1; mode=block
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Let&#39;s Encrypt</title>
-    <meta name="description" content=" Let&#39;s Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG). ">
+    <meta name="description" content="Let&#39;s Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG). Read all about our nonprofit work this year in our 2023 Annual Report. ">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@letsencrypt">
     <meta name="twitter:title" content="Let&#39;s Encrypt">
     <meta name="twitter:url" content="https://letsencrypt.org/">
-    <meta name="twitter:description" content=" Let&#39;s Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG). ">
+    <meta name="twitter:description" content="Let&#39;s Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG). Read all about our nonprofit work this year in our 2023 Annual Report. ">
     <meta name="twitter:image:src" content="https://letsencrypt.org/images/le-logo-twitter-noalpha.png">
     <meta name="og:image" content="https://letsencrypt.org/images/LetsEncrypt-SocialShare.png">
 
@@ -365,8 +366,8 @@ X-Xss-Protection: 1; mode=block
 		
 <div class="hero tall">
   <div class="container">
-    <h1>A nonprofit Certificate Authority providing TLS certificates to <span>300 million</span> websites.</h1>
-    <h2>Read all about our nonprofit work this year in our  <a href='https://abetterinternet.org/annual-reports/'>2022 Annual Report</a>.</h2>
+    <h1>A nonprofit Certificate Authority providing TLS certificates to <span>363 million</span> websites.</h1>
+    <h2>Read all about our nonprofit work this year in our  <a href='https://abetterinternet.org/annual-reports/'>2023 Annual Report</a>.</h2>
     <div class="buttons flex">
       <div class="flex1 tar mr1m">
         <a class="dib" href="/getting-started/">Get Started</a>
@@ -601,7 +602,7 @@ X-Xss-Protection: 1; mode=block
 
               <a href="https://bitlaunch.io/"  ><img src="/images/sponsors/small/bitlaunch-logo.svg" alt="BitLaunch" width="80" height="48" class="sponsor-logo-small"></a>
 
-              <a href="https://iban.com/"  ><img src="/images/sponsors/small/iban-logo.png" alt="IBAN" width="80" height="48" class="sponsor-logo-small"></a>
+              <a href="https://www.iban.com/"  ><img src="/images/sponsors/small/iban-logo.png" alt="IBAN" width="80" height="48" class="sponsor-logo-small"></a>
 
               <a href="https://yubico.com/"  ><img src="/images/sponsors/small/yubico-logo.png" alt="Yubico" width="80" height="48" class="sponsor-logo-small"></a>
 
@@ -618,6 +619,8 @@ X-Xss-Protection: 1; mode=block
               <a href="https://ngrok.com/"  ><img src="/images/sponsors/small/ngrok-logo.png" alt="Ngrok" width="80" height="48" class="sponsor-logo-small"></a>
 
               <a href="https://www.securew2.com/"  ><img src="/images/sponsors/small/securew2-logo.svg" alt="SecureW2" width="80" height="48" class="sponsor-logo-small"></a>
+
+              <a href="https://www.20i.com/"  ><img src="/images/sponsors/small/20i-logo.svg" alt="20i" width="80" height="48" class="sponsor-logo-small"></a>
 
             </div>
           </div>
@@ -644,8 +647,7 @@ X-Xss-Protection: 1; mode=block
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-2">
-        <p>  Let's Encrypt is a free, automated, and open certificate
-  authority brought to you by the nonprofit <a href="https://www.abetterinternet.org/">Internet Security Research Group (ISRG)</a>.
+        <p>Let's Encrypt is a free, automated, and open certificate authority brought to you by the nonprofit <a href="https://www.abetterinternet.org/">Internet Security Research Group (ISRG)</a>. Read all about our nonprofit work this year in our <a href="https://www.abetterinternet.org/annual-reports/">2023 Annual Report</a>.
 </p>
         <p>
           <span itemscope itemtype="http://schema.org/PostalAddress">

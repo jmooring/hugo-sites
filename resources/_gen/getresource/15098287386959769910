@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
-Age: 168576
+Age: 4916
 Alt-Svc: h3=":443"; ma=86400
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 821813fece022810-SEA
+Cf-Ray: 8315ea81e994c3a1-SEA
 Content-Type: text/html
-Date: Sun, 05 Nov 2023 21:09:30 GMT
-Last-Modified: Wed, 25 Oct 2023 12:20:38 GMT
+Date: Wed, 06 Dec 2023 16:30:53 GMT
+Last-Modified: Wed, 22 Nov 2023 10:45:07 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TzT9StDInAMCGomu5Ui923krMuvhpmVNqaar6mhB30cFRSqcU9fd9NTcsgwEvAJVsteoOnNXuTIGrAQC9YqLvqkaea1CPQFUwkczOdIF4D0OYhESCK2SJash1FyJpM%2FFg6CDYck%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4DNzIrT5Du7mBVTyKFRKX0X9caRi0uCT3U4fLVN4gW2PZy%2BbqRYUd1NXatsjP%2FrNyoJrJ1BBUdHcgQqTDabJsjEFXnLHw6UcSYmasbtgyVZBATtuxQ7pfLw3ZmSrGXTQu8qR6gQ%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 X-Cache: HIT
-X-Ms-Request-Id: c61c22e9-201e-0070-71a3-0ef622000000
+X-Ms-Request-Id: e5c226d2-c01e-0047-4256-28248e000000
 X-Ms-Version: 2018-03-28
 
 <!DOCTYPE html>
@@ -176,7 +176,7 @@ Along with acting as VP of BIWUG (Belgian Information Worker User Group), Elio i
 </h2>
 <p class="summary mt-1 text-gray-700 text-sm mb-2">October 18, 2023</p>
 <p class="leading-relaxed">
-A couple of weeks ago, I started looking into the possibility of retrieving the Content Collections from Astro and generating content-types for Front Matter CMS. Eventually, this got me into Vite, and I started to wonder if I could use it to bundle my Visual Studio Code extension to replace the current Webpack setup.
+important The CJS build of Vite’s Node API is no longer supported and will be removed in version 6. As Visual Studio Code extensions do not support ESM, my recommendation is use an alternative bundler such as webpack, tsup, or esbuild instead of Vite. A couple of weeks ago, I started looking into the possibility of retrieving the Content Collections from Astro and generating content-types for Front Matter CMS.
 </p>
 <a class="read_more__link text-lightseagreen-700 inline-flex items-center mt-0" href="https://www.eliostruyf.com/vite-bundling-visual-studio-code-extension/" title="Using Vite for bundling your Visual Studio Code extension">Read more
 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">

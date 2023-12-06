@@ -1,27 +1,27 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: Content-Type
-Age: 909
+Age: 590
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=3600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8218138819ff307d-SEA
+Cf-Ray: 8315ea8f8d84c3da-SEA
 Content-Type: text/html
-Date: Sun, 05 Nov 2023 21:09:11 GMT
-Expires: Sun, 05 Nov 2023 21:54:02 GMT
-Last-Modified: Sun, 29 Oct 2023 21:01:51 GMT
+Date: Wed, 06 Dec 2023 16:30:55 GMT
+Expires: Wed, 06 Dec 2023 17:21:05 GMT
+Last-Modified: Tue, 28 Nov 2023 17:15:03 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fHS8azidEpme63LJVT2Zhfg9O%2BkcJvcG5wF%2BmdL%2FePiuFC9PXcnDAa5cCaSKaWDwpxO%2BMltb4M80O%2FrxK1vXSBNbrwVZrm4sJAdA8KYLcZKxXGMAzFW3W3%2FsC3Jg"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7i%2F2ixuV6cex4MEXO%2FfLwnOl6ys%2BCwjo%2Be3eqyWJ3ZD%2BMDMwbIC1I4bF50BmWk08Fs0ARX3HQVF2WeEUoJK%2FAChw8%2B26dCg0V%2FlKCi3EHVNTuxqlPFUHc9yEmM1C"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-X-Goog-Generation: 1698613311472766
-X-Goog-Hash: crc32c=P9FMpw==
-X-Goog-Hash: md5=pNJGMom9uZmpUJ5g+/aDRQ==
-X-Goog-Meta-Goog-Reserved-File-Mtime: 1698613284
-X-Goog-Metageneration: 11
+X-Goog-Generation: 1701191703062755
+X-Goog-Hash: crc32c=+XOF1w==
+X-Goog-Hash: md5=qs3qrOcqEiJGIjXwupgncQ==
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1701191683
+X-Goog-Metageneration: 5
 X-Goog-Storage-Class: STANDARD
 X-Goog-Stored-Content-Encoding: identity
-X-Goog-Stored-Content-Length: 41728
-X-Guploader-Uploadid: ABPtcPqS-Ug1dDJvxddlDmfRNxDGvMqRRtv7qHydUIp8-ImM1fbxjaVBxiBrro3ObrlkED92IJg
+X-Goog-Stored-Content-Length: 41697
+X-Guploader-Uploadid: ABPtcPoZIgZr55Hs3KFWjMSYsZ9WySVDl6eF656FM3MeL2PO85RZIXldaE3srZWpz_j980wCFg8
 
 <!DOCTYPE html>
 <html lang="en" class>
@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="/css/prism-a11y-dark.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/command-line/prism-command-line.min.css" integrity="sha256-QViEGvwX/42OrD49huSb2mGZtUQwVKNA5Ux58tMWLOs=" crossorigin="anonymous" />
 <link rel="shortcut icon" href="/images/identity/favicon/linkerd-favicon.png" />
-<link rel="stylesheet" href="/css/style.ce9d95d009b672da9a5450cb966d786f25e1d2a68d62e1ebe9c0658d2e16afce.css">
+<link rel="stylesheet" href="/css/style.98ae7012372a24338f1ba9585b056128ab0f31104820326b4c01f5bc51f16ae6.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
@@ -138,7 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <section class="hero">
 <main aria-role="main" class="hero-body">
 <div class="homepage-notification has-background-light-blue has-text-navy-black center has-text-centered">
-<p>2023-08-23 <a href="/2023/08/23/announcing-linkerd-2.14/">Announcing Linkerd 2.14 with enterprise multi-cluster and Gateway API conformance! <img src="/uploads/announcement-banner-learn-more.svg" alt="Read now"></a></p>
+<p><a href="https://buoyant.io/download/linkerd-up-and-running" target="_blank" rel="noopener">NEW EBOOK: Linkerd Up and Running by O&rsquo;Reilly &gt; <strong>Download ebook</strong></a></p>
 </div>
 <div class="wrapper body-header has-background-white homepage-top-hero">
 <div class="container columns">

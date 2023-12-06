@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
-Age: 50
+Age: 45
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Sun, 05 Nov 2023 21:08:09 GMT
-Etag: "62d9b55fe07df7fcb6ff5f7ff7f59b03"
-Last-Modified: Fri, 27 Oct 2023 23:20:34 GMT
+Date: Wed, 06 Dec 2023 16:30:02 GMT
+Etag: "53f9df0cde020233c4535c57da0337d6"
+Last-Modified: Tue, 05 Dec 2023 23:28:40 GMT
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 ee8246c5442dace7525c74f6a799bb46.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: UtUAq_DrpMzcmLABdO2HIVzdbonqlkUBr8gd_Az4PfyvtV1nkpK3sg==
+Via: 1.1 6172bb1a5d00a3b06ae3700570ebe116.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iPUTuumGtQQTA0XJBFAyfyCkYyuGFYeOChz0snBc8yu4EOcUAEGkag==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Hit from cloudfront
@@ -18,7 +18,7 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: 66ea186c-5645-4882-663a-a9d58b7b2ff7
+X-Vcap-Request-Id: f8684712-e83e-4e7f-7f2a-b678735bff7c
 X-Xss-Protection: 1; mode=block
 
 
@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         href="https://vote.gov/assets/img/favicons/favicon-vote-144.png">
 
   
-  <link rel="stylesheet" href="/assets/styles/main.css?v=46f96d883">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=490a2f0bf">
   
   
 
@@ -538,135 +538,247 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h1 class="main-heading" data-test="main-header">Register to vote</h1>
               </header>
 
-              <form class="form-register" method="get" id="register">
-                <h2>Where do you live?</h2>
-                <label class="usa-sr-only" for="js-user-selection">
-                  Select your state or territory
-                </label>
-                <select class="usa-select max-width-input" name="userselection" id="js-user-selection" data-test="state-selection">
-                  <option value="default">
-                    Select your state or territory
-                  </option>
+              <form id="state-combo-box">
+                <label for="state-input">Select your state or territory for information on how to get started.</label>
+                <div class="input-buttons-group" data-test="state-selection">
+                <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="Enter your state or territory name">
+                  <div class="input-control-container">
+                    <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
+                  </div>
+                </div>
+                <nav id="state-results-container" hidden>
+                  <ul id="results-list" data-test="state-list">
+                    
+                    
+                    <li >
+                      <a key="al" href="/register/al/">Alabama</a>
+                    </li>
                   
+                    <li >
+                      <a key="ak" href="/register/ak/">Alaska</a>
+                    </li>
                   
-                  <option value="al">Alabama</option>
-                
-                  <option value="ak">Alaska</option>
-                
-                  <option value="as">American Samoa</option>
-                
-                  <option value="az">Arizona</option>
-                
-                  <option value="ar">Arkansas</option>
-                
-                  <option value="ca">California</option>
-                
-                  <option value="co">Colorado</option>
-                
-                  <option value="ct">Connecticut</option>
-                
-                  <option value="de">Delaware</option>
-                
-                  <option value="dc">District of Columbia</option>
-                
-                  <option value="fl">Florida</option>
-                
-                  <option value="ga">Georgia</option>
-                
-                  <option value="gu">Guam</option>
-                
-                  <option value="hi">Hawaii</option>
-                
-                  <option value="id">Idaho</option>
-                
-                  <option value="il">Illinois</option>
-                
-                  <option value="in">Indiana</option>
-                
-                  <option value="ia">Iowa</option>
-                
-                  <option value="ks">Kansas</option>
-                
-                  <option value="ky">Kentucky</option>
-                
-                  <option value="la">Louisiana</option>
-                
-                  <option value="me">Maine</option>
-                
-                  <option value="md">Maryland</option>
-                
-                  <option value="ma">Massachusetts</option>
-                
-                  <option value="mi">Michigan</option>
-                
-                  <option value="mn">Minnesota</option>
-                
-                  <option value="ms">Mississippi</option>
-                
-                  <option value="mo">Missouri</option>
-                
-                  <option value="mt">Montana</option>
-                
-                  <option value="ne">Nebraska</option>
-                
-                  <option value="nv">Nevada</option>
-                
-                  <option value="nh">New Hampshire</option>
-                
-                  <option value="nj">New Jersey</option>
-                
-                  <option value="nm">New Mexico</option>
-                
-                  <option value="ny">New York</option>
-                
-                  <option value="nc">North Carolina</option>
-                
-                  <option value="nd">North Dakota</option>
-                
-                  <option value="mp">Northern Mariana Islands</option>
-                
-                  <option value="oh">Ohio</option>
-                
-                  <option value="ok">Oklahoma</option>
-                
-                  <option value="or">Oregon</option>
-                
-                  <option value="pa">Pennsylvania</option>
-                
-                  <option value="pr">Puerto Rico</option>
-                
-                  <option value="ri">Rhode Island</option>
-                
-                  <option value="sc">South Carolina</option>
-                
-                  <option value="sd">South Dakota</option>
-                
-                  <option value="tn">Tennessee</option>
-                
-                  <option value="tx">Texas</option>
-                
-                  <option value="vi">U.S. Virgin Islands</option>
-                
-                  <option value="ut">Utah</option>
-                
-                  <option value="vt">Vermont</option>
-                
-                  <option value="va">Virginia</option>
-                
-                  <option value="wa">Washington</option>
-                
-                  <option value="wv">West Virginia</option>
-                
-                  <option value="wi">Wisconsin</option>
-                
-                  <option value="wy">Wyoming</option>
-                
-
-                </select>
-                <button class="usa-button max-width-input" id="js-user-submit" type="submit" data-test="register-button">
-                  Find out how to register
-                </button>
+                    <li >
+                      <a key="as" href="/register/as/">American Samoa</a>
+                    </li>
+                  
+                    <li >
+                      <a key="az" href="/register/az/">Arizona</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ar" href="/register/ar/">Arkansas</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ca" href="/register/ca/">California</a>
+                    </li>
+                  
+                    <li >
+                      <a key="co" href="/register/co/">Colorado</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ct" href="/register/ct/">Connecticut</a>
+                    </li>
+                  
+                    <li >
+                      <a key="de" href="/register/de/">Delaware</a>
+                    </li>
+                  
+                    <li >
+                      <a key="dc" href="/register/dc/">District of Columbia</a>
+                    </li>
+                  
+                    <li >
+                      <a key="fl" href="/register/fl/">Florida</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ga" href="/register/ga/">Georgia</a>
+                    </li>
+                  
+                    <li >
+                      <a key="gu" href="/register/gu/">Guam</a>
+                    </li>
+                  
+                    <li >
+                      <a key="hi" href="/register/hi/">Hawaii</a>
+                    </li>
+                  
+                    <li >
+                      <a key="id" href="/register/id/">Idaho</a>
+                    </li>
+                  
+                    <li >
+                      <a key="il" href="/register/il/">Illinois</a>
+                    </li>
+                  
+                    <li >
+                      <a key="in" href="/register/in/">Indiana</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ia" href="/register/ia/">Iowa</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ks" href="/register/ks/">Kansas</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ky" href="/register/ky/">Kentucky</a>
+                    </li>
+                  
+                    <li >
+                      <a key="la" href="/register/la/">Louisiana</a>
+                    </li>
+                  
+                    <li >
+                      <a key="me" href="/register/me/">Maine</a>
+                    </li>
+                  
+                    <li >
+                      <a key="md" href="/register/md/">Maryland</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ma" href="/register/ma/">Massachusetts</a>
+                    </li>
+                  
+                    <li >
+                      <a key="mi" href="/register/mi/">Michigan</a>
+                    </li>
+                  
+                    <li >
+                      <a key="mn" href="/register/mn/">Minnesota</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ms" href="/register/ms/">Mississippi</a>
+                    </li>
+                  
+                    <li >
+                      <a key="mo" href="/register/mo/">Missouri</a>
+                    </li>
+                  
+                    <li >
+                      <a key="mt" href="/register/mt/">Montana</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ne" href="/register/ne/">Nebraska</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nv" href="/register/nv/">Nevada</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nh" href="/register/nh/">New Hampshire</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nj" href="/register/nj/">New Jersey</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nm" href="/register/nm/">New Mexico</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ny" href="/register/ny/">New York</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nc" href="/register/nc/">North Carolina</a>
+                    </li>
+                  
+                    <li >
+                      <a key="nd" href="/register/nd/">North Dakota</a>
+                    </li>
+                  
+                    <li >
+                      <a key="mp" href="/register/mp/">Northern Mariana Islands</a>
+                    </li>
+                  
+                    <li >
+                      <a key="oh" href="/register/oh/">Ohio</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ok" href="/register/ok/">Oklahoma</a>
+                    </li>
+                  
+                    <li >
+                      <a key="or" href="/register/or/">Oregon</a>
+                    </li>
+                  
+                    <li >
+                      <a key="pa" href="/register/pa/">Pennsylvania</a>
+                    </li>
+                  
+                    <li >
+                      <a key="pr" href="/register/pr/">Puerto Rico</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ri" href="/register/ri/">Rhode Island</a>
+                    </li>
+                  
+                    <li >
+                      <a key="sc" href="/register/sc/">South Carolina</a>
+                    </li>
+                  
+                    <li >
+                      <a key="sd" href="/register/sd/">South Dakota</a>
+                    </li>
+                  
+                    <li >
+                      <a key="tn" href="/register/tn/">Tennessee</a>
+                    </li>
+                  
+                    <li >
+                      <a key="tx" href="/register/tx/">Texas</a>
+                    </li>
+                  
+                    <li >
+                      <a key="vi" href="/register/vi/">U.S. Virgin Islands</a>
+                    </li>
+                  
+                    <li >
+                      <a key="ut" href="/register/ut/">Utah</a>
+                    </li>
+                  
+                    <li >
+                      <a key="vt" href="/register/vt/">Vermont</a>
+                    </li>
+                  
+                    <li >
+                      <a key="va" href="/register/va/">Virginia</a>
+                    </li>
+                  
+                    <li >
+                      <a key="wa" href="/register/wa/">Washington</a>
+                    </li>
+                  
+                    <li >
+                      <a key="wv" href="/register/wv/">West Virginia</a>
+                    </li>
+                  
+                    <li >
+                      <a key="wi" href="/register/wi/">Wisconsin</a>
+                    </li>
+                  
+                    <li >
+                      <a key="wy" href="/register/wy/">Wyoming</a>
+                    </li>
+                  
+                  </ul>
+                </nav>
+              </div>
               </form>
+
             </section>
           </div>
         </div>
@@ -955,21 +1067,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   
 
-  <script type="text/javascript">
-    document.getElementById('register').onsubmit = function (ev) {
-      var stateSelected = document.getElementById('js-user-selection').value;
-      if (stateSelected === 'default') {
-        return false;
-      } else {
-        ev.preventDefault();
-        
-        var redirectURL = '\/register/';
-        redirectURL = redirectURL + stateSelected + '/';
-        window.location.href = redirectURL;
-      }
-    };
-  </script>
-
   
 
   
@@ -981,7 +1078,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://touchpoints.app.cloud.gov/touchpoints/3680b407.js" async></script>
 
 
-<script src="/assets/scripts/main.js?v=46f96d883"></script>
+<script src="/assets/scripts/main.js?v=490a2f0bf"></script>
 
 
 

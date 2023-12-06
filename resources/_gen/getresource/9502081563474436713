@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 1052
+Age: 438
 Content-Type: text/html
-Date: Sun, 05 Nov 2023 21:09:10 GMT
-Etag: "59a9-60914b24312c0-gzip"
-Last-Modified: Wed, 01 Nov 2023 10:25:55 GMT
+Date: Wed, 06 Dec 2023 16:30:56 GMT
+Etag: "5bab-60bd754edaac0-gzip"
+Last-Modified: Wed, 06 Dec 2023 13:28:51 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400067-BFI
-X-Timer: S1699218550.364861,VS0,VE1
+X-Served-By: cache-bfi-krnt7300059-BFI
+X-Timer: S1701880257.753881,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1699218550.364861,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-10-31T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-11-27T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -248,18 +248,18 @@ X-Timer: S1699218550.364861,VS0,VE1
       <div class="col-12 text-center mx-auto mb-5">
         <h2 class="section-title">Our Products</h2>
         <p>ISC develops and distributes three open source Internet networking
-        software packages: BIND 9, ISC DHCP, and Kea DHCP, and operated the F Root domain server.</p>
-        
+          software packages: BIND 9, ISC DHCP, and Kea DHCP, and operated the F Root domain server.</p>
+
         <p>BIND 9, ISC’s Domain Name System (DNS) software program, is widely used on the Internet by
-        enterprises and service providers, offering a robust and stable platform
-        on top of which organizations can build distributed computing systems.</p>
-        
+          enterprises and service providers, offering a robust and stable platform
+          on top of which organizations can build distributed computing systems.</p>
+
         <p>ISC DHCP implements the Dynamic Host Configuration Protocol for connection
-        to an IP network, offering a complete solution for implementing DHCP
-        servers, relay agents, and clients. ISC DHCP is a mature program with
-        many features, but it can be cumbersome for operators to maintain.
-        Kea DHCP is ISC’s intended replacement for ISC DHCP, and is designed
-        for dynamic reconfiguration.</p>
+          to an IP network, offering a complete solution for implementing DHCP
+          servers, relay agents, and clients. ISC DHCP is a mature program with
+          many features, but it can be cumbersome for operators to maintain.
+          Kea DHCP is ISC’s intended replacement for ISC DHCP, and is designed
+          for dynamic reconfiguration.</p>
       </div>
     </div>
     <div class="row no-gutters">
@@ -268,23 +268,31 @@ X-Timer: S1699218550.364861,VS0,VE1
         <div class="product-item">
           <h3 class="text-white">BIND 9</h3>
           <p class="mb-4">The original, complete open source DNS implementation.</p>
-          <a href="/bind" class="btn btn-primary">Learn more</a>
+          <div>
+            <a href="/bind" class="btn btn-primary">Learn more</a>
+          </div>
         </div>
       </div>
 
       <div class="col-sm-6 product-item-bg">
         <div class="product-item">
           <h3 class="text-white">ISC DHCP</h3>
-          <p class="mb-4">Open source DHCP server, relay agent, and client software for all your IP address-assignment needs.</p>
-          <a href="/dhcp" class="btn btn-primary">Learn more</a>
+          <p class="mb-4">Open source DHCP server, relay agent, and client software for all your IP address-assignment
+            needs.</p>
+          <div>
+            <a href="/dhcp" class="btn btn-primary">Learn more</a>
+          </div>
         </div>
       </div>
 
       <div class="col-sm-6 product-item-bg">
         <div class="product-item">
           <h3 class="text-white">Kea DHCP</h3>
-          <p class="mb-4">Flexible, open source, dynamic IP address and static host reservation management for DHCPv4 and DHCPv6 servers.</p>
-          <a href="/kea" class="btn btn-primary">Learn more</a>
+          <p class="mb-4">Flexible, open source, dynamic IP address and static host reservation management for DHCPv4
+            and DHCPv6 servers.</p>
+          <div>
+            <a href="/kea" class="btn btn-primary">Learn more</a>
+          </div>
         </div>
       </div>
 
@@ -292,7 +300,9 @@ X-Timer: S1699218550.364861,VS0,VE1
         <div class="product-item">
           <h3 class="text-white">Support</h3>
           <p class="mb-4">Find out about professional support for ISC services.</p>
-          <a href="/support" class="btn btn-primary">Learn more</a>
+          <div>
+            <a href="/support" class="btn btn-primary">Learn more</a>
+          </div>
         </div>
       </div>
 
@@ -306,14 +316,14 @@ X-Timer: S1699218550.364861,VS0,VE1
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-10 text-center mx-auto mb-5">
-        <h2 class="section-title">Why Choose ISC?</h2> 
-        <p>Internet Systems Consortium (ISC) is dedicated to developing software and offering services in support of the Internet infrastructure.</p> 
+         <h2 class="section-title">Why Choose ISC?</h2> 
+         <p>Internet Systems Consortium (ISC) is dedicated to developing software and offering services in support of the Internet infrastructure.</p> 
       </div>
     </div>
     <div class="row">
       
       <!-- feature item -->
-      <div class="col-lg-4 col-6">
+      <div class="col-lg-4 col-md-6 col-12">
         <a href="/about" class="feature-item d-block">
           <i class="ti-layers"></i>
           <h4 class="text-secondary h5">Quality Open Source</h4>
@@ -322,7 +332,7 @@ X-Timer: S1699218550.364861,VS0,VE1
       </div>
       
       <!-- feature item -->
-      <div class="col-lg-4 col-6">
+      <div class="col-lg-4 col-md-6 col-12">
         <a href="/support" class="feature-item d-block">
           <i class="ti-support"></i>
           <h4 class="text-secondary h5">Professional Support</h4>
@@ -331,7 +341,7 @@ X-Timer: S1699218550.364861,VS0,VE1
       </div>
       
       <!-- feature item -->
-      <div class="col-lg-4 col-6">
+      <div class="col-lg-4 col-md-6 col-12">
         <a href="/f-root" class="feature-item d-block">
           <i class="ti-agenda"></i>
           <h4 class="text-secondary h5">Standards-Compliant</h4>
@@ -365,9 +375,27 @@ X-Timer: S1699218550.364861,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  onerror="this.onerror = null; this.src='\/BIND 9 logo image'" />
+          <img class="img-fluid w-100" src="/images/blog/static-images-event.jpg" 
+            onerror="this.onerror = null; this.src='\/Open laptop on blue background'"  />
           <div class="post-content">
-            <a href="/blogs/bind-resolver-performance-november-2023/"><h4 class="text-white">Comparative Resolver Performance Results of BIND Versions - November 2023</h4></a>
+            <a href="/blogs/2023-12-13-stork-webinar/">
+              <h4 class="text-white">December Webinar: Kea Configuration with Stork</h4>
+            </a>
+            <p class="text-white">Kea Configuration with Stork Stork is an open source project, providing a graphical interface for monitoring, and now also configuring, Kea DHCP servers.</p>
+            <a href="/blogs/2023-12-13-stork-webinar/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
+            <a href="/blogs/bind-resolver-performance-november-2023/">
+              <h4 class="text-white">Comparative Resolver Performance Results of BIND Versions - November 2023</h4>
+            </a>
             <p class="text-white">This article focuses on benchmarking resolver performance, using a methodology that aims to provide near-real-world performance results for resolvers.</p>
             <a href="/blogs/bind-resolver-performance-november-2023/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
@@ -377,9 +405,12 @@ X-Timer: S1699218550.364861,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/Storklabel.jpg"  onerror="this.onerror = null; this.src='\/Stork logo'" />
+          <img class="img-fluid w-100" src="/images/blog/Storklabel.jpg" 
+            onerror="this.onerror = null; this.src='\/Stork logo'"  />
           <div class="post-content">
-            <a href="/blogs/stork-1-13/"><h4 class="text-white">Stork 1.13 Released</h4></a>
+            <a href="/blogs/stork-1-13/">
+              <h4 class="text-white">Stork 1.13 Released</h4>
+            </a>
             <p class="text-white">Stork 1.13 is the newest development release of our management tool for the Kea DHCP server.</p>
             <a href="/blogs/stork-1-13/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
@@ -389,23 +420,14 @@ X-Timer: S1699218550.364861,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  onerror="this.onerror = null; this.src='\/BIND 9 logo image'" />
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
-            <a href="/blogs/bind-performance-september-2023/"><h4 class="text-white">Comparative Performance Results of BIND Versions in Authoritative Configurations - September 2023</h4></a>
+            <a href="/blogs/bind-performance-september-2023/">
+              <h4 class="text-white">Comparative Performance Results of BIND Versions in Authoritative Configurations - September 2023</h4>
+            </a>
             <p class="text-white">We are only one quarter away from producing the next stable branch of BIND, and from ending maintenance of BIND 9.</p>
             <a href="/blogs/bind-performance-september-2023/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg"  onerror="this.onerror = null; this.src='\/Blue net'" />
-          <div class="post-content">
-            <a href="/blogs/isc-profile-nowak/"><h4 class="text-white">Meet an ISC Engineer – Michal Nowak!</h4></a>
-            <p class="text-white">It’s time once again to get to know one of our engineers!</p>
-            <a href="/blogs/isc-profile-nowak/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

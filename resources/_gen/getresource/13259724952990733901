@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Content-Type: text/html
-Date: Sun, 05 Nov 2023 21:09:02 GMT
-Etag: W/"5433-608e3c5e2fb2b"
+Date: Wed, 06 Dec 2023 16:30:50 GMT
+Etag: W/"5531-60b68d9952cbc"
 Host-Header: 8441280b0c35cbc1147f8ba998a563a7
-Last-Modified: Mon, 30 Oct 2023 00:03:50 GMT
+Last-Modified: Fri, 01 Dec 2023 01:40:15 GMT
 Server: nginx
 Vary: Accept-Encoding
 X-Httpd: 1
@@ -13,7 +13,7 @@ X-Proxy-Cache: HIT
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.451">
+<meta name="generator" content="quarto-1.4.513">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -332,8 +332,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
         typesetMath(container);
         return container.innerHTML

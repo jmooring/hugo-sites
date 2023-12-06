@@ -1,20 +1,21 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 75463
+Age: 433
 Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:09:13 GMT
-Etag: "31e8ffe649159125a7ceb00ee61b792d-ssl-df"
+Date: Wed, 06 Dec 2023 16:30:57 GMT
+Etag: "2603b66e579163a2af74380872f44c2b-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HEGN2YCJJ81159R5WX8G7DEG
+X-Nf-Request-Id: 01HGZZFQ05C5DV9JFQ5CZ6ZHVJ
 
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-colorscheme="auto" >
   <head>
-	<meta name="generator" content="Hugo 0.120.3">
-    <!-- Generated 2023-11-02 20:48:58 UTC -->
+	<meta name="generator" content="Hugo 0.120.4">
+    <!-- Generated 2023-12-06 00:26:21 UTC -->
     <meta name="description" content="Community developed and owned ecosystem for scientific computing" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,26 +30,31 @@ X-Nf-Request-Id: 01HEGN2YCJJ81159R5WX8G7DEG
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900">
 
-
-<link rel="stylesheet" type="text/css" href="./theme-css/pst/pydata-sphinx-theme.min.00cf8c4a378a0fb93fdca83bf13a4956bbd53d31cd65f12e45754407c251f76d.css" integrity="sha256-AM&#43;MSjeKD7k/3Kg78TpJVrvVPTHNZfEuRXVEB8JR920=">
-<link rel="stylesheet" href="./css/theme-css/bulma.css.min.e9c30cb92e581d82f0fe01809c920e9a0751dd002e8ac4bffedbb4b8b21224d1.css" integrity="sha256-6cMMuS5YHYLw/gGAnJIOmgdR3QAuisS//tu0uLISJNE=">
-<link rel="stylesheet" href="./css/theme-css/code-highlight.css.min.bc893c4270b29a24bcff7b9164f2823675cbe9ac4d48a329d77756635e29b428.css" integrity="sha256-vIk8QnCymiS8/3uRZPKCNnXL6axNSKMp13dWY14ptCg=">
-<link rel="stylesheet" href="./css/theme-css/content.css.min.65e4e923a42b464c827eab6cb587a722518dde51ed32104bf758974621f05f74.css" integrity="sha256-ZeTpI6QrRkyCfqtstYenIlGN3lHtMhBL91iXRiHwX3Q=">
-<link rel="stylesheet" href="./css/theme-css/dark-mode.css.min.12e9131a4a0425d72283682f0d7b67fe990e9b43ff64f0e6fefbbb5cb169e59a.css" integrity="sha256-EukTGkoEJdcig2gvDXtn/pkOm0P/ZPDm/vu7XLFp5Zo=">
-<link rel="stylesheet" href="./css/theme-css/fresh.css.min.1c3586b26ba7ba4079fcefbccb7679ebb2a272d99427e350cc39699a7360d31f.css" integrity="sha256-HDWGsmunukB5/O&#43;8y3Z567KictmUJ&#43;NQzDlpmnNg0x8=">
-<link rel="stylesheet" href="./css/theme-css/keyfeatures.css.min.cc33174fef49c381814393047daecaa664f129f05840c04f95bfce19ee25a655.css" integrity="sha256-zDMXT&#43;9Jw4GBQ5MEfa7KpmTxKfBYQMBPlb/OGe4lplU=">
-<link rel="stylesheet" href="./css/theme-css/light-mode.css.min.53fc907d093e9ba5643e0b971e554a00e48af02be2ed15b3db51b65f3f9677a6.css" integrity="sha256-U/yQfQk&#43;m6VkPguXHlVKAOSK8Cvi7RWz21G2Xz&#43;Wd6Y=">
-<link rel="stylesheet" href="./css/theme-css/news.css.min.e3042fe9302a0e7874026262b1cf6cb89766f9926955c9540221e301cf11c294.css" integrity="sha256-4wQv6TAqDnh0AmJisc9suJdm&#43;ZJpVclUAiHjAc8RwpQ=">
-<link rel="stylesheet" href="./css/theme-css/panel.css.min.8321362c5065e7746c7c6fab538a4c6b7e60fa25d98a8f067c3924088a3fcde6.css" integrity="sha256-gyE2LFBl53RsfG&#43;rU4pMa35g&#43;iXZio8GfDkkCIo/zeY=">
-<link rel="stylesheet" href="./css/theme-css/posts.css.min.acce7d53ff6701e0eb8bb6a07f4b21bdf9d6e2d7f0afa525861ad0582d95c752.css" integrity="sha256-rM59U/9nAeDri7agf0shvfnW4tfwr6UlhhrQWC2Vx1I=">
-<link rel="stylesheet" href="./css/theme-css/shortcuts.css.min.eacb78b435b6325a6e6f0f259597dfb6f23f7d0d8f83472a19ff0411fc143f8f.css" integrity="sha256-6st4tDW2Mlpubw8llZfftvI/fQ2Pg0cqGf8EEfwUP48=">
-<link rel="stylesheet" href="./css/theme-css/styles.css.min.8ab5f2465b4c1200f15870dc95843d0850ad297ec13592ea498910007b6a9396.css" integrity="sha256-irXyRltMEgDxWHDclYQ9CFCtKX7BNZLqSYkQAHtqk5Y=">
-<link rel="stylesheet" href="./css/theme-css/tables.css.min.fb97ebea26ca35733dddd7051622133c047b532bf1aa066155c69a118d445803.css" integrity="sha256-&#43;5fr6ibKNXM93dcFFiITPAR7UyvxqgZhVcaaEY1EWAM=">
-<link rel="stylesheet" href="./css/theme-css/teams.css.min.873dc1b8a8c335913e49e913ccbc7fe19c1ac25a8fa844c223164b317a52b778.css" integrity="sha256-hz3BuKjDNZE&#43;SekTzLx/4ZwawlqPqETCIxZLMXpSt3g=">
-<link rel="stylesheet" href="./css/theme-css/vars.css.min.a037e00923105e5189a2ae9e25ad9b1738fca84fa0980b027bc5433eb6988903.css" integrity="sha256-oDfgCSMQXlGJoq6eJa2bFzj8qE&#43;gmAsCe8VDPraYiQM=">
-<link rel="stylesheet" href="./css/theme-css/videos.css.min.b305d98ddc47a74381f484299ab14f9483f69d62928c4ed32697a5701355f138.css" integrity="sha256-swXZjdxHp0OB9IQpmrFPlIP2nWKSjE7TJpelcBNV8Tg=">
-<link rel="stylesheet" href="./css/css/custom.css.min.d269b7d46866bfb786845eabf4c979e19b72dede6dae99b90b30d2452e08563f.css" integrity="sha256-0mm31Ghmv7eGhF6r9Ml54Zty3t5trpm5CzDSRS4IVj8=">
+  
+      <link rel="stylesheet" type="text/css" href="./theme-css/pst/pydata-sphinx-theme.scss.min.06e0a43af1adad9441e4435b5646c08643e5a3a8dcd7aa46bff1b42a1e2ca416.css" integrity="sha256-BuCkOvGtrZRB5ENbVkbAhkPlo6jc16pGv/G0Kh4spBY=">  
+      <link rel="stylesheet" type="text/css" href="./theme-css/code.scss.min.ad03de1683bb39a0d1b31395797b97188e59cda6d778c0671a99db0b4fb799a9.css" integrity="sha256-rQPeFoO7OaDRsxOVeXuXGI5ZzabXeMBnGpnbC0&#43;3mak=">
+    <link rel="stylesheet" href="./theme-css/bulma.min.e15780f8ad668653bdb23d6bdc8a88ea2349703fccfdc8200090c92ec527a2c6.css" integrity="sha256-4VeA&#43;K1mhlO9sj1r3IqI6iNJcD/M/cggAJDJLsUnosY=">
+    <link rel="stylesheet" href="./theme-css/code-highlight.min.d0bd96ff1dbeb4b62536da5935b92af5cd7edb6d6f52b316d721e62078d9f089.css" integrity="sha256-0L2W/x2&#43;tLYlNtpZNbkq9c1&#43;221vUrMW1yHmIHjZ8Ik=">
+    <link rel="stylesheet" href="./theme-css/content.min.971ae9734af45368872e028a4666b2ef915353493128a0f7ac786db98159fa13.css" integrity="sha256-lxrpc0r0U2iHLgKKRmay75FTU0kxKKD3rHhtuYFZ&#43;hM=">
+    <link rel="stylesheet" href="./theme-css/dark-mode.min.5acf8f4101cd9f24228036af1488ce5c137f9c7e45fbc9c24c20200ea5140ac0.css" integrity="sha256-Ws&#43;PQQHNnyQigDavFIjOXBN/nH5F&#43;8nCTCAgDqUUCsA=">
+    <link rel="stylesheet" href="./theme-css/footer.min.7e9d42a8920b97ee937c9e87b9b20b6d40171b8167254b9e330f06d433010266.css" integrity="sha256-fp1CqJILl&#43;6TfJ6HubILbUAXG4FnJUueMw8G1DMBAmY=">
+    <link rel="stylesheet" href="./theme-css/fresh.min.40943afb4e58235eea4bbe7fe5f37242a957e7bf144e6d6184103a3bbb22465c.css" integrity="sha256-QJQ6&#43;05YI17qS75/5fNyQqlX578UTm1hhBA6O7siRlw=">
+    <link rel="stylesheet" href="./theme-css/keyfeatures.min.c590db9adf94d7c64c436469d2ac8b3b099fa888a47711e45487e29069b41edb.css" integrity="sha256-xZDbmt&#43;U18ZMQ2Rp0qyLOwmfqIikdxHkVIfikGm0Hts=">
+    <link rel="stylesheet" href="./theme-css/navbar.min.083417499ce4352f0de72f833f1b06f96bb23c4a99aefe4a547dcd6b8cb1e26f.css" integrity="sha256-CDQXSZzkNS8N5y&#43;DPxsG&#43;WuyPEqZrv5KVH3Na4yx4m8=">
+    <link rel="stylesheet" href="./theme-css/news.min.f6f5e88fb4557cf211bb0f8dd3ef68b680557c83dd2c46f9233a2c12ac3e2901.css" integrity="sha256-9vXoj7RVfPIRuw&#43;N0&#43;9otoBVfIPdLEb5IzosEqw&#43;KQE=">
+    <link rel="stylesheet" href="./theme-css/panel.min.9e7a224d47c050a8d5b9137dd6b88b347a6ea27e11bdf415822eff42c8b6f27e.css" integrity="sha256-nnoiTUfAUKjVuRN91riLNHpuon4RvfQVgi7/Qsi28n4=">
+    <link rel="stylesheet" href="./theme-css/posts.min.205a7e5c5611b3b28eb7fa2fdeafe326b9230779eba75254e4d8f6716b82b0a9.css" integrity="sha256-IFp&#43;XFYRs7KOt/ov3q/jJrkjB3nrp1JU5Nj2cWuCsKk=">
+    <link rel="stylesheet" href="./theme-css/shortcuts.min.5136c95c26c90cd7200682ad6a294a9862e91bebfbdd3bdff33d29434a4f63a5.css" integrity="sha256-UTbJXCbJDNcgBoKtailKmGLpG&#43;v73Tvf8z0pQ0pPY6U=">
+    <link rel="stylesheet" href="./theme-css/styles.min.acadde962b33da1c504b5613e70964b3f505a480eb9a6911305d9a5a69af2ebe.css" integrity="sha256-rK3elisz2hxQS1YT5wlks/UFpIDrmmkRMF2aWmmvLr4=">
+    <link rel="stylesheet" href="./theme-css/tables.min.7a44b6bd698323dd3d379b714bd534132e76bf4ba0d3dec61997a8d9ba9db5fb.css" integrity="sha256-ekS2vWmDI909N5txS9U0Ey52v0ug097GGZeo2bqdtfs=">
+    <link rel="stylesheet" href="./theme-css/tabs.min.c11e3ce93c794a16f6e4a3e2481dfdf76728147cdb1fbce255d0e6984c938cbf.css" integrity="sha256-wR486Tx5Shb25KPiSB3992coFHzbH7ziVdDmmEyTjL8=">
+    <link rel="stylesheet" href="./theme-css/teams.min.873dc1b8a8c335913e49e913ccbc7fe19c1ac25a8fa844c223164b317a52b778.css" integrity="sha256-hz3BuKjDNZE&#43;SekTzLx/4ZwawlqPqETCIxZLMXpSt3g=">
+    <link rel="stylesheet" href="./theme-css/vars.min.f6bb17e812a3e9632b27008726ca7ca54a4ca25e5525214597343727cac29039.css" integrity="sha256-9rsX6BKj6WMrJwCHJsp8pUpMol5VJSFFlzQ3J8rCkDk=">
+    <link rel="stylesheet" href="./theme-css/videos.min.b305d98ddc47a74381f484299ab14f9483f69d62928c4ed32697a5701355f138.css" integrity="sha256-swXZjdxHp0OB9IQpmrFPlIP2nWKSjE7TJpelcBNV8Tg=">
+    <link rel="stylesheet" href="./css/custom.min.d269b7d46866bfb786845eabf4c979e19b72dede6dae99b90b30d2452e08563f.css" integrity="sha256-0mm31Ghmv7eGhF6r9Ml54Zty3t5trpm5CzDSRS4IVj8=">
     
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+
     
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://scientific-python.org/images/logo.svg"/>
@@ -73,38 +79,6 @@ X-Nf-Request-Id: 01HEGN2YCJJ81159R5WX8G7DEG
     </div>
 
     <div id="navbar-menu" class="navbar-menu is-static">
-
-      <div class="navbar-end">
-        <a href="./" class="navbar-item is-secondary">
-          Home
-        </a>
-        <a href="https://blog.scientific-python.org" class="navbar-item is-secondary">
-          Blog
-        </a>
-        <a href="https://learn.scientific-python.org" class="navbar-item is-secondary">
-          Learn
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>
-
-<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
-  <div class="container is-max-widescreen">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="./">
-        <img class="navbar-logo" src="./images/logo.svg" alt="A green tree on a white hill at the end of a green path in the shape of the letter &#39;S&#39;.">
-        <div class="navbar-logo-text">Scientific Python</div>
-      </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
 
       <div class="navbar-end">
         <a href="./" class="navbar-item is-secondary">
@@ -240,71 +214,53 @@ on broadening participation and better coordinating volunteer efforts.</div>
     
     
 
-<footer id="footer" class="footer">
+<footer id="footer">
   <div class="container is-max-widescreen">
     <div id="footer-columns" class="columns">
-      <div class="footer-logo-column">
-        <img id="footer-logo" src="./images/logo.svg" alt=" logo. A green tree on a white hill at the end of a green path in the shape of the letter &#39;S&#39;.">
+      <div id="footer-logo-column">
+        <img id="footer-logo" src="./images/logo.svg" alt="Scientific Python logo. A green tree on a white hill at the end of a green path in the shape of the letter &#39;S&#39;.">
       </div>
-        <div class="link-column">
-          <div class="footer-column">
-            <div class="footer-header">
-            </div>
-            <ul class="link-list" style="margin-top: 20px;">
-              <li class="link-list">
-                <a class="footer-link" href="./about/">
-                  About
-                </a>
-              </li>
-              <li class="link-list">
-                <a class="footer-link" href="./roadmap/">
-                  Roadmap
-                </a>
-              </li>
-              <li class="link-list">
-                <a class="footer-link" href="./code_of_conduct/">
-                  Code of Conduct
-                </a>
-              </li>
-            </ul>
-          </div>
+      <div class="footer-column">
+        <div class="footer-item">
+          <a href="./about/">
+            About
+          </a>
         </div>
-        <div class="link-column">
-          <div class="footer-column">
-            <div class="footer-header">
-            </div>
-            <ul class="link-list" style="margin-top: 20px;">
-              <li class="link-list">
-                <a class="footer-link" href="./specs/">
-                  SPECs
-                </a>
-              </li>
-              <li class="link-list">
-                <a class="footer-link" href="./summits/">
-                  Summits
-                </a>
-              </li>
-              <li class="link-list">
-                <a class="footer-link" href="./calendars">
-                  Calendars
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-item">
+          <a href="./roadmap/">
+            Roadmap
+          </a>
         </div>
-        <div class="link-column">
-          <div class="footer-column">
-            <div class="footer-header">
-            </div>
-            <ul class="link-list" style="margin-top: 20px;">
-              <li class="link-list">
-                <a class="footer-link" href="./press-kit">
-                  Press kit
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-item">
+          <a href="./code_of_conduct/">
+            Code of Conduct
+          </a>
         </div>
+      </div>
+      <div class="footer-column">
+        <div class="footer-item">
+          <a href="./specs/">
+            SPECs
+          </a>
+        </div>
+        <div class="footer-item">
+          <a href="./summits/">
+            Summits
+          </a>
+        </div>
+        <div class="footer-item">
+          <a href="./calendars">
+            Calendars
+          </a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <div class="footer-item">
+          <a href="./press-kit">
+            Press kit
+          </a>
+        </div>
+      </div>
         <div class="footer-actions">
           
 
@@ -428,8 +384,8 @@ on broadening participation and better coordinating volunteer efforts.</div>
   </div>
 </footer>
 
-
-    
+  </body>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
@@ -438,5 +394,4 @@ on broadening participation and better coordinating volunteer efforts.</div>
 <script type="text/javascript" src=./js/bundle.min.js></script><script type="text/javascript">setupShortcuts(maxLevel= 2 );</script>
 <script defer data-domain="scientific-python.org" src="https://views.scientific-python.org/js/script.js"></script>
 
-</body>
 </html>

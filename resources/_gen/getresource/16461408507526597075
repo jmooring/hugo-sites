@@ -1,14 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 57893
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:08:56 GMT
-Etag: "33e7c1ded0b22a6b7207f6613fffabbc-ssl-df"
+Date: Wed, 06 Dec 2023 16:30:45 GMT
+Etag: "1d84d1fd79ddb29902aa4b0128eaf13a-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HEGN2EBFJG8C2Z0GEQQVG3W3
+X-Nf-Request-Id: 01HGZZFATQQC8G4A8TXXKQ6C2S
 
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
@@ -47,8 +48,8 @@ X-Nf-Request-Id: 01HEGN2EBFJG8C2Z0GEQQVG3W3
 
 
 
-<link rel="preload" href="/scss/main.min.833451dc4251e2f4365d163b45b92d099b8db51592858d92a4471d81811768e9.css" as="style">
-<link href="/scss/main.min.833451dc4251e2f4365d163b45b92d099b8db51592858d92a4471d81811768e9.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.8747bf7db6e23848a98ebb61463a760302a61be9823be8af9d9bb9e27d4b3a20.css" as="style">
+<link href="/scss/main.min.8747bf7db6e23848a98ebb61463a760302a61be9823be8af9d9bb9e27d4b3a20.css" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -430,7 +431,7 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
   
     <div class="card-header">
       
-        Continuous Integration Pipelines Events
+        Continuous Integration Events
       
     </div>
   
@@ -456,7 +457,31 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
   
     <div class="card-header">
       
-        Continuous Deployment Pipelines Events
+        Testing Events
+      
+    </div>
+  
+  <div class="card-body">
+    
+    
+    
+      <p class="card-text">
+        
+          
+	Represent events associated with Testing activities
+	
+        
+      </p>
+    
+  </div>
+  
+</div>
+
+	<div class="td-card card mb-4">
+  
+    <div class="card-header">
+      
+        Continuous Deployment Events
       
     </div>
   
@@ -468,6 +493,32 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
         
           
 	Represent events related to environments where the artifacts produced by the integration pipelines are intended to run
+	
+        
+      </p>
+    
+  </div>
+  
+</div>
+
+</div>
+<div class="td-card-deck card-deck mb-4">
+	<div class="td-card card mb-4">
+  
+    <div class="card-header">
+      
+        Continuous Operations Events
+      
+    </div>
+  
+  <div class="card-body">
+    
+    
+    
+      <p class="card-text">
+        
+          
+	Represent events associated with Continuous Operations activities, such as incidents and their resolution
 	
         
       </p>
@@ -502,9 +553,6 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
 
 </div>
 
-<p>
-	There is interest in implementing in many of your favorite CI/CD tools, including ArgoCD, Flux, Jenkins, Jenkins-X, Keptn, Knative, Ortelius, Shipwright, Spinnaker, Tekton. Some of them have started proof-of-concept implementations with CDEvents.
-</p>
 <br/><br/>
 <div class="mx-auto">
 	<a class="btn btn-lg btn-dark mr-3 mb-4" href="docs">
@@ -521,8 +569,41 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
 
 
 
- 
+
 <a id="td-block-10" class="td-offset-anchor"></a>
+<section class="row td-box td-box--light position-relative td-box--gradient td-box--height-auto">
+	<div class="container text-center td-arrow-down">
+		<div class="h4 mb-0">
+			
+				
+CDEvents is implemented or being integrated by many of your favorite Software Development Life Cycle (SDLC) tools, including Argo, Flux, Guac, Harbor, Jenkins, Keptn, Spinnaker, Tekton, Testkube, Tracetest and more.</br></br>
+
+<a href="https://www.jenkins.io" aria-label="Jenkins"><img src="https://raw.githubusercontent.com/cdfoundation/artwork/main/jenkins/stacked/color/jenkins-stacked-color.svg" width="15%" alt="Jenkins Logo"/></a>  
+<a href="https://testkube.io" aria-label="testkube"><img src="https://raw.githubusercontent.com/kubeshop/testkube/develop/assets/testkube-color-dark.png" width="20%" alt="Testkube Logo"/></a>
+</br></br>
+<a href="https://spinnaker.io" aria-label="Spinnaker"><img src="https://raw.githubusercontent.com/cdfoundation/artwork/main/spinnaker/stacked/color/spinnaker-stacked-color.svg" width="15%" alt="Spinnaker Logo" class="very-opaque-image"/></a>  
+<a href="https://tekton.dev" aria-label="Tekton"><img src="https://raw.githubusercontent.com/cdfoundation/artwork/main/tekton/stacked/color/tekton-stacked-color.svg" width="15%" alt="Tekton Logo" class="very-opaque-image"/></a>
+</br></br>
+<a href="https://argoproj.github.io" aria-label="Argo"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/argo/stacked/color/argo-stacked-color.svg" width="10%" alt="Argo Logo" class="slightly-opaque-image"/></a>  
+<a href="https://flux.io" aria-label="Flux"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/flux/stacked/color/flux-stacked-color.svg" width="10%" alt="Flux Logo" class="slightly-opaque-image"/></a>  
+<a href="https://goharbor.io" aria-label="Harbor"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/harbor/stacked/color/harbor-stacked-color.svg" width="10%" alt="Harbor Logo" class="slightly-opaque-image"/></a>  
+<a href="https://guac.sh" aria-label="Guac"><img src="https://user-images.githubusercontent.com/3060102/204297133-9bf702c6-b4e2-46df-a029-42b5060b19a4.png" width="10%" alt="Guac Logo" class="slightly-opaque-image"/></a>  
+<a href="https://keptn.sh" aria-label="Keptn"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/keptn/stacked/color/keptn-stacked-color.svg" width="10%" alt="Keptn Logo" class="slightly-opaque-image"/></a>  
+<a href="https://tracetest.io" aria-label="tracetest"><img src="https://github.com/kubeshop/tracetest/raw/main/assets/tracetest-logo-color-w-black-text.svg" width="20%" alt="Tracetest Logo" class="slightly-opaque-image"/></a>
+
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+ 
+<a id="td-block-11" class="td-offset-anchor"></a>
 <section class="row td-box td-box--secondary td-box--gradient td-box--height-auto">
 	<div class="col">
 		<div class="row ">
@@ -542,7 +623,7 @@ CDEvents is an incubated project at the <a href="https://cd.foundation/projects"
 </div>
 <h4 class="h3">Demos</h4>
 <div class="mb-0">
-<p>Our first <a href="https://github.com/cdfoundation/sig-events/tree/main/poc#cdf-sig-events-protocol-proof-of-concept">proof of concept</a> includes CDEvents in <a href="https://tekton.dev">Tekton</a> and <a href="https://keptn.sh">Keptn</a>.
+<p>Our <a href="https://github.com/cdfoundation/sig-events/tree/main/poc#cdf-sig-events-protocol-proof-of-concept">proof of concepts</a> includes CDEvents in <a href="https://tekton.dev">Tekton</a> , <a href="https://spinnaker.io/">Spinnaker</a> and <a href="https://keptn.sh">Keptn</a>.
 We are building the next PoC to produce DevOps metrics through CDEvents.</p>
 </div>
 </div>
@@ -553,7 +634,7 @@ We are building the next PoC to produce DevOps metrics through CDEvents.</p>
 <h4 class="h3">In Progress</h4>
 <div class="mb-0">
 <p>Our specification work is driven by interoperability use cases.
-Our first <a href="https://github.com/cdevents/spec/releases/tag/v0.1.0">release v0.1.0</a> includes a <a href="https://github.com/cdevents/sdk-go/releases/tag/v0.1.0">Go SDK</a>.</p>
+Our latest <a href="https://github.com/cdevents/spec/releases/tag/v0.3.0">release v0.3.0</a> includes a <a href="https://github.com/cdevents/sdk-go/releases/tag/v0.3.0">Go SDK</a>.</p>
 </div>
 </div>
 

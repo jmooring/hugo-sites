@@ -1,14 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 14950
 Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:09:07 GMT
-Etag: "63083a892f07938ff3064b1d90e163d1-ssl-df"
+Date: Wed, 06 Dec 2023 16:30:53 GMT
+Etag: "965c98824bf5303cee753f9ed7a7e548-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HEGN2RJDD83XFNWBSS2S7MQG
+X-Nf-Request-Id: 01HGZZFK59TN0M13JVAKP3MJDC
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -100,9 +101,9 @@ X-Nf-Request-Id: 01HEGN2RJDD83XFNWBSS2S7MQG
     <a href="#" class="cart-parent snipcart-checkout"><span class="snipcart-items-count"></span><span class="cart-word">CART</span><img src="/images/cart.png" alt="cart icon" class="cart "></a>
   </nav>
   
-  <div class="popup" id='popup'  hidden>
-    <h3>Winter 2022 Hours</h3>
-    <p>We're open Tues - Wed 8AM to 5PM and closed the first three weeks of January,  reopening January 25. Happy New Year!</p>
+  <div class="popup" id='popup'  >
+    <h3>Winter 2023 Hours</h3>
+    <p>Thanksgiving: Open Nov 21, 22 Closed rest of week <br> Christmas: Open normal hours the week before Christmas, then closed till Jan 31.</p>
     <br>
     <img src="/images/new-year.jpg" alt="new year">
     <button type="button" name="button" class="btn-tan" onclick="hidePopup()">Go To Site</button>
@@ -364,13 +365,13 @@ X-Nf-Request-Id: 01HEGN2RJDD83XFNWBSS2S7MQG
 
 </footer>
 <script>
-  
   let session = sessionStorage.getItem('session')
-  if (session == 'active')
+  if (session == "active")
   document.querySelector('#popup').style.display = "none";
   else {
-  document.querySelector('#popup').style.display = "none";
+  document.querySelector('#popup').style.display = "block";
   }
+  
   </script>
 <div class="privacy hide" id='privacy' >
   <p>By continuing to use this site, you are agreeing to accept our <a href="/terms-and-conditions">Terms and Conditions</a> and <a href="/privacy-policy">Privacy Policy</a></p>

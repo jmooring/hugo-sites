@@ -6,7 +6,7 @@ Access-Control-Expose-Headers: Content-Length
 Connection: keep-alive
 Content-Type: text/html; charset=utf-8
 Cross-Origin-Opener-Policy: same-origin
-Date: Sun, 05 Nov 2023 21:09:01 GMT
+Date: Wed, 06 Dec 2023 16:30:49 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Vary: Accept-Encoding
@@ -14,7 +14,7 @@ Vary: Cookie
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 
-f579
+f221
 
 
 <!DOCTYPE html>
@@ -947,30 +947,6 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
           Merchandise
         </h3>
         
-            <div class="bg-pink-500 text-xl text-gray-200 font-bold rounded py-3 px-8 flex justify-center items-center text-center mb-4 mt-[-32px] gap-2 max-w-fit mx-auto">
-                
-                
-                      <span>20% off everything valid until</span>
-                
-                
-                
-                      <span id="expire"></span>
-                      <script>
-                        function toLocaleDate(date) {
-                          let d = new Date(date).toString()
-                          let i = d.lastIndexOf(":")
-                          let arr = d.split(":")
-                          let formatedDate = arr[0] + ":" + arr[1]
-                          return formatedDate
-                        }
-                        document.querySelector("#expire").textContent = toLocaleDate("2023-11-05T23:59:59")
-                      </script>
-                
-                
-                
-                
-            </div>
-        
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
          
@@ -1200,13 +1176,25 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 mb-4 lg:mb-12">
     
     <div class="text-gray-200 flex flex-wrap justify-center mb-8">
+      <a href="https://blog.manjaro.org/black-friday/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
+            
+            <img src="/media/images/blackfriday_5aEcZ3o.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
+            alt="image" />
+          <div class="p-4 text-sm">
+            <h4 class="font-bold leading-5 mb-2 text-base">Black Friday Deals</h4>
+            <p data-block-key="wop94">Support the project</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
       <a href="https://blog.manjaro.org/pamac-package-manager-with-latest-improvements/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
             
             <img src="/media/images/Screenshot_from_2023-04-03_10-28-00.width-500.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
             alt="image" />
           <div class="p-4 text-sm">
-            <h4 class="font-bold leading-5 mb-2 text-base">Pamac Package Manager with latest improvements</h4>
-            
+            <h4 class="font-bold leading-5 mb-2 text-base">New features in Pamac</h4>
+            <p data-block-key="wpiip">Pamac Package Manager with latest improvements</p>
         </div>
       </a>
     </div>
@@ -1219,18 +1207,6 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
           <div class="p-4 text-sm">
             <h4 class="font-bold leading-5 mb-2 text-base">February 2023 in Manjaro ARM</h4>
             <ul><li data-block-key="r0ulg">RK3399 U-boot fixes</li><li data-block-key="frn43">23.02 released</li><li data-block-key="aps3q">New LTS kernel released</li><li data-block-key="amf8j">22.12 download statistics</li></ul>
-        </div>
-      </a>
-    </div>
-    
-    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
-      <a href="https://blog.manjaro.org/fosdem-2023/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
-            
-            <img src="/media/images/FoMkaGaWQAAt2YU.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
-            alt="image" />
-          <div class="p-4 text-sm">
-            <h4 class="font-bold leading-5 mb-2 text-base">FOSDEM 2023</h4>
-            <p data-block-key="rpyy4">Fosdem 2023 was a great experience.</p>
         </div>
       </a>
     </div>
@@ -1603,6 +1579,7 @@ function initAff() {
   const affiliatesTimeout = setTimeout(getAffiliates, 3000)
 }
 const titles = []
+const blocked = ['donate', 'merchandise']
 if (window.location.pathname.includes("download")) {
   
   modal = document.querySelector("#modal-edition")
@@ -1616,9 +1593,14 @@ if (window.location.pathname.includes("download")) {
 
   var checkAff = setInterval(isReady, 100)
 
-} else if (!window.location.pathname.includes("donate")) {
-  initAff()
-} 
+} else {
+  for (i of blocked) {
+    if (!window.location.pathname.includes(i)) {
+      initAff();
+      break;
+    }
+  }
+}
 </script>
 
         <script async type="text/javascript" src="/static/js/manjaro.522ce2b605f5.js"></script>

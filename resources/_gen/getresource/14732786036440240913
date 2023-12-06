@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 22979
+Content-Length: 24083
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Nov 2023 21:09:01 GMT
-Etag: "59c3-609656de3e395"
-Last-Modified: Sun, 05 Nov 2023 10:45:00 GMT
+Date: Wed, 06 Dec 2023 16:30:47 GMT
+Etag: "5e13-60bc1c0b0044a"
+Last-Modified: Tue, 05 Dec 2023 11:44:09 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -97,107 +97,8 @@ Server: Apache
 <div id="page-main"><div id="content"><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/audio/outlanders-outlanders/">Outlanders - Outlanders</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">3. November 2023</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/audio/">Audio</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/klaus-seiler/">Klaus Seiler</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><img src="/musik/audio/outlanders-outlanders/cover.jpg" class="alignleft" width="160" height="160" alt="Cover">What a surprise!</p>
-<p>Als ich die ersten Songs hörte, wusste ich wirklich nicht so recht, was ich davon halten sollte. Die ehemalige <span class="band">Nightwish</span>-Sängerin und ein (mir bis heute unbekannter) wohl großer Name im weiten Beritt der sog. EDM bis Chillout-Musik. Zuerst war ich ein wenig an die Musik von Leuten wie Armin Van Buuren oder José Padilla bis Café del Mar (Ibiza-Chillout) erinnert. Es gab da mal eine Zeit, in der ich solche Sachen durchaus gerne hörte, obwohl es sicherlich in der Masse dieser Musik ziemlich viel Schrott gab und gibt.</p>
-<p>Als ich dann aber die sog. Gästeliste las und dort Namen von Al Di Meola bis Marty Friedman oder auch Trevor Rabin auftauchten, wurde ich etwas hellhöriger und dachte mir: diese Jungs geben sich sicherlich nicht für irgendwelchen Mist her.</p>
-<p>Und jetzt, nach etlichen Turns muss ich einfach sagen: dieses Projekt funktioniert, jedenfalls für meine Ohren. Man hört ohne Zweifel die famose Gitarrenarbeit von Al Di Meola heraus, die berühmten Flitzefinger auf der Akustischen, die er auch im gesetzteren Alter noch drauf hat.</p>
-<p>Und die Stimme von Tarja Turunen passt, vor allem auch deshalb, weil sie sich in Sachen Bombaststimme angenehm zurückhält. Und obwohl das Album mehr als 80 Minuten aufweist, kommt bei mir zumindest zu keiner Zeit sowas wie Langeweile oder ein leicht nervöser Skip-Reflex aus, im Gegenteil.</p>
-<p>Okay, sowas muss man nicht mögen, aber ich fand eine Stelle auf einer Internet-Seite, auf der man fragte: „ist das jetzt (musikalisch) ein sonniger Tag am Meer oder ein Tag im Fahrstuhl?“.
-Ich bleibe beim sonnigen Meer und höre entspannt-sphärische Klänge und Beats, tolle Gitarren und eine gechillte Tarja Turunen.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/cd">CD</a> <span class="genericon icon-tag"></span><a href="/tag/outlanders">Outlanders</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/betriebssysteme/standard-ordner-in-gnome-loswerden/">Standard-Ordner in GNOME loswerden</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">31. Oktober 2023</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Gut gemeint ist nicht immer gut gemacht, so auch im Falle von GNOME und dessen Dateimanager Files: egal, ob die Ordner verwendet werden oder nicht, den freedesktop.org-Spezifikationen folgend werden bei jedem Login die <a href="https://www.freedesktop.org/wiki/Software/xdg-user-dirs/"   class="genericon icon-extlink">XDG-Standard-Ordner</a> wie z.B. &ldquo;Musik&rdquo; und &ldquo;Videos&rdquo; angelegt und auch in der Seitenleiste von Files angezeigt. Eine Möglichkeit, dies innerhalb der Oberfläche zu konfigurieren ist nicht vorgesehen.</p>
-<blockquote>
-<p>This program reads a configuration file, and a set of default directories. It then creates localized versions of these directories in the users home directory and sets up a config file in $(XDG_CONFIG_HOME)/user-dirs.dirs (XDG_CONFIG_HOME defaults to ~/.config) that applications can read to find these directories. [<a href="https://www.freedesktop.org/wiki/Software/xdg-user-dirs/"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Das Verhalten kann aber mit Hilfe von Konfigurationsdateien angepasst werden.</p>
-<h2 id="ändern-der-verzeichnisse">Ändern der Verzeichnisse</h2>
-<p>Wer den grundlegenden Mechanismus aktiviert lassen möchte, kann in der Datei &ldquo;~/.config/user-dirs.dirs&rdquo; die nicht benötigten Verzeichniseinträge auf sein &ldquo;home&rdquo;-Verzeichnis umbiegen.</p>
-<p>Dies wird auch so vorgeschlagen:</p>
-<blockquote>
-<p>To disable a directory, point it to the homedir. [<a href="https://www.freedesktop.org/wiki/Software/xdg-user-dirs/"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Alternativ ist auch ein Auskommentieren der nicht benötigten Zeilen möglich, dies würde aber ggf. dazu führen, daß eine Applikation einen benötigten Ablageort nicht (mehr) findet.</p>
-<pre tabindex="0"><code># This file is written by xdg-user-dirs-update
-# If you want to change or add directories, just edit the line you&#39;re
-# interested in. All local changes will be retained on the next run.
-# Format is XDG_xxx_DIR=&#34;$HOME/yyy&#34;, where yyy is a shell-escaped
-# homedir-relative path, or XDG_xxx_DIR=&#34;/yyy&#34;, where /yyy is an
-# absolute path. No other format is supported.
-#
-XDG_DESKTOP_DIR=&#34;$HOME/Schreibtisch&#34;
-XDG_DOWNLOAD_DIR=&#34;$HOME/Downloads&#34;
-XDG_TEMPLATES_DIR=&#34;$HOME/Vorlagen&#34;
-XDG_PUBLICSHARE_DIR=&#34;$HOME&#34;
-XDG_DOCUMENTS_DIR=&#34;$HOME/Dokumente&#34;
-XDG_MUSIC_DIR=&#34;$HOME&#34;
-XDG_PICTURES_DIR=&#34;$HOME/Bilder&#34;
-XDG_VIDEOS_DIR=&#34;$HOME&#34;
-</code></pre><p>Da &ldquo;home&rdquo; bereits exisitiert, werden Ordner, welche auf &ldquo;$HOME&rdquo; verweisen, nicht nochmal angelegt und auch nicht zusätzlich zum &ldquo;Persönlichen Ordner&rdquo; angezeigt. Das Verbiegen einer Variable mit dem Namen &ldquo;XDG_PUBLICSHARE_DIR&rdquo; auf &ldquo;$HOME&rdquo; hinterlässt aber auf Systemen, auf denen mehr als ein Benutzer aktiv ist, ein ungutes Gefühl.</p>
-<h2 id="abschalten-des-mechanismus">Abschalten des Mechanismus</h2>
-<p>Alternativ (oder zusätzlich) kann der Mechanismus auch komplett stillgelegt werden.</p>
-<blockquote>
-<p>At the moment there are only two settings, you can disable the whole thing, and you can specify the charset encoding used for filenames. [<a href="https://www.freedesktop.org/wiki/Software/xdg-user-dirs/"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Dies kann entweder systemweit über die Datei &ldquo;/etc/xdg/user-dirs.conf&rdquo; gesteuert oder benutzerbezogen eingestellt werden.</p>
-<p>Hierzu ist die Systemdatei zuerst ins Benutzerverzeichnis zu kopieren</p>
-<pre tabindex="0"><code>$ cp /etc/xdg/user-dirs.conf ~/.config/
-</code></pre><p>dann kann die Einstellung &ldquo;enabled&rdquo; von &ldquo;True&rdquo; auf &ldquo;False&rdquo; geändert werden:</p>
-<pre tabindex="0"><code># This controls the behaviour of xdg-user-dirs-update which is run on user login
-# You can also have per-user config in ~/.config/user-dirs.conf, or specify
-# the XDG_CONFIG_HOME and/or XDG_CONFIG_DIRS to override this
-#
-
-enabled=False
-
-# This sets the filename encoding to use. You can specify an explicit
-# encoding, or &#34;locale&#34; which means the encoding of the users locale
-# will be used
-filename_encoding=UTF-8
-</code></pre><p>Bei der nächsten Anmeldung werden die Ordner nicht mehr neu angelegt und die Einträge in der Seitenleiste von &ldquo;Files&rdquo; sind verschwunden.</p>
-<div class="box box-info">
-Dies ist eine Erweiterung zu den Beiträgen &ldquo;<a href="/technik/betriebssysteme/wahl-der-desktopumgebung/"  >Wahl der Desktopumgebung</a>&rdquo; und &ldquo;<a href="/technik/betriebssysteme/eigene-dateien-umziehen/"  >Eigene Dateien umziehen</a>&rdquo;, in denen die <a href="https://www.freedesktop.org/wiki/Software/xdg-user-dirs/"   class="genericon icon-extlink">xdg-user-dirs</a> bereits angesprochen wurden.
-</div>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/gnome">GNOME</a> <span class="genericon icon-tag"></span><a href="/tag/xdg-user-dirs">xdg-user-dirs</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/">Nevermore 2005-06-25 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">29. Oktober 2023</span> ·
+		<h1 class="post-title"><a href="/musik/konzerte/saga-2005-12-09-bildergalerie/">Saga 2005-12-09 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">5. Dezember 2023</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -208,77 +109,168 @@ Dies ist eine Erweiterung zu den Beiträgen &ldquo;<a href="/technik/betriebssys
 	</div></div>
 
 	<div class="post-body">
-	<p><span class="band">Nevermore</span> am 25. Juni 2005 beim Bang Your Head Festival in Balingen</p>
+	<p><span class="band">Saga</span> am 09. Dezember 2005 im Quasimoto in Pirmasens</p>
 
-<div id="gallery-nevermore-2005-06-25-bildergalerie" class="gallery">
+<div id="gallery-saga-2005-12-09-bildergalerie" class="gallery">
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3797.jpg" data-caption="Nevermore (01/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3797_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6117.jpg" data-caption="Saga (01/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6117_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3798.jpg" data-caption="Nevermore (02/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3798_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6119.jpg" data-caption="Saga (02/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6119_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3800.jpg" data-caption="Nevermore (03/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3800_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6124.jpg" data-caption="Saga (03/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6124_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3804.jpg" data-caption="Nevermore (04/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3804_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6128.jpg" data-caption="Saga (04/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6128_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3805.jpg" data-caption="Nevermore (05/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3805_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6133.jpg" data-caption="Saga (05/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6133_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3808.jpg" data-caption="Nevermore (06/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3808_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6134.jpg" data-caption="Saga (06/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6134_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3815.jpg" data-caption="Nevermore (07/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3815_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6135.jpg" data-caption="Saga (07/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6135_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3819.jpg" data-caption="Nevermore (08/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3819_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6139.jpg" data-caption="Saga (08/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6139_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3822.jpg" data-caption="Nevermore (09/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3822_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6142.jpg" data-caption="Saga (09/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6142_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3825.jpg" data-caption="Nevermore (10/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3825_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6149.jpg" data-caption="Saga (10/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6149_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3827.jpg" data-caption="Nevermore (11/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3827_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6150.jpg" data-caption="Saga (11/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6150_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3829.jpg" data-caption="Nevermore (12/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3829_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6151.jpg" data-caption="Saga (12/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6151_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3830.jpg" data-caption="Nevermore (13/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3830_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6156.jpg" data-caption="Saga (13/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6156_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3835.jpg" data-caption="Nevermore (14/14)">
-				<img src="/musik/konzerte/nevermore-2005-06-25-bildergalerie/2005-06-25_nevermore_img_3835_thumb.jpg" alt="Nevermore" width="160" height="160">
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6165.jpg" data-caption="Saga (14/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6165_thumb.jpg" alt="Saga" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6188.jpg" data-caption="Saga (15/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6188_thumb.jpg" alt="Saga" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6197.jpg" data-caption="Saga (16/16)">
+				<img src="/musik/konzerte/saga-2005-12-09-bildergalerie/2005-12-09_saga_img_6197_thumb.jpg" alt="Saga" width="160" height="160">
 			</a>
 
 	</div>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/nevermore">Nevermore</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/konzertfotos">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/saga">Saga</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/anwendungen/microsoft-edge-wird-von-windows-7-gleich-doppelt-nicht-mehr-unterstuetzt/">Microsoft Edge wird von Windows 7 gleich doppelt nicht mehr unterstützt</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">13. Oktober 2023</span> ·
+		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-109-bruce-dickinson-afterglow-of-ragnarok/">Hörenswert #109: Bruce Dickinson - Afterglow Of Ragnarok</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">2. Dezember 2023</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><a href="https://www.youtube.com/watch?v=yulfvacpvTc"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
+<p>19 Jahre nach dem 2005 erschienenen &ldquo;<a href="/musik/audio/bruce-dickinson-tyranny-of-souls/"  >Tyranny Of Souls</a>&rdquo; erscheint mit &ldquo;<a href="https://www.themandrakeproject.com/"   class="genericon icon-extlink">The Mandrake Project</a>&rdquo; 2024 ein neues Soloalbum von Bruce Dickinson. Wie die Vorgängeralben erneut in Zusammenarbeit mit Roy Z entstanden, legt die erste Single &ldquo;Afterglow Of Ragnarok&rdquo; die Messlatte für den Rest des Albums recht hoch. Die Spannung steigt &hellip;</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bruce-dickinson">Bruce Dickinson</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/betriebssysteme/apt-ignoriert-zammad-beim-distributionsupgrade/">apt ignoriert Zammad beim Distributionsupgrade</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">30. November 2023</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Beim Upgrade von Debian 11 (Bullseye) auf Debian 12 (Bookworm) wurde das komplette System wie vorgesehen aktualisiert, lediglich das Zammad-Paket zeigte in der Weboberfläche die falsche Version:</p>
+<blockquote>
+<p>Dies ist Zammad Version 6.1.0-1700492762.96ac5a60.bullseye</p>
+</blockquote>
+<p>Was auf auch ein Anzeigefehler in Zammad hätte sein können, wurde von dpkg bestätigt</p>
+<pre tabindex="0"><code>$ dpkg -s zammad
+...
+Version: 6.1.0-1700492762.96ac5a60.bullseye
+...
+</code></pre><p>und apt zeigte keinerlei Motivation, das Paket zu aktualisieren.</p>
+<pre tabindex="0"><code>$ sudo apt update
+...
+Alle Pakete sind aktuell.
+</code></pre><p>Daß die eigentlich richtige Datei zur Installation zur Verfügung stand, bestätigte ein Aufruf von &ldquo;apt-cache policy&rdquo;</p>
+<pre tabindex="0"><code>$ sudo apt-cache policy zammad
+zammad:
+  Installiert:           6.1.0-1700492762.96ac5a60.bullseye
+  Installationskandidat: 6.1.0-1700492762.96ac5a60.bullseye
+  Versionstabelle:
+ *** 6.1.0-1700492762.96ac5a60.bullseye 100
+        100 /var/lib/dpkg/status
+     6.1.0-1700492762.96ac5a60.bookworm 500
+        500 https://dl.packager.io/srv/deb/zammad/zammad/stable/debian 12/main amd64 Packages
+...
+</code></pre><p>Trotz offensichtlich verfügbarer Bookworm-Installationsdatei hielt apt die Bullseye-Version für geeigneter. Die Suche nach der Ursache bzw. deren Lösung führte zum Beitrag &ldquo;<a href="https://community.zammad.org/t/distupgrade-debian-buster-to-bullseye-zammad-still-shows-buster-version/11990"   class="genericon icon-extlink">Distupgrade debian buster to bullseye - zammad still shows buster version</a>&rdquo; im Zammad-Forum, der für das Upgrade von Bullseye auf Bookworm noch genauso gilt. Dort erklärt MrGeneration vom Zammad-Core-Team:</p>
+<blockquote>
+<p>Due to the way our version numbers are generated, you end up in</p>
+<p>6.0.0-1692176490.0e2399eb.buster<br>
+6.0.0-1692176490.0e2399eb.bullseye</p>
+<p>those versions. Versioning is done alphabetical. So buster vs bullseye apart from the rest of the version string being the same is your issue.</p>
+</blockquote>
+<p>Das gleiche Verhalten tritt auch hier auf: beim Vergleich der beiden Versionen &ldquo;6.1.0-1700492762.96ac5a60.bullseye&rdquo; und &ldquo;6.1.0-1700492762.96ac5a60.bookworm&rdquo; ist apt nach Vergleich der Versionsnummern der Meinung, daß &ldquo;bullseye&rdquo; neuer als &ldquo;bookworm&rdquo; ist und behält deshalb die Bullseye-Version, statt auf die Bookworm-Version zu aktualisieren. Dies kann man auch mit dpkg evaluieren:</p>
+<pre tabindex="0"><code>$ dpkg --compare-versions 6.1.0-1700492762.96ac5a60.bookworm lt 6.1.0-1700492762.96ac5a60.bullseye &amp;&amp; echo &#34;älter&#34;
+älter
+</code></pre><p>Die im oben verlinkten Beitrag vorgeschlagene Lösung eines &ldquo;apt remove zammad&rdquo; gefolgt vom einem &ldquo;apt install zammad&rdquo; ist zumindest im Fall des Upgrades von Bullseye auf Bookworm nicht notwendig, da Zammad auch in der Bullseye-Version problemlos arbeitet.</p>
+<p>Mit der nächsten Änderung der tatsächlichen Versionsnummer wurde dann auch auch auf das Bookworm-Paket aktualisiert:</p>
+<pre tabindex="0"><code>...
+Preparing to unpack .../zammad_6.1.0-1701163867.5a81e629.bookworm_amd64.deb ...
+Unpacking zammad (6.1.0-1701163867.5a81e629.bookworm) over (6.1.0-1700492762.96ac5a60.bullseye) ...
+Setting up zammad (6.1.0-1701163867.5a81e629.bookworm) ...
+...
+</code></pre>
+</div>
+
+	<div class="post-footer"></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/anwendungen/nextcloud-news-feeds-werden-nicht-mehr-aktualisiert/">Nextcloud: News-Feeds werden nicht mehr aktualisiert</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">26. November 2023</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -289,22 +281,30 @@ Dies ist eine Erweiterung zu den Beiträgen &ldquo;<a href="/technik/betriebssys
 	</div></div>
 
 	<div class="post-body">
-	<p>Es gibt ja den Spruch &ldquo;<a href="https://de.wiktionary.org/wiki/doppelt_gen%C3%A4ht_h%C3%A4lt_besser"   class="genericon icon-extlink">Doppelt genäht hält besser</a>&rdquo; den sich wohl auch irgendwer bei Microsoft zu Herzen genommen hat:</p>
-<img src="/technik/anwendungen/microsoft-edge-wird-von-windows-7-gleich-doppelt-nicht-mehr-unterstuetzt/microsoft-edge_windows-7.png"  width="648" height="294" alt="Microsoft Edge Hinweis">
-<p>Microsoft Edge 109.x wird von Windows 7 nicht einfach nicht mehr unterstüzt, zur Sicherheit gibt&rsquo;s die Nicht-Unterstützung gleich doppelt.</p>
+	<p>Nach einem Fehler wärend der Cron-Ausführung liefen die Hintergrundjobs der Nextcloud-Instanz unauffällig, die Feeds der App &ldquo;News&rdquo; wurden allerdings nicht mehr aktualisiert. Der Strack-Trace des abgebrochenen Cron-Jobs meldete als letzten Eintrag</p>
+<pre tabindex="0"><code>#6 /***/cron.php(158): OC\BackgroundJob\JobList-&gt;setLastJob(Object(OCA\News\Cron\UpdaterJob))
+#7 {main}
+</code></pre><p>In der Protokollierung der Nextcloud-Instanz waren keine auf die News-App bezogenen Fehlermeldungen enthalten. Ein manueller Cron-Aufruf lief ebenfalls ohne sichtbare Fehlermeldungen durch und Nextcloud meldete in den Grundeinstellungen</p>
+<blockquote>
+<p>Die letzte Aufgabe lief vor einer Minute.</p>
+</blockquote>
+<p>während sich die News-App über eine letzte Aufgaben-Ausführung vor 11 Stunden beschwerte.</p>
+<p>Die Lösung war ein Reset des News-Jobs auf der Kommandozeile</p>
+<pre tabindex="0"><code>$ php occ news:updater:job --reset
+</code></pre><p>Nach dem Reset wurden die Feeds bei der nächsten Cron-Ausführung wieder ordnungsgemäß aktualisiert.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/microsoft-edge">Microsoft Edge</a> <span class="genericon icon-tag"></span><a href="/tag/windows-7">Windows 7</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/nextcloud">Nextcloud</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/audio/elida-almeida-di-londji/">Elida Almeida - Di Londji</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">9. Oktober 2023</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/audio/">Audio</a></span> ·
+		<h1 class="post-title"><a href="/misc/imho/das-lied-der-waechter-zwei-baende-sind-genug/">Das Lied der Wächter - zwei Bände sind genug</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">25. November 2023</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/misc/imho/">IMHO</a></span> ·
 		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/klaus-seiler/">Klaus Seiler</a></span>
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
 		·
 
@@ -312,16 +312,23 @@ Dies ist eine Erweiterung zu den Beiträgen &ldquo;<a href="/technik/betriebssys
 	</div></div>
 
 	<div class="post-body">
-	<p><img src="/musik/audio/elida-almeida-di-londji/cover.jpg" class="alignleft" width="160" height="160" alt="Cover">Elida Almeida wird recht oft als &ldquo;legitime&rdquo; Nachfolgerin der von mir sehr verehrten Cesária Évora, der &ldquo;Königin der Kapverden und des Morna&rdquo; verstanden. Ein Vergleich, der jedoch ein ganz klein wenig hinkt, denn trotz aller Qualitäten der Frau und des Albums aus 2023 braucht sie noch ein wenig, um in die wirklich großen Fußstapfen der in 2011 verstorbenen Großmeisterin zu treten.</p>
-<p>Dennoch, sie gehört zu einer Garde von jungen, aufstrebenden Sängerinnen der Kapverden, die auf diesen Inseln wie auch in Portugal und Spanien fast schon Superstar-Status genießen.</p>
-<p>Aber zu dem Album: der Stil nennt sich grob Funaná, ein Genre der Kapverden, welches in aller Regel fröhlich-heiter-beschwingt daherkommt und sehr tanzbar ist. Und da passt die leicht rauchige, ausdrucksstarke Stimme von Elida Almeida wie die berühmte Faust aufs Auge.</p>
-<p>Was den Songs auf dem Album in aller Regel fehlt, ist dieser dem Morna eigene Fado-Einschlag, der manche Songs bittersüß-melancholisch klingen lässt und den besagte Cesária Évora wiederum beherrschte wie keine andere.</p>
-<p>Aber das muss hier auch keinesfalls sein, denn hier geht es um Fröhlichkeit und Heiterkeit, sozusagen Musik der Kapverden in Pastellfarben, welche Sie bereits auf dem Vorgängeralbum &ldquo;Gerasonobu&rdquo; trefflich präsentierte und welches noch eine Spur mehr an &ldquo;Afro-Vibes&rdquo; aufwies.</p>
-<p>&ldquo;Di Lonji&rdquo; war für mich schlicht sowas wie DAS Sommeralbum in diesem Jahr und ein kleines Highlight in meinem Garten der sog. &ldquo;Weltmusik&rdquo;.</p>
+	<p><img src="/misc/imho/das-lied-der-waechter-zwei-baende-sind-genug/das-erwachen_cover.jpg" class="alignleft" width="160" height="249" alt="Das Lied der Wächter: Das Erwachen">Ich bin mir nicht mehr ganz sicher, wann und wo ich zuerst auf &ldquo;Das Lied der Wächter&rdquo; gestoßen bin. Ich vermute aber, daß es im Urlaub in Freiburg war, der ziemlich zeitgleich zum Erscheinen des ersten Bands stattfand. Es hat dann noch rund fünf Jahre gedauert, bis ich angefangen habe, die Trilogie zu lesen - auf das Ende werde ich verzichten.</p>
+<p>Das Szenario ist spannend: 16 Jahre nach einem vermeintlichen Atomunfall gilt ein Teil des Schwarzwalds als verseucht und unbewohnbar. Das Gebiet ist großräumig abgesperrt, militärisch bewacht und das Betreten verboten. Felix erfährt im Alter von 16 Jahren, daß seine Eltern nicht seine Eltern, sondern Onkel und Tante sind und macht sich auf die Suche, seine leiblichen Eltern zu finden, die seit dem Unfall in der abgesperrten Zone verschollen sind.</p>
+<p>&ldquo;Das Lied der Wächter&rdquo; stammt vom Freiburger Autor Thomas Erle und man merkt auf jeder Seite, daß der Autor seine Heimat kennt und liebt und bereits einige heimatkundliche Schriften verfasst hat. Die Landschaft, die Felix auf seiner Reise durchstreift, ist detailliert und lebendig geschildert und es wäre wahrscheinlich möglich, anhand des Buches zumindest einen Teil der Reise fast schrittgenau nachzuwandern.</p>
+<p>Der erste Band &ldquo;Das Erwachen&rdquo; beginnt mit einem Rückblick: Matrin und Nadja sind auf ihrem ersten Wanderausflug nach der Geburt von Baby Felix, den Sie in der Obhut von Nadjas Schwester gelassen haben. Während sie unterwegs sind, ereignen sich seltsame Dinge und der Leser weiß erstmal nicht, ob sie überleben und was mit ihnen passiert. Leider ist der Prolog gleichzeitig auch der fesselnste Teil der Geschichte, denn ab dem Punkt, an dem Felix übernimmt, geht es leider stetig bergab.</p>
+<p>Keine Ahnung, ob und wie viele 16-jährige Thomas Erle kennt, aber Felix sorgt mit seinem zeitweise planlosen Handeln im Verlauf seiner Reise für dauerhaftes Kopfschütteln beim Leser. Wahrscheinlich soll dies die Verlorenheit des Stadtkindes in der Wildnis darstellen oder unterstreichen, wirkt aber an vielen Stellen einfach zu planlos und naiv.</p>
+<p><img src="/misc/imho/das-lied-der-waechter-zwei-baende-sind-genug/der-gesang_cover.jpg" class="alignleft" width="160" height="249" alt="Das Lied der Wächter: Der Gesang">Als Beispiel sei eine Szene nach dem Aufbruch vom Lager der Händler in &ldquo;Das Lied der Wächter: Der Gesang&rdquo; genannt: nachdem man als Leser zigfach &ldquo;und was ist mit dem Hund?&rdquo; gedacht hat, merkt auch Felix mitten im Abseilen an der Wand hängend doch noch, daß er nicht alleine ist, sondern einen Vierbeiner als Gefährten hat.</p>
+<blockquote>
+<p>Im selben Moment hörte er von oben ein lautes Bellen. Siedend heiß fiel ihm Leo ein &hellip; Er musste zurück [Das Lied der Wächter: Der Gesang, Seite 309]</p>
+</blockquote>
+<p>Den Hund vielleicht zuerst abseilen - Fehlanzeige. Darüber überhaupt nachdenken - Fehlanzeige. Sich mitten in der Wand hängend wundern, warum der Hund oben nervös wird - Volltreffer. Sicherlich, ein durchschnittlicher 16-jähriger Teenager ist im Normalfall kein McGuyver und es ist auch gut und passend, daß er sich manches erst hart erarbeiten muß. Die absolute Lern- und Denkresitenz, mit der Felix durch den Schwarzwald stolpert wird aber mit zunehmender Seitenzahl immer mehr zum Ärgernis.</p>
+<p>Dazu kommt, daß zumindest in den ersten beiden Bänden so gut wie keine Grauschattierung bei den Nebencharakteren zu finden ist, in der Welt gibt es nur schwarz oder weiß. Entweder sind die Personen, auf die Felix trifft herzensgut oder abgrundtief böse, auf Überraschungen, Abweichungen oder rätselhafte Charaktere hofft man vergebens.</p>
+<p>Daß ich mir jemals eine Disneyfizierung eines Stoffs nach aktuellem Strickmuster wünschen würde, hätte ich bis zum Lesen der beiden Bücher für schlicht unmöglich gehalten. Was hier an Rollenbildern beschrieben wird, lässt mich mehr als irritiert zurück. Egal, wie sich die Umwelt und das damit verbundene Leben ändert, ist es hoffentlich mehr als unrealistisch, daß damit eine Rückkehr von Mann und Frau in die Rollen der Steinzeit verbunden ist. Genau dies geschieht hier aber Mitten in der Zone: die tapferen Männer arbeiten draußen auf Feld, Wald und Wiese und durchstreifen die Landschaft, während die Frauen es als Erfüllung ihres Lebens ansehen, sich um Haus, Heim und Herd zu kümmern. Hatten wir schon mal und muß nicht wieder sein. Dann doch lieber die nächste übermotivierte Frau, die den ganzen Herren erklärt, wo&rsquo;s langgeht.</p>
+<p>&ldquo;Das Liede der Wächter&rdquo; basiert auf einer interessanten Idee und es ist schön, daß endlich auch mal im beschaulichen Ländle was Spannendes passiert, statt immer nur in den USA. Leider reicht die Hintergrundgeschichte aber nicht aus, um die unglaubwürdige Welt oder den denkbefreiten Protagonisten zu kompensieren. Daß viele Puzzleteile der Geschichte sich immer wieder per Zufall zusammenfügen, macht das Lesen auch nicht spannender.</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/cd">CD</a> <span class="genericon icon-tag"></span><a href="/tag/elida-almeida">Elida Almeida</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/das-lied-der-w%C3%A4chter">Das Lied der Wächter</a> <span class="genericon icon-tag"></span><a href="/tag/thomas-erle">Thomas Erle</a></div>
 
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
@@ -332,11 +339,11 @@ Dies ist eine Erweiterung zu den Beiträgen &ldquo;<a href="/technik/betriebssys
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/232/" class="page-numbers">232</a>
+	<a href="/page/234/" class="page-numbers">234</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav><script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#gallery-nevermore-2005-06-25-bildergalerie');});
+		baguetteBox.run('#gallery-saga-2005-12-09-bildergalerie');});
 </script>
 		</div></div>
 
