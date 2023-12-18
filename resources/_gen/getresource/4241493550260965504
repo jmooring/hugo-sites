@@ -1,75 +1,98 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 40971
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 06 Dec 2023 16:30:46 GMT
-Etag: "693a27e847cc7bd08e1d08a77ee2447a-ssl-df"
+Date: Mon, 18 Dec 2023 19:32:01 GMT
+Etag: "773d118a4556290984c85d654e4ab6ac-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HGZZFCC9NMSTXHXZ7CXP0BZZ
+X-Nf-Request-Id: 01HHZ6KWEY5ZYXJJGP0M02JCPD
 
 <!DOCTYPE html>
+<!-- 
+----------------------------------------
+A MAZE. / BERLIN 2024
+
+13th International
+Games and Playful
+Media Festival
+
+May 8–11, 2024
+----------------------------------------
+Welcome to the magical land of HTML! 
+Feel free to explore, but watch out 
+for the semicolons—they can be mischievous. 
+----------------------------------------
+Website development by: 
+Daniel F. Wehleit
+1XN.org
+----------------------------------------
+Color Palette 
+------------------------------------
+608C22 green 96 140 34
+E38ACC pink 227 138 204
+FFFFFF white 255 255 255
+000000 black 0 0 0
+----------------------------------------
+-->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>A MAZE. / BERLIN 2024</title>
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
-    <script>
-    let points = [];
+<script>
+let points = [];
 let position = {x: 0, y: 0};
 let prevPosition = {x: 0, y: 0};
-
-function setup(){
-  createCanvas(windowWidth, windowHeight)
-}
-
+function setup(){createCanvas(windowWidth, windowHeight)}
 function draw(){
-  background(0,0,0);
-  
-  noStroke();
-  fill(237,188,215);
-  
-  let dx = mouseX - pmouseX;
-  let dy = mouseY - pmouseY;
-  
+  background(96, 140, 34);noStroke();fill(227, 138, 204);
+  let dx = mouseX - pmouseX;let dy = mouseY - pmouseY;
   if(dx || dy){
     position = {x: mouseX, y: mouseY};
-    
-    if(points.length >= 50){
-      points.splice(0, 1);
-    }
-    
+    if(points.length >= 150){points.splice(0, 1);}
     points.push(position);
   }
-  
-  points.forEach(point => {
-    ellipse(point.x, point.y, 50,50)
-  });
+  points.forEach(point => {ellipse(point.x, point.y, 150,150)});
 }
-    </script>
-
+</script>
 
 <style>
+html *
+{
+   font-size: 1.1em !important;
+
+   color: #000000 !important;
+   padding-bottom: 0px; 
+   font-family: Helvetica,Arial,Sans-Serif !important;
+}
+      h1 { color: #000000 !important; font-size: 96px!important; line-height:80px; letter-spacing: -4px; padding-bottom:30px; padding-top: 10px }
+      h2 { color: #000000 !important; font-size: 36px!important;line-height:32px; letter-spacing: -1px; padding-bottom:30px;}
+      h3 { color: #000000 !important; font-size: 28px!important; }
+      h4 { color: #000000 !important; font-size: 24px!important;padding-bottom:30px; }
+      h5  { color: #000000 !important; font-size: 18px!important; }
+ 
+
   *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
 
 html, body{
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #608C22;
+  color: #608C22;
 }
 
 canvas{
@@ -100,50 +123,24 @@ header{
   padding: 2rem 5vw;
   background-color: transparent;
 }
-
-
-
-
-</style>
-
-
-
-
-
-    <style>
-
-
-      html *
-{
-   font-size: 1em !important;
-   color: #fff !important;
-   padding-bottom: 20px; 
-
-
-
-   font-family: Helvetica,Arial,Sans-Serif !important;
+a:hover {
+  color: white!important;
 }
-      h1 { color: #fff !important; font-size: 48px!important; }
-      h2 { color: #888 !important; font-size: 32px!important; }
-      h3 { color: #f53793 !important; font-size: 28px!important; }
-      h4 { color: #fff !important; font-size: 24px!important; }
-      h5  { color: #fff !important; font-size: 18px!important; }
-      a.tickets { color: #f53793 !important; font-size: 18px!important; }
-      
-    </style>
+</style>
     <div class="wrapper">
-
     <h1>A MAZE. / BERLIN 2024</h1>
-    <h2>13th International Games and Playful Media Festival</h2>
-    <h3>May 8–11, 2024</h3>
-    <h4>
+    <h2>13th International<br> Games and Playful<br> Media Festival</h2>
+    <h2>May 8–11, 2024</h2>
+
+    <h4><a href="https://award.amaze-berlin.de" class="tickets" style="text-decoration: none!important; color:white"> 
+      Award Submission →</a><br>  <a href="https://eventix.shop/antaj2uu" style="text-decoration: none!important; ">Tickets 2024 →</a></h4> <br>
+
+  <h4>
       A MAZE. / Berlin is the annual arthouse games and playful media festival. A MAZE. / Berlin invites the globally diverse experimental and independent games and playful media scene to also explore the works 
 of worldbuilders, digital artists, hybrid performers, virtual musicians, immersive theater and more playful creatives to Berlin: with the goal to connect, to present and experience other works at the most inspiring festival on that behalf including talks, conversations, playformances and workshops – we are celebrating the new wave of video games making.
       </h4>
-      <h5><a href="https://2023.amaze-berlin.de/award-winners/">Winners 2023</a> | <a href="https://flic.kr/s/aHBqjAEGzE">Photos</a> | <a href="https://discord.gg/x8qCMRP">Discord</a> | <a href="http://twitter.com/amazefest">Twitter</a> | <a href="https://www.instagram.com/a_mazefest/">Instagram</a> | <a href="http://facebook.com/amaze.festival">Facebook</a> | <a href="https://www.youtube.com/watch?v=EfHuVG5Ni0o&list=PLvSKdwnUiTqWPqFF5nytTGDQNmcEzRz5u">Youtube</a> | <a href="https://eventix.shop/antaj2uu" class="tickets">Tickets 2024</a> 
-    </h5>
-
-
+     <a href="https://2023.amaze-berlin.de/award-winners/">Winners 2023</a> | <a href="https://flic.kr/s/aHBqjAEGzE">Photos</a> | <a href="https://discord.gg/x8qCMRP">Discord</a> | <a href="http://twitter.com/amazefest">Twitter</a> | <a href="https://www.instagram.com/a_mazefest/">Instagram</a> | <a href="http://facebook.com/amaze.festival">Facebook</a> | <a href="https://www.youtube.com/watch?v=EfHuVG5Ni0o&list=PLvSKdwnUiTqWPqFF5nytTGDQNmcEzRz5u">Youtube</a>
+   
     </div>
   </body>
 </html>

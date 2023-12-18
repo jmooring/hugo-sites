@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 439
+Age: 329287
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Wed, 06 Dec 2023 16:30:53 GMT
-Etag: W/"b144a01af40efc9e36c50de216c3a9d6"
+Date: Mon, 18 Dec 2023 19:32:10 GMT
+Etag: W/"951a0817c34acf559c7f2a148a603e7b"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
+X-Vercel-Id: pdx1::9vndw-1702927930424-b698cd9c2cc7
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -236,6 +236,35 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 
 
+
+
+<nav class="navbar is-flex is-black pt-3" role="navigation" aria-label="main navigation">
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            
+            <a  class="content ml-6  has-text-white" href="/get-started/">Get Started</a>
+            
+            <a  class="content ml-6  has-text-white" href="/products/">Products</a>
+            
+            <a  class="content ml-6  has-text-white" href="/platforms/">Platforms</a>
+            
+            <a  class="content ml-6  has-text-white" href="/add-ons/">Add-Ons</a>
+            
+            <a  class="content ml-6  has-text-white" href="/fraud/">Fraud &amp; Risk</a>
+            
+            <a  class="content ml-6  has-text-white" href="/financials/">Financials</a>
+            
+            <a  class="content ml-6  has-text-white" href="/dashboard/">Dashboard</a>
+            
+            <a  class="content ml-6  has-text-white" href="/integrations/">Integrations</a>
+            
+            <a  class="content ml-6  has-text-white" href="/developers/">Developer Resources</a>
+            
+        </div>
+    </div>
+</nav>
+
+
     
   
     <section><style>
@@ -290,42 +319,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -364,7 +416,7 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #E6FF00;"><img src="/images/brand/person.png"/></div>
+        <div class="category-box" style="background-color: #FF4F50;"><img src="/images/brand/person.png"/></div>
 
         <div class="title is-5 merchant-titles get-started">
             <a class="is-link merchant-title-links" href="/get-started/"><p class="merchant-title-text">Get Started</p></a>
@@ -378,11 +430,15 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/create-account/">Create a Merchant Account</a>
+            <a class="is-link" href="/get-started/before-checkout/">Before Checkout</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/dashboard/">Merchant Dashboard Tour</a>
+            <a class="is-link" href="/get-started/during-checkout/">During Checkout</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/get-started/after-checkout/">After Checkout</a>
         </p>
         
     </div>
@@ -413,42 +469,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -487,10 +566,10 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #71B5FF;"><img src="/images/brand/bolt-light.png"/></div>
+        <div class="category-box" style="background-color: #FF7D7D;"><img src="/images/brand/bolt-light.png"/></div>
 
         <div class="title is-5 merchant-titles products">
-            <a class="is-link merchant-title-links" href="/products/"><p class="merchant-title-text">Core Products</p></a>
+            <a class="is-link merchant-title-links" href="/products/"><p class="merchant-title-text">Products</p></a>
         </div>
 </div>
     <p class="content is-italic is-small">Set up your custom or cart-based checkout with Checkout or Accounts configurations.</p>
@@ -534,42 +613,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -608,7 +710,157 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #7DDB8B;"><img src="/images/brand/ear.png"/></div>
+        <div class="category-box" style="background-color: #FF76F2;"><img src="/images/brand/cart.png"/></div>
+
+        <div class="title is-5 merchant-titles platforms">
+            <a class="is-link merchant-title-links" href="/platforms/"><p class="merchant-title-text">Platforms</p></a>
+        </div>
+</div>
+    <p class="content is-italic is-small">Take Bolt&#39;s product stack to your own plaform with our suite of platforms and plugins support.</p>
+    <div class="mb-1 mt-0">
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/platforms/adobe/">Adobe Commerce</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/platforms/bigcommerce/">BigCommerce</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/platforms/magento-1/">Magento 1</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/platforms/miva/">Miva</a>
+        </p>
+        
+    </div>
+    
+    <p class="is-link merchant-articles mt-3 content is-small"><a href="/platforms/">See more</a></p>
+    
+</div>
+
+<style>
+    .merchant-titles p {
+        font-weight: 700;
+        color: black !important;
+    }
+
+    .merchant-titles {
+        padding-left: 0.5em;
+        padding-right: .5em;
+    }
+
+
+    .merchant-articles a {
+        color: black;
+        list-style: none;
+    }
+
+    .merchant-articles a:hover {
+        text-decoration: underline;
+    }
+
+    .get-started:hover {
+        background-color: #FF4F50 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .products:hover {
+        background-color: #FF7D7D !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
+        background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .merchant-titles p:hover {
+        transform: skewX(20deg) !important;
+    }
+
+
+    .box {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .category-box {
+        transform: skewX(-20deg) !important;
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 0.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .category-box img {
+        transform: skewX(20deg) !important;
+        height: .8em;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        margin: auto;
+    }
+    
+</style>
+
+<div class="column box is-one-quarter m-3">
+    <div class="columns mt-1">
+        <div class="category-box" style="background-color: #FF9AF1;"><img src="/images/brand/ear.png"/></div>
 
         <div class="title is-5 merchant-titles add-ons">
             <a class="is-link merchant-title-links" href="/add-ons/"><p class="merchant-title-text">Add-On Products</p></a>
@@ -627,6 +879,10 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
         
         <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/add-ons/bolt-payments/">Bolt Payments</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/add-ons/checkout-links/">Checkout Links</a>
         </p>
         
     </div>
@@ -657,42 +913,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -731,30 +1010,334 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #FF7D7D;"><img src="/images/brand/toggle.png"/></div>
+        <div class="category-box" style="background-color: #9A4EFF;"><img src="/images/brand/secure.png"/></div>
 
-        <div class="title is-5 merchant-titles operations">
-            <a class="is-link merchant-title-links" href="/operations/"><p class="merchant-title-text">Operations</p></a>
+        <div class="title is-5 merchant-titles fraud">
+            <a class="is-link merchant-title-links" href="/fraud/"><p class="merchant-title-text">Fraud &amp; Risk</p></a>
+        </div>
+</div>
+    <p class="content is-italic is-small">Learn how to protect your business from fraud and manage risk.</p>
+    <div class="mb-1 mt-0">
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/fraud/disputes/">Chargebacks &amp; Disputes</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/fraud/merchant-ip-addresses/">Add IP Addresses</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/fraud/force-approve-orders/">Force-Approve Orders</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/fraud/edit-allowlist/">Manage Allowlist</a>
+        </p>
+        
+    </div>
+    
+    <p class="is-link merchant-articles mt-3 content is-small"><a href="/fraud/">See more</a></p>
+    
+</div>
+
+<style>
+    .merchant-titles p {
+        font-weight: 700;
+        color: black !important;
+    }
+
+    .merchant-titles {
+        padding-left: 0.5em;
+        padding-right: .5em;
+    }
+
+
+    .merchant-articles a {
+        color: black;
+        list-style: none;
+    }
+
+    .merchant-articles a:hover {
+        text-decoration: underline;
+    }
+
+    .get-started:hover {
+        background-color: #FF4F50 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .products:hover {
+        background-color: #FF7D7D !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
+        background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .merchant-titles p:hover {
+        transform: skewX(20deg) !important;
+    }
+
+
+    .box {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .category-box {
+        transform: skewX(-20deg) !important;
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 0.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .category-box img {
+        transform: skewX(20deg) !important;
+        height: .8em;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        margin: auto;
+    }
+    
+</style>
+
+<div class="column box is-one-quarter m-3">
+    <div class="columns mt-1">
+        <div class="category-box" style="background-color: #B688FF;"><img src="/images/brand/payment.png"/></div>
+
+        <div class="title is-5 merchant-titles financials">
+            <a class="is-link merchant-title-links" href="/financials/"><p class="merchant-title-text">Financials</p></a>
+        </div>
+</div>
+    <p class="content is-italic is-small">Learn about how to fund your account, export statements, and Bolt&#39;s payout schedule.</p>
+    <div class="mb-1 mt-0">
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/financials/statements/">Access Statements</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/financials/auth-and-capture/">Authorization &amp; Capture</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/financials/export-bank-transfer-statements/">Export Bank Transfers</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/financials/export-transaction-events/">Export Transaction Events</a>
+        </p>
+        
+    </div>
+    
+    <p class="is-link merchant-articles mt-3 content is-small"><a href="/financials/">See more</a></p>
+    
+</div>
+
+<style>
+    .merchant-titles p {
+        font-weight: 700;
+        color: black !important;
+    }
+
+    .merchant-titles {
+        padding-left: 0.5em;
+        padding-right: .5em;
+    }
+
+
+    .merchant-articles a {
+        color: black;
+        list-style: none;
+    }
+
+    .merchant-articles a:hover {
+        text-decoration: underline;
+    }
+
+    .get-started:hover {
+        background-color: #FF4F50 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .products:hover {
+        background-color: #FF7D7D !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
+        background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .merchant-titles p:hover {
+        transform: skewX(20deg) !important;
+    }
+
+
+    .box {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    .category-box {
+        transform: skewX(-20deg) !important;
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 0.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .category-box img {
+        transform: skewX(20deg) !important;
+        height: .8em;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        margin: auto;
+    }
+    
+</style>
+
+<div class="column box is-one-quarter m-3">
+    <div class="columns mt-1">
+        <div class="category-box" style="background-color: #006DFF;"><img src="/images/brand/toggle.png"/></div>
+
+        <div class="title is-5 merchant-titles dashboard">
+            <a class="is-link merchant-title-links" href="/dashboard/"><p class="merchant-title-text">Dashboard</p></a>
         </div>
 </div>
     <p class="content is-italic is-small">Manage transactions, view reports, and complete day-to-day operational tasks in the Bolt Dashboard.</p>
     <div class="mb-1 mt-0">
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/operations/analytics/">Analytics</a>
+            <a class="is-link" href="/dashboard/create-account/">Create a Merchant Account</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/operations/disputes/">Chargebacks &amp; Disputes</a>
+            <a class="is-link" href="/dashboard/dashboard/">Merchant Dashboard Tour</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/operations/buttons/">Checkout Buttons</a>
+            <a class="is-link" href="/dashboard/account/">Account</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/dashboard/analytics/">Analytics</a>
         </p>
         
     </div>
     
-    <p class="is-link merchant-articles mt-3 content is-small"><a href="/operations/">See more</a></p>
+    <p class="is-link merchant-articles mt-3 content is-small"><a href="/dashboard/">See more</a></p>
     
 </div>
 
@@ -780,42 +1363,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -854,30 +1460,34 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #B688FF;"><img src="/images/brand/cart.png"/></div>
+        <div class="category-box" style="background-color: #71B5FF;"><img src="/images/brand/sync.png"/></div>
 
-        <div class="title is-5 merchant-titles third-party-connectors">
-            <a class="is-link merchant-title-links" href="/connectors/"><p class="merchant-title-text">Third-Party Connectors</p></a>
+        <div class="title is-5 merchant-titles integrations">
+            <a class="is-link merchant-title-links" href="/integrations/"><p class="merchant-title-text">Integrations</p></a>
         </div>
 </div>
     <p class="content is-italic is-small">Connect Bolt with your existing commerce stack, including ERPs, analytics, and more.</p>
     <div class="mb-1 mt-0">
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/connectors/3ds2/">3D Secure 2.0 (3DS2) Integrations</a>
+            <a class="is-link" href="/integrations/3ds2/">3D Secure 2.0 (3DS2) Integrations</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/connectors/alternative-payments/">Alternative Payment Methods</a>
+            <a class="is-link" href="/integrations/alternative-payments/">Alternative Payment Methods</a>
         </p>
         
         <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/connectors/enterprise-resource-planning/">Enterprise Resource Planning</a>
+            <a class="is-link" href="/integrations/enterprise-resource-planning/">Enterprise Resource Planning</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/integrations/marketing-and-communications/">Marketing &amp; Communications</a>
         </p>
         
     </div>
     
-    <p class="is-link merchant-articles mt-3 content is-small"><a href="/connectors/">See more</a></p>
+    <p class="is-link merchant-articles mt-3 content is-small"><a href="/integrations/">See more</a></p>
     
 </div>
 
@@ -903,42 +1513,65 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
     }
 
     .get-started:hover {
-        background-color: #E6FF00 !important;
+        background-color: #FF4F50 !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
     .products:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .add-ons:hover {
-        background-color: #7DDB8B !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .third-party-connectors:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .operations:hover {
         background-color: #FF7D7D !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
     }
 
-    .apis-sdks-webhooks:hover {
+    .platforms:hover {
+        background-color: #FF76F2 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .add-ons:hover {
         background-color: #FF9AF1 !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .fraud:hover {
+        background-color: #9A4EFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .financials:hover {
+        background-color: #B688FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .dashboard:hover {
+        background-color: #006DFF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+
+    .integrations:hover {
+        background-color: #71B5FF !important;
+        transform: skewX(-20deg) !important;
+        transition: background-color 0.5s linear; 
+
+    }
+
+    .apis-sdks-webhooks:hover {
+        background-color: #00C42E !important;
         transform: skewX(-20deg) !important;
         transition: background-color 0.5s linear; 
 
@@ -977,10 +1610,10 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
 
 <div class="column box is-one-quarter m-3">
     <div class="columns mt-1">
-        <div class="category-box" style="background-color: #FF9AF1;"><img src="/images/brand/gear.png"/></div>
+        <div class="category-box" style="background-color: #00C42E;"><img src="/images/brand/gear.png"/></div>
 
         <div class="title is-5 merchant-titles apis-sdks-webhooks">
-            <a class="is-link merchant-title-links" href="/developers/"><p class="merchant-title-text">APIs, SDKs, &amp; Webhooks</p></a>
+            <a class="is-link merchant-title-links" href="/developers/"><p class="merchant-title-text">Developer Resources</p></a>
         </div>
 </div>
     <p class="content is-italic is-small">Implement Bolt&#39;s APIs, Webhooks, and SDKs; or, reference other helpful documentation for developers.</p>
@@ -996,6 +1629,10 @@ X-Vercel-Id: pdx1::vhv46-1701880253514-adde2c947dbd
         
         <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/developers/apis/">APIs</a>
+        </p>
+        
+        <p class="pl-0 merchant-articles" >
+            <a class="is-link" href="/developers/error-codes/">Error Codes</a>
         </p>
         
     </div>

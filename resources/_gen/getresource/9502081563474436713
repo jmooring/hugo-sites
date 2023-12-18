@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 438
+Age: 0
 Content-Type: text/html
-Date: Wed, 06 Dec 2023 16:30:56 GMT
-Etag: "5bab-60bd754edaac0-gzip"
-Last-Modified: Wed, 06 Dec 2023 13:28:51 GMT
+Date: Mon, 18 Dec 2023 19:32:13 GMT
+Etag: "5b68-60ccdbbcf06c0-gzip"
+Last-Modified: Mon, 18 Dec 2023 19:26:59 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
+X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300059-BFI
-X-Timer: S1701880257.753881,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400091-BFI
+X-Timer: S1702927933.324973,VS0,VE89
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1701880257.753881,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-11-27T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2023-12-11T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -36,7 +36,7 @@ X-Timer: S1701880257.753881,VS0,VE1
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Open source software information, blogs, events, downloads and support">
   <meta name="author" content="Internet Systems Consortium">
-  <meta name="generator" content="Hugo 0.83.1" />
+  <meta name="generator" content="Hugo 0.121.1">
 
   
   <script>
@@ -375,13 +375,28 @@ X-Timer: S1701880257.753881,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/net.jpg" 
+            onerror="this.onerror = null; this.src='\/Blue net'"  />
+          <div class="post-content">
+            <a href="/blogs/2023-happy-holidays-from-isc/">
+              <h4 class="text-white">Happy holidays from ISC!</h4>
+            </a>
+            <p class="text-white">As always, this year has had its ups and downs, but 2023 has been a predominantly good year for ISC and we hope it has been for you as well.</p>
+            <a href="/blogs/2023-happy-holidays-from-isc/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/static-images-event.jpg" 
             onerror="this.onerror = null; this.src='\/Open laptop on blue background'"  />
           <div class="post-content">
             <a href="/blogs/2023-12-13-stork-webinar/">
               <h4 class="text-white">December Webinar: Kea Configuration with Stork</h4>
             </a>
-            <p class="text-white">Kea Configuration with Stork Stork is an open source project, providing a graphical interface for monitoring, and now also configuring, Kea DHCP servers.</p>
+            <p class="text-white">Kea Configuration with Stork Stork is an open source project that provides a graphical interface for monitoring, and now also configuring, Kea DHCP servers.</p>
             <a href="/blogs/2023-12-13-stork-webinar/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
@@ -413,21 +428,6 @@ X-Timer: S1701880257.753881,VS0,VE1
             </a>
             <p class="text-white">Stork 1.13 is the newest development release of our management tool for the Kea DHCP server.</p>
             <a href="/blogs/stork-1-13/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/bind-performance-september-2023/">
-              <h4 class="text-white">Comparative Performance Results of BIND Versions in Authoritative Configurations - September 2023</h4>
-            </a>
-            <p class="text-white">We are only one quarter away from producing the next stable branch of BIND, and from ending maintenance of BIND 9.</p>
-            <a href="/blogs/bind-performance-september-2023/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

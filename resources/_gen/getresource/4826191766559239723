@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8315ea4bcc763072-SEA
+Cf-Ray: 8379d4484b4a3078-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Wed, 06 Dec 2023 16:30:45 GMT
-Last-Modified: Wed, 06 Dec 2023 15:37:24 GMT
+Date: Mon, 18 Dec 2023 19:31:59 GMT
+Last-Modified: Mon, 18 Dec 2023 17:15:00 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=y7JpxnmIgJsjwWHn.Bf3i3zCGWTtTtG39ZqOKarGRFQ-1701880245-0-AbQ2d+oMuiBO2u8NogQnxSI/3TLpK4HotVt9hfTE7bjphWKGCILuqDbB59r1wx6GRXQNzjnW1SbTwBqKeB7N9Ug=; path=/; expires=Wed, 06-Dec-23 17:00:45 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=FIn6e.OurpEXd10bx0dfS3KqVsJnnwx6XHrkpm6U0dg-1701880245-0-AZINAoiklEv3aorHod7L0WG3ULPOTrDmfs7+lDLjJj8C71vHBJGLeUrizKdHVKYk4+HwE6KYg+cKJ17/o0KQ+1Wu2iTpU7YEVKIJKvHfBeEV; path=/; expires=Wed, 06-Dec-23 17:00:45 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=00vFYQVA7OA70vxReP2BvXZNSQfTWGSI.MBdjQ3Lb40-1702927919-1-AVy1KHl8P1p/Mtp7bA7/yfxgdTFz1Anp4ppZ9sIAUJ+nJ7cgnH/kQWp+lYsjaVPMJ90h85Fav27gI5wPW84ZPlI=; path=/; expires=Mon, 18-Dec-23 20:01:59 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=PgCDmP2OlKd2s5fM7zLr.JfhZY8wOmJ3aqcsGuRKVuQ-1702927919-1-AbneHmH5zY2HpdUTaLYymnvD1sZALEYuqKGaIsuryMfhQJZPR1lzVaffjUWcz8v8O+zc9fW9KDHiPtzVwhHoP5JgscXEYRcGCeu8cESDvr0f; path=/; expires=Mon, 18-Dec-23 20:01:59 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
@@ -64,7 +64,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.f383ac628cf215a72246789f249ae2bd2587c75da93e9f32ddb299b9bf4c6ec2.css">
+<link rel="stylesheet" href="/main.min.393e4cb854dbcd06afcb15b4dd9eae42017d8982f4b81805e759239760086b07.css">
 
 </head>
 
@@ -308,21 +308,17 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="4-december-2023">4 December 2023</h3>
+<h3 id="8-december-2023">8 December 2023</h3>
+<ul><li>
+            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.101.0">v1.101.0 of doctl</a>, the official DigitalOcean CLI. This release adds support for scalable storage for PostgreSQL and MySQL databases and Kafka topic management.</p>
+        </li></ul><h3 id="5-december-2023">5 December 2023</h3>
+<ul><li>
+            <p>Fedora 37 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is now only available via the API. We will remove the Fedora 37 image from our platform in 30 days.</p>
+        </li></ul><h3 id="4-december-2023">4 December 2023</h3>
 <ul><li>
             <p><p>You can now add additional storage independently from your chosen database configuration plan when creating or resizing Kafka clusters on DigitalOcean. This provides a more economic option for increasing storage, rather than upgrading your cluster&rsquo;s entire plan.</p>
 <p>For more details, see our guides on how to <a href="/products/databases/kafka/how-to/resize/">resize Kafka clusters</a>.</p>
 </p>
-        </li></ul><h3 id="27-november-2023">27 November 2023</h3>
-<ul><li>
-            <p>The <a href="https://docs.fedoraproject.org/en-US/fedora/f39/release-notes/">Fedora 39</a> (<code>fedora-39-x64</code>) base image is now available in the control panel and via the API.</p>
-        </li></ul><h3 id="21-november-2023">21 November 2023</h3>
-<ul><li>
-            <p><p>SnapShooter <em>Server File</em> backup jobs now have an <em>Include Git Repos?</em> option to fully back up Git repos and their historical metadata. Without this option enabled, the files in a Git repo are backed up but the <code>.git</code> metadata directory is ignored.</p>
-<p>See <a href="/products/snapshooter/how-to/back-up-files/">How to Back Up Files with SnapShooter</a> for more information on backing up files with SnapShooter.</p>
-</p>
-        </li><li>
-            <p>Additional Spaces CDN PoPs are now available. For the full list, see <a href="/products/spaces/details/availability/">Spaces availability</a>.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

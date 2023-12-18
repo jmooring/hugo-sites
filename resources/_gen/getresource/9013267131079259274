@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 18153
+Content-Length: 18477
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 06 Dec 2023 16:30:54 GMT
-Etag: "655bb8e2-46e9"
-Last-Modified: Mon, 20 Nov 2023 19:52:02 GMT
+Date: Mon, 18 Dec 2023 19:32:13 GMT
+Etag: "6570df33-482d"
+Last-Modified: Wed, 06 Dec 2023 20:53:07 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000
 
@@ -138,11 +138,14 @@ Strict-Transport-Security: max-age=31536000
             Latest Releases
         </h2>
         <p>
-            pgJDBC has released v42.7.0 on November 20, 2023. This release is mostly a maintenance release but the change
-            in allowing SET statemnts in <a href="https://github.com/pgjdbc/pgjdbc/pull/2973">PR #2973</a> is a breaking
-            change which necessitates the major version change.
+            pgJDBC has released v42.7.1 on December 06, 2023. This release primarily fixes 2 regressions <a href="https://github.com/pgjdbc/pgjdbc/issues/3007">SET followed by SHOW in one statement returns wrong result</a>
+            and <a href="https://github.com/pgjdbc/pgjdbc/issues/3008">Server default DateStyle is being overwritten</a>. Notably improved blob performance as well as a number of small changes See notes below for details.
         </p>
         <ul role="list">
+            
+            <li role="listitem">
+                <strong>42.7.1</strong> · 06 December 2023 · <a href="/changelogs/2023-12-06-42.7.1-release/">Notes</a>
+            </li>
             
             <li role="listitem">
                 <strong>42.7.0</strong> · 20 November 2023 · <a href="/changelogs/2023-11-20-42.7.0-release/">Notes</a>

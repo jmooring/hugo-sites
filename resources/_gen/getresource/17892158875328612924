@@ -3,15 +3,15 @@ Accept-Ranges: bytes
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 06 Dec 2023 16:30:59 GMT
-Etag: "03e72b54760117ab41c2d1704a705b4f-ssl-df"
+Date: Mon, 18 Dec 2023 19:32:18 GMT
+Etag: "f40855d7ba4cac6631485b612a7bce3a-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=A2C5F1366FD4A42BF706E3A697BBF57D~000000000000000000000000000000~YAAQJaTLF9blQgCMAQAA0+L3PxbZt0jcSKfG+NowWgTptRZ99H3KzbhR+VU8S/yQYnr7pPWiF5Ng6hlNKaP9xpO/uiIj8IJ2GAr1dIY16z5naD4Ti79LgOpyWiNmd/YIQR1pMERIQLx36Sow12xocR5DCgnImjyBFusnPP3IrUciXOfSxVz2xWFurTRIJrE7k4xWx/Bbu21Ivw5PFHJZ8wgErCll8Xo2tXeuKmBplGGajaJBKuHe+wP7eRI1l+hqO6hnRXTO9Maw6EQK4k8MPFEnOT903Vgym5UP+k6uLqP5E1vAxdV1fKv1vClqawBjTo+9dCdbK2m9HnCEMJSLrwX2h7ikBvM3exSQzyUi5pEqpdK8DAbCkcpmTWnl62oKX3njHLgrHS0Z; Domain=.vmware.com; Path=/; Expires=Wed, 06 Dec 2023 18:30:58 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=C5A5126F982372E3C885E28E768FA564~YAAQJaTLF9flQgCMAQAA0+L3Pxa+PnqzoaBMqTNxnDTbJcwwaSNKOhIzzb5YYtZfKAs3/vkySNCLFpeKgU2yZ8YhsN+7gKG3+FJKdgRHRD3KgmpKC1hz5/SUMmJpKeVlJHLan7QDYaxRwu1ww7uVOaH9Mg8tFMxhtNXu266gEqnSVXXesuYM4JiuMF9ZitLpB2Nh1CqP4FAUAHjN5P/cJIlrSRR52dwQ3SuRqzVqwZWaOZA+WoH29B57Flea8etJIUQh7cnUPP52NDvNnkBh/KnD+5PKZB/lxhJmk+Y3w47Ga18SwEBTbSHGlH2AlzGNeY7r/RAijg==~1; Domain=.vmware.com; Path=/; Expires=Wed, 06 Dec 2023 16:30:59 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=19AE53EEFB0253B3DCF8DB65D926F366~000000000000000000000000000000~YAAQlhM2Fzb7z2SMAQAASDRqfhaRtjWbN/0n0R9R8lDoUilxboBGxrx5n8+EzTwqA+GTwrpuFM2xGQqlzgPEwL4z+kNb19B+N28/I9AJ1TuefJrtuvPTvQDum485/MTz5w0Swg0v6dQscdmng7Dhky9WC1EXEM1ai0oHLQPhhD3iAomzRJQDhR3ikEq7gBTK0fpgvd1dirWz2I1q5tH+yBrCVNhSg0x8rXuxlgTsO7lXi/YTs+1bxKUIFVc2v3KkJTJyj8YHUv9XMmiWQ/4KjZdqgqEUmkGrmfVpf8J4x87bu2DQ8oLieDYb5scF/YoRTqbH3vqjlnW7ZZfm5pCwLY3pk2o06N43qRpsgzGR3Toucz5p27x2lWGBWzOEcfTgTZ47VcaEhAm0; Domain=.vmware.com; Path=/; Expires=Mon, 18 Dec 2023 21:32:18 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: bm_mi=FDE8D7D22C0DC3D540A15CD419CA8EB3~YAAQlhM2Fzf7z2SMAQAASDRqfhbKGx8qKB4wpcL+AnLvhobXMpfAifhIbeBKDz/XW63Ct6zASc5pHNw1+4mqdIM55/qo8MpT5JdSVihmvre6u4RrZhsggXmvp1O+eVAAtA+3Gd2giWJHOx1JRQ5slpoSfwljsVO+pGEjOwClcTzSFUevWu0RJcxIGhU1M5Wb/+pJafZIY6BROEqSzSkKK4vzQITDnuJnsC75G0uhayqlYFCqk4QybQysbHpLt7RNyIUvSaXbYUUMhdIK9JErOhmXnOV/0pYTIb+Xkove1MZ9up1QYPPOJKZUpA/0WPzPIgthIqCRVA==~1; Domain=.vmware.com; Path=/; Expires=Mon, 18 Dec 2023 19:32:18 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 13808 0 pmb=mTOE,2
-X-Nf-Request-Id: 01HGZZFRKRV69NFEJX7FHP68M6
+X-Akamai-Transformed: 9 13782 0 pmb=mTOE,2
+X-Nf-Request-Id: 01HHZ6MD0HFHACT5FTT8QTW0MC
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,6 +48,18 @@ function isTvShowLive(showName) {
   episodes = [];
   
     var epInfo = {
+      startTime: new Date("2023-12-15T08:00:00-08:00"),
+      endTime: new Date(new Date("2023-12-15T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/62\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2023-12-12T12:30:00-08:00"),
       endTime: new Date(new Date("2023-12-12T12:30:00-08:00").getTime() + ( 60  * 60000)),
       show: "Spring Office Hours",
@@ -68,30 +80,6 @@ function isTvShowLive(showName) {
 
     
     epInfo["stream"] = "OgyBTbsNIjo";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-11-30T08:00:00-07:00"),
-      endTime: new Date(new Date("2023-11-30T08:00:00-07:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/61\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2023-11-28T11:30:00-08:00"),
-      endTime: new Date(new Date("2023-11-28T11:30:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Spring Office Hours",
-      link: "\/developer\/tv\/spring-office-hours\/0058\/"
-    };
-
-    
-    epInfo["stream"] = "opji4Hue4xM";
     
     episodes.push(epInfo);
   
@@ -318,7 +306,7 @@ function getCookie(name) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="863126407"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/3372414b"  defer></script></head>
+  <script >bazadebezolkohpepadr="863126407"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337241d6"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -979,28 +967,10 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/enlightning/61/">
+    href="/developer/tv/spring-office-hours/0059/">
     <div class="gradient-edge-left"></div>
     <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Cilium Networking, Security and Observability</h4>
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
-            alt="Whitney Lee" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Whitney Lee</p>
-    </div>
-    
-    
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/spring-office-hours/0058/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 58 - Spring Boot 3.2</h4>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 59 - HTTP Interfaces with Olga &amp; Rossen</h4>
     
     
     <div class="mb-2">
@@ -1023,10 +993,28 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/spring-office-hours/0057/">
+    href="/developer/tv/enlightning/61/">
     <div class="gradient-edge-left"></div>
     <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 57 - Spring Academy</h4>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Cilium Networking, Security and Observability</h4>
+    
+    
+    <div class="mb-2">
+        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
+            alt="Whitney Lee" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Whitney Lee</p>
+    </div>
+    
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/spring-office-hours/0058/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 58 - Spring Boot 3.2</h4>
     
     
     <div class="mb-2">
@@ -1450,5 +1438,5 @@ function getCookie(name) {
 
 <script src="/developer/js/main.0265e4d4ac05f3b97e40763a3e0f7152853042c35ae37ebb88dfa8d5166b1b67.js" integrity="sha256-AmXk1KwF87l&#43;QHY6Pg9xUoUwQsNa4367iN&#43;o1RZrG2c=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_3372414b?a=dD04Y2IxZDcwNTlhNmI3MzRmMTdhODc5YmNhODg0NTE3Y2RkODcyOWIyJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337241d6?a=dD04Y2IxZDcwNTlhNmI3MzRmMTdhODc5YmNhODg0NTE3Y2RkODcyOWIyJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

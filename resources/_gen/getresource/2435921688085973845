@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 3390
+Age: 2234
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"656f9dc5-3bfc"
-Last-Modified: Tue, 05 Dec 2023 22:01:41 GMT
+Etag: W/"657f5155-3b75"
+Last-Modified: Sun, 17 Dec 2023 19:51:49 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
@@ -13,7 +13,7 @@ Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 25107692 24406884
+X-Varnish: 531079 754116
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -45,9 +45,6 @@ href="https://www.freebsd.org/opensearch/ports.xml" title=
 <link rel="search" type="application/opensearchdescription+xml"
 href="https://www.freebsd.org/opensearch/message-id.xml" title=
 "FreeBSD M-ID">
-<link rel="search" type="application/opensearchdescription+xml"
-href="https://www.freebsd.org/opensearch/markmail.xml" title=
-"MarkMail FBSD">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@freebsd">
 <meta property="og:title" content="The FreeBSD Project">
@@ -384,6 +381,10 @@ Media</a></div>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-12-12</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:18.nfsclient.asc">
+FreeBSD-SA-23:18.nfsclient</a></p>
 <p><span class="txtdate">2023-12-05</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:17.pf.asc">
@@ -396,10 +397,6 @@ FreeBSD-SA-23:16.cap_net</a></p>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:15.stdio.asc">
 FreeBSD-SA-23:15.stdio</a></p>
-<p><span class="txtdate">2023-10-03</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:14.smccc.asc">
-FreeBSD-SA-23:14.smccc</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=

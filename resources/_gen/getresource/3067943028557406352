@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 432
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8315eabb4b070895-SEA
+Cf-Ray: 8379d4d98d1a6808-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 06 Dec 2023 16:31:03 GMT
-Expires: Tue, 05 Dec 2023 03:02:31 GMT
-Last-Modified: Mon, 04 Dec 2023 09:07:35 GMT
+Date: Mon, 18 Dec 2023 19:32:22 GMT
+Expires: Mon, 18 Dec 2023 09:02:02 GMT
+Last-Modified: Mon, 18 Dec 2023 08:33:56 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XaWp7foa32m6f5ATFikwmUS9sDocE%2B8F14eYGYDOp5CpEJTBUb%2FBYe0e1qTy2EZ3zHYSR7r%2B5p1G%2FTwZMf3fFjwU%2FvIfl3UfqLCO9YyZ4nufitE7gsjQ8qmI5rA%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SigPt8ZDU7lPAcBbfTZvV4lT%2FFvqjtHHQ5K1sLxqnnwobSoVNdQ9LkdF37vp%2BK8989KtwSWRTpuBxFd2ySi8OjoVQHYMKYecbiYtp3xxXL%2FZMwACQ%2FP0MCMFQwo%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
@@ -18,11 +18,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: e61d722e78a3809b4f6a202cb3f6c6dff59a47d8
-X-Github-Request-Id: F2F4:35F1:1AB48B:1DD483:656E906F
+X-Fastly-Request-Id: d55f1da6b2ce8c54695802946c275b862586577a
+X-Github-Request-Id: 1F88:9769:A26EAC:C3140B:65800832
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770061-PAO
-X-Timer: S1701880263.008061,VS0,VE2
+X-Served-By: cache-pao-kpao1770058-PAO
+X-Timer: S1702927943.712149,VS0,VE85
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +34,10 @@ X-Timer: S1701880263.008061,VS0,VE2
   <meta property="og:title" content="Servo, the embeddable, independent, memory-safe, modular, parallel web rendering engine">
   
 
-  <meta name="description" content="Servo is an independent, modular, embeddable web rendering engine written in Rust">
+  
+  <meta name="description" content="Servo is a web rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications.">
+  <meta property="og:description" content="Servo is a web rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications.">
+  
   <meta name="keywords" content="servo, servo engine, servo rendering engine, web engine, web rendering engine, web browser, web browser engine, rust">
   <meta name="author" content="The Servo Project Developers">
 
@@ -43,7 +46,6 @@ X-Timer: S1701880263.008061,VS0,VE2
   <meta property="og:image" content="/img/servo-color-positive.png">
   <meta property="og:image:alt" content="Servo logo">
   <meta property="og:logo" content="/img/servo-symbol-color-no-container.png">
-  <meta property="og:description" content="Servo is a web rendering engine written in Rust, with WebGL and WebGPU support, and adaptable to desktop, mobile, and embedded applications.">
   <meta property="og:url" content="/">
 
   <link rel="stylesheet" href="/css/style.css">
@@ -227,6 +229,15 @@ X-Timer: S1701880263.008061,VS0,VE2
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
+              <span class="tag is-light">2023-12-18</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/12/18/this-year-in-servo/">This year in Servo: over 1000 pull requests and beyond</a></strong></big></p>
+              <p>Reflections on Servo’s progress in 2023: contributor stats, new features, layout improvements, WPT pass rates, and plans for next year.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
               <span class="tag is-light">2023-11-30</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/11/30/embedding-floats-color-mix/">This month in Servo: better floats, color-mix(), try job labels, and more!</a></strong></big></p>
               <p>Sneak peek into our embedding effort, changes to pull requests, plus nightly updates to browser UI, floats, inline layout, CSS, and tooling.</p>
@@ -251,15 +262,6 @@ X-Timer: S1701880263.008061,VS0,VE2
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2023-09-15</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/09/15/upcoming-events-and-new-browser-ui/">This month in Servo: upcoming events, new browser UI, and more!</a></strong></big></p>
-              <p>Conferences and booths you can find us at in September, plus nightly updates around rustls, WebGPU, ARM32, floats, white-space, crash handling, and browser UI.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -281,7 +283,7 @@ X-Timer: S1701880263.008061,VS0,VE2
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#ed84838b82ad9e889f9b82c3829f8a"><span class="__cf_email__" data-cfemail="3f565159507f4c5a4d495011504d58">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#4920272f26093a2c3b3f2667263b2e"><span class="__cf_email__" data-cfemail="ed84838b82ad9e889f9b82c3829f8a">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -342,7 +344,7 @@ X-Timer: S1701880263.008061,VS0,VE2
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#8de4e3ebe2cdfee8fffbe2a3e2ffea"><span class="__cf_email__" data-cfemail="2940474f46695a4c5b5f4607465b4e">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#b4dddad2dbf4c7d1c6c2db9adbc6d3"><span class="__cf_email__" data-cfemail="a8c1c6cec7e8dbcddadec786c7dacf">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,
