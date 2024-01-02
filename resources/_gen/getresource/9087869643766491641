@@ -1,31 +1,30 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 55500
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=stale
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8379d44b68536a17-SEA
+Cf-Ray: 83f420f6ef8fc60a-SEA
 Content-Security-Policy: default-src 'none'; base-uri 'self'; form-action 'self'; connect-src 'self' https://api.github.com; font-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self';
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Dec 2023 19:31:59 GMT
-Etag: "747e568fd28e0fd0b29e4a5766c002da-ssl-df"
-Expect-Ct: max-age=86400, enforce
+Date: Tue, 02 Jan 2024 15:45:23 GMT
+Etag: "66077c0e01677976c16aa3f5dad9aff6-ssl-df"
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Referrer-Policy: same-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MecyEuoQZc5kO2%2BxnTnVQftz%2FjWfX91wGOp1yHScap7hJmkAixNURvs%2Fsp2cmnz%2BSatbZxR8dGyRHtli0ci5a%2BlepJsIcwh6U4Uf%2FoVwV%2FtY0FhzxthSuTTOYNgDyQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P822J2eFoeruJyfSnA7s30BiD%2Be%2BmDGExWKZ75WeHB5u2pihLP9iORTjhlOlMPu9w%2FRfoK0e6I6mWTBuc3wRZNGhloUP1CyBhqZBtFgQYRd7IUZbfZRVAnBRsJct4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-Nf-Request-Id: 01HHZ6KTSHC0ZTW7VZAN7ZMAK5
+X-Frame-Options: DENY
+X-Nf-Request-Id: 01HK5DKNKH165EGP58JPKD5KEB
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.109.0">
+	<meta name="generator" content="Hugo 0.121.1">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -53,13 +52,17 @@ X-Xss-Protection: 1; mode=block
   <meta property="og:image" content="https://azuriom.com/assets/img/logo.png">
   
   <link rel="alternate" hreflang="fr" href="https://azuriom.com/fr/">
+  <link rel="alternate" hreflang="cs" href="https://azuriom.com/cs/">
   <link rel="alternate" hreflang="en" href="https://azuriom.com/en/">
   <link rel="alternate" hreflang="pt-br" href="https://azuriom.com/pt-br/">
+  <link rel="alternate" hreflang="de" href="https://azuriom.com/de/">
+  <link rel="alternate" hreflang="ru" href="https://azuriom.com/ru/">
+  <link rel="alternate" hreflang="uk" href="https://azuriom.com/uk/">
   <link rel="alternate" hreflang="x-default" href="https://azuriom.com/">
     
   
-  <script src="https://azuriom.com/assets/js/app.min.2b21cfb7878edb8e58bf9c69c71a3e39.js" defer></script>
-  <link rel="stylesheet" href="https://azuriom.com/assets/css/app.min.ef10ba0709b87c0012833898c1dde794.css"></head>
+  <script src="https://azuriom.com/assets/js/app.min.d4d1f56e04f3ae4f2091268fa97867b5.js" defer></script>
+  <link rel="stylesheet" href="https://azuriom.com/assets/css/app.min.f6f2e91d1d8da2ae863d209b22406186.css"></head>
 <body>
 
 
@@ -213,6 +216,11 @@ X-Xss-Protection: 1; mode=block
                             Français
                         </a>
                         
+                        <a class="dropdown-item" data-locale="cs" href="https://azuriom.com/cs/">
+                            <img src="https://azuriom.com/assets/svg/country/cz.svg" class="svg" alt="Čeština">
+                            Čeština
+                        </a>
+                        
                         <a class="dropdown-item" data-locale="en" href="https://azuriom.com/en/">
                             <img src="https://azuriom.com/assets/svg/country/us.svg" class="svg" alt="English">
                             English
@@ -221,6 +229,21 @@ X-Xss-Protection: 1; mode=block
                         <a class="dropdown-item" data-locale="pt-br" href="https://azuriom.com/pt-br/">
                             <img src="https://azuriom.com/assets/svg/country/br.svg" class="svg" alt="Português do Brasil">
                             Português do Brasil
+                        </a>
+                        
+                        <a class="dropdown-item" data-locale="de" href="https://azuriom.com/de/">
+                            <img src="https://azuriom.com/assets/svg/country/de.svg" class="svg" alt="Deutsch">
+                            Deutsch
+                        </a>
+                        
+                        <a class="dropdown-item" data-locale="ru" href="https://azuriom.com/ru/">
+                            <img src="https://azuriom.com/assets/svg/country/ru.svg" class="svg" alt="Русский">
+                            Русский
+                        </a>
+                        
+                        <a class="dropdown-item" data-locale="uk" href="https://azuriom.com/uk/">
+                            <img src="https://azuriom.com/assets/svg/country/ua.svg" class="svg" alt="Українська">
+                            Українська
                         </a>
                         
                     </div>
@@ -288,8 +311,9 @@ X-Xss-Protection: 1; mode=block
                     </ul>
                 </div>
 
-                <div class="col-md-9 mx-auto">
-                    <img src="https://azuriom.com/assets/img/home.png" alt="Games" class="img-fluid">
+                <div class="col-md-7 mx-auto pb-3">
+                    <img src="https://azuriom.com/assets/img/home_light.png" alt="Azuriom" class="img-fluid rounded-3 img-light" width="1200" height="728">
+                    <img src="https://azuriom.com/assets/img/home_dark.png" alt="Azuriom" class="img-fluid rounded-3 img-dark" width="1200" height="728">
                 </div>
             </div>
         </div>
@@ -404,7 +428,7 @@ X-Xss-Protection: 1; mode=block
     <div class="container">
         <div class="row gy-4 justify-content-between">
             <div class="col-md-5 align-self-center">
-                <img src="https://azuriom.com/assets/img/theme.png" alt="Theme" class="img-fluid image-3d rounded-3">
+                <img src="https://azuriom.com/assets/img/theme.png" alt="Theme" class="img-fluid image-3d rounded-3" width="700" height="474">
             </div>
 
             <div class="col-md-6">
@@ -453,7 +477,7 @@ X-Xss-Protection: 1; mode=block
                 </h2>
 
                 <p class="lead">
-                    Create a website for your SkyBlock server on Minecraft. Have a DarkRP on Garry&rsquo;s Mod? Sure, Azuriom can do that too, and with Steam login. Prefer Los Santos? ? No problem, Azuriom supports FiveM with Cfx.re!
+                    Create a website for your SkyBlock server on Minecraft. Have a DarkRP on Garry&rsquo;s Mod? Sure, Azuriom can do that too, and with Steam login. Prefer Los Santos? No problem, Azuriom also supports FiveM!
                 </p>
                 <p class="lead">
                     Even if your game is not supported, you can add support for it with an extension. A perfect example of this is the game <a href="https://universe.flyff.com">Flyff</a>.
@@ -519,7 +543,7 @@ X-Xss-Protection: 1; mode=block
     <div class="container">
         <div class="row gy-4 justify-content-between">
             <div class="col-md-4 offset-md-1 align-self-center">
-                <img src="https://azuriom.com/assets/img/map.png" alt="World" class="img-fluid" loading="lazy">
+                <img src="https://azuriom.com/assets/svg/map.svg" alt="World" class="img-fluid" height="500" width="500">
             </div>
 
             <div class="col-md-6">
@@ -538,7 +562,7 @@ X-Xss-Protection: 1; mode=block
                     Developed in Switzerland, Azuriom is trusted by over a thousand servers around the world and translated in <a href="https://translate.azuriom.com">more than 15 languages</a>.
                 </p>
                 <p class="lead">
-                    Build with <a href="https://laravel.com/">Laravel</a>, the most popular PHP framework, so you can enjoy a secure and reliable website. You deserve it !
+                    Built with <a href="https://laravel.com/">Laravel</a>, the most popular PHP framework, so you can enjoy a secure and reliable website. You deserve it!
                 </p>
             </div>
         </div>
@@ -583,7 +607,7 @@ X-Xss-Protection: 1; mode=block
 
         <div class="border-top border-secondary pt-3 mt-3">
             <p class="small text-center mb-0">
-                Copyright &copy; 2019-2023 Azuriom - All rights reserved. Made with&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                Copyright &copy; 2019-2024 Azuriom - All rights reserved. Made with&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
 </svg>
  by Azuriom.

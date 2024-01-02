@@ -3,56 +3,55 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8379d45b5e81eb9f-SEA
+Cf-Ray: 83f421048ddbebbb-SEA
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Dec 2023 19:32:02 GMT
-Expires: Mon, 18 Dec 2023 19:42:02 GMT
-Last-Modified: Thu, 14 Dec 2023 21:06:29 GMT
+Date: Tue, 02 Jan 2024 15:45:25 GMT
+Expires: Tue, 02 Jan 2024 15:55:25 GMT
+Last-Modified: Sat, 30 Dec 2023 12:35:16 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=eFAslI_5P6VMw5Y4Lz4s9NDvJtKfQlGFiqmuNraN.Kw-1702927922-1-AUaX8aa8WQqkKItytRrAai94dQrQ3fDtkIgrrsJXhlFIPPo616N0dEYMT4srzxWnx/YXz2isg0O1AG1t5PyQ+fo=; path=/; expires=Mon, 18-Dec-23 20:02:02 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=41kCl.Ole6t20jBWui2B7yaQX3sGncmscLbVAFBgsxo-1704210325-1-AdWXKQVPrW1EiXIE6E+Q34YLcPnLNqAd9N4YE6cuYC3mjdv7QapnyXScYyaYd4/KuQqesHSPnc2B5PE/acWIgig=; path=/; expires=Tue, 02-Jan-24 16:15:25 GMT; domain=.prestashop-project.org; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 0f7aa8c2588fc657f19106bee87f0b3f9564ccae
-X-Github-Request-Id: 6874:4045:A7DA1:CAFBE:65809E31
+X-Fastly-Request-Id: 051e87d8b1b2ba253051d7301658fa32852746f7
+X-Github-Request-Id: 0DD8:8327:32E2B5:3E756F:65942F89
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770071-PAO
-X-Timer: S1702927923.522531,VS0,VE99
+X-Served-By: cache-pao-kpao1770026-PAO
+X-Timer: S1704210325.278368,VS0,VE108
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.121.1">
     <meta name="description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
-<meta name="twitter:image" content="https://devdocs.prestashop-project.org/images/social-cover.jpg" />
+<meta name="twitter:image" content="https://devdocs.prestashop-project.org/images/social-cover-2024.jpg" />
 <meta name="twitter:site" content="@prestashop" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Home" />
 <meta name="twitter:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
-<meta property="og:image" content="https://devdocs.prestashop-project.org/images/social-cover.jpg" />
+<meta property="og:image" content="https://devdocs.prestashop-project.org/images/social-cover-2024.jpg" />
 <meta property="og:site_name" content="PrestaShop" />
 <meta property="og:title" content="Home" />
 <meta property="og:description" content="Learn how to extend, modify and test PrestaShop, create modules, themes, and more.">
 <meta name="author" content="PrestaShop">
 <meta name="docsearch:version" content="8" />
 
-    <link rel="icon" href="/images/preston-logo@2x.png" type="image/png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
 
     <title>PrestaShop Developer Documentation</title>
     
     
-    <link href="/css/font-awesome.min.css?1702587929" rel="stylesheet">
-    <link href="/css/syntax-github.css?1702587929" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1702587929" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1702587929" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1703939660" rel="stylesheet">
+    <link href="/css/syntax-github.css?1703939660" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1703939660" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1703939660" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.1" />
-    <link href="/style.css?1702587929" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link href="/style.css?1703939660" rel="stylesheet">
 
-    <script src="/js/jquery-3.3.1.min.js?1702587929"></script>
+    <script src="/js/jquery-3.3.1.min.js?1703939660"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -74,8 +73,7 @@ X-Timer: S1702927923.522531,VS0,VE99
 
   <div id="header-wrapper">
     <div id="header">
-      <a id="logo" href="/">PrestaShop DevDocs</a>
-
+      <a id="logo" href="/"><img src="/images/logo@2x.png" width="200" alt="PrestaShop" /></a>
     </div>
     
   
@@ -406,6 +404,27 @@ X-Timer: S1702927923.522531,VS0,VE99
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/basics/installation/advanced/prestashop-flashlight/" title="Installing PrestaShop with Docker &#43; PrestaShop Flashlight" class="dd-item ">
+        <a href="/8/basics/installation/advanced/prestashop-flashlight/">
+        Docker (Flashlight)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
           
             
             
@@ -9270,6 +9289,21 @@ X-Timer: S1702927923.522531,VS0,VE99
             
             
           
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
         
         </ul>
       
@@ -10936,6 +10970,264 @@ X-Timer: S1702927923.522531,VS0,VE99
       <li data-nav-id="/8/themes/getting-started/asset-management/webpack/" title="Webpack" class="dd-item ">
         <a href="/8/themes/getting-started/asset-management/webpack/">
         Webpack
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    
+    <li data-nav-id="/8/themes/hummingbird/" title="Hummingbird Theme" class="dd-item
+        
+        
+        
+        isParent
+        ">
+      <a href="/8/themes/hummingbird/">
+          <span>
+            Hummingbird Theme
+          </span>
+
+          
+
+          
+            <i class="fa fa-angle-down"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    
+    <li data-nav-id="/8/themes/hummingbird/hooks/" title="Hooks on Hummingbird Theme" class="dd-item
+        
+        
+        
+        isParent
+        ">
+      <a href="/8/themes/hummingbird/hooks/">
+          <span>
+            Hooks on Hummingbird Theme
+          </span>
+
+          
+
+          
+            <i class="fa fa-angle-down"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/categorypage/" title="Category page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/categorypage/">
+        Category page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/checkoutflow/" title="Checkout flow" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/checkoutflow/">
+        Checkout flow
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/connexionpage/" title="Connexion page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/connexionpage/">
+        Connexion page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/contactpage/" title="Contact page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/contactpage/">
+        Contact page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/homepage/" title="Home page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/homepage/">
+        Home page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/myaccount/" title="My account" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/myaccount/">
+        My account
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/productpage/" title="Product page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/productpage/">
+        Product page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/8/themes/hummingbird/hooks/cartpage/" title="Cart page" class="dd-item ">
+        <a href="/8/themes/hummingbird/hooks/cartpage/">
+        Cart page
         
         </a>
     </li>
@@ -15142,7 +15434,7 @@ X-Timer: S1702927923.522531,VS0,VE99
 <div id="home">
 	
 	
-<h1 id="prestashop-developer-documentation">PrestaShop Developer Documentation<a href="#prestashop-developer-documentation"></a></h1><p>PrestaShop is a free and Open Source e-commerce web platform, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), and more! <a href="https://www.prestashop-project.org/">Learn more about PrestaShop Project</a>.</p>
+<h1 id="developer-documentation">Developer Documentation<a href="#developer-documentation"></a></h1><p>PrestaShop is a free and Open Source e-commerce web platform, committed to providing the best shopping cart experience for both merchants and customers. It is written in PHP, is highly customizable, supports all the major payment services, is translated in many languages and localized for many countries, has a fully responsive design (both front and back office), and more! <a href="https://www.prestashop-project.org/">Learn more about PrestaShop Project</a>.</p>
 <p>This site covers the technical aspects of PrestaShop and it&rsquo;s tailored for theme, module and core developers.</p>
 
 <div class="notices note" >Are you a PrestaShop user?
@@ -15159,7 +15451,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-play"></i>
+                        <img src="images/icons/basic.svg" alt="Basics" />
                     
                 </div>
 
@@ -15214,12 +15506,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/basics/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Basics 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15230,7 +15521,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-book"></i>
+                        <img src="images/icons/core-reference.svg" alt="Core Development Reference" />
                     
                 </div>
 
@@ -15309,12 +15600,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/development/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Core Reference 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15327,7 +15617,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-puzzle-piece"></i>
+                        <img src="images/icons/modules.svg" alt="PrestaShop modules" />
                     
                 </div>
 
@@ -15392,12 +15682,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/modules/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Modules 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15408,7 +15697,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-paint-brush"></i>
+                        <img src="images/icons/themes.svg" alt="Themes" />
                     
                 </div>
 
@@ -15429,6 +15718,8 @@ X-Timer: S1702927923.522531,VS0,VE99
                                 </a>
                             
                         </li>
+                    
+                
                     
                 
                     
@@ -15453,12 +15744,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/themes/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Themes 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15469,7 +15759,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-plug"></i>
+                        <img src="images/icons/webservice.svg" alt="The PrestaShop Webservice API" />
                     
                 </div>
 
@@ -15528,12 +15818,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/webservice/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Webservice API 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15544,7 +15833,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-github"></i>
+                        <img src="images/icons/contribute.svg" alt="Contribute" />
                     
                 </div>
 
@@ -15599,12 +15888,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/contribute/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Contribute 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15615,7 +15903,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-rocket"></i>
+                        <img src="images/icons/scale.svg" alt="Scale" />
                     
                 </div>
 
@@ -15670,12 +15958,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/scale/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     Scale 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15688,7 +15975,7 @@ X-Timer: S1702927923.522531,VS0,VE99
             <div class="mainCategoryHeading">
                 <div class="indexCategory">
                     
-                        <i class="fa fa-question-circle"></i>
+                        <img src="images/icons/faq.svg" alt="Frequently Asked Questions" />
                     
                 </div>
 
@@ -15753,12 +16040,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                 
             </ul>
             <a href="/8/faq/" class="explore-all">
-                <i class="fa fa-arrow-right"></i> 
-                All 
+                All
                 
                     FAQ 
                 
-                topics
+                topics <small>►</small>
             </a>
         </div>
         
@@ -15769,7 +16055,7 @@ X-Timer: S1702927923.522531,VS0,VE99
 
 
 <div class="mostViewedPagesIcon">
-    <i class="fa fa-star"></i>
+    <img src="images/icons/most-viewed-pages.svg" alt="Most viewed pages icon" />
 </div>
 <h3 class="mostViewedPagesHeading">
     Most viewed pages
@@ -15818,6 +16104,9 @@ X-Timer: S1702927923.522531,VS0,VE99
 
 
     
+
+    
+
 
     
 
@@ -17862,6 +18151,21 @@ X-Timer: S1702927923.522531,VS0,VE99
     
 
 
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
 
 
     
@@ -18042,6 +18346,36 @@ X-Timer: S1702927923.522531,VS0,VE99
 
 
     
+
+    
+
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
 
     
 
@@ -18570,17 +18904,17 @@ X-Timer: S1702927923.522531,VS0,VE99
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1702587929"></script>
-    <script src="/js/perfect-scrollbar.min.js?1702587929"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1702587929"></script>
-    <script src="/js/jquery.sticky.js?1702587929"></script>
-    <script src="/js/featherlight.min.js?1702587929"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1702587929"></script>
-    <script src="/js/modernizr.custom-3.6.0.js?1702587929"></script>
-    <script src="/js/learn.js?1702587929"></script>
-    <script src="/js/hugo-learn.js?1702587929"></script>
+    <script src="/js/clipboard.min.js?1703939660"></script>
+    <script src="/js/perfect-scrollbar.min.js?1703939660"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1703939660"></script>
+    <script src="/js/jquery.sticky.js?1703939660"></script>
+    <script src="/js/featherlight.min.js?1703939660"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1703939660"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1703939660"></script>
+    <script src="/js/learn.js?1703939660"></script>
+    <script src="/js/hugo-learn.js?1703939660"></script>
     
-    <script src="/main.js?1702587929"></script>
+    <script src="/main.js?1703939660"></script>
     
     
     
@@ -20085,6 +20419,16 @@ X-Timer: S1702927923.522531,VS0,VE99
                     },
                 
                     {
+                        name: "displayContentWrapperBottom",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displaycontentwrapperbottom/"
+                    },
+                
+                    {
+                        name: "displayContentWrapperTop",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displaycontentwrappertop/"
+                    },
+                
+                    {
                         name: "displayCrossSellingShoppingCart",
                         url: "/8/modules/concepts/hooks/list-of-hooks/displaycrosssellingshoppingcart/"
                     },
@@ -20305,6 +20649,11 @@ X-Timer: S1702927923.522531,VS0,VE99
                     },
                 
                     {
+                        name: "displayPDF\u003cTemplate\u003e",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displaypdftemplate/"
+                    },
+                
+                    {
                         name: "displayPersonalInformationTop",
                         url: "/8/modules/concepts/hooks/list-of-hooks/displaypersonalinformationtop/"
                     },
@@ -20367,6 +20716,16 @@ X-Timer: S1702927923.522531,VS0,VE99
                     {
                         name: "displayTop",
                         url: "/8/modules/concepts/hooks/list-of-hooks/displaytop/"
+                    },
+                
+                    {
+                        name: "displayWrapperBottom",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displaywrapperbottom/"
+                    },
+                
+                    {
+                        name: "displayWrapperTop",
+                        url: "/8/modules/concepts/hooks/list-of-hooks/displaywrappertop/"
                     },
                 
                     {

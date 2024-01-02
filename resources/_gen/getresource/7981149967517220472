@@ -1,23 +1,24 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
+Age: 1
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Dec 2023 19:32:02 GMT
-Etag: "49b56514d7309302063413997d4570b1"
-Last-Modified: Thu, 14 Dec 2023 15:46:58 GMT
+Date: Tue, 02 Jan 2024 15:45:23 GMT
+Etag: "cd9de302f46f908761b2dfe2cda07b7e"
+Last-Modified: Thu, 28 Dec 2023 19:55:36 GMT
 Strict-Transport-Security: max-age=31536000; preload
 Vary: Accept-Encoding
-Via: 1.1 caf6806821bc479b28a6f1ce3043b8a6.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: 7qR8HxGmI9qcU9NY2mQzJUqnCeFkORO1qMkGeMf-40vTwe27D6Ewlw==
+Via: 1.1 aef00f14752da9aa504d392fd46eff94.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gcJ11rL6YPQw-yN-ygmvmAiB9KY5DBjRWVUmxBCgKKNyM52PmrqL6A==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
-X-Cache: Miss from cloudfront
+X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: 7c42a44d-9151-40dc-50d5-f4c70f04f8b5
+X-Vcap-Request-Id: abdad4e5-f822-47ea-7049-60f4bd79707a
 X-Xss-Protection: 1; mode=block
 
 <!--
@@ -439,7 +440,7 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           <div class="grid-col-12 tablet-lg:grid-col-4">
             <div class="box">
               <h1 class="resources-featured__title">
-                Guidance on building better digital services in government.
+                Better websites. Better government.
               </h1>
               <a
                 class="btn btn-home"
@@ -503,24 +504,6 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           
       
     
-    <li data-gh-edit-page="guides/hcd/_index.md"><div class="icon">
-      <img
-        src="/img/digit-50.png"
-        alt=""
-        aria-hidden="true"
-        width="16"
-        height="16"
-      />
-    </div><div class="copy">
-        <p>
-          <a href="/guides/hcd/?dg" title="Human-Centered Design Guide Series">
-            <span>Human-Centered Design Guide Series</span>
-          </a>—A series of guides to help you understand and practice human-centered design.</p>
-      </div>
-    </li>
-          
-      
-    
     <li data-gh-edit-page="guides/dap/_index.md"><div class="icon">
       <img
         src="/img/digit-50.png"
@@ -536,11 +519,12 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
           </a>—The Digital Analytics Program (DAP) offers advanced, easy web analytics for federal agencies.</p>
       </div>
     </li>
+          
       
     
-    <li data-gh-edit-page="resources/uswds-design-system.md"><div class="icon">
+    <li data-gh-edit-page="resources/an-introduction-to-analytics.md"><div class="icon">
       <img
-        src="/logos/uswds-icon.png"
+        src="/img/digit-50.png"
         alt=""
         aria-hidden="true"
         width="16"
@@ -548,16 +532,17 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="https://designsystem.digital.gov/?dg" title="U.S. Web Design System">
-            <span>U.S. Web Design System</span>
-          </a>—A design system for the federal government that makes it easier to build accessible, mobile-friendly government websites for the American …</p>
+          <a href="/resources/an-introduction-to-analytics/?dg" title="An introduction to analytics">
+            <span>An introduction to analytics</span>
+          </a>—Learn how to set performance goals, and identify specific KPIs and targets to measure and meet them, using web analytics.</p>
       </div>
     </li>
+          
       
     
-    <li data-gh-edit-page="resources/federal-it-dashboard.md"><div class="icon">
+    <li data-gh-edit-page="resources/an-introduction-to-domain-management.md"><div class="icon">
       <img
-        src="/logos/federal-it-dashboard-icon.png"
+        src="/img/digit-50.png"
         alt=""
         aria-hidden="true"
         width="16"
@@ -565,17 +550,37 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
       />
     </div><div class="copy">
         <p>
-          <a href="https://www.itdashboard.gov/?dg" title="Federal IT Dashboard">
-            <span>Federal IT Dashboard</span>
-          </a>—Enables the government and the public to understand the value of their federal IT portfolios, manage the health of their IT investments, and …</p>
+          <a href="/resources/an-introduction-to-domain-management/?dg" title="An introduction to domain management">
+            <span>An introduction to domain management</span>
+          </a>—A .gov domain instantly conveys credibility and trustworthiness, and proper domain management practices ensure that your website is secure …</p>
+      </div>
+    </li>
+          
+      
+    
+    <li data-gh-edit-page="resources/an-introduction-to-digital-governance.md"><div class="icon">
+      <img
+        src="/img/digit-50.png"
+        alt=""
+        aria-hidden="true"
+        width="16"
+        height="16"
+      />
+    </div><div class="copy">
+        <p>
+          <a href="/resources/an-introduction-to-digital-governance/?dg" title="An introduction to digital governance">
+            <span>An introduction to digital governance</span>
+          </a>—Learn why governance is essential to digital experience.</p>
       </div>
     </li></ul>
   </div><footer>
                 <div class="grid-row tablet-lg:grid-gap-2">
                   <div class="grid-col-12">
                     <p class="dg-more-link">
-                      <a href="/topics/21st-century-idea/"
-                        ><span>See all 21st Century IDEA resources</span>
+                      <a
+                        href="/topics/digital-service-delivery/"
+                      >
+                        <span>See all 21st Century IDEA resources</span>
                         <svg
                           class="usa-icon dg-icon dg-icon--standard margin-bottom-05"
                           aria-hidden="true"
@@ -915,6 +920,140 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 
         
         
+              
+  
+
+
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-gh-edit-page="news/2023/12/2023-12-28-gsa-issues-report-to-congress-highlighting-need-for-improvement-in-federal-government-section-508-compliance.md"
+  
+  aria-labelledby="title-gsa-issues-report-to-congress-highlighting-need-for-improvement-in-federal-government-section-508-compliance"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-gsa-issues-report-to-congress-highlighting-need-for-improvement-in-federal-government-section-508-compliance">
+        <a href="/2023/12/28/gsa-issues-report-to-congress-highlighting-need-for-improvement-in-federal-government-section-508-compliance/">GSA Issues Report to Congress Highlighting Need for Improvement in Federal Government Section 508 Compliance</a>
+      </h3>
+      <p>The report, the FY23 Governmentwide Section 508 Assessment, evaluates reporting entities’ adherence to the criteria established by the White House Office of Management and Budget (OMB) in coordination with GSA, the White House Office of Science and Technology Policy (OSTP), and the U.S. Access Board (USAB). It provides a baseline and recommendations for strengthening compliance initiatives and enhancing Section 508 activities across the federal government.
+          <em class="card__source source"
+            >— via
+            <a
+              href="https://www.section508.gov/blog/2023-annual-report-to-congress/"
+              title="Read at General Services Administration"
+              >General Services Administration</a
+            ></em
+          >
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/gsa-logo.png" alt="General Services Administration logo" />
+  </div>
+  <div class="card__meta">
+    <p class="date">Dec 28, 2023</p>
+  </div>
+</article>
+
+            
+              
+  
+
+
+
+
+<article
+  class="card card-elsewhere card-linked"
+  data-gh-edit-page="news/2023/12/2023-12-22-omb-releases-digital-accessibility-guidance-to-ensure-all-americans-have-ability-to-access-critical-government-resources.md"
+  
+  aria-labelledby="title-omb-releases-digital-accessibility-guidance-to-ensure-all-americans-have-ability-to-access-critical-government-resources"
+>
+  <div class="card__content">
+    <div class="card__summary">
+      <h3 id="title-omb-releases-digital-accessibility-guidance-to-ensure-all-americans-have-ability-to-access-critical-government-resources">
+        <a href="/2023/12/21/omb-releases-digital-accessibility-guidance-to-ensure-all-americans-have-ability-to-access-critical-government-resources/">OMB Releases Digital Accessibility Guidance to Ensure All Americans Have Ability to Access Critical Government Resources</a>
+      </h3>
+      <p>The Biden-Harris Administration is championing inclusivity by requiring federal agencies to prioritize accessibility in the digital space, recognizing the gap in access for the 61 million Americans with disabilities on nearly half of popular federal government websites. The new guidance mandates rigorous testing, inclusion of individuals with disabilities in design processes, and the incorporation of experts in procurement, emphasizing a commitment to universal access. Read more to discover how these measures aim to change the federal digital experience for all Americans.
+          <em class="card__source source"
+            >— via
+            <a
+              href="https://www.whitehouse.gov/omb/briefing-room/2023/12/21/omb-releases-digital-accessibility-guidance-to-ensure-all-americans-have-ability-to-access-critical-government-resources/"
+              title="Read at The White House"
+              >The White House</a
+            ></em
+          >
+        
+      </p>
+    </div>
+  </div>
+  <div class="card__media">
+    <img src="/logos/whitehouse-logo.png" alt="The White House logo" />
+  </div>
+  <div class="card__meta">
+    <p class="date">Dec 21, 2023</p>
+  </div>
+</article>
+
+            
+              
+                
+                
+  
+
+
+
+
+
+
+<article
+  class="card card-article card-linked"
+  data-gh-edit-page="news/2023/12/2023-12-19-amplifying-customer-voices.md"
+  
+  aria-labelledby="title-amplifying-customer-voices"
+>
+  <div class="card__content"><h3 id="title-amplifying-customer-voices">
+      <a href="/2023/12/19/amplifying-customer-voices/">Amplifying customer voices</a>
+    </h3><div class="summary">Understand how to use natural language processing and advanced analytics to gain insights on high-impact service performance and survey design.</div><div class="authors-list authors-list-short">
+    
+    <a
+          class="author"
+          href="/authors/isabel-izzy-metzger/"
+          rel="author"
+        >
+  <img src="https://github.com/izzykayu.png?size=50" alt="" />
+
+
+
+
+
+<span class="usa-sr-only">Posts by</span>
+          <span
+            >Isabel (Izzy) Metzger</span
+          > </a
+        ></div></div>
+
+  <div class="card__media">
+
+<div class="media-featured">
+    <a href="/2023/12/19/amplifying-customer-voices/" title="Amplifying customer voices">
+      <img
+        src="https://s3.amazonaws.com/digitalgov/green-structured-unstructured-data-iceberg-chavapong-prateep-na-thalang-istock-getty-images-1353745656-b_w400.png"
+        aria-hidden="true"
+        alt=""
+      />
+    </a>
+  </div></div>
+
+  <div class="card__meta">
+    <div class="date">Dec 19, 2023</div>
+  </div>
+</article>
+
+              
+            
               
   
 
@@ -1285,174 +1424,6 @@ on cloud.gov Pages https://cloud.gov/pages/ -->
 </article>
 
               
-            
-  
-
-
-
-
-
-
-
-<article
-  class="card card-event 
-    card-event--past
-  card-linked"
-  data-gh-edit-page="events/2023/11/2023-11-13-uswds-monthly-call-november-2023.md"
-  
-  aria-labelledby="uswds-monthly-call-november-2023"
->
-  <div class="card-event__main">
-    <div class="card-event__header"><div class="flex-align-end card-event__kicker">
-          <span>Next steps in the U.S. Web Design System’s inclusive usability research</span>
-        </div><h2 class="card-event__title" id="uswds-monthly-call-november-2023">
-        <a
-          href="/event/2023/11/16/uswds-monthly-call-november-2023/"
-          title="USWDS Monthly Call - November 2023"
-          rel="bookmark"
-          >USWDS Monthly Call - November 2023</a
-        >
-      </h2>
-    </div>
-
-    <div class="card-event__body"><div class="card-event__summary">
-          The USWDS team will continue sharing our progress to improve ongoing research, publishing results and addressing recent findings.
-        </div><div class="card-event__watch-label">
-          <svg
-            class="usa-icon dg-icon dg-icon--large margin-bottom-05"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <use
-              xlink:href="/uswds/img/sprite.svg#youtube"
-            ></use>
-          </svg>
-          Watch Video
-        </div><p class="card-event__host">
-          Hosted by Digital.gov and the
-          U.S. Web Design System
-        </p>
-    </div>
-  </div>
-
-  <div class="card-event__aside">
-    <div class="card-event__date">
-      <time class="card-event__datetime" datetime="2023-11-16">
-        <span class="card-event__datetime-month"
-          >Nov</span
-        >
-        <span class="card-event__datetime-day"
-          >16<span class="card-event__datetime-comma">,</span>
-        </span>
-        <span class="card-event__datetime-year--mobile"
-          >2023</span
-        >
-      </time>
-      
-        <span class="card-event__date-label">
-          <span class="card-event__datetime-year"
-            >2023</span
-          >
-        </span>
-      
-    </div>
-  </div>
-</article>
-
-              
-                
-                
-  
-
-
-
-
-
-
-<article
-  class="card card-article card-linked"
-  data-gh-edit-page="news/2023/11/2023-11-14-defining-benchmarks-and-targets-for-intranet-kpis.md"
-  
-  aria-labelledby="title-defining-benchmarks-and-targets-for-intranet-kpis"
->
-  <div class="card__content"><h3 id="title-defining-benchmarks-and-targets-for-intranet-kpis">
-      <a href="/2023/11/15/defining-benchmarks-and-targets-for-intranet-kpis/">Defining benchmarks and targets for intranet KPIs</a>
-    </h3><div class="summary">Discover the keys to intranet success by harmonizing objectives, metrics, benchmarks, and targets. Elevate your organization&rsquo;s intranet to new heights!</div><div class="authors-list authors-list-short">
-    
-    <a
-          class="author"
-          href="/authors/jessica-dunbar/"
-          rel="author"
-        >
-  <img src="https://github.com/jessicadunbar.png?size=50" alt="" />
-
-
-
-
-
-<span class="usa-sr-only">Posts by</span>
-          <span
-            >Jessica Dunbar</span
-          > </a
-        ></div></div>
-
-  <div class="card__media">
-
-<div class="media-featured">
-    <a href="/2023/11/15/defining-benchmarks-and-targets-for-intranet-kpis/" title="Defining benchmarks and targets for intranet KPIs">
-      <img
-        src="https://s3.amazonaws.com/digitalgov/analysis-data-kpi-metrics-flat-icons-pressureua-istock-getty-images-916567940_w400.png"
-        aria-hidden="true"
-        alt=""
-      />
-    </a>
-  </div></div>
-
-  <div class="card__meta">
-    <div class="date">Nov 15, 2023</div>
-  </div>
-</article>
-
-              
-            
-              
-  
-
-
-
-
-<article
-  class="card card-elsewhere card-linked"
-  data-gh-edit-page="news/2023/11/2023-11-21-the-cfpb-language-access-plan-for-consumers-with-limited-english-proficiency.md"
-  
-  aria-labelledby="title-the-cfpb-language-access-plan-for-consumers-with-limited-english-proficiency"
->
-  <div class="card__content">
-    <div class="card__summary">
-      <h3 id="title-the-cfpb-language-access-plan-for-consumers-with-limited-english-proficiency">
-        <a href="/2023/11/15/the-cfpb-language-access-plan-for-consumers-with-limited-english-proficiency/">The CFPB Language Access Plan for consumers with limited English proficiency</a>
-      </h3>
-      <p>The Language Access Plan describes the CFPB’s policy and how the CFPB’s language access activities are implemented across operations, programs, and services.
-          <em class="card__source source"
-            >— via
-            <a
-              href="https://www.consumerfinance.gov/data-research/research-reports/the-cfpb-language-access-plan-for-consumers-with-limited-english-proficiency/"
-              title="Read at Consumer Financial Protection Bureau"
-              >Consumer Financial Protection Bureau</a
-            ></em
-          >
-        
-      </p>
-    </div>
-  </div>
-  <div class="card__media">
-    <img src="/logos/cfpb-logo.png" alt="Consumer Financial Protection Bureau logo" />
-  </div>
-  <div class="card__meta">
-    <p class="date">Nov 15, 2023</p>
-  </div>
-</article>
-
             <footer>
           <a
             class="btn"

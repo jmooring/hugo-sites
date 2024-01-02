@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 14718
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=stale
 Content-Security-Policy: frame-ancestors 'self' https://cockroachlabs.app.workramp.com
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Dec 2023 19:32:24 GMT
-Etag: "d8bfacca468ac34ede5f384e70ce920e-ssl-df"
+Date: Tue, 02 Jan 2024 15:45:45 GMT
+Etag: "b306b3deff2c077cb6850eb8449529ef-ssl-df"
 Referrer-Policy: no-referrer-when-downgrade
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01HHZ6MJY20BWS8BPDGMCB4PXD
+X-Nf-Request-Id: 01HK5DMB2ZG6AH5A7VCNEWD7H8
 X-Xss-Protection: 1; mode=block
 
 <!doctype html>
@@ -232,8 +232,8 @@ X-Xss-Protection: 1; mode=block
                 "@id": "https://www.cockroachlabs.com/#primaryimage"
             },
 
-            "datePublished": "2023-12-14 09:54:02.97 &#43;0000 UTC",
-            "dateModified": "2023-12-14 09:54:02.97 &#43;0000 UTC",
+            "datePublished": "2023-12-28 17:21:17.425 &#43;0000 UTC",
+            "dateModified": "2023-12-28 17:21:17.425 &#43;0000 UTC",
             "description": "CockroachDB is a distributed database with standard SQL for cloud applications. CockroachDB powers companies like Comcast, Lush, and Bose.",
             "breadcrumb": {
                 "@id": "https://www.cockroachlabs.com/#breadcrumb"
@@ -321,7 +321,7 @@ X-Xss-Protection: 1; mode=block
   
   
 
-  <body class=" sans-serif   home "  >
+  <body class=" product section  sans-serif   home "  >
 
     <div class="nav-holder">
 
@@ -374,25 +374,7 @@ X-Xss-Protection: 1; mode=block
               <div class="card-body bg-gray-f4">
                 <button class="d-none d-md-block btn-close position-absolute"></button>
 <div class="row">
-
-<div class="col-md-4">
-    <div>
-        <a href="/product/"><img width="209px" class="py-3" src="https://crl2020.imgix.net//img/menu-product.png?auto=format,compress" alt="Product" loading="lazy"></a>
-        <p class="mb-4 mt-0 text-primary font-weight-medium font-size-16 lh-n">
-            A distributed SQL database<br> designed for speed, scale,<br>and survival
-        </p>
-        <div class="pb-45">
-            <a class="btn btn-primary rounded-pill px-4 py-2 text-white" href="/product/">Learn more</a>
-            <a class="btn btn-outline-purple text-primary rounded-pill px-4 py-2 ml-3" href="/pricing/">Pricing</a>
-        </div>
-        <a class="pb-2 pb-md-0 d-block  text-primary semibold text-xs " href="/get-started">Compare deployment options <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.7197 0.564462L10.7117 4.55642C10.9566 4.80139 10.9566 5.19856 10.7117 5.44352L6.7197 9.43548C6.47474 9.68045 6.07757 9.68045 5.8326 9.43548C5.58763 9.19052 5.58763 8.79335 5.8326 8.54838L8.75373 5.62725H1.52266C1.17623 5.62725 0.895386 5.34641 0.895386 4.99997C0.895386 4.65354 1.17623 4.3727 1.52266 4.3727H8.75373L5.8326 1.45156C5.58763 1.2066 5.58763 0.809429 5.8326 0.564462C6.07757 0.319496 6.47474 0.319496 6.7197 0.564462Z" fill="#6933FF"/>
-            </svg>
-            </a>
-    </div>
-</div>
-
-<div class="col-md-4">
+<div class="col-md-6">
     <p class="font-size-16 lh-n semibold my-3">Capabilities</p>
     <ul class="mb-0 mb-md-3 list-unstyled p-0">
     
@@ -422,7 +404,7 @@ X-Xss-Protection: 1; mode=block
     
     </ul>
 </div>
-<div class="col-md-4">
+<div class="col-md-6">
     <p class="d-none d-md-block font-size-16 lh-n semibold my-3">&nbsp;</p>
     <ul class="list-unstyled p-0">
         
@@ -837,6 +819,13 @@ X-Xss-Protection: 1; mode=block
           <div class="card">
             <div class="card-header bg-white" id="">
                 <h2 class="mb-0">
+                    <a class="btn btn-link btn-block text-left btn-link-chevron-right d-flex justify-content-between align-items-center" href="/pricing/">Pricing</a>
+                </h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-white" id="">
+                <h2 class="mb-0">
                     <a class="btn btn-link btn-block text-left btn-link-chevron-right d-flex justify-content-between align-items-center" href="/contact/">Contact us</a>
                 </h2>
             </div>
@@ -868,25 +857,7 @@ X-Xss-Protection: 1; mode=block
           <div class="dropdown-menu w-100 p-45" aria-labelledby="navbarDropdown">
             <button class="d-none d-md-block btn-close position-absolute"></button>
 <div class="row">
-
-<div class="col-md-4">
-    <div>
-        <a href="/product/"><img width="209px" class="py-3" src="https://crl2020.imgix.net//img/menu-product.png?auto=format,compress" alt="Product" loading="lazy"></a>
-        <p class="mb-4 mt-0 text-primary font-weight-medium font-size-16 lh-n">
-            A distributed SQL database<br> designed for speed, scale,<br>and survival
-        </p>
-        <div class="pb-45">
-            <a class="btn btn-primary rounded-pill px-4 py-2 text-white" href="/product/">Learn more</a>
-            <a class="btn btn-outline-purple text-primary rounded-pill px-4 py-2 ml-3" href="/pricing/">Pricing</a>
-        </div>
-        <a class="pb-2 pb-md-0 d-block  text-primary semibold text-xs " href="/get-started">Compare deployment options <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.7197 0.564462L10.7117 4.55642C10.9566 4.80139 10.9566 5.19856 10.7117 5.44352L6.7197 9.43548C6.47474 9.68045 6.07757 9.68045 5.8326 9.43548C5.58763 9.19052 5.58763 8.79335 5.8326 8.54838L8.75373 5.62725H1.52266C1.17623 5.62725 0.895386 5.34641 0.895386 4.99997C0.895386 4.65354 1.17623 4.3727 1.52266 4.3727H8.75373L5.8326 1.45156C5.58763 1.2066 5.58763 0.809429 5.8326 0.564462C6.07757 0.319496 6.47474 0.319496 6.7197 0.564462Z" fill="#6933FF"/>
-            </svg>
-            </a>
-    </div>
-</div>
-
-<div class="col-md-4">
+<div class="col-md-6">
     <p class="font-size-16 lh-n semibold my-3">Capabilities</p>
     <ul class="mb-0 mb-md-3 list-unstyled p-0">
     
@@ -916,7 +887,7 @@ X-Xss-Protection: 1; mode=block
     
     </ul>
 </div>
-<div class="col-md-4">
+<div class="col-md-6">
     <p class="d-none d-md-block font-size-16 lh-n semibold my-3">&nbsp;</p>
     <ul class="list-unstyled p-0">
         
@@ -1301,6 +1272,14 @@ X-Xss-Protection: 1; mode=block
 
           </div>
         </li>
+
+        <li class="nav-item dropdown position-static">
+          <a
+          class="nav-link dropdown-toggle"
+          href="/pricing/"
+          id="navbarDropdown"
+          >Pricing</a>
+        </li>
       </ul>
       
 
@@ -1339,381 +1318,702 @@ X-Xss-Protection: 1; mode=block
 
 
     
+<div class="product-banner pt-7 pb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="mb-3 mt-1 text-white">Scale when others fail</h1>
+				<p class="text-white">Run mission-critical apps on CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement.</p>
 
-<div class="home-holder pb-2 pt-7">
+				<div class="btn-container mt-5 mb-6">
+					<a href="https://cockroachlabs.cloud/signup" class="white-btn mr-4 px-3 px-md-7">Get started</a>
+					<a href="/pricing/" class="white-btn-outline px-3 px-md-7">View pricing</a>
+				</div>
 
-    <script>
-    (function($) {
-        $.fn.extend({
-            rotaterator: function(options) {
-                var defaults = {
-                    child: null
-                };
-                var options = $.extend(defaults, options);
-                return this.each(function() {
-                    var o = options;
-                    var obj = $(this);
-                    var items = $(obj.children(), obj);
-                    items.each(function() {
-                        $(this).hide();
-                    })
-                    if (!o.child) {
-                        var next = $(obj).children(':first');
-                    } else {
-                        var next = o.child;
-                    }
-                    $(next).fadeIn(o.fadeSpeed, function() {
-                        $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
-                            var next = $(this).next();
-                            if (next.length == 0) {
-                                next = $(obj).children(':first');
-                            }
-                            $(obj).rotaterator({
-                                child: next,
-                                fadeSpeed: o.fadeSpeed,
-                                pauseSpeed: o.pauseSpeed
-                            });
-                        })
-                    });
-                });
-            }
-        });
-    })(jQuery);
-    $(document).ready(function() {
-        $('#rotate').rotaterator({
-            fadeSpeed: 400,
-            pauseSpeed: 1300
-        });
-    }); 
-    </script>
-        <div class="homepage-banner">
-        
-            <div class="container h-100">
-        
-                <div class="row h-100">
-        
-                    <div class="col-md-10 offset-md-1 align-self-center text-center pb-0">
-        
-                            <img src="https://crl2020.imgix.net/img/stacked-logo-hr.png?auto=format,compress" alt="cockroachdb" loading="lazy" width="204" height="154" style="max-width: 204px; margin: auto; display: block;" />
-        
+			</div>
+		</div>
+	</div>
+</div>
 
-                            <h2 class="text-white mb-2 mt-6">
-                                <span class="subheadline">The latest release of our distributed SQL database is here</span>
-                            </h2>
-                                
-                            <h1 class="mt-0 mb-3">Run your data-intensive applications anywhere and everywhere</h1>
-    
-        
-                    
-    
-                            <p class="mono">/* Announcing Microsoft Azure support for CockroachDB dedicated, on-demand global clusters, version 23.1, and more.
-                                */</p>
-        
-                            <a href="https://www.cockroachlabs.com/whatsnew/" class="btn btn-lg btn-primary mt-6 clearfix">Get all the details<img src="https://d33wubrfki0l68.cloudfront.net/137989d7aeeb01bed16bedbe1e2322e5ca4c3afe/da6bd/img/right-arrow.svg" class="ml-4" ></a>
-        
-                    </div>
-        
-                </div>
-                
-            </div>
-        
-        </div>
-    
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<div class="container">
-<div class="py-6 px-2 p-md-6">
+<div class="logo-section  p-4 p-md-8 pb-md-6 pt-md-6">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="h1 mb-2">The database built for when the app is the business</h2>
+				<p class="mb-2">Industry leaders trust their most important workloads to CockroachDB</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-  
-  <ul class="nav homepage-tab-nav" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="pill" href="#home">Scale fast.</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu1">Survive disaster.</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu2">Thrive everywhere.</a>
-    </li>
-  </ul>
-
-  <div class="tab-container-shadow">
-
-  
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-        <div class="section1 pt-6">
-            <div class="row h-100">
-                <div class="col-md-12">
-                    <img src="https://crl2020.imgix.net/img/scale-fast-rev.png?auto=format,compress&w=1420" alt="true elastic scale" class="img-fluid" loading="lazy" />
-                </div>
-                <div class="col-md-6 offset-md-3 align-self-center pt-6 text-center">
-                    <h2 class="mt-0 pt-0 mb-3 text-white">True elastic scale</h2>
-                    <p class="text-white">CockroachDB makes scale so simple, you don't have to think about it. It automatically distributes data and workload demand. Break free from manual sharding and complex workarounds.
-
-                    </p>
-                    </div>
-
-            </div>
-        </div>
+  <div class="tab-content position-relative mt-2 pb-8">
+    <div class="tab-pane fade show active" id="section1">
+		<div class="lightbox-overlay">
+			<div class="lightbox-content">
+				<span class="close-button">&times;</span>
+				<div class="lightbox-content-text">
+					<img class="mb-4" src="https://d33wubrfki0l68.cloudfront.net/546cb7deb7ef266035726f4091398bed1ff57d34/e03f0/img/quote-open-product.png" width="45">
+					<p></p>
+				<div class="quote-author d-block mb-3 mt-4">-<span></span></div>
+				<a href="#" class="btn white-btn">Read the case study</a>
+				</div>
+			</div>
+		</div>
+		<div class="slick-wrapper-holder">
+			<div class="slick-wrapper">
+				<div id="slick1">
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="We have a highly complex transaction environment where we are continually searching for simplicity, scalability, and robustness. Fortunately we also have CockroachDB." data-link="https://www.cockroachlabs.com/customers/nubank/" data-author="Gabriel Melo, Engineering Manager, nu bank"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/4567521518a4035c9899db9d148f76199351ef7e/f1c24/img/logo-grid-img/nubank.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="Yeah the tech is really cool, and it works great. But even more importantly, we trust our business to run on CockroachDB. It’s storing our critical assets for us which is our customer data." data-link="https://www.cockroachlabs.com/customers/eliminating-data-silos-for-distributed-workloads/" data-author="Ken Pickering, VP of Engineering"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/c8d52c29ca1efc8a26ee5445bea7dd7c3a3a24d2/fb703/img/starburst_logo_notag_rgb.jpeg"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="When I first learned the migration to CockroachDB was my responsibility, I set it up on my local machine and I tried to kill it. I tried to knock it over, and I thought my laptop was malfunctioning. It started to heat up and the fan was whirling like a jet engine, and I couldn't knock it over. I think CockroachDB is a really appropriate name for a technology that is so resilient." data-link="https://www.cockroachlabs.com/customers/spreedly/" data-author="Scott Traver Staff Engineer on the Application Architecture Team, Spreedly"><img class="img-fluid" src="/img/logo-grid-img/Spreedly_Logo-color 1.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="With CockroachDB, the complexity is not in the application layer, a majority of it is handled by the database. This makes it substantially easier to build multi-region services." data-link="https://www.cockroachlabs.com/customers/shipt/" data-author="David Templin, Senior Software Engineer"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/19e7dba16868d0fb5d6895b3b7a0f483ee7bc156/85084/img/logo-grid-img/shipt.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-image="/img/logo-grid-img/devsisters-bg.png" data-text="Using a managed service greatly simplified our experience. We aren’t DBAs and we don’t want to be. With CockroachDB Dedicated, the infrastructure is managed by the experts that built the database. Our developers are more productive and we are actually saving time and resources." data-link="https://www.cockroachlabs.com/customers/salto/" data-author="Gorka Lerchundi, Engineering Manager & Tech Lead"><img class="img-fluid" src="/img/SALTO-logo-full 1.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="The support we received from the Cockroach Labs team saved us a tremendous amount of hours during the development cycle. We didn’t have to hire extra people to help us execute at a really fast pace. The support we received and the confidence we felt made a massive difference." data-author="Jordan Larrigan, Engineering Manager"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/59a7767ce0dbcb8af1f2d41836a8cd498d2af242/8c979/img/logo-grid-img/stashlogopurple.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="The most important thing about CockroachDB is that it provides a resilient database at planetary scale without the need of manual management and sharding. And we like their backup and restore features and point in time recovery." data-author="Pawel" data-link="https://www.cockroachlabs.com/customers/booksy/"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/c639f9375073ef83b6e2f238aa3c17c9319ac6f4/857f0/img/logo-grid-img/booksy-logo.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="This product use case had very specific requirements around data consistency, latency, and availability. CockroachDB offered a battle-tested solution that met those requirements and would allow us to easily scale horizontally and expand into different regions and clouds." data-link="https://www.cockroachlabs.com/customers/mux/" data-author="Faith Szeto, Software Engineer at Mux"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/6c2f0be27629afc5726114f7681c16c457985360/5c668/img/mux.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="It's the best of NoSQL in terms of horizontal scale, and the best of relational in terms of ACID compliance and write consistency so we don’t lose any payments. It’s the only offering we saw on the market that really solves that problem. And coupled with the fact that it’s super easy to run in Kubernetes, CockroachDB became an easy choice." data-link="https://www.cockroachlabs.com/customers/form3/" data-author="Kevin Holditch Head of Platform Engineering, Form3"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/540f493fd8ed167dcb664f6703120dc7fc294635/f4418/img/logo-grid-img/form3.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="Cockroach enables us to build software the way we want because the database takes care of operational problems automatically.  It gives us really really low friction to operate the application." data-author="Forster, CEO"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/0ad069a77eef063d18d74ac35e4e8d7309dfea28/8f22a/img/caos.svg"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item">
+						<div class="logo"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/af9d1889a70fa266666becd5feecec2b0b6cf6d9/cf18c/img/comcast.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="We have a highly complex transaction environment where we are continually searching for simplicity, scalability, and robustness. Fortunately we also have CockroachDB."><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/4567521518a4035c9899db9d148f76199351ef7e/f1c24/img/logo-grid-img/nubank.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="Yeah the tech is really cool, and it works great. But even more importantly, we trust our business to run on CockroachDB. It’s storing our critical assets for us which is our customer data." data-link="https://www.cockroachlabs.com/customers/eliminating-data-silos-for-distributed-workloads/" data-author="Ken Pickering, VP of Engineering"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/c8d52c29ca1efc8a26ee5445bea7dd7c3a3a24d2/fb703/img/starburst_logo_notag_rgb.jpeg"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item">
+						<a href="https://www.cockroachlabs.com/roachfest/2023/migration-to-managed-service/">
+						<div class="logo"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/7c6a50dd9ee993fffe2e231bc45323d0dd718d24/79ba8/img/fortinet-dark-logo.png"></div><span class="open-sign">+</span>
+						</a>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="When I first learned the migration to CockroachDB was my responsibility, I set it up on my local machine and I tried to kill it. I tried to knock it over, and I thought my laptop was malfunctioning. It started to heat up and the fan was whirling like a jet engine, and I couldn't knock it over. I think CockroachDB is a really appropriate name for a technology that is so resilient." data-link="https://www.cockroachlabs.com/customers/spreedly/" data-author="Scott Traver Staff Engineer on the Application Architecture Team, Spreedly"><img class="img-fluid" src="/img/logo-grid-img/Spreedly_Logo-color 1.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="With CockroachDB, the complexity is not in the application layer, a majority of it is handled by the database. This makes it substantially easier to build multi-region services." data-link="https://www.cockroachlabs.com/customers/shipt/" data-author="David Templin, Senior Software Engineer"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/19e7dba16868d0fb5d6895b3b7a0f483ee7bc156/85084/img/logo-grid-img/shipt.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-image="/img/logo-grid-img/devsisters-bg.png" data-text="Using a managed service greatly simplified our experience. We aren’t DBAs and we don’t want to be. With CockroachDB Dedicated, the infrastructure is managed by the experts that built the database. Our developers are more productive and we are actually saving time and resources." data-link="https://www.cockroachlabs.com/customers/salto/" data-author="Gorka Lerchundi, Engineering Manager & Tech Lead"><img class="img-fluid" src="/img/SALTO-logo-full 1.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="The support we received from the Cockroach Labs team saved us a tremendous amount of hours during the development cycle. We didn’t have to hire extra people to help us execute at a really fast pace. The support we received and the confidence we felt made a massive difference." data-author="Jordan Larrigan, Engineering Manager"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/59a7767ce0dbcb8af1f2d41836a8cd498d2af242/8c979/img/logo-grid-img/stashlogopurple.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="The most important thing about CockroachDB is that it provides a resilient database at planetary scale without the need of manual management and sharding. And we like their backup and restore features and point in time recovery." data-link="https://www.cockroachlabs.com/customers/booksy/" data-author="Pawel" ><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/c639f9375073ef83b6e2f238aa3c17c9319ac6f4/857f0/img/logo-grid-img/booksy-logo.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="This product use case had very specific requirements around data consistency, latency, and availability. CockroachDB offered a battle-tested solution that met those requirements and would allow us to easily scale horizontally and expand into different regions and clouds." data-link="https://www.cockroachlabs.com/customers/mux/" data-author="Faith Szeto, Software Engineer at Mux"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/6c2f0be27629afc5726114f7681c16c457985360/5c668/img/mux.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="It's the best of NoSQL in terms of horizontal scale, and the best of relational in terms of ACID compliance and write consistency so we don’t lose any payments. It’s the only offering we saw on the market that really solves that problem. And coupled with the fact that it’s super easy to run in Kubernetes, CockroachDB became an easy choice." data-link="https://www.cockroachlabs.com/customers/form3/" data-author="Kevin Holditch Head of Platform Engineering, Form3"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/540f493fd8ed167dcb664f6703120dc7fc294635/f4418/img/logo-grid-img/form3.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="Cockroach enables us to build software the way we want because the database takes care of operational problems automatically.  It gives us really really low friction to operate the application." data-author="Forster, CEO"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/0ad069a77eef063d18d74ac35e4e8d7309dfea28/8f22a/img/caos.svg"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="We have literally been unable to kill this thing. No matter what we’ve thrown at it." data-author="Dylan O’Mahony, Bose"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/b56234223ee41484922fedf04adc225249e746de/f8773/img/logo-grid-img/bose.png"></div><span class="open-sign">+</span>
+					</div>
+					<div class="slide-item has-case-study">
+						<div class="logo" data-text="When it comes to TCO, we are saving a tremendous amount of money and resources by using CockroachDB. It takes care of all the heavy lifting for our team, and allows us to focus on aggressively entering new markets and reaching our goals." data-link="https://www.cockroachlabs.com/customers/hard-rock-digital/" data-author="Mick Giles SVP & Head of Technology"><img class="img-fluid" src="https://d33wubrfki0l68.cloudfront.net/95ae96da9f7eb91326656ac8778917f05a26fe61/86d4e/img/logo-grid-img/hardrock.png"></div><span class="open-sign">+</span>
+					</div>
+					
+				</div>
+			</div>
+		</div>
     </div>
-    <div id="menu1" class="container tab-pane fade"><br>
-        <div class="section1 pt-6">
-            <div class="row h-100">
-                <div class="col-md-12">
-                    <img src="https://crl2020.imgix.net/img/survive-anything-rev.png?auto=format,compress&w=1420" alt="Indestructible data" class="img-fluid" loading="lazy" />
-                </div>
-                <div class="col-md-6 offset-md-3 align-self-center pt-6 text-center">
-                    <h2 class="mt-0 pt-0 mb-3 text-white">Indestructible data</h2>
-                    <p class="text-white">Downtime isn’t an option, and data loss destroys companies. CockroachDB is architected to handle unpredictability and survive machine, datacenter, and region failures.</p>
-                    </div>
-
-            </div>
-        </div>
-    </div>
-    <div id="menu2" class="container tab-pane fade"><br>
-        <div class="section1 pt-6">
-            <div class="row h-100">
-                <div class="col-md-12">
-                    <img src="https://crl2020.imgix.net/img/thrive-everywhere-rev.png?auto=format,compress&w=1420" alt="Local and global data" class="img-fluid" loading="lazy" />
-                </div>
-                <div class="col-md-6 offset-md-3 align-self-center pt-6 text-center">
-                    <h2 class="mt-0 pt-0 mb-3 text-white">Local and global data</h2>
-                    <p class="text-white">CockroachDB lets you scale across multiple regions and tie data to a location to ensure peak performance for local and global deployments. Row-level controls also help safeguard your business against ever-changing data privacy laws.</p>
-                    </div>
-
-            </div>
-        </div>
     </div>
   </div>
 </div>
-</div>
-
-
-    <div class="container pb-8 pt-lg-6">
-        <div class="row text-center pb-6 pt-7">
-            <div class="col-md-12">
-                <h2 class="m-0 text-white">Built for you</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mb-45 mb-md-0">
-                <div class="gradient1 homepage-card  h-100 border-0 text-center">
-                    <div class="card-body p-48 d-md-flex flex-md-column shadow ">
-                        <img loading="lazy"  class="m-auto" width="80" height="66" src="https://crl2020.imgix.net/img/icon-developer.png?auto=format,compress" alt="Developers">
-                        <h6 class="card-title mb-3 mt-45">Developers</h6>
-                        <div class="card-text mt-auto">
-                            <p class="mb-45">
-                                Build fast.<br>Built to last.
-                            </p>
-                            <a class="d-inline-flex stretched-link iridescent-blue" href="/developers/">Learn more <img class="ml-2 my-auto" loading="lazy"  src="https://crl2020.imgix.net/img/iridescent-arrow.png" width="31" height="16" alt="learn more">  </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-45 mb-md-0">
-                <div class="gradient2 homepage-card  h-100 border-0 text-center">
-                    <div class="card-body p-48 d-md-flex flex-md-column shadow ">
-                        <img loading="lazy" class="m-auto" width="80" height="74" src="https://crl2020.imgix.net/img/icon-architects.png?auto=format,compress" alt="Architects">
-                        <h6 class="card-title  mb-3 mt-45">Architects</h6>
-                        <div class="card-text mt-auto">
-                            <p class="mb-45">
-                                Data made easy.<br>Delivery made seamless.
-                            </p>
-                            <a class="d-inline-flex stretched-link iridescent-blue"
-                                href="https://www.cockroachlabs.com/resources/architect/">Learn more <img class="ml-2 my-auto" loading="lazy"
-                                src="https://crl2020.imgix.net/img/iridescent-arrow.png" width="31" height="16" alt="learn more"> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-45 mb-md-0">
-                <div class="gradient3 homepage-card  h-100 border-0 text-center">
-                    <div class="card-body p-48 d-md-flex flex-md-column shadow ">
-                        <img loading="lazy" class="m-auto" width="80" height="71" src="https://crl2020.imgix.net/img/icon-operators.png?auto=format,compress?w=1275?q=80" alt="DevOps / SRE">
-                        <h6 class="card-title mb-3 mt-45">DevOps / SRE</h6>
-                        <div class="card-text mt-auto">
-                            <p class="mb-45">
-                                Eliminate data toil.<br>Operate at scale.
-                            </p>
-                            <a class="d-inline-flex stretched-link iridescent-blue"
-                                href="https://www.cockroachlabs.com/resources/sre/">Learn more <img class="ml-2 my-auto " loading="lazy"  src="https://crl2020.imgix.net/img/iridescent-arrow.png" width="31" height="16" alt="learn more"> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <p class="h3 normal-font-weight text-center text-white">Startup friendly. Enterprise ready.</p>
-        <h3 class="h2 mb-6 text-center text-white">Trusted by innovators, big and small</h2>
-        <div class="carousel slide" data-ride="carousel" id="testimonialcarousel">
-            <div class="carousel-inner pb-0" style="background-color: #1d1a2b;">
-                <div class="carousel-item active" style="background-image: url('https://crl2020.imgix.net/img/crl-case-lush-1110x500@2x.jpg?auto=format,compress&w=1275?q=80');background-size: cover;">
-                    <div class="inner-case-study">
-                        <div class="row">
-                            <div class="col-lg-6 align-self-center p-6 testimonial-holder">
-                                <img class="mb-4" src='https://crl2020.imgix.net/img/lush-testimonial-logo.png?auto=format,compress' alt="lush logo" width="175" height="100">
-                                <p>“With CockroachDB, we can pick and choose where data is stored, satisfying both data sovereignty concerns and the need to have a global view of data.”</p><br>
-                                <br>
-                                <p class="author">Rob Reid, Principal Engineer</p>
-                                <p class="brand">Lush</p>
-                            </div>
-                            <div class="col-md-6 align-self-center"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="background-image: url('https://crl2020.imgix.net/img/crl-case-nubank-1110x500@2x.jpg?auto=format,compress&w=1275&q=80');background-size: cover;">
-                    <div class="inner-case-study">
-                        <div class="row">
-                            <div class="col-lg-6 align-self-center p-6 testimonial-holder">
-                                <img class="mb-4" src="https://crl2020.imgix.net/img/nubank-testimonial-logo.png?auto=format,compress" alt="nubank logo"  width="175" height="100">
-                                <p>“We have a highly complex transaction environment where we are continually searching for simplicity, scalability, and robustness. Fortunately we also have CockroachDB.”</p><br>
-                                <br>
-                                <p class="author">Gabriel Melo, Engineering Manager</p>
-                                <p class="brand">nu bank</p>
-                            </div>
-                            <div class="col-md-6 align-self-center"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="background-image: url('https://crl2020.imgix.net/img/crl-case-bose-1110x500@2x.jpg?auto=format,compress');background-size: cover;">
-                    <div class="inner-case-study">
-                        <div class="row">
-                            <div class="col-lg-6 align-self-center p-6 testimonial-holder">
-                                <img class="mb-4" src="https://crl2020.imgix.net/img/bose-testimonial-logo.png?auto=format,compress&w=1275?q=80" alt="bose logo"  width="175" height="100">>
-                                <p>“We have literally been unable to kill this thing. No matter what we’ve thrown at it.”</p><br>
-                                <br>
-                                <p class="author">Dylan O’Mahony</p>
-                                <p class="brand">Bose</p>
-                            </div>
-                            <div class="col-md-6 align-self-center"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#testimonialcarousel"></li>
-                <li data-slide-to="1" data-target="#testimonialcarousel"></li>
-                <li data-slide-to="2" data-target="#testimonialcarousel"></li>
-            </ol>
-        </div>
-    </div>
-</div>
-
-
-        <div class="logo-wrap">
-            <div class="logos"></div>
-        </div>
-
-    <div class="container btn-holder center mt-4 pb-5">
-        <div class="row">
-            <div class="col-sm-12">
-                <a class="btn white-btn-outline" href="/customers">View customer stories <img loading="lazy" alt="arrow" class="white-arrow ml-2" src="https://crl2020.imgix.net/img/white-arrow.png" width="31" height="16"></a>
-            </div>
-        </div>
-    </div>
-
-<div class="container">
-    <div class="get-started-callout mb-7">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="text-white mb-5">Get started for free</h2>
-                <a href="https://www.cockroachlabs.com/get-started-cockroachdb/" class="btn button">Get started <img
-                        src="https://crl2020.imgix.net/img/white-arrow.png" width="31" height="16" alt="arrow" /></a>
-                <a href="/pricing/" class="btn button outline btn-outline-white">Compare products <img loading="lazy" src="https://crl2020.imgix.net/img/white-arrow.png" width="31" height="16" alt="arrow" /></a>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-
 
 <script>
-    const SCROLL_SPEED = 0.3;
-    const CANVAS_WIDTH = 2800;
-    
-    const logosEl = document.querySelector('.logos');
-    const logoSpecs = [
-    { s: .95, x: 1174, y: 94  }, 
-      { s: .95, x: 1630, y: 243 }, 
-      { s: .95, x: 1751, y: 372 },
-      { s: .95, x: 2489, y: 77  },
-      { s: .95, x: 2714, y: 335 },
-      { s: .95, x: 2261, y: 355 },
-      { s: .95, x: 785,  y: 227 },
-      { s: .95, x: 266,  y: 255 },
-      { s: .95, x: 1200, y: 365 },
-      { s: .95, x: 434,  y: 191 },
-      { s: .95, x: 2535, y: 385 },
-      { s: .85, x: 1293, y: 194 },
-      { s: .85, x: 897,  y: 84  },
-      { s: .85, x: 623,  y: 322 },
-      { s: .85, x: 313,  y: 61  },
-      { s: .85, x: 59,  y: 304 },
-      { s: .85, x: 1430, y: 341 },
-      { s: .85, x: 1919, y: 92 },
-      { s: .85, x: 2125, y: 237 },
-      { s: .85, x: 2266, y: 81  },
-      { s: .85, x: 2644, y: 180 },
-      { s: .85, x: 2773, y: 62  },
-      {        x: 1509, y: 119 },
-      {        x: 1061, y: 234 },
-      {        x: 1763, y: 148 },
-      {        x: 2008, y: 386 },
-      {        x: 2413, y: 245 },
-      {        x: 891,  y: 386 },
-      {        x: 614,  y: 112 },
-      {        x: 65,   y: 104 },
-      {        x: 373,  y: 368 },
-      {        x: 2885, y: 222 },
-      {        x: 1890, y: 276  },
-      {        x: 2880, y: 376  },
-      {        x: 2050, y: 156  }
-    ];
-    
-    
-    class Logos {
-      constructor(specs) {
-        this.logos = [];
-    
-        specs.forEach((spec, index) => {
-          this.logos.push(new Logo(index, spec));
-        })
-        
-        requestAnimationFrame(this.update.bind(this));
-      }
-      
-      update() {
-        this.logos.forEach(logo => logo.update());
-        this.raf = requestAnimationFrame(this.update.bind(this))
-      }  
-    }
-    
-    
-    class Logo {
-      constructor(index, {x, y, s = 1}) {
-        this.index = index;
-        this.x = x;
-        this.y = y;
-        this.scale = s;
-    
-        this.el = document.createElement("div");
-        this.el.className = `logo logo${this.index + 1}`;
-        logosEl.appendChild(this.el);
-      }
-      
-      update() {
-        this.x = (this.x <  -200) ? CANVAS_WIDTH : this.x - SCROLL_SPEED; 
-        this.el.style.transform = `translate(${this.x}px, ${this.y}px) scale(${this.scale})`;
-      }
-    }
-    
-    const logos = new Logos(logoSpecs);
-        </script>
+	$(document).ready(function(){
+	  $('#slick1').slick({
+		rows: 2,
+		centerMode: true,
+		autoplay: false,
+		infinite: true,
+		autoplaySpeed: 0, 
+		cssEase: 'linear', 
+		slidesToShow: 6,
+		arrows: true,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 6,
+					infinite: true,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 5,
+					infinite: true,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 4,
+				}
+			},
+			{
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 3,
+				}
+			}
+			
+		]
+	  });
+	});
+	</script>
+<script>
+	$(document).ready(function () {
+		const lightboxOverlay = $('.lightbox-overlay');
+		const lightboxContentText = $('.lightbox-content-text p');
+		const lightboxContentAuthor = $('.lightbox-content-text .quote-author span');
+		const lightboxContentLink = $('.lightbox-content-text .white-btn');
+		const closeButton = $('.close-button');
+		const navlinkButton = $('.nav-link');
 
+		$('.slide-item.has-case-study').click(function () {
+			const logo = $(this).find(".logo");
+			const dataText = logo.data('text');
+			const dataAuthor = logo.data('author');
+			const dataLink = logo.data('link');
+
+			lightboxContentText.html(dataText);
+			lightboxContentAuthor.html(dataAuthor);
+
+			
+			if (dataLink) {
+				lightboxContentLink.attr('href', dataLink).show();
+			} else {
+				lightboxContentLink.hide();
+			}
+
+			lightboxOverlay.fadeIn().css('display', 'flex');
+			$('.tab-content').addClass('pause-scroll');
+			$('.logo-grid').addClass('blur-scroll');
+			$('html, body').animate({
+				scrollTop: $("#pills-tabContent").offset().top - 95
+			}, 300);
+			$('.lightbox-content-text a:not([href])').addClass('hidden');
+		});
+
+		function closeLightbox() {
+			lightboxOverlay.fadeOut().css('display', 'none');
+			$('.tab-content').removeClass('pause-scroll');
+		}
+
+		closeButton.click(closeLightbox);
+		navlinkButton.click(closeLightbox);
+	});
+</script>
+<style>
+.slick-wrapper-holder {
+	justify-content: center;
+}
+.slick-wrapper {
+	width: 100%;
+}
+.slide-item {
+	background-color: #fff;
+	color: #000;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	aspect-ratio: 1 / 1;
+	margin-bottom: 20px;
+	border: 1px solid white;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+	position: relative;
+	cursor: pointer;
+}
+h3 {
+	font-family: Lato, sans-serif;
+	font-size: 40px;
+}
+.open-sign {
+	position: absolute;
+	right: 5%;
+	bottom: 2%;
+}
+.logo-section {
+	position: relative;
+}
+.slick-wrapper-holder .slide-item img {
+	max-width: 90% !important;
+	margin: auto;
+}
+ 
+
+.lightbox-overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ffffff91;
+	z-index: 999;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(6px);
+}
+ 
+
+.lightbox-content {
+	padding: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+	max-width: 750px;
+	width: 80%;
+	height: 80%;
+	background: url("https://d33wubrfki0l68.cloudfront.net/a04eef04f9944532f89048a9475876b98398c18c/3aebb/img/quote-bg.png"), #fff;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+@media (max-width: 767px) {
+	.lightbox-content {
+	height: 100%;
+	}
+	.lightbox-content-text p {
+	font-size: 15px !important;
+	font-weight: 400;
+	color: #000;
+	font-family: "Poppins", sans-serif;
+}
+.lightbox-content-text .quote-author {
+	font-size: 14px !important;
+	font-weight: 600;
+	color: #000;
+	font-family: "Poppins", sans-serif;
+}
+}
+.lightbox-content-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.lightbox-content-text p {
+	font-size: 22px;
+	font-weight: 400;
+	color: #000;
+	font-family: "Poppins", sans-serif;
+}
+.lightbox-content-text .quote-author {
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+	font-family: "Poppins", sans-serif;
+}
+#lightbox-content-text .quote-author {
+	font-size: 16px;
+}
+.logo-section .white-btn {
+	background-color: white;
+	border-radius: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+	color: #000;
+	border: 2px solid black !important;
+}
+ 
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 35px;
+	color: #000;
+}
+.logo-section .nav-tabs {
+	margin-bottom: 70px;
+	border: none;
+}
+.logo-section .nav-tabs .nav-link {
+	font-size: 24px !important;
+	color: #000000;
+	border-bottom: 4px solid #AAAAAA;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.logo-section .nav-tabs .nav-link.active {
+	font-size: 24px !important;
+	color: #000000;
+	border-bottom: 4px solid #6933FF;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.logo-section .nav-item {
+	margin-right: 20px;
+}
+.slick-prev::before {
+	content: '←';
+}
+.slick-next::before {
+	content: '→';
+}
+.slick-prev {
+	left: 0;
+}
+.slick-next {
+	right: 0;
+}
+.slick-arrow:hover {
+	background-color: #6933FF;
+	color: white;
+}
+.tab-content>.tab-pane {
+	display: block;
+	height: 0px;
+	overflow: hidden;
+}
+.tab-content>.active {
+	height: auto;
+}
+.slide-item {
+	transition: .5s;
+}
+.slide-item.has-case-study:hover .open-sign {
+	color: #6933ff;
+}
+.slide-item.has-case-study:hover {
+	transition: .5s;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+</style>
+
+<div class="section-1" style="position: relative;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 align-self-center py-5">
+				<h2 class="mb-2">Scale to meet demand</h2>
+				<p>Database bottlenecks stifle business performance and growth. CockroachDB removes the complexity of manual sharding and scales horizontally as workload volumes increase.</p>
+			</div>
+			<div class="col-lg-7">
+				<div class="animation-holder">
+					<object data="/img/CRL-ANIM-Scaling_Up_and_Down_Oct12.svg" style="height: 100%;" type="image/svg+xml">
+					</object>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+<div class="section-2 section-3 mt-6 mb-6">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<div class="card px-5 py-6 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">SQL that scales horizontally</h3>
+					<p class="mb-4">A distributed system that feels like a single, logical database. Save time by eliminating the need to create and maintain separate database shards. Scale reads, writes, and database capacity by simply adding nodes. </p>
+					<a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/stable/architecture/overview">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-4">
+				<div class="card px-4 py-5 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">Built for transaction-heavy (OLTP) workloads</h3>
+					<p class="mb-4">CockroachDB speaks standard SQL and supports distributed, ACID-compliant transactions. Always know your data remains immediately correct — even as you scale. </p><a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/stable/transactions">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="quote-block-slider py-6 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-7 col-xl-5 order-lg-2 order-1 position-relative">
+				<div class="bg-quote-block-holder">
+					<div class="bg-quote-block"></div>
+					<div class="bg-quote-video" style="background-image: url('/img/vlad-netflix-overlay.jpg')">
+						<div class="button-holder modalButton" data-name="lYN9kJAYsfo" data-toggle="modal">
+							<span class="play-btn">&#9654;</span> <a class="btn btn-info btn-lg">Watch full interview</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-5 col-xl-7 order-lg-1 order-2">
+				<div class="quote-block mt-lg-8">
+					<img class="mb-4" src="https://d33wubrfki0l68.cloudfront.net/546cb7deb7ef266035726f4091398bed1ff57d34/e03f0/img/quote-open-product.png" width="45">
+					<p class="quote">CockroachDB has support for distributed transactions and multiple regions by default, which is what we are looking for because it makes it more reliable and scalable out of the box.</p>
+					<p class="author">— Vlad Sydorenko, Senior Engineer @ Netflix</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-1" style="position: relative;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 align-self-center py-5">
+				<h2 class="mb-5">Highly available by design</h2>
+				<p>Keep mission-critical applications online — even during regional outages and database upgrades. Continue delivering for customers without interruptions in service or revenue. </p>
+			</div>
+			<div class="col-lg-7">
+				<div class="animation-holder">
+					<object data="/img/3X-data-replication.svg" style="height: 100%;" type="image/svg+xml">
+					</object>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-2 section-3 mt-8 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<div class="card px-5 py-6 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">No database downtime</h3>
+					<p class="mb-4">CockroachDB continues to serve queries even when nodes, availability zones, and even entire regions fail. Perform maintenance — like online schema changes and rolling upgrades — without disrupting the customer experience. </p><a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/cockroachcloud/cluster-management">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-4">
+				<div class="card px-4 py-5 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">Multi-active availability</h3>
+					<p class="mb-4">With a multi-active architecture, you can take full advantage of your hardware; every machine can serve both reads and writes. You can tolerate failures without compromising availability. Unlike other availability designs, CockroachDB guarantees data consistency via consensus replication and allows you to achieve zero RPO / RTO. </p><a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/stable/multi-active-availability/">Learn more</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="quote-block-slider py-6 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-7 col-xl-5 order-lg-2 order-1 position-relative">
+				<div class="bg-quote-block-holder">
+					<div class="bg-quote-block"></div>
+					<div class="bg-quote-video" style="background-image: url('/img/james-hrd-overlay.png')">
+						<div class="button-holder modalButton" data-name="ESeGkk0K-wE" data-toggle="modal">
+							<span class="play-btn">&#9654;</span> <a class="btn btn-info btn-lg">Watch full interview</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-5 col-xl-7 order-lg-1 order-2">
+				<div class="quote-block mt-lg-8">
+					<img class="mb-4" src="https://d33wubrfki0l68.cloudfront.net/546cb7deb7ef266035726f4091398bed1ff57d34/e03f0/img/quote-open-product.png" width="45">
+					<p class="quote">One of the biggest things that surprised me about CockroachDB is that replication is not a problem anymore. It’s actually a solved problem.</p>
+					<p class="author">— James Lupolt, Database Engineer @ Hard Rock Digital
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-1" style="position: relative;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 align-self-center py-5">
+				<h2 class="mb-5">Control data placement and latency</h2>
+				<p>Run your application across multiple regions and clouds. Control where data resides and deliver low-latency experiences to customers everywhere.</p>
+			</div>
+			<div class="col-lg-7">
+				<div class="animation-holder">
+					<object data="/img/CRL-ANIM_Global-Regions-low-latency.svg" style="height: 100%;" type="image/svg+xml">
+					</object>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-2 section-3 mt-8 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<div class="card px-5 py-6 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">Multi-region, multi-cloud deployments</h3>
+					<p class="mb-4">CockroachDB is cloud native and flexible. Run on any combination of cloud(s) or on-premises infrastructure. Transfer apps and data between cloud environments to address regulations and avoid vendor lock-in.</p><a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/stable/multiregion-overview">Learn more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-4">
+				<div class="card px-4 py-5 px-3 h-100">
+					<div class="card-body">
+					<h3 class="mb-4">Put data in its place</h3>
+					<p class="mb-4">Pin data to cloud regions closest to end users to reduce latency with a multi-region deployment of CockroachDB. Configurable data domiciling policies help address compliance regulations and ensure data stays where it belongs.</p><a class="btn mt-auto" href="https://www.cockroachlabs.com/docs/stable/multiregion-overview">Learn more</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="quote-block-slider py-6 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-7 col-xl-5 order-lg-2 order-1 position-relative">
+				<div class="bg-quote-block-holder">
+					<div class="bg-quote-block"></div>
+					<div class="bg-quote-video" style="background-image: url('/img/david-starburst-overlay.png')">
+						<div class="button-holder modalButton" data-name="dy-mY2XRL_M" data-toggle="modal">
+							<span class="play-btn">&#9654;</span> <a class="btn btn-info btn-lg">Watch full interview</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-5 col-xl-7 order-lg-1 order-2">
+				<div class="quote-block mt-lg-8">
+					<img class="mb-4" src="https://d33wubrfki0l68.cloudfront.net/546cb7deb7ef266035726f4091398bed1ff57d34/e03f0/img/quote-open-product.png" width="45">
+					<p class="quote">CockroachDB is a good fit for storing customer metadata because it provides reliable and low latency access. No matter where the customer lives… We love that CockroachDB just works and solves a very difficult problem.</p>
+					<p class="author">— David Phillips, CTO @ Starburst</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom-section">
+	<div class="best-of-both-worlds">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 pr-5 py-8 position-relative bg-black">
+					<h2 class="mb-6">Operate efficiently in the cloud</h2>
+					<p>The secure, fully managed CockroachDB cloud platform virtually eliminates manual database operations and enables superior economics. Reallocate your technical talent to focus on feature development that fuels growth and reduces risky technical debt.</p><a class="btn mt-6" href="https://www.cockroachlabs.com/guides/do-more-with-less-with-distributed-sql/">See how</a>
+				</div>
+				<div class="col-md-6 pl-md-5 py-8 bg-purple">
+					<h2 class="mb-6">Faster, smoother migrations</h2>
+					<p>Running PostgreSQL-compatible CockroachDB means you can migrate existing applications and services quickly. And the MOLT Live migration tool simplifies the end-to-end migration lifecycle. </p><a class="btn mt-6" href="https://www.cockroachlabs.com/docs/stable/migration-overview">See how</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="quote-block-slider py-6 mb-8">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-7 col-xl-5 order-lg-2 order-1 position-relative">
+				<div class="bg-quote-block-holder">
+					<div class="bg-quote-block"></div>
+					<div class="bg-quote-video" style="background-image: url('/img/spreedly-video.png')">
+						<div class="button-holder modalButton" data-name="aP_0vAt7PPA" data-toggle="modal">
+							<span class="play-btn">&#9654;</span> <a class="btn btn-info btn-lg">Watch full interview</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-5 col-xl-7 order-lg-1 order-2">
+				<div class="quote-block mt-lg-8">
+					<img class="mb-4" src="https://d33wubrfki0l68.cloudfront.net/546cb7deb7ef266035726f4091398bed1ff57d34/e03f0/img/quote-open-product.png" width="45">
+					<p class="quote">The migration process has gone on without a hitch. CockroachDB is extremely resilient and has been much easier to manage. It provides monitoring and alerting, rolling upgrades and other features that have lowered maintenance. We’ve actually upgraded several times through the process and it’s been seamless.</p>
+					<p class="author">-Scott Travers, Staff Engineer @ Spreedly</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function(e) {
+  $('#videoModal').modal({
+    backdrop: 'static',
+    keyboard: false,
+    show: false,
+  });
+  $(document).on("click", ".modalButton", function() {
+    var ClickedButton = $(this).data("name");
+    $(".modal-body").html('<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + ClickedButton + '" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"></iframe></div>');
+    $('#videoModal').modal('show');
+  });
 
+});
+</script>
+
+<div class="modal fade" id="videoModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315"  src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+	.modal {
+		background: #000000ba;
+	}
+	.modal-content {
+		background-color: transparent;
+		border: none;
+		padding-top: 30px;
+	}
+	.modal-dialog {
+		max-width: 580px !important;
+	}
+	.modal-header {
+		border: none;
+		text-align: right;
+    	display: block;
+    	padding-bottom: 0;
+	}
+	.modal-header .close {
+		background-color: transparent;
+    	color: white;
+    	border: none;
+    	font-size: 30px;
+	}
+	.modal-dialog iframe {
+		width: 560px;
+    	height: 315px;
+	}
+	.modalButton .btn {
+		margin: auto;
+    	display: block;
+    	background: transparent;
+    	color: white;
+    	border: none;
+    	font-weight: 600;
+	}
+	.modalButton .btn:hover {
+		border: none;
+		background-color: transparent;
+		color: white;
+		box-shadow: none;
+	}
+	
+  </style>
 
 
     
@@ -1927,5 +2227,5 @@ function OptanonWrapper() { }
     
     <link rel="stylesheet" href="/css/katex.min.css">
   
-<script async id="netlify-rum-container" src="https://netlify-rum.netlify.app/netlify-rum.js" data-netlify-rum-site-id="dc444f77-e72a-4e8b-b364-d5904ea311de" data-netlify-deploy-branch="master" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiZGM0NDRmNzctZTcyYS00ZThiLWIzNjQtZDU5MDRlYTMxMWRlIiwiYWNjb3VudF9pZCI6IjViNGY5Y2FkYzZhZWQ2NDFlZDc4NDc3YSIsImRlcGxveV9pZCI6IjY1ODA0Y2NiMmNmMGE0MDAwODQ3N2JkMiIsImlzc3VlciI6Im5mc2VydmVyIn0.ATxEXXVGhIFaZGxjT9WS5kdwzZsW3nhp8UTONhq5pAY"></script></body>
+<script async id="netlify-rum-container" src="https://netlify-rum.netlify.app/netlify-rum.js" data-netlify-rum-site-id="dc444f77-e72a-4e8b-b364-d5904ea311de" data-netlify-deploy-branch="master" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiZGM0NDRmNzctZTcyYS00ZThiLWIzNjQtZDU5MDRlYTMxMWRlIiwiYWNjb3VudF9pZCI6IjViNGY5Y2FkYzZhZWQ2NDFlZDc4NDc3YSIsImRlcGxveV9pZCI6IjY1OTQxOWY3ODA5NTZjMDAwODAwMDI4NCIsImlzc3VlciI6Im5mc2VydmVyIn0.fgVikqyYOjx9F9t5lFt_9rPjoZHxRNMHXTagEeKZMXo"></script></body>
 </html>

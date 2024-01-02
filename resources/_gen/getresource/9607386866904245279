@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Content-Security-Policy: default-src https://jadelsbach.de;form-action 'self';base-uri 'self';img-src 'self';script-src 'self' 'unsafe-inline';object-src 'none';style-src 'self' 'unsafe-inline'; frame-ancestors 'self'
 Content-Type: text/html
-Date: Mon, 18 Dec 2023 19:32:14 GMT
-Etag: W/"655086b2-75ef"
-Last-Modified: Sun, 12 Nov 2023 08:02:58 GMT
+Date: Tue, 02 Jan 2024 15:45:39 GMT
+Etag: W/"658d4ee5-7b8e"
+Last-Modified: Thu, 28 Dec 2023 10:33:09 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -45,7 +45,7 @@ X-Xss-Protection: 1; mode=block
     
 
     
-    <meta name="generator" content="Hugo 0.120.3">
+    <meta name="generator" content="Hugo 0.121.1">
 </head>
 
 <body>
@@ -77,6 +77,176 @@ X-Xss-Protection: 1; mode=block
 </header>
 
     <section id="main" class="outer">
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/25-12-2023-lvps/">±340V, 170V DC Power Supply</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/25-12-2023-lvps/" class="article-date">
+                        <time datetime='2023-12-25T13:59:07.000&#43;01:00' itemprop="datePublished">2023-12-25</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/25-12-2023-lvps/"><img width=1000 height=100 alt="Banner" src="/post/25-12-2023-lvps//banner.jpg"></a><br>
+                    Built this the other day to have a more accessible higher voltage DC.
+The circuit is straight forward, a voltage multiplier giving ±340V off the 230Vac secondary of the transformer and another a half rectifier from the transformer&rsquo;s 115Vac secondary to also provide 170V. I also added a small neon indicator to show whether the two main reservoir capacitors of the ±340V are still carrying a charge. The output is limited with power resistors.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/25-12-2023-lvps/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/projects">projects
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/high-voltage">high voltage
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/power-supply">power supply
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/25-12-2023-hvps/">1.25kV High-Voltage Power Supply Mk2</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/25-12-2023-hvps/" class="article-date">
+                        <time datetime='2023-12-25T13:38:10.000&#43;01:00' itemprop="datePublished">2023-12-25</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/25-12-2023-hvps/"><img width=1000 height=100 alt="Banner" src="/post/25-12-2023-hvps//banner.jpg"></a><br>
+                    I decided to redo my old 1.25kV PMT Bias Power Supply. In particular I wanted the supply to run without a central power supply and added a small transformer and linear regulator so I can run it off mains. I also replaced the TNC connector with two safety 4mm banana connectors. The voltage divider for the multimeter is now on the HV board itself, rather than floating in the air.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/25-12-2023-hvps/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/projects">projects
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/high-voltage">high voltage
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/power-supply">power supply
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/25-12-2023-se306-1-2/">Repairing a SE.306.1-2 Power Supply</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/25-12-2023-se306-1-2/" class="article-date">
+                        <time datetime='2023-12-25T01:16:41.000&#43;01:00' itemprop="datePublished">2023-12-25</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/25-12-2023-se306-1-2/"><img width=1000 height=100 alt="Banner" src="/post/25-12-2023-se306-1-2//banner.jpg"></a><br>
+                    I recently got this old power supply in an untested condition. It has an unregulated -24V DC output, as well as a regulated -14V output, cumulative 500mA max.
+It is not really suitable as a laboratory power supply, as over current protection is done using a fuse on the secondary transformer side. A pretty neat feature however is the overload indicator, if the unregulated voltage rail drops too much it will light up way before there is a risk of the fuse blowing.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/25-12-2023-se306-1-2/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/power-supply">power supply
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ddr">ddr
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/repair">repair
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
         
         <article class="article article-type-post" itemscope itemprop="blogPost">
             <div class="article-inner">
@@ -451,162 +621,6 @@ Not too much to say about it really.
                         
                         <li class="article-tag-list-item">
                             <a class="article-tag-list-link" href="https://jadelsbach.de//tags/relay">relay
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/photo/teufelsburg-08-2023/">Teufelsburg (Saarland)</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/photo/teufelsburg-08-2023/" class="article-date">
-                        <time datetime='2023-08-15T03:16:18.000&#43;02:00' itemprop="datePublished">2023-08-15</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/photo/teufelsburg-08-2023/"><img width=1000 height=100 alt="Banner" src="/photo/teufelsburg-08-2023//banner.jpg"></a><br>
-                    All pictures taken with my Sony SLT-a77 with a Sony DT 18-55mm F3.5-5.6 SAM and Tamron SP AF 70-300 F/4-5.6 Di VC USD objective.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/photo/teufelsburg-08-2023/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ruin">ruin
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/castle">castle
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/photo/chateau-du-falkenstein-06-23/">Château du Falkenstein</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/photo/chateau-du-falkenstein-06-23/" class="article-date">
-                        <time datetime='2023-06-12T23:45:18.000&#43;02:00' itemprop="datePublished">2023-06-12</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/photo/chateau-du-falkenstein-06-23/"><img width=1000 height=100 alt="Banner" src="/photo/chateau-du-falkenstein-06-23//banner.jpg"></a><br>
-                    All pictures taken with my Sony SLT-a77 with a Minolta AF 28-100mm F3.5-F5.6, Minolta AF 50mm F1.7 and Tamron SP AF 70-300 F/4-5.6 Di VC USD.
-Unfortunately we got extreme sun on that day, so it was always a game of finding the right exposure compensation.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/photo/chateau-du-falkenstein-06-23/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ruin">ruin
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/castle">castle
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/photo/dresden-05-2023/">Dresden May 2023</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/photo/dresden-05-2023/" class="article-date">
-                        <time datetime='2023-05-27T21:02:21.000&#43;02:00' itemprop="datePublished">2023-05-27</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/photo/dresden-05-2023/"><img width=1000 height=100 alt="Banner" src="/photo/dresden-05-2023//banner.jpg"></a><br>
-                    All pictures taken with my Sony SLT-a77 with a Minolta AF 28-100mm F3.5-F5.6 and Sony DT 18-55mm F3.5-5.6 SAM objective.
-Fürstenzug Dresden Zwinger Dresden Zwinger was partially closed for construction at the time of my visit.
-Architecture View Japanisches Palais 
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/photo/dresden-05-2023/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/architecture">architecture
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/dresden">dresden
                             </a>
                         </li>
                         

@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Dec 2023 19:32:01 GMT
-Etag: W/"6530329c-524d"
-Expires: Mon, 18 Dec 2023 19:42:01 GMT
-Last-Modified: Wed, 18 Oct 2023 19:31:40 GMT
+Date: Tue, 02 Jan 2024 15:45:25 GMT
+Etag: W/"6585e7d0-5422"
+Expires: Tue, 02 Jan 2024 15:55:25 GMT
+Last-Modified: Fri, 22 Dec 2023 19:47:28 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 9699a9b5f76ea270a7bbaa0659cfb490b9c795d4
-X-Github-Request-Id: EAEC:4BE0:20E5EF:2C3AC2:65809E31
+X-Fastly-Request-Id: 8c3d46379fdce9f5d5cb3c6db803e03badc12ab1
+X-Github-Request-Id: 30CA:0B76:24F8BFB:32B8C94:65942F92
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1535-YVR
-X-Timer: S1702927921.425327,VS0,VE88
+X-Served-By: cache-yvr1527-YVR
+X-Timer: S1704210326.728954,VS0,VE79
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1702927921.425327,VS0,VE88
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.120.0-DEV">
+    <meta name="generator" content="Hugo 0.122.0-DEV">
     
     
     
@@ -63,8 +63,7 @@ X-Timer: S1702927921.425327,VS0,VE88
 <meta property="og:url" content="https://pretired.dazwilkin.com/" />
 
 <meta itemprop="name" content="(p)retired">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="(p)retired"/>
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="(p)retired"/>
 <meta name="twitter:description" content=""/>
 
       
@@ -201,6 +200,32 @@ X-Timer: S1702927921.425327,VS0,VE88
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/231222/" class="color-inherit dim link">
+            Listing Cloud Logging log-based metrics using gRPC
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Referring to Accessing Google Services using gRPC, I wanted to query a project&rsquo;s Cloud Logging for log-based metrics using gRPC.
+In summary:
+ENDPOINT=&#34;logging.googleapis.com:443&#34; ROOT=&#34;/path/to/googleapis&#34; # https://github.com/googleapis/googleapis PACKAGE=&#34;google/logging/v2&#34; # NB Not logging.proto PROTO=&#34;${ROOT}/${PACKAGE}/logging_metrics.proto&#34; TOKEN=$(gcloud auth print-access-token) PROJECT=&#34;...&#34; PACKAGE=&#34;google.logging.v2&#34; SERVICE=&#34;MetricsServiceV2&#34; METHOD=&#34;${PACKAGE}.${SERVICE}/ListLogMetrics&#34; # ListLogMetricsRequest fields PARENT=&#34;projects/${PROJECT}&#34; grpcurl \ --import-path=${ROOT} \ --proto=${PROTO} \ -H &#34;Authorization: Bearer ${TOKEN}&#34; \ -d &#34;{\&#34;parent\&#34;: \&#34;${PARENT}\&#34;}&#34; \ ${ENDPOINT} ${METHOD} From APIs Explorer, Cloud Logging API v2, instead of the REST reference, browse the gRPC reference specifically the package google.
+        </div>
+          <a href="/posts/231222/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/231018/" class="color-inherit dim link">
             Prometheus Operator support an auth proxy for Service Discovery
             </a>
@@ -246,39 +271,18 @@ I&rsquo;m unsure how to effect these changes and unsure whether documentation ex
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/231013/" class="color-inherit dim link">
-            Prometheus Operator `ScrapeConfig`
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          TL;DR Enable ScrapeConfig to use (discovery|target) proxies
-I&rsquo;ve developed a companion, local daemon (called ackalctld) for Ackal that provides a functionally close version of the service.
-One way to deploy ackalctld is to use Kubernetes and it would be convenient if the Prometheus metrics were scrapeable by Prometheus Operator.
-In order for this to work, Prometheus Operator needs to be able to scrape Google Cloud Run targets because ackalctld creates Cloud Run services for its health check clients.
-        </div>
-          <a href="/posts/231013/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/231013/" class="link black dim">
+              Prometheus Operator `ScrapeConfig`
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/230709/" class="link black dim">
@@ -295,12 +299,6 @@ In order for this to work, Prometheus Operator needs to be able to scrape Google
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/230622/" class="link black dim">
               GoatCounter with Hugo with Ananke
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230607/" class="link black dim">
-              Python Protobuf changes
             </a>
           </h2>
         

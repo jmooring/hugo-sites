@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8379d4484b4a3078-SEA
+Cf-Ray: 83f420f0cee6c381-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Mon, 18 Dec 2023 19:31:59 GMT
-Last-Modified: Mon, 18 Dec 2023 17:15:00 GMT
+Date: Tue, 02 Jan 2024 15:45:22 GMT
+Last-Modified: Mon, 01 Jan 2024 17:10:08 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=00vFYQVA7OA70vxReP2BvXZNSQfTWGSI.MBdjQ3Lb40-1702927919-1-AVy1KHl8P1p/Mtp7bA7/yfxgdTFz1Anp4ppZ9sIAUJ+nJ7cgnH/kQWp+lYsjaVPMJ90h85Fav27gI5wPW84ZPlI=; path=/; expires=Mon, 18-Dec-23 20:01:59 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=PgCDmP2OlKd2s5fM7zLr.JfhZY8wOmJ3aqcsGuRKVuQ-1702927919-1-AbneHmH5zY2HpdUTaLYymnvD1sZALEYuqKGaIsuryMfhQJZPR1lzVaffjUWcz8v8O+zc9fW9KDHiPtzVwhHoP5JgscXEYRcGCeu8cESDvr0f; path=/; expires=Mon, 18-Dec-23 20:01:59 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=owAZh1dgOMAeIKAJHU4sPKa2H1Pu6p.S7egEpW05HKE-1704210322-1-ARndyKeRw5hWsAkJAIBMCw6KByC2/TkQ1RPClRYBf2MyGuLq/YeoxI138VYIfaWTfX2RftWUhdFhrUTDZNuGuWg=; path=/; expires=Tue, 02-Jan-24 16:15:22 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=Rn0Q6tkT6dLV.JQYrAO6itRCFIoz8UYNCVP3Le5MK3Q-1704210322-1-Ac/R6PcjvMyDXEK3A7zCJeyyU6K+VGVe3/51EhtdtnftinWpwTqID1zzl9vACvrTUKh+YJSD8ikzONAIP36C957Zl0f+n8ERlk377O92CJBn; path=/; expires=Tue, 02-Jan-24 16:15:22 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
-X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
+X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
 X-Do-Orig-Status: 200
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
@@ -308,17 +308,48 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="8-december-2023">8 December 2023</h3>
+<h3 id="21-december-2023">21 December 2023</h3>
 <ul><li>
-            <p>Released <a href="https://github.com/digitalocean/doctl/releases/tag/v1.101.0">v1.101.0 of doctl</a>, the official DigitalOcean CLI. This release adds support for scalable storage for PostgreSQL and MySQL databases and Kafka topic management.</p>
-        </li></ul><h3 id="5-december-2023">5 December 2023</h3>
-<ul><li>
-            <p>Fedora 37 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is now only available via the API. We will remove the Fedora 37 image from our platform in 30 days.</p>
-        </li></ul><h3 id="4-december-2023">4 December 2023</h3>
-<ul><li>
-            <p><p>You can now add additional storage independently from your chosen database configuration plan when creating or resizing Kafka clusters on DigitalOcean. This provides a more economic option for increasing storage, rather than upgrading your cluster&rsquo;s entire plan.</p>
-<p>For more details, see our guides on how to <a href="/products/databases/kafka/how-to/resize/">resize Kafka clusters</a>.</p>
+            <p><p>NVIDIA H100 GPUs are now available both on-demand and for guaranteed capacity reservations in the <code>NYC2</code> region via Paperspace&rsquo;s sales team.</p>
+<ul>
+<li>Ubuntu 20.04 ML-in-a-Box template supports all GPUs except NVIDIA H100s. Ubuntu 22.04 ML-in-a-Box template is now available for NVIDIA H100 and A100-80G GPUs.</li>
+<li>For more information on Paperspace NVIDIA H100s, see our <a href="/products/paperspace/machines/reference/h100/">NVIDIA H100 Reference page</a>.</li>
+</ul>
 </p>
+        </li><li>
+            <p>Gradient Deployments can now be created with secured endpoints using basic access authentication encoded tokens. For more information, see <a href="/products/paperspace/deployments/reference/endpoint-security/">Endpoint Security</a>.</p>
+        </li><li>
+            <p>We have released an updated Container Registry experience to give customers enhanced management of their private registries. This includes additional features to add, validate, and edit containers, as well as changes to ensure Gradient Deployments with containers start successfully. For more information, see <a href="/products/paperspace/notebooks/how-to/manage-containers/">Manage Containers</a>.</p>
+        </li></ul><h3 id="19-december-2023">19 December 2023</h3>
+<ul><li>
+            <p><p>Ubuntu-18 will be deprecated for App Platform apps in 2024. We recommended that all apps <a href="/products/app-platform/how-to/change-stack/">upgrade to Ubuntu-22</a> as soon as possible.</p>
+<p>We have updated the following buildpacks:</p>
+<ul>
+<li><a href="/products/app-platform/reference/buildpacks/php/">PHP buildpack</a>: Updates to PHP v2 buildpack are listed below. If you are on Ubuntu-22 and have an existing PHP app that is on v0 or v1, we recommend <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrading to v2</a>.
+<ul>
+<li>PHP buildpack v2:
+<ul>
+<li>Add PHP/8.2.11 - PHP/8.2.12</li>
+<li>Add PHP/8.1.24 - PHP/8.1.25</li>
+<li>Upgrade ext-Redis to 6.0.2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/products/app-platform/reference/buildpacks/nodejs/">NodeJS buildpack</a>: A new NodeJS v1 buildpack version has been released that has an updated default version of NodeJS v20 for Ubuntu-22. If you are on Ubuntu-22 and have an existing NodeJS app that is on v0, we recommend <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrading to v1</a>.
+<ul>
+<li>NodeJS buildpack v1:
+<ul>
+<li>Default NodeJS version is now 20.x for Ubuntu-22 apps.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</p>
+        </li></ul><h3 id="14-december-2023">14 December 2023</h3>
+<ul><li>
+            <p>DigitalOcean <a href="https://www.digitalocean.com/blog/paperspace-joins-digitalocean">acquired Paperspace on 6 July 2023</a>. See <a href="https://updates.paperspace.com/">Paperspace changelog</a> for the new Paperspace products and features released prior to 14 December, 2023.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 11126
+Age: 5281
 Content-Type: text/html
-Date: Mon, 18 Dec 2023 19:32:01 GMT
-Etag: "21364-60cb87affc8bb-gzip"
-Last-Modified: Sun, 17 Dec 2023 18:05:37 GMT
+Date: Tue, 02 Jan 2024 15:45:22 GMT
+Etag: "21255-60dcc78c52fa7-gzip"
+Last-Modified: Sun, 31 Dec 2023 11:21:50 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 44, 0
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300043-BFI
-X-Timer: S1702927921.377458,VS0,VE1
+X-Cache-Hits: 15, 0
+X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300049-BFI
+X-Timer: S1704210323.736608,VS0,VE1
 
 
 
@@ -78,8 +78,8 @@ X-Timer: S1702927921.377458,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.29d5507753e52c1739b6cd1058be3a465ef87e43556024e4f28b6c9d20828b1c.css" as="style">
-    <link href="/scss/main-custom.min.29d5507753e52c1739b6cd1058be3a465ef87e43556024e4f28b6c9d20828b1c.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" as="style">
+    <link href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" rel="stylesheet" integrity="">
 
 
 
@@ -115,10 +115,7 @@ X-Timer: S1702927921.377458,VS0,VE1
     
 
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeI7wAzHmxj9onIFUtb7NTubdonthKLW8xS-VO-1nS07Jz2Dw/viewform" target="_blank" class="d-block fixed-top px-3 py-2 bg-success text-center text-bold text-white">
-    The Airflow Survey is live. Fill it out to receive a prize at the end!
-</a>
-<nav class="js-navbar-scroll navbar" style="top: 40px;">
+<nav class="js-navbar-scroll navbar">
     <div class="navbar__icon-container">
         <a href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="155.314" height="60" viewBox="0 0 155.314 60">
@@ -1209,12 +1206,12 @@ X-Timer: S1702927921.377458,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-elasticsearch/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-postgres/stable/operators/postgres_operator_howto_guide.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Elasticsearch</span>
+        <span class="box-event__integration--name">PostgreSQL</span>
     </div>
 </div>
 
@@ -1222,12 +1219,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-apache-spark/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-beam/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Apache Spark</span>
+        <span class="box-event__integration--name">Apache Beam</span>
     </div>
 </div>
 
@@ -1235,12 +1232,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-jira/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Microsoft Azure Data Explorer</span>
+        <span class="box-event__integration--name">Atlassian Jira</span>
     </div>
 </div>
 
@@ -1248,12 +1245,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/quicksight.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/s3.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon QuickSight</span>
+        <span class="box-event__integration--name">Amazon Simple Storage Service (S3)</span>
     </div>
 </div>
 
@@ -1261,12 +1258,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/spanner.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Key Management Service (KMS)</span>
+        <span class="box-event__integration--name">Google Cloud Spanner</span>
     </div>
 </div>
 
@@ -1274,12 +1271,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/eks.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/functions.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Elastic Kubernetes Service (EKS)</span>
+        <span class="box-event__integration--name">Google Cloud Functions</span>
     </div>
 </div>
 
@@ -1287,12 +1284,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-singularity/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/emr_eks.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Singularity</span>
+        <span class="box-event__integration--name">Amazon EMR on EKS</span>
     </div>
 </div>
 
@@ -1300,12 +1297,12 @@ X-Timer: S1702927921.377458,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-databricks/stable/operators/submit_run.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/kubernetes_engine.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Databricks</span>
+        <span class="box-event__integration--name">Google Kubernetes Engine</span>
     </div>
 </div>
 

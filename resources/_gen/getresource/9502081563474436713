@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 3334
 Content-Type: text/html
-Date: Mon, 18 Dec 2023 19:32:13 GMT
-Etag: "5b68-60ccdbbcf06c0-gzip"
-Last-Modified: Mon, 18 Dec 2023 19:26:59 GMT
+Date: Tue, 02 Jan 2024 15:45:36 GMT
+Etag: "5a2e-60d936da2bfc0-gzip"
+Last-Modified: Thu, 28 Dec 2023 15:18:31 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
+X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400091-BFI
-X-Timer: S1702927933.324973,VS0,VE89
+X-Served-By: cache-bfi-krnt7300076-BFI
+X-Timer: S1704210337.610490,VS0,VE0
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -254,12 +254,10 @@ X-Timer: S1702927933.324973,VS0,VE89
           enterprises and service providers, offering a robust and stable platform
           on top of which organizations can build distributed computing systems.</p>
 
-        <p>ISC DHCP implements the Dynamic Host Configuration Protocol for connection
-          to an IP network, offering a complete solution for implementing DHCP
-          servers, relay agents, and clients. ISC DHCP is a mature program with
-          many features, but it can be cumbersome for operators to maintain.
-          Kea DHCP is ISC’s intended replacement for ISC DHCP, and is designed
-          for dynamic reconfiguration.</p>
+        <p>Kea DHCP implements the Dynamic Host Configuration Protocol for connection
+          to an IP network, offering a powerful RESTful api and many optional hook libraries. 
+          ISC DHCP is a our legacy DHCP software system, now EOL.
+          ISC offers private EOL support for ISC DHCP.</p>
       </div>
     </div>
     <div class="row no-gutters">
@@ -277,8 +275,7 @@ X-Timer: S1702927933.324973,VS0,VE89
       <div class="col-sm-6 product-item-bg">
         <div class="product-item">
           <h3 class="text-white">ISC DHCP</h3>
-          <p class="mb-4">Open source DHCP server, relay agent, and client software for all your IP address-assignment
-            needs.</p>
+          <p class="mb-4">Open source DHCP server, relay agent, and client software, now EOL.</p>
           <div>
             <a href="/dhcp" class="btn btn-primary">Learn more</a>
           </div>
@@ -542,8 +539,6 @@ X-Timer: S1702927933.324973,VS0,VE89
           <li class="list-inline-item"><a href="https://www.facebook.com/InternetSystemsConsortium/"><i class="ti-facebook"></i></a></li>
           
           <li class="list-inline-item"><a href="https://fosstodon.org/@iscdotorg"><i class="ti-comments"></i></a></li>
-          
-          <li class="list-inline-item"><a href="https://twitter.com/ISCdotORG"><i class="ti-twitter-alt"></i></a></li>
           
           <li class="list-inline-item"><a href="https://www.youtube.com/user/ISCdotorg"><i class="ti-youtube"></i></a></li>
           

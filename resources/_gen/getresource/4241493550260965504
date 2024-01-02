@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 249825
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=miss
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Dec 2023 19:32:01 GMT
-Etag: "773d118a4556290984c85d654e4ab6ac-ssl-df"
+Date: Tue, 02 Jan 2024 15:45:24 GMT
+Etag: "e690dd194f95ffa7bc7c5b67e2ff52c9-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HHZ6KWEY5ZYXJJGP0M02JCPD
+X-Nf-Request-Id: 01HK5DKPJ7W965GS6X84Y4RYRP
 
 <!DOCTYPE html>
 <!-- 
@@ -32,7 +32,7 @@ Daniel F. Wehleit
 ----------------------------------------
 Color Palette 
 ------------------------------------
-608C22 green 96 140 34
+009146 green 96 140 34
 E38ACC pink 227 138 204
 FFFFFF white 255 255 255
 000000 black 0 0 0
@@ -54,14 +54,14 @@ let position = {x: 0, y: 0};
 let prevPosition = {x: 0, y: 0};
 function setup(){createCanvas(windowWidth, windowHeight)}
 function draw(){
-  background(96, 140, 34);noStroke();fill(227, 138, 204);
+  background(0, 145, 70);noStroke();fill(210, 60, 246);
   let dx = mouseX - pmouseX;let dy = mouseY - pmouseY;
   if(dx || dy){
     position = {x: mouseX, y: mouseY};
     if(points.length >= 150){points.splice(0, 1);}
     points.push(position);
   }
-  points.forEach(point => {ellipse(point.x, point.y, 150,150)});
+  points.forEach(point => {ellipse(point.x, point.y, 180,180)});
 }
 </script>
 
@@ -91,8 +91,8 @@ html, body{
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #608C22;
-  color: #608C22;
+  background-color: #009146;
+  color: #009146;
 }
 
 canvas{

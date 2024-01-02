@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 2234
+Age: 3133
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"657f5155-3b75"
-Last-Modified: Sun, 17 Dec 2023 19:51:49 GMT
+Etag: W/"65931c7d-3bc7"
+Last-Modified: Mon, 01 Jan 2024 20:11:41 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
@@ -13,7 +13,7 @@ Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 531079 754116
+X-Varnish: 1075252 2070187
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ X-Xss-Protection: 1; mode=block
 <meta name="description" content=
 "FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms.">
 <meta name="keywords" content="FreeBSD, BSD, UNIX, open source">
-<meta name="copyright" content="1995-2023 The FreeBSD Foundation">
+<meta name="copyright" content="1995-2024 The FreeBSD Foundation">
 <title>The FreeBSD Project</title>
 <link rel="shortcut icon" href=
 "https://www.freebsd.org/favicon.ico">
@@ -247,6 +247,8 @@ Releases</a></h2>
 "https://www.FreeBSD.org/releases/14.0R/announce/">14.0</a></li>
 <li>Legacy: <a href=
 "https://www.FreeBSD.org/releases/12.4R/announce/">12.4</a></li>
+<li>Upcoming: <a href=
+"https://www.FreeBSD.org/releases/13.3R/schedule/">13.3</a></li>
 <li><a href="https://www.freebsd.org/security/#sup">Support
 Lifecycle</a></li>
 </ul>
@@ -296,6 +298,9 @@ FreeBSD?</a></div>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-12-01</span><br>
+<a href="/news/newsflash/#2023-12-01:1">New committer: Olivier
+Certner (src)</a></p>
 <p><span class="txtdate">2023-11-20</span><br>
 <a href="/news/newsflash/#2023-11-20:1">FreeBSD 14.0-RELEASE
 Available</a></p>
@@ -312,9 +317,6 @@ Kiyanovski (src)</a></p>
 <p><span class="txtdate">2023-11-03</span><br>
 <a href="/news/newsflash/#2023-11-03:1">New committer: Jake
 Freeland (src)</a></p>
-<p><span class="txtdate">2023-11-03</span><br>
-<a href="/news/newsflash/#2023-11-03:2">FreeBSD 14.0-RC4
-Available</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -357,6 +359,9 @@ Events</a></div>
 <div id="frontmediacontent" class="txtnewsevent">
 <h2>PRESS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-11</span><br>
+<a href="https://www.freebsd.org/press/#2023-11:1">FreeBSD 14
+Release: Best New Features</a></p>
 <p><span class="txtdate">2023-08</span><br>
 <a href="https://www.freebsd.org/press/#2023-08:1">FreeBSD can now
 boot in 25 milliseconds</a></p>
@@ -369,9 +374,6 @@ Amazon's lightweight hypervisor</a></p>
 <p><span class="txtdate">2022-07</span><br>
 <a href="https://www.freebsd.org/press/#2022-07:1">CheriBSD-based
 computer runs KDE for the first time</a></p>
-<p><span class="txtdate">2022-05</span><br>
-<a href="https://www.freebsd.org/press/#2022-05:1">FreeBSD 13.1 is
-out for everything from PowerPC to x86-64</a></p>
 <a href="https://www.freebsd.org//press/" title="More Media">More
 Media</a></div>
 </div>
@@ -381,6 +383,10 @@ Media</a></div>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2023-12-19</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc">
+FreeBSD-SA-23:19.openssh</a></p>
 <p><span class="txtdate">2023-12-12</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:18.nfsclient.asc">
@@ -393,10 +399,6 @@ FreeBSD-SA-23:17.pf</a></p>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:16.cap_net.asc">
 FreeBSD-SA-23:16.cap_net</a></p>
-<p><span class="txtdate">2023-11-08</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:15.stdio.asc">
-FreeBSD-SA-23:15.stdio</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -441,7 +443,7 @@ FreeBSD-EN-23:21.tty</a></p>
 </div>
 </main>
 <footer><a href="https://www.freebsd.org/copyright/">Legal
-Notices</a> | © 1995-2023 The FreeBSD Project All rights reserved.
+Notices</a> | © 1995-2024 The FreeBSD Project All rights reserved.
 The mark FreeBSD is a registered trademark of The FreeBSD
 Foundation and is used by The FreeBSD Project with the permission
 of <a href=
