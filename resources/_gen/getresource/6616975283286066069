@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Tue, 02 Jan 2024 15:45:25 GMT
-Etag: W/"6585e7d0-5422"
-Expires: Tue, 02 Jan 2024 15:55:25 GMT
-Last-Modified: Fri, 22 Dec 2023 19:47:28 GMT
+Date: Sat, 06 Jan 2024 00:12:37 GMT
+Etag: W/"659700df-5517"
+Expires: Sat, 06 Jan 2024 00:22:37 GMT
+Last-Modified: Thu, 04 Jan 2024 19:02:55 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 8c3d46379fdce9f5d5cb3c6db803e03badc12ab1
-X-Github-Request-Id: 30CA:0B76:24F8BFB:32B8C94:65942F92
+X-Fastly-Request-Id: 4af3de363567e442b4da78fd356ab0ba108d8607
+X-Github-Request-Id: F87E:9A87:63EFB:7C8F6:65989AF4
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1527-YVR
-X-Timer: S1704210326.728954,VS0,VE79
+X-Served-By: cache-yvr1522-YVR
+X-Timer: S1704499957.144244,VS0,VE79
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -200,6 +200,33 @@ X-Timer: S1704210326.728954,VS0,VE79
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240104/" class="color-inherit dim link">
+            Capturing e.g. CronJob metrics with GMP
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          The deployment of Kube State Metrics for Google Managed Prometheus creates both a PodMonitoring and ClusterPodMonitoring.
+The PodMonitoring resource exposes metrics published on metric-self port (8081).
+The ClusterPodMonitoring exposes metrics published on metric port (8080) but this doesn&rsquo;t include cronjob-related metrics:
+kubectl get clusterpodmonitoring/kube-state-metrics \ --output=jsonpath=&#34;{.spec.endpoints[0].metricRelabeling}&#34; \ | jq -r . [ { &#34;action&#34;: &#34;keep&#34;, &#34;regex&#34;: &#34;kube_(daemonset|deployment|replicaset|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler|job_created)(_.+)?&#34;, &#34;sourceLabels&#34;: [ &#34;__name__&#34; ] } ] NOTE The regex does not include kube_cronjob and only includes kube_job_created patterns.
+        </div>
+          <a href="/posts/240104/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/231222/" class="color-inherit dim link">
             Listing Cloud Logging log-based metrics using gRPC
             </a>
@@ -244,39 +271,18 @@ kubectl get namespaces NAME STATUS AGE ... allns-s2os2u-0-90f56669 Active 22h al
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/231017/" class="color-inherit dim link">
-            Prometheus Operator support an auth proxy for Service Discovery
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          For ackalctld to be deployable to Kubernetes with Prometheus Operator, it is necessary to Enable ScrapeConfig to use (discovery|target) proxies #5966. While I&rsquo;m familiar with Kubernetes, Kubernetes operators (Ackal uses one built with the Operator SDK) and Prometheus Operator, I&rsquo;m unfamiliar with developing Prometheus Operator. This (and subsequent) posts will document some preliminary work on this.
-Cloned Prometheus Operator
-Branched scrape-config-url-proxy
-I&rsquo;m unsure how to effect these changes and unsure whether documentation exists.
-        </div>
-          <a href="/posts/231017/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/231017/" class="link black dim">
+              Prometheus Operator support an auth proxy for Service Discovery
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231013/" class="link black dim">
@@ -296,12 +302,6 @@ I&rsquo;m unsure how to effect these changes and unsure whether documentation ex
             </a>
           </h2>
         
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230622/" class="link black dim">
-              GoatCounter with Hugo with Ananke
-            </a>
-          </h2>
-        
 
         
         
@@ -317,7 +317,7 @@ I&rsquo;m unsure how to effect these changes and unsure whether documentation ex
     <footer class="bg-dark-blue bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://pretired.dazwilkin.com/" >
-    &copy;  (p)retired 2023 
+    &copy;  (p)retired 2024 
   </a>
     <div>
 <div class="ananke-socials">

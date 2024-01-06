@@ -1,23 +1,22 @@
 HTTP/2.0 200 OK
-Age: 218992
 Cache-Control: max-age=14400, must-revalidate
-Cf-Apo-Via: tcache
-Cf-Cache-Status: HIT
+Cf-Apo-Via: origin,miss
+Cf-Cache-Status: MISS
 Cf-Edge-Cache: cache,platform=wordpress
-Cf-Ray: 83f42118ec423076-SEA
+Cf-Ray: 840fc030786deb47-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 02 Jan 2024 15:45:28 GMT
-Last-Modified: Sun, 31 Dec 2023 02:55:36 GMT
+Date: Sat, 06 Jan 2024 00:12:40 GMT
+Last-Modified: Sat, 06 Jan 2024 00:12:40 GMT
 Link: <https://jeremyfoster.ca/wp-json/>; rel="https://api.w.org/", <https://jeremyfoster.ca/wp-json/wp/v2/pages/24>; rel="alternate"; type="application/json", <https://jeremyfoster.ca/>; rel=shortlink
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bK6VwG27gf1hvr2FrAJ640mRYXC8Xy1pckVLBWl9cN67NS3BcEP3reHqhsUmjxyHbWsgT4R72GNhCsMrrIOihjG4c3RMv6E30UBE8ph%2BmhUjihOqf11JirA6taoymwEWmg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v2J6eSBvPf2EKpzBXAiG%2Fwy4KaS7gJTeoApOSfb4rqwoOl0%2FIHJ%2Fkm%2FDjwuIlLU9dbOYjlPZ98bCahpE1SUIc7RgYdasRULO5yuJx%2FbryXjH54%2BXHyl52frYtQ%2Ffb8HOGQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Server-Timing: wp-before-template;dur=152.45
+Server-Timing: wp-before-template;dur=574.56
 Strict-Transport-Security: max-age=2592000; includeSubDomains; preload
-Vary: Accept-Encoding, Accept-Encoding, Accept-Encoding, Accept-Encoding
-X-Cache: HIT: 14
-X-Cache-Group: bot
-X-Cacheable: bot
+Vary: Accept-Encoding, Accept-Encoding, Accept-Encoding, Accept-Encoding,Cookie
+X-Cache: HIT: 1
+X-Cache-Group: normal
+X-Cacheable: SHORT
 X-Content-Type-Options: nosniff
 X-Powered-By: WP Engine
 
@@ -310,7 +309,7 @@ var avia_framework_globals = avia_framework_globals || {};
 /* ]]> */ 
 </script>
 <script id="owmw-ajax-js-js-before" type="text/javascript">
-const owmwAjax = {"owmw_nonce":"06f3c23e7f","owmw_url":"https:\/\/jeremyfoster.ca\/wp-admin\/admin-ajax.php?lang=en"}
+const owmwAjax = {"owmw_nonce":"b9f6b8b2e6","owmw_url":"https:\/\/jeremyfoster.ca\/wp-admin\/admin-ajax.php?lang=en"}
 </script>
 <script type="text/javascript" src="https://jeremyfoster.ca/wp-content/plugins/owm-weather/js/owm-weather-ajax.js?ver=6.3.2" id="owmw-ajax-js-js"></script>
 <script id="mediaelement-core-js-before" type="text/javascript">

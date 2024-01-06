@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Tue, 02 Jan 2024 15:45:33 GMT
-Etag: W/"65942e79-737f"
-Last-Modified: Tue, 02 Jan 2024 15:40:41 GMT
+Date: Sat, 06 Jan 2024 00:12:45 GMT
+Etag: W/"65985af8-7342"
+Last-Modified: Fri, 05 Jan 2024 19:39:36 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-737f
+7342
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -396,20 +396,25 @@ X-Frame-Options: SAMEORIGIN
     <div class="col-sm-12" id="front-announce">
         <div class="row">
           <div class="col-md-4 announcement">
-            <p class="overline overline-elections">Elections</p>
-            <h3><i data-bs-toggle="tooltip" title="Pinned" class="fa fa-thumb-tack text-muted" aria-hidden="true"></i> <a href="https://www.arin.net/announcements/20231030_results/">2023 ARIN Election Results</a></h3>
-            <span class="announce-date">Mon, 30 Oct 2023</span>
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><a href="https://www.arin.net/announcements/20240104/">Apply Today for the ARIN 53 Fellowship Program</a></h3>
+            <span class="announce-date">Thu, 04 Jan 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><a href="https://www.arin.net/announcements/20240102/">Meet the 2024 Fellowship Selection Committee</a></h3>
+            <span class="announce-date">Tue, 02 Jan 2024</span>
           </div>
           <div class="col-md-4 announcement">
             <p class="overline overline-internet-number-resources">Internet Number Resources</p>
             <h3><a href="https://www.arin.net/announcements/20231219/">IPv4 Waiting List Distribution</a></h3>
             <span class="announce-date">Tue, 19 Dec 2023</span>
-          </div>
+          </div></div><!-- close first row --><div class="row">
           <div class="col-md-4 announcement">
             <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
             <h3><a href="https://www.arin.net/announcements/20231204/">Now Closed — Consultation on Email Template Processor Retirement</a></h3>
             <span class="announce-date">Mon, 04 Dec 2023</span>
-          </div></div><!-- close first row --><div class="row">
+          </div>
           <div class="col-md-4 announcement">
             <p class="overline overline-arin">ARIN</p>
             <h3><a href="https://www.arin.net/announcements/20231115/">Time is Running Out! The Annual Fee Cap for New LRSA Entrants Expires on 31 December 2023</a></h3>
@@ -419,11 +424,6 @@ X-Frame-Options: SAMEORIGIN
             <p class="overline overline-arin">ARIN</p>
             <h3><a href="https://www.arin.net/announcements/20231113/">ARIN Completes SOC 2 Type 2 Audit and PCI DSS Certification</a></h3>
             <span class="announce-date">Mon, 13 Nov 2023</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-meetings/events">Meetings/Events</p>
-            <h3><a href="https://www.arin.net/announcements/20231103/">ARIN 52 Meeting Report Now Available</a></h3>
-            <span class="announce-date">Fri, 03 Nov 2023</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -488,7 +488,7 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
 
     </div>
     <div class="billboards">
-      <a href="/ARIN52"><img src="/homepage/images/arin52_meetingreport.svg" alt="View the ARIN 52 Meeting Report"></a>
+      <a href="/fellowships"><img src="/homepage/images/fellowshipprogram_applynow.png" alt="Apply for the ARIN Fellowship Program"></a>
       
       <a href="/events"><img class="billboard-left" src="/homepage/images/generic_events_small.svg" alt="Find the latest ARIN and Community Events"></a>
       <a href="/hawaii"><img class="billboard-right" src="/homepage/images/generic_aotr_small.svg" alt="ARIN on the Road: Honolulu, Hawaii"></a>
@@ -504,6 +504,19 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <section class="row row-cols-1 row-cols-md-3">
 
         
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2024/01/04/arin-53-fellowship-applications/">
+      <img class="card-img-top" src="/blog/2024/01/04/arin-53-fellowship-applications/arin53-fellowship-apply.png" alt="Read the blog Apply Today for the ARIN 53 Fellowship Program">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/01/04/arin-53-fellowship-applications/"><h3 class="card-title">Apply Today for the ARIN 53 Fellowship Program</h3></a>
+      <time datetime="2024-01-04 08:15:00 -0400 -0400">4 Jan 2024</time>
+      <p>The call for applications to our ARIN 53 Fellowship Program goes out today! Amanda Gauldin, Community Programs Manager, shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.</p>
+    </div>
+  </div>
+</div>
+
 <div class="col">
   <div class="blog-preview card">
     <a href="/blog/2023/12/20/arin-bits-december-2023/">
@@ -526,19 +539,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2023/12/18/adapting-future-network-security/"><h3 class="card-title">Adapting to the Future of Network Security in Research and Education</h3></a>
       <time datetime="2023-12-18 07:30:00 -0500 EST">18 Dec 2023</time>
       <p>With a proposed new standard on the horizon for Internet exchange points, now is the time to embrace advanced routing security protections. Internet2&#39;s Director of Routing Integrity, Steve Wallace, explains.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2023/12/15/connected-caribbean-summit/">
-      <img class="card-img-top" src="/blog/2023/12/15/connected-caribbean-summit/connected-caribbean-summit.png" alt="Read the blog ARIN Shows Strong Support for Caribbean Development at Connected Caribbean Summit">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2023/12/15/connected-caribbean-summit/"><h3 class="card-title">ARIN Shows Strong Support for Caribbean Development at Connected Caribbean Summit</h3></a>
-      <time datetime="2023-12-15 15:50:00 -0500 EST">15 Dec 2023</time>
-      <p>Learn how the delegation from the ARIN Government Affairs Department plays a key role in promoting digital resilience in the Caribbean through its participation in regional events like this recent annual gathering.</p>
     </div>
   </div>
 </div>

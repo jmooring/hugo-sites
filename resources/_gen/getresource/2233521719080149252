@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 5281
+Age: 7715
 Content-Type: text/html
-Date: Tue, 02 Jan 2024 15:45:22 GMT
-Etag: "21255-60dcc78c52fa7-gzip"
-Last-Modified: Sun, 31 Dec 2023 11:21:50 GMT
+Date: Sat, 06 Jan 2024 00:12:35 GMT
+Etag: "21473-60e36a5e437a5-gzip"
+Last-Modified: Fri, 05 Jan 2024 18:02:14 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 15, 0
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300049-BFI
-X-Timer: S1704210323.736608,VS0,VE1
+X-Cache-Hits: 16, 1
+X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300095-BFI
+X-Timer: S1704499955.029406,VS0,VE1
 
 
 
@@ -78,8 +78,8 @@ X-Timer: S1704210323.736608,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" as="style">
-    <link href="/scss/main-custom.min.2cabfc9209054d7f9d56b2315097a87ca0141fd57c7e783888c8fa5cdabaa0de.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.6c22fe5b00e0d3a4a471532454affb00e208f3da45ec0b1ceb699fcb6903fc16.css" as="style">
+    <link href="/scss/main-custom.min.6c22fe5b00e0d3a4a471532454affb00e208f3da45ec0b1ceb699fcb6903fc16.css" rel="stylesheet" integrity="">
 
 
 
@@ -101,10 +101,10 @@ X-Timer: S1704210323.736608,VS0,VE1
 
 
 
-<link rel="preload" href="/main.3d5f5.js" as="script">
-<link rel="preload" href="/chunk-1.3d5f5.js" as="script">
+<link rel="preload" href="/main.fcf34.js" as="script">
+<link rel="preload" href="/chunk-1.fcf34.js" as="script">
 
-<link rel="preload" href="/chunk-4.3d5f5.js" as="script">
+<link rel="preload" href="/chunk-4.fcf34.js" as="script">
 
 
 
@@ -235,6 +235,18 @@ X-Timer: S1704210323.736608,VS0,VE1
                    href="/ecosystem/"
                    >
                     Ecosystem
+                </a>
+            
+                
+                
+                    
+                
+                
+                
+                <a class="navbar__text-link "
+                   href="/survey/"
+                   >
+                    Airflow Survey 2023
                 </a>
             
         </div>
@@ -375,6 +387,18 @@ X-Timer: S1704210323.736608,VS0,VE1
                    href="/ecosystem/"
                    >
                     Ecosystem
+                </a>
+            
+                
+                
+                    
+                
+                
+                
+                <a class="navbar__text-link "
+                   href="/survey/"
+                   >
+                    Airflow Survey 2023
                 </a>
             
         </div>
@@ -1206,12 +1230,12 @@ X-Timer: S1704210323.736608,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-postgres/stable/operators/postgres_operator_howto_guide.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/stackdriver.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">PostgreSQL</span>
+        <span class="box-event__integration--name">Google Cloud Stackdriver</span>
     </div>
 </div>
 
@@ -1219,12 +1243,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-apache-beam/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/quicksight.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Apache Beam</span>
+        <span class="box-event__integration--name">Amazon QuickSight</span>
     </div>
 </div>
 
@@ -1232,12 +1256,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-jira/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-pig/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Atlassian Jira</span>
+        <span class="box-event__integration--name">Apache Pig</span>
     </div>
 </div>
 
@@ -1245,12 +1269,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/s3.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/cloud_storage_transfer_service.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon Simple Storage Service (S3)</span>
+        <span class="box-event__integration--name">Google Cloud Storage Transfer Service</span>
     </div>
 </div>
 
@@ -1258,12 +1282,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/spanner.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-apache-kylin/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Spanner</span>
+        <span class="box-event__integration--name">Apache Kylin</span>
     </div>
 </div>
 
@@ -1271,12 +1295,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/functions.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-docker/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Functions</span>
+        <span class="box-event__integration--name">Docker</span>
     </div>
 </div>
 
@@ -1284,12 +1308,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/emr_eks.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-mssql/stable/operators.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon EMR on EKS</span>
+        <span class="box-event__integration--name">Microsoft SQL Server (MSSQL)</span>
     </div>
 </div>
 
@@ -1297,12 +1321,12 @@ X-Timer: S1704210323.736608,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/kubernetes_engine.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/batch.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Kubernetes Engine</span>
+        <span class="box-event__integration--name">AWS Batch</span>
     </div>
 </div>
 
@@ -1754,7 +1778,7 @@ X-Timer: S1704210323.736608,VS0,VE1
     </div>
     <div class="footer-section footer-section__policies-section">
         <div class="footer-section">
-            <span>&copy; The Apache Software Foundation 2023</span>
+            <span>&copy; The Apache Software Foundation 2024</span>
             <div class="footer-section__policies-section--policies">
                 
                     
@@ -1818,6 +1842,6 @@ X-Timer: S1704210323.736608,VS0,VE1
 
 </body>
 
-    <script src="/main.3d5f5.js"></script>
+    <script src="/main.fcf34.js"></script>
 
 </html>
