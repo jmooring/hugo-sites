@@ -3,15 +3,15 @@ Accept-Ranges: bytes
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 06 Jan 2024 00:12:55 GMT
-Etag: "0cf4e43b72545e4efd9d3225c4304381-ssl-df"
+Date: Sat, 13 Jan 2024 17:50:30 GMT
+Etag: "88e4008c1c24ba3890608daac9c4b9ce-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=E9811893B0A66311542DBDA0DDCBC7BB~000000000000000000000000000000~YAAQFxwuF59sjbeMAQAAqJYd3BaagYc2sD13b4gu+Be83OzEcMvH3FkTId2gJhwtQKrhbUAPWd8GVfI77HCf+2KkurCXGoVsZXkSbt0Sl1Z0ImmSQPlJ/vRDBjaCjBgtVBMzARmYeVMpp7DIqWcF4UT6q5TPsH2R/3+4mVFb29DM3MfbOg+pVBHZ3zOcycKzbNk/7ronIddZwXDQzwB/TODA6I8qa0UhCCHBt7aq1x5rwkikv4BNWFxfHdpW5kLwa3qaAIysK/ZaXkG9Xl59bbbWdrMcdXxF9yjAO3PFPqbUwjjlEDmYxyeTLGdL/4uDVN+S6jbKtbybBGYp21qh/ffnJ/B58iZhjLujarkjTNx0eK4L8lcK1xGDmqFYAXoMmP+5dZ2FH/y6; Domain=.vmware.com; Path=/; Expires=Sat, 06 Jan 2024 02:12:55 GMT; Max-Age=7200; HttpOnly
-Set-Cookie: bm_mi=DC2EAA266A9AA3FE8E32EC36BB683D74~YAAQFxwuF6BsjbeMAQAAqJYd3BbRgQqmtSOaWbcbTiD/3rYfx3k4FaZ++pXQI84TYgdUmISLXYjUYAfiW0wY4UVj9AHRTBGs5WUTNRvhsmPny6/CAwkfMnRQKf99MCx04V/kHTRFNrfUlH3gnA5A/FgYjfK3hWIshwJ/z07fqM9IJTzgDOIr0Hvwat788OXW2Ozo1uTNn7zaIt+TnbapSEAJmGisMXI7NAr+PiWDiFriZfOh750WhQXLw3b0AOpimYCr/y32CgNp3EtPKr2W9Kt+oTvwqKpYwh+60InKAX+MzXBTyBybum2GfItnnHc+sIakA7ePig==~1; Domain=.vmware.com; Path=/; Expires=Sat, 06 Jan 2024 00:12:55 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=36B8173CB8AEC31B270656343B92EA06~000000000000000000000000000000~YAAQFxwuF8ZORPGMAQAA3VfyAxYAl0VshvUUd9LDOsdl9nCeNW6ashie7Q/fdhTPtIqQ+nUYmyHrZl10CBTPf+LrPs0gjexh/Bmo7D8/HCnUkonswLigWk84fUzTRv/I/156R4B1xa4cGBDLUCbhSGoPWTTZs+QU+z4cO4Ii95vYnvYTWH8NJytwJU/D/GilybzRPptwk5F51+wf/W6/ZzrKp4jlv9jCB7wmp/14DSuVt1/A9Ug4pYa0wGL5omdBDdNSLwHUsIww7CRHMUXr0URVIFQ9wA0ui+8EtUKgjA64RgAklbLJnyxIcIgCthky6V4hhi5W0fIV80tAoyrtx2NB3lfED6oTpq3S1FAkKNx5n35suZoquIaTvy63HLhNxppFsXSJP+zL; Domain=.vmware.com; Path=/; Expires=Sat, 13 Jan 2024 19:50:29 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=0C306A49E2B4D4ABC999F4E82DF59A1D~YAAQFxwuF8dORPGMAQAA3VfyAxaW1P/WXQj55DWI8hk3kztXVw7PieeQqh+76a0j81NArZCD/prvLtC1AqHw0kUburQD0Rovz0l9WfbzmuF7zvSw9O9RtvSzqNWPFK2OFtOjQ/jgmj3Alij7P9a7weONL8E4/eOrD8aoPX9IA2pzp1jtO0GPm7/QvP+6Hd0Fi+v5qtSikwyQNZHQPoxSAy8wwzFMrasnwb49eecX+0Xlo66/BdwLmWTdxvY9it6Dtz9KSd0kORp3jqc+eT8Y44fWSvAPzJARBsp00OGrgKyy0cKKd+rdQEYW3hZ5ersceVqtZwwWYg==~1; Domain=.vmware.com; Path=/; Expires=Sat, 13 Jan 2024 17:50:30 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 13865 0 pmb=mTOE,2
-X-Nf-Request-Id: 01HKE1V5JVC5CZX989VG5XK02A
+X-Akamai-Transformed: 9 13884 0 pmb=mTOE,2
+X-Nf-Request-Id: 01HM1Z4NVNWCBPAR266MPJBB20
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,6 +48,54 @@ function isTvShowLive(showName) {
   episodes = [];
   
     var epInfo = {
+      startTime: new Date("2024-01-25T08:00:00-08:00"),
+      endTime: new Date(new Date("2024-01-25T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/68\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2024-01-19T08:00:00-08:00"),
+      endTime: new Date(new Date("2024-01-19T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/67\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2024-01-18T08:00:00-08:00"),
+      endTime: new Date(new Date("2024-01-18T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/66\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
+      startTime: new Date("2024-01-12T08:00:00-08:00"),
+      endTime: new Date(new Date("2024-01-12T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/65\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2024-01-05T08:00:00-08:00"),
       endTime: new Date(new Date("2024-01-05T08:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "Enlightning",
@@ -56,30 +104,6 @@ function isTvShowLive(showName) {
 
     
     epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2024-01-04T08:00:00-08:00"),
-      endTime: new Date(new Date("2024-01-04T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/63\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2024-01-02T14:30:00-06:00"),
-      endTime: new Date(new Date("2024-01-02T14:30:00-06:00").getTime() + ( 60  * 60000)),
-      show: "Spring Office Hours",
-      link: "\/developer\/tv\/spring-office-hours\/0062\/"
-    };
-
-    
-    epInfo["stream"] = "9zUaIiI47nc";
     
     episodes.push(epInfo);
   
@@ -249,7 +273,7 @@ function getCookie(name) {
 
 <link rel="preload" href="/developer/css/main.min.9eab9b2b933c5abe16803e2dc141a6c6b819f2178f430e828d94f0acd1edc74a.css" as="style">
 <link rel="preload" href="/developer/css/custom.min.db4ce5788ee63c8b369fc8ad479e472d8ece2ddeec4e69c2476c80e643f6da20.css" as="style">
-<link rel="preload" href="/developer/css/light-theme.min.0068349d230f22e44a1833f2f097a3e0ea4ab79da85a9f0ae2a5ead815452cda.css" as="style">
+<link rel="preload" href="/developer/css/light-theme.min.1ebc963e7d87327a43809ff37dbdd15f3545a0a6cd323ffbcb04ce4ff65572f8.css" as="style">
 <link href="/developer/css/custom.min.db4ce5788ee63c8b369fc8ad479e472d8ece2ddeec4e69c2476c80e643f6da20.css" rel="stylesheet" integrity="">
 <link href="/developer/css/main.min.9eab9b2b933c5abe16803e2dc141a6c6b819f2178f430e828d94f0acd1edc74a.css" rel="stylesheet" integrity="">
 
@@ -269,7 +293,7 @@ function getCookie(name) {
         let lightModeElement = document.createElement("link");
         lightModeElement.setAttribute("type", "text/css");
         lightModeElement.setAttribute("rel", "stylesheet");
-        lightModeElement.setAttribute("href", "\/developer\/css\/light-theme.min.0068349d230f22e44a1833f2f097a3e0ea4ab79da85a9f0ae2a5ead815452cda.css");
+        lightModeElement.setAttribute("href", "\/developer\/css\/light-theme.min.1ebc963e7d87327a43809ff37dbdd15f3545a0a6cd323ffbcb04ce4ff65572f8.css");
         lightModeElement.setAttribute("id", "light-theme");
         document.head.append(lightModeElement);
         $("html").addClass("light-mode")
@@ -306,7 +330,7 @@ function getCookie(name) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="863126407"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/33724359"  defer></script></head>
+  <script >bazadebezolkohpepadr="863762057"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/337bf539"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -953,36 +977,10 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/spring-office-hours/0061/">
+    href="/developer/tv/enlightning/64/">
     <div class="gradient-edge-left"></div>
     <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 61 - Spring 2023 Recap</h4>
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/dashaun-carter/images/dashaun-carter_hu55def1375157fc439ad7c77d5ae5c9bc_79722_175x175_resize_q75_catmullrom.jpg'
-            alt="DaShaun Carter" class="rounded w-25 mr-2">
-        <p class="d-inline-block">DaShaun Carter</p>
-    </div>
-    
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/dan-vega/images/dan-vega_hu1a23ef7a3a3ccb744de7aae99873ce17_626231_175x175_resize_q75_catmullrom.jpg'
-            alt="Dan Vega" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Dan Vega</p>
-    </div>
-    
-    
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/enlightning/62/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">What Is Dex?</h4>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">What Is Access Policy Orchestration? What Is Hexa?</h4>
     
     
     <div class="mb-2">
@@ -997,24 +995,42 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/spring-office-hours/0060/">
+    href="/developer/tv/enlightning/63/">
     <div class="gradient-edge-left"></div>
     <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 60 - Vaadin with Lawrence Lockhart</h4>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Be a Security Hero with Kubescape as Your Sidekick</h4>
     
     
     <div class="mb-2">
-        <img src='/developer/team/dan-vega/images/dan-vega_hu1a23ef7a3a3ccb744de7aae99873ce17_626231_175x175_resize_q75_catmullrom.jpg'
-            alt="Dan Vega" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Dan Vega</p>
+        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
+            alt="Whitney Lee" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Whitney Lee</p>
     </div>
     
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/spring-office-hours/0062/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Spring Office Hours: Episode 62 - Spring Into The New Year</h4>
     
     
     <div class="mb-2">
         <img src='/developer/team/dashaun-carter/images/dashaun-carter_hu55def1375157fc439ad7c77d5ae5c9bc_79722_175x175_resize_q75_catmullrom.jpg'
             alt="DaShaun Carter" class="rounded w-25 mr-2">
         <p class="d-inline-block">DaShaun Carter</p>
+    </div>
+    
+    
+    
+    <div class="mb-2">
+        <img src='/developer/team/dan-vega/images/dan-vega_hu1a23ef7a3a3ccb744de7aae99873ce17_626231_175x175_resize_q75_catmullrom.jpg'
+            alt="Dan Vega" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Dan Vega</p>
     </div>
     
     
@@ -1321,7 +1337,7 @@ function getCookie(name) {
 
 
         <div class='copyright-legal-links mt-3'>
-          <small class="text-white">Copyright &copy; 2005&ndash;2023 <span id='year'></span> Broadcom. All Rights Reserved. The term “Broadcom” refers to Broadcom Inc. and/or its subsidiaries. </small><br/>
+          <small class="text-white">Copyright &copy; 2005&ndash;2024 <span id='year'></span> Broadcom. All Rights Reserved. The term “Broadcom” refers to Broadcom Inc. and/or its subsidiaries. </small><br/>
           <small class="mr-1"><a href="https://www.vmware.com/help/legal.html" target="_blank">Terms of Use</a></small>
           <small class="mr-1"><a href="https://www.vmware.com/help/privacy.html" target="_blank">Privacy Policy</a></small>
           <small class="mr-1"><a href="https://www.vmware.com/help/privacy/california-privacy-rights.html" target="_blank">Your California Privacy Rights</a></small>
@@ -1424,5 +1440,5 @@ function getCookie(name) {
 
 <script src="/developer/js/main.0265e4d4ac05f3b97e40763a3e0f7152853042c35ae37ebb88dfa8d5166b1b67.js" integrity="sha256-AmXk1KwF87l&#43;QHY6Pg9xUoUwQsNa4367iN&#43;o1RZrG2c=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_33724359?a=dD04Y2IxZDcwNTlhNmI3MzRmMTdhODc5YmNhODg0NTE3Y2RkODcyOWIyJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_337bf539?a=dD0xMzkzMGYxMjA4OTgyOThhODgyMDJjNGExMDdkYTNmMTRlODViMGRhJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

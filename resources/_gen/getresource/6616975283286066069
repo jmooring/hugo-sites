@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Sat, 06 Jan 2024 00:12:37 GMT
-Etag: W/"659700df-5517"
-Expires: Sat, 06 Jan 2024 00:22:37 GMT
-Last-Modified: Thu, 04 Jan 2024 19:02:55 GMT
+Date: Sat, 13 Jan 2024 17:50:13 GMT
+Etag: W/"6599be6e-546a"
+Expires: Sat, 13 Jan 2024 18:00:13 GMT
+Last-Modified: Sat, 06 Jan 2024 20:56:14 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 4af3de363567e442b4da78fd356ab0ba108d8607
-X-Github-Request-Id: F87E:9A87:63EFB:7C8F6:65989AF4
+X-Fastly-Request-Id: d40d888fe0a3b64d4d0f825cc31cad9d3fa7332c
+X-Github-Request-Id: C59E:1BCEE4:3982C2:459EB8:65A2CD55
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1522-YVR
-X-Timer: S1704499957.144244,VS0,VE79
+X-Served-By: cache-bfi-krnt7300087-BFI
+X-Timer: S1705168214.908164,VS0,VE87
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1704499957.144244,VS0,VE79
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.122.0-DEV">
+    <meta name="generator" content="Hugo 0.111.3">
     
     
     
@@ -61,9 +61,9 @@ X-Timer: S1704499957.144244,VS0,VE79
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pretired.dazwilkin.com/" />
-
 <meta itemprop="name" content="(p)retired">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="(p)retired"/>
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="(p)retired"/>
 <meta name="twitter:description" content=""/>
 
       
@@ -200,6 +200,32 @@ X-Timer: S1704499957.144244,VS0,VE79
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240105/" class="color-inherit dim link">
+            Navigating Koyeb&#39;s Golang SDK
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Ackal deploys gRPC Health Checking clients in locations around the World in order to health check services that are representative of customer need.
+Koyeb offers multiple locations and I spent time today writing a client for Ackal to integrate with Koyeb using the Golang client for the Koyeb API.
+The SDK is generated from Koyeb&rsquo;s OpenAPI (nee Swagger) endpoint using openapi-generator-cli. This is a smart, programmatic solution to ensuring that the SDK always matches the API definition but I found the result is idiosyncratic and therefore a little gnarly.
+        </div>
+          <a href="/posts/240105/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240104/" class="color-inherit dim link">
             Capturing e.g. CronJob metrics with GMP
             </a>
@@ -245,38 +271,18 @@ ENDPOINT=&#34;logging.googleapis.com:443&#34; ROOT=&#34;/path/to/googleapis&#34;
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/231018/" class="color-inherit dim link">
-            Prometheus Operator support an auth proxy for Service Discovery
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          CRD linting
-Returning to yesterday&rsquo;s failing tests, it&rsquo;s unclear how to introspect the E2E tests.
-kubectl get namespaces NAME STATUS AGE ... allns-s2os2u-0-90f56669 Active 22h allns-s2qhuw-0-6b33d5eb Active 4m23s kubectl get all \ --namespace=allns-s2os2u-0-90f56669 No resources found in allns-s2os2u-0-90f56669 namespace. kubectl get all \ --namespace=allns-s2qhuw-0-6b33d5eb NAME READY STATUS RESTARTS AGE pod/prometheus-operator-6c96477b9c-q6qm2 1/1 Running 0 4m12s pod/prometheus-operator-admission-webhook-68bc9f885-nq6r8 0/1 ImagePullBackOff 0 4m7s NAME TYPE CLUSTER-IP EXTERNAL-IP PORT(S) AGE service/prometheus-operator ClusterIP 10.152.183.247 &lt;none&gt; 443/TCP 4m9s NAME READY UP-TO-DATE AVAILABLE AGE deployment.
-        </div>
-          <a href="/posts/231018/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/231018/" class="link black dim">
+              Prometheus Operator support an auth proxy for Service Discovery
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231017/" class="link black dim">
@@ -293,12 +299,6 @@ kubectl get namespaces NAME STATUS AGE ... allns-s2os2u-0-90f56669 Active 22h al
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/230709/" class="link black dim">
               Prometheus Exporter for Koyeb
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230708/" class="link black dim">
-              Kubernetes Python SDK w/ CRDs
             </a>
           </h2>
         

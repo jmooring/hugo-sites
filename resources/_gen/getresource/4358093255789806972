@@ -1,15 +1,16 @@
 HTTP/2.0 200 OK
-Accept-Ranges: bytes
-Age: 0
-Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=stale
-Content-Type: text/html; charset=UTF-8
-Date: Sat, 06 Jan 2024 00:13:09 GMT
-Etag: "458d570026e4c7fa8f6d1e063db04fc1-ssl-df"
-Server: Netlify
-Strict-Transport-Security: max-age=31536000
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 844f7ba50bed283a-SEA
+Content-Type: text/html; charset=utf-8
+Date: Sat, 13 Jan 2024 17:50:41 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=A7CFEpil4qRUu%2Bb4%2Fs0i0iKWOXtA%2FhQGU21UUumLQMTtZPfDBtRNLNDZechd3HEScsZbj0V5QGxlutk3nSPDItxjrfpldwjPc4xBCPf%2FZrkN%2FxNc2yIHVA%2F3ka%2B5hBT%2F"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HKE1VK98F97MT3K9V5QTVMRZ
+X-Content-Type-Options: nosniff
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1256,5 +1257,5 @@ X-Nf-Request-Id: 01HKE1VK98F97MT3K9V5QTVMRZ
     
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22518068.js"></script>
     
-  </body>
+  <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "618741ee922045eba3be31e7ae38a3e9"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>

@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 375
 Content-Type: text/html
-Date: Sat, 06 Jan 2024 00:12:48 GMT
-Etag: "5ce5-60e3430f959c0-gzip"
-Last-Modified: Fri, 05 Jan 2024 15:06:23 GMT
+Date: Sat, 13 Jan 2024 17:50:24 GMT
+Etag: "5c6b-60e880c4d5640-gzip"
+Last-Modified: Tue, 09 Jan 2024 19:09:05 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
+X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400087-BFI
-X-Timer: S1704499968.020367,VS0,VE63
+X-Served-By: cache-bfi-krnt7300040-BFI
+X-Timer: S1705168225.769699,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1704499968.020367,VS0,VE63
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-01-05T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-01-09T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -379,6 +379,21 @@ X-Timer: S1704499968.020367,VS0,VE63
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
+            <a href="/blogs/tsuking-and-bind/">
+              <h4 class="text-white">TsuKing and BIND</h4>
+            </a>
+            <p class="text-white">We have recently received several questions from customers about the TsuKing vulnerability and whether BIND 9 is susceptible to it.</p>
+            <a href="/blogs/tsuking-and-bind/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/greenaurora.jpg" 
             onerror="this.onerror = null; this.src='\/Green aurora'"  />
           <div class="post-content">
@@ -417,21 +432,6 @@ X-Timer: S1704499968.020367,VS0,VE63
             </a>
             <p class="text-white">Kea Configuration with Stork Stork is an open source project that provides a graphical interface for monitoring, and now also configuring, Kea DHCP servers.</p>
             <a href="/blogs/2023-12-13-stork-webinar/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/bind-resolver-performance-november-2023/">
-              <h4 class="text-white">Comparative Resolver Performance Results of BIND Versions - November 2023</h4>
-            </a>
-            <p class="text-white">This article focuses on benchmarking resolver performance, using a methodology that aims to provide near-real-world performance results for resolvers.</p>
-            <a href="/blogs/bind-resolver-performance-november-2023/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
-Age: 13
+Age: 11
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Sat, 06 Jan 2024 00:12:23 GMT
-Etag: "25a6c53f9fb6a30cbf5a4ae8803ce7a5"
-Last-Modified: Tue, 19 Dec 2023 22:54:20 GMT
+Date: Sat, 13 Jan 2024 17:50:02 GMT
+Etag: "a244e5dbeb834a580c10cb985a72659b"
+Last-Modified: Fri, 12 Jan 2024 23:18:19 GMT
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 d6a002c70d55f415107618b0750d493c.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: NF5jL0sjaOFPEb_Kedf-L8mUVRulvameK9I0MznVOebvGhuHzsuKqg==
+Via: 1.1 112d82578d402a38d8d02e8b857617e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sePoR7JtngdqEDVpA28oGqdL6_zUOr1Li2xf2l4baMmFA7TuC2Mv9w==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Hit from cloudfront
@@ -18,7 +18,7 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: d03bc0ec-75ae-4424-7ba2-8425f2a2a160
+X-Vcap-Request-Id: 43fed154-d06d-416f-647e-0f972b820bc7
 X-Xss-Protection: 1; mode=block
 
 
@@ -120,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         href="https://vote.gov/assets/img/favicons/favicon-vote-144.png">
 
   
-  <link rel="stylesheet" href="/assets/styles/main.css?v=2dc9d029a">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=bf3fda554">
   
   
 
@@ -306,6 +306,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </section>
 
+  
+  <div class="usa-alert usa-alert--info">
+    <div class="grid-container">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          The 2024 presidential primary elections take place in all 50 states and territories between January and June. 
+<a href="https://www.usvotefoundation.org/primary-election-dates">Check upcoming dates and deadlines for your state and political party</a>.
+        </p>
+      </div>
+    </div>
+  </div>
   
 
   <div class="switcher-mobile">
@@ -540,7 +551,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
               <form id="state-combo-box">
                 <label for="state-input">Select your state or territory for information on how to get started.</label>
-                <div class="input-buttons-group" data-test="state-selection">
+                <div class="input-buttons-group" aria-label="State page will open upon selection." data-test="state-selection">
                 <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="Enter your state or territory name">
                   <div class="input-control-container">
                     <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
@@ -1077,7 +1088,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://touchpoints.app.cloud.gov/touchpoints/3680b407.js" async></script>
 
 
-<script src="/assets/scripts/main.js?v=2dc9d029a"></script>
+<script src="/assets/scripts/main.js?v=bf3fda554"></script>
 
 
 
