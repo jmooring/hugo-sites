@@ -6,7 +6,7 @@ Access-Control-Expose-Headers: Content-Length
 Connection: keep-alive
 Content-Type: text/html; charset=utf-8
 Cross-Origin-Opener-Policy: same-origin
-Date: Sat, 13 Jan 2024 17:50:16 GMT
+Date: Thu, 18 Jan 2024 04:45:09 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Vary: Accept-Encoding
@@ -14,7 +14,7 @@ Vary: Cookie
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 
-f634
+f195
 
 
 <!DOCTYPE html>
@@ -947,30 +947,6 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
           Merchandise
         </h3>
         
-            <div class="bg-pink-500 text-xl text-gray-200 font-bold rounded py-3 px-8 flex justify-center items-center text-center mb-4 mt-[-32px] gap-2 max-w-fit mx-auto">
-                
-                
-                      <span>Free standard delivery valid until</span>
-                
-                
-                
-                      <span id="expire"></span>
-                      <script>
-                        function toLocaleDate(date) {
-                          let d = new Date(date).toString()
-                          let i = d.lastIndexOf(":")
-                          let arr = d.split(":")
-                          let formatedDate = arr[0] + ":" + arr[1]
-                          return formatedDate
-                        }
-                        document.querySelector("#expire").textContent = toLocaleDate("2024-01-16T23:59:59")
-                      </script>
-                
-                
-                
-                
-            </div>
-        
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
          
@@ -1212,6 +1188,18 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 mb-4 lg:mb-12">
     
     <div class="text-gray-200 flex flex-wrap justify-center mb-8">
+      <a href="https://blog.manjaro.org/fosdem24/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
+            
+            <img src="/media/images/fosdem24p7.width-500.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
+            alt="image" />
+          <div class="p-4 text-sm">
+            <h4 class="font-bold leading-5 mb-2 text-base">We will be at FOSDEM 2024</h4>
+            <p data-block-key="01w8g">meet with us in Brussels</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
       <a href="https://blog.manjaro.org/black-friday/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
             
             <img src="/media/images/blackfriday_5aEcZ3o.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
@@ -1231,18 +1219,6 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
           <div class="p-4 text-sm">
             <h4 class="font-bold leading-5 mb-2 text-base">New features in Pamac</h4>
             <p data-block-key="wpiip">Pamac Package Manager with latest improvements</p>
-        </div>
-      </a>
-    </div>
-    
-    <div class="text-gray-200 flex flex-wrap justify-center mb-8">
-      <a href="https://blog.manjaro.org/february-2023-in-manjaro-arm/" aria-label="Article"v class="bg-blue-gray-800 rounded overflow-hidden h-full w-full rounded-t">  
-            
-            <img src="/media/images/february.width-500.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-full h-64" 
-            alt="image" />
-          <div class="p-4 text-sm">
-            <h4 class="font-bold leading-5 mb-2 text-base">February 2023 in Manjaro ARM</h4>
-            <ul><li data-block-key="r0ulg">RK3399 U-boot fixes</li><li data-block-key="frn43">23.02 released</li><li data-block-key="aps3q">New LTS kernel released</li><li data-block-key="amf8j">22.12 download statistics</li></ul>
         </div>
       </a>
     </div>

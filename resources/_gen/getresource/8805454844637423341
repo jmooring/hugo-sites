@@ -1,23 +1,24 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Methods: HEAD, OPTIONS, GET
 Access-Control-Allow-Origin: *
+Age: 175
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=1200
 Cdn-Cache-Control: public
-Cf-Cache-Status: REVALIDATED
-Cf-Ray: 844f7b40fcb308a9-SEA
+Cf-Cache-Status: HIT
+Cf-Ray: 84742fbfecc26ac0-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 13 Jan 2024 17:50:25 GMT
-Etag: W/"cf9935fd7d4df7587c80797046df2f06"
-Last-Modified: Fri, 12 Jan 2024 12:16:30 GMT
+Date: Thu, 18 Jan 2024 04:45:05 GMT
+Etag: W/"0bef16583513a03f063d4047de2cd876"
+Last-Modified: Wed, 17 Jan 2024 13:06:01 GMT
 Referrer-Policy: no-referrer-when-downgrade
 Server: cloudflare
 Vary: Accept-Encoding
-X-Amz-Id-2: yP8/7b6L4oCVCUHU8ZLPAEPSIatw5H7RnjYkn24xLSVgEFQe6ekMjRDuUP9O+Ky1o1N8mRfdqbY=
-X-Amz-Meta-Mtime: 1705061785.542926789
-X-Amz-Request-Id: 5DR51Z5Z8YP3N9V3
+X-Amz-Id-2: tgonFEPRhkakoeLia126kSFQ1+RneQDXZA2gzUih6vgNx5accAbL6QbTjfkiuyfwzwIi+/YL8b4=
+X-Amz-Meta-Mtime: 1705496757.385960571
+X-Amz-Request-Id: HVX529KG3VYW612Z
 X-Amz-Server-Side-Encryption: AES256
-X-Backend: web-i-09520e095aa95e05c
+X-Backend: web-i-0acbb0d741e94e02b
 X-Content-Type-Options: nosniff
 X-Rtd-Domain: keptn.sh
 X-Rtd-Hosting-Integrations: true
@@ -87,6 +88,8 @@ X-Served: Nginx-Proxito-Sendfile
       <link rel="stylesheet" href="assets/stylesheets/versions.css">
     
       <link rel="stylesheet" href="assets/stylesheets/color-schemes.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/mermaid.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -1622,7 +1625,7 @@ X-Served: Nginx-Proxito-Sendfile
         
   
   <span class="md-ellipsis">
-    Keptn - Kubernetes
+    Keptn for non-Kubernetes deployments
   </span>
   
 
@@ -2927,7 +2930,7 @@ X-Served: Nginx-Proxito-Sendfile
               
   
   <span class="md-ellipsis">
-    General information about contributing
+    General information
   </span>
   
 
@@ -2943,7 +2946,7 @@ X-Served: Nginx-Proxito-Sendfile
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
-            General information about contributing
+            General information
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -3305,8 +3308,6 @@ X-Served: Nginx-Proxito-Sendfile
       
         
       
-        
-      
     
     
     
@@ -3345,27 +3346,6 @@ X-Served: Nginx-Proxito-Sendfile
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docs/contribute/docs/yaml-crd-ref-template/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    CRD name
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -3438,11 +3418,11 @@ X-Served: Nginx-Proxito-Sendfile
   
   
     <li class="md-nav__item">
-      <a href="docs/contribute/docs/spell-check/" class="md-nav__link">
+      <a href="docs/contribute/docs/source-file-structure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Spell Checker
+    Source File Structure
   </span>
   
 
@@ -3459,11 +3439,11 @@ X-Served: Nginx-Proxito-Sendfile
   
   
     <li class="md-nav__item">
-      <a href="docs/contribute/docs/source-file-structure/" class="md-nav__link">
+      <a href="docs/contribute/docs/spell-check/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Source File Structure
+    Spell Checker
   </span>
   
 
@@ -3919,7 +3899,7 @@ X-Served: Nginx-Proxito-Sendfile
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "search.suggest", "search.highlight"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>

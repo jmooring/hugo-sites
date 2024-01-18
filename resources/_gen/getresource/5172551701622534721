@@ -1,7 +1,7 @@
 HTTP/2.0 200 OK
 Content-Security-Policy: upgrade-insecure-requests
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 13 Jan 2024 17:50:46 GMT
+Date: Thu, 18 Jan 2024 04:45:34 GMT
 Link: <https://www.tomango.co.uk/wp-json/>; rel="https://api.w.org/", <https://www.tomango.co.uk/wp-json/wp/v2/pages/323>; rel="alternate"; type="application/json", <https://www.tomango.co.uk/>; rel=shortlink
 Nimbus-Cache: HIT
 Server: nginx
@@ -84,8 +84,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='tomango-style-css' href='https://www.tomango.co.uk/wp-content/themes/tomango/assets/css/style.css?ver=1704712274' media='all' />
+<link rel='stylesheet' id='aurora-heatmap-css' href='https://www.tomango.co.uk/wp-content/plugins/aurora-heatmap/style.css?ver=1.6.0' media='all' />
 <script src="https://code.jquery.com/jquery-3.5.1.min.js?ver=6.4.2" id="jquery-js"></script>
 <script src="https://www.tomango.co.uk/wp-content/themes/tomango/assets/js/min/scripts.min.js?ver=1704712274" id="tomango-scripts-js"></script>
+<script id="aurora-heatmap-js-extra">
+var aurora_heatmap = {"_mode":"reporter","ajax_url":"https:\/\/www.tomango.co.uk\/wp-admin\/admin-ajax.php","action":"aurora_heatmap","interval":"10","stacks":"10","reports":"click_pc,click_mobile","debug":"0","ajax_delay_time":"3000"};
+</script>
+<script src="https://www.tomango.co.uk/wp-content/plugins/aurora-heatmap/js/aurora-heatmap.min.js?ver=1.6.0" id="aurora-heatmap-js"></script>
 <link rel="https://api.w.org/" href="https://www.tomango.co.uk/wp-json/" /><link rel="alternate" type="application/json" href="https://www.tomango.co.uk/wp-json/wp/v2/pages/323" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.tomango.co.uk/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.4.2" />
 <link rel='shortlink' href='https://www.tomango.co.uk/' />
@@ -125,7 +130,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             <a class="button person-button" href="/our-work/">View all projects</a>
         </div>
         <div class="flex-2 flex-2-48">
-            <a href="/work/ece/" class="home-mockup-link"><img class="flood-mockup" src="https://www.tomango.co.uk/wp-content/webp-express/webp-images/themes/tomango/assets/img/phone.png.webp" alt="Phone showing a blog post" /></a>
+            <a href="/work/ece/" class="home-mockup-link"><img class="flood-mockup" src="https://www.tomango.co.uk/wp-content/themes/tomango/assets/img/phone.png" alt="Phone showing a blog post" /></a>
         </div>
     </div>
 
@@ -137,13 +142,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     <div class="photo-flex photo-flex--home">
         <div class="photo-flex__container">
 				<div class="photo-flex__squares">
-					<div style="background-image: url('https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/01/collage_image_04-435x435.jpg.webp');"></div>
+					<div style="background-image: url('https://www.tomango.co.uk/wp-content/uploads/2021/01/collage_image_04-435x435.jpg');"></div>
 					<div></div>
-					<div style="background-image: url('https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2019/09/brand-banner-435x210.jpg.webp');"></div>
+					<div style="background-image: url('https://www.tomango.co.uk/wp-content/uploads/2019/09/brand-banner-435x210.jpg');"></div>
 					<div></div>
-					<div style="background-image: url('https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/01/collage_image_01-435x435.jpg.webp');"></div>
-					<div style="background-image: url('https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/01/collage_image_02-435x435.jpg.webp');"></div>
-					<div style="background-image: url('https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/01/collage_image_05-435x435.jpg.webp');"></div>
+					<div style="background-image: url('https://www.tomango.co.uk/wp-content/uploads/2021/01/collage_image_01-435x435.jpg');"></div>
+					<div style="background-image: url('https://www.tomango.co.uk/wp-content/uploads/2021/01/collage_image_02-435x435.jpg');"></div>
+					<div style="background-image: url('https://www.tomango.co.uk/wp-content/uploads/2021/01/collage_image_05-435x435.jpg');"></div>
 					<div></div>
 					<div></div>
 				</div>
@@ -169,29 +174,29 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         <section>
             <h2 class="main-heading">Featured work</h2>
             <div class="project-container">                        <a class="project-tile" href="https://www.tomango.co.uk/work/albion-languages/">
-                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/01/christina-wocintechchat-com-kpfz_nFZ1gQ-unsplash-scaled.jpg.webp);"></span>
-                            <span class="project-tile__sector"></span>
+                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/uploads/2021/01/christina-wocintechchat-com-kpfz_nFZ1gQ-unsplash-scaled.jpg);"></span>
+                            <span class="project-tile__sector">Business Services</span>
                             <h2 class="project-tile__name">Albion Languages</h2>
                             <span class="project-tile__tagline">How do you stand out in a crowded marketplace to attract the best clients, who aren't driven by price alone?</span>
                         </a>
 
                                     <a class="project-tile" href="https://www.tomango.co.uk/work/agon-systems/">
-                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2019/09/Agon-featured-image.jpg.webp);"></span>
-                            <span class="project-tile__sector"></span>
+                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/uploads/2019/09/Agon-featured-image.jpg);"></span>
+                            <span class="project-tile__sector">Business Services</span>
                             <h2 class="project-tile__name">Agon Systems</h2>
                             <span class="project-tile__tagline">How do you position an innovative business to win multi-million pound contracts with some of the biggest retail names in the world?</span>
                         </a>
 
                                     <a class="project-tile" href="https://www.tomango.co.uk/work/stuart-partners/">
-                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2021/06/Stuart-and-partners-featured.jpg.webp);"></span>
-                            <span class="project-tile__sector"></span>
+                            <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/uploads/2021/06/Stuart-and-partners-featured.jpg);"></span>
+                            <span class="project-tile__sector">Property and Architecture</span>
                             <h2 class="project-tile__name">Stuart &#038; Partners</h2>
                             <span class="project-tile__tagline">How do you stand out from the crowd and attract your ideal clients in a competitive marketplace dominated by bigger rivals? </span>
                         </a>
 
                                     <a class="project-tile" href="https://www.tomango.co.uk/work/fantasy-football-hub/">
                             <span class="project-tile__image" style="background-image:url(https://www.tomango.co.uk/wp-content/uploads/2021/06/FFH-featured.jpg);"></span>
-                            <span class="project-tile__sector"></span>
+                            <span class="project-tile__sector">IT and SaaS</span>
                             <h2 class="project-tile__name">Fantasy Football Hub</h2>
                             <span class="project-tile__tagline">How do you overhaul the design of your huge, complex website to increase conversion rates without having to redesign the whole site?</span>
                         </a>
@@ -266,7 +271,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     </div>
     
     <div class="footer-image">
-        <img src="https://www.tomango.co.uk/wp-content/webp-express/webp-images/uploads/2020/07/Banner-Tomango-Studio1.jpg.webp" alt="Tomango offices at dusk"/>
+        <img src="https://www.tomango.co.uk/wp-content/uploads/2020/07/Banner-Tomango-Studio1.jpg" alt="Tomango offices at dusk"/>
     </div>
 
 </main>
@@ -277,7 +282,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     <div class="footer-flood">
         <div class="container container--low-padding">
                         <div class="footer-cta">
-                <div class="footer-cta--person"><img src="https://www.tomango.co.uk/wp-content/webp-express/webp-images/themes/tomango/assets/img/people/mark_small.png.webp" alt="Mark Vaesen"/></div>
+                <div class="footer-cta--person"><img src="https://www.tomango.co.uk/wp-content/themes/tomango/assets/img/people/mark_small.png" alt="Mark Vaesen"/></div>
                 <div class="footer-cta--text">
                     <h2 class="main-heading">Get in touch</h2>
                     <p>If you&#8217;d like to talk to us about your project, get some advice, or just ask a question, contact Mark on <a href="tel:004401273814019">01273 814019</a> or <a href="mailto:hello@tomango.co.uk">hello@tomango.co.uk</a></p>
@@ -326,5 +331,5 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </html><!--
 Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
 
-Retrieved 1446 objects (220 KB) from Redis using Predis (v2.1.2).
+Retrieved 1451 objects (222 KB) from Redis using Predis (v2.1.2).
 -->

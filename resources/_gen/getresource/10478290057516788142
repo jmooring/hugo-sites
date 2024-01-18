@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 224896
+Age: 88871
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 15497098
+Cc-Build-Id: 15543856
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=34;t=39
+Cc-Perf: fetch-headers=20;t=24
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 844f7b0c5e67eb57-SEA
+Cf-Ray: 84742fe6b8e5c551-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 13 Jan 2024 17:50:17 GMT
-Etag: W/5c7c03688326e115daf460c4234c244a
-Last-Modified: Thu, 11 Jan 2024 03:20:16 GMT
+Date: Thu, 18 Jan 2024 04:45:12 GMT
+Etag: W/1bc9cbcea94d192d696a1a72b853b183
+Last-Modified: Wed, 17 Jan 2024 03:47:57 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -564,13 +564,130 @@ X-Robots-Tag: all
 
     <!--bookshop-live name(structures/header/top-bar/top-bar-left-link)-->
 
-<a class="c-top-bar-left-link" href="https://www.papercut.com/resources/ebooks/everything-you-need-to-know-about-cloud-printing-ebook/">
-    <img class="c-top-bar-left-link__icon" src="https://cdn1.papercut.com/web/img/header/Icon-Light-book-white.svg" alt="book icon">
-    Everything you need to know about cloud printing
-    <svg class="c-top-bar-left-link__arrow" width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>
-    </svg>
-</a>
+
+
+    <a id="hushly_top_bar_recommendation" class="c-top-bar-left-link" href>
+        <div class="c-top-bar-left-link__placeholder-image"></div>
+        <div class="c-top-bar-left-link__placeholder-text"></div>
+    </a>
+
+
+
+<script defer>
+    
+    function getCookieValue(name) {
+        const cookies = document.cookie.split('; ');
+        for (const cookie of cookies) {
+            const [cookieName, cookieValue] = cookie.split('=');
+            if (cookieName === name) {
+                return cookieValue;
+            }
+        }
+        return null;
+    }
+    
+    const loadImage = src =>
+        new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => resolve(img);
+            img.onerror = reject;
+            img.src = src;
+        });
+
+    
+    const vid = getCookieValue('_hly_vid');
+    const sid = getCookieValue('_hlv_sid');
+
+    
+    fetch('https://hub-api.hushly.com/hub/embed', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            "aid": 136819,
+            "guid": "ec4a7acc-9725-488b-b783-1b25e72b8b95",
+            "vid": vid,
+            "sid": sid
+        }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        
+        if (data.ctas && data.ctas.length > 0) {
+            
+            const firstCta = data.ctas[0];
+
+            
+            const newLink = document.createElement('a');
+            newLink.className = 'c-top-bar-left-link';
+
+            
+            newLink.href = firstCta.design.linkAction || '#';
+
+            
+            if (firstCta.design.styles.cta.backgroundImage) {
+                loadImage(firstCta.design.styles.cta.backgroundImage)
+                    .then(iconImg => {
+                        iconImg.className = 'c-top-bar-left-link__icon';
+                        newLink.prepend(iconImg);
+
+                        
+                        const linkContent = document.createTextNode(firstCta.design.tagLine || '');
+                        newLink.appendChild(linkContent);
+
+                        
+                        const arrowSvg = document.createElement('svg');
+                        arrowSvg.className = 'c-top-bar-left-link__arrow';
+                        arrowSvg.setAttribute('width', '5');
+                        arrowSvg.setAttribute('height', '9');
+                        arrowSvg.setAttribute('viewBox', '0 0 5 9');
+                        arrowSvg.setAttribute('fill', 'none');
+                        arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+                        const arrowPath = document.createElement('path');
+                        arrowPath.setAttribute('d', 'M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z');
+                        arrowSvg.appendChild(arrowPath);
+
+                        newLink.appendChild(arrowSvg);
+
+                        
+                        const placeholder = document.getElementById('hushly_top_bar_recommendation');
+                        placeholder.parentNode.replaceChild(newLink, placeholder);
+                    })
+                    .catch(error => console.error('Error loading image:', error));
+            } else {
+                
+                const linkContent = document.createTextNode(firstCta.design.tagLine || '');
+                newLink.appendChild(linkContent);
+
+                
+                const arrowSvg = document.createElement('svg');
+                arrowSvg.className = 'c-top-bar-left-link__arrow';
+                arrowSvg.setAttribute('width', '5');
+                arrowSvg.setAttribute('height', '9');
+                arrowSvg.setAttribute('viewBox', '0 0 5 9');
+                arrowSvg.setAttribute('fill', 'none');
+                arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+                const arrowPath = document.createElement('path');
+                arrowPath.setAttribute('d', 'M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z');
+                arrowSvg.appendChild(arrowPath);
+
+                newLink.appendChild(arrowSvg);
+
+                
+                const placeholder = document.getElementById('hushly_top_bar_recommendation');
+                placeholder.parentNode.replaceChild(newLink, placeholder);
+            }
+        } else {
+            console.error('Error: The "ctas" array is empty or undefined.');
+        }
+    })
+    .catch(error => console.error('Error fetching API data:', error));
+</script>
+
+
 <!--bookshop-live end-->
     <div class="c-top-bar__nav-items">
         

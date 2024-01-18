@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Sat, 13 Jan 2024 17:50:22 GMT
-Etag: W/"65a27e88-729a"
-Last-Modified: Sat, 13 Jan 2024 12:14:00 GMT
+Date: Thu, 18 Jan 2024 04:45:09 GMT
+Etag: W/"65a85008-7531"
+Last-Modified: Wed, 17 Jan 2024 22:09:12 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-729a
+7531
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -33,7 +33,7 @@ X-Frame-Options: SAMEORIGIN
     <link rel="canonical" href="https://www.arin.net/" />
     <link rel="shortcut icon" href="/img/favicon.ico" />
     <link rel="alternate" type="application/rss+xml" href="https://www.arin.net/rss.xml" title="American Registry for Internet Numbers" />
-    <link href="/css/styles.min.48223bc50dc5dd0c3c1a6e79217ac8226ec003430332e9eef8e3d74ecefbdffb.css" rel="stylesheet" type="text/css" />
+    <link href="/css/styles.min.d9d3f76492b51af0a47661970c3e0effaf4f8f06e0cc14dea98c47d25e20e2e7.css" rel="stylesheet" type="text/css" />
     <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <script src="/js/head-scripts.min.js"></script>
     
@@ -401,20 +401,15 @@ X-Frame-Options: SAMEORIGIN
             <span class="announce-date">Thu, 11 Jan 2024</span>
           </div>
           <div class="col-md-4 announcement">
-            <p class="overline overline-operating-hours/closing-information">Operating Hours/Closing Information</p>
-            <h3><a href="https://www.arin.net/announcements/20240111/">Martin Luther King, Jr. Day Closing Information</a></h3>
-            <span class="announce-date">Thu, 11 Jan 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
             <p class="overline overline-service-update">Service Update</p>
             <h3><a href="https://www.arin.net/announcements/20240108/">New Features Added to ARIN Online</a></h3>
             <span class="announce-date">Mon, 08 Jan 2024</span>
-          </div></div><!-- close first row --><div class="row">
+          </div>
           <div class="col-md-4 announcement">
             <p class="overline overline-meetings/events">Meetings/Events</p>
             <h3><a href="https://www.arin.net/announcements/20240104/">Apply Today for the ARIN 53 Fellowship Program</a></h3>
             <span class="announce-date">Thu, 04 Jan 2024</span>
-          </div>
+          </div></div><!-- close first row --><div class="row">
           <div class="col-md-4 announcement">
             <p class="overline overline-meetings/events">Meetings/Events</p>
             <h3><a href="https://www.arin.net/announcements/20240102/">Meet the 2024 Fellowship Selection Committee</a></h3>
@@ -424,6 +419,11 @@ X-Frame-Options: SAMEORIGIN
             <p class="overline overline-internet-number-resources">Internet Number Resources</p>
             <h3><a href="https://www.arin.net/announcements/20231219/">IPv4 Waiting List Distribution</a></h3>
             <span class="announce-date">Tue, 19 Dec 2023</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
+            <h3><a href="https://www.arin.net/announcements/20231204/">Now Closed — Consultation on Email Template Processor Retirement</a></h3>
+            <span class="announce-date">Mon, 04 Dec 2023</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -592,7 +592,7 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
         <p class="foot-contact">
           <ul class="foot-social list-inline">
             <li class="list-inline-item"><a href="https://www.facebook.com/TeamARIN"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i><span>Visit ARIN on Facebook</span></a></li>
-            <li class="list-inline-item"><a href="https://twitter.com/TeamARIN"><i class="fa fa-twitter-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on Twitter</span></a></li>
+            <li class="list-inline-item" id="x-logo"><a href="https://x.com/TeamARIN"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="m99.45,9.05c0-5.62-2.88-8.52-8.44-8.52-27.32-.02-54.65-.02-81.97,0C3.28.53.54,3.34.54,9.17c0,13.66,0,27.32,0,40.98,0,13.58,0,27.16,0,40.73,0,5.73,2.84,8.58,8.62,8.59,27.16.02,54.31.02,81.47,0,5.91,0,8.82-2.87,8.83-8.7.02-27.24.02-54.48,0-81.72Zm-32.66,83.26c-7.38-10.72-14.86-21.6-22.48-32.68-9.55,11.1-18.94,22.01-28.25,32.83h-7.29c10.94-12.72,21.58-25.09,32.3-37.56C30.37,39.31,19.7,23.77,8.81,7.92h24.64c6.96,10.12,14.07,20.45,21.34,31.01,9.06-10.53,17.95-20.86,26.79-31.12h7.28c-10.42,12.12-20.57,23.93-30.82,35.86,11.08,16.13,22.14,32.23,33.41,48.64h-24.65Z"/><path d="m81.49,87.11h-11.23C53.25,62.79,36.14,38.32,18.81,13.52h11.23c16.94,24.23,34.05,48.7,51.45,73.59Z"/></svg><span>Visit ARIN on X</span></a></li>
             <li class="list-inline-item"><a href="https://www.linkedin.com/company/arin"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on LinkedIn</span></a></li>
             <li class="list-inline-item"><a href="https://www.youtube.com/c/teamarin/"><i class="fa fa-youtube-square fa-fw" aria-hidden="true"></i><span>Visit ARIN on YouTube</span></a></li>
           </ul>

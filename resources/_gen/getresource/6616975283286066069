@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Sat, 13 Jan 2024 17:50:13 GMT
-Etag: W/"6599be6e-546a"
-Expires: Sat, 13 Jan 2024 18:00:13 GMT
-Last-Modified: Sat, 06 Jan 2024 20:56:14 GMT
+Date: Thu, 18 Jan 2024 04:44:59 GMT
+Etag: W/"65a839c9-52aa"
+Expires: Thu, 18 Jan 2024 04:51:53 GMT
+Last-Modified: Wed, 17 Jan 2024 20:34:17 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Fastly-Request-Id: d40d888fe0a3b64d4d0f825cc31cad9d3fa7332c
-X-Github-Request-Id: C59E:1BCEE4:3982C2:459EB8:65A2CD55
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: 8846e9845382ddac83a14b3be8bcc1c73d898787
+X-Github-Request-Id: 6924:16C5:23F1937:2BDB06C:65A8AC0F
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-krnt7300087-BFI
-X-Timer: S1705168214.908164,VS0,VE87
+X-Served-By: cache-yvr1528-YVR
+X-Timer: S1705553100.592908,VS0,VE83
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1705168214.908164,VS0,VE87
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.122.0-DEV">
     
     
     
@@ -61,9 +61,9 @@ X-Timer: S1705168214.908164,VS0,VE87
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pretired.dazwilkin.com/" />
+
 <meta itemprop="name" content="(p)retired">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="(p)retired"/>
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="(p)retired"/>
 <meta name="twitter:description" content=""/>
 
       
@@ -200,6 +200,36 @@ X-Timer: S1705168214.908164,VS0,VE87
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240117/" class="color-inherit dim link">
+            Gnarly Protocol Buffers compilation
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          This Stackoverflow question piqued my interest:
+retry policy configuration for grpc not working
+Service Config in gRPC is new to me but, my initial suspicion (albeit incorrect) was that the JSON types were incorrect.
+I decided to try using the Protocol Buffer source service_config.proto to verify the JSON.
+To do so I needed to compile the source&hellip;. it was gnarly.
+There are 2 repos used:
+googleapis grpc-proto The service_config.proto includes options for java_package but no go_package.
+        </div>
+          <a href="/posts/240117/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240105/" class="color-inherit dim link">
             Navigating Koyeb&#39;s Golang SDK
             </a>
@@ -245,38 +275,18 @@ kubectl get clusterpodmonitoring/kube-state-metrics \ --output=jsonpath=&#34;{.s
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/231222/" class="color-inherit dim link">
-            Listing Cloud Logging log-based metrics using gRPC
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Referring to Accessing Google Services using gRPC, I wanted to query a project&rsquo;s Cloud Logging for log-based metrics using gRPC.
-In summary:
-ENDPOINT=&#34;logging.googleapis.com:443&#34; ROOT=&#34;/path/to/googleapis&#34; # https://github.com/googleapis/googleapis PACKAGE=&#34;google/logging/v2&#34; # NB Not logging.proto PROTO=&#34;${ROOT}/${PACKAGE}/logging_metrics.proto&#34; TOKEN=$(gcloud auth print-access-token) PROJECT=&#34;...&#34; PACKAGE=&#34;google.logging.v2&#34; SERVICE=&#34;MetricsServiceV2&#34; METHOD=&#34;${PACKAGE}.${SERVICE}/ListLogMetrics&#34; # ListLogMetricsRequest fields PARENT=&#34;projects/${PROJECT}&#34; grpcurl \ --import-path=${ROOT} \ --proto=${PROTO} \ -H &#34;Authorization: Bearer ${TOKEN}&#34; \ -d &#34;{\&#34;parent\&#34;: \&#34;${PARENT}\&#34;}&#34; \ ${ENDPOINT} ${METHOD} From APIs Explorer, Cloud Logging API v2, instead of the REST reference, browse the gRPC reference specifically the package google.
-        </div>
-          <a href="/posts/231222/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/231222/" class="link black dim">
+              Listing Cloud Logging log-based metrics using gRPC
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231018/" class="link black dim">
@@ -293,12 +303,6 @@ ENDPOINT=&#34;logging.googleapis.com:443&#34; ROOT=&#34;/path/to/googleapis&#34;
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231013/" class="link black dim">
               Prometheus Operator `ScrapeConfig`
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/230709/" class="link black dim">
-              Prometheus Exporter for Koyeb
             </a>
           </h2>
         

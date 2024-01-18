@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 5363
+Age: 3821
 Content-Type: text/html
-Date: Sat, 13 Jan 2024 17:50:11 GMT
-Etag: "21462-60e9c5d5ea1f1-gzip"
-Last-Modified: Wed, 10 Jan 2024 19:23:24 GMT
+Date: Thu, 18 Jan 2024 04:44:59 GMT
+Etag: "21416-60f0e40ab7fa0-gzip"
+Last-Modified: Tue, 16 Jan 2024 11:15:49 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 23, 0
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300064-BFI
-X-Timer: S1705168211.438779,VS0,VE1
+X-Cache-Hits: 39, 189
+X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300113-BFI
+X-Timer: S1705553099.163509,VS0,VE0
 
 
 
@@ -78,8 +78,8 @@ X-Timer: S1705168211.438779,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.6c22fe5b00e0d3a4a471532454affb00e208f3da45ec0b1ceb699fcb6903fc16.css" as="style">
-    <link href="/scss/main-custom.min.6c22fe5b00e0d3a4a471532454affb00e208f3da45ec0b1ceb699fcb6903fc16.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.a4eaccd2e518846f55365b77b8940a1438db9e2432286ff13f923435c9691655.css" as="style">
+    <link href="/scss/main-custom.min.a4eaccd2e518846f55365b77b8940a1438db9e2432286ff13f923435c9691655.css" rel="stylesheet" integrity="">
 
 
 
@@ -1230,12 +1230,12 @@ X-Timer: S1705168211.438779,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/spanner.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Microsoft Azure Data Explorer</span>
+        <span class="box-event__integration--name">Google Cloud Spanner</span>
     </div>
 </div>
 
@@ -1243,12 +1243,12 @@ X-Timer: S1705168211.438779,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/quicksight.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/step_functions.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Amazon QuickSight</span>
+        <span class="box-event__integration--name">AWS Step Functions</span>
     </div>
 </div>
 
@@ -1256,12 +1256,12 @@ X-Timer: S1705168211.438779,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-redis/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-snowflake/stable/operators/snowflake.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Redis</span>
+        <span class="box-event__integration--name">Snowflake</span>
     </div>
 </div>
 
@@ -1269,12 +1269,12 @@ X-Timer: S1705168211.438779,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/bigquery.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/vertex_ai.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google BigQuery</span>
+        <span class="box-event__integration--name">Google Vertex AI</span>
     </div>
 </div>
 
@@ -1282,25 +1282,12 @@ X-Timer: S1705168211.438779,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-vertica/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-segment/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Vertica</span>
-    </div>
-</div>
-
-                </a>
-                
-                
-                
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/marketing_platform/display_video.html">
-                    
-
-<div class="card">
-    <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Display&amp;Video 360</span>
+        <span class="box-event__integration--name">Segment</span>
     </div>
 </div>
 
@@ -1313,7 +1300,7 @@ X-Timer: S1705168211.438779,VS0,VE1
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Docker</span>
+        <span class="box-event__integration--name">Docker Swarm</span>
     </div>
 </div>
 
@@ -1321,12 +1308,25 @@ X-Timer: S1705168211.438779,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/dataproc_metastore.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-odbc/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Dataproc Metastore</span>
+        <span class="box-event__integration--name">ODBC</span>
+    </div>
+</div>
+
+                </a>
+                
+                
+                
+                <a class="list-item" href="/docs/apache-airflow-providers-presto/stable/index.html">
+                    
+
+<div class="card">
+    <div class="box-event box-event__integration">
+        <span class="box-event__integration--name">Presto</span>
     </div>
 </div>
 

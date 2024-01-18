@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 844f7ae50f2008f3-SEA
+Cf-Ray: 84742f8faba0c60e-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Sat, 13 Jan 2024 17:50:11 GMT
-Last-Modified: Fri, 12 Jan 2024 22:33:06 GMT
+Date: Thu, 18 Jan 2024 04:44:58 GMT
+Last-Modified: Wed, 17 Jan 2024 23:05:45 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=4prHZgYqtHvUQvswJcwWEIKR4cg5mSEKwoxFi2DSbBQ-1705168210-1-ATR/NRRc+fTSB3GeboRhHpGF80uBqhg0xSacxJ0Uc3MaUvskqe7WSs9FWjFePfzp25W1a2cvS0FMeii/gOWHwk0=; path=/; expires=Sat, 13-Jan-24 18:20:10 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=_hCheygh4xs5Vfkhb97c4G8JkqpcBcTfHmeDP.0SSdQ-1705168211-1-ATi7fGmr+bLxgYC0aa5ZLDemexiSta2FWHB6LWppkc2NP6INQzfVeJyGF5MCFBFh/sUczCKkUWDZNWU6s6ev8xpnKG5wwtPO9crMSfenP1bI; path=/; expires=Sat, 13-Jan-24 18:20:11 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=Txia5N1WMQi__mgnf4O2tGaHxT2lSrQASkd8RMqvzK8-1705553098-1-AWm98VsIdchOthE+zWfJ/fbZKspJQyfBXD6hX/k6uZf76NaBOCyvS4ZKkxz4kv7VfQRHaQ2yKs6lNmB9Zw86QWM=; path=/; expires=Thu, 18-Jan-24 05:14:58 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=uXSYT2u7slO1Jo_LRGI0baO8mW7z2k35QFNxzVdW5CY-1705553098-1-ARl63AdauwX4m1biTs21Wbm6QpkSI/Hh+tx/9M79e3CsiIm+pMYv9KkoSV0QE196s5SF0I/b8s5BFlxfrF6dTSVKTzr5UOTY6gzIpDcECJNy; path=/; expires=Thu, 18-Jan-24 05:14:58 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
-X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
+X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
 X-Do-Orig-Status: 200
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
@@ -308,7 +308,10 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="1-january-2024">1 January 2024</h3>
+<h3 id="17-january-2024">17 January 2024</h3>
+<ul><li>
+            <p>You can now <a href="/products/app-platform/how-to/deploy-from-container-images/">deploy apps to App Platform using public and private repositories</a> on GitHub Container Registry. You can also now deploy images using private Docker Hub repositories.</p>
+        </li></ul><h3 id="1-january-2024">1 January 2024</h3>
 <ul><li>
             <p>The VAT rate for Switzerland and Liechtenstein has increased from 7.7% to 8.1% in accordance with the Federal Tax Administration of Switzerland (FTA)&rsquo;s <a href="https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html">amendment to the AHV Act</a>. <a href="/products/billing/taxes/che/">Learn more about Switzerland and Liechtenstein taxes</a>.</p>
         </li><li>
@@ -325,33 +328,6 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
             <p>Gradient Deployments can now be created with secured endpoints using basic access authentication encoded tokens. For more information, see <a href="/products/paperspace/deployments/reference/endpoint-security/">Endpoint Security</a>.</p>
         </li><li>
             <p>We have released an updated Container Registry experience to give customers enhanced management of their private registries. This includes additional features to add, validate, and edit containers, as well as changes to ensure Gradient Deployments with containers start successfully. For more information, see <a href="/products/paperspace/notebooks/how-to/manage-containers/">Manage Containers</a>.</p>
-        </li></ul><h3 id="19-december-2023">19 December 2023</h3>
-<ul><li>
-            <p><p>Ubuntu-18 will be deprecated for App Platform apps in 2024. We recommended that all apps <a href="/products/app-platform/how-to/change-stack/">upgrade to Ubuntu-22</a> as soon as possible.</p>
-<p>We have updated the following buildpacks:</p>
-<ul>
-<li><a href="/products/app-platform/reference/buildpacks/php/">PHP buildpack</a>: Updates to PHP v2 buildpack are listed below. If you are on Ubuntu-22 and have an existing PHP app that is on v0 or v1, we recommend <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrading to v2</a>.
-<ul>
-<li>PHP buildpack v2:
-<ul>
-<li>Add PHP/8.2.11 - PHP/8.2.12</li>
-<li>Add PHP/8.1.24 - PHP/8.1.25</li>
-<li>Upgrade ext-Redis to 6.0.2</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="/products/app-platform/reference/buildpacks/nodejs/">NodeJS buildpack</a>: A new NodeJS v1 buildpack version has been released that has an updated default version of NodeJS v20 for Ubuntu-22. If you are on Ubuntu-22 and have an existing NodeJS app that is on v0, we recommend <a href="/products/app-platform/how-to/upgrade-buildpacks/">upgrading to v1</a>.
-<ul>
-<li>NodeJS buildpack v1:
-<ul>
-<li>Default NodeJS version is now 20.x for Ubuntu-22 apps.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>
