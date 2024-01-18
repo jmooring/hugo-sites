@@ -1,7 +1,7 @@
 ---
 title: kubesphere.io
 types:
-- project
-- documentation
+  - project
+  - documentation
 visibility: []
 ---

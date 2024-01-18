@@ -1,7 +1,7 @@
 ---
 title: developer.gettyimages.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: letsencrypt.org
 types:
-- nonprofit
+  - nonprofit
 visibility:
-- high
+  - high
 ---

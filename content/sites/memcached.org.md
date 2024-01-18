@@ -1,7 +1,7 @@
 ---
 title: memcached.org
 types:
-- project
+  - project
 visibility:
-- high
+  - high
 ---

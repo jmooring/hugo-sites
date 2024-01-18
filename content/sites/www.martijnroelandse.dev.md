@@ -1,7 +1,7 @@
 ---
 title: www.martijnroelandse.dev
 types:
-- personal
-- cv
+  - personal
+  - cv
 visibility: []
 ---

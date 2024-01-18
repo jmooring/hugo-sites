@@ -1,7 +1,7 @@
 ---
 title: laurakalbag.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

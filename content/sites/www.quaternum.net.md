@@ -1,7 +1,7 @@
 ---
 title: www.quaternum.net
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

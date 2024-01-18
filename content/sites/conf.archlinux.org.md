@@ -1,6 +1,6 @@
 ---
 title: conf.archlinux.org
 types:
-- event
+  - event
 visibility: []
 ---

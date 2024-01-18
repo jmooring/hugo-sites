@@ -1,7 +1,7 @@
 ---
 title: falco.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

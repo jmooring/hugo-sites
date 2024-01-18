@@ -1,6 +1,6 @@
 ---
 title: www.maistra.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: baileysharborinn.com
 types:
-- business
+  - business
 visibility: []
 ---

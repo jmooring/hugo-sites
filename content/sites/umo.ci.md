@@ -1,7 +1,7 @@
 ---
 title: umo.ci
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

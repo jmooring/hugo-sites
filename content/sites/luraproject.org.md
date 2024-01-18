@@ -1,6 +1,6 @@
 ---
 title: luraproject.org
 types:
-- project
+  - project
 visibility: []
 ---

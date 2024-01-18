@@ -1,7 +1,7 @@
 ---
 title: bitbanged.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

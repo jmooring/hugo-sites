@@ -1,6 +1,6 @@
 ---
 title: www.thenewdynamic.com
 types:
-- business
+  - business
 visibility: []
 ---

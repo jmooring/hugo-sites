@@ -1,6 +1,6 @@
 ---
 title: www.paraplan.com.pl
 types:
-- business
+  - business
 visibility: []
 ---

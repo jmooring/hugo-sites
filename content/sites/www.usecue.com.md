@@ -1,7 +1,7 @@
 ---
 title: www.usecue.com
 types:
-- blog
-- business
+  - blog
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: tikv.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

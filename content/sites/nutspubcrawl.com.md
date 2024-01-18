@@ -1,6 +1,6 @@
 ---
 title: nutspubcrawl.com
 types:
-- business
+  - business
 visibility: []
 ---

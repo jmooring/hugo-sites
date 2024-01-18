@@ -1,6 +1,6 @@
 ---
 title: www.smartsupp.com
 types:
-- business
+  - business
 visibility: []
 ---

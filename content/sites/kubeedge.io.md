@@ -1,7 +1,7 @@
 ---
 title: kubeedge.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

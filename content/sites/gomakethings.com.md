@@ -1,6 +1,6 @@
 ---
 title: gomakethings.com
 types:
-- business
+  - business
 visibility: []
 ---

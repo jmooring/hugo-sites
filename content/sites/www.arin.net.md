@@ -1,6 +1,6 @@
 ---
 title: www.arin.net
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

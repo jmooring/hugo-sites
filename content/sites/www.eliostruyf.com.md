@@ -1,7 +1,7 @@
 ---
 title: www.eliostruyf.com
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

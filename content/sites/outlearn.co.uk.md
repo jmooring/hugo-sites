@@ -1,6 +1,6 @@
 ---
 title: outlearn.co.uk
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

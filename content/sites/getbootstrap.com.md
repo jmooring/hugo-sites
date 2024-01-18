@@ -1,8 +1,8 @@
 ---
 title: getbootstrap.com
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility:
-- high
+  - high
 ---

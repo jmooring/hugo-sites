@@ -1,6 +1,6 @@
 ---
 title: curriculum.codeyourfuture.io
 types:
-- education
+  - education
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: www.deroos-swaap.nl
 types:
-- business
+  - business
 visibility: []
 ---

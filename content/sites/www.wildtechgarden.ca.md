@@ -1,7 +1,7 @@
 ---
 title: www.wildtechgarden.ca
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

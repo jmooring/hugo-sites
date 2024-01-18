@@ -1,6 +1,6 @@
 ---
 title: www.hasecke.com
 types:
-- business
+  - business
 visibility: []
 ---

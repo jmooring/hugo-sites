@@ -1,6 +1,6 @@
 ---
 title: wmrra.com
 types:
-- association
+  - association
 visibility: []
 ---

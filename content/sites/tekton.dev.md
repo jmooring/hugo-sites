@@ -1,7 +1,7 @@
 ---
 title: tekton.dev
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

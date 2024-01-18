@@ -1,6 +1,6 @@
 ---
 title: heffernanutilities.com
 types:
-- business
+  - business
 visibility: []
 ---

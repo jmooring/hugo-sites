@@ -1,8 +1,8 @@
 ---
 title: johnmu.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility:
-- high
+  - high
 ---

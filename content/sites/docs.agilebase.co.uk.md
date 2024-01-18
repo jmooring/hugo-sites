@@ -1,7 +1,7 @@
 ---
 title: docs.agilebase.co.uk
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

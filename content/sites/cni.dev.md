@@ -1,6 +1,6 @@
 ---
 title: cni.dev
 types:
-- project
+  - project
 visibility: []
 ---

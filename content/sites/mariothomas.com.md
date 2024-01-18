@@ -1,7 +1,7 @@
 ---
 title: mariothomas.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: openmetrics.io
 types:
-- project
+  - project
 visibility: []
 ---

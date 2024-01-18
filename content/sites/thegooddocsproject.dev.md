@@ -1,7 +1,7 @@
 ---
 title: thegooddocsproject.dev
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

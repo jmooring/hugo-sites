@@ -1,7 +1,7 @@
 ---
 title: openservicemesh.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

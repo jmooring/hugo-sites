@@ -1,6 +1,6 @@
 ---
 title: www.understandingreligion.org.uk
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

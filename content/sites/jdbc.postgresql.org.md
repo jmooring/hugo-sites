@@ -1,6 +1,6 @@
 ---
 title: jdbc.postgresql.org
 types:
-- project
+  - project
 visibility: []
 ---

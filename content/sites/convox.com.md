@@ -1,6 +1,6 @@
 ---
 title: convox.com
 types:
-- business
+  - business
 visibility: []
 ---

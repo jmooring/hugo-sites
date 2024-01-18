@@ -2,7 +2,7 @@
 path: /blog
 title: hapticmedia.com
 types:
-- blog
-- business
+  - blog
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: smi-spec.io
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: galaxiesofeden.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: climateviewer.com
 types:
-- news
+  - news
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: www.german-outdoors.de
 types:
-- business
+  - business
 visibility: []
 ---

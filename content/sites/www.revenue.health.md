@@ -1,6 +1,6 @@
 ---
 title: www.revenue.health
 types:
-- business
+  - business
 visibility: []
 ---

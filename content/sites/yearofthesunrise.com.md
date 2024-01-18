@@ -1,7 +1,7 @@
 ---
 title: yearofthesunrise.com
 types:
-- personal
-- portfolio
+  - personal
+  - portfolio
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: gethue.com
 types:
-- project
+  - project
 visibility: []
 ---

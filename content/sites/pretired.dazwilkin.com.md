@@ -1,7 +1,7 @@
 ---
 title: pretired.dazwilkin.com
 types:
-- professional
-- blog
+  - professional
+  - blog
 visibility: []
 ---

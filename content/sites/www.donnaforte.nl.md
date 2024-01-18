@@ -1,6 +1,6 @@
 ---
 title: www.donnaforte.nl
 types:
-- business
+  - business
 visibility: []
 ---

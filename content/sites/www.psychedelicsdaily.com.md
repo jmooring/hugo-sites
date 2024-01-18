@@ -1,8 +1,8 @@
 ---
 title: www.psychedelicsdaily.com
 types:
-- nonprofit
-- news
-- healthcare
+  - nonprofit
+  - news
+  - healthcare
 visibility: []
 ---

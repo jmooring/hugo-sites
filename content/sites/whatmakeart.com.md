@@ -1,6 +1,6 @@
 ---
 title: whatmakeart.com
 types:
-- education
+  - education
 visibility: []
 ---

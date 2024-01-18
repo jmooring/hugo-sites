@@ -1,7 +1,7 @@
 ---
 title: gift.glenfiddich.com
 types:
-- business
-- landing-page
+  - business
+  - landing-page
 visibility: []
 ---

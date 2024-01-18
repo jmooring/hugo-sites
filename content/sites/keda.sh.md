@@ -1,6 +1,6 @@
 ---
 title: keda.sh
 types:
-- project
+  - project
 visibility: []
 ---

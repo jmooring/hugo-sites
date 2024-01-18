@@ -1,7 +1,7 @@
 ---
 title: graphviz.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

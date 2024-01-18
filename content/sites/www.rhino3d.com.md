@@ -1,6 +1,6 @@
 ---
 title: www.rhino3d.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: www.expressvpn.com
 types:
-- business
+  - business
 visibility: []
 ---

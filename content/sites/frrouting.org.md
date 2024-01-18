@@ -1,6 +1,6 @@
 ---
 title: frrouting.org
 types:
-- project
+  - project
 visibility: []
 ---

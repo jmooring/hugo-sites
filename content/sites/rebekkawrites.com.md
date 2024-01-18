@@ -1,7 +1,7 @@
 ---
 title: rebekkawrites.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

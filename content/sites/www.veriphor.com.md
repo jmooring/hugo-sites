@@ -1,6 +1,6 @@
 ---
 title: www.veriphor.com
 types:
-- business
+  - business
 visibility: []
 ---

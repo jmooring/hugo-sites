@@ -1,6 +1,6 @@
 ---
 title: www.crossref.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

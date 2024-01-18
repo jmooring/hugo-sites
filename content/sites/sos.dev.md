@@ -1,6 +1,6 @@
 ---
 title: sos.dev
 types:
-- project
+  - project
 visibility: []
 ---

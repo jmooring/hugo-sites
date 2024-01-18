@@ -1,6 +1,6 @@
 ---
 title: www.ntp.org
 types:
-- project
+  - project
 visibility: []
 ---

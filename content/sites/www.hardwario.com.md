@@ -1,6 +1,6 @@
 ---
 title: www.hardwario.com
 types:
-- business
+  - business
 visibility: []
 ---

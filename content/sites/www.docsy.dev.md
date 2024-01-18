@@ -1,7 +1,7 @@
 ---
 title: www.docsy.dev
 types:
-- project
-- documentation
+  - project
+  - documentation
 visibility: []
 ---

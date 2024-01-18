@@ -1,8 +1,8 @@
 ---
 title: kubernetes.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility:
-- high
+  - high
 ---

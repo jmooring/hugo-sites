@@ -1,7 +1,7 @@
 ---
 title: www.raku-lang.ir
 types:
-- project
+  - project
 visibility: []
 path: /en
 ---

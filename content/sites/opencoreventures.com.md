@@ -1,6 +1,6 @@
 ---
 title: opencoreventures.com
 types:
-- business
+  - business
 visibility: []
 ---

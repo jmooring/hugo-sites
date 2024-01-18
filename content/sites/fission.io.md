@@ -1,7 +1,7 @@
 ---
 title: fission.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

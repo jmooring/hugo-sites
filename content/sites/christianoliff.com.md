@@ -1,6 +1,6 @@
 ---
 title: christianoliff.com
 types:
-- blog
+  - blog
 visibility: []
 ---

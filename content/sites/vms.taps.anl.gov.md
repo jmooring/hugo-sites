@@ -1,6 +1,6 @@
 ---
 title: vms.taps.anl.gov
 types:
-- government
+  - government
 visibility: []
 ---

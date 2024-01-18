@@ -1,6 +1,6 @@
 ---
 title: quickpay.net
 types:
-- business
+  - business
 visibility: []
 ---

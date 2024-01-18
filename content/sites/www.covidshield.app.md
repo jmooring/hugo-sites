@@ -1,6 +1,6 @@
 ---
 title: www.covidshield.app
 types:
-- healthcare
+  - healthcare
 visibility: []
 ---

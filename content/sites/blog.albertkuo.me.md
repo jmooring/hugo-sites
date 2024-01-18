@@ -1,6 +1,6 @@
 ---
 title: blog.albertkuo.me
 types:
-- blog
+  - blog
 visibility: []
 ---

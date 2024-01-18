@@ -1,6 +1,6 @@
 ---
 title: www.kicad.org
 types:
-- project
+  - project
 visibility: []
 ---

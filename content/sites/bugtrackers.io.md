@@ -1,6 +1,6 @@
 ---
 title: bugtrackers.io
 types:
-- news
+  - news
 visibility: []
 ---

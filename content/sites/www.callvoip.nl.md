@@ -1,6 +1,6 @@
 ---
 title: www.callvoip.nl
 types:
-- business
+  - business
 visibility: []
 ---

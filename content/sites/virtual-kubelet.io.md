@@ -1,7 +1,7 @@
 ---
 title: virtual-kubelet.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

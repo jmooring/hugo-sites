@@ -1,6 +1,6 @@
 ---
 title: bookofconcord.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

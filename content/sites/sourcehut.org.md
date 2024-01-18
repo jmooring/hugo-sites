@@ -1,6 +1,6 @@
 ---
 title: sourcehut.org
 types:
-- business
+  - business
 visibility: []
 ---

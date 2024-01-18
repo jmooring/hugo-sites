@@ -1,7 +1,7 @@
 ---
 title: www.openpolicyagent.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

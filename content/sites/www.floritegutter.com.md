@@ -1,6 +1,6 @@
 ---
 title: www.floritegutter.com
 types:
-- business
+  - business
 visibility: []
 ---

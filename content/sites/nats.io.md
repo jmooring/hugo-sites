@@ -1,6 +1,6 @@
 ---
 title: nats.io
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: sdk.operatorframework.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

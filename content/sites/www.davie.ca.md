@@ -1,6 +1,6 @@
 ---
 title: www.davie.ca
 types: 
-- business
+  - business
 visibility: []
 ---

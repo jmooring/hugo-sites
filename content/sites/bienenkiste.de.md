@@ -1,7 +1,7 @@
 ---
 title: bienenkiste.de
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

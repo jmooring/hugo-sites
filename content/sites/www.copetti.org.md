@@ -1,7 +1,7 @@
 ---
 title: www.copetti.org
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

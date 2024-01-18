@@ -1,7 +1,7 @@
 ---
 title: mood.harrycresswell.com
 types:
-- portfolio
-- personal
+  - portfolio
+  - personal
 visibility: []
 ---

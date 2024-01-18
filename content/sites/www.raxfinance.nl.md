@@ -1,6 +1,6 @@
 ---
 title: www.raxfinance.nl
 types:
-- business
+  - business
 visibility: []
 ---

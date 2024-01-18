@@ -1,7 +1,7 @@
 ---
 title: moonbooth.com
 types:
-- business
-- blog
+  - business
+  - blog
 visibility: []
 ---

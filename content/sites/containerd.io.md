@@ -1,7 +1,7 @@
 ---
 title: containerd.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

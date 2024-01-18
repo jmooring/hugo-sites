@@ -1,6 +1,6 @@
 ---
 title: www.gnuradio.org
 types:
-- project
+  - project
 visibility: []
 ---

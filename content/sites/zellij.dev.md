@@ -1,6 +1,6 @@
 ---
 title: zellij.dev
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: postgis.net
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

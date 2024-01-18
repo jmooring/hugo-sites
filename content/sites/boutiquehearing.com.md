@@ -1,6 +1,6 @@
 ---
 title: boutiquehearing.com
 types:
-- business
+  - business
 visibility: []
 ---

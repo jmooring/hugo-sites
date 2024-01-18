@@ -1,6 +1,6 @@
 ---
 title: unicef.github.io
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

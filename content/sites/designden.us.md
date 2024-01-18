@@ -1,6 +1,6 @@
 ---
 title: designden.us
 types:
-- business
+  - business
 visibility: []
 ---

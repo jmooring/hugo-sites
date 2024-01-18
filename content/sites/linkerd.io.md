@@ -1,6 +1,6 @@
 ---
 title: linkerd.io
 types:
-- project
+  - project
 visibility: []
 ---

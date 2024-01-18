@@ -1,7 +1,7 @@
 ---
 title: photos.sowrey.org
 types:
-- personal
-- portfolio
+  - personal
+  - portfolio
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: www.libreoffice.org
 types:
-- project
+  - project
 visibility:
-- high
+  - high
 ---

@@ -1,7 +1,7 @@
 ---
 title: www.budlight.com
 types:
-- business
+  - business
 visibility:
-- high
+  - high
 ---

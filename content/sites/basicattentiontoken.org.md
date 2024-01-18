@@ -1,6 +1,6 @@
 ---
 title: basicattentiontoken.org
 types:
-- business
+  - business
 visibility: []
 ---

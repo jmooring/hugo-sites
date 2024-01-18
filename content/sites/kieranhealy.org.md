@@ -1,7 +1,7 @@
 ---
 title: kieranhealy.org
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

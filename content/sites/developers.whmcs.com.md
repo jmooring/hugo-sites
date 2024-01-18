@@ -1,7 +1,7 @@
 ---
 title: developers.whmcs.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

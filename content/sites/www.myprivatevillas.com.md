@@ -1,6 +1,6 @@
 ---
 title: www.myprivatevillas.com
 types:
-- business
+  - business
 visibility: []
 ---

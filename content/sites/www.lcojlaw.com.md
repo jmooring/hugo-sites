@@ -1,6 +1,6 @@
 ---
 title: www.lcojlaw.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: cdevents.dev
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

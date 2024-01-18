@@ -1,6 +1,6 @@
 ---
 title: helm.sh
 types:
-- project
+  - project
 visibility: []
 ---

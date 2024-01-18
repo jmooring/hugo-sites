@@ -1,7 +1,7 @@
 ---
 title: snicoll.be
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

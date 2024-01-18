@@ -1,6 +1,6 @@
 ---
 title: telepathy.freedesktop.org
 types:
-- project
+  - project
 visibility: []
 ---

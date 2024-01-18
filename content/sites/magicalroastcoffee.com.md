@@ -1,6 +1,6 @@
 ---
 title: magicalroastcoffee.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: www.matthewstire.com
 types:
-- business
+  - business
 visibility: []
 ---

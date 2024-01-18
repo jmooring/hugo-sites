@@ -1,6 +1,6 @@
 ---
 title: mobile-platform.leroymerlin.fr
 types:
-- project
+  - project
 visibility: []
 ---

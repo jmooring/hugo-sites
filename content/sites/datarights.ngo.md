@@ -1,6 +1,6 @@
 ---
 title: datarights.ngo
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

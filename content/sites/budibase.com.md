@@ -1,6 +1,6 @@
 ---
 title: budibase.com
 types:
-- business
+  - business
 visibility: []
 ---

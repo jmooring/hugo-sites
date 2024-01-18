@@ -1,8 +1,8 @@
 ---
 title: docs.digitalocean.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility:
-- high
+  - high
 ---

@@ -1,6 +1,6 @@
 ---
 title: community.apache.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

@@ -1,8 +1,8 @@
 ---
 title: ortelius.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 xdraft: true
 ---

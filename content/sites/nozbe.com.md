@@ -1,6 +1,6 @@
 ---
 title: nozbe.com
 types:
-- business
+  - business
 visibility: []
 ---

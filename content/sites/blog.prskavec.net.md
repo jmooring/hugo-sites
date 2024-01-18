@@ -1,6 +1,6 @@
 ---
 title: blog.prskavec.net
 types:
-- blog
+  - blog
 visibility: []
 ---

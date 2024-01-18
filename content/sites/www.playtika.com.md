@@ -1,6 +1,6 @@
 ---
 title: www.playtika.com
 types:
-- business
+  - business
 visibility: []
 ---

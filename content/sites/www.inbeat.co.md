@@ -1,6 +1,6 @@
 ---
 title: www.inbeat.co
 types:
-- business
+  - business
 visibility: []
 ---

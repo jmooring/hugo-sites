@@ -1,7 +1,7 @@
 ---
 title: www.vegard.net
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

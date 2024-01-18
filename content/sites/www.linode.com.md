@@ -2,8 +2,8 @@
 path: /docs
 title: www.linode.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility:
-- high
+  - high
 ---

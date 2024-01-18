@@ -1,6 +1,6 @@
 ---
 title: www.boomtownfair.co.uk
 types:
-- event
+  - event
 visibility: []
 ---

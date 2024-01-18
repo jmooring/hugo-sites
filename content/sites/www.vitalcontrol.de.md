@@ -1,6 +1,7 @@
 ---
-title: trunkbaseddevelopment.com
+title: www.vitalcontrol.de
 types:
   - documentation
+  - business
 visibility: []
 ---

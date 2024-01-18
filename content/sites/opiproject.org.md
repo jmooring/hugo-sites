@@ -1,6 +1,6 @@
 ---
 title: opiproject.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

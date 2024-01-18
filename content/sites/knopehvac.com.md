@@ -1,6 +1,6 @@
 ---
 title: knopehvac.com
 types:
-- business
+  - business
 visibility: []
 ---

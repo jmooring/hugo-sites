@@ -1,6 +1,6 @@
 ---
 title: covidbahamas.app
 types:
-- healthcare
+  - healthcare
 visibility: []
 ---

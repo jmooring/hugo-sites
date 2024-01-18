@@ -1,6 +1,6 @@
 ---
 title: heritagebakeshoppe.com
 types:
-- business
+  - business
 visibility: []
 ---

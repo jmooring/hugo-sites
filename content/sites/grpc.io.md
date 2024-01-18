@@ -1,7 +1,7 @@
 ---
 title: grpc.io
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

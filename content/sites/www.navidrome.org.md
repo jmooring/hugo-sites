@@ -1,7 +1,7 @@
 ---
 title: www.navidrome.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

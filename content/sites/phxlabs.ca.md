@@ -1,6 +1,6 @@
 ---
 title: phxlabs.ca
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: histoire.gallois.info
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

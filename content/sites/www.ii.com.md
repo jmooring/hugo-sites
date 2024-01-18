@@ -1,7 +1,7 @@
 ---
 title: www.ii.com
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

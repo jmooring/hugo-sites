@@ -1,7 +1,7 @@
 ---
 title: www.checklyhq.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

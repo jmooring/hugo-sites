@@ -1,6 +1,6 @@
 ---
 title: airflow.apache.org
 types:
-- project
+  - project
 visibility: []
 ---

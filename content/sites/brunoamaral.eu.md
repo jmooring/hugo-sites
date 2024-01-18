@@ -1,7 +1,7 @@
 ---
 title: brunoamaral.eu
 types:
- - personal
- - blog
+  - personal
+  - blog
 visibility: []
 ---

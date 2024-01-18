@@ -1,6 +1,6 @@
 ---
 title: webmin.com
 types:
-- project
+  - project
 visibility: []
 ---

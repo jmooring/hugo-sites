@@ -1,6 +1,6 @@
 ---
 title: freshcoastfilm.com
 types:
-- event
+  - event
 visibility: []
 ---

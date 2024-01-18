@@ -1,7 +1,7 @@
 ---
 title: jeremyfoster.ca
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

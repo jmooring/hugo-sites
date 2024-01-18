@@ -1,6 +1,6 @@
 ---
 title: shockwave.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

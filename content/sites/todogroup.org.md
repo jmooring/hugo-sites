@@ -1,6 +1,6 @@
 ---
 title: todogroup.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

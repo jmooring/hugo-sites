@@ -1,6 +1,6 @@
 ---
 title: sqlitebrowser.org
 types:
-- project
+  - project
 visibility: []
 ---

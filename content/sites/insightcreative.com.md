@@ -1,6 +1,6 @@
 ---
 title: insightcreative.com
 types:
-- business
+  - business
 visibility: []
 ---

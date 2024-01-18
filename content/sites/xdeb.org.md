@@ -1,7 +1,7 @@
 ---
 title: xdeb.org
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

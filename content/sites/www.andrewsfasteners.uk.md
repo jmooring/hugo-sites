@@ -1,6 +1,6 @@
 ---
 title: www.andrewsfasteners.uk
 types:
-- business
+  - business
 visibility: []
 ---

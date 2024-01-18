@@ -1,7 +1,7 @@
 ---
 title: jenkins-x.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

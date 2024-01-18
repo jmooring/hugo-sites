@@ -1,6 +1,6 @@
 ---
 title: corhomellc.com
 types:
-- business
+  - business
 visibility: []
 ---

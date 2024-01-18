@@ -1,7 +1,7 @@
 ---
 title: submariner.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

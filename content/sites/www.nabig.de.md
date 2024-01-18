@@ -1,6 +1,6 @@
 ---
 title: www.nabig.de
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

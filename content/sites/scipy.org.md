@@ -1,6 +1,6 @@
 ---
 title: scipy.org
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,8 +1,8 @@
 ---
 title: statsbylopez.netlify.app
 types:
-- personal
-- cv
-- blog
+  - personal
+  - cv
+  - blog
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: profiles-help.yougov.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: gowebexamples.com
 types:
-- business
-- education
+  - business
+  - education
 visibility: []
 ---

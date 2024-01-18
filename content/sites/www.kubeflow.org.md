@@ -1,7 +1,7 @@
 ---
 title: www.kubeflow.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

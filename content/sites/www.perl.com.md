@@ -1,6 +1,6 @@
 ---
 title: www.perl.com
 types:
-- news
+  - news
 visibility: []
 ---

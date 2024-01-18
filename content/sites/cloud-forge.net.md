@@ -1,6 +1,6 @@
 ---
 title: cloud-forge.net
 types:
-- business
+  - business
 visibility: []
 ---

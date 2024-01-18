@@ -1,7 +1,7 @@
 ---
 title: dubbo.apache.org
 types:
-- project
-- documentation
+  - project
+  - documentation
 visibility: []
 ---

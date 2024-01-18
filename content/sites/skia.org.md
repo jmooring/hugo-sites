@@ -1,6 +1,6 @@
 ---
 title: skia.org
 types:
-- project
+  - project
 visibility: []
 ---

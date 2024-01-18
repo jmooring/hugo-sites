@@ -1,6 +1,6 @@
 ---
 title: intelops.ai
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: tinkerbell.org
 types:
-- project
+  - project
 visibility: []
 ---

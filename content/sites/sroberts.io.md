@@ -1,7 +1,7 @@
 ---
 title: sroberts.io
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: pictoselector.eu
 types:
-- project
+  - project
 visibility: []
 ---

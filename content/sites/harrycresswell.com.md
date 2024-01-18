@@ -1,7 +1,7 @@
 ---
 title: harrycresswell.com
 types:
-- blog
-- business
+  - blog
+  - business
 visibility: []
 ---

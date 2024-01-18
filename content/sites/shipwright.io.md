@@ -1,7 +1,7 @@
 ---
 title: shipwright.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

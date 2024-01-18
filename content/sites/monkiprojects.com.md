@@ -1,6 +1,6 @@
 ---
 title: monkiprojects.com
 types:
-- project
+  - project
 visibility: []
 ---

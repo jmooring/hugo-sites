@@ -1,6 +1,6 @@
 ---
 title: tech.gsa.gov
 types:
-- government
+  - government
 visibility: []
 ---

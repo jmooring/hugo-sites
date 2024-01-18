@@ -1,6 +1,6 @@
 ---
 title: www.paytsoftware.com
 types:
-- business
+  - business
 visibility: []
 ---

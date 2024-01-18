@@ -1,7 +1,7 @@
 ---
 title: hugegraph.apache.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

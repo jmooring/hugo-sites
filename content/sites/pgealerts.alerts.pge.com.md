@@ -1,6 +1,6 @@
 ---
 title: pgealerts.alerts.pge.com
 types:
-- business
+  - business
 visibility: []
 ---

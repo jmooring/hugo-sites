@@ -1,6 +1,6 @@
 ---
 title: grafana.com
 types:
-- business
+  - business
 visibility: []
 ---

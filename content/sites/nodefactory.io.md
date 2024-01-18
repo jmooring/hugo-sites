@@ -1,6 +1,6 @@
 ---
 title: nodefactory.io
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: rclone.org
 types:
-- project
+  - project
 visibility: []
 ---

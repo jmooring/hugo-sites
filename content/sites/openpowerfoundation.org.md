@@ -1,6 +1,6 @@
 ---
 title: openpowerfoundation.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

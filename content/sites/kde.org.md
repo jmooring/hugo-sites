@@ -1,7 +1,7 @@
 ---
 title: kde.org
 types:
-- project
+  - project
 visibility:
-- high
+  - high
 ---

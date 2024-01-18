@@ -1,7 +1,7 @@
 ---
 title: jameskiefer.com
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

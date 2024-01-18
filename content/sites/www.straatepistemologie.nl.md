@@ -1,6 +1,6 @@
 ---
 title: www.straatepistemologie.nl
 types:
-- project
+  - project
 visibility: []
 ---

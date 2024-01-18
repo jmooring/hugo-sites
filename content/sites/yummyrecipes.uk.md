@@ -1,7 +1,7 @@
 ---
 title: yummyrecipes.uk
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

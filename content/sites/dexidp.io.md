@@ -1,6 +1,6 @@
 ---
 title: dexidp.io
 types:
-- project
+  - project
 visibility: []
 ---

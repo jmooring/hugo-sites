@@ -1,6 +1,6 @@
 ---
 title: cloudevents.io
 types:
-- project
+  - project
 visibility: []
 ---

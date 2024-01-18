@@ -1,7 +1,7 @@
 ---
 title: fireship.io
 types:
-- business
-- education
+  - business
+  - education
 visibility: []
 ---

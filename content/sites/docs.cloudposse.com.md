@@ -1,7 +1,7 @@
 ---
 title: docs.cloudposse.com
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

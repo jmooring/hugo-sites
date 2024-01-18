@@ -1,6 +1,6 @@
 ---
 title: buildpacks.io
 types:
-- project
+  - project
 visibility: []
 ---

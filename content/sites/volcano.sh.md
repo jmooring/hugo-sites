@@ -1,7 +1,7 @@
 ---
 title: volcano.sh
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

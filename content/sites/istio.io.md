@@ -1,6 +1,6 @@
 ---
 title: istio.io
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: www.gomeetupprague.cz
 types:
-- event
+  - event
 visibility: []
 ---

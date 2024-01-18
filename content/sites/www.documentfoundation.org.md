@@ -1,6 +1,6 @@
 ---
 title: www.documentfoundation.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

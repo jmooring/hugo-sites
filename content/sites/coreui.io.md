@@ -1,6 +1,6 @@
 ---
 title: coreui.io
 types:
-- business
+  - business
 visibility: []
 ---

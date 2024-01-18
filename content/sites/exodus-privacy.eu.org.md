@@ -1,6 +1,6 @@
 ---
 title: exodus-privacy.eu.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

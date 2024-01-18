@@ -1,6 +1,6 @@
 ---
 title: c2pa.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

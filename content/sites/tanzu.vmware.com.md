@@ -2,7 +2,7 @@
 path: /developer
 title: tanzu.vmware.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

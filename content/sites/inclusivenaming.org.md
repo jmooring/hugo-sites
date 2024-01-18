@@ -1,6 +1,6 @@
 ---
 title: inclusivenaming.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: appscode.com
 types:
-- business
+  - business
 visibility: []
 ---

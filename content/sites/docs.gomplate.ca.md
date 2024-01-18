@@ -1,7 +1,7 @@
 ---
 title: docs.gomplate.ca
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

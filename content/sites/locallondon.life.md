@@ -1,6 +1,6 @@
 ---
 title: locallondon.life
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

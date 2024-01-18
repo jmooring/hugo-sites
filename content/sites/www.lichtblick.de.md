@@ -1,6 +1,6 @@
 ---
 title: www.lichtblick.de
 types:
-- business
+  - business
 visibility: []
 ---

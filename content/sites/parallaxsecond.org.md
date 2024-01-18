@@ -1,6 +1,6 @@
 ---
 title: parallaxsecond.org
 types:
-- project
+  - project
 visibility: []
 ---

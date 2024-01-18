@@ -1,6 +1,6 @@
 ---
 title: timothyhyndman.com
 types:
-- cv
+  - cv
 visibility: []
 ---

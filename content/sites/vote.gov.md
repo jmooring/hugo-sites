@@ -1,7 +1,7 @@
 ---
 title: vote.gov
 types:
-- government
+  - government
 visibility:
-- high
+  - high
 ---

@@ -1,6 +1,6 @@
 ---
 title: aloralabs.com
 types:
-- business
+  - business
 visibility: []
 ---

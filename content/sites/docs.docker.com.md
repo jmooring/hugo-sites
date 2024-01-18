@@ -1,7 +1,7 @@
 ---
 title: docs.docker.com
 types:
-- documentation
+  - documentation
 visibility:
-- high
+  - high
 ---

@@ -1,7 +1,7 @@
 ---
 title: jmmv.dev
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

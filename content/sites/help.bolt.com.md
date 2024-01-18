@@ -1,6 +1,6 @@
 ---
 title: help.bolt.com
 types:
-- business
+  - business
 visibility: []
 ---

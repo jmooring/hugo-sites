@@ -1,7 +1,7 @@
 ---
 title: brave.com
 types:
-- business
+  - business
 visibility:
-- high
+  - high
 ---

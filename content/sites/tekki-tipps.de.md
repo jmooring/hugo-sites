@@ -1,7 +1,7 @@
 ---
 title: tekki-tipps.de
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: www.eclipse.org
 types:
-- nonprofit
+  - nonprofit
 visibility:
-- high
+  - high
 ---

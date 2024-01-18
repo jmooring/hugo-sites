@@ -1,6 +1,6 @@
 ---
 title: www.bypasscensorship.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

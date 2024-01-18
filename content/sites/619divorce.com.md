@@ -1,6 +1,6 @@
 ---
 title: 619divorce.com
 types:
-- business
+  - business
 visibility: []
 ---

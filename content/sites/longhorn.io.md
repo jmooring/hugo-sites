@@ -1,6 +1,6 @@
 ---
 title: longhorn.io
 types:
-- project
+  - project
 visibility: []
 ---

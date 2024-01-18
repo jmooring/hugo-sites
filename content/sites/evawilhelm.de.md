@@ -1,6 +1,6 @@
 ---
 title: evawilhelm.de
 types:
-- business
+  - business
 visibility: []
 ---

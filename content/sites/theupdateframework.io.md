@@ -1,7 +1,7 @@
 ---
 title: theupdateframework.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

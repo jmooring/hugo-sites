@@ -1,6 +1,6 @@
 ---
 title: in-toto.io
 types:
-- project
+  - project
 visibility: []
 ---

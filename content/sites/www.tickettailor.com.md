@@ -1,6 +1,6 @@
 ---
 title: www.tickettailor.com
 types:
-- business
+  - business
 visibility: []
 ---

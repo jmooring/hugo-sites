@@ -1,7 +1,7 @@
 ---
 title: kube-vip.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

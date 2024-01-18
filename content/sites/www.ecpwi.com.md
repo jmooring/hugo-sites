@@ -1,6 +1,6 @@
 ---
 title: www.ecpwi.com
 types:
-- business
+  - business
 visibility: []
 ---

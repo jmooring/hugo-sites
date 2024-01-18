@@ -1,7 +1,7 @@
 ---
 title: www.opencue.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

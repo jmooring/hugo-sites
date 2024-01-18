@@ -1,7 +1,7 @@
 ---
 title: www.eleuther.ai
 types:
-- blog
-- nonprofit
+  - blog
+  - nonprofit
 visibility: []
 ---

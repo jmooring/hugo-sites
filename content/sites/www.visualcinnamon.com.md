@@ -1,6 +1,6 @@
 ---
 title: www.visualcinnamon.com
 types:
-- business
+  - business
 visibility: []
 ---

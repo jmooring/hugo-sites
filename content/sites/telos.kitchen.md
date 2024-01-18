@@ -1,6 +1,6 @@
 ---
 title: telos.kitchen
 types:
-- business
+  - business
 visibility: []
 ---

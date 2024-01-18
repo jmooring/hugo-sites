@@ -1,6 +1,6 @@
 ---
 title: m3upt.com
 types:
-- project
+  - project
 visibility: []
 ---

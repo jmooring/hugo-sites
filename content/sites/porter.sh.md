@@ -1,6 +1,6 @@
 ---
 title: porter.sh
 types:
-- project
+  - project
 visibility: []
 ---

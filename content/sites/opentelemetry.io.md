@@ -1,7 +1,7 @@
 ---
 title: opentelemetry.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

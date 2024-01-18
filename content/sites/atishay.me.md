@@ -1,7 +1,7 @@
 ---
 title: atishay.me
 types:
-- blog
-- cv
+  - blog
+  - cv
 visibility: []
 ---

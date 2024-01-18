@@ -2,6 +2,6 @@
 path: /fr
 title: www.visitparisregion.com
 types:
-- business
+  - business
 visibility: []
 ---

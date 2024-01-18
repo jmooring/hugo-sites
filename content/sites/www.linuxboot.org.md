@@ -1,6 +1,6 @@
 ---
 title: www.linuxboot.org
 types:
-- project
+  - project
 visibility: []
 ---

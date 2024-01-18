@@ -1,7 +1,7 @@
 ---
 title: geoff.sowrey.org
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

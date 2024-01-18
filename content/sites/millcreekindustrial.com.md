@@ -1,6 +1,6 @@
 ---
 title: millcreekindustrial.com
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: www.stellaartois.com
 types:
-- business
+  - business
 visibility:
-- high
+  - high
 ---

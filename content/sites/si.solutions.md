@@ -1,6 +1,6 @@
 ---
 title: si.solutions
 types:
-- business
+  - business
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: blog.mbedded.ninja
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

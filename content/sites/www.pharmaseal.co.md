@@ -1,6 +1,6 @@
 ---
 title: www.pharmaseal.co
 types:
-- business
+  - business
 visibility: []
 ---

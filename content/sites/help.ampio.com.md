@@ -1,7 +1,7 @@
 ---
 title: help.ampio.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

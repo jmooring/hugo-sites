@@ -1,6 +1,6 @@
 ---
 title: jvmperf.net
 types:
-- project
+  - project
 visibility: []
 ---

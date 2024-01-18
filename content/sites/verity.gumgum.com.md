@@ -1,7 +1,7 @@
 ---
 title: verity.gumgum.com
 types:
-- business
-- project
+  - business
+  - project
 visibility: []
 ---

@@ -1,7 +1,7 @@
 ---
 title: blog.thul.org
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

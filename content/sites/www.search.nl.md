@@ -1,6 +1,6 @@
 ---
 title: www.search.nl
 types:
-- business
+  - business
 visibility: []
 ---

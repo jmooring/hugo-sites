@@ -1,6 +1,6 @@
 ---
 title: ocrs.online
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

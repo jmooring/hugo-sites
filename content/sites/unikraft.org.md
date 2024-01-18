@@ -1,7 +1,7 @@
 ---
 title: unikraft.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

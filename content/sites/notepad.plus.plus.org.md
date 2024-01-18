@@ -1,7 +1,7 @@
 ---
 title: notepad-plus-plus.org
 types:
-- project
+  - project
 visibility:
-- high
+  - high
 ---

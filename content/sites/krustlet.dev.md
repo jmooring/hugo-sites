@@ -1,7 +1,7 @@
 ---
 title: krustlet.dev
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

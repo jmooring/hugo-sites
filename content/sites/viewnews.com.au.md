@@ -1,6 +1,6 @@
 ---
 title: viewnews.com.au
 types:
-- news
+  - news
 visibility: []
 ---

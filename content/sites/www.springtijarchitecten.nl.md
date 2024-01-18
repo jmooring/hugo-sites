@@ -1,6 +1,6 @@
 ---
 title: www.springtijarchitecten.nl
 types:
-- business
+  - business
 visibility: []
 ---

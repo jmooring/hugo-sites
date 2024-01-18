@@ -1,9 +1,9 @@
 ---
 title: darcynorman.net
 types:
-- blog
-- cv
-- personal
-- portfolio
+  - blog
+  - cv
+  - personal
+  - portfolio
 visibility: []
 ---

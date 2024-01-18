@@ -1,6 +1,6 @@
 ---
 title: opencontainers.org
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

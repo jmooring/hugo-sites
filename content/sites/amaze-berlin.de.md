@@ -1,6 +1,6 @@
 ---
 title: amaze-berlin.de
 types:
-- event
+  - event
 visibility: []
 ---

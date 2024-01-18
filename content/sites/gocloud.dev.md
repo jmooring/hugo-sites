@@ -1,8 +1,8 @@
 ---
 title: gocloud.dev
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility:
-- high
+  - high
 ---

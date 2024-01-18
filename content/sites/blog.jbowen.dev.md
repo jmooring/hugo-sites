@@ -1,7 +1,7 @@
 ---
 title: blog.jbowen.dev
 types:
-- personal
-- blog
+  - personal
+  - blog
 visibility: []
 ---

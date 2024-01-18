@@ -1,6 +1,6 @@
 ---
 title: rockylinux.org
 types:
-- project
+  - project
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: job.com
 types:
-- business
+  - business
 visibility: []
 ---

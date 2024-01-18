@@ -1,6 +1,6 @@
 ---
 title: www.sciencewithme.com
 types:
-- business
+  - business
 visibility: []
 ---

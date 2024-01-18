@@ -1,7 +1,7 @@
 ---
 title: docs.redis.com
 types:
-- business
-- documentation
+  - business
+  - documentation
 visibility: []
 ---

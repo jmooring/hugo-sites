@@ -1,6 +1,6 @@
 ---
 title: moodlebox.net
 types:
-- nonprofit
+  - nonprofit
 visibility: []
 ---

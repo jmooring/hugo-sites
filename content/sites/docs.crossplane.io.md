@@ -1,7 +1,7 @@
 ---
 title: docs.crossplane.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

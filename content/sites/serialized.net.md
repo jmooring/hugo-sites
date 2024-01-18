@@ -1,7 +1,7 @@
 ---
 title: serialized.net
 types:
-- blog
-- personal
+  - blog
+  - personal
 visibility: []
 ---

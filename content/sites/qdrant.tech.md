@@ -1,7 +1,7 @@
 ---
 title: qdrant.tech
 types:
-  - corporate
+  - business
   - documentation
 visibility: []
 ---

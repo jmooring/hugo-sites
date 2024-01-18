@@ -1,6 +1,6 @@
 ---
 title: opencolorio.org
 types:
-- project
+  - project
 visibility: []
 ---

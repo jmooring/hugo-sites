@@ -1,7 +1,7 @@
 ---
 title: cuelang.org
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

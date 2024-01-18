@@ -1,6 +1,6 @@
 ---
 title: cnab.io
 types:
-- project
+  - project
 visibility: []
 ---

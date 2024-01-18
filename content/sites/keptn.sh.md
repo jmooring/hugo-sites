@@ -1,6 +1,6 @@
 ---
 title: keptn.sh
 types:
-- project
+  - project
 visibility: []
 ---

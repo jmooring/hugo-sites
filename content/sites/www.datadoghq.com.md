@@ -1,6 +1,6 @@
 ---
 title: www.datadoghq.com
 types:
-- business
+  - business
 visibility: []
 ---

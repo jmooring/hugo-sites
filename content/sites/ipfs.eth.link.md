@@ -1,6 +1,6 @@
 ---
 title: ipfs.eth.link
 types:
-- project
+  - project
 visibility: []
 ---

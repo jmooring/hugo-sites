@@ -1,7 +1,7 @@
 ---
 title: coredns.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

@@ -1,6 +1,6 @@
 ---
 title: nobainternational.com
 types:
-- business
+  - business
 visibility: []
 ---

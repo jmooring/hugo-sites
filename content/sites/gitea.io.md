@@ -1,7 +1,7 @@
 ---
 title: gitea.io
 types:
-- documentation
-- project
+  - documentation
+  - project
 visibility: []
 ---

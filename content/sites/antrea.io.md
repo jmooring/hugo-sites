@@ -1,6 +1,6 @@
 ---
 title: antrea.io
 types:
-- project
+  - project
 visibility: []
 ---

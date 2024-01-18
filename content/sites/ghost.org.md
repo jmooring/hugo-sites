@@ -1,6 +1,6 @@
 ---
 title: ghost.org
 types:
-- business
+  - business
 visibility: []
 ---

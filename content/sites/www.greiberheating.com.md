@@ -1,6 +1,6 @@
 ---
 title: www.greiberheating.com
 types:
-- business
+  - business
 visibility: []
 ---

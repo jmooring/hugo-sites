@@ -1,6 +1,6 @@
 ---
 title: www.powermapper.com
 types:
-- business
+  - business
 visibility: []
 ---
