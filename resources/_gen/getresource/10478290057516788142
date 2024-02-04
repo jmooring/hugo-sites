@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 88871
+Age: 411621
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 15543856
+Cc-Build-Id: 15682567
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=20;t=24
+Cc-Perf: fetch-headers=36;t=40
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 84742fe6b8e5c551-SEA
+Cf-Ray: 85060501c937eca0-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 18 Jan 2024 04:45:12 GMT
-Etag: W/1bc9cbcea94d192d696a1a72b853b183
-Last-Modified: Wed, 17 Jan 2024 03:47:57 GMT
+Date: Sun, 04 Feb 2024 21:31:16 GMT
+Etag: W/0f2ccd6f467510656d9955b02a2277cf
+Last-Modified: Wed, 31 Jan 2024 03:08:38 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -216,136 +216,154 @@ X-Robots-Tag: all
   
   
   <script>
-    var _hsp = window._hsp = window._hsp || []; 
-    _hsp.push(['addPrivacyConsentListener', function(consent) { 
-      if (consent.categories.functionality) {
-        let handoffData;
-        let handoffTags = [];
-        function initializeChatAnalytics() {
-          if (typeof zE !== 'undefined') {
-            console.log("Chat analytics success");
-            console.log({ handoffData });
-            zE("messenger", "logoutUser")
-            
-            function checkProperties(obj) {
+      var _hsp = window._hsp = window._hsp || [];
+      _hsp.push(['addPrivacyConsentListener', function (consent) {
+        if (consent.categories.functionality) {
+          let handoffData;
+          let formattedText = "";
+          let handoffTags = [];
+
+          function initializeChatAnalytics() {
+            if (typeof zE !== 'undefined') {
+              zE("messenger", "logoutUser")
               
-              obj.forEach(item => {
+              function checkProperties(obj) {
+                
+                obj.forEach(item => {
                   
                   if (item.fromName === "bot") {
-                      return;
+
+                    
+                    if (item.kmResponse) {
+
+                      
+                      formattedText += `\n Bot: \n ${item.message}\n Article title: ${item.kmResponse.title}\n Article Url: ${item.kmResponse.url}\n`;
+
+                    } else {
+                      
+                      formattedText += `\n Bot: \n ${item.message}\n`;
+                    }
+
+                    return;
+                  } else if (item.fromName === "Consumer") {
+                    formattedText += `\n Human: \n ${item.message}\n`;
                   }
-  
+
                   for (const key in item) {
-                      if (item.hasOwnProperty(key) && typeof item[key] === 'object') {
-                          
-                          checkProperties(item[key]);
-                      } else {
-                          
-                          if (item.fromName === "Consumer") {
-                              console.log(item.message);
-                              switch (item.message) {
-                                  case "Potential customer":
-                                      if (!handoffTags.includes('msg-persona-potential-customer')) {
-                                          handoffTags.push("msg-persona-potential-customer");
-                                      }
-                                      break;
-                                  case "Current customer":
-                                      if (!handoffTags.includes('msg-persona-current-customer')) {
-                                          handoffTags.push("msg-persona-current-customer");
-                                      }
-                                      break;
-                                  case "Partner or reseller":
-                                      if (!handoffTags.includes('msg-persona-partner')) {
-                                          handoffTags.push("msg-persona-partner");
-                                      }
-                                      break;
-                                  case "End-user":
-                                      if (!handoffTags.includes('msg-persona-end-user')) {
-                                          handoffTags.push("msg-persona-end-user");
-                                      }
-                                      break;
-                                  case "Student":
-                                      if (!handoffTags.includes('msg-persona-student')) {
-                                          handoffTags.push("msg-persona-student");
-                                      }
-                                      break;
-                                  case "Someone else":
-                                      if (!handoffTags.includes('msg-persona-other')) {
-                                          handoffTags.push("msg-persona-other");
-                                      }
-                                      break;
-                                  case "Sales or licensing help":
-                                      if (!handoffTags.includes('type-sales')) {
-                                          handoffTags.push("type-sales");
-                                      }
-                                      break;
-                                  case "Technical help":
-                                      if (!handoffTags.includes('type-support')) {
-                                          handoffTags.push("type-support");
-                                      }
-                                      break;
-                                  case "MF and NG":
-                                      if (!handoffTags.includes('product-mf-ng')) {
-                                          handoffTags.push("product-mf-ng");
-                                      }
-                                      break;
-                                  case "Pocket, Hive and Views":
-                                      if (!handoffTags.includes('product-pocket-hive-views')) {
-                                          handoffTags.push("product-pocket-hive-views");
-                                      }
-                                      break;
-                                  case "Job ticketing":
-                                      if (!handoffTags.includes('product-job-ticketing')) {
-                                          handoffTags.push("product-job-ticketing");
-                                      }
-                                      break;
-                                  case "Mobility Print":
-                                      if (!handoffTags.includes('product-mobility-print')) {
-                                          handoffTags.push("product-mobility-print");
-                                      }
-                                      break;
-                                  case "Print Deploy":
-                                      if (!handoffTags.includes('product-print-deploy')) {
-                                          handoffTags.push("product-print-deploy");
-                                      }
-                                      break;
-                                  case "I am not sure":
-                                      if (!handoffTags.includes('product-not-sure')) {
-                                          handoffTags.push("product-not-sure");
-                                      }
-                                      break;
-                                  default:
-                                      break;
+                    if (item.hasOwnProperty(key) && typeof item[key] === 'object') {
+                      
+                      checkProperties(item[key]);
+                    } else {
+                      
+                      if (item.fromName === "Consumer") {
+                        switch (item.message) {
+                          case "Potential customer":
+                              if (!handoffTags.includes('msg-persona-potential-customer')) {
+                                  handoffTags.push("msg-persona-potential-customer");
                               }
-                          }
+                              break;
+                          case "Current customer":
+                              if (!handoffTags.includes('msg-persona-current-customer')) {
+                                  handoffTags.push("msg-persona-current-customer");
+                              }
+                              break;
+                          case "Partner or reseller":
+                              if (!handoffTags.includes('msg-persona-partner')) {
+                                  handoffTags.push("msg-persona-partner");
+                              }
+                              break;
+                          case "End-user":
+                              if (!handoffTags.includes('msg-persona-end-user')) {
+                                  handoffTags.push("msg-persona-end-user");
+                              }
+                              break;
+                          case "Student":
+                              if (!handoffTags.includes('msg-persona-student')) {
+                                  handoffTags.push("msg-persona-student");
+                              }
+                              break;
+                          case "Someone else":
+                              if (!handoffTags.includes('msg-persona-other')) {
+                                  handoffTags.push("msg-persona-other");
+                              }
+                              break;
+                          case "Sales or licensing help":
+                              if (!handoffTags.includes('type-sales')) {
+                                  handoffTags.push("type-sales");
+                              }
+                              break;
+                          case "Technical help":
+                              if (!handoffTags.includes('type-support')) {
+                                  handoffTags.push("type-support");
+                              }
+                              break;
+                          case "MF and NG":
+                              if (!handoffTags.includes('product-mf-ng')) {
+                                  handoffTags.push("product-mf-ng");
+                              }
+                              break;
+                          case "Pocket, Hive and Views":
+                              if (!handoffTags.includes('product-pocket-hive-views')) {
+                                  handoffTags.push("product-pocket-hive-views");
+                              }
+                              break;
+                          case "Job ticketing":
+                              if (!handoffTags.includes('product-job-ticketing')) {
+                                  handoffTags.push("product-job-ticketing");
+                              }
+                              break;
+                          case "Mobility Print":
+                              if (!handoffTags.includes('product-mobility-print')) {
+                                  handoffTags.push("product-mobility-print");
+                              }
+                              break;
+                          case "Print Deploy":
+                              if (!handoffTags.includes('product-print-deploy')) {
+                                  handoffTags.push("product-print-deploy");
+                              }
+                              break;
+                          case "I am not sure":
+                              if (!handoffTags.includes('product-not-sure')) {
+                                  handoffTags.push("product-not-sure");
+                              }
+                              break;
+                          default:
+                              break;
+                        }
                       }
+                    }
                   }
-              });
+                });
+              }
+
+              
+              checkProperties(handoffData.detail.transcript);
+
+              zE("messenger:set", "conversationTags", handoffTags);
+
+              zE('messenger', 'open');
+
+              handoffTranscript = formattedText;
+
+              zE("messenger:set", "conversationFields", [
+                { id: "8853350891791", value: handoffTranscript }
+              ])
+            } else {
+              setTimeout(initializeChatAnalytics, 1000);
+            }
           }
-  
-            
-            checkProperties(handoffData.detail.transcript);
-  
-            console.log(handoffTags)
-            zE("messenger:set", "conversationTags", handoffTags);
-  
-            zE('messenger', 'open');
-          } else {
-            setTimeout(initializeChatAnalytics, 1000);
-          }
+
+          window.addEventListener('support_handoff', (e) => {
+            handoffData = e;
+            var script = document.createElement('script');
+            script.setAttribute("id", "ze-snippet");
+            script.setAttribute("src", "https://static.zdassets.com/ekr/snippet.js?key=fa01d559-1bb5-4d6c-9feb-3d2fa8fba6cc");
+            document.head.appendChild(script);
+            window.zoomCampaignSdk.hide();
+            initializeChatAnalytics();
+          });
         }
-        
-        window.addEventListener('support_handoff', (e) => { 
-          handoffData = e;
-          var script = document.createElement('script');
-          script.setAttribute("id", "ze-snippet");
-          script.setAttribute("src", "https://static.zdassets.com/ekr/snippet.js?key=fa01d559-1bb5-4d6c-9feb-3d2fa8fba6cc");
-          document.head.appendChild(script);
-          window.zoomCampaignSdk.hide();
-          initializeChatAnalytics();
-        });
-      }
-    }]);
+      }]);
   </script>
   
 
@@ -608,7 +626,8 @@ X-Robots-Tag: all
             "aid": 136819,
             "guid": "ec4a7acc-9725-488b-b783-1b25e72b8b95",
             "vid": vid,
-            "sid": sid
+            "sid": sid,
+            "pageUrl": window.location.href
         }),
     })
     .then(response => response.json())

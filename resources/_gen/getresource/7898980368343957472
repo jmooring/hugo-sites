@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Thu, 18 Jan 2024 04:45:09 GMT
-Etag: W/"65a85008-7531"
-Last-Modified: Wed, 17 Jan 2024 22:09:12 GMT
+Date: Sun, 04 Feb 2024 21:31:23 GMT
+Etag: W/"65bf7f67-74b0"
+Last-Modified: Sun, 04 Feb 2024 12:13:27 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-7531
+74b0
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -396,6 +396,21 @@ X-Frame-Options: SAMEORIGIN
     <div class="col-sm-12" id="front-announce">
         <div class="row">
           <div class="col-md-4 announcement">
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><i data-bs-toggle="tooltip" title="Pinned" class="fa fa-thumb-tack text-muted" aria-hidden="true"></i> <a href="https://www.arin.net/announcements/20240122/">ARIN 53 Registration Now Open</a></h3>
+            <span class="announce-date">Mon, 22 Jan 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-arin">ARIN</p>
+            <h3><a href="https://www.arin.net/announcements/20240130-memberupdate/">Reclassification of Inactive General Members Completed 30 January 2024</a></h3>
+            <span class="announce-date">Tue, 30 Jan 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
+            <h3><a href="https://www.arin.net/announcements/20240130/">Consultation on RPKI/BGP Intelligence</a></h3>
+            <span class="announce-date">Tue, 30 Jan 2024</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
             <p class="overline overline-service-update">Service Update</p>
             <h3><a href="https://www.arin.net/announcements/20240111-templates/">Email Template Retirement Scheduled for 3 June 2024</a></h3>
             <span class="announce-date">Thu, 11 Jan 2024</span>
@@ -407,23 +422,8 @@ X-Frame-Options: SAMEORIGIN
           </div>
           <div class="col-md-4 announcement">
             <p class="overline overline-meetings/events">Meetings/Events</p>
-            <h3><a href="https://www.arin.net/announcements/20240104/">Apply Today for the ARIN 53 Fellowship Program</a></h3>
-            <span class="announce-date">Thu, 04 Jan 2024</span>
-          </div></div><!-- close first row --><div class="row">
-          <div class="col-md-4 announcement">
-            <p class="overline overline-meetings/events">Meetings/Events</p>
             <h3><a href="https://www.arin.net/announcements/20240102/">Meet the 2024 Fellowship Selection Committee</a></h3>
             <span class="announce-date">Tue, 02 Jan 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-internet-number-resources">Internet Number Resources</p>
-            <h3><a href="https://www.arin.net/announcements/20231219/">IPv4 Waiting List Distribution</a></h3>
-            <span class="announce-date">Tue, 19 Dec 2023</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
-            <h3><a href="https://www.arin.net/announcements/20231204/">Now Closed — Consultation on Email Template Processor Retirement</a></h3>
-            <span class="announce-date">Mon, 04 Dec 2023</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -449,15 +449,7 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
 <tbody>
 
     <tr><td>
-        <strong><a href="https://www.arin.net/hawaii">ARIN on the Road: Honolulu</a></strong>
-      </td><td data-title="Location">
-        Honolulu, Hawaii
-      </td><td data-title="Date">
-            23 January 2024
-          </td></tr>
-      
-    <tr><td>
-        <strong>ARIN 53</strong>
+        <strong><a href="https://www.arin.net/ARIN53">ARIN 53</a></strong>
       </td><td data-title="Location">
         Bridgetown, Barbados
       </td><td data-title="Date">
@@ -477,7 +469,13 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       </td><td data-title="Date">
             27&ndash;30 April 2025</td></tr>
       
-    
+    <tr><td>
+        <strong>ARIN 56</strong>
+      </td><td data-title="Location">
+        Arlington, Texas
+      </td><td data-title="Date">
+            30&ndash;31 October 2025</td></tr>
+      
 <tr><td colspan="3">
   &raquo; <a href="/participate/meetings/#all-upcoming-arin-events">View all</a>
 </td></tr>
@@ -488,11 +486,10 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
 
     </div>
     <div class="billboards">
-      <a href="/fellowships"><img src="/homepage/images/fellowshipprogram_applynow.png" alt="Apply for the ARIN Fellowship Program"></a>
+      <a href="/ARIN53"><img src="/homepage/images/arin53_registrationopen.svg" alt="Register for ARIN 53"></a>
       
-      <a href="/events"><img class="billboard-left" src="/homepage/images/generic_events_small.svg" alt="Find the latest ARIN and Community Events"></a>
-      <a href="/hawaii"><img class="billboard-right" src="/homepage/images/generic_aotr_small.svg" alt="ARIN on the Road: Honolulu, Hawaii"></a>
-    </div>
+      <a href="/events"><img src="/homepage/images/generic_event_calendar_long.svg" alt="Find the latest ARIN and Community Events"></a>
+      </div>
   </div> 
 <hr>
   <div class="row homepage-section">
@@ -506,6 +503,32 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
         
 <div class="col">
   <div class="blog-preview card">
+    <a href="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/">
+      <img class="card-img-top" src="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/business-case-ipv6-enterprise.png" alt="Read the blog The Business Case for IPv6-Only Enterprise">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/"><h3 class="card-title">The Business Case for IPv6-Only Enterprise</h3></a>
+      <time datetime="2024-01-23 09:30:00 -0500 EST">23 Jan 2024</time>
+      <p>HexaBuild CSO and Co-Founder Tom Coffeen identifies some potential elements of a business case for enterprise IPv6 deployment based on an IPv6-only approach.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2024/01/19/fellowship-experience-waqar-ahmad/">
+      <img class="card-img-top" src="/blog/2024/01/19/fellowship-experience-waqar-ahmad/fellowship-waqar-ahmad.png" alt="Read the blog Navigating the Internet Policy Landscape: A Transformative Journey with ARIN">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/01/19/fellowship-experience-waqar-ahmad/"><h3 class="card-title">Navigating the Internet Policy Landscape: A Transformative Journey with ARIN</h3></a>
+      <time datetime="2024-01-19 08:50:00 -0500 EST">19 Jan 2024</time>
+      <p>An ARIN Fellow shares the transformative experiences that unfolded during the program, highlighting his interactions with community members and leaders and the impact on his understanding of Internet governance.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
     <a href="/blog/2024/01/11/fellowship-experience-davon-baker/">
       <img class="card-img-top" src="/blog/2024/01/11/fellowship-experience-davon-baker/fellowship-davon-baker.png" alt="Read the blog Beyond Boundaries: A Caribbean IT Manager&#39;s Sojourn into Internet Governance">
     </a>
@@ -513,32 +536,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2024/01/11/fellowship-experience-davon-baker/"><h3 class="card-title">Beyond Boundaries: A Caribbean IT Manager&#39;s Sojourn into Internet Governance</h3></a>
       <time datetime="2024-01-11 08:50:00 -0500 EST">11 Jan 2024</time>
       <p>Get another in-depth look at the ARIN Fellowship program and its impact from a Fellow in the fall 2023 program.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/01/08/top-10-blogs-2023/">
-      <img class="card-img-top" src="/blog/2024/01/08/top-10-blogs-2023/top-10-blogs-2023.png" alt="Read the blog Top 10 Most Popular Blog Posts of 2023">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/01/08/top-10-blogs-2023/"><h3 class="card-title">Top 10 Most Popular Blog Posts of 2023</h3></a>
-      <time datetime="2024-01-08 10:00:00 -0500 EST">8 Jan 2024</time>
-      <p>Before the new year gets into full swing, we wanted to take a moment to look back on the most popular content we shared in 2023. Here&#39;s a snapshot of what you, our readers, enjoyed the most on the ARIN Blog last year.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/01/04/arin-53-fellowship-applications/">
-      <img class="card-img-top" src="/blog/2024/01/04/arin-53-fellowship-applications/arin53-fellowship-apply.png" alt="Read the blog Apply Today for the ARIN 53 Fellowship Program">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/01/04/arin-53-fellowship-applications/"><h3 class="card-title">Apply Today for the ARIN 53 Fellowship Program</h3></a>
-      <time datetime="2024-01-04 08:15:00 -0400 -0400">4 Jan 2024</time>
-      <p>The call for applications to our ARIN 53 Fellowship Program goes out today! Amanda Gauldin, Community Programs Manager, shares more about what you can expect in this program, why you should consider applying, and what past Fellows have to say about the experience.</p>
     </div>
   </div>
 </div>

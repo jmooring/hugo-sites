@@ -1,11 +1,11 @@
 HTTP/2.0 200 OK
-Content-Length: 30199
+Content-Length: 31552
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Thu, 18 Jan 2024 04:45:10 GMT
-Etag: "a8d0f699c8b33cb199e299f8fbca6454fe505571f11cf546970dd5d83f86ce26"
-Expires: Thu, 18 Jan 2024 04:55:10 UTC
-Last-Modified: Mon, 11 Dec 2023 22:05:04 GMT
+Date: Sun, 04 Feb 2024 21:31:24 GMT
+Etag: "e2b0615f6e822eb0c60270cb50e0f62f5bf1bee948e51d7c3e03c7189c2b11f3"
+Expires: Sun, 04 Feb 2024 21:41:24 UTC
+Last-Modified: Tue, 23 Jan 2024 16:37:52 GMT
 Permissions-Policy: interest-cohort=()
 Vary: Origin
 
@@ -323,6 +323,15 @@ Vary: Origin
         aria-label="Kedify"
       ></button>
       
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="9"
+        class=""
+        aria-current="false"
+        aria-label="Phaser Studio"
+      ></button>
+      
     </div>
 
     <div class="carousel-inner">
@@ -579,6 +588,34 @@ Vary: Origin
         </div>
       </div>
       
+      <div class="carousel-item ">
+        <svg
+          class="d-block w-100 custom-home-portfolio-img"
+          height="500"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        ></svg>
+
+        <div class="custom-home-portfolio-absolute">
+            <img src="/img/home/portfolio/phaser/logo.svg" style="height: auto; max-width: 350px;">
+
+            <div style="margin-top: 2rem;"></div>
+
+            <div>
+              <h4>Phaser Studio Inc. is a COSS company built around Phaser, the most popular 2D game development framework for web based games. Used extensively across the browser, ad networks and mobile platforms.</h4>
+
+              <div style="margin-top: 2rem;"></div>
+
+              
+                <a class="btn btn-outline-light" href="https://phaser.io/" target="_blank">Learn more</a>
+              
+            </div>
+
+        </div>
+      </div>
+      
     </div>
 
     <button
@@ -829,7 +866,7 @@ Vary: Origin
 <div class="container">
   <div style="margin-top: 6rem"></div>
 
-  <h1>TEAM</h1>
+  <h1 id="team">TEAM</h1>
 
   <div style="margin-top: 2rem"></div>
 
@@ -838,7 +875,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/sid_sijbrandij.png" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/sid_sijbrandij.jpg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -873,7 +910,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/betty_ma.png" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/betty_ma.jpg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -900,7 +937,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/jordan_roga.jpeg" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/jordan_roga.jpg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -927,7 +964,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/erica_lindberg.jpeg" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/erica_lindberg.jpeg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -954,7 +991,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/mel_condos.jpeg" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/mel_condos.jpg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -981,7 +1018,7 @@ Vary: Origin
       
 <div class="col-md-6 col-lg-4">
   <div class="custom-home-team-member">
-    <img class="custom-home-team-member-img" src="/img/home/team/robert_speicher.jpg" />
+    <img class="img-fluid rounded-circle custom-home-team-member-img" src="/img/home/team/robert_speicher.jpg" />
 
     <div style="margin-top: 1rem"></div>
 
@@ -1044,7 +1081,7 @@ Vary: Origin
     <div class="custom-footer-item">
       
       
-      &copy; 2023 Open Core Ventures
+      &copy; 2024 Open Core Ventures
     </div>
   </div>
 

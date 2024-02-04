@@ -6,7 +6,7 @@ Access-Control-Expose-Headers: Content-Length
 Connection: keep-alive
 Content-Type: text/html; charset=utf-8
 Cross-Origin-Opener-Policy: same-origin
-Date: Thu, 18 Jan 2024 04:45:09 GMT
+Date: Sun, 04 Feb 2024 21:31:15 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Vary: Accept-Encoding
@@ -14,7 +14,7 @@ Vary: Cookie
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 
-f195
+f5d9
 
 
 <!DOCTYPE html>
@@ -947,6 +947,30 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
           Merchandise
         </h3>
         
+            <div class="bg-pink-500 text-xl text-gray-200 font-bold rounded py-3 px-8 flex justify-center items-center text-center mb-4 mt-[-32px] gap-2 max-w-fit mx-auto">
+                
+                
+                      <span>Free standard delivery for 2+ items valid until</span>
+                
+                
+                
+                      <span id="expire"></span>
+                      <script>
+                        function toLocaleDate(date) {
+                          let d = new Date(date).toString()
+                          let i = d.lastIndexOf(":")
+                          let arr = d.split(":")
+                          let formatedDate = arr[0] + ":" + arr[1]
+                          return formatedDate
+                        }
+                        document.querySelector("#expire").textContent = toLocaleDate("2024-02-07T23:59:59")
+                      </script>
+                
+                
+                
+                
+            </div>
+        
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
          
@@ -1447,14 +1471,14 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
 </div>
 
 <div id="bg" class="backdrop-opacity-80 h-full pb-[32px] mx-auto left-0 right-0 z-40 translate-y-[200%] transform-gpu duration-700 fixed bottom-0">
-  <div id="offers" class="bg-gray-200 pb-[32px] absolute bottom-0 left-0 right-0 overflow-y-scroll max-w-screen-lg lg:mx-auto flex flex-col gap-2"></div>
+  <div id="offers" class="bg-gray-200 pb-10 absolute bottom-0 left-0 right-0 overflow-y-scroll max-w-screen-lg lg:mx-auto flex flex-col gap-2"></div>
 </div>
 
-<div id="titleScrollBtn" class="select-none z-40 mx-auto max-w-[300px] bg-gray-200 fixed bottom-0 left-0 right-0 translate-y-[200%] transition-all duration-700 whitespace-nowrap text-center w-full h-max hover:cursor-pointer">
+<button id="titleScrollBtn" class="select-none z-40 mx-auto max-w-full md:max-w-[360px] bg-deep-purple-500 hover:bg-deep-purple-700 text-white font-bold py-1 px-2 rounded-t fixed bottom-0 left-0 right-0 translate-y-[200%] transition-all duration-700 whitespace-nowrap text-center w-full h-max hover:cursor-pointer">
   <h5 class="uppercase text-lg font-semibold leading-none h-[32px] flex justify-center items-center">
-    </i><span id="typed"></span><i class="text-blue-gray-800 px-4 fa-solid fa-arrows-up-down"></i>
+    </i><span id="typed"></span><i class="text-white px-4 fa-solid fa-arrows-up-down"></i>
   </h5>
-</div>
+</button>
 
 <style>
 #offers, #popUp {
@@ -1467,7 +1491,7 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
 <script>
 function closePopUp() {
   let pop = document.querySelector("#popUp")
-  pop.classList.replace("max-w-screen-lg", "max-w-[300px]")
+  pop.classList.replace("max-w-screen-lg", "max-w-[360px]")
   pop.classList.add("translate-y-[200%]")
 }
 

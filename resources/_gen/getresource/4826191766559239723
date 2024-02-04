@@ -1,14 +1,14 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 84742f8faba0c60e-SEA
+Cf-Ray: 850604dac84dec88-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Thu, 18 Jan 2024 04:44:58 GMT
-Last-Modified: Wed, 17 Jan 2024 23:05:45 GMT
+Date: Sun, 04 Feb 2024 21:31:10 GMT
+Last-Modified: Fri, 02 Feb 2024 18:55:24 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=Txia5N1WMQi__mgnf4O2tGaHxT2lSrQASkd8RMqvzK8-1705553098-1-AWm98VsIdchOthE+zWfJ/fbZKspJQyfBXD6hX/k6uZf76NaBOCyvS4ZKkxz4kv7VfQRHaQ2yKs6lNmB9Zw86QWM=; path=/; expires=Thu, 18-Jan-24 05:14:58 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=uXSYT2u7slO1Jo_LRGI0baO8mW7z2k35QFNxzVdW5CY-1705553098-1-ARl63AdauwX4m1biTs21Wbm6QpkSI/Hh+tx/9M79e3CsiIm+pMYv9KkoSV0QE196s5SF0I/b8s5BFlxfrF6dTSVKTzr5UOTY6gzIpDcECJNy; path=/; expires=Thu, 18-Jan-24 05:14:58 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=GmC3I5F9X77sQpB7K5Lan5Qm4iyUBPUy_616jB22xLA-1707082270-1-Ad/iP67BJ55PWlWxjL+aaYOjZFTSkDH4cUA5meDTlafcEVXQfAS7JbGTBLzgqa50M4QViHu2BY526CJ5UMuTDn8=; path=/; expires=Sun, 04-Feb-24 22:01:10 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=S3XFXxf5kghV2P5wxm7YPt_gatmgFYPqSM.VepMzYQs-1707082270-1-AWD3S3lAYv+3VLsV6hSeCYXcMwM+2awXuZZLX+Zo0Dwb1eA9kEfJFa5yZzx171f6CcQMSlltiGp36eW9QfWEaXPsmds1aCLtjo5QZVhido7D; path=/; expires=Sun, 04-Feb-24 22:01:10 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
@@ -64,7 +64,7 @@ X-Xss-Protection: 1; mode=block
     .referencebg { background-image: url("/images/backgrounds/sammy-space.png")  !important }
     .wrapper-full.most-viewed { background-image: url("/images/backgrounds/most-viewed.png") !important }
 </style>
-<link rel="stylesheet" href="/main.min.393e4cb854dbcd06afcb15b4dd9eae42017d8982f4b81805e759239760086b07.css">
+<link rel="stylesheet" href="/main.min.4b7539a29e4caeaa17e1c9f83673475ea805f42e10eddb103a3dc78cf6ef5b93.css">
 
 </head>
 
@@ -308,26 +308,25 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
                 <div class="latest-updates">
                     <section>
                     <h2 id="latest-updates">Latest Updates</h2>
-<h3 id="17-january-2024">17 January 2024</h3>
+<h3 id="31-january-2024">31 January 2024</h3>
 <ul><li>
-            <p>You can now <a href="/products/app-platform/how-to/deploy-from-container-images/">deploy apps to App Platform using public and private repositories</a> on GitHub Container Registry. You can also now deploy images using private Docker Hub repositories.</p>
-        </li></ul><h3 id="1-january-2024">1 January 2024</h3>
-<ul><li>
-            <p>The VAT rate for Switzerland and Liechtenstein has increased from 7.7% to 8.1% in accordance with the Federal Tax Administration of Switzerland (FTA)&rsquo;s <a href="https://www.estv.admin.ch/estv/en/home/value-added-tax/vat-rates-switzerland.html">amendment to the AHV Act</a>. <a href="/products/billing/taxes/che/">Learn more about Switzerland and Liechtenstein taxes</a>.</p>
-        </li><li>
-            <p>The GST rate for Singapore has increased from 8% to 9% in accordance with <a href="https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-rate-change/gst-rate-change-for-consumers1">Budget 2022</a> from the Inland Revenue Authority of Singapore (IRAS). <a href="/products/billing/taxes/sgp/">Learn more about Singapore taxes</a>.</p>
-        </li></ul><h3 id="21-december-2023">21 December 2023</h3>
-<ul><li>
-            <p><p>NVIDIA H100 GPUs are now available both on-demand and for guaranteed capacity reservations in the <code>NYC2</code> region via Paperspace&rsquo;s sales team.</p>
+            <p><p>As of 1/31/2024, we have removed the built-in <a href="https://github.com/kubernetes/dashboard">Kubernetes Dashboard</a> from the control panel. You can use one of the following alternatives instead:</p>
 <ul>
-<li>Ubuntu 20.04 ML-in-a-Box template supports all GPUs except NVIDIA H100s. Ubuntu 22.04 ML-in-a-Box template is now available for NVIDIA H100 and A100-80G GPUs.</li>
-<li>For more information on Paperspace NVIDIA H100s, see our <a href="/products/paperspace/machines/reference/h100/">NVIDIA H100 Reference page</a>.</li>
+<li>
+<p><a href="/products/kubernetes/getting-started/quickstart/#kubernetes-dashboard">Kubernetes Dashboard 1-Click App</a> from the DigitalOcean Marketplace</p>
+</li>
+<li>
+<p><a href="/products/kubernetes/how-to/use-cilium-hubble/">Cilium Hubble</a></p>
+</li>
 </ul>
+<p>You can also explore other open-source options for monitoring and visualizing Kubernetes workloads. For more information, see this <a href="https://www.digitalocean.com/community/conceptual-articles/kubernetes-visualization-tools">DigitalOcean Community article on Kubernetes visualization tools</a>.</p>
 </p>
-        </li><li>
-            <p>Gradient Deployments can now be created with secured endpoints using basic access authentication encoded tokens. For more information, see <a href="/products/paperspace/deployments/reference/endpoint-security/">Endpoint Security</a>.</p>
-        </li><li>
-            <p>We have released an updated Container Registry experience to give customers enhanced management of their private registries. This includes additional features to add, validate, and edit containers, as well as changes to ensure Gradient Deployments with containers start successfully. For more information, see <a href="/products/paperspace/notebooks/how-to/manage-containers/">Manage Containers</a>.</p>
+        </li></ul><h3 id="20-january-2024">20 January 2024</h3>
+<ul><li>
+            <p>Ubuntu 23.04 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is now only available via the API. We will remove the Ubuntu 23.04 image from our platform in 30 days.</p>
+        </li></ul><h3 id="18-january-2024">18 January 2024</h3>
+<ul><li>
+            <p>All currently supported DigitalOcean Kubernetes versions now have Cilium Hubble, Hubble Relay and Hubble UI enabled. For more information, see <a href="/products/kubernetes/how-to/use-cilium-hubble/">Use Cilium Hubble</a>.</p>
         </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>
                 </div>

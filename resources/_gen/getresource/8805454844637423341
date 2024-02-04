@@ -1,27 +1,26 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Methods: HEAD, OPTIONS, GET
 Access-Control-Allow-Origin: *
-Age: 175
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=1200
 Cdn-Cache-Control: public
-Cf-Cache-Status: HIT
-Cf-Ray: 84742fbfecc26ac0-SEA
+Cf-Cache-Status: REVALIDATED
+Cf-Ray: 8506054d1b8d30ba-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 18 Jan 2024 04:45:05 GMT
-Etag: W/"0bef16583513a03f063d4047de2cd876"
-Last-Modified: Wed, 17 Jan 2024 13:06:01 GMT
+Date: Sun, 04 Feb 2024 21:31:28 GMT
+Etag: W/"8814a8cc2fbc3182d01102d4c664dba3"
+Last-Modified: Fri, 02 Feb 2024 08:51:03 GMT
 Referrer-Policy: no-referrer-when-downgrade
 Server: cloudflare
 Vary: Accept-Encoding
-X-Amz-Id-2: tgonFEPRhkakoeLia126kSFQ1+RneQDXZA2gzUih6vgNx5accAbL6QbTjfkiuyfwzwIi+/YL8b4=
-X-Amz-Meta-Mtime: 1705496757.385960571
-X-Amz-Request-Id: HVX529KG3VYW612Z
+X-Amz-Id-2: L5YO58sI/VZvHj+y4BSb+6ZMmzKEEjQzvyMsuxuKGc1ABrNvixb8vqITiKGzFlDfYDCWsRIh6h8=
+X-Amz-Meta-Mtime: 1706863858.320786704
+X-Amz-Request-Id: B3DVXKT7VGQ24W2B
 X-Amz-Server-Side-Encryption: AES256
-X-Backend: web-i-0acbb0d741e94e02b
+X-Backend: web-i-0e9fb97243ce1e886
 X-Content-Type-Options: nosniff
 X-Rtd-Domain: keptn.sh
-X-Rtd-Hosting-Integrations: true
+X-Rtd-Force-Addons: true
 X-Rtd-Path: /proxito/html/keptn/latest/index.html
 X-Rtd-Project: keptn
 X-Rtd-Project-Method: custom_domain
@@ -52,7 +51,7 @@ X-Served: Nginx-Proxito-Sendfile
       
       
       <link rel="icon" href="assets/images/logo-mobile.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
     
     
       
@@ -94,6 +93,16 @@ X-Served: Nginx-Proxito-Sendfile
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-SJLS2F2J2B"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-SJLS2F2J2B",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-SJLS2F2J2B",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
 
     
     
@@ -1276,6 +1285,8 @@ X-Served: Nginx-Proxito-Sendfile
       
         
       
+        
+      
     
     
     
@@ -1496,6 +1507,27 @@ X-Served: Nginx-Proxito-Sendfile
   
   <span class="md-ellipsis">
     OpenTelemetry observability
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docs/guides/metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata
   </span>
   
 
@@ -2027,6 +2059,10 @@ X-Served: Nginx-Proxito-Sendfile
           
         
       
+        
+          
+        
+      
     
     
     
@@ -2142,6 +2178,27 @@ X-Served: Nginx-Proxito-Sendfile
   
   <span class="md-ellipsis">
     v1alpha4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docs/reference/api-reference/lifecycle/v1beta1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    v1beta1
   </span>
   
 
@@ -2447,6 +2504,8 @@ X-Served: Nginx-Proxito-Sendfile
       
         
       
+        
+      
     
     
     
@@ -2562,6 +2621,27 @@ X-Served: Nginx-Proxito-Sendfile
   
   <span class="md-ellipsis">
     KeptnApp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docs/reference/crd-reference/appcontext/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    KeptnAppContext
   </span>
   
 
@@ -2723,6 +2803,49 @@ X-Served: Nginx-Proxito-Sendfile
     
       
         
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_9" id="__nav_2_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Migration
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            Migration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
           
         
       
@@ -2739,12 +2862,12 @@ X-Served: Nginx-Proxito-Sendfile
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9_1" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="docs/migrate/" class="md-nav__link ">
+            <a href="docs/migrate/keptn/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2755,14 +2878,14 @@ X-Served: Nginx-Proxito-Sendfile
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_9" id="__nav_2_9_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_9_1" id="__nav_2_9_1_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_9">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_9_1">
             <span class="md-nav__icon md-icon"></span>
             Migrating to Keptn
           </label>
@@ -2777,7 +2900,7 @@ X-Served: Nginx-Proxito-Sendfile
   
   
     <li class="md-nav__item">
-      <a href="docs/migrate/strategy/" class="md-nav__link">
+      <a href="docs/migrate/keptn/strategy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2798,7 +2921,7 @@ X-Served: Nginx-Proxito-Sendfile
   
   
     <li class="md-nav__item">
-      <a href="docs/migrate/metrics-observe/" class="md-nav__link">
+      <a href="docs/migrate/keptn/metrics-observe/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2807,6 +2930,70 @@ X-Served: Nginx-Proxito-Sendfile
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="docs/migrate/keptnapp/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    KeptnApp Migration
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            KeptnApp Migration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2900,6 +3087,8 @@ X-Served: Nginx-Proxito-Sendfile
       
         
           
+        
+      
         
       
         
@@ -3180,6 +3369,27 @@ X-Served: Nginx-Proxito-Sendfile
   
   <span class="md-ellipsis">
     Contribution Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docs/contribute/general/refinement-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Refinement Process
   </span>
   
 
@@ -3581,6 +3791,8 @@ X-Served: Nginx-Proxito-Sendfile
       
         
       
+        
+      
     
     
     
@@ -3610,6 +3822,29 @@ X-Served: Nginx-Proxito-Sendfile
             Archive
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="blog/archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -3650,6 +3885,12 @@ X-Served: Nginx-Proxito-Sendfile
   
     
     
+      
+        
+      
+        
+      
+        
       
         
       
@@ -3742,11 +3983,80 @@ X-Served: Nginx-Proxito-Sendfile
   
   
     <li class="md-nav__item">
+      <a href="blog/category/helm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Helm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="blog/category/installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
       <a href="blog/category/sre/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     SRE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="blog/category/upgrade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Upgrade
   </span>
   
 
@@ -3821,6 +4131,10 @@ X-Served: Nginx-Proxito-Sendfile
         <div class="md-footer-meta__inner md-grid">
             <!-- Copyright and theme information -->
             <div class="md-footer-copyright">
+                
+                <div class="md-footer-copyright__highlight">
+                    The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/legal/trademark-usage">Trademark Usage page</a>.
+                </div>
                 
                 powered by
                 <a href="https://www.mkdocs.org" title="MkDocs">MkDocs</a>
@@ -3899,10 +4213,10 @@ X-Served: Nginx-Proxito-Sendfile
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="assets/javascripts/bundle.c18c5fb9.min.js"></script>
       
         <script src="assets/javascripts/versions.js"></script>
       

@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 53667
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 18 Jan 2024 04:45:08 GMT
-Etag: "e768fbbee00d32563d76c6b1e9d4d677-ssl-df"
+Date: Sun, 04 Feb 2024 21:31:22 GMT
+Etag: "81f8008e301a05fe4d6070f16cdeb187-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HMDE67E7WPZ744G64F4DYAWN
+X-Nf-Request-Id: 01HNV0GXSF7NYXJM6MZG65CJT8
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -139,7 +139,7 @@ a {
 			
 				<div class="col-12">
 <div style="max-width:500px">
-<h1 class="text-left">An Evidence Store for Supply Chain and DevOps Intelligence</h1>
+<h1 class="text-left">A Central Evidence Store to Make Software Security and DevOps Intelligence Actionable</h1>
 </div>
 <div id="home-github">
 <p class="text-left"><button ><a href="https://github.com/ortelius/ortelius"><span>Join the GitHub Project</span></a></button></p>
@@ -156,18 +156,26 @@ a {
 
 
 <a id="td-block-1" class="td-offset-anchor"></a>
-<section class="row td-box td-box--primary td-box--gradient td-box--height-auto">
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
 	<div class="col">
 		<div class="row ">
 			
-				<div class="col-12">
-<h1 class="text-center">A Comprehensive View of Your Organization's Security Profile</h1>
+				<h1 class="text-center">You Should Always Know Where Log4J is Running </h1>
 <hr>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div style="margin-top:80px;margin-left:140px">
+<p>The mission of the Ortelius community is to expose weak links in the software supply chain by continuously gathering and analyzing software supply chain intelligence introduced across the DevOps pipeline.
+Generating security insights like SBOMs is not enough to harden your software supply chain. Consumption and analysis of the data is needed to rapidly respond to supply chain threats.</p>
+<p>IT teams struggle to respond to threats when critical security intelligence is fragmented across tools and managed at the container level. Ortelius gathers and aggregates security and DevOps intelligence, tracking open-source inventory and vulnerabilities at the higher organizational levels including logical applications, runtime environments and organizational domains.</p>
+<p>With Ortelius, you can easily answer the question, &ldquo;where is Log4J running?&rdquo;</p>
+<p>The latest version of Ortelius is maintained by the Ortelius Community managed by the <a href="cd.foundation">Continuous Delivery Foundation</a>, part of the Linux Foundation. Corporate support comes from DeployHub with 80% of the codebase from DeployHub&rsquo;s <a href="www.deployhub.com">Software Supply Chain Security Platform</a>.</p>
 </div>
-<p>Today’s software security tools gather data for mostly low-level ‘objects’ causing critical AI intelligence to be stored across siloed logs and tools. There is currently no way to consolidate the intelligence of multiple security tools for building AI threat models, generating pipelines or automating a rapid response system.</p>
-<p>Our mission is to defend the software supply chain by federating open-source software security intelligence creating AI threat models and a rapid response system designed for both consumers and producers of publicly shared  software. Ortelius is an evidence store that federates supply chain and DevOps intelligence providing an end-to-end view of an organization&rsquo;s security profile. Ortelius tracks and versions DevOps and security details for every component of your software supply chain. This data is then collected and aggregated to the &rsquo;logical&rsquo; applications, organizational Domains, and deployed environments giving you a sweeping view of your organization&rsquo;s security insights. With Ortelius, you can easily answer the question, &ldquo;where is Log4J running?&rdquo;</p>
-<p>The latest version of Ortelius is maintained by the Ortelius Community managed by the <a href="http://cd.foundation/">Continuous Delivery Foundation</a> (Linux Foundation). The Ortelius mission is to provide a comprehensive view of your organizations security profile using a world-class microservice catalog driven by a supportive and diverse global open source community.  Corporate support comes from DeployHub with 80% of the codebase from DeployHub&rsquo;s <a href="https://www.deployhub.com/">Microservice Catalog</a>.</p>
-<p></p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div style="text-align:center;width:100%">
+<img src="/images/Ortelius-concept.png" alt="Ortelius Evidence Store" />
+</div>
+</div>
 
 			
 		</div>
@@ -184,7 +192,7 @@ a {
 		<div class="row ">
 			
 				<div class="col-12">
-<h1 class="text-center"> Continuous Versioning of Your Software Composition</h1>
+<h1 class="text-center">Learn More: </h1>
 <hr>
 <p></p>
 </div>
@@ -192,7 +200,7 @@ a {
   <div class="mb-4 h1">
     <i class="fas fa-3x fa-sitemap"></i>
   </div>
-  <h4 class="h3">Versioning</h4>
+  <h4 class="h3">Continuous Software Supply Chain Versioning</h4>
   <p class="mb-0"></p>
   <p><a href="/versioning/">Read more …</a></p>
 </div>
@@ -200,7 +208,7 @@ a {
   <div class="mb-4 h1">
     <i class="fas fa-3x fa-share-square"></i>
   </div>
-  <h4 class="h3">Supply Chain Data</h4>
+  <h4 class="h3">Supply Chain Evidence</h4>
   <p class="mb-0"></p>
   <p><a href="/catalog/">Read more …</a></p>
 </div>
@@ -228,7 +236,74 @@ a {
 		<div class="row ">
 			
 				<div class="col-12">
-<h1 class="text-center">Get Involved</h1>
+<h1 class="text-center">Ortelius Integrations Include:</h1>
+<hr>
+</div>
+<div class="col-sm"></div>
+<div class="col-sm" style="text-wrap:nowrap">
+<div class="col-center">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://docs.ortelius.io/guides/userguide/integrations/spdx-cyclonedx-syft/">Syft</a></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/osvdev/">OSV.dev</a>  </p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/sonarqube/">SonarQube</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/veracode/">VeraCode</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/ci-cd_integrations/">Any CI/CD</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/swagger/">Swagger</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/dora/">Dora Metrics</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+<td><p style="font-size:1.5em"><a href="https://docs.ortelius.io/guides/userguide/integrations/intro-to-deployment-integrations/">Deployment Engines</a></p></td>
+<td><i class="fas fa-3x fa-check-square"></i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="col-sm"></div>
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<a id="td-block-4" class="td-offset-anchor"></a>
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+	<div class="col">
+		<div class="row ">
+			
+				<div class="col-12">
+<h1 class="text-center">Get Involved:</h1>
 <hr>
 <p></p>
 </div>
@@ -255,102 +330,6 @@ a {
   <h4 class="h3">Attend Out Community Meetings and Events</h4>
   <p class="mb-0"></p>
   <p><a href="/events/">Read more …</a></p>
-</div>
-
-			
-		</div>
-	</div>
-</section>
-
-
-
-
-
-<a id="td-block-4" class="td-offset-anchor"></a>
-<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
-	<div class="col">
-		<div class="row ">
-			
-				<div class="col-12">
-<h1 class="text-center">Ortelius Features</h1>
-<hr>
-<p></p>
-</div>
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<div class="col-center">
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Federated SBOMs</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Domain Security Profiles</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Blast Radius Reporting</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Component &lsquo;Drift&rsquo; Analysis</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Open-Source Package Transparency</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Component Versioning</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<div class="col-center">
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Centralized Security Insights</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Federated CVE Reporting</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Supports hybrid environments</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Integration with Deployment Engines</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Integrates into DevOps Pipelines</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-<tr>
-<td>Easily extendable</td>
-<td><i class="fas fa-3x fa-check-square"></i></td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 
 			
@@ -439,7 +418,7 @@ a {
         
       </div>
       <div class="td-footer__copyright-etc col-12 col-sm-4 text-center py-2 order-sm-2">
-        <span>&copy; 2023 Linux Foundation All Rights Reserved</span>
+        <span>&copy; 2024 Linux Foundation All Rights Reserved</span>
         
         
       </div>

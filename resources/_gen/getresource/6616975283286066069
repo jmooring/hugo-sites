@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Thu, 18 Jan 2024 04:44:59 GMT
-Etag: W/"65a839c9-52aa"
-Expires: Thu, 18 Jan 2024 04:51:53 GMT
-Last-Modified: Wed, 17 Jan 2024 20:34:17 GMT
+Date: Sun, 04 Feb 2024 21:31:12 GMT
+Etag: W/"65bab0cc-51db"
+Expires: Sun, 04 Feb 2024 21:41:12 GMT
+Last-Modified: Wed, 31 Jan 2024 20:42:52 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
-X-Cache-Hits: 1
-X-Fastly-Request-Id: 8846e9845382ddac83a14b3be8bcc1c73d898787
-X-Github-Request-Id: 6924:16C5:23F1937:2BDB06C:65A8AC0F
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 4136c56cd0d99d0601fb34c75b18d4c68f01fe46
+X-Github-Request-Id: 4FAA:1BCB56:2263A3:295B41:65C0021E
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1528-YVR
-X-Timer: S1705553100.592908,VS0,VE83
+X-Served-By: cache-bfi-kbfi7400111-BFI
+X-Timer: S1707082273.724857,VS0,VE78
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1705553100.592908,VS0,VE83
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.122.0-DEV">
+    <meta name="generator" content="Hugo 0.123.0-DEV">
     
     
     
@@ -200,6 +200,33 @@ X-Timer: S1705553100.592908,VS0,VE83
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240130/" class="color-inherit dim link">
+            Navigating Koyeb&#39;s API with Rust
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          I wrote about Navigating Koyeb&rsquo;s Golang SDK. That client is generated using the OpenAPI Generator project using Koyeb&rsquo;s Swagger (now OpenAPI) REST API spec.
+This post shows how to generate a Rust SDK using the Generator and provides a very basic example of using the SDK.
+The Generator will create a Rust library project:
+VERS=&#34;v7.2.0&#34; PACKAGE_NAME=&#34;koyeb-api-client-rs&#34; PACKAGE_VERS=&#34;1.0.0&#34; podman run \ --interactive --tty --rm \ --volume=${PWD}:/local \ docker.io/openapitools/openapi-generator-cli:${VERS} \ generate \ -g=rust \ -i=https://developer.
+        </div>
+          <a href="/posts/240130/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240117/" class="color-inherit dim link">
             Gnarly Protocol Buffers compilation
             </a>
@@ -248,39 +275,18 @@ The SDK is generated from Koyeb&rsquo;s OpenAPI (nee Swagger) endpoint using ope
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240104/" class="color-inherit dim link">
-            Capturing e.g. CronJob metrics with GMP
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          The deployment of Kube State Metrics for Google Managed Prometheus creates both a PodMonitoring and ClusterPodMonitoring.
-The PodMonitoring resource exposes metrics published on metric-self port (8081).
-The ClusterPodMonitoring exposes metrics published on metric port (8080) but this doesn&rsquo;t include cronjob-related metrics:
-kubectl get clusterpodmonitoring/kube-state-metrics \ --output=jsonpath=&#34;{.spec.endpoints[0].metricRelabeling}&#34; \ | jq -r . [ { &#34;action&#34;: &#34;keep&#34;, &#34;regex&#34;: &#34;kube_(daemonset|deployment|replicaset|pod|namespace|node|statefulset|persistentvolume|horizontalpodautoscaler|job_created)(_.+)?&#34;, &#34;sourceLabels&#34;: [ &#34;__name__&#34; ] } ] NOTE The regex does not include kube_cronjob and only includes kube_job_created patterns.
-        </div>
-          <a href="/posts/240104/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/240104/" class="link black dim">
+              Capturing e.g. CronJob metrics with GMP
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231222/" class="link black dim">
@@ -297,12 +303,6 @@ kubectl get clusterpodmonitoring/kube-state-metrics \ --output=jsonpath=&#34;{.s
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231017/" class="link black dim">
               Prometheus Operator support an auth proxy for Service Discovery
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/231013/" class="link black dim">
-              Prometheus Operator `ScrapeConfig`
             </a>
           </h2>
         

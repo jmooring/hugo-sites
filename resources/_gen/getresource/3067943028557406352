@@ -1,16 +1,16 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 174
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 84742ff5cd4eec27-SEA
+Cf-Ray: 85060581ec800871-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 18 Jan 2024 04:45:14 GMT
-Expires: Thu, 18 Jan 2024 03:25:53 GMT
-Last-Modified: Fri, 29 Dec 2023 16:40:26 GMT
+Date: Sun, 04 Feb 2024 21:31:36 GMT
+Expires: Sun, 04 Feb 2024 20:13:55 GMT
+Last-Modified: Fri, 02 Feb 2024 20:31:46 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pd6pJSriESBGCwk258qVDVQWBDKm7R6YtPLeIBXXPvpHh65p4oQoJJSyBtqQWHk9%2FY2TnM4HefALINnbPlM6F7DnH2NqatZY67eOI0qTf%2BzdwhRAeRk3l9T0bBw%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5srM6ZdAHuZTN0SklHbGDLtucC%2BhBvVCFfmB5ZxGCgva%2Bkr5%2BqBFHdHSFClLf4WcYTpZPSMk4M0pA%2Btoz7h9mv0COnU%2F9NZuvU0MkYYDhta7cMgiL6tc3UYuBFI%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
@@ -18,11 +18,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 06c7c3e1b482c949227eb1159dcb437f4149d7eb
-X-Github-Request-Id: F370:4E86:6FCD71:87F03F:65A897E9
+X-Fastly-Request-Id: 6b04d195e309cab1ad6179b2f5693f66dd4e90bb
+X-Github-Request-Id: E9E6:904F:E455AB:114F07E:65BFEDAA
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770078-PAO
-X-Timer: S1705553115.588030,VS0,VE2
+X-Served-By: cache-pao-kpao1770048-PAO
+X-Timer: S1707082297.695532,VS0,VE114
 
 <!DOCTYPE html>
 <html lang="en">
@@ -229,6 +229,24 @@ X-Timer: S1705553115.588030,VS0,VE2
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
+              <span class="tag is-light">2024-01-26</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/01/26/two-months-in-servo/">Two months in Servo: better inline layout, stable Rust, and more!</a></strong></big></p>
+              <p>Improved control over typography, very early support for sticky positioning and tables, plus updates to our minibrowser and build tooling.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2024-01-19</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/01/19/embedding-update/">Tauri update: embedding prototype, offscreen rendering, multiple webviews, and more!</a></strong></big></p>
+              <p>Overview of the embedding improvements we’ve landed as part of our collaboration with Tauri.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
               <span class="tag is-light">2023-12-18</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/12/18/this-year-in-servo/">This year in Servo: over 1000 pull requests and beyond</a></strong></big></p>
               <p>Reflections on Servo’s progress in 2023: contributor stats, new features, layout improvements, WPT pass rates, and plans for next year.</p>
@@ -241,24 +259,6 @@ X-Timer: S1705553115.588030,VS0,VE2
               <span class="tag is-light">2023-11-30</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/11/30/embedding-floats-color-mix/">This month in Servo: better floats, color-mix(), try job labels, and more!</a></strong></big></p>
               <p>Sneak peek into our embedding effort, changes to pull requests, plus nightly updates to browser UI, floats, inline layout, CSS, and tooling.</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2023-11-06</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/11/06/nlgrant-announcement/">Servo announces grant from the NLnet Foundation</a></strong></big></p>
-              <p>Earlier this year in July, Servo received a NLnet grant to enhance several aspects of Servo.</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2023-10-26</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2023/10/26/css-filters-testing-tauri/">This month in Servo: CSS filters, testing changes, Tauri, and more!</a></strong></big></p>
-              <p>Catch up on our recent conference talks, embedding news, and testing changes, plus nightly updates around media queries, the DOM, upgrades, CSS filters, and canvas performance.</p>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@ X-Timer: S1705553115.588030,VS0,VE2
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#0b62656d644b786e797d642564796c"><span class="__cf_email__" data-cfemail="761f18101936051304001958190411">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#2d44434b426d5e485f5b4203425f4a"><span class="__cf_email__" data-cfemail="5c35323a331c2f392e2a3372332e3b">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -344,7 +344,7 @@ X-Timer: S1705553115.588030,VS0,VE2
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#81e8efe7eec1f2e4f3f7eeafeef3e6"><span class="__cf_email__" data-cfemail="472e29212807342235312869283520">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#4a23242c250a392f383c256425382d"><span class="__cf_email__" data-cfemail="472e29212807342235312869283520">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,
@@ -352,7 +352,7 @@ X-Timer: S1705553115.588030,VS0,VE2
   </div>
   <div class="container" style="text-align: center; font-size: 0.875em;">
     <p><a href="https://linuxfoundation.eu"><img src="/img/lf-europe-logo.png" alt="Linux Foundation Europe logo" width="250" style="margin: 1em;"></a></p>
-    <p>&copy; 2023 The Servo Project Developers</p>
+    <p>&copy; 2024 The Servo Project Developers</p>
     <p>Copyright &copy; Servo is a project of <a href="https://linuxfoundation.eu/">Linux Foundation Europe</a>.</p>
     <p>For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org">https://lfprojects.org</a>.</p>
   </div>

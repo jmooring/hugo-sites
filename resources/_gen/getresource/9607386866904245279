@@ -1,9 +1,9 @@
 HTTP/2.0 200 OK
 Content-Security-Policy: default-src https://jadelsbach.de;form-action 'self';base-uri 'self';img-src 'self';script-src 'self' 'unsafe-inline';object-src 'none';style-src 'self' 'unsafe-inline'; frame-ancestors 'self'
 Content-Type: text/html
-Date: Thu, 18 Jan 2024 04:45:19 GMT
-Etag: W/"658d4ee5-7b8e"
-Last-Modified: Thu, 28 Dec 2023 10:33:09 GMT
+Date: Sun, 04 Feb 2024 17:40:52 GMT
+Etag: W/"65b651ac-7cd5"
+Last-Modified: Sun, 28 Jan 2024 13:07:56 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
@@ -45,7 +45,7 @@ X-Xss-Protection: 1; mode=block
     
 
     
-    <meta name="generator" content="Hugo 0.121.1">
+    <meta name="generator" content="Hugo 0.121.2">
 </head>
 
 <body>
@@ -77,6 +77,68 @@ X-Xss-Protection: 1; mode=block
 </header>
 
     <section id="main" class="outer">
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/28-01-2024-voltcraft/">Voltcraft Power Supply Maintenance</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/28-01-2024-voltcraft/" class="article-date">
+                        <time datetime='2024-01-28T13:38:06.000&#43;01:00' itemprop="datePublished">2024-01-28</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/28-01-2024-voltcraft/"><img width=1000 height=100 alt="Banner" src="/post/28-01-2024-voltcraft//banner.jpg"></a><br>
+                    I got a couple older power supplies from the Voltcraft brand, so I decided to clean them up a little bit:
+12V 2A - Replacing Selenium Rectifier This unregulated unit had a selenium rectifier that started smelling a bit sweetly, which is the smell of impending failure. I replaced it with a silicon rectifier and also added a short circuit current limiting resistor, as I dunno whether the transformer is short circuit proof.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/28-01-2024-voltcraft/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/selenium">selenium
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/voltcraft">voltcraft
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/statron">statron
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/3d-printing">3d printing
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
         
         <article class="article article-type-post" itemscope itemprop="blogPost">
             <div class="article-inner">
@@ -573,63 +635,6 @@ Unfortunately the water was quite cloudy.
             </div>
         </article>
         
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/post/24-09-23-traffic-light-cntrl/">Arduino Traffic Light Controller</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/post/24-09-23-traffic-light-cntrl/" class="article-date">
-                        <time datetime='2023-09-24T19:32:46.000&#43;02:00' itemprop="datePublished">2023-09-24</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/post/24-09-23-traffic-light-cntrl/"><img width=1000 height=100 alt="Banner" src="/post/24-09-23-traffic-light-cntrl//banner.jpg"></a><br>
-                    Fairly simple traffic light controller I built the other day. It consists of 5x relays switched using a ULN2803 darlington array with free wheeling diodes from an Arduino. Two digital inputs are also available to hook buttons up. 12V/DC power is supplied using a 230V/AC PCB SMPS module.
-Not too much to say about it really.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/post/24-09-23-traffic-light-cntrl/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/arduino">arduino
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/traffic-light">traffic light
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/relay">relay
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
 
         
 
@@ -695,7 +700,7 @@ Not too much to say about it really.
     <footer id="footer">
     <div class="outer">
         <div id="footer-info" class="inner">
-            &copy; 2023 Jan Adelsbach
+            &copy; 2024 Jan Adelsbach
             <a href="/impressum">Impressum/Privacy Policy</a>
             <br />
             Powered by <a href="https://gohugo.io" target="_blank" rel="noreferrer">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank" rel="noreferrer">Minos</a>
