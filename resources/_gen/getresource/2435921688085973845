@@ -1,11 +1,11 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 2219
+Age: 3524
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"65bf4b68-3c18"
-Last-Modified: Sun, 04 Feb 2024 08:31:36 GMT
+Etag: W/"65d8ac5a-3b47"
+Last-Modified: Fri, 23 Feb 2024 14:31:54 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
@@ -13,7 +13,7 @@ Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 1574588 3248941
+X-Varnish: 2157530 741322
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -296,6 +296,12 @@ FreeBSD?</a></div>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-02-16</span><br>
+<a href="/news/newsflash/#2024-02-16:1">October-December 2023
+Status Report</a></p>
+<p><span class="txtdate">2024-02-13</span><br>
+<a href="/news/newsflash/#2024-02-13:1">New committer: Bojan
+Novković (src)</a></p>
 <p><span class="txtdate">2024-01-26</span><br>
 <a href="/news/newsflash/#2024-01-26:1">New committer: Zsolt Udvari
 (ports)</a></p>
@@ -308,13 +314,6 @@ Certner (src)</a></p>
 <p><span class="txtdate">2023-11-20</span><br>
 <a href="/news/newsflash/#2023-11-20:1">FreeBSD 14.0-RELEASE
 Available</a></p>
-<p><span class="txtdate">2023-11-17</span><br>
-<a href="/news/newsflash/#2023-11-17:1">Release Engineering Team
-Update: Colin Percival has been promoted to Lead Release
-Engineer</a></p>
-<p><span class="txtdate">2023-11-14</span><br>
-<a href="/news/newsflash/#2023-11-14:1">New committer: R. Christian
-McDonald (src)</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -335,10 +334,6 @@ width="27" height="12"></a></li>
 <div id="fronteventscontent" class="txtnewsevent">
 <h2>UPCOMING EVENTS</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2024-02-03 - 2024-02-04</span><br>
-<a href="https://www.freebsd.org/events/#fosdem-2024">FOSDEM
-2024<br>
-(Brussels, Belgium)</a></p>
 <p><span class="txtdate">2024-03-21 - 2024-03-24</span><br>
 <a href=
 "https://www.freebsd.org/events/#asiabsdcon-2024">AsiaBSDCon
@@ -386,6 +381,14 @@ Media</a></div>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-02-14</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:02.tty.asc">
+FreeBSD-SA-24:02.tty</a></p>
+<p><span class="txtdate">2024-02-14</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:01.bhyveload.asc">
+FreeBSD-SA-24:01.bhyveload</a></p>
 <p><span class="txtdate">2023-12-19</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc">
@@ -394,14 +397,6 @@ FreeBSD-SA-23:19.openssh</a></p>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-23:18.nfsclient.asc">
 FreeBSD-SA-23:18.nfsclient</a></p>
-<p><span class="txtdate">2023-12-05</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:17.pf.asc">
-FreeBSD-SA-23:17.pf</a></p>
-<p><span class="txtdate">2023-11-08</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-23:16.cap_net.asc">
-FreeBSD-SA-23:16.cap_net</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -418,14 +413,14 @@ FreeBSD-SA-23:16.cap_net</a></p>
 <br>
 <h2>ERRATA NOTICES</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2023-12-05</span><br>
+<p><span class="txtdate">2024-02-14</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-23:22.vfs.asc">
-FreeBSD-EN-23:22.vfs</a></p>
-<p><span class="txtdate">2023-12-05</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:04.ip.asc">
+FreeBSD-EN-24:04.ip</a></p>
+<p><span class="txtdate">2024-02-14</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-23:21.tty.asc">
-FreeBSD-EN-23:21.tty</a></p>
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:03.kqueue.asc">
+FreeBSD-EN-24:03.kqueue</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=

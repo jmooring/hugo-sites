@@ -1,23 +1,24 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
+Age: 59
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Sun, 04 Feb 2024 21:31:12 GMT
-Etag: "33d6a9dfa3a5e07401aefd076f3d74d6"
-Last-Modified: Tue, 30 Jan 2024 23:06:50 GMT
+Date: Sat, 24 Feb 2024 03:15:50 GMT
+Etag: "7e8dce97da68e1ba0552e463066ffbd7"
+Last-Modified: Tue, 20 Feb 2024 19:26:23 GMT
 Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 12a392bc3a7281f8d5d4591bfadc41fc.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: 9ehN6bBIcoJL94ukCSRJY7p3V2Tn4WxpLIIwgZeTtwb4VaV6FWp5jQ==
+Via: 1.1 1a53057db389e96b4ef1bfbc925dde1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: V-sO9xbCJpMn7lwHh-9-2I5klT-YJOUIcIL0LxLIclsMh1-mI7MKaw==
 X-Amz-Cf-Pop: SEA19-C2
 X-Amz-Server-Side-Encryption: AES256
-X-Cache: Miss from cloudfront
+X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: fc28e208-f806-4fb0-4fd1-3589104c38e7
+X-Vcap-Request-Id: 2fc538e8-2915-4870-60d6-b4d533117202
 X-Xss-Protection: 1; mode=block
 
 
@@ -119,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         href="https://vote.gov/assets/img/favicons/favicon-vote-144.png">
 
   
-  <link rel="stylesheet" href="/assets/styles/main.css?v=a5915d77c">
+  <link rel="stylesheet" href="/assets/styles/main.css?v=94b0063c7">
   
   
 
@@ -548,10 +549,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h1 class="main-heading" data-test="main-header">Register to vote</h1>
               </header>
 
-              <form id="state-combo-box">
+              <form id="state-combo-box" tabindex="-1" style="outline: 0 none;">
                 <label for="state-input">Select your state or territory for information on how to get started.</label>
                 <div class="input-buttons-group" aria-label="State page will open upon selection." data-test="state-selection">
-                <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="Enter your state or territory name">
+                <input type="text" class="state-input" id="state-input" placeholder="Enter your state or territory name">
                   <div class="input-control-container">
                     <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
                   </div>
@@ -1087,7 +1088,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://touchpoints.app.cloud.gov/touchpoints/3680b407.js" async></script>
 
 
-<script src="/assets/scripts/main.js?v=a5915d77c"></script>
+<script src="/assets/scripts/main.js?v=94b0063c7"></script>
 
 
 

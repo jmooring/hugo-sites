@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 67733
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 04 Feb 2024 21:31:12 GMT
-Etag: "d5ed31e8f106dd35c7fabdb39631099e-ssl-df"
+Date: Sat, 24 Feb 2024 03:16:48 GMT
+Etag: "db1073010ea339ae2347c98741054784-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
+X-Nf-Request-Id: 01HQCHV2WB7J113YH67AEBJ4MX
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -37,7 +37,7 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
 		<ul class="desktop-links">
 			<li><a href="/" class="active">Home</a></li>
 			<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-			<li><a href="/docs/v1.14.2" >Documentation</a></li>
+			<li><a href="/docs/v1.15.0" >Documentation</a></li>
 			<li><a href="/blog/" >Blog</a></li>
 			<li><a href="/presentations/" >Presentations</a></li>
 			<li><a href="/community/" >Community</a></li>
@@ -52,7 +52,7 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
 			<ul class="header-links">
 				<li><a href="/" class="active">Home</a></li>
 				<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-				<li><a href="/docs/v1.14.2" >Documentation</a></li>
+				<li><a href="/docs/v1.15.0" >Documentation</a></li>
 				<li><a href="/blog/" >Blog</a></li>
 				<li><a href="/presentations/" >Presentations</a></li>
 				<li><a href="/community/" >Community</a></li>
@@ -95,8 +95,8 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
 		<div class="bg-grey introduction">
 			<div class="wrapper grid two">
 				<div class="col">
-					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v1.14.2">View Latest Release</a></p>
-					<p>Antrea v1.14.2 is now available.</p>
+					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v1.15.0">View Latest Release</a></p>
+					<p>Antrea v1.15.0 is now available.</p>
 				</div>
 				<div class="col">
 					<p class="strong"><a href="https://www.cncf.io/webinars/securing-and-accelerating-the-kubernetes-cni-data-plane-with-project-antrea-and-nvidia-mellanox-connectx-smartnics/">CNCF Webinar</a></p>
@@ -155,6 +155,20 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
 			
 					<div class="col">
     <div class="icon">
+        <img src="/img/antrea-logo.svg" alt="Antrea Egress and how to use it in Tanzu Kubernetes Clusters" />
+    </div>
+    <div class="content">
+        <h3>
+            
+                <a href="https://blog.andreasm.io/2023/02/20/antrea-egress/#configure-antrea-egress-in-tkc-vsphere-8">Antrea Egress and how to use it in Tanzu Kubernetes Clusters</a>
+            
+        </h3>
+        <p>Post by Andreas Marqvardsen</p>
+    </div>
+</div>
+			
+					<div class="col">
+    <div class="icon">
         <img src="/img/antrea-logo.svg" alt="A series of blog posts on Antrea integrations with NSX" />
     </div>
     <div class="content">
@@ -164,20 +178,6 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
             
         </h3>
         <p>Posts by Bassem Rezkalla</p>
-    </div>
-</div>
-			
-					<div class="col">
-    <div class="icon">
-        <img src="/img/antrea-logo.svg" alt="On-premise Layer-2 Service type LoadBalancer with Antrea" />
-    </div>
-    <div class="content">
-        <h3>
-            
-                <a href="https://www.vxav.fr/2022-03-11-on-premise-layer-2-service-type-loadbalancer-with-antrea/">On-premise Layer-2 Service type LoadBalancer with Antrea</a>
-            
-        </h3>
-        <p>Post by Xavier Avrillier</p>
     </div>
 </div>
 			
@@ -194,7 +194,7 @@ X-Nf-Request-Id: 01HNV0GK9W0F1C641B8AHRT0B1
 			<p>To help you get started, see the documentation.</p>
 		</div>
 		<div class="right-side">
-			<a href="/docs/v1.14.2" class="button">Documentation</a>
+			<a href="/docs/v1.15.0" class="button">Documentation</a>
 		</div>
 	</div>
 </div>

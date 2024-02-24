@@ -4,13 +4,13 @@ Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 85060581ec800871-SEA
+Cf-Ray: 85a48de12eeac37e-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sun, 04 Feb 2024 21:31:36 GMT
-Expires: Sun, 04 Feb 2024 20:13:55 GMT
-Last-Modified: Fri, 02 Feb 2024 20:31:46 GMT
+Date: Sat, 24 Feb 2024 03:17:12 GMT
+Expires: Fri, 23 Feb 2024 23:32:10 GMT
+Last-Modified: Mon, 19 Feb 2024 09:30:55 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5srM6ZdAHuZTN0SklHbGDLtucC%2BhBvVCFfmB5ZxGCgva%2Bkr5%2BqBFHdHSFClLf4WcYTpZPSMk4M0pA%2Btoz7h9mv0COnU%2F9NZuvU0MkYYDhta7cMgiL6tc3UYuBFI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HcXw6SLkInOASileS9SAkgOTzreZTuY9UeaD5yM0Vxub7Di%2B1Uz2kf%2BjSyvQHPD82onIGXTjrWGogQV2dcWRgtzmy%2BEBHnv%2Fd8JbjbG0Wwn3lv2M54wTC1mGBoM%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
@@ -18,11 +18,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 6b04d195e309cab1ad6179b2f5693f66dd4e90bb
-X-Github-Request-Id: E9E6:904F:E455AB:114F07E:65BFEDAA
+X-Fastly-Request-Id: a3d626b4d1571ab7612cf53e996ab99cd3e9299f
+X-Github-Request-Id: 2234:2895:5E0B36:69DC6A:65D928A1
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770048-PAO
-X-Timer: S1707082297.695532,VS0,VE114
+X-Served-By: cache-pao-kpao1770075-PAO
+X-Timer: S1708744633.571389,VS0,VE87
 
 <!DOCTYPE html>
 <html lang="en">
@@ -218,7 +218,11 @@ X-Timer: S1707082297.695532,VS0,VE114
       </p>
     </div>
     <div class="column">
-      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/9lkIX5ryZZ4" title="Servo Web Rendering Engine Reboot by Manuel Rego at Open Source Summit Europe 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <video style="width: 100%; aspect-ratio: 560/315;" controls="controls" title="Embedding Servo in Rust projects by Rakhi Sharma at FOSDEM 2024">
+        <source src="https://video.fosdem.org/2024/h1308/fosdem-2024-2321-embedding-servo-in-rust-projects.av1.webm" type='video/webm; codecs="av01.0.08M.08.0.110.01.01.01.0"' />
+        <source src="https://video.fosdem.org/2024/h1308/fosdem-2024-2321-embedding-servo-in-rust-projects.mp4" type='video/mp4' />
+        <p><a href="https://fosdem.org/2024/schedule/event/fosdem-2024-2321-embedding-servo-in-rust-projects/">Embedding Servo in Rust projects</a> by Rakhi Sharma at FOSDEM 2024</p>
+      </video>
     </div>
   </div>
 </section>
@@ -283,7 +287,7 @@ X-Timer: S1707082297.695532,VS0,VE114
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#2d44434b426d5e485f5b4203425f4a"><span class="__cf_email__" data-cfemail="5c35323a331c2f392e2a3372332e3b">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#7b12151d143b081e090d145514091c"><span class="__cf_email__" data-cfemail="f39a9d959cb3809681859cdd9c8194">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -332,7 +336,7 @@ X-Timer: S1707082297.695532,VS0,VE114
 <h2 id="sponsorship" tabindex="-1">Sponsorship <a class="header-anchor" href="#sponsorship">
         <span class="icon hashlink"><i class="fas fa-link"></i></span>
       </a></h2>
-<p>You can support the project’s infrastructure (CI) and hosting costs by donating to the <a href="https://crowdfunding.lfx.linuxfoundation.org/projects/servo">LFX crowdfunding page for Servo</a>.</p>
+<p>You can support the project’s infrastructure (CI) and hosting costs by donating to the <a href="https://opencollective.com/servo">Servo Open Collective</a>.</p>
 <p>For more information about how to sponsor the project, visit the <a href="/sponsorship/"><strong>sponsorship page</strong></a>.</p>
   </div>
 </div>
@@ -344,7 +348,7 @@ X-Timer: S1707082297.695532,VS0,VE114
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#4a23242c250a392f383c256425382d"><span class="__cf_email__" data-cfemail="472e29212807342235312869283520">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#7f161119103f0c1a0d091051100d18"><span class="__cf_email__" data-cfemail="01686f676e41726473776e2f6e7366">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

@@ -2,9 +2,9 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Age: 0
 Content-Type: text/html
-Date: Sun, 04 Feb 2024 21:31:25 GMT
-Etag: "5c6c-6103e83f2ad00-gzip"
-Last-Modified: Wed, 31 Jan 2024 14:15:48 GMT
+Date: Sat, 24 Feb 2024 03:17:04 GMT
+Etag: "5cae-611d707288200-gzip"
+Last-Modified: Tue, 20 Feb 2024 21:38:16 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300081-BFI
-X-Timer: S1707082286.685027,VS0,VE104
+X-Served-By: cache-bfi-kbfi7400054-BFI
+X-Timer: S1708744624.371796,VS0,VE88
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1707082286.685027,VS0,VE104
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-01-09T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-02-14T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -382,6 +382,36 @@ X-Timer: S1707082286.685027,VS0,VE104
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
+            <a href="/blogs/2024-bind-audit/">
+              <h4 class="text-white">BIND 9 Security Audit</h4>
+            </a>
+            <p class="text-white">In the aftermath of yesterday&rsquo;s BIND announcement of seven new CVEs, one of them with a fairly wide impact, BIND users might be wondering why ISC publishes so many security vulnerabilities.</p>
+            <a href="/blogs/2024-bind-audit/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
+            <a href="/blogs/2024-bind-security-release/">
+              <h4 class="text-white">BIND 9 Security Release and Multi-Vendor Vulnerability Handling, CVE-2023-50387 and CVE-2023-50868</h4>
+            </a>
+            <p class="text-white">Yesterday we published BIND 9.16.48, 9.18.24, and 9.19.21. These releases mitigate several vulnerabilities that are described in our announcement.</p>
+            <a href="/blogs/2024-bind-security-release/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
             <a href="/blogs/tsuking-and-bind/">
               <h4 class="text-white">TsuKing and BIND</h4>
             </a>
@@ -402,36 +432,6 @@ X-Timer: S1707082286.685027,VS0,VE104
             </a>
             <p class="text-white">Kea in 2023 We made a total of 13 Kea DHCP releases in 2023: 10 development releases (2.</p>
             <a href="/blogs/dhcp-accomplishments-2023/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/net.jpg" 
-            onerror="this.onerror = null; this.src='\/Blue net'"  />
-          <div class="post-content">
-            <a href="/blogs/2023-happy-holidays-from-isc/">
-              <h4 class="text-white">Happy holidays from ISC!</h4>
-            </a>
-            <p class="text-white">As always, this year has had its ups and downs, but 2023 has been a predominantly good year for ISC and we hope it has been for you as well.</p>
-            <a href="/blogs/2023-happy-holidays-from-isc/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/static-images-event.jpg" 
-            onerror="this.onerror = null; this.src='\/Open laptop on blue background'"  />
-          <div class="post-content">
-            <a href="/blogs/2023-12-13-stork-webinar/">
-              <h4 class="text-white">December Webinar: Kea Configuration with Stork</h4>
-            </a>
-            <p class="text-white">Kea Configuration with Stork Stork is an open source project that provides a graphical interface for monitoring, and now also configuring, Kea DHCP servers.</p>
-            <a href="/blogs/2023-12-13-stork-webinar/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

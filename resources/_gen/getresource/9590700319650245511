@@ -1,25 +1,25 @@
 HTTP/2.0 200 OK
-Content-Length: 6601
+Content-Length: 7329
 Accept-Ranges: bytes
 Cache-Control: private
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 04 Feb 2024 21:31:14 GMT
-Etag: "19c9-610867a6289da"
-Last-Modified: Sun, 04 Feb 2024 04:07:05 GMT
+Date: Sat, 24 Feb 2024 03:16:50 GMT
+Etag: "1ca1-61204afa72f7f"
+Last-Modified: Fri, 23 Feb 2024 04:06:36 GMT
 Server: Apache/2.4.57 (Red Hat Enterprise Linux) OpenSSL/3.0.7
-Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=75fdd8dc05c071efd9b044c10886256d; path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=54cfc6f7985203327ef3f3a2ba22b3eb; path=/; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=31557600
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Served-By: cache-bfi-kbfi7400043-BFI
-X-Timer: S1707082274.226816,VS0,VE241
+X-Served-By: cache-bfi-kbfi7400048-BFI
+X-Timer: S1708744611.501884,VS0,VE241
 
 <!doctype html>
 <html lang="en">
 
     <head>
-	<meta name="generator" content="Hugo 0.121.2">
+	<meta name="generator" content="Hugo 0.122.0">
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>GIMP Developer - GIMP Development</title>
@@ -111,20 +111,12 @@ X-Timer: S1707082274.226816,VS0,VE241
 <ul>
 <li>If you are into resource creation, e.g. plug-in development, you
 should look at the <a href="/resource/">Resource Development</a>
-
-
 section.</li>
 <li>If you wish to contribute to GIMP itself, you should read the <a href="/core/">Core
-Development</a>
-
- section.</li>
+Development</a> section.</li>
 </ul>
-<p><em>Note: for the main GIMP website, visit <a href="https://www.gimp.org" target="_blank" rel="noopener">www.gimp.org</a>
-
-
-instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" rel="noopener">docs.gimp.org</a>
-
-.</em></p>
+<p><em>Note: for the main GIMP website, visit <a href="https://www.gimp.org">www.gimp.org</a>
+instead; the GIMP manual is at <a href="https://docs.gimp.org/">docs.gimp.org</a>.</em></p>
 <h2 id="gimp-30-roadmap">
   <a href="#gimp-30-roadmap" title="Permalink to GIMP 3.0 roadmap">
     GIMP 3.0 roadmap
@@ -183,21 +175,32 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/" target="_blank" 
 <tr>
 <td>Less &ldquo;floating selection&rdquo;</td>
 <td>nearly done</td>
-<td>Discussed on the <a href="https://mail.gnome.org/archives/gimp-gui-list/2020-December/msg00000.html" target="_blank" rel="noopener">gimp-gui mailing list</a>
-
-, transform tools still create floating selections</td>
+<td>Discussed on the <a href="https://mail.gnome.org/archives/gimp-gui-list/2020-December/msg00000.html">gimp-gui mailing list</a>, transform tools still create floating selections</td>
 </tr>
 <tr>
 <td>Documentation</td>
 <td>work in progress</td>
 <td>Make sure documentation is up-to-date by release time</td>
 </tr>
+<tr>
+<td>Automatic layer boundary management</td>
+<td><strong>done</strong></td>
+<td><a href="https://gitlab.gnome.org/GNOME/gimp/issues/32">#32</a> - auto-growing layers are <a href="https://gitlab.gnome.org/GNOME/gimp/-/issues/9314">part of gsoc 23 (#9314)</a></td>
+</tr>
+<tr>
+<td>Support SwatchBooker file format for palettes and gradients</td>
+<td><strong>done</strong></td>
+<td><a href="https://gitlab.gnome.org/GNOME/gimp/-/merge_requests/843">!843</a> (GIMP 3.0)</td>
+</tr>
+<tr>
+<td>Layer effects</td>
+<td><strong>done</strong></td>
+<td>Initial limited implementation as <a href="https://gitlab.gnome.org/GNOME/gimp/-/merge_requests/958">!958</a>: <a href="https://fosstodon.org/@CmykStudent/110357425899091109">started</a> as <a href="https://gitlab.gnome.org/GNOME/gimp/-/issues/9244">part of gsoc 23 (#9244)</a></td>
+</tr>
 </tbody>
 </table>
 
-<p><em><a href="/core/roadmap/">See more roadmaps</a>
-
-</em></p>
+<p><em><a href="/core/roadmap/">See more roadmaps</a></em></p>
 
 
 	

@@ -2,13 +2,13 @@ HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8506058c2cdec396-SEA
+Cf-Ray: 85a48e009e0a6818-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sun, 04 Feb 2024 21:31:38 GMT
+Date: Sat, 24 Feb 2024 03:17:17 GMT
 Link: <https://www.inbeat.co/>; rel="preconnect", <https://fonts.googleapis.com>; rel="preconnect"
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gM6h5S%2F%2F10iSkYgOMfOg4Ruk3ah4nzgUfNqdwpw%2FrRMNClinwnzVqNQdfBcgilCbg%2BOulhMXP6c41hVPN5r9BrWANhJpS56z25qLmTaP9NXPK%2FjiCEa2Oo883YfbVzLT"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Lrxz5VBpu1eVVva9aaNz88L%2FuwIE%2BRVHeL4kHYrub6I2zJOffR0FgH9YQxr97I%2FFLhyxElRiX%2BmhS4lWbropJfC63Ky5ENw8vMlLJom%2BIvjOoAaV%2FvS5ChMhkvRSc7cA"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
@@ -454,102 +454,6 @@ X-Content-Type-Options: nosniff
         </div>
     </div>
 </section>
-    <div id="showcasePopup">
-  <section :class="['showcase-popup', popupClass]" v-cloak v-if="showPopup">
-    <div class="sc-popup">
-      <div class="content">
-        <div class="close" @click="hideShowcasePopup"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon--close">
-    <path d="M1 1L12 12" stroke="black" stroke-width="2"/>
-    <path d="M1 12L12 1" stroke="black" stroke-width="2"/>
-</svg></div>
-        <video autoplay muted loop playsinline class="video">
-          <source src="./videos/CreatorStudio_Snippet.mp4" />
-        </video>
-        <div class="right-content">
-          <span class="new-badge">NEW</span>
-          <h1 class="title">UGC Platform</h1>
-          <p class="text">Create high quality UGC with top creators.</p>
-          <a href="https://www.showca.se/" title="Sign up for free &#8212 On Showcase" class="btn btn-lg"
-            target="_blank">
-            <span>Sign up for free</span> &#8212 On Showcase
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</div><script src="https://unpkg.com/vue@3.3.7/dist/vue.global.prod.js"></script><script>
-  function setCookie(name, value, days) {
-    var expires = "";
-    if (days) {
-      var date = new Date();
-      date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-      expires = "; expires=" + date.toUTCString();
-    }
-    document.cookie = name + "=" + (value || "") + expires + "; path=/";
-  }
-
-  function getCookie(name) {
-    var nameEQ = name + "=";
-    var ca = document.cookie.split(";");
-    for (var i = 0; i < ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == " ") c = c.substring(1, c.length);
-      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-  }
-  const { createApp } = Vue;
-  const scPopup = createApp({
-    data() {
-      return {
-        showPopup: false,
-        unlocked: false,
-        verifying: false,
-        popupClass: "",
-        submissions: 0,
-      };
-    },
-    mounted() {
-      this.showShowcasePopup();
-    },
-    methods: {
-      showShowcasePopup() {
-        let cookieValue = getCookie("sc-popup");
-
-        if (!cookieValue) {
-          this.showPopup = true;
-          setTimeout(() => {
-            this.popupClass = "popupOverlay--fadeIn";
-            this.handleState(true);
-          }, 20000);
-        }
-      },
-      hideShowcasePopup() {
-        setCookie("sc-popup", true, 60);
-        this.popupClass = "";
-        setTimeout(() => {
-          this.showPopup = false;
-        }, 1000);
-        this.handleState(false);
-      },
-      handleState(newVal) {
-        if (newVal) {
-          this.preventScroll();
-        } else {
-          this.allowScroll();
-        }
-      },
-      preventScroll() {
-        document.body.style.overflow = "hidden";
-      },
-      allowScroll() {
-        document.body.style.overflow = "";
-      },
-    },
-  });
-  scPopup.mount('#showcasePopup');
-</script>
-
     <section class="container mobile-adjusted" id="hero">
     <h1>TikTok &amp; Instagram<br>Influencer Database</h1>
     <h4>A search engine to find Micro-Nano influencers in seconds</h4>

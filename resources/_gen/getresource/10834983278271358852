@@ -1,19 +1,18 @@
 HTTP/2.0 200 OK
-Age: 119
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Sun, 04 Feb 2024 21:29:25 GMT
-Etag: W/"cb879b37147c1386aeccc62091b8cd53"
-Last-Modified: Thu, 01 Feb 2024 09:12:09 GMT
+Date: Sat, 24 Feb 2024 03:17:01 GMT
+Etag: W/"1d208233669b73f5a0abd34b9afe7122"
+Last-Modified: Wed, 14 Feb 2024 09:44:59 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 6172bb1a5d00a3b06ae3700570ebe116.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: KQ4RgoN653PW0pAufZ5YMhxl4-5bWIFRf8oGXiLCvdjWRwxSBBgEEA==
+Via: 1.1 556b99c6be8d7078b9f067347c62df6a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Uj0DdYj-jbkLnIJfavexV6IB9eknBEovTWZ5wjbLGwTI65GkmSLIIw==
 X-Amz-Cf-Pop: SEA19-C2
-X-Amz-Id-2: ZcEmKTppi1LyKWbKfYbFzJloxU/LadHu3JYUKSXXBDaApMYnkzHcjntsxTZRQFX4lTrUI8pEXQM=
-X-Amz-Request-Id: WZ2N0AZRTVTDDZ1X
-X-Cache: Hit from cloudfront
+X-Amz-Id-2: qU76gph6so5mNeVSPU2MpNfMn3tUQuL9oSiEnJtjvo6IQcnUJQfMxoZd45LCr280ogWlvKjWMmE=
+X-Amz-Request-Id: HBDV7BQ6CY2JPD96
+X-Cache: RefreshHit from cloudfront
 X-Frame-Options: deny
 
 <!DOCTYPE html>
@@ -131,11 +130,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=e210522d1918a9977ad85b5fc2feacb4" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=dda479926668010e3f96661f8a085c01" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=acbb7141369c86882237fb8407ec8971">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=ae0bf2aa7ac8a08dc7c8bacadd0e2f5c">
 
 
 <meta property="og:locale" content="en" />
@@ -427,14 +426,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li class="header-nav__link"><a href="https://nozbe.com/free">Pricing</a></li>
         </ul>
 
-        
-          <a class="button header-nav__button bg-yellow demo-button" href="https://nozbe.com/demo">Book a demo</a>
-        
-
         <div class="modal__overlay" data-modal-overlay="login"></div>
 
         <div class="login-button-container">
-          <a class="button header-nav__button bg-orange" data-modal-trigger="login" href="https://nozbe.com/login-chooser">Log in</a>
+          <a class="button header-nav__button bg-yellow n-login-button" data-modal-trigger="login" href="https://nozbe.com/login-chooser">Log in</a>
           <div class="login-modal" data-modal="login">
             <div class="login-modal__section" data-nt-form>
               <div class="login-modal__heading">
@@ -499,6 +494,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
           </div>
         </div>
+
+        
+          <a class="button header-nav__button bg-orange" href="https://nozbe.com/demo">Book a demo</a>
+        
 
         
           <div class="header-nav__signup-container">
@@ -5612,7 +5611,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   
+  
+  
 
+  
+    <div class="modal__overlay" data-modal-overlay="popup-10steps" data-disable-close></div>
+    <div class="popup-modal" data-modal="popup-10steps">
+      <span class="popup-modal__close-icon">/</span>
+      <h3 class="popup-modal__header">Hey, before you go: grab a link to <strong>10 Steps To Ultimate Productivity at Work</strong> video course</h3>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+  <picture>
+    <source type="image/webp"
+      srcset="https://files.nozbe.com/images/pages-teams/10-steps-productivity-at-work-webinar.webp"
+      
+    >
+    <img class="popup-modal__image"
+      src="https://files.nozbe.com/images/pages-teams/10-steps-productivity-at-work-webinar.jpg"
+      
+      alt="popup-image">
+  </picture>
+
+
+      <div class="popup-modal__description">Give us your email and we will give you a free course</div>
+      <form action="https://nozbe.info/add_subscriber.html" method="post">
+        <input type="hidden" value="fS1LI" name="campaign_token" />
+        
+        <input type="hidden" value="https://nozbe.com/thank-you-10steps" name="thankyou_url" />
+        <input class="popup-modal__input" type="email" name="email" placeholder="jane.smith@domain.com" />
+        <button class="popup-modal__button">I want free course</button>
+      </form>
+    </div>
   
 
   

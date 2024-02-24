@@ -2,14 +2,14 @@ HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: no-cache
 Content-Type: text/html
-Date: Sun, 04 Feb 2024 21:31:12 GMT
-Etag: W/"65b7e47c-6339"
-Expires: Sun, 04 Feb 2024 21:31:11 GMT
-Last-Modified: Mon, 29 Jan 2024 17:46:36 GMT
+Date: Sat, 24 Feb 2024 03:16:49 GMT
+Etag: W/"65d6a597-668b"
+Expires: Sat, 24 Feb 2024 03:16:48 GMT
+Last-Modified: Thu, 22 Feb 2024 01:38:31 GMT
 Server: nginx/1.21.1
 Vary: Accept-Encoding
-Via: 1.1 0d07c64d85b9f0560eabd0b323a4bf58.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: zf9IGPzvFhFHZxu2H2i_N0tor9bz5TmQvt48WCQV1WxNb92eXG3_tA==
+Via: 1.1 98415771fac40952d79fe03ad178f54c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TRHSwgT68cd7Ta5I7hF8dZ_7OTMe9YaNTBfy31iEuWz8z0D_3-RcDA==
 X-Amz-Cf-Pop: SEA900-P2
 X-Cache: RefreshHit from cloudfront
 
@@ -25,14 +25,16 @@ X-Cache: RefreshHit from cloudfront
 
   
   
-  <link rel="stylesheet" href="/sass/main.min.99b97c619de8f23cd9c88d6d115f4f10df974bd3e468821dee297e628a6fa01d.css">
+  <link rel="stylesheet" href="/sass/main.min.4b4e1d4faadf9ec13d87314fa345bc1baa9c200ca7e2d5f39d6a5c42e01fcfc4.css">
   </link>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   
 
-  <title>Convox</title>
+  
+  <title>Cloud Deployment Made Easy | Convox</title>
+  
 
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -112,10 +114,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="codelitt-col-md-3 codelitt-col-lg-4">
         <div class="navbar-account-options">
-          <a class="navbar-login-link" href="https://console.convox.com/login"
-            rel="noopener">Log in</a>
+          <a class="navbar-login-link" href="https://console.convox.com/login" rel="noopener">Log in</a>
           <a href="https://console.convox.com/signup" rel="noopener">
-            <button class="navbar-signup-button">Sign up</button>
+            <button class="navbar-signup-button">Get Started Free</button>
           </a>
         </div>
       </div>
@@ -227,7 +228,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div
       class="codelitt-row trial-container codelitt-col-xxs-4 codelitt-col-xs-4 codelitt-col-md-12 codelitt-col-lg-16">
       <a href="https://console.convox.com/signup" rel="noopener">
-        <button class="trial-button">Get started for free!</button>
+        <button class="trial-button">Get Started Free</button>
       </a>
     </div>
 
@@ -324,40 +325,69 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div
       class="pricing-container codelitt-col-xxs-4 codelitt-col-xs-4 codelitt-col-sm-8 codelitt-col-md-12 codelitt-col-lg-16">
       <a href="https://convox.com/pricing/">
-        <button class="pricing-button">View pricing plans</button>
+        <button class="pricing-button">View Pricing Plans</button>
       </a>
     </div>
   </div>
 </section>
 
-<section class="demo">
+<style>
+  .demo-container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 5.4rem;
+  }
+
+  .demo-button {
+    background-color: #FB8500;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 2.2rem;
+    font-weight: 600;
+    height: 6.6rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.02rem;
+    padding: 0 2.1rem;
+    width: 29.4rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .demo-button:hover {
+    background-color: #FB6900;
+  }
+</style>
+
+  
+  <section class="demo">
   <div class="codelitt-container-fluid">
     <div class="demo-heading-container">
       <div class="codelitt-col-xxs-4 codelitt-col-xs-4 codelitt-col-sm-8 codelitt-col-md-6 codelitt-col-lg-6">
         <div class="demo-title-container">
           <h1 class="demo-title">Demo</h1>
         </div>
-
         <p class="demo-paragraph">
           See how easy it is to get started with Convox
         </p>
+        <div class="demo-container">
+          <a href="https://console.convox.com/signup" class="demo-button">Get Started Free</a>
+        </div>
       </div>
     </div>
-
-    <div class="demo-video-container
-                codelitt-col-xxs-4
-                codelitt-col-xs-4
-                codelitt-col-sm-8
-                codelitt-col-md-12
-                codelitt-col-lg-16"
-    >
+  
+    <div class="demo-video-container codelitt-col-xxs-4 codelitt-col-xs-4 codelitt-col-sm-8 codelitt-col-md-12 codelitt-col-lg-16">
       <div class="demo-video-box">
-        <iframe class="demo-video" src="https://www.youtube.com/embed/VxCZJZiy6nE"></iframe>
+        <iframe class="demo-video" src="https://www.youtube.com/embed/VxCZJZiy6nE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
-</section>
-
+  </section>
+  
 
 <section class="testimonials">
   <div class="codelitt-container-fluid">
@@ -505,11 +535,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 codelitt-col-lg-16"
     >
       <a href="https://console.convox.com/signup" rel="noopener">
-        <button class="trial-button">Sign up for a free account</button>
+        <button class="trial-button">Get Started Free</button>
       </a>
     </div>
   </div>
 </section>
+
   
 
   
@@ -662,7 +693,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   codelitt-col-md-12
                   codelitt-col-lg-16">
         <p class="copyright-paragraph">
-          Copyright © 2023 Convox, Inc. All rights reserved. Convox is a registered trademark
+          Copyright © 2024 Convox - All rights reserved. Convox is a registered trademark
           of Convox, Inc.
         </p>
       </div>

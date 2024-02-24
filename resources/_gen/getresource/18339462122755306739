@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 74397
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=miss
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 04 Feb 2024 21:31:19 GMT
-Etag: "3dcdca391e08bbe211384820461a7847-ssl-df"
+Date: Sat, 24 Feb 2024 03:16:56 GMT
+Etag: "6d568566c167680ec543ab32d628483d-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HNV0GTW4D4BSE1WG33WBD1W9
+X-Nf-Request-Id: 01HQCHVATMKB3747ES1XZ0WSDY
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -101,7 +101,7 @@ X-Nf-Request-Id: 01HNV0GTW4D4BSE1WG33WBD1W9
     <a href="#" class="cart-parent snipcart-checkout"><span class="snipcart-items-count"></span><span class="cart-word">CART</span><img src="/images/cart.png" alt="cart icon" class="cart "></a>
   </nav>
   
-  <div class="popup" id='popup'  >
+  <div class="popup" id='popup' hidden style="display: none;">
     <h3>Winter 2023 Hours</h3>
     <p>Thanksgiving: Open Nov 21, 22 Closed rest of week <br> Christmas: Open normal hours the week before Christmas, then closed till Jan 31.</p>
     <br>
@@ -365,12 +365,8 @@ X-Nf-Request-Id: 01HNV0GTW4D4BSE1WG33WBD1W9
 
 </footer>
 <script>
-  let session = sessionStorage.getItem('session')
-  if (session == "active")
-  document.querySelector('#popup').style.display = "none";
-  else {
-  document.querySelector('#popup').style.display = "block";
-  }
+ 
+
   
   </script>
 <div class="privacy hide" id='privacy' >

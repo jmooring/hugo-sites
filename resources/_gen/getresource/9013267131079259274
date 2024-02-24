@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 18477
+Content-Length: 18227
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 04 Feb 2024 21:31:27 GMT
-Etag: "6570df33-482d"
-Last-Modified: Wed, 06 Dec 2023 20:53:07 GMT
+Date: Sat, 24 Feb 2024 03:17:03 GMT
+Etag: "65d61f66-4733"
+Last-Modified: Wed, 21 Feb 2024 16:05:58 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000
 
@@ -138,37 +138,33 @@ Strict-Transport-Security: max-age=31536000
             Latest Releases
         </h2>
         <p>
-            pgJDBC has released v42.7.1 on December 06, 2023. This release primarily fixes 2 regressions <a href="https://github.com/pgjdbc/pgjdbc/issues/3007">SET followed by SHOW in one statement returns wrong result</a>
-            and <a href="https://github.com/pgjdbc/pgjdbc/issues/3008">Server default DateStyle is being overwritten</a>. Notably improved blob performance as well as a number of small changes See notes below for details.
+            pgJDBC has released v42.7.2, v42.6.1, v42.5.5, v42.4.4, v42.3.9 and v42.2.28 on February 21, 2024.
+            This release primarily addresses a security issue <a href="https://www.cve.org/CVERecord?id=CVE-2024-1597">CVE-2024-1597</a> See the <a href="https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-24rp-q3w6-vc56">security advisory</a> for details.
         </p>
         <ul role="list">
             
             <li role="listitem">
-                <strong>42.7.1</strong> · 06 December 2023 · <a href="/changelogs/2023-12-06-42.7.1-release/">Notes</a>
+                <strong>42.7.2</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.7.2-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.7.0</strong> · 20 November 2023 · <a href="/changelogs/2023-11-20-42.7.0-release/">Notes</a>
+                <strong>42.6.1</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.6.1-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.6.0</strong> · 17 March 2023 · <a href="/changelogs/2023-03-17-42.6.0-release/">Notes</a>
+                <strong>42.5.5</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.5.5-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.5.4</strong> · 16 February 2023 · <a href="/changelogs/2023-02-16-42.5.4-release/">Notes</a>
+                <strong>42.4.4</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.4.4-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.4.3</strong> · 23 October 2022 · <a href="/changelogs/2022-11-23-42.5.1-release/">Notes</a>
+                <strong>42.3.9</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.3.9-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.3.8</strong> · 23 October 2022 · <a href="/changelogs/2022-11-23-42.5.1-release/">Notes</a>
-            </li>
-            
-            <li role="listitem">
-                <strong>42.2.27</strong> · 23 October 2022 · <a href="/changelogs/2022-11-23-42.5.1-release/">Notes</a>
+                <strong>42.2.28</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.2.28-release/">Notes</a>
             </li>
             
         </ul>

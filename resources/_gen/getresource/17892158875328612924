@@ -3,15 +3,15 @@ Accept-Ranges: bytes
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 04 Feb 2024 21:31:26 GMT
-Etag: "8f66b558f4fa6771d2440c693da06dad-ssl-df"
+Date: Sat, 24 Feb 2024 03:17:06 GMT
+Etag: "78bf95485d5110de62d9de572f7a8e1b-ssl-df"
 Server: nginx/1.19.6
-Set-Cookie: ak_bmsc=BEC6BD4997BD7C336C99C74C41562580~000000000000000000000000000000~YAAQDBwuFxlK21SNAQAAPYQIdhZB1xU5nN6OCDW++pRMHfpo0GBVssx8WzF8fXJK1ZMTh9QVgCIUr2AJdyz6mRHh5L6HEmauYAeQYRbRNV81UYYw7/silp43Y9wdESs52frqpAf1n7butahqaGKeg67OBz47gxWnLGApuwvsnBI0h/sBYTsjQvE1yAyiPr1NousWhuSTEnHdEJUaJz2P6VXkMHzLyosYJRUXEZQpaj6G67Unrc4iDudQM3ETw84wNki08xcuGr5cfiV8fLVnkXnrjAesQnWfuhOuDGUE2i0pMU19ggpAQlsMw5qJriokCr8XFFiyhrbzuUE0DFAa28/cpirUjqX1LM0Qtt9oDRZAmb/ZoFb+i+5TvUoLdSAV6SGaeoonz1G2Ow==; Domain=.vmware.com; Path=/; Expires=Sun, 04 Feb 2024 23:31:25 GMT; Max-Age=7199; HttpOnly
-Set-Cookie: bm_mi=338940DD373482DDFFD04EB5A0F9E61B~YAAQDBwuFxpK21SNAQAAPYQIdhZ53Zy5DHbpECy4PJ1jc/vHBI+EUM1o3+Tdoqbhlhmg1N02wNOR/8pGb3goD8LpM6FvmqUdc0qY/IgmWVsDL3nkbR60f+0xBnVSsUD6IfHwMGAcmuzDUus1tZ5+VQVO/bkTcOthdXNwG2VNYr9OLzu4np14A6i3nJNTB9OvRJlC2mSbibX2XNZxJEjSGnjFenpREZoJq82besPz7/UXGC3AsBpcxhi/6soSXChT/hlPEItxBqkvY3A0y5ja2AoCY1LXdO4pxUGd4JLk1fePb97325gsA8wHzt4Tc4tR+Aw5fWJ/wK4=~1; Domain=.vmware.com; Path=/; Expires=Sun, 04 Feb 2024 21:31:26 GMT; Max-Age=0; Secure
+Set-Cookie: ak_bmsc=BA2551991E3492316F0F39838D0D7B0E~000000000000000000000000000000~YAAQuRwuF7YAcNeNAQAAhtEd2RbU36Twknmy0cQp06mQrljgN677H0mka4THFYUpEZxAlDcJuBYduOnJM/MeJ7om8y3vKWduLyFeqy/c3pafY69vDXXC34SVvJOsOC1pyE+E43VQICRu8Rc6Hwb+PLg7iGD2DHzZHfpcky9AzlLdiB3b5i/eeSqSwey4+QzK8+qLX1cN46S3jAC97UacYvXQfb7zmeegAawPjHuQaJlSFGVB58gCBT4MemmTOpPYdUEzvXJAb1FHchXXxnAGYXbCK6gqdcb4ruXiVgBChB79saBvIvQ5xHZpQ6MeRZBLzgxMasrnRaoKjQ5bWpee1seTQ0G1UWx8aezISnW+c4SW+BHbUNbOTKx4DIbrTw2UG/hR6LClnFjfjQ==; Domain=.vmware.com; Path=/; Expires=Sat, 24 Feb 2024 05:17:06 GMT; Max-Age=7200; HttpOnly
+Set-Cookie: bm_mi=04AD90613729E5705270E368794E6B2A~YAAQuRwuF7cAcNeNAQAAhtEd2RbqeQQz+IlpXxl/KuAsULpQUzG5sCr6MzEvWJxc5NlKv96uMO9lN5tA76opOsV1KS6OIZV5vnI0eMqSxH+8FrUFBxY1gCeZxFHPpnU/qyH4IZiVZlGyqzG8ag2CfX7+8cI59D9zKvPVyN2sGx+X+wxDhowR542VZlPTUwsNcC4hvTmyCwc6zRHcXU3VwdwvGWk24tBaOQhsRf7oRUYzlRn1pQIpeg9RwNDIBEprfb2BNQtbt0Jimw7R44n9WRTCTKr1bJ+u9n8Cxn756dGTrj2uROnG1b4e6CK7YK9wRDOLkkSnq8c=~1; Domain=.vmware.com; Path=/; Expires=Sat, 24 Feb 2024 03:17:06 GMT; Max-Age=0; Secure
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Akamai-Transformed: 9 14071 0 pmb=mTOE,2
-X-Nf-Request-Id: 01HNV0H0YNXGFCVTTBF31KK7BG
+X-Akamai-Transformed: 9 14038 0 pmb=mTOE,2
+X-Nf-Request-Id: 01HQCHVMANAZRQFJMBH4ZRPH31
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -48,46 +48,22 @@ function isTvShowLive(showName) {
   episodes = [];
   
     var epInfo = {
+      startTime: new Date("2024-02-15T08:00:00-08:00"),
+      endTime: new Date(new Date("2024-02-15T08:00:00-08:00").getTime() + ( 60  * 60000)),
+      show: "Enlightning",
+      link: "\/developer\/tv\/enlightning\/73\/"
+    };
+
+    
+    epInfo["stream"] = "twitch";
+    
+    episodes.push(epInfo);
+  
+    var epInfo = {
       startTime: new Date("2024-02-08T08:00:00-08:00"),
       endTime: new Date(new Date("2024-02-08T08:00:00-08:00").getTime() + ( 60  * 60000)),
       show: "Enlightning",
       link: "\/developer\/tv\/enlightning\/72\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2024-02-02T08:00:00-08:00"),
-      endTime: new Date(new Date("2024-02-02T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/71\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2024-02-01T08:00:00-08:00"),
-      endTime: new Date(new Date("2024-02-01T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/70\/"
-    };
-
-    
-    epInfo["stream"] = "twitch";
-    
-    episodes.push(epInfo);
-  
-    var epInfo = {
-      startTime: new Date("2024-01-26T08:00:00-08:00"),
-      endTime: new Date(new Date("2024-01-26T08:00:00-08:00").getTime() + ( 60  * 60000)),
-      show: "Enlightning",
-      link: "\/developer\/tv\/enlightning\/69\/"
     };
 
     
@@ -318,7 +294,7 @@ function getCookie(name) {
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
-  <script >bazadebezolkohpepadr="1397209141"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/5347bad1"  defer></script></head>
+  <script >bazadebezolkohpepadr="1397209141"</script><script type="text/javascript" src="https://tanzu.vmware.com/akam/13/5347bbe0"  defer></script></head>
   <body class="td-home">
     <header>
       
@@ -973,46 +949,46 @@ function getCookie(name) {
             
             
 <a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/enlightning/72/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Flexible Authorization with OpenFGA</h4>
+    
+    
+    <div class="mb-2">
+        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
+            alt="Whitney Lee" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Whitney Lee</p>
+    </div>
+    
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
+    href="/developer/tv/enlightning/71/">
+    <div class="gradient-edge-left"></div>
+    <h5 class="mb-3 text-white">tv</h5>
+    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Open Policy Containers: The What, Why, and How</h4>
+    
+    
+    <div class="mb-2">
+        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
+            alt="Whitney Lee" class="rounded w-25 mr-2">
+        <p class="d-inline-block">Whitney Lee</p>
+    </div>
+    
+    
+</a>
+
+            
+            
+<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
     href="/developer/tv/enlightning/70/">
     <div class="gradient-edge-left"></div>
     <h5 class="mb-3 text-white">tv</h5>
     <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Service Identity Authentication and Authorization Using Athenz</h4>
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
-            alt="Whitney Lee" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Whitney Lee</p>
-    </div>
-    
-    
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/enlightning/69/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Understanding Network Service Mesh</h4>
-    
-    
-    <div class="mb-2">
-        <img src='/developer/team/whitney-lee/images/whitney-lee_hud427ac228a69733216e362634ca54ce0_173624_175x175_resize_q75_catmullrom.jpg'
-            alt="Whitney Lee" class="rounded w-25 mr-2">
-        <p class="d-inline-block">Whitney Lee</p>
-    </div>
-    
-    
-</a>
-
-            
-            
-<a class="position-relative mr-3 mb-3 flex-315 transition-all td-box--gray-850 px-5 py-4"
-    href="/developer/tv/enlightning/68/">
-    <div class="gradient-edge-left"></div>
-    <h5 class="mb-3 text-white">tv</h5>
-    <h4 class="h4 text-white limiter limiter-2" style="min-height: 48px">Cloud Native Confidential Computing with Confidential Containers</h4>
     
     
     <div class="mb-2">
@@ -1428,5 +1404,5 @@ function getCookie(name) {
 
 <script src="/developer/js/main.0265e4d4ac05f3b97e40763a3e0f7152853042c35ae37ebb88dfa8d5166b1b67.js" integrity="sha256-AmXk1KwF87l&#43;QHY6Pg9xUoUwQsNa4367iN&#43;o1RZrG2c=" crossorigin="anonymous"></script>
 
-  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_5347bad1?a=dD03MjliZGZiN2ZhNzAxM2ZiNWY1YTYwYzFiMTc2ODA2ZDY1ZjgwYWJjJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+  <noscript><img src="https://tanzu.vmware.com/akam/13/pixel_5347bbe0?a=dD03MjliZGZiN2ZhNzAxM2ZiNWY1YTYwYzFiMTc2ODA2ZDY1ZjgwYWJjJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
 </html>

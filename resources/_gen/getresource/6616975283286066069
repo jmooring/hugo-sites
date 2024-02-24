@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Sun, 04 Feb 2024 21:31:12 GMT
-Etag: W/"65bab0cc-51db"
-Expires: Sun, 04 Feb 2024 21:41:12 GMT
-Last-Modified: Wed, 31 Jan 2024 20:42:52 GMT
+Date: Sat, 24 Feb 2024 03:16:50 GMT
+Etag: W/"65cff9d5-5253"
+Expires: Sat, 24 Feb 2024 03:26:50 GMT
+Last-Modified: Sat, 17 Feb 2024 00:12:05 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 4136c56cd0d99d0601fb34c75b18d4c68f01fe46
-X-Github-Request-Id: 4FAA:1BCB56:2263A3:295B41:65C0021E
+X-Fastly-Request-Id: e3d4e509092bb9909f08cd67c11d4114d497007e
+X-Github-Request-Id: CF22:251AB4:32066C:3C73E0:65D95FA1
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400111-BFI
-X-Timer: S1707082273.724857,VS0,VE78
+X-Served-By: cache-bfi-krnt7300054-BFI
+X-Timer: S1708744610.456083,VS0,VE80
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -200,6 +200,32 @@ X-Timer: S1707082273.724857,VS0,VE78
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240216/" class="color-inherit dim link">
+            MicroK8s operability add-on
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          Spent time today yak-shaving which resulted in an unplanned migration from MicroK8s &lsquo;prometheus&rsquo; add-on to the new and not fully-documented &lsquo;observability&rsquo; add-on:
+sudo microk8s.enable prometheus Infer repository core for addon prometheus DEPRECATION WARNING: &#39;prometheus&#39; is deprecated and will soon be removed. Please use &#39;observability&#39; instead. ... The reason for the name change is unclear.
+It&rsquo;s unclear whether there&rsquo;s a difference in the primary components that are installed too (I&rsquo;d thought Grafana wasn&rsquo;t included in &lsquo;prometheus&rsquo;), (Grafana) Loki and (Grafana) Tempo definitely weren&rsquo;t included and I don&rsquo;t want them either.
+        </div>
+          <a href="/posts/240216/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240130/" class="color-inherit dim link">
             Navigating Koyeb&#39;s API with Rust
             </a>
@@ -249,38 +275,18 @@ googleapis grpc-proto The service_config.proto includes options for java_package
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240105/" class="color-inherit dim link">
-            Navigating Koyeb&#39;s Golang SDK
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Ackal deploys gRPC Health Checking clients in locations around the World in order to health check services that are representative of customer need.
-Koyeb offers multiple locations and I spent time today writing a client for Ackal to integrate with Koyeb using the Golang client for the Koyeb API.
-The SDK is generated from Koyeb&rsquo;s OpenAPI (nee Swagger) endpoint using openapi-generator-cli. This is a smart, programmatic solution to ensuring that the SDK always matches the API definition but I found the result is idiosyncratic and therefore a little gnarly.
-        </div>
-          <a href="/posts/240105/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/240105/" class="link black dim">
+              Navigating Koyeb&#39;s Golang SDK
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/240104/" class="link black dim">
@@ -296,12 +302,6 @@ The SDK is generated from Koyeb&rsquo;s OpenAPI (nee Swagger) endpoint using ope
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231018/" class="link black dim">
-              Prometheus Operator support an auth proxy for Service Discovery
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/231017/" class="link black dim">
               Prometheus Operator support an auth proxy for Service Discovery
             </a>
           </h2>
