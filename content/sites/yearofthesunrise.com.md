@@ -2,6 +2,6 @@
 title: yearofthesunrise.com
 types:
   - personal
-  - portfolio
+  - photography
 visibility: []
 ---

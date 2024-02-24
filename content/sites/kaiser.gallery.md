@@ -2,6 +2,6 @@
 title: kaiser.gallery
 types:
   - business
-  - portfolio
+  - photography
 visibility: []
 ---

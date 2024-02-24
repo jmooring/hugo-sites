@@ -1,7 +1,6 @@
 ---
-title: mood.harrycresswell.com
+title: colchesterphotosoc.co.uk
 types:
   - photography
-  - personal
 visibility: []
 ---

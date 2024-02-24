@@ -4,6 +4,5 @@ types:
   - blog
   - personal
   - cv
-  - portfolio
 visibility: []
 ---
