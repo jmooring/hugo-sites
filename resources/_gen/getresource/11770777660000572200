@@ -1,18 +1,19 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 4261
+Age: 4417
+Content-Security-Policy: frame-src 'self'
 Content-Type: text/html
-Date: Sat, 24 Feb 2024 03:16:48 GMT
-Etag: "5006-610e0d2cad364-gzip"
-Last-Modified: Thu, 08 Feb 2024 15:54:15 GMT
+Date: Wed, 13 Mar 2024 19:49:13 GMT
+Etag: "5160-61377833cd59f-gzip"
+Last-Modified: Tue, 12 Mar 2024 14:31:24 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
 X-Cache-Hits: 11, 0
-X-Served-By: cache-hel1410034-HEL, cache-bfi-kbfi7400063-BFI
-X-Timer: S1708744609.709529,VS0,VE168
+X-Served-By: cache-hel1410034-HEL, cache-bfi-krnt7300069-BFI
+X-Timer: S1710359353.103496,VS0,VE2
 
 <!DOCTYPE html>
 
@@ -120,7 +121,7 @@ X-Timer: S1708744609.709529,VS0,VE168
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            For Contributors
+            Contributing
           </a>
           <div class="dropdown-menu" aria-labelledby="contribDropdown">
             <a class="dropdown-item" href="/newcomers/">Newcomers</a>
@@ -129,13 +130,8 @@ X-Timer: S1708744609.709529,VS0,VE168
             href="/contributor-ladder.html">Contributor Ladder</a>
             <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
             <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            For Committers/PMCs
-          </a>
-          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Commiters and PMCs</a>
             <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
             <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
             <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
@@ -167,6 +163,15 @@ X-Timer: S1708744609.709529,VS0,VE168
             <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
             <a class="dropdown-item" href="/speakers/">Speaker resources</a>
             <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups 
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -338,9 +343,13 @@ about Apache at <a href="https://lists.apache.org/list.html?dev@community.apache
   This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
   
     <br/>
-    Source of this page: <a href="https://github.com/apache/comdev-site/blob/main/source/_index.md" title="Source of this page">_index.md</a>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/_index.md" title="Source of this page">
+        _index.md
+      </a>
   
 </p>
+
         </div>
       </div>
     </div>

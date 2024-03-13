@@ -2,9 +2,9 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Age: 0
 Content-Type: text/html
-Date: Sat, 24 Feb 2024 03:17:04 GMT
-Etag: "5cae-611d707288200-gzip"
-Last-Modified: Tue, 20 Feb 2024 21:38:16 GMT
+Date: Wed, 13 Mar 2024 19:49:28 GMT
+Etag: "5c5b-6137c6fc02600-gzip"
+Last-Modified: Tue, 12 Mar 2024 20:23:52 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400054-BFI
-X-Timer: S1708744624.371796,VS0,VE88
+X-Served-By: cache-bfi-kbfi7400047-BFI
+X-Timer: S1710359368.030472,VS0,VE102
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1708744624.371796,VS0,VE88
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-02-14T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-03-07T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -382,41 +382,11 @@ X-Timer: S1708744624.371796,VS0,VE88
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
-            <a href="/blogs/2024-bind-audit/">
-              <h4 class="text-white">BIND 9 Security Audit</h4>
+            <a href="/blogs/2024-bind-9.16-eol/">
+              <h4 class="text-white">BIND 9.16 Branch is approaching EOL</h4>
             </a>
-            <p class="text-white">In the aftermath of yesterday&rsquo;s BIND announcement of seven new CVEs, one of them with a fairly wide impact, BIND users might be wondering why ISC publishes so many security vulnerabilities.</p>
-            <a href="/blogs/2024-bind-audit/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/2024-bind-security-release/">
-              <h4 class="text-white">BIND 9 Security Release and Multi-Vendor Vulnerability Handling, CVE-2023-50387 and CVE-2023-50868</h4>
-            </a>
-            <p class="text-white">Yesterday we published BIND 9.16.48, 9.18.24, and 9.19.21. These releases mitigate several vulnerabilities that are described in our announcement.</p>
-            <a href="/blogs/2024-bind-security-release/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/tsuking-and-bind/">
-              <h4 class="text-white">TsuKing and BIND</h4>
-            </a>
-            <p class="text-white">We have recently received several questions from customers about the TsuKing vulnerability and whether BIND 9 is susceptible to it.</p>
-            <a href="/blogs/tsuking-and-bind/" class="btn btn-sm btn-outline-primary">Read</a>
+            <p class="text-white">The BIND 9.16 branch is approaching EOL. This branch was first published on March 6th, 2020, four years ago.</p>
+            <a href="/blogs/2024-bind-9.16-eol/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>
@@ -427,11 +397,40 @@ X-Timer: S1708744624.371796,VS0,VE88
           <img class="img-fluid w-100" src="/images/blog/greenaurora.jpg" 
             onerror="this.onerror = null; this.src='\/Green aurora'"  />
           <div class="post-content">
-            <a href="/blogs/dhcp-accomplishments-2023/">
-              <h4 class="text-white">DHCP Team Progress in 2023</h4>
+            <a href="/blogs/kea-cloudsmith-updates/">
+              <h4 class="text-white">Kea Cloudsmith Repository Updates</h4>
             </a>
-            <p class="text-white">Kea in 2023 We made a total of 13 Kea DHCP releases in 2023: 10 development releases (2.</p>
-            <a href="/blogs/dhcp-accomplishments-2023/" class="btn btn-sm btn-outline-primary">Read</a>
+            <p class="text-white">Many Kea DHCP users use ISC packages, so we want to let everyone know that we will be cleaning up some older repositories on Cloudsmith.</p>
+            <a href="/blogs/kea-cloudsmith-updates/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  />
+          <div class="post-content">
+            <a href="/blogs/proxyv2-2024-02/">
+              <h4 class="text-white">PROXYv2 Support in BIND 9</h4>
+            </a>
+            <p class="text-white">Overview PROXYv2 protocol support has been added in the BIND 9.</p>
+            <a href="/blogs/proxyv2-2024-02/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
+            <a href="/blogs/2024-bind-audit/">
+              <h4 class="text-white">BIND 9 Security Audit</h4>
+            </a>
+            <p class="text-white">In the aftermath of yesterday&rsquo;s BIND announcement of seven new CVEs, one of them with a fairly wide impact, BIND users might be wondering why ISC publishes so many security vulnerabilities.</p>
+            <a href="/blogs/2024-bind-audit/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>
@@ -449,6 +448,8 @@ X-Timer: S1708744624.371796,VS0,VE88
       <div class="col-lg-3 mb-5 col-sm-6">
         <h4 class="h5 text-white mb-4">Software</h4>
         <ul class="list-unstyled">
+          
+          <li><a class="text-white opacity-5" href="/stork/">Stork Graphical Management for Kea DHCP</a></li>
           
           <li><a class="text-white opacity-5" href="/bind-users-rss/">BIND Users Recent Posts</a></li>
           

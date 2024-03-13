@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Sat, 24 Feb 2024 03:16:50 GMT
-Etag: W/"65cff9d5-5253"
-Expires: Sat, 24 Feb 2024 03:26:50 GMT
-Last-Modified: Sat, 17 Feb 2024 00:12:05 GMT
+Date: Wed, 13 Mar 2024 19:49:15 GMT
+Etag: W/"65ea41ab-523e"
+Expires: Wed, 13 Mar 2024 19:59:15 GMT
+Last-Modified: Thu, 07 Mar 2024 22:37:31 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: e3d4e509092bb9909f08cd67c11d4114d497007e
-X-Github-Request-Id: CF22:251AB4:32066C:3C73E0:65D95FA1
+X-Fastly-Request-Id: ff7ae72a8819d727a0e2d4f41a42cbe8a91a21fe
+X-Github-Request-Id: 9466:69DA:78DC45:9A592C:65F20337
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-krnt7300054-BFI
-X-Timer: S1708744610.456083,VS0,VE80
+X-Served-By: cache-yvr1520-YVR
+X-Timer: S1710359355.143807,VS0,VE92
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1708744610.456083,VS0,VE80
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.123.0-DEV">
+    <meta name="generator" content="Hugo 0.124.0-DEV">
     
     
     
@@ -200,6 +200,32 @@ X-Timer: S1708744610.456083,VS0,VE80
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/240307/" class="color-inherit dim link">
+            Prometheus Protobufs and Native Histograms
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          I responded to a question Prometheus metric protocol buffer in gRPC on Stackoverflow and it piqued my curiosity and got me yak shaving.
+Prometheus used to support two exposition formats including Protocol Buffers, then dropped Protocol Buffer and has since re-added it (see Protobuf format). The Protobuf format has returned to support the experimental Native Histograms feature.
+I&rsquo;m interested in adding Native Histogram support to Ackal so thought I&rsquo;d learn more about this metric.
+        </div>
+          <a href="/posts/240307/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240216/" class="color-inherit dim link">
             MicroK8s operability add-on
             </a>
@@ -245,42 +271,18 @@ VERS=&#34;v7.2.0&#34; PACKAGE_NAME=&#34;koyeb-api-client-rs&#34; PACKAGE_VERS=&#
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240117/" class="color-inherit dim link">
-            Gnarly Protocol Buffers compilation
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          This Stackoverflow question piqued my interest:
-retry policy configuration for grpc not working
-Service Config in gRPC is new to me but, my initial suspicion (albeit incorrect) was that the JSON types were incorrect.
-I decided to try using the Protocol Buffer source service_config.proto to verify the JSON.
-To do so I needed to compile the source&hellip;. it was gnarly.
-There are 2 repos used:
-googleapis grpc-proto The service_config.proto includes options for java_package but no go_package.
-        </div>
-          <a href="/posts/240117/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/240117/" class="link black dim">
+              Gnarly Protocol Buffers compilation
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/240105/" class="link black dim">
@@ -297,12 +299,6 @@ googleapis grpc-proto The service_config.proto includes options for java_package
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/231222/" class="link black dim">
               Listing Cloud Logging log-based metrics using gRPC
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/231018/" class="link black dim">
-              Prometheus Operator support an auth proxy for Service Discovery
             </a>
           </h2>
         

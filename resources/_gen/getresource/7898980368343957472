@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Sat, 24 Feb 2024 03:17:01 GMT
-Etag: W/"65d8b9aa-7491"
-Last-Modified: Fri, 23 Feb 2024 15:28:42 GMT
+Date: Wed, 13 Mar 2024 19:49:25 GMT
+Etag: W/"65f1891a-73ee"
+Last-Modified: Wed, 13 Mar 2024 11:08:10 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-7491
+73ee
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -401,29 +401,29 @@ X-Frame-Options: SAMEORIGIN
             <span class="announce-date">Mon, 22 Jan 2024</span>
           </div>
           <div class="col-md-4 announcement">
+            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
+            <h3><a href="https://www.arin.net/announcements/20240311/">Results of Consultation on RPKI/BGP Intelligence</a></h3>
+            <span class="announce-date">Mon, 11 Mar 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><a href="https://www.arin.net/announcements/20240306/">ARIN 53 Hotel Discount Expires Soon</a></h3>
+            <span class="announce-date">Wed, 06 Mar 2024</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
+            <p class="overline overline-meetings/events">Meetings/Events</p>
+            <h3><a href="https://www.arin.net/announcements/20240227/">Congratulations to the ARIN 53 Selected Fellows</a></h3>
+            <span class="announce-date">Tue, 27 Feb 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
             <p class="overline overline-arin">ARIN</p>
             <h3><a href="https://www.arin.net/announcements/20240130-memberupdate/">Reclassification of Inactive General Members Completed 30 January 2024</a></h3>
             <span class="announce-date">Tue, 30 Jan 2024</span>
           </div>
           <div class="col-md-4 announcement">
-            <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
-            <h3><a href="https://www.arin.net/announcements/20240130/">Consultation on RPKI/BGP Intelligence</a></h3>
-            <span class="announce-date">Tue, 30 Jan 2024</span>
-          </div></div><!-- close first row --><div class="row">
-          <div class="col-md-4 announcement">
             <p class="overline overline-service-update">Service Update</p>
             <h3><a href="https://www.arin.net/announcements/20240111-templates/">Email Template Retirement Scheduled for 3 June 2024</a></h3>
             <span class="announce-date">Thu, 11 Jan 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-service-update">Service Update</p>
-            <h3><a href="https://www.arin.net/announcements/20240108/">New Features Added to ARIN Online</a></h3>
-            <span class="announce-date">Mon, 08 Jan 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-meetings/events">Meetings/Events</p>
-            <h3><a href="https://www.arin.net/announcements/20240102/">Meet the 2024 Fellowship Selection Committee</a></h3>
-            <span class="announce-date">Tue, 02 Jan 2024</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -503,6 +503,32 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
         
 <div class="col">
   <div class="blog-preview card">
+    <a href="/blog/2024/03/11/improving-rir-alignment-rpki/">
+      <img class="card-img-top" src="/blog/2024/03/11/improving-rir-alignment-rpki/nro-rpki_program.jpg" alt="Read the blog Improving Regional Internet Registry Alignment in the RPKI Space">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/03/11/improving-rir-alignment-rpki/"><h3 class="card-title">Improving Regional Internet Registry Alignment in the RPKI Space</h3></a>
+      <time datetime="2024-03-11 08:50:00 -0400 EDT">11 Mar 2024</time>
+      <p>The Number Resource Organization&#39;s new Resource Public Key Infrastructure (RPKI) Program Manager discusses how it is working toward a robust, coordinated, and secure RPKI service.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2024/02/27/arin-53-fellows/">
+      <img class="card-img-top" src="/blog/2024/02/27/arin-53-fellows/arin53-fellows-blog.png" alt="Read the blog Meet the ARIN 53 Fellows">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/02/27/arin-53-fellows/"><h3 class="card-title">Meet the ARIN 53 Fellows</h3></a>
+      <time datetime="2024-02-27 12:30:00 -0500 EST">27 Feb 2024</time>
+      <p>Amanda Gauldin, ARIN Project Manager, shares details about the Fellows, Mentors, and special guests joining us for the ARIN 53 Fellowship Program.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
     <a href="/blog/2024/02/22/membership-explained/">
       <img class="card-img-top" src="/blog/2024/02/22/membership-explained/membership-explained.png" alt="Read the blog ARIN Membership Explained: What It Means and Why It Matters">
     </a>
@@ -510,32 +536,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2024/02/22/membership-explained/"><h3 class="card-title">ARIN Membership Explained: What It Means and Why It Matters</h3></a>
       <time datetime="2024-02-22 14:30:00 -0500 EST">22 Feb 2024</time>
       <p>Learn how recent changes to the ARIN Fee Schedule impact customer organizations’ membership status and expand opportunities for participation in ARIN governance.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/">
-      <img class="card-img-top" src="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/business-case-ipv6-enterprise.png" alt="Read the blog The Business Case for IPv6-Only Enterprise">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/01/23/ipv6-lets-grow-business-case-pt4/"><h3 class="card-title">The Business Case for IPv6-Only Enterprise</h3></a>
-      <time datetime="2024-01-23 09:30:00 -0500 EST">23 Jan 2024</time>
-      <p>HexaBuild CSO and Co-Founder Tom Coffeen identifies some potential elements of a business case for enterprise IPv6 deployment based on an IPv6-only approach.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/01/19/fellowship-experience-waqar-ahmad/">
-      <img class="card-img-top" src="/blog/2024/01/19/fellowship-experience-waqar-ahmad/fellowship-waqar-ahmad.png" alt="Read the blog Navigating the Internet Policy Landscape: A Transformative Journey with ARIN">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/01/19/fellowship-experience-waqar-ahmad/"><h3 class="card-title">Navigating the Internet Policy Landscape: A Transformative Journey with ARIN</h3></a>
-      <time datetime="2024-01-19 08:50:00 -0500 EST">19 Jan 2024</time>
-      <p>An ARIN Fellow shares the transformative experiences that unfolded during the program, highlighting his interactions with community members and leaders and the impact on his understanding of Internet governance.</p>
     </div>
   </div>
 </div>

@@ -6,7 +6,7 @@ Access-Control-Expose-Headers: Content-Length
 Connection: keep-alive
 Content-Type: text/html; charset=utf-8
 Cross-Origin-Opener-Policy: same-origin
-Date: Sat, 24 Feb 2024 03:16:52 GMT
+Date: Wed, 13 Mar 2024 19:49:16 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Vary: Accept-Encoding
@@ -14,7 +14,7 @@ Vary: Cookie
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 
-f58e
+f1ac
 
 
 <!DOCTYPE html>
@@ -946,30 +946,6 @@ Furthermore, Manjaro provides an array of customization options and a rich selec
             </div>
           Merchandise
         </h3>
-        
-            <div class="bg-pink-500 text-xl text-gray-200 font-bold rounded py-3 px-8 flex justify-center items-center text-center mb-4 mt-[-32px] gap-2 max-w-fit mx-auto">
-                
-                
-                      <span>20% off everything valid until</span>
-                
-                
-                
-                      <span id="expire"></span>
-                      <script>
-                        function toLocaleDate(date) {
-                          let d = new Date(date).toString()
-                          let i = d.lastIndexOf(":")
-                          let arr = d.split(":")
-                          let formatedDate = arr[0] + ":" + arr[1]
-                          return formatedDate
-                        }
-                        document.querySelector("#expire").textContent = toLocaleDate("2024-02-29T23:59:59")
-                      </script>
-                
-                
-                
-                
-            </div>
         
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

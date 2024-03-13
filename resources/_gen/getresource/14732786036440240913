@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 19436
+Content-Length: 22806
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 24 Feb 2024 03:16:50 GMT
-Etag: "4bec-611d091f53251"
-Last-Modified: Tue, 20 Feb 2024 13:55:59 GMT
+Date: Wed, 13 Mar 2024 19:49:14 GMT
+Etag: "5916-61377cf8d3dd3"
+Last-Modified: Tue, 12 Mar 2024 14:52:44 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -97,6 +97,200 @@ Server: Apache
 <div id="page-main"><div id="content"><div class="post">
 
 	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/anwendungen/textmails-in-thunderbird-importieren/">Textmails in Thunderbird importieren</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">12. März 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>In einem Verzeichnis auf der lokalen Festplatte schlummerten noch ein paar Uralt-Mails, welche alle als einzelne Textdateien gespeichert waren. Leider bietet Thunderbird keine Möglichkeit, über die Oberfläche einen Importvorgang anzustoßen, aber es geht auch recht einfach durch die Hintertür.</p>
+<p>In der Oberfläche wird in den &ldquo;Lokalen Ordnern&rdquo; mittels Rechsklick ein neuer Ordner &ldquo;GanzalteMails&rdquo; angelegt. Dies bewirkt, daß im Profilverzeichnis (&quot;~/.thunderbird/PROFILNAME/Mail/Local Folders/&quot;) zwei Dateien &ldquo;GanzalteMails&rdquo; und &ldquo;GanzalteMails.msf&rdquo; erzeugt werden. In diesem Ordner wird auf Dateisystemebene nun händisch ein neuer Unterordner &ldquo;GanzalteMails.sbd&rdquo; erzeugt, in welchen die Textdateien kopiert werden.</p>
+<p>Damit Thunderbird die Texte auch tatsächlich als Mailbox-Files erkennt, ist es wichtig, daß jede Datei - wie in <a href="https://datatracker.ietf.org/doc/html/rfc4155"   class="genericon icon-extlink">RFC 4155 &ldquo;The application/mbox Media Type&rdquo;</a> beschrieben - mit einem korrekten Vorspann beginnt:</p>
+<blockquote>
+<p>mbox database files can be recognized by having a leading character sequence of &ldquo;From&rdquo;, followed by a single Space character (0x20), followed by additional printable character data</p>
+</blockquote>
+<p>Was genau nach dem Leerzeichen kommen muß, kann sich zwischen verschiedenen Anwendungen unterscheiden, weshalb die meisten Mailclients fast alles akzeptieren, was auch nur halbwegs standardkonform aussieht. Thunderbird genügt z.B. ein</p>
+<pre tabindex="0"><code>From -
+</code></pre><p>als Kennzeichnung. Wer dies einfach und komfortabel an den Anfang aller &ldquo;*.txt&rdquo;-Dateien einfügen möchte, kann <a href="https://www.gnu.org/software/sed/manual/sed.html"   class="genericon icon-extlink">sed</a> als Werkzeug verwenden:</p>
+<pre tabindex="0"><code>$ sed -i &#39;1 i\From -&#39; *.txt
+</code></pre>
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/thunderbird/">Thunderbird</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/">Helloween 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">6. März 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><span class="band">Helloween</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
+<div id="gallery-helloween-2008-01-12-bildergalerie" class="gallery">
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3616.jpg" data-caption="Helloween (01/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3616_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3619.jpg" data-caption="Helloween (02/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3619_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3626.jpg" data-caption="Helloween (03/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3626_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3627.jpg" data-caption="Helloween (04/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3627_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3642.jpg" data-caption="Helloween (05/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3642_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3645.jpg" data-caption="Helloween (06/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3645_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3658.jpg" data-caption="Helloween (07/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3658_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3664.jpg" data-caption="Helloween (08/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3664_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3672.jpg" data-caption="Helloween (09/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3672_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3683.jpg" data-caption="Helloween (10/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3683_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3690.jpg" data-caption="Helloween (11/11)">
+				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3690_thumb.jpg" alt="Helloween" width="160" height="160">
+			</a>
+
+	</div>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/helloween/">Helloween</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival/">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/misc/funstuff/mail-von-knuffel018/">Mail von knuffel018</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">1. März 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/misc/funstuff/">Funstuff</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Aus gegebenem Anlass (oder so) kam pünktlich zum <a href="https://de.wikipedia.org/wiki/Valentinstag"   class="genericon icon-extlink">Valentinstag</a> eine Mail von &ldquo;knuffel018&rdquo; aka &ldquo;Jasmina Kaiser&rdquo; mit dem Betreff &ldquo;Wir kennen uns doch Andreas&rdquo; hereingeflattert:</p>
+<blockquote>
+<p>Willst du mich kennenlernen?</p>
+<p>Hallo und erstmal ein fettes Sorry das ich dich einfach so antexte. Aber da ich mal wieder völlig alleine bin am Valentinstag, gehen wohl wieder mal die Gefühle mit mir durch. Ausserdem hab ich gesehen das wir aus derselben Gegend sind, quasi Nachbarn, dein Alter passt auch super zu mir und deswegen wollte ich es einfach mal riskieren und dich anschreiben. Ich bin vielleicht keine 10 von 10, kann dir keinen Reichtum, kein schnelles Auto und kein großes Haus bieten aber dafür bedingungslose Liebe, ein riesiges Herz, uneingeschränkte Treue und immer ein offenes Ohr. Ich bin alleinerziehende Mutter meiner 9 Monate alten Tochter und Single seit dem Tag, an dem mein Ex erfuhr, dass ich Schwanger bin. Ich bin 29 Jahre alt, fast 2 Jahre alleine und bin es ehrlich gesagt leid immer nur alleine zu sein, immer nur Superheldin, Mama und Arbeitstier zu sein, ich möchte mich auch einfach mal wieder als Frau fühlen und Lieben. Vielleicht schreckt dich meine Offenheit ja ab, aber vielleicht suchst du ja das selbe wie ich? Ich suche auch keinen Vaterersatz, niemanden der uns finanziert, ich habe selbst einen guten Job als Erzieherin im Kindergarten, stehe mit beiden Beinen im Leben, ich möchte einfach einen tollen Mann an meiner Seite haben, der mich liebt wie ich bin, mit dem ich einfach eine schöne Zeit haben kann und ich mich Abends beim einschlafen schon auf den nächsten Tag freuen kann. Vielleicht bin ich bei dir falsch und du suchst etwas anderes, oder ich bin nicht dein Typ, aber dann habe ich es wenigstens versucht. Am Wochenende habe ich mal frei, da ist meine Prinzessin bei meinen Eltern, vielleicht hast du ja Lust mit mir etwas Trinken zu gehen und mich kennenzulernen? Auf WirVerliebenUns findest du mich unter dem Namen knuffel018 da hab ich noch ein paar aktuelle Bilder von mir und wenn du möchtest, kannst du mir da kostenlos antworten. Verlinke dir zur Sicherheit mal mein Profil damit du mich auch findest und es nicht daran scheitert. Wir können auch gerne unsere Nummern tauschen, wollte sie nur nicht hier direkt mit schicken, da ich nicht weiß ob du sie überhaupt willst. :-) Ich fahre jetzt Einkaufen, würde mich freuen danach vielleicht schon eine Antwort von dir zu haben. Bis bald hoffentlich, deine Jasmina</p>
+<p>Anbei noch 2 aktuelle Bilder für dich :-) Wie gesagt, bin keine 10 von 10 aber vielleicht gefalle ich dir ja trotzdem :-)</p>
+</blockquote>
+<p>Mal abgesehen davon, daß &ldquo;Wir kennen uns&rdquo; nicht so ganz zu &ldquo;Willst du mich kennenlernen?&rdquo; passt - die Textwüste ist arg unübersichtlich (schreibt sowas inzwischen auch eine KI?), die versprochenen Bilder fehlen natürlich und die eingebetteten Links führen selbstverständlich nicht zu einer Dating-Site.</p>
+<p>Pech gehabt :-)</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/spam/">SPAM</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/">Gamma Ray 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">24. Februar 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><span class="band">Gamma Ray</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
+<div id="gallery-gamma-ray-2008-01-12-bildergalerie" class="gallery">
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3399.jpg" data-caption="Gamma Ray (01/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3399_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3408.jpg" data-caption="Gamma Ray (02/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3408_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3409.jpg" data-caption="Gamma Ray (03/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3409_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3413.jpg" data-caption="Gamma Ray (04/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3413_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3417.jpg" data-caption="Gamma Ray (05/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3417_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3427.jpg" data-caption="Gamma Ray (06/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3427_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3430.jpg" data-caption="Gamma Ray (07/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3430_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3449.jpg" data-caption="Gamma Ray (08/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3449_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3464.jpg" data-caption="Gamma Ray (09/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3464_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3468.jpg" data-caption="Gamma Ray (10/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3468_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3481.jpg" data-caption="Gamma Ray (11/11)">
+				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3481_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			</a>
+
+	</div>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/gamma-ray/">Gamma Ray</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival/">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
 		<h1 class="post-title"><a href="/misc/lesenswert/lesenswert-xxxx/">Lesenswert XXXX</a></h1><div class="post-header-meta">
 	<span class="post-header-meta-item genericon icon-calendar">20. Februar 2024</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/misc/lesenswert/">Lesenswert</a></span> ·
@@ -134,175 +328,7 @@ Amazon diktiert mit seiner Markmacht die Preise auch außerhalb des eigenen Mark
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/lesenswert">Lesenswert</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/verschiedenes/dave-hodgkinson-r-i-p/">Dave Hodgkinson R.I.P.</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">15. Februar 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/verschiedenes/">Verschiedenes</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Wie ich erst kürzlich erfahren habe, ist Dave Hodgkinson in der ersten Dezemberhälfte 2023 im Alter von nur 58 Jahren gestorben.</p>
-<span id="-musik-verschiedenes-dave-hodgkinson-r-i-p-ths-shirt-jpg"><a href="/musik/verschiedenes/dave-hodgkinson-r-i-p/ths-shirt.jpg" data-caption="The Highway Star T-Shirt"><img src="/musik/verschiedenes/dave-hodgkinson-r-i-p/ths-shirt.jpg" class="class" width="767" height="576" alt="The Highway Star T-Shirt"></a></span>
-<p>Ich habe Dave leider nie persönlich getroffen, sondern immer nur über das Internet mit ihm kommuniziert, was - wie Trond J. Strøm in seinen <a href="https://www.thehighwaystar.com/thsblog/2024/02/13/dave-hodgkinson-gone-but-not-forgotten/"   class="genericon icon-extlink">Nachruf</a> treffend beschreibt - nicht immer einfach war:</p>
-<blockquote>
-<p>It must be said that Dave’s written communication at times could be a bit confusing. Especially for us non-native English speakers.</p>
-</blockquote>
-<p>Dave war für mich eine Schlüsselfigur bei der Entdeckung des Internets im Bezug auf Musik: Zuerst bin ich ihm in der Usenet-Gruppe <a href="https://groups.google.com/g/alt.music.deep-purple"   class="genericon icon-extlink">alt.music.deep-purple</a> begegnet, später als Leser zur von ihm zusammen mit Trond gegründeten Website &ldquo;<a href="https://www.thehighwaystar.com"   class="genericon icon-extlink">The Highway Star</a>&rdquo; gefolgt.</p>
-<p>Dave war auch derjenige, der mich 1996 in das <a href="https://www.thehighwaystar.com/about-us/ths-editorial-team/"   class="genericon icon-extlink">Editorial-Team</a> der zeitweise offiziellen (seit einigen Jahren &ldquo;original&rdquo; statt &ldquo;official&rdquo;) <span class="band">Deep Purple</span>-Website eingeladen und mir als erste Aufgabe die Überarbeitung der chaotisch sortierten <a href="https://www.thehighwaystar.com/graphics/"   class="genericon icon-extlink">Image Gallery</a> eingebrockt hat.</p>
-<p>Zwar ist unser letzter Kontakt schon viele Jahre her, aber es bleiben viele Erinnerungen an die Arbeit an dem gemeinsamen Projekt - und die Erfahrung, mit Menschen, die man persönlich nie getroffen hat schon in der &ldquo;Frühzeit des Internets&rdquo; etwas Gemeinsames erschaffen zu haben, ganz ohne viele der inzwischen als unverzichtbar geltenden Werkzeuge und Methoden.</p>
-<p>R.I.P.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/alt.music.deep-purple">alt.music.deep-purple</a> <span class="genericon icon-tag"></span><a href="/tag/r.i.p.">R.I.P.</a> <span class="genericon icon-tag"></span><a href="/tag/the-highway-star">The Highway Star</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-111-nikolaj-coster-waldau-closer-to-home/">Hörenswert #111: Nikolaj Coster-Waldau - Closer to Home</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">9. Februar 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><a href="https://www.youtube.com/watch?v=JVqFkJ3suxQ"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
-<p>(M)ein Highlight aus dem sehenswerten Beitrag &ldquo;<a href="https://www.youtube.com/watch?v=zs7xO5P3Az4"   class="genericon icon-extlink">Coldplay&rsquo;s Game of Thrones: The Musical</a>&rdquo; von <span class="band">Coldplay</span> zum <a href="https://de.wikipedia.org/wiki/Red_Nose_Day"   class="genericon icon-extlink">Red Nose Day</a> 2015.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/coldplay">Coldplay</a> <span class="genericon icon-tag"></span><a href="/tag/game-of-thrones">Game Of Thrones</a> <span class="genericon icon-tag"></span><a href="/tag/nikolaj-coster-waldau">Nikolaj Coster-Waldau</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/">Axxis 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">2. Februar 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><span class="band">Axxis</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
-
-<div id="gallery-axxis-2008-01-12-bildergalerie" class="gallery">
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3314.jpg" data-caption="Axxis (01/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3314_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3318.jpg" data-caption="Axxis (02/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3318_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3326.jpg" data-caption="Axxis (03/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3326_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3329.jpg" data-caption="Axxis (04/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3329_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3331.jpg" data-caption="Axxis (05/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3331_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3334.jpg" data-caption="Axxis (06/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3334_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3347.jpg" data-caption="Axxis (07/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3347_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3351.jpg" data-caption="Axxis (08/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3351_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3361.jpg" data-caption="Axxis (09/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3361_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3373.jpg" data-caption="Axxis (10/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3373_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3375.jpg" data-caption="Axxis (11/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3375_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3378.jpg" data-caption="Axxis (12/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3378_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3379.jpg" data-caption="Axxis (13/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3379_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3381.jpg" data-caption="Axxis (14/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3381_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3390.jpg" data-caption="Axxis (15/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3390_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3394.jpg" data-caption="Axxis (16/16)">
-				<img src="/musik/konzerte/axxis-2008-01-12-bildergalerie/2008-01-12_axxis_img_3394_thumb.jpg" alt="Axxis" width="160" height="160">
-			</a>
-
-	</div>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/axxis">Axxis</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos">Konzertfotos</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/anwendungen/dateien-in-einer-samba-freigabe-ausfuehren/">Dateien in einer Samba-Freigabe ausführen</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">26. Januar 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Nach dem Kopieren einiger Dateien auf eine Samba-Freigabe weigerte sich Windows, die Dateien auszuführen.</p>
-<p>Die Lösung dokumentiert das Samba-Wiki unter dem Hinweis &ldquo;<a href="https://wiki.samba.org/index.php/Setting_up_a_Share_Using_POSIX_ACLs#Making_Files_Executable"   class="genericon icon-extlink">Making Files Executable</a>&rdquo;: in der Standard-Einstellung dürfen nur Dateien, welche auf dem Host das &ldquo;Executable&rdquo;-Recht haben, auch ausgeführt werden.</p>
-<p>Hier hilft ein Aufruf von &ldquo;find&rdquo; die notwendigen Rechte zu verteilen:</p>
-<pre tabindex="0"><code>$ find . -name &#34;*.exe&#34; -exec chmod +x {} \;
-</code></pre><p>Je nach Einsatzszenario muß auch noch die Einstellung</p>
-<pre tabindex="0"><code>acl allow execute always = yes
-</code></pre><p>entweder im globalen Bereich oder in der Definition einer Freigabe in der &ldquo;smb.conf&rdquo; hinzugefügt werden.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/samba">Samba</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/lesenswert/">Lesenswert</a></div>
 
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
@@ -313,12 +339,14 @@ Amazon diktiert mit seiner Markmacht die Preise auch außerhalb des eigenen Mark
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/237/" class="page-numbers">237</a>
+	<a href="/page/238/" class="page-numbers">238</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
-</nav><script>
+</nav>
+
+<script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#-musik-verschiedenes-dave-hodgkinson-r-i-p-ths-shirt-jpg');
-		baguetteBox.run('#gallery-axxis-2008-01-12-bildergalerie');});
+		baguetteBox.run('#gallery-helloween-2008-01-12-bildergalerie');
+		baguetteBox.run('#gallery-gamma-ray-2008-01-12-bildergalerie');});
 </script>
 		</div></div>
 

@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 178671
+Age: 607935
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 15863152
+Cc-Build-Id: 15920144
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=30;t=35
+Cc-Perf: fetch-headers=91;t=97
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 85a48d65dd3bebbb-SEA
+Cf-Ray: 863e8bdc1da0c3cd-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 24 Feb 2024 03:16:52 GMT
-Etag: W/1028440065ba9341fb5445445c1b007c
-Last-Modified: Wed, 21 Feb 2024 00:29:23 GMT
+Date: Wed, 13 Mar 2024 19:49:16 GMT
+Etag: W/3bd389e3349e93f566625128ee2ef3f9
+Last-Modified: Thu, 29 Feb 2024 03:18:15 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -513,6 +513,7 @@ X-Robots-Tag: all
 
 
 
+
  
 
 
@@ -881,14 +882,17 @@ X-Robots-Tag: all
         <!--bookshop-live name(structures/header/top-bar/top-bar-search-button)-->
 
 
-<div class="c-top-bar-search-button">
-    <a href="https://www.papercut.com/search/" class="c-top-bar-search-button__link">
-        Search 
-        <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-top-bar-search-button__link__search-icon">
-            <path d="M10.1101 9.51262L7.62449 6.92743C8.26359 6.1677 8.61375 5.2118 8.61375 4.21667C8.61375 1.89163 6.72212 0 4.39709 0C2.07205 0 0.18042 1.89163 0.18042 4.21667C0.18042 6.5417 2.07205 8.43333 4.39709 8.43333C5.26994 8.43333 6.10172 8.17007 6.81287 7.6703L9.31739 10.2751C9.42207 10.3838 9.56287 10.4438 9.71375 10.4438C9.85657 10.4438 9.99205 10.3893 10.0949 10.2903C10.3134 10.08 10.3204 9.73133 10.1101 9.51262ZM4.39709 1.1C6.11565 1.1 7.51375 2.4981 7.51375 4.21667C7.51375 5.93523 6.11565 7.33333 4.39709 7.33333C2.67852 7.33333 1.28042 5.93523 1.28042 4.21667C1.28042 2.4981 2.67852 1.1 4.39709 1.1Z" fill="#fff"/>
-        </svg>
-    </a>
+<div class="c-top-bar-search-button" x-data="{ show: false }">
+  <div id="nav-autocomplete" class="c-top-bar-search-button__search-field" x-bind:class="show && 'c-top-bar-search-button__search-field__transition'"></div>
+  <div id="nav-autocomplete-panel" class="c-top-bar-search-button__search-suggestions"></div>
+  <div class="c-top-bar-search-button__link " x-on:click="show = ! show, document.getElementById('autocomplete-0-input').focus();" x-show="!show">
+      Search
+      <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="c-top-bar-search-button__link__search-icon">
+          <path d="M10.1101 9.51262L7.62449 6.92743C8.26359 6.1677 8.61375 5.2118 8.61375 4.21667C8.61375 1.89163 6.72212 0 4.39709 0C2.07205 0 0.18042 1.89163 0.18042 4.21667C0.18042 6.5417 2.07205 8.43333 4.39709 8.43333C5.26994 8.43333 6.10172 8.17007 6.81287 7.6703L9.31739 10.2751C9.42207 10.3838 9.56287 10.4438 9.71375 10.4438C9.85657 10.4438 9.99205 10.3893 10.0949 10.2903C10.3134 10.08 10.3204 9.73133 10.1101 9.51262ZM4.39709 1.1C6.11565 1.1 7.51375 2.4981 7.51375 4.21667C7.51375 5.93523 6.11565 7.33333 4.39709 7.33333C2.67852 7.33333 1.28042 5.93523 1.28042 4.21667C1.28042 2.4981 2.67852 1.1 4.39709 1.1Z" fill="#fff"/>
+      </svg>
+  </div>
 </div>
+
 <!--bookshop-live end-->
     </div>
 </div>

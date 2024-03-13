@@ -3,11 +3,11 @@ Accept-Ranges: bytes
 Cache-Control: max-age=0
 Content-Security-Policy: default-src 'self';                                       base-uri 'self';                                       connect-src 'self' https://admin.combonet.se/ https://ssl.google-analytics.com;                                       form-action 'self';                                       frame-ancestors 'self';                                       frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://embed.ted.com;                                       img-src 'self' https: data:;                                       media-src 'self' https:;                                       script-src 'self' https://admin.combonet.se https://ssl.google-analytics.com;                                       style-src 'self' 'unsafe-inline' https:
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 24 Feb 2024 03:17:03 GMT
-Etag: "7564-6109266216c40-gzip"
-Expires: Sat, 24 Feb 2024 03:17:03 GMT
+Date: Wed, 13 Mar 2024 19:49:26 GMT
+Etag: "7598-61235c39048d5-gzip"
+Expires: Wed, 13 Mar 2024 19:49:26 GMT
 Feature-Policy: display-capture 'none'; camera 'none'; microphone 'none'
-Last-Modified: Sun, 04 Feb 2024 18:20:25 GMT
+Last-Modified: Sun, 25 Feb 2024 14:39:43 GMT
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: Apache/2.4.38 (Debian)
@@ -25,6 +25,7 @@ X-Xss-Protection: 1; mode=block
 <title>xdeb.org</title>
 <link rel="alternate" type="application/rss+xml" title="rss" href="https://xdeb.org/index.xml">
 <link rel="alternate" type="application/json" title="json" href="https://xdeb.org/index.json">
+<meta name="view-transition" content="same-origin">
 <meta name="description" content="Welcome to the blog of Fredrik Jonsson, web developer &amp;amp;amp; Linux sysadmin. ">
 <meta name="created" content="2023-10-20T20:16:21+0200">
 <meta name="modified" content="2024-02-04T19:05:59+0100">
@@ -35,7 +36,7 @@ X-Xss-Protection: 1; mode=block
 <meta property="og:url" content="https://xdeb.org/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://xdeb.org/xdeb-org.jpg">
-<meta name="generator" content="Hugo 0.121.2">
+<meta name="generator" content="Hugo 0.123.3">
 <meta name="msapplication-TileColor" content="#706a58">
 <meta name="theme-color" content="#706a58">
 
@@ -47,7 +48,7 @@ X-Xss-Protection: 1; mode=block
 <link rel="manifest" href="/site.webmanifest">
 
 <link rel="stylesheet" href="/css/mobile.928a90a2e5ceccad718844ea67aa6bba151ff555ab514fb103071cc7b60c2ff2.css" media="screen">
-<link rel="stylesheet" href="/css/styles.0ee84a396173bad224f083a1bc966f5c17996a57e5a4233d6c028491e6b7bb1a.css">
+<link rel="stylesheet" href="/css/styles.c9c1b07802897fa42d60e096629f56b7eede9d3b5125d9515176632ea6b5617a.css">
 <link rel="stylesheet" href="/css/print.31e2819287afc91406f2fd43d21a8ba4a0cdfc272e439c90db0c6e47efc7c346.css" media="print">
 
 <script type="application/ld+json">
@@ -80,7 +81,7 @@ X-Xss-Protection: 1; mode=block
 
 <script src="/js/script-early.214cc4b0248ef64425811a906c0c6a3702edffba5dbc127128e9ff989c74c137.js"></script>
 
-<script defer src="/js/mobile.2ee7f57bec29e942a94fc13cd4cf128b0b8daf996652b9725d7e9bf960496721.js"></script>
+<script defer src="/js/mobile.ceca19d3ebb7dfc56237062a20fe323eac0165562514a7a4000a710b42d2a1d4.js"></script>
 <script defer src="/js/script.abf455b6072ca514104ed44374e586c2be3f7218c6ebc922497e7ce7ff9fc3b5.js"></script>
 
 
@@ -96,6 +97,18 @@ X-Xss-Protection: 1; mode=block
 </h1>
 <div class="region header__region">
 </div>
+</header>
+
+<nav class="main-menu layout__navigation" aria-label="Main menu">
+<ul class="navbar">
+<li><a href="/" aria-current="page"><span>Home</span></a></li>
+<li><a href="/post/"><span>Posts</span></a></li>
+<li><a href="/#blog-archive"><span>Archive</span></a></li>
+<li><a href="/fredrik/"><span>About</span></a></li>
+<li><a href="/ragnvald/"><span>Ragnvald</span></a></li>
+<li><a href="https://xdeb.net/services/"><span>Services</span></a></li>
+</ul>
+</nav>
 <div class="mobile-nav" dir="ltr">
   <div class="mobile-nav__cover"></div>
   <button class="mobile-nav__toggle" aria-expanded="false" aria-controls="sheet">
@@ -120,18 +133,6 @@ X-Xss-Protection: 1; mode=block
     </nav>
   </div>
 </div>
-</header>
-
-<nav class="main-menu layout__navigation" aria-label="Main menu">
-<ul class="navbar">
-<li><a href="/" aria-current="page"><span>Home</span></a></li>
-<li><a href="/post/"><span>Posts</span></a></li>
-<li><a href="/#blog-archive"><span>Archive</span></a></li>
-<li><a href="/fredrik/"><span>About</span></a></li>
-<li><a href="/ragnvald/"><span>Ragnvald</span></a></li>
-<li><a href="https://xdeb.net/services/"><span>Services</span></a></li>
-</ul>
-</nav>
 <main class="main layout__main">
 <div class="intro"><p>Welcome to the blog of Fredrik Jonsson, web developer &amp; Linux sysadmin.</p>
 </div>
