@@ -1,4 +1,4 @@
 ---
-linkTitle: Not Set
+linkTitle: Not set
 title: Type not Set
 ---
