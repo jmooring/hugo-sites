@@ -1,23 +1,23 @@
 HTTP/2.0 200 OK
-Age: 7227
+Age: 102865
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 863e8bd7cb908389-SEA
+Cf-Ray: 879ed3763ddda385-SEA
 Content-Security-Policy: upgrade-insecure-requests
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 13 Mar 2024 19:49:16 GMT
+Date: Thu, 25 Apr 2024 13:54:37 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: microphone=()
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=o1ZzfbwQLZeil9kK7en2FgEv7fveXAjLHJ5BJQnvbzal5qSsDxp02kv%2BPMEs6%2F8P5FpPpOGuxLBjnze8hXZZnvp%2BH35F1IHDWUXc9jdJWuPLC%2FG38NLLDym%2Fb3xvQ5TQmgsrADM%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=s2mg8zS6kzvKNFc3gOx2ZLIem2oJ90oPm01XUzpnJs%2Fv2slaQ93iGH6LVbAms%2BbtwPuXVzxwzIy4q8xO4cH2h9geqxPh1mDEhR%2FxMU9hSZLeWS3L8VjFPAtQiSSYpF7pb7hTJlk%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Nf-Request-Id: 01HRWNS8TDMTZVQGWTCMW1ZEMZ
+X-Nf-Request-Id: 01HWARJSK8V7GAGEYGTFXQ44CG
 X-Xss-Protection: 1; mode=block
 
 <!doctype html><html lang="en" class="h-100 no-js" data-bs-theme="dark">
@@ -26,18 +26,21 @@ X-Xss-Protection: 1; mode=block
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Christian Oliff</title>
 <script>document.documentElement.classList.remove("no-js")</script>
-<link rel="stylesheet" href="/css/style.min.css?v0.123.8">
+<link rel="stylesheet" href="/css/style.min.css?v0.125.3">
 <link rel="preload" href="/fonts/roboto-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <script src="/js/scroll-to-top.min.js" defer></script>
 <meta name="description" content="Online Adventures of a Front-End Web Developer">
+<meta property="og:url" content="https://christianoliff.com/">
+<meta property="og:site_name" content="Christian Oliff">
 <meta property="og:title" content="Christian Oliff">
 <meta property="og:description" content="Online Adventures of a Front-End Web Developer">
+<meta property="og:locale" content="en">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://christianoliff.com/"><meta property="og:image" content="https://christianoliff.com/img/header/header-factory.png"><meta property="og:site_name" content="Christian Oliff">
+<meta property="og:image" content="https://christianoliff.com/img/header/header-factory.png">
 <meta property="og:locale" content="en_GB">
-<meta property="og:updated_time" content="2024-03-11T14:43:25+00:00"><meta name="twitter:card" content="summary">
+<meta property="og:updated_time" content="2024-04-24T07:58:40+00:00"><meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@christianoliff">
 <meta name="theme-color" content="#04B9EE">
 <meta name="view-transition" content="same-origin">
@@ -49,9 +52,10 @@ X-Xss-Protection: 1; mode=block
 <link rel="pingback" href="https://webmention.io/christianoliff.com/xmlrpc">
 <meta name="color-scheme" content="light dark">
 <meta name="monetization" content="$ilp.uphold.com/Epqzn3YGr2MB">
-<meta name="generator" content="Hugo 0.123.8">
+<meta name="generator" content="Hugo 0.125.3">
 <script defer data-domain="christianoliff.com" data-api="https://christianoliff-pa.2x.workers.dev/api/event" src="https://christianoliff-pa.2x.workers.dev/js/script.outbound-links.js"></script>
 <script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>
+<script defer src="https://eu.umami.is/script.js" data-website-id="c032a7d1-8357-44f5-aa1e-9424c2d29705"></script>
 <body class="h-100" id="listjs-body" data-url="/" data-bs-no-jquery><header class="container-fluid container-header px-0" style="background-color:#04b9ee;background-image:url(/img/header/header-factory.svg)">
 <div class="container-fluid px-0">
 <div class="container-navbar"><nav class="navbar navbar-expand pt-0 mb-n2 navbar-dark" id="mainNav">
@@ -74,7 +78,31 @@ X-Xss-Protection: 1; mode=block
 <div class="container-fluid">
 <div class="container py-5"><div class="container-xl mb-5">
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4"><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
+<div class="card-header top-rounded border-0 ratio" style="background-color:#ddd;background-image:url(/img/header/2024/header-bootstrap-5-dropdown.webp);--bs-aspect-ratio:32%">
+<div><img src="/img/header/2024/header-bootstrap-5-dropdown.webp" height="0" class="d-none" loading="lazy" alt>
+</div>
+</div>
+<div class="card-body border-0 pb-0">
+<h3 class="card-title text-white px-2 ml-n2 h6 name">Building a Bootstrap Dropdown with the details HTML disclosure element</h3>
+<p class="px-2 ml-n2">
+<a href="/blog/building-a-bootstrap-dropdown-with-the-details-html-disclosure-element/" class="stretched-link text-decoration-none small">A fully functional dropdown using just Bootstrap CSS - no JavaScript required!</a>
+</div>
+</article>
+</div><div class="my-3">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
+<div class="card-header top-rounded border-0 ratio" style="background-color:#9bb2a6;background-image:url(/img/header/2024/header-bootstrap-5-migrate-tool.webp);--bs-aspect-ratio:32%">
+<div><img src="/img/header/2024/header-bootstrap-5-migrate-tool.webp" height="0" class="d-none" loading="lazy" alt>
+</div>
+</div>
+<div class="card-body border-0 pb-0">
+<h3 class="card-title text-white px-2 ml-n2 h6 name">Bootstrap 5 Migrate Tool</h3>
+<p class="px-2 ml-n2">
+<a href="/blog/bootstrap-5-migrate-tool/" class="stretched-link text-decoration-none small">A command-line tool to migrate projects from Bootstrap 4 to Bootstrap 5</a>
+</div>
+</article>
+</div><div class="my-3">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#5c666b;background-image:url(/img/header/2023/markdown-render-hooks-in-hugo.jpg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/2023/markdown-render-hooks-in-hugo.jpg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -86,7 +114,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#04172c;background-image:url(/img/header/2023/header-htmlhint-vscode-extension.jpg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/2023/header-htmlhint-vscode-extension.jpg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -98,7 +126,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#ddd;background-image:url(/img/header/2023/header-popover-css-inspector.png);--bs-aspect-ratio:32%">
 <div><img src="/img/header/2023/header-popover-css-inspector.png" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -110,7 +138,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#ddd;background-image:url(/img/header/2023/header-bootstrap-accordion-with-details-summary.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/2023/header-bootstrap-accordion-with-details-summary.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -118,11 +146,11 @@ X-Xss-Protection: 1; mode=block
 <div class="card-body border-0 pb-0">
 <h3 class="card-title text-white px-2 ml-n2 h6 name">Building a Bootstrap Accordion with the details/summary HTML tags</h3>
 <p class="px-2 ml-n2">
-<a href="/blog/building-a-bootstrap-accordion-with-the-details/summary-html-tags/" class="stretched-link text-decoration-none small">A collapsible accordion using `details` HTML tag and Bootstrap 5 CSS - no JavaScript required!</a>
+<a href="/blog/building-a-bootstrap-accordion-with-the-details-summary-html-tags/" class="stretched-link text-decoration-none small">A collapsible accordion using `details` HTML tag and Bootstrap 5 CSS - no JavaScript required!</a>
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#04172c;background-image:url(/img/header/header-using-purgecss-with-hugo.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-using-purgecss-with-hugo.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -134,7 +162,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#19191a;background-image:url(/img/header/header-safari-ios16-wishlist.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-safari-ios16-wishlist.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -146,7 +174,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#75aac9;background-image:url(/img/header/header-github-actions-workflows.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-github-actions-workflows.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -158,7 +186,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#165b94;background-image:url(/img/header/header-freshdesk-messaging-facade.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-freshdesk-messaging-facade.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -170,7 +198,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#000;background-image:url(/img/header/header-carbonads-or-google-ads-which-is-best.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-carbonads-or-google-ads-which-is-best.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -182,7 +210,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#52127f;background-image:url(/img/header/header-bootstrap-print-css.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-bootstrap-print-css.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -194,7 +222,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#fbfbfb;background-image:url(/img/header/header-building-a-share-this-page-bar-with-hugo.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-building-a-share-this-page-bar-with-hugo.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -206,7 +234,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#53cea6;background-image:url(/img/header/header-monetizing-your-content-with-coil.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-monetizing-your-content-with-coil.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -218,7 +246,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#63bfdd;background-image:url(/img/header/header-migrating-an-rss-feed-from-jekyll-to-hugo.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-migrating-an-rss-feed-from-jekyll-to-hugo.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -230,7 +258,7 @@ X-Xss-Protection: 1; mode=block
 </div>
 </article>
 </div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
+<article class="card card-blog-brief h-100 border-dark shadow bg-black">
 <div class="card-header top-rounded border-0 ratio" style="background-color:#fff;background-image:url(/img/header/header-bootstrap-ie11.svg);--bs-aspect-ratio:32%">
 <div><img src="/img/header/header-bootstrap-ie11.svg" height="0" class="d-none" loading="lazy" alt>
 </div>
@@ -239,30 +267,6 @@ X-Xss-Protection: 1; mode=block
 <h3 class="card-title text-white px-2 ml-n2 h6 name">Bootstrap 5 for IE11</h3>
 <p class="px-2 ml-n2">
 <a href="/blog/bootstrap-5-for-ie11/" class="stretched-link text-decoration-none small">CSS and JS solution for adding Internet Explorer compatibility</a>
-</div>
-</article>
-</div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
-<div class="card-header top-rounded border-0 ratio" style="background-color:#903;background-image:url(/img/header/header-styling-external-links-with-an-icon-in-css.svg);--bs-aspect-ratio:32%">
-<div><img src="/img/header/header-styling-external-links-with-an-icon-in-css.svg" height="0" class="d-none" loading="lazy" alt>
-</div>
-</div>
-<div class="card-body border-0 pb-0">
-<h3 class="card-title text-white px-2 ml-n2 h6 name">Styling External Links with an Icon in CSS</h3>
-<p class="px-2 ml-n2">
-<a href="/blog/styling-external-links-with-an-icon-in-css/" class="stretched-link text-decoration-none small">Using a CSS pseudo selector targeting only external links</a>
-</div>
-</article>
-</div><div class="my-3">
-<article class="card card-blog-brief h-100 border-dark shadow-sm bg-dark">
-<div class="card-header top-rounded border-0 ratio" style="background-color:#ff3;background-image:url(/img/header/header-self-hosting-google-fonts.svg);--bs-aspect-ratio:32%">
-<div><img src="/img/header/header-self-hosting-google-fonts.svg" height="0" class="d-none" loading="lazy" alt>
-</div>
-</div>
-<div class="card-body border-0 pb-0">
-<h3 class="card-title text-white px-2 ml-n2 h6 name">Self hosting Google Fonts for improved performance</h3>
-<p class="px-2 ml-n2">
-<a href="/blog/self-hosting-google-fonts-for-improved-performance/" class="stretched-link text-decoration-none small">A Hassle-Free Way to Self-Host Google Fonts</a>
 </div>
 </article>
 </div></div><div class="text-center mt-3">
@@ -311,7 +315,7 @@ View All
 christianoliff.com
 </h4>
 <h6 class="text-muted small mb-4 opacity-75">
-Last updated: 2024-03-11</h6>
+Last updated: 2024-04-24</h6>
 <div class="mb-2">
 <a href="/uses/" class="btn btn-sm btn-outline-secondary mx-2">Stuff I Use</a>
 <a href="/contact/" class="btn btn-sm btn-outline-secondary mx-2">Contact Me</a>

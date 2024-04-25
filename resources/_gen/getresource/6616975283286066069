@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:15 GMT
-Etag: W/"65ea41ab-523e"
-Expires: Wed, 13 Mar 2024 19:59:15 GMT
-Last-Modified: Thu, 07 Mar 2024 22:37:31 GMT
+Date: Thu, 25 Apr 2024 13:54:36 GMT
+Etag: W/"661964c8-5256"
+Expires: Thu, 25 Apr 2024 14:04:36 GMT
+Last-Modified: Fri, 12 Apr 2024 16:43:52 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Fastly-Request-Id: ff7ae72a8819d727a0e2d4f41a42cbe8a91a21fe
-X-Github-Request-Id: 9466:69DA:78DC45:9A592C:65F20337
+X-Fastly-Request-Id: 065ee3fdd7a2ba3ecb13b24a0c47a3f4d5a9b5f3
+X-Github-Request-Id: 4C60:19C7D:22FB09:272389:662A609C
 X-Proxy-Cache: MISS
-X-Served-By: cache-yvr1520-YVR
-X-Timer: S1710359355.143807,VS0,VE92
+X-Served-By: cache-yvr1532-YVR
+X-Timer: S1714053276.330143,VS0,VE321
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1710359355.143807,VS0,VE92
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.124.0-DEV">
+    <meta name="generator" content="Hugo 0.125.0-DEV">
     
     
     
@@ -57,16 +57,20 @@ X-Timer: S1710359355.143807,VS0,VE92
 
     <script data-goatcounter="https://pretired.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
  
-    <meta property="og:title" content="(p)retired" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://pretired.dazwilkin.com/" />
+    <meta property="og:url" content="https://pretired.dazwilkin.com/">
+  <meta property="og:site_name" content="(p)retired">
+  <meta property="og:title" content="(p)retired">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
 
-<meta itemprop="name" content="(p)retired">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="(p)retired"/>
-<meta name="twitter:description" content=""/>
+  <meta itemprop="name" content="(p)retired">
+  <meta itemprop="dateModified" content="2024-04-09T00:00:00-07:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="(p)retired">
+<meta name="twitter:description" content="">
 
       
+  
+
+
     
 	
   </head>
@@ -200,16 +204,15 @@ X-Timer: S1710359355.143807,VS0,VE92
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240307/" class="color-inherit dim link">
-            Prometheus Protobufs and Native Histograms
+          <a href="/posts/240409/" class="color-inherit dim link">
+            Google Cloud Translation w/ gRPC 3 ways
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          I responded to a question Prometheus metric protocol buffer in gRPC on Stackoverflow and it piqued my curiosity and got me yak shaving.
-Prometheus used to support two exposition formats including Protocol Buffers, then dropped Protocol Buffer and has since re-added it (see Protobuf format). The Protobuf format has returned to support the experimental Native Histograms feature.
-I&rsquo;m interested in adding Native Histogram support to Ackal so thought I&rsquo;d learn more about this metric.
+          General You&rsquo;ll need a Google Cloud project with Cloud Translation (translate.googleapis.com) enabled and a Service Account (and key) with suitable permissions in order to run the following.
+BILLING=&#34;...&#34; # Your Billing ID (gcloud billing accounts list) PROJECT=&#34;...&#34; # Your Project ID ACCOUNT=&#34;tester&#34; EMAIL=&#34;${ACCOUNT}@${PROJECT}.iam.gserviceaccount.com&#34; ROLES=( &#34;roles/cloudtranslate.user&#34; &#34;roles/serviceusage.serviceUsageConsumer&#34; ) # Create Project gcloud projects create ${PROJECT} # Associate Project with your Billing Account gcloud billing accounts link ${PROJECT} \ --billing-account=${BILLING} # Enable Cloud Translation gcloud services enable translate.
         </div>
-          <a href="/posts/240307/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/240409/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -226,16 +229,16 @@ I&rsquo;m interested in adding Native Histogram support to Ackal so thought I&rs
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240216/" class="color-inherit dim link">
-            MicroK8s operability add-on
+          <a href="/posts/240405/" class="color-inherit dim link">
+            Google Cloud Events protobufs and SDKs
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Spent time today yak-shaving which resulted in an unplanned migration from MicroK8s &lsquo;prometheus&rsquo; add-on to the new and not fully-documented &lsquo;observability&rsquo; add-on:
-sudo microk8s.enable prometheus Infer repository core for addon prometheus DEPRECATION WARNING: &#39;prometheus&#39; is deprecated and will soon be removed. Please use &#39;observability&#39; instead. ... The reason for the name change is unclear.
-It&rsquo;s unclear whether there&rsquo;s a difference in the primary components that are installed too (I&rsquo;d thought Grafana wasn&rsquo;t included in &lsquo;prometheus&rsquo;), (Grafana) Loki and (Grafana) Tempo definitely weren&rsquo;t included and I don&rsquo;t want them either.
+          I&rsquo;ve written before about Ackal&rsquo;s use of Firestore and subscribing to Firestore document CRUD events:
+Routing Firestore events to GKE with Eventarc Cloud Firestore Triggers in Golang using Firestore triggers I find Google&rsquo;s Eventarc documentation to be confusing and, in typical Google fashion, even though open-sourced, you often need to do some legwork to find relevant sources, viz:
+Google&rsquo;s Protobufs for Eventarc (using cloudevents) google-cloudevents1 Convenience (since you can generate these using protoc) language-specific types generated from the above e.
         </div>
-          <a href="/posts/240216/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/240405/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -252,17 +255,15 @@ It&rsquo;s unclear whether there&rsquo;s a difference in the primary components 
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240130/" class="color-inherit dim link">
-            Navigating Koyeb&#39;s API with Rust
+          <a href="/posts/240325/" class="color-inherit dim link">
+            Prost! Tonic w/ a dash of JSON
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          I wrote about Navigating Koyeb&rsquo;s Golang SDK. That client is generated using the OpenAPI Generator project using Koyeb&rsquo;s Swagger (now OpenAPI) REST API spec.
-This post shows how to generate a Rust SDK using the Generator and provides a very basic example of using the SDK.
-The Generator will create a Rust library project:
-VERS=&#34;v7.2.0&#34; PACKAGE_NAME=&#34;koyeb-api-client-rs&#34; PACKAGE_VERS=&#34;1.0.0&#34; podman run \ --interactive --tty --rm \ --volume=${PWD}:/local \ docker.io/openapitools/openapi-generator-cli:${VERS} \ generate \ -g=rust \ -i=https://developer.
+          I naively (!) began exploring JSON marshaling of Protobufs in rust. Other protobuf language SDKs include JSON marshaling making the process straightforward. I was to learn that, in rust, it&rsquo;s not so simple. Unfortunately, for me, this continues to discourage my further use of rust (rust is just hard).
+My goal was to marshal an arbitrary protocol buffer message that included a oneof feature. I was unable to JSON marshal the rust generated by tonic for such a message.
         </div>
-          <a href="/posts/240130/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/240325/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -279,26 +280,26 @@ VERS=&#34;v7.2.0&#34; PACKAGE_NAME=&#34;koyeb-api-client-rs&#34; PACKAGE_VERS=&#
         
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/240117/" class="link black dim">
-              Gnarly Protocol Buffers compilation
+            <a href="/posts/240314/" class="link black dim">
+              Fly Kubernetes
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/240105/" class="link black dim">
-              Navigating Koyeb&#39;s Golang SDK
+            <a href="/posts/240307/" class="link black dim">
+              Prometheus Protobufs and Native Histograms
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/240104/" class="link black dim">
-              Capturing e.g. CronJob metrics with GMP
+            <a href="/posts/240216/" class="link black dim">
+              MicroK8s operability add-on
             </a>
           </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/231222/" class="link black dim">
-              Listing Cloud Logging log-based metrics using gRPC
+            <a href="/posts/240130/" class="link black dim">
+              Navigating Koyeb&#39;s API with Rust
             </a>
           </h2>
         

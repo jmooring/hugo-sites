@@ -3,13 +3,13 @@ Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:13 GMT
-Etag: "d61974c2f06dafd71860ebee50d16fa4"
-Last-Modified: Mon, 10 Jul 2023 15:42:50 GMT
+Date: Thu, 25 Apr 2024 13:54:34 GMT
+Etag: "646a605761043c2017cbc263f1f962b3"
+Last-Modified: Thu, 28 Mar 2024 16:14:16 GMT
 Strict-Transport-Security: max-age=31536000; preload
 Vary: Accept-Encoding
-Via: 1.1 995664ee945c06fc706b5cb8e0e650dc.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: mPS5GaP1ebyTXyB6ZWwuzD4gzM1AyOFCRU240oyr8MImn6vjOm8_0Q==
+Via: 1.1 fec77e486350d1bd33f526a760d8b5a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: cfr8TCzawm1TCBk-XDQiHbhtmmFf78yMTpu1Dwqwcvwk_LeBPA08dw==
 X-Amz-Cf-Pop: SEA19-C1
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Miss from cloudfront
@@ -17,7 +17,7 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: bcba42b6-70d4-4f38-776e-dd5f219e8c54
+X-Vcap-Request-Id: 00e78faa-27fc-4eab-6042-2805cb1cd6b1
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -87,64 +87,82 @@ X-Xss-Protection: 1; mode=block
   </div>
 </section>
 
-    <header class="usa-header usa-header--basic techgsa-header">
-  <div class="usa-nav-container techgsa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo" id="basic-logo">
-        <em class="usa-logo__text"><a href="https://tech.gsa.gov/" title="Home" aria-label="Home">Tech at GSA</a></em>
-      </div>
-      <button class="usa-menu-btn">Menu</button>
+    <div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended techgsa-header">
+  <div class="usa-navbar">
+    <div class="usa-logo techgsa-header__logo">
+      <a href="https://tech.gsa.gov/">
+        <img src="https://tech.gsa.gov/assets/img/gsa_logo.svg" class="techgsa-header__logo-image" alt="GSA logo">
+        <span class="techgsa-header__logo-text">U.S. General Services Administration</span>
+      </a>
     </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
-      <button class="usa-nav__close"><img src="https://tech.gsa.gov/assets/uswds/img/usa-icons/close.svg" role="img" alt="close"></button>
-      <ul class="usa-nav__primary usa-accordion">
-        
-        
-          <li class="usa-nav__primary-item">
-            <a href="https://tech.gsa.gov/guides/" class="usa-nav__link ">
-              <span>Guides</span>
-            </a>
-          </li>
-        
-          <li class="usa-nav__primary-item">
-            <a href="https://tech.gsa.gov/playbooks/" class="usa-nav__link ">
-              <span>Playbooks</span>
-            </a>
-          </li>
-        
-          <li class="usa-nav__primary-item">
-            <a href="https://tech.gsa.gov/techtalks/" class="usa-nav__link ">
-              <span>Tech Talks</span>
-            </a>
-          </li>
-        
-          <li class="usa-nav__primary-item">
-            <a href="https://tech.gsa.gov/techradar/" class="usa-nav__link ">
-              <span>TechRadar</span>
-            </a>
-          </li>
-        
-      </ul>
-      <form class="usa-search usa-search--small" role="search" action="https://tech.gsa.gov/search">
-        <label class="usa-sr-only" for="search-field-en-small"> Search </label>
-        <input
-          class="usa-input"
-          id="search-field-en-small"
-          type="search"
-          name="search"
-        />
-        <button class="usa-button" type="submit">
-          <img
-            src="https://tech.gsa.gov/assets/uswds/img/usa-icons-bg/search--white.svg"
-            class="usa-search__submit-icon"
-            alt="Search"
-          />
-        </button>
-      </form>
-    </nav>
+    <button type="button" class="usa-menu-btn">Menu</button>
   </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button type="button" class="usa-nav__close">
+        <img src="https://tech.gsa.gov/assets/uswds/img/usa-icons/close.svg" role="img" alt="Close" />
+      </button>
+      <div class="techgsa-header__nav">
+        <div class="techgsa-header__nav-title">
+          <a href="https://tech.gsa.gov/" class="techgsa-header__nav-title-text">Tech at GSA</a>
+        </div>
+        <div class="techgsa-header_nav-links">
+          <ul class="usa-nav__primary usa-accordion">
+            
+            
+              <li class="usa-nav__primary-item">
+                <a href="https://tech.gsa.gov/guides/" class="usa-nav__link ">
+                  <span>Guides</span>
+                </a>
+              </li>
+            
+              <li class="usa-nav__primary-item">
+                <a href="https://tech.gsa.gov/playbooks/" class="usa-nav__link ">
+                  <span>Playbooks</span>
+                </a>
+              </li>
+            
+              <li class="usa-nav__primary-item">
+                <a href="https://tech.gsa.gov/techtalks/" class="usa-nav__link ">
+                  <span>Tech Talks</span>
+                </a>
+              </li>
+            
+              <li class="usa-nav__primary-item">
+                <a href="https://tech.gsa.gov/techradar/" class="usa-nav__link ">
+                  <span>TechRadar</span>
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+        </ul>
+          <section aria-label="Search component">
+            <form class="usa-search usa-search--small" role="search" action="https://tech.gsa.gov/search">
+              <label class="usa-sr-only" for="search-field">Search</label>
+              <input
+                class="usa-input"
+                id="search-field"
+                type="search"
+                name="search"
+              />
+              <button class="usa-button" type="submit">
+                <img
+                  src="https://tech.gsa.gov/assets/uswds/img/usa-icons-bg/search--white.svg"
+                  class="usa-search__submit-icon"
+                  alt="Search"
+                />
+              </button>
+            </form>
+          </section>
+      </div>
+    </div>
+  </nav>
 </header>
-
     
 
 
@@ -157,8 +175,7 @@ X-Xss-Protection: 1; mode=block
     <div class="grid-container">
       <div class="techgsa-hero__intro">
         <h1>Modernizing GSA Technology</h1>
-        <br>
-        <p>The GSA Office of the CTO utilizes collaborative practices and modern IT tools to facilitate a new GSA.</p>
+        <p>Design and development resources to build modern digital services at GSA</p>
       </div>
     </div>
   </section>
@@ -271,20 +288,6 @@ X-Xss-Protection: 1; mode=block
         <div class="tablet:grid-col-12">
           <nav class="usa-footer__nav" aria-label="Footer navigation">
             <div class="grid-row grid-gap-4">
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  <h4 class="usa-footer__primary-link">Office of the CTO</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    
-                      <li class="usa-footer__secondary-link"><a href="https://tech.gsa.gov/about/">About Us</a></li>
-                    
-                      <li class="usa-footer__secondary-link"><a href="https://tech.gsa.gov/vision/">CTO Vision</a></li>
-                    
-                      <li class="usa-footer__secondary-link"><a href="https://tech.gsa.gov/team/">The CTO Team</a></li>
-                    
-                  </ul>
-                </section>
-              </div>
               <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
                 <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
                   <h4 class="usa-footer__primary-link">Open Source</h4>

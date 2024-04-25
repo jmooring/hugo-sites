@@ -1,11 +1,17 @@
-HTTP/1.1 200 OK
-Connection: keep-alive
+HTTP/2.0 200 OK
+Age: 79209
 Content-Type: text/html
-Date: Wed, 13 Mar 2024 19:49:16 GMT
-Etag: "65e60080-1ab3"
-Last-Modified: Mon, 04 Mar 2024 17:10:24 GMT
-Strict-Transport-Security: max-age=15724800
-X-Frame-Options: SAMEORIGIN
+Date: Wed, 24 Apr 2024 15:54:28 GMT
+Etag: W/"fdc771a7a097d31840ebbc97061eb995"
+Last-Modified: Thu, 18 Apr 2024 10:07:37 GMT
+Server: AmazonS3
+Vary: Accept-Encoding
+Vary: Origin
+Via: 1.1 68fadeb91f97256bb67b03bfca74d830.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3TKNXDSMfrZ1egoD-3tQBLr0thGqLwq1CqdQa-uNMy1JiZS4Kw-Qow==
+X-Amz-Cf-Pop: SEA73-P1
+X-Amz-Version-Id: EyhWAMrs1RbE3Qt7YHniTkHhtMQn7157
+X-Cache: Hit from cloudfront
 
 <!doctype html>
 <html>
@@ -25,7 +31,7 @@ X-Frame-Options: SAMEORIGIN
     <meta property="og:title" content="Bitnami Documentation">
     <meta property="og:type" content="documentation">
     <meta property="og:description" content="">
-    <meta property="article:published_time" content="2024-03-04" />
+    <meta property="article:published_time" content="2024-04-10" />
     <meta name="addsearch-custom-field" content="type=page"/>
 
     
@@ -40,7 +46,7 @@ X-Frame-Options: SAMEORIGIN
     <link href='https://d33np9n32j53g7.cloudfront.net/fonts/overpass.css' media="screen" rel="stylesheet">
     <link href='//d1d5nb8vlsbujg.cloudfront.net/hex/4.0.0/hex.min.css' media="screen" rel="stylesheet">
 
-<link rel="stylesheet" href="https://docs.bitnami.com/css/bds.fabdfc32f546a3375b17cbe70113f9bd7b42b4647cd72d07384ee3c12f59b866.css" integrity="sha256-&#43;r38MvVGozdbF8vnARP5vXtCtGR81y0HOE7jwS9ZuGY=" media="screen">
+<link rel="stylesheet" href="https://docs.bitnami.com/css/bds.6c10b3c89d16325ffb1049a38c76c84e20c664229b50f4c6dc613a5a22bc75a1.css" integrity="sha256-bBCzyJ0WMl/7EEmjjHbITiDGZCKbUPTG3GE6WiK8daE=" media="screen">
 
     <script src='//d1d5nb8vlsbujg.cloudfront.net/hex/4.0.0/hex.min.js'></script>
     <script
@@ -203,7 +209,7 @@ X-Frame-Options: SAMEORIGIN
 
 
   
-    <a class="header__nav__list__item" role="menuitem" href="https://docs.bitnami.com/tutorials" target="_blank" rel="noopener noreferrer">
+    <a class="header__nav__list__item" role="menuitem" href="https://docs.vmware.com/en/VMware-Tanzu-Application-Catalog/services/tutorials/GUID-index.html" target="_blank" rel="noopener noreferrer">
   
     
     <div class="header__nav__list__item__info">
@@ -262,19 +268,6 @@ X-Frame-Options: SAMEORIGIN
 </li>
 
               
-            </div>
-            <div class="header__nav__articles">
-              <h3>Latest tutorials</h3>
-              <ul>
-                
-                  <li><a href="https://docs.bitnami.com/tutorials/understand-rolling-tags-containers" target="_blank" rel="noopener", role="menuitem">Understand Bitnami&#39;s Rolling Tags for Container Images</a></li>
-                
-                  <li><a href="https://docs.bitnami.com/tutorials/bitnami-best-practices-hardening-charts" target="_blank" rel="noopener", role="menuitem">Bitnami&#39;s Best Practices for Securing and Hardening Helm Charts</a></li>
-                
-                  <li><a href="https://docs.bitnami.com/tutorials/backup-restore-data-kafka-kubernetes" target="_blank" rel="noopener", role="menuitem">Backup and Restore Apache Kafka Deployments on Kubernetes</a></li>
-                
-              </ul>
-              <a href="https://docs.bitnami.com/tutorials" class="header__nav__articles__all" target="_blank" rel="noopener", role="menuitem">Read all tutorials</a>
             </div>
           </ul>
         </li>
@@ -381,79 +374,6 @@ X-Frame-Options: SAMEORIGIN
       </form>
     </div>
   </section>
-  <div class="container"><hr class="separator separator-small margin-v-bigger"></div>
-  <section class="home__Tutorials margin-v-enormous" aria-label="Tutorials and how-to guides">
-    <div class="container">
-      <div class="row collapse-b-tablet">
-        <div class="col-6">
-          <div class="home__Tutorials__Header">
-            <h2>Tutorials</h2>
-            <p class="home__Tutorials__Header__Description">
-              Step by step tutorials for developers and sysadmins
-            </p>
-          </div>
-          <ul class="home__Tutorials__List">
-            
-              <li class="home__Tutorials__List__Tutorial">
-                <article>
-                  <a href="https://docs.bitnami.com/tutorials/resolve-helm2-helm3-post-migration-issues/">
-                    Resolve Chart Upgrade Issues After Migrating to Helm v3
-                  </a>
-                  <p>Vikram Vaswani</p>
-                </article>
-              </li>
-            
-              <li class="home__Tutorials__List__Tutorial">
-                <article>
-                  <a href="https://docs.bitnami.com/tutorials/deploy-apache-airflow-kubernetes-helm/">
-                    Deploy and Use Apache Airflow on Kubernetes with Bitnami and Helm
-                  </a>
-                  <p>Raquel Campuzano</p>
-                </article>
-              </li>
-            
-              <li class="home__Tutorials__List__Tutorial">
-                <article>
-                  <a href="https://docs.bitnami.com/tutorials/migrate-data-bitnami-velero/">
-                    Migrate Data Between Kubernetes Clusters with Bitnami and Velero
-                  </a>
-                  <p>Vikram Vaswani</p>
-                </article>
-              </li>
-            
-          </ul>
-        </div>
-        <div class="col-6">
-          <div class="home__Tutorials__Header">
-            <h2>Series</h2>
-            <p class="home__Tutorials__Header__Description">
-              A curated list of tutorials to complete a full development journey
-            </p>
-          </div>
-          <ul class="home__Tutorials__List">
-            
-              <li>
-                <article class="home__Tutorials__List__Serie">
-                  <a href="https://docs.bitnami.com/tutorials/series/create-secure-optimized-applications-bitnami-containers/">
-                    Create Secure and Optimized Application Images with Bitnami&#39;s Production Containers
-                  </a>
-                  <p>
-                    Learn how to use Bitnami&#39;s production containers to create secure, minimal production images for applications in different programming languages.
-                  </p>
-                </article>
-              </li>
-            
-          </ul>
-        </div>
-      </div>
-      <div class="text-c">
-        <a class="button button-accent" href="https://docs.bitnami.com/tutorials">
-          Read more tutorials
-        </a>
-      </div>
-    </div>
-  </section>
-
   <section class="bg-light padding-v-enormous margin-v-giant" aria-labelledby="tanzuTitle">
     <div class="container">
       <h2 class="home__Title margin-t-reset text-c" id="tanzuTitle">
@@ -463,13 +383,23 @@ X-Frame-Options: SAMEORIGIN
         Trusted open source content that can be customized to your organization requirements and delivered to your controlled repository.
       </p>
       <p class="margin-t-big margin-b-normal text-c">
-        <a 
-          href="https://docs.vmware.com/en/VMware-Application-Catalog/index.html" 
+        <a
+          href="https://docs.vmware.com/en/VMware-Application-Catalog/index.html"
           class="button button-primary"
           target="_blank"
           aria-label="Open in new tab"
         >
           Check the documentation
+        </a>
+      </p>
+      <p class="margin-t-big margin-b-normal text-c">
+        <a
+          href="https://docs.vmware.com/en/VMware-Tanzu-Application-Catalog/services/tutorials/GUID-index.html"
+          class="button button-accent"
+          target="_blank"
+          aria-label="Open in new tab"
+        >
+          Read more tutorials
         </a>
       </p>
     </div>

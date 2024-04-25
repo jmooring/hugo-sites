@@ -1,17 +1,17 @@
 HTTP/1.1 200 OK
-Content-Length: 57631
+Content-Length: 58598
 Accept-Ranges: bytes
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:12 GMT
-Etag: "e11f-6138e006f59ef"
-Last-Modified: Wed, 13 Mar 2024 17:21:13 GMT
+Date: Thu, 25 Apr 2024 13:54:33 GMT
+Etag: "e4e6-613ed86057651"
+Last-Modified: Mon, 18 Mar 2024 11:18:56 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 <!DOCTYPE html>
 <html lang="de">
   <head>
-	<meta name="generator" content="Hugo 0.123.8">
+	<meta name="generator" content="Hugo 0.124.0">
   <title>Die Bienenkiste</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -164,6 +164,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
                                     <li><a href="#blog" data-uk-scroll="">Blog</a></li>
                                     <li><a href="#doku" data-uk-scroll="">Anleitungen</a></li>
                                     <li><a href="#netzwerk" data-uk-scroll="">Rat & Hilfe</a></li>
+                                    <li><a href="#veranstaltungen" data-uk-scroll="">Veranstaltungen</a></li>
 				    <li><a href="#buecher" data-uk-scroll="">Bücher</a></li>
 				    <li><a href="#bezugsquellen" data-uk-scroll="">Bezugsquellen</a></li>
                                 </ul>
@@ -688,8 +689,10 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
                                                         <h3 class="uk-h2">Online-Ressourcen:</h3>
                                                         <p data-uk-margin><a href="https://discourse.mellifera-netzwerk.de" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: comments; ratio: 1"></span>&nbsp;Diskussionsforum</a>
 							    <a href="https://www.facebook.com/groups/146508095418475/" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: facebook; ratio: 1"></span>&nbsp;Facebook-Gruppe</a>
+							    <a rel="me" href="https://indieweb.social/@bienenkiste" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: mastodon; ratio: 1"></span>&nbsp;Mastodon</a>
                                                             <a href="https://www.youtube.com/playlist?list=PLF1967F1537C12515" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: youtube; ratio: 1"></span>&nbsp;Tutorial<span class="uk-hidden@s">s</span><span class="uk-visible@s">-Videos</span></a>
-                                                            <a href="https://bienenkiste.de/info/onlinekurse/" class="uk-button uk-button-secondary uk-button-small uk-border-pill"><span data-uk-icon="icon: happy; ratio: 1"></span>&nbsp;Online-Kurse</a> <a href="https://www.bienenseb.de/Sprechstunde-Bienenkiste" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: users; ratio: 1"></span>&nbsp;Online-Sprechstunde</a></p>
+                                                            <a href="https://bienenkiste.de/info/onlinekurse/" class="uk-button uk-button-secondary uk-button-small uk-border-pill"><span data-uk-icon="icon: happy; ratio: 1"></span>&nbsp;Online-Kurse</a> <a href="https://www.bienenseb.de/Sprechstunde-Bienenkiste" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: users; ratio: 1"></span>&nbsp;Online-Sprechstunde</a>
+                                                            </p>
                                                     </div>
                                                 </div>
                                                 <aside class="uk-panel uk-inline">
@@ -707,60 +710,49 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
                                                                 <div class="uk-grid uk-margin-top" data-uk-grid>
                                     <div class="uk-width-3-4@m">
                                             <div class="uk-panel">
-                                                <h3 class="uk-h2">Aktuelle Termine</h3>
+                                                <h3 class="uk-h2" id="veranstaltungen">Aktuelle Veranstaltungen</h3>
                                                 <ul class="uk-grid uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-medium-bottom" id="mev-content" uk-grid>
 <script src="https://www.mellifera.de/js-pool/extern-content.js"></script>
 <script>
-   var ini    = 'bk';
-   var type   = 'event';
-   var limit  = '6';
-   var format = 'json';
-   var formatdate = '%a %e. %b %Y %R';
-   var ellipsis = '150';
-   var imgsize = '';
+    var mevContainer = document.getElementById("mev-content");
 
-   
-   var mevContainer = document.getElementById("mev-content");
+    
+    fetch('/event/bienenkiste.json')
+        .then(response => response.json())
+        .then(results => {
+            if (results.length === 0) {
+                mevContainer.innerHTML = '<p>Derzeit gibt es keine aktuellen Termine.</p>';
+            } else {
+                var mevOutput = '';
+                
+                for (var i = 0; i < Math.min(results.length, 6); i++) {
+                    var event = results[i];
+                    var date = event.datum;
+                    var title = event.summary;
+                    var introtext = event.introtext;
+                    var permalink = 'https://bienenkiste.de/event/' + event.id;
+                    var location = event.location;
 
-   getMelliferaExternContent(ini,type,format,limit,formatdate,ellipsis,imgsize, function(results) {
-      
-      if ( results == 'error' ) {
-         mevContainer.innerHTML = '<p>[Technische Störung...]</p>';
-      
-      } else if ( results == 'empty' ) {
-	 mevContainer.innerHTML = '<p>Derzeit gibt es keine aktuelle Termine.</p>';
-      
-      } else {
-         
-
-
-      
-      
-         var mevOutput = '';
-         var i;
-         for(i = 0; i < results.length; i++) {
-            var date        = results[i].date;
-            var title       = results[i].pagetitle;
-            var introtext   = results[i].introtext;
-            var permalink   = results[i].url;
-            var location    = results[i].location;
-            
-            mevOutput += '<li>';
-            mevOutput += '<div class="uk-panel linkbox">';
-            mevOutput += '<p class="uk-text-small uk-margin-remove"><em>' + date + ' | ' + location + '</em></p>';
-            mevOutput += '<h4 class="uk-margin-remove"><a href="' + permalink + '" class="uk-link-reset" target="_blank">' + title + '</a></h4>';
-            mevOutput += '<p class="uk-text-small uk-margin-remove">' + introtext + ' <span uk-icon="exit" title="externer Link"></span></p>';
-            mevOutput += '<hr class="uk-hidden@m">';
-            mevOutput += '</div>';
-            mevOutput += '</li>';
-         }
-         mevContainer.innerHTML = mevOutput;
-      
-      }
-   });
+                    mevOutput += '<li>';
+                    mevOutput += '<div class="uk-panel linkbox">';
+                    mevOutput += '<p class="uk-text-small uk-margin-remove"><em>' + date + ' | ' + location + '</em></p>';
+                    mevOutput += '<h4 class="uk-margin-remove"><a href="' + permalink + '" class="uk-link-reset">' + title + '</a></h4>';
+                    mevOutput += '<p class="uk-text-small uk-margin-remove">' + introtext + '</p>';
+                    mevOutput += '<hr class="uk-hidden@m">';
+                    mevOutput += '</div>';
+                    mevOutput += '</li>';
+                }
+                mevContainer.innerHTML = mevOutput;
+            }
+        })
+        .catch(error => {
+            mevContainer.innerHTML = '<p>[Technische Störung...]</p>';
+            console.error('Fehler beim Laden der Termine:', error);
+        });
 </script>
+
                                                 </ul>
-<p data-uk-margin><a href="https://www.mellifera.de/veranstaltungen/?t=Bienenkiste" class="uk-button uk-button-secondary uk-button-small uk-border-pill" target="_blank"><span data-uk-icon="icon: calendar; ratio: 1"></span>&nbsp;Veranstaltungen</a></p>
+<p data-uk-margin><a href="https://bienenkiste.de/event/" class="uk-button uk-button-secondary uk-button-small uk-border-pill"><span data-uk-icon="icon: calendar; ratio: 1"></span>&nbsp;Veranstaltungen</a></p>
                                             </div>
                                     </div>
 
@@ -993,6 +985,22 @@ $("body, #mec-content,#mev-content").on("click",".linkbox",function(){
 });
 </script>
 
+
+
+    
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.mellifera.de/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 14]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.mellifera.de/piwik/piwik.php?idsite=14" style="border:0;" alt="" /></p></noscript>
 
 
   </body>

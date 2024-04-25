@@ -1,30 +1,31 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 140
+Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:15 GMT
-Etag: W/"65eb2817-70ee"
-Expires: Wed, 13 Mar 2024 18:08:56 GMT
-Last-Modified: Fri, 08 Mar 2024 15:00:39 GMT
+Date: Thu, 25 Apr 2024 13:54:36 GMT
+Etag: W/"66214d11-745a"
+Expires: Thu, 25 Apr 2024 12:39:51 GMT
+Last-Modified: Thu, 18 Apr 2024 16:40:49 GMT
 Server: GitHub.com
 Strict-Transport-Security: max-age=31556952
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Fastly-Request-Id: de9d2873f43c41f222e25d63fc1777ebea5fb951
-X-Github-Request-Id: 9112:1A1624:3DBB0:49401:65F1E95F
+X-Fastly-Request-Id: 76eb130254efefa3eb7332085a974540943e35cc
+X-Github-Request-Id: B048:38901F:57DE3:5B995:662A4CBE
+X-Origin-Cache: HIT
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400059-BFI
-X-Timer: S1710359356.530355,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400077-BFI
+X-Timer: S1714053277.592331,VS0,VE67
 
 <!doctype html>
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.123.8">
+	<meta name="generator" content="Hugo 0.125.1">
   
 
 
@@ -334,7 +335,22 @@ X-Timer: S1710359356.530355,VS0,VE1
     <a href="/features">See list of features</a>
   </div>
 
-  <h2>About the Project</h2>
+  <h2>What We Do</h2>
+  <section class="row">
+    <div class="col-sm">
+      <p>Cloud Native Buildpacks (CNBs) transform your application source code into container images that can run on any
+        cloud. With buildpacks, organizations can concentrate the knowledge of container build best practices within a
+        specialized team, instead of having application developers across the organization individually maintain their
+        own Dockerfiles. This makes it easier to know what is inside application images, enforce security and compliance
+        requirements, and perform upgrades with minimal effort and intervention.</p>
+      <p>The CNB project maintains a set of specifications and tooling that make it possible to write buildpacks
+        and orchestrate them together in a build system.
+        Additionally, community providers such as Google, Heroku, and the Paketo project maintain buildpacks
+        for a wide variety of language families, and you can discover even more by searching the buildpack registry.</p>
+    </div>
+  </section>
+
+  <h2>Our Origin Story</h2>
   <section class="row">
     <div class="col-sm">
       <p><strong>Buildpacks</strong> were first conceived by Heroku in 2011. Since then, they have been adopted by Cloud
@@ -354,8 +370,8 @@ X-Timer: S1710359356.530355,VS0,VE1
       <p>Cloud Native Buildpacks embrace modern container standards, such as the OCI image format. They take advantage
         of the latest capabilities of these standards, such as cross-repository blob mounting and image layer "rebasing"
         on Docker API v2 registries.</p>
-    </div>
-  </section>
+      </div>
+    </section>
 </div>
 
 <div id="get-started" class="container">
@@ -383,8 +399,6 @@ X-Timer: S1710359356.530355,VS0,VE1
       <ul>
         
         <li><a target="_blank" rel="noopener noreferrer" href="https://buildpacks.devstats.cncf.io/d/8/dashboards?orgId=1&amp;refresh=15m">DevStats</a></li>
-        
-        <li><span>&bull;</span><a target="_blank" rel="noopener noreferrer" href="https://datastudio.google.com/reporting/4b23856c-6c24-44f5-86f2-333d0ad3f236">Analytics</a></li>
         
         <li><span>&bull;</span><a target="_blank" rel="noopener noreferrer" href="https://www.linuxfoundation.org/privacy/">Privacy Policy</a></li>
         

@@ -1,28 +1,28 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 508
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 863e8c3bdf3f0895-SEA
+Cf-Ray: 879ed401d80a30e3-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:32 GMT
-Expires: Wed, 13 Mar 2024 18:02:30 GMT
-Last-Modified: Wed, 13 Mar 2024 17:28:57 GMT
+Date: Thu, 25 Apr 2024 13:54:59 GMT
+Expires: Thu, 25 Apr 2024 10:49:39 GMT
+Last-Modified: Thu, 25 Apr 2024 10:12:17 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3K%2FPer9LCckD8o4QGYoGmIIyOl3CFzjvarapOeQTEcYmFPBVhYkGwgjYpKMdI5LPPZJ7m1hwHydBZTvOqKtdkBPcFgktp%2FSkmMb%2FMmPni8z9rrdvGZstwoAkLds%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eCIJVXlbicMpHkKtVPBExM3LPNOHs0l0pAx53%2Bclhg5YCEFCVMvfMbC9sp52tqtj90szLfrEdeq6Yu7u7bqsL7uDx%2B1m%2B46fQ9rtw7MMKqEMApwxi3rBdMXvKTg%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: 44495abd8db0c2aa0f41c214ca7a6e56c9cb6cc6
-X-Github-Request-Id: C5FE:2290:5E119A:64335F:65F1E7DE
+X-Fastly-Request-Id: 8785cee8f66b7b642bb22eecd38607ad14bdbd4f
+X-Github-Request-Id: 83A0:371A9F:38D9165:3AFCA8C:662A32E7
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770057-PAO
-X-Timer: S1710359372.202460,VS0,VE18
+X-Served-By: cache-pao-kpao1770077-PAO
+X-Timer: S1714053300.557068,VS0,VE87
 
 <!DOCTYPE html>
 <html lang="en">
@@ -233,9 +233,27 @@ X-Timer: S1710359372.202460,VS0,VE18
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
+              <span class="tag is-light">2024-04-15</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/04/15/spidermonkey/">Servo and SpiderMonkey</a></strong></big></p>
+              <p>A new report on Servo’s integration with SpiderMonkey, and our proposal for improving its modularity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2024-03-30</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/03/30/tables-woff2-outreachy/">This month in Servo: tables, WOFF2, Outreachy, and more!</a></strong></big></p>
+              <p>Beginning of the end of legacy layout, runtime filtering of event logs, plus console, canvas, WebGPU, DOM, and CSS improvements.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
               <span class="tag is-light">2024-03-12</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/03/12/sponsoring-servo/">You can now sponsor Servo on GitHub and Open Collective!</a></strong></big></p>
-              <p></p>
+              <p>Be sure to update your recurring donations, because we will stop taking donations on LFX soon.</p>
             </div>
           </div>
         </div>
@@ -245,24 +263,6 @@ X-Timer: S1710359372.202460,VS0,VE18
               <span class="tag is-light">2024-02-28</span>
               <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/02/28/gamepads-font-fallback-space-jam/">This month in Servo: gamepad support, font fallback, Space Jam, and more!</a></strong></big></p>
               <p>Big strides in tables and layout architecture, a new CSS2 milestone, dev changes in WebRender and Stylo, plus console, canvas, and CSSOM improvements.</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2024-01-26</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/01/26/two-months-in-servo/">Two months in Servo: better inline layout, stable Rust, and more!</a></strong></big></p>
-              <p>Improved control over typography, very early support for sticky positioning and tables, plus updates to our minibrowser and build tooling.</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2024-01-19</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/01/19/embedding-update/">Tauri update: embedding prototype, offscreen rendering, multiple webviews, and more!</a></strong></big></p>
-              <p>Overview of the embedding improvements we’ve landed as part of our collaboration with Tauri.</p>
             </div>
           </div>
         </div>
@@ -287,7 +287,7 @@ X-Timer: S1710359372.202460,VS0,VE18
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#1e777078715e6d7b6c687130716c79"><span class="__cf_email__" data-cfemail="c1a8afa7ae81b2a4b3b7aeefaeb3a6">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#abc2c5cdc4ebd8ced9ddc485c4d9cc"><span class="__cf_email__" data-cfemail="acc5c2cac3ecdfc9dedac382c3decb">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -348,7 +348,7 @@ X-Timer: S1710359372.202460,VS0,VE18
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#d2bbbcb4bd92a1b7a0a4bdfcbda0b5"><span class="__cf_email__" data-cfemail="1e777078715e6d7b6c687130716c79">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#31585f575e71425443475e1f5e4356"><span class="__cf_email__" data-cfemail="137a7d757c53607661657c3d7c6174">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

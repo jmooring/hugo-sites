@@ -1,25 +1,26 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 436
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 863e8bc6883a30bd-SEA
+Cf-Ray: 879ed36afe33283a-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 13 Mar 2024 19:49:13 GMT
-Expires: Wed, 13 Mar 2024 19:59:13 GMT
-Last-Modified: Wed, 13 Mar 2024 18:29:29 GMT
+Date: Thu, 25 Apr 2024 13:54:35 GMT
+Expires: Thu, 25 Apr 2024 13:31:56 GMT
+Last-Modified: Mon, 22 Apr 2024 14:56:08 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bneFslnYXbpYRWx01QEjRtEPRqjd2NEoTsfP1DE3WOGuOV%2FM%2BQ%2Fe%2BpDLlDCVAuHZCFkNYwb8nM0hWC3sxLEiF9yJkEcYFzCn%2BE56yTioyyWwLilajsw4TFfOw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=GpPlhQCbRdhgfmn9neydkaaSmbOQ1ffV%2BgBwq5Qg8HJLO%2BXZyd1dM7dcoNMtaeA7EZsRBAlUj95hSsV1oX%2FNN33UND51lc4oItnNNboJWULYoLWBGqfrTouZ%2BQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
+X-Cache: HIT
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 1086f7fe1370a6966f0f819c8ed0cd19e5b69def
-X-Github-Request-Id: 8D84:4930:34ACE3:37C949:65F20339
-X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770082-PAO
-X-Timer: S1710359353.443813,VS0,VE104
+X-Fastly-Request-Id: f1a5b2f9d2cc7b545bba0eee8de9b813178e0ad8
+X-Github-Request-Id: A538:390A0C:A101F:A7A10:662A58F6
+X-Origin-Cache: HIT
+X-Proxy-Cache: HIT
+X-Served-By: cache-pao-kpao1770021-PAO
+X-Timer: S1714053275.414698,VS0,VE1
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +30,7 @@ X-Timer: S1710359353.443813,VS0,VE104
   <meta http-equiv="Content-Language" content="en"><meta name="description" content="Leading open source admin dashboard template used by thousands of developers and Fortune 500s. CoreUI admin panel is built on top of Bootstrap 5. CoreUI Bootstrap Admin Template lets you save thousands of priceless hours because it offers everything you need to create modern, beautiful, and responsive applications."><meta name="author" content="">
   <meta name="generator" content="Hugo 0.122.0"><title>Bootstrap Admin &amp; Dashboard Template · CoreUI</title><link rel="canonical" href="https://coreui.io/"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow+Semi+Condensed:wght@200;400;500;700&family=Barlow:wght@100;400;700&family=Cousine:wght@400;700&display=swap" rel="stylesheet"><link rel="preload" as="image" href="/images/bgs/KV_top_01.webp"><style>:root{--cui-framework-25:#ccc7f6;--cui-framework-25-rgb:204, 199, 246;--cui-framework-50:#988fed;--cui-framework-base:#321fdb;--cui-framework-color:#fff;--cui-framework-gradient-start:#1f1498;--cui-framework-gradient-stop:#321fdb;--cui-framework-page-header-bg:url("/images/bgs/KV_top_01.webp") no-repeat center center/cover}</style><link rel="stylesheet" href="https://coreui.io/scss/style.min.db063375d2ffa77ce9d6cd170a0388b297733f49309417a92b78e17a72e5289b.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow+Semi+Condensed:wght@200;400;500;700&family=Barlow:wght@100;400;700&family=Cousine:wght@400;700&display=swap" rel="stylesheet"><style>:root{--cui-framework-25:#ccc7f6;--cui-framework-25-rgb:204, 199, 246;--cui-framework-50:#988fed;--cui-framework-base:#321fdb;--cui-framework-color:#fff;--cui-framework-gradient-start:#1f1498;--cui-framework-gradient-stop:#321fdb;--cui-framework-page-header-bg:url("/images/bgs/KV_top_01.webp") no-repeat center center/cover;--cui-framework-page-header-bg-admin:url("/images/admin_templates/coreui_alt_960px.png") no-repeat}</style><link rel="stylesheet" href="https://coreui.io/scss/style.min.573d190a37029443e2dfdb1ef048f55da5e531df2cd42a12230e6a580df51a66.css">
 
 
   <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
@@ -74,8 +75,8 @@ X-Timer: S1710359353.443813,VS0,VE104
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KX4JH47');</script>
-</head><body class="color-scheme-coreui d-flex flex-column min-vh-100">
-    <div class="page-header">
+</head><body class="color-scheme-coreui color-scheme-free d-flex flex-column min-vh-100">
+    <div class="page-header page-header-home">
       <svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg"  height="70" class="cui-logo d-none" viewBox="0 0 312 115">
   <g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
         <g id="coreui-base" fill="currentColor" fill-rule="nonzero">
@@ -118,15 +119,8 @@ X-Timer: S1710359353.443813,VS0,VE104
         <hr class="d-lg-none text-white-50">
         <ul class="navbar-nav align-items-lg-center justify-content-lg-end flex-grow-1"><li class="nav-item dropdown px-lg-2">
               <a class="nav-link dropdown-toggle" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Docs</a>
-              <div class="dropdown-menu border-0"><a class="dropdown-item" href="/bootstrap/docs/3.4/">CoreUI &nbsp;<strong>3.x</strong></a><a class="dropdown-item" href="/bootstrap/docs/4.x/getting-started/introduction/">CoreUI &nbsp;<strong>4.x (current version)</strong></a><a class="dropdown-item" href="/bootstrap/docs/getting-started/introduction/">CoreUI &nbsp;<strong>5.x (next version)</strong></a></div>
-            </li>
-          <li class="nav-item px-lg-2">
-            <a href="/pricing/?framework=bootstrap" class="nav-link">
-              Pricing
-            </a>
-          </li>
-          
-          <li class="nav-item dropdown px-lg-2">
+              <div class="dropdown-menu border-0"><a class="dropdown-item" href="/bootstrap/docs/3.4/">CoreUI &nbsp;<strong>3.x</strong></a><a class="dropdown-item" href="/bootstrap/docs/4.x/getting-started/introduction/">CoreUI &nbsp;<strong>4.x</strong></a><a class="dropdown-item" href="/bootstrap/docs/getting-started/introduction/">CoreUI &nbsp;<strong>5.x</strong></a></div>
+            </li><li class="nav-item dropdown px-lg-2">
             <a class="nav-link dropdown-toggle" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
               Products
             </a>
@@ -280,8 +274,14 @@ X-Timer: S1710359353.443813,VS0,VE104
           </li>
           <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
             <hr class="d-lg-none my-2 text-white-50">
-          </li>
-          <li class="nav-item px-1">
+          </li><li class="nav-item px-1">
+            <a href="/pricing/?framework=bootstrap" class="btn btn-border btn-border-cta-framework btn-sm">
+              <svg id="cil-people" viewBox="0 0 512 512" width="22px" class="d-lg-down-none">
+                <polygon fill="var(--ci-primary-color, currentColor)" points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039" class="ci-primary"/><path fill="var(--ci-primary-color, currentColor)" d="M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z" class="ci-primary"/><path fill="var(--ci-primary-color, currentColor)" d="M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z" class="ci-primary"/>
+              </svg>
+              <span class="ms-xl-2">Buy CoreUI PRO</span>
+            </a>
+          </li><li class="nav-item px-1 mt-2 mt-lg-0">
             <a href="/contact/sales/" class="btn btn-border btn-border-framework btn-sm">
               <svg id="cil-people" viewBox="0 0 512 512" width="22px" class="d-lg-down-none">
                 <path fill="var(--ci-primary-color, currentColor)" d="M462.541,316.3l-64.344-42.1,24.774-45.418A79.124,79.124,0,0,0,432.093,192V120A103.941,103.941,0,0,0,257.484,43.523L279.232,67a71.989,71.989,0,0,1,120.861,53v72a46.809,46.809,0,0,1-5.215,21.452L355.962,284.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421V432h-72v32h104V378.494A74.061,74.061,0,0,0,462.541,316.3Z" class="ci-primary"></path><path fill="var(--ci-primary-color, currentColor)" d="M318.541,348.3l-64.343-42.1,24.773-45.418A79.124,79.124,0,0,0,288.093,224V152A104.212,104.212,0,0,0,184.04,47.866C126.723,47.866,80.093,94.581,80.093,152v72a78,78,0,0,0,9.015,36.775l24.908,45.664L50.047,348.3A74.022,74.022,0,0,0,16.5,410.4L16,496H352.093V410.494A74.061,74.061,0,0,0,318.541,348.3ZM320.093,464H48.186l.31-53.506a42.158,42.158,0,0,1,19.073-35.421l88.682-58.029L117.2,245.452A46.838,46.838,0,0,1,112.093,224V152a72,72,0,1,1,144,0v72a46.809,46.809,0,0,1-5.215,21.452L211.962,316.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421Z" class="ci-primary"></path>
@@ -303,34 +303,76 @@ X-Timer: S1710359353.443813,VS0,VE104
   </div>
 </nav>
       
-  <div class="container-lg text-center d-flex flex-column justify-content-center">
+  <div class="container-lg d-flex text-center text-lg-start flex-column justify-content-center">
   <div class="row">
-    <div class="col-lg-10 mx-auto">
+    <div class="col-lg-7">
       <div class="page-title">
-        <h1 class="d-inline">Bootstrap Admin Dashboard Template</h1><span> &amp; UI Components Library</span></div>
-      <div class="page-description my-4">CoreUI Admin Panel is not another blend of 3rd parties free components and libraries. It's <strong>the only Open Source Bootstrap Admin Dashboard Template built on the enterprise-grade hand-crafted UI Components Library</strong> created and backed by professionals. <strong>CoreUI helps you build reliable web apps faster than before.</strong></div>
+        <h2>Speed up your responsive apps & sites development</h2>
+        <div class="page-description text-center text-lg-start my-4">
+          <span>With </span><h1 class="d-inline h-reset">comprehensive Open Source UI Components Library & Bootstrap Dashboard Templates</h1><span> created and backed by professionals. <strong>CoreUI helps you build reliable web apps faster than before</strong>.</span>
+        </div>
+      </div>
     </div>
   </div>
   <div class="buttons mt-3">
-    <a href="/pricing/?framework=bootstrap" class="btn btn-cta btn-framework btn-xl">
-      Buy CoreUI PRO
-        
+    <a href="/bootstrap/docs/getting-started/introduction/" class="btn btn-cta btn-framework btn-xl">
+      
+        Get Started
       
     </a><a href="#live-preview" class="btn btn-cta btn-xl  btn-white ">Explore Templates</a></div>
-  </div>
+</div>
 
 
     </div>
     <div class="main flex-grow-1">
-      <section id="live-preview" class="bg-grey py-6">
+      <section id="frameworks" class="py-7">
+  <div class="container-lg text-center">
+    <h2 class="section-title">CoreUI supports most popular frameworks.</h2>
+    <div class="section-description">Learn more about dedicated versions for:</div>
+    <div class="row mt-5">
+      <div class="col-6 col-sm-4 col-md-3">
+        <a href="/bootstrap/" class="no-decoration" aria-label="CoreUI for Bootstrap">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.bb-a{fill:none;}.bb-b{fill:url(#bb-a);}.bb-c{opacity:0.5;}.bb-d{clip-path:url(#bb-d);}.bb-e{fill:#53057c;}.bb-f{filter:url(#bb-b);}</style><linearGradient id="bb-a" x1="0.981" y1="1" x2="0.238" y2="0.114" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#910ac3"/><stop offset="1" stop-color="#c884e1"/></linearGradient><filter id="bb-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="bb-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="bb-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="bb-d"><path class="bb-a" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-26 -13.934)"/></clipPath></defs><g transform="translate(-14 -3.934)"><g class="bb-f" transform="matrix(1, 0, 0, 1, 14, 3.93)"><path class="bb-b" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-14 -3.93)"/></g><g class="bb-c" transform="translate(26 13.934)"><g class="bb-d"><g transform="translate(-4.7 22.907)"><path class="bb-e" d="M121.318,52.5a6.628,6.628,0,0,1,2.115,4.917v83.006a6.624,6.624,0,0,1-2.115,4.917,7.038,7.038,0,0,1-5.088,2.058H33.681a7.033,7.033,0,0,1-5.088-2.058,6.618,6.618,0,0,1-2.115-4.917V57.416A6.621,6.621,0,0,1,28.593,52.5a7.033,7.033,0,0,1,5.088-2.058H116.23A7.038,7.038,0,0,1,121.318,52.5ZM85.931,130.475a19.128,19.128,0,0,0,19.208-19.093,18.948,18.948,0,0,0-2.458-9.49,18.369,18.369,0,0,0-6.689-6.861,18.365,18.365,0,0,0,2.687-5.144,19.241,19.241,0,0,0-4.631-19.608,18.432,18.432,0,0,0-13.606-5.66H48.43v65.856Zm2.744-46.648a8.2,8.2,0,0,1-8.232,8.232H59.407V75.595H80.443a8.2,8.2,0,0,1,8.232,8.232Zm-2.744,19.322a7.937,7.937,0,0,1,5.831,2.4,7.806,7.806,0,0,1,2.4,5.717,8.2,8.2,0,0,1-8.232,8.232H59.407v-16.35Z" transform="translate(-26.478 -50.441)"/></g></g></g></g></svg>
+          <div class="text-bootstrap f-24">
+            Bootstrap 5
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <a href="/angular/" class="no-decoration" aria-label="CoreUI for Angular">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.ba-a{fill:none;}.ba-b{fill:url(#ba-a);}.ba-c{opacity:0.5;}.ba-d{clip-path:url(#ba-d);}.ba-e{fill:#b50d31;}.ba-f{filter:url(#ba-b);}</style><linearGradient id="ba-a" x1="1" y1="1" x2="0.087" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#cf2f4c"/><stop offset="1" stop-color="#e797a5"/></linearGradient><filter id="ba-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="ba-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="ba-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="ba-d"><path class="ba-a" d="M463.47,44.208,414.529,15.951a15.061,15.061,0,0,0-15.059,0L350.53,44.208A15.1,15.1,0,0,0,343,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L463.47,126.8A15.1,15.1,0,0,0,471,113.761V57.249A15.1,15.1,0,0,0,463.47,44.208Z" transform="translate(-343 -13.934)"/></clipPath></defs><g transform="translate(-331 -3.934)"><g class="ba-f" transform="matrix(1, 0, 0, 1, 331, 3.93)"><path class="ba-b" d="M463.47,44.208,414.529,15.951a15.061,15.061,0,0,0-15.059,0L350.53,44.208A15.1,15.1,0,0,0,343,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L463.47,126.8A15.1,15.1,0,0,0,471,113.761V57.249A15.1,15.1,0,0,0,463.47,44.208Z" transform="translate(-331 -3.93)"/></g><g class="ba-c" transform="translate(343 13.934)"><g class="ba-d"><g transform="translate(-10.944 37.622)"><path class="ba-e" d="M402.987,155.075h17.906l-8.65-23.207Z" transform="translate(-354.404 -95.492)"/><path class="ba-e" d="M436.792,93.917,383.887,74.148a4.017,4.017,0,0,0-2.812,0L328.169,93.917a4.017,4.017,0,0,0-2.586,4.217l7.586,66.709a4.018,4.018,0,0,0,2.089,3.085l45.318,24.38a4.017,4.017,0,0,0,3.807,0l45.319-24.38a4.02,4.02,0,0,0,2.089-3.085l7.587-66.709A4.017,4.017,0,0,0,436.792,93.917ZM402.529,161.6l-5.99-16.071H369.334L362.924,161.6H349.948l26.439-66.292h14.3L415.393,161.6Z" transform="translate(-325.558 -73.894)"/></g></g></g></g></svg>
+          <div class="text-angular f-24">
+            Angular
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <a href="/react/" class="no-decoration" aria-label="CoreUI for React">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.br-a{fill:none;}.br-b{fill:url(#br-a);}.br-c{opacity:0.5;}.br-d{clip-path:url(#br-d);}.br-e{fill:#007fbf;}.br-f{filter:url(#br-b);}</style><linearGradient id="br-a" x1="0.269" y1="0.195" x2="0.902" y2="1.03" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#00a1ff"/><stop offset="1" stop-color="#80d0ff"/></linearGradient><filter id="br-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="br-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="br-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="br-d"><path class="br-a" d="M763.47,44.208,714.529,15.951a15.061,15.061,0,0,0-15.059,0L650.53,44.208A15.1,15.1,0,0,0,643,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L763.47,126.8A15.1,15.1,0,0,0,771,113.761V57.249A15.1,15.1,0,0,0,763.47,44.208Z" transform="translate(-643 -13.934)"/></clipPath></defs><g transform="translate(-631 -3.934)"><g class="br-f" transform="matrix(1, 0, 0, 1, 631, 3.93)"><path class="br-b" d="M763.47,44.208,714.529,15.951a15.061,15.061,0,0,0-15.059,0L650.53,44.208A15.1,15.1,0,0,0,643,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L763.47,126.8A15.1,15.1,0,0,0,771,113.761V57.249A15.1,15.1,0,0,0,763.47,44.208Z" transform="translate(-631 -3.93)"/></g><g class="br-c" transform="translate(643 13.934)"><g class="br-d"><g transform="translate(16.446 41.096)"><path class="br-e" d="M776.688,115.06c-.924-.363-1.88-.714-2.857-1.054q.291-1.519.516-3c2.175-14.467-.912-24.908-8.692-29.4a16.592,16.592,0,0,0-8.41-2.174c-7.009,0-15.184,3.9-23.738,11.293-8.553-7.4-16.729-11.293-23.738-11.293a16.591,16.591,0,0,0-8.41,2.174c-7.78,4.493-10.867,14.933-8.692,29.4.147.981.326,1.985.52,3q-1.463.508-2.861,1.055c-13.616,5.35-21.115,13.244-21.115,22.227s7.5,16.878,21.115,22.227q1.387.545,2.857,1.055-.291,1.519-.516,3c-2.175,14.467.912,24.908,8.692,29.4a16.585,16.585,0,0,0,8.41,2.175c7.009,0,15.184-3.9,23.738-11.293,8.554,7.4,16.729,11.293,23.738,11.293a16.586,16.586,0,0,0,8.41-2.175c7.78-4.492,10.867-14.933,8.692-29.4-.148-.981-.322-1.986-.516-3q1.462-.508,2.857-1.053c13.616-5.35,21.115-13.244,21.115-22.227S790.3,120.41,776.688,115.06Zm-19.443-27.4a8.47,8.47,0,0,1,4.3,1.072c4.58,2.645,6.282,10.317,4.668,21.048a89.428,89.428,0,0,1-4.707,17.542q-1.255-2.36-2.6-4.7a135.349,135.349,0,0,0-19.393-26.2C746.212,90.754,752.447,87.661,757.245,87.661Zm.052,49.628c-1.655,3.508-3.5,7.038-5.525,10.543-2.014,3.489-4.154,6.868-6.365,10.058-3.868.321-7.849.487-11.9.487-4.018,0-8.008-.166-11.9-.49-2.214-3.194-4.349-6.566-6.364-10.054s-3.862-7.021-5.525-10.547c1.655-3.507,3.5-7.037,5.525-10.542,2.013-3.486,4.154-6.866,6.365-10.057,3.867-.321,7.849-.487,11.9-.487,4.02,0,8.01.166,11.9.49,2.206,3.182,4.334,6.544,6.361,10.054C753.778,130.219,755.632,133.761,757.3,137.289ZM705.474,88.733a8.47,8.47,0,0,1,4.3-1.072c5.3,0,12.348,3.771,19.853,10.619a97.649,97.649,0,0,1,9.258,9.783q-2.674-.092-5.373-.095a136.168,136.168,0,0,0-32.389,3.693c-.114-.634-.22-1.262-.312-1.88C699.192,99.05,700.894,91.378,705.474,88.733ZM695.12,152.525q-.911-.328-1.785-.67c-10.1-3.969-15.895-9.278-15.895-14.568s5.793-10.6,15.895-14.568a89.442,89.442,0,0,1,17.545-4.694q-1.415,2.265-2.765,4.6A136.121,136.121,0,0,0,695.12,152.525Zm14.65,34.389a8.47,8.47,0,0,1-4.3-1.072c-4.58-2.645-6.282-10.317-4.668-21.048a89.482,89.482,0,0,1,4.707-17.543q1.256,2.361,2.6,4.7c2.507,4.343,5.2,8.523,7.991,12.426a122.238,122.238,0,0,0,11.4,13.779C720.8,183.821,714.567,186.914,709.769,186.914Zm51.771-1.072a8.473,8.473,0,0,1-4.3,1.072c-5.3,0-12.348-3.771-19.852-10.619a97.437,97.437,0,0,1-9.26-9.783q2.675.092,5.375.095a136.163,136.163,0,0,0,32.388-3.693c.114.634.22,1.264.313,1.88C767.822,175.526,766.121,183.2,761.54,185.842Zm12.139-33.987a89.441,89.441,0,0,1-17.545,4.694q1.414-2.265,2.765-4.6a136.137,136.137,0,0,0,13-29.9c.607.218,1.205.44,1.785.668,10.1,3.969,15.895,9.278,15.895,14.568S783.78,147.887,773.679,151.855Z" transform="translate(-669.211 -79.431)"/><path class="br-e" d="M765.232,154.323A10.866,10.866,0,1,0,776.1,165.189,10.878,10.878,0,0,0,765.232,154.323Z" transform="translate(-700.935 -107.332)"/></g></g></g></g></svg>
+          <div class="text-react f-24">
+            React.js
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3">
+        <a href="/vue/" class="no-decoration" aria-label="CoreUI for Vue">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.bv-a{fill:none;}.bv-b{fill:url(#bv-a);}.bv-c{opacity:0.5;}.bv-d{clip-path:url(#bv-d);}.bv-e{fill:#0ca378;}.bv-f{filter:url(#bv-b);}</style><linearGradient id="bv-a" x1="0.852" y1="1.012" x2="0.278" y2="0.177" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#8ddec9"/><stop offset="1" stop-color="#1bbd93"/></linearGradient><filter id="bv-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="bv-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="bv-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="bv-d"><path class="bv-a" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-26 -13.934)"/></clipPath></defs><g transform="translate(-14 -3.934)"><g class="bv-f" transform="matrix(1, 0, 0, 1, 14, 3.93)"><path class="bv-b" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-14 -3.93)"/></g><g class="bv-c" transform="translate(26 13.934)"><g class="bv-d"><path class="bv-e" d="M168.8,60.945h17.65l-50.165,92.9h-9.289l-52.023-92.9H92.623l39.132,74.2Zm-37.275,55.971L102.144,60.945H117.7l13.934,26.011,11.5-26.011h16.373Z" transform="translate(-44.244 -31.448)"/></g></g></g></svg>
+          <div class="text-vue f-24">
+            Vue.js
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section><section id="live-preview" class="bg-grey py-6">
   <div class="container text-center">
     <h2 class="section-title text-center">Bootstrap Admin Templates</h2>
      <h3 class="section-description text-center">CoreUI and CoreUI PRO are delivered with fully-featured, and ready-to-use admin panel templates for your application.</h3>
-    <div class="row mt-5"><div class="col-md-6 col-lg-4 mb-4">
+    <div class="row mt-5"><div class="col-md-6 col-lg-4  mb-4">
         <div class="card p-3 border-0 rounded-1 box-shadow">
           <div class="card-body p-0">
             <h3 class="f-20">Free Bootstrap Admin Template</h3>
-            <div class="f-18 text-muted mb-4">Default theme</div>
+            <div class="f-18 text-muted mb-4">Default theme (light & dark mode)</div>
             <a href="/product/free-bootstrap-admin-template" >
 
 
@@ -343,57 +385,15 @@ X-Timer: S1710359353.443813,VS0,VE104
   loading="lazy"
   class="img-fluid box-shadow rounded-1" 
   alt="Free Bootstrap Admin Template" 
-    srcset="/images/templates/coreui_free_1440_hu51ccbe60a719f92651145ff57c4cfa5b_500100_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_free_1440_hu51ccbe60a719f92651145ff57c4cfa5b_500100_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_free_1440_hu51ccbe60a719f92651145ff57c4cfa5b_500100_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_free_1440_hu51ccbe60a719f92651145ff57c4cfa5b_500100_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_free_1440_hu51ccbe60a719f92651145ff57c4cfa5b_500100_1360x0_resize_q90_h2_box_3.webp"
+    srcset="/images/templates/coreui_free_light_dark_hubc05bced0a66f59cba14845b75b88f8c_123315_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_free_light_dark_hubc05bced0a66f59cba14845b75b88f8c_123315_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_free_light_dark_hubc05bced0a66f59cba14845b75b88f8c_123315_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_free_light_dark_hubc05bced0a66f59cba14845b75b88f8c_123315_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/templates/coreui_free_light_dark_hubc05bced0a66f59cba14845b75b88f8c_123315_1360x0_resize_q90_h2_box_3.webp"
 /></a></div>
         </div>
-      </div><div class="col-md-6 col-lg-4 mb-4">
+      </div><div class="col-md-6 col-lg-4  mb-4">
         <div class="card p-3 border-0 rounded-1 box-shadow">
           <div class="card-body p-0">
             <h3 class="f-20">Bootstrap Dashboard Template</h3>
-            <div class="f-18 text-muted mb-4">Default theme v3</div>
-            <a href="/product/bootstrap-dashboard-template/?theme=default-v3" >
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="img-fluid box-shadow rounded-1" 
-  alt="Bootstrap Admin Dashboard Template" 
-    srcset="/images/templates/coreui_pro_default_v3_1440_hua3e30926808b30356647ee3b81d0cc1d_922042_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_default_v3_1440_hua3e30926808b30356647ee3b81d0cc1d_922042_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_default_v3_1440_hua3e30926808b30356647ee3b81d0cc1d_922042_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_default_v3_1440_hua3e30926808b30356647ee3b81d0cc1d_922042_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_pro_default_v3_1440_hua3e30926808b30356647ee3b81d0cc1d_922042_1360x0_resize_q90_h2_box_3.webp"
-/></a></div>
-        </div>
-      </div><div class="col-md-6 col-lg-4 mb-4">
-        <div class="card p-3 border-0 rounded-1 box-shadow">
-          <div class="card-body p-0">
-            <h3 class="f-20">Bootstrap Dashboard Template</h3>
-            <div class="f-18 text-muted mb-4">Light theme v3</div>
-            <a href="/product/bootstrap-dashboard-template/?theme=light-v3" >
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="img-fluid box-shadow rounded-1" 
-  alt="Bootstrap Admin Dashboard Template" 
-    srcset="/images/templates/coreui_pro_light_v3_1440_hu2fe99d9e6116db425ae03b9265dbf631_628812_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_light_v3_1440_hu2fe99d9e6116db425ae03b9265dbf631_628812_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_light_v3_1440_hu2fe99d9e6116db425ae03b9265dbf631_628812_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_light_v3_1440_hu2fe99d9e6116db425ae03b9265dbf631_628812_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_pro_light_v3_1440_hu2fe99d9e6116db425ae03b9265dbf631_628812_1360x0_resize_q90_h2_box_3.webp"
-/></a></div>
-        </div>
-      </div><div class="col-md-6 col-lg-4 mb-4">
-        <div class="card p-3 border-0 rounded-1 box-shadow">
-          <div class="card-body p-0">
-            <h3 class="f-20">Bootstrap Dashboard Template</h3>
-            <div class="f-18 text-muted mb-4">Default theme</div>
+            <div class="f-18 text-muted mb-4">Default theme (light & dark mode)</div>
             <a href="/product/bootstrap-dashboard-template/?theme=default" >
 
 
@@ -405,16 +405,16 @@ X-Timer: S1710359353.443813,VS0,VE104
 <img
   loading="lazy"
   class="img-fluid box-shadow rounded-1" 
-  alt="Bootstrap Admin Dashboard Template" 
-    srcset="/images/templates/coreui_pro_default_1440_hu6dbb040fb9ec2b5f615cbddc25d8523e_711744_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_default_1440_hu6dbb040fb9ec2b5f615cbddc25d8523e_711744_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_default_1440_hu6dbb040fb9ec2b5f615cbddc25d8523e_711744_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_default_1440_hu6dbb040fb9ec2b5f615cbddc25d8523e_711744_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_pro_default_1440_hu6dbb040fb9ec2b5f615cbddc25d8523e_711744_1360x0_resize_q90_h2_box_3.webp"
+  alt="Bootstrap Admin Template" 
+    srcset="/images/templates/coreui_pro_default_light_dark_hua9987f40d94d59c29f13b98095e94564_454116_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_default_light_dark_hua9987f40d94d59c29f13b98095e94564_454116_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_default_light_dark_hua9987f40d94d59c29f13b98095e94564_454116_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_default_light_dark_hua9987f40d94d59c29f13b98095e94564_454116_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/templates/coreui_pro_default_light_dark_hua9987f40d94d59c29f13b98095e94564_454116_1360x0_resize_q90_h2_box_3.webp"
 /></a></div>
         </div>
-      </div><div class="col-md-6 col-lg-4 mb-4">
+      </div><div class="col-md-6 col-lg-4  mb-4">
         <div class="card p-3 border-0 rounded-1 box-shadow">
           <div class="card-body p-0">
             <h3 class="f-20">Bootstrap Dashboard Template</h3>
-            <div class="f-18 text-muted mb-4">Light theme</div>
+            <div class="f-18 text-muted mb-4">Light theme (light & dark mode)</div>
             <a href="/product/bootstrap-dashboard-template/?theme=light" >
 
 
@@ -426,17 +426,17 @@ X-Timer: S1710359353.443813,VS0,VE104
 <img
   loading="lazy"
   class="img-fluid box-shadow rounded-1" 
-  alt="Bootstrap Admin Dashboard Template" 
-    srcset="/images/templates/coreui_pro_light_1440_huc3e29f9dfaaa7dd1889fe6463fc3a415_709317_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_light_1440_huc3e29f9dfaaa7dd1889fe6463fc3a415_709317_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_light_1440_huc3e29f9dfaaa7dd1889fe6463fc3a415_709317_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_light_1440_huc3e29f9dfaaa7dd1889fe6463fc3a415_709317_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_pro_light_1440_huc3e29f9dfaaa7dd1889fe6463fc3a415_709317_1360x0_resize_q90_h2_box_3.webp"
+  alt="Bootstrap Admin Template" 
+    srcset="/images/templates/coreui_pro_light_light_dark_hu2bf342018d6b378c93277fc29a10cbd9_456041_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_light_light_dark_hu2bf342018d6b378c93277fc29a10cbd9_456041_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_light_light_dark_hu2bf342018d6b378c93277fc29a10cbd9_456041_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_light_light_dark_hu2bf342018d6b378c93277fc29a10cbd9_456041_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/templates/coreui_pro_light_light_dark_hu2bf342018d6b378c93277fc29a10cbd9_456041_1360x0_resize_q90_h2_box_3.webp"
 /></a></div>
         </div>
-      </div><div class="col-md-6 col-lg-4 mb-4">
+      </div><div class="col-md-6 col-lg-4  mb-4">
         <div class="card p-3 border-0 rounded-1 box-shadow">
           <div class="card-body p-0">
             <h3 class="f-20">Bootstrap Dashboard Template</h3>
-            <div class="f-18 text-muted mb-4">Dark theme</div>
-            <a href="/product/bootstrap-dashboard-template/?theme=dark" >
+            <div class="f-18 text-muted mb-4">Modern theme (light & dark mode)</div>
+            <a href="/product/bootstrap-dashboard-template/?theme=modern" >
 
 
   
@@ -447,9 +447,30 @@ X-Timer: S1710359353.443813,VS0,VE104
 <img
   loading="lazy"
   class="img-fluid box-shadow rounded-1" 
-  alt="Bootstrap Admin Dashboard Template" 
-    srcset="/images/templates/coreui_pro_dark_1440_hu7b8346078cbffa9efac72f6adc2dd134_694951_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_dark_1440_hu7b8346078cbffa9efac72f6adc2dd134_694951_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_dark_1440_hu7b8346078cbffa9efac72f6adc2dd134_694951_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_dark_1440_hu7b8346078cbffa9efac72f6adc2dd134_694951_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/templates/coreui_pro_dark_1440_hu7b8346078cbffa9efac72f6adc2dd134_694951_1360x0_resize_q90_h2_box_3.webp"
+  alt="Bootstrap Admin Template" 
+    srcset="/images/templates/coreui_pro_modern_light_dark_hu01d357f9e62d5fb83cb0da2da56db3ad_621798_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_modern_light_dark_hu01d357f9e62d5fb83cb0da2da56db3ad_621798_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_modern_light_dark_hu01d357f9e62d5fb83cb0da2da56db3ad_621798_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_modern_light_dark_hu01d357f9e62d5fb83cb0da2da56db3ad_621798_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/templates/coreui_pro_modern_light_dark_hu01d357f9e62d5fb83cb0da2da56db3ad_621798_1360x0_resize_q90_h2_box_3.webp"
+/></a></div>
+        </div>
+      </div><div class="col-md-6 col-lg-4  mb-4">
+        <div class="card p-3 border-0 rounded-1 box-shadow">
+          <div class="card-body p-0">
+            <h3 class="f-20">Bootstrap Dashboard Template</h3>
+            <div class="f-18 text-muted mb-4">Bright theme (light & dark mode)</div>
+            <a href="/product/bootstrap-dashboard-template/?theme=bright" >
+
+
+  
+  
+  
+  
+
+<img
+  loading="lazy"
+  class="img-fluid box-shadow rounded-1" 
+  alt="Bootstrap Admin Template" 
+    srcset="/images/templates/coreui_pro_bright_light_dark_hua8600d35da569cdc62d4bf24b03e9a5b_405808_480x0_resize_q90_h2_box_3.webp 480w, /images/templates/coreui_pro_bright_light_dark_hua8600d35da569cdc62d4bf24b03e9a5b_405808_768x0_resize_q90_h2_box_3.webp 768w, /images/templates/coreui_pro_bright_light_dark_hua8600d35da569cdc62d4bf24b03e9a5b_405808_1024x0_resize_q90_h2_box_3.webp 1024w, /images/templates/coreui_pro_bright_light_dark_hua8600d35da569cdc62d4bf24b03e9a5b_405808_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/templates/coreui_pro_bright_light_dark_hua8600d35da569cdc62d4bf24b03e9a5b_405808_1360x0_resize_q90_h2_box_3.webp"
 /></a></div>
         </div>
       </div></div>  
@@ -505,45 +526,6 @@ Easy to use</h3>
 No design skills required</h3>
         <p class="f-16">CoreUI Bootstrap Panel Template is based on CoreUI Components Library with beautifully handcrafted UI Components designed by team of our experienced designers. You don&#39;t have to be a designer to create beautiful responsive apps.</p>
       </div></div>
-  </div>
-</section><section id="frameworks" class="py-7">
-  <div class="container-lg text-center">
-    <h2 class="section-title">CoreUI supports most popular frameworks.</h2>
-    <div class="section-description">Learn more about dedicated versions for:</div>
-    <div class="row mt-5">
-      <div class="col-6 col-sm-4 col-md-3">
-        <a href="/bootstrap/" class="no-decoration" aria-label="CoreUI for Bootstrap">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.bb-a{fill:none;}.bb-b{fill:url(#bb-a);}.bb-c{opacity:0.5;}.bb-d{clip-path:url(#bb-d);}.bb-e{fill:#53057c;}.bb-f{filter:url(#bb-b);}</style><linearGradient id="bb-a" x1="0.981" y1="1" x2="0.238" y2="0.114" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#910ac3"/><stop offset="1" stop-color="#c884e1"/></linearGradient><filter id="bb-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="bb-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="bb-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="bb-d"><path class="bb-a" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-26 -13.934)"/></clipPath></defs><g transform="translate(-14 -3.934)"><g class="bb-f" transform="matrix(1, 0, 0, 1, 14, 3.93)"><path class="bb-b" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-14 -3.93)"/></g><g class="bb-c" transform="translate(26 13.934)"><g class="bb-d"><g transform="translate(-4.7 22.907)"><path class="bb-e" d="M121.318,52.5a6.628,6.628,0,0,1,2.115,4.917v83.006a6.624,6.624,0,0,1-2.115,4.917,7.038,7.038,0,0,1-5.088,2.058H33.681a7.033,7.033,0,0,1-5.088-2.058,6.618,6.618,0,0,1-2.115-4.917V57.416A6.621,6.621,0,0,1,28.593,52.5a7.033,7.033,0,0,1,5.088-2.058H116.23A7.038,7.038,0,0,1,121.318,52.5ZM85.931,130.475a19.128,19.128,0,0,0,19.208-19.093,18.948,18.948,0,0,0-2.458-9.49,18.369,18.369,0,0,0-6.689-6.861,18.365,18.365,0,0,0,2.687-5.144,19.241,19.241,0,0,0-4.631-19.608,18.432,18.432,0,0,0-13.606-5.66H48.43v65.856Zm2.744-46.648a8.2,8.2,0,0,1-8.232,8.232H59.407V75.595H80.443a8.2,8.2,0,0,1,8.232,8.232Zm-2.744,19.322a7.937,7.937,0,0,1,5.831,2.4,7.806,7.806,0,0,1,2.4,5.717,8.2,8.2,0,0,1-8.232,8.232H59.407v-16.35Z" transform="translate(-26.478 -50.441)"/></g></g></g></g></svg>
-          <div class="text-bootstrap f-24">
-            Bootstrap 5
-          </div>
-        </a>
-      </div>
-      <div class="col-6 col-sm-4 col-md-3">
-        <a href="/angular/" class="no-decoration" aria-label="CoreUI for Angular">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.ba-a{fill:none;}.ba-b{fill:url(#ba-a);}.ba-c{opacity:0.5;}.ba-d{clip-path:url(#ba-d);}.ba-e{fill:#b50d31;}.ba-f{filter:url(#ba-b);}</style><linearGradient id="ba-a" x1="1" y1="1" x2="0.087" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#cf2f4c"/><stop offset="1" stop-color="#e797a5"/></linearGradient><filter id="ba-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="ba-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="ba-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="ba-d"><path class="ba-a" d="M463.47,44.208,414.529,15.951a15.061,15.061,0,0,0-15.059,0L350.53,44.208A15.1,15.1,0,0,0,343,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L463.47,126.8A15.1,15.1,0,0,0,471,113.761V57.249A15.1,15.1,0,0,0,463.47,44.208Z" transform="translate(-343 -13.934)"/></clipPath></defs><g transform="translate(-331 -3.934)"><g class="ba-f" transform="matrix(1, 0, 0, 1, 331, 3.93)"><path class="ba-b" d="M463.47,44.208,414.529,15.951a15.061,15.061,0,0,0-15.059,0L350.53,44.208A15.1,15.1,0,0,0,343,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L463.47,126.8A15.1,15.1,0,0,0,471,113.761V57.249A15.1,15.1,0,0,0,463.47,44.208Z" transform="translate(-331 -3.93)"/></g><g class="ba-c" transform="translate(343 13.934)"><g class="ba-d"><g transform="translate(-10.944 37.622)"><path class="ba-e" d="M402.987,155.075h17.906l-8.65-23.207Z" transform="translate(-354.404 -95.492)"/><path class="ba-e" d="M436.792,93.917,383.887,74.148a4.017,4.017,0,0,0-2.812,0L328.169,93.917a4.017,4.017,0,0,0-2.586,4.217l7.586,66.709a4.018,4.018,0,0,0,2.089,3.085l45.318,24.38a4.017,4.017,0,0,0,3.807,0l45.319-24.38a4.02,4.02,0,0,0,2.089-3.085l7.587-66.709A4.017,4.017,0,0,0,436.792,93.917ZM402.529,161.6l-5.99-16.071H369.334L362.924,161.6H349.948l26.439-66.292h14.3L415.393,161.6Z" transform="translate(-325.558 -73.894)"/></g></g></g></g></svg>
-          <div class="text-angular f-24">
-            Angular
-          </div>
-        </a>
-      </div>
-      <div class="col-6 col-sm-4 col-md-3">
-        <a href="/react/" class="no-decoration" aria-label="CoreUI for React">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.br-a{fill:none;}.br-b{fill:url(#br-a);}.br-c{opacity:0.5;}.br-d{clip-path:url(#br-d);}.br-e{fill:#007fbf;}.br-f{filter:url(#br-b);}</style><linearGradient id="br-a" x1="0.269" y1="0.195" x2="0.902" y2="1.03" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#00a1ff"/><stop offset="1" stop-color="#80d0ff"/></linearGradient><filter id="br-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="br-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="br-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="br-d"><path class="br-a" d="M763.47,44.208,714.529,15.951a15.061,15.061,0,0,0-15.059,0L650.53,44.208A15.1,15.1,0,0,0,643,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L763.47,126.8A15.1,15.1,0,0,0,771,113.761V57.249A15.1,15.1,0,0,0,763.47,44.208Z" transform="translate(-643 -13.934)"/></clipPath></defs><g transform="translate(-631 -3.934)"><g class="br-f" transform="matrix(1, 0, 0, 1, 631, 3.93)"><path class="br-b" d="M763.47,44.208,714.529,15.951a15.061,15.061,0,0,0-15.059,0L650.53,44.208A15.1,15.1,0,0,0,643,57.249v56.512a15.1,15.1,0,0,0,7.53,13.042l48.94,28.256a15.061,15.061,0,0,0,15.059,0L763.47,126.8A15.1,15.1,0,0,0,771,113.761V57.249A15.1,15.1,0,0,0,763.47,44.208Z" transform="translate(-631 -3.93)"/></g><g class="br-c" transform="translate(643 13.934)"><g class="br-d"><g transform="translate(16.446 41.096)"><path class="br-e" d="M776.688,115.06c-.924-.363-1.88-.714-2.857-1.054q.291-1.519.516-3c2.175-14.467-.912-24.908-8.692-29.4a16.592,16.592,0,0,0-8.41-2.174c-7.009,0-15.184,3.9-23.738,11.293-8.553-7.4-16.729-11.293-23.738-11.293a16.591,16.591,0,0,0-8.41,2.174c-7.78,4.493-10.867,14.933-8.692,29.4.147.981.326,1.985.52,3q-1.463.508-2.861,1.055c-13.616,5.35-21.115,13.244-21.115,22.227s7.5,16.878,21.115,22.227q1.387.545,2.857,1.055-.291,1.519-.516,3c-2.175,14.467.912,24.908,8.692,29.4a16.585,16.585,0,0,0,8.41,2.175c7.009,0,15.184-3.9,23.738-11.293,8.554,7.4,16.729,11.293,23.738,11.293a16.586,16.586,0,0,0,8.41-2.175c7.78-4.492,10.867-14.933,8.692-29.4-.148-.981-.322-1.986-.516-3q1.462-.508,2.857-1.053c13.616-5.35,21.115-13.244,21.115-22.227S790.3,120.41,776.688,115.06Zm-19.443-27.4a8.47,8.47,0,0,1,4.3,1.072c4.58,2.645,6.282,10.317,4.668,21.048a89.428,89.428,0,0,1-4.707,17.542q-1.255-2.36-2.6-4.7a135.349,135.349,0,0,0-19.393-26.2C746.212,90.754,752.447,87.661,757.245,87.661Zm.052,49.628c-1.655,3.508-3.5,7.038-5.525,10.543-2.014,3.489-4.154,6.868-6.365,10.058-3.868.321-7.849.487-11.9.487-4.018,0-8.008-.166-11.9-.49-2.214-3.194-4.349-6.566-6.364-10.054s-3.862-7.021-5.525-10.547c1.655-3.507,3.5-7.037,5.525-10.542,2.013-3.486,4.154-6.866,6.365-10.057,3.867-.321,7.849-.487,11.9-.487,4.02,0,8.01.166,11.9.49,2.206,3.182,4.334,6.544,6.361,10.054C753.778,130.219,755.632,133.761,757.3,137.289ZM705.474,88.733a8.47,8.47,0,0,1,4.3-1.072c5.3,0,12.348,3.771,19.853,10.619a97.649,97.649,0,0,1,9.258,9.783q-2.674-.092-5.373-.095a136.168,136.168,0,0,0-32.389,3.693c-.114-.634-.22-1.262-.312-1.88C699.192,99.05,700.894,91.378,705.474,88.733ZM695.12,152.525q-.911-.328-1.785-.67c-10.1-3.969-15.895-9.278-15.895-14.568s5.793-10.6,15.895-14.568a89.442,89.442,0,0,1,17.545-4.694q-1.415,2.265-2.765,4.6A136.121,136.121,0,0,0,695.12,152.525Zm14.65,34.389a8.47,8.47,0,0,1-4.3-1.072c-4.58-2.645-6.282-10.317-4.668-21.048a89.482,89.482,0,0,1,4.707-17.543q1.256,2.361,2.6,4.7c2.507,4.343,5.2,8.523,7.991,12.426a122.238,122.238,0,0,0,11.4,13.779C720.8,183.821,714.567,186.914,709.769,186.914Zm51.771-1.072a8.473,8.473,0,0,1-4.3,1.072c-5.3,0-12.348-3.771-19.852-10.619a97.437,97.437,0,0,1-9.26-9.783q2.675.092,5.375.095a136.163,136.163,0,0,0,32.388-3.693c.114.634.22,1.264.313,1.88C767.822,175.526,766.121,183.2,761.54,185.842Zm12.139-33.987a89.441,89.441,0,0,1-17.545,4.694q1.414-2.265,2.765-4.6a136.137,136.137,0,0,0,13-29.9c.607.218,1.205.44,1.785.668,10.1,3.969,15.895,9.278,15.895,14.568S783.78,147.887,773.679,151.855Z" transform="translate(-669.211 -79.431)"/><path class="br-e" d="M765.232,154.323A10.866,10.866,0,1,0,776.1,165.189,10.878,10.878,0,0,0,765.232,154.323Z" transform="translate(-700.935 -107.332)"/></g></g></g></g></svg>
-          <div class="text-react f-24">
-            React.js
-          </div>
-        </a>
-      </div>
-      <div class="col-6 col-sm-4 col-md-3">
-        <a href="/vue/" class="no-decoration" aria-label="CoreUI for Vue">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="167.142" viewBox="0 0 152 167.142"><defs><style>.bv-a{fill:none;}.bv-b{fill:url(#bv-a);}.bv-c{opacity:0.5;}.bv-d{clip-path:url(#bv-d);}.bv-e{fill:#0ca378;}.bv-f{filter:url(#bv-b);}</style><linearGradient id="bv-a" x1="0.852" y1="1.012" x2="0.278" y2="0.177" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#8ddec9"/><stop offset="1" stop-color="#1bbd93"/></linearGradient><filter id="bv-b" x="0" y="0" width="152" height="167.142" filterUnits="userSpaceOnUse"><feOffset dy="2" input="SourceAlpha"/><feGaussianBlur stdDeviation="4" result="bv-c"/><feFlood flood-color="#3c4b64" flood-opacity="0.349"/><feComposite operator="in" in2="bv-c"/><feComposite in="SourceGraphic"/></filter><clipPath id="bv-d"><path class="bv-a" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-26 -13.934)"/></clipPath></defs><g transform="translate(-14 -3.934)"><g class="bv-f" transform="matrix(1, 0, 0, 1, 14, 3.93)"><path class="bv-b" d="M146.47,44.208,97.529,15.951a15.061,15.061,0,0,0-15.059,0L33.53,44.208A15.1,15.1,0,0,0,26,57.249v56.512A15.1,15.1,0,0,0,33.53,126.8l48.94,28.256a15.061,15.061,0,0,0,15.059,0L146.47,126.8A15.1,15.1,0,0,0,154,113.761V57.249A15.1,15.1,0,0,0,146.47,44.208Z" transform="translate(-14 -3.93)"/></g><g class="bv-c" transform="translate(26 13.934)"><g class="bv-d"><path class="bv-e" d="M168.8,60.945h17.65l-50.165,92.9h-9.289l-52.023-92.9H92.623l39.132,74.2Zm-37.275,55.971L102.144,60.945H117.7l13.934,26.011,11.5-26.011h16.373Z" transform="translate(-44.244 -31.448)"/></g></g></g></svg>
-          <div class="text-vue f-24">
-            Vue.js
-          </div>
-        </a>
-      </div>
-    </div>
   </div>
 </section><section class="banner-dark-hex">
   <div class="container">
@@ -769,131 +751,139 @@ No design skills required</h3>
     <div class="section-description">Create data-rich responsive web apps, and speed up development time by up to 50%</div>
     <div class="components-list mt-5">
       <ul class="list-unstyled"><li class="mb-2 text-uppercase text-yellow"><strong>Components</strong></li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/accordion/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Accordion</a>
+                <a href="https://coreui.io/bootstrap/docs/components/accordion/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Accordion</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/alerts/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Alert</a>
+                <a href="https://coreui.io/bootstrap/docs/components/alerts/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Alert</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/badge/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Badge</a>
+                <a href="https://coreui.io/bootstrap/docs/components/badge/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Badge</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/breadcrumb/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Breadcrumb</a>
+                <a href="https://coreui.io/bootstrap/docs/components/breadcrumb/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Breadcrumb</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/buttons/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Buttons</a>
+                <a href="https://coreui.io/bootstrap/docs/components/buttons/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Buttons</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/button-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Button group</a>
+                <a href="https://coreui.io/bootstrap/docs/components/button-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Button group</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/callout/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Callout</a>
+                <a href="https://coreui.io/bootstrap/docs/components/callout/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Callout</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/card/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Cards</a>
+                <a href="https://coreui.io/bootstrap/docs/components/card/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Cards</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/carousel/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Carousel</a>
+                <a href="https://coreui.io/bootstrap/docs/components/carousel/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Carousel</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/close-button/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Close Button</a>
+                <a href="https://coreui.io/bootstrap/docs/components/close-button/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Close Button</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/collapse/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Collapse</a>
+                <a href="https://coreui.io/bootstrap/docs/components/collapse/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Collapse</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/dropdowns/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Dropdown</a>
+                <a href="https://coreui.io/bootstrap/docs/components/dropdowns/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Dropdown</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/footer/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Footer</a>
+                <a href="https://coreui.io/bootstrap/docs/components/footer/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Footer</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/header/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Header</a>
+                <a href="https://coreui.io/bootstrap/docs/components/header/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Header</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/list-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">List Group</a>
+                <a href="https://coreui.io/bootstrap/docs/components/list-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">List Group</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/loading-buttons/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Loading Button</a>
+                <a href="https://coreui.io/bootstrap/docs/components/loading-buttons/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Loading Button</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/modal/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Modal</a>
+                <a href="https://coreui.io/bootstrap/docs/components/modal/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Modal</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/navs-tabs/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Navs &amp; tabs</a>
+                <a href="https://coreui.io/bootstrap/docs/components/navs-tabs/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Navs &amp; tabs</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/navbar/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Navbar</a>
+                <a href="https://coreui.io/bootstrap/docs/components/navbar/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Navbar</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/offcanvas/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Offcanvas</a>
+                <a href="https://coreui.io/bootstrap/docs/components/offcanvas/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Offcanvas</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/pagination/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Pagination</a>
+                <a href="https://coreui.io/bootstrap/docs/components/pagination/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Pagination</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/popovers/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Popovers</a>
+                <a href="https://coreui.io/bootstrap/docs/components/popovers/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Popovers</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/progress/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Progress</a>
+                <a href="https://coreui.io/bootstrap/docs/components/progress/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Progress</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/sidebar/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Sidebar</a>
+                <a href="https://coreui.io/bootstrap/docs/components/sidebar/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Sidebar</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/spinners/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Spinner</a>
+                <a href="https://coreui.io/bootstrap/docs/components/spinners/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Spinner</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/content/tables/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Table</a>
+                <a href="https://coreui.io/bootstrap/docs/content/tables/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Table</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/components/toasts/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Toast</a>
+                <a href="https://coreui.io/bootstrap/docs/components/toasts/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Toast</a>
               </li><li  class="mb-3">
-                <a href="https://coreui.io/docs/components/tooltips/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Tooltip</a>
+                <a href="https://coreui.io/bootstrap/docs/components/tooltips/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Tooltip</a>
               </li><li style="break-after: column;">&nbsp;</li><li class="mb-2 text-uppercase text-yellow"><strong>Forms</strong></li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/checks-radios/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Checkbox</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/checks-radios/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Checkbox</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/date-picker/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Date Picker</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/date-picker/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Date Picker</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/date-range-picker/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Date Range Picker</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/date-range-picker/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Date Range Picker</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/floating-labels/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Floating Labels</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/floating-labels/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Floating Labels</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/form-control/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Input</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/form-control/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Input</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/input-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Input Group</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/input-group/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Input Group</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/multi-select/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Multi Select</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/multi-select/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Multi Select</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/range/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Range</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/range/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Range</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/select/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Select</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/select/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Select</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/form-control/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Textarea</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/form-control/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Textarea</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/forms/time-picker/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Time Picker</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/time-picker" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Time Picker</a>
               </li><li  class="mb-3">
-                <a href="https://coreui.io/docs/forms/validation/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Validation</a>
+                <a href="https://coreui.io/bootstrap/docs/forms/validation/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Validation</a>
               </li><li class="mb-2 text-uppercase text-yellow"><strong>Helpers</strong></li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/clearfix/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Clearfix</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/clearfix/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Clearfix</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/colored-links/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Colored links</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/colored-links/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Colored links</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/position/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Position</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/position/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Position</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/ratio/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Ratio</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/ratio/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Ratio</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/stretched-link/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Stretched link</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/stretched-link/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Stretched link</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/helpers/text-truncation/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Text truncation</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/text-truncation/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Text truncation</a>
               </li><li  class="mb-3">
-                <a href="https://coreui.io/docs/helpers/visually-hidden/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Visually hidden</a>
+                <a href="https://coreui.io/bootstrap/docs/helpers/visually-hidden/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Visually hidden</a>
+              </li><li class="mb-2 text-uppercase text-yellow"><strong>Plugins</strong></li><li  class="mb-2">
+                <a href="https://coreui.io/demos/bootstrap/5.0/default/calendar.html" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Calendar</a>
+              </li><li  class="mb-2">
+                <a href="https://coreui.io/demos/bootstrap/5.0/default/charts.html" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Chart.js</a>
+              </li><li  class="mb-2">
+                <a href="https://coreui.io/demos/bootstrap/5.0/default/datatables.html" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">DataTables</a>
+              </li><li  class="mb-3">
+                <a href="https://coreui.io/demos/bootstrap/5.0/default/google-maps.html" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Google Maps</a>
               </li><li class="mb-2 text-uppercase text-yellow"><strong>Utilities</strong></li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/background/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Background</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/background/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Background</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/borders/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Borders</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/borders/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Borders</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/colors/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Colors</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/colors/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Colors</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/display/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Display property</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/display/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Display property</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/flex/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Flex</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/flex/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Flex</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/float/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Float</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/float/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Float</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/interactions/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Interactions</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/interactions/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Interactions</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/opacity/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Opacity</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/opacity/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Opacity</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/overflow/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Overflow</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/overflow/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Overflow</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/position/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Position</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/position/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Position</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/shadows/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Shadows</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/shadows/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Shadows</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/sizing/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Sizing</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/sizing/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Sizing</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/spacing/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Spacing</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/spacing/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Spacing</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/text/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Text</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/text/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Text</a>
               </li><li  class="mb-2">
-                <a href="https://coreui.io/docs/utilities/vertical-align/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Vertical alignment</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/vertical-align/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Vertical alignment</a>
               </li><li  class="mb-3">
-                <a href="https://coreui.io/docs/utilities/visibility/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Visibility</a>
+                <a href="https://coreui.io/bootstrap/docs/utilities/visibility/" style="color:#3c4b64; font-weight: 500; font-family: Barlow Semi Condensed,sans-serif;">Visibility</a>
               </li></ul>
     </div>
   </div>
@@ -905,7 +895,7 @@ No design skills required</h3>
   <div class="container">
     <div class="row"><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/what-is-double-question-mark-in-javascript/">What is Double Question Mark in JavaScript?</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-generate-a-random-number-in-javascript/">Javascript Random - How to Generate a Random Number in JavaScript?</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -923,9 +913,9 @@ No design skills required</h3>
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Tuesday, March 12, 2024
+Tuesday, April 16, 2024
           </div>
-          <a href="https://coreui.io/blog/what-is-double-question-mark-in-javascript/">
+          <a href="https://coreui.io/blog/how-to-generate-a-random-number-in-javascript/">
             
 
 
@@ -937,20 +927,20 @@ Tuesday, March 12, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="What is Double Question Mark in JavaScript?" 
-    srcset="/images/blog/what-is-double-question-mark-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_76815_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/what-is-double-question-mark-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_76815_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/what-is-double-question-mark-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_76815_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/what-is-double-question-mark-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_76815_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/blog/what-is-double-question-mark-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_76815_1360x0_resize_q90_h2_box_3.webp"
+  alt="Javascript Random - How to Generate a Random Number in JavaScript?" 
+    srcset="/images/blog/how-to-generate-a-random-number-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96174_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-generate-a-random-number-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96174_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-generate-a-random-number-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96174_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-generate-a-random-number-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96174_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/blog/how-to-generate-a-random-number-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96174_1360x0_resize_q90_h2_box_3.webp"
 />
           </a>
           <p>
-            <p>JavaScript is a dynamic programming language rich in features that empower developers to craft interactive and efficient web applications. Among its plethora of tools and operators, the …</p>
+            <p>JavaScript offers various ways to generate random numbers, which are essential in many programming scenarios like gaming, simulations, and anytime you need some unpredictability in your …</p>
           </p>
-          <a href="https://coreui.io/blog/what-is-double-question-mark-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/blog/how-to-generate-a-random-number-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-declare-the-optional-functions-parameters-in-javascript/">How to declare the optional function parameters in JavaScript?</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-capitalize-the-first-letter-in-javascript/">How to capitalize the first letter in JavaScript?</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -968,9 +958,9 @@ Tuesday, March 12, 2024
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Tuesday, March 5, 2024
+Tuesday, April 9, 2024
           </div>
-          <a href="https://coreui.io/blog/how-to-declare-the-optional-functions-parameters-in-javascript/">
+          <a href="https://coreui.io/blog/how-to-capitalize-the-first-letter-in-javascript/">
             
 
 
@@ -982,20 +972,20 @@ Tuesday, March 5, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="How to declare the optional function parameters in JavaScript?" 
-    srcset="/images/blog/_huebd3bf44e9d3f5de12b412fa652b85bb_82602_7d1adcebfaaa3d1840ce9067365489e1.webp 480w, /images/blog/_huebd3bf44e9d3f5de12b412fa652b85bb_82602_e03b9f660d2d3d533cc9b3f010cdd4f1.webp 768w, /images/blog/_huebd3bf44e9d3f5de12b412fa652b85bb_82602_51015354f8543e27438388ffdc58e9bf.webp 1024w, /images/blog/_huebd3bf44e9d3f5de12b412fa652b85bb_82602_c896636fef9d84fffedadfc39edbed32.webp 1366w"  
-  src="/images/blog/_huebd3bf44e9d3f5de12b412fa652b85bb_82602_d49badf4030adb91ca79d18a81c35c2c.webp"
+  alt="How to capitalize the first letter in JavaScript?" 
+    srcset="/images/blog/how-to-capitalize-the-first-letter-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94538_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-capitalize-the-first-letter-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94538_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-capitalize-the-first-letter-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94538_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-capitalize-the-first-letter-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94538_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/blog/how-to-capitalize-the-first-letter-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94538_1360x0_resize_q90_h2_box_3.webp"
 />
           </a>
           <p>
-            <p>JavaScript is a versatile language that offers various methods to enhance the flexibility and adaptability of your code, especially when dealing with function parameters. Optional parameters …</p>
+            <p>In the vast landscape of web development, manipulating strings is akin to a daily ritual. Among the myriad of manipulations, capitalizing the first letter of a string stands out for its …</p>
           </p>
-          <a href="https://coreui.io/blog/how-to-declare-the-optional-functions-parameters-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/blog/how-to-capitalize-the-first-letter-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-merge-objects-in-javascript/">How to Merge Objects in JavaScript</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-concatenate-a-strings-in-javascript/">How to concatenate a strings in JavaScript?</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -1013,9 +1003,9 @@ Tuesday, March 5, 2024
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Tuesday, February 27, 2024
+Thursday, April 4, 2024
           </div>
-          <a href="https://coreui.io/blog/how-to-merge-objects-in-javascript/">
+          <a href="https://coreui.io/blog/how-to-concatenate-a-strings-in-javascript/">
             
 
 
@@ -1027,15 +1017,15 @@ Tuesday, February 27, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="How to Merge Objects in JavaScript" 
-    srcset="/images/blog/how-to-merge-objects-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_75024_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-merge-objects-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_75024_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-merge-objects-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_75024_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-merge-objects-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_75024_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/blog/how-to-merge-objects-in-javascript_huebd3bf44e9d3f5de12b412fa652b85bb_75024_1360x0_resize_q90_h2_box_3.webp"
+  alt="How to concatenate a strings in JavaScript?" 
+    srcset="/images/blog/how-to-concatenate-a-strings-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94725_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-concatenate-a-strings-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94725_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-concatenate-a-strings-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94725_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-concatenate-a-strings-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94725_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/blog/how-to-concatenate-a-strings-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_94725_1360x0_resize_q90_h2_box_3.webp"
 />
           </a>
           <p>
-            <p>When manipulating data in JavaScript, one of the most common challenges developers face is merging objects. Whether you&rsquo;re looking to combine properties or need to weave together …</p>
+            <p>String manipulation, particularly string concatenation, is a cornerstone of JavaScript programming. This guide delves deep into the various techniques for concatenating strings, offering …</p>
           </p>
-          <a href="https://coreui.io/blog/how-to-merge-objects-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/blog/how-to-concatenate-a-strings-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div></div>
@@ -1049,7 +1039,7 @@ Tuesday, February 27, 2024
   <div class="container">
     <div class="row"><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/vue/v5.0.0-rc.2/">CoreUI for Vue v5.0.0-rc.2</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/angular/v5.0.2/">CoreUI for Angular v5.0.2</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -1067,9 +1057,9 @@ Tuesday, February 27, 2024
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Sunday, March 10, 2024
+Monday, April 15, 2024
           </div>
-          <a href="https://coreui.io/changelog/coreui/vue/v5.0.0-rc.2/">
+          <a href="https://coreui.io/changelog/coreui/angular/v5.0.2/">
             
 
 
@@ -1081,20 +1071,20 @@ Sunday, March 10, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="CoreUI for Vue v5.0.0-rc.2" 
-    srcset="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_480x0_resize_q90_h2_box.webp 480w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_768x0_resize_q90_h2_box.webp 768w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1366x0_resize_q90_h2_box.webp 1366w"  
-  src="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1360x0_resize_q90_h2_box.webp"
+  alt="CoreUI for Angular v5.0.2" 
+    srcset="/images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_480x0_resize_q90_h2_box.webp 480w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_768x0_resize_q90_h2_box.webp 768w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1366x0_resize_q90_h2_box.webp 1366w"  
+  src="/images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1360x0_resize_q90_h2_box.webp"
 />
           </a>
           <p>
-            <p>We are delighted to present CoreUI for Vue v5.0.0-rc.2, our latest update as of March 10, 2024. This version focuses on refining the CoreUI components for Vue, providing style improvements …</p>
+            We are pleased to announce the release of CoreUI for Angular v5.0.2, dated April 15, 2024. This update addresses a specific issue to enhance the functionality and compatibility of the CoreUI …
           </p>
-          <a href="https://coreui.io/changelog/coreui/vue/v5.0.0-rc.2/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/changelog/coreui/angular/v5.0.2/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/vue-pro/v5.0.0-rc.2/">CoreUI PRO for Vue v5.0.0-rc.2</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/coreui-pro/v5.0.1/">CoreUI PRO v5.0.1</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -1112,9 +1102,9 @@ Sunday, March 10, 2024
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Sunday, March 10, 2024
+Monday, April 8, 2024
           </div>
-          <a href="https://coreui.io/changelog/coreui/vue-pro/v5.0.0-rc.2/">
+          <a href="https://coreui.io/changelog/coreui/coreui-pro/v5.0.1/">
             
 
 
@@ -1126,20 +1116,20 @@ Sunday, March 10, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="CoreUI PRO for Vue v5.0.0-rc.2" 
-    srcset="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_480x0_resize_q90_h2_box.webp 480w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_768x0_resize_q90_h2_box.webp 768w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1366x0_resize_q90_h2_box.webp 1366w"  
-  src="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1360x0_resize_q90_h2_box.webp"
+  alt="CoreUI PRO v5.0.1" 
+    srcset="/images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_480x0_resize_q90_h2_box.webp 480w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_768x0_resize_q90_h2_box.webp 768w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1366x0_resize_q90_h2_box.webp 1366w"  
+  src="/images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1360x0_resize_q90_h2_box.webp"
 />
           </a>
           <p>
-            <p>We&rsquo;re thrilled to introduce CoreUI PRO for Vue v5.0.0-rc.2, a substantial update that enriches the CoreUI Vue component library with new features, refinements, and bug fixes. This …</p>
+            <p>We&rsquo;re pleased to announce the release of CoreUI PRO v5.0.1 on April 8, 2024. This update introduces targeted fixes and builds improvements to enhance the overall usability and …</p>
           </p>
-          <a href="https://coreui.io/changelog/coreui/vue-pro/v5.0.0-rc.2/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/changelog/coreui/coreui-pro/v5.0.1/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/react/v5.0.0-rc.2/">CoreUI for React v5.0.0-rc.2</a></h3>
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/angular/v5.0.1/">CoreUI for Angular v5.0.1</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
 <title>calendar</title>
@@ -1157,9 +1147,9 @@ Sunday, March 10, 2024
 <path d="M35 46h4v4h-4v-4z"></path>
 <path d="M46 46h4v4h-4v-4z"></path>
 </svg>
-Thursday, March 7, 2024
+Friday, March 29, 2024
           </div>
-          <a href="https://coreui.io/changelog/coreui/react/v5.0.0-rc.2/">
+          <a href="https://coreui.io/changelog/coreui/angular/v5.0.1/">
             
 
 
@@ -1171,15 +1161,15 @@ Thursday, March 7, 2024
 <img
   loading="lazy"
   class="post-image mb-0" 
-  alt="CoreUI for React v5.0.0-rc.2" 
-    srcset="/images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_480x0_resize_q90_h2_box.webp 480w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_768x0_resize_q90_h2_box.webp 768w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1366x0_resize_q90_h2_box.webp 1366w"  
-  src="/images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1360x0_resize_q90_h2_box.webp"
+  alt="CoreUI for Angular v5.0.1" 
+    srcset="/images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_480x0_resize_q90_h2_box.webp 480w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_768x0_resize_q90_h2_box.webp 768w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1366x0_resize_q90_h2_box.webp 1366w"  
+  src="/images/blog/angular_hu2f311b97f27c5c950b77ebc478a7853d_169234_1360x0_resize_q90_h2_box.webp"
 />
           </a>
           <p>
-            <p>We&rsquo;re pleased to announce CoreUI for React v5.0.0-rc.2, a substantial update that brings improvements to component styling, ensuring text readability across different themes and modes, …</p>
+            <p>We are pleased to announce the release of CoreUI for Angular v5.0.1, available as of March 29, 2024. This update includes critical fixes that enhance the stability and performance of the …</p>
           </p>
-          <a href="https://coreui.io/changelog/coreui/react/v5.0.0-rc.2/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+          <a href="https://coreui.io/changelog/coreui/angular/v5.0.1/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div></div>
@@ -1245,7 +1235,8 @@ Thursday, March 7, 2024
       </div>
     </div>
   </div>
-</footer><script type="text/javascript" src="https://coreui.io/js/scripts.min.470a0fe2149352defb41971f701c8cb12142381cca37c13e72140ddbaecfa334d47b7b7bc42dbcff5beadf074330efc14938a91f3de971485dd2d972d4180614.js"></script><script type="text/javascript" src="https://coreui.io/js/src/clients-carousel.min.js"></script>
+</footer><script type="text/javascript" src="https://coreui.io/js/scripts.min.470a0fe2149352defb41971f701c8cb12142381cca37c13e72140ddbaecfa334d47b7b7bc42dbcff5beadf074330efc14938a91f3de971485dd2d972d4180614.js"></script><script type="text/javascript" src="https://coreui.io/js/src/clients-carousel.min.js"></script><script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});
+</script><script type="text/javascript">window.Beacon('init', '6602a052-8c37-41e0-88af-58bdb45c580e')</script>
       
     
   </body>

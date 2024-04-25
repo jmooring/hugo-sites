@@ -1,19 +1,19 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 5389
+Age: 5423
 Content-Security-Policy: frame-src 'self'
 Content-Type: text/html
-Date: Wed, 13 Mar 2024 19:49:11 GMT
-Etag: "21745-6137c1b12a4b4-gzip"
-Last-Modified: Tue, 12 Mar 2024 20:00:11 GMT
+Date: Thu, 25 Apr 2024 13:54:33 GMT
+Etag: "21494-615f2478e3437-gzip"
+Last-Modified: Sat, 13 Apr 2024 03:49:47 GMT
 Server: Apache
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 27, 0
-X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300099-BFI
-X-Timer: S1710359352.624112,VS0,VE1
+X-Cache-Hits: 26, 0
+X-Served-By: cache-hel1410029-HEL, cache-bfi-krnt7300083-BFI
+X-Timer: S1714053273.025085,VS0,VE452
 
 
 
@@ -79,8 +79,8 @@ X-Timer: S1710359352.624112,VS0,VE1
 
 
     
-    <link rel="preload" href="/scss/main-custom.min.a4eaccd2e518846f55365b77b8940a1438db9e2432286ff13f923435c9691655.css" as="style">
-    <link href="/scss/main-custom.min.a4eaccd2e518846f55365b77b8940a1438db9e2432286ff13f923435c9691655.css" rel="stylesheet" integrity="">
+    <link rel="preload" href="/scss/main-custom.min.81a544302502ad91a303486a1565b735d95b991a21b74ab73619fd0e40431272.css" as="style">
+    <link href="/scss/main-custom.min.81a544302502ad91a303486a1565b735d95b991a21b74ab73619fd0e40431272.css" rel="stylesheet" integrity="">
 
 
 
@@ -102,10 +102,10 @@ X-Timer: S1710359352.624112,VS0,VE1
 
 
 
-<link rel="preload" href="/main.37486.js" as="script">
-<link rel="preload" href="/chunk-1.37486.js" as="script">
+<link rel="preload" href="/main.22619.js" as="script">
+<link rel="preload" href="/chunk-1.22619.js" as="script">
 
-<link rel="preload" href="/chunk-4.37486.js" as="script">
+<link rel="preload" href="/chunk-4.22619.js" as="script">
 
 
 
@@ -116,7 +116,10 @@ X-Timer: S1710359352.624112,VS0,VE1
     
 
 
-<nav class="js-navbar-scroll navbar">
+<a href="https://airflowsummit.org" target="_blank" class="d-block fixed-top px-3 py-2 bg-success text-center text-bold text-white">
+    Airflow Summit 2024 is coming September 10-12. Register now!
+</a>
+<nav class="js-navbar-scroll navbar" style="top: 40px;">
     <div class="navbar__icon-container">
         <a href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="155.314" height="60" viewBox="0 0 155.314 60">
@@ -153,18 +156,6 @@ X-Timer: S1710359352.624112,VS0,VE1
         
         
         <div class="navbar__links-container">
-            
-                
-                
-                    
-                
-                
-                
-                <a class="navbar__text-link "
-                   href="/code-of-conduct/"
-                   >
-                    Code of Conduct
-                </a>
             
                 
                 
@@ -211,7 +202,7 @@ X-Timer: S1710359352.624112,VS0,VE1
                 <a class="navbar__text-link "
                    href="/use-cases/"
                    >
-                    Use cases
+                    Use Cases
                 </a>
             
                 
@@ -263,16 +254,6 @@ X-Timer: S1710359352.624112,VS0,VE1
                 </a>
             
         </div>
-        
-        
-
-        <a href="/docs/stable/start.html"
-           >
-            
-
-<button id="" class="btn-filled bodytext__medium--white ">Install</button>
-
-        </a>
     </div>
 
     </div>
@@ -325,18 +306,6 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 <a class="navbar__text-link "
-                   href="/code-of-conduct/"
-                   >
-                    Code of Conduct
-                </a>
-            
-                
-                
-                    
-                
-                
-                
-                <a class="navbar__text-link "
                    href="/community/"
                    >
                     Community
@@ -375,7 +344,7 @@ X-Timer: S1710359352.624112,VS0,VE1
                 <a class="navbar__text-link "
                    href="/use-cases/"
                    >
-                    Use cases
+                    Use Cases
                 </a>
             
                 
@@ -427,16 +396,6 @@ X-Timer: S1710359352.624112,VS0,VE1
                 </a>
             
         </div>
-        
-        
-
-        <a href="/docs/stable/start.html"
-           >
-            
-
-<button id="" class="btn-filled bodytext__medium--white ">Install</button>
-
-        </a>
     </div>
 </div>
     </div>
@@ -1255,12 +1214,12 @@ X-Timer: S1710359352.624112,VS0,VE1
             <div id="integrations-container" class="list-items">
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-jenkins/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-airbyte/stable/operators/airbyte.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Jenkins</span>
+        <span class="box-event__integration--name">Airbyte</span>
     </div>
 </div>
 
@@ -1268,12 +1227,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-celery/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-alibaba/stable/operators/oss.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Celery</span>
+        <span class="box-event__integration--name">Alibaba Cloud OSS</span>
     </div>
 </div>
 
@@ -1281,12 +1240,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/cloud/cloud_composer.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/athena.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google Cloud Composer</span>
+        <span class="box-event__integration--name">Amazon Athena</span>
     </div>
 </div>
 
@@ -1294,12 +1253,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/operators/leveldb/leveldb.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/cloudformation.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google LevelDB</span>
+        <span class="box-event__integration--name">Amazon CloudFormation</span>
     </div>
 </div>
 
@@ -1307,12 +1266,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-microsoft-azure/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Microsoft Azure Data Explorer</span>
+        <span class="box-event__integration--name">Amazon CloudWatch Logs</span>
     </div>
 </div>
 
@@ -1320,12 +1279,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-openfaas/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/datasync.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">OpenFaaS</span>
+        <span class="box-event__integration--name">Amazon DataSync</span>
     </div>
 </div>
 
@@ -1333,12 +1292,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-sqlite/stable/operators.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/index.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">SQLite</span>
+        <span class="box-event__integration--name">Amazon DynamoDB</span>
     </div>
 </div>
 
@@ -1346,12 +1305,12 @@ X-Timer: S1710359352.624112,VS0,VE1
                 
                 
                 
-                <a class="list-item" href="/docs/apache-airflow-providers-google/stable/index.html">
+                <a class="list-item" href="/docs/apache-airflow-providers-amazon/stable/operators/ec2.html">
                     
 
 <div class="card">
     <div class="box-event box-event__integration">
-        <span class="box-event__integration--name">Google API Python Client</span>
+        <span class="box-event__integration--name">Amazon EC2</span>
     </div>
 </div>
 
@@ -1871,6 +1830,6 @@ X-Timer: S1710359352.624112,VS0,VE1
 
 </body>
 
-    <script src="/main.37486.js"></script>
+    <script src="/main.22619.js"></script>
 
 </html>

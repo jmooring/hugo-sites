@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 22806
+Content-Length: 23564
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 13 Mar 2024 19:49:14 GMT
-Etag: "5916-61377cf8d3dd3"
-Last-Modified: Tue, 12 Mar 2024 14:52:44 GMT
+Date: Thu, 25 Apr 2024 13:54:35 GMT
+Etag: "5c0c-616ea80a26c64"
+Last-Modified: Thu, 25 Apr 2024 11:58:16 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -83,8 +83,8 @@ Server: Apache
 					<label for="search-switch" class="genericon icon-search-switch" title="Suche"></label>
 						<div id="search-form">
 							<form method="get" id="searchform" action="/suche/">
-								<input type="text" name="s" id="s" value="">
-								<button id="sb" type="submit"><span class="genericon icon-search-switch"></span></button>
+								<input type="text" name="s" id="searchtext" value="">
+								<button id="searchbutton" type="submit"><span class="genericon icon-search-switch"></span></button>
 							</form>
 						</div>
 				</li>
@@ -94,11 +94,32 @@ Server: Apache
 	</div>
 </div>
 
+<script>
+	document.getElementById("search-switch").addEventListener("change", function(e){
+		if (e.currentTarget.checked) {
+			document.getElementById("searchtext").focus();
+		}
+	});
+
+	document.getElementById("searchform").addEventListener("submit", function(e){
+
+		len = document.getElementById("searchtext").value.length;
+		if(! len){
+			document.getElementById("search-switch").checked = false;
+			e.preventDefault();
+		}
+		else if (len < 3) {
+			alert("Bitte einen Suchbegriff verwenden, der mehr als 2 Zeichen enthält.");
+			e.preventDefault();
+		}
+	});
+</script>
+
 <div id="page-main"><div id="content"><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/anwendungen/textmails-in-thunderbird-importieren/">Textmails in Thunderbird importieren</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">12. März 2024</span> ·
+		<h1 class="post-title"><a href="/technik/anwendungen/erweiterungen-von-joomla-3-zu-joomla-4-migrieren/">Erweiterungen von Joomla! 3 zu Joomla! 4 migrieren</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">25. April 2024</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -109,26 +130,45 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p>In einem Verzeichnis auf der lokalen Festplatte schlummerten noch ein paar Uralt-Mails, welche alle als einzelne Textdateien gespeichert waren. Leider bietet Thunderbird keine Möglichkeit, über die Oberfläche einen Importvorgang anzustoßen, aber es geht auch recht einfach durch die Hintertür.</p>
-<p>In der Oberfläche wird in den &ldquo;Lokalen Ordnern&rdquo; mittels Rechsklick ein neuer Ordner &ldquo;GanzalteMails&rdquo; angelegt. Dies bewirkt, daß im Profilverzeichnis (&quot;~/.thunderbird/PROFILNAME/Mail/Local Folders/&quot;) zwei Dateien &ldquo;GanzalteMails&rdquo; und &ldquo;GanzalteMails.msf&rdquo; erzeugt werden. In diesem Ordner wird auf Dateisystemebene nun händisch ein neuer Unterordner &ldquo;GanzalteMails.sbd&rdquo; erzeugt, in welchen die Textdateien kopiert werden.</p>
-<p>Damit Thunderbird die Texte auch tatsächlich als Mailbox-Files erkennt, ist es wichtig, daß jede Datei - wie in <a href="https://datatracker.ietf.org/doc/html/rfc4155"   class="genericon icon-extlink">RFC 4155 &ldquo;The application/mbox Media Type&rdquo;</a> beschrieben - mit einem korrekten Vorspann beginnt:</p>
-<blockquote>
-<p>mbox database files can be recognized by having a leading character sequence of &ldquo;From&rdquo;, followed by a single Space character (0x20), followed by additional printable character data</p>
-</blockquote>
-<p>Was genau nach dem Leerzeichen kommen muß, kann sich zwischen verschiedenen Anwendungen unterscheiden, weshalb die meisten Mailclients fast alles akzeptieren, was auch nur halbwegs standardkonform aussieht. Thunderbird genügt z.B. ein</p>
-<pre tabindex="0"><code>From -
-</code></pre><p>als Kennzeichnung. Wer dies einfach und komfortabel an den Anfang aller &ldquo;*.txt&rdquo;-Dateien einfügen möchte, kann <a href="https://www.gnu.org/software/sed/manual/sed.html"   class="genericon icon-extlink">sed</a> als Werkzeug verwenden:</p>
-<pre tabindex="0"><code>$ sed -i &#39;1 i\From -&#39; *.txt
-</code></pre>
+	
+	<p>Im Laufe der Jahre hat sich die Anzahl der von mir betreuten Joomla!-Installationen deutlich reduziert. Von mehreren Websites ist noch eine Intranet-Seite übriggeblieben, welche bis vor Kurzem noch mit Joomla! 3 lief.</p>
+<p>Hauptgrund hierfür war die aus meiner Sicht nur spärlich vorhandene Dokumentation für Entwickler, welche Anpassungen an Erweiterungen bei Versionsänderungen zu machen sind. Während zum Beispiel der <a href="/misc/intern/tschuess-wordpress-hallo-hugo/"  >Wechsel zu Hugo</a> auf Grund der guten Dokumentation in Kombination mit einem ebenso guten Forum nur wenig Frustmomente bot, war schon die Erfahrung beim <a href="/technik/anwendungen/joomla-1-5-installation-auf-version-2-5-aktualisieren/"  >Umstieg von Joomla! 1.5 auf 2.5</a> derart nervig, daß im Laufe der Zeit alle Websites von <a href="/technik/anwendungen/joomla-nach-wordpress-migrieren/"  >Joomla! zu WordPress migriert wurden</a>, statt den Versuch zu starten, die bestehende Funktionalität unter der neuen Joomla!-Version lauffähig zu bekommen.</p>
+<p>Nachdem inzwischen aber Joomla! 5 veröffentlicht ist, sollte auch die Intranet-Site zumindest auf Joomla! 4 migriert und somit auch die selbstentwickelten Erweiterungen angepasst werden, was sich wieder als frustrierendes Erlebnis entpuppte. Wenn es schon Zusammenstellungen wie &ldquo;<a href="https://docs.joomla.org/Potential_backward_compatibility_issues_in_Joomla_4"   class="genericon icon-extlink">Potential backward compatibility issues in Joomla 4</a>&rdquo; gibt, wäre es hilfreich, wenn dort nicht als erstes ein &ldquo;Content is Incomplete&rdquo; ins Auge springen würde und viele der hier aufgelisteten Dinge auch dort zu finden wären.</p>
+<p>In diesem Beitrag habe ich die verschiedenen Quellen gesammelt, mit denen ich die Erweiterungen mit Joomla! 4 lauffähig gemacht habe - am Ende des jeweiligen Abschnitts ist als Quelle die Seite angegeben, auf welcher ich als erstes auf meiner Suche nach Lösungen fündig wurde. Vieles davon ist sog. Legacy-Funktionalität, d.h. ich habe nicht nach aktueller Philosophie neu entwickelt, sondern versucht, mit minimalem Aufwand die jeweilige Erweiterung zu reparieren und wieder funktionsfähig zu bekommen.</p>
+
+	<p><a href="/technik/anwendungen/erweiterungen-von-joomla-3-zu-joomla-4-migrieren/" title="Link zu Erweiterungen von Joomla! 3 zu Joomla! 4 migrieren" class="button icon-expand">Weiterlesen</a></p>
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/thunderbird/">Thunderbird</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/joomla/">Joomla!</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/">Helloween 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">6. März 2024</span> ·
+		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-113-alta-reign-defy/">Hörenswert #113: Alta Reign - Defy</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">19. April 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><a href="https://www.youtube.com/watch?v=B5wdRU9idDY"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
+<p><span class="band">Alta Reign</span> ist das Projekt des <span class="band">Savatage</span> und <span class="band">Trans Siberian Orchestra</span>-Schlagzeugers <a href="https://en.wikipedia.org/wiki/Jeff_Plate"   class="genericon icon-extlink">Jeff Plate</a>.</p>
+<p>&ldquo;Defy&rdquo; stammt vom zweiten Album &ldquo;Upon the Horizon&rdquo;, das sich musikalisch deutlich von den Werken seiner Hauptbands unterscheidet. Lediglich der Bonustrack &ldquo;Beneath The Rose&rdquo; verweist - vor allem in der Instrumentalarbeit - durch die Mitwirkung von <a href="https://de.wikipedia.org/wiki/Chris_Caffery"   class="genericon icon-extlink">Chris Caffery</a> und <a href="https://de.wikipedia.org/wiki/Al_Pitrelli"   class="genericon icon-extlink">Al Pitrelli</a> hörbar auf die Ursprünge.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/alta-reign/">Alta Reign</a> <span class="genericon icon-tag"></span><a href="/tag/savatage/">Savatage</a> <span class="genericon icon-tag"></span><a href="/tag/trans-siberian-orchestra/">Trans Siberian Orchestra</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/">Judas Priest 2008-06-28 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">12. April 2024</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -139,65 +179,81 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p><span class="band">Helloween</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
-<div id="gallery-helloween-2008-01-12-bildergalerie" class="gallery">
+	<p><span class="band">Judas Priest</span> am 28. Juni 2008 beim Bang Your Head Festival in Balingen</p>
+<div id="gallery-judas-priest-2008-06-28-bildergalerie" class="gallery">
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3616.jpg" data-caption="Helloween (01/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3616_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4652.jpg" data-caption="Judas Priest (01/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4652_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3619.jpg" data-caption="Helloween (02/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3619_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4654.jpg" data-caption="Judas Priest (02/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4654_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3626.jpg" data-caption="Helloween (03/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3626_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4667.jpg" data-caption="Judas Priest (03/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4667_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3627.jpg" data-caption="Helloween (04/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3627_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4668.jpg" data-caption="Judas Priest (04/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4668_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3642.jpg" data-caption="Helloween (05/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3642_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4676.jpg" data-caption="Judas Priest (05/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4676_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3645.jpg" data-caption="Helloween (06/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3645_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4681.jpg" data-caption="Judas Priest (06/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4681_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3658.jpg" data-caption="Helloween (07/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3658_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4683.jpg" data-caption="Judas Priest (07/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4683_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3664.jpg" data-caption="Helloween (08/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3664_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4684.jpg" data-caption="Judas Priest (08/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4684_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3672.jpg" data-caption="Helloween (09/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3672_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4689.jpg" data-caption="Judas Priest (09/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4689_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3683.jpg" data-caption="Helloween (10/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3683_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4701.jpg" data-caption="Judas Priest (10/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4701_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3690.jpg" data-caption="Helloween (11/11)">
-				<img src="/musik/konzerte/helloween-2008-01-12-bildergalerie/2008-01-12_helloween_img_3690_thumb.jpg" alt="Helloween" width="160" height="160">
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4702.jpg" data-caption="Judas Priest (11/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4702_thumb.jpg" alt="Judas Priest" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4703.jpg" data-caption="Judas Priest (12/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4703_thumb.jpg" alt="Judas Priest" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4713.jpg" data-caption="Judas Priest (13/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4713_thumb.jpg" alt="Judas Priest" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4722.jpg" data-caption="Judas Priest (14/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4722_thumb.jpg" alt="Judas Priest" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4725.jpg" data-caption="Judas Priest (15/15)">
+				<img src="/musik/konzerte/judas-priest-2008-06-28-bildergalerie/2008-06-28_judas-priest_img_4725_thumb.jpg" alt="Judas Priest" width="160" height="160">
 			</a>
 
 	</div>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/helloween/">Helloween</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival/">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival/">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/judas-priest/">Judas Priest</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/misc/funstuff/mail-von-knuffel018/">Mail von knuffel018</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">1. März 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/misc/funstuff/">Funstuff</a></span> ·
+		<h1 class="post-title"><a href="/musik/verschiedenes/urlaubsimpression-xi/">Urlaubsimpression XI</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">7. April 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/verschiedenes/">Verschiedenes</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
@@ -207,24 +263,20 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p>Aus gegebenem Anlass (oder so) kam pünktlich zum <a href="https://de.wikipedia.org/wiki/Valentinstag"   class="genericon icon-extlink">Valentinstag</a> eine Mail von &ldquo;knuffel018&rdquo; aka &ldquo;Jasmina Kaiser&rdquo; mit dem Betreff &ldquo;Wir kennen uns doch Andreas&rdquo; hereingeflattert:</p>
-<blockquote>
-<p>Willst du mich kennenlernen?</p>
-<p>Hallo und erstmal ein fettes Sorry das ich dich einfach so antexte. Aber da ich mal wieder völlig alleine bin am Valentinstag, gehen wohl wieder mal die Gefühle mit mir durch. Ausserdem hab ich gesehen das wir aus derselben Gegend sind, quasi Nachbarn, dein Alter passt auch super zu mir und deswegen wollte ich es einfach mal riskieren und dich anschreiben. Ich bin vielleicht keine 10 von 10, kann dir keinen Reichtum, kein schnelles Auto und kein großes Haus bieten aber dafür bedingungslose Liebe, ein riesiges Herz, uneingeschränkte Treue und immer ein offenes Ohr. Ich bin alleinerziehende Mutter meiner 9 Monate alten Tochter und Single seit dem Tag, an dem mein Ex erfuhr, dass ich Schwanger bin. Ich bin 29 Jahre alt, fast 2 Jahre alleine und bin es ehrlich gesagt leid immer nur alleine zu sein, immer nur Superheldin, Mama und Arbeitstier zu sein, ich möchte mich auch einfach mal wieder als Frau fühlen und Lieben. Vielleicht schreckt dich meine Offenheit ja ab, aber vielleicht suchst du ja das selbe wie ich? Ich suche auch keinen Vaterersatz, niemanden der uns finanziert, ich habe selbst einen guten Job als Erzieherin im Kindergarten, stehe mit beiden Beinen im Leben, ich möchte einfach einen tollen Mann an meiner Seite haben, der mich liebt wie ich bin, mit dem ich einfach eine schöne Zeit haben kann und ich mich Abends beim einschlafen schon auf den nächsten Tag freuen kann. Vielleicht bin ich bei dir falsch und du suchst etwas anderes, oder ich bin nicht dein Typ, aber dann habe ich es wenigstens versucht. Am Wochenende habe ich mal frei, da ist meine Prinzessin bei meinen Eltern, vielleicht hast du ja Lust mit mir etwas Trinken zu gehen und mich kennenzulernen? Auf WirVerliebenUns findest du mich unter dem Namen knuffel018 da hab ich noch ein paar aktuelle Bilder von mir und wenn du möchtest, kannst du mir da kostenlos antworten. Verlinke dir zur Sicherheit mal mein Profil damit du mich auch findest und es nicht daran scheitert. Wir können auch gerne unsere Nummern tauschen, wollte sie nur nicht hier direkt mit schicken, da ich nicht weiß ob du sie überhaupt willst. :-) Ich fahre jetzt Einkaufen, würde mich freuen danach vielleicht schon eine Antwort von dir zu haben. Bis bald hoffentlich, deine Jasmina</p>
-<p>Anbei noch 2 aktuelle Bilder für dich :-) Wie gesagt, bin keine 10 von 10 aber vielleicht gefalle ich dir ja trotzdem :-)</p>
-</blockquote>
-<p>Mal abgesehen davon, daß &ldquo;Wir kennen uns&rdquo; nicht so ganz zu &ldquo;Willst du mich kennenlernen?&rdquo; passt - die Textwüste ist arg unübersichtlich (schreibt sowas inzwischen auch eine KI?), die versprochenen Bilder fehlen natürlich und die eingebetteten Links führen selbstverständlich nicht zu einer Dating-Site.</p>
-<p>Pech gehabt :-)</p>
+	<span id="-musik-verschiedenes-urlaubsimpression-xi-take-that_2024-jpg"><a href="/musik/verschiedenes/urlaubsimpression-xi/take-that_2024.jpg" data-caption="Take That European Tour 2024"><img src="/musik/verschiedenes/urlaubsimpression-xi/take-that_2024.jpg"  width="768" height="576" alt="Take That European Tour 2024"></a></span>
+<p>Poster in der Innenstadt von Möchengladbach: Werbung für die <span class="band">Take That</span> &ldquo;This Life Under The Stars&rdquo;-Tour 2024.</p>
+<p>Erster Gedanke: Wie, die gibt&rsquo;s <a href="https://de.wikipedia.org/wiki/Take_That#Seit_2014:_R%C3%BCckkehr_als_Trio"   class="genericon icon-extlink">wieder</a>?</p>
+<p>Zweiter Gedanke: Warum stehen da nur <a href="https://de.wikipedia.org/wiki/Take_That#Seit_2014:_R%C3%BCckkehr_als_Trio"   class="genericon icon-extlink">drei Männlein</a> auf der Bühne?</p>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/spam/">SPAM</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/take-that/">Take That</a> <span class="genericon icon-tag"></span><a href="/tag/urlaubsimpression/">Urlaubsimpression</a></div>
 
 </div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/">Gamma Ray 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">24. Februar 2024</span> ·
+		<h1 class="post-title"><a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/">Within Temptation 2008-01-12 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">2. April 2024</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -235,100 +287,58 @@ Server: Apache
 	</div></div>
 
 	<div class="post-body">
-	<p><span class="band">Gamma Ray</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
-<div id="gallery-gamma-ray-2008-01-12-bildergalerie" class="gallery">
+	<p><span class="band">Within Temptation</span> am 12. Januar 2008 beim Knock Out Festival in Karlsruhe</p>
+<div id="gallery-within-temptation-2008-01-12-bildergalerie" class="gallery">
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3399.jpg" data-caption="Gamma Ray (01/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3399_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3784.jpg" data-caption="Within Temptation (01/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3784_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3408.jpg" data-caption="Gamma Ray (02/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3408_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3788.jpg" data-caption="Within Temptation (02/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3788_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3409.jpg" data-caption="Gamma Ray (03/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3409_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3794.jpg" data-caption="Within Temptation (03/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3794_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3413.jpg" data-caption="Gamma Ray (04/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3413_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3801.jpg" data-caption="Within Temptation (04/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3801_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3417.jpg" data-caption="Gamma Ray (05/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3417_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3806.jpg" data-caption="Within Temptation (05/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3806_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3427.jpg" data-caption="Gamma Ray (06/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3427_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3838.jpg" data-caption="Within Temptation (06/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3838_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3430.jpg" data-caption="Gamma Ray (07/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3430_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3863.jpg" data-caption="Within Temptation (07/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3863_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3449.jpg" data-caption="Gamma Ray (08/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3449_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3872.jpg" data-caption="Within Temptation (08/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3872_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3464.jpg" data-caption="Gamma Ray (09/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3464_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3884.jpg" data-caption="Within Temptation (09/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3884_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3468.jpg" data-caption="Gamma Ray (10/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3468_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3887.jpg" data-caption="Within Temptation (10/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3887_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3481.jpg" data-caption="Gamma Ray (11/11)">
-				<img src="/musik/konzerte/gamma-ray-2008-01-12-bildergalerie/2008-01-12_gamma-ray_img_3481_thumb.jpg" alt="Gamma Ray" width="160" height="160">
+			<a href="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3909.jpg" data-caption="Within Temptation (11/11)">
+				<img src="/musik/konzerte/within-temptation-2008-01-12-bildergalerie/2008-01-12_within-temptation_img_3909_thumb.jpg" alt="Within Temptation" width="160" height="160">
 			</a>
 
 	</div>
 
 </div>
 
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/gamma-ray/">Gamma Ray</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival/">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/misc/lesenswert/lesenswert-xxxx/">Lesenswert XXXX</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">20. Februar 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/misc/lesenswert/">Lesenswert</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<ul>
-<li>
-<p><a href="https://pluralistic.net/2023/12/08/playstationed/#tyler-james-hill"   class="genericon icon-extlink">If buying isn&rsquo;t owning, piracy isn&rsquo;t stealing</a><br>
-Warner hat den Deal mit Sony gekündigt und deshalb verschwinden &ldquo;gekaufte&rdquo; Inhalte auf Nimmerwiedersehen</p>
-</li>
-<li>
-<p><a href="https://fragdenstaat.de/blog/2023/02/01/gnade-bundespraesident-berufung-ovg/"   class="genericon icon-extlink">Klage gegen Bundespräsidenten geht vor das Oberverwaltungsgericht</a><br>
-Der Bundespräsident kann Menschen begnadigen, die Straftaten begangen haben. Öffentlicher Kontrolle unterliegt er dabei nicht.</p>
-</li>
-<li>
-<p><a href="https://www.inverse.com/input/features/tropetrainer-thomas-buchler-torah-software"   class="genericon icon-extlink">His software sang the words of God. Then it went silent.</a><br>
-Wenn Software mit ihrem Entwickler stirbt</p>
-</li>
-<li>
-<p><a href="https://superdeluxeedition.com/comment/cds-continue-to-outsell-vinyl-in-the-uk/"   class="genericon icon-extlink">CDs continue to outsell vinyl in the UK</a><br>
-Marketing ist alles &hellip; oder ist alles Marketing?</p>
-</li>
-<li>
-<p><a href="https://pluralistic.net/2023/04/25/greedflation/"   class="genericon icon-extlink">How Amazon makes everything you buy more expensive, no matter where you buy it</a><br>
-Amazon diktiert mit seiner Markmacht die Preise auch außerhalb des eigenen Marktplatzes</p>
-</li>
-</ul>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/lesenswert/">Lesenswert</a></div>
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/within-temptation/">Within Temptation</a> <span class="genericon icon-tag"></span><a href="/tag/knock-out-festival/">Knock Out Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a></div>
 
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
@@ -339,14 +349,15 @@ Amazon diktiert mit seiner Markmacht die Preise auch außerhalb des eigenen Mark
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/238/" class="page-numbers">238</a>
+	<a href="/page/239/" class="page-numbers">239</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav>
 
 <script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#gallery-helloween-2008-01-12-bildergalerie');
-		baguetteBox.run('#gallery-gamma-ray-2008-01-12-bildergalerie');});
+		baguetteBox.run('#gallery-judas-priest-2008-06-28-bildergalerie');
+		baguetteBox.run('#-musik-verschiedenes-urlaubsimpression-xi-take-that_2024-jpg');
+		baguetteBox.run('#gallery-within-temptation-2008-01-12-bildergalerie');});
 </script>
 		</div></div>
 

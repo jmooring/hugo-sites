@@ -1,26 +1,26 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 2
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=miss
+Cache-Status: "Netlify Edge"; fwd=stale
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 13 Mar 2024 19:49:13 GMT
-Etag: "156f7319fe71a841c382c591cf4b3b9a-ssl-df"
+Date: Thu, 25 Apr 2024 13:54:34 GMT
+Etag: "5af9db77a75c535fe4caaae51ef27af5-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HRWNS5KK6C9V5SA5ZXPQVH64
+X-Nf-Request-Id: 01HWARJPPB27BWHR3ZVYQA8JGP
 
 <!DOCTYPE html>
-<html lang="en-us"><head>
+<html lang="en-us"><!-- A MAZE. Berlin 2024 -->
+<!-- Website developed by 1XN.org -->
+<head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   
   <title>A MAZE. / Berlin 2024 - 13th International Games and Playful Media Festival </title>
   
-
   <!-- Hey Ho, Let's Go! -->
-  <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="International Festival focusing on Arthouse Games and Playful Media.">
   <meta name="author" content="1XN">
@@ -41,7 +41,7 @@ X-Nf-Request-Id: 01HRWNS5KK6C9V5SA5ZXPQVH64
   
   <link rel="stylesheet" href="https://2024.amaze-berlin.de/scss/style.min.css" media="screen">
   
-  <!-- Switzer -->
+  <!-- Switzer Font-->
   <link rel="stylesheet" href="/css/switzer.css" media="screen">
  
 
@@ -58,7 +58,7 @@ X-Nf-Request-Id: 01HRWNS5KK6C9V5SA5ZXPQVH64
   <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2">
   <link rel="manifest" href="/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
@@ -119,6 +119,22 @@ X-Nf-Request-Id: 01HRWNS5KK6C9V5SA5ZXPQVH64
   
     gtag('config', 'G-KPC6S85HEH');
   </script>
+
+   
+   <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '930970091821934');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=930970091821934&ev=PageView&noscript=1" /></noscript>
+
 
 </head>
 <body>
@@ -364,8 +380,17 @@ a.tickets {
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" target="" href="https://2024.amaze-berlin.de/schedule">program</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" target="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              program
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/program">Public Play Dates</a>
+              
+              <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/schedule">Full Program</a>
+              
+            </div>
           </li>
           
           
@@ -434,7 +459,7 @@ a.tickets {
 	<div class="container mt-5 ">
     <div class="row buttons-menu pb-5 " >
 
-
+      <a href="#news" class="btn btn-hero ">News</a>
       <a href="/award-show" class="btn btn-hero ">Award Show</a>
       <a href="#venues" class="btn btn-hero ">Venues</a>
       
@@ -475,6 +500,8 @@ a.tickets {
   
 
 
+
+
 <section class="section-hyper-bg">
   <div class="container">
     <div class="row">
@@ -487,11 +514,7 @@ a.tickets {
                     <img src="/images/AMaze_Berlin_2024_Branding-02.svg" style="filter:invert(100%); mix-blend-mode: plus-lighter; padding-top: 100px;">
                     <p class="mt-5 p-3" style="background-color: white;font-size:28px">Discover the 283 entries to the #AMazeAwards from 60 countries!</p>
                     <div class="row buttons-menu pb-5 mt-5 " >
-
-
                       <a href="/submissions" class="btn btn-hero ">Entries</a>
-                 
-       
                     </div> </div>
                 </div>
               </div>
@@ -501,8 +524,6 @@ a.tickets {
     </div>
   </div>
 </section>   
-
-
 
 
   
@@ -664,13 +685,60 @@ a.tickets {
 
 
 
+  <style>
+
+    .video-container {
+      height: 80vh;
+      position: relative;
+      overflow: hidden;
+      @media(min-width: 600px) {
+        height: 100vh;
+      }
+    }
+    
+    video {
+      object-fit: cover; 
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;  
+    }
+  
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.0);  
+      z-index: 1;  
+    }
+    
+    </style>
+  
+    
+  
+    <section  class="video-container">
+      <div class="video-overlay"></div>
+      <video autoplay muted playsinline loop id="myVideo">
+          <source src="https://media.amaze-berlin.de/2024/amaze-2023.mp4" type="video/mp4">
+      </video>
+  
+    </section>
+ 
+
+  
+
+
 
 <section class="cta section" id="venues">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 mt-5 mb-5"></div>
       <div class="col-lg-6 mt-5">
-        <h3>PHYSICAL VENUES</h3>
+        <h3>Physical Venues</h3>
         
       </div>
       <div class="col-lg-6 mt-5">
@@ -679,7 +747,7 @@ a.tickets {
         <p class="mb-5 mt-2"><a class="boxlink" href="https://www.pankeculture.com">Panke Culture</a> 
       </div>
       <div class="col-lg-6 mt-5">
-        <h3>ONLINE VENUE</h3>
+        <h3>Online Venue</h3>
 
 </div>
       <div class="col-lg-6 mt-5">
@@ -694,6 +762,94 @@ a.tickets {
 
 
 
+
+<section class="blog section" id="news">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-12">
+        <div class="heading">
+          <h3>News</h3>
+          <div style="max-width: 100%">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          
+          <div class="col-sm-6">
+            <article class="blog-article  mb-4">
+  <a href="https://2024.amaze-berlin.de/news/fantasia-malware-our-first-cooperation-with-hau-hebbel-am-ufer/"></a>
+  <div class="content post-header">
+
+    <h4 class="my-3"><a href="https://2024.amaze-berlin.de/news/fantasia-malware-our-first-cooperation-with-hau-hebbel-am-ufer/">Fantasia Malware - Our first cooperation with HAU - Hebbel am Ufer</a></h4>
+    <p class="mb-4 summary">Exciting news: HAU - Hebbel am Ufer and A MAZE.</p>
+    <a href="https://2024.amaze-berlin.de/news/fantasia-malware-our-first-cooperation-with-hau-hebbel-am-ufer/" class=" h6">Read More</a>
+  </div>
+</article>
+
+          </div>
+          
+          <div class="col-sm-6">
+            <article class="blog-article  mb-4">
+  <a href="https://2024.amaze-berlin.de/news/amaze-2024-play-this-co-comission/"></a>
+  <div class="content post-header">
+
+    <h4 class="my-3"><a href="https://2024.amaze-berlin.de/news/amaze-2024-play-this-co-comission/">Co-commission with Now Play This.</a></h4>
+    <p class="mb-4 summary">Journeys are about crossing paths. We reach junctions in the road, deciding to go left or right, move ahead or turn back.</p>
+    <a href="https://2024.amaze-berlin.de/news/amaze-2024-play-this-co-comission/" class=" h6">Read More</a>
+  </div>
+</article>
+
+          </div>
+          
+          <div class="col-sm-6">
+            <article class="blog-article  mb-4">
+  <a href="https://2024.amaze-berlin.de/news/amaze-2024-open-screen-registration/"></a>
+  <div class="content post-header">
+
+    <h4 class="my-3"><a href="https://2024.amaze-berlin.de/news/amaze-2024-open-screen-registration/">Open Screens registration is Open!</a></h4>
+    <p class="mb-4 summary">It is time to submit for the Open Screens.</p>
+    <a href="https://2024.amaze-berlin.de/news/amaze-2024-open-screen-registration/" class=" h6">Read More</a>
+  </div>
+</article>
+
+          </div>
+          
+          <div class="col-sm-6">
+            <article class="blog-article  mb-4">
+  <a href="https://2024.amaze-berlin.de/news/amaze-2024-register-x-m4rk3t/"></a>
+  <div class="content post-header">
+
+    <h4 class="my-3"><a href="https://2024.amaze-berlin.de/news/amaze-2024-register-x-m4rk3t/">Register for the Amazing X-M4rk3t</a></h4>
+    <p class="mb-4 summary">AMAZING X-M4RK3T on Saturday May 11, 2024.
+The AMAZING X-M4RK3T is a place where you can find self-produced geeky stuff from independent creators and vendors who are selling unique items from the internet, 3d-printed characters, home-brewed experimental videogames, selfmade synths, services (like pixelart, lofi mocap, 3D scanning), boardgames, digital toys, robots, OSTs, all kinds of wearables, postcards from VR, maga fanzines, illustrations, paintings, books, clothes.</p>
+    <a href="https://2024.amaze-berlin.de/news/amaze-2024-register-x-m4rk3t/" class=" h6">Read More</a>
+  </div>
+</article>
+
+          </div>
+          
+          <div class="col-sm-6">
+            <article class="blog-article  mb-4">
+  <a href="https://2024.amaze-berlin.de/news/super-open-sound-system-is-back/"></a>
+  <div class="content post-header">
+
+    <h4 class="my-3"><a href="https://2024.amaze-berlin.de/news/super-open-sound-system-is-back/">Super Open Sound System is back</a></h4>
+    <p class="mb-4 summary">Some of you remember the Super Open Sound System?</p>
+    <a href="https://2024.amaze-berlin.de/news/super-open-sound-system-is-back/" class=" h6">Read More</a>
+  </div>
+</article>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -828,6 +984,24 @@ a.tickets {
         
         <div class="client-item">
           
+          <a href="https://nowplaythis.net" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/Now-Play-This.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://www.hebbel-am-ufer.de" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/HAU.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://www.kreativ-transfer.de/" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/Kreativ-Transfer.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
           <a href="https://intheory.events/" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/intheory.png" alt="" class="sponsor-fluid"></a>
           
         </div>
@@ -837,7 +1011,7 @@ a.tickets {
     
     <div class="row mb-5">
       <div class="col-lg-8">
-        <h1 class="mb-4  text-dark text-sm">EVENT PARTNERS</h1>
+        <h1 class="mb-4  text-dark text-sm">LOCATION PARTNERS</h1>
       </div>
       <div class="col-lg-12 d-flex align-items-center">
         
@@ -864,21 +1038,6 @@ a.tickets {
     
     <div class="row mb-5">
       <div class="col-lg-8">
-        <h1 class="mb-4  text-dark text-sm">MEDIA PARTNERS</h1>
-      </div>
-      <div class="col-lg-12 d-flex align-items-center">
-        
-        <div class="client-item">
-          
-          <a href="https://80.lv" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/80lv.png" alt="" class="sponsor-fluid"></a>
-          
-        </div>
-        
-      </div>
-    </div>
-    
-    <div class="row mb-5">
-      <div class="col-lg-8">
         <h1 class="mb-4  text-dark text-sm">INSTITUTIONAL PARTNERS</h1>
       </div>
       <div class="col-lg-12 d-flex align-items-center">
@@ -897,7 +1056,34 @@ a.tickets {
         
         <div class="client-item">
           
-          <a href="https://www.institutfrancais.com/en" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/IF_LogoNovembre-numerique_noir.png" alt="" class="sponsor-fluid"></a>
+          <a href="https://www.netherlandsworldwide.nl/" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/netherlands.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <h1 class="mb-4  text-dark text-sm">FOOD AND BEVERAGE PARTNERS</h1>
+      </div>
+      <div class="col-lg-12 d-flex align-items-center">
+        
+        <div class="client-item">
+          
+          <a href="https://bettafish.co" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/bettafish.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://lemon-aid.de/en/" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/Lemonaid.png" alt="" class="sponsor-fluid"></a>
+          
+        </div>
+        
+        <div class="client-item">
+          
+          <a href="https://en.yfood.eu/" target="_blank"><img src="https://2024.amaze-berlin.de/images/clients/y-food.png" alt="" class="sponsor-fluid"></a>
           
         </div>
         

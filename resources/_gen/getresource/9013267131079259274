@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 18227
+Content-Length: 18210
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 13 Mar 2024 19:49:22 GMT
-Etag: "65d61f66-4733"
-Last-Modified: Wed, 21 Feb 2024 16:05:58 GMT
+Date: Thu, 25 Apr 2024 13:54:51 GMT
+Etag: "65f37500-4722"
+Last-Modified: Thu, 14 Mar 2024 22:06:56 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000
 
@@ -138,33 +138,35 @@ Strict-Transport-Security: max-age=31536000
             Latest Releases
         </h2>
         <p>
-            pgJDBC has released v42.7.2, v42.6.1, v42.5.5, v42.4.4, v42.3.9 and v42.2.28 on February 21, 2024.
-            This release primarily addresses a security issue <a href="https://www.cve.org/CVERecord?id=CVE-2024-1597">CVE-2024-1597</a> See the <a href="https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-24rp-q3w6-vc56">security advisory</a> for details.
+            pgJDBC has released v42.7.3, v42.6.2, v42.5.6, v42.4.5, v42.3.10 and v42.2.29 on March 13, 2024.
+            These releases fix a problem running on Java 8 java.lang.NoSuchMethodError: java.nio.ByteBuffer.position()
+            <br>All releases have been released using Java 8
+            <br>One small fix to deal with all well known types in SimpleQuery mode
         </p>
         <ul role="list">
             
             <li role="listitem">
-                <strong>42.7.2</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.7.2-release/">Notes</a>
+                <strong>42.7.3</strong> · 14 March 2024 · <a href="/changelogs/2024-03-14-42.7.3-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.6.1</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.6.1-release/">Notes</a>
+                <strong>42.6.2</strong> · 13 March 2024 · <a href="/changelogs/2024-03-13-42.6.2-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.5.5</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.5.5-release/">Notes</a>
+                <strong>42.5.6</strong> · 13 March 2024 · <a href="/changelogs/2024-03-13-42.5.6-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.4.4</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.4.4-release/">Notes</a>
+                <strong>42.4.5</strong> · 13 March 2024 · <a href="/changelogs/2024-03-13-42.4.5-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.3.9</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.3.9-release/">Notes</a>
+                <strong>42.3.10</strong> · 13 March 2024 · <a href="/changelogs/2024-03-13-42.3.10-release/">Notes</a>
             </li>
             
             <li role="listitem">
-                <strong>42.2.28</strong> · 21 February 2024 · <a href="/changelogs/2024-02-21-42.2.28-release/">Notes</a>
+                <strong>42.2.29</strong> · 13 March 2024 · <a href="/changelogs/2024-02-21-42.2.29-release/">Notes</a>
             </li>
             
         </ul>
