@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 729429
+Age: 41489
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 16301702
+Cc-Build-Id: 16436416
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=43;t=48
+Cc-Perf: fetch-headers=35;t=39
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 879edd12f8f5c73d-SEA
+Cf-Ray: 87e8dfd60bb908a1-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 25 Apr 2024 14:01:10 GMT
-Etag: W/5dd48d5558ede1e75ffa03ef6af4ccca
-Last-Modified: Wed, 17 Apr 2024 03:23:20 GMT
+Date: Sat, 04 May 2024 13:35:30 GMT
+Etag: W/117467aa3be87bb32605b0988d3dc500
+Last-Modified: Wed, 01 May 2024 05:16:01 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -80,7 +80,18 @@ X-Robots-Tag: all
       },
     ]);
   </script>
-
+  
+  
+  <script type="text/javascript">
+    +function(a,p,P,b,y){a.braze={};a.brazeQueue=[];for(var s="BrazeSdkMetadata DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Card.fromContentCardsJson ImageOnly CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent InAppMessage.fromJson FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.addToSubscriptionGroup User.prototype.getUserId User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.removeFromSubscriptionGroup User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent FeatureFlag FeatureFlag.prototype.getStringProperty FeatureFlag.prototype.getNumberProperty FeatureFlag.prototype.getBooleanProperty automaticallyShowInAppMessages destroyFeed hideContentCards showContentCards showFeed showInAppMessage deferInAppMessage toggleContentCards toggleFeed changeUser destroy getDeviceId getDeviceId initialize isPushBlocked isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardImpressions logContentCardClick logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession requestPushPermission removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh refreshFeatureFlags requestImmediateDataFlush enableSDK isDisabled setLogger setSdkAuthenticationSignature addSdkMetadata disableSDK subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToSdkAuthenticationFailures toggleLogging unregisterPush wipeData handleBrazeAction subscribeToFeatureFlagsUpdates getAllFeatureFlags logFeatureFlagImpression".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.braze,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.brazeQueue.push(arguments); return true}"))()}window.braze.getDeferredInAppMessage=function(){return new window.braze.InAppMessage};window.braze.getCachedContentCards=function(){return new window.braze.ContentCards};window.braze.getCachedFeed=function(){return new window.braze.Feed};window.braze.getUser=function(){return new window.braze.User};window.braze.getFeatureFlag=function(){return new window.braze.FeatureFlag};(y=p.createElement(P)).type='text/javascript';
+      y.src='https://js.appboycdn.com/web-sdk/5.2/braze.min.js';
+      y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
+    }(window,document,'script');
+    braze.initialize('a75f80b5-9aa8-464a-9388-9eab407cbcfc', {
+        baseUrl: "sdk.iad-07.braze.com"
+    });
+  </script>
+  
   
   
 
@@ -569,7 +580,7 @@ X-Robots-Tag: all
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@16.png" type="image/png" sizes="16x16">
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@32.png" type="image/png" sizes="32x32">
-  <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@192.png" type="image/png" sizes="192x192"><link rel="canonical" href="https://www.papercut.com/about/">
+  <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@192.png" type="image/png" sizes="192x192"><link reseed-ignore rel="canonical" href="/about/">
   
 
    
@@ -581,7 +592,7 @@ X-Robots-Tag: all
 
 <body>
       <header>
-        <!--bookshop-live meta(version: "3.9.0" baseurl: "https://www.papercut.com/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/header)-->
 
@@ -753,15 +764,17 @@ X-Robots-Tag: all
         
             <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item)-->
 
-<div class=" c-top-bar-nav-item" x-data="{ topNavDropdownOpen: false }" x-on:click.away="topNavDropdownOpen = false">
-    <div class="c-top-bar-nav-item__heading-container" x-on:click="topNavDropdownOpen = ! topNavDropdownOpen">
-        <button class="c-top-bar-nav-item__heading-container__heading">Language</button>
-        <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="topNavDropdownOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
-            <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
-        </svg>
-    </div>
-    <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--full" x-show="topNavDropdownOpen" x-cloak>
-        <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item-content)-->
+
+
+    <div class=" c-top-bar-nav-item" x-data="{ topNavDropdownOpen: false }" x-on:click.away="topNavDropdownOpen = false">
+        <div class="c-top-bar-nav-item__heading-container" x-on:click="topNavDropdownOpen = ! topNavDropdownOpen">
+            <button class="c-top-bar-nav-item__heading-container__heading">Language</button>
+            <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="topNavDropdownOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
+                <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
+            </svg>
+        </div>
+        <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--full" x-show="topNavDropdownOpen" x-cloak>
+            <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item-content)-->
 
 <div class=" c-top-bar-nav-item-content" x-data="{
         search: '',
@@ -791,21 +804,24 @@ X-Robots-Tag: all
     </ul>
 </div>
 <!--bookshop-live end-->
+        </div>
     </div>
-</div>
+
 <!--bookshop-live end-->
         
             <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item)-->
 
-<div class=" c-top-bar-nav-item" x-data="{ topNavDropdownOpen: false }" x-on:click.away="topNavDropdownOpen = false">
-    <div class="c-top-bar-nav-item__heading-container" x-on:click="topNavDropdownOpen = ! topNavDropdownOpen">
-        <button class="c-top-bar-nav-item__heading-container__heading">Login</button>
-        <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="topNavDropdownOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
-            <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
-        </svg>
-    </div>
-    <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--responsive" x-show="topNavDropdownOpen" x-cloak>
-        <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item-content)-->
+
+
+    <div class=" c-top-bar-nav-item" x-data="{ topNavDropdownOpen: false }" x-on:click.away="topNavDropdownOpen = false">
+        <div class="c-top-bar-nav-item__heading-container" x-on:click="topNavDropdownOpen = ! topNavDropdownOpen">
+            <button class="c-top-bar-nav-item__heading-container__heading">Login</button>
+            <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="topNavDropdownOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
+                <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
+            </svg>
+        </div>
+        <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--responsive" x-show="topNavDropdownOpen" x-cloak>
+            <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item-content)-->
 
 <div class=" c-top-bar-nav-item-content" x-data="{
         search: '',
@@ -833,50 +849,17 @@ X-Robots-Tag: all
     </ul>
 </div>
 <!--bookshop-live end-->
+        </div>
     </div>
-</div>
+
 <!--bookshop-live end-->
         
             <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item)-->
 
-<div class=" c-top-bar-nav-item" x-data="{ topNavDropdownOpen: false }" x-on:click.away="topNavDropdownOpen = false">
-    <div class="c-top-bar-nav-item__heading-container" x-on:click="topNavDropdownOpen = ! topNavDropdownOpen">
-        <button class="c-top-bar-nav-item__heading-container__heading">Contact</button>
-        <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="topNavDropdownOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
-            <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
-        </svg>
-    </div>
-    <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--responsive" x-show="topNavDropdownOpen" x-cloak>
-        <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item-content)-->
 
-<div class=" c-top-bar-nav-item-content" x-data="{
-        search: '',
 
-        items: [{ content: 'Sales',icon: '',style: 'grey',url: '/get/speak-with-sales/',newTab: true},{ content: 'Support',icon: '',style: 'grey',url: 'https://www.papercut.com/support/',newTab: true},],
+    <a class="c-top-bar-nav-item__heading-container__heading" href="https://www.papercut.com/support/">Support</a> 
 
-        get filteredItems() {
-            return this.items.filter(
-                i => i.content.toLowerCase().includes(this.search.toLowerCase())
-            )
-        }
-    }">
-    
-    <p class="c-top-bar-nav-item-content__heading">Contact us</p>
-    
-    <ul class="c-top-bar-nav-item-content__link-list">
-        <li x-show="! filteredItems.length" class="c-top-bar-nav-item-content__link-list__error">No results</li>
-        <template class="c-top-bar-nav-item-content__link-list__container" x-for="item in filteredItems" :key="item.content">
-            <li class="c-top-bar-nav-item-content__link-list__container__link-item">
-                <img x-show="item.icon" class="c-top-bar-nav-item-content__link-list__container__link-item__icon" x-bind:src="item.icon ">
-                <a class="c-top-bar-nav-item-content__link-list__container__link-item__link" x-bind:class="'c-top-bar-nav-item-content__link-list__container__link-item__link--' + item.style" :href="item.url" x-bind:target="! item.newTab ? '' : '_blank'" x-bind:rel="! item.newTab ? '' : 'noopener'" x-text="item.content" reseed-ignore>
-                </a>
-            </li> 
-        </template>
-    </ul>
-</div>
-<!--bookshop-live end-->
-    </div>
-</div>
 <!--bookshop-live end-->
         
         <!--bookshop-live name(structures/header/top-bar/top-bar-search-button)-->
@@ -4824,7 +4807,7 @@ X-Robots-Tag: all
 </div>
 
     
-    <!--bookshop-live meta(version: "3.9.0" baseurl: "https://www.papercut.com/" copyright: "" title: "PaperCut")-->
+    <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: .Params.content_blocks)-->
     <!--bookshop-live name(page)-->
 <div class="components">
@@ -4893,8 +4876,10 @@ X-Robots-Tag: all
     <!--bookshop-live name(generic/heading)-->
 
 
-<h2 class="c-heading c-heading--h2">Recommended reads</h2>
 
+  <h2 class="c-heading c-heading--h2">Recommended reads
+    <span class></span></h2>
+  
 
 <!--bookshop-live end-->
   </div>
@@ -4974,8 +4959,10 @@ X-Robots-Tag: all
     <!--bookshop-live name(generic/heading)-->
 
 
-<h2 class="c-heading c-heading--h2">Printing should be waste-free, easy, and secure...</h2>
 
+  <h2 class="c-heading c-heading--h2">Printing should be waste-free, easy, and secure...
+    <span class></span></h2>
+  
 
 <!--bookshop-live end-->
   </div>
@@ -5006,8 +4993,9 @@ X-Robots-Tag: all
           <!--bookshop-live name(generic/heading)-->
 
 
-<h3 class="c-heading c-heading--h4">Easily print from any device, anytime</h3>
 
+  <h3 class="c-heading c-heading--h4">Easily print from any device, anytime</h3>
+  
 
 <!--bookshop-live end-->
         
@@ -5050,8 +5038,9 @@ X-Robots-Tag: all
           <!--bookshop-live name(generic/heading)-->
 
 
-<h3 class="c-heading c-heading--h4">Secure all documents before, during, and after printing</h3>
 
+  <h3 class="c-heading c-heading--h4">Secure all documents before, during, and after printing</h3>
+  
 
 <!--bookshop-live end-->
         
@@ -5114,8 +5103,9 @@ X-Robots-Tag: all
           <!--bookshop-live name(generic/heading)-->
 
 
-<h3 class="c-heading c-heading--h4">Shrink your footprint and your bills</h3>
 
+  <h3 class="c-heading c-heading--h4">Shrink your footprint and your bills</h3>
+  
 
 <!--bookshop-live end-->
         
@@ -5180,8 +5170,10 @@ Did you know that when we surveyed our customers, we found that implementing jus
           <!--bookshop-live name(generic/heading)-->
 
 
-<h2 class="c-heading c-heading--h2"><strong>PaperCut ranked #1 in Print Management</strong></h2>
 
+  <h2 class="c-heading c-heading--h2"><strong>PaperCut ranked #1 in Print Management</strong>
+    <span class></span></h2>
+  
 
 <!--bookshop-live end-->
         
@@ -5303,8 +5295,10 @@ Did you know that when we surveyed our customers, we found that implementing jus
      <!--bookshop-live name(generic/heading)-->
 
 
-<h2 class="c-heading c-heading--h2">Crafting better environments</h2>
 
+  <h2 class="c-heading c-heading--h2">Crafting better environments
+    <span class></span></h2>
+  
 
 <!--bookshop-live end--> 
     <div class="c-sections-left-right-block--fullwidth__right__body-text">
@@ -5387,8 +5381,10 @@ Forest Positive
      <!--bookshop-live name(generic/heading)-->
 
 
-<h2 class="c-heading c-heading--h2">Any brand, any platform, all environments</h2>
 
+  <h2 class="c-heading c-heading--h2">Any brand, any platform, all environments
+    <span class></span></h2>
+  
 
 <!--bookshop-live end--> 
     <div class="c-sections-left-right-block--fullwidth__left__body-text">
@@ -5765,20 +5761,21 @@ Forest Positive
 					  ">
 			<!--bookshop-live name(sections/footer-cta)-->
 
-<section class="c-footer-cta">
-    <div class="c-footer-cta__container">
-        <div class="c-footer-cta__container__content">
-            <h2 class="c-footer-cta__container__content__heading">Ready to get started?</h2>
-            <p class="c-footer-cta__container__content__description">Compare our products or dive a little deeper into product solutions.</p>
-        </div>
-        <div class="c-footer-cta__container__links">
-            
-                <a class="c-footer-cta__container__links__link c-footer-cta__container__links__link--white" href="https://www.papercut.com/products/">COMPARE OUR PRODUCTS</a>
-            
-                <a class="c-footer-cta__container__links__link c-footer-cta__container__links__link--green" href="https://www.papercut.com/products/ng/download/">TRY FOR FREE</a>
-            
-        </div>
+
+<section class="c-footer-cta c-footer-cta--background-color-">
+  <div class="c-footer-cta__container ">
+    <div class="c-footer-cta__container__content">
+      <h2 class="c-footer-cta__container__content__heading">Ready to get started?</h2>
+      <p class="c-footer-cta__container__content__description">Compare our products or dive a little deeper into product solutions.</p>
     </div>
+    <div class="c-footer-cta__container__links">
+      
+        <a class="c-footer-cta__container__links__link c-footer-cta__container__links__link--white" href="https://www.papercut.com/products/">COMPARE OUR PRODUCTS</a>
+      
+        <a class="c-footer-cta__container__links__link c-footer-cta__container__links__link--green" href="https://www.papercut.com/products/ng/download/">TRY FOR FREE</a>
+      
+    </div>
+  </div>
 </section>
 <!--bookshop-live end-->
 		</div>
@@ -5791,7 +5788,7 @@ Forest Positive
           
 
       </main>
-        <!--bookshop-live meta(version: "3.9.0" baseurl: "https://www.papercut.com/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/footer)-->
 
@@ -5881,11 +5878,12 @@ Forest Positive
 <div class="c-hubspot-form c-hubspot-form--background-color- c-hubspot-form--text-white c-hubspot-form-- " style=" --form-padding: px; 
             --hbs-form-shadow: 
                                   var(--shadow--none)
-                                ;  ">
+                                ;">
     <!--bookshop-live name(generic/heading)-->
 
 
-<p class="c-heading c-heading--h5">Subscribe to PaperCut communications</p>
+
+  <p class="c-heading c-heading--h5">Subscribe to PaperCut communications</p>
 
 
 <!--bookshop-live end-->
@@ -6358,8 +6356,9 @@ Forest Positive
         <div class="c-floating-box__heading"><!--bookshop-live name(generic/heading)-->
 
 
-<h6 class="c-heading c-heading--h3">Share your thoughts</h6>
 
+  <h6 class="c-heading c-heading--h3">Share your thoughts</h6>
+  
 
 <!--bookshop-live end--></div>
         <p class="c-floating-box__body-content">How easy was it to find what you were looking for on our website?</p>

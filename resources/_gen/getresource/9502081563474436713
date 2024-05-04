@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 390
+Age: 1035
 Content-Type: text/html
-Date: Thu, 25 Apr 2024 14:01:19 GMT
-Etag: "5c5b-616b1c1572440-gzip"
-Last-Modified: Mon, 22 Apr 2024 16:16:09 GMT
+Date: Sat, 04 May 2024 13:35:41 GMT
+Etag: "5c3e-61766b6e79fc0-gzip"
+Last-Modified: Wed, 01 May 2024 16:09:43 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -13,8 +13,8 @@ X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300023-BFI
-X-Timer: S1714053680.896097,VS0,VE1
+X-Served-By: cache-bfi-krnt7300063-BFI
+X-Timer: S1714829741.125505,VS0,VE3
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1714053680.896097,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-03-07T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-05-01T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -382,6 +382,21 @@ X-Timer: S1714053680.896097,VS0,VE1
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
+            <a href="/blogs/2024-dnsbomb/">
+              <h4 class="text-white">Rate Limits in BIND 9 Effective vs. DNSBomb Vulnerability</h4>
+            </a>
+            <p class="text-white">BIND 9 is Unaffected by the DNSBomb We have been researching and testing a DNS vulnerability report called the DNSBomb (CVE-2024-33655).</p>
+            <a href="/blogs/2024-dnsbomb/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
             <a href="/blogs/2024-bind-9.16-eol/">
               <h4 class="text-white">BIND 9.16 Branch is approaching EOL</h4>
             </a>
@@ -416,21 +431,6 @@ X-Timer: S1714053680.896097,VS0,VE1
             </a>
             <p class="text-white">Overview PROXYv2 protocol support has been added in the BIND 9.</p>
             <a href="/blogs/proxyv2-2024-02/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/2024-bind-audit/">
-              <h4 class="text-white">BIND 9 Security Audit</h4>
-            </a>
-            <p class="text-white">In the aftermath of yesterday&rsquo;s BIND announcement of seven new CVEs, one of them with a fairly wide impact, BIND users might be wondering why ISC publishes so many security vulnerabilities.</p>
-            <a href="/blogs/2024-bind-audit/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

@@ -1,28 +1,28 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 383
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 879edd5bbdd39b6c-SEA
+Cf-Ray: 87e8e034bed8a3bf-SEA
 Content-Type: text/html; charset=utf-8
-Date: Thu, 25 Apr 2024 14:01:22 GMT
-Expires: Thu, 25 Apr 2024 10:49:39 GMT
-Last-Modified: Thu, 25 Apr 2024 10:12:17 GMT
+Date: Sat, 04 May 2024 13:35:45 GMT
+Expires: Sat, 04 May 2024 13:45:45 GMT
+Last-Modified: Mon, 29 Apr 2024 08:25:19 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=4zwDXAYrJUXvZ1lZ45%2BszlJD2cRl%2BWHylJRJc8ZRFfCi24ro5zke974cLLrz%2BU1Tk9PdIN3NkjvC%2BU2DwwkbsXSamE2Z1UEMB1J%2FZOvDv3jxZ6BuVPhlZCqyusk%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=r5T4%2BjIjnHrSIEBz%2FXzpR4ofjxdu%2B3EEe0B9q0wd%2BG971T8OXhoKuS994p0VKOJRk1tTxo5N%2B9rR%2BsCu4eTPYKpIvt16iUYb3wfgoFgEH3TOCS0lTmhAGePJr40%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
+X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Fastly-Request-Id: a34598476e25394cdd43cb3cf29b1eac970a809c
-X-Github-Request-Id: 83A0:371A9F:38D9165:3AFCA8C:662A32E7
+X-Fastly-Request-Id: 26a13b9c28d01586695d25e9079e4801691b1174
+X-Github-Request-Id: 1932:3C77FD:13DDB3A:1480361:663639B0
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770079-PAO
-X-Timer: S1714053683.584179,VS0,VE1
+X-Served-By: cache-pao-kpao1770052-PAO
+X-Timer: S1714829745.457352,VS0,VE93
 
 <!DOCTYPE html>
 <html lang="en">
@@ -218,10 +218,7 @@ X-Timer: S1714053683.584179,VS0,VE1
       </p>
     </div>
     <div class="column">
-      <video style="width: 100%; aspect-ratio: 560/315;" controls="controls" title="Embedding Servo in Rust projects by Rakhi Sharma at FOSDEM 2024">
-        <source src="https://video.fosdem.org/2024/h1308/fosdem-2024-2321-embedding-servo-in-rust-projects.av1.webm" type='video/webm; codecs="av01.0.08M.08.0.110.01.01.01.0"' />
-        <source src="https://video.fosdem.org/2024/h1308/fosdem-2024-2321-embedding-servo-in-rust-projects.mp4" type='video/mp4' />
-        <p><a href="https://fosdem.org/2024/schedule/event/fosdem-2024-2321-embedding-servo-in-rust-projects/">Embedding Servo in Rust projects</a> by Rakhi Sharma at FOSDEM 2024</p>
+      <iframe style="width: 100%; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/RdtlD_7JAs8" title="A Year of Servo Reboot: Where Are We Now? by Rakhi Sharma at Open Source Summit North America 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </video>
     </div>
   </div>
@@ -230,6 +227,15 @@ X-Timer: S1714053683.584179,VS0,VE1
   <div class="hero-body columns is-vcentered" style="padding-top: 2rem; padding-bottom: 2rem;">
     <div class="column">
       <div class="columns">
+        <div class="column">
+          <div class="card" style="background: transparent;">
+            <div class="card-content">
+              <span class="tag is-light">2024-04-26</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/04/26/acid2-servo-book-qt/">This month in Servo: Acid2 redux, Servo book, Qt demo, and more!</a></strong></big></p>
+              <p>A new layout milestone, revamped docs, faster builds, plus embedding, video, fonts, WebGPU, and CSS improvements.</p>
+            </div>
+          </div>
+        </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
@@ -257,15 +263,6 @@ X-Timer: S1714053683.584179,VS0,VE1
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="card" style="background: transparent;">
-            <div class="card-content">
-              <span class="tag is-light">2024-02-28</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/02/28/gamepads-font-fallback-space-jam/">This month in Servo: gamepad support, font fallback, Space Jam, and more!</a></strong></big></p>
-              <p>Big strides in tables and layout architecture, a new CSS2 milestone, dev changes in WebRender and Stylo, plus console, canvas, and CSSOM improvements.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -287,7 +284,7 @@ X-Timer: S1714053683.584179,VS0,VE1
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#9af3f4fcf5dae9ffe8ecf5b4f5e8fd"><span class="__cf_email__" data-cfemail="264f48404966554354504908495441">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#d0b9beb6bf90a3b5a2a6bffebfa2b7"><span class="__cf_email__" data-cfemail="630a0d050c23100611150c4d0c1104">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -348,7 +345,7 @@ X-Timer: S1714053683.584179,VS0,VE1
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#b8d1d6ded7f8cbddcaced796d7cadf"><span class="__cf_email__" data-cfemail="ef86818980af9c8a9d9980c1809d88">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#036a6d656c43706671756c2d6c7164"><span class="__cf_email__" data-cfemail="1871767e77586b7d6a6e7736776a7f">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,

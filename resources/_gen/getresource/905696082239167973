@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 7424
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=stale
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 25 Apr 2024 14:01:07 GMT
-Etag: "7368381e1a03492e8384585aac2d9db6-ssl-df"
+Date: Sat, 04 May 2024 13:35:26 GMT
+Etag: "03c32c9f0fd4e2a51ef37e6437e40c7e-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HWARYPKMAVS9CNDNR68KJ61A
+X-Nf-Request-Id: 01HX1X24ZNMQSBBJH2XNAE4R1N
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -37,7 +37,7 @@ X-Nf-Request-Id: 01HWARYPKMAVS9CNDNR68KJ61A
 		<ul class="desktop-links">
 			<li><a href="/" class="active">Home</a></li>
 			<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-			<li><a href="/docs/v1.15.1" >Documentation</a></li>
+			<li><a href="/docs/v2.0.0" >Documentation</a></li>
 			<li><a href="/blog/" >Blog</a></li>
 			<li><a href="/presentations/" >Presentations</a></li>
 			<li><a href="/community/" >Community</a></li>
@@ -52,7 +52,7 @@ X-Nf-Request-Id: 01HWARYPKMAVS9CNDNR68KJ61A
 			<ul class="header-links">
 				<li><a href="/" class="active">Home</a></li>
 				<li><a href="https://github.com/antrea-io/antrea">GitHub</a></li>
-				<li><a href="/docs/v1.15.1" >Documentation</a></li>
+				<li><a href="/docs/v2.0.0" >Documentation</a></li>
 				<li><a href="/blog/" >Blog</a></li>
 				<li><a href="/presentations/" >Presentations</a></li>
 				<li><a href="/community/" >Community</a></li>
@@ -95,8 +95,8 @@ X-Nf-Request-Id: 01HWARYPKMAVS9CNDNR68KJ61A
 		<div class="bg-grey introduction">
 			<div class="wrapper grid two">
 				<div class="col">
-					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v1.15.1">View Latest Release</a></p>
-					<p>Antrea v1.15.1 is now available.</p>
+					<p class="strong"><a href="https://github.com/antrea-io/antrea/releases/tag/v2.0.0">View Latest Release</a></p>
+					<p>Antrea v2.0.0 is now available.</p>
 				</div>
 				<div class="col">
 					<p class="strong"><a href="https://www.cncf.io/webinars/securing-and-accelerating-the-kubernetes-cni-data-plane-with-project-antrea-and-nvidia-mellanox-connectx-smartnics/">CNCF Webinar</a></p>
@@ -194,7 +194,7 @@ X-Nf-Request-Id: 01HWARYPKMAVS9CNDNR68KJ61A
 			<p>To help you get started, see the documentation.</p>
 		</div>
 		<div class="right-side">
-			<a href="/docs/v1.15.1" class="button">Documentation</a>
+			<a href="/docs/v2.0.0" class="button">Documentation</a>
 		</div>
 	</div>
 </div>

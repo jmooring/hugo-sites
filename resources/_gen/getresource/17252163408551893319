@@ -3,13 +3,13 @@ Accept-Ranges: bytes
 Access-Control-Allow-Methods: GET, HEAD
 Cache-Control: max-age=60
 Content-Type: text/html; charset=utf-8
-Date: Thu, 25 Apr 2024 14:01:06 GMT
-Etag: "646a605761043c2017cbc263f1f962b3"
-Last-Modified: Thu, 28 Mar 2024 16:14:16 GMT
+Date: Sat, 04 May 2024 13:35:26 GMT
+Etag: "8e9c4ca34fc322fffd0b2e0c36c9871b"
+Last-Modified: Wed, 01 May 2024 21:09:57 GMT
 Strict-Transport-Security: max-age=31536000; preload
 Vary: Accept-Encoding
-Via: 1.1 d16c3f15bd14953a9d4109eaaa991de2.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: Ygkj4COUVnnIpzP8xOSn9Qc9HbNSc9rsSENhCzO8fsuB5OhojdB0jQ==
+Via: 1.1 1f6e68152880a39d72e6bf2996cd6a60.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IEY2qLdZf9E89LRiqMGgcCTAU4BIdPMxlK6y5XlAisQr1d8IwphzqA==
 X-Amz-Cf-Pop: SEA19-C1
 X-Amz-Server-Side-Encryption: AES256
 X-Cache: Miss from cloudfront
@@ -17,13 +17,13 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-Robots-Tag: all
 X-Server: Cloud.gov Pages
-X-Vcap-Request-Id: f237a91c-247f-4bf3-40b5-b2c811f2dbfb
+X-Vcap-Request-Id: 6320badd-da23-4c3c-7e47-b38b6ec36c51
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-	<meta name="generator" content="Hugo 0.96.0" />
+	<meta name="generator" content="Hugo 0.125.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -86,7 +86,14 @@ X-Xss-Protection: 1; mode=block
     </div>
   </div>
 </section>
-
+<div class="usa-alert usa-alert--info margin-top-0">
+  <div class="usa-alert__body">
+    <p class="usa-alert__heading"><b>We’re working on a new version of tech.gsa.gov</b></p>
+    <p class="usa-alert__text">
+      We’re adding tools to help GSA <a href="https://www.whitehouse.gov/omb/management/ofcio/delivering-a-digital-first-public-experience/">deliver a digital-first public experience.</a> You can track our progress in <a href="https://github.com/GSA/cto-website">our open-source repository</a>.
+    </p>
+  </div>
+</div>
     <div class="usa-overlay"></div>
 <header class="usa-header usa-header--extended techgsa-header">
   <div class="usa-navbar">
@@ -114,12 +121,6 @@ X-Xss-Protection: 1; mode=block
               <li class="usa-nav__primary-item">
                 <a href="https://tech.gsa.gov/guides/" class="usa-nav__link ">
                   <span>Guides</span>
-                </a>
-              </li>
-            
-              <li class="usa-nav__primary-item">
-                <a href="https://tech.gsa.gov/playbooks/" class="usa-nav__link ">
-                  <span>Playbooks</span>
                 </a>
               </li>
             
@@ -183,7 +184,7 @@ X-Xss-Protection: 1; mode=block
   <section class="usa-section">
     <div class="grid-container">
       <ul class="usa-card-group">
-        <li class="desktop:grid-col-3 tablet:grid-col-6 usa-card usa-card--header-first">
+        <li class="tablet:grid-col-4 usa-card usa-card--header-first">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">Guides</h2>
@@ -204,28 +205,7 @@ X-Xss-Protection: 1; mode=block
           </div>
         </li>
 
-        <li class="desktop:grid-col-3 tablet:grid-col-6 usa-card usa-card--header-first">
-          <div class="usa-card__container">
-            <header class="usa-card__header">
-              <h2 class="usa-card__heading">Playbooks</h2>
-            </header>
-            <div class="usa-card__media usa-card__media--inset">
-              <div class="usa-card__img">
-                <div class="landing-area-icon">
-                  <a href="https://tech.gsa.gov/playbooks"><span class="fas fa-book landing-area-icon__playbooks" aria-hidden="true"></span><span class="usa-sr-only">Playbooks</span></a>
-                </div>
-              </div>
-            </div>
-            <div class="usa-card__body">
-              <p>Our playbooks are comprehensive guides on a technical topic, describing both overarching strategy and tactical approaches.</p>
-            </div>
-            <div class="usa-card__footer">
-              <a href="https://tech.gsa.gov/playbooks" class="usa-button">See the Playbooks</a>
-            </div>
-          </div>
-        </li>
-
-        <li class="desktop:grid-col-3 tablet:grid-col-6 usa-card usa-card--header-first">
+        <li class="tablet:grid-col-4 usa-card usa-card--header-first">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">Tech Talks</h2>
@@ -246,7 +226,7 @@ X-Xss-Protection: 1; mode=block
           </div>
         </li>
 
-        <li class="desktop:grid-col-3 tablet:grid-col-6 usa-card usa-card--header-first">
+        <li class="tablet:grid-col-4 usa-card usa-card--header-first">
           <div class="usa-card__container">
             <header class="usa-card__header">
               <h2 class="usa-card__heading">TechRadar</h2>

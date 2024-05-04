@@ -2,16 +2,16 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Content-Type: text/html
-Date: Thu, 25 Apr 2024 14:01:11 GMT
-Etag: "399d7-616ca82dd25c0"
-Last-Modified: Tue, 23 Apr 2024 21:48:15 GMT
+Date: Sat, 04 May 2024 13:35:29 GMT
+Etag: "39a18-61752c61fe4c0"
+Last-Modified: Tue, 30 Apr 2024 16:22:19 GMT
 Server: Apache/2.4.59 (Unix)
-Set-Cookie: nlbi_2333592_2975153=UZQ4e5BMSRaRfDfzzIjl3AAAAAD/ra27tURbx9b/bTeyUvT/; path=/; Domain=.redis.io
-Set-Cookie: visid_incap_2333592=wblxqWqYR6CjLzmgelbnniZiKmYAAAAAQUIPAAAAAACAekobsJCjyg6gx6ITxvHu; expires=Thu, 24 Apr 2025 23:01:01 GMT; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: incap_ses_340_2333592=n6btGNfgJFIGUK83POy3BCZiKmYAAAAAyRNpkEK7l34z7fyzrLjzmQ==; path=/; Domain=.redis.io
+Set-Cookie: nlbi_2333592_2975153=S0/bGX1yWSxz2SvczIjl3AAAAADi+3BLOzRLzU75hHMxs/j+; path=/; Domain=.redis.io
+Set-Cookie: visid_incap_2333592=IJvDg8oKSdW8K4BdGtu6IKE5NmYAAAAAQUIPAAAAAADm42v2LABw7OBBl7MOqQqQ; expires=Sat, 03 May 2025 23:03:47 GMT; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: incap_ses_340_2333592=RM+wGtkgCysK/5CEPuy3BKE5NmYAAAAA26GMfO2TGzhlLtLKDRVSTA==; path=/; Domain=.redis.io
 Via: 1.1 google
 X-Cdn: Imperva
-X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
+X-Iinfo: 14-60864331-60519872 pNYy RT(1714829728976 284) q(0 0 0 0) r(2 2) U12
 
 <!doctype html>
 <html lang="en" class="scroll-smooth w-full">
@@ -22,6 +22,7 @@ X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
     <link rel="alternate" type="application/rss&#43;xml" href="https://redis.io/docs/latest/operate/index.xml">
     <meta name="robots" content="index, follow">
       <meta name="google-site-verification" content="suIo51jDr2z6o48kiD53RKtRvp-JgZ-njy8SWMdrkMo">
+      <link rel="canonical" href="https://redis.io/docs/latest/operate/" />
     
 
 
@@ -75,7 +76,7 @@ X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
 
   
 
-<link href="/docs/latest/css/index.min.505c89b1ab470dfc91b852331afb9537f308d5a75620daf51c0070bd15954b33.css" rel="stylesheet" />
+<link href="/docs/latest/css/index.min.4a5f816a0d10f11ff909d8b3de6ff797cfcaef3e5ec58c6d775b50fc8529e8cc.css" rel="stylesheet" />
 
     
   <script src='/docs/latest/js/codetabs.js' defer></script>
@@ -850,8 +851,8 @@ X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
   
 
 
-<div class="hidden md:block w-full md:w-64 h-fit md:h-full shrink-0 text-sm font-mono font-normal py-6">
-  <nav id="sidebar" class="max-h-[calc(100vh-7rem)] min-h-96 flex flex-col gap-4 w-full md:w-64 z-40 bg-white md:fixed md:pt-6 h-fit md:h-full leading-7">
+<div class="md:block w-full md:w-96 h-fit md:h-full shrink-0 text-base font-mono font-normal py-6">
+  <nav id="sidebar" class="max-h-[calc(100vh-7rem)] min-h-96 flex flex-col gap-4 w-full md:w-96 z-40 bg-white md:fixed md:pt-6 h-fit md:h-full leading-7">
     <div class='min-h-0  border border-opacity-50 border-redis-ink-900 rounded-md flex flex-col '>
         <a class='px-6 py-4 rounded-t-md hover:bg-redis-pen-200 ' href='/docs/latest/develop'>Develop</a>
         
@@ -859,7 +860,7 @@ X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
         
         <a class='px-6 py-4 rounded-b-md hover:bg-redis-pen-200 border-t border-redis-ink-900 border-opacity-50  font-bold ' href='/docs/latest/operate'>Operate</a>
         
-          <ul class="hidden md:block overflow-y-auto grow pr-6 border-t border-opacity-50 border-redis-ink-900">
+          <ul class="md:block overflow-y-auto grow pr-6 border-t border-opacity-50 border-redis-ink-900">
             <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/rc/">
         
@@ -922,6 +923,7 @@ X-Iinfo: 12-105843989-105828153 pNYy RT(1714053670194 316) q(0 0 0 2) r(1 1) U12
     });
   })
 </script>
+
     <div class="py-12 md:pl-4 xl:px-16 overflow-hidden">
       
 <nav class="flex text-redis-ink-900 text-xs font-mono font-normal" aria-label="Breadcrumb"> 
@@ -1734,5 +1736,5 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener('submit', submitHandler)
   })()
 </script>
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=47349268" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=29411149" async></script></body>
 </html>
