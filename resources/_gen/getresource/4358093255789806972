@@ -2,13 +2,13 @@ HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 87e8e073bb73c397-SEA
+Cf-Ray: 883ee98c39b376f8-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 May 2024 13:35:55 GMT
+Date: Wed, 15 May 2024 00:11:43 GMT
 Link: <https://www.inbeat.co/>; rel="preconnect", <https://fonts.googleapis.com>; rel="preconnect"
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=hczMhZJeppwbZOr0izGOOG7sLKPSHwJBPmRIGcN7XCHqiNF%2FhVS8E0cPh6NgegOqaJ%2F%2Fn5cbXODhACukxWtPudiOu3UhX%2Fda8Pg5dKXbn7vnmjYkIi0%2FiRHQlgHmOz9a"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=JMfArpijLGWeEqmGXnd6oyFdiWHecXLkWJsZFr8HayPjCCIn6CHR%2FiAbj9NqooKSL275C4Ak7MGqK9WVFYy%2Bu25ZGdBGkNBfMTbD4Pf9UpWn%2F5YYPWEqUhSft98Pdf1t"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
@@ -1204,64 +1204,6 @@ X-Content-Type-Options: nosniff
     
     
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22518068.js"></script>
-    
-
-    
-    <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-toc@1/toc.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var TOC = document.getElementById('toc');
-        var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-        var parentLevel = 1;
-        var cursorNode = TOC;
-        if (TOC) {
-          for (var i = 0; i < headings.length; ++i) {
-            var currentHeading = headings[i];
-            var newLevel = parseInt(currentHeading.tagName.substr(1, 1));
-            var diff = newLevel - parentLevel;
-            if (diff > 0) {
-              var containerLiNode = cursorNode.lastChild;
-              if (containerLiNode) {
-                var ulNode = document.createElement('UL');
-                containerLiNode.appendChild(ulNode);
-                cursorNode = ulNode;
-                parentLevel = newLevel;
-              }
-            }
-            if (diff < 0) {
-              while (diff !== 0) {
-                cursorNode = cursorNode.parentNode.parentNode;
-                diff++;
-              }
-              parentLevel = newLevel;
-            }
-            var liNode = document.createElement('LI');
-            liNode.setAttribute("class", "toc_items");
-            if (!currentHeading.getAttribute('id')) {
-              liNode.setAttribute("class", "toc_items footer_headings");
-            }
-            if (!currentHeading.hasAttribute('id')) {
-              currentHeading.id = 'h' + i;
-            }
-            var link = document.createElement('A');
-            link.setAttribute('href', '#' + currentHeading.getAttribute('id'));
-            link.appendChild(document.createTextNode(currentHeading.textContent))
-            liNode.appendChild(link);
-            cursorNode.appendChild(liNode);
-          }
-        }
-        setTimeout(function () {
-          var tocItems = document.querySelectorAll('.post-content + .toc_items');
-          var ulNode = document.getElementById('toc');
-          tocItems.forEach(function (item) {
-            ulNode.appendChild(item);
-          });
-          document.querySelectorAll('.toc_items.footer_headings').forEach(function (item) {
-            item.remove();
-          });
-        }, 1000);
-      });
-    </script>
     
   <!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "618741ee922045eba3be31e7ae38a3e9"}'></script><!-- Cloudflare Pages Analytics --></body>
 </html>

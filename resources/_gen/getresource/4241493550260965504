@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 8925
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=stale
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 May 2024 13:35:26 GMT
-Etag: "954a969f2a5f043190445b9d2e573fa8-ssl-df"
+Date: Wed, 15 May 2024 00:11:17 GMT
+Etag: "6e69380f4437fca84e4afa317679f74b-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HX1X24REVZP3PSW3TZC7VKAC
+X-Nf-Request-Id: 01HXWSDKDCRZAB5K727DGXG1R4
 
 <!DOCTYPE html>
 <html lang="en-us"><!-- A MAZE. Berlin 2024 -->
@@ -340,6 +340,8 @@ a.tickets {
               
               <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/award-show">Award Show</a>
               
+              <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/award-winners">Award Winners</a>
+              
               <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/submissions">Submissions</a>
               
               <a class="dropdown-item" target="" href="https://2024.amaze-berlin.de/nominees">Nominees</a>
@@ -404,19 +406,13 @@ a.tickets {
           
           
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://amaze-space.com">Space</a>
+            <a class="nav-link" target="_blank" href="https://a-maze.itch.io/stairs">Virtual Stairs</a>
           </li>
           
           
           
           <li class="nav-item">
             <a class="nav-link" target="" href="https://2024.amaze-berlin.de/stream">live stream</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" target="" href="https://2024.amaze-berlin.de"></a>
           </li>
           
           
@@ -536,25 +532,40 @@ a.tickets {
 
   
 
+<style>
+  .jury .small-image img {
+    cursor: pointer;
+  }
+</style>
+
 <section class="section jury bg-white">
   <div class="container">
-   <div class="awardbubble"><h3>Jury</h3></div>
-    <p class="mb-5 pt-3 text-md">Our interdisciplinary, international and 100% independent jury has the honors to review all nominees.</p>
+    <div class="awardbubble"><h3>Jury</h3></div>
+    <p class="mb-5 pt-3 text-md">Our interdisciplinary, international and 100% independent jury has the honor to review all nominees.</p>
     <div class="col-lg-12">
       <div class="row mb-5">
         
-        <style>
-          .jury a {
-            border-bottom:none;
-            font-size:0.8em;
-            text-transform: uppercase;
-            display:block;
-            &:hover {
-              color: rgb(0, 145, 70)!important;
-            }
-        </style>
         <div class="col-lg-4 pb-5 jury">
-          <img src="https://2024.amaze-berlin.de/images/jury/deirdre.webp" alt="" class="img-fluid rounded">
+          
+          <div class="modal fade" id="videoModalDeirdre V. Lyons" tabindex="-1" role="dialog" aria-labelledby="videoModalDeirdre V. LyonsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZSY7HUamEpM" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="small-image" data-toggle="modal" data-target="#videoModalDeirdre V. Lyons">
+            <img src="https://2024.amaze-berlin.de/images/jury/deirdre.webp" alt="" class="img-fluid rounded" width="100">
+          </div>
+          
+
           <h3 class="mt-4 text-lg">Deirdre V. Lyons </h3>
           
           <p class="text-md">She/Her </p> 
@@ -569,20 +580,29 @@ a.tickets {
             
             
           
-      </div>
-      
-        <style>
-          .jury a {
-            border-bottom:none;
-            font-size:0.8em;
-            text-transform: uppercase;
-            display:block;
-            &:hover {
-              color: rgb(0, 145, 70)!important;
-            }
-        </style>
+        </div>
+        
         <div class="col-lg-4 pb-5 jury">
-          <img src="https://2024.amaze-berlin.de/images/jury/jonathan.webp" alt="" class="img-fluid rounded">
+          
+          <div class="modal fade" id="videoModalJonathan Coryn" tabindex="-1" role="dialog" aria-labelledby="videoModalJonathan CorynLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="small-image" data-toggle="modal" data-target="#videoModalJonathan Coryn">
+            <img src="https://2024.amaze-berlin.de/images/jury/jonathan.webp" alt="" class="img-fluid rounded" width="100">
+          </div>
+          
+
           <h3 class="mt-4 text-lg">Jonathan Coryn </h3>
           
           <p class="text-md">He/Him </p> 
@@ -597,20 +617,29 @@ a.tickets {
             
             
           
-      </div>
-      
-        <style>
-          .jury a {
-            border-bottom:none;
-            font-size:0.8em;
-            text-transform: uppercase;
-            display:block;
-            &:hover {
-              color: rgb(0, 145, 70)!important;
-            }
-        </style>
+        </div>
+        
         <div class="col-lg-4 pb-5 jury">
-          <img src="https://2024.amaze-berlin.de/images/jury/natasha.webp" alt="" class="img-fluid rounded">
+          
+          <div class="modal fade" id="videoModalNatasha Sebben AKA natsha" tabindex="-1" role="dialog" aria-labelledby="videoModalNatasha Sebben AKA natshaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="small-image" data-toggle="modal" data-target="#videoModalNatasha Sebben AKA natsha">
+            <img src="https://2024.amaze-berlin.de/images/jury/natasha.webp" alt="" class="img-fluid rounded" width="100">
+          </div>
+          
+
           <h3 class="mt-4 text-lg">Natasha Sebben AKA natsha </h3>
           
           <p class="text-md">She/Her </p> 
@@ -625,20 +654,29 @@ a.tickets {
             
             
           
-      </div>
-      
-        <style>
-          .jury a {
-            border-bottom:none;
-            font-size:0.8em;
-            text-transform: uppercase;
-            display:block;
-            &:hover {
-              color: rgb(0, 145, 70)!important;
-            }
-        </style>
+        </div>
+        
         <div class="col-lg-4 pb-5 jury">
-          <img src="https://2024.amaze-berlin.de/images/jury/shu.webp" alt="" class="img-fluid rounded">
+          
+          <div class="modal fade" id="videoModalShuhei Yoshida" tabindex="-1" role="dialog" aria-labelledby="videoModalShuhei YoshidaLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="small-image" data-toggle="modal" data-target="#videoModalShuhei Yoshida">
+            <img src="https://2024.amaze-berlin.de/images/jury/shu.webp" alt="" class="img-fluid rounded" width="100">
+          </div>
+          
+
           <h3 class="mt-4 text-lg">Shuhei Yoshida </h3>
           
           <p class="text-md">He/Him </p> 
@@ -653,20 +691,29 @@ a.tickets {
             
             
           
-      </div>
-      
-        <style>
-          .jury a {
-            border-bottom:none;
-            font-size:0.8em;
-            text-transform: uppercase;
-            display:block;
-            &:hover {
-              color: rgb(0, 145, 70)!important;
-            }
-        </style>
+        </div>
+        
         <div class="col-lg-4 pb-5 jury">
-          <img src="https://2024.amaze-berlin.de/images/jury/vanessa.webp" alt="" class="img-fluid rounded">
+          
+          <div class="modal fade" id="videoModalVanessa Amoah Opoku" tabindex="-1" role="dialog" aria-labelledby="videoModalVanessa Amoah OpokuLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="small-image" data-toggle="modal" data-target="#videoModalVanessa Amoah Opoku">
+            <img src="https://2024.amaze-berlin.de/images/jury/vanessa.webp" alt="" class="img-fluid rounded" width="100">
+          </div>
+          
+
           <h3 class="mt-4 text-lg">Vanessa Amoah Opoku </h3>
           
           <p class="text-md">She/Her </p> 
@@ -681,12 +728,13 @@ a.tickets {
             
             
           
-      </div>
-      
+        </div>
+        
       </div>
     </div>
   </div>
 </section>
+
 
  
 

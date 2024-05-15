@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 230285
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 May 2024 13:35:25 GMT
-Etag: "a7cf3a3a663c890b7577587885528c7c-ssl-df"
+Date: Wed, 15 May 2024 00:11:15 GMT
+Etag: "d47caf67c017e2af2259469be9d6819f-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HX1X23AX1H6BRJHN534698DH
+X-Nf-Request-Id: 01HXWSDHWXB7F9BDKJDHW4FX64
 
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
@@ -48,8 +48,8 @@ X-Nf-Request-Id: 01HX1X23AX1H6BRJHN534698DH
 
 
 
-<link rel="preload" href="/scss/main.min.8747bf7db6e23848a98ebb61463a760302a61be9823be8af9d9bb9e27d4b3a20.css" as="style">
-<link href="/scss/main.min.8747bf7db6e23848a98ebb61463a760302a61be9823be8af9d9bb9e27d4b3a20.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.45d6a14d08bc023fd0b885bfc71ee5582423bd6ab0101e2fb290123c171444db.css" as="style">
+<link href="/scss/main.min.45d6a14d08bc023fd0b885bfc71ee5582423bd6ab0101e2fb290123c171444db.css" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -102,6 +102,8 @@ X-Nf-Request-Id: 01HX1X23AX1H6BRJHN534698DH
 	
 	
 	<a class="dropdown-item" href="https://cdevents.dev/docs">latest</a>
+	
+	<a class="dropdown-item" href="https://github.com/cdevents/spec/tree/v0.3.0/spec.md">v0.3.0</a>
 	
 	<a class="dropdown-item" href="https://github.com/cdevents/spec/tree/v0.2.0/spec.md">v0.2.0</a>
 	

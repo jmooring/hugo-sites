@@ -4,12 +4,12 @@ Age: 0
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 04 May 2024 13:35:35 GMT
-Etag: "292edd4c8658199f63f52cbce3c48bd8-ssl-df"
+Date: Wed, 15 May 2024 00:11:24 GMT
+Etag: "ec93636df6e6c0985a7f3ab3ab3ba719-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Nf-Request-Id: 01HX1X2D5NZHGNN87DH7H30XR4
+X-Nf-Request-Id: 01HXWSDTP19KSN3ABHXK4PYVET
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -101,11 +101,11 @@ X-Nf-Request-Id: 01HX1X2D5NZHGNN87DH7H30XR4
     <a href="#" class="cart-parent snipcart-checkout"><span class="snipcart-items-count"></span><span class="cart-word">CART</span><img src="/images/cart.png" alt="cart icon" class="cart "></a>
   </nav>
   
-  <div class="popup" id='popup' hidden style="display: none;">
-    <h3>Winter 2023 Hours</h3>
-    <p>Thanksgiving: Open Nov 21, 22 Closed rest of week <br> Christmas: Open normal hours the week before Christmas, then closed till Jan 31.</p>
+  <div class="popup" id='popup' style="display: block;">
+    <h3>Closed Saturday Afternoon</h3>
+    <p>We are having our church/school picnic Saturday, May 11. We will be open that day, but closing at 3:00 so we can enjoy a bit of it. Thanks for your consideration!</p>
     <br>
-    <img src="/images/new-year.jpg" alt="new year">
+    <img src="/images/store.jpeg" alt="new year">
     <button type="button" name="button" class="btn-tan" onclick="hidePopup()">Go To Site</button>
   </div>
   
@@ -365,8 +365,12 @@ X-Nf-Request-Id: 01HX1X2D5NZHGNN87DH7H30XR4
 
 </footer>
 <script>
- 
-
+  let session = sessionStorage.getItem('session')
+  if (session == "active")
+  document.querySelector('#popup').style.display = "none";
+  else {
+  document.querySelector('#popup').style.display = "block";
+  }
   
   </script>
 <div class="privacy hide" id='privacy' >

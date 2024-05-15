@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 238104
+Age: 589658
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 May 2024 13:35:34 GMT
-Etag: W/"38cf72f8a0bd6a3bff1995574657c872"
+Date: Wed, 15 May 2024 00:11:24 GMT
+Etag: W/"ac065b666843e1312882cde99d41a973"
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
+X-Vercel-Id: pdx1::tkm9p-1715731884630-5ff9ff034cb1
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -166,6 +166,10 @@ X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
         padding-top: 1em;
     }
 
+    div#cmdk-wrapper-div {
+    background-color: rgba(255, 255, 255, 0.4) !important
+}
+
 </style>
 
 <nav class="navbar is-flex is-black pt-3" role="navigation" aria-label="main navigation">
@@ -192,8 +196,8 @@ X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
         </div>
         <div class="navbar-end">     
           <div class="navbar-item is-hidden-desktop">
-            <a id="sb" class="navbar-item mobile-search ml-6"  href="#" onclick="openDrawer(trigger)"  data-drawer-trigger aria-controls="drawer-name" aria-expanded="false">
-              <span aria-label="search" class="mr-3">🔍</span> Search
+            <a id="mobile-sb" style="width: min-content" onclick="window.plugSDK.toggleSearchAgent();">
+                <span aria-label="search" class="mr-3">🔍</span>
             </a>
           </div>
       </div>
@@ -238,9 +242,9 @@ X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
         
             
             <div class="navbar-item">
-            <a id="sb" class="is-black navbar-item general-nav-text mr-6" style="width:min-content;"  href="#" onclick="openDrawer(trigger)"  data-drawer-trigger aria-controls="drawer-name" aria-expanded="false">
-                <span aria-label="search" class="mr-3">🔍</span> Search  
-            </a>
+                <a id="sb" style="width: min-content" onclick="window.plugSDK.toggleSearchAgent();">
+                    <span aria-label="search" class="mr-3">🔍</span>
+                </a>
             </div>
             </div>
     </div>
@@ -1760,6 +1764,24 @@ X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
 
 
 
+<script
+    src="https://plug-platform.devrev.ai/static/plug.js"
+    type="text/javascript"
+></script>
+
+<script>
+    window.plugSDK.init({
+        app_id: "don:core:dvrv-us-1:devo/mu0baTAi:plug_setting/1",
+        disable_plug_chat_window: true,
+    });
+    window.plugSDK.onEvent((payload) => {
+        if (payload.type === "ON_PLUG_WIDGET_READY") {
+            window.plugSDK.initSearchAgent();
+        }
+    });
+</script>
+
+
 <script src="/js/airgap.js"></script>
 <script src="/js/open-search.js"></script>
 <script src="/js/table.js"></script>
@@ -1780,16 +1802,15 @@ X-Vercel-Id: pdx1::jt98s-1714829734955-3b252b6e10b2
 
 
 <script type="text/javascript">
-  function openInTab() {
-    var iframeUrl = window.location.toString();
-    
-    window.open(iframeUrl, "_blank")
-  }
+    function openInTab() {
+        var iframeUrl = window.location.toString();
+        window.open(iframeUrl, "_blank");
+    }
 </script>
 
 
-
 <script src="/js/anchor.js"></script>
+
 <section class="drawer" id="drawer-name" data-drawer-target>
     <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
     <div class="drawer__wrapper">

@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 41489
+Age: 83480
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 16436416
+Cc-Build-Id: 16508355
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=35;t=39
+Cc-Perf: fetch-headers=39;t=45
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 87e8dfd60bb908a1-SEA
+Cf-Ray: 883ee9036f81761b-SEA
 Content-Type: text/html; charset=utf-8
-Date: Sat, 04 May 2024 13:35:30 GMT
-Etag: W/117467aa3be87bb32605b0988d3dc500
-Last-Modified: Wed, 01 May 2024 05:16:01 GMT
+Date: Wed, 15 May 2024 00:11:21 GMT
+Etag: W/56f0140dd8dff2dba54577f8564139a7
+Last-Modified: Tue, 14 May 2024 00:59:39 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -37,6 +37,42 @@ X-Robots-Tag: all
   
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8186336.js"></script>
   
+  
+  
+  
+  <script type="text/javascript">
+    var _hsp = (window._hsp = window._hsp || []);
+    _hsp.push([
+      "addPrivacyConsentListener",
+      function (consent) {
+        if (consent.categories.analytics) {
+          +function(a,p,P,b,y){a.braze={};a.brazeQueue=[];for(var s="BrazeSdkMetadata DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Card.fromContentCardsJson ImageOnly CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent InAppMessage.fromJson FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.addToSubscriptionGroup User.prototype.getUserId User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.removeFromSubscriptionGroup User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent FeatureFlag FeatureFlag.prototype.getStringProperty FeatureFlag.prototype.getNumberProperty FeatureFlag.prototype.getBooleanProperty automaticallyShowInAppMessages destroyFeed hideContentCards showContentCards showFeed showInAppMessage deferInAppMessage toggleContentCards toggleFeed changeUser destroy getDeviceId getDeviceId initialize isPushBlocked isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardImpressions logContentCardClick logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession requestPushPermission removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh refreshFeatureFlags requestImmediateDataFlush enableSDK isDisabled setLogger setSdkAuthenticationSignature addSdkMetadata disableSDK subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToSdkAuthenticationFailures toggleLogging unregisterPush wipeData handleBrazeAction subscribeToFeatureFlagsUpdates getAllFeatureFlags logFeatureFlagImpression".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.braze,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.brazeQueue.push(arguments); return true}"))()}window.braze.getDeferredInAppMessage=function(){return new window.braze.InAppMessage};window.braze.getCachedContentCards=function(){return new window.braze.ContentCards};window.braze.getCachedFeed=function(){return new window.braze.Feed};window.braze.getUser=function(){return new window.braze.User};window.braze.getFeatureFlag=function(){return new window.braze.FeatureFlag};(y=p.createElement(P)).type='text/javascript';
+            y.src='https://js.appboycdn.com/web-sdk/5.2/braze.min.js';
+            y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
+          }(window,document,'script');
+        }
+      },
+    ]);
+    _hsp.push([
+      "addPrivacyConsentListener",
+      function (consent) {
+        if (consent.categories.analytics) {
+          braze.initialize('a75f80b5-9aa8-464a-9388-9eab407cbcfc', {
+              baseUrl: "sdk.iad-07.braze.com"
+          });
+        }
+      }
+    ]);
+    _hsp.push([
+      "addPrivacyConsentListener",
+      function (consent) {
+        if (consent.categories.analytics) {
+          
+          braze.openSession();
+        }
+      }
+    ]);
+  </script>
 
   
   
@@ -79,17 +115,6 @@ X-Robots-Tag: all
         }
       },
     ]);
-  </script>
-  
-  
-  <script type="text/javascript">
-    +function(a,p,P,b,y){a.braze={};a.brazeQueue=[];for(var s="BrazeSdkMetadata DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Card.fromContentCardsJson ImageOnly CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent InAppMessage.fromJson FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.addToSubscriptionGroup User.prototype.getUserId User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.removeFromSubscriptionGroup User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent FeatureFlag FeatureFlag.prototype.getStringProperty FeatureFlag.prototype.getNumberProperty FeatureFlag.prototype.getBooleanProperty automaticallyShowInAppMessages destroyFeed hideContentCards showContentCards showFeed showInAppMessage deferInAppMessage toggleContentCards toggleFeed changeUser destroy getDeviceId getDeviceId initialize isPushBlocked isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardImpressions logContentCardClick logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession requestPushPermission removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh refreshFeatureFlags requestImmediateDataFlush enableSDK isDisabled setLogger setSdkAuthenticationSignature addSdkMetadata disableSDK subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToSdkAuthenticationFailures toggleLogging unregisterPush wipeData handleBrazeAction subscribeToFeatureFlagsUpdates getAllFeatureFlags logFeatureFlagImpression".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.braze,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.brazeQueue.push(arguments); return true}"))()}window.braze.getDeferredInAppMessage=function(){return new window.braze.InAppMessage};window.braze.getCachedContentCards=function(){return new window.braze.ContentCards};window.braze.getCachedFeed=function(){return new window.braze.Feed};window.braze.getUser=function(){return new window.braze.User};window.braze.getFeatureFlag=function(){return new window.braze.FeatureFlag};(y=p.createElement(P)).type='text/javascript';
-      y.src='https://js.appboycdn.com/web-sdk/5.2/braze.min.js';
-      y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
-    }(window,document,'script');
-    braze.initialize('a75f80b5-9aa8-464a-9388-9eab407cbcfc', {
-        baseUrl: "sdk.iad-07.braze.com"
-    });
   </script>
   
   
@@ -577,6 +602,47 @@ X-Robots-Tag: all
 
  
 
+
+
+
+
+
+
+    <meta name="twitter:title" content="Print Management that just works">
+
+
+
+
+
+
+
+
+
+
+    <meta name="og:title" content="Print Management that just works">
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+
+    <meta name="og:site_name" content="PaperCut">
+ 
+
+ 
+
+
+
+
+
+
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@16.png" type="image/png" sizes="16x16">
   <link rel="shortcut icon" href="https://cdn.papercut.com/web/img/icon/favicon@32.png" type="image/png" sizes="32x32">
@@ -584,7 +650,7 @@ X-Robots-Tag: all
   
 
    
-  <meta name="google-site-verification" content="xk0NeGJoP-1gvWBtABzhsCzOH7KKbym9FZWXiuYysO8">
+  <meta name="google-site-verification" content="Dfzp5jaRteGsHdUkCLLBVOvXQNi3vRNVJX2tk8WVep8">
 
    
   <meta name="facebook-domain-verification" content="a10sji1k1rfh879g5rxbghiw6j3kkt">
@@ -5323,29 +5389,49 @@ Forest Positive
   <div class="c-logo-strip-carousel__logos">
     <div class="c-logo-strip-carousel__logos__logos-slider">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
+    
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
+    
+      
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
+      
+    
+      
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
+      
+    
+      
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
+      
+    
       
       
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
+    
       
-    </div>
+   </div>
   </div>
 </div>
 
@@ -5400,25 +5486,41 @@ Forest Positive
   <div class="c-logo-strip-carousel__logos">
     <div class="c-logo-strip-carousel__logos__logos-slider">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
+    
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+      
+    
+      
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
+      
+    
+      
+       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
+      
+    
       
       
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
+    
+  
       
       <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
+    
       
-    </div>
+   </div>
   </div>
 </div>
 

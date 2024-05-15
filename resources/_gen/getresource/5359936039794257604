@@ -1,0 +1,593 @@
+HTTP/2.0 200 OK
+Age: 11933
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 14 May 2024 20:52:34 GMT
+Etag: W/"abca70042bebe6cc2324ca87e0bbd10b"
+Last-Modified: Tue, 14 May 2024 19:27:25 GMT
+Server: AmazonS3
+Vary: Accept-Encoding
+Via: 1.1 884680276f0c3ab3c1a683a7d44cb4c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DxMYuaLw24Y4d1RncoZ0X3j8KsLVADAKdEg0CtcMaH6l10qOmvb64Q==
+X-Amz-Cf-Pop: SEA73-P3
+X-Amz-Meta-Md5chksum: abca70042bebe6cc2324ca87e0bbd10b
+X-Cache: Hit from cloudfront
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.126.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.75">
+  <title>The Java Version Almanac - javaalmanac.io</title>
+  <link rel="preload" href="/fonts/noto-sans-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/noto-sans-v12-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/almanac.min.8326cc3a613109ebfed6f0d8daf559856ead7619c43bc07fc5696e27e173282d.css" integrity="sha256-gybMOmExCev&#43;1vDY2vVZhW6tdhnEO8B/xWluJ&#43;FzKC0=">
+  <link rel="shortcut icon" type="image/png" href="/img/duke64.png">
+  <link rel="canonical" href="https://javaalmanac.io/">
+  <meta name="description" content="Systematic collection of information about the history and the future of Java.">
+</head>
+<body>
+<div class="header-bar">
+<div class="header">
+  <img src="/img/duke.svg" title="Duke" width=52 height="56" style="float:left;margin-right:8px">
+  <a href="https://github.com/marchof/java-almanac"><img src="/img/github.svg" title="Java Almanac on GitHub.com" height="14" style="float:right;margin-top:4px;margin-bottom:10px;"></a><search class="findbox">
+<form action="/find/">
+<input type="search" name="q" placeholder="Find Java Resources"><button type="submit">&nbsp;</button> 
+</form>
+</search>
+  <span style="font-size:11pt;color:#888;font-weight:bold">The Java Version Almanac</span><br>
+  <span><a style="font-size:19pt;text-decoration:none;color:#000;font-weight:bold" href="https://javaalmanac.io/">javaalmanac.io</a></span>
+</div>
+</div>
+<div class="content" id="content"><div class="feedback">
+<a href="https://github.com/marchof/java-almanac/issues/new?title=Feedback%20on%20page%20%22The%20Java%20Version%20Almanac%22&body=Hello,%20I%20would%20like%20to%20propose%20the%20following%20improvement%20on%20[this%20page]%28https://javaalmanac.io/%29:">Feedback on this page?</a>
+</div><ul  class="breadcrump">
+</ul><h1 id="the-java-version-almanac">The Java Version Almanac</h1>
+<p>Systematic collection of information about the history and the future of Java.</p>
+<div style="overflow-x:auto;">
+<table style="width:100%;white-space:nowrap;">
+  <thead>
+    <tr>
+      <th>Details</th>
+      <th>Status</th>
+      <th>Documentation</th>
+      <th>Download</th>
+      <th style="width:20%">Compare API to</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="jdk/23/">Java 23</a></td>
+      <td><span class="tag status-DEV" title="In Development" style="cursor: help">DEV</span></td>
+      <td>
+          <a href="https://download.java.net/java/early_access/jdk23/docs/api/">API</a>| <a href="http://jdk.java.net/23/release-notes">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=23&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=23&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/23/apidiff/22/">22</a>
+            <a class="diffversion" href="jdk/23/apidiff/21/">21</a>
+            <a class="diffversion" href="jdk/23/apidiff/20/">20</a>
+            <a class="diffversion" href="jdk/23/apidiff/19/">19</a>
+            <a class="diffversion" href="jdk/23/apidiff/18/">18</a>
+            <a class="diffversion" href="jdk/23/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/23/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/23/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/23/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/23/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/23/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/22/">Java 22</a></td>
+      <td><span class="tag status-REL" title="Feature Release" style="cursor: help">REL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/22/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se22/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se22/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/22u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=22&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=22&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/22/apidiff/21/">21</a>
+            <a class="diffversion" href="jdk/22/apidiff/20/">20</a>
+            <a class="diffversion" href="jdk/22/apidiff/19/">19</a>
+            <a class="diffversion" href="jdk/22/apidiff/18/">18</a>
+            <a class="diffversion" href="jdk/22/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/22/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/22/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/22/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/22/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/22/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/22/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/21/">Java 21</a></td>
+      <td><span class="tag status-LTS" title="Long Term Support Release" style="cursor: help">LTS</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/21/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se21/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se21/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/21u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=21&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=21&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/21/apidiff/20/">20</a>
+            <a class="diffversion" href="jdk/21/apidiff/19/">19</a>
+            <a class="diffversion" href="jdk/21/apidiff/18/">18</a>
+            <a class="diffversion" href="jdk/21/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/21/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/21/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/21/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/21/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/21/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/21/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/21/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/20/">Java 20</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/20/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se20/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se20/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/20u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=20&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=20&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/20/apidiff/19/">19</a>
+            <a class="diffversion" href="jdk/20/apidiff/18/">18</a>
+            <a class="diffversion" href="jdk/20/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/20/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/20/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/20/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/20/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/20/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/20/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/20/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/20/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/19/">Java 19</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/19/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se19/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se19/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/19u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=19&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=19&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/19/apidiff/18/">18</a>
+            <a class="diffversion" href="jdk/19/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/19/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/19/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/19/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/19/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/19/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/19/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/19/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/19/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/19/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/18/">Java 18</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/18/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se18/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se18/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/18u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=18&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=18&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/18/apidiff/17/">17</a>
+            <a class="diffversion" href="jdk/18/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/18/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/18/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/18/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/18/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/18/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/18/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/18/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/18/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/18/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/17/">Java 17</a></td>
+      <td><span class="tag status-LTS" title="Long Term Support Release" style="cursor: help">LTS</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/17/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se17/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se17/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/17u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=17&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=17&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/17/apidiff/16/">16</a>
+            <a class="diffversion" href="jdk/17/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/17/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/17/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/17/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/17/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/17/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/17/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/17/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/17/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/17/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/16/">Java 16</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/16/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se16/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se16/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/16u-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=16&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=16&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/16/apidiff/15/">15</a>
+            <a class="diffversion" href="jdk/16/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/16/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/16/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/16/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/16/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/16/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/16/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/16/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/16/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/16/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/15/">Java 15</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/15/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se15/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se15/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/15-relnote-issues.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=15&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=15&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/15/apidiff/14/">14</a>
+            <a class="diffversion" href="jdk/15/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/15/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/15/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/15/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/15/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/15/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/15/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/15/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/15/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/15/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/14/">Java 14</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/14/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se14/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se14/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/14-relnote-issues.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=14&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=14&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/14/apidiff/13/">13</a>
+            <a class="diffversion" href="jdk/14/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/14/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/14/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/14/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/14/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/14/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/14/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/14/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/14/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/14/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/13/">Java 13</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/13/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se13/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se13/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/13-relnote-issues.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=13&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=13&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/13/apidiff/12/">12</a>
+            <a class="diffversion" href="jdk/13/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/13/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/13/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/13/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/13/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/13/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/13/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/13/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/13/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/13/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/12/">Java 12</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/12/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se12/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se12/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/12-relnote-issues.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=12&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=12&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/12/apidiff/11/">11</a>
+            <a class="diffversion" href="jdk/12/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/12/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/12/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/12/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/12/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/12/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/12/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/12/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/12/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/12/">...</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/11/">Java 11</a></td>
+      <td><span class="tag status-LTS" title="Long Term Support Release" style="cursor: help">LTS</span></td>
+      <td>
+          <a href="https://docs.oracle.com/en/java/javase/11/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se11/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se11/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/11-relnote-issues.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=11&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=11&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/11/apidiff/10/">10</a>
+            <a class="diffversion" href="jdk/11/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/11/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/11/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/11/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/11/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/11/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/11/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/11/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/11/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/10/">Java 10</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/10/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se11/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se10/html/index.html">VM</a>| <a href="https://www.oracle.com/technetwork/java/javase/10-relnote-issues-4108729.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=10&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=10&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/10/apidiff/9/">9</a>
+            <a class="diffversion" href="jdk/10/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/10/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/10/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/10/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/10/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/10/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/10/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/10/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/9/">Java 9</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/9/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se9/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se9/html/index.html">VM</a>| <a href="https://www.oracle.com/technetwork/java/javase/9all-relnotes-3704433.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=9&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=9&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/9/apidiff/8/">8</a>
+            <a class="diffversion" href="jdk/9/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/9/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/9/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/9/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/9/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/9/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/9/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/8/">Java 8</a></td>
+      <td><span class="tag status-LTS" title="Long Term Support Release" style="cursor: help">LTS</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/8/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se8/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se8/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/8-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=8&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=8&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/8/apidiff/7/">7</a>
+            <a class="diffversion" href="jdk/8/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/8/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/8/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/8/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/8/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/8/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/7/">Java 7</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/7/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se7/html/index.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se7/html/index.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/jdk7-relnotes.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=7&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=7&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/7/apidiff/6/">6</a>
+            <a class="diffversion" href="jdk/7/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/7/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/7/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/7/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/7/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/6/">Java 6</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/6/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se6/html/j3TOC.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se6/html/VMSpecTOC.doc.html">VM</a>| <a href="https://www.oracle.com/technetwork/java/javase/index-140291.html">Notes</a>
+      </td>
+      <td>
+          <a href="jdk/download/#version=6&amp;type=jdk">JDK</a>|
+          <a href="jdk/download/#version=6&amp;type=jre">JRE</a>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/6/apidiff/5/">5</a>
+            <a class="diffversion" href="jdk/6/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/6/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/6/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/6/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/5/">Java 5</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://docs.oracle.com/javase/1.5.0/docs/api/">API</a>| <a href="https://docs.oracle.com/javase/specs/jls/se6/html/j3TOC.html">Lang</a>| <a href="https://docs.oracle.com/javase/specs/jvms/se6/html/VMSpecTOC.doc.html">VM</a>| <a href="https://www.oracle.com/java/technologies/javase/release-notes-Introduction.html">Notes</a>
+      </td>
+      <td>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/5/apidiff/1.4/">1.4</a>
+            <a class="diffversion" href="jdk/5/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/5/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/5/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/1.4/">Java 1.4</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://javaalmanac.io/jdk/1.4/api/index.html">API</a>
+      </td>
+      <td>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/1.4/apidiff/1.3/">1.3</a>
+            <a class="diffversion" href="jdk/1.4/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/1.4/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/1.3/">Java 1.3</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://javaalmanac.io/jdk/1.3/api/index.html">API</a>
+      </td>
+      <td>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/1.3/apidiff/1.2/">1.2</a>
+            <a class="diffversion" href="jdk/1.3/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/1.2/">Java 1.2</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://javaalmanac.io/jdk/1.2/api/index.html">API</a>| <a href="https://javaalmanac.io/jdk/1.2/langspec.pdf">Lang</a>
+      </td>
+      <td>
+      </td>
+      <td>
+            <a class="diffversion" href="jdk/1.2/apidiff/1.1/">1.1</a>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/1.1/">Java 1.1</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://javaalmanac.io/jdk/1.1/api/packages.html">API</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="jdk/1.0/">Java 1.0</a></td>
+      <td><span class="tag status-EOL" title="End of Life" style="cursor: help">EOL</span></td>
+      <td>
+          <a href="https://javaalmanac.io/jdk/1.0/api/">API</a>| <a href="https://javaalmanac.io/jdk/1.0/langspec.pdf">Lang</a>| <a href="https://javaalmanac.io/jdk/1.0/vmspec.pdf">VM</a>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="jdk/pre1.0">Pre 1.0</a>
+      </td>
+      <td><span class="tag status-EOL" title="EOL" style="cursor: help">EOL</span></td>
+      <td colspan="3">
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="datasource">
+  <a href="https://data.javaalmanac.io/v1/jdk/versions">Data Source</a>
+</div>
+</div>
+
+<h2 id="java-resources">Java Resources</h2>
+<ul>
+<li><a href="jdk/">JDK Releases</a></li>
+<li><a href="bytecode/">Java Bytecode</a></li>
+<li><a href="features/">Features</a></li>
+<li><a href="snippets/">Snippets of Modern Java</a></li>
+<li><a href="references/">References</a></li>
+</ul>
+<h2 id="about">About</h2>
+<p>This site is provided by Java Champions Marc R. Hoffmann and Cay S. Horstmann.
+All content is managed in a <a href="https://github.com/marchof/java-almanac">public GitHub repository</a>.
+The structured data about the JDK is also available via an <a href="https://editor.swagger.io/?url=https://data.javaalmanac.io/v1/openapi.yaml">open API</a>.</p>
+<h2 id="license">License</h2>
+
+<img src="/img/cc-by-sa.png" title="Creative Commons BY-SA" width="88" height="31"/>
+
+
+<p>Unless otherwise noted, this content is published under the
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<p>Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+Other names may be trademarks of their respective owners.</p>
+</div>
+<div class="footer-bar">
+<div class="footer">
+  <span style="float:right">&copy; 2018, 2024 Marc R. Hoffmann et al. <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
+  Content managed on <a href="https://github.com/marchof/java-almanac">GitHub</a>.
+  Generated with <a href="https://gohugo.io/">Hugo</a>.
+  Collected with passion.
+</div>
+</div>
+</body>
+</html>
