@@ -4,20 +4,20 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Wed, 15 May 2024 00:11:20 GMT
-Etag: W/"66325eed-52b1"
-Expires: Wed, 15 May 2024 00:21:20 GMT
-Last-Modified: Wed, 01 May 2024 15:25:33 GMT
+Date: Wed, 29 May 2024 10:34:26 GMT
+Etag: W/"66565f4b-522c"
+Expires: Wed, 29 May 2024 10:38:10 GMT
+Last-Modified: Tue, 28 May 2024 22:48:43 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
+X-Cache: HIT
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 3785152cedf320365966d65dc5e6264894e162ad
-X-Github-Request-Id: 5086:32511B:1B92AE:1C353C:6643FDA8
+X-Fastly-Request-Id: 1c10434e4b710abc13639adbc8feab0cb82357a8
+X-Github-Request-Id: E774:77646:A306DF:A7B064:66570339
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400050-BFI
-X-Timer: S1715731880.088835,VS0,VE90
+X-Served-By: cache-bfi-kbfi7400067-BFI
+X-Timer: S1716978867.536318,VS0,VE85
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -28,7 +28,7 @@ X-Timer: S1715731880.088835,VS0,VE90
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.126.0-DEV">
+    <meta name="generator" content="Hugo 0.126.1">
     
     
     
@@ -60,12 +60,13 @@ X-Timer: S1715731880.088835,VS0,VE90
     <meta property="og:url" content="https://pretired.dazwilkin.com/">
   <meta property="og:site_name" content="(p)retired">
   <meta property="og:title" content="(p)retired">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="(p)retired">
-  <meta itemprop="dateModified" content="2024-04-30T00:00:00-07:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="(p)retired">
-<meta name="twitter:description" content="">
+  <meta itemprop="dateModified" content="2024-05-28T00:00:00-07:00">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="(p)retired">
 
       
   
@@ -204,6 +205,33 @@ X-Timer: S1715731880.088835,VS0,VE90
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/280524/" class="color-inherit dim link">
+            Using Delve to debug Go containers on Kubernetes
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          An interesting question on Stack overflow prompted me to understand how to use Visual Studio Code and Delve to remotely debug a Golang app running on Kubernetes (MicroK8s).
+The OP is using Gin which was also new to me so the question gave me an opportunity to try out several things.
+Sources A simple healthz handler:
+package main import ( &#34;flag&#34; &#34;log/slog&#34; &#34;net/http&#34; &#34;github.com/gin-gonic/gin&#34; ) var ( addr = flag.String(&#34;addr&#34;, &#34;0.
+        </div>
+          <a href="/posts/280524/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240430/" class="color-inherit dim link">
             Securing gRPC services using Tailscale
             </a>
@@ -249,38 +277,18 @@ BILLING=&#34;...&#34; # Your Billing ID (gcloud billing accounts list) PROJECT=&
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240405/" class="color-inherit dim link">
-            Google Cloud Events protobufs and SDKs
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          I&rsquo;ve written before about Ackal&rsquo;s use of Firestore and subscribing to Firestore document CRUD events:
-Routing Firestore events to GKE with Eventarc Cloud Firestore Triggers in Golang using Firestore triggers I find Google&rsquo;s Eventarc documentation to be confusing and, in typical Google fashion, even though open-sourced, you often need to do some legwork to find relevant sources, viz:
-Google&rsquo;s Protobufs for Eventarc (using cloudevents) google-cloudevents1 Convenience (since you can generate these using protoc) language-specific types generated from the above e.
-        </div>
-          <a href="/posts/240405/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="/posts/240405/" class="link black dim">
+              Google Cloud Events protobufs and SDKs
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/240325/" class="link black dim">
@@ -297,12 +305,6 @@ Google&rsquo;s Protobufs for Eventarc (using cloudevents) google-cloudevents1 Co
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="/posts/240307/" class="link black dim">
               Prometheus Protobufs and Native Histograms
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/240216/" class="link black dim">
-              MicroK8s operability add-on
             </a>
           </h2>
         

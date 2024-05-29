@@ -2,15 +2,15 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Wed, 15 May 2024 00:11:29 GMT
-Etag: W/"6643b884-72e6"
-Last-Modified: Tue, 14 May 2024 19:16:20 GMT
+Date: Wed, 29 May 2024 10:34:32 GMT
+Etag: W/"66563eac-7488"
+Last-Modified: Tue, 28 May 2024 20:29:32 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 
-72e6
+7488
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -401,6 +401,21 @@ X-Frame-Options: SAMEORIGIN
             <span class="announce-date">Mon, 13 May 2024</span>
           </div>
           <div class="col-md-4 announcement">
+            <p class="overline overline-arin">ARIN</p>
+            <h3><a href="https://www.arin.net/announcements/20240524/">In Remembrance — Stacy Taylor (Hughes)</a></h3>
+            <span class="announce-date">Fri, 24 May 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
+            <p class="overline overline-governance">Governance</p>
+            <h3><a href="https://www.arin.net/announcements/20240520/">Announcing the 2024 ARIN Grant Selection Committee</a></h3>
+            <span class="announce-date">Mon, 20 May 2024</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
+            <p class="overline overline-elections">Elections</p>
+            <h3><a href="https://www.arin.net/announcements/20240515-nomcom/">Meet the 2024 Nomination Committee</a></h3>
+            <span class="announce-date">Wed, 15 May 2024</span>
+          </div>
+          <div class="col-md-4 announcement">
             <p class="overline overline-acsp/surveys">ACSP/Surveys</p>
             <h3><a href="https://www.arin.net/announcements/20240513/">NOW CLOSED - Consultation on Approaches for Adjusting the ARIN Registration Plan Fee Schedule</a></h3>
             <span class="announce-date">Mon, 13 May 2024</span>
@@ -409,21 +424,6 @@ X-Frame-Options: SAMEORIGIN
             <p class="overline overline-meetings/events">Meetings/Events</p>
             <h3><a href="https://www.arin.net/announcements/20240501/">ARIN 53 Meeting Report Now Available</a></h3>
             <span class="announce-date">Wed, 01 May 2024</span>
-          </div></div><!-- close first row --><div class="row">
-          <div class="col-md-4 announcement">
-            <p class="overline overline-governance">Governance</p>
-            <h3><a href="https://www.arin.net/announcements/20240422-grants/">Apply Now for an ARIN Community Grant</a></h3>
-            <span class="announce-date">Mon, 22 Apr 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-meetings/events">Meetings/Events</p>
-            <h3><a href="https://www.arin.net/announcements/20240415/">ARIN 53 Begins Today</a></h3>
-            <span class="announce-date">Mon, 15 Apr 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-internet-number-resources">Internet Number Resources</p>
-            <h3><a href="https://www.arin.net/announcements/20240404-ipv4/">IPv4 Waiting List Distribution</a></h3>
-            <span class="announce-date">Thu, 04 Apr 2024</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -496,6 +496,32 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
         
 <div class="col">
   <div class="blog-preview card">
+    <a href="/blog/2024/05/21/arin53-keynote-recap/">
+      <img class="card-img-top" src="/blog/2024/05/21/arin53-keynote-recap/arin53-keynote-recap.png" alt="Read the blog Building and Sustaining Caribbean Digital Infrastructure with IXPs and IPv6 Technologies">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/05/21/arin53-keynote-recap/"><h3 class="card-title">Building and Sustaining Caribbean Digital Infrastructure with IXPs and IPv6 Technologies</h3></a>
+      <time datetime="2024-05-21 10:30:00 -0400 EDT">21 May 2024</time>
+      <p>In the keynote address at the ARIN 53 meeting, Brent Mc Intosh of MCNET-SOLUTIONS discussed the development and support of local critical infrastructure to provide seamless access to digital services across the Caribbean. Read this recap of the presentation to explore the current status, future possibilities, and proposed strategies he shared.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2024/05/15/nro-rpki-program-series-2/">
+      <img class="card-img-top" src="/blog/2024/05/15/nro-rpki-program-series-2/nro-rpki_program.jpg" alt="Read the blog NRO RPKI Program Blog Series: Part 2">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/05/15/nro-rpki-program-series-2/"><h3 class="card-title">NRO RPKI Program Blog Series: Part 2</h3></a>
+      <time datetime="2024-05-15 08:50:00 -0400 EDT">15 May 2024</time>
+      <p>The Number Resource Organization&#39;s Resource Public Key Infrastructure (RPKI) Program Manager discusses the specific outcomes that will guide the program&#39;s efforts and the community feedback needed to support them.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="blog-preview card">
     <a href="/blog/2024/05/02/grant-applications-open/">
       <img class="card-img-top" src="/blog/2024/05/02/grant-applications-open/grants.jpg" alt="Read the blog Apply for an ARIN Community Grant ">
     </a>
@@ -503,32 +529,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2024/05/02/grant-applications-open/"><h3 class="card-title">Apply for an ARIN Community Grant </h3></a>
       <time datetime="2024-05-02 08:00:00 -0400 EDT">2 May 2024</time>
       <p>The call for applications to the 2024 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/04/17/arin53-day3-recap/">
-      <img class="card-img-top" src="/blog/2024/04/17/arin53-day3-recap/arin53-day3-recap.png" alt="Read the blog ARIN 53 Day 3 Recap">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/04/17/arin53-day3-recap/"><h3 class="card-title">ARIN 53 Day 3 Recap</h3></a>
-      <time datetime="2024-04-17 11:00:00 -0400 EDT">17 Apr 2024</time>
-      <p>Today marked the third and final day of our ARIN 53 Public Policy and Members Meeting. Thank you to all who made it a successful event!</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/04/16/arin53-day2-recap/">
-      <img class="card-img-top" src="/blog/2024/04/16/arin53-day2-recap/arin53-day2-recap.png" alt="Read the blog ARIN 53 Day 2 Recap">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/04/16/arin53-day2-recap/"><h3 class="card-title">ARIN 53 Day 2 Recap</h3></a>
-      <time datetime="2024-04-16 15:00:00 -0400 EDT">16 Apr 2024</time>
-      <p>Day Two of ARIN 53 has come to an end! We had another productive day filled with grant reports, global updates, and more. We will be back tomorrow morning for the third and final day of the meeting.</p>
     </div>
   </div>
 </div>

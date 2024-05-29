@@ -2,16 +2,16 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Content-Type: text/html
-Date: Wed, 15 May 2024 00:11:20 GMT
-Etag: "398d3-6181e3afcde80"
-Last-Modified: Fri, 10 May 2024 19:06:18 GMT
+Date: Wed, 29 May 2024 10:34:27 GMT
+Etag: "39a0e-618acdad38240"
+Last-Modified: Fri, 17 May 2024 21:15:45 GMT
 Server: Apache/2.4.59 (Unix)
-Set-Cookie: nlbi_2333592_2975153=G3eKei4o0Sz4dymXzIjl3AAAAADpOj+v9p8rc//wcb2H2/8P; path=/; Domain=.redis.io
-Set-Cookie: visid_incap_2333592=f0bnzlwgRVe/K6xIPNrG0af9Q2YAAAAAQUIPAAAAAAA6TLUXGm0jZoPm8uL6abPE; expires=Wed, 14 May 2025 07:55:45 GMT; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: incap_ses_171_2333592=DgdcNsgwNR//8e3Xo4NfAqj9Q2YAAAAAmv3fkbi6cDgEieEgv9Tg/Q==; path=/; Domain=.redis.io
+Set-Cookie: nlbi_2333592_2975153=InXmBodxZGoRMbFGzIjl3AAAAADXfpXXEK2JSPPgNotqQGj0; path=/; Domain=.redis.io
+Set-Cookie: visid_incap_2333592=lOdGQJsAQm2Qs60JyCwKvbMEV2YAAAAAQUIPAAAAAABnT3HPohZfkeP5YO1OTw7v; expires=Wed, 28 May 2025 22:37:15 GMT; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: incap_ses_1364_2333592=xER8eNmfBH4c5xdF1ubtErMEV2YAAAAAcqGg8YxRT2eBsqjYSdfgJQ==; path=/; Domain=.redis.io
 Via: 1.1 google
 X-Cdn: Imperva
-X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
+X-Iinfo: 12-78661914-78274400 pNYy RT(1716978866958 320) q(0 0 0 -1) r(2 2) U12
 
 <!doctype html>
 <html lang="en" class="scroll-smooth w-full">
@@ -55,16 +55,16 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
 <meta name="msapplication-wide310x150logo" content="/docs/latest/images/favicons/mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="/docs/latest/images/favicons/mstile-310x310.png" />
 
-    <title>Operate | Docs</title>
-    <meta name="description" content="Operate any Redis, from Redis OSS to Redis Cloud">
-    <meta property="og:title" content="Operate" />
-<meta property="og:description" content="Operate any Redis, from Redis OSS to Redis Cloud" />
+    <title>Redis products | Docs</title>
+    <meta name="description" content="Operate any Redis, from Redis Enterprise to Redis Cloud">
+    <meta property="og:title" content="Redis products" />
+<meta property="og:description" content="Operate any Redis, from Redis Enterprise to Redis Cloud" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://redis.io/docs/latest/operate/" />
-<meta itemprop="name" content="Operate">
-<meta itemprop="description" content="Operate any Redis, from Redis OSS to Redis Cloud"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Operate"/>
-<meta name="twitter:description" content="Operate any Redis, from Redis OSS to Redis Cloud"/>
+<meta itemprop="name" content="Redis products">
+<meta itemprop="description" content="Operate any Redis, from Redis Enterprise to Redis Cloud"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Redis products"/>
+<meta name="twitter:description" content="Operate any Redis, from Redis Enterprise to Redis Cloud"/>
 
   
   <link rel="preload" href="/docs/latest/scss/style.min.65324e4de191c292ee8b6f4f0ebf01320e8c4bc8623b04e9dfad322ebb490b31.css" as="style">
@@ -76,7 +76,7 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
 
   
 
-<link href="/docs/latest/css/index.min.b103c824e377e7c3fc537eec0b9d39134a93700e9a0a0dd0a5138920dc8a8788.css" rel="stylesheet" />
+<link href="/docs/latest/css/index.min.7d0199f559c1a0ee6e4021b8de807f32531cb3b5081b783ab11a5e07a3bfc3f8.css" rel="stylesheet" />
 
     
   <script src='/docs/latest/js/codetabs.js' defer></script>
@@ -836,7 +836,7 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
 </script>
 
     
-  <main class="docs w-full max-w-[1440px] mx-auto px-5 flex flex-col md:flex-row overflow-hidden">
+  <main class="docs w-full max-w-[1920px] mx-auto px-5 flex flex-col md:flex-row overflow-hidden">
     
 
 
@@ -850,11 +850,11 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
 <div class="md:block w-full md:w-96 h-fit md:h-full shrink-0 text-base font-mono font-normal py-6">
   <nav id="sidebar" class="max-h-[calc(100vh-7rem)] min-h-96 flex flex-col gap-4 w-full md:w-96 z-40 bg-white md:fixed md:pt-6 h-fit md:h-full leading-7">
     <div class='min-h-0  border border-opacity-50 border-redis-ink-900 rounded-md flex flex-col '>
-        <a class='px-6 py-4 rounded-t-md hover:bg-redis-pen-200 ' href='/docs/latest/develop'>Develop</a>
+        <a class='px-6 py-4 rounded-t-md hover:bg-redis-pen-200 ' href='/docs/latest/develop'>Develop with Redis</a>
         
-        <a class='px-6 py-4 hover:bg-redis-pen-200 border-t border-redis-ink-900 border-opacity-50 ' href='/docs/latest/integrate'>Integrate</a>
+        <a class='px-6 py-4 hover:bg-redis-pen-200 border-t border-redis-ink-900 border-opacity-50 ' href='/docs/latest/integrate'>Libraries and tools</a>
         
-        <a class='px-6 py-4 rounded-b-md hover:bg-redis-pen-200 border-t border-redis-ink-900 border-opacity-50  font-bold ' href='/docs/latest/operate'>Operate</a>
+        <a class='px-6 py-4 rounded-b-md hover:bg-redis-pen-200 border-t border-redis-ink-900 border-opacity-50  font-bold ' href='/docs/latest/operate'>Redis products</a>
         
           <ul class="md:block overflow-y-auto grow pr-6 border-t border-opacity-50 border-redis-ink-900">
             <li class="my-2">
@@ -944,7 +944,7 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
     
       <span class="px-2">→</span>
       <a class="hover:text-redis-red-500" href="/docs/latest/operate/">
-        Operate
+        Redis products
       </a>
     
   </li>
@@ -956,10 +956,10 @@ X-Iinfo: 54-106896330-106859821 pNYy RT(1715731879890 87) q(0 0 0 3) r(1 1) U12
       <section class="prose w-full py-12 max-w-none">
         <h1>
           
-          Operate
+          Redis products
         </h1>
 
-        <p class="text-lg -mt-5 mb-10">Operate any Redis, from Redis OSS to Redis Cloud</p>
+        <p class="text-lg -mt-5 mb-10">Operate any Redis, from Redis Enterprise to Redis Cloud</p>
         
         
         
@@ -1114,7 +1114,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </svg>
     Edit this page
   </a>
-  <a href="https://github.com/redis/docs/issues/new?title=Operate" target="_blank" class="group inline-flex items-center gap-1  hover:text-redis-pen-400 mt-auto self-start">
+  <a href="https://github.com/redis/docs/issues/new?title=Redis products" target="_blank" class="group inline-flex items-center gap-1  hover:text-redis-pen-400 mt-auto self-start">
     <svg class="w-4 h-4" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="currentColor" />
     </svg>
@@ -1135,7 +1135,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
 
     <footer class="h-fit bg-white relative z-40 border border-t-redis-pen-300 text-redis-pen-600 flex justify-center font-mono text-[15px]">
-  <div class="flex flex-col gap-8 lg:max-w-[1440px] grow">
+  <div class="flex flex-col gap-8 lg:max-w-[1920px] grow">
     <div class="flex flex-col lg:flex-row px-4 pt-8 lg:p-11 justify-between gap-4">
       <div class="flex flex-col justify-between grow-[2]">
         <a class="relative hover:text-redis-pen-400 w-[82px] mb-7" href="https://redis.io/">
@@ -1249,6 +1249,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </footer>
+
     <script>
   
   document.addEventListener('DOMContentLoaded', () => {
@@ -1447,6 +1448,7 @@ document.addEventListener("DOMContentLoaded", function() {
               if (record.hierarchy[0] === category) {
                 obj[record.title] = {
                   path: constructSectionTitle(record),
+                  product: record.hierarchy[2],
                   url: record.url,
                 }
               }
@@ -1491,7 +1493,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <a href="${result[key].url}">
                     <span class="search-item-icon"></span>
                     <span class="search-item-content">
-                      ${result[key].path ? `<span class="search-item-path">${result[key].path}</span>` : ''}
+                      ${result[key].path && result[key].product ? `<div class="search-item-container"><span class="search-item-path">${result[key].path}</span><span class="px-2">→</span><span class="search-item-path">${result[key].product}</span></div>` : ''}
                       <span class="search-item-title">${key.replace(new RegExp(`(^|)(${searchTerm})(|$)`, 'ig'), '$1<b class="search-term-match">$2</b>$3')}</span>
                     </span>
                     <span class="search-item-action"></span>
@@ -1732,5 +1734,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener('submit', submitHandler)
   })()
 </script>
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1256996155" async></script></body>
+
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=502103333" async></script></body>
 </html>

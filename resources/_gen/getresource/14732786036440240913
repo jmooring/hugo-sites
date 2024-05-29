@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
-Content-Length: 16453
+Content-Length: 23110
 Accept-Ranges: bytes
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 15 May 2024 00:11:19 GMT
-Etag: "4045-61868cd949252"
-Last-Modified: Tue, 14 May 2024 12:04:24 GMT
+Date: Wed, 29 May 2024 10:34:25 GMT
+Etag: "5a46-61957f1933be2"
+Last-Modified: Sun, 26 May 2024 09:22:46 GMT
 Server: Apache
 
 <!DOCTYPE html>
@@ -118,6 +118,189 @@ Server: Apache
 <div id="page-main"><div id="content"><div class="post">
 
 	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/">DSM-Aktualisierung findet keine Updates</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">26. Mai 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Während in der Vergangenheit mehr oder minder regelmäßig Aktualisierungen für den Synology Disk Station Manager gefunden wurden, war die autmatische Suche neuerdings verdächtig lange der Meinung, daß alles Bestens wäre.</p>
+<span id="-technik-betriebssysteme-dsm-aktualisierung-findet-keine-updates-dsm72-64570-png"><a href="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/dsm72-64570.png" data-caption="DSM-Aktualisierung"><img src="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/dsm72-64570.png"  width="890" height="311" alt="DSM-Aktualisierung"></a></span>
+<p>Ein Klick auf die <a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Versionshinweise</a> zeigte allerdings, daß sehr wohl Aktualisierungen verfügbar waren. Aktuell ist &ldquo;7.2.1-69057 Update 5&rdquo; vom 08.04.2024, während die noch installierte &ldquo;7.2-64570 Update 3&rdquo; auf den 03.08.2023 datiert.</p>
+<p>Während die Updates 1 bis 5 zur 7.2.1 tatsächlich wohl auch nur nach Bedarf angeboten und eingespielt werden</p>
+<blockquote>
+<p>Your Synology NAS may not notify you of this DSM update because of the following reasons.</p>
+<p>Your DSM is working fine without having to update. The system evaluates service statuses and system settings to determine whether it needs to update to this version. [<a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Quelle</a>]</p>
+</blockquote>
+<p>enthält die &ldquo;7.2.1-69057&rdquo; u.a. Korrekturen für einige Sicherheitslücken (u.a. Sudo, OpenSSL und Zlib) und eine Installation scheint somit sinnvoll. In den Notes steht auch die Erklärung, warum der DSM die Aktualisierung nicht anzeigt</p>
+<blockquote>
+<p>For the models below, you can only download the upgrade patch from Synology Download Center because you won&rsquo;t receive notifications for this update on your DSM.</p>
+<p>Plus Series: &hellip;, DS218+, &hellip; [<a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Quelle</a>]</p>
+</blockquote>
+<p>allerdings ohne weitere Begründung, warum diese Vorgehensweise gewählt wurde.</p>
+<p>Eine weitere Unstimmigkeit gibt es dann noch im <a href="https://www.synology.com/de-de/support/download/DS218&#43;?version=7.2#system"   class="genericon icon-extlink">Download-Zentrum</a>:</p>
+<img src="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/download-zentrum.png"  width="676" height="282" alt="Download-Zentrum">
+<p>Während angezeigt wird, daß nach dem Herunterladen und Installieren von &ldquo;7.2.1-69057 (with Update 1)&rdquo; noch das Herunterladen von Installieren von &ldquo;7.2.1-69057 Update 5&rdquo; notwendig ist, meldet sich die DSM-Aktualisierung bereits nach dem Einspielen des ersten Pakets mit &ldquo;DSM 7.2.1-69057 Update 5&rdquo;.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/syology/">Syology</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/anwendungen/diskussionen-um-debian-paket-keepassxc/">Diskussionen um Debian-Paket KeepassXC</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">24. Mai 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>In den letzten Tagen sorgte eine <a href="https://www.heise.de/news/Debian-KeePassXC-Paket-verliert-Funktionen-Umstieg-zum-Nachruesten-noetig-9715863.html"   class="genericon icon-extlink">Änderung</a> am &ldquo;<a href="https://packages.debian.org/bookworm/keepassxc"   class="genericon icon-extlink">KeepassXC</a>&quot;-Paket in Debian für hitzige Diskussionen.</p>
+<p>Der grundlegende Gedanke, ein Paket mit minimalem und ein Paket mit vollständigem Funktionsumfang anzubieten ist hierbei nicht ungewöhnlich: eine solche Aufspaltung gibt es bis hin zu den Desktop-Umgebungen, wo z.B. bei der Installation zwischen einem &ldquo;<a href="https://packages.debian.org/bookworm/gnome"   class="genericon icon-extlink">gnome</a>&rdquo; und einem &ldquo;<a href="https://packages.debian.org/bookworm/gnome-core"   class="genericon icon-extlink">gnome-core</a>&quot;-Paket gewählt werden kann, welches nur den minimal notwendigen Umfang zu Betrieb der Desktopumgebung enthält.</p>
+<p>Was allerdings nicht nur mir unangenehm aufstößt ist die Vorgehensweise des Paketbetreuers, der statt der Erstellung eines zusätzlichen &ldquo;keepassxc-core&rdquo;-Pakets das ursprüngliche &ldquo;keepassxc&rdquo;-Paket um bestehende Funktionalität erleichtert und somit bestehende Installationen mit der nächsten Aktualisierung beschneidet.</p>
+<p>Dies ist offensichtlich <a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2105048996"   class="genericon icon-extlink">ohne vorherigen Dialog</a> mit den KeepassXC-Entwicklern geschehen und führt dazu, daß nun vermehrt Anwender bei KeepassXC (nicht vorhandene) Fehler melden, denn</p>
+<blockquote>
+<p>This will be painful for a year as users annoyingly do not read the NEWS files they should be reading but there&rsquo;s little that can be done about that. [<a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2104401817"   class="genericon icon-extlink">Quelle</a>]</p>
+</blockquote>
+<p>Dieser Satz und vor allem eine Aussage wie</p>
+<blockquote>
+<p>Users who need this crap can install the crappy version but obviously this increases the risk of drive-by contributor attacks. [<a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2104401817"   class="genericon icon-extlink">Quelle</a>]</p>
+</blockquote>
+<p>lässt aber nicht unbedingt (nur) auf sachliche Hintergründe schließen, sondern zeigt deutlich, wo das eigentliche Problem liegt - und erinnert mich von der Grundeinstellung an den Münchner OB <a href="/misc/imho/dieter-reiter-ich-und-wir/"  >Dieter Reiter</a>.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/debian/">Debian</a> <span class="genericon icon-tag"></span><a href="/tag/keepassxc/">KeepassXC</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-115-vanden-plas-march-of-the-saints/">Hörenswert #115: Vanden Plas - March Of The Saints</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">20. Mai 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><a href="https://www.youtube.com/watch?v=7NgS_gNKU1M"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
+<p>Als Überraschung hat sich für mich das neue Album &ldquo;The Empyrian Equation Of The Long Lost Things&rdquo; von <span class="band">Vanden Plas</span> entpuppt. Keine Ahnung, ob die Ursache im Wechsel des Keyboarders liegt, aber aber die Band ist meines Erachtens ziemlich Back-To-The-Roots gegangen und klingt fast wieder zu &ldquo;Far Off Grace&rdquo; oder &ldquo;The God Thing&rdquo;-Zeiten - deutlich Song-orientierter und nicht mehr so theatralisch aufgebläht wie auf den letzten Alben.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/vanden-plas/">Vanden Plas</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/">Queensrÿche 2008-06-27 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">16. Mai 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p><span class="band">Queensrÿche</span> am 27. Juni 2008 beim Bang Your Head Festival in Balingen</p>
+<div id="gallery-queensryche-2008-06-27-bildergalerie" class="gallery">
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4204.jpg" data-caption="Queensrÿche (01/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4204_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4221.jpg" data-caption="Queensrÿche (02/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4221_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4258.jpg" data-caption="Queensrÿche (03/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4258_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4262.jpg" data-caption="Queensrÿche (04/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4262_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4265.jpg" data-caption="Queensrÿche (05/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4265_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4266.jpg" data-caption="Queensrÿche (06/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4266_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4269.jpg" data-caption="Queensrÿche (07/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4269_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4273.jpg" data-caption="Queensrÿche (08/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4273_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4275.jpg" data-caption="Queensrÿche (09/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4275_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4279.jpg" data-caption="Queensrÿche (10/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4279_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4283.jpg" data-caption="Queensrÿche (11/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4283_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4289.jpg" data-caption="Queensrÿche (12/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4289_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4299.jpg" data-caption="Queensrÿche (13/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4299_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4301.jpg" data-caption="Queensrÿche (14/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4301_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4302.jpg" data-caption="Queensrÿche (15/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4302_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4305.jpg" data-caption="Queensrÿche (16/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4305_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4306.jpg" data-caption="Queensrÿche (17/17)">
+				<img src="/musik/konzerte/queensryche-2008-06-27-bildergalerie/2008-06-27_queensryche_img_4306_thumb.jpg" alt="Queensrÿche" width="160" height="160">
+			</a>
+
+	</div>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival/">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/queensr%C3%BFche/">Queensrÿche</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
 		<h1 class="post-title"><a href="/musik/verschiedenes/eurovision-2024/">Eurovision 2024</a></h1><div class="post-header-meta">
 	<span class="post-header-meta-item genericon icon-calendar">12. Mai 2024</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/verschiedenes/">Verschiedenes</a></span> ·
@@ -144,104 +327,6 @@ Server: Apache
 
 	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/eurovision-song-contest/">Eurovision Song Contest</a></div>
 
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/misc/intern/verbesserte-anzeige-der-internen-suchergebnisse/">Verbesserte Anzeige der internen Suchergebnisse</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">7. Mai 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/misc/intern/">Intern</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Bereits länger in Planung, wurde soeben eine verbesserte Anzeige der Suchergebnisse implementiert.</p>
-<p>Dort wo bisher immer der Anfang des Beitrags angezeigt wurde</p>
-<span id="-misc-intern-verbesserte-anzeige-der-internen-suchergebnisse-ergebnis_alt-png"><a href="/misc/intern/verbesserte-anzeige-der-internen-suchergebnisse/ergebnis_alt.png" data-caption="Suchergebnis alt"><img src="/misc/intern/verbesserte-anzeige-der-internen-suchergebnisse/ergebnis_alt.png"  width="748" height="222" alt="Suchergebnis alt"></a></span>
-<p>wird ab sofort der Teil des Beitrags angezeigt, der die erste Fundstelle des Suchbegriffs enthält:</p>
-<span id="-misc-intern-verbesserte-anzeige-der-internen-suchergebnisse-ergebnis_neu-png"><a href="/misc/intern/verbesserte-anzeige-der-internen-suchergebnisse/ergebnis_neu.png" data-caption="Suchergebnis neu"><img src="/misc/intern/verbesserte-anzeige-der-internen-suchergebnisse/ergebnis_neu.png"  width="748" height="222" alt="Suchergebnis neu"></a></span>
-<p>Somit lassen sich die Suchergebnisse bereits in der Übersicht besser auf ihre Relevanz hin unterscheiden.</p>
-
-</div>
-
-	<div class="post-footer"></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-114-david-gilmour-the-pipers-call/">Hörenswert #114: David Gilmour - The Piper&#39;s Call</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">4. Mai 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><a href="https://www.youtube.com/watch?v=gMr5GpCpKyA"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
-<p>Mit &ldquo;The Piper&rsquo;s Call&rdquo; gewährt David Gilmour einen ersten Höreindruck des im September 2024 erscheinenden Albums &ldquo;Luck And Strange&rdquo;. Wenn der Song die Richtung des Albums anzeigt, könnte es wieder etwas rockiger werden als bei &ldquo;On An Island&rdquo; und &ldquo;Rattle That Lock&rdquo;.</p>
-<p>Macht auf jeden Fall Lust auf mehr!</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/david-gilmour/">David Gilmour</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/programmierung/erweiterungen-von-joomla-3-zu-joomla-4-migrieren/">Erweiterungen von Joomla! 3 zu Joomla! 4 migrieren</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">25. April 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/programmierung/">Programmierung</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	
-	<p>Im Laufe der Jahre hat sich die Anzahl der von mir betreuten Joomla!-Installationen deutlich reduziert. Von mehreren Websites ist noch eine Intranet-Seite übriggeblieben, welche bis vor Kurzem noch mit Joomla! 3 lief.</p>
-<p>Hauptgrund hierfür war die aus meiner Sicht nur spärlich vorhandene Dokumentation für Entwickler, welche Anpassungen an Erweiterungen bei Versionsänderungen zu machen sind. Während zum Beispiel der <a href="/misc/intern/tschuess-wordpress-hallo-hugo/"  >Wechsel zu Hugo</a> auf Grund der guten Dokumentation in Kombination mit einem ebenso guten Forum nur wenig Frustmomente bot, war schon die Erfahrung beim <a href="/technik/anwendungen/joomla-1-5-installation-auf-version-2-5-aktualisieren/"  >Umstieg von Joomla! 1.5 auf 2.5</a> derart nervig, daß im Laufe der Zeit alle Websites von <a href="/technik/anwendungen/joomla-nach-wordpress-migrieren/"  >Joomla! zu WordPress migriert wurden</a>, statt den Versuch zu starten, die bestehende Funktionalität unter der neuen Joomla!-Version lauffähig zu bekommen.</p>
-<p>Nachdem inzwischen aber Joomla! 5 veröffentlicht ist, sollte auch die Intranet-Site zumindest auf Joomla! 4 migriert und somit auch die selbstentwickelten Erweiterungen angepasst werden, was sich wieder als frustrierendes Erlebnis entpuppte. Wenn es schon Zusammenstellungen wie &ldquo;<a href="https://docs.joomla.org/Potential_backward_compatibility_issues_in_Joomla_4"   class="genericon icon-extlink">Potential backward compatibility issues in Joomla 4</a>&rdquo; gibt, wäre es hilfreich, wenn dort nicht als erstes ein &ldquo;Content is Incomplete&rdquo; ins Auge springen würde und viele der hier aufgelisteten Dinge auch dort zu finden wären.</p>
-<p>In diesem Beitrag habe ich die verschiedenen Quellen gesammelt, mit denen ich die Erweiterungen mit Joomla! 4 lauffähig gemacht habe - am Ende des jeweiligen Abschnitts ist als Quelle die Seite angegeben, auf welcher ich als erstes auf meiner Suche nach Lösungen fündig wurde. Vieles davon ist sog. Legacy-Funktionalität, d.h. ich habe nicht nach aktueller Philosophie neu entwickelt, sondern versucht, mit minimalem Aufwand die jeweilige Erweiterung zu reparieren und wieder funktionsfähig zu bekommen.</p>
-
-	<p><a href="/technik/programmierung/erweiterungen-von-joomla-3-zu-joomla-4-migrieren/" title="Link zu Erweiterungen von Joomla! 3 zu Joomla! 4 migrieren" class="button icon-expand">Weiterlesen</a></p>
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/joomla/">Joomla!</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-113-alta-reign-defy/">Hörenswert #113: Alta Reign - Defy</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">19. April 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p><a href="https://www.youtube.com/watch?v=B5wdRU9idDY"  ><img src="/img/link/youtube-link.jpg"  width="336" height="216" ></a></p>
-<p><span class="band">Alta Reign</span> ist das Projekt des <span class="band">Savatage</span> und <span class="band">Trans Siberian Orchestra</span>-Schlagzeugers <a href="https://en.wikipedia.org/wiki/Jeff_Plate"   class="genericon icon-extlink">Jeff Plate</a>.</p>
-<p>&ldquo;Defy&rdquo; stammt vom zweiten Album &ldquo;Upon the Horizon&rdquo;, das sich musikalisch deutlich von den Werken seiner Hauptbands unterscheidet. Lediglich der Bonustrack &ldquo;Beneath The Rose&rdquo; verweist - vor allem in der Instrumentalarbeit - durch die Mitwirkung von <a href="https://de.wikipedia.org/wiki/Chris_Caffery"   class="genericon icon-extlink">Chris Caffery</a> und <a href="https://de.wikipedia.org/wiki/Al_Pitrelli"   class="genericon icon-extlink">Al Pitrelli</a> hörbar auf die Ursprünge.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/alta-reign/">Alta Reign</a> <span class="genericon icon-tag"></span><a href="/tag/savatage/">Savatage</a> <span class="genericon icon-tag"></span><a href="/tag/trans-siberian-orchestra/">Trans Siberian Orchestra</a></div>
-
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
 	<div class="nav-links">
@@ -251,14 +336,14 @@ Server: Apache
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/240/" class="page-numbers">240</a>
+	<a href="/page/241/" class="page-numbers">241</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav>
 
 <script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#-misc-intern-verbesserte-anzeige-der-internen-suchergebnisse-ergebnis_alt-png');
-		baguetteBox.run('#-misc-intern-verbesserte-anzeige-der-internen-suchergebnisse-ergebnis_neu-png');});
+		baguetteBox.run('#-technik-betriebssysteme-dsm-aktualisierung-findet-keine-updates-dsm72-64570-png');
+		baguetteBox.run('#gallery-queensryche-2008-06-27-bildergalerie');});
 </script>
 		</div></div>
 

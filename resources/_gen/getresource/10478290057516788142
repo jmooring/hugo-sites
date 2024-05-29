@@ -1,22 +1,21 @@
 HTTP/2.0 200 OK
-Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 83480
+Age: 18626
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 16508355
+Cc-Build-Id: 16620444
 Cc-Cache-Group: default
-Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=39;t=45
+Cc-Cache-Status: MISS
+Cc-Perf: fetch-headers=33;t=39
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 883ee9036f81761b-SEA
+Cf-Ray: 88b5d501ed39c75a-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 15 May 2024 00:11:21 GMT
-Etag: W/56f0140dd8dff2dba54577f8564139a7
-Last-Modified: Tue, 14 May 2024 00:59:39 GMT
+Date: Wed, 29 May 2024 10:34:27 GMT
+Etag: W/c72cc6c8e29073eac9bad3b60b81ef18
+Last-Modified: Wed, 29 May 2024 04:53:16 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
@@ -36,44 +35,104 @@ X-Robots-Tag: all
 
   
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8186336.js"></script>
+
   
   
-  
-  
+
   <script type="text/javascript">
     var _hsp = (window._hsp = window._hsp || []);
     _hsp.push([
       "addPrivacyConsentListener",
       function (consent) {
         if (consent.categories.analytics) {
-          +function(a,p,P,b,y){a.braze={};a.brazeQueue=[];for(var s="BrazeSdkMetadata DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Card.fromContentCardsJson ImageOnly CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent InAppMessage.fromJson FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.addToSubscriptionGroup User.prototype.getUserId User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.removeFromSubscriptionGroup User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent FeatureFlag FeatureFlag.prototype.getStringProperty FeatureFlag.prototype.getNumberProperty FeatureFlag.prototype.getBooleanProperty automaticallyShowInAppMessages destroyFeed hideContentCards showContentCards showFeed showInAppMessage deferInAppMessage toggleContentCards toggleFeed changeUser destroy getDeviceId getDeviceId initialize isPushBlocked isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardImpressions logContentCardClick logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession requestPushPermission removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh refreshFeatureFlags requestImmediateDataFlush enableSDK isDisabled setLogger setSdkAuthenticationSignature addSdkMetadata disableSDK subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToSdkAuthenticationFailures toggleLogging unregisterPush wipeData handleBrazeAction subscribeToFeatureFlagsUpdates getAllFeatureFlags logFeatureFlagImpression".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.braze,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.brazeQueue.push(arguments); return true}"))()}window.braze.getDeferredInAppMessage=function(){return new window.braze.InAppMessage};window.braze.getCachedContentCards=function(){return new window.braze.ContentCards};window.braze.getCachedFeed=function(){return new window.braze.Feed};window.braze.getUser=function(){return new window.braze.User};window.braze.getFeatureFlag=function(){return new window.braze.FeatureFlag};(y=p.createElement(P)).type='text/javascript';
-            y.src='https://js.appboycdn.com/web-sdk/5.2/braze.min.js';
-            y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
-          }(window,document,'script');
-        }
-      },
-    ]);
-    _hsp.push([
-      "addPrivacyConsentListener",
-      function (consent) {
-        if (consent.categories.analytics) {
-          braze.initialize('a75f80b5-9aa8-464a-9388-9eab407cbcfc', {
-              baseUrl: "sdk.iad-07.braze.com"
-          });
-        }
+        +function(a,p,P,b,y){a.braze={};a.brazeQueue=[];for(var s="BrazeSdkMetadata DeviceProperties Card Card.prototype.dismissCard Card.prototype.removeAllSubscriptions Card.prototype.removeSubscription Card.prototype.subscribeToClickedEvent Card.prototype.subscribeToDismissedEvent Card.fromContentCardsJson ImageOnly CaptionedImage ClassicCard ControlCard ContentCards ContentCards.prototype.getUnviewedCardCount Feed Feed.prototype.getUnreadCardCount ControlMessage InAppMessage InAppMessage.SlideFrom InAppMessage.ClickAction InAppMessage.DismissType InAppMessage.OpenTarget InAppMessage.ImageStyle InAppMessage.Orientation InAppMessage.TextAlignment InAppMessage.CropType InAppMessage.prototype.closeMessage InAppMessage.prototype.removeAllSubscriptions InAppMessage.prototype.removeSubscription InAppMessage.prototype.subscribeToClickedEvent InAppMessage.prototype.subscribeToDismissedEvent InAppMessage.fromJson FullScreenMessage ModalMessage HtmlMessage SlideUpMessage User User.Genders User.NotificationSubscriptionTypes User.prototype.addAlias User.prototype.addToCustomAttributeArray User.prototype.addToSubscriptionGroup User.prototype.getUserId User.prototype.getUserId User.prototype.incrementCustomUserAttribute User.prototype.removeFromCustomAttributeArray User.prototype.removeFromSubscriptionGroup User.prototype.setCountry User.prototype.setCustomLocationAttribute User.prototype.setCustomUserAttribute User.prototype.setDateOfBirth User.prototype.setEmail User.prototype.setEmailNotificationSubscriptionType User.prototype.setFirstName User.prototype.setGender User.prototype.setHomeCity User.prototype.setLanguage User.prototype.setLastKnownLocation User.prototype.setLastName User.prototype.setPhoneNumber User.prototype.setPushNotificationSubscriptionType InAppMessageButton InAppMessageButton.prototype.removeAllSubscriptions InAppMessageButton.prototype.removeSubscription InAppMessageButton.prototype.subscribeToClickedEvent FeatureFlag FeatureFlag.prototype.getStringProperty FeatureFlag.prototype.getNumberProperty FeatureFlag.prototype.getBooleanProperty FeatureFlag.prototype.getImageProperty FeatureFlag.prototype.getJsonProperty FeatureFlag.prototype.getTimestampProperty automaticallyShowInAppMessages destroyFeed hideContentCards showContentCards showFeed showInAppMessage deferInAppMessage toggleContentCards toggleFeed changeUser destroy getDeviceId getDeviceId initialize isPushBlocked isPushPermissionGranted isPushSupported logCardClick logCardDismissal logCardImpressions logContentCardImpressions logContentCardClick logCustomEvent logFeedDisplayed logInAppMessageButtonClick logInAppMessageClick logInAppMessageHtmlClick logInAppMessageImpression logPurchase openSession requestPushPermission removeAllSubscriptions removeSubscription requestContentCardsRefresh requestFeedRefresh refreshFeatureFlags requestImmediateDataFlush enableSDK isDisabled setLogger setSdkAuthenticationSignature addSdkMetadata disableSDK subscribeToContentCardsUpdates subscribeToFeedUpdates subscribeToInAppMessage subscribeToSdkAuthenticationFailures toggleLogging unregisterPush wipeData handleBrazeAction subscribeToFeatureFlagsUpdates getAllFeatureFlags logFeatureFlagImpression".split(" "),i=0;i<s.length;i++){for(var m=s[i],k=a.braze,l=m.split("."),j=0;j<l.length-1;j++)k=k[l[j]];k[l[j]]=(new Function("return function "+m.replace(/\./g,"_")+"(){window.brazeQueue.push(arguments); return true}"))()}window.braze.getDeferredInAppMessage=function(){return new window.braze.InAppMessage};window.braze.getCachedContentCards=function(){return new window.braze.ContentCards};window.braze.getCachedFeed=function(){return new window.braze.Feed};window.braze.getUser=function(){return new window.braze.User};window.braze.getFeatureFlag=function(){return new window.braze.FeatureFlag};(y=p.createElement(P)).type='text/javascript';
+          y.src='https://js.appboycdn.com/web-sdk/5.3/braze.min.js';
+          y.async=1;(b=p.getElementsByTagName(P)[0]).parentNode.insertBefore(y,b)
+        }(window,document,'script');
       }
-    ]);
+    },
+  ]);
+  </script>
+  
+  <script>
+    let contentCards;
+    var _hsp = (window._hsp = window._hsp || []);
     _hsp.push([
       "addPrivacyConsentListener",
       function (consent) {
         if (consent.categories.analytics) {
           
+          
+          braze.initialize('a75f80b5-9aa8-464a-9388-9eab407cbcfc', {
+            baseUrl: "sdk.iad-07.braze.com",
+            enableLogging: true,
+            allowUserSuppliedJavascript: true
+          });
+          
+          braze.subscribeToContentCardsUpdates((updates) => {
+            contentCards = updates.cards;
+            console.log(contentCards)
+          });
+          
+          braze.automaticallyShowInAppMessages();
+
+          
           braze.openSession();
+          braze.requestContentCardsRefresh();
         }
-      }
+      },
     ]);
   </script>
+  
+  
 
+  <script>
+    var _hsp = (window._hsp = window._hsp || []);
+      _hsp.push([
+        "addPrivacyConsentListener",
+        function (consent) {
+          if (consent.categories.analytics) {
+            setTimeout(function() { 
+              (function() {
+                function fetchBrazeContentCards() {
+                  if (typeof braze !== 'undefined' && braze.getUser) {
+                    console.log("Executed content card refresh");
+                    braze.requestContentCardsRefresh();
+                    localStorage.setItem('forcedContentCardsLastRun', new Date().toISOString());
+                  } else {
+                    setTimeout(fetchBrazeContentCards, 100); 
+                  }
+                }
+
+                function shouldRunScript() {
+                  var lastRun = localStorage.getItem('forcedContentCardsLastRun');
+                  if (lastRun) {
+                    var lastRunDate = new Date(lastRun);
+                    var now = new Date();
+                    var thirtyMinutes = 30 * 60 * 1000; 
+                    if ((now - lastRunDate) >= thirtyMinutes) {
+                      return true;
+                    } else {
+                      return false;
+                    }
+                  } else {
+                    return true; 
+                  }
+                }
+
+                if (shouldRunScript()) {
+                  fetchBrazeContentCards();
+                }
+              })(); 
+            }, 6000); 
+          }
+        }
+      ]);
+
+  </script>
+
+
+  
   
   
   <script>
@@ -100,155 +159,7 @@ X-Robots-Tag: all
 
   
   
-  <script>
-    var _hsp = (window._hsp = window._hsp || []);
-    _hsp.push([
-      "addPrivacyConsentListener",
-      function (consent) {
-        if (consent.categories.analytics) {
-          var script = document.createElement("script");
-          script.setAttribute(
-            "src",
-            "https://www.googleoptimize.com/optimize.js?id=OPT-WDCR73S"
-          );
-          document.head.appendChild(script);
-        }
-      },
-    ]);
-  </script>
   
-  
-  
-
-  
-  
-  <script type="text/javascript">
-    var _hsp = (window._hsp = window._hsp || []);
-    _hsp.push([
-      "addPrivacyConsentListener",
-      function (consent) {
-        if (consent.categories.analytics) {
-          (function (e, t) {
-            var n = e.amplitude || { _q: [], _iq: {} };
-            var r = t.createElement("script");
-            r.type = "text/javascript";
-            r.integrity =
-              "sha384-tzcaaCH5+KXD4sGaDozev6oElQhsVfbJvdi3//c2YvbY02LrNlbpGdt3Wq4rWonS";
-            r.crossOrigin = "anonymous";
-            r.async = true;
-            r.src = "https://cdn.amplitude.com/libs/amplitude-8.5.0-min.gz.js";
-            r.onload = function () {
-              if (!e.amplitude.runQueuedFunctions) {
-                console.log("[Amplitude] Error: could not load SDK");
-              }
-            };
-            var i = t.getElementsByTagName("script")[0];
-            i.parentNode.insertBefore(r, i);
-            function s(e, t) {
-              e.prototype[t] = function () {
-                this._q.push(
-                  [t].concat(Array.prototype.slice.call(arguments, 0))
-                );
-                return this;
-              };
-            }
-            var o = function () {
-              this._q = [];
-              return this;
-            };
-            var a = [
-              "add",
-              "append",
-              "clearAll",
-              "prepend",
-              "set",
-              "setOnce",
-              "unset",
-              "preInsert",
-              "postInsert",
-              "remove",
-            ];
-            for (var c = 0; c < a.length; c++) {
-              s(o, a[c]);
-            }
-            n.Identify = o;
-            var u = function () {
-              this._q = [];
-              return this;
-            };
-            var l = [
-              "setProductId",
-              "setQuantity",
-              "setPrice",
-              "setRevenueType",
-              "setEventProperties",
-            ];
-            for (var p = 0; p < l.length; p++) {
-              s(u, l[p]);
-            }
-            n.Revenue = u;
-            var d = [
-              "init",
-              "logEvent",
-              "logRevenue",
-              "setUserId",
-              "setUserProperties",
-              "setOptOut",
-              "setVersionName",
-              "setDomain",
-              "setDeviceId",
-              "enableTracking",
-              "setGlobalUserProperties",
-              "identify",
-              "clearUserProperties",
-              "setGroup",
-              "logRevenueV2",
-              "regenerateDeviceId",
-              "groupIdentify",
-              "onInit",
-              "logEventWithTimestamp",
-              "logEventWithGroups",
-              "setSessionId",
-              "resetSessionId",
-            ];
-            function v(e) {
-              function t(t) {
-                e[t] = function () {
-                  e._q.push(
-                    [t].concat(Array.prototype.slice.call(arguments, 0))
-                  );
-                };
-              }
-              for (var n = 0; n < d.length; n++) {
-                t(d[n]);
-              }
-            }
-            v(n);
-            n.getInstance = function (e) {
-              e = (
-                !e || e.length === 0 ? "$default_instance" : e
-              ).toLowerCase();
-              if (!Object.prototype.hasOwnProperty.call(n._iq, e)) {
-                n._iq[e] = { _q: [] };
-                v(n._iq[e]);
-              }
-              return n._iq[e];
-            };
-            e.amplitude = n;
-          })(window, document);
-          amplitude
-            .getInstance()
-            .init("075dfa7287c52d63a84e8aafa53bd578", null, {
-              includeFbclid: true,
-              includeGclid: true,
-              includeReferrer: true,
-              includeUtm: true,
-            });
-        }
-      },
-    ]);
-  </script>
-   
 
   
   
@@ -486,10 +397,29 @@ X-Robots-Tag: all
         }
       },
     ]);
+    _hsp.push([
+      "addPrivacyConsentListener",
+      function (consent) {
+        if (consent.categories.functionality) {
+          function getCookieValue(name) {
+            const cookies = document.cookie.split('; ');
+            for (const cookie of cookies) {
+              const [cookieName, cookieValue] = cookie.split('=');
+              if (cookieName === name) {
+                return cookieValue;
+              }
+            }
+            return null;
+          }
+          
+          const vid = getCookieValue('_hly_vid');
+          const sid = getCookieValue('_hlv_sid');
+        }
+      },
+    ]);
   </script>
   
   
-</head>
 
 
 
@@ -655,10 +585,10 @@ X-Robots-Tag: all
    
   <meta name="facebook-domain-verification" content="a10sji1k1rfh879g5rxbghiw6j3kkt">
 
-
+</head>
 <body>
       <header>
-        <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/header)-->
 
@@ -701,130 +631,94 @@ X-Robots-Tag: all
     <!--bookshop-live name(structures/header/top-bar/top-bar-left-link)-->
 
 
-
-    <a id="hushly_top_bar_recommendation" class="c-top-bar-left-link" href>
-        <div class="c-top-bar-left-link__placeholder-image"></div>
-        <div class="c-top-bar-left-link__placeholder-text"></div>
-    </a>
-
-
+<a id="top_bar_recommendation" class="c-top-bar-left-link" href>
+    <div class="c-top-bar-left-link__placeholder-image"></div>
+    <div class="c-top-bar-left-link__placeholder-text"></div>
+</a>
 
 <script defer>
-    
-    function getCookieValue(name) {
-        const cookies = document.cookie.split('; ');
-        for (const cookie of cookies) {
-            const [cookieName, cookieValue] = cookie.split('=');
-            if (cookieName === name) {
-                return cookieValue;
-            }
-        }
-        return null;
+
+const checkHeaderContentCards = () => {
+  if (contentCards && contentCards.length > 0) {
+    const topNavCards = contentCards.filter(card => 
+      card.extras && card.extras.blocks && card.extras.blocks.includes("c-top-bar-left-link")
+    );
+
+    if (topNavCards.length > 0) {
+      
+      const lowestWeightCard = topNavCards.reduce((lowest, card) => 
+        !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
+      processHeaderContentCards(lowestWeightCard);
+      console.log("Lowest Weight Top Nav Card Selected");
+    } else {
+      console.log("No Top Nav Cards Found");
     }
+  } else {
+    setTimeout(checkHeaderContentCards, 1000); 
+    console.log("Checking");
+  }
+};
+
+
+const processHeaderContentCards = (card) => {
+  const recommendationLink = document.getElementById('top_bar_recommendation');
+
+  
+  if (card.imageUrl) {
+    loadHeaderImage(card.imageUrl)
+      .then(thumbImg => {
+        thumbImg.className = 'c-top-bar-left-link__icon'; 
+        recommendationLink.innerHTML = ''; 
+        recommendationLink.href = card.url || '#'; 
+        recommendationLink.appendChild(thumbImg);
+
+        const cardTitle = document.createElement('span');
+        cardTitle.textContent = card.title.substring(0, 45) || ''; 
+        recommendationLink.appendChild(cardTitle);
+
+        const arrowSvg = document.createElement('svg');
+        arrowSvg.className = 'c-top-bar-left-link__arrow'; 
+        arrowSvg.setAttribute('width', '5');
+        arrowSvg.setAttribute('height', '9');
+        arrowSvg.setAttribute('viewBox', '0 0 5 9');
+        arrowSvg.setAttribute('fill', 'none');
+        arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
+        recommendationLink.appendChild(arrowSvg);
+      })
+      .catch(error => console.error('Error loading image:', error));
+  } else {
+    recommendationLink.href = card.url || '#'; 
+    recommendationLink.innerHTML = ''; 
     
-    const loadImage = src =>
-        new Promise((resolve, reject) => {
-            const img = new Image();
-            img.onload = () => resolve(img);
-            img.onerror = reject;
-            img.src = src;
-        });
+    const cardTitle = document.createElement('span');
+    cardTitle.textContent = card.title.substring(0, 45) || ''; 
+    recommendationLink.appendChild(cardTitle);
 
-    
-    const vid = getCookieValue('_hly_vid');
-    const sid = getCookieValue('_hlv_sid');
+    const arrowSvg = document.createElement('svg');
+    arrowSvg.className = 'c-top-bar-left-link__arrow'; 
+    arrowSvg.setAttribute('width', '5');
+    arrowSvg.setAttribute('height', '9');
+    arrowSvg.setAttribute('viewBox', '0 0 5 9');
+    arrowSvg.setAttribute('fill', 'none');
+    arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
+    recommendationLink.appendChild(arrowSvg);
+  }
+};
 
-    
-    fetch('https://hub-api.hushly.com/hub/embed', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            "aid": 136819,
-            "guid": "ec4a7acc-9725-488b-b783-1b25e72b8b95",
-            "vid": vid,
-            "sid": sid,
-            "pageUrl": window.location.href
-        }),
-    })
-    .then(response => response.json())
-    .then(data => {
-        
-        if (data.ctas && data.ctas.length > 0) {
-            
-            const firstCta = data.ctas[0];
 
-            
-            const newLink = document.createElement('a');
-            newLink.className = 'c-top-bar-left-link';
+checkHeaderContentCards();
 
-            
-            newLink.href = firstCta.design.linkAction || '#';
 
-            
-            if (firstCta.design.styles.cta.backgroundImage) {
-                loadImage(firstCta.design.styles.cta.backgroundImage)
-                    .then(iconImg => {
-                        iconImg.className = 'c-top-bar-left-link__icon';
-                        newLink.prepend(iconImg);
-
-                        
-                        const linkContent = document.createTextNode(firstCta.design.tagLine || '');
-                        newLink.appendChild(linkContent);
-
-                        
-                        const arrowSvg = document.createElement('svg');
-                        arrowSvg.className = 'c-top-bar-left-link__arrow';
-                        arrowSvg.setAttribute('width', '5');
-                        arrowSvg.setAttribute('height', '9');
-                        arrowSvg.setAttribute('viewBox', '0 0 5 9');
-                        arrowSvg.setAttribute('fill', 'none');
-                        arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-
-                        const arrowPath = document.createElement('path');
-                        arrowPath.setAttribute('d', 'M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z');
-                        arrowSvg.appendChild(arrowPath);
-
-                        newLink.appendChild(arrowSvg);
-
-                        
-                        const placeholder = document.getElementById('hushly_top_bar_recommendation');
-                        placeholder.parentNode.replaceChild(newLink, placeholder);
-                    })
-                    .catch(error => console.error('Error loading image:', error));
-            } else {
-                
-                const linkContent = document.createTextNode(firstCta.design.tagLine || '');
-                newLink.appendChild(linkContent);
-
-                
-                const arrowSvg = document.createElement('svg');
-                arrowSvg.className = 'c-top-bar-left-link__arrow';
-                arrowSvg.setAttribute('width', '5');
-                arrowSvg.setAttribute('height', '9');
-                arrowSvg.setAttribute('viewBox', '0 0 5 9');
-                arrowSvg.setAttribute('fill', 'none');
-                arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-
-                const arrowPath = document.createElement('path');
-                arrowPath.setAttribute('d', 'M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z');
-                arrowSvg.appendChild(arrowPath);
-
-                newLink.appendChild(arrowSvg);
-
-                
-                const placeholder = document.getElementById('hushly_top_bar_recommendation');
-                placeholder.parentNode.replaceChild(newLink, placeholder);
-            }
-        } else {
-            console.error('Error: The "ctas" array is empty or undefined.');
-        }
-    })
-    .catch(error => console.error('Error fetching API data:', error));
+const loadHeaderImage = src =>
+  new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = reject;
+    img.src = src;
+  });
 </script>
-
-
 <!--bookshop-live end-->
     <div class="c-top-bar__nav-items">
         
@@ -4873,7 +4767,7 @@ X-Robots-Tag: all
 </div>
 
     
-    <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+    <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: .Params.content_blocks)-->
     <!--bookshop-live name(page)-->
 <div class="components">
@@ -4887,7 +4781,7 @@ X-Robots-Tag: all
 			<!--bookshop-live name(sections/hero-banner-level1)-->
 
 
-<section class="c-sections-hero-banner-level1 c-sections-hero-banner-level1--background-color-F9F9FB primary-grey-050">
+<section id="homepage-partner-summit-banner-2024-control" class="c-sections-hero-banner-level1 c-sections-hero-banner-level1--background-color-F9F9FB primary-grey-050">
   <div class="c-sections-hero-banner-level1__banner">
     <div class="c-sections-hero-banner-level1__image-bg">
       <img src alt>
@@ -4918,7 +4812,59 @@ X-Robots-Tag: all
     
   </div>
 </section>
+<script>
+  
+  console.log("Experiment Script")
+  
+  function waitForBraze(callback) {
+    if (typeof braze !== 'undefined' && braze.getFeatureFlag) {
+      callback();
+    } else {
+      setTimeout(function() {
+        waitForBraze(callback);
+      }, 100);
+    }
+  }
 
+  
+  function runExperiment(experimentId) {
+    const featureFlag = braze.getFeatureFlag(experimentId);
+    braze.logFeatureFlagImpression(experimentId);
+
+    const variantSection = document.getElementById(`${experimentId}-variant`);
+    const controlSection = document.getElementById(`${experimentId}-control`);
+    console.log(featureFlag)
+    if (featureFlag?.enabled) {
+      console.log("Experiment: Variant A")
+      
+      if (variantSection) {
+        variantSection.style.display = "block";
+      } 
+      if (controlSection) {
+        controlSection.style.display = "none";
+      }
+    } 
+  }
+
+  
+  const executedExperiments = {};
+
+  waitForBraze(function() {
+    braze.subscribeToFeatureFlagsUpdates(() => {
+      
+      if ("homepage-partner-summit-banner-2024" && "control") {
+        const experimentId = "homepage-partner-summit-banner-2024";
+        console.log(experimentId)
+
+        
+        if (!executedExperiments[experimentId]) {
+          runExperiment(experimentId);
+          executedExperiments[experimentId] = true; 
+        }
+      }
+    });
+  });
+</script>
 <!--bookshop-live end-->
 		</div>
 	
@@ -4928,15 +4874,111 @@ X-Robots-Tag: all
   					
 					
 					  ">
-			<!--bookshop-live name(sections/card-layout--hushly)-->
+			<!--bookshop-live name(sections/hero-banner-level1)-->
 
 
-<div class="c-card-layout--hushly c-card-layout--hushly--background-color-F2F2F4 primary-grey-100">
-  <div class="c-card-layout--hushly__content">
+<section id="homepage-partner-summit-banner-2024-variant" class="c-sections-hero-banner-level1 c-sections-hero-banner-level1--background-color-E7F6E9 bg--primary-core-050" style="display:none;">
+  <div class="c-sections-hero-banner-level1__banner">
+    <div class="c-sections-hero-banner-level1__image-bg">
+      <img src alt>
+    </div>
+    <div class="c-sections-hero-banner-level1__content">
+      
+      <img class="c-sections-hero-banner-level1__content__icon" src alt>
+      
+      <h1 class="c-sections-hero-banner-level1__content__heading"><p><strong>Partner Summit 2024</strong></p></h1>
+      
+        <p class="c-sections-hero-banner-level1__content__paragraph">Join us June 4th as we map out our plan for PaperCut MF and PaperCut Hive, with roadmaps, stories, and positioning tips to help you close your next sale.</p>
+       
+      
+        <!--bookshop-live name(generic/link)-->
+
+
+<a class="c-generic-link c-generic-link--primary" reseed-ignore href="https://pcut.io/4anXuLc">
+    Register Now
+</a>
+
+<!--bookshop-live end-->
+      
+    </div>
+    
+    <div class="c-sections-hero-banner-level1__image">
+      <img src="https://cdn.papercut.com/web/get/partner-summit/2023/PartnerSummit-2023-596x480-illo-mountains-and-people.svg" alt="PaperCutters, Partners and Resellers excited to meet to discuss the year ahead.">
+    </div>
+    
+  </div>
+</section>
+<script>
+  
+  console.log("Experiment Script")
+  
+  function waitForBraze(callback) {
+    if (typeof braze !== 'undefined' && braze.getFeatureFlag) {
+      callback();
+    } else {
+      setTimeout(function() {
+        waitForBraze(callback);
+      }, 100);
+    }
+  }
+
+  
+  function runExperiment(experimentId) {
+    const featureFlag = braze.getFeatureFlag(experimentId);
+    braze.logFeatureFlagImpression(experimentId);
+
+    const variantSection = document.getElementById(`${experimentId}-variant`);
+    const controlSection = document.getElementById(`${experimentId}-control`);
+    console.log(featureFlag)
+    if (featureFlag?.enabled) {
+      console.log("Experiment: Variant A")
+      
+      if (variantSection) {
+        variantSection.style.display = "block";
+      } 
+      if (controlSection) {
+        controlSection.style.display = "none";
+      }
+    } 
+  }
+
+  
+  const executedExperiments = {};
+
+  waitForBraze(function() {
+    braze.subscribeToFeatureFlagsUpdates(() => {
+      
+      if ("homepage-partner-summit-banner-2024" && "variant") {
+        const experimentId = "homepage-partner-summit-banner-2024";
+        console.log(experimentId)
+
+        
+        if (!executedExperiments[experimentId]) {
+          runExperiment(experimentId);
+          executedExperiments[experimentId] = true; 
+        }
+      }
+    });
+  });
+</script>
+<!--bookshop-live end-->
+		</div>
+	
+  		<div class="component
+  					
+  						component--white
+  					
+					
+					  ">
+			<!--bookshop-live name(sections/card-layout--recommended)-->
+
+
+<div class="c-card-layout--recommended c-card-layout--recommended--background-color-F2F2F4 primary-grey-100">
+  <div class="c-card-layout--recommended__content">
     <!--bookshop-live name(sections/heading-with-content)-->
 
 
-<section class="c-heading-with-content c-heading-with-content--center">
+<section class="c-heading-with-content c-heading-with-content--center  ">
   
   <div class="c-heading-with-content__heading   c-heading-with-content__heading--50 ">
     <!--bookshop-live name(generic/heading)-->
@@ -4954,42 +4996,13 @@ X-Robots-Tag: all
 
 <!--bookshop-live end-->
   </div>
-  <div class="c-card-layout--hushly__hushly">
-    <div class="c-card-layout--hushly__hushly-cards hushly-embed-stream" data-embed-id="80234003-ba53-4024-8857-7f99c09023cb" data-version="1.0">
-       <!--bookshop-live name(simple/card-placeholder)-->
+  <div class="c-card-layout--recommended__recommended">
+    <div id="placeholder-cards" class="c-card-layout--recommended__recommended-cards">
+       
+        <!--bookshop-live name(simple/card-placeholder)-->
 
 
-<div class="c-card-placeholder">
-  <div class="c-card-placeholder__placeholder-image"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-link"></div>
-</div>
-
-<!--bookshop-live end-->  <!--bookshop-live name(simple/card-placeholder)-->
-
-
-<div class="c-card-placeholder">
-  <div class="c-card-placeholder__placeholder-image"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-link"></div>
-</div>
-
-<!--bookshop-live end-->  <!--bookshop-live name(simple/card-placeholder)-->
-
-
-<div class="c-card-placeholder">
-  <div class="c-card-placeholder__placeholder-image"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-text"></div>
-  <div class="c-card-placeholder__placeholder-link"></div>
-</div>
-
-<!--bookshop-live end-->  <!--bookshop-live name(simple/card-placeholder)-->
-
-
-<div class="c-card-placeholder">
+<div class="c-card-placeholder" id="placeholder">
   <div class="c-card-placeholder__placeholder-image"></div>
   <div class="c-card-placeholder__placeholder-text"></div>
   <div class="c-card-placeholder__placeholder-text"></div>
@@ -4997,9 +5010,160 @@ X-Robots-Tag: all
 </div>
 
 <!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card-placeholder)-->
+
+
+<div class="c-card-placeholder" id="placeholder">
+  <div class="c-card-placeholder__placeholder-image"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card-placeholder)-->
+
+
+<div class="c-card-placeholder" id="placeholder">
+  <div class="c-card-placeholder__placeholder-image"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card-placeholder)-->
+
+
+<div class="c-card-placeholder" id="placeholder">
+  <div class="c-card-placeholder__placeholder-image"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-text"></div>
+  <div class="c-card-placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+      
     </div>
   </div>
 </div>
+
+<script defer>
+ 
+const checkContentCards = () => {
+  if (contentCards && contentCards.length > 0) {
+    const recommendedReadsCards = contentCards.filter(card => 
+      card.extras && card.extras.blocks && card.extras.blocks.includes("c-card-layout--recommended")
+    );
+    processContentCards(recommendedReadsCards);
+  } else {
+    setTimeout(checkContentCards, 1000); 
+  }
+};
+
+
+const processContentCards = (contentCards) => {
+  const limit = 4;
+  const promises = [];
+  const cards = []; 
+  let counter = 0;
+
+  
+  const ctaCards = contentCards.filter(card => card.extras && card.extras.type === 'cta');
+  let ctaCard = null;
+  if (ctaCards.length > 0) {
+    ctaCard = ctaCards.reduce((lowest, card) => 
+      !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
+  }
+
+  
+  if (ctaCard) {
+    counter++;
+    const newCard = createCardElement(ctaCard);
+    cards.push(newCard);
+
+    
+    if (ctaCard.imageUrl) {
+      const promise = loadImage(ctaCard.imageUrl)
+        .then(thumbImg => {
+          thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
+          newCard.prepend(thumbImg);
+        })
+        .catch(error => console.error('Error loading image:', error));
+      promises.push(promise);
+    }
+  }
+
+  
+  contentCards.forEach(card => {
+    if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+      counter++;
+      const newCard = createCardElement(card);
+      cards.push(newCard);
+
+      
+      if (card.imageUrl) {
+        const promise = loadImage(card.imageUrl)
+          .then(thumbImg => {
+            thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
+            newCard.prepend(thumbImg);
+          })
+          .catch(error => console.error('Error loading image:', error));
+        promises.push(promise);
+      }
+    }
+  });
+
+  
+  Promise.all(promises)
+    .then(() => {
+      
+      const placeholderCardsDiv = document.getElementById('placeholder-cards');
+      placeholderCardsDiv.innerHTML = ''; 
+      cards.forEach(card => {
+        placeholderCardsDiv.appendChild(card);
+      });
+    })
+    .catch(error => console.error('Error loading placeholder cards:', error));
+};
+
+
+const createCardElement = (card) => {
+  const newCard = document.createElement('a');
+  newCard.className = 'c-card-layout--recommended__recommended-cards__card';
+
+  
+  const cardTitle = document.createElement('p');
+  cardTitle.className = 'c-card-layout--recommended__recommended-cards__card__title';
+  cardTitle.textContent = card.title || ''; 
+  newCard.appendChild(cardTitle);
+
+  const cardLink = document.createElement('a');
+  cardLink.className = 'c-card-layout--recommended__recommended-cards__card__link';
+  cardLink.textContent = card.linkText || ''; 
+  cardLink.href = (card.url || '#');
+  newCard.appendChild(cardLink);
+
+  return newCard;
+};
+
+
+checkContentCards();
+
+
+const loadImage = src =>
+  new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = reject;
+    img.src = src;
+  });
+
+
+</script>
 
 <!--bookshop-live end-->
 		</div>
@@ -5019,7 +5183,7 @@ X-Robots-Tag: all
     <!--bookshop-live name(sections/heading-with-content)-->
 
 
-<section class="c-heading-with-content c-heading-with-content--center">
+<section class="c-heading-with-content c-heading-with-content--center  ">
   
   <div class="c-heading-with-content__heading   c-heading-with-content__heading--85 ">
     <!--bookshop-live name(generic/heading)-->
@@ -5340,7 +5504,7 @@ Did you know that when we surveyed our customers, we found that implementing jus
 			<!--bookshop-live name(sections/left-right-block--fullwidth)-->
 
 
-<div class="c-sections-left-right-block--fullwidth c-sections-left-right-block--fullwidth--background-color-FFFFFF white" x-data="{ shown: false }" x-intersect.threshold.50="shown = true;" x-intersect:leave="shown = false;">
+<div class="c-sections-left-right-block--fullwidth c-sections-left-right-block--fullwidth--background-color-FFFFFF white  " x-data="{ shown: false }" x-intersect.threshold.50="shown = true;" x-intersect:leave="shown = false;">
 
   
   <div class="c-sections-left-right-block--fullwidth__left c-sections-left-right-block--fullwidth__left--image">
@@ -5389,49 +5553,49 @@ Forest Positive
   <div class="c-logo-strip-carousel__logos">
     <div class="c-logo-strip-carousel__logos__logos-slider">
       
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
       
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
+      
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
+      
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
+      
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
       
     
       
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
+      
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
       
     
-      
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
-      
-    
-      
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
       
     
-      
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
       
     
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
       
-      
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/89k-organizations.svg" alt="89K happy organizations">
     
-  
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/139m-users.svg" alt="139 smiling users">
-    
-  
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/30-languages.svg" alt="30 languages">
-    
-  
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/195-countries.svg" alt="195&#43; countries">
-    
-  
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn.papercut.com/web/img/home/10m-chromebooks.svg" alt="195&#43; countries">
-    
-      
-   </div>
+        
+    </div>
   </div>
 </div>
 
@@ -5455,7 +5619,7 @@ Forest Positive
 			<!--bookshop-live name(sections/left-right-block--fullwidth)-->
 
 
-<div class="c-sections-left-right-block--fullwidth c-sections-left-right-block--fullwidth--background-color-F9F9FB primary-grey-050" x-data="{ shown: false }" x-intersect.threshold.50="shown = true;" x-intersect:leave="shown = false;">
+<div class="c-sections-left-right-block--fullwidth c-sections-left-right-block--fullwidth--background-color-F9F9FB primary-grey-050  " x-data="{ shown: false }" x-intersect.threshold.50="shown = true;" x-intersect:leave="shown = false;">
 
   
 
@@ -5486,41 +5650,41 @@ Forest Positive
   <div class="c-logo-strip-carousel__logos">
     <div class="c-logo-strip-carousel__logos__logos-slider">
       
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
       
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+      
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
+      
+    
+        
+          <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
       
     
       
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+      
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
       
     
-      
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
-      
-    
-      
-       <img class="c-logo-strip-carousel__logos__logos-slider__logo" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
       
     
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
       
-      
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
     
-  
+        
+        <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
       
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
-    
-  
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
-    
-  
-      
-      <img class="c-logo-strip-carousel__logos__logos-slider__logo c-logo-strip-carousel__logos__logos-slider__logo--duplicate" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
-    
-      
-   </div>
+        
+    </div>
   </div>
 </div>
 
@@ -5890,7 +6054,7 @@ Forest Positive
           
 
       </main>
-        <!--bookshop-live meta(version: "3.9.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/footer)-->
 
