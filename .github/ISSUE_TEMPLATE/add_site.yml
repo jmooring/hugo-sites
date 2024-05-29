@@ -17,9 +17,12 @@ body:
       label: Type
       description: Please indicate the type of site by selecting one or more of the following options
       options:
+        - label: Association
         - label: Blog
         - label: Business
         - label: CV/Resume
+        - label: Cultural heritage
+        - label: Directory
         - label: Documentation
         - label: Ecommerce
         - label: Education
@@ -27,13 +30,16 @@ body:
         - label: Event
         - label: Government
         - label: Healthcare
+        - label: Landing page
         - label: Membership
         - label: News
         - label: Nonprofit
+        - label: Other
         - label: Personal
+        - label: Photography
+        - label: Podcast
         - label: Portfolio
         - label: Project
-        - label: Other
   - type: input
     id: type_other
     attributes:
