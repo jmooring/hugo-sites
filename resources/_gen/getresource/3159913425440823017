@@ -1,26 +1,27 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 376
+Age: 550
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 88b5d4f46fe876eb-SEA
+Cf-Ray: 89097f508a7da323-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 29 May 2024 10:34:25 GMT
-Expires: Wed, 29 May 2024 10:34:59 GMT
-Last-Modified: Tue, 28 May 2024 10:29:22 GMT
+Date: Sat, 08 Jun 2024 14:16:01 GMT
+Expires: Sat, 08 Jun 2024 14:00:55 GMT
+Last-Modified: Fri, 07 Jun 2024 16:50:19 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yS91eD8ZnysV%2BbBRPGu0YW9LGQyrQwb99IrwD5AxzGrI4Kd81YTO%2BqQ%2FYrNJrgr5PNC9qaayZsBqfwBIysWwvyUKPEinMEXjp0%2FiOUz8RWlJB0Urir0nQ0Dagw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=b5pkgvOZnT6nv945pEkSOn9l2ZgzcVmjrBJqK7ECAPWeVyq8MScLlhUGtH6UHC8%2FYe%2BpUKNFY6xstaf%2FquLr%2F1hoY1Q39wkSr%2BeVzsU1t%2FbIs%2BRVAP6k3TbuXw%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Fastly-Request-Id: 2296a738422c89abf9dd3f8f73e6b8488a1ee9df
-X-Github-Request-Id: 8F2C:23C8DF:BED935:C42772:6657027A
-X-Origin-Cache: HIT
+X-Etags-1: 8600302abba15e6cac734af603700aaa
+X-Etags-2: 8600302abba15e6cac734af603700aaa
+X-Fastly-Request-Id: 6f00b69632ac701ab5f75541416c978d203b67ed
+X-Github-Request-Id: FF14:828D0:4D64C2:50397F:666461BF
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770041-PAO
-X-Timer: S1716978865.411550,VS0,VE2
+X-Served-By: cache-pao-kpao1770083-PAO
+X-Timer: S1717856161.425354,VS0,VE1
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +31,7 @@ X-Timer: S1716978865.411550,VS0,VE2
   <meta http-equiv="Content-Language" content="en"><meta name="description" content="Leading open source admin dashboard template used by thousands of developers and Fortune 500s. CoreUI admin panel is built on top of Bootstrap 5. CoreUI Bootstrap Admin Template lets you save thousands of priceless hours because it offers everything you need to create modern, beautiful, and responsive applications."><meta name="author" content="">
   <meta name="generator" content="Hugo 0.122.0"><title>Bootstrap Admin &amp; Dashboard Template · CoreUI</title><link rel="canonical" href="https://coreui.io/"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow+Semi+Condensed:wght@200;400;500;700&family=Barlow:wght@100;400;700&family=Cousine:wght@400;700&display=swap" rel="stylesheet"><style>:root{--cui-framework-25:#ccc7f6;--cui-framework-25-rgb:204, 199, 246;--cui-framework-50:#988fed;--cui-framework-base:#321fdb;--cui-framework-color:#fff;--cui-framework-gradient-start:#1f1498;--cui-framework-gradient-stop:#321fdb;--cui-framework-page-header-bg:url("/images/bgs/KV_top_01.webp") no-repeat center center/cover;--cui-framework-page-header-bg-admin:url("/images/admin_templates/coreui_alt_960px.png") no-repeat}</style><link rel="stylesheet" href="https://coreui.io/scss/style.min.6db27b1994e9b1f65563c24ca77ad394add4028273d08dcaf17e3c89014d808b.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow+Semi+Condensed:wght@200;400;500;700&family=Barlow:wght@100;400;700&family=Cousine:wght@400;700&display=swap" rel="stylesheet"><style>:root{--cui-framework-25:#ccc7f6;--cui-framework-25-rgb:204, 199, 246;--cui-framework-50:#988fed;--cui-framework-base:#321fdb;--cui-framework-color:#fff;--cui-framework-gradient-start:#1f1498;--cui-framework-gradient-stop:#321fdb;--cui-framework-page-header-bg:url("/images/bgs/KV_top_01.webp") no-repeat center center/cover;--cui-framework-page-header-bg-admin:url("/images/admin_templates/coreui_alt_960px.png") no-repeat}</style><link rel="stylesheet" href="https://coreui.io/scss/style.min.1b7ae9c01c6e294335d3ab48246652404f8ecd0e76cf131a7fb140bc9e77cadc.css">
 
 
   <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
@@ -76,9 +77,6 @@ X-Timer: S1716978865.411550,VS0,VE2
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-KX4JH47');</script>
 </head><body class="color-scheme-coreui color-scheme-free d-flex flex-column min-vh-100">
-    <section class="bg-gradient-coreui text-white text-center py-3">
-  <a class="text-white" href="/about/sponsors-backers/">Become a sponsor and support the development of the CoreUI open-source projects.</a>
-</section>
     <div class="page-header page-header-home">
       <svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg"  height="70" class="cui-logo d-none" viewBox="0 0 312 115">
   <g id="Page-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
@@ -127,7 +125,7 @@ X-Timer: S1716978865.411550,VS0,VE2
               </div>
             </li><li class="nav-item dropdown px-lg-2">
             <a class="nav-link dropdown-toggle" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
-              Products
+              Components
             </a>
             <div class="dropdown-menu border-0">
               <a class="dropdown-item d-flex align-items-center ps-0" href="/">
@@ -147,7 +145,7 @@ X-Timer: S1716978865.411550,VS0,VE2
 
                 <div>
                   <div class="fw-semibold">CoreUI</div>
-                  <div>Admin Template & UI Components</div>
+                  <div>UI Components</div>
                 </div>
               </a>
               <a class="dropdown-item d-flex align-items-center ps-0" href="/angular/">
@@ -167,7 +165,7 @@ X-Timer: S1716978865.411550,VS0,VE2
 
                 <div>
                   <div class="fw-semibold">CoreUI for&nbsp;<span class="text-angular">Angular</span></div>
-                  <div>Admin Template & UI Components for Angular</div>
+                  <div>UI Components for Angular</div>
                 </div>
               </a>
               <a class="dropdown-item d-flex align-items-center ps-0" href="/bootstrap/">
@@ -187,7 +185,7 @@ X-Timer: S1716978865.411550,VS0,VE2
 
                 <div>
                   <div class="fw-semibold">CoreUI for&nbsp;<span class="text-bootstrap">Bootstrap</span></div>
-                  <div>Admin Template & UI Components for Bootstrap</div>
+                  <div>UI Components for Bootstrap</div>
                 </div>
               </a>
               <a class="dropdown-item d-flex align-items-center ps-0" href="/react/">
@@ -207,7 +205,7 @@ X-Timer: S1716978865.411550,VS0,VE2
 
                 <div>
                   <div class="fw-semibold">CoreUI for&nbsp;<span class="text-react">React.js</span></div>
-                  <div>Admin Template & UI Components for React.js</div>
+                  <div>UI Components for React.js</div>
                 </div>
               </a>
               <a class="dropdown-item d-flex align-items-center ps-0" href="/vue/">
@@ -227,36 +225,114 @@ X-Timer: S1716978865.411550,VS0,VE2
 
                 <div>
                   <div class="fw-semibold">CoreUI for&nbsp;<span class="text-vue">Vue.js</span></div>
-                  <div>Admin Template & UI Components for Vue.js</div>
-                </div>
-              </a>
-              <a class="dropdown-item d-flex align-items-center ps-0" href="/icons/">
-                <svg xmlns="http://www.w3.org/2000/svg"  width="64" height="64" class="float-left text-icons"  viewBox="0 0 160 160">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: currentColor;
-      }
-    </style>
-  </defs>
-  <g>
-    <path class="cls-1" d="M125,47.091,86,24.5743a12,12,0,0,0-12,0L35,47.091a12.0336,12.0336,0,0,0-6,10.3923v45.0334a12.0335,12.0335,0,0,0,6,10.3923l39,22.5166a11.9993,11.9993,0,0,0,12,0l39-22.5166a12.0335,12.0335,0,0,0,6-10.3923V57.4833A12.0336,12.0336,0,0,0,125,47.091Zm-2,55.4257a4,4,0,0,1-2,3.464L82,128.4974a4,4,0,0,1-4,0L39,105.9807a4,4,0,0,1-2-3.464V57.4833a4,4,0,0,1,2-3.4641L78,31.5025a4,4,0,0,1,4,0l39,22.5167a4,4,0,0,1,2,3.4641Z"/>
-    <path class="cls-1" d="M103.0216,93.0379h-2.866a4,4,0,0,0-1.9246.4935L80.95,103.0167,61,91.4981V68.5206L80.95,57.002l17.2894,9.455a4,4,0,0,0,1.9192.4905h2.8632a2,2,0,0,0,2-2V62.2357a2,2,0,0,0-1.04-1.7547L84.793,49.9854a8.0391,8.0391,0,0,0-7.8428.09L57,61.5929A8.0243,8.0243,0,0,0,53,68.5216v22.976a8,8,0,0,0,4,6.9283l19.95,11.5185a8.0422,8.0422,0,0,0,7.8433.0879l19.19-10.5311a2,2,0,0,0,1.0378-1.7534v-2.71A2,2,0,0,0,103.0216,93.0379Z"/>
-  </g>
-</svg>
-
-                <div>
-                  <div class="fw-semibold">CoreUI&nbsp;<span class="text-icons">ICONS</span></div>
-                  <div>Free SVG, JavaScript & Webfont Icons</div>
+                  <div>UI Components for Vue.js</div>
                 </div>
               </a>
             </div>
           </li>
           <li class="nav-item dropdown px-lg-2">
             <a class="nav-link dropdown-toggle" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
-              Support
+              Templates
             </a>
             <div class="dropdown-menu border-0">
+              <a class="dropdown-item py-2" href="/themes-templates/admin-dashboard/angular/">
+                <span class="framework-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 200">
+  <g fill="none" fill-rule="nonzero">
+    <path fill="#DD0031" d="M94 0 .9 33.2l14.2 123.1L94 200l78.9-43.7 14.2-123.1z"/>
+    <path fill="#C3002F" d="M94 0v22.2-.1V200l78.9-43.7 14.2-123.1z"/>
+    <path fill="#FFF" d="M94 22.1 35.8 152.6h21.7l11.7-29.2h49.4l11.7 29.2H152L94 22.1Zm17 83.3H77l17-40.9 17 40.9Z"/>
+  </g>
+</svg></span>
+                <span class="text-angular">Angular</span> Admin Templates
+              </a>
+              <a class="dropdown-item py-2" href="/themes-templates/admin-dashboard/bootstrap/">
+                <span class="framework-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 408">
+  <defs>
+    <linearGradient id="bootstrap2-a" x1="14.859%" x2="102.242%" y1="19.93%" y2="75.205%">
+      <stop offset="0%" stop-color="#9013FE"/>
+      <stop offset="100%" stop-color="#6610F2"/>
+    </linearGradient>
+    <linearGradient id="bootstrap2-b" x1="26.561%" x2="61.603%" y1="6.582%" y2="84.523%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F1E5FC"/>
+    </linearGradient>
+  </defs>
+  <g fill="none">
+    <path fill="url(#bootstrap2-a)" d="M56.481 53.32C55.515 25.58 77.128 0 106.342 0h299.353c29.214 0 50.827 25.58 49.861 53.32-.928 26.647.277 61.165 8.964 89.31 8.715 28.232 23.411 46.077 47.48 48.37v26c-24.069 2.293-38.765 20.138-47.48 48.37-8.687 28.145-9.892 62.663-8.964 89.311.966 27.739-20.647 53.319-49.861 53.319H106.342c-29.214 0-50.827-25.58-49.86-53.319.927-26.648-.278-61.166-8.966-89.311C38.802 237.138 24.07 219.293 0 217v-26c24.069-2.293 38.802-20.138 47.516-48.37 8.688-28.145 9.893-62.663 8.965-89.31Z"/>
+    <path fill="url(#bootstrap2-b)" stroke="#FFF" d="M267.103 312.457c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217h89.202Zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67v-64.814Zm0 161.961v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941h-47.605Z"/>
+  </g>
+</svg></span>
+                <span class="text-bootstrap">Bootstrap</span> Admin Templates
+              </a>
+              <a class="dropdown-item py-2" href="/themes-templates/admin-dashboard/next-js/">
+                <span class="framework-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="next2-c" x1="55.633%" x2="83.228%" y1="56.385%" y2="96.08%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="next2-d" x1="50%" x2="49.953%" y1="0%" y2="73.438%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="next2-a" cx="20" cy="20" r="20"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="next2-b" fill="#fff">
+      <use xlink:href="#next2-a"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#next2-b)">
+      <circle cx="20" cy="20" r="20" fill="#000"/>
+      <path fill="url(#next2-c)" d="M33.224 35.004 15.364 12H12v15.993h2.692V15.42L31.11 36.632c.74-.496 1.447-1.04 2.113-1.628Z"/>
+      <path fill="url(#next2-d)" d="M25.556 12h2.667v16h-2.667z"/>
+    </g>
+  </g>
+</svg></span>
+                <span class="text-next-js">Next.js</span> Admin Templates
+              </a>
+              <a class="dropdown-item py-2" href="/themes-templates/admin-dashboard/react/">
+                <span class="framework-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">
+  <title>React Logo</title>
+  <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+  <g stroke="#61dafb" stroke-width="1" fill="none">
+    <ellipse rx="11" ry="4.2"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+    <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+  </g>
+</svg>
+</span>
+                <span class="text-react">React.js</span> Admin Templates
+              </a>
+              <a class="dropdown-item py-2" href="/themes-templates/admin-dashboard/vue/">
+                <span class="framework-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.76 226.69">
+  <path fill="#41b883" d="m161.096.001-30.224 52.35L100.647.002H-.005L130.872 226.69 261.749 0z"/>
+  <path fill="#34495e" d="m161.096.001-30.224 52.35L100.647.002H52.346l78.526 136.01L209.398.001z"/>
+</svg></span>
+                <span class="text-vue">Vue.js</span> Admin Templates
+              </a>
+            </div>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a href="/icons/" class="nav-link">
+              Icons
+            </a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a href="/blog/" class="nav-link">
+              Blog
+            </a>
+          </li>
+          <li class="nav-item dropdown me-auto px-lg-2">
+            <a class="nav-link dropdown-toggle" data-coreui-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">
+              Contact & Support
+            </a>
+            <div class="dropdown-menu border-0">
+              <a class="dropdown-item" href="/contact/sales/">
+                <svg id="cil-people" viewBox="0 0 512 512" width="22px" class="d-lg-down-none">
+                  <path fill="var(--ci-primary-color, currentColor)" d="M462.541,316.3l-64.344-42.1,24.774-45.418A79.124,79.124,0,0,0,432.093,192V120A103.941,103.941,0,0,0,257.484,43.523L279.232,67a71.989,71.989,0,0,1,120.861,53v72a46.809,46.809,0,0,1-5.215,21.452L355.962,284.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421V432h-72v32h104V378.494A74.061,74.061,0,0,0,462.541,316.3Z" class="ci-primary"></path><path fill="var(--ci-primary-color, currentColor)" d="M318.541,348.3l-64.343-42.1,24.773-45.418A79.124,79.124,0,0,0,288.093,224V152A104.212,104.212,0,0,0,184.04,47.866C126.723,47.866,80.093,94.581,80.093,152v72a78,78,0,0,0,9.015,36.775l24.908,45.664L50.047,348.3A74.022,74.022,0,0,0,16.5,410.4L16,496H352.093V410.494A74.061,74.061,0,0,0,318.541,348.3ZM320.093,464H48.186l.31-53.506a42.158,42.158,0,0,1,19.073-35.421l88.682-58.029L117.2,245.452A46.838,46.838,0,0,1,112.093,224V152a72,72,0,1,1,144,0v72a46.809,46.809,0,0,1-5.215,21.452L211.962,316.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421Z" class="ci-primary"></path>
+                </svg>
+                <span class="ms-2">Contact sales</span>
+              </a>
               <a class="dropdown-item" href="/support/">
                 <svg id="cil-headphones-mic" viewBox="0 0 512 512" width="22px">
                   <path fill="var(--ci-primary-color, currentColor)" d="M448,184H400V160c0-79.4-64.6-144-144-144S112,80.6,112,160v24H64a48.055,48.055,0,0,0-48,48V360a48.055,48.055,0,0,0,48,48h48a32.036,32.036,0,0,0,32-32V160a112,112,0,0,1,224,0V446.532A17.488,17.488,0,0,1,350.532,464H224v32H350.532A49.524,49.524,0,0,0,400,446.532V408h48a48.055,48.055,0,0,0,48-48V232A48.055,48.055,0,0,0,448,184ZM112,376H64a16.019,16.019,0,0,1-16-16V232a16.019,16.019,0,0,1,16-16h48v56h.008l.012,104Zm352-16a16.019,16.019,0,0,1-16,16H400V216h48a16.019,16.019,0,0,1,16,16Z" class="ci-primary"></path>
@@ -272,11 +348,6 @@ X-Timer: S1716978865.411550,VS0,VE2
               </a>
             </div>
           </li>
-          <li class="nav-item me-auto px-lg-2">
-            <a href="/blog/" class="nav-link">
-              Blog
-            </a>
-          </li>
           <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
             <hr class="d-lg-none my-2 text-white-50">
           </li><li class="nav-item px-1">
@@ -287,19 +358,11 @@ X-Timer: S1716978865.411550,VS0,VE2
               <span class="ms-xl-2">Buy CoreUI PRO</span>
             </a>
           </li><li class="nav-item px-1 mt-2 mt-lg-0">
-            <a href="/contact/sales/" class="btn btn-border btn-border-framework btn-sm">
-              <svg id="cil-people" viewBox="0 0 512 512" width="22px" class="d-lg-down-none">
-                <path fill="var(--ci-primary-color, currentColor)" d="M462.541,316.3l-64.344-42.1,24.774-45.418A79.124,79.124,0,0,0,432.093,192V120A103.941,103.941,0,0,0,257.484,43.523L279.232,67a71.989,71.989,0,0,1,120.861,53v72a46.809,46.809,0,0,1-5.215,21.452L355.962,284.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421V432h-72v32h104V378.494A74.061,74.061,0,0,0,462.541,316.3Z" class="ci-primary"></path><path fill="var(--ci-primary-color, currentColor)" d="M318.541,348.3l-64.343-42.1,24.773-45.418A79.124,79.124,0,0,0,288.093,224V152A104.212,104.212,0,0,0,184.04,47.866C126.723,47.866,80.093,94.581,80.093,152v72a78,78,0,0,0,9.015,36.775l24.908,45.664L50.047,348.3A74.022,74.022,0,0,0,16.5,410.4L16,496H352.093V410.494A74.061,74.061,0,0,0,318.541,348.3ZM320.093,464H48.186l.31-53.506a42.158,42.158,0,0,1,19.073-35.421l88.682-58.029L117.2,245.452A46.838,46.838,0,0,1,112.093,224V152a72,72,0,1,1,144,0v72a46.809,46.809,0,0,1-5.215,21.452L211.962,316.8l89.058,58.274a42.16,42.16,0,0,1,19.073,35.421Z" class="ci-primary"></path>
-              </svg>
-              <span class="ms-xl-2">Sales Support</span>
-            </a>
-          </li>
-          <li class="nav-item px-1 mt-2 mt-lg-0">
             <a href="/about/services/" class="btn btn-border btn-border-framework btn-sm">
               <svg id="cil-handshake" viewBox="0 0 512 512" width="22px" class="d-lg-down-none">
                 <path fill="var(--ci-primary-color, currentColor)" d="M262.254,128H365.717l67.933,64H496V160H446.35L378.416,96H120.829a25.235,25.235,0,0,0-18.177,7.786L41.367,168.147,16.093,168l-.186,32,39.1.227L123.782,128H217l-74.341,74.333a58.153,58.153,0,0,0,82.237,82.245l24.065-24.062,95.413,95.414L325.13,376.124a11.337,11.337,0,0,1-16.224.195l-54.16-54.16-22.627,22.628,39.988,39.987-18.649,19.057a11.335,11.335,0,0,1-16.118.086L182.916,349.5l-22.627,22.628,24.67,24.669-14.786,15.656a11.338,11.338,0,0,1-16.219.271L70.71,328H16v32H57.29l73.9,75.208.1.1A42.978,42.978,0,0,0,161.911,448c.212,0,.427,0,.639,0a42.994,42.994,0,0,0,30.887-13.576L207.6,419.428l7.117,7.117a43.021,43.021,0,0,0,30.636,12.693h.24a43.029,43.029,0,0,0,30.739-13.025l19.572-20a43.009,43.009,0,0,0,21.006,5.427c.179,0,.36,0,.539,0A43,43,0,0,0,348.3,398.2l20.382-21.39h62.044l40-40.809H496V304H457.278l-40,40.809H378.5L271.586,237.89,302.281,207.2,279.654,184.57l-77.388,77.379a26.153,26.153,0,0,1-36.983-36.988Z" class="ci-primary"></path>
               </svg>
-              <span class="ms-xl-2">Custom App Development</span>
+              <span class="ms-xl-2">Custom Services</span>
             </a>
           </li>
         </ul>
@@ -902,6 +965,96 @@ No design skills required</h3>
   <div class="container">
     <div class="row"><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/what-does-javascript-void-0-mean/">What Does javascript:void(0) Mean?</a></h3>
+          <div class="post-date mb-4">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<title>calendar</title>
+<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
+<path d="M14 28h4v4h-4v-4z"></path>
+<path d="M25 28h4v4h-4v-4z"></path>
+<path d="M35 28h4v4h-4v-4z"></path>
+<path d="M46 28h4v4h-4v-4z"></path>
+<path d="M14 37h4v4h-4v-4z"></path>
+<path d="M25 37h4v4h-4v-4z"></path>
+<path d="M35 37h4v4h-4v-4z"></path>
+<path d="M46 37h4v4h-4v-4z"></path>
+<path d="M14 46h4v4h-4v-4z"></path>
+<path d="M25 46h4v4h-4v-4z"></path>
+<path d="M35 46h4v4h-4v-4z"></path>
+<path d="M46 46h4v4h-4v-4z"></path>
+</svg>
+Tuesday, June 4, 2024
+          </div>
+          <a href="https://coreui.io/blog/what-does-javascript-void-0-mean/">
+            
+
+
+  
+  
+  
+  
+
+<img
+  loading="lazy"
+  class="post-image mb-0" 
+  alt="What Does javascript:void(0) Mean?" 
+    srcset="/images/blog/what-does-javascript-void-0-mean_hu0082b4bc3ab95b5d3259ea10f1327dfc_94763_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/what-does-javascript-void-0-mean_hu0082b4bc3ab95b5d3259ea10f1327dfc_94763_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/what-does-javascript-void-0-mean_hu0082b4bc3ab95b5d3259ea10f1327dfc_94763_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/what-does-javascript-void-0-mean_hu0082b4bc3ab95b5d3259ea10f1327dfc_94763_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/blog/what-does-javascript-void-0-mean_hu0082b4bc3ab95b5d3259ea10f1327dfc_94763_1360x0_resize_q90_h2_box_3.webp"
+/>
+          </a>
+          <p>
+            <p>In JavaScript, <code>javascript:void(0)</code> is a common expression used within hyperlinks to prevent the default behavior of the link, such as reloading the page or navigating to a new page. This …</p>
+          </p>
+          <a href="https://coreui.io/blog/what-does-javascript-void-0-mean/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+        </div>
+        <hr class="d-md-none">
+      </div><div class="col-md-4 mb-4 mb-md-0">
+        <div class="post px-3">
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-detect-a-click-outside-of-a-react-component/">How to Detect a Click Outside of a React Component</a></h3>
+          <div class="post-date mb-4">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<title>calendar</title>
+<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
+<path d="M14 28h4v4h-4v-4z"></path>
+<path d="M25 28h4v4h-4v-4z"></path>
+<path d="M35 28h4v4h-4v-4z"></path>
+<path d="M46 28h4v4h-4v-4z"></path>
+<path d="M14 37h4v4h-4v-4z"></path>
+<path d="M25 37h4v4h-4v-4z"></path>
+<path d="M35 37h4v4h-4v-4z"></path>
+<path d="M46 37h4v4h-4v-4z"></path>
+<path d="M14 46h4v4h-4v-4z"></path>
+<path d="M25 46h4v4h-4v-4z"></path>
+<path d="M35 46h4v4h-4v-4z"></path>
+<path d="M46 46h4v4h-4v-4z"></path>
+</svg>
+Friday, May 31, 2024
+          </div>
+          <a href="https://coreui.io/blog/how-to-detect-a-click-outside-of-a-react-component/">
+            
+
+
+  
+  
+  
+  
+
+<img
+  loading="lazy"
+  class="post-image mb-0" 
+  alt="How to Detect a Click Outside of a React Component" 
+    srcset="/images/blog/how-to-detect-a-click-outside-of-a-react-component_hu448926a2ab835bd6fb37552d2e1634db_100165_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-detect-a-click-outside-of-a-react-component_hu448926a2ab835bd6fb37552d2e1634db_100165_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-detect-a-click-outside-of-a-react-component_hu448926a2ab835bd6fb37552d2e1634db_100165_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-detect-a-click-outside-of-a-react-component_hu448926a2ab835bd6fb37552d2e1634db_100165_1366x0_resize_q90_h2_box_3.webp 1366w"  
+  src="/images/blog/how-to-detect-a-click-outside-of-a-react-component_hu448926a2ab835bd6fb37552d2e1634db_100165_1360x0_resize_q90_h2_box_3.webp"
+/>
+          </a>
+          <p>
+            <p>Detecting clicks outside a React component enhances user interactions by managing behaviors like closing <a href="https://coreui.io/react/docs/components/tooltip/">tooltip</a>, <a href="https://coreui.io/react/docs/components/modal/">modals</a>, or <a href="https://coreui.io/react/docs/components/dropdown/">dropdown component</a> when users click outside them. This technique …</p>
+          </p>
+          <a href="https://coreui.io/blog/how-to-detect-a-click-outside-of-a-react-component/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+        </div>
+        <hr class="d-md-none">
+      </div><div class="col-md-4 mb-4 mb-md-0">
+        <div class="post px-3">
           <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/css-selector-for-parent-element/">CSS Selector for Parent Element</a></h3>
           <div class="post-date mb-4">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
@@ -945,96 +1098,6 @@ Tuesday, May 28, 2024
           <a href="https://coreui.io/blog/css-selector-for-parent-element/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
-      </div><div class="col-md-4 mb-4 mb-md-0">
-        <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-convert-a-map-to-an-array-in-javascript/">How to Convert a Map to an Array in JavaScript</a></h3>
-          <div class="post-date mb-4">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-<title>calendar</title>
-<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
-<path d="M14 28h4v4h-4v-4z"></path>
-<path d="M25 28h4v4h-4v-4z"></path>
-<path d="M35 28h4v4h-4v-4z"></path>
-<path d="M46 28h4v4h-4v-4z"></path>
-<path d="M14 37h4v4h-4v-4z"></path>
-<path d="M25 37h4v4h-4v-4z"></path>
-<path d="M35 37h4v4h-4v-4z"></path>
-<path d="M46 37h4v4h-4v-4z"></path>
-<path d="M14 46h4v4h-4v-4z"></path>
-<path d="M25 46h4v4h-4v-4z"></path>
-<path d="M35 46h4v4h-4v-4z"></path>
-<path d="M46 46h4v4h-4v-4z"></path>
-</svg>
-Wednesday, May 22, 2024
-          </div>
-          <a href="https://coreui.io/blog/how-to-convert-a-map-to-an-array-in-javascript/">
-            
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="post-image mb-0" 
-  alt="How to Convert a Map to an Array in JavaScript" 
-    srcset="/images/blog/how-to-convert-a-map-to-an-array-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96269_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-convert-a-map-to-an-array-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96269_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-convert-a-map-to-an-array-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96269_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-convert-a-map-to-an-array-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96269_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/blog/how-to-convert-a-map-to-an-array-in-javascript_hu1bc13bbffd03a7bf0f11b11dcd072256_96269_1360x0_resize_q90_h2_box_3.webp"
-/>
-          </a>
-          <p>
-            <p>In JavaScript, the Map object is a collection of key-value pairs where each key is unique. Converting a Map to an array can be essential for data manipulation and iteration. This article …</p>
-          </p>
-          <a href="https://coreui.io/blog/how-to-convert-a-map-to-an-array-in-javascript/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
-        </div>
-        <hr class="d-md-none">
-      </div><div class="col-md-4 mb-4 mb-md-0">
-        <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/blog/how-to-center-a-button-in-css/">How to Center a Button in CSS</a></h3>
-          <div class="post-date mb-4">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-<title>calendar</title>
-<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
-<path d="M14 28h4v4h-4v-4z"></path>
-<path d="M25 28h4v4h-4v-4z"></path>
-<path d="M35 28h4v4h-4v-4z"></path>
-<path d="M46 28h4v4h-4v-4z"></path>
-<path d="M14 37h4v4h-4v-4z"></path>
-<path d="M25 37h4v4h-4v-4z"></path>
-<path d="M35 37h4v4h-4v-4z"></path>
-<path d="M46 37h4v4h-4v-4z"></path>
-<path d="M14 46h4v4h-4v-4z"></path>
-<path d="M25 46h4v4h-4v-4z"></path>
-<path d="M35 46h4v4h-4v-4z"></path>
-<path d="M46 46h4v4h-4v-4z"></path>
-</svg>
-Wednesday, May 15, 2024
-          </div>
-          <a href="https://coreui.io/blog/how-to-center-a-button-in-css/">
-            
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="post-image mb-0" 
-  alt="How to Center a Button in CSS" 
-    srcset="/images/blog/how-to-center-a-button-in-css_hu53a2156512fc0eebd5377a9fff49cb6e_74604_480x0_resize_q90_h2_box_3.webp 480w, /images/blog/how-to-center-a-button-in-css_hu53a2156512fc0eebd5377a9fff49cb6e_74604_768x0_resize_q90_h2_box_3.webp 768w, /images/blog/how-to-center-a-button-in-css_hu53a2156512fc0eebd5377a9fff49cb6e_74604_1024x0_resize_q90_h2_box_3.webp 1024w, /images/blog/how-to-center-a-button-in-css_hu53a2156512fc0eebd5377a9fff49cb6e_74604_1366x0_resize_q90_h2_box_3.webp 1366w"  
-  src="/images/blog/how-to-center-a-button-in-css_hu53a2156512fc0eebd5377a9fff49cb6e_74604_1360x0_resize_q90_h2_box_3.webp"
-/>
-          </a>
-          <p>
-            <p>Centering a button in CSS can be achieved using several methods. Here are some simple techniques to help you center a button horizontally and vertically on your web page. The following …</p>
-          </p>
-          <a href="https://coreui.io/blog/how-to-center-a-button-in-css/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
-        </div>
-        <hr class="d-md-none">
       </div></div>
   </div>
 </section>
@@ -1045,6 +1108,96 @@ Wednesday, May 15, 2024
   </div>
   <div class="container">
     <div class="row"><div class="col-md-4 mb-4 mb-md-0">
+        <div class="post px-3">
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/vue/v5.1.0/">CoreUI for Vue v5.1.0</a></h3>
+          <div class="post-date mb-4">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<title>calendar</title>
+<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
+<path d="M14 28h4v4h-4v-4z"></path>
+<path d="M25 28h4v4h-4v-4z"></path>
+<path d="M35 28h4v4h-4v-4z"></path>
+<path d="M46 28h4v4h-4v-4z"></path>
+<path d="M14 37h4v4h-4v-4z"></path>
+<path d="M25 37h4v4h-4v-4z"></path>
+<path d="M35 37h4v4h-4v-4z"></path>
+<path d="M46 37h4v4h-4v-4z"></path>
+<path d="M14 46h4v4h-4v-4z"></path>
+<path d="M25 46h4v4h-4v-4z"></path>
+<path d="M35 46h4v4h-4v-4z"></path>
+<path d="M46 46h4v4h-4v-4z"></path>
+</svg>
+Thursday, May 30, 2024
+          </div>
+          <a href="https://coreui.io/changelog/coreui/vue/v5.1.0/">
+            
+
+
+  
+  
+  
+  
+
+<img
+  loading="lazy"
+  class="post-image mb-0" 
+  alt="CoreUI for Vue v5.1.0" 
+    srcset="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_480x0_resize_q90_h2_box.webp 480w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_768x0_resize_q90_h2_box.webp 768w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1366x0_resize_q90_h2_box.webp 1366w"  
+  src="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1360x0_resize_q90_h2_box.webp"
+/>
+          </a>
+          <p>
+            <p>We are excited to announce the release of CoreUI for Vue v5.1.0. This update introduces new features, refactors existing components for better performance and maintainability, and updates …</p>
+          </p>
+          <a href="https://coreui.io/changelog/coreui/vue/v5.1.0/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+        </div>
+        <hr class="d-md-none">
+      </div><div class="col-md-4 mb-4 mb-md-0">
+        <div class="post px-3">
+          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/vue-pro/v5.2.0/">CoreUI PRO for Vue v5.2.0</a></h3>
+          <div class="post-date mb-4">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<title>calendar</title>
+<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
+<path d="M14 28h4v4h-4v-4z"></path>
+<path d="M25 28h4v4h-4v-4z"></path>
+<path d="M35 28h4v4h-4v-4z"></path>
+<path d="M46 28h4v4h-4v-4z"></path>
+<path d="M14 37h4v4h-4v-4z"></path>
+<path d="M25 37h4v4h-4v-4z"></path>
+<path d="M35 37h4v4h-4v-4z"></path>
+<path d="M46 37h4v4h-4v-4z"></path>
+<path d="M14 46h4v4h-4v-4z"></path>
+<path d="M25 46h4v4h-4v-4z"></path>
+<path d="M35 46h4v4h-4v-4z"></path>
+<path d="M46 46h4v4h-4v-4z"></path>
+</svg>
+Thursday, May 30, 2024
+          </div>
+          <a href="https://coreui.io/changelog/coreui/vue-pro/v5.2.0/">
+            
+
+
+  
+  
+  
+  
+
+<img
+  loading="lazy"
+  class="post-image mb-0" 
+  alt="CoreUI PRO for Vue v5.2.0" 
+    srcset="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_480x0_resize_q90_h2_box.webp 480w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_768x0_resize_q90_h2_box.webp 768w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1366x0_resize_q90_h2_box.webp 1366w"  
+  src="/images/blog/vue_hu5f118bc2d5ada94d8576e54cc9ca86d5_170599_1360x0_resize_q90_h2_box.webp"
+/>
+          </a>
+          <p>
+            <p>We are excited to announce the release of CoreUI PRO for Vue v5.2.0. This update introduces new features, significant improvements, and crucial bug fixes to enhance your development …</p>
+          </p>
+          <a href="https://coreui.io/changelog/coreui/vue-pro/v5.2.0/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
+        </div>
+        <hr class="d-md-none">
+      </div><div class="col-md-4 mb-4 mb-md-0">
         <div class="post px-3">
           <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/react/v5.1.0/">CoreUI for React v5.1.0</a></h3>
           <div class="post-date mb-4">
@@ -1087,96 +1240,6 @@ Monday, May 27, 2024
             <p>We are excited to announce the release of CoreUI for React v5.1.0, which includes new features, fixes, and critical dependency updates to enhance the performance and usability of our …</p>
           </p>
           <a href="https://coreui.io/changelog/coreui/react/v5.1.0/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
-        </div>
-        <hr class="d-md-none">
-      </div><div class="col-md-4 mb-4 mb-md-0">
-        <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/react-pro/v5.2.0/">CoreUI PRO for React v5.2.0</a></h3>
-          <div class="post-date mb-4">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-<title>calendar</title>
-<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
-<path d="M14 28h4v4h-4v-4z"></path>
-<path d="M25 28h4v4h-4v-4z"></path>
-<path d="M35 28h4v4h-4v-4z"></path>
-<path d="M46 28h4v4h-4v-4z"></path>
-<path d="M14 37h4v4h-4v-4z"></path>
-<path d="M25 37h4v4h-4v-4z"></path>
-<path d="M35 37h4v4h-4v-4z"></path>
-<path d="M46 37h4v4h-4v-4z"></path>
-<path d="M14 46h4v4h-4v-4z"></path>
-<path d="M25 46h4v4h-4v-4z"></path>
-<path d="M35 46h4v4h-4v-4z"></path>
-<path d="M46 46h4v4h-4v-4z"></path>
-</svg>
-Monday, May 27, 2024
-          </div>
-          <a href="https://coreui.io/changelog/coreui/react-pro/v5.2.0/">
-            
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="post-image mb-0" 
-  alt="CoreUI PRO for React v5.2.0" 
-    srcset="/images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_480x0_resize_q90_h2_box.webp 480w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_768x0_resize_q90_h2_box.webp 768w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1366x0_resize_q90_h2_box.webp 1366w"  
-  src="/images/blog/react_huf312a857b2bc2a1ccc46ed77f3abf1cb_199537_1360x0_resize_q90_h2_box.webp"
-/>
-          </a>
-          <p>
-            <p>We are thrilled to announce the release of CoreUI PRO for React v5.2.0, packed with new features, critical fixes, and dependency updates that enhance the stability and performance of the …</p>
-          </p>
-          <a href="https://coreui.io/changelog/coreui/react-pro/v5.2.0/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
-        </div>
-        <hr class="d-md-none">
-      </div><div class="col-md-4 mb-4 mb-md-0">
-        <div class="post px-3">
-          <h3 class="post-title text-truncate mb-3"><a href="https://coreui.io/changelog/coreui/coreui-pro/v5.2.0/">CoreUI PRO v5.2.0</a></h3>
-          <div class="post-date mb-4">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-<title>calendar</title>
-<path d="M59 12h-11v-7h-4v7h-24v-7h-4v7h-11c-1.656 0.002-2.998 1.344-3 3v42c0.002 1.656 1.344 2.998 3 3h54c1.656-0.002 2.998-1.344 3-3v-42c-0.002-1.656-1.344-2.998-3-3h-0zM58 56h-52v-40h10v5h4v-5h24v5h4v-5h10z"></path>
-<path d="M14 28h4v4h-4v-4z"></path>
-<path d="M25 28h4v4h-4v-4z"></path>
-<path d="M35 28h4v4h-4v-4z"></path>
-<path d="M46 28h4v4h-4v-4z"></path>
-<path d="M14 37h4v4h-4v-4z"></path>
-<path d="M25 37h4v4h-4v-4z"></path>
-<path d="M35 37h4v4h-4v-4z"></path>
-<path d="M46 37h4v4h-4v-4z"></path>
-<path d="M14 46h4v4h-4v-4z"></path>
-<path d="M25 46h4v4h-4v-4z"></path>
-<path d="M35 46h4v4h-4v-4z"></path>
-<path d="M46 46h4v4h-4v-4z"></path>
-</svg>
-Monday, May 27, 2024
-          </div>
-          <a href="https://coreui.io/changelog/coreui/coreui-pro/v5.2.0/">
-            
-
-
-  
-  
-  
-  
-
-<img
-  loading="lazy"
-  class="post-image mb-0" 
-  alt="CoreUI PRO v5.2.0" 
-    srcset="/images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_480x0_resize_q90_h2_box.webp 480w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_768x0_resize_q90_h2_box.webp 768w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1024x0_resize_q90_h2_box.webp 1024w, /images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1366x0_resize_q90_h2_box.webp 1366w"  
-  src="/images/blog/bootstrap_hub945a4588fc5632d8826398c9515d2e5_143108_1360x0_resize_q90_h2_box.webp"
-/>
-          </a>
-          <p>
-            <p>We are pleased to announce the release of CoreUI PRO v5.2.0, dated May 27, 2024. This update includes significant improvements, new features, critical dependency updates, and build …</p>
-          </p>
-          <a href="https://coreui.io/changelog/coreui/coreui-pro/v5.2.0/" class="btn btn-border btn-border-grey btn-xl">Read More…</a>
         </div>
         <hr class="d-md-none">
       </div></div>

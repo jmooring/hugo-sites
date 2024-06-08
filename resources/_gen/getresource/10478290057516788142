@@ -1,25 +1,28 @@
 HTTP/2.0 200 OK
+Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 18626
+Age: 203768
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 16620444
+Cc-Build-Id: 16681619
 Cc-Cache-Group: default
-Cc-Cache-Status: MISS
-Cc-Perf: fetch-headers=33;t=39
+Cc-Cache-Status: HIT
+Cc-Perf: fetch-headers=39;t=44
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 88b5d501ed39c75a-SEA
+Cf-Ray: 89097f822865682e-SEA
 Content-Type: text/html; charset=utf-8
-Date: Wed, 29 May 2024 10:34:27 GMT
-Etag: W/c72cc6c8e29073eac9bad3b60b81ef18
-Last-Modified: Wed, 29 May 2024 04:53:16 GMT
+Date: Sat, 08 Jun 2024 14:16:09 GMT
+Etag: W/ed3668ed685cefc17fb5e975b204feaa
+Last-Modified: Fri, 31 May 2024 02:04:32 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
 Via: 1.1 google
+X-Etags-1: W/ed3668ed685cefc17fb5e975b204feaa
+X-Etags-2: W/ed3668ed685cefc17fb5e975b204feaa
 X-Robots-Tag: all
 
 <!DOCTYPE html>
@@ -130,7 +133,35 @@ X-Robots-Tag: all
       ]);
 
   </script>
+  <script>
+    var _hsp = (window._hsp = window._hsp || []);
+    _hsp.push([
+        "addPrivacyConsentListener",
+        function(consent) {
+            if (consent.categories.analytics) {
+                window.onload = function() {
+                    function waitForBraze() {
+                        if (typeof braze !== "undefined" && typeof braze.getDeviceId === "function") {
 
+                            const braze_device_id = braze.getDeviceId();
+                            
+                            if (typeof braze_device_id === 'string' && braze_device_id.trim() !== '') {
+                                
+                                const inputField = document.querySelector('input[name="braze_device_id"].hs-input[type="hidden"]');
+                                if (inputField) {
+                                    inputField.value = braze_device_id;
+                                }
+                            }
+                        } else {
+                            setTimeout(waitForBraze, 500); 
+                        }
+                    }
+                    waitForBraze();
+                };
+            }
+        }
+    ]);
+  </script>
 
   
   
@@ -870,35 +901,13 @@ const loadHeaderImage = src =>
             <!--bookshop-live name(structures/header/burger-menu)-->
 
 
-<button class="c-burger-menu" x-on:click="burgerOpen = ! burgerOpen" x-data="{
-        toggleScrollLock(isBurgerMenuOpen){
-                if(isBurgerMenuOpen === true){
-                        targetElement = document.querySelector('#menu-dropdown');
-                        disableScroll(targetElement, {
-                            allowTouchMove: el => {
-                                while (el && el !== document.body) {
-                                    if (el.getAttribute('body-scroll-lock-ignore') !== null) {
-                                        return true;
-                                    }
-                                    el = el.parentElement;
-                                }
-                            }
-                        });    
-                }else {
-                        targetElement = document.querySelector('#menu-dropdown');
-                        enableScroll(targetElement);
-                }
-                       
-        }
-}" x-init="
-        $watch('burgerOpen', value => toggleScrollLock(value));
-">
+<button class="c-burger-menu" x-on:click="burgerOpen = ! burgerOpen">
         <div class="c-burger-menu__burger" x-bind:class="burgerOpen ? 'c-burger-menu__burger--open' : 'c-burger-menu__burger'" id="burger-menu"></div>
 </button>
 
 <!--bookshop-live end-->
         </div>
-        <div class="c-nav-bar__mobile__headings" x-show="burgerOpen" x-cloak>
+        <div class="c-nav-bar__mobile__headings" x-show="burgerOpen" x-trap.noscroll="burgerOpen" x-cloak>
             <!--bookshop-live name(structures/header/mobile-nav-heading-item-group)-->
 
 
@@ -918,7 +927,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--one-one-one__col-one">
                     
@@ -1492,7 +1501,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--three-one__col-one">
                     
@@ -2136,7 +2145,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--one-one-one__col-one">
                     
@@ -2845,7 +2854,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--one-one-one__col-one">
                     
@@ -3414,7 +3423,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--three-one__col-one">
                     
@@ -4054,7 +4063,7 @@ const loadHeaderImage = src =>
         <!--bookshop-live name(structures/header/menu-dropdown-box)-->
 
 <div class="dropdown-container-wrapper">
-<div class="c-menu-dropdown-box" id="menu-dropdown" body-scroll-lock-ignore>
+<div class="c-menu-dropdown-box" id="menu-dropdown">
     
     <div class="c-menu-dropdown-box__subsection--one-one-one__col-one">
                     

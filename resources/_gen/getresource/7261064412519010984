@@ -4,6 +4,8 @@ Access-Control-Allow-Headers: Range
 Access-Control-Allow-Headers: User-Agent
 Access-Control-Allow-Headers: X-Requested-With
 Access-Control-Allow-Methods: GET
+Access-Control-Allow-Methods: HEAD
+Access-Control-Allow-Methods: OPTIONS
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: Content-Length
 Access-Control-Expose-Headers: Content-Range
@@ -11,24 +13,19 @@ Access-Control-Expose-Headers: X-Chunked-Output
 Access-Control-Expose-Headers: X-Ipfs-Path
 Access-Control-Expose-Headers: X-Ipfs-Roots
 Access-Control-Expose-Headers: X-Stream-Output
-Age: 371
-Cache-Control: max-age=86400
-Cf-Cache-Status: HIT
-Cf-Ray: 88b5d51468ca7682-SEA
-Content-Security-Policy: frame-ancestors 'self'
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 89097f7abf782802-SEA
 Content-Type: text/html
-Date: Wed, 29 May 2024 10:34:30 GMT
-Etag: W/"bafybeiddamod5xk4uipjz52xodu4z62ul5xk6lzo3qaiz32yc3t6vd7xqa"
-Last-Modified: Tue, 28 May 2024 17:27:32 GMT
-Referrer-Policy: strict-origin-when-cross-origin
+Date: Sat, 08 Jun 2024 14:17:01 GMT
+Last-Modified: Sat, 08 Jun 2024 14:16:09 GMT
 Server: cloudflare
 Vary: Accept-Encoding
-X-Cf-Ipfs-Cache-Status: hit
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
+X-Etags-1: 63f9ef82e502ab9a2004052b8a1b05d2
+X-Etags-2: 63f9ef82e502ab9a2004052b8a1b05d2
 X-Ipfs-Path: /ipns/ipfs.eth/
+X-Ipfs-Pop: rainbow-sv15-04
 X-Ipfs-Roots: bafybeiddamod5xk4uipjz52xodu4z62ul5xk6lzo3qaiz32yc3t6vd7xqa
-X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
 <html>

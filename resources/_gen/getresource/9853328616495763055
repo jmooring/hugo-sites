@@ -1,21 +1,23 @@
 HTTP/2.0 200 OK
-Age: 1
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; fwd=miss
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 88b5d4f79e248392-SEA
+Cf-Ray: 89097f540b2c9b68-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 29 May 2024 10:34:26 GMT
+Date: Sat, 08 Jun 2024 14:16:02 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nfoNs6IWd8NczZB0iZsoWt2G3Sb9c6mfEOgemh0wn3Oaic7dCP9ST0El0U1J3IpMZ715p18UT0qSFSKOu32tXg4TUCcyJEwlPBNIiG6oPdqvER3pS2X%2FDcw3Gw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dcLpEurDwsV0eGq6ep7ofBIXHu%2FixOc1ixGF%2FPp7SYAkPpAXXI3oIbHnIboZkX%2Fxz43p2BUCZacKjuDbcgxA5KF6KAF8zJTg%2FaJIcJ%2FkRCtVz8AMrqpfOyWh1A%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Nf-Request-Id: 01HZ1YMNRP548SM33AF273W9K0
+X-Etags-1: 3e89b41c529b0dae2a581fb906d637a4
+X-Etags-2: 3e89b41c529b0dae2a581fb906d637a4
+X-Nf-Request-Id: 01HZW39M7N8WE5ZNBS0GFN1GZS
 X-Xss-Protection: 1; mode=block
 
 
@@ -468,14 +470,14 @@ X-Xss-Protection: 1; mode=block
     <select class="version-selector">
       
         
-          <option value="">v23.1 (latest)</option>
+          <option value="">v24.0 (latest)</option>
         
       
         
           
           
             
-              <option value="v24.0">v24.0</option>
+              <option value="v23.1">v23.1</option>
             
           
         
@@ -2417,7 +2419,7 @@ X-Xss-Protection: 1; mode=block
         <span>Ask a Question</span>
       </a>
       <a target="_blank"
-        href='https://github.com/dgraph-io/dgraph-docs/edit/release/v23.1/content/dgraphcloud/_index.md'>
+        href='https://github.com/dgraph-io/dgraph-docs/edit/release/v24.0/content/dgraphcloud/_index.md'>
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
           <rect width="18" height="18" rx="9" fill="#100C19"/>
           <path d="M8.47177 6.74431L10.0628 5.15332L12.847 7.93755L11.256 9.52852M8.47177 6.74431L5.31807 9.89803C5.21259 10.0035 5.15332 10.1466 5.15332 10.2958V12.847H7.70458C7.85375 12.847 7.9968 12.7878 8.10232 12.6822L11.256 9.52852" stroke="white" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
@@ -2574,7 +2576,7 @@ X-Xss-Protection: 1; mode=block
     }
 
 
-     setAlgolia("v23.1")
+     setAlgolia("v24.0")
      
 
   </script>

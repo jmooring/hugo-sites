@@ -1,18 +1,20 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 88b5d4e57ab175c4-SEA
+Cf-Ray: 89097f378eb37579-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Wed, 29 May 2024 10:34:23 GMT
-Last-Modified: Tue, 28 May 2024 17:16:21 GMT
+Date: Sat, 08 Jun 2024 14:15:57 GMT
+Last-Modified: Fri, 07 Jun 2024 12:12:13 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=jNJh_wbMqZQhFWHkzHg6_rPeRTMxjU5yW.FWLvQn7Sc-1716978863-1.0.1.1-JR8dR5hEaRIE7A3RNUu3Zl.2d0fbRFBAq0LMq10dcwzmg5cGjrgnDpVRXfldgKVb1kT1uKLKeJ7CJ1ohSYuIzA; path=/; expires=Wed, 29-May-24 11:04:23 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=38kZG6vcSmZjFHpdup5S.QkHxddO6YMxhda4_LnxY5U-1716978863-1.0.1.1-SwcLeU_5ngFW8lGo9bIqXvb6l2mIbnty94awFIv2usIMUK.5ZRnTHxZwcgdb8LJVVez55p.8Vd2TAbTwhojZPMbk70vhXwjdMIy8JYVsipo; path=/; expires=Wed, 29-May-24 11:04:23 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=fbQOQuHa34a.FvqDHct7ZLuTB9jL2TPHd2ky1QB6n44-1717856157-1.0.1.1-zyj5K.oUU.XU6dEA9aJiSXzp4Xd5UvG5VkDdwYGwcO9lY5pVMo8OxI2d_VbQfSJ7LgjAHo9GwesEyhdurq9GWg; path=/; expires=Sat, 08-Jun-24 14:45:57 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=eOD7lKC9u_s6xRBjEtdGuMVoAnhSrYK9fVdl9OAJQSc-1717856157-1.0.1.1-mxTA8YYl6M1lTCUI5rMNgdOJFvwtW7w5bql4HpdRW.xMb02qC3z3s7hf0BRUX0Ga86g7L3NcHRnVcEL5HiK4VrTS707K1fE6NwvIm5O0qLo; path=/; expires=Sat, 08-Jun-24 14:45:57 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
 X-Do-Orig-Status: 200
+X-Etags-1: 5587267468fed546062ad6b6871ccd98
+X-Etags-2: 5587267468fed546062ad6b6871ccd98
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
 
@@ -109,7 +111,6 @@ X-Xss-Protection: 1; mode=block
     </li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/products">Products</a>
     </li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/reference">Reference</a>
     </li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/support">Support</a>
-    </li><li role="menuitem" class="nav-item-desktop" data-show="desktop"><a href="/developer-center">Developer Center</a>
     </li><li role="menuitem"  data-show="always"  class="searchbox search-nav-button">
       <button id="search-by" class="search_button use-universal-search-js">
           <svg alt="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="auto"
@@ -144,7 +145,6 @@ X-Xss-Protection: 1; mode=block
         </li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/products">Products</a>
         </li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/reference">Reference</a>
         </li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/support">Support</a>
-        </li><li role="menuitem" class="nav-item-mobile" data-show="mobile"><a href="/developer-center">Developer Center</a>
         </li></ul>
 </div>
 
@@ -313,29 +313,20 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 <p>Customers who will no longer require snapshot services after this change should <a href="https://cloudsupport.digitalocean.com">contact support</a> for a prorated refund.</p>
 </p>
     </li></ul><h2 id="latest-updates">Latest Updates</h2>
-<h3 id="23-may-2024">23 May 2024</h3>
+<h3 id="6-june-2024">6 June 2024</h3>
 <ul><li>
-    <p><p><a href="https://opensearch.org/docs/latest/getting-started">OpenSearch</a> log forwarding is now in public beta. This lets you <a href="/products/app-platform/how-to/forward-logs/">forward runtime logs</a> from your App Platform apps to an OpenSearch cluster, where you can analyze and query your app&rsquo;s logs using OpenSearch&rsquo;s APIs and dashboards.</p>
+    <p><p>Centos Stream 8 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is available exclusively via the API for the next 30 days before we remove it from our platform.</p>
 </p>
-    </li></ul><h3 id="15-may-2024">15 May 2024</h3>
+    </li></ul><h3 id="5-june-2024">5 June 2024</h3>
 <ul><li>
-    <p><p>A <a href="/reference/paperspace/pspace/api-reference/">new API</a> for managing Paperspace resources is now available. The API provides:</p>
-<ul>
-<li>
-<p>A unified and predictable endpoint schema</p>
-</li>
-<li>
-<p>Improved performance and scalability</p>
-</li>
-<li>
-<p>Documented support for API endpoints</p>
-</li>
-</ul>
-<p>The legacy Gradient and Core API endpoints will become unavailable on 15 July, 2024. To ensure your application continues to work on July 15, update your calls to reference the new API. You can <a href="/support/paperspace/#open-a-ticket">submit a support ticket</a> for questions or assistance.</p>
+    <p><p><a href="/products/backups/how-to/enable/">Daily backups</a> are now available in SYD1.</p>
 </p>
-    </li></ul><h3 id="14-may-2024">14 May 2024</h3>
+    </li><li>
+    <p><p><a href="/products/app-platform/how-to/manage-databases/#integrate-an-existing-kafka-database-beta">You can now add existing Kafka databases</a> to App Platform apps. This feature is in beta.</p>
+</p>
+    </li></ul><h3 id="30-may-2024">30 May 2024</h3>
 <ul><li>
-    <p><p>Fedora 38 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is available exclusively via the API for the next 30 days before we remove it from our platform.</p>
+    <p><p>We have released an updated Ubuntu 24.04 image that fixes a problem with <code>journald</code>. If you created a Ubuntu 24.04 Droplets on or before 30 May 2024, you can run <code>sudo systemctl restart systemd-journald</code> once as a workaround for the patch.</p>
 </p>
     </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

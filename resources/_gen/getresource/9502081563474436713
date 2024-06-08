@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 375
+Age: 3374
 Content-Type: text/html
-Date: Wed, 29 May 2024 10:34:34 GMT
-Etag: "5c3e-618aa1e78bcc0-gzip"
-Last-Modified: Fri, 17 May 2024 17:59:55 GMT
+Date: Sat, 08 Jun 2024 14:16:12 GMT
+Etag: "5c86-61a1615867540-gzip"
+Last-Modified: Tue, 04 Jun 2024 20:13:33 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -12,9 +12,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
+X-Etags-1: "5c86-61a1615867540-gzip"
+X-Etags-2: "5c86-61a1615867540-gzip"
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400089-BFI
-X-Timer: S1716978874.418236,VS0,VE1
+X-Served-By: cache-bfi-krnt7300043-BFI
+X-Timer: S1717856173.979261,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -28,7 +30,7 @@ X-Timer: S1716978874.418236,VS0,VE1
 <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-05-01T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-05-29T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -379,6 +381,21 @@ X-Timer: S1716978874.418236,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/greenaurora.jpg" 
+            onerror="this.onerror = null; this.src='\/Green aurora'"  />
+          <div class="post-content">
+            <a href="/blogs/kea-2-6-0/">
+              <h4 class="text-white">Kea 2.6.0 Released</h4>
+            </a>
+            <p class="text-white">ISC&rsquo;s software engineering team is thrilled to announce the release of Kea 2.</p>
+            <a href="/blogs/kea-2-6-0/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
@@ -417,20 +434,6 @@ X-Timer: S1716978874.418236,VS0,VE1
             </a>
             <p class="text-white">Many Kea DHCP users use ISC packages, so we want to let everyone know that we will be cleaning up some older repositories on Cloudsmith.</p>
             <a href="/blogs/kea-cloudsmith-updates/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg"  />
-          <div class="post-content">
-            <a href="/blogs/proxyv2-2024-02/">
-              <h4 class="text-white">PROXYv2 Support in BIND 9</h4>
-            </a>
-            <p class="text-white">Overview PROXYv2 protocol support has been added in the BIND 9.</p>
-            <a href="/blogs/proxyv2-2024-02/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

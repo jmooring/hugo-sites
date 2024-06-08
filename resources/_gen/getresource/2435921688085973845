@@ -1,19 +1,21 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 1220
+Age: 1769
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"6656a650-3ab2"
-Last-Modified: Wed, 29 May 2024 03:51:44 GMT
+Etag: W/"6661b596-39fa"
+Last-Modified: Thu, 06 Jun 2024 13:11:50 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
+X-Etags-1: W/"6661b596-39fa"
+X-Etags-2: W/"6661b596-39fa"
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 11566768 5489086
+X-Varnish: 11588561 12500825
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -245,10 +247,9 @@ Releases</a></h2>
 "https://www.FreeBSD.org/releases/13.2R/announce/">13.2</a>,
 <a href=
 "https://www.FreeBSD.org/releases/13.3R/announce/">13.3</a>,
+<a href="https://www.FreeBSD.org/releases/14.0R/announce/">14.0</a>
 <a href=
-"https://www.FreeBSD.org/releases/14.0R/announce/">14.0</a></li>
-<li>Upcoming: <a href=
-"https://www.FreeBSD.org/releases/14.1R/schedule/">14.1</a></li>
+"https://www.FreeBSD.org/releases/14.1R/announce/">14.1</a></li>
 <li><a href="https://www.freebsd.org/security/#sup">Support
 Lifecycle</a></li>
 </ul>
@@ -297,6 +298,9 @@ FreeBSD?</a></div>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-06-04</span><br>
+<a href="/news/newsflash/#2024-06-04:1">FreeBSD 14.1-RELEASE
+Available</a></p>
 <p><span class="txtdate">2024-05-03</span><br>
 <a href="/news/newsflash/#2024-05-03:1">January-March 2024 Status
 Report</a></p>
@@ -312,9 +316,6 @@ Novković (src)</a></p>
 <p><span class="txtdate">2024-01-26</span><br>
 <a href="/news/newsflash/#2024-01-26:1">New committer: Zsolt Udvari
 (ports)</a></p>
-<p><span class="txtdate">2024-01-12</span><br>
-<a href="/news/newsflash/#2024-01-12:1">New committer: Gabriel M.
-Dutra (ports)</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -335,10 +336,6 @@ width="27" height="12"></a></li>
 <div id="fronteventscontent" class="txtnewsevent">
 <h2>UPCOMING EVENTS</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2024-05-29 - 2024-06-01</span><br>
-<a href="https://www.freebsd.org/events/#bsdcan-2024">BSDCan
-2024<br>
-(Ottawa, Canada)</a></p>
 <p><span class="txtdate">2024-09-19 - 2024-09-22</span><br>
 <a href=
 "https://www.freebsd.org/events/#eurobsdcon-2024">EuroBSDcon

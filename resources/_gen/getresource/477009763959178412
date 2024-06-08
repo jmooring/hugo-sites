@@ -1,18 +1,20 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 200014
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 29 May 2024 10:34:24 GMT
-Etag: "05cbae31ed14e01d26e4de2990aeb1cc-ssl-df"
+Date: Sat, 08 Jun 2024 14:15:59 GMT
+Etag: "cf996fd22f3881ce5d10b74572740861-ssl-df"
 Referrer-Policy: origin-when-cross-origin
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
+X-Etags-1: "cf996fd22f3881ce5d10b74572740861-ssl-df"
+X-Etags-2: "cf996fd22f3881ce5d10b74572740861-ssl-df"
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01HZ1YMMAR00A5PM6CGTQGFB7C
+X-Nf-Request-Id: 01HZW39J3MW1T1TVA2VVXPASVX
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -27,25 +29,25 @@ X-Xss-Protection: 1; mode=block
     <meta property="og:site_name" content="Boutique Hearing">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Concierge Audiology Services in Chicago - Boutique Hearing | Boutique Hearing">
-    <meta property="og:url" content="https://boutiquehearing.com/">
+    <meta property="og:url" content="/">
     <meta property="og:locale" content="en_US">
     
-    <meta property="og:image" content="https://boutiquehearing.com/dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg">
+    <meta property="og:image" content="/dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg">
     
     <meta property="og:description" content="Boutique Hearing is a concierge audiology service offering hearing evaluations and cutting-edge hearing aid fittings in your home or office.">
     <meta name="description" content="Boutique Hearing is a concierge audiology service offering hearing evaluations and cutting-edge hearing aid fittings in your home or office.">
 
-    <link rel="canonical" href="https://boutiquehearing.com/">
+    <link rel="canonical" href="/">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Concierge Audiology Services in Chicago - Boutique Hearing">
     <meta name="twitter:description" content="Boutique Hearing is a concierge audiology service offering hearing evaluations and cutting-edge hearing aid fittings in your home or office.">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:image" content="https://boutiquehearing.com/dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg">
+    <meta name="twitter:image" content="/dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg">
 
     
     
-    <link rel="stylesheet" href="https://boutiquehearing.com/scss/main.min.css" media="screen">
+    <link rel="stylesheet" href="/scss/main.min.css" media="screen">
 
     <link rel="preconnect" href="https://www.google-analytics.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,21 +100,23 @@ if (!doNotTrack) {
             <a href="tel:773-454-4740">P: 773-454-4740</a>
           </li>
           <li class="header-secondary__nav-list-item">
+            <a href="https://www.amazon.com/Sound-Choice-Almost-Unbiased-Hearing-ebook/dp/B0CSJW6CSK/" target="_blank" rel="noopener noreferrer">Buy A Sound Choice</a>
+          </li>
+          <li class="header-secondary__nav-list-item">
             <a href="/contact/">Request an Appointment</a>
           </li>
           <li class="header-secondary__nav-list-item">
             <a href="https://www.shoeboxonline.com/boutiquehearing/?" target="_blank" rel="noopener noreferrer">Test Your Hearing</a>
           </li>
-          
         </ul>
       </nav>
     </div>
   </div>
   <nav class="container-wide nav primary-nav" aria-label="Primary Navigation">
     <div class="logo-wrapper">
-      <a class="brand-logo" href="https://boutiquehearing.com/">
+      <a class="brand-logo" href="/">
         
-          <img src="https://boutiquehearing.com/images/boutique-hearing-logo.png" alt="Boutique Hearing" class="img-responsive dim" width="200" height="100">
+          <img src="/images/boutique-hearing-logo.png" alt="Boutique Hearing" class="img-responsive dim" width="200" height="100">
         
       </a>
     </div>
@@ -161,22 +165,23 @@ if (!doNotTrack) {
   <main id="main-content" class="site-main home" data-barba="container" data-barba-namespace="home">
     
 <section class="home-hero">
-  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center">
+  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center gap-md">
     
     <div class="w-100 w-50-s">
       <h1 class="text-primary">Tailored Hearing</h1>
       <p class="g5 text-white">We bring the <strong>white glove service</strong> to you.</p>
       <p class="text-white">Boutique Hearing is revolutionizing the business of audiology by bringing the “boutique” to you. By definition, “boutique” is a small business that offers customized services—and we do just that. Boutique Hearing tailors everything from a hearing test to a hearing aid fitting and follow-up services to fit your lifestyle.</p>
-      <a href="/about/" class="btn btn-secondary">Learn More<span class="screen-reader-text">
+      <a href="/about/" class="btn btn-secondary">Learn More About Us<span class="screen-reader-text">
           About Boutique Hearing</span></a>
       <a href="https://www.shoeboxonline.com/boutiquehearing/?" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Test Your Hearing!</a>
     </div>
-    <div class="w-100 w-50-s"><picture>
-    <source sizes="50vw" srcset="images/ear-logo-blue-brown.avif 1200w" type="image/avif" >
-    <source sizes="50vw" srcset="images/ear-logo-blue-brown.webp 1200w" type="image/webp" >
-    <source sizes="50vw" srcset="images/ear-logo-blue-brown.png 1200w" type="image/png" > 
-    <img src="images/ear-logo-blue-brown.png" alt="pixelated ear logo" class="home-hero__image" height="500" width="600" loading="lazy">
-</picture></div>
+    <div class="w-100 w-50-s">
+      <img src="/images/book-mockup-no-back-3.png" alt="A Sound Choice book cover" style="max-width:200px;margin:0 auto 5.5rem auto;">
+      <h2 class="g1 text-primary text-center">A Sound Choice</h2>
+      <div class="text-center">
+        <a href="#a-sound-choice" class="btn btn-primary">Learn More About The Book</a>
+      </div>
+    </div>
     
   </div>
 </section>
@@ -217,6 +222,20 @@ if (!doNotTrack) {
     </div>
   </div>
 </section>
+<section class="white-noise" id="a-sound-choice">
+  <div class="fade-up container-wide padding-top-10 padding-bottom-10">
+    <div class="flex flex-column flex-row-m gap-md">
+      <div class="image-wrap w-100 w-40-m">
+        <img src="/images/book-mockup-no-back-3.png" alt="A Sound Choice book cover" style="max-width:300px;margin:0 auto 5.5rem auto;">
+      </div>
+      <div class="w-100 w-60-m" style="margin-block:auto;">
+        <h2>A Sound Choice</h2>
+        <p>If you or someone you know struggles with hearing loss you need to read this book. A Sound Choice explains how the ear and brain work together to hear and what happens when hearing loss occurs. Dr. Corbett explains "Many people do not realize how much of our ability to hear or process what we hear occurs in the brain rather than in the ear." In writing the book A Sound Choice her goal was to educate the reader on how they hear as well as how hearing loss occurs and what can be done to improve hearing aside from or in conjunction with hearing aids.</p>
+        <a href="https://www.amazon.com/Sound-Choice-Almost-Unbiased-Hearing-ebook/dp/B0CSJW6CSK/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Buy The Book</a>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="fade-up featured-testimonial-container" data-scroll-section>
   <div class="container padding-top-10 padding-bottom-10">
     
@@ -238,7 +257,7 @@ if (!doNotTrack) {
 
 
 <article class="fade-up blog-summary">
-    <a href="https://boutiquehearing.com/blog/the-making-of-boutique-hearing-llc/" class="blog-summary__link">
+    <a href="/blog/the-making-of-boutique-hearing-llc/" class="blog-summary__link">
       <div class="blog-summary__image-wrap">
         
         
@@ -270,7 +289,7 @@ if (!doNotTrack) {
 
 
 <article class="fade-up blog-summary">
-    <a href="https://boutiquehearing.com/blog/your-hearing-aid-shopping-guide/" class="blog-summary__link">
+    <a href="/blog/your-hearing-aid-shopping-guide/" class="blog-summary__link">
       <div class="blog-summary__image-wrap">
         
         
@@ -302,7 +321,7 @@ if (!doNotTrack) {
 
 
 <article class="fade-up blog-summary">
-    <a href="https://boutiquehearing.com/blog/is-concierge-audiology-right-for-you/" class="blog-summary__link">
+    <a href="/blog/is-concierge-audiology-right-for-you/" class="blog-summary__link">
       <div class="blog-summary__image-wrap">
         
         
@@ -358,7 +377,7 @@ if (!doNotTrack) {
         <a href="/contact/" class="btn btn-secondary cta-button">Contact us Today</a>
     </div>
 </section> 
-    <footer id="footer" class="footer">
+    <footer class="footer" id="footer">
   <div class="footer__contact text-center">
     <a href="tel:773-454-4740">773-454-4740</a>
     <ul class="footer__social">

@@ -2,15 +2,17 @@ HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, s-maxage=2
 Content-Type: text/html
-Date: Wed, 29 May 2024 23:24:22 GMT
-Etag: W/"adb513f7a6829b5c342b6dcf36c6e597"
-Last-Modified: Wed, 29 May 2024 22:28:26 GMT
+Date: Sat, 08 Jun 2024 14:16:08 GMT
+Etag: W/"c855f995bafacfd1941d70fa976df149"
+Last-Modified: Sat, 08 Jun 2024 00:08:50 GMT
 Server: AmazonS3
 Vary: Accept-Encoding
-Via: 1.1 536063cb28bfc05fcb7a78183dd89b72.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: ZQN2Z2QVQpFrJiazR660lQWa013IajWwD2DzK6cUfct4mMUVWJg3Zw==
+Via: 1.1 6ca7826fb0f4c565b1af9c7737725c48.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Z05I7eIvwrBLImRzJ4hZmuHqaQtCChmqVpY3l3texlbllwNdu2YUjw==
 X-Amz-Cf-Pop: SEA19-C1
 X-Cache: Miss from cloudfront
+X-Etags-1: W/"c855f995bafacfd1941d70fa976df149"
+X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
 
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
@@ -19,15 +21,16 @@ X-Cache: Miss from cloudfront
   <meta name="viewport" content="width=device-width" />
   <link rel="canonical" href="https://www.benstrawbridge.com/" />
   <link rel="icon" href="https://www.benstrawbridge.com/favicon.ico?v=4" type="image/x-icon" />
+  
   <title>Ben Strawbridge Dot Com Consulting</title>
   <meta name="description" content="Dot Com Consulting" />
   <meta name="generator" content="Hugo 0.126.1">
   <meta name="robots" content="index, follow">
-  <link rel="stylesheet" href="/css/busta-main.min.adc1120b20439ed6d8e3d6fcfe9651bad779ecaea8814444cc68de2f01e77c9d.css" integrity="sha256-rcESCyBDntbY49b8/pZRutd57K6ogUREzGjeLwHnfJ0=" crossorigin="anonymous"><script>
+  <link rel="stylesheet" href="/css/busta-main.min.527e4067a10792e2afa687a9b47377133591d8aa327cba342844e2e0a9c4726d.css" integrity="sha256-Un5AZ6EHkuKvpoeptHN3EzWR2KoyfLo0KETi4KnEcm0=" crossorigin="anonymous"><script>
   
   const showDarkToggle =  true ;
 </script>
-  <script defer src="/js/main.8913fcb20826fda8056fb3e18c5a5d4f0db3c511e2907f46a6e8d7ac01441b81.js" integrity="sha256-iRP8sggm/agFb7PhjFpdTw2zxRHikH9GpujXrAFEG4E=" crossorigin="anonymous"></script>
+  <script defer src="/js/main.3e0d7c045b40800cc444f9a37df18613716912f2b8a79f83cad00fc84ce13732.js" integrity="sha256-Pg18BFtAgAzERPmjffGGE3FpEvK4p5&#43;DytAPyEzhNzI=" crossorigin="anonymous"></script>
   
   
     
@@ -48,7 +51,7 @@ X-Cache: Miss from cloudfront
     
   
 
-
+<script src="https://kit.fontawesome.com/cdef052a32.js" crossorigin="anonymous"></script>
   <meta property="og:title" content="Ben Strawbridge Dot Com Consulting" />
   <meta property="og:description" content="Dot Com Consulting" />
   <meta property="og:type" content="website" />
@@ -64,7 +67,6 @@ X-Cache: Miss from cloudfront
   name="twitter:image"
   content="https://www.benstrawbridge.com/images/og/og_image_default.jpg"
 />
-
 
 
  
@@ -104,7 +106,6 @@ X-Cache: Miss from cloudfront
         "email": "ben@benstrawbridge.com",
         "url": "https:\/\/www.benstrawbridge.com\/",
         "logo": "https://www.benstrawbridge.com/images/bs_full_wordmark.png"
-        }
       }
     }
   
@@ -137,7 +138,7 @@ X-Cache: Miss from cloudfront
 <script src="https://www.benstrawbridge.com/leaflet/leaflet.js"></script>
 
 </head>
-<body class="bg-neutral-100 font-titillium text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+<body class="bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 font-titillium">
   
   <div class="min-h-lvh flex flex-col container mx-auto">
 
@@ -208,7 +209,7 @@ X-Cache: Miss from cloudfront
     <main class="container max-h-max mx-auto ">
 
 
-  <div class="max-w-screen-lg p-4 mx-auto grid grid-cols-1 gap-12 sm:grid-cols-2 mb-5">
+  <div class="max-w-screen-lg p-4 mx-auto grid grid-cols-1 gap-12 mb-5">
     
      
     
@@ -219,74 +220,1196 @@ X-Cache: Miss from cloudfront
     
     
     
-    <a href="/consulting/" title="Consulting" class="flex first:sm:col-span-2 items-center rounded-2xl bg-sky-50 transition-[filter] hover:brightness-90 dark:text-gray-200 text-gray-800 dark:bg-sky-800 dark:hover:brightness-110">
-        <div class="h-full w-full">
-          <div class="">
-            <h2 class="flex p-3 items-center mb-2 text-3xl uppercase  text-neutral-100 bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100">
-                <i class="fa-solid fa-jedi mr-2 text-4xl"></i>
-              Consulting
-            </h2>
-            <div class="p-5 text-lg h-5/6 overflow-y-auto">
-              Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
-            </div>
-          </div>
-        </div>
-    </a>
-    
-    <a href="/projects/ironcove-orchestration-engine/" title="Ironcove Solutions Orchestration Engine" class="flex first:sm:col-span-2 items-center rounded-2xl bg-sky-50 transition-[filter] hover:brightness-90 dark:text-gray-200 text-gray-800 dark:bg-sky-800 dark:hover:brightness-110">
-        <div class="h-full w-full">
-          <div class="">
-            <h2 class="flex p-3 items-center mb-2 text-3xl uppercase  text-neutral-100 bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100">
-                <i class="fas fa-code-compare mr-2 text-4xl"></i>
-              IronCove OE
-            </h2>
-            <div class="p-5 text-lg h-5/6 overflow-y-auto">
-              Ironcove Solutions’ Orchestration Engine revolutionizes workforce onboarding with seamless API integration, customizable forms, and automated processes, enhancing efficiency and user experience in collaboration with Ironcove Solutions.
-            </div>
-          </div>
-        </div>
-    </a>
-    
-    <a href="/projects/the-ryder-theme-for-hugo/" title="The Ryder Theme for Hugo" class="flex first:sm:col-span-2 items-center rounded-2xl bg-sky-50 transition-[filter] hover:brightness-90 dark:text-gray-200 text-gray-800 dark:bg-sky-800 dark:hover:brightness-110">
-        <div class="h-full w-full">
-          <div class="">
-            <h2 class="flex p-3 items-center mb-2 text-3xl uppercase  text-neutral-100 bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100">
-                <i class="fa-solid fa-dog mr-2 text-4xl"></i>
-              The Ryder Theme for Hugo
-            </h2>
-            <div class="p-5 text-lg h-5/6 overflow-y-auto">
-              Introducing Ryder: an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme.
-            </div>
-          </div>
-        </div>
-    </a>
-  </div>
-  
-  
-    <div class="p-4 flex-1 items-center justify-center">
-      <div class="prose lg:prose-xl dark:prose-invert rounded-xl mx-auto">
-        
-            
-        
-        
-            <h2 id="welcome">Welcome</h2>
-<p>Take a look at this - <a href="https://www.louisestrawbridge.com">Louise Strawbridge&rsquo;s Art</a> - It was a real joy for me to create this website for my mom as the first website in the rebranded (in progress) and relaunched <a href="https://www.arts-link.com">Arts-Link.com website</a>.</p>
 
+
+
+
+
+
+
+
+
+
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-amber-200 to-yellow-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/consulting/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-amber-200 to-yellow-400">
+          <i class="text-black dark:text-white fa-solid fa-jedi mr-2 text-3xl"></i>
+        Consulting
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
         
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">consulting</span>
+        on <time itemprop="datePublished" datetime="2024-02-14T15:16:41-08:00">February 14, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
       </div>
     </div>
+  </div>
+</div>
+    
+
+
+
+
+
   
-    </main>
      
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/the-ryder-theme-for-hugo/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
+          <i class="text-black dark:text-white fa-solid fa-dog mr-2 text-3xl"></i>
+        The Ryder Theme for Hugo
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">projects</span>
+        on <time itemprop="datePublished" datetime="2024-02-19T22:19:09-08:00">February 19, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+<figure>
+    <picture>
+        
+        <source loading="lazy" srcset="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_h2_box.d5fa1715830d7297ff370127d1487da64519cb06ef990ac5b252b8a15c6bfe6d.webp" type="image/webp" alt="In honor of this old guy">
+        
+
+        
+        <img loading="lazy" src="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_box.848ff1235497c64bd6c4f2bc9c04babbfcd26af08ac21860d44b104a49035e3b.jpg" alt="In honor of this old guy">
+        
+    </picture>
+
+    
+    <figcaption class="center">In honor of this old guy</figcaption>
+    
+</figure>
+
+</p>
+<p>Introducing the <a href="https://www.github.com/arts-link/ryder">Ryder theme</a>, a theme for the <a href="https://www.gohugo.io">hugo static website generator</a>. This is an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+
+  
+     
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/ironcove-solutions-orchestration-engine/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
+          <i class="text-black dark:text-white fas fa-code-compare mr-2 text-3xl"></i>
+        Ironcove Solutions Orchestration Engine
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">projects</span>
+        on <time itemprop="datePublished" datetime="2024-03-05T14:00:47-08:00">March 5, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="workforce-onboarding-a-case-study-of-ironcove-solutions-orchestration-engine">Workforce Onboarding: A Case Study of Ironcove Solutions&rsquo; Orchestration Engine</h2>
+<p>I was hired by <a href="https://ironcovesolutions.com/">Ironcove Solutions</a> to lead product development for a new application they were developing called the <a href="https://ironcovesolutions.com/blog/zendesk-to-okta-as-an-onboarding-process/">Orchestration Engine</a>, an application designed to streamline workforce onboarding processes. We collaborated closely with the team from Ironcove Solutions to bring their vision to life.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  <div class="lg:grid-cols-2 p-4 mx-auto grid grid-cols-1 gap-12  mb-5">
+  
+  <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Latest stuff</h2>
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/tarragon-beets-salad/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Tarragon Beets Salad
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2023-08-04T11:56:15-08:00">August 4, 2023</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+  <picture>
+        <source type="image/webp" srcset="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_8fc6b5cf49a27c58e7e4050d1b475578.webp 720w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_2730df20e7266ddd6cad31412312f62a.webp 1080w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_c3b556b120b4f8f013bcb1e6ec337bb0.webp 1440w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_9a4b220a7f42335ca5573dc70f6c5902.webp 2160w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_d0c010602a56e33e3df1d9b48b660e36.webp 4000w"
+          sizes="100vw">
+        <source type="image/jpeg" srcset="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_93474b186bf8c2ffaefe93a458c19815.jpg 720w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_0a275537fb4fd48d9e4158823f4f495c.jpg 1080w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_102486b506ce19f18c2f8c62846634af.jpg 1440w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_8f7ccc1d696c81ede3cec003af1f9b2c.jpg 2160w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_325f41f4ec04f3dba67cada48e3882a0.jpg 4000w"
+          sizes="100vw">
+    <img alt="With some green tomatoes on top" loading="lazy" src="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_93474b186bf8c2ffaefe93a458c19815.jpg" title="With some green tomatoes on top">
+  </picture>
+  
+  <figcaption>With some green tomatoes on top</figcaption>
+  
+  </figure>
+<p>This was an attempt to copy a salad from <a href="https://www.bristolfarms.com/">Bristol Farms</a>. I ended up modifying it quite a bit from the initial ingredients.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/posts/hugo_snippets/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+          <i class="text-black dark:text-white fa-solid fa-scissors mr-2 text-3xl"></i>
+        Hugo Snippets
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">posts</span>
+        on <time itemprop="datePublished" datetime="2024-02-12T12:46:55-08:00">February 12, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="get-the-first-of-something-in-a-collection">Get the first of something in a collection</h2>
+<p>For example the first jpg image in the current directory starting with the word <code>feature</code>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/posts/pick-a-squares-game/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+          <i class="text-black dark:text-white fa-solid fa-dice mr-2 text-3xl"></i>
+        Pick a Squares Game
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">posts</span>
+        on <time itemprop="datePublished" datetime="2024-02-14T11:30:43-08:00">February 14, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        I created a pick-a-squares game template, aka the Super Bowl squares. It is still a work in progress, but I hope to have it snazzy in time for next year. Take a look at the template.
+Project Goals Ability to enter people into squares Generate random score rows with animated flourish Presentation mode for big screen action with controller to enter periodic scores Calculate payouts based on price of a square Project Timeline Launch in time for SB LIX success Pick a Square: Head on over to the project page 
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/product-marketing/catalog/all-purpose-epoxy-putty-stick/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-900">
+          <i class="text-black dark:text-white fa-solid fa-cash-register mr-2 text-3xl"></i>
+        All Purpose Epoxy Putty Stick
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">catalog</span>
+        on <time itemprop="datePublished" datetime="2024-04-02T02:28:06-04:00">April 2, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <a class="" href="https://www.amazon.com/dp/B0B7BF3GWS/ref=nosim?tag=benstrawbridge-20">
+  <span class="bg-yellow-400 text-black font-medium py-2 px-4 rounded-full border-2 border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 no-underline inline-block text-center break-words">View All Purpose Epoxy Putty Stick on Amazon.com</span>
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/smoothies/golden-beet-apple-mango-banana-smoothie/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Golden Beet, Apple, Mango, Banana Smoothie
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-24T22:51:44-07:00">April 24, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="ingredients">Ingredients</h2>
+
+<div class="pl-2 grid grid-cols-2 gap-x-4">
+  
+    
+    
+      
+        <div class="relative flex items-start mb-2">
+          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">1</span>
+          <span class="ml-2">1 medium beet cut into 1 inch cubes</span>
+        </div>
+        
+      
+    
+      
+        <div class="relative flex items-start mb-2">
+          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">2</span>
+          <span class="ml-2">1 apple cut into 1 inch cubes</span>
+        </div>
+        
+      
+    
+      
+        <div class="relative flex items-start mb-2">
+          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">3</span>
+          <span class="ml-2">1 handful frozen mango cut into 1 inch cubes</span>
+        </div>
+        
+      
+    
+      
+        <div class="relative flex items-start mb-2">
+          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">4</span>
+          <span class="ml-2">1 banana (frozen or ripe)</span>
+        </div>
+        
+      
+    
+      
+        <div class="relative flex items-start mb-2">
+          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">5</span>
+          <span class="ml-2">1 cup orange juice (or other juice, nut milk or coconut water)</span>
+        </div>
+        
+      
+    
+  
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/granola/original-granola/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Original Granola
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_b316397a1b520e740f0f65c7432f269e.webp 720w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_4422198d6293f236ac6869b37e8e439e.webp 1080w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_f4dc8c5f3295f9997a4358bb7703ebcb.webp 1440w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_b27ca8b2261047c28f1de8f6f3c20a9c.webp 1920w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_04fe82a5fe2c5ce490632b481e06a7d6.jpg 720w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_6ce9811250f71847cf82a6bf4866f1ab.jpg 1080w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_8354005d5f06fd572b75cabe03e31618.jpg 1440w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_2dc767365e9539e8f77b8fbf570891d2.jpg 1920w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_04fe82a5fe2c5ce490632b481e06a7d6.jpg" title="Granola Prep">
+</picture>
+
+<figcaption>Granola Prep</figcaption>
+
+</figure>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/granola/lemon-chia-granola/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Lemon Chia Granola
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <!-- raw HTML omitted -->
+
+<figure>
+<picture>
+      <source type="image/webp" srcset="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_fcd3677e84b1ae6c1d457594815d2f19.webp 720w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_f8173b797ec70fbebc0848bc4c777f39.webp 1080w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_7da11d40c8525b2eff2602756a4dad9c.webp 1440w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_9077829bbd3591500291955a86f380a0.webp 1920w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_ee6de7e014f5c7f9bd8614bbd5af296d.jpg 720w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_259e3cf21a1c3b641e0f966ee36066ca.jpg 1080w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_8fdd7310b312a67129382a165cfb6ea9.jpg 1440w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_2124e90fee2579f59fef4a825a42d9f7.jpg 1920w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_ee6de7e014f5c7f9bd8614bbd5af296d.jpg" title="Lemon Chia Granola Final">
+</picture>
+
+<figcaption>Lemon Chia Granola Final</figcaption>
+
+</figure>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/granola/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Granola!
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure><img src="lemon-chia-granola/granola_fini_lemon_chia_seed.webp"><figcaption>
+      <h4>Granola Prep</h4>
+    </figcaption>
+</figure>
+
+<p>Granola is very flexible and allows you to flex your creativity, change up the seeds and dried fruits you use, the sweeteners, the lubricants etc&hellip;</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/creamed-corn/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Aunt Mary&#39;s Creamed Corn
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-05-14T15:58:00-07:00">May 14, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1828x0_resize_q75_h2_box_2.webp 1828w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_bgffffff_box_2.jpg" title="Aunt Mary's Creamed Corn">
+</picture>
+
+<figcaption>Aunt Mary&#39;s Creamed Corn</figcaption>
+
+</figure>
+<p>For best results use <strong>FRESH CORN</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/product-marketing/catalog/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-900">
+          <i class="text-black dark:text-white fa-solid fa-cash-register mr-2 text-3xl"></i>
+        Catalog
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">catalog</span>
+        on <time itemprop="datePublished" datetime="2024-06-04T00:44:22-07:00">June 4, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <blockquote>
+<p>Welcome to Strawbridge&rsquo;s Department Store</p>
+</blockquote>
+<p>The catalog of all the products to be advertised through affiliate marketing.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/moms-carrots-and-onions/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Mom&#39;s Carrots and Onions
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-05-14T15:50:33-07:00">May 14, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_30203e16f2f7e0435c1a4c4d1af32b28.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_8100cb2df81beef95f2b44f7b1b395ad.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_17eea3f6517c51a822454fc342e0a068.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_aabe56f0ce1859226858fe6be6806229.webp 1845w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_e6ecf6195a916e7f36c7249ffce14d60.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_b31aebc3c04751ef8b1dbe8d4ae8c221.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_531ed9898143c2020118a3ae72eb7bd9.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_0a7b15b8d6df2c923f2344239df94f52.jpg 1845w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_e6ecf6195a916e7f36c7249ffce14d60.jpg" title="Mom's Carrots and Onions">
+</picture>
+
+<figcaption>Mom&#39;s Carrots and Onions</figcaption>
+
+</figure>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/mashies/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Mashies
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-05-06T14:43:16-07:00">May 6, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_h2_box_2.webp 1828w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg" title="Mashies">
+</picture>
+
+<figcaption>Mashies</figcaption>
+
+</figure>
+<p>My mom loved to call mashed potatos &ldquo;Mashies&rdquo;</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/dads-home-fried-potatoes/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
+        Dads Home Fried Potatoes
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-05-06T14:38:54-07:00">May 6, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_h2_box_2.webp 1828w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg" title="Dad's Home Fried Potatoes">
+</picture>
+
+<figcaption>Dad&#39;s Home Fried Potatoes</figcaption>
+
+</figure>
+<p>My dad would make these for big family breakfasts on the weekend</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/grandmas-meatloaf/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-bread-slice mr-2 text-3xl"></i>
+        Grandma Kreider&#39;s Meatloaf
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-05-06T14:24:29-07:00">May 6, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1837x0_resize_q75_h2_box_2.webp 1837w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1837x0_resize_q75_bgffffff_box_2.jpg 1837w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_bgffffff_box_2.jpg" title="Grandma Kreider's meatloaf">
+</picture>
+
+<figcaption>Grandma Kreider&#39;s meatloaf</figcaption>
+
+</figure>
+<p>Simple easy meatloaf recipe.  There are no fixed amounts here!</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/tuna-noodle-bake/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-solid fa-fish-fins mr-2 text-3xl"></i>
+        Tuna Noodle Bake
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-24T23:41:16-07:00">April 24, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_f50cf0b0f8e260adab2f7c4fb0df7c0c.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_9a3dc9bd643f051de3bb35733796f400.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_73c5c8f3d4a19d15afa84eefa7aff9b7.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_e0c3ad0dd8c7325ed70fcd9c9d4978ac.webp 1839w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_89bed14dd0a20ddccc24400c0583d343.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_e629e7704b28a70b522a66e8a2361d14.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_a621987241a5aaf455e8a890440e04cf.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_99badb50331e4a16b9bc009b87625544.jpg 1839w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_89bed14dd0a20ddccc24400c0583d343.jpg" title="Tuna Noodle Bake recipe">
+</picture>
+
+<figcaption>Tuna Noodle Bake recipe</figcaption>
+
+</figure>
+<p>I love this recipe because it is so simple, can be made for under $5 and is really tasty. We used to eat this quite often when I was growing up.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+    
+       
+      
+    
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/recipes/lemon-mint/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
+          <i class="text-black dark:text-white fa-brands fa-pagelines mr-2 text-3xl"></i>
+        Aunt Mary&#39;s LemonMint
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">recipes</span>
+        on <time itemprop="datePublished" datetime="2024-04-24T23:15:52-07:00">April 24, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+<picture>
+      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_834979e70f394cc8eac320d134f32282.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_58279f53c54dc6198c0f1ec2e0c0bf69.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_dc267c401b41939b23558a2e97a2da5c.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_5572d55c57661cd83530acd22ec0c425.webp 1821w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_44b93944afa5fc683eae57fff996264e.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_5fe931efec658fd39f09dbbe83381038.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_044d4773449e24564ff8a72afcf356a6.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_736f4356535501b4e605e2052123bef8.jpg 1821w"
+        sizes="100vw">
+  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_44b93944afa5fc683eae57fff996264e.jpg" title="Aunt Mary's Lemon Mint">
+</picture>
+
+<figcaption>Aunt Mary&#39;s Lemon Mint</figcaption>
+
+</figure>
+<p>My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/posts/links/links/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+          <i class="text-black dark:text-white fa-solid fa-link mr-2 text-3xl"></i>
+        Link Graveyard
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">posts</span>
+        on <time itemprop="datePublished" datetime="2024-01-18T11:50:06-08:00">January 18, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="links-to-help-you-build-and-work-on-the-internet">Links to help you build and work on the Internet</h2>
+<blockquote>
+<p>Where I bury my favorite resources</p>
+</blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/posts/github-action-to-create-new-content-in-hugo/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+          <i class="text-black dark:text-white fa-brands fa-github mr-2 text-3xl"></i>
+        Github Action to Create New Content in Hugo
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">posts</span>
+        on <time itemprop="datePublished" datetime="2024-01-19T21:54:43-08:00">January 19, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+<figure>
+    <picture>
+        
+        <source loading="lazy" srcset="https://www.benstrawbridge.com/posts/github-action-to-create-new-content-in-hugo/github-actions-workflow-button_feature_hu25a9a8a4cca5a04473ba5d9c3194f926_56636_1000x1000_fit_q75_h2_box_3.3d32e6c93ed295c30e0d75d906ba74a1ca25d28a74ab56abdae78395517476a5.webp" type="image/webp" alt="This is what it looks like">
+        
+
+        
+        <img loading="lazy" src="https://www.benstrawbridge.com/posts/github-action-to-create-new-content-in-hugo/github-actions-workflow-button_feature_hu25a9a8a4cca5a04473ba5d9c3194f926_56636_1000x1000_fit_box_3.860aacaed6d7abf061e7089f0506ea9466f3a42fc73aa7576c700b468e67d83a.png" alt="This is what it looks like">
+        
+    </picture>
+
+    
+    <figcaption class="center">This is what it looks like</figcaption>
+    
+</figure>
+
+</p>
+<p>I am using <a href="https://www.gohugo.io">Hugo</a> for some of the websites I have made, and I think it is pretty great. The one problem with it for many non-technical people I work with is that there is no CMS feature, they want a website administration page where they can do the usual. There are some open source headless CMS systems built for Hugo out there, but I have not had the chance to explore them yet and I don&rsquo;t like throwing a client on new software just to decide I don&rsquo;t like it in a few months, so I wanted to do something automated, but avoid having to install vscode, git, ssh-keys and etc in order to make simple edits I decided to do something with <a href="https://github.com/features/actions">GitHub actions</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+     
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/arts-link/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
+          <i class="text-black dark:text-white fa-solid fa-palette mr-2 text-3xl"></i>
+        Arts-Link.com
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">projects</span>
+        on <time itemprop="datePublished" datetime="2024-01-26T23:28:00-08:00">January 26, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <div x-data="{ isOpen: document.cookie.indexOf('alertClosed=true') === -1 }" x-show="isOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-2" x-transition:enter-end="opacity-100 transform translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 transform translate-y-0" x-transition:leave-end="opacity-0 transform translate-y-2" class="relative flex items-start justify-between p-4 mb-4 mx-auto text-sm border rounded-lg max-w-screen-lg text-blue-800 border-blue-300 bg-blue-50 dark:text-blue-400 dark:border-blue-800 dark:bg-blue-900" role="alert">
+  <div class="flex items-center">
+    <i class="fa-solid fa-heart-pulse flex-shrink-0 inline w-6 h-6 me-3"></i>
+    <span class="sr-only">info</span>
+    <div>
+       <span class="font-bold">In Active Development:</span> Is arts-link.com a business?, a collective?, a gallery?... we're not sure, but we are going to try to find out!
+    </div>
+  </div>
+  
+</div>
+
+
+
+<p><a href="https://www.arts-link.com">https://www.arts-link.com</a> is the first domain I ever purchased. I believe it was around 2001. It has been various different websites throughout the years, including not a web-site at all. In this rendition it is an organization which is set up to support artists in their technical needs, to free them from the discratction of such things as self-promotion and websites.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+
+
+
+
+  
+     
+  
+
+
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" href="/projects/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        Projects
+      </h2>
+      <span class="details px-6 mt-4 inline-block">
+        
+        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        in <span itemprop="articleSection" class="source font-bold">projects</span>
+        on <time itemprop="datePublished" datetime="2024-02-12T15:16:41-08:00">February 12, 2024</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        The projects section is a mix of case studies of professional projects I have worked on, that I have permission to write about, and personal areas of exploration on-line and otherwise. Some of these projects may be monetized in some way at some time, others are entirely open source.
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </div>
+    </main>
+       
 
 
 
 
 
 <footer class="border-t w-full mt-auto text-neutral-100 bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100 ">
-  <div class="flex justify-between ">
-    <div class="py-4 px-2 text-sm ">
-      <p class="flex items-center"><i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com</p>
+  <div class="flex flex-col items-center justify-center mx-auto">
+    <div class="py-4 px-2 text-sm flex flex-col items-center">
+      <p class="flex mx-auto items-center"><i class="fa-regular fa-copyright"></i>  2024 benstrawbridge.com</p>
 <div class="">
   <p><a href="https://www.github.com/arts-link/ryder/" class="underline" target="_blank">Ryder theme</a> created by <a href="https://www.arts-link.com/" class="underline" target="_blank">arts-link.com</a> </p>
 </div>
@@ -312,69 +1435,627 @@ X-Cache: Miss from cloudfront
   <i class="fa-solid fa-calendar-days"></i> Published: <time datetime="2024-01-02T11:58:15-08:00" class="">January 2, 2024</time>
   
   
-  (Last Modified: <time datetime="2024-05-17T17:06:05-07:00" class="">May 17, 2024</time>)
+  (Last Modified: <time datetime="2024-06-07T04:20:39-07:00" class="">June 7, 2024</time>)
   
 </div>
 <div>
-  <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/benstraw/benstrawbridge.com/commit/3873bad2ac7c188cdd34efbabb6d64ea3d625691">3873bad</a> / <a href="https://github.com/benstraw/benstrawbridge.com/commits/main/content/_index.md">History</a> / <a href="https://github.com/benstraw/benstrawbridge.com/blame/main/content/_index.md">Blame</a>
+  <i class="fa-brands fa-github-alt"></i> <a href="https://github.com/benstraw/benstrawbridge.com/commit/943e5e7f678f0f1fde1c37529ca753684500bd7a">943e5e7</a> / <a href="https://github.com/benstraw/benstrawbridge.com/commits/main/content/_index.md">History</a> / <a href="https://github.com/benstraw/benstrawbridge.com/blame/main/content/_index.md">Blame</a>
 </div>
     </div>
-    <div class="py-4 px-2 text-sm">
-   
+    <div class="flex flex-col items-center justify-center mx-auto text-base w-2/3">
+<div class="items-center justify-center text-center">
 
+  
+  
+  
 
+  
+  
+  
 
- 
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/amazon-associates-program" class="px-2 inline-block text-center break-words">amazon associates program<sup>2</sup></span></a>
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/api-integration" class="px-2 inline-block text-center break-words">api integration<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/automation" class="px-2 inline-block text-center break-words">automation<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/budget" class="px-2 inline-block text-center break-words">budget<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/content-management" class="px-2 inline-block text-center break-words">content management<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/family-recipes" class="px-2 inline-block text-center break-words">family recipes<sup>8</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/fiction" class="px-2 inline-block text-center break-words">fiction<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/healthy" class="px-2 inline-block text-center break-words">healthy<sup>5</sup></span></a>
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/historical" class="px-2 inline-block text-center break-words">historical<sup>2</sup></span></a>
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/hugo" class="px-2 inline-block text-center break-words">hugo<sup>12</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/nonfiction" class="px-2 inline-block text-center break-words">nonfiction<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/open-source" class="px-2 inline-block text-center break-words">open source<sup>4</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/photography" class="px-2 inline-block text-center break-words">photography<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/recipe-schema" class="px-2 inline-block text-center break-words">recipe schema<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/revolution" class="px-2 inline-block text-center break-words">revolution<sup>3</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/ryder-theme" class="px-2 inline-block text-center break-words">ryder theme<sup>3</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/seeds" class="px-2 inline-block text-center break-words">seeds<sup>3</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/static-site-generator" class="px-2 inline-block text-center break-words">static site generator<sup>3</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/tailwind-css" class="px-2 inline-block text-center break-words">tailwind css<sup>2</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/templates" class="px-2 inline-block text-center break-words">templates<sup>3</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  <a href="https://www.benstrawbridge.com/tags/web-development" class="px-2 inline-block text-center break-words">web development<sup>6</sup></span></a>
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+</div>
     </div>
-    <div class="flex justify-end text-xl ">
-
+    <div class="flex mx-auto text-xl ">
 <div class="flex flex-wrap mb-auto max-w-fit">
   
    
-  <button class="p-4">
-    <a class="hover:underline cursor-pointer" href="https://www.linkedin.com/in/benstraw/" aria-label="LinkdIn" title="LinkdIn"   >
-      <i class="fab fa-linkedin"></i>
-      
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="https://www.linkedin.com/in/benstraw/" aria-label="LinkdIn" title="LinkdIn"   >
+      <i class=" fab fa-linkedin"></i>
     </a>
-  </button>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">LinkdIn</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
     
-
+  
    
-  <button class="p-4">
-    <a class="hover:underline cursor-pointer" href="https://www.github.com/benstraw/" aria-label="GitHub" title="GitHub"   >
-      <i class="fab fa-github"></i>
-      
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="https://www.github.com/benstraw/" aria-label="GitHub" title="GitHub"   >
+      <i class=" fab fa-github"></i>
     </a>
-  </button>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">GitHub</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
     
-
+  
    
-  <button class="p-4">
-    <a class="hover:underline cursor-pointer" href="mailto:ben@benstrawbridge.com.com?subject=web" aria-label="Email me" title="Email me"   >
-      <i class="fa-solid fa-envelope"></i>
-      
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="mailto:ben@benstrawbridge.com.com?subject=web" aria-label="Email me" title="Email me"   >
+      <i class=" fa-solid fa-envelope"></i>
     </a>
-  </button>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">Email me</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
     
-
+  
    
-  <button class="p-4">
-    <a class="hover:underline cursor-pointer" href="/index.xml" aria-label="RSS Feed" title="RSS Feed"   >
-      <i class="fa-solid fa-rss"></i>
-      
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="/index.xml" aria-label="RSS Feed" title="RSS Feed"   >
+      <i class=" fa-solid fa-rss"></i>
     </a>
-  </button>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">RSS Feed</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
     
-
+  
    
-  <button class="p-4">
-    <a class="hover:underline cursor-pointer" href="/tags" aria-label="Tags" title="Tags"   >
-      <i class="fa-solid fa-tag"></i>
-      
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="/tags" aria-label="Tags" title="Tags"   >
+      <i class=" fa-solid fa-tag"></i>
     </a>
-  </button>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">Tags</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
     
-
+  
+   
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="/ingredients" aria-label="Ingredients" title="Ingredients"   >
+      <i class=" fa-solid fa-kitchen-set"></i>
+    </a>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">Ingredients</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+   
+  <div x-data="{ show: false }" class="relative p-4">
+    <a class="hover:underline cursor-pointer text-2xl" @mouseenter="show = true" @mouseleave="show = false" href="/fineprint" aria-label="The Fine Print" title="The Fine Print"   >
+      <i class=" fa-solid fa-fingerprint"></i>
+    </a>
+    <div x-show="show" x-transition 
+         @mouseenter="show = true" @mouseleave="show = false" 
+         class="absolute z-10 p-2 bg-white border rounded shadow-lg transform -translate-x-1/2 left-1/2"
+         :class="{ 'bottom-full mb-2': $refs.tooltip.getBoundingClientRect().top > 50, 'top-full mt-2': $refs.tooltip.getBoundingClientRect().top <= 50 }"
+         x-ref="tooltip">
+      <div class="relative">
+        <div class="text-center">The Fine Print</div>
+        <div class="absolute left-1/2 transform -translate-x-1/2"
+             :class="{ 'top-full mt-1': $refs.tooltip.getBoundingClientRect().top <= 50, 'bottom-0 mb-1': $refs.tooltip.getBoundingClientRect().top > 50 }">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" 
+               :class="{ 'rotate-180': $refs.tooltip.getBoundingClientRect().top > 50 }">
+            <path d="M12 0L24 24H0z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
 </div>
 
 <div id="themeSwitcher" class="flex justify-center mb-auto">
@@ -391,6 +2072,8 @@ X-Cache: Miss from cloudfront
 
 
     </div>
+    
+    
   </div>
 </footer>
 
