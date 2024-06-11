@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Sat, 08 Jun 2024 14:16:01 GMT
-Etag: "552c-61a4b9443cefa-gzip"
-Last-Modified: Fri, 07 Jun 2024 12:02:52 GMT
+Date: Tue, 11 Jun 2024 12:39:45 GMT
+Etag: "4e50-61a9c6b86a397-gzip"
+Last-Modified: Tue, 11 Jun 2024 12:29:41 GMT
 Server: Apache
 Vary: Accept-Encoding
-X-Etags-1: "552c-61a4b9443cefa-gzip"
-X-Etags-2: "552c-61a4b9443cefa-gzip"
+X-Etags-1: "4e50-61a9c6b86a397-gzip"
+X-Etags-2: "4e50-61a9c6b86a397-gzip"
 
 <!DOCTYPE html>
 <html lang="de"><head>
@@ -118,6 +118,81 @@ X-Etags-2: "552c-61a4b9443cefa-gzip"
 </script>
 
 <div id="page-main"><div id="content"><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/misc/funstuff/playmobil-dfb-stars/">Playmobil DFB-Stars</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">11. Juni 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/misc/funstuff/">Funstuff</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Nachdem die größenwahnsinnige Bezeichnung &ldquo;<a href="https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft#Name"   class="genericon icon-extlink">Die Mannschaft</a>&rdquo; abgelegt wurde, hat Playmobil jetzt viele kleine Figuren als &ldquo;DFB-Stars&rdquo; lizenziert.</p>
+<span id="-misc-funstuff-playmobil-dfb-stars-dfb-stars_mats-hummels-jpg"><a href="/misc/funstuff/playmobil-dfb-stars/dfb-stars_mats-hummels.jpg" data-caption="Playmobil DFB-Stars Mats Hummels"><img src="/misc/funstuff/playmobil-dfb-stars/dfb-stars_mats-hummels.jpg"  width="768" height="576" alt="Playmobil DFB-Stars Mats Hummels"></a></span>
+<p>Auch wenn er in Realität <a href="https://www.spiegel.de/sport/fussball/fussball-em-2024-mats-hummels-reagiert-auf-nicht-nominierung-a-3e5d12a4-d316-45dc-aa95-b926bcbd1342"   class="genericon icon-extlink">nicht</a> bei der Heim-EM antreten wird, ist <a href="https://de.wikipedia.org/wiki/Mats_Hummels"   class="genericon icon-extlink">Mats Hummels</a> zumindest im Kinderzimmer mit dabei.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/playmobil/">Playmobil</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
+
+	<div class="post-header">
+		<h1 class="post-title"><a href="/technik/spiele/torchlight-2-startet-nicht-mehr-nach-debian-update/">Torchlight 2 startet nicht mehr nach Debian-Update</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">9. Juni 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/spiele/">Spiele</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+	<div class="post-body">
+	<p>Nach einem Betriebssystem-Update von Debian 11 auf Debian 12 wollte <a href="https://de.wikipedia.org/wiki/Torchlight_2"   class="genericon icon-extlink">Torchlight 2</a>, das vor dem Update problemlos lief, nicht mehr starten: nach dem Klick auf das Icon erschien nur noch kurz der Spash-Screen &hellip; und das war&rsquo;s - vom eigentlich erwarteten Startschirm fehlte jede Spur.</p>
+<span id="-technik-spiele-torchlight-2-startet-nicht-mehr-nach-debian-update-torchlight-2-jpg"><a href="/technik/spiele/torchlight-2-startet-nicht-mehr-nach-debian-update/torchlight-2.jpg" data-caption="Torchlight 2"><img src="/technik/spiele/torchlight-2-startet-nicht-mehr-nach-debian-update/torchlight-2.jpg"  width="768" height="612" alt="Torchlight 2"></a></span>
+<p>Als erste Möglichkeit zur Fehlersuche bietet sich meist ein Start des Programms über die Kommandozeile an, in der Hoffnung, dadurch vielleicht in paar Statusmeldungen zu sehen. Dies funktioniert auch beim Start von Torchlight 2, welches eine ganze Menge an Meldungen ausgab, bevor es letztendlich mit einem &ldquo;Speicherzugriffsfehler&rdquo; abbrach.</p>
+<pre tabindex="0"><code>$ ./Torchlight2.bin.x86_64
+
+Creating resource group General
+Creating resource group Internal
+Creating resource group Autodetect
+...
+Loading library RenderSystem_GL
+Path for saving is ...
+...
+Compressing memory size is: 246
+Compressing memory size is: 4559
+Speicherzugriffsfehler
+</code></pre><p>Leider führte die Kombination von &ldquo;Torchlight 2&rdquo; und &ldquo;Speicherzugriffsfehler&rdquo; bei der Suche nach Lösungsmöglichkeiten nicht zu hilfreichen Ergebnissen. Auch Tips, die in Richtung von Bibliothekskonflikten gingen halfen nicht, das Programm wieder zum Starten zu bewegen.</p>
+<p>Zum Ziel führte letztendlich ein Blick in die Datei &ldquo;ogre.log&rdquo;, die auf den ersten Blick identisch mit den Ausgaben beim Programmstart aussieht, allerdings noch ein paar zusätzliche Ausgaben enthält:</p>
+<pre tabindex="0"><code>$ cat ~/.local/share/Runic\ Games/Torchlight\ 2/ogre.log
+
+11:57:15: Creating resource group General
+11:57:15: Creating resource group Internal
+11:57:15: Creating resource group Autodetect
+...
+11:57:15: Loading library RenderSystem_GL
+11:57:15: OGRE EXCEPTION(7:InternalErrorException): Could not load dynamic library RenderSystem_GL.  System Error: libGLU.so.1: cannot open shared object file: No such file or directory in DynLib::load at /builddir/Torchlight2/ogre170/OgreMain/src/OgreDynLib.cpp (line 94)
+11:57:15: Path for saving is ...
+...
+11:57:16: Compressing memory size is: 246
+11:57:16: Compressing memory size is: 4559
+</code></pre><p>So war der entscheidende Hinweis zwischen den Zeilen &ldquo;Loading library RenderSystem_GL&rdquo; und &ldquo;Path for saving is&rdquo; versteckt, im konkreten Fall ein</p>
+<pre tabindex="0"><code>System Error: libGLU.so.1: cannot open shared object file: No such file or directory
+</code></pre><p>der sich durch Installation des Pakets <a href="https://packages.debian.org/bookworm/libglu1-mesa"   class="genericon icon-extlink">libglu1-mesa</a> letzendlich leicht beheben ließ.</p>
+
+</div>
+
+	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/debian/">Debian</a> <span class="genericon icon-tag"></span><a href="/tag/torchlight-2/">Torchlight 2</a></div>
+
+</div><hr class="post-separator styled-separator" /><div class="post">
 
 	<div class="post-header">
 		<h1 class="post-title"><a href="/misc/imho/landal-greenparks-nervt/">Landal Greenparks nervt</a></h1><div class="post-header-meta">
@@ -235,79 +310,6 @@ Das Team von Landal Greenparks</p>
 
 	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival/">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/white-lion/">White Lion</a></div>
 
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/">DSM-Aktualisierung findet keine Updates</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">26. Mai 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>Während in der Vergangenheit mehr oder minder regelmäßig Aktualisierungen für den Synology Disk Station Manager gefunden wurden, war die autmatische Suche neuerdings verdächtig lange der Meinung, daß alles Bestens wäre.</p>
-<span id="-technik-betriebssysteme-dsm-aktualisierung-findet-keine-updates-dsm72-64570-png"><a href="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/dsm72-64570.png" data-caption="DSM-Aktualisierung"><img src="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/dsm72-64570.png"  width="890" height="311" alt="DSM-Aktualisierung"></a></span>
-<p>Ein Klick auf die <a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Versionshinweise</a> zeigte allerdings, daß sehr wohl Aktualisierungen verfügbar waren. Aktuell ist &ldquo;7.2.1-69057 Update 5&rdquo; vom 08.04.2024, während die noch installierte &ldquo;7.2-64570 Update 3&rdquo; auf den 03.08.2023 datiert.</p>
-<p>Während die Updates 1 bis 5 zur 7.2.1 tatsächlich wohl auch nur nach Bedarf angeboten und eingespielt werden</p>
-<blockquote>
-<p>Your Synology NAS may not notify you of this DSM update because of the following reasons.</p>
-<p>Your DSM is working fine without having to update. The system evaluates service statuses and system settings to determine whether it needs to update to this version. [<a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>enthält die &ldquo;7.2.1-69057&rdquo; u.a. Korrekturen für einige Sicherheitslücken (u.a. Sudo, OpenSSL und Zlib) und eine Installation scheint somit sinnvoll. In den Notes steht auch die Erklärung, warum der DSM die Aktualisierung nicht anzeigt</p>
-<blockquote>
-<p>For the models below, you can only download the upgrade patch from Synology Download Center because you won&rsquo;t receive notifications for this update on your DSM.</p>
-<p>Plus Series: &hellip;, DS218+, &hellip; [<a href="https://www.synology.com/de-de/releaseNote/DSM?model=DS218%2B#ver_64570-3"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>allerdings ohne weitere Begründung, warum diese Vorgehensweise gewählt wurde.</p>
-<p>Eine weitere Unstimmigkeit gibt es dann noch im <a href="https://www.synology.com/de-de/support/download/DS218&#43;?version=7.2#system"   class="genericon icon-extlink">Download-Zentrum</a>:</p>
-<img src="/technik/betriebssysteme/dsm-aktualisierung-findet-keine-updates/download-zentrum.png"  width="676" height="282" alt="Download-Zentrum">
-<p>Während angezeigt wird, daß nach dem Herunterladen und Installieren von &ldquo;7.2.1-69057 (with Update 1)&rdquo; noch das Herunterladen von Installieren von &ldquo;7.2.1-69057 Update 5&rdquo; notwendig ist, meldet sich die DSM-Aktualisierung bereits nach dem Einspielen des ersten Pakets mit &ldquo;DSM 7.2.1-69057 Update 5&rdquo;.</p>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/syology/">Syology</a></div>
-
-</div><hr class="post-separator styled-separator" /><div class="post">
-
-	<div class="post-header">
-		<h1 class="post-title"><a href="/technik/anwendungen/diskussionen-um-debian-paket-keepassxc/">Diskussionen um Debian-Paket KeepassXC</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">24. Mai 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-	<div class="post-body">
-	<p>In den letzten Tagen sorgte eine <a href="https://www.heise.de/news/Debian-KeePassXC-Paket-verliert-Funktionen-Umstieg-zum-Nachruesten-noetig-9715863.html"   class="genericon icon-extlink">Änderung</a> am &ldquo;<a href="https://packages.debian.org/bookworm/keepassxc"   class="genericon icon-extlink">KeepassXC</a>&quot;-Paket in Debian für hitzige Diskussionen.</p>
-<p>Der grundlegende Gedanke, ein Paket mit minimalem und ein Paket mit vollständigem Funktionsumfang anzubieten ist hierbei nicht ungewöhnlich: eine solche Aufspaltung gibt es bis hin zu den Desktop-Umgebungen, wo z.B. bei der Installation zwischen einem &ldquo;<a href="https://packages.debian.org/bookworm/gnome"   class="genericon icon-extlink">gnome</a>&rdquo; und einem &ldquo;<a href="https://packages.debian.org/bookworm/gnome-core"   class="genericon icon-extlink">gnome-core</a>&quot;-Paket gewählt werden kann, welches nur den minimal notwendigen Umfang zu Betrieb der Desktopumgebung enthält.</p>
-<p>Was allerdings nicht nur mir unangenehm aufstößt ist die Vorgehensweise des Paketbetreuers, der statt der Erstellung eines zusätzlichen &ldquo;keepassxc-core&rdquo;-Pakets das ursprüngliche &ldquo;keepassxc&rdquo;-Paket um bestehende Funktionalität erleichtert und somit bestehende Installationen mit der nächsten Aktualisierung beschneidet.</p>
-<p>Dies ist offensichtlich <a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2105048996"   class="genericon icon-extlink">ohne vorherigen Dialog</a> mit den KeepassXC-Entwicklern geschehen und führt dazu, daß nun vermehrt Anwender bei KeepassXC (nicht vorhandene) Fehler melden, denn</p>
-<blockquote>
-<p>This will be painful for a year as users annoyingly do not read the NEWS files they should be reading but there&rsquo;s little that can be done about that. [<a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2104401817"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Dieser Satz und vor allem eine Aussage wie</p>
-<blockquote>
-<p>Users who need this crap can install the crappy version but obviously this increases the risk of drive-by contributor attacks. [<a href="https://github.com/keepassxreboot/keepassxc/issues/10725#issuecomment-2104401817"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>lässt aber nicht unbedingt (nur) auf sachliche Hintergründe schließen, sondern zeigt deutlich, wo das eigentliche Problem liegt - und erinnert mich von der Grundeinstellung an den Münchner OB <a href="/misc/imho/dieter-reiter-ich-und-wir/"  >Dieter Reiter</a>.</p>
-<div class="box box-info ">
-Aktualisierungen:<br>
-2024-06-01: Inzwischen scheint die Diskussion beigelegt und der Maintainer hat sich davon überzeugen lassen, daß sein Vorgehen subobtimal war. Wie in Bug <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1071847"   class="genericon icon-extlink">1071847</a> zu lesen, wird es nun doch ein &ldquo;keepassxc-minimal&rdquo;-Paket geben.
-</div>
-
-</div>
-
-	<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/debian/">Debian</a> <span class="genericon icon-tag"></span><a href="/tag/keepassxc/">KeepassXC</a></div>
-
 </div><hr class="post-separator styled-separator" /><nav class="navigation pagination" role="navigation">
 	<h2 class="screen-reader-text">Beitrags-Navigation</h2>
 	<div class="nav-links">
@@ -317,15 +319,16 @@ Aktualisierungen:<br>
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/241/" class="page-numbers">241</a>
+	<a href="/page/242/" class="page-numbers">242</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav>
 
 <script>
 	window.addEventListener('load', function() {
+		baguetteBox.run('#-misc-funstuff-playmobil-dfb-stars-dfb-stars_mats-hummels-jpg');
+		baguetteBox.run('#-technik-spiele-torchlight-2-startet-nicht-mehr-nach-debian-update-torchlight-2-jpg');
 		baguetteBox.run('#-musik-verschiedenes-kerry-king-in-blau-kerry-king-jpg');
-		baguetteBox.run('#gallery-white-lion-2008-06-27-bildergalerie');
-		baguetteBox.run('#-technik-betriebssysteme-dsm-aktualisierung-findet-keine-updates-dsm72-64570-png');});
+		baguetteBox.run('#gallery-white-lion-2008-06-27-bildergalerie');});
 </script>
 		</div></div>
 

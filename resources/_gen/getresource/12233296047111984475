@@ -2,17 +2,17 @@ HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, s-maxage=2
 Content-Type: text/html
-Date: Sat, 08 Jun 2024 14:16:08 GMT
-Etag: W/"c855f995bafacfd1941d70fa976df149"
-Last-Modified: Sat, 08 Jun 2024 00:08:50 GMT
+Date: Tue, 11 Jun 2024 12:39:52 GMT
+Etag: W/"65b278452c3301e28a0be817ca40564b"
+Last-Modified: Tue, 11 Jun 2024 07:36:28 GMT
 Server: AmazonS3
 Vary: Accept-Encoding
-Via: 1.1 6ca7826fb0f4c565b1af9c7737725c48.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: Z05I7eIvwrBLImRzJ4hZmuHqaQtCChmqVpY3l3texlbllwNdu2YUjw==
+Via: 1.1 0cf6c59c77f0fff670ae085179adc458.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vi1-1GdTxhKElYYABt6y1FXDepuY-U22bheiI4iiR8WyLoIutZ1LFA==
 X-Amz-Cf-Pop: SEA19-C1
 X-Cache: Miss from cloudfront
-X-Etags-1: W/"c855f995bafacfd1941d70fa976df149"
-X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
+X-Etags-1: W/"65b278452c3301e28a0be817ca40564b"
+X-Etags-2: W/"65b278452c3301e28a0be817ca40564b"
 
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
@@ -24,9 +24,9 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
   
   <title>Ben Strawbridge Dot Com Consulting</title>
   <meta name="description" content="Dot Com Consulting" />
-  <meta name="generator" content="Hugo 0.126.1">
+  <meta name="generator" content="Hugo 0.127.0">
   <meta name="robots" content="index, follow">
-  <link rel="stylesheet" href="/css/busta-main.min.527e4067a10792e2afa687a9b47377133591d8aa327cba342844e2e0a9c4726d.css" integrity="sha256-Un5AZ6EHkuKvpoeptHN3EzWR2KoyfLo0KETi4KnEcm0=" crossorigin="anonymous"><script>
+  <link rel="stylesheet" href="/css/busta-main.min.6d0c04201ab38ff83be0e29349cff37d7e6397c4c5998609ca2caa8e343b1c9c.css" integrity="sha256-bQwEIBqzj/g74OKTSc/zfX5jl8TFmYYJyiyqjjQ7HJw=" crossorigin="anonymous"><script>
   
   const showDarkToggle =  true ;
 </script>
@@ -153,7 +153,7 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
 
 
 <header class=" w-full bg-gradient-to-r to-sky-300 from-indigo-300 dark:from-violet-950 dark:to-rose-950 border-b border-fuchsia-600 text-violet-950 dark:text-neutral-100">
-<div class=" m-3 rounded-lg flex flex-row bg-header-mdr-channel dark:bg-header-artist-date-two h-[400px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top">
+<div class=" m-3 rounded-lg flex flex-row bg-header-mdr-channel dark:bg-header-artist-date-two h-[200px] sm:h-[250px] bg-cover bg-left bg-center dark:bg-top">
     <div class="mr-auto relative"> 
 <div class="flex relative">
   <a class="" href="/" >
@@ -177,6 +177,7 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
         
         
         <button
+            aria-label="Toggle Menu"
             class="absolute right-0 z-50 cursor-pointer md:hidden p-3 text-[#17729C] bg-neutral-200 rounded-full "
             @click="openMenu = ! openMenu">
             <div x-bind:class="openMenu ? 'hidden' : 'visible'" class="flex flex-col text-xs"><i class="size-8 text-2xl fas fa-bars"></i></div>
@@ -209,7 +210,7 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
     <main class="container max-h-max mx-auto ">
 
 
-  <div class="max-w-screen-lg p-4 mx-auto grid grid-cols-1 gap-12 mb-5">
+
     
      
     
@@ -218,76 +219,21 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
     
     
     
+
+  <div class="lg:grid-cols-2  p-4 mx-auto grid grid-cols-1 gap-12  mb-5">
+    <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Latest stuff</h2>
+      
     
     
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-amber-200 to-yellow-400">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/consulting/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-amber-200 to-yellow-400">
-          <i class="text-black dark:text-white fa-solid fa-jedi mr-2 text-3xl"></i>
-        Consulting
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">consulting</span>
-        on <time itemprop="datePublished" datetime="2024-02-14T15:16:41-08:00">February 14, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
-      </div>
-    </div>
-  </div>
-</div>
     
 
 
 
 
 
+
+
   
-     
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/the-ryder-theme-for-hugo/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
-          <i class="text-black dark:text-white fa-solid fa-dog mr-2 text-3xl"></i>
-        The Ryder Theme for Hugo
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">projects</span>
-        on <time itemprop="datePublished" datetime="2024-02-19T22:19:09-08:00">February 19, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <p>
-
 
 
 
@@ -296,940 +242,160 @@ X-Etags-2: W/"c855f995bafacfd1941d70fa976df149"
 
   
   
-
-
-
-
-<figure>
-    <picture>
-        
-        <source loading="lazy" srcset="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_h2_box.d5fa1715830d7297ff370127d1487da64519cb06ef990ac5b252b8a15c6bfe6d.webp" type="image/webp" alt="In honor of this old guy">
-        
-
-        
-        <img loading="lazy" src="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_box.848ff1235497c64bd6c4f2bc9c04babbfcd26af08ac21860d44b104a49035e3b.jpg" alt="In honor of this old guy">
-        
-    </picture>
-
-    
-    <figcaption class="center">In honor of this old guy</figcaption>
-    
-</figure>
-
-</p>
-<p>Introducing the <a href="https://www.github.com/arts-link/ryder">Ryder theme</a>, a theme for the <a href="https://www.gohugo.io">hugo static website generator</a>. This is an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme.</p>
-      </div>
-    </div>
-  </div>
-</div>
-    
-
-
-
-
-
   
-     
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/ironcove-solutions-orchestration-engine/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
-          <i class="text-black dark:text-white fas fa-code-compare mr-2 text-3xl"></i>
-        Ironcove Solutions Orchestration Engine
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">projects</span>
-        on <time itemprop="datePublished" datetime="2024-03-05T14:00:47-08:00">March 5, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <h2 id="workforce-onboarding-a-case-study-of-ironcove-solutions-orchestration-engine">Workforce Onboarding: A Case Study of Ironcove Solutions&rsquo; Orchestration Engine</h2>
-<p>I was hired by <a href="https://ironcovesolutions.com/">Ironcove Solutions</a> to lead product development for a new application they were developing called the <a href="https://ironcovesolutions.com/blog/zendesk-to-okta-as-an-onboarding-process/">Orchestration Engine</a>, an application designed to streamline workforce onboarding processes. We collaborated closely with the team from Ironcove Solutions to bring their vision to life.</p>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
-
-
-  <div class="lg:grid-cols-2 p-4 mx-auto grid grid-cols-1 gap-12  mb-5">
-  
-  <h2 class="lg:col-span-2 flex p-3 items-center mb-2 text-3xl uppercase">Latest stuff</h2>
-    
-
-
-
-
-
   
     
-       
       
     
   
 
 
-
-
-
-
-
-
-
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/tarragon-beets-salad/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Tarragon Beets Salad
+      <a itemprop="url" aria-label="Hiking" href="/projects/hiking/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Hiking
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2023-08-04T11:56:15-08:00">August 4, 2023</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-03-13T11:21:29-07:00">Mar 13</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
         <figure>
   <picture>
-        <source type="image/webp" srcset="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_8fc6b5cf49a27c58e7e4050d1b475578.webp 720w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_2730df20e7266ddd6cad31412312f62a.webp 1080w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_c3b556b120b4f8f013bcb1e6ec337bb0.webp 1440w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_9a4b220a7f42335ca5573dc70f6c5902.webp 2160w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_d0c010602a56e33e3df1d9b48b660e36.webp 4000w"
+        <source type="image/webp" srcset="/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_6454fd8ff38d133f9d7069803c3cd492.webp 720w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_e6583eb1ae81516d3892aa98a7bdab02.webp 1080w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_61f9ac8ca0410dbec12aac136f07f560.webp 1440w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_6a1bbc867470db9ec835bc84c603e6de.webp 1920w"
           sizes="100vw">
-        <source type="image/jpeg" srcset="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_93474b186bf8c2ffaefe93a458c19815.jpg 720w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_0a275537fb4fd48d9e4158823f4f495c.jpg 1080w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_102486b506ce19f18c2f8c62846634af.jpg 1440w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_8f7ccc1d696c81ede3cec003af1f9b2c.jpg 2160w,/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_325f41f4ec04f3dba67cada48e3882a0.jpg 4000w"
+        <source type="image/jpeg" srcset="/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_72f16d2f7dcbb5443260b1096784b108.jpg 720w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_514bc58c55061a0564277b682e41ab28.jpg 1080w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_bc791d396bccd33cd647330be0c6ab3f.jpg 1440w,/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_8b4ef32ea9e554947081a9ca32c0e456.jpg 1920w"
           sizes="100vw">
-    <img alt="With some green tomatoes on top" loading="lazy" src="/projects/recipes/tarragon-beets-salad/beets-salad_hu7ef49dd6687248143903ceb0363af77c_6931464_93474b186bf8c2ffaefe93a458c19815.jpg" title="With some green tomatoes on top">
+    <img alt="Ben and Rhys on Bishop Peak" loading="lazy" src="/projects/hiking/ben-rhys-bishop-peak_hu8722ee7be164c22a7e084170a1a37e66_401844_72f16d2f7dcbb5443260b1096784b108.jpg" title="Ben and Rhys on Bishop Peak">
   </picture>
   
-  <figcaption>With some green tomatoes on top</figcaption>
+  <figcaption>Ben and Rhys on Bishop Peak</figcaption>
   
   </figure>
-<p>This was an attempt to copy a salad from <a href="https://www.bristolfarms.com/">Bristol Farms</a>. I ended up modifying it quite a bit from the initial ingredients.</p>
+<h2 id="maps-guides-and-logs">Maps, Guides and Logs</h2>
+<p>One of my greatest joys is being outdoors in a wide open space with nothing made by man in sight. At times, I do have to come back to reality, and occasionally when I do, I will share routes, guides, maps, and from time to time, gear recommendations.</p>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
   
     
-
-
-
+      
+    
   
-
-
-
-
-
-
-
 
 
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/posts/hugo_snippets/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
-          <i class="text-black dark:text-white fa-solid fa-scissors mr-2 text-3xl"></i>
-        Hugo Snippets
+      <a itemprop="url" aria-label="Bluff Creek Trail" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-creek-trail/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Bluff Creek Trail
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">posts</span>
-        on <time itemprop="datePublished" datetime="2024-02-12T12:46:55-08:00">February 12, 2024</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:20:02-07:00">Apr 15</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <h2 id="get-the-first-of-something-in-a-collection">Get the first of something in a collection</h2>
-<p>For example the first jpg image in the current directory starting with the word <code>feature</code>.</p>
+        <h2 id="aka-lmu-trail-aka-westchester-fireroad-trail">AKA LMU Trail, AKA Westchester fireroad trail.</h2>
+<div class="grid grid-cols-3 gap-1 p-1">
+  <div class="col-span-1 flex items-center justify-center text-2xl font-bold">
+    <i class="text-emerald-500 text-5xl fa-solid fa-globe"></i>
+  </div>
+  <div class="col-span-1 flex flex-col justify-center h-full">
+    <div class="text-lg font-semibold">Latitude</div>
+    <div>33° 58&#39; 31.28&#34;</div>
+  </div>
+  <div class="col-span-1 flex flex-col items-center justify-center h-full">
+    <div class="text-lg font-semibold">Longitude</div>
+    <div>-119° 35&#39; 16.85&#34;</div>
+  </div>
+</div>
+
+<p>The Bluff Creek trail is a nice mostly flat partially paved/dirt path that traverses the bluff just under LMU. Recommended as a loop with a couple mile trail and then couple miles walking in Playa Vista through Oberrieder park.</p>
+
+
+<div id="bluff-creek-trail" style="height: 450px;"></div>
+<script>
+  var map = L.map('bluff-creek-trail').setView(["33.97400732775669", "-118.41691532108625"], "14.5");
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  
+  L.marker(["51.5", "-0.09"]).addTo(map)
+    .bindPopup('Bluff Creek Trail');
+  
+</script>
+<div class="hidden">Debug Info: ID=bluff-creek-trail, Lat=33.97400732775669, Lon=-118.41691532108625, Zoom=14.5</div>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
   
     
-
-
-
   
-
-
-
-
-
-
-
 
 
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/posts/pick-a-squares-game/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
-          <i class="text-black dark:text-white fa-solid fa-dice mr-2 text-3xl"></i>
-        Pick a Squares Game
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">posts</span>
-        on <time itemprop="datePublished" datetime="2024-02-14T11:30:43-08:00">February 14, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        I created a pick-a-squares game template, aka the Super Bowl squares. It is still a work in progress, but I hope to have it snazzy in time for next year. Take a look at the template.
-Project Goals Ability to enter people into squares Generate random score rows with animated flourish Presentation mode for big screen action with controller to enter periodic scores Calculate payouts based on price of a square Project Timeline Launch in time for SB LIX success Pick a Square: Head on over to the project page 
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/product-marketing/catalog/all-purpose-epoxy-putty-stick/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-900">
-          <i class="text-black dark:text-white fa-solid fa-cash-register mr-2 text-3xl"></i>
-        All Purpose Epoxy Putty Stick
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">catalog</span>
-        on <time itemprop="datePublished" datetime="2024-04-02T02:28:06-04:00">April 2, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <a class="" href="https://www.amazon.com/dp/B0B7BF3GWS/ref=nosim?tag=benstrawbridge-20">
-  <span class="bg-yellow-400 text-black font-medium py-2 px-4 rounded-full border-2 border-yellow-500 hover:bg-yellow-500 hover:border-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-300 no-underline inline-block text-center break-words">View All Purpose Epoxy Putty Stick on Amazon.com</span>
-</a>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/smoothies/golden-beet-apple-mango-banana-smoothie/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Golden Beet, Apple, Mango, Banana Smoothie
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-24T22:51:44-07:00">April 24, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <h2 id="ingredients">Ingredients</h2>
-
-<div class="pl-2 grid grid-cols-2 gap-x-4">
-  
-    
-    
-      
-        <div class="relative flex items-start mb-2">
-          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">1</span>
-          <span class="ml-2">1 medium beet cut into 1 inch cubes</span>
-        </div>
-        
-      
-    
-      
-        <div class="relative flex items-start mb-2">
-          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">2</span>
-          <span class="ml-2">1 apple cut into 1 inch cubes</span>
-        </div>
-        
-      
-    
-      
-        <div class="relative flex items-start mb-2">
-          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">3</span>
-          <span class="ml-2">1 handful frozen mango cut into 1 inch cubes</span>
-        </div>
-        
-      
-    
-      
-        <div class="relative flex items-start mb-2">
-          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">4</span>
-          <span class="ml-2">1 banana (frozen or ripe)</span>
-        </div>
-        
-      
-    
-      
-        <div class="relative flex items-start mb-2">
-          <span class="flex-none w-8 h-8 rounded-full flex items-center justify-center dark:bg-rose-950 dark:text-neutral-100 dark:border-neutral-200 bg-sky-300 border-violet-900 text-violet-900 border-2 ">5</span>
-          <span class="ml-2">1 cup orange juice (or other juice, nut milk or coconut water)</span>
-        </div>
-        
-      
-    
-  
-</div>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/granola/original-granola/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Original Granola
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_b316397a1b520e740f0f65c7432f269e.webp 720w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_4422198d6293f236ac6869b37e8e439e.webp 1080w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_f4dc8c5f3295f9997a4358bb7703ebcb.webp 1440w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_b27ca8b2261047c28f1de8f6f3c20a9c.webp 1920w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_04fe82a5fe2c5ce490632b481e06a7d6.jpg 720w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_6ce9811250f71847cf82a6bf4866f1ab.jpg 1080w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_8354005d5f06fd572b75cabe03e31618.jpg 1440w,/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_2dc767365e9539e8f77b8fbf570891d2.jpg 1920w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/projects/recipes/granola/original-granola/granola_pre_bake_hu72e08aa0e2066778be0976f42822b531_778086_04fe82a5fe2c5ce490632b481e06a7d6.jpg" title="Granola Prep">
-</picture>
-
-<figcaption>Granola Prep</figcaption>
-
-</figure>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/granola/lemon-chia-granola/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Lemon Chia Granola
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <!-- raw HTML omitted -->
-
-<figure>
-<picture>
-      <source type="image/webp" srcset="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_fcd3677e84b1ae6c1d457594815d2f19.webp 720w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_f8173b797ec70fbebc0848bc4c777f39.webp 1080w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_7da11d40c8525b2eff2602756a4dad9c.webp 1440w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_9077829bbd3591500291955a86f380a0.webp 1920w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_ee6de7e014f5c7f9bd8614bbd5af296d.jpg 720w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_259e3cf21a1c3b641e0f966ee36066ca.jpg 1080w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_8fdd7310b312a67129382a165cfb6ea9.jpg 1440w,/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_2124e90fee2579f59fef4a825a42d9f7.jpg 1920w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/projects/recipes/granola/lemon-chia-granola/granola_fini_lemon_chia_seed_huc79e2fc342f2c411ad94f6c5f35f886f_638022_ee6de7e014f5c7f9bd8614bbd5af296d.jpg" title="Lemon Chia Granola Final">
-</picture>
-
-<figcaption>Lemon Chia Granola Final</figcaption>
-
-</figure>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/granola/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Granola!
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-29T13:44:16-07:00">April 29, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure><img src="lemon-chia-granola/granola_fini_lemon_chia_seed.webp"><figcaption>
-      <h4>Granola Prep</h4>
-    </figcaption>
-</figure>
-
-<p>Granola is very flexible and allows you to flex your creativity, change up the seeds and dried fruits you use, the sweeteners, the lubricants etc&hellip;</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/creamed-corn/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Aunt Mary&#39;s Creamed Corn
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-05-14T15:58:00-07:00">May 14, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1828x0_resize_q75_h2_box_2.webp 1828w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_09_hu03ec86fcb485745a51a689232aac5a81_185360_720x0_resize_q75_bgffffff_box_2.jpg" title="Aunt Mary's Creamed Corn">
-</picture>
-
-<figcaption>Aunt Mary&#39;s Creamed Corn</figcaption>
-
-</figure>
-<p>For best results use <strong>FRESH CORN</strong></p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/product-marketing/catalog/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-900">
-          <i class="text-black dark:text-white fa-solid fa-cash-register mr-2 text-3xl"></i>
-        Catalog
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">catalog</span>
-        on <time itemprop="datePublished" datetime="2024-06-04T00:44:22-07:00">June 4, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <blockquote>
-<p>Welcome to Strawbridge&rsquo;s Department Store</p>
-</blockquote>
-<p>The catalog of all the products to be advertised through affiliate marketing.</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/moms-carrots-and-onions/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Mom&#39;s Carrots and Onions
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-05-14T15:50:33-07:00">May 14, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_30203e16f2f7e0435c1a4c4d1af32b28.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_8100cb2df81beef95f2b44f7b1b395ad.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_17eea3f6517c51a822454fc342e0a068.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_aabe56f0ce1859226858fe6be6806229.webp 1845w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_e6ecf6195a916e7f36c7249ffce14d60.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_b31aebc3c04751ef8b1dbe8d4ae8c221.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_531ed9898143c2020118a3ae72eb7bd9.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_0a7b15b8d6df2c923f2344239df94f52.jpg 1845w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_08_hud38553c9d443f8b0ad96bfe39542034f_117242_e6ecf6195a916e7f36c7249ffce14d60.jpg" title="Mom's Carrots and Onions">
-</picture>
-
-<figcaption>Mom&#39;s Carrots and Onions</figcaption>
-
-</figure>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/mashies/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Mashies
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-05-06T14:43:16-07:00">May 6, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_h2_box_2.webp 1828w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg" title="Mashies">
-</picture>
-
-<figcaption>Mashies</figcaption>
-
-</figure>
-<p>My mom loved to call mashed potatos &ldquo;Mashies&rdquo;</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/dads-home-fried-potatoes/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-carrot mr-2 text-3xl"></i>
-        Dads Home Fried Potatoes
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-05-06T14:38:54-07:00">May 6, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_h2_box_2.webp 1828w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_1828x0_resize_q75_bgffffff_box_2.jpg 1828w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_07_hued31618c0f13d0c03d28d584d84144d1_148558_720x0_resize_q75_bgffffff_box_2.jpg" title="Dad's Home Fried Potatoes">
-</picture>
-
-<figcaption>Dad&#39;s Home Fried Potatoes</figcaption>
-
-</figure>
-<p>My dad would make these for big family breakfasts on the weekend</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/grandmas-meatloaf/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-bread-slice mr-2 text-3xl"></i>
-        Grandma Kreider&#39;s Meatloaf
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-05-06T14:24:29-07:00">May 6, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1837x0_resize_q75_h2_box_2.webp 1837w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_1837x0_resize_q75_bgffffff_box_2.jpg 1837w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_06_hu730da8796d7c076b1e7e8d9c78cb66ec_148398_720x0_resize_q75_bgffffff_box_2.jpg" title="Grandma Kreider's meatloaf">
-</picture>
-
-<figcaption>Grandma Kreider&#39;s meatloaf</figcaption>
-
-</figure>
-<p>Simple easy meatloaf recipe.  There are no fixed amounts here!</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/tuna-noodle-bake/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-solid fa-fish-fins mr-2 text-3xl"></i>
-        Tuna Noodle Bake
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-24T23:41:16-07:00">April 24, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_f50cf0b0f8e260adab2f7c4fb0df7c0c.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_9a3dc9bd643f051de3bb35733796f400.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_73c5c8f3d4a19d15afa84eefa7aff9b7.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_e0c3ad0dd8c7325ed70fcd9c9d4978ac.webp 1839w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_89bed14dd0a20ddccc24400c0583d343.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_e629e7704b28a70b522a66e8a2361d14.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_a621987241a5aaf455e8a890440e04cf.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_99badb50331e4a16b9bc009b87625544.jpg 1839w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_04_huc01ad18f6285af5a8135378a250877a3_145234_89bed14dd0a20ddccc24400c0583d343.jpg" title="Tuna Noodle Bake recipe">
-</picture>
-
-<figcaption>Tuna Noodle Bake recipe</figcaption>
-
-</figure>
-<p>I love this recipe because it is so simple, can be made for under $5 and is really tasty. We used to eat this quite often when I was growing up.</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-
-
-  
-    
-       
-      
-    
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-yellow-400 to-yellow-900">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/recipes/lemon-mint/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-yellow-400 to-yellow-900">
-          <i class="text-black dark:text-white fa-brands fa-pagelines mr-2 text-3xl"></i>
-        Aunt Mary&#39;s LemonMint
-      </h2>
-      <span class="details px-6 mt-4 inline-block">
-        
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">recipes</span>
-        on <time itemprop="datePublished" datetime="2024-04-24T23:15:52-07:00">April 24, 2024</time>
-      </span>
-      <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <figure>
-<picture>
-      <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_834979e70f394cc8eac320d134f32282.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_58279f53c54dc6198c0f1ec2e0c0bf69.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_dc267c401b41939b23558a2e97a2da5c.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_5572d55c57661cd83530acd22ec0c425.webp 1821w"
-        sizes="100vw">
-      <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_44b93944afa5fc683eae57fff996264e.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_5fe931efec658fd39f09dbbe83381038.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_044d4773449e24564ff8a72afcf356a6.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_736f4356535501b4e605e2052123bef8.jpg 1821w"
-        sizes="100vw">
-  <img alt="" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_03_hu82ae759d4beb2c9bc3972ea7016e2d7e_146180_44b93944afa5fc683eae57fff996264e.jpg" title="Aunt Mary's Lemon Mint">
-</picture>
-
-<figcaption>Aunt Mary&#39;s Lemon Mint</figcaption>
-
-</figure>
-<p>My mom had a huge mint garden outside of our kitchen growing up and we would have fresh lemonmint beverage all summer long as it grew like a weed.</p>
-      </div>
-    </div>
-  </div>
-</div>
-  
-    
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
-    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/posts/links/links/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+      <a itemprop="url" aria-label="Link Graveyard" href="/posts/links/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
           <i class="text-black dark:text-white fa-solid fa-link mr-2 text-3xl"></i>
         Link Graveyard
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">posts</span>
-        on <time itemprop="datePublished" datetime="2024-01-18T11:50:06-08:00">January 18, 2024</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-01-18T11:50:06-08:00">Jan 18</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
         <h2 id="links-to-help-you-build-and-work-on-the-internet">Links to help you build and work on the Internet</h2>
@@ -1240,14 +406,14 @@ Project Goals Ability to enter people into squares Generate random score rows wi
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
   
-    
-
-
-
-  
-
-
 
 
 
@@ -1256,18 +422,586 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 
 
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-300 to-yellow-300">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-300">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/posts/github-action-to-create-new-content-in-hugo/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-300 to-yellow-300">
+      <a itemprop="url" aria-label="Featured Ingredients" href="/ingredients/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-300">
+          <i class="text-black dark:text-white fa-solid fa-wheat-awn mr-2 text-3xl"></i>
+        Featured Ingredients
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/ingredients"><span itemprop="articleSection" class="source font-bold capitalize">ingredients</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-29T22:58:56-07:00">May 29</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+  <picture>
+        <source type="image/webp" srcset="/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_546b61018dd01f9122e5c4a8519eb9ab.webp 720w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_db8225cc167cb563154bfd859f6583b0.webp 1080w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_24a1ad9957d3e7001ce7392caa609b51.webp 1440w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_7bb01a1c9376d4dbfef588ee0deebb25.webp 1920w"
+          sizes="100vw">
+        <source type="image/jpeg" srcset="/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_d9508f9f7bac2c5edcd31e5a9c4671a8.jpg 720w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_7891c82262e937c98eb9fba87e0f7fc8.jpg 1080w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_aa96f8b1f2133778c6aeb58d24608984.jpg 1440w,/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_f9c0306739586f69aeba0c2a53163a56.jpg 1920w"
+          sizes="100vw">
+    <img alt="A Summer Bounty" loading="lazy" src="/ingredients/smorgasboard_feature_hu2e3125872bb666a71826ea55733d7691_337567_d9508f9f7bac2c5edcd31e5a9c4671a8.jpg" title="A Summer Bounty">
+  </picture>
+  
+  <figcaption>A Summer Bounty</figcaption>
+  
+  </figure>
+<p>Ingredients that have been tagged in recipes as featured ingredients are listed below. Find all of the recipes using these ingredients on each page. See photographs and learn more about these items.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Mushrooms" href="/ingredients/mushrooms/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-300">
+          <i class="text-black dark:text-white fa-solid fa-dragon mr-2 text-3xl"></i>
+        Mushrooms
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/ingredients"><span itemprop="articleSection" class="source font-bold capitalize">ingredients</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-29T23:24:31-07:00">May 29</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+  <picture>
+        <source type="image/webp" srcset="/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_dc9e4575db83e946f06e7459e47c5156.webp 720w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_fee68376a826d528c37c63f448b3cc81.webp 1080w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_170b564e8203130762f076c1ced69688.webp 1440w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_238ac7b05f5203d555072d781fe02f0d.webp 2160w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_b65f18d18c59163709ac708923b09c00.webp 4000w"
+          sizes="100vw">
+        <source type="image/jpeg" srcset="/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_fa9bf8d36887ca6c6209b9869e51aaf5.jpg 720w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_b831000a1a24faba360583dd47b6ba71.jpg 1080w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_772478f6bfbc6ffe782033780f40cf86.jpg 1440w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_ec9ee4f3a66ecaca34982d49b07400bf.jpg 2160w,/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_01101d877d3bb89cabf7192d50f490ee.jpg 4000w"
+          sizes="100vw">
+    <img alt="Beautiful Oyster Mushrooms" loading="lazy" src="/ingredients/mushrooms/oyster_feature_hu5410869940aa159bc87fa517c3ad22dc_5752662_fa9bf8d36887ca6c6209b9869e51aaf5.jpg" title="Beautiful Oyster Mushrooms">
+  </picture>
+  
+  <figcaption>Beautiful Oyster Mushrooms</figcaption>
+  
+  </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Home Feed Filtering and Colorization" href="/posts/home-feed-filtering/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-house mr-2 text-3xl"></i>
+        Home Feed Filtering and Colorization
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-06-10T20:41:19-07:00">Jun 10</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="limit-your-home-page-feed-by-section-category-or-tag">Limit your home page feed by Section, Category or Tag</h2>
+<p>You can now set params in your <code>hugo.toml</code> file to keep any pesky pages off your homepage that you may not wish to promote for whatever reason.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Projects" href="/projects/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        Projects
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-12T15:16:41-08:00">Feb 12</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        The projects section is a mix of case studies of professional projects I have worked on, that I have permission to write about, and personal areas of exploration on-line and otherwise. Some of these projects may be monetized in some way at some time, others are entirely open source.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Family Recipe Book" href="/tags/family-recipes/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-300">
+          <i class="text-black dark:text-white fa-solid fa-dragon mr-2 text-3xl"></i>
+        Family Recipe Book
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/tags"><span itemprop="articleSection" class="source font-bold capitalize">tags</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-29T23:24:31-07:00">May 29</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure>
+  <picture>
+        <source type="image/webp" srcset="/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_720x0_resize_q75_h2_box_2.webp 720w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1080x0_resize_q75_h2_box_2.webp 1080w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1440x0_resize_q75_h2_box_2.webp 1440w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1846x0_resize_q75_h2_box_2.webp 1846w"
+          sizes="100vw">
+        <source type="image/jpeg" srcset="/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_720x0_resize_q75_bgffffff_box_2.jpg 720w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1080x0_resize_q75_bgffffff_box_2.jpg 1080w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1440x0_resize_q75_bgffffff_box_2.jpg 1440w,/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_1846x0_resize_q75_bgffffff_box_2.jpg 1846w"
+          sizes="100vw">
+    <img alt="My Mom's homemade family recipe's cookbook" loading="lazy" src="/images/moms-family-recipes-cookbook/family_recipes_12_hu81c1319edb5a76036613f4f9c050ca82_156962_720x0_resize_q75_bgffffff_box_2.jpg" title="Inspriation For Cooking">
+  </picture>
+  
+  <figcaption>Inspriation For Cooking</figcaption>
+  
+  </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Recipe Template for Ryder Theme" href="/posts/recipe-template-for-ryder-theme/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-burst mr-2 text-3xl"></i>
+        Recipe Template for Ryder Theme
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-29T23:37:29-07:00">May 29</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="optimize-your-recipe-content-with-the-schema">Optimize your recipe content with the Schema</h2>
+<p>The recipe templates for The Ryder Theme for Hugo websites are progressing well. Today I released an update that creates the <a href="https://schema.org/Recipe">schema.org json-ld specification tags for a recipe</a>. This allows your recipe content to show up as &ldquo;rich content&rdquo; in search engines and social media platforms.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Tag Cloud" href="/posts/tag-cloud/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-cloud-meatball mr-2 text-3xl"></i>
+        Tag Cloud
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-30T00:19:52-07:00">May 30</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="cloudy-days-a-hoy">Cloudy days a hoy</h2>
+<p>I found this partial to create a tag cloud on <a href="https://mertbakir.gitlab.io/hugo/tag-cloud-in-hugo/">Mert Bakir&rsquo;s personal website</a> and I have been adapting the code to suit my needs for this project, for now I&rsquo;m just leaving it under this project page until I can decide what to do with it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Ingredients Section" href="/posts/ingredients-section/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-signs-post mr-2 text-3xl"></i>
+        Ingredients Section
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-06-05T00:11:09-07:00">Jun 05</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <blockquote>
+<p>Check out the <a href="/ingredients/">Ingredients Taxonomy pages</a></p>
+</blockquote>
+<h2 id="using-taxonomy-effectively">Using Taxonomy effectively</h2>
+<p>As part of the recipe template configuration being developed for The Ryder Theme for Hugo websites, a new taxonomy is created for ingredients. Ingredients are not the same as recipeIngredients; they are defined as an array in the front matter. I didn’t want a taxonomy page generated for every single recipe ingredient, so I created a separate variable. The recipeIngredients are used to display the ingredients on the page and for the recipe schema, ensuring the pages are properly displayed as recipe rich results in Google and other search engines.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Jet Pets" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Jet Pets
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:21:28-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="private-open-space-that-allows-dogs">Private open space that allows dogs</h2>
+
+<figure>
+<picture>
+      <source type="image/webp" srcset="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_2fd9eeb00f8924810cdb50e67e6db57c.webp 720w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_e7bd4d1cb67b952812bfacff0b8c9f3a.webp 1080w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_d9b2583854cca89fd09d985c5248c988.webp 1440w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_9435fb25c5b4c1b39398db6dde36dcce.webp 1918w"
+        sizes="100vw">
+      <source type="image/jpeg" srcset="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_dc37abf6313fa7686de79cd1c63e1047.jpg 720w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_5e7be54cf48e10c6a2264005f6e604be.jpg 1080w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_7b6dcfa2aeccb751cae2fb8953319388.jpg 1440w,/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_2ab306109f7d6b4dc0b40e53212d4331.jpg 1918w"
+        sizes="100vw">
+  <img alt="The Jet Pets sign by the entrance" loading="lazy" src="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/jet-pets/jet-pets_featured_hufef3bf2eb1944743c72b6d0a78000c30_228612_dc37abf6313fa7686de79cd1c63e1047.jpg" title="The Jet Pets sign by the entrance">
+</picture>
+
+<figcaption>The Jet Pets sign by the entrance</figcaption>
+
+</figure>
+<p>Jet Pets is an animal transportation company located in Playa Del Rey very close to LAX. They have a large field on their property that is fenced in and they keep it open most days and allow you to walk your dog there.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Ballona Creek Bike Path" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-creek-bike-path/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Ballona Creek Bike Path
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:22:09-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>The Ballona Creek Bike Path parallels Ballona Creek while connecting the Pacific Ocean at Marina Del Rey with Culver City. The trail connects with a beach path that continues south to Redondo Beach while at the north, Dusquesne Avenue connects the bike path with the eastern portions of the Park to Playa Trail.</p>
+
+<a class="" href="https://www.alltrails.com/invite/MAT111"><span class="bg-green-400 text-black font-medium py-2 px-4 rounded-full border-2 border-green-500 hover:bg-green-500 hover:border-green-600 focus:outline-none focus:ring-2 focus:ring-green-300 no-underline inline-block text-center break-words">
+  <svg class="DSKvrL5depR9-3fdnnh-bA==" width="131" height="24" viewBox="0, 0, 262 48" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>AllTrails</title>
+  <path d="M214.768 7.809c2.631 0 4.199 1.744 4.199 4.265s-1.568 4.128-4.199 4.128c-2.768 0-4.246-1.697-4.246-4.128s1.478-4.265 4.246-4.265ZM218.479 19.516h-7.472V47.18h7.472V19.516ZM142.834 15.367v31.817h8.065V15.367h10.968V10.07h-28.605v5.296h9.572Z" fill="#142800"></path>
+  <path d="M175.874 26.847a12.454 12.454 0 0 0-3.163-.42c-3.69 0-5.746 2.202-5.746 6.712v14.047h-7.434V19.51h7.011v7.599c1.372-5.188 4.955-8.336 9.332-8.385v8.123ZM231.704 47.18V10.124h-7.423v37.058h7.423ZM255.251 27.846c-.415-.766-2.31-3.832-6.395-3.832-3.849 0-4.736 1.767-4.62 2.946.179 1.532 1.008 2.297 5.922 3.36 6.693 1.354 10.719 3.535 10.719 8.84 0 6.128-5.685 8.839-12.614 8.839-3.612 0-9.77-1.002-12.789-6.423l5.27-3.535s2.666 4.126 7.402 4.126c4.383 0 4.798-1.945 4.856-2.652.12-1.18-.236-2.417-5.212-3.538-7.046-1.531-11.251-3.124-11.251-8.958 0-3.005 2.666-8.426 12.139-8.426 8.809 0 11.322 4.842 11.821 5.803.038.073.064.123.081.148l-5.329 3.299v.003Z" fill="#142800"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M191.069 31.229c-7.922 1.534-12.827 3.485-12.827 9.625l-.003-.003c0 4.487 3.428 7.145 8.57 7.145 4.847 0 8.1-2.364 9.873-6.437.236 4.428 2.245 6.437 6.739 6.437 2.129 0 3.016-.413 4.021-1.063v-4.961c-.532.236-.946.413-1.714.413-1.892 0-2.246-.768-2.246-3.365v-9.742c0-7.203-4.494-10.688-11.586-10.688-6.264 0-10.579 2.894-13.003 9.154l6.503 1.89c1.004-3.13 2.482-5.256 6.146-5.256 3.665 0 5.084 1.476 5.084 3.307 0 2.245-2.423 2.894-5.557 3.544Zm5.794 1.95v1.712c0 3.072-2.424 7.678-7.508 7.678-2.838 0-4.02-1.063-4.02-3.01 0-2.245 1.538-3.25 6.266-4.37 3.016-.65 4.61-1.183 5.262-2.01ZM69.963 47.184l.001-.003h6.429l2.426-7.756h16.025l2.532 7.756h8.541l-13.02-37.107H82.72L69.965 47.18h-.004l.003.003ZM85.357 18.67l-4.85 15.463h12.6l-5.113-15.463-1.317-4.14h-.105l-1.212 4.14h-.003Z" fill="#142800"></path>
+  <path d="M108.743 47.184v-37.11h7.435v37.11h-7.435ZM121.983 47.184v-37.11h7.434v37.11h-7.434Z" fill="#142800"></path>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M51.213 14.825c-1.689-3.224-2.993-4.761-4.687-4.761-1.891 0-2.725 1-3.865 2.79-.92 1.2-1.809 2.843-3.289 2.68-1.562-.165-2.467-3.857-3.645-6.947C34.11 4.376 33.177 0 30.492 0c-1.532 0-2.873 1.395-4.95 4.515L4.078 37.428C1.611 41.549-.452 44.42 2.16 47.12c3.07 2.953 10.278-2.215 15.211-5.333 4.934-3.118 9.977-6.153 17.103-5.99 9.593.22 14.253 9.846 20.063 11.678 3.947 1.258 7.565-.191 8.332-4.266.453-2.24-.331-4.414-1.414-6.733L51.213 14.825Zm-.658 19.305c-1.946 1.449-4.66-.876-6.414-1.86-1.864-1.04-5.016-3.528-10.662-3.446-4.604.055-7.098 1.778-9.84 3.637-5.947 4.048-11.319 8.752-12.854 6.318-.987-1.56 1.672-4.677 7.921-14.412 4.44-6.92 7.568-12.444 9.785-12.444 2.45 0 2.587 2.404 2.96 4.868.705 3.925 2.623 5.968 5.114 6.29 2.793.378 5.208-1.966 7.127-1.941 1.792.038 2.97 2.633 4.45 5.34 1.876 3.364 3.832 6.583 2.413 7.65Z" fill="#142800"></path>
+</svg>
+</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Hugo Snippets" href="/posts/hugo_snippets/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-scissors mr-2 text-3xl"></i>
+        Hugo Snippets
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-12T12:46:55-08:00">Feb 12</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="get-the-first-of-something-in-a-collection">Get the first of something in a collection</h2>
+<p>For example the first jpg image in the current directory starting with the word <code>feature</code>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Pick a Squares Game" href="/posts/pick-a-squares-game/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-dice mr-2 text-3xl"></i>
+        Pick a Squares Game
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-14T11:30:43-08:00">Feb 14</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        I created a pick-a-squares game template, aka the Super Bowl squares. It is still a work in progress, but I hope to have it snazzy in time for next year. Take a look at the template.
+Project Goals Ability to enter people into squares Generate random score rows with animated flourish Presentation mode for big screen action with controller to enter periodic scores Calculate payouts based on price of a square Project Timeline Launch in time for SB LIX success Pick a Square: Head on over to the project page 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Github Action to Create New Content in Hugo" href="/posts/github-action-to-create-new-content-in-hugo/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
           <i class="text-black dark:text-white fa-brands fa-github mr-2 text-3xl"></i>
         Github Action to Create New Content in Hugo
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">posts</span>
-        on <time itemprop="datePublished" datetime="2024-01-19T21:54:43-08:00">January 19, 2024</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-01-19T21:54:43-08:00">Jan 19</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
         <p>
@@ -1306,18 +1040,14 @@ Project Goals Ability to enter people into squares Generate random score rows wi
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
   
-    
-
-
-
-
-
-  
-     
-  
-
-
 
 
 
@@ -1326,21 +1056,22 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 
 
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/arts-link/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
+      <a itemprop="url" aria-label="Arts-Link.com" href="/projects/arts-link/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
           <i class="text-black dark:text-white fa-solid fa-palette mr-2 text-3xl"></i>
         Arts-Link.com
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">projects</span>
-        on <time itemprop="datePublished" datetime="2024-01-26T23:28:00-08:00">January 26, 2024</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-01-26T23:28:00-08:00">Jan 26</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        <div x-data="{ isOpen: document.cookie.indexOf('alertClosed=true') === -1 }" x-show="isOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-2" x-transition:enter-end="opacity-100 transform translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 transform translate-y-0" x-transition:leave-end="opacity-0 transform translate-y-2" class="relative flex items-start justify-between p-4 mb-4 mx-auto text-sm border rounded-lg max-w-screen-lg text-blue-800 border-blue-300 bg-blue-50 dark:text-blue-400 dark:border-blue-800 dark:bg-blue-900" role="alert">
+        <div x-data="{ isOpen: document.cookie.indexOf('alertClosed=true') === -1 }" x-show="isOpen" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform translate-y-2" x-transition:enter-end="opacity-100 transform translate-y-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 transform translate-y-0" x-transition:leave-end="opacity-0 transform translate-y-2" class="relative flex items-start justify-between p-4 my-4 mx-auto text-lg border rounded-lg max-w-screen-lg text-blue-800 border-blue-300 bg-blue-50 dark:text-blue-400 dark:border-blue-800 dark:bg-blue-900" role="alert">
   <div class="flex items-center">
     <i class="fa-solid fa-heart-pulse flex-shrink-0 inline w-6 h-6 me-3"></i>
     <span class="sr-only">info</span>
@@ -1348,6 +1079,7 @@ Project Goals Ability to enter people into squares Generate random score rows wi
        <span class="font-bold">In Active Development:</span> Is arts-link.com a business?, a collective?, a gallery?... we're not sure, but we are going to try to find out!
     </div>
   </div>
+  
   
 </div>
 
@@ -1358,18 +1090,14 @@ Project Goals Ability to enter people into squares Generate random score rows wi
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
   
-    
-
-
-
-
-
-  
-     
-  
-
-
 
 
 
@@ -1378,26 +1106,862 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 
 
 <div itemscope="" itemtype="http://schema.org/Article" class="article">
-  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-red-400 to-red-900">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
     <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-      <a itemprop="url" href="/projects/" class="link-overlay"> </a>
-      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-red-400 to-red-900">
-          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
-        Projects
+      <a itemprop="url" aria-label="Pick a Square Game" href="/projects/pick-a-square-game/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-table-cells mr-2 text-3xl"></i>
+        Pick a Square Game
       </h2>
-      <span class="details px-6 mt-4 inline-block">
+      <span class="details pl-2 mt-4 inline-block">
         
-        by <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
-        in <span itemprop="articleSection" class="source font-bold">projects</span>
-        on <time itemprop="datePublished" datetime="2024-02-12T15:16:41-08:00">February 12, 2024</time>
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-13T10:51:24-08:00">Feb 13</time>
       </span>
       <div itemprop="articleBody" class="articleBody px-3 pb-4">
-        The projects section is a mix of case studies of professional projects I have worked on, that I have permission to write about, and personal areas of exploration on-line and otherwise. Some of these projects may be monetized in some way at some time, others are entirely open source.
+        <blockquote>
+<p>Pick a Square, any Square! Only $<em>n</em> a square! Step right up folks and get your lucky square.</p>
+</blockquote>
+<p>This was kind of a challenge from a friend of mine. He wanted squares for an event that was a website - html, not an image, that could be used on a big screen at a venue AND printed out on a poster OR standard paper all in one url, just works for all of those.</p>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
   
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Ironcove Solutions Orchestration Engine" href="/projects/ironcove-solutions-orchestration-engine/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fas fa-code-compare mr-2 text-3xl"></i>
+        Ironcove Solutions Orchestration Engine
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-03-05T14:00:47-08:00">Mar 05</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="workforce-onboarding-a-case-study-of-ironcove-solutions-orchestration-engine">Workforce Onboarding: A Case Study of Ironcove Solutions&rsquo; Orchestration Engine</h2>
+<p>I was hired by <a href="https://ironcovesolutions.com/">Ironcove Solutions</a> to lead product development for a new application they were developing called the <a href="https://ironcovesolutions.com/blog/zendesk-to-okta-as-an-onboarding-process/">Orchestration Engine</a>, an application designed to streamline workforce onboarding processes. We collaborated closely with the team from Ironcove Solutions to bring their vision to life.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Westchester, Playa Del Rey, and Playa Vista Hiking Guide" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Westchester, Playa Del Rey, and Playa Vista Hiking Guide
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:05:03-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="great-hiking-near-lax">Great hiking near LAX</h2>
+<p>This part of Los Angeles has a lot of surprisingly remote feeling hikes. Located just north of LAX these three neighborhoods have a beach, the second largest open space in Los Angeles (<a href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/">ballona wetlands</a>), and a bluff side hiking trail with expansive city, mountain and ocean views.</p>
+
+
+<div id="map1" style="height: 450px;"></div>
+<script>
+  var map = L.map('map1').setView(["33.966613", "-118.426178"], "13.5");
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  
+  L.marker(["33.9716", "-118.4363"]).addTo(map)
+    .bindPopup('Green Space right by LAX!');
+  
+</script>
+<div class="hidden">Debug Info: ID=map1, Lat=33.966613, Lon=-118.426178, Zoom=13.5</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Ballona Wetlands" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/ballona-wetlands/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Ballona Wetlands
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:23:44-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <div id="ballona-wetlands" style="height: 450px;"></div>
+<script>
+  var map = L.map('ballona-wetlands').setView(["33.9716", "-118.4363"], "13.5");
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  
+  L.marker(["33.9716", "-118.4363"]).addTo(map)
+    .bindPopup('Ballona Wetlands');
+  
+</script>
+<div class="hidden">Debug Info: ID=ballona-wetlands, Lat=33.9716, Lon=-118.4363, Zoom=13.5</div>
+
+<p>Ballona contains a complex mosaic of habitats defined mainly by hydrology, including wetland habitats, such as brackish and freshwater marshes, seasonally flooded freshwater wetlands, salt pans, riparian and upland habitats, like coastal sage scrub and sand dunes. Many wildlife species, especially birds, utilize more than one habitat type – thus the juxtaposition of these habitats next to one another, also known as heterogeneity, which is important for biodiversity.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Product Marketing" href="/projects/product-marketing/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        Product Marketing
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-10T00:13:24-07:00">May 10</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="can-small-content-websites-actually-make-money">Can small content websites actually make money?</h2>
+<p>An exploration into monetization of small content websites. These product catalog pages will be pulled in on content pages via tages and related content functionality.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Adding Leaflet to Ryder Theme" href="/posts/adding-leaflet-to-ryder-theme/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-map-location-dot mr-2 text-3xl"></i>
+        Adding Leaflet to Ryder Theme
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-10T14:19:38-07:00">May 10</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+
+<div id="bankit" style="height: 450px;"></div>
+<script>
+  var map = L.map('bankit').setView(["39.9057", "-75.1665"], "16.5");
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  
+  L.marker(["39.9057", "-75.1665"]).addTo(map)
+    .bindPopup('Life at the Bank!');
+  
+</script>
+<div class="hidden">Debug Info: ID=bankit, Lat=39.9057, Lon=-75.1665, Zoom=16.5</div>
+
+<p>I made this quick and easy shortcode to get started using leaflet.js in the <a href="https://arts-link.github.io/ryder/">Ryder Theme for Hugo Websites</a>, as I add more features supported by leaflet to the shortcode I might update this page.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Referral links tool kit" href="/link-builder/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        Referral links tool kit
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-19T12:28:06-04:00">May 19</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        A tool to build links for affiliate marketing programs.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Extreme Geomagnetic Storm Photography" href="/posts/extreme-geomagnetic-storm-photography/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-compass mr-2 text-3xl"></i>
+        Extreme Geomagnetic Storm Photography
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-20T17:02:40-07:00">May 20</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <figure><img src="/posts/extreme-geomagnetic-storm-photography/1-artist-date_feature.webp"><figcaption>
+      <h4>Extreme Geomagnetic Storm Photography</h4>
+    </figcaption>
+</figure>
+
+<p>On <a href="https://www.spaceweather.com/archive.php?view=1&amp;day=10&amp;month=05&amp;year=2024">May 10 2024</a> the biggest geomagnetic storm in almost 20 years reached category <a href="https://www.spaceweather.com/glossary/g5.jpg">G5</a>&ndash;an extreme event. So I decided it might be a fun time to go out do some night photography. There were reports of Aurora sightings as far south as Joshua Tree, so I decided to head out to take a look. These photos are taken at the end of the jetty at the Marina Del Rey break water. I didn&rsquo;t see the Aurora but it was a great sky</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="The Ryder Theme for Hugo" href="/projects/the-ryder-theme-for-hugo/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-dog mr-2 text-3xl"></i>
+        The Ryder Theme for Hugo
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-19T22:19:09-08:00">Feb 19</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+<figure>
+    <picture>
+        
+        <source loading="lazy" srcset="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_h2_box.d5fa1715830d7297ff370127d1487da64519cb06ef990ac5b252b8a15c6bfe6d.webp" type="image/webp" alt="In honor of this old guy">
+        
+
+        
+        <img loading="lazy" src="https://www.benstrawbridge.com/projects/the-ryder-theme-for-hugo/ryder-theme-og_hu5f60e37cd498838edbdbc0728d542039_86095_1000x1000_fit_q75_box.848ff1235497c64bd6c4f2bc9c04babbfcd26af08ac21860d44b104a49035e3b.jpg" alt="In honor of this old guy">
+        
+    </picture>
+
+    
+    <figcaption class="center">In honor of this old guy</figcaption>
+    
+</figure>
+
+</p>
+<p>Introducing the <a href="https://www.github.com/arts-link/ryder">Ryder theme</a>, a theme for the <a href="https://www.gohugo.io">hugo static website generator</a>. This is an open-source Hugo theme boasting Tailwind CSS, FontAwesome integration, and customizable features. Perfect for beginners and seasoned developers alike, kickstart your website with this versatile theme.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Content Adaptors" href="/projects/content-adaptors/books/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        Content Adaptors
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-17T13:36:56-07:00">May 17</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <h2 id="content-adaptors-come-to-hugo">Content Adaptors come to Hugo!</h2>
+<p>A long anticipated release has come to the hugo static site generator that will be a real game changer. This is part of <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0">release v0.126.0</a>. The new feature, called Content Adaptors allows you to generate static pages in your public directory at build time from a remote resource, such as an api.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Hugo Helpers" href="/posts/hugo_partials/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-signs-post mr-2 text-3xl"></i>
+        Hugo Helpers
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-01-12T11:22:17-08:00">Jan 12</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>Here are some useful partials I use in this theme.</p>
+<h3 id="layouts_default_markuprender-imagehtml">layouts/_default/_markup/render-image.html</h3>
+<p>This replaces the default markup template for rendering an image when the markdown code <code>![Alt Text](/path/to/img.jpg)</code> is used. It calls another partial you have to add to your theme or layout directory in your site called ImageConverter.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Tunnel Localhost Server Through Cloudflare" href="/posts/tunnel-localhost-server-through-trycloudflare/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-car-tunnel mr-2 text-3xl"></i>
+        Tunnel Localhost Server Through Cloudflare
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-14T14:06:29-08:00">Feb 14</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        This is something I have done in the past and it usually involved pretty in-depth knowledge of the shell and networking, but now there is a free service that makes it oh-so-easy to spin up a tunnel with a public human readable domain name for temporary viewing of your local network development environment on the internet. This is very useful for presentations, working with colleagues, or just briefly sharing your work. I first found out about this from Nathan Craddock&rsquo;s blog, which you should read if you want more details, but I made a few significant changes to his workflow worth a short writeup.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Styling a RSS feed With XSL" href="/posts/style-the-rss-xml-feed-with-xslt/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-code-merge mr-2 text-3xl"></i>
+        Styling a RSS feed With XSL
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-18T23:14:08-08:00">Feb 18</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        When you put a link to your rss / atom feed on your website it is a link to a raw xml file designed for feed readers such as feedly to import them and provide the reader with all their internet in one place.
+XML is code, and doesn&rsquo;t look great. If you unsuspectingly click on that Feed icon, and land on a blob of XML you will probably be confused. To fix that, you can use a tool called XSLT to style the XML so it looks like a webpage in your browser.
+An easy solution A techie/blogger named Matt Webb created a project called about feeds and provides a free xslt template you can use to make your rss feed look nice (like mine does now) and put it on github for all the world to share.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-blue-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Pines Image Gallery With Hugo" href="/posts/pines-image-gallery-with-hugo/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-blue-300">
+          <i class="text-black dark:text-white fa-solid fa-images mr-2 text-3xl"></i>
+        Pines Image Gallery With Hugo
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/posts"><span itemprop="articleSection" class="source font-bold capitalize">posts</span></a>
+        On <time itemprop="datePublished" datetime="2024-03-13T12:15:57-07:00">Mar 13</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>The first place I used this is on the recipe page about my mom&rsquo;s <a href="https://www.benstrawbridge.com/posts/moms-family-recipes-cookbook/" title="About Us">family recipe cookbook</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Bluff Trail" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/bluff-trail/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Bluff Trail
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:20:45-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>A short 1.5 mile trail located just west of LMU along the bluff beside the One Westbluff neighborhood. This trail has views of the ocean, the marina and the Ballonas Ecological Preserve.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Del Rey Lagoon" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/del-rey-lagoon/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Del Rey Lagoon
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-15T14:25:45-07:00">Apr 15</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>Del Rey Lagoon is a 14-acre park in the beach neighborhood of Playa Del Rey. This park features lighted baseball fields, basketball courts, and playground. There is a parking lot availability for visitors.</p>
+<h3 id="location">Location</h3>
+<p>The exact GPS coordinates for Del Rey Lagoon in Playa del Rey, Los Angeles are:</p>
+<p>Latitude: 33.9600° N
+Longitude: 118.4500° W</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+    
+      
+    
+  
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-blue-600 to-violet-600">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Oberrieder Park" href="/projects/hiking/westchester-playa-vista-playa-del-rey-hiking-guide/oberrieder-park/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-blue-600 to-violet-600">
+          <i class="text-black dark:text-white fas fa-person-hiking mr-2 text-3xl"></i>
+        Oberrieder Park
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/categories/hiking"><span itemprop="articleSection" class="source font-bold capitalize">hiking</span></a>
+        On <time itemprop="datePublished" datetime="2024-04-16T10:58:27-07:00">Apr 16</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        <p>Oberrieder Park includes a dog park, a basketball court, a paddle tennis court, picnic tables with grills, and a beautiful walking path along a wetland with views of the bluffs under LMU.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-gradient-to-r from-zinc-400 to-zinc-300">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="Consulting" href="/consulting/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-gradient-to-r from-zinc-400 to-zinc-300">
+          <i class="text-black dark:text-white fa-solid fa-jedi mr-2 text-3xl"></i>
+        Consulting
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/consulting"><span itemprop="articleSection" class="source font-bold capitalize">consulting</span></a>
+        On <time itemprop="datePublished" datetime="2024-02-14T15:16:41-08:00">Feb 14</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        Offering comprehensive consulting services including API integration projects, product management, and full stack application development, tailored to solve complex problems and enhance business operations efficiently and effectively.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Article" class="article">
+  
+  <div class="article-content relative p-1 rounded-t-xl bg-red-400">
+    <div class="w-full h-full bg-neutral-100 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+      <a itemprop="url" aria-label="The Hunchback of Notre Dame" href="/projects/content-adaptors/books/the-hunchback-of-notre-dame/" class="link-overlay"> </a>
+      <h2 itemprop="headline" class="text-2xl p-3 bg-red-400">
+          <i class="text-black dark:text-white fa-solid fa-diagram-project mr-2 text-3xl"></i>
+        The Hunchback of Notre Dame
+      </h2>
+      <span class="details pl-2 mt-4 inline-block">
+        
+        <span class="hidden" itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span class="author" itemprop="name">Ben Strawbridge</span></span>
+        In <a href="https://www.benstrawbridge.com/projects"><span itemprop="articleSection" class="source font-bold capitalize">projects</span></a>
+        On <time itemprop="datePublished" datetime="2024-05-06T00:00:00-07:00">May 06</time>
+      </span>
+      <div itemprop="articleBody" class="articleBody px-3 pb-4">
+        In the vaulted Gothic towers of Notre-Dame Cathedral lives Quasimodo, the hunchbacked bellringer. Mocked and shunned for his appearance, he is pitied only by Esmerelda, a beautiful gypsy dancer to whom he becomes completely devoted. Esmerelda, however, has also attracted the attention of the sinister archdeacon Claude Frollo, and when she rejects his lecherous approaches, Frollo hatches a plot to destroy her, that only Quasimodo can prevent. Victor Hugo&rsquo;s sensational, evocative novel brings life to the medieval Paris he loved, and mourns its passing in one of the greatest historical romances of the nineteenth century.
+      </div>
+    </div>
+  </div>
+</div>
   </div>
     </main>
        
@@ -1498,7 +2062,7 @@ Project Goals Ability to enter people into squares Generate random score rows wi
   
   
   
-  <a href="https://www.benstrawbridge.com/tags/budget" class="px-2 inline-block text-center break-words">budget<sup>2</sup></span></a>
+  <a href="https://www.benstrawbridge.com/tags/budget" class="px-2 inline-block text-center break-words">budget<sup>3</sup></span></a>
   
 
   
@@ -1552,7 +2116,15 @@ Project Goals Ability to enter people into squares Generate random score rows wi
   
   
   
+
+  
+  
+  
   <a href="https://www.benstrawbridge.com/tags/fiction" class="px-2 inline-block text-center break-words">fiction<sup>2</sup></span></a>
+  
+
+  
+  
   
 
   
@@ -1586,7 +2158,7 @@ Project Goals Ability to enter people into squares Generate random score rows wi
   
   
   
-  <a href="https://www.benstrawbridge.com/tags/hugo" class="px-2 inline-block text-center break-words">hugo<sup>12</sup></span></a>
+  <a href="https://www.benstrawbridge.com/tags/hugo" class="px-2 inline-block text-center break-words">hugo<sup>13</sup></span></a>
   
 
   
@@ -1603,6 +2175,8 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 
   
   
+  
+  <a href="https://www.benstrawbridge.com/tags/ingredients" class="px-2 inline-block text-center break-words">ingredients<sup>3</sup></span></a>
   
 
   
@@ -1746,7 +2320,7 @@ Project Goals Ability to enter people into squares Generate random score rows wi
   
   
   
-  <a href="https://www.benstrawbridge.com/tags/ryder-theme" class="px-2 inline-block text-center break-words">ryder theme<sup>3</sup></span></a>
+  <a href="https://www.benstrawbridge.com/tags/ryder-theme" class="px-2 inline-block text-center break-words">ryder theme<sup>4</sup></span></a>
   
 
   
@@ -2059,13 +2633,13 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 </div>
 
 <div id="themeSwitcher" class="flex justify-center mb-auto">
-  <button id="lightMode" class="p-4">
+  <button aria-label="Toggle Dark Mode" id="lightMode" class="p-4">
     <i class="aspect-square fa-solid fa-sun" title="Using Light Theme"></i>
   </button>
-  <button id="darkMode" class=" p-4">
+  <button aria-label="Toggle Dark Mode" id="darkMode" class=" p-4">
     <i class="aspect-square fa-solid fa-moon" title="Using Dark Theme"></i>
   </button>
-  <button id="systemMode" class=" p-4">
+  <button aria-label="Toggle Dark Mode" id="systemMode" class=" p-4">
     <i class="aspect-square fa-solid fa-computer" title="Using System Theme"></i>
   </button>
 </div>
@@ -2078,6 +2652,8 @@ Project Goals Ability to enter people into squares Generate random score rows wi
 </footer>
 
 </div>
+    
+    <i class="fa-solid fa-om"></i>
 
 
 </body>
