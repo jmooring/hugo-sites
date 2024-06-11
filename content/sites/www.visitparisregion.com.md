@@ -1,5 +1,5 @@
 ---
-path: /fr
+subdir: /fr
 title: www.visitparisregion.com
 types:
   - business

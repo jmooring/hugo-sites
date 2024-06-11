@@ -1,5 +1,5 @@
 ---
-path: /developer
+subdir: /developer
 title: tanzu.vmware.com
 types:
   - business

@@ -1,5 +1,5 @@
 ---
-path: /blog
+subdir: /blog
 title: hapticmedia.com
 types:
   - blog

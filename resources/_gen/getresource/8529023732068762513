@@ -1,0 +1,247 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: max-age=600
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jun 2024 13:08:21 GMT
+Etag: W/"66678ff5-35a4"
+Expires: Tue, 11 Jun 2024 12:49:46 GMT
+Last-Modified: Mon, 10 Jun 2024 23:44:53 GMT
+Server: GitHub.com
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Etags-1: W/"66678ff5-35a4"
+X-Etags-2: W/"66678ff5-35a4"
+X-Fastly-Request-Id: bee017b5d4747844242d4154992ad1d27906a1b9
+X-Github-Request-Id: ECBC:27A6F3:1D1999:1E406C:66684592
+X-Proxy-Cache: MISS
+X-Served-By: cache-bfi-kbfi7400097-BFI
+X-Timer: S1718111302.729634,VS0,VE71
+
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Christian Mahnke · Christian Mahnke</title>
+    
+
+<meta http-equiv="Content-Language" content="de">
+
+<meta name="description" content="Persönliche Homepage von Christian Mahnke">
+<meta property="og:type" content="blog" /><meta property="og:url" content="https://christianmahnke.de/" /><meta property="og:title" content="Christian Mahnke" />
+
+  
+  
+    
+  
+
+
+
+<meta name="generator" content="Hugo 0.127.0">
+<meta name="projektemacher.org:build-date" content="2024-06-10 23:40:09.131453413 &#43;0000 UTC m=&#43;0.121344455"><meta name="projektemacher.org:git-commit" content=""><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;95&#34;,&#34;latest&#34;:&#34;2024-05-16T18:22:44&#43;02:00&#34;}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<link rel="icon" type="image/svg+xml" href="https://christianmahnke.de/images/cm.svg">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<link href="https://christianmahnke.de/css/3dcde2e700baa65d3814003bfc8fa7f9.min.066209350a8da340104f0ab3ff98b9f67fc4cbf0a94fb51364b00548ba9d9207.css" rel="stylesheet" integrity="sha256-BmIJNQqNo0AQTwqz/5i59n/Ey/CpT7UTZLAFSLqdkgc=">
+<script src="https://christianmahnke.de/js/5d85c20c8f862f9ecfa0aee0edbc8fe4.min.08346fabc9ae0715cced25ee80f496cba04a1972bec7408a85edaff0d5ebc095.js" integrity="sha256-CDRvq8muBxXM7SXugPSWy6BKGXK+x0CKhe2v8NXrwJU="></script>
+<link rel="icon" type="image/png" href="https://christianmahnke.de/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://christianmahnke.de/images/favicon-16.png" sizes="16x16">
+    
+
+    <link rel="shortcut icon" href="https://christianmahnke.de/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://christianmahnke.de/img/favicon.ico" type="image/x-icon">
+
+
+    <link rel="alternate" type="application/rss+xml" href="https://christianmahnke.de/index.xml" title="Christian Mahnke" />
+    </head><body class=" home">
+         <a name="top"></a>
+         <div class="page-wrapper">
+             <div class="main">
+                 
+    
+        <div class="hero">
+    <div class="wrapper">
+        <div class="img-background">
+            <div class="img-wrapper">
+                <img class="me" alt="Christan Mahnke" src="https://christianmahnke.de/images/me-200.png">
+            </div>
+        </div>
+        <div class="hero-caption">
+            <div class="name">Christian Mahnke</div><div class="title">Enthusiast &amp; Sammler</div></div>
+    </div>
+    <div class="bouncer"></div>
+</div>
+
+<script>
+  $(document).ready(function() {
+      if (navigator.userAgent.indexOf("Firefox") > -1) {
+          $(".me").css({
+              "filter": "brightness(.75)"
+          })
+      }
+
+      $(".me").on("click", function() {
+          $(this).css({
+              "mix-blend-mode": "luminosity"
+          });
+      });
+      
+
+      if ($(document).scrollTop() > 0) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      $(".bouncer").on("click", function() {
+          $(this).css({"display": "none"});
+          var scrollTo = $(window).height();
+          $('html, body').animate({
+              scrollTop: (Math.floor($(window).scrollTop() / scrollTo) + 1) * scrollTo
+          }, 400);
+      });
+
+  });
+
+  $(window).on("scroll", function() {
+      var pixs = $(document).scrollTop() * 2;
+      if (pixs > 100) {
+          pixs = 0;
+      } else {
+          pixs = 100 - pixs;
+      }
+      $(".hero").css({
+          "filter": "grayscale(" + pixs + "%)"
+      });
+      $(".bouncer").css({"opacity": pixs + "%"});
+      if (pixs <= 0) {
+          $(".bouncer").css({"display": "none"});
+      }
+      var brightness;
+      brightness = .75 + ((.8 - .75) / 100) * pixs;
+
+      if (navigator.userAgent.indexOf("Firefox") > -1) {
+          brightness = .9 - ((0.9 - .75) / 100) * pixs;
+      }
+
+      $(".me").css({
+          "filter": "brightness(" + brightness + ")"
+      });
+  });
+</script>
+<header class="header header-main" id="head" data-sticky-class="sticky-top">
+    <div class="wrapper">
+        <label class="menu-open" for="menu-toggle">
+            <i class="menu-open-icon"></i>
+        </label>
+        <div class="menu">
+            <nav class="top top-menu">
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="menu-icon"></i></label>
+    <ul class="navigation-list"><li class="navigation-item current navto-">
+            <a class="navigation-link" href="https://christianmahnke.de/" title="Schwerpunkte">Schwerpunkte</a>
+          </li><li class="navigation-item navto-collections">
+            <a class="navigation-link" href="https://christianmahnke.de/collections" title="Sammlungen">Sammlungen</a>
+          </li><li class="navigation-item navto-post">
+            <a class="navigation-link" href="https://christianmahnke.de/post" title="Blog">Blog</a>
+          </li><li class="navigation-item navto-links">
+            <a class="navigation-link" href="https://christianmahnke.de/links" title="Links">Links</a>
+          </li><li class="navigation-item navto-about">
+            <a class="navigation-link" href="https://christianmahnke.de/about" title="Über">Über</a>
+          </li><li class="navigation-item lang">
+              <a href="https://christianmahnke.de/en/" title="English">English</a>
+            </li></ul>
+  </nav>
+        </div>
+        <div class="home-link">
+            <a href="https://christianmahnke.de/"><h1 class="header-title">Christian Mahnke</h1></a>
+        </div></div>
+    <div class="header-spacer"></div>
+    <a href="#top">
+        <div class="backToTop"></div>
+    </a>
+</header>
+<div class="home-container content-container"><div class="section-head"></div>
+<a name="interests" class="anchor" /></a>
+          <div id="interests" data-section="interests" class="section-interests even section-0 section-content">
+
+              <h1 class="section-content-title">Interessen</h1>
+              <div class="section-content-body"><p>Meine Interessen liegen in verschiedenen Aspekten der Alltagskultur des 20. Jahrhunderts und ihrer digitalen Vermittlung. Dazu sammle ich verschiedene Artefakte und probiere sie auch gerne aus. Ein Teil der Ergebnisse und Sammlungen präsentiere ich auch online.</p>
+<p>Im Idealfall unterstützt der zeitgemäße (also digitale) Transport dabei die Immersion in die Vergangenheit, die unser heutiges Leben am nachhaltigsten prägt, das 20. Jahrhundert&hellip;</p>
+</div></div><a name="projektemacher.org" class="anchor" /></a>
+          <div id="projektemacher.org" data-section="projektemacher.org" class="section-projektemacher.org odd section-1 section-content">
+
+              <h1 class="section-content-title">Projektemacher.org</h1>
+              <div class="section-content-body"><p>Meine &ldquo;Spielwiese&rdquo; zum Ausprobieren von Ideen und zur Präsentation einiger meiner Sammlungen gibt es seit der Corona-Pandemie.</p>
+<p>Auf der Seite <a href="https://projektemacher.org" target="_blank">Projektemacher.org</a> werden verschiedene Unterprojekte verlinkt. Dabei handelt es sich zu einem gewissen Teil um alte Blog-Projekte, die bisher bei <a href="https://tumblr.com" target="_blank">Tumblr</a> gehostet wurden. Der neuere Teil dreht sich um die Präsentation verschiedener Sammlungen. Diese wiederum lassen sich in die folgenden Gruppen aufteilen:</p>
+<ul>
+<li>Ressourcen für weitere Seiten (wie z.B. <a href="https://schriftmuster.projektemacher.org/" target="_blank">Schriftmuster</a> und <a href="https://vorsatzpapier.projektemacher.org/" target="_blank">Vorsatzpapier</a>)</li>
+<li>Interessante Inhalte (wie z.B. <a href="https://blaufusst%c3%b6lpel.de/" target="_blank">Blaufusstölpel</a> und <a href="https://kinderb%c3%bccher.projektemacher.org/" target="_blank">Kinderbücher</a>)</li>
+<li>Experimente zur Präsentation / Darstellung (z.B. <a href="https://kleiderb%c3%bcgel.blaufusst%c3%b6lpel.de/" target="_blank">Kleiderbügel</a>)</li>
+</ul>
+<p>Für die Zukunft sind nicht nur kontinuierliche Verbesserungen an den bestehenden Blog-Projekten geplant, sondern auch noch einige neue&hellip;</p>
+</div></div><a name="consulting" class="anchor" /></a>
+          <div id="consulting" data-section="consulting" class="section-consulting even section-2 section-content">
+
+              <h1 class="section-content-title">Beratung</h1>
+              <div class="section-content-body"><p>Falls Sie Beratung beim Aufbau einer Sammlung oder Bibliothek sowie bei der Digitalisierung und Präsentation derselben im Netz brauchen,  unterstütze ich Sie gerne.
+Unabhängig davon, ob es sich um eine eher kleine Sammlung, ein begrenztes Themenfeld (z.B. zur Begleitung einer Ausstellung) oder eine ganze Bibliothek handelt.
+Dieses Angebot richtet sich an alle Institutionen des kulturellen Erbes und sonstige Interessierte und ist nicht auf Gedrucktes beschränkt&hellip;</p>
+</div></div><div class="section-menu">
+        <ul class="section-menu-list"><li class="section-menu-list-item"><a href="#interests">Interessen</a></li><li class="section-menu-list-item"><a href="#projektemacher.org">Projektemacher.org</a></li><li class="section-menu-list-item"><a href="#consulting">Beratung</a></li></ul>
+    </div></div>
+
+    
+
+             </div><footer class="footer" role="contentinfo">
+    <div class="spacer"></div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="menu-wrapper">
+                <div class="footer-nav">
+                    <h3 class="footer-nav">Navigation</h3>
+                    <nav class="top top-menu">
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="menu-icon"></i></label>
+    <ul class="navigation-list"><li class="navigation-item current navto-">
+            <a class="navigation-link" href="https://christianmahnke.de/" title="Schwerpunkte">Schwerpunkte</a>
+          </li><li class="navigation-item navto-collections">
+            <a class="navigation-link" href="https://christianmahnke.de/collections" title="Sammlungen">Sammlungen</a>
+          </li><li class="navigation-item navto-post">
+            <a class="navigation-link" href="https://christianmahnke.de/post" title="Blog">Blog</a>
+          </li><li class="navigation-item navto-links">
+            <a class="navigation-link" href="https://christianmahnke.de/links" title="Links">Links</a>
+          </li><li class="navigation-item navto-about">
+            <a class="navigation-link" href="https://christianmahnke.de/about" title="Über">Über</a>
+          </li><li class="navigation-item lang">
+              <a href="https://christianmahnke.de/en/" title="English">English</a>
+            </li></ul>
+  </nav>
+                </div>
+            </div>
+            <div class="link-wrapper">
+                <h3 class="footer-links">Links</h3>
+                <ul class="footer-links"><li class="footer-link"><a href="https://github.com/cmahnke" target="_blank" title="GitHub"><div class="link-image github"></div>GitHub</a></li><li class="footer-link"><a href="https://projektemacher.org/" target="_blank" title="Projektemacher"><img class="link-image projektemacher" alt="Projektemacher Logo" src="https://christianmahnke.de/images/laborant.svg">Projektemacher</a></li><li class="footer-link"><a href="https://www.librarything.com/profile/cmahnke" target="_blank" title="Librarything"><div class="link-image librarything"></div>Librarything</a></li><li class="footer-link"><a href="https://www.instagram.com/projektemacher/" target="_blank" title="Instagram"><div class="link-image instagram"></div>Instagram</a></li><li class="footer-link"><a href="https://www.linkedin.com/in/cmahnke" target="_blank" title="LinkedIn"><div class="link-image linkedin"></div>LinkedIn</a></li></ul>
+            </div>
+            <div class="footer-placeholder"></div>
+            <div class="contact-wrapper">
+                <h3 class="footer-contact">Kontakt</h3><div class="footer-contact"><h4 class="contact-link">Mail</h4><a href="mailto:mail@christianmahnke.de" title="E-Mail senden">mail@christianmahnke.de</a></div><h3 class="footer-privacy"><a href="privacy" title="Datenschutzerklärung">Datenschutzerklärung</a></h3>
+                <h1 class=footer-title><img class="footer-icon" alt="Projektemacher.org" src="https://christianmahnke.de/images/cm-black.svg">Christian Mahnke</h1>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"><a href="https://christianmahnke.de">&copy; MMXXI - MMXXIV Christian Mahnke</a>
+        <span class="icons-right"><a href="https://projektemacher.org"><img class="icon" alt="Projektemacher.org" src="https://christianmahnke.de/images/cm.svg"></a></span>
+    </div>
+
+</footer>
+
+
+<script type="text/javascript">
+    let mql=window.matchMedia("(max-width: 35em)");if(!mql.matches)var sticky=stickybits("#head",{useStickyClasses:!0,stuckClass:"sticky-top"});document.querySelector(".type-text")&&enterView({selector:".type-text",enter:function(e){e.classList.add("show")},offset:.25,once:!0}),document.querySelector(".iframe-wrapper")&&enterView({selector:".iframe-wrapper",enter:function(e){e.classList.add("show")},offset:.45,once:!0}),document.addEventListener("DOMContentLoaded",function(){document.querySelector(".backToTop").removeAttribute("href"),document.addEventListener("scroll",function(){window.scrollY>window.innerHeight?document.querySelector("#head").classList.add("show-top-button"):document.querySelector("#head").classList.remove("show-top-button")})})
+</script>
+</div>
+     </body>
+ </html>

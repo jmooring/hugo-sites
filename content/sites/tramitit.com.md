@@ -1,5 +1,5 @@
 ---
-path: /en
+subdir: /en
 title: tramitit.com
 types:
   - documentation

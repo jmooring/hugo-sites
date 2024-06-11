@@ -1,5 +1,5 @@
 ---
-path: /en-us
+subdir: /en-us
 title: booksy.com
 types: []
 visibility: []

@@ -1,0 +1,960 @@
+HTTP/2.0 200 OK
+Cache-Control: max-age=600
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jun 2024 13:08:24 GMT
+Etag: "3ca2f0e6323abc7229a4abc28e890c12f4ee7ca5567a7ad34677915cee0c187e-gzip"
+Expires: Tue, 11 Jun 2024 13:18:24 UTC
+Last-Modified: Tue, 11 Jun 2024 05:06:42 GMT
+Permissions-Policy: interest-cohort=()
+Vary: Origin
+X-Etags-1: "3ca2f0e6323abc7229a4abc28e890c12f4ee7ca5567a7ad34677915cee0c187e-gzip"
+X-Etags-2: "3ca2f0e6323abc7229a4abc28e890c12f4ee7ca5567a7ad34677915cee0c187e-gzip"
+
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
+  <head>
+	<meta name="generator" content="Hugo 0.124.1">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<link rel="shortcut icon" href="/Resources/favicon.png" >
+
+<title>Graphviz</title>
+<meta name="description" content="Graph Visualization Software">
+<meta property="og:title" content="Graphviz" />
+<meta property="og:description" content="Graph Visualization Software" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://graphviz.org/" />
+<meta itemprop="name" content="Graphviz">
+<meta itemprop="description" content="Graph Visualization Software"><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Graphviz"/>
+<meta name="twitter:description" content="Graph Visualization Software"/>
+
+
+
+
+<link rel="preload" href="/scss/main.min.c7fba8d75c695e2a7cf37f10b188552511714d4c1645c16af7e24f7cc964a002.css" as="style">
+<link href="/scss/main.min.c7fba8d75c695e2a7cf37f10b188552511714d4c1645c16af7e24f7cc964a002.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+<script defer
+  src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/prism.css"/>
+<link rel="canonical" href="https://graphviz.org/">
+
+  </head>
+  <body class="td-home">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">Graphviz</span></a>
+  <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/download/"><i class='fas fa-download'></i><span>Download</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/documentation/"><i class='fas fa-book'></i><span>Documentation</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/gallery/"><i class='fas fa-images'></i><span>Gallery</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.graphviz.org/" target="_blank" rel="noopener"><i class='fab fa-discourse'></i><span>Forum</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gitlab.com/graphviz/graphviz" target="_blank" rel="noopener"><i class='fab fa-gitlab'></i><span>GitLab</span></a>
+      </li>
+      </ul>
+  </div>
+  <div class="d-none d-lg-block">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.da5a1e84f6f99109deeecc974be89038.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+  <script>
+    $(function() {
+    $("#td-section-nav a").removeClass("active");
+    $("#td-section-nav #m-").addClass("active"); 
+    $("#td-section-nav #m--li span").addClass("td-sidebar-nav-active-item"); 
+    $("#td-section-nav #m-").parents("li").addClass("active-path"); 
+    $("#td-section-nav li.active-path").addClass("show"); 
+    $("#td-section-nav li.active-path").children("input").prop('checked', true);
+    $("#td-section-nav #m--li").siblings("li").addClass("show");  
+    $("#td-section-nav #m--li").children("ul").children("li").addClass("show");  
+    $("#td-sidebar-menu").toggleClass("d-none"); 
+    });
+  </script>
+  <div id="td-sidebar-menu" class="td-sidebar__inner d-none">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search td-search--offline">
+  <div class="td-search__icon"></div>
+  <input
+    type="search"
+    class="td-search__input form-control"
+    placeholder="Search this site…"
+    aria-label="Search this site…"
+    autocomplete="off"
+    
+    data-offline-search-index-json-src="/offline-search-index.da5a1e84f6f99109deeecc974be89038.json"
+    data-offline-search-base-href="/"
+    data-offline-search-max-results="10"
+  >
+</div>
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ms-3 fas fa-bars" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m--li">
+  <a href="/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-"><span class="">Graphviz</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-about-li">
+  <a href="/about/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-about"><span class="">About</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-download-li">
+  <a href="/download/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-download"><span class="">Download</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-downloadsource-li">
+  <a href="/download/source/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-downloadsource"><span class="">Source Code</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-documentation-li">
+  <a href="/documentation/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-documentation"><span class="">Documentation</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docinfolanghtml-li">
+  <a href="/doc/info/lang.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docinfolanghtml"><span class="">DOT Language</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docinfocommandhtml-li">
+  <a href="/doc/info/command.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docinfocommandhtml"><span class="">Command Line</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscliacyclic-li">
+  <a href="/docs/cli/acyclic/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscliacyclic"><span class="">acyclic</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclibcomps-li">
+  <a href="/docs/cli/bcomps/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclibcomps"><span class="">bcomps</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscliccomps-li">
+  <a href="/docs/cli/ccomps/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscliccomps"><span class="">ccomps</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclicluster-li">
+  <a href="/docs/cli/cluster/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclicluster"><span class="">cluster</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclidiffimg-li">
+  <a href="/docs/cli/diffimg/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclidiffimg"><span class="">diffimg</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclidijkstra-li">
+  <a href="/docs/cli/dijkstra/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclidijkstra"><span class="">dijkstra</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclidotty-li">
+  <a href="/docs/cli/dotty/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclidotty"><span class="">dotty</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscliedgepaint-li">
+  <a href="/docs/cli/edgepaint/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscliedgepaint"><span class="">edgepaint</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligc-li">
+  <a href="/docs/cli/gc/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligc"><span class="">gc</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligml2gv-li">
+  <a href="/docs/cli/gml2gv/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligml2gv"><span class="">gml2gv</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligraphml2gv-li">
+  <a href="/docs/cli/graphml2gv/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligraphml2gv"><span class="">graphml2gv</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligv2gxl-li">
+  <a href="/docs/cli/gv2gxl/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligv2gxl"><span class="">gv2gxl</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvcolor-li">
+  <a href="/docs/cli/gvcolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvcolor"><span class="">gvcolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvedit-li">
+  <a href="/docs/cli/gvedit/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvedit"><span class="">gvedit</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvgen-li">
+  <a href="/docs/cli/gvgen/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvgen"><span class="">gvgen</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvmap-li">
+  <a href="/docs/cli/gvmap/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvmap"><span class="">gvmap</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvpack-li">
+  <a href="/docs/cli/gvpack/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvpack"><span class="">gvpack</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligvpr-li">
+  <a href="/docs/cli/gvpr/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligvpr"><span class="">gvpr</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscligxl2gv-li">
+  <a href="/docs/cli/gxl2gv/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscligxl2gv"><span class="">gxl2gv</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclilefty-li">
+  <a href="/docs/cli/lefty/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclilefty"><span class="">lefty</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclilneato-li">
+  <a href="/docs/cli/lneato/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclilneato"><span class="">lneato</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclimingle-li">
+  <a href="/docs/cli/mingle/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclimingle"><span class="">mingle</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclimm2gv-li">
+  <a href="/docs/cli/mm2gv/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclimm2gv"><span class="">mm2gv</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclinop-li">
+  <a href="/docs/cli/nop/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclinop"><span class="">nop</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclisccmap-li">
+  <a href="/docs/cli/sccmap/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclisccmap"><span class="">sccmap</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclismyrna-li">
+  <a href="/docs/cli/smyrna/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclismyrna"><span class="">smyrna</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclitred-li">
+  <a href="/docs/cli/tred/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclitred"><span class="">tred</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docscliunflatten-li">
+  <a href="/docs/cli/unflatten/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docscliunflatten"><span class="">unflatten</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsclivimdot-li">
+  <a href="/docs/cli/vimdot/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsclivimdot"><span class="">vimdot</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docslayouts-li">
+  <a href="/docs/layouts/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docslayouts"><span class="">Layout Engines</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsdot-li">
+  <a href="/docs/layouts/dot/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsdot"><span class="">dot</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsneato-li">
+  <a href="/docs/layouts/neato/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsneato"><span class="">neato</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsfdp-li">
+  <a href="/docs/layouts/fdp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsfdp"><span class="">fdp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutssfdp-li">
+  <a href="/docs/layouts/sfdp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutssfdp"><span class="">sfdp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutscirco-li">
+  <a href="/docs/layouts/circo/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutscirco"><span class="">circo</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutstwopi-li">
+  <a href="/docs/layouts/twopi/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutstwopi"><span class="">twopi</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsnop-li">
+  <a href="/docs/layouts/nop/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsnop"><span class="">nop</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsnop2-li">
+  <a href="/docs/layouts/nop2/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsnop2"><span class="">nop2</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutsosage-li">
+  <a href="/docs/layouts/osage/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutsosage"><span class="">osage</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutspatchwork-li">
+  <a href="/docs/layouts/patchwork/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutspatchwork"><span class="">patchwork</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docslayoutswriting-layout-plugins-li">
+  <a href="/docs/layouts/writing-layout-plugins/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslayoutswriting-layout-plugins"><span class="">Writing Layout Plugins</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsoutputs-li">
+  <a href="/docs/outputs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsoutputs"><span class="">Output Formats</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsbmp-li">
+  <a href="/docs/outputs/bmp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsbmp"><span class="">BMP</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputscgimage-li">
+  <a href="/docs/outputs/cgimage/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputscgimage"><span class="">CGImage</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputscanon-li">
+  <a href="/docs/outputs/canon/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputscanon"><span class="">DOT</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputseps-li">
+  <a href="/docs/outputs/eps/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputseps"><span class="">EPS</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsexr-li">
+  <a href="/docs/outputs/exr/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsexr"><span class="">EXR</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsfig-li">
+  <a href="/docs/outputs/fig/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsfig"><span class="">FIG</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsgd-li">
+  <a href="/docs/outputs/gd/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsgd"><span class="">GD/GD2</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsgif-li">
+  <a href="/docs/outputs/gif/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsgif"><span class="">GIF</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsgtk-li">
+  <a href="/docs/outputs/gtk/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsgtk"><span class="">GTK</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsico-li">
+  <a href="/docs/outputs/ico/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsico"><span class="">ICO</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsimap-li">
+  <a href="/docs/outputs/imap/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsimap"><span class="">Imagemap</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsjpg-li">
+  <a href="/docs/outputs/jpg/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsjpg"><span class="">JPEG</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsjp2-li">
+  <a href="/docs/outputs/jp2/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsjp2"><span class="">JPEG 2000</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsjson-li">
+  <a href="/docs/outputs/json/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsjson"><span class="">JSON</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspdf-li">
+  <a href="/docs/outputs/pdf/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspdf"><span class="">PDF</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspic-li">
+  <a href="/docs/outputs/pic/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspic"><span class="">PIC</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspct-li">
+  <a href="/docs/outputs/pct/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspct"><span class="">PICT</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsplain-li">
+  <a href="/docs/outputs/plain/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsplain"><span class="">Plain Text</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspng-li">
+  <a href="/docs/outputs/png/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspng"><span class="">PNG</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspov-li">
+  <a href="/docs/outputs/pov/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspov"><span class="">POV-Ray</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsps-li">
+  <a href="/docs/outputs/ps/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsps"><span class="">PS</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsps2-li">
+  <a href="/docs/outputs/ps2/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsps2"><span class="">PS/PDF</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputspsd-li">
+  <a href="/docs/outputs/psd/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputspsd"><span class="">PSD</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputssgi-li">
+  <a href="/docs/outputs/sgi/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputssgi"><span class="">SGI</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputssvg-li">
+  <a href="/docs/outputs/svg/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputssvg"><span class="">SVG</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputstga-li">
+  <a href="/docs/outputs/tga/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputstga"><span class="">TGA</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputstif-li">
+  <a href="/docs/outputs/tif/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputstif"><span class="">TIFF</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputstk-li">
+  <a href="/docs/outputs/tk/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputstk"><span class="">Tk</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsvml-li">
+  <a href="/docs/outputs/vml/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsvml"><span class="">VML</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsvrml-li">
+  <a href="/docs/outputs/vrml/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsvrml"><span class="">VRML</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputswbmp-li">
+  <a href="/docs/outputs/wbmp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputswbmp"><span class="">WBMP</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputswebp-li">
+  <a href="/docs/outputs/webp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputswebp"><span class="">WebP</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsoutputsxlib-li">
+  <a href="/docs/outputs/xlib/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsoutputsxlib"><span class="">X11</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docinfoattrshtml-li">
+  <a href="/doc/info/attrs.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docinfoattrshtml"><span class="">Attributes</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsbackground-li">
+  <a href="/docs/attrs/background/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsbackground"><span class="">_background</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsarea-li">
+  <a href="/docs/attrs/area/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsarea"><span class="">area</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsarrowhead-li">
+  <a href="/docs/attrs/arrowhead/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsarrowhead"><span class="">arrowhead</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsarrowsize-li">
+  <a href="/docs/attrs/arrowsize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsarrowsize"><span class="">arrowsize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsarrowtail-li">
+  <a href="/docs/attrs/arrowtail/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsarrowtail"><span class="">arrowtail</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsbb-li">
+  <a href="/docs/attrs/bb/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsbb"><span class="">bb</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsbeautify-li">
+  <a href="/docs/attrs/beautify/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsbeautify"><span class="">beautify</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsbgcolor-li">
+  <a href="/docs/attrs/bgcolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsbgcolor"><span class="">bgcolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscenter-li">
+  <a href="/docs/attrs/center/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscenter"><span class="">center</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscharset-li">
+  <a href="/docs/attrs/charset/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscharset"><span class="">charset</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsclass-li">
+  <a href="/docs/attrs/class/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsclass"><span class="">class</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscluster-li">
+  <a href="/docs/attrs/cluster/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscluster"><span class="">cluster</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsclusterrank-li">
+  <a href="/docs/attrs/clusterrank/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsclusterrank"><span class="">clusterrank</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscolor-li">
+  <a href="/docs/attrs/color/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscolor"><span class="">color</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscolorscheme-li">
+  <a href="/docs/attrs/colorscheme/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscolorscheme"><span class="">colorscheme</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscomment-li">
+  <a href="/docs/attrs/comment/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscomment"><span class="">comment</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrscompound-li">
+  <a href="/docs/attrs/compound/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrscompound"><span class="">compound</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsconcentrate-li">
+  <a href="/docs/attrs/concentrate/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsconcentrate"><span class="">concentrate</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsconstraint-li">
+  <a href="/docs/attrs/constraint/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsconstraint"><span class="">constraint</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdamping-li">
+  <a href="/docs/attrs/Damping/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdamping"><span class="">Damping</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdecorate-li">
+  <a href="/docs/attrs/decorate/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdecorate"><span class="">decorate</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdefaultdist-li">
+  <a href="/docs/attrs/defaultdist/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdefaultdist"><span class="">defaultdist</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdim-li">
+  <a href="/docs/attrs/dim/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdim"><span class="">dim</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdimen-li">
+  <a href="/docs/attrs/dimen/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdimen"><span class="">dimen</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdir-li">
+  <a href="/docs/attrs/dir/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdir"><span class="">dir</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdiredgeconstraints-li">
+  <a href="/docs/attrs/diredgeconstraints/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdiredgeconstraints"><span class="">diredgeconstraints</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdistortion-li">
+  <a href="/docs/attrs/distortion/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdistortion"><span class="">distortion</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsdpi-li">
+  <a href="/docs/attrs/dpi/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsdpi"><span class="">dpi</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsedgehref-li">
+  <a href="/docs/attrs/edgehref/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsedgehref"><span class="">edgehref</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsedgetarget-li">
+  <a href="/docs/attrs/edgetarget/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsedgetarget"><span class="">edgetarget</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsedgetooltip-li">
+  <a href="/docs/attrs/edgetooltip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsedgetooltip"><span class="">edgetooltip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsedgeurl-li">
+  <a href="/docs/attrs/edgeURL/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsedgeurl"><span class="">edgeURL</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsepsilon-li">
+  <a href="/docs/attrs/epsilon/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsepsilon"><span class="">epsilon</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsesep-li">
+  <a href="/docs/attrs/esep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsesep"><span class="">esep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfillcolor-li">
+  <a href="/docs/attrs/fillcolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfillcolor"><span class="">fillcolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfixedsize-li">
+  <a href="/docs/attrs/fixedsize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfixedsize"><span class="">fixedsize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfontcolor-li">
+  <a href="/docs/attrs/fontcolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfontcolor"><span class="">fontcolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfontname-li">
+  <a href="/docs/attrs/fontname/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfontname"><span class="">fontname</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfontnames-li">
+  <a href="/docs/attrs/fontnames/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfontnames"><span class="">fontnames</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfontpath-li">
+  <a href="/docs/attrs/fontpath/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfontpath"><span class="">fontpath</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsfontsize-li">
+  <a href="/docs/attrs/fontsize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsfontsize"><span class="">fontsize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsforcelabels-li">
+  <a href="/docs/attrs/forcelabels/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsforcelabels"><span class="">forcelabels</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsgradientangle-li">
+  <a href="/docs/attrs/gradientangle/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsgradientangle"><span class="">gradientangle</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsgroup-li">
+  <a href="/docs/attrs/group/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsgroup"><span class="">group</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrshead_lp-li">
+  <a href="/docs/attrs/head_lp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrshead_lp"><span class="">head_lp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadclip-li">
+  <a href="/docs/attrs/headclip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadclip"><span class="">headclip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadhref-li">
+  <a href="/docs/attrs/headhref/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadhref"><span class="">headhref</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadlabel-li">
+  <a href="/docs/attrs/headlabel/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadlabel"><span class="">headlabel</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadport-li">
+  <a href="/docs/attrs/headport/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadport"><span class="">headport</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadtarget-li">
+  <a href="/docs/attrs/headtarget/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadtarget"><span class="">headtarget</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadtooltip-li">
+  <a href="/docs/attrs/headtooltip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadtooltip"><span class="">headtooltip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheadurl-li">
+  <a href="/docs/attrs/headURL/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheadurl"><span class="">headURL</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsheight-li">
+  <a href="/docs/attrs/height/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsheight"><span class="">height</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrshref-li">
+  <a href="/docs/attrs/href/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrshref"><span class="">href</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsid-li">
+  <a href="/docs/attrs/id/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsid"><span class="">id</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsimage-li">
+  <a href="/docs/attrs/image/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsimage"><span class="">image</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsimagepath-li">
+  <a href="/docs/attrs/imagepath/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsimagepath"><span class="">imagepath</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsimagepos-li">
+  <a href="/docs/attrs/imagepos/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsimagepos"><span class="">imagepos</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsimagescale-li">
+  <a href="/docs/attrs/imagescale/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsimagescale"><span class="">imagescale</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsinputscale-li">
+  <a href="/docs/attrs/inputscale/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsinputscale"><span class="">inputscale</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsk-li">
+  <a href="/docs/attrs/K/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsk"><span class="">K</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabel-li">
+  <a href="/docs/attrs/label/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabel"><span class="">label</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabel_scheme-li">
+  <a href="/docs/attrs/label_scheme/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabel_scheme"><span class="">label_scheme</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelangle-li">
+  <a href="/docs/attrs/labelangle/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelangle"><span class="">labelangle</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabeldistance-li">
+  <a href="/docs/attrs/labeldistance/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabeldistance"><span class="">labeldistance</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelfloat-li">
+  <a href="/docs/attrs/labelfloat/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelfloat"><span class="">labelfloat</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelfontcolor-li">
+  <a href="/docs/attrs/labelfontcolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelfontcolor"><span class="">labelfontcolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelfontname-li">
+  <a href="/docs/attrs/labelfontname/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelfontname"><span class="">labelfontname</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelfontsize-li">
+  <a href="/docs/attrs/labelfontsize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelfontsize"><span class="">labelfontsize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelhref-li">
+  <a href="/docs/attrs/labelhref/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelhref"><span class="">labelhref</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabeljust-li">
+  <a href="/docs/attrs/labeljust/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabeljust"><span class="">labeljust</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelloc-li">
+  <a href="/docs/attrs/labelloc/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelloc"><span class="">labelloc</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabeltarget-li">
+  <a href="/docs/attrs/labeltarget/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabeltarget"><span class="">labeltarget</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabeltooltip-li">
+  <a href="/docs/attrs/labeltooltip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabeltooltip"><span class="">labeltooltip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslabelurl-li">
+  <a href="/docs/attrs/labelURL/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslabelurl"><span class="">labelURL</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslandscape-li">
+  <a href="/docs/attrs/landscape/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslandscape"><span class="">landscape</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayer-li">
+  <a href="/docs/attrs/layer/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayer"><span class="">layer</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayerlistsep-li">
+  <a href="/docs/attrs/layerlistsep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayerlistsep"><span class="">layerlistsep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayers-li">
+  <a href="/docs/attrs/layers/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayers"><span class="">layers</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayerselect-li">
+  <a href="/docs/attrs/layerselect/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayerselect"><span class="">layerselect</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayersep-li">
+  <a href="/docs/attrs/layersep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayersep"><span class="">layersep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslayout-li">
+  <a href="/docs/attrs/layout/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslayout"><span class="">layout</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslen-li">
+  <a href="/docs/attrs/len/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslen"><span class="">len</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslevels-li">
+  <a href="/docs/attrs/levels/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslevels"><span class="">levels</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslevelsgap-li">
+  <a href="/docs/attrs/levelsgap/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslevelsgap"><span class="">levelsgap</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslhead-li">
+  <a href="/docs/attrs/lhead/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslhead"><span class="">lhead</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslheight-li">
+  <a href="/docs/attrs/lheight/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslheight"><span class="">lheight</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslinelength-li">
+  <a href="/docs/attrs/linelength/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslinelength"><span class="">linelength</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslp-li">
+  <a href="/docs/attrs/lp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslp"><span class="">lp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsltail-li">
+  <a href="/docs/attrs/ltail/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsltail"><span class="">ltail</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrslwidth-li">
+  <a href="/docs/attrs/lwidth/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrslwidth"><span class="">lwidth</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmargin-li">
+  <a href="/docs/attrs/margin/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmargin"><span class="">margin</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmaxiter-li">
+  <a href="/docs/attrs/maxiter/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmaxiter"><span class="">maxiter</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmclimit-li">
+  <a href="/docs/attrs/mclimit/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmclimit"><span class="">mclimit</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmindist-li">
+  <a href="/docs/attrs/mindist/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmindist"><span class="">mindist</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsminlen-li">
+  <a href="/docs/attrs/minlen/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsminlen"><span class="">minlen</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmode-li">
+  <a href="/docs/attrs/mode/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmode"><span class="">mode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsmodel-li">
+  <a href="/docs/attrs/model/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsmodel"><span class="">model</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnewrank-li">
+  <a href="/docs/attrs/newrank/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnewrank"><span class="">newrank</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnodesep-li">
+  <a href="/docs/attrs/nodesep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnodesep"><span class="">nodesep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnojustify-li">
+  <a href="/docs/attrs/nojustify/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnojustify"><span class="">nojustify</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnormalize-li">
+  <a href="/docs/attrs/normalize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnormalize"><span class="">normalize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnotranslate-li">
+  <a href="/docs/attrs/notranslate/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnotranslate"><span class="">notranslate</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnslimit-li">
+  <a href="/docs/attrs/nslimit/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnslimit"><span class="">nslimit</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsnslimit1-li">
+  <a href="/docs/attrs/nslimit1/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsnslimit1"><span class="">nslimit1</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsoneblock-li">
+  <a href="/docs/attrs/oneblock/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsoneblock"><span class="">oneblock</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsordering-li">
+  <a href="/docs/attrs/ordering/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsordering"><span class="">ordering</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsorientation-li">
+  <a href="/docs/attrs/orientation/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsorientation"><span class="">orientation</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsoutputorder-li">
+  <a href="/docs/attrs/outputorder/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsoutputorder"><span class="">outputorder</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsoverlap-li">
+  <a href="/docs/attrs/overlap/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsoverlap"><span class="">overlap</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsoverlap_scaling-li">
+  <a href="/docs/attrs/overlap_scaling/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsoverlap_scaling"><span class="">overlap_scaling</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsoverlap_shrink-li">
+  <a href="/docs/attrs/overlap_shrink/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsoverlap_shrink"><span class="">overlap_shrink</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspack-li">
+  <a href="/docs/attrs/pack/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspack"><span class="">pack</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspackmode-li">
+  <a href="/docs/attrs/packmode/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspackmode"><span class="">packmode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspad-li">
+  <a href="/docs/attrs/pad/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspad"><span class="">pad</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspage-li">
+  <a href="/docs/attrs/page/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspage"><span class="">page</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspagedir-li">
+  <a href="/docs/attrs/pagedir/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspagedir"><span class="">pagedir</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspencolor-li">
+  <a href="/docs/attrs/pencolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspencolor"><span class="">pencolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspenwidth-li">
+  <a href="/docs/attrs/penwidth/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspenwidth"><span class="">penwidth</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsperipheries-li">
+  <a href="/docs/attrs/peripheries/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsperipheries"><span class="">peripheries</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspin-li">
+  <a href="/docs/attrs/pin/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspin"><span class="">pin</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrspos-li">
+  <a href="/docs/attrs/pos/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrspos"><span class="">pos</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsquadtree-li">
+  <a href="/docs/attrs/quadtree/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsquadtree"><span class="">quadtree</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsquantum-li">
+  <a href="/docs/attrs/quantum/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsquantum"><span class="">quantum</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrank-li">
+  <a href="/docs/attrs/rank/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrank"><span class="">rank</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrankdir-li">
+  <a href="/docs/attrs/rankdir/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrankdir"><span class="">rankdir</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsranksep-li">
+  <a href="/docs/attrs/ranksep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsranksep"><span class="">ranksep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsratio-li">
+  <a href="/docs/attrs/ratio/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsratio"><span class="">ratio</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrects-li">
+  <a href="/docs/attrs/rects/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrects"><span class="">rects</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsregular-li">
+  <a href="/docs/attrs/regular/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsregular"><span class="">regular</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsremincross-li">
+  <a href="/docs/attrs/remincross/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsremincross"><span class="">remincross</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrepulsiveforce-li">
+  <a href="/docs/attrs/repulsiveforce/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrepulsiveforce"><span class="">repulsiveforce</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsresolution-li">
+  <a href="/docs/attrs/resolution/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsresolution"><span class="">resolution</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsroot-li">
+  <a href="/docs/attrs/root/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsroot"><span class="">root</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrotate-li">
+  <a href="/docs/attrs/rotate/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrotate"><span class="">rotate</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsrotation-li">
+  <a href="/docs/attrs/rotation/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsrotation"><span class="">rotation</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssamehead-li">
+  <a href="/docs/attrs/samehead/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssamehead"><span class="">samehead</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssametail-li">
+  <a href="/docs/attrs/sametail/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssametail"><span class="">sametail</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssamplepoints-li">
+  <a href="/docs/attrs/samplepoints/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssamplepoints"><span class="">samplepoints</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsscale-li">
+  <a href="/docs/attrs/scale/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsscale"><span class="">scale</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssearchsize-li">
+  <a href="/docs/attrs/searchsize/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssearchsize"><span class="">searchsize</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssep-li">
+  <a href="/docs/attrs/sep/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssep"><span class="">sep</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsshape-li">
+  <a href="/docs/attrs/shape/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsshape"><span class="">shape</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsshapefile-li">
+  <a href="/docs/attrs/shapefile/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsshapefile"><span class="">shapefile</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsshowboxes-li">
+  <a href="/docs/attrs/showboxes/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsshowboxes"><span class="">showboxes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssides-li">
+  <a href="/docs/attrs/sides/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssides"><span class="">sides</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssize-li">
+  <a href="/docs/attrs/size/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssize"><span class="">size</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsskew-li">
+  <a href="/docs/attrs/skew/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsskew"><span class="">skew</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssmoothing-li">
+  <a href="/docs/attrs/smoothing/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssmoothing"><span class="">smoothing</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssortv-li">
+  <a href="/docs/attrs/sortv/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssortv"><span class="">sortv</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrssplines-li">
+  <a href="/docs/attrs/splines/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrssplines"><span class="">splines</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsstart-li">
+  <a href="/docs/attrs/start/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsstart"><span class="">start</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsstyle-li">
+  <a href="/docs/attrs/style/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsstyle"><span class="">style</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsstylesheet-li">
+  <a href="/docs/attrs/stylesheet/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsstylesheet"><span class="">stylesheet</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstail_lp-li">
+  <a href="/docs/attrs/tail_lp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstail_lp"><span class="">tail_lp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailclip-li">
+  <a href="/docs/attrs/tailclip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailclip"><span class="">tailclip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailhref-li">
+  <a href="/docs/attrs/tailhref/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailhref"><span class="">tailhref</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstaillabel-li">
+  <a href="/docs/attrs/taillabel/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstaillabel"><span class="">taillabel</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailport-li">
+  <a href="/docs/attrs/tailport/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailport"><span class="">tailport</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailtarget-li">
+  <a href="/docs/attrs/tailtarget/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailtarget"><span class="">tailtarget</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailtooltip-li">
+  <a href="/docs/attrs/tailtooltip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailtooltip"><span class="">tailtooltip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstailurl-li">
+  <a href="/docs/attrs/tailURL/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstailurl"><span class="">tailURL</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstarget-li">
+  <a href="/docs/attrs/target/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstarget"><span class="">target</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstbbalance-li">
+  <a href="/docs/attrs/TBbalance/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstbbalance"><span class="">TBbalance</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstooltip-li">
+  <a href="/docs/attrs/tooltip/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstooltip"><span class="">tooltip</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrstruecolor-li">
+  <a href="/docs/attrs/truecolor/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrstruecolor"><span class="">truecolor</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsurl-li">
+  <a href="/docs/attrs/URL/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsurl"><span class="">URL</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsvertices-li">
+  <a href="/docs/attrs/vertices/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsvertices"><span class="">vertices</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsviewport-li">
+  <a href="/docs/attrs/viewport/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsviewport"><span class="">viewport</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsvoro_margin-li">
+  <a href="/docs/attrs/voro_margin/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsvoro_margin"><span class="">voro_margin</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsweight-li">
+  <a href="/docs/attrs/weight/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsweight"><span class="">weight</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrswidth-li">
+  <a href="/docs/attrs/width/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrswidth"><span class="">width</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsxdotversion-li">
+  <a href="/docs/attrs/xdotversion/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsxdotversion"><span class="">xdotversion</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsxlabel-li">
+  <a href="/docs/attrs/xlabel/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsxlabel"><span class="">xlabel</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsxlp-li">
+  <a href="/docs/attrs/xlp/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsxlp"><span class="">xlp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattrsz-li">
+  <a href="/docs/attrs/z/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattrsz"><span class="">z</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsattr-types-li">
+  <a href="/docs/attr-types/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsattr-types"><span class="">Attribute Types</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesadddouble-li">
+  <a href="/docs/attr-types/addDouble/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesadddouble"><span class="">addDouble</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesaddpoint-li">
+  <a href="/docs/attr-types/addPoint/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesaddpoint"><span class="">addPoint</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesarrowtype-li">
+  <a href="/docs/attr-types/arrowType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesarrowtype"><span class="">arrowType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesbool-li">
+  <a href="/docs/attr-types/bool/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesbool"><span class="">bool</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesclustermode-li">
+  <a href="/docs/attr-types/clusterMode/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesclustermode"><span class="">clusterMode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typescolor-li">
+  <a href="/docs/attr-types/color/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typescolor"><span class="">color</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typescolorlist-li">
+  <a href="/docs/attr-types/colorList/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typescolorlist"><span class="">colorList</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesdirtype-li">
+  <a href="/docs/attr-types/dirType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesdirtype"><span class="">dirType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesdouble-li">
+  <a href="/docs/attr-types/double/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesdouble"><span class="">double</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesdoublelist-li">
+  <a href="/docs/attr-types/doubleList/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesdoublelist"><span class="">doubleList</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesescstring-li">
+  <a href="/docs/attr-types/escString/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesescstring"><span class="">escString</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesint-li">
+  <a href="/docs/attr-types/int/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesint"><span class="">int</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typeslayerlist-li">
+  <a href="/docs/attr-types/layerList/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typeslayerlist"><span class="">layerList</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typeslayerrange-li">
+  <a href="/docs/attr-types/layerRange/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typeslayerrange"><span class="">layerRange</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typeslblstring-li">
+  <a href="/docs/attr-types/lblString/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typeslblstring"><span class="">lblString</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesoutputmode-li">
+  <a href="/docs/attr-types/outputMode/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesoutputmode"><span class="">outputMode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typespackmode-li">
+  <a href="/docs/attr-types/packMode/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typespackmode"><span class="">packMode</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typespagedir-li">
+  <a href="/docs/attr-types/pagedir/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typespagedir"><span class="">pagedir</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typespoint-li">
+  <a href="/docs/attr-types/point/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typespoint"><span class="">point</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typespointlist-li">
+  <a href="/docs/attr-types/pointList/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typespointlist"><span class="">pointList</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesportpos-li">
+  <a href="/docs/attr-types/portPos/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesportpos"><span class="">portPos</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesquadtype-li">
+  <a href="/docs/attr-types/quadType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesquadtype"><span class="">quadType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesrankdir-li">
+  <a href="/docs/attr-types/rankdir/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesrankdir"><span class="">rankdir</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesranktype-li">
+  <a href="/docs/attr-types/rankType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesranktype"><span class="">rankType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesrect-li">
+  <a href="/docs/attr-types/rect/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesrect"><span class="">rect</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesshape-li">
+  <a href="/docs/attr-types/shape/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesshape"><span class="">shape</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typessmoothtype-li">
+  <a href="/docs/attr-types/smoothType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typessmoothtype"><span class="">smoothType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typessplinetype-li">
+  <a href="/docs/attr-types/splineType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typessplinetype"><span class="">splineType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesstarttype-li">
+  <a href="/docs/attr-types/startType/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesstarttype"><span class="">startType</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesstring-li">
+  <a href="/docs/attr-types/string/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesstring"><span class="">string</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesstyle-li">
+  <a href="/docs/attr-types/style/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesstyle"><span class="">style</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesviewport-li">
+  <a href="/docs/attr-types/viewPort/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesviewport"><span class="">viewPort</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docsattr-typesxdot-li">
+  <a href="/docs/attr-types/xdot/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docsattr-typesxdot"><span class="">xdot</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsgraph-li">
+  <a href="/docs/graph/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsgraph"><span class="">Graph Attributes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsnodes-li">
+  <a href="/docs/nodes/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsnodes"><span class="">Node Attributes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docinfoshapeshtml-li">
+  <a href="/doc/info/shapes.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docinfoshapeshtml"><span class="">Node Shapes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsclusters-li">
+  <a href="/docs/clusters/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsclusters"><span class="">Cluster Attributes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsedges-li">
+  <a href="/docs/edges/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docsedges"><span class="">Edge Attributes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docinfoarrowshtml-li">
+  <a href="/doc/info/arrows.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docinfoarrowshtml"><span class="">Arrow Shapes</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docinfocolorshtml-li">
+  <a href="/doc/info/colors.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docinfocolorshtml"><span class="">Color Names</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-doccharhtml-li">
+  <a href="/doc/char.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-doccharhtml"><span class="">Character Entities</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docslibrary-li">
+  <a href="/docs/library/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docslibrary"><span class="">Library Usage</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-theory-li">
+  <a href="/theory/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-theory"><span class="">Theory/Publications</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-license-li">
+  <a href="/license/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-license"><span class="">License</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-resources-li">
+  <a href="/resources/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-resources"><span class="">External Resources</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-credits-li">
+  <a href="/credits/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-credits"><span class="">Credits</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-faq-li">
+  <a href="/faq/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-faq"><span class="">FAQ</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-faqfont-li">
+  <a href="/faq/font/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-faqfont"><span class="">Font FAQ</span></a>
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-contact-li">
+  <a href="/contact/" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-contact"><span class="">Contact</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docbuildhtml-li">
+  <a href="/doc/build.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__section" id="m-docbuildhtml"><span class="">Building</span></a>
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docwinbuildhtml-li">
+  <a href="/doc/winbuild.html" class="align-left ps-0 td-sidebar-link td-sidebar-link__page" id="m-docwinbuildhtml"><span class="">Windows</span></a>
+</li>
+  </ul>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+<a href="https://gitlab.com/graphviz/graphviz.gitlab.io/tree/main/content/en//" class="td-page-meta--view" target="_blank" rel="noopener"><i class="fa fa-file-alt fa-fw"></i> View page source</a>
+  <a href="https://gitlab.com/graphviz/graphviz.gitlab.io/edit/main/content/en//" class="td-page-meta--edit" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+  <a href="https://gitlab.com/graphviz/graphviz.gitlab.io/new/main/content/en//?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> Create child page</a>
+  <a href="https://gitlab.com/graphviz/graphviz.gitlab.io/issues/new?title=Graphviz" class="td-page-meta--issue" target="_blank" rel="noopener"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+  
+</div>
+
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-graphviz">What is Graphviz?</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#download">Download</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+    <li><a href="#discussions">Discussions</a></li>
+    <li><a href="#bug-and-issue-tracking">Bug And Issue Tracking</a></li>
+  </ul>
+</nav>
+      </div>
+    
+            
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs td-breadcrumbs__single">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item active" aria-current="page">
+    Graphviz</li>
+  </ol>
+</nav>
+            
+<div class="td-content">
+	<h1>Graphviz</h1>
+  
+	<header class="article-meta">
+		
+</header>
+	<p><img alt="Graphviz logo -- arrows pointing between circles on graph paper, with magnifying glass on top" src="/Resources/app.png"></p>
+<p>Please join the <a href="https://forum.graphviz.org">Graphviz forum</a> to ask
+questions and discuss Graphviz.</p>
+<h2 id="what-is-graphviz">What is Graphviz?</h2>
+<p>Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.</p>
+<img alt="Cluster" src="/Gallery/directed/cluster.png" style="display:block; height:289px; margin-left:auto; margin-right:auto; width:150px" />
+<h2 id="features">Features</h2>
+<p>The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser. Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.</p>
+<h2 id="download">Download</h2>
+<p>The current release of Graphviz can be downloaded here: <a href="/download/">Download</a>
+The code base is stored <a href="https://gitlab.com/graphviz/graphviz/">here</a> on
+GitLab.</p>
+<h2 id="documentation">Documentation</h2>
+<p>Documentation is available in the released package and from here: <a href="/documentation">Documentation</a></p>
+<h2 id="discussions">Discussions</h2>
+<p>You can post questions and comments in the <a href="https://forum.graphviz.org">Graphviz forum</a>.</p>
+<h2 id="bug-and-issue-tracking">Bug And Issue Tracking</h2>
+<p>You can report or view Graphviz bugs and issues by visiting the Graphviz <a href="https://gitlab.com/graphviz/graphviz/issues">Issues</a> page.</p>
+
+  <div class="section-index">
+    
+    
+    <hr class="panel-line">
+        <div class="entry">
+                <h5>
+                    <a href="/about/">About</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/theory/">Theory/Publications</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/license/">License</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/resources/">External Resources</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/credits/">Credits</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/contact/">Contact</a>
+                </h5>
+                <p></p>
+            </div>
+        <div class="entry">
+                <h5>
+                    <a href="/doc/todo.html">Graphviz Wish List</a>
+                </h5>
+                <p></p>
+            </div>
+        </div>
+<div class="td-page-meta__lastmod">
+  Last modified August 10, 2021: <a href="https://gitlab.com/graphviz/graphviz.gitlab.io/commit/8d2a3c0a3a4e66f5a97a9728cd84d500ebdaec77">Make pages for each layout engine (8d2a3c0)</a>
+</div>
+</div>
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="User mailing list" aria-label="User mailing list">
+    <a target="_blank" rel="noopener" href="https://forum.graphviz.org/" aria-label="User mailing list">
+      <i class="fa fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Twitter" aria-label="Twitter">
+    <a target="_blank" rel="noopener" href="https://twitter.com/graphviz" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Stack Overflow" aria-label="Stack Overflow">
+    <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/graphviz" aria-label="Stack Overflow">
+      <i class="fab fa-stack-overflow"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitLab" aria-label="GitLab">
+    <a target="_blank" rel="noopener" href="https://gitlab.com/graphviz/graphviz" aria-label="GitLab">
+      <i class="fab fa-gitlab"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2024
+    <span class="td-footer__authors">The Graphviz Authors</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="/js/main.min.37d14e870feb76f0f7a2a2422bae231efb0186c477999a4ab9ca7e9924ced592.js" integrity="sha256-N9FOhw/rdvD3oqJCK64jHvsBhsR3mZpKucp&#43;mSTO1ZI=" crossorigin="anonymous"></script>
+<script src='/js/prism.js'></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

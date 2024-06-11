@@ -1,5 +1,5 @@
 ---
-path: /docs/cloud
+subdir: /docs/cloud
 title: dgraph.io
 types:
   - business

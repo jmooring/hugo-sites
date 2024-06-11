@@ -1,5 +1,5 @@
 ---
-path: /docs
+subdir: /docs
 title: www.linode.com
 types:
   - business

@@ -15,7 +15,7 @@
   {{- $host := .Title }}
   {{- $title := "" }}
   {{- $version := "" }}
-  {{- $url := printf "https://%s/" (path.Join .Title .Params.path) }}
+  {{- $url := printf "https://%s/" (path.Join .Title .Params.subdir) }}
 
   {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
   {{- with resources.GetRemote $url $opts}}

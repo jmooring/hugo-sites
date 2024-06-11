@@ -1,0 +1,1407 @@
+HTTP/2.0 200 OK
+Content-Type: text/html; charset=utf-8
+Date: Tue, 11 Jun 2024 13:08:19 GMT
+Etag: "qjfzvwt9m"
+Last-Modified: Sat, 07 Nov 2020 20:07:08 GMT
+Server: Caddy
+Vary: Accept-Encoding
+X-Etags-1: "qjfzvwt9m"
+X-Etags-2: "qjfzvwt9m"
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.55.6" />
+  <meta charset="utf-8" />
+  <title>
+    
+    Go Web Examples - Learn Web Programming in Go by Examples
+    
+  </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="Ztd8vuEnIdHM7XE9qXXPgfoVjq9FWnHtK8Y8la08CRM" />
+  <meta name="description" content="" />
+  <link rel="canonical" href="https://gowebexamples.com/">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#4c51bf">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" />
+  <meta name="theme-color" content="#4c51bf">
+  <style type="text/css">
+    html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%
+    }
+
+    body {
+        margin: 0
+    }
+
+    main {
+        display: block
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: .67em 0
+    }
+
+    hr {
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible
+    }
+
+    pre {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+
+    a {
+        background-color: transparent
+    }
+
+    abbr[title] {
+        border-bottom: none;
+        text-decoration: underline;
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted
+    }
+
+    b,
+    strong {
+        font-weight: bolder
+    }
+
+    code,
+    kbd,
+    samp {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+
+    small {
+        font-size: 80%
+    }
+
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline
+    }
+
+    sub {
+        bottom: -.25em
+    }
+
+    sup {
+        top: -.5em
+    }
+
+    img {
+        border-style: none
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0
+    }
+
+    button,
+    input {
+        overflow: visible
+    }
+
+    button,
+    select {
+        text-transform: none
+    }
+
+    [type=button],
+    [type=reset],
+    [type=submit],
+    button {
+        -webkit-appearance: button
+    }
+
+    [type=button]::-moz-focus-inner,
+    [type=reset]::-moz-focus-inner,
+    [type=submit]::-moz-focus-inner,
+    button::-moz-focus-inner {
+        border-style: none;
+        padding: 0
+    }
+
+    [type=button]:-moz-focusring,
+    [type=reset]:-moz-focusring,
+    [type=submit]:-moz-focusring,
+    button:-moz-focusring {
+        outline: 1px dotted ButtonText
+    }
+
+    fieldset {
+        padding: .35em .75em .625em
+    }
+
+    legend {
+        box-sizing: border-box;
+        color: inherit;
+        display: table;
+        max-width: 100%;
+        padding: 0;
+        white-space: normal
+    }
+
+    progress {
+        vertical-align: baseline
+    }
+
+    textarea {
+        overflow: auto
+    }
+
+    [type=checkbox],
+    [type=radio] {
+        box-sizing: border-box;
+        padding: 0
+    }
+
+    [type=number]::-webkit-inner-spin-button,
+    [type=number]::-webkit-outer-spin-button {
+        height: auto
+    }
+
+    [type=search] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px
+    }
+
+    [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+
+    ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit
+    }
+
+    details {
+        display: block
+    }
+
+    summary {
+        display: list-item
+    }
+
+    template {
+        display: none
+    }
+
+    [hidden] {
+        display: none
+    }
+
+    html {
+        box-sizing: border-box;
+        font-family: sans-serif
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit
+    }
+
+    blockquote,
+    dd,
+    dl,
+    figure,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    pre {
+        margin: 0
+    }
+
+    button {
+        background: 0 0;
+        padding: 0
+    }
+
+    button:focus {
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focus-ring-color
+    }
+
+    fieldset {
+        margin: 0;
+        padding: 0
+    }
+
+    ol,
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+
+    html {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        line-height: 1.5
+    }
+
+    *,
+    ::after,
+    ::before {
+        border-width: 0;
+        border-style: solid;
+        border-color: #e2e8f0
+    }
+
+    hr {
+        border-width: 1px
+    }
+
+    img {
+        border-style: solid
+    }
+
+    textarea {
+        resize: vertical
+    }
+
+    input:-ms-input-placeholder,
+    textarea:-ms-input-placeholder {
+        color: #a0aec0
+    }
+
+    input::-ms-input-placeholder,
+    textarea::-ms-input-placeholder {
+        color: #a0aec0
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: #a0aec0
+    }
+
+    [role=button],
+    button {
+        cursor: pointer
+    }
+
+    table {
+        border-collapse: collapse
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: inherit
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        padding: 0;
+        line-height: inherit;
+        color: inherit
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    }
+
+    audio,
+    canvas,
+    embed,
+    iframe,
+    img,
+    object,
+    svg,
+    video {
+        display: block;
+        vertical-align: middle
+    }
+
+    img,
+    video {
+        max-width: 100%;
+        height: auto
+    }
+
+    .container {
+        width: 100%
+    }
+
+    @media (min-width:640px) {
+        .container {
+            max-width: 640px
+        }
+    }
+
+    @media (min-width:768px) {
+        .container {
+            max-width: 768px
+        }
+    }
+
+    @media (min-width:1024px) {
+        .container {
+            max-width: 1024px
+        }
+    }
+
+    @media (min-width:1280px) {
+        .container {
+            max-width: 1280px
+        }
+    }
+
+    .bg-white {
+        background-color: #fff
+    }
+
+    .bg-gray-100 {
+        background-color: #f7fafc
+    }
+
+    .bg-indigo-500 {
+        background-color: #667eea
+    }
+
+    .bg-indigo-700 {
+        background-color: #4c51bf
+    }
+
+    .rounded {
+        border-radius: .375rem
+    }
+
+    .block {
+        display: block
+    }
+
+    .border {
+        border-width: 1px
+    }
+
+    .inline-block {
+        display: inline-block
+    }
+
+    .flex {
+        display: flex
+    }
+
+    .hidden {
+        display: none
+    }
+
+    .flex-row {
+        flex-direction: row
+    }
+
+    .flex-col {
+        flex-direction: column
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap
+    }
+
+    .justify-between {
+        justify-content: space-between
+    }
+
+    .flex-1 {
+        flex: 1 1 0%
+    }
+
+    .font-semibold {
+        font-weight: 600
+    }
+
+    .font-bold {
+        font-weight: 700
+    }
+
+    .h-40 {
+        height: 10rem
+    }
+
+    .h-full {
+        height: 100%
+    }
+
+    .leading-tight {
+        line-height: 1.25
+    }
+
+    .leading-relaxed {
+        line-height: 1.625
+    }
+
+    .mx-2 {
+        margin-left: .5rem;
+        margin-right: .5rem
+    }
+
+    .my-4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem
+    }
+
+    .mx-auto {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .mb-3 {
+        margin-bottom: .75rem
+    }
+
+    .mt-4 {
+        margin-top: 1rem
+    }
+
+    .mb-4 {
+        margin-bottom: 1rem
+    }
+
+    .mt-8 {
+        margin-top: 2rem
+    }
+
+    .mb-8 {
+        margin-bottom: 2rem
+    }
+
+    .overflow-hidden {
+        overflow: hidden
+    }
+
+    .p-1 {
+        padding: .25rem
+    }
+
+    .p-6 {
+        padding: 1.5rem
+    }
+
+    .p-8 {
+        padding: 2rem
+    }
+
+    .py-1 {
+        padding-top: .25rem;
+        padding-bottom: .25rem
+    }
+
+    .py-2 {
+        padding-top: .5rem;
+        padding-bottom: .5rem
+    }
+
+    .px-3 {
+        padding-left: .75rem;
+        padding-right: .75rem
+    }
+
+    .py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+
+    .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .px-6 {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+
+    .pt-6 {
+        padding-top: 1.5rem
+    }
+
+    .pb-8 {
+        padding-bottom: 2rem
+    }
+
+    .pb-40 {
+        padding-bottom: 10rem
+    }
+
+    .absolute {
+        position: absolute
+    }
+
+    .relative {
+        position: relative
+    }
+
+    .top-0 {
+        top: 0
+    }
+
+    .right-0 {
+        right: 0
+    }
+
+    .left-0 {
+        left: 0
+    }
+
+    .shadow-xl {
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04)
+    }
+
+    .text-center {
+        text-align: center
+    }
+
+    .text-right {
+        text-align: right
+    }
+
+    .text-white {
+        color: #fff
+    }
+
+    .text-gray-700 {
+        color: #4a5568
+    }
+
+    .text-gray-900 {
+        color: #1a202c
+    }
+
+    .text-red-600 {
+        color: #e53e3e;
+    }
+
+    .text-indigo-600 {
+        color: #5a67d8
+    }
+
+    .text-indigo-700 {
+        color: #4c51bf
+    }
+
+    .text-lg {
+        font-size: 1.125rem
+    }
+
+    .text-xl {
+        font-size: 1.25rem
+    }
+
+    .text-5xl {
+        font-size: 3rem
+    }
+
+    .tracking-tighter {
+        letter-spacing: -.05em
+    }
+
+    .w-full {
+        width: 100%
+    }
+
+    .z-10 {
+        z-index: 10
+    }
+
+    .appearance-none {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none
+    }
+
+    .focus\:outline-none:focus {
+        outline: 0
+    }
+
+    .bg-gray-200 {
+        background-color: #edf2f7
+    }
+
+    @media (min-width: 1024px) {
+        body {
+            padding-top: 2rem;
+        }
+    }
+
+    @media (min-width:640px) {
+        .md\:block {
+            display: block
+        }
+
+        .md\:flex-row {
+            flex-direction: row
+        }
+
+        .md\:pr-4 {
+            padding-right: 1rem
+        }
+
+        .md\:pl-4 {
+            padding-left: 1rem
+        }
+
+        .md\:flex-row {
+            flex-direction: row
+        }
+
+        .md\:w-1\/2 {
+            width: 50%
+        }
+    }
+
+    @media (min-width:1024px) {
+        .lg\:block {
+            display: block
+        }
+
+        .lg\:hidden {
+            display: none
+        }
+
+        .lg\:p-8 {
+            padding: 2rem
+        }
+
+        .lg\:px-8 {
+            padding-left: 2rem;
+            padding-right: 2rem
+        }
+
+        .lg\:pr-4 {
+            padding-right: 1rem
+        }
+
+        .lg\:pl-4 {
+            padding-left: 1rem
+        }
+
+        .lg\:pt-16 {
+            padding-top: 4rem
+        }
+
+        .lg\:w-1\/4 {
+            width: 25%
+        }
+
+        .lg\:w-3\/4 {
+            width: 75%
+        }
+    }
+
+    p>code {
+        color: #4c51bf;
+        border-radius: 4px;
+        background-color: #f3f4ff;
+        font-size: 0.9em;
+        padding: 5px;
+    }
+</style>
+
+  <style type="text/css">.chroma{background-color:#fff;overflow:auto;border-radius:.25rem;margin:1rem 0;padding:1rem 1.25rem;box-shadow:0 1px 3px 0 rgba(0,0,0,.2),0 1px 2px 0 rgba(0,0,0,.1);font-size:.875rem}.chroma .err{color:#a61717;background-color:#e3d2d2}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em 0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em 0 .4em;color:#7f7f7f}.chroma .k{font-weight:700}.chroma .kc{font-weight:700}.chroma .kd{font-weight:700}.chroma .kn{font-weight:700}.chroma .kp{font-weight:700}.chroma .kr{font-weight:700}.chroma .kt{color:#458;font-weight:700}.chroma .na{color:teal}.chroma .nb{color:#999}.chroma .nc{color:#458;font-weight:700}.chroma .no{color:teal}.chroma .ni{color:purple}.chroma .ne{color:#4c5bd3;font-weight:700}.chroma .nf{color:#4c5bd3;font-weight:700}.chroma .nn{color:#555}.chroma .nt{color:navy}.chroma .nv{color:teal}.chroma .s{color:#af5f2a}.chroma .sa{color:#af5f2a}.chroma .sb{color:#af5f2a}.chroma .sc{color:#af5f2a}.chroma .dl{color:#af5f2a}.chroma .sd{color:#af5f2a}.chroma .s2{color:#af5f2a}.chroma .se{color:#af5f2a}.chroma .sh{color:#af5f2a}.chroma .si{color:#af5f2a}.chroma .sx{color:#af5f2a}.chroma .sr{color:olive}.chroma .s1{color:#af5f2a}.chroma .ss{color:#af5f2a}.chroma .m{color:#099}.chroma .mb{color:#099}.chroma .mf{color:#099}.chroma .mh{color:#099}.chroma .mi{color:#099}.chroma .il{color:#099}.chroma .mo{color:#099}.chroma .o{font-weight:700}.chroma .ow{font-weight:700}.chroma .c{color:#998;font-style:italic}.chroma .ch{color:#998;font-style:italic}.chroma .cm{color:#998;font-style:italic}.chroma .c1{color:#998;font-style:italic}.chroma .cs{color:#999;font-weight:700;font-style:italic}.chroma .cp{color:#999;font-weight:700}.chroma .cpf{color:#999;font-weight:700}.chroma .gd{color:#000;background-color:#fdd}.chroma .ge{font-style:italic}.chroma .gr{color:#a00}.chroma .gh{color:#999}.chroma .gi{color:#000;background-color:#dfd}.chroma .go{color:#888}.chroma .gp{color:#555}.chroma .gs{font-weight:700}.chroma .gu{color:#aaa}.chroma .gt{color:#a00}.chroma .gl{text-decoration:underline}.chroma .w{color:#bbb}.demo {overflow: auto;}</style>
+
+  <style type="text/css">@font-face{font-family:Muli;font-style:normal;font-weight:400;font-display:swap;src:local('Muli Regular'),local('Muli-Regular'),url(https://fonts.gstatic.com/s/muli/v16/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Muli;font-style:normal;font-weight:600;font-display:swap;src:local('Muli SemiBold'),local('Muli-SemiBold'),url(https://fonts.gstatic.com/s/muli/v16/7Au_p_0qiz-ade3iOCX2zw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Muli;font-style:normal;font-weight:700;font-display:swap;src:local('Muli Bold'),local('Muli-Bold'),url(https://fonts.gstatic.com/s/muli/v16/7Au_p_0qiz-adYnjOCX2zw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style>
+
+  <style></style>
+</head>
+
+<body class="leading-relaxed text-gray-900 bg-gray-100" style="font-family: 'Muli', sans-serif;">
+  <div class="bg-indigo-700 h-40 absolute top-0 left-0 right-0"
+    style="transform: skewY(-5deg) translateY(-100%); background: linear-gradient(90deg, #4c51bf, #313587);">
+  </div>
+  <div class="bg-indigo-700 h-40 absolute top-0 left-0 right-0"
+    style="transform: skewY(-5deg) translateY(-50%); background: linear-gradient(90deg, #4c51bf, #313587);">
+  </div>
+  <div class="bg-indigo-700 text-white pt-6 lg:pt-16 pb-40 shadow-xl"
+    style="transform: skewY(-5deg);  background: linear-gradient(90deg, #4c51bf, #313587);">
+    <div class="container mx-auto px-4 lg:px-8" style="transform: skewY(5deg);">
+      <div class="flex flex-row justify-between">
+        <a href="/" class="text-lg font-bold hover:underline">Go Web Examples</a>
+        <button id="menu-button" class="lg:hidden" role="button" aria-label="Menu">
+          <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32; color: white;" version="1.1"
+            viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path fill="#ffffff"
+              d="m4,8.491662l24,0c1.104,0 2,-1.121245 2,-2.502779s-0.896,-2.502779 -2,-2.502779l-24,0c-1.104,0 -2,1.121245 -2,2.502779s0.896,2.502779 2,2.502779zm24,5.005559l-24,0c-1.104,0 -2,1.121245 -2,2.502779s0.896,2.502779 2,2.502779l24,0c1.104,0 2,-1.121245 2,-2.502779s-0.896,-2.502779 -2,-2.502779zm0,10.011118l-24,0c-1.104,0 -2,1.121245 -2,2.502779s0.896,2.502779 2,2.502779l24,0c1.104,0 2,-1.121245 2,-2.502779s-0.896,-2.502779 -2,-2.502779z" />
+          </svg>
+        </button>
+      </div>
+      <div id="menu" class="bg-white px-6 py-1 mt-4 shadow-xl z-10 relative mb-8 rounded hidden">
+    
+    
+    <a href="/hello-world/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Hello World
+        
+    </a>
+    
+    <a href="/http-server/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        HTTP Server
+        
+    </a>
+    
+    <a href="/routes-using-gorilla-mux/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Routing (using gorilla/mux)
+        
+    </a>
+    
+    <a href="/mysql-database/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        MySQL Database
+        
+    </a>
+    
+    <a href="/templates/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Templates
+        
+    </a>
+    
+    <a href="/static-files/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Assets and Files
+        
+    </a>
+    
+    <a href="/forms/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Forms
+        
+    </a>
+    
+    <a href="/basic-middleware/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Middleware (Basic)
+        
+    </a>
+    
+    <a href="/advanced-middleware/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Middleware (Advanced)
+        
+    </a>
+    
+    <a href="/sessions/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Sessions
+        
+    </a>
+    
+    <a href="/json/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        JSON
+        
+    </a>
+    
+    <a href="/websockets/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Websockets
+        
+    </a>
+    
+    <a href="/password-hashing/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Password Hashing
+        
+    </a>
+    
+</div>
+<script>
+    $btn = document.getElementById("menu-button");
+    $menu = document.getElementById("menu");
+
+    $btn.addEventListener("click", function () {
+        $menu.classList.toggle("hidden");
+    });
+</script>
+
+      <h1 class="text-5xl font-bold leading-tight mt-8">Learn Web Programming in Go by Examples</h1>
+    </div>
+  </div>
+
+  <div class="container mx-auto lg:px-8 px-4" style="margin-top: -7rem;">
+    <div class="flex md:flex-row flex-wrap">
+      <div class="w-full lg:w-1/4 lg:pr-4">
+        <div class="bg-white lg:px-8 px-6 py-4 shadow-xl z-10 relative mb-8 rounded lg:block hidden">
+    
+    <a href="/"
+        class="font-semibold text-indigo-700 block my-4 hover:underline">
+        Home
+    </a>
+
+    
+    <a href="/hello-world/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Hello World
+        
+    </a>
+    
+    <a href="/http-server/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        HTTP Server
+        
+    </a>
+    
+    <a href="/routes-using-gorilla-mux/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Routing (using gorilla/mux)
+        
+    </a>
+    
+    <a href="/mysql-database/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        MySQL Database
+        
+    </a>
+    
+    <a href="/templates/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Templates
+        
+    </a>
+    
+    <a href="/static-files/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Assets and Files
+        
+    </a>
+    
+    <a href="/forms/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Forms
+        
+    </a>
+    
+    <a href="/basic-middleware/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Middleware (Basic)
+        
+    </a>
+    
+    <a href="/advanced-middleware/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Middleware (Advanced)
+        
+    </a>
+    
+    <a href="/sessions/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Sessions
+        
+    </a>
+    
+    <a href="/json/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        JSON
+        
+    </a>
+    
+    <a href="/websockets/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Websockets
+        
+    </a>
+    
+    <a href="/password-hashing/"
+        class="font-semibold text-gray-900 block my-4 hover:underline">
+        Password Hashing
+        
+    </a>
+    
+</div>
+
+<div class="font-bold lg:p-8 p-6 pb-4 shadow-xl z-10 relative mb-8 rounded lg:block text-white"
+    style="background-color: #1a202c;">
+    <div style="margin-bottom: 0.25rem">Hey, Philipp here!</div>
+    <div style="margin-bottom: 1.5rem; font-weight: 600; color: #cbd5e0;">I'd like to tell you, that my platform
+        <span style="font-weight: 700;">Go Web
+            Examples Courses</span> just launched. Enjoy easy to follow video courses about web devlopment in Go. Make
+        sure to check
+        out the special offer I have for early supporters.<br /> We'll see us over there! :)</div>
+    <a href="https://course.gowebexamples.com/?utm_source=sidebar" class="rounded bg-white" style="display: block; color: #1a202c; padding: 0.5rem 0.85rem;
+        font-size: 0.95rem; position: relative; padding-right: 2rem;">
+        Learn more
+        <svg style="display: inline; position: absolute; right: 6px; top: 8px" width="1.6rem" height="1.6rem"
+            viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
+                clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z" clip-rule="evenodd" />
+        </svg>
+    </a>
+</div>
+
+        <div class="lg:block hidden">
+          <ins class="adsbygoogle bg-white shadow-xl relative mb-8 rounded overflow-hidden" style="display:block"
+            data-ad-client="ca-pub-9994791825937062" data-ad-slot="5935046405" data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        </div>
+      </div>
+      <div class="w-full lg:w-3/4 lg:pl-4">
+        
+<main>
+  <div class="bg-white p-8 shadow-xl z-10 relative mb-8 rounded">
+    <h2 class="text-xl mb-3 font-bold text-indigo-700">About the Go programming language</h2>
+
+<p class="mb-4">
+Go is an open source programming language designed for building simple, fast, and reliable software. Take a look here which great companies use Go to power their services.
+</p>
+
+<p class="mb-4">
+Go Web Examples provides easy to understand code snippets on how to do web development in the Go programming language. It is inspired by Go By Example, which has a great introduction into the fundamentals of this language.
+</p>
+
+<p class="mb-4">
+If you are learning web programming in Go or just starting out you can find some good examples and tutorials here. Our goal is it to provide clean examples with great detail, so you can become the next Go web developer! Go Web Examples covers the basics of web programming. From routers and templates to middleware and websockets. Here you can find clean code snippets up to detailed tutorials.
+</p>
+
+<p class="mb-4">
+To get things started, check out the first example on how to create a classical "Hello World" web application or go straight to Routing (using the gorilla/mux router).
+</p>
+
+  </div>
+
+  <ins class="adsbygoogle bg-white shadow-xl relative mb-8 rounded overflow-hidden"
+     style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid"
+     data-ad-client="ca-pub-9994791825937062" data-ad-slot="2088683628"></ins>
+
+
+  <div class="flex flex-row flex-wrap">
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/hello-world/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Hello World</h2>
+        </a>
+        <div class="mb-4 flex-1">This examples shows how to create an HTTP server using the net/http package from the standard library. It contains all functionalities about the HTTP protocol.
+        </div>
+        <div class="text-right">
+          <a href="/hello-world/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/http-server/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">HTTP Server</h2>
+        </a>
+        <div class="mb-4 flex-1">This example shows how to use the `net/http` package to create a HTTP server with handlers and static files.
+        </div>
+        <div class="text-right">
+          <a href="/http-server/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/routes-using-gorilla-mux/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Routing (using gorilla/mux)</h2>
+        </a>
+        <div class="mb-4 flex-1">This example shows how to use the `gorilla/mux` package to create routes with named parameters, GET/POST handlers and domain restrictions.
+        </div>
+        <div class="text-right">
+          <a href="/routes-using-gorilla-mux/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/mysql-database/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">MySQL Database</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to query MySQL databases using the sql package in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/mysql-database/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/templates/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Templates</h2>
+        </a>
+        <div class="mb-4 flex-1">This example shows how to use the `gorilla/mux` package to create routes with named parameters, GET/POST handlers and domain restrictions.
+        </div>
+        <div class="text-right">
+          <a href="/templates/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/static-files/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Assets and Files</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to serve static files like CSS or JS from a specific directory using the http.FileServer in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/static-files/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/forms/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Forms</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to simulate a contact form and parse the message into a struct using the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/forms/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/basic-middleware/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Middleware (Basic)</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to create basic logging middleware in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/basic-middleware/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+    <div class="w-full">
+      <ins class="adsbygoogle bg-white shadow-xl relative mb-8 rounded overflow-hidden"
+     style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid"
+     data-ad-client="ca-pub-9994791825937062" data-ad-slot="2088683628"></ins>
+
+    </div>
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/advanced-middleware/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Middleware (Advanced)</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to create a more advanced version of middleware in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/advanced-middleware/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/sessions/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Sessions</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to store data in session cookies using the popular gorilla/sessions package in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/sessions/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/json/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">JSON</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to encode and decode JSON data using the encoding/json package in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/json/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+    <div class="md:w-1/2 md:pl-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/websockets/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Websockets</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to work with websockets in Go. We will build a simple server which echoes back everything we send to it.
+        </div>
+        <div class="text-right">
+          <a href="/websockets/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    
+
+    <div class="md:w-1/2 md:pr-4 pb-8">
+      <div class="bg-white p-8 shadow-xl z-10 relative rounded h-full flex flex-col">
+        <a href="/password-hashing/">
+          <h2 class="text-xl mb-3 font-bold text-indigo-700 hover:underline">Password Hashing</h2>
+        </a>
+        <div class="mb-4 flex-1">This example will show how to hash passwords using bcrypt in the Go programming language.
+        </div>
+        <div class="text-right">
+          <a href="/password-hashing/" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Go
+            to
+            Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+</main>
+
+      </div>
+    </div>
+  </div>
+  <footer class="text-center mb-8">
+    
+    <a class="text-indigo-600 mx-2 inline-block" href="/imprint/">Legal Disclosure</a>
+    
+    <a class="text-indigo-600 mx-2 inline-block" href="/privacy/">Privacy Statement</a>
+    
+  </footer>
+
+  <div class="container mx-auto lg:px-8 px-4">
+    <div class="text-center bg-white shadow-xl relative mb-8 rounded overflow-hidden">
+      <ins class="adsbygoogle" style="display:block; margin:auto;" data-ad-client="ca-pub-9994791825937062"
+        data-ad-slot="8711407076" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    </div>
+  </div>
+
+  <div id="big-news"
+    style="position: absolute; left: 0; right: 0; top: 0; opacity: 1; display: none; background-color: #1a202c; transition: opacity 0.75s; z-index: 9999999; padding: 0 1rem;">
+    <div class="flex flex-row text-white text-lg font-bold rounded shadow-xl"
+      style="margin: auto; letter-spacing: -0.025em; align-items: center; padding: 0.2rem 0.5rem 0.2rem 1.5rem; ">
+      <div class="flex-1">
+        <span style="margin-right: 0.5rem">
+          Go Web Examples Courses
+        </span>
+        <span style="font-weight: 600; color: #cbd5e0">
+          Easy to follow Video Courses about Go. Now in early access!
+        </span>
+      </div>
+
+      <a href="https://course.gowebexamples.com/?utm_source=banner" class="rounded bg-white" style="color: #1a202c; padding: 0.5rem 0.85rem;
+    font-size: 0.95rem;
+    margin-left: 2rem; position: relative; padding-right: 2.5rem;">
+        Learn more
+        <svg style="display: inline; position: absolute; right: 6px; top: 8px" width="1.6rem" height="1.6rem"
+          viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L10.793 8 8.146 5.354a.5.5 0 010-.708z"
+            clip-rule="evenodd" />
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 01.5-.5H11a.5.5 0 010 1H4.5A.5.5 0 014 8z" clip-rule="evenodd" />
+        </svg>
+      </a>
+      <a href="#" id="hide-news" style="margin-left: 0.3rem; padding: 0.5rem">
+        &times;
+      </a>
+    </div>
+  </div>
+  <script>
+    function writeCookie(key, value, days) {
+      var date = new Date();
+      
+      days = days || 365;
+      
+      
+      date.setTime(+ date + (days * 86400000)); 
+      window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+      return value;
+    };
+
+    document.querySelector("#hide-news").addEventListener("click", function (e) {
+      e.preventDefault();
+      writeCookie('hide_news', 1, 2);
+      document.querySelector("#big-news").style.opacity = 0;
+      setTimeout(function () {
+        document.querySelector("#big-news").style.display = 'none';
+      }, 750);
+    });
+
+    if (document.cookie.indexOf("hide_news") === -1 && document.body.clientWidth > 1023) {
+      document.querySelector("#big-news").style.display = 'flex';
+    }
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+  </script>
+</body>
+
+</html>

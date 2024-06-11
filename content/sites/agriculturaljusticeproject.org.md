@@ -1,6 +1,6 @@
 ---
 title: agriculturaljusticeproject.org
-path: /toolkit
+subdir: /toolkit
 types:
   - project
   - documentation
