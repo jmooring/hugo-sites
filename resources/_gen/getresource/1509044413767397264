@@ -2,18 +2,18 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:21 GMT
-Etag: "39a0e-618acdad38240"
-Last-Modified: Fri, 17 May 2024 21:15:45 GMT
+Date: Tue, 18 Jun 2024 15:39:17 GMT
+Etag: "39a85-61adedca310c0"
+Last-Modified: Fri, 14 Jun 2024 19:45:47 GMT
 Server: Apache/2.4.59 (Unix)
-Set-Cookie: nlbi_2333592_2975153=YgDzTlofClnecM9mzIjl3AAAAADESQm2F6/FM6u8QlScXkFg; path=/; Domain=.redis.io
-Set-Cookie: visid_incap_2333592=gxNyTfjaQc2mepZpJ7s/QEVMaGYAAAAAQUIPAAAAAADnrajLgT/sW0ZW84PJYt4f; expires=Wed, 11 Jun 2025 08:50:08 GMT; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: incap_ses_172_2333592=Smw7E3jNeRmwVktkJxFjAkVMaGYAAAAAkS2Il8+EI+PFffCfabWsYA==; path=/; Domain=.redis.io
+Set-Cookie: nlbi_2333592_2975153=7dyDEHtGSiybEhzBzIjl3AAAAAAXPW9NCasZBR11016/OisM; path=/; Domain=.redis.io
+Set-Cookie: visid_incap_2333592=KjqPnNp0TmeOlAe0yKPJciSqcWYAAAAAQUIPAAAAAABcL6IlNT/WdRP1UO0DEsKW; expires=Wed, 18 Jun 2025 06:45:17 GMT; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: incap_ses_170_2333592=7e8EUEYCDn9RqxHWKfZbAiSqcWYAAAAAeNQSQawlq4dQzxlQe1Q56A==; path=/; Domain=.redis.io
 Via: 1.1 google
 X-Cdn: Imperva
-X-Etags-1: "39a0e-618acdad38240"
-X-Etags-2: "39a0e-618acdad38240"
-X-Iinfo: 54-298963769-298883265 pNYy RT(1718111301345 79) q(0 0 0 -1) r(1 1) U12
+X-Etags-1: "39a85-61adedca310c0"
+X-Etags-2: "39a85-61adedca310c0"
+X-Iinfo: 47-42971978-42792413 pNYy RT(1718725156515 74) q(0 0 0 1) r(1 1) U12
 
 <!doctype html>
 <html lang="en" class="scroll-smooth w-full">
@@ -196,7 +196,7 @@ X-Iinfo: 54-298963769-298883265 pNYy RT(1718111301345 79) q(0 0 0 -1) r(1 1) U12
     <div class="flex flex-col gap-4">
       <h3 class="uppercase font-mono mb-2">Products</h3>
       <a class="flex flex-col group/link" href="https://redis.io/docs/latest/get-started">
-        <span class="group-hover/link:text-redis-red-500 tracking-tight">Source available</span><span class="text-redis-pen-600 font-sans font-medium">In-memory database for caching and streaming</span>
+        <span class="group-hover/link:text-redis-red-500 tracking-tight">Community Edition</span><span class="text-redis-pen-600 font-sans font-medium">In-memory database for caching and streaming</span>
       </a>
       <a class="flex flex-col group/link" href="https://redis.io/cloud">
         <span class="group-hover/link:text-redis-red-500 tracking-tight">Redis Cloud</span><span class="text-redis-pen-600 font-sans font-medium">Fully managed service integrated with Google Cloud, Azure, and AWS for production-ready apps</span>
@@ -584,7 +584,7 @@ X-Iinfo: 54-298963769-298883265 pNYy RT(1718111301345 79) q(0 0 0 -1) r(1 1) U12
     <div class="flex flex-col gap-4">
       <h3 class="uppercase font-mono mb-2">Products</h3>
       <a class="flex flex-col group/link" href="https://redis.io/docs/latest/get-started">
-        <span class="group-hover/link:text-redis-red-500 tracking-tight">Source available</span><span class="text-redis-pen-600 font-sans font-medium">In-memory database for caching and streaming</span>
+        <span class="group-hover/link:text-redis-red-500 tracking-tight">Community Edition</span><span class="text-redis-pen-600 font-sans font-medium">In-memory database for caching and streaming</span>
       </a>
       <a class="flex flex-col group/link" href="https://redis.io/cloud">
         <span class="group-hover/link:text-redis-red-500 tracking-tight">Redis Cloud</span><span class="text-redis-pen-600 font-sans font-medium">Fully managed service integrated with Google Cloud, Azure, and AWS for production-ready apps</span>
@@ -881,17 +881,17 @@ X-Iinfo: 54-298963769-298883265 pNYy RT(1718111301345 79) q(0 0 0 -1) r(1 1) U12
       </a>
     </li>
     <li class="my-2">
+      <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/oss_and_stack/">
+        
+          <span class="pr-0"></span>
+          <span>Redis Community Edition and Stack</span>
+      </a>
+    </li>
+    <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/redisinsight/">
         
           <span class="pr-0"></span>
           <span>Redis Insight</span>
-      </a>
-    </li>
-    <li class="my-2">
-      <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/oss_and_stack/">
-        
-          <span class="pr-0"></span>
-          <span>Redis OSS and Stack</span>
       </a>
     </li>
     
@@ -999,14 +999,14 @@ X-Iinfo: 54-298963769-298883265 pNYy RT(1718111301345 79) q(0 0 0 -1) r(1 1) U12
                 <p>The Redis Enterprise operators allows you to use Redis Enterprise for Kubernetes.</p>
               
             
+              <a href="/docs/latest/operate/oss_and_stack/">Redis Community Edition and Stack</a>
+              
+                <p>Operate Redis Community Edition and Redis Stack. Redis OSS was renamed Redis Community Edition (CE) with the v7.4 release.</p>
+              
+            
               <a href="/docs/latest/operate/redisinsight/">Redis Insight</a>
               
                 <p>Install and manage Redis Insight</p>
-              
-            
-              <a href="/docs/latest/operate/oss_and_stack/">Redis OSS and Stack</a>
-              
-                <p>Operate Redis OSS and Redis Stack</p>
               
             
           </nav>
@@ -1737,5 +1737,5 @@ document.addEventListener("DOMContentLoaded", function() {
   })()
 </script>
 
-  </body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=790380743" async></script></body>
 </html>

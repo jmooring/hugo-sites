@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 550
+Age: 604
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:29 GMT
-Etag: "5c86-61a1615867540-gzip"
-Last-Modified: Tue, 04 Jun 2024 20:13:33 GMT
+Date: Tue, 18 Jun 2024 15:39:29 GMT
+Etag: "5cc1-61b2b18177c80-gzip"
+Last-Modified: Tue, 18 Jun 2024 14:42:42 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
-X-Cache-Hits: 1
+X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Etags-1: "5c86-61a1615867540-gzip"
-X-Etags-2: "5c86-61a1615867540-gzip"
+X-Etags-1: "5cc1-61b2b18177c80-gzip"
+X-Etags-2: "5cc1-61b2b18177c80-gzip"
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300045-BFI
-X-Timer: S1718111310.562140,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400035-BFI
+X-Timer: S1718725170.918881,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -24,10 +24,10 @@ X-Timer: S1718111310.562140,VS0,VE1
 <head>
   <meta charset="utf-8">
   <title>
-  ISC - ISC
+    ISC - ISC
   </title>
 
-<meta property="og:title" content="ISC" />
+  <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-05-29T00:00:00+00:00" />
@@ -49,14 +49,17 @@ X-Timer: S1718111310.562140,VS0,VE1
 
   
   
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css" integrity="sha256-8g4waLJVanZaKB04tvyhKu2CZges6pA5SUelZAux/1U=" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css"
+      integrity="sha256-8g4waLJVanZaKB04tvyhKu2CZges6pA5SUelZAux/1U=" crossorigin="anonymous">
   </noscript>
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </noscript>
   
   <link rel="stylesheet" href="/scss/style.min.css" integrity="" media="screen">
@@ -69,22 +72,28 @@ X-Timer: S1718111310.562140,VS0,VE1
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Bootstrap -->
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
   
   <link rel="canonical" href="https://www.isc.org/" />
   <!--Favicon-->
-  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/%20images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/%20images/favicon.ico" type="image/x-icon">
 
+  
+  
+  
+  
+  
 
-
-
-
-
-
+  
   <link rel="alternate" type="application/rss+xml" href="https://www.isc.org/index.xml" title="ISC" />
+  
   <link rel="alternate" type="application/json" href="https://www.isc.org/index.json" title="ISC" />
   <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
@@ -92,7 +101,7 @@ X-Timer: S1718111310.562140,VS0,VE1
 <meta property="og:url" content="https://www.isc.org/" />
 
 
-
+  
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EF669E5YC2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -109,8 +118,7 @@ X-Timer: S1718111310.562140,VS0,VE1
 
 </head>
 
-<body>
-<header class="fixed-top">
+<body><header class="fixed-top">
   <nav class="nav">
     <div class="nav-bg-wrapper">
       <div class="nav-bg"></div>

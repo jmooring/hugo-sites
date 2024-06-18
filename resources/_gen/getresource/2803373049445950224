@@ -1,18 +1,18 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=2592000
 Content-Type: text/html; charset=utf-8
-Date: Tue, 11 Jun 2024 13:08:34 GMT
-Etag: "scpbm91jef"
-Last-Modified: Mon, 29 Apr 2024 11:22:57 GMT
+Date: Tue, 18 Jun 2024 15:44:25 GMT
+Etag: "sf2xd61k9z"
+Last-Modified: Fri, 14 Jun 2024 16:48:42 GMT
 Server: Caddy
 Vary: Accept-Encoding
-X-Etags-1: "scpbm91jef"
-X-Etags-2: "scpbm91jef"
+X-Etags-1: "sf2xd61k9z"
+X-Etags-2: "sf2xd61k9z"
 
 <!doctype html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.122.0">
+	<meta name="generator" content="Hugo 0.127.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -193,6 +193,10 @@ X-Etags-2: "scpbm91jef"
             
               
                 <a class="dropdown-item" href="/commands/rclone_gendocs/"><i class="fa fa-book fa-fw"></i> rclone gendocs</a>
+              
+            
+              
+                <a class="dropdown-item" href="/commands/rclone_gitannex/"><i class="fa fa-book fa-fw"></i> rclone gitannex</a>
               
             
               
@@ -412,6 +416,7 @@ X-Etags-2: "scpbm91jef"
           <a class="dropdown-item" href="/smb/"><i class="fa fa-server fa-fw"></i> SMB / CIFS</a>
           <a class="dropdown-item" href="/storj/"><i class="fas fa-dove fa-fw"></i> Storj</a>
           <a class="dropdown-item" href="/sugarsync/"><i class="fas fa-dove fa-fw"></i> SugarSync</a>
+          <a class="dropdown-item" href="/ulozto/"><i class="fas fa-angle-double-down"></i> Uloz.to</a>
           <a class="dropdown-item" href="/uptobox/"><i class="fa fa-archive fa-fw"></i> Uptobox</a>
           <a class="dropdown-item" href="/union/"><i class="fa fa-link fa-fw"></i> Union (merge backends)</a>
           <a class="dropdown-item" href="/webdav/"><i class="fa fa-server fa-fw"></i> WebDAV</a>
@@ -587,7 +592,7 @@ WebDAV or S3, that work out of the box.)</p>
     Backblaze B2
   </span>
   <span>
-    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.backblaze.com/b2/cloud-storage.html" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.backblaze.com/cloud-storage" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/b2/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
@@ -899,6 +904,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.linode.com/products/object-storage/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#linode"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Magalu
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://magalu.cloud/object-storage/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#magalu"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1294,6 +1309,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Uloz.to
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://uloz.to" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/ulozto/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     Uptobox
   </span>
   <span>
@@ -1523,7 +1548,7 @@ WebDAV or S3, that work out of the box.)</p>
               <p style="font-size: 90%;">
                 &copy; <a href="https://www.craig-wood.com/nick/" target="blank">Nick Craig-Wood</a> 2014-2024<br>
                 Source file <a href="https://github.com/rclone/rclone/blob/master/docs/content/_index.md" target="blank">_index.md</a>
-                last updated <a href="https://github.com/rclone/rclone/commit/58fd6d7b947582971001886ee308af0d2ae0ffc0">2023-11-08</a><br>
+                last updated <a href="https://github.com/rclone/rclone/commit/4568feb5f9570a0dbfd7479a38857bb93a5f6bb8">2024-06-06</a><br>
                 Uploaded with <a href="https://rclone.org">rclone</a>.
                 Built with <a href="https://gohugo.io/" target="blank">Hugo</a>.
                 Logo by <a href="https://twitter.com/andy23" target="blank">@andy23</a>.

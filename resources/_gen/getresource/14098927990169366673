@@ -1,24 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 59842
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=stale
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 11 Jun 2024 13:08:21 GMT
-Etag: "a60f8493cd3892cbdd728405c596b681-ssl-df"
+Date: Tue, 18 Jun 2024 15:39:17 GMT
+Etag: "9064e35dc6156ff5d0602e5809c76b39-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "a60f8493cd3892cbdd728405c596b681-ssl-df"
-X-Etags-2: "a60f8493cd3892cbdd728405c596b681-ssl-df"
-X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
+X-Etags-1: "9064e35dc6156ff5d0602e5809c76b39-ssl-df"
+X-Etags-2: "9064e35dc6156ff5d0602e5809c76b39-ssl-df"
+X-Nf-Request-Id: 01J0P0188FERSN65GYV0HAE647
 
 <!DOCTYPE html>
 <html>
   <head>
-    
-
-<meta name="author" content="" />
+    <meta name="author" content="" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"><meta name="keywords" content="Pachyderm, Kubernetes, ML Data, Data Pipelines, Data Transformation">
@@ -61,10 +59,10 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
 <meta name="twitter:description" content="" />
 
 
-<meta name="generator" content="Hugo 0.124.0">
+<meta name="generator" content="Hugo 0.127.0">
 
 <title>Pachyderm Docs</title>
-    <link rel="icon" href="/favicon-pachyderm.ico"><link rel="stylesheet" href="/css/bundle.min.dbe30f5fcb71cf279066df79f84c1d6a02a642df3d02833c7053bfc968f036b8.css" integrity="sha256-2&#43;MPX8txzyeQZt95&#43;EwdagKmQt89AoM8cFO/yWjwNrg=" crossorigin="anonymous">
+    <link rel="icon" href="/favicon-pachyderm.ico"><link rel="stylesheet" href="/css/bundle.min.bc6a608c4263a5d331f7dcee24ce140b4fdef7a73b5c7bcf92e1b6ab5a19106a.css" integrity="sha256-vGpgjEJjpdMx99zuJM4UC0/e96c7XHvPkuG2q1oZEGo=" crossorigin="anonymous">
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 
@@ -72,11 +70,10 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
 
 <script src="/js/online.js"></script>
   </head>
-  <body class="bg-white patternn ">
-    <header><div id="header">
-    
-</div></header>
-<nav id="topNav" class="sticky top-0 z-50 bg-white">
+  <body class="bg-white patternn "><header>
+    <div id="header">
+    </div>
+</header><nav id="topNav" class="sticky top-0 z-50 bg-white">
     <div class="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto">
         <div id="topNavItemsContainer" class="flex items-center space-x-4 py-2 mx-4 xl:mx-0 justify-between">
             <a href="/" class="flex flex-grow items-center"><img src="/images/pachyderm/pachyderm-elephant.svg" alt="Logo" class="h-8"></a>
@@ -100,7 +97,8 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
             </div>
         </div>
     </div>
-</nav><main class="flex xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto pb-16"><aside id="sidebar-left" class="hidden md:block transform  md:translate-x-0 fixed md:relative left-0 w-1/5 lg:w-1/6 text-black flex flex-shrink-0 z-30"><div id="left-nav-1" class="sticky top-10 pt-4 h-[calc(100vh-4rem)] overflow-y-auto"><div class="flex">
+</nav>
+    <main class="flex xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto pb-16"><aside id="sidebar-left" class="hidden md:block transform  md:translate-x-0 fixed md:relative left-0 w-1/5 lg:w-1/6 text-black flex flex-shrink-0 z-30"><div id="left-nav-1" class="sticky top-10 pt-4 h-[calc(100vh-4rem)] overflow-y-auto"><div class="flex">
           <a href="/products/mldm/latest/" class="text-2xl p-2 w-full hover:bg-zinc-100 font-brand-black rounded text-brand transition duration-300">Pachyderm</a>
         </div><ul class="  pl-0  list-none"><li class="flex flex-col" data-expanded="" data-level="1">
           <a class="flex flex-row text-lg  pl-1 hover:bg-zinc-100 hover:text-brand rounded text-md font-brand-bold   transition duration-300" 
@@ -1562,17 +1560,9 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
             href="/products/mldm/latest/run-commands/pachctl_wait_job/" data-level="2"> pachctl wait job</a>
           <ul class=" lg:ml-1 list-none"></ul></li></ul></li></ul></div>
 
-</aside>
-
-
-
-
-
-
-<div id="pageContainer" class="lg:w-4/6 mx-auto p-2 overflow-auto z-40"><nav aria-label="breadcrumb" class="breadcrumb flex flex-wrap text-xs p-2 items-center md:p-4">
-    <div class="flex space-x-2 lg:space-x-3"></div>
-</nav>
-<div class="relative z-30 space-y-4 m-4"><section class="py-6">
+</aside><div id="pageContainer" class="lg:w-4/6 mx-auto p-2 overflow-auto z-40"><nav aria-label="breadcrumb" class="breadcrumb flex flex-wrap text-xs p-2 items-center md:p-4">
+      <div class="flex space-x-2 lg:space-x-3"></div>
+  </nav><div class="relative z-30 space-y-4 m-4"><section class="py-6">
     <h1 class="text-3xl font-brand-bold text-left">Pachyderm Documentation</h1>
     
     <p class="text-xl mb-4 text-gray-600">Learn how to get up and running with Pachyderm through guides, tutorials, SDKs, and reference articles.</p>
@@ -1648,7 +1638,7 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/set-up/cluster-pachctl-connect/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Connection</a>
                     </li><li class="my-2 mr-2">
-                        <a href="/products/mldm/latest/set-up/environment-variables/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Environment Variables</a>
+                        <a href="/products/mldm/latest/set-up/environment-variables/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Environment …</a>
                     </li></ul></div><div class="rounded-lg shadow-md p-4 tile transition duration-300 space-y-2">
             <a href="/products/mldm/latest/manage/" class="space-y-2"><img src="/icons/manage.svg" alt="" class="w-5 h-5 icon"><div class="text-xl text-black font-brand-bold font-semibold">Manage</div><p class="text-zinc-900 text-sm ">Manage your instance, its GPUs, backups, and more.</p></a><ul class="flex flex-wrap list-none p-0"><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/manage/helm-values/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Helm Chart Values …</a>
@@ -1685,7 +1675,7 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                         <a href="/products/mldm/latest/prepare-data/transactions/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Transactions</a>
                     </li></ul></div><div class="rounded-lg shadow-md p-4 tile transition duration-300 space-y-2">
             <a href="/products/mldm/latest/build-dags/" class="space-y-2"><img src="/icons/build-dags.svg" alt="" class="w-5 h-5 icon"><div class="text-xl text-black font-brand-bold font-semibold">Build Pipelines &amp; DAGs</div><p class="text-zinc-900 text-sm ">Build pipelines &amp; DAGs for every use case.</p></a><ul class="flex flex-wrap list-none p-0"><li class="my-2 mr-2">
-                        <a href="/products/mldm/latest/build-dags/pipeline-spec/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Pipeline Specification …</a>
+                        <a href="/products/mldm/latest/build-dags/pipeline-spec/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Pipeline …</a>
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/build-dags/pipeline-operations/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Pipeline Ops</a>
                     </li><li class="my-2 mr-2">
@@ -1708,7 +1698,7 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/export-data/mount-repo-to-local-computer/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Mount a Repo Locally</a>
                     </li><li class="my-2 mr-2">
-                        <a href="/products/mldm/latest/export-data/s3-gateway-operations/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">S3 Gateway Operations</a>
+                        <a href="/products/mldm/latest/export-data/s3-gateway-operations/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">S3 Gateway …</a>
                     </li></ul></div><div class="rounded-lg shadow-md p-4 tile transition duration-300 space-y-2">
             <a href="/products/mldm/latest/integrate/" class="space-y-2"><img src="/icons/extension.svg" alt="" class="w-5 h-5 icon"><div class="text-xl text-black font-brand-bold font-semibold">Integrate</div><p class="text-zinc-900 text-sm ">Integrate with popular tools such as JupyterLab.</p></a><ul class="flex flex-wrap list-none p-0"><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/integrate/determined/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Determined</a>
@@ -1737,7 +1727,7 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                         <a href="/products/mldm/latest/debug/view-k8s-events/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">View Kubernetes Logs</a>
                     </li></ul></div><div class="rounded-lg shadow-md p-4 tile transition duration-300 space-y-2">
             <a href="/products/mldm/latest/sdk/" class="space-y-2"><img src="/icons/diamond.svg" alt="" class="w-5 h-5 icon"><div class="text-xl text-black font-brand-bold font-semibold">Pachyderm SDK</div><p class="text-zinc-900 text-sm ">The officially supported library that provides autogenerated gRPC/protobuf code based on …</p></a><ul class="flex flex-wrap list-none p-0"><li class="my-2 mr-2">
-                        <a href="/products/mldm/latest/sdk/install/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Client Initialization …</a>
+                        <a href="/products/mldm/latest/sdk/install/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Client …</a>
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/sdk/mapping/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Method Mapping</a>
                     </li><li class="my-2 mr-2">
@@ -1752,7 +1742,7 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/contribute/setup/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Contributor Setup</a>
                     </li><li class="my-2 mr-2">
-                        <a href="/products/mldm/latest/contribute/windows/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Developing on Windows …</a>
+                        <a href="/products/mldm/latest/contribute/windows/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Developing on …</a>
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/contribute/docs-style-guide/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">Documentation Style …</a>
                     </li></ul></div><div class="rounded-lg shadow-md p-4 tile transition duration-300 space-y-2">
@@ -1774,51 +1764,40 @@ X-Nf-Request-Id: 01J03PKW0YQDVM1THPQF0MNVQ7
                         <a href="/products/mldm/latest/run-commands/pachctl_auth_get/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">auth get</a>
                     </li><li class="my-2 mr-2">
                         <a href="/products/mldm/latest/run-commands/pachctl_auth_get_cluster/" class="font-brand-light text-xs p-2 text-black bg-white hover:text-white hover:bg-brand hover:transition hover:duration-300 rounded shadow-md">auth get cluster</a>
-                    </li></ul></div></div></div></div> 
-      <section id="searchResultsContainer" class="hidden w-full lg:w-3/5 p-4 z-40"><div id="filterContainer" class="mb-8" data-product="">
-          <label for="filterSelect" class="block text-xl font-brand-bold text-black">Filter by Product</label>
-          <select id="filterSelect" name="filterSelect" class="mt-1 text-black block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-brand focus:border-brand sm:text-sm">
-            <option value="">All Products</option>
-            
-          </select>
-        </div>   
-        <div id="searchHitsContainer"></div>
-     
+                    </li></ul></div></div></div></div><section id="searchResultsContainer" class="hidden w-full lg:w-3/5 p-4 z-40"><div id="filterContainer" class="mb-8" data-product="">
+      <label for="filterSelect" class="block text-xl font-brand-bold text-black">Filter by Product</label>
+      <select id="filterSelect" name="filterSelect" class="mt-1 text-black block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-brand focus:border-brand sm:text-sm">
+        <option value="">All Products</option>
         
-      </section><aside id="sidebar-right" class="hidden xl:block xl:w-1/6 ">
-  
-    <div id="tocContainer" class="hidden toc sticky top-10 pt-4  overflow-y-auto text-xs text-black transition duration-300"> 
-    <nav id="TableOfContents"></nav>
-</div>
-  
-  
+      </select>
+    </div>   
+    <div id="searchHitsContainer"></div>
     
-<div id="chatContainer" class="sticky top-16 h-[calc(100vh-7rem)] justify-end z-40  flex hidden flex-col" data-productFilter="">
-    <div id="chat-messages" class="flex flex-col overflow-y-auto text-base">
-        
-    </div>
-    <div id="chat-controls" class="flex flex-row items-center  text-xs my-2 py-3">
-        <form id="chat-form" class="flex w-full">
-            <input id="question" type="text" required aria-label="Question Input" placeholder="Ask " class="flex flex-grow-1 h-10 border rounded-lg p-1 mr-1 focus:outline-none focus:ring-2 focus:ring-brand xl:w-28 2xl:w-40" />
-            <div class="flex w-full justify-end space-x-2">
-                <button id="sendButton" aria-label="Send" class="flex items-center bg-brand my-1 hover:bg-black text-white p-1 mr-1 rounded-lg shadow-lg transition duration-300 ">
-                    <img src="/icons/send.svg" class="w-5 h-5" alt="Send" >
-                </button>
-                <button id="clearAll" aria-label="Delete All" class="flex items-center bg-zinc-200 my-1 hover:bg-red-600 text-white p-1 rounded-lg shadow-lg transition duration-300">
-                    <img src="/icons/delete.svg" class="w-5 h-5" alt="Delete">
-                </button>
-            </div>
-        </form>
-    </div>
+  </section><aside id="sidebar-right" class="hidden xl:block xl:w-1/6 "><div id="tocContainer" class="hidden toc sticky top-10 pt-4  overflow-y-auto text-xs text-black transition duration-300"> 
+    <nav id="TableOfContents"></nav>
+
+    
+</div><div id="chatContainer" class="sticky top-16 h-[calc(100vh-7rem)] justify-end z-40  flex hidden flex-col" data-productFilter="">
+        <div id="chat-messages" class="flex flex-col overflow-y-auto text-base">
+            
+        </div>
+        <div id="chat-controls" class="flex flex-row items-center  text-xs my-2 py-3">
+            <form id="chat-form" class="flex w-full">
+                <input id="question" type="text" required aria-label="Question Input" placeholder="Ask " class="flex flex-grow-1 h-10 border rounded-lg p-1 mr-1 focus:outline-none focus:ring-2 focus:ring-brand xl:w-28 2xl:w-40" />
+                <div class="flex w-full justify-end space-x-2">
+                    <button id="sendButton" aria-label="Send" class="flex items-center bg-brand my-1 hover:bg-black text-white p-1 mr-1 rounded-lg shadow-lg transition duration-300 ">
+                        <img src="/icons/send.svg" class="w-5 h-5" alt="Send" >
+                    </button>
+                    <button id="clearAll" aria-label="Delete All" class="flex items-center bg-zinc-200 my-1 hover:bg-red-600 text-white p-1 rounded-lg shadow-lg transition duration-300">
+                        <img src="/icons/delete.svg" class="w-5 h-5" alt="Delete">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div></aside></main>
+  </body><footer class="relative z-30">
+<div id="footer">
 </div>
-
-
   
-</aside>
-  </main>
-  </body>
-  <footer class="relative z-30"><div id="footer">
-
-</div></footer>
-</html>
+</footer></html>
 

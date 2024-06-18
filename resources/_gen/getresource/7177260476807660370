@@ -1,28 +1,28 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 43282
+Age: 54859
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 16715342
+Cc-Build-Id: 16765618
 Cc-Cache-Group: default
 Cc-Cache-Status: HIT
-Cc-Perf: fetch-headers=31;t=36
+Cc-Perf: fetch-headers=33;t=41
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 8921d45bfd3e681b-SEA
+Cf-Ray: 895c5f1b1c24722f-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 11 Jun 2024 13:08:23 GMT
-Etag: W/ed3668ed685cefc17fb5e975b204feaa
-Last-Modified: Fri, 31 May 2024 02:04:32 GMT
+Date: Tue, 18 Jun 2024 15:39:20 GMT
+Etag: W/a4502ee3b0d61a2b1ba1b2c077807b1b
+Last-Modified: Thu, 13 Jun 2024 07:57:19 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
 Via: 1.1 google
-X-Etags-1: W/ed3668ed685cefc17fb5e975b204feaa
-X-Etags-2: W/ed3668ed685cefc17fb5e975b204feaa
+X-Etags-1: W/a4502ee3b0d61a2b1ba1b2c077807b1b
+X-Etags-2: W/a4502ee3b0d61a2b1ba1b2c077807b1b
 X-Robots-Tag: all
 
 <!DOCTYPE html>
@@ -668,88 +668,119 @@ X-Robots-Tag: all
 </a>
 
 <script defer>
-
-const checkHeaderContentCards = () => {
-  if (contentCards && contentCards.length > 0) {
-    const topNavCards = contentCards.filter(card => 
-      card.extras && card.extras.blocks && card.extras.blocks.includes("c-top-bar-left-link")
-    );
-
-    if (topNavCards.length > 0) {
-      
-      const lowestWeightCard = topNavCards.reduce((lowest, card) => 
-        !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
-      processHeaderContentCards(lowestWeightCard);
-      console.log("Lowest Weight Top Nav Card Selected");
-    } else {
-      console.log("No Top Nav Cards Found");
-    }
-  } else {
-    setTimeout(checkHeaderContentCards, 1000); 
-    console.log("Checking");
-  }
-};
-
-
-const processHeaderContentCards = (card) => {
-  const recommendationLink = document.getElementById('top_bar_recommendation');
-
   
-  if (card.imageUrl) {
-    loadHeaderImage(card.imageUrl)
-      .then(thumbImg => {
-        thumbImg.className = 'c-top-bar-left-link__icon'; 
-        recommendationLink.innerHTML = ''; 
-        recommendationLink.href = card.url || '#'; 
-        recommendationLink.appendChild(thumbImg);
-
-        const cardTitle = document.createElement('span');
-        cardTitle.textContent = card.title.substring(0, 45) || ''; 
-        recommendationLink.appendChild(cardTitle);
-
-        const arrowSvg = document.createElement('svg');
-        arrowSvg.className = 'c-top-bar-left-link__arrow'; 
-        arrowSvg.setAttribute('width', '5');
-        arrowSvg.setAttribute('height', '9');
-        arrowSvg.setAttribute('viewBox', '0 0 5 9');
-        arrowSvg.setAttribute('fill', 'none');
-        arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-        arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
-        recommendationLink.appendChild(arrowSvg);
-      })
-      .catch(error => console.error('Error loading image:', error));
-  } else {
-    recommendationLink.href = card.url || '#'; 
-    recommendationLink.innerHTML = ''; 
+  const checkHeaderContentCards = () => {
+    if (contentCards && contentCards.length > 0) {
+      
+      const topNavCards = contentCards.filter(card => 
+        card.extras && card.extras.blocks && card.extras.blocks.includes("c-top-bar-left-link")
+      );
+  
+      
+      if (topNavCards.length > 0) {
+        
+        const lowestWeightCard = topNavCards.reduce((lowest, card) => 
+          !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
+        processHeaderContentCards(lowestWeightCard);
+      } 
+    } else {
+      
+      setTimeout(checkHeaderContentCards, 1000); 
+    }
+  };
+  
+  
+  const processHeaderContentCards = (card) => {
+    const recommendationLink = document.getElementById('top_bar_recommendation');
+  
     
-    const cardTitle = document.createElement('span');
-    cardTitle.textContent = card.title.substring(0, 45) || ''; 
-    recommendationLink.appendChild(cardTitle);
+    if (card.imageUrl) {
+      loadHeaderImage(card.imageUrl) 
+        .then(thumbImg => {
+          thumbImg.className = 'c-top-bar-left-link__icon'; 
+          recommendationLink.innerHTML = ''; 
+          recommendationLink.href = card.url || '#'; 
+          recommendationLink.appendChild(thumbImg); 
+  
+          
+          const cardTitle = document.createElement('span');
+          cardTitle.textContent = card.title.substring(0, 45) || ''; 
+          recommendationLink.appendChild(cardTitle);
+  
+          
+          const arrowSvg = document.createElement('svg');
+          arrowSvg.className = 'c-top-bar-left-link__arrow'; 
+          arrowSvg.setAttribute('width', '5');
+          arrowSvg.setAttribute('height', '9');
+          arrowSvg.setAttribute('viewBox', '0 0 5 9');
+          arrowSvg.setAttribute('fill', 'none');
+          arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+          arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
+          recommendationLink.appendChild(arrowSvg);
+  
+          
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+                
+                braze.logContentCardImpressions([card]); 
+                
+                entry.target.dataset.impressionLogged = true;
+                observer.disconnect();
+              }
+            });
+          }, { threshold: 0.5 }); 
+  
+          observer.observe(recommendationLink);
+  
+        
+        recommendationLink.addEventListener('click', (event) => {
+            event.preventDefault(); 
 
-    const arrowSvg = document.createElement('svg');
-    arrowSvg.className = 'c-top-bar-left-link__arrow'; 
-    arrowSvg.setAttribute('width', '5');
-    arrowSvg.setAttribute('height', '9');
-    arrowSvg.setAttribute('viewBox', '0 0 5 9');
-    arrowSvg.setAttribute('fill', 'none');
-    arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-    arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
-    recommendationLink.appendChild(arrowSvg);
-  }
-};
-
-
-checkHeaderContentCards();
-
-
-const loadHeaderImage = src =>
-  new Promise((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => resolve(img);
-    img.onerror = reject;
-    img.src = src;
-  });
-</script>
+            
+            if (braze.logContentCardClick(card)) {
+              
+              setTimeout(() => {
+                window.location.href = card.url; 
+              }, 5000);
+            } 
+          });
+        })
+        .catch(error => console.error('Error loading image:', error));
+    } else {
+      recommendationLink.href = card.url || '#'; 
+      recommendationLink.innerHTML = ''; 
+      
+      
+      const cardTitle = document.createElement('span');
+      cardTitle.textContent = card.title.substring(0, 45) || ''; 
+      recommendationLink.appendChild(cardTitle);
+  
+      
+      const arrowSvg = document.createElement('svg');
+      arrowSvg.className = 'c-top-bar-left-link__arrow'; 
+      arrowSvg.setAttribute('width', '5');
+      arrowSvg.setAttribute('height', '9');
+      arrowSvg.setAttribute('viewBox', '0 0 5 9');
+      arrowSvg.setAttribute('fill', 'none');
+      arrowSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      arrowSvg.innerHTML = '<path d="M4.11996 4.37081L0.739367 1.31358C0.659771 1.2416 0.532116 1.2416 0.45252 1.31358C0.372923 1.38556 0.372923 1.50101 0.45252 1.57299L3.68894 4.49983L0.45252 7.42667C0.372923 7.49866 0.372923 7.6141 0.45252 7.68608C0.491567 7.72139 0.544131 7.74041 0.595192 7.74041C0.646254 7.74041 0.698818 7.72275 0.737865 7.68608L4.11846 4.62886C4.19806 4.55823 4.19806 4.44143 4.11996 4.37081Z"/>';
+      recommendationLink.appendChild(arrowSvg);
+    }
+  };
+  
+  
+  checkHeaderContentCards();
+  
+  
+  const loadHeaderImage = src =>
+    new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
+  </script>
 <!--bookshop-live end-->
     <div class="c-top-bar__nav-items">
         
@@ -5061,61 +5092,44 @@ const loadHeaderImage = src =>
 </div>
 
 <script defer>
- 
-const checkContentCards = () => {
-  if (contentCards && contentCards.length > 0) {
-    const recommendedReadsCards = contentCards.filter(card => 
-      card.extras && card.extras.blocks && card.extras.blocks.includes("c-card-layout--recommended")
-    );
-    processContentCards(recommendedReadsCards);
-  } else {
-    setTimeout(checkContentCards, 1000); 
-  }
-};
-
-
-const processContentCards = (contentCards) => {
-  const limit = 4;
-  const promises = [];
-  const cards = []; 
-  let counter = 0;
+  
+  const checkContentCards = () => {
+    if (contentCards && contentCards.length > 0) {
+      
+      const recommendedReadsCards = contentCards.filter(card => 
+        card.extras && card.extras.blocks && card.extras.blocks.includes("c-card-layout--recommended")
+      );
+      processContentCards(recommendedReadsCards);
+    } else {
+      
+      setTimeout(checkContentCards, 1000); 
+    }
+  };
 
   
-  const ctaCards = contentCards.filter(card => card.extras && card.extras.type === 'cta');
-  let ctaCard = null;
-  if (ctaCards.length > 0) {
-    ctaCard = ctaCards.reduce((lowest, card) => 
-      !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
-  }
-
-  
-  if (ctaCard) {
-    counter++;
-    const newCard = createCardElement(ctaCard);
-    cards.push(newCard);
+  const processContentCards = (contentCards) => {
+    const limit = 4; 
+    const promises = []; 
+    const cards = []; 
+    let counter = 0; 
 
     
-    if (ctaCard.imageUrl) {
-      const promise = loadImage(ctaCard.imageUrl)
-        .then(thumbImg => {
-          thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
-          newCard.prepend(thumbImg);
-        })
-        .catch(error => console.error('Error loading image:', error));
-      promises.push(promise);
+    const ctaCards = contentCards.filter(card => card.extras && card.extras.type === 'cta');
+    let ctaCard = null;
+    if (ctaCards.length > 0) {
+      ctaCard = ctaCards.reduce((lowest, card) => 
+        !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
     }
-  }
 
-  
-  contentCards.forEach(card => {
-    if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+    
+    if (ctaCard) {
       counter++;
-      const newCard = createCardElement(card);
+      const newCard = createCardElement(ctaCard);
       cards.push(newCard);
 
       
-      if (card.imageUrl) {
-        const promise = loadImage(card.imageUrl)
+      if (ctaCard.imageUrl) {
+        const promise = loadImage(ctaCard.imageUrl)
           .then(thumbImg => {
             thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
             newCard.prepend(thumbImg);
@@ -5124,56 +5138,121 @@ const processContentCards = (contentCards) => {
         promises.push(promise);
       }
     }
-  });
+
+    
+    contentCards.forEach(card => {
+      if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+        counter++;
+        const newCard = createCardElement(card);
+        cards.push(newCard);
+
+        
+        if (card.imageUrl) {
+          const promise = loadImage(card.imageUrl)
+            .then(thumbImg => {
+              thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
+              newCard.prepend(thumbImg);
+            })
+            .catch(error => console.error('Error loading image:', error));
+          promises.push(promise);
+        }
+      }
+    });
+
+    
+    Promise.all(promises)
+      .then(() => {
+        
+        const placeholderCardsDiv = document.getElementById('placeholder-cards');
+        placeholderCardsDiv.innerHTML = ''; 
+        cards.forEach(card => {
+          placeholderCardsDiv.appendChild(card);
+        });
+
+        
+        cards.forEach(card => {
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              
+              if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+                
+                braze.logContentCardImpressions([card]);
+                entry.target.dataset.impressionLogged = true; 
+                observer.disconnect(); 
+              }
+            });
+          }, { threshold: 0.5 }); 
+          observer.observe(card);
+        });
+      })
+      .catch(error => console.error('Error loading placeholder cards:', error));
+  };
 
   
-  Promise.all(promises)
-    .then(() => {
-      
-      const placeholderCardsDiv = document.getElementById('placeholder-cards');
-      placeholderCardsDiv.innerHTML = ''; 
-      cards.forEach(card => {
-        placeholderCardsDiv.appendChild(card);
+  const createCardElement = (card) => {
+    const newCard = document.createElement('a');
+    newCard.className = 'c-card-layout--recommended__recommended-cards__card';
+    newCard.href = card.url || '#'; 
+    newCard.dataset.cardId = card.id; 
+    newCard.dataset.impressionLogged = false; 
+
+    
+    const cardTitle = document.createElement('p');
+    cardTitle.className = 'c-card-layout--recommended__recommended-cards__card__title';
+    cardTitle.textContent = card.title || '';
+    newCard.appendChild(cardTitle);
+
+    const cardLink = document.createElement('a'); 
+    cardLink.className = 'c-card-layout--recommended__recommended-cards__card__link';
+    cardLink.textContent = card.linkText || ''; 
+    cardLink.href = (card.url || '#');
+    newCard.appendChild(cardLink);
+
+    
+    newCard.addEventListener('click', () => handleCardClick(card)); 
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+          
+          braze.logContentCardImpressions([card]);
+          entry.target.dataset.impressionLogged = true; 
+          observer.disconnect(); 
+        }
       });
-    })
-    .catch(error => console.error('Error loading placeholder cards:', error));
-};
+    }, { threshold: 0.5 }); 
+    observer.observe(cardLink);
 
-
-const createCardElement = (card) => {
-  const newCard = document.createElement('a');
-  newCard.className = 'c-card-layout--recommended__recommended-cards__card';
+    return newCard;
+  };
 
   
-  const cardTitle = document.createElement('p');
-  cardTitle.className = 'c-card-layout--recommended__recommended-cards__card__title';
-  cardTitle.textContent = card.title || ''; 
-  newCard.appendChild(cardTitle);
+  const handleCardClick = (card) => {
+    event.preventDefault(); 
 
-  const cardLink = document.createElement('a');
-  cardLink.className = 'c-card-layout--recommended__recommended-cards__card__link';
-  cardLink.textContent = card.linkText || ''; 
-  cardLink.href = (card.url || '#');
-  newCard.appendChild(cardLink);
+    
+    if (braze.logContentCardClick(card)) {
+      
+      setTimeout(() => {
+        window.location.href = card.url; 
+      }, 5000); 
+    } else {
+      console.error("Error logging content card click.");
+      
+    }
+  };
 
-  return newCard;
-};
+  
+  checkContentCards();
 
-
-checkContentCards();
-
-
-const loadImage = src =>
-  new Promise((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => resolve(img);
-    img.onerror = reject;
-    img.src = src;
-  });
-
-
+  
+  const loadImage = src =>
+    new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
 </script>
-
 <!--bookshop-live end-->
 		</div>
 	

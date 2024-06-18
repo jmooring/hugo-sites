@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8921d43cd851093b-SEA
+Cf-Ray: 895c5ee9cd49281c-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:18 GMT
-Last-Modified: Tue, 11 Jun 2024 12:10:03 GMT
+Date: Tue, 18 Jun 2024 15:39:12 GMT
+Last-Modified: Tue, 18 Jun 2024 15:32:48 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=m7hs4HuMcZH9y9Nf_glTHwoXU0xTLkRvFGc.HmsfhZU-1718111298-1.0.1.1-AOHeRhQrXMkjLcDaEbnw_Lj2_wmyjZCcjA6lLIdDq5uTS3yS.p4lMoty16FLz_5njA.fYVDD0h8sMWanog0OGA; path=/; expires=Tue, 11-Jun-24 13:38:18 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=wWtpNrk8EjqfHbW2_8WoQSrFHGGx.cSYtPeTZQPKLa4-1718111298-1.0.1.1-QA_yW.5oROM5yRQ4eKhYn3ORAlqzwOCyb5hWUW7ppCWpP5uUqaoGteG6X3SwNtlZ3qij3V.FZlKAC9dsN1VtM8GfkBciYI4PK6zPrP57.ms; path=/; expires=Tue, 11-Jun-24 13:38:18 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=kJ3KSA8HBxDHL8K9twy2I1EaRVglvF4i8dFS1Kwp_nU-1718725152-1.0.1.1-vtxbLKSoMHn1M8MTySQFEtwiZ.LOkKarBSZStOjZSZihEc48lnfdUne24czLBQp0aVPsid3.CFw9Zkho3uB_fw; path=/; expires=Tue, 18-Jun-24 16:09:12 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=0QbvM58cntdEh79zhrqdapGlzZRd9jUEdkC1.Jvpxog-1718725152-1.0.1.1-Hqx0ARa2h_sEF.EE1Y4Bx_npmmRBofeXtikPkADXC5cLn3KXbsiqVmIWiw.k6UzTA3iZWw4iOpFhWRiRgrDA1_SbsD94cptDBVXPf.0MrmE; path=/; expires=Tue, 18-Jun-24 16:09:12 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
 X-Do-Orig-Status: 200
-X-Etags-1: 5587267468fed546062ad6b6871ccd98
-X-Etags-2: 5587267468fed546062ad6b6871ccd98
+X-Etags-1: 69ae46ea268708d31c3f93f72245a474
+X-Etags-2: 69ae46ea268708d31c3f93f72245a474
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
 
@@ -313,20 +313,20 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 <p>Customers who will no longer require snapshot services after this change should <a href="https://cloudsupport.digitalocean.com">contact support</a> for a prorated refund.</p>
 </p>
     </li></ul><h2 id="latest-updates">Latest Updates</h2>
-<h3 id="6-june-2024">6 June 2024</h3>
+<h3 id="17-june-2024">17 June 2024</h3>
 <ul><li>
-    <p><p>Centos Stream 8 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is available exclusively via the API for the next 30 days before we remove it from our platform.</p>
-</p>
-    </li></ul><h3 id="5-june-2024">5 June 2024</h3>
-<ul><li>
-    <p><p><a href="/products/backups/how-to/enable/">Daily backups</a> are now available in SYD1.</p>
+    <p><p>Managed Databases now supports log forwarding to OpenSearch, Elasticsearch, and Rsyslog. You can create and manage log sinks using the <a href="https://cloud.digitalocean.com/databases">control panel</a> and <a href="/reference/api/api-reference/">DigitalOcean API</a>. For more detailed steps, see our guides for <a href="/products/databases/mysql/how-to/forward-logs/">MySQL</a>, <a href="/products/databases/postgresql/how-to/forward-logs/">PostgreSQL</a>, <a href="/products/databases/redis/how-to/forward-logs/">Redis</a>, <a href="/products/databases/mongodb/how-to/forward-logs/">MongoDB</a>, and <a href="/products/databases/kafka/how-to/forward-logs/">Kafka</a>.</p>
 </p>
     </li><li>
-    <p><p><a href="/products/app-platform/how-to/manage-databases/#integrate-an-existing-kafka-database-beta">You can now add existing Kafka databases</a> to App Platform apps. This feature is in beta.</p>
+    <p><p>DigitalOcean <a href="https://opensearch.org/">OpenSearch</a> is now in general availability. For more details, see our <a href="/products/databases/opensearch/">OpenSearch documentation</a> and <a href="/platform/regional-availability/">regional availability matrix</a>.</p>
 </p>
-    </li></ul><h3 id="30-may-2024">30 May 2024</h3>
+    </li></ul><h3 id="13-june-2024">13 June 2024</h3>
 <ul><li>
-    <p><p>We have released an updated Ubuntu 24.04 image that fixes a problem with <code>journald</code>. If you created a Ubuntu 24.04 Droplets on or before 30 May 2024, you can run <code>sudo systemctl restart systemd-journald</code> once as a workaround for the patch.</p>
+    <p><p>We are moving the managed Cilium Operator component (<code>cilium-operator</code>) from the worker nodes to the control plane of DOKS clusters. This frees up resources on the worker nodes and improves autoscaling of the component.</p>
+</p>
+    </li></ul><h3 id="6-june-2024">6 June 2024</h3>
+<ul><li>
+    <p><p>Centos Stream 8 has reached end of life. Per our <a href="/products/droplets/details/image-deprecation/">image deprecation policy</a>, this image is available exclusively via the API for the next 30 days before we remove it from our platform.</p>
 </p>
     </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

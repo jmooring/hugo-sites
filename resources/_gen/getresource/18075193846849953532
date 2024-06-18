@@ -1,18 +1,18 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Cache-Control: max-age=3600
-Content-Security-Policy: default-src 'none' ; base-uri 'none' ; script-src 'self' https://www-powermapper-com.azureedge.net https://code.jquery.com https://cdn.matomo.cloud/powermapper.matomo.cloud/matomo.js 'sha256-wnAo7QxNEX0vkezmzajqqwoNj+0LfIUzBPKaeR6sG7M=' https://www.googletagmanager.com 'sha256-MHL9GoXatLo0I81zn6Q4vYMRQxuaeGp+cn/5JDA5CdE=' ; img-src 'self' data: https://www-powermapper-com.azureedge.net https://try.powermapper.com https://maps.google.com *.analytics.google.com *.google-analytics.com www.googletagmanager.com ; style-src 'self' https://www-powermapper-com.azureedge.net https://fonts.googleapis.com 'sha256-x78P3cfcD1ce7ZwDmidRkJECJaHuC+aeYPT7QDSM5BY=' ; frame-src https://download.powermapper.com https://www.google.com https://secure-stats.pingdom.com ; frame-ancestors 'self' ; connect-src https://order.powermapper.com *.analytics.google.com *.google-analytics.com https://powermapper.matomo.cloud https://www-powermapper-com.azureedge.net/search/search.json ; object-src 'self' ; form-action 'self' https://try.powermapper.com ; font-src https://fonts.gstatic.com ; report-uri https://ttu5kx1j.uriports.com/reports ;
+Cache-Control: public, max-age=3600
+Content-Security-Policy: default-src 'none' ; base-uri 'none' ; script-src 'self' https://www-powermapper-com.azureedge.net cdn-cookieyes.com https://code.jquery.com https://cdn.matomo.cloud/powermapper.matomo.cloud/matomo.js 'sha256-wnAo7QxNEX0vkezmzajqqwoNj+0LfIUzBPKaeR6sG7M=' https://www.googletagmanager.com 'sha256-KDvv40KtsEFnWJzyroFRzc++DIwQUZjhcNVIpK7MRtc=' ; img-src 'self' data: https://www-powermapper-com.azureedge.net https://try.powermapper.com https://maps.google.com *.analytics.google.com *.google-analytics.com www.googletagmanager.com cdn-cookieyes.com ; style-src 'self' 'unsafe-inline' https://www-powermapper-com.azureedge.net https://fonts.googleapis.com ; frame-src https://download.powermapper.com https://www.google.com https://secure-stats.pingdom.com ; frame-ancestors 'self' ; connect-src *.cookieyes.com cdn-cookieyes.com https://order.powermapper.com *.analytics.google.com *.google-analytics.com https://powermapper.matomo.cloud https://www-powermapper-com.azureedge.net/search/search.json ; object-src 'self' ; form-action 'self' https://try.powermapper.com ; font-src https://fonts.gstatic.com ; report-uri https://ttu5kx1j.uriports.com/reports ;
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:45 GMT
-Etag: "80854c8bdfbbda1:0"
-Last-Modified: Tue, 11 Jun 2024 09:12:55 GMT
+Date: Tue, 18 Jun 2024 15:39:47 GMT
+Etag: "0f2cdcd25c0da1:0"
+Last-Modified: Sun, 16 Jun 2024 19:45:56 GMT
 Permissions-Policy: autoplay=()
 Referrer-Policy: no-referrer-when-downgrade
 Strict-Transport-Security: max-age=15768000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: "80854c8bdfbbda1:0"
-X-Etags-2: "80854c8bdfbbda1:0"
+X-Etags-1: "0f2cdcd25c0da1:0"
+X-Etags-2: "0f2cdcd25c0da1:0"
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 
@@ -23,7 +23,7 @@ X-Xss-Protection: 1; mode=block
 <link rel=preconnect href=https://fonts.googleapis.com>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=optional" rel=stylesheet media="screen and (min-width: 450px)">
-<link rel=stylesheet media=screen href="https://www-powermapper-com.azureedge.net/css/theme.min.daf0f2427cbdec64d2460ade21ac9ac7cd0b2603e5fc40a94c7a9b092d79fb6a.css">
+<link rel=stylesheet media=screen href="https://www-powermapper-com.azureedge.net/css/theme.min.40e2bf9b1b196929b553680615cdad49a500597dfb1c6a52ee7f4646f378ad50.css">
 <meta name=description content="PowerMapper Software makes simple tools for website mapping and testing web sites for accessibility, broken links, browser compatibility and errors.">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <link rel=icon href=https://www-powermapper-com.azureedge.net/favicon.ico>
@@ -219,7 +219,33 @@ Multiple File Types
 Check a wide variety of file formats including HTML, JavaScript, CSS, SVG, Adobe PDF,
 GIF, PNG, JPEG, Audio, Video, and Microsoft Office.
 </p></div></a>
-</div></div></div></div><div class="container pt-3 pt-md-4 pt-lg-5 pb-2 mt-lg-2 mt-xl-4">
+</div></div></div></div><div class="container pb-2 mt-lg-2 mt-xl-4 mb-5">
+<div class="d-lg-flex flex-row">
+<div class="card shadow-sm mb-4 mb-lg-1 me-sm-4 flex-fill w-100 w-lg-25">
+<div class=card-body>
+<blockquote>
+<p>SortSite is an automated tool that scans your website for device compatibility and accessibility. Bonus: It also checks for search engine optimization (SEO), broken links, and secure connections.</p></blockquote></div><div class=card-footer>
+<div class="d-flex align-items-center was-border-end-sm pe-sm-4 me-sm-2">
+<img src=https://www-powermapper-com.azureedge.net/images/testimonials/shopify-staff-48.jpg srcset="https://www-powermapper-com.azureedge.net/images/testimonials/shopify-staff-96.jpg 2x" width=48 height=48 loading=lazy class=rounded-circle alt="Shopify staff writer">
+<div class="ps-2 was-ps-md-0">
+<p class="fs-sm fw-semibold lh-base mb-0">Shopify Blog</p><span class="fs-sm text-muted"><a href=https://www.shopify.com/uk/blog/web-accessibility>Shopify</a></span>
+</div></div></div></div><div class="card shadow-sm mb-4 mb-lg-1 me-sm-4 flex-fill w-100 w-lg-25">
+<div class=card-body>
+<blockquote>
+<p>SortSite is a tool that stood out to us and gave us good results. To date we have scanned multiple applications at DOH and the results have been informative and helpful in assessing the accessibility and assisting us with what to fix.</p></blockquote></div><div class=card-footer>
+<div class="d-flex align-items-center was-border-end-sm pe-sm-4 me-sm-2">
+<img src=https://www-powermapper-com.azureedge.net/images/testimonials/generic-keyboard-48.jpg srcset="https://www-powermapper-com.azureedge.net/images/testimonials/generic-keyboard-96.jpg 2x" width=48 height=48 loading=lazy class=rounded-circle alt="Accessibility coordinator presentation">
+<div class="ps-2 was-ps-md-0">
+<p class="fs-sm fw-semibold lh-base mb-0">IT Accessibility Coordinator</p><span class="fs-sm text-muted">WA Department of Health</span>
+</div></div></div></div><div class="card shadow-sm mb-4 mb-lg-1 flex-fill w-100 w-lg-25">
+<div class=card-body>
+<blockquote>
+<p>There are lots of good tools out there to generate sitemaps, but this tool creates 2D & 3D visual sitemaps for you – which is really powerful when trying to understand how crawlers navigate your site, or explain to a client the architectural issues a site may be facing. </p></blockquote></div><div class=card-footer>
+<div class="d-flex align-items-center was-border-end-sm pe-sm-4 me-sm-2">
+<img src=https://www-powermapper-com.azureedge.net/images/testimonials/generic-keyboard-48.jpg srcset="https://www-powermapper-com.azureedge.net/images/testimonials/generic-keyboard-96.jpg 2x" width=48 height=48 loading=lazy class=rounded-circle alt="Pete Campbell talk at Brighton SEO">
+<div class="ps-2 was-ps-md-0">
+<p class="fs-sm fw-semibold lh-base mb-0">Pete Campbell</p><span class="fs-sm text-muted">PeteCampbell.com</span>
+</div></div></div></div></div></div><div class="container pt-3 pt-md-4 pt-lg-5 pb-2 mt-lg-2 mt-xl-4">
 <div class="row align-items-center">
 <div class="col-md-7 d-none d-md-block">
 <img src=https://www-powermapper-com.azureedge.net/images/app/sortsite-window-light-dash.svg class="d-block my-lg-2 mx-auto me-md-0 rounded-3 border shadow-lg" width=746 height=426 loading=lazy alt="Screenshot of SortSite report dashboard">
@@ -331,7 +357,7 @@ Based in Edinburgh (UK), PowerMapper Software makes easy-to-use tools for mappin
 </h3><div id=useful-links class="collapse d-lg-block" data-bs-parent=#footer-links>
 <ul class="nav flex-column pb-lg-1 mb-lg-3">
 <li class=nav-item><a href=/products/ class="nav-link d-inline-block px-0 pt-1 pb-2">Products</a></li><li class=nav-item><a href=/support/ class="nav-link d-inline-block px-0 pt-1 pb-2">Support</a></li><li class=nav-item><a href=/company/ class="nav-link d-inline-block px-0 pt-1 pb-2">About</a></li><li class=nav-item><a href=/blog/ class="nav-link d-inline-block px-0 pt-1 pb-2">Blog</a></li><li class=nav-item><a href=/sitemap/ class="nav-link d-inline-block px-0 pt-1 pb-2">Sitemap</a></li></ul><ul class="nav flex-column mb-2 mb-lg-0">
-<li class=nav-item><a href=/smallprint/accessibility/ class="nav-link d-inline-block px-0 pt-1 pb-2">Accessibility Policy</a></li><li class=nav-item><a href=/smallprint/legal/ class="nav-link d-inline-block px-0 pt-1 pb-2">Terms & Conditions</a></li><li class=nav-item><a href=/smallprint/privacy/ class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li></ul></div></div><div class="col-xl-4 col-lg-3">
+<li class=nav-item><a href=/smallprint/accessibility/ class="nav-link d-inline-block px-0 pt-1 pb-2">Accessibility Policy</a></li><li class=nav-item><a href=/smallprint/legal/ class="nav-link d-inline-block px-0 pt-1 pb-2">Terms & Conditions</a></li><li class=nav-item><a href=/smallprint/privacy/ class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li><li class=nav-item><a href=# role=button class="cky-banner-element nav-link d-inline-block px-0 pt-1 pb-2">Cookie Preferences</a></li></ul></div></div><div class="col-xl-4 col-lg-3">
 <h3 class="h6 mb-2 d-lg-none">
 <a href=#social-links class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle=collapse>Solutions</a>
 </h3><div id=social-links class="collapse d-lg-block" data-bs-parent=#footer-links>
@@ -340,7 +366,9 @@ Based in Edinburgh (UK), PowerMapper Software makes easy-to-use tools for mappin
 <h3 class="h6 mb-2">Contact Us</h3><a href=mailto:support@powermapper.com class=fw-medium>support@powermapper.com</a>
 </div></div></div></div><p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
 <span class="text-light opacity-80">Copyright 2023. PowerMapper Software. All rights reserved. </span>
-</p></div></footer><script async src="https://www.googletagmanager.com/gtag/js?id=G-LF9VL0DFT0"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("consent","default",{analytics_storage:"denied",region:["GB","AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","EL","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE"]}),gtag("config","G-LF9VL0DFT0")</script><script async src=https://www-powermapper-com.azureedge.net/js/site-bundle-min-20240402.js integrity=sha384-B1SBGSEhI5gXpqo62aR8edMEhizkLlL+e2ol8UXKuA+rncJnSPBvhGC6i4gPcFNp crossorigin=anonymous></script>
+</p></div></footer><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("consent","default",{ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",analytics_storage:"denied",functionality_storage:"denied",personalization_storage:"denied",security_storage:"granted",wait_for_update:2e3}),gtag("set","ads_data_redaction",!0),gtag("set","url_passthrough",!0),gtag("js",new Date),gtag("config","G-LF9VL0DFT0")</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LF9VL0DFT0"></script>
+<script async id=cookieyes src=https://cdn-cookieyes.com/client_data/832eea0e163ad734db954724/script.js></script>
+<script async src=https://www-powermapper-com.azureedge.net/js/site-bundle-min-20240616.js integrity=sha384-NjjdDaFKdah3lyVto5qGgv1xzWr+ORtkUgn1jKVYQ12+E6Ww3iihX+krTRRQsr3l crossorigin=anonymous></script>
 <script async src=https://www-powermapper-com.azureedge.net/vendor/js/bootstrap.bundle.min.20240402.js integrity=sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 crossorigin=anonymous></script>
 </body></html>

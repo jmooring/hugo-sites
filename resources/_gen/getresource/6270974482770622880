@@ -2,17 +2,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:27 GMT
-Etag: W/"666833b7-74f1"
-Last-Modified: Tue, 11 Jun 2024 11:23:35 GMT
+Date: Tue, 18 Jun 2024 15:39:26 GMT
+Etag: W/"6671a24c-7574"
+Last-Modified: Tue, 18 Jun 2024 15:05:48 GMT
 Server: nginx
 Strict-Transport-Security: max-age=32140800; includeSubDomains
 Vary: Accept-Encoding
-X-Etags-1: W/"666833b7-74f1"
-X-Etags-2: W/"666833b7-74f1"
+X-Etags-1: W/"6671a24c-7574"
+X-Etags-2: W/"6671a24c-7574"
 X-Frame-Options: SAMEORIGIN
 
-74f1
+7574
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -408,10 +408,15 @@ X-Frame-Options: SAMEORIGIN
             <span class="announce-date">Mon, 03 Jun 2024</span>
           </div>
           <div class="col-md-4 announcement">
+            <p class="overline overline-operating-hours/closing-information">Operating Hours/Closing Information</p>
+            <h3><a href="https://www.arin.net/announcements/20240617/">Juneteenth Closing Information</a></h3>
+            <span class="announce-date">Mon, 17 Jun 2024</span>
+          </div></div><!-- close first row --><div class="row">
+          <div class="col-md-4 announcement">
             <p class="overline overline-governance">Governance</p>
             <h3><a href="https://www.arin.net/announcements/20240604/">ARIN Community Grant Program Application Deadline Extended</a></h3>
             <span class="announce-date">Tue, 04 Jun 2024</span>
-          </div></div><!-- close first row --><div class="row">
+          </div>
           <div class="col-md-4 announcement">
             <p class="overline overline-service-update">Service Update</p>
             <h3><a href="https://www.arin.net/announcements/20240603/">New Features Added to ARIN Online</a></h3>
@@ -421,11 +426,6 @@ X-Frame-Options: SAMEORIGIN
             <p class="overline overline-arin">ARIN</p>
             <h3><a href="https://www.arin.net/announcements/20240524/">In Remembrance — Stacy Taylor (Hughes)</a></h3>
             <span class="announce-date">Fri, 24 May 2024</span>
-          </div>
-          <div class="col-md-4 announcement">
-            <p class="overline overline-governance">Governance</p>
-            <h3><a href="https://www.arin.net/announcements/20240520/">Announcing the 2024 ARIN Grant Selection Committee</a></h3>
-            <span class="announce-date">Mon, 20 May 2024</span>
           </div></div> 
       <div class="text-end" style="font-size:1.1em">&raquo; <a href="/announcements">View Archive</a></div>
     </div> 
@@ -481,7 +481,7 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
 
     </div>
     <div class="billboards">
-      <a href="/ARIN53materials"><img src="/homepage/images/arin53_meetingreport.svg" alt="View the ARIN 53 Meeting Report"></a>
+      <a href="/announcements/20240610-nominations/"><img src="/homepage/images/2024_elections_nominationsopen.svg" alt="Nominations Now Open for the 2024 ARIN Elections"></a>
       
       <a href="/about/community_grants/program/"><img src="/homepage/images/communitygrants_apply.png" alt="Apply for the ARIN Community Grant Program"></a>
       </div>
@@ -496,6 +496,19 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <section class="row row-cols-1 row-cols-md-3">
 
         
+<div class="col">
+  <div class="blog-preview card">
+    <a href="/blog/2024/06/18/arin-bits-june-2024/">
+      <img class="card-img-top" src="/blog/2024/06/18/arin-bits-june-2024/ARIN_BITS_header.jpeg" alt="Read the blog ARIN Bits: June 2024">
+    </a>
+    <div class="card-body">
+      <a href="/blog/2024/06/18/arin-bits-june-2024/"><h3 class="card-title">ARIN Bits: June 2024</h3></a>
+      <time datetime="2024-06-18 08:45:00 -0400 EDT">18 Jun 2024</time>
+      <p>Dive into the summer edition of ARIN Bits, which includes updates on our filled-to-the-brim second quarter and what to expect in the rest of the year. Read up on the wave of new resources and participation opportunities, along with ARIN Elections details, the 2023 Annual Report, upcoming industry events, and much more.</p>
+    </div>
+  </div>
+</div>
+
 <div class="col">
   <div class="blog-preview card">
     <a href="/blog/2024/05/21/arin53-keynote-recap/">
@@ -518,19 +531,6 @@ ARIN Meetings and Events are an important part of our open, transparent, bottom-
       <a href="/blog/2024/05/15/nro-rpki-program-series-2/"><h3 class="card-title">NRO RPKI Program Blog Series: Part 2</h3></a>
       <time datetime="2024-05-15 08:50:00 -0400 EDT">15 May 2024</time>
       <p>The Number Resource Organization&#39;s Resource Public Key Infrastructure (RPKI) Program Manager discusses the specific outcomes that will guide the program&#39;s efforts and the community feedback needed to support them.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="blog-preview card">
-    <a href="/blog/2024/05/02/grant-applications-open/">
-      <img class="card-img-top" src="/blog/2024/05/02/grant-applications-open/grants.jpg" alt="Read the blog Apply for an ARIN Community Grant ">
-    </a>
-    <div class="card-body">
-      <a href="/blog/2024/05/02/grant-applications-open/"><h3 class="card-title">Apply for an ARIN Community Grant </h3></a>
-      <time datetime="2024-05-02 08:00:00 -0400 EDT">2 May 2024</time>
-      <p>The call for applications to the 2024 ARIN Community Grant Program is out! Learn how to apply for one of our financial grants in support of operational and research projects that improve the overall Internet industry and user environment.</p>
     </div>
   </div>
 </div>

@@ -1,23 +1,23 @@
 HTTP/2.0 200 OK
-Age: 117516
+Age: 12878
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8921d44c6e6fc6fd-SEA
+Cf-Ray: 895c5f046990935d-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 11 Jun 2024 13:08:20 GMT
+Date: Tue, 18 Jun 2024 15:39:16 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=at5ZU2k2L13RVoLG8HKFaUAYjBfhUwzUfoPBPY76fVBIEkTFMG9PgBv0pgxsiFOepyIlaG%2Br778i587Qvkf61p7kIjROVOHxtrXk0Q7xHSfxUN6T0lb5rqc%2BXg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=HpKzV6z5VSq7bZiZXVkZ1cmEHm6Gs4O5V9pXZxmG27aib0%2Bx6oNza%2BooCwlC%2FOEOVUiAr5WA4S%2FpZskteb5XzmkNJp8qBOXwco%2FE5BC%2B2BciZtLZEDjop15XpQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
 Strict-Transport-Security: max-age=31536000
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: 3e89b41c529b0dae2a581fb906d637a4
-X-Etags-2: 3e89b41c529b0dae2a581fb906d637a4
-X-Nf-Request-Id: 01J03PKV1KYR03D4XN72WYG0Q6
+X-Etags-1: 7315264a75a6f535de913fb84a65dd50
+X-Etags-2: 7315264a75a6f535de913fb84a65dd50
+X-Nf-Request-Id: 01J0P017SGNRX42RR2MWH5BDTP
 X-Xss-Protection: 1; mode=block
 
 
@@ -664,6 +664,10 @@ X-Xss-Protection: 1; mode=block
                                 </li>
                               
                                 <li class="topic sub-topic">
+                                  <a href="https://dgraph.io/docs/graphql/schema/directives/embedding/">@embedding</a>
+                                </li>
+                              
+                                <li class="topic sub-topic">
                                   <a href="https://dgraph.io/docs/graphql/schema/directives/deprecated/">@deprecated</a>
                                 </li>
                               
@@ -788,6 +792,12 @@ X-Xss-Protection: 1; mode=block
                         <li class="topic sub-topic">
                           
                           <a href="https://dgraph.io/docs/graphql/queries/search-filtering/">Search and Filtering</a>
+                          
+                        </li>
+                      
+                        <li class="topic sub-topic">
+                          
+                          <a href="https://dgraph.io/docs/graphql/queries/vector-similarity/">Similarity Search</a>
                           
                         </li>
                       

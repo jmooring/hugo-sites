@@ -1,128 +1,768 @@
 HTTP/2.0 200 OK
-Connection: close
+Accept-Ranges: bytes
+Cache-Control: max-age=3600
 Content-Type: text/html
-Date: Tue, 11 Jun 2024 13:08:18 GMT
+Date: Tue, 18 Jun 2024 15:39:12 GMT
+Expires: Tue, 18 Jun 2024 16:39:12 GMT
+Last-Modified: Sat, 15 Jun 2024 20:09:29 GMT
 Server: Apache
-X-Etags-1: 95725cc6391bb29982c78d345177a899
-X-Etags-2: 95725cc6391bb29982c78d345177a899
+Vary: Accept-Encoding,User-Agent
+X-Etags-1: 18f2fb33ddea62fc0cd6afcc9bac3928
+X-Etags-2: 18f2fb33ddea62fc0cd6afcc9bac3928
+X-Varied-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Cache-control" content="no-cache">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
-    <title>Account Suspended</title>
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.6/css/all.css">
-    <style type="text/css">
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            line-height: 1.428571429;
-            background-color: #ffffff;
-            color: #2F3230;
-            padding: 0;
-            margin: 0;
-        }
-        section {
-            display: block;
-            padding: 0;
-            margin: 0;
-        }
-        .container {
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0 10px;
-        }
-        .additional-info {
-            background-repeat: no-repeat;
-            background-color: #293A4A;
-            color: #FFFFFF;
-        }
-        .additional-info-items {
-            padding: 20px;
-            min-height: 193px;
-        }
-        .info-heading {
-            font-weight: bold;
-            text-align: left;
-            word-break: break-all;
-            width: 100%;
-        }
-        .status-reason {
-            font-size: 200%;
-            display: block;
-            color: #CCCCCC;
-        }
-        .reason-text {
-            margin: 20px 0;
-            font-size: 16px;
-        }
-        .info-heading {
-            font-size: 190%;
-        }
-        .reason-text {
-            font-size: 140%;
-        }
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
 
-         a#dynamicProviderLink, a#dynamicProviderLink:hover, a#dynamicProviderLink:active, a#dynamicProviderLink:visited {
-            color: white;
-        }
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
-        @media (min-width: 768px) {
-            .additional-info {
-                position: relative;
-                overflow: hidden;
-                background-image: none;
-            }
-            .additional-info-items {
-                padding: 20px;
-            }
-            .container {
-                width: 90%;
-            }
-            .status-reason {
-                display: inline;
-            }
-        }
-        @media (min-width: 992px) {
-            .additional-info {
-                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADqCAMAAACrxjhdAAAAt1BMVEUAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////5+fn////////////////////////////////6+vr///////////////////////////////////////+i5edTAAAAPXRSTlMAAQECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygoKSorLC0uLzAwMTIzNDU2Nzg5H7x0XAAACndJREFUeAHtXXlzGs8R7TQ3CFkHxpKxhIwtIBwgIuYY4u//uVJ2qpLKD7Q8t2Z7xpD3n6ska9/2bM9Mvz6oGEyXFoKHfmheoewx9cYehVuPHMT4jphyBtNHxHQmDGgBvZjXBuWN2gogbPy6RtcOejNPxFkb+CEYhHCfmJ6DQShfEGfMt71FOPgpE1PHOMTEY8oZ3yCr2UtiInqEftj3iLM18Afsu/xKv9B4QUzsV1XKFTzDPG+LfoLpE/LjJnzO08QCAugLalKeqP/mEmW6Qj+BPIE7IYmTyw1MFwbaksaybSxDCA4STF+wg8rH7EzMwqNibY38mlvXKDdU5pDH3TRkl40vxJkZ+DO2Nu/3HnyC7t15obGBtqRFRXo6+0Z5YQh5LHd9YGWOsF+9Is5oQXctZKbvdAAtbHHM8+GLfojWdIgPff7YifRTNiZmusW+w8fDj1xdevNnbU3VFfTEL/W33pfH31cGYBpgW9Lba3Ic8C8iA77NLe514vu8BPj6/n3lCd/VkgKXGkwYUQHAaM+yQunBmNSwbRVYh+kOcgMhvRDB1Md20YfiR+UFfvdIizp2v1vVjt0usa1pmNzAX2IFl5/xaE9aqQGSD6bxI0RZSw3uuF0YjQHepjMxHmd9IgC1NbY1VSkdeB4vXMH0KSQVIvQfERciMpcaFtW4H8iI0gB2MzfEcV3gB+IkfDtbyCATgtHB7l3TrKUG2yWOe7O2KYQIPE7xFD12Yvy6SvqoLOMf95k+BvgqogCFCx22NdltO1epYc7ycEKSaI9+UAYPGOlK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);
-            }
-            .container {
-                width: 70%;
-            }
-            .status-reason {
-                font-size: 450%;
-            }
-            .info-heading {
-                font-size: 200%;
-            }
-            .reason-text {
-                font-size: 160%;
-            }
-        }
-    </style>
-    </head>
-    <body>
-        <div class="container">
-            <span class="status-reason">
-                <i class="fas fa-user-times fa-2x"></i> Account Suspended
-            </span>
+ 
+
+
+      <title>D&#39;Arcy Norman dot net</title>
+  
+  <meta name="description" content="learning technologies, design, and other things"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "D\u0027Arcy Norman, PhD",
+    
+    "url": "https:\/\/darcynorman.net\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/darcynorman.net\/"
+  
+  
+  
+  
+}
+</script>
+
+<meta property="og:title" content="D&#39;Arcy Norman, PhD" />
+<meta property="og:url" content="https://darcynorman.net/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="D&#39;Arcy Norman, PhD" />
+
+  <meta name="twitter:title" content="D&#39;Arcy Norman, PhD" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='https://darcynorman.net/apostrophed.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.127.0">
+  <link rel="alternate" href="https://darcynorman.net/index.xml" type="application/rss+xml" title="D&#39;Arcy Norman, PhD"><link rel="stylesheet" href="https://darcynorman.net/css/katex.min.css" />
+  <link rel="stylesheet" href="https://darcynorman.net/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="https://darcynorman.net/css/bootstrap.min.css" /><link rel="stylesheet" href="https://darcynorman.net/css/main.css" /><link rel="stylesheet" href="https://darcynorman.net/css/fonts.css" />
+  <link rel="stylesheet" href="https://darcynorman.net/css/highlight.min.css" /><link rel="stylesheet" href="https://darcynorman.net/css/codeblock.css" /><link rel="stylesheet" href="https://darcynorman.net/css/photoswipe.min.css" />
+  <link rel="stylesheet" href="https://darcynorman.net/css/photoswipe.default-skin.min.css" />
+
+
+<link rel="stylesheet" href="https://darcynorman.net/css/custom.css" />
+
+
+
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.27969a51c9096d9fc3493ac6badcd61b3bd6b961fc18482267d80e2382dba965.js"></script>
+
+  
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://darcynorman.net/">D&#39;Arcy Norman, PhD</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">About</a>
+              <div class="navlinks-children">
+                
+                  <a href="/about/">About me</a>
+                
+                  <a href="/about/colophon/">Colophon</a>
+                
+                  <a href="/contact/">Contact</a>
+                
+                  <a href="/about/cv/">CV</a>
+                
+                  <a href="/about/philosophy">Philosophy</a>
+                
+                  <a href="/privacy">Privacy</a>
+                
+                  <a href="/projects/">Projects</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Archives</a>
+              <div class="navlinks-children">
+                
+                  <a href="/archives/">Archives (by date)</a>
+                
+                  <a href="/asides/">Asides</a>
+                
+                  <a href="/posts/">Blog Posts</a>
+                
+                  <a href="/categories/">Categories</a>
+                
+                  <a href="/notes/">Notes</a>
+                
+                  <a href="/podcast/">Podcast</a>
+                
+                  <a href="/tags/">Tags</a>
+                
+                  <a href="/reflections/">Weekly Reflections</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Photos" href="/photos/">Photos</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Search" href="/search/">Search</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Subscribe" href="/subscribe/">Subscribe</a>
+            </li>
+          
+        
+
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
         </div>
-        <section class="additional-info">
-            <div class="container">
-                <div class="additional-info-items">
-                    <div class="info-heading">
-                        This Account has been suspended.
-                    </div>
-                    <div class="reason-text">
-                        <a href="mailto:webmaster@darcynorman.net" id="dynamicProviderLink" title="webmaster@darcynorman.net" rel="noopener noreferrer">Contact your hosting provider</a> for more information.
-                    </div>
-                </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>D&#39;Arcy Norman dot net</h1>
+              
+              
+                <hr class="small">
+              
+              
+                
+                  <span class="page-subheading">learning technologies, design, and other things</span>
+                
+              
+              
             </div>
-        </section>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+
+        <div class="posts-list">
+          
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/06/15/2024-week-24/">
+        <h2 class="post-title">2024 Week 24</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 15, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1231&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work The Learning Technologies Advisory Committee reboot was, I think, successful. Members will be going back to their faculties/units over the summer to find out how student respond systems are used, then reporting back at the first meeting of LTAC in the fall. The Brightspace Steering Committee was pretty clear - there is no appetite to license additional stuff, given budgets and increasing licensing fees for the core package. We won&rsquo;t be going back to the Provost to ask for more.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/06/15/2024-week-24/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/06/08/2024-week-23/">
+        <h2 class="post-title">2024 Week 23</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 8, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;922&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work Tyson led a great team workshop to start exploring questions we might have that could be answered through data. This was the first step - brainstorming questions - to be followed by sessions to start to noodle on where the data might be, how it might be used, and what gaps there might be. Then, to the &ldquo;so, what do we do with it?&rdquo; stage. Lots of strategy meetings and planning.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/06/08/2024-week-23/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/06/01/2024-week-22/">
+        <h2 class="post-title">2024 Week 22</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on June 1, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;472&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        June. WTF.
+⚙️ Work Existential crises are fun.
+🔗 Links SoTL Fennelly-Atkinson, R. &amp; Pakhira, Deblina. (2024). Revealing Hidden Proficiencies: An Intersectional Journey into Learners’ Realities with Micro-Credentials TechTrends. 68, 561–572. https://doi.org/10.1007/s11528-024-00956-z 2 authors write about their own experiences. Working Jeffrey Zeldman: The gift of a three-month sabbatical. Automattic has a staff benefit that encourages staff members to take 3 months off work - paid - every 5 years. I&rsquo;ve been thinking a lot about sabbaticals, research leaves, etc.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/06/01/2024-week-22/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/05/25/2024-week-21/">
+        <h2 class="post-title">2024 Week 21</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 25, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;660&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        I joined the Tuesday morning Bow Cycle Club ride - my first BCC ride of the 2024. I&rsquo;m firmly at the back of the &ldquo;C&rdquo; group, but I made it, didn&rsquo;t die, and will be joining more rides over the summer. This was a shorter ride, but with lots of climbing. Wow, is my cardio garbage. I can work on that.
+⚙️ Work I took (most of) the week off. Except for coming in on Thursday for… co-facilitating part of the TI Programming Retreat and a couple of meetings.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/05/25/2024-week-21/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/05/18/2024-week-20/">
+        <h2 class="post-title">2024 Week 20</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 18, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;13&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;2582&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work We planned the evaluation process for the videoconferencing RFP. Some strategic planning stuff. Slowly chipping away at my annual performance review self reflection, which is taking much longer than usual this year. Meetings. Moose Hide campaign day, including a lunch &rsquo;n learn, smudging, and a walk around part of campus. Met with some colleagues from Curtin University to discuss possible collaboration opportunities as part of a global alliance initiative.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/05/18/2024-week-20/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/05/11/2024-week-19/">
+        <h2 class="post-title">2024 Week 19</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 11, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;5&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;973&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work Students set up a protest on campus, expressing concerns about genocide and apartheid in Palestine. I walked around the protest area Thursday afternoon, and everyone seemed to be respectful, orderly, and engaged in activism.1
+DISRUPT SOMETHING. NOT LIKE THAT! YOU&rsquo;RE DISRUPTING IN AN UNAUTHORIZED MANNER!
+A few hours after I took that photo, the protestors were forcibly removed by police. They came back the next day, without tents. I note that our Premier said: &ldquo;I&rsquo;m glad the University of Calgary made the decision that they did.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/05/11/2024-week-19/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/05/04/2024-week-18/">
+        <h2 class="post-title">2024 Week 18</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 4, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;7&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1319&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        I finally, after almost a month off the bike, got back on the fancy indoor bike for an easy-ish ride. I&rsquo;m hoping my excuses to not ride get less valid, and I&rsquo;ll be able to get outside on my real bike soon. My cardio is about the worst it&rsquo;s ever been. I&rsquo;m in horrible physical shape, and it&rsquo;s affecting my general wellness.
+⚙️ Work Our D2L reps came to campus for a visit with our team, to help plan ways to improve the experience for instructors and students.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/05/04/2024-week-18/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/04/27/2024-week-17/">
+        <h2 class="post-title">2024 Week 17</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 27, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;8&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1663&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work Still sick. Not wanting to be &ldquo;that guy that keeps coughing and blowing his nose in the office&rdquo;, I took some sick time and worked from home. I&rsquo;m not contagious anymore, and need to be in the office next week. Hopefully my respiratory system cooperates. While preparing for our conference presentation, we collected some links to a couple of videos to support the description of the course. Jana (one of the students in the course) had published one of her video game demos as a video on YouTube - it&rsquo;s a remarkable example of using video games to foster reflection on architecture, experience, and teaching &amp; learning.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/04/27/2024-week-17/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/04/20/2024-week-16/">
+        <h2 class="post-title">2024 Week 16</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 20, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;9&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1764&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        ⚙️ Work Meetings. Finance. GFC TLC. Learning Technologies &amp; Design Team meeting - the focus was a &ldquo;listening tour&rdquo; by Natasha and Sue to visit with the team to learn about what we&rsquo;re working on, what&rsquo;s working, what could be improved, etc. It was a really good discussion, and I&rsquo;m honoured to be part of such a passionate, engaged, and creative team. The April Learning Technology Advisory Committee went pretty well.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/04/20/2024-week-16/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://darcynorman.net/2024/04/13/2024-week-15/">
+        <h2 class="post-title">2024 Week 15</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 13, 2024
+  
+  
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;8&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1596&nbsp;words
+  
+  
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        I (finally) got outside on an actual bike ride, just straight out to Cochrane and back on 1A. That felt great, but sssssslllllooooowwwww. And an hour in zone 5 is probably not ideal. My VO2Max is still &ldquo;below average&rdquo; so I&rsquo;m aspiring to make it up to average this year.
+⚙️ Work Tyson led a great discussion in the Learning Technology Forum, gathering questions from instructors and staff about their use of edtech.
+        <a class="btn read-more-link btn-secondary" href="https://darcynorman.net/2024/04/13/2024-week-15/" class="post-read-more">Read More</a>
+        
+    </div>
+
+    
+
+</article>
+          
+        </div>
+
+        
+          <ul class="pager main-pager">
+            
+            
+              <li class="next">
+                <a class="btn" href="https://darcynorman.net/page/2/">Older Posts &rarr;</a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
+<footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2002 - 2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://darcynorman.net/">D&#39;Arcy Norman, PhD</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.127.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://darcynorman.net/js/katex.min.js"></script>
+<script defer src="https://darcynorman.net/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="https://darcynorman.net/js/jquery-3.7.0.slim.min.js"></script>
+<script src="https://darcynorman.net/js/bootstrap.min.js"></script>
+
+<script src="https://darcynorman.net/js/main.js"></script>
+<script src="https://darcynorman.net/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://darcynorman.net/js/photoswipe.min.js"></script>
+<script src="https://darcynorman.net/js/photoswipe-ui-default.min.js"></script><script src="https://darcynorman.net/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
 </html>
+
