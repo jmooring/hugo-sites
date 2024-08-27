@@ -1,0 +1,277 @@
+HTTP/2.0 200 OK
+Content-Length: 7330
+Accept-Ranges: bytes
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 27 Aug 2024 13:31:01 GMT
+Etag: "1ca2-620a272d0b2a0"
+Last-Modified: Tue, 27 Aug 2024 04:12:23 GMT
+Server: Apache/2.4.57 (Red Hat Enterprise Linux) OpenSSL/3.0.7
+Set-Cookie: e3750b343ec69233c22c02c3a3a0d1cd=381e7daf9d448a6ed032334608d4f67b; path=/; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31557600
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Etags-1: "1ca2-620a272d0b2a0"
+X-Etags-2: "1ca2-620a272d0b2a0"
+X-Served-By: cache-bfi-kbfi7400075-BFI
+X-Timer: S1724765462.606660,VS0,VE237
+
+<!doctype html>
+<html lang="en">
+
+    <head>
+	<meta name="generator" content="Hugo 0.130.0">
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>GIMP Developer - GIMP Development</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="favicon.ico" rel="icon" type="image/ico">
+
+
+
+
+<link rel="alternate" type="application/rss&#43;xml" href="https://developer.gimp.org/index.xml" title="GIMP Developer">
+
+      
+
+
+
+<link rel="stylesheet" href="https://developer.gimp.org/style.min.788a5974399e262066deab3305ea28630d08a4630e080d1f0c86a10815318659.css">
+
+
+    </head>
+
+    <body>
+      
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+	<a class="navbar-brand" href="https://developer.gimp.org/" rel="home" title=".Site.Title">
+	    GIMP Developer
+	</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+		
+		
+		<li class="nav-item ">
+                    <a class="nav-link" href="/core/">
+			
+			<span>Core Development</span>
+			<span class="visually-hidden">(Current)</span>
+		    </a>
+		    
+		<li class="nav-item ">
+                    <a class="nav-link" href="/resource/">
+			
+			<span>Resource Development</span>
+			<span class="visually-hidden">(Current)</span>
+		    </a>
+		    
+		<li class="nav-item ">
+                    <a class="nav-link" href="/conferences/">
+			
+			<span>GIMP Developer Conferences</span>
+			<span class="visually-hidden">(Current)</span>
+		    </a>
+		    
+		</li>
+            </ul>
+            
+	</div>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="nav-link donate" href="https://www.gimp.org/donating/">Donate</a>
+	</div>
+    </div>
+</nav>
+
+
+      <main role="main" class="container">
+
+          
+
+
+          
+
+
+<div class="page row justify-content-center">
+  <article class="gimp-development-page col-lg-8">
+	<h1 class="title">
+    GIMP Development
+	</h1>
+
+  <p>This site tries to provide useful information for developers:</p>
+<ul>
+<li>If you are into resource creation, e.g. plug-in development, you
+should look at the <a href="/resource/">Resource Development</a>
+section.</li>
+<li>If you wish to contribute to GIMP itself, you should read the <a href="/core/">Core
+Development</a> section.</li>
+</ul>
+<p><em>Note: for the main GIMP website, visit <a href="https://www.gimp.org">www.gimp.org</a>
+instead; the GIMP manual is at <a href="https://docs.gimp.org/">docs.gimp.org</a>.</em></p>
+<h2 id="gimp-30-roadmap">
+  <a href="#gimp-30-roadmap" title="Permalink to GIMP 3.0 roadmap">
+    GIMP 3.0 roadmap
+    <span class='link-icon'>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+  <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+</svg>
+    </span>
+  </a>
+</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Status</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Port to GTK3</td>
+<td><strong>done</strong></td>
+<td>(except minor API usage, but no major tasks anymore)</td>
+</tr>
+<tr>
+<td>Port away from intltool</td>
+<td><strong>done</strong></td>
+<td>We are now full gettext</td>
+</tr>
+<tr>
+<td>Port to meson build</td>
+<td><strong>done</strong></td>
+<td>Autotools was removed</td>
+</tr>
+<tr>
+<td>Redesign API for scripts/plug-ins</td>
+<td>work in progress</td>
+<td>GObject Introspection introduced, along with refactoring, no wire protocol redesign in the end, big API improvements still worked on</td>
+</tr>
+<tr>
+<td>Wayland support</td>
+<td>work in progress</td>
+<td>Various bugs still happen, especially in window management area (broken sizes and positions), color management…</td>
+</tr>
+<tr>
+<td>Space invasion</td>
+<td>work in progress</td>
+<td>Various color management improvements, CMYK support (not as core image format, but import/export and picking/choosing/viewing)…</td>
+</tr>
+<tr>
+<td>Multi-layer selection</td>
+<td><strong>done</strong></td>
+<td>Most code is multilayer aware…</td>
+</tr>
+<tr>
+<td>Less &ldquo;floating selection&rdquo;</td>
+<td>nearly done</td>
+<td>Discussed on the <a href="https://mail.gnome.org/archives/gimp-gui-list/2020-December/msg00000.html">gimp-gui mailing list</a>, transform tools still create floating selections</td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td>work in progress</td>
+<td>Make sure documentation is up-to-date by release time</td>
+</tr>
+<tr>
+<td>Automatic layer boundary management</td>
+<td><strong>done</strong></td>
+<td><a href="https://gitlab.gnome.org/GNOME/gimp/issues/32">#32</a> - auto-growing layers are <a href="https://gitlab.gnome.org/GNOME/gimp/-/issues/9314">part of gsoc 23 (#9314)</a></td>
+</tr>
+<tr>
+<td>Support SwatchBooker file format for palettes and gradients</td>
+<td><strong>done</strong></td>
+<td><a href="https://gitlab.gnome.org/GNOME/gimp/-/merge_requests/843">!843</a> (GIMP 3.0)</td>
+</tr>
+<tr>
+<td>Layer effects</td>
+<td><strong>done</strong></td>
+<td>Initial limited implementation as <a href="https://gitlab.gnome.org/GNOME/gimp/-/merge_requests/958">!958</a>: <a href="https://fosstodon.org/@CmykStudent/110357425899091109">started</a> as <a href="https://gitlab.gnome.org/GNOME/gimp/-/issues/9244">part of gsoc 23 (#9244)</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><em><a href="/core/roadmap/">See more roadmaps</a></em></p>
+
+
+	
+    </article>
+</div>
+
+
+
+
+      </main>
+
+      <footer class='container mb-5'>
+  <div class='row justify-content-center'>
+    <div class='col-sm mt-2 mt-md-0 text-center text-md-start order-1'>
+      
+      
+        
+          
+          <a href="https://www.gimp.org">GIMP Website</a>
+        
+           | 
+          <a href="https://www.gegl.org">GEGL Website</a>
+        
+           | 
+          <a href="https://docs.gimp.org">User Documentation</a>
+        
+      
+    </div>
+    <div class='col-sm mt-2 mt-md-0 text-center order-3 order-md-2'>
+        &copy; Copyright 2003-2024 GIMP team
+    </div>
+    <div class='col-sm mt-2 mt-md-0 text-center text-md-end order-2 order-md-3'>
+       
+       
+       
+       
+         <a href="/faq/" title="Frequently Asked Questions">Frequently Asked Questions</a>
+         
+           |
+         
+       
+         <a href="/about/" title="About this Site">About this Site</a>
+         
+       
+    </div>
+  </div>
+</footer>
+
+
+
+      
+
+
+
+
+
+<script src="https://developer.gimp.org/js/bootstrap.js"></script>
+
+
+
+
+<script src="https://developer.gimp.org/js/lunr.js"></script>
+
+
+
+
+
+<script src="https://developer.gimp.org/js/app.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,740 @@
+HTTP/2.0 200 OK
+Content-Security-Policy: default-src https://jadelsbach.de;form-action 'self';base-uri 'self';img-src 'self';script-src 'self' 'unsafe-inline';object-src 'none';style-src 'self' 'unsafe-inline'; frame-ancestors 'self'
+Content-Type: text/html
+Date: Tue, 27 Aug 2024 13:30:56 GMT
+Etag: W/"66ca6bee-8065"
+Last-Modified: Sat, 24 Aug 2024 23:25:34 GMT
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Etags-1: W/"66ca6bee-8065"
+X-Etags-2: W/"66ca6bee-8065"
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jan Adelsbach</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    
+    <meta name="description" content="Website of Jan Adelsbach">
+    <meta name="keywords" content="electronics,mathematics,science,microscopy,physics,blog,programming,">
+
+        <meta property="og:title" content="Jan Adelsbach" />
+    <meta property="og:description" content="Website of Jan Adelsbach" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:url" content="https://jadelsbach.de/" />
+    
+<link href="https://jadelsbach.de/index.xml" rel="alternate" type="application/rss+xml" title="Jan Adelsbach" />
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    
+    <noscript>
+      <link href="https://jadelsbach.de/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+      <link href="https://jadelsbach.de/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+    </noscript>
+    <link rel="preload" href="https://jadelsbach.de/webfonts/source-code-pro/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://jadelsbach.de/webfonts/ptserif/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    
+    <link rel="stylesheet" href="https://jadelsbach.de/css/style.css">
+    
+
+    
+    <meta name="generator" content="Hugo 0.131.0">
+</head>
+
+<body>
+<div id="container">
+    <header id="header">
+    <div id="header-outer" class="outer">
+        <div id="header-inner" class="inner">
+            <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+            <a id="logo" class="logo-text" href="https://jadelsbach.de/">Jan Adelsbach</a>
+            <nav id="main-nav">
+                
+                <a class="main-nav-link" href="/">Home</a>
+                
+                <a class="main-nav-link" href="/about">About</a>
+                
+                <a class="main-nav-link" href="/projects">Projects</a>
+                
+                <a class="main-nav-link" href="/photography">Photography</a>
+                
+                <a class="main-nav-link" href="/tags">Tags</a>
+                
+            </nav>
+            <nav id="sub-nav">
+                <div id="search-form-wrap">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <section id="main" class="outer">
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/25-08-24-13-4v-psupply/">13.4V / 5A Linear Power Supply</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/25-08-24-13-4v-psupply/" class="article-date">
+                        <time datetime='2024-08-25T00:58:28.000&#43;02:00' itemprop="datePublished">2024-08-25</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/25-08-24-13-4v-psupply/"><img width=1000 height=100 alt="Banner" src="/post/25-08-24-13-4v-psupply//banner.jpg"></a><br>
+                    I got someone&rsquo;s old 13.4V 5A power supply project off a batch of electronics stuff from eBay and figured to give it a revamp. This is the unit as I got it:
+Basically a LM7812 driving two TESLA KU607VC TO-3 transistors. The LM7812 is offset by a zener diode to account for the voltage drop of the KU607VC transistors.
+I did a total overhaul of the circuit I switched out some components (especially the capacitors), added a current meter and put it in a proper enclosure.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/25-08-24-13-4v-psupply/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/project">project
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/power-supply">power supply
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/20-07-24-visomat/">VISOMAT light barrier</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/20-07-24-visomat/" class="article-date">
+                        <time datetime='2024-07-20T22:51:26.000&#43;02:00' itemprop="datePublished">2024-07-20</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/20-07-24-visomat/"><img width=1000 height=100 alt="Banner" src="/post/20-07-24-visomat//banner.jpg"></a><br>
+                    I recently got this ancient Visomat light barrier made in eastern Germany (GDR/DDR) consisting of a transmitter and a receiver. By comparison to modern light barriers, this is indeed a visible light barrier, the transmitter contains a 6V/15W tungsten bulb. So I figured to build a controller for it and get it back to work.
+Transmitter and Receiver The receiver contains a phototransistor, due to the optics on the receiver there is still a fairly decently fine line of sight, not the full entry lens needs to get covered to register a trigger only the center most part.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/20-07-24-visomat/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/project">project
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/light-barrier">light barrier
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ddr">ddr
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/gdr">gdr
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/east-germany">east germany
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/visomat">visomat
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/20-07-24-rly3/">ESP8266 Controlled Triple Relay</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/20-07-24-rly3/" class="article-date">
+                        <time datetime='2024-07-20T22:49:18.000&#43;02:00' itemprop="datePublished">2024-07-20</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/20-07-24-rly3/"><img width=1000 height=100 alt="Banner" src="/post/20-07-24-rly3//banner.jpg"></a><br>
+                    Built another one, this one fits into a slightly larger DIN rail enclosure and consists of 3x old power relays, a D1 board and a 12V SMPS power supply. Below the D1 board there is a 7805 regulator to get the 5V needed for the D1. I put Tasmota on the ESP8266 again, as with the last.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/20-07-24-rly3/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/esp8266">esp8266
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/project">project
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/tasmota">tasmota
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/15-07-24-12vac-supply/">ESP8266 Controlled 12V/AC 50VA Supply</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/15-07-24-12vac-supply/" class="article-date">
+                        <time datetime='2024-07-15T01:35:24.000&#43;02:00' itemprop="datePublished">2024-07-15</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/15-07-24-12vac-supply/"><img width=1000 height=100 alt="Banner" src="/post/15-07-24-12vac-supply//banner.jpg"></a><br>
+                    I recently built this 50VA 12V/AC power supply with two switchable channels for lighting. It uses a ring transformer, I added a temperature fuse and short-circuit current limiting resistors (0R82). Below the D1 board is a 7805 voltage regulator, since the D1 board only accepts 5V nominally. The ESP8266 D1 board runs Tasmota.
+I used some left over spray RAL 3003 paint from the Karl Klein DNG 6-22,5 paint repair for the front and back panels on this one.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/15-07-24-12vac-supply/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/esp8266">esp8266
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/project">project
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/tasmota">tasmota
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/06-07-24-sw-ssr2-rly1/">ESP8266 Tasmota SSR Switching Relay</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/06-07-24-sw-ssr2-rly1/" class="article-date">
+                        <time datetime='2024-07-06T20:05:44.000&#43;02:00' itemprop="datePublished">2024-07-06</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/06-07-24-sw-ssr2-rly1/"><img width=1000 height=100 alt="Banner" src="/post/06-07-24-sw-ssr2-rly1//banner.jpg"></a><br>
+                    Built this small Tasmota based switching unit, it contains two SSR switches (TRIACs) and a relay and is designed to fit into a 4TE DIN rail case.
+It runs off mains voltage through a small integrated AC/DC SMPS power supply, this is then further stepped down for the D1 microcontroller using a 7805. The TRIACs (BT137) are switched using MOC3063 optocouplers with zero-level detector. The D1 runs Tasmota with a custom/generic configuration.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/06-07-24-sw-ssr2-rly1/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/esp8266">esp8266
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/project">project
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/tasmota">tasmota
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/photo/grimburg-06-2024/">Grimburg</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/photo/grimburg-06-2024/" class="article-date">
+                        <time datetime='2024-06-11T10:39:11.000&#43;02:00' itemprop="datePublished">2024-06-11</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/photo/grimburg-06-2024/"><img width=1000 height=100 alt="Banner" src="/photo/grimburg-06-2024//banner.jpg"></a><br>
+                    All pictures taken with my Sony SLT-a77 with a Sony DT 18-55mm F3.5-5.6 SAM and a Tamron SP AF 70-300 F/4-5.6 Di VC USD objective.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/photo/grimburg-06-2024/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ruin">ruin
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ruins">ruins
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/castle">castle
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/photo/saarbruecken-05-2024/">Saarbrücken May 2024</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/photo/saarbruecken-05-2024/" class="article-date">
+                        <time datetime='2024-05-19T15:12:16.000&#43;02:00' itemprop="datePublished">2024-05-19</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/photo/saarbruecken-05-2024/"><img width=1000 height=100 alt="Banner" src="/photo/saarbruecken-05-2024//banner.jpg"></a><br>
+                    All pictures taken with my Sony SLT-a77 with a Sony DT 18-55mm F3.5-5.6 SAM.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/photo/saarbruecken-05-2024/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/saarbruecken">saarbruecken
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/19-05-24-ae163/">Racapping a Mettler AE163 laboratory balance</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/19-05-24-ae163/" class="article-date">
+                        <time datetime='2024-05-19T14:24:34.000&#43;02:00' itemprop="datePublished">2024-05-19</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/19-05-24-ae163/"><img width=1000 height=100 alt="Banner" src="/post/19-05-24-ae163//banner.jpg"></a><br>
+                    The older Mettler AE series laboratory balances don&rsquo;t have a standard power button, the main circuit is always running. As such the capacitors in the these balances which were manufactured in the early 80s are slowly in the territory of needing replacement. As such I decided to recap mine.
+As a precaution since the circuit board contains lots of FET and a proprietary IC I took full ESD measures and did this with proper ESD tools, on an ESD mat with a ESD wristband.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/19-05-24-ae163/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/mettler">mettler
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ae163">ae163
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/scale">scale
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/balance">balance
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/capacitor">capacitor
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/18-05-24-woodboxes/">Wood Boxening</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/18-05-24-woodboxes/" class="article-date">
+                        <time datetime='2024-05-18T23:47:31.000&#43;02:00' itemprop="datePublished">2024-05-18</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/18-05-24-woodboxes/"><img width=1000 height=100 alt="Banner" src="/post/18-05-24-woodboxes//banner.jpg"></a><br>
+                    Fix microscope box This wood box is for one of my LOMO Biolam&rsquo;s in this case a Bresser rebranded one. The previous owner apparently had taped it shut and the tape doesn&rsquo;t come off anymore.
+I grinded the sides of the box and applied wood oil.
+Box for a Microscope Micrometer This box is for my LOMO MOB-1-16x (ЛОМО МОБ-1-16x) microscope micrometer and a LOMO OM-O (ЛОМО ОМ-О) calibration slide. It&rsquo;s a cheap wood box to which I added custom inserts.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/18-05-24-woodboxes/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/projects">projects
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/wood">wood
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/woodworking">woodworking
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/microscope">microscope
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/photo/zoo-saarbruecken-05-2024/">Zoo Saarbrücken May 2024</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/photo/zoo-saarbruecken-05-2024/" class="article-date">
+                        <time datetime='2024-05-09T15:47:09.000&#43;02:00' itemprop="datePublished">2024-05-09</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/photo/zoo-saarbruecken-05-2024/"><img width=1000 height=100 alt="Banner" src="/photo/zoo-saarbruecken-05-2024//banner.jpg"></a><br>
+                    All pictures taken with my Sony SLT-a77 with a Tamron SP AF 70-300 F/4-5.6 Di VC USD objective.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/photo/zoo-saarbruecken-05-2024/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/zoo">zoo
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/saarbruecken">saarbruecken
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+
+        
+
+<nav id="page-nav">
+    
+    
+    
+    <span class="page-number current">1</span>
+    
+    
+    
+    <a href="/page/2/">2</a>
+    
+    
+    
+    <a href="/page/3/">3</a>
+    
+    
+    
+    <a href="/page/4/">4</a>
+    
+    
+    
+    <a href="/page/5/">5</a>
+    
+    
+    
+    <a href="/page/6/">6</a>
+    
+    
+    
+    <a href="/page/7/">7</a>
+    
+    
+    
+    <a href="/page/8/">8</a>
+    
+    
+    
+    <a href="/page/9/">9</a>
+    
+    
+    
+    <a href="/page/10/">10</a>
+    
+    
+    
+    <a href="/page/11/">11</a>
+    
+    
+    
+    <a href="/page/12/">12</a>
+    
+    
+    
+    <a href="/page/13/">13</a>
+    
+    
+    
+    <a href="/page/14/">14</a>
+    
+    
+
+    
+    <a href="/page/2/" rel="next" class="extend next">Next &raquo;</a>
+    
+</nav>
+
+
+    </section>
+    <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2024 Jan Adelsbach
+            <a href="/impressum">Impressum/Privacy Policy</a>
+            <br />
+            Powered by <a href="https://gohugo.io" target="_blank" rel="noreferrer">Hugo</a> with theme <a href="https://github.com/carsonip/hugo-theme-minos" target="_blank" rel="noreferrer">Minos</a>
+        </div>
+    </div>
+    <script defer src="https://jadelsbach.de/js/main.js"></script>
+</footer>
+
+</div>
+</body>
+</html>
