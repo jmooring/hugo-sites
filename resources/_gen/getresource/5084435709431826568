@@ -1,10 +1,10 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 3301
+Age: 2764
 Content-Type: text/html
-Date: Tue, 27 Aug 2024 13:31:13 GMT
-Etag: "5d1e-62030a077f8c0-gzip"
-Last-Modified: Wed, 21 Aug 2024 12:24:43 GMT
+Date: Tue, 15 Oct 2024 14:31:33 GMT
+Etag: "5d1e-6241ed3e6c8c0-gzip"
+Last-Modified: Thu, 10 Oct 2024 12:51:23 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
@@ -12,11 +12,11 @@ Via: 1.1 varnish
 X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Etags-1: "5d1e-62030a077f8c0-gzip"
-X-Etags-2: "5d1e-62030a077f8c0-gzip"
+X-Etags-1: "5d1e-6241ed3e6c8c0-gzip"
+X-Etags-2: "5d1e-6241ed3e6c8c0-gzip"
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-kbfi7400048-BFI
-X-Timer: S1724765473.094511,VS0,VE1
+X-Served-By: cache-bfi-krnt7300069-BFI
+X-Timer: S1729002694.759493,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -30,7 +30,7 @@ X-Timer: S1724765473.094511,VS0,VE1
   <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-07-23T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-09-04T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -139,9 +139,11 @@ X-Timer: S1724765473.094511,VS0,VE1
               
               <li class="nav-item"><a href="/bind"><img src="/images/bind9.png">BIND 9</a></li>
               
-              <li class="nav-item"><a href="/dhcp"><img src="/images/dhcp.png">ISC DHCP</a></li>
-              
               <li class="nav-item"><a href="/kea"><img src="/images/kea.png">Kea</a></li>
+              
+              <li class="nav-item"><a href="/stork"><img src="/images/stork80x.png">Stork</a></li>
+              
+              <li class="nav-item"><a href="/dhcp"><img src="/images/dhcp.png">ISC DHCP</a></li>
               
             </ul>
           </li>
@@ -463,8 +465,6 @@ This was not the fraud we thought it was We have learned that emails we original
         <ul class="list-unstyled">
           
           <li><a class="text-white opacity-5" href="/stork/">Stork Graphical Management for Kea DHCP</a></li>
-          
-          <li><a class="text-white opacity-5" href="/bind-users-rss/">BIND Users Recent Posts</a></li>
           
           <li><a class="text-white opacity-5" href="/bind/">BIND 9</a></li>
           

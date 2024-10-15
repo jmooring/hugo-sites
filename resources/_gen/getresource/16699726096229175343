@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 21005
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Aug 2024 13:31:07 GMT
-Etag: "36e444f60daccb30c82de3a7a4aa0efd-ssl-df"
+Date: Tue, 15 Oct 2024 14:31:27 GMT
+Etag: "c359111f7d3af1abacf77951c7a2aeab-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "36e444f60daccb30c82de3a7a4aa0efd-ssl-df"
-X-Etags-2: "36e444f60daccb30c82de3a7a4aa0efd-ssl-df"
-X-Nf-Request-Id: 01J6A0GX0V640Q4FBCJNAV5AN5
+X-Etags-1: "c359111f7d3af1abacf77951c7a2aeab-ssl-df"
+X-Etags-2: "c359111f7d3af1abacf77951c7a2aeab-ssl-df"
+X-Nf-Request-Id: 01JA89EK3EZM72Q7FGX1EP5RSR
 
 <!doctype html><html lang=en-us>
 <head>
@@ -95,6 +95,11 @@ Scalers
 <a class=navbar-item href=/docs/2.15/operate/>
 <span>
 Operate
+</span>
+</a>
+<a class=navbar-item href=/docs/2.15/integrations/>
+<span>
+Integrations
 </span>
 </a>
 <a class=navbar-item href=/docs/2.15/authentication-providers>
@@ -1699,10 +1704,6 @@ KEDA is supported by and built by our community, including the following compani
 <div class="column is-one-quarter">
 <a href="https://kedify.io/?utm_source=keda_oss_site" target=_blank>
 <img src=/img/logos/kedify.png alt=Logo>
-</a>
-</div><div class="column is-one-quarter">
-<a href=https://microsoft.com target=_blank>
-<img src=/img/logos/microsoft.png alt=Logo>
 </a>
 </div><div class="column is-one-quarter">
 <a href=https://scrm.lidl target=_blank>

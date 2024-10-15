@@ -2,18 +2,18 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Content-Type: text/html
-Date: Tue, 27 Aug 2024 13:31:04 GMT
-Etag: "3a7c3-61f32c8ec0200"
-Last-Modified: Thu, 08 Aug 2024 21:34:00 GMT
-Server: Apache/2.4.59 (Unix)
-Set-Cookie: nlbi_2333592_2975153=djfSQG4hxgdEKOZazIjl3AAAAACEZXl22m9khXTjlJ1ZkEgw; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: visid_incap_2333592=bBlpXJa8QwimRuh9FIHnXhfVzWYAAAAAQUIPAAAAAAAiUfyVXc0/j5ROy57iAUoz; expires=Tue, 26 Aug 2025 22:33:28 GMT; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: incap_ses_1183_2333592=fkA8XY8UQj5PaTUtR9xqEBfVzWYAAAAAzTxzKJeUjaTqBCugTA3scw==; path=/; Domain=.redis.io
+Date: Tue, 15 Oct 2024 14:31:23 GMT
+Etag: "3b29c-624831468eb80"
+Last-Modified: Tue, 15 Oct 2024 12:27:42 GMT
+Server: Apache/2.4.62 (Unix)
+Set-Cookie: nlbi_2333592_2975153=0glzKphnF2ffDC3pzIjl3AAAAAB7jlf4xMkFghF7Adbrs6s8; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: visid_incap_2333592=GESg9LY+SVSqMAjquI7Rj7p8DmcAAAAAQUIPAAAAAABF4D/HL09QZ8bgZmJsm2qo; expires=Wed, 15 Oct 2025 07:56:42 GMT; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: incap_ses_171_2333592=DEm4FOJidA1IKo5cwoNfArp8DmcAAAAAIsdq0mwYpo4awgI4I1D3xw==; path=/; Domain=.redis.io
 Via: 1.1 google
 X-Cdn: Imperva
-X-Etags-1: "3a7c3-61f32c8ec0200"
-X-Etags-2: "3a7c3-61f32c8ec0200"
-X-Iinfo: 3-109647727-109531153 pNYy RT(1724765463567 287) q(0 0 0 1) r(1 1) U12
+X-Etags-1: "3b29c-624831468eb80"
+X-Etags-2: "3b29c-624831468eb80"
+X-Iinfo: 52-224329227-224284761 pNYy RT(1729002682489 68) q(0 0 0 1) r(1 1) U24
 
 <!doctype html>
 <html lang="en" class="scroll-smooth w-full">
@@ -78,7 +78,7 @@ X-Iinfo: 3-109647727-109531153 pNYy RT(1724765463567 287) q(0 0 0 1) r(1 1) U12
 
   
 
-<link href="/docs/latest/css/index.min.d6f37881b54887a06ba6d9f2e74c06efa1c0644e08a1848c52bc5f0721bf8c53.css" rel="stylesheet" />
+<link href="/docs/latest/css/index.min.e8534cf72050e06e08028bc42d7d20100d20088023f6adbb2feacd87d950f588.css" rel="stylesheet" />
 
     
   <script src='/docs/latest/js/codetabs.js' defer></script>
@@ -866,35 +866,35 @@ X-Iinfo: 3-109647727-109531153 pNYy RT(1724765463567 287) q(0 0 0 1) r(1 1) U12
           <span class="pr-0"></span>
           <span>Redis Cloud</span>
       </a>
-    </li>
+      
     <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/rs/">
         
           <span class="pr-0"></span>
           <span>Redis Enterprise Software</span>
       </a>
-    </li>
+      
     <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/kubernetes/">
         
           <span class="pr-0"></span>
           <span>Redis Enterprise for Kubernetes</span>
       </a>
-    </li>
+      
     <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/oss_and_stack/">
         
           <span class="pr-0"></span>
           <span>Redis Community Edition and Stack</span>
       </a>
-    </li>
+      
     <li class="my-2">
       <a class="pl-6 flex  text-redis-pen-700 hover:text-redis-pen-600 " href="/docs/latest/operate/redisinsight/">
         
           <span class="pr-0"></span>
           <span>Redis Insight</span>
       </a>
-    </li>
+      
     
           </ul>
         
@@ -1134,6 +1134,87 @@ document.addEventListener("DOMContentLoaded", function() {
   </section>
 
 
+    
+
+<script>
+    window.onload = function(){
+        var currentUrl = window.location.href
+        const regex_kubernetes = new RegExp('/docs/latest/operate/kubernetes/.*')
+        const regex_rs = new RegExp('/docs/latest/operate/rs/.*')
+
+        if (regex_kubernetes.test(currentUrl)){
+            
+            document.getElementById( 'versionSelectorKubernetes' ).style.display = '';
+        }
+        else if (regex_rs.test(currentUrl)) {
+            
+            document.getElementById( 'versionSelectorRs' ).style.display = '';
+        }
+    }
+
+    function _setSelectedVersion(product, ver) {
+        if (ver) {
+            var i = document.getElementById(product + '-version-select-' + ver);
+            if (i) {
+                i.classList.toggle('selected-version');
+            }
+        }
+    }
+
+    function _getVersion(product) {
+        return document.getElementById("versionSelector" + product + "Value").innerText
+    }
+
+    function _openVersionSelector(product) {
+        var productLowercase = product.toLowerCase()
+
+        document.getElementById("versionSelector" + product).classList.toggle('open');
+
+        
+        var currentVersion = _getVersion(product)
+
+        if (currentVersion != "latest") {
+            currentVersion = currentVersion.substring(1)
+        }
+
+        
+        var currentUrl = window.location.href
+
+        
+        var versionsDropdown = document.getElementById("versionDropdown" + product).children
+        var versionsDropdownLength = versionsDropdown.length
+
+        const regex = new RegExp(String.raw`^.+\/operate\/${productLowercase}`,"g");
+        const versionRegex = /^(\/\d+\.\d+(?:\.\d+)?(?:\-\d+)?)?/g;
+
+        
+        for (var i= 0; i < versionsDropdownLength; i ++) {
+            if (versionsDropdown[i].innerText == "latest") {
+                url_start = versionsDropdown[i].href.match(regex)
+                url_end = currentUrl.replace(regex,"").replace(versionRegex,"")
+                versionsDropdown[i].href = url_start + url_end
+            }
+            else {
+                var versionDropdown = versionsDropdown[i].innerText.substring(1)
+                url_start = versionsDropdown[i].href.match(regex)
+                url_end = currentUrl.replace(regex,"").replace(versionRegex,("/" + versionDropdown))
+                versionsDropdown[i].href = url_start + url_end
+            }
+        }
+    }
+
+    window.onclick = function (e) {
+        if (!e.target.matches('.version-selector-control')) {
+            var d = document.getElementsByClassName('menu__version-selector');
+            var i;
+            for (i = 0; i < d.length; i++) {
+                if (d[i].classList.contains('open')) {
+                    d[i].classList.remove('open');
+                }
+            }
+        }
+    }
+</script>
   </main>
 
 
@@ -1778,5 +1859,5 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener('submit', submitHandler)
   })()
 </script>
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1211075963" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=844517881" async></script></body>
 </html>

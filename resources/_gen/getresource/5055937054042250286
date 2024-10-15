@@ -1,26 +1,26 @@
 HTTP/2.0 200 OK
-Age: 47747
+Age: 51428
 Alt-Svc: h3=":443"; ma=86400
-Content-Security-Policy: connect-src 'self' https://search.brave.com https://brave-software.ghost.io https://analytics.brave.com; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://ads.brave.com https://ads.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://contact.ads.brave.com https://html5-player.libsyn.com https://player.vimeo.com https://boards.greenhouse.io https://www.youtube-nocookie.com https://app.boostr.com/; img-src 'self' data: https://imgs.search.brave.com https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://boards.greenhouse.io; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
+Content-Security-Policy: connect-src 'self' https://search.brave.com https://newsletter.brave.com https://analytics.brave.com; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://ads.brave.com https://ads.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://contact.ads.brave.com https://html5-player.libsyn.com https://player.vimeo.com https://boards.greenhouse.io https://www.youtube-nocookie.com https://app.boostr.com/; img-src 'self' data: https://imgs.search.brave.com https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://boards.greenhouse.io; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
 Content-Type: text/html
 Cross-Origin-Opener-Policy: same-origin
-Date: Tue, 27 Aug 2024 00:15:08 GMT
-Etag: W/"eac05c148a8ea8429c8d259e2355948c"
-Last-Modified: Tue, 20 Aug 2024 19:13:10 GMT
+Date: Tue, 15 Oct 2024 00:14:09 GMT
+Etag: W/"57f01ffca4c16ddb9e713061316de5b3"
+Last-Modified: Thu, 10 Oct 2024 15:14:59 GMT
 Onion-Location: https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html
 Referrer-Policy: strict-origin-when-cross-origin
 Server: AmazonS3
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
-Via: 1.1 a73a41b271f533a1a5ed460f3f9ae94c.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: Q5rvdPBupH-S5JOK4o5F-xSLm8DegMbLb5LrsAzlDq3bt7mINKH5Jg==
+Via: 1.1 7db4e24dac37de5a6dd7ddc6e5551834.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: u8zPQQMuKD6DnGkZ_9deOg7bvH5AvsET-_pHQTZCmPclGF6g418zHg==
 X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
-X-Amz-Version-Id: 3aSe9WUbDSDyVSP.ueVEe2cbFZnCJGi9
+X-Amz-Version-Id: E9KKdcaeFCPTf97JyrmZ5kwKiWkpUi3V
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"eac05c148a8ea8429c8d259e2355948c"
-X-Etags-2: W/"eac05c148a8ea8429c8d259e2355948c"
+X-Etags-1: W/"57f01ffca4c16ddb9e713061316de5b3"
+X-Etags-2: W/"57f01ffca4c16ddb9e713061316de5b3"
 X-Frame-Options: SAMEORIGIN
 
 <!DOCTYPE html>
@@ -66,7 +66,7 @@ X-Frame-Options: SAMEORIGIN
 <meta property="og:locale:alternate" content="tr" />
 <meta property="og:locale:alternate" content="uk" />
 <meta name="og:image" content="https://brave.com/home-assets/images/brave-home-og.png"/>
-<meta property="og:updated_time" content="2024-08-14T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
+<meta property="og:updated_time" content="2024-10-09T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brave.com/home-assets/images/brave-home-og.png"/>
 <meta name="twitter:title" content="The browser that puts you first | Brave"/>
@@ -196,7 +196,7 @@ X-Frame-Options: SAMEORIGIN
     <div
       class="grid w-[min(100%,250px)] grid-cols-2 gap-x-3"
     >
-      <a id="ls-url" href="#" class="leoButton isMedium isFilled text-center" data-track-event data-event-category="Research" data-event-action="Language suggestion banner" data-event-name="(Language suggestion banner): Yes">
+      <a id="ls-url" href="#" class="leoButton isMedium isFilled text-center" data-track-event data-event-category="Research" data-event-action="Language suggestion banner" data-event-name="(Language suggestion banner): Yes" data-theme="light">
         Yes
       </a>
       <button id="ls-dismiss" class="leoButton isMedium isPlain" data-track-event data-event-category="Research" data-event-action="Language suggestion banner" data-event-name="(Language suggestion banner): Dismiss">
@@ -220,7 +220,7 @@ X-Frame-Options: SAMEORIGIN
       </a>
       <input type="checkbox" id="nav-control" class="nav-control hidden" />
       <label for="nav-control" class="toggle-button z-50 lg:hidden">
-        <div
+        <div data-theme="light"
           class="nojs-toggle leoButton block isSmall isFilled !px-[16px] !py-[14px]"
         >
           <div class="nav-icon"></div>
@@ -239,7 +239,7 @@ X-Frame-Options: SAMEORIGIN
               class="border-t border-divider-strong  border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0"
             >
               <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-gray-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-gray-30 dark:text-gray-50 dark:hover:!text-gray-50 before:!content-none"
+                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
                 tabindex="0"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -264,7 +264,7 @@ X-Frame-Options: SAMEORIGIN
                         
                           
                         
-                        <span class="hidden lg:block flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-gray-30">Downloads
+                        <span class="hidden lg:block flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">Downloads
                           
                         </span>
 
@@ -279,7 +279,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/download/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Desktop
@@ -299,7 +299,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/android/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Android
@@ -319,7 +319,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/ios/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 iOS
@@ -338,7 +338,7 @@ X-Frame-Options: SAMEORIGIN
                         
                           
                         
-                        <span class="font-semibold leoButton isPlainFaint isTiny nav-dropdown relative w-full max-lg:!p-0 max-lg:!leading-6 items-center justify-between lg:pb-1 !text-gray-70 lg:hover:!text-gray-30 lg:cursor-text lg:!leading-5 lg:!pl-0 before:!bg-white flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-gray-30">Features
+                        <span class="font-semibold leoButton isPlainFaint isTiny nav-dropdown relative w-full max-lg:!p-0 max-lg:!leading-6 items-center justify-between lg:pb-1 !text-neutral-70 lg:hover:!text-neutral-30 lg:cursor-text lg:!leading-5 lg:!pl-0 before:!bg-white flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">Features
                           
                              <span class="lg:hidden transition-transform duration-500 [--icon-size:20px] icon [--icon-url:url(/leo-icons/arrow-small-down.svg)]"></span>
                           
@@ -357,7 +357,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/shields/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Shields
@@ -373,7 +373,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/firewall-vpn/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 VPN
@@ -389,7 +389,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/leo/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Leo AI
@@ -405,7 +405,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/wallet/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Wallet
@@ -421,7 +421,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-rewards/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Rewards
@@ -437,7 +437,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/playlist/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Playlist
@@ -453,7 +453,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-news/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 News
@@ -469,7 +469,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/talk/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Talk
@@ -485,7 +485,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/privacy-features/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Advanced privacy
@@ -501,7 +501,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/features/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 All features
@@ -523,7 +523,7 @@ X-Frame-Options: SAMEORIGIN
               class="border-t border-divider-strong  border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0"
             >
               <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-gray-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-gray-30 dark:text-gray-50 dark:hover:!text-gray-50 before:!content-none"
+                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
                 tabindex="0"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -554,7 +554,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://search.brave.com/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Try Brave Search
@@ -570,7 +570,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/search/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 About Brave Search
@@ -586,7 +586,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project-"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Web Discovery Project
@@ -608,7 +608,7 @@ X-Frame-Options: SAMEORIGIN
               class="border-t border-divider-strong  border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0"
             >
               <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-gray-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-gray-30 dark:text-gray-50 dark:hover:!text-gray-50 before:!content-none"
+                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
                 tabindex="0"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -641,7 +641,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/learn/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Browser &amp; search guides
@@ -663,7 +663,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/web3/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Web3 guides
@@ -685,7 +685,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/glossary/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Privacy glossary
@@ -707,7 +707,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/compare/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Compare
@@ -729,7 +729,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/ai/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 AI guides
@@ -750,7 +750,7 @@ X-Frame-Options: SAMEORIGIN
                         
                           
                         
-                        <span class="uppercase text-gray-30 text-[8px] font-bold tracking-tighter flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-gray-30">Blogs
+                        <span class="uppercase text-neutral-30 text-[8px] font-bold tracking-tighter flex pb-0.5 pt-2.5 leading-5 lg:pt-1 lg:!text-[8px] lg:!font-bold lg:uppercase lg:tracking-tighter lg:!text-neutral-30">Blogs
                           
                         </span>
 
@@ -765,7 +765,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/blog/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Brave blog
@@ -781,7 +781,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/privacy-updates/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Privacy updates
@@ -797,7 +797,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/web-standards-at-brave/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Web standards
@@ -813,7 +813,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/research/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Research
@@ -829,7 +829,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/podcast/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Brave podcast
@@ -851,7 +851,7 @@ X-Frame-Options: SAMEORIGIN
               class="border-t border-divider-strong  border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0"
             >
               <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-gray-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-gray-30 dark:text-gray-50 dark:hover:!text-gray-50 before:!content-none"
+                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
                 tabindex="0"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -882,7 +882,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/search/api/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 About Search API
@@ -898,7 +898,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://api.search.brave.com/app/documentation/web-search/get-started"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               data-track-event data-event-category="Nav Menu CTAs" data-event-action="Search API docs link click" data-event-name="Search API docs link">
                                 Docs
@@ -914,7 +914,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://api.search.brave.com/login"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               data-track-event data-event-category="Nav Menu CTAs" data-event-action="Search API login/signup link click" data-event-name="Search API login/signup link">
                                 Login / Sign-up
@@ -936,7 +936,7 @@ X-Frame-Options: SAMEORIGIN
               class="border-t border-divider-strong  border-opacity-40 py-2 first:border-none mt-0 max-lg:first:pb-[0.375rem] max-lg:first:pt-0 lg:border-none lg:pt-0"
             >
               <span
-                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-gray-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-gray-30 dark:text-gray-50 dark:hover:!text-gray-50 before:!content-none"
+                class="nav-item leoButton isTiny isPlainFaint block lg:flex !cursor-text px-0 hover:!text-neutral-30 max-lg:!text-[8px] max-lg:!font-bold max-lg:uppercase max-lg:!tracking-tighter lg:!cursor-default lg:text-text-primary lg:!-tracking-[.36px] dark:lg:text-white !leading-4 !min-h-4 text-neutral-30 dark:text-neutral-50 dark:hover:!text-neutral-50 before:!content-none"
                 tabindex="0"
                 aria-haspopup="true"
                 aria-expanded="false"
@@ -969,7 +969,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-ads/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Overview
@@ -985,7 +985,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://ads.brave.com"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Ads Manager
@@ -1001,7 +1001,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-ads/audience/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Audience
@@ -1017,7 +1017,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-ads/casestudies/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Case studies
@@ -1033,7 +1033,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="https://ads-help.brave.com/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Help center
@@ -1049,7 +1049,7 @@ X-Frame-Options: SAMEORIGIN
 
                             <a href="/brave-ads/learn/"
                               
-                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-gray-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
+                              class="leoButton isTiny isPlainFaint flex items-center gap-1 p-0 max-w-max !leading-6 !text-neutral-70 hover:!text-text-interactive before:!content-none !min-h-4 h-6" data-nav-control="trigger"
                               
                               >
                                 Why private ads?
@@ -1064,22 +1064,22 @@ X-Frame-Options: SAMEORIGIN
                   
                   <div class="lg:border-l lg:-my-4 lg:pt-4 border-divider-strong">
                     
-                    <span class="hidden lg:block pl-6 uppercase text-[8px] text-gray-30 font-bold tracking-tighter pb-1 pt-2 lg:pt-1">Brave ads formats</span>
+                    <span class="hidden lg:block pl-6 uppercase text-[8px] text-neutral-30 font-bold tracking-tighter pb-1 pt-2 lg:pt-1">Brave ads formats</span>
                     <div class="hidden lg:block pl-6 table-of-contents">
                       <ul>
                         
-                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-gray-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#search-ads'>Search ads</a></li>
+                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-neutral-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#search-ads'>Search ads</a></li>
                         
-                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-gray-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#new-tab-takeovers'>New tab takeovers</a></li>
+                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-neutral-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#new-tab-takeovers'>New tab takeovers</a></li>
                         
-                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-gray-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#newsfeed-ads'>Newsfeed ads</a></li>
+                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-neutral-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#newsfeed-ads'>Newsfeed ads</a></li>
                         
-                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-gray-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#notification-ads'>Notification ads</a></li>
+                          <li class="[&>a]:no-underline [&>a]:font-semibold [&>a]:!text-neutral-70 [&>a]:text-[12px] [&>a]:hover:!text-text-interactive li-before"><a href='/brave-ads/ad-formats/#notification-ads'>Notification ads</a></li>
                         
                       </ul>
                     </div>
                     <div class="hidden lg:block border-t border-divider-strong -mr-6 mt-4 py-[0.5rem] pb-[0.7rem] text-center">
-                      <a href='/brave-ads/resources/' class="no-underline font-semibold !text-gray-70 hover:!text-text-interactive text-[12px]">More ads resources</a>
+                      <a href='/brave-ads/resources/' class="no-underline font-semibold !text-neutral-70 hover:!text-text-interactive text-[12px]">More ads resources</a>
                     </div>
                   </div>
                   
@@ -1091,13 +1091,15 @@ X-Frame-Options: SAMEORIGIN
         <div
           class="lg:flex-no-wrap button-block sticky bottom-0 flex flex-grow flex-wrap items-center justify-end gap-3 pb-6 pt-3 before:absolute before:left-0 before:right-0 before:block max-lg:bg-white lg:relative lg:bg-[transparent] lg:p-0 lg:before:hidden"
         >
-        <a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  leoButton isFilled isSmall flex items-center [--icon-size:18px!important] justify-center max-lg:w-full invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV002"><span class="content">Get Brave</span><span class="icon [--icon-url:url('/leo-icons/download.svg')] bg-[var(--icon-color,currentColor)] ml-1"></span></a>
+        
+        
+          <a id="top-nav-download-button-desktop"  data-show-platform="false" class="download  leoButton isFilled isSmall flex items-center [--icon-size:18px!important] justify-center max-lg:w-full invisible opacity-0 transition-opacity duration-500" data-build-channel="release" data-allows-dynamic-ref-code="true" href="https://laptop-updates.brave.com/download/BRV002"><span class="content">Get Brave</span><span class="icon [--icon-url:url('/leo-icons/download.svg')] bg-[var(--icon-color,currentColor)] ml-1"></span></a>
           <a
             id="top-nav-try-search-button"
-            class="leoButton isSmall isOutline w-full max-w-full text-center font-semibold capitalize leading-none max-lg:![--border-color-hover:#1C1E26] ![--border-color-hover:var(--leo-color-text-primary)] max-lg:![--border-color:#1C1E26] ![--border-color:var(--leo-color-text-primary)] max-lg:w-full lg:w-fit"
+            class="leoButton isSmall w-full max-w-full text-center font-semibold capitalize leading-none max-lg:w-full lg:w-fit isOutline max-lg:![--border-color-hover:#1C1E26] ![--border-color-hover:var(--leo-color-text-primary)] max-lg:![--border-color:#1C1E26] ![--border-color:var(--leo-color-text-primary)] !text-[#1C1E26] lg:!text-text-primary"
             href="https://search.brave.com"
             target="_blank"
-            ><span class="content text-[#1C1E26] lg:text-text-primary">Search the Web</span><span class="icon [--icon-size:18px] [--icon-url:url('/leo-icons/search.svg')] bg-[#1C1E26] lg:bg-[var(--leo-color-text-primary)] dark:lg:text-text-primary"></span></a
+            ><span class="content">Search the Web</span><span class="icon [--icon-size:18px] [--icon-url:url('/leo-icons/search.svg')] bg-[#1C1E26] lg:bg-[var(--leo-color-text-primary)] dark:lg:text-text-primary"></span></a
           >
           
         </div>
@@ -1130,21 +1132,44 @@ X-Frame-Options: SAMEORIGIN
   <section class="flex flex-wrap gap-10 min-[1280px]:flex-nowrap justify-between w-full z-10 mt-10 sm:mt-[3.5rem] md:mt-10 2xl:mt-20">
     <div class="card card__contents w-full min-[1280px]:w-[400px] [--card-padding:1.8rem] [--card-contents-border-width:2px] relative min-h-[290px]">
       <h4 class="text-h2 sm:text-h4">Private search</h4>
-      <form action="https://search.brave.com/search?source=brave.com" method="GET" target="_blank" class="my-4 block w-full ml-0 relative" autocomplete="off">
-        <input type="hidden" name="source" value="brave.com" />
-        <input required type="text" name="q" placeholder="Search the web privately" class="w-full py-3 px-6 text-[0.875rem] leading-normal rounded-xl drop-shadow-02">
-        <button type="submit" class="absolute top-1/2 right-0 -mt-[12px] pr-4" data-track-event data-event-category="Homepage CTA" data-event-action="Try Search widget query" data-event-name="Brave Search interactive widget"><div class="icon [--icon-size:24px] [--icon-url:url('/leo-icons/search.svg')] bg-icons-active"></div></button>
-      </form>
+      
+      
+      
+
+      
+      <script type="module" src="/home-assets/js/brave-search-widget.js"></script>
+
+      
+      <brave-search-matomo
+        submitEventCategory="Homepage CTA"
+        submitEventAction="Try Search widget query"
+        submitEventName="Brave Search interactive widget"
+        llmEventCategory="Homepage CTA"
+        llmEventAction="Try Search widget query (LLM)"
+        llmEventName="Brave Search interactive widget"
+        suggestEndpoint="https://search.brave.com/api/suggest"
+        stylesheets="[&#34;/vendors/brave-search-widget/style.css&#34;,&#34;/home-assets/css/brave-search-widget-customizations.css&#34;]"
+        searchPage="https://search.brave.com/search"
+        source="brave.com"
+        openSerpInNewPage="true"
+        i18n="{&#34;placeholder&#34;:&#34;Search the web privately&#34;,&#34;summarizerFeatureName&#34;:&#34;Answer with AI&#34;,&#34;title&#34;:&#34;Search&#34;}"
+        class="my-4 block ml-8 w-full min-[847px]:ml-0 light">
+        <form action="https://search.brave.com/search?source=brave.com" method="GET" target="_blank" class="my-4 block w-full ml-0 relative" autocomplete="off">
+          <input type="hidden" name="source" value="brave.com" />
+          <input required type="text" name="q" placeholder="Search the web privately" class="w-full py-3 px-6 text-[0.875rem] leading-normal rounded-xl drop-shadow-02">
+          <button type="submit" aria-label="Search" class="absolute top-1/2 right-0 -mt-[12px] pr-4" data-track-event data-event-category="Homepage CTA" data-event-action="Try Search widget query" data-event-name="Brave Search widget (static)"><div class="icon [--icon-size:24px] [--icon-url:url('/leo-icons/search.svg')] bg-icons-active"></div></button>
+        </form>
+      </brave-search-matomo>
       <p class="mb-16 text-desktop-default">Better results, less SEO spam, and zero profiling.</p>
       <img
     
       class="absolute bottom-0 left-0 w-full max-h-[140px]"
     
     src="/home-assets/images/line-waves.svg"
-    alt="waves background"/>
+    alt=""/>
     </div>
     
-    <a href="/leo/" class="card card__contents no-underline w-full min-[1280px]:w-[400px] bg-purple-10 [--card-padding:1.8rem] [--card-contents-border-width:2px] relative overflow-hidden min-h-[458px] md:min-h-[224px] min-[1280px]:min-h-[368px]  flex flex-col justify-start" data-track-event data-event-category="Homepage CTA" data-event-action="Leo AI widget link click" data-event-name="Leo AI link widget">
+    <a href="/leo/" class="card card__contents no-underline w-full min-[1280px]:w-[400px] bg-systemfeedback-info-background [--card-padding:1.8rem] [--card-contents-border-width:2px] relative overflow-hidden min-h-[458px] md:min-h-[224px] min-[1280px]:min-h-[368px]  flex flex-col justify-start" data-track-event data-event-category="Homepage CTA" data-event-action="Leo AI widget link click" data-event-name="Leo AI link widget">
       <h4 class="text-h2 sm:text-h4 pb-2">Built-in AI assistant</h4>
       <p class="text-desktop-default md:max-w-[320px] min-[1280px]:max-w-none">Get answers, generate content, &amp; more. Right in the browser.</p><img
     
@@ -1158,7 +1183,7 @@ X-Frame-Options: SAMEORIGIN
       <h4 class="text-h2 sm:text-h4 pb-2">Powerful VPN</h4>
       <p class="text-desktop-default md:max-w-[320px] min-[1280px]:max-w-none">Protect every app, on your entire device.</p><img
     
-      class="absolute right-0 bottom-0 -z-0"
+      class="absolute right-0 xl:-right-6 2xl:right-0 bottom-0 -z-0"
     
     src="/home-assets/images/vpn-illustration.svg"
     alt=""/><div class="leoButton isOutline isMedium max-w-max mt-5 min-[1280px]:mt-auto z-10">Firewall &#43; VPN</div>
@@ -1174,7 +1199,7 @@ X-Frame-Options: SAMEORIGIN
         
 
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-[var(--leo-color-gray-10)] hover:bg-button-background open:hover:bg-[var(--leo-color-gray-10)] focus-within:bg-button-background w-full" data-single-open data-theme='dark' open data-tab-button-selected data-tab-button for="the-web-without-the-annoyances">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' open data-tab-button-selected data-tab-button for="the-web-without-the-annoyances">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">The Web, <em>without</em> the annoyances</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1189,7 +1214,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-[var(--leo-color-gray-10)] hover:bg-button-background open:hover:bg-[var(--leo-color-gray-10)] focus-within:bg-button-background w-full" data-single-open data-theme='dark' data-tab-button for="save-data-save-battery-save-time">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="save-data-save-battery-save-time">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Save data, save battery, save time</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1203,7 +1228,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-[var(--leo-color-gray-10)] hover:bg-button-background open:hover:bg-[var(--leo-color-gray-10)] focus-within:bg-button-background w-full" data-single-open data-theme='dark' data-tab-button for="unparalleled-privacy">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="unparalleled-privacy">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Unparalleled privacy</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1212,13 +1237,13 @@ X-Frame-Options: SAMEORIGIN
         </span>
     </summary>
     <div class="-mt-2 mr-4 lg:mr-12 [&>p]:text-desktop-default [&>p]:leading-[30px] [&>p]:pb-8 px-8" data-accordion-content>
-        <p>Brave Shields block tracking and fingerprinting. Brave&rsquo;s premium VPN encrypts every connection no matter where you are.
-All this (and more) in one ridiculously easy package.</p>
+        <p>Shields against tracking and fingerprinting. A premium VPN that can encrypt every connection no matter where you are. On-by-default <a href="/web-standards-at-brave/4-global-privacy-control/">Global Privacy Control</a> to stop websites from selling and sharing your data.</p>
+<p>All this (and more) in one ridiculously easy package.</p>
 
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-[var(--leo-color-gray-10)] hover:bg-button-background open:hover:bg-[var(--leo-color-gray-10)] focus-within:bg-button-background w-full" data-single-open data-theme='dark' data-tab-button for="built-in-security-on-by-default">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="built-in-security-on-by-default">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Built-in security, on by default</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1232,7 +1257,7 @@ All this (and more) in one ridiculously easy package.</p>
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-[var(--leo-color-gray-10)] hover:bg-button-background open:hover:bg-[var(--leo-color-gray-10)] focus-within:bg-button-background w-full" data-single-open data-theme='dark' data-tab-button for="switching-is-easy">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="switching-is-easy">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Switching is easy</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1366,7 +1391,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1412,7 +1437,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1461,7 +1486,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1507,7 +1532,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1556,7 +1581,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1602,7 +1627,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1651,7 +1676,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1697,7 +1722,7 @@ All this (and more) in one ridiculously easy package.</p>
     
     <div class="c-compare__slider before:left-[--compare-range-value] [grid-area:1/1/1/1] relative">
         <input type="range" min="0" max="100" value="50" step="0.01" class="c-compare__range bg-[transparent] box-border h-full m-0 absolute top-0 w-full"/>
-        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center">
+        <div class="left-[--compare-range-value] absolute top-1/2 transform rotate-90 pointer-events-none bg-button-background w-[50px] h-[50px] rounded-full border-[2px] border-text-primary cursor-ew-resize -ml-[25px] -mt-[25px] flex justify-center items-center" data-theme="light">
             <div class="icon [--icon-url:url('/leo-icons/arrow-up-and-down.svg')] w-[36px] bg-white"></div>
         </div>
     </div>
@@ -1831,7 +1856,7 @@ All this (and more) in one ridiculously easy package.</p>
     src="/home-assets/images/app-illustration.svg"
     alt="App Illustration"/></div>
   </section>
-  <section class="card card__contents mt-8 md:rounded-none md:border-0 md:mt-0 md:full-bleed layout text-text-primary bg-[var(--leo-color-primary-30)] px-4 py-8 lg:py-10" data-theme="dark">
+  <section class="card card__contents mt-8 md:rounded-none md:border-0 md:mt-0 md:full-bleed layout text-text-primary bg-primitive-blurple-35 px-4 py-8 lg:py-10" data-theme="dark">
     <div class="flex flex-col lg:flex-row gap-4 md:gap-8 md:items-center md:justify-center">
       <p class="text-mobile-h2 lg:text-desktop-h4">Let Brave power your business:</p>
       <div class="flex flex-row flex-wrap md:flex-nowrap gap-4">
@@ -1985,7 +2010,7 @@ All this (and more) in one ridiculously easy package.</p>
 
         </main>
         
-        <footer class="site-footer section pb-12 bg-[var(--leo-color-primary-30)]" data-theme="dark">
+        <footer class="site-footer section pb-12 bg-primitive-blurple-35" data-theme="dark">
     <div class="site-footer__container container">
         <div class="site-footer__column">
             <div class="site-footer__grouping">

@@ -3,19 +3,19 @@ Accept-Ranges: bytes
 Cache-Control: max-age=0
 Content-Security-Policy: default-src 'self';                                       base-uri 'self';                                       connect-src 'self' https://admin.combonet.se/ https://ssl.google-analytics.com;                                       form-action 'self';                                       frame-ancestors 'self';                                       frame-src 'self' https://www.google.com https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://embed.ted.com;                                       img-src 'self' https: data:;                                       media-src 'self' https:;                                       script-src 'self' https://admin.combonet.se https://ssl.google-analytics.com;                                       style-src 'self' 'unsafe-inline' https:
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Aug 2024 13:31:10 GMT
-Etag: "7598-61fa45071d940-gzip"
-Expires: Tue, 27 Aug 2024 13:31:10 GMT
+Date: Tue, 15 Oct 2024 14:31:32 GMT
+Etag: "773e-6219e4b7879c0-gzip"
+Expires: Tue, 15 Oct 2024 14:31:32 GMT
 Feature-Policy: display-capture 'none'; camera 'none'; microphone 'none'
-Last-Modified: Wed, 14 Aug 2024 13:00:45 GMT
+Last-Modified: Sun, 08 Sep 2024 16:40:15 GMT
 Permissions-Policy: interest-cohort=()
 Referrer-Policy: strict-origin-when-cross-origin
 Server: Apache/2.4.59 (Debian)
 Strict-Transport-Security: max-age=15768000
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: "7598-61fa45071d940-gzip"
-X-Etags-2: "7598-61fa45071d940-gzip"
+X-Etags-1: "773e-6219e4b7879c0-gzip"
+X-Etags-2: "773e-6219e4b7879c0-gzip"
 X-Frame-Options: sameorigin
 X-Xss-Protection: 1; mode=block
 
@@ -38,7 +38,7 @@ X-Xss-Protection: 1; mode=block
 <meta property="og:url" content="https://xdeb.org/">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://xdeb.org/xdeb-org.jpg">
-<meta name="generator" content="Hugo 0.132.1">
+<meta name="generator" content="Hugo 0.134.1">
 <meta name="msapplication-TileColor" content="#706a58">
 <meta name="theme-color" content="#706a58">
 
@@ -50,7 +50,7 @@ X-Xss-Protection: 1; mode=block
 <link rel="manifest" href="/site.webmanifest">
 
 <link rel="stylesheet" href="/css/mobile.928a90a2e5ceccad718844ea67aa6bba151ff555ab514fb103071cc7b60c2ff2.css" media="screen">
-<link rel="stylesheet" href="/css/styles.3a57e366915a4d7a6874379869b1b15017395b4ce31b20972352ef4a6993205b.css">
+<link rel="stylesheet" href="/css/styles.46d0fe3df11089a8c6eb6ec1b5904dfa409a39f6e577bdad3c6b0351efd9f0c0.css">
 <link rel="stylesheet" href="/css/print.31e2819287afc91406f2fd43d21a8ba4a0cdfc272e439c90db0c6e47efc7c346.css" media="print">
 
 <script type="application/ld+json">
@@ -83,7 +83,7 @@ X-Xss-Protection: 1; mode=block
 
 <script src="/js/script-early.214cc4b0248ef64425811a906c0c6a3702edffba5dbc127128e9ff989c74c137.js"></script>
 
-<script defer src="/js/mobile.ceca19d3ebb7dfc56237062a20fe323eac0165562514a7a4000a710b42d2a1d4.js"></script>
+<script defer src="/js/mobile.5b8930f6cf28a69a48ef3d83a1e24c48bb79a14cf0ba53da8fb0d51d1e2e2d7a.js"></script>
 <script defer src="/js/script.abf455b6072ca514104ed44374e586c2be3f7218c6ebc922497e7ce7ff9fc3b5.js"></script>
 
 
@@ -160,8 +160,8 @@ X-Xss-Protection: 1; mode=block
 </div>
 
 </header>
-<p>It was time to get a Apple Silicon Mac. I quickly settled on a Mac mini M2. The hard part was picking a display.
-For the last few years I have been using a iMac 27 5K. The best display I have used, by far!</p>
+<p>It was time to get a Apple Silicon Mac. I quickly settled on a Mac mini M2. The hard part was picking a display.</p>
+<p>For the last few years I have been using a iMac 27 5K. The best display I have used, by far! Getting something less good for the Mac mini was out of the question.</p>
 </article>
 
 <article class="list-view list-view--post">
@@ -173,8 +173,12 @@ For the last few years I have been using a iMac 27 5K. The best display I have u
 </div>
 
 </header>
-<p>I found Hugo in 2017 and since then I have used it to build a lot of web sites. Building sites with Hugo is fun!
-For customer sites where an editor need to keep the site updated I early on started to use Forestry.</p>
+<figure class="image right">
+<img src="/images/cloudcannon.png" loading="lazy" alt="CloudCannon logo" width="180" height="180">
+</figure>
+
+<p>I found <a href="https://gohugo.io/">Hugo</a> in 2017 and since then I have used it to build a lot of web sites. Building sites with Hugo is fun!</p>
+<p>For customer sites where an editor need to keep the site updated I early on started to use <a href="https://forestry.io/">Forestry.io</a>. Quick and easy to setup and sync all changes to GitHub without issues. Editors can jump in and start working without much help.</p>
 </article>
 
 <section id="blog-popular" class="blog-popular" aria-labelledby="blog-popular-title">

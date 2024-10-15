@@ -2,18 +2,19 @@ HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6be6cebcebb3-SEA
+Cf-Ray: 8d3083ce9fdeb9c2-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:22 GMT
+Date: Tue, 15 Oct 2024 14:31:48 GMT
 Link: <https://www.inbeat.co/>; rel="preconnect", <https://fonts.googleapis.com>; rel="preconnect"
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dQjX%2B1MDa5AQmvMrtInFRGA8mszmRGyFWLrIhAkCR5AXGioVtp5%2Bjy7Ul%2FgplM%2FqX4wpvMa10jj%2B7W1zs7HvJ7TNNQ%2BmoZ1OAaN%2FnxzoNMeamzYN5BjyrYRP7UXgSMv2"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ue1B%2B7sUmbonv55oa3VTh6mgErj3o5pWmPFr9Q1fwwQnaGRka5L8bAhYeCQCAZoslGKr9dlSxy6imxG8h%2BGkwD%2FXrBRX5c1XQUE0a1gpEx5W31b81o0YdMszV9Jk1P9z"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: 84ff3d35706d89d9af697349aa1f6f7c
-X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
+X-Etags-1: beefa935babd4a07b8fac33e457589eb
+X-Etags-2: beefa935babd4a07b8fac33e457589eb
 
 <!DOCTYPE html>
 <html lang="en">
@@ -74,17 +75,17 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
     ]
 }
 </script>
-    <link rel="icon" href="./favicon.ico" sizes="any">
-<link rel="icon" href="./favicon.png" type="image/png">
-<link rel="icon" href="./favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+    <link rel="icon" href="https://www.inbeat.co/favicon.ico" sizes="any">
+<link rel="icon" href="https://www.inbeat.co/favicon.png" type="image/png">
+<link rel="icon" href="https://www.inbeat.co/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://www.inbeat.co/apple-touch-icon.png">
 <link rel="manifest" href="./site.webmanifest">
 <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css">
-    <link rel="stylesheet" href="https://use.typekit.net/quj6ejz.css"><link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/quj6ejz.css"><link rel="stylesheet" href="https://www.inbeat.co/css/main.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.css" integrity="sha512-ShLuspGzRsTiMlQ2Rg0e+atjy/gVQr3oYKnKmQkHQ6sxcnDAEOtOaPz2rRmeygV2CtnwUawDyHkGgH4zUbP3Hw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16"></script><script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,7 +163,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
         <div>
           
           <h1 class="logo-name">Growthnotes Newsletter</h1>
-          <img src="./images/growthnotesbanner.png" alt="Growthnotes Banner">
+          <img src="https://www.inbeat.co/images/growthnotesbanner.png" alt="GrowthNotes Banner">
           
         </div>
       </div>
@@ -245,9 +246,14 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
       subscriptionError: null,
       subscribed: false,
       beehiivLoading: false,
+      cookieName: 'Unlock / GlobalPopup'
     }),
     mounted() {
-      setTimeout(this.showNewsletterPopup, 15000);
+      setTimeout(() => {
+        if (!getCookie("newsletter")) {
+          this.showNewsletterPopup();
+        }
+      }, 15000);
     },
     methods: {
       showNewsletterPopup() {
@@ -272,7 +278,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
           if (!this.isValidEmail(this.email)) {
             throw new Error("Invalid email address.");
           }
-          const result = await beehiivAPI.subscribe(this.email, "Global Popup");
+          const result = await beehiivAPI.subscribe(this.email, this.cookieName);
           if (result.error) throw new Error(result.error);
           this.subscribed = true;
         } catch (error) {
@@ -284,6 +290,9 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
       hidePopup() {
         this.popupClass = "";
         this.toggleScroll(false);
+        if (!getCookie("newsletter")) {
+          setCookie("newsletter", "true", 7);
+        }
       },
       isValidEmail(email) {
         return /\S+@\S+\.\S+/.test(email);
@@ -324,21 +333,21 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 												
 											</div>
 											<div class="pages"><li class="page">
-													<a href="./features/quicksearch" target="_self" class="inner --no-flex" title="Influencer search engine">
+													<a href="https://www.inbeat.co/features/quicksearch" target="_self" class="inner --no-flex" title="Influencer search engine">
 														<h4>
 															Influencer search engine 
 														</h4>
 														
 													</a>
 												</li><li class="page">
-													<a href="./features/deepsearch" target="_self" class="inner --no-flex" title="Automated similar profile searches">
+													<a href="https://www.inbeat.co/features/deepsearch" target="_self" class="inner --no-flex" title="Automated similar profile searches">
 														<h4>
 															Automated similar profile searches 
 														</h4>
 														
 													</a>
 												</li><li class="page">
-													<a href="./features/export-contacts" target="_self" class="inner --no-flex" title="Bulk contact exports">
+													<a href="https://www.inbeat.co/features/export-contacts" target="_self" class="inner --no-flex" title="Bulk contact exports">
 														<h4>
 															Bulk contact exports 
 														</h4>
@@ -358,7 +367,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 							</div>
 						</div>
 					</li>
-					<li><a href="./pricing" title="Pricing">Pricing</a></li>
+					<li><a href="https://www.inbeat.co/pricing" title="Pricing">Pricing</a></li>
 					<li class="has-submenu mobile-adjusted menu-parent">
 						<a href="javascript:void(0)" title="Resources">
 							Resources
@@ -378,7 +387,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 												
 											</div>
 											<div class="pages"><li class="page">
-													<a href="./articles" target="_self" class="inner --no-flex --no-wrap" title="Articles">
+													<a href="https://www.inbeat.co/articles" target="_self" class="inner --no-flex --no-wrap" title="Articles">
 														<h4>
 															Articles 
 														</h4>
@@ -411,28 +420,28 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 												
 											</div>
 											<div class="pages"><li class="page">
-													<a href="./engagement-rate-calculator-instagram/" target="_self" class="inner --no-flex --no-wrap" title="Engagement rate calculator">
+													<a href="https://www.inbeat.co/engagement-rate-calculator-instagram/" target="_self" class="inner --no-flex --no-wrap" title="Engagement rate calculator">
 														<h4>
 															Engagement rate calculator 
 														</h4>
 														
 													</a>
 												</li><li class="page">
-													<a href="./fake-follower-checker/" target="_self" class="inner --no-flex --no-wrap" title="Fake follower checker">
+													<a href="https://www.inbeat.co/fake-follower-checker/" target="_self" class="inner --no-flex --no-wrap" title="Fake follower checker">
 														<h4>
 															Fake follower checker 
 														</h4>
 														
 													</a>
 												</li><li class="page">
-													<a href="./collaboration-cost-calculator-instagram/" target="_self" class="inner --no-flex --no-wrap" title="Collaboration cost calculator">
+													<a href="https://www.inbeat.co/collaboration-cost-calculator-instagram/" target="_self" class="inner --no-flex --no-wrap" title="Collaboration cost calculator">
 														<h4>
 															Collaboration cost calculator 
 														</h4>
 														
 													</a>
 												</li><li class="page">
-													<a href="./ad-mockup-generator" target="_self" class="inner --no-flex --no-wrap" title="Ad Mockup Generator">
+													<a href="https://www.inbeat.co/ad-mockup-generator" target="_self" class="inner --no-flex --no-wrap" title="Ad Mockup Generator">
 														<h4>
 															Ad Mockup Generator 
 															<span class="tag">New</span>
@@ -473,7 +482,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 					<li class="cta">
             
               <a class="btn btn-lg no-background" href="https://app.inbeat.co"><span>Sign in</span></a>
-              <a href="./book-a-demo" title="Book a demo" class="btn btn-sm btn-crazy-hover no-border" target="_blank">Book a demo</a>
+              <a href="https://www.inbeat.co/book-a-demo" title="Book a demo" class="btn btn-sm btn-crazy-hover no-border" target="_blank">Book a demo</a>
             
 					</li>
 				</ul>
@@ -487,7 +496,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 			</div>
 		</div>
 	</div>
-	 
+   
 </section>
 <div id="menu-overlay">
 	<div class="container">
@@ -508,15 +517,15 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 								</svg>
 								The Database
 							</li><li>
-								<a href="./features/quicksearch">Influencer search engine</a>
+								<a href="https://www.inbeat.co/features/quicksearch">Influencer search engine</a>
 								<p></p>
 							</li>
 							<li>
-								<a href="./features/deepsearch">Automated similar profile searches</a>
+								<a href="https://www.inbeat.co/features/deepsearch">Automated similar profile searches</a>
 								<p></p>
 							</li>
 							<li>
-								<a href="./features/export-contacts">Bulk contact exports</a>
+								<a href="https://www.inbeat.co/features/export-contacts">Bulk contact exports</a>
 								<p></p>
 							</li>
 							
@@ -537,7 +546,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 								</svg>
 								Learn
 							</li><li>
-								<a href="./articles">Articles</a>
+								<a href="https://www.inbeat.co/articles">Articles</a>
 								<p>Read about influencer marketing</p>
 							</li>
 							<li>
@@ -552,19 +561,19 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 								</svg>
 								The Toolkit
 							</li><li>
-								<a href="./engagement-rate-calculator-instagram/">Engagement rate calculator</a>
+								<a href="https://www.inbeat.co/engagement-rate-calculator-instagram/">Engagement rate calculator</a>
 								<p></p>
 							</li>
 							<li>
-								<a href="./fake-follower-checker/">Fake follower checker</a>
+								<a href="https://www.inbeat.co/fake-follower-checker/">Fake follower checker</a>
 								<p></p>
 							</li>
 							<li>
-								<a href="./collaboration-cost-calculator-instagram/">Collaboration cost calculator</a>
+								<a href="https://www.inbeat.co/collaboration-cost-calculator-instagram/">Collaboration cost calculator</a>
 								<p></p>
 							</li>
 							<li>
-								<a href="./ad-mockup-generator">Ad Mockup Generator</a>
+								<a href="https://www.inbeat.co/ad-mockup-generator">Ad Mockup Generator</a>
 								<p></p>
 							</li>
 							
@@ -933,7 +942,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 </svg>
 </div>
                               <div class="content">
-                                  <h4 class="tool-name">Top Instagram <br> Influencers 2023</h4>
+                                  <h4 class="tool-name">Top Instagram <br> Influencers 2024</h4>
                                   <p class="tool-description"> Find the top influencers in any niche, country &amp; city with our Top Lists.</p>
                               </div>
                           </div>
@@ -947,7 +956,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
 </svg>
 </div>
                               <div class="content">
-                                  <h4 class="tool-name">Top TikTok <br> Influencers 2023</h4>
+                                  <h4 class="tool-name">Top TikTok <br> Influencers 2024</h4>
                                   <p class="tool-description"> Find the top influencers in any niche, country &amp; city with our Top Lists.</p>
                               </div>
                           </div>
@@ -1052,7 +1061,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
             <ul><li>
                 <a href="https://www.inbeat.co/ugc-platform" title="Learn More">Learn More</a> 
               </li><li>
-                <a href="https://calendly.com/inbeat-co/creator-studio-demo" title="Book a demo">Book a demo</a> 
+                <a href="./book-a-demo" title="Book a demo">Book a demo</a> 
               </li></ul>
             <p class="small" style="margin-top:48px;">The Database</p>
             <ul><li>
@@ -1079,6 +1088,10 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
                   title="Growthnotes Newsletter">Growthnotes Newsletter</a>
               </li><li>
                 <a target="_self"
+                  href="https://www.inbeat.co/top-influencers"
+                  title="Influencer Directory">Influencer Directory</a>
+              </li><li>
+                <a target="_self"
                   href="https://www.inbeat.co/free-toolkit"
                   title="The Toolkit">The Toolkit</a>
               </li><li>
@@ -1100,9 +1113,9 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
               </li><li>
                 <a href="https://www.inbeat.co/collaboration-cost-calculator-instagram" title="Influencer Money Calculator">Influencer Money Calculator</a>
               </li><li>
-                <a href="https://www.inbeat.co/top-influencers/tiktok/" title="Top TikTok Influencers 2023">Top TikTok Influencers 2023</a>
+                <a href="https://www.inbeat.co/top-influencers/tiktok/" title="Top TikTok Influencers 2024">Top TikTok Influencers 2024</a>
               </li><li>
-                <a href="https://www.inbeat.co/top-influencers/instagram" title="Top Instagram Influencers 2023">Top Instagram Influencers 2023</a>
+                <a href="https://www.inbeat.co/top-influencers/instagram" title="Top Instagram Influencers 2024">Top Instagram Influencers 2024</a>
               </li><li>
                 <a href="https://www.inbeat.co/cpm-calculator" title="CPM Calculator">CPM Calculator</a>
               </li><li>
@@ -1196,7 +1209,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
                   title="Learn More">Learn More</a>
               </li><li>
                 <a class="low-white" target="_blank"
-                  href="https://calendly.com/inbeat-co/creator-studio-demo"
+                  href="./book-a-demo"
                   title="Book a demo">Book a demo</a>
               </li></ul>
           </div>
@@ -1250,6 +1263,10 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
                   title="Growthnotes Newsletter">Growthnotes Newsletter</a>
               </li><li>
                 <a class="low-white" target="_self"
+                  href="https://www.inbeat.co/top-influencers"
+                  title="Influencer Directory">Influencer Directory</a>
+              </li><li>
+                <a class="low-white" target="_self"
                   href="https://www.inbeat.co/free-toolkit"
                   title="The Toolkit">The Toolkit</a>
               </li><li>
@@ -1275,9 +1292,9 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
               </li><li>
                 <a class="low-white" href="https://www.inbeat.co/collaboration-cost-calculator-instagram" title="Influencer Money Calculator">Influencer Money Calculator</a>
               </li><li>
-                <a class="low-white" href="https://www.inbeat.co/top-influencers/tiktok/" title="Top TikTok Influencers 2023">Top TikTok Influencers 2023</a>
+                <a class="low-white" href="https://www.inbeat.co/top-influencers/tiktok/" title="Top TikTok Influencers 2024">Top TikTok Influencers 2024</a>
               </li><li>
-                <a class="low-white" href="https://www.inbeat.co/top-influencers/instagram" title="Top Instagram Influencers 2023">Top Instagram Influencers 2023</a>
+                <a class="low-white" href="https://www.inbeat.co/top-influencers/instagram" title="Top Instagram Influencers 2024">Top Instagram Influencers 2024</a>
               </li><li>
                 <a class="low-white" href="https://www.inbeat.co/cpm-calculator" title="CPM Calculator">CPM Calculator</a>
               </li><li>
@@ -1302,7 +1319,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
             </svg>
           </div>
           <div class="content">
-            <ul><li> <a href="https://teaminbeat.typeform.com/to/tbkVXc2b" target="_blank" class="low-white">Book a demo</a>
+            <ul><li> <a href="./book-a-demo" target="_blank" class="low-white">Book a demo</a>
                 <p></p>
               </li></ul>
           </div>
@@ -1337,7 +1354,7 @@ X-Etags-2: 84ff3d35706d89d9af697349aa1f6f7c
   </div>
 </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js" integrity="sha256-HlqBFI4b3mzFNE97JQcgI/uhJvHBI5czBqfVtEeA1Hg=" crossorigin="anonymous"></script>
-<script src="./js/main.min.js"></script>
+<script src="https://www.inbeat.co/js/main.min.js" defer></script>
         
         <script>
             (function(d,h,w){var gist=w.gist=w.gist||[];gist.methods=['trackPageView','identify','track','setAppId'];gist.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);gist.push(e);return gist;}};for(var i=0;i<gist.methods.length;i++){var c=gist.methods[i];gist[c]=gist.factory(c)}s=d.createElement('script'),s.src="https://widget.getgist.com",s.async=!0,e=d.getElementsByTagName(h)[0],e.appendChild(s),s.addEventListener('load',function(e){},!1),gist.setAppId("vh6e94bm"),gist.trackPageView()})(document,'head',window);

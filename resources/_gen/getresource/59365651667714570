@@ -2,16 +2,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Tue, 27 Aug 2024 13:31:10 GMT
-Etag: W/"668990b0-d1a3"
+Date: Tue, 15 Oct 2024 14:31:31 GMT
+Etag: W/"6708bc8c-dcc8"
 Front-End-Https: on
-Last-Modified: Sat, 06 Jul 2024 18:45:04 GMT
+Last-Modified: Fri, 11 Oct 2024 05:50:04 GMT
 Server: nginx/1.18.0
-X-Etags-1: W/"668990b0-d1a3"
-X-Etags-2: W/"668990b0-d1a3"
+X-Etags-1: W/"6708bc8c-dcc8"
+X-Etags-2: W/"6708bc8c-dcc8"
 X-Frame-Options: DENY
 
-d1a3
+dcc8
 <!DOCTYPE html>
 <html
   lang="en"
@@ -1737,61 +1737,152 @@ d1a3
   <h2>Latest News</h2>
 
 
-  <h3><a href="https://postgis.net/2024/07/PostGIS-3.5.0alpha2/">PostGIS 3.5.0alpha2</a></h3>
-  <p><p>The PostGIS Team is pleased to release PostGIS 3.5.0alpha2!
+  <h3><a href="https://postgis.net/2024/09/PostGIS-3.5.0/">PostGIS 3.5.0</a></h3>
+  <p><p>The PostGIS Team is pleased to release PostGIS 3.5.0!
 Best Served with <a
   class="gdoc-markdown__link"
-  href="https://www.postgresql.org/about/news/postgresql-17-beta-2-released-2885/"
->PostgreSQL 17 Beta2</a>
+  href="https://www.postgresql.org/about/news/postgresql-17-rc1-released-2926/"
+>PostgreSQL 17 RC1</a>
 and <a
   class="gdoc-markdown__link"
-  href="https://github.com/libgeos/geos/releases/tag/3.12.2"
->GEOS 3.12.2</a>.</p>
+  href="https://github.com/libgeos/geos/releases/tag/3.13.0"
+>GEOS 3.13.0</a>.</p>
 <p>This version requires PostgreSQL 12 - 17, GEOS 3.8 or higher, and Proj 6.1+.
 To take advantage of all features, GEOS 3.12+ is needed.
-SFCGAL 1.4-1.5 is needed to enable postgis_sfcgal support.
+SFCGAL 1.4+ is needed to enable postgis_sfcgal support.
 To take advantage of all SFCGAL features, SFCGAL 1.5 is needed.</p>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="350alpha2"
+    <h3 id="350"
     >
-        3.5.0alpha2
-        <a data-clipboard-text="https://postgis.net/2024/07/PostGIS-3.5.0alpha2/#350alpha2" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.5.0alpha2" aria-label="Anchor to: 3.5.0alpha2" href="#350alpha2">
+        3.5.0
+        <a data-clipboard-text="https://postgis.net/2024/09/PostGIS-3.5.0/#350" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.5.0" aria-label="Anchor to: 3.5.0" href="#350">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h3>
 </div>
 <ul>
-<li><a
+<li>
+<p><a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/source/postgis-3.5.0alpha2.tar.gz"
+  href="https://download.osgeo.org/postgis/source/postgis-3.5.0.tar.gz"
 >source download</a> <a
   class="gdoc-markdown__link"
-  href="/stuff/postgis-3.5.0alpha2.tar.gz.md5"
->md5</a></li>
-<li><a
+  href="/stuff/postgis-3.5.0.tar.gz.md5"
+>md5</a></p>
+</li>
+<li>
+<p><a
   class="gdoc-markdown__link"
-  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.5.0alpha2/NEWS"
->NEWS</a></li>
-<li>PDF docs: <a
+  href="https://git.osgeo.org/gitea/postgis/postgis/raw/tag/3.5.0/NEWS"
+>NEWS</a></p>
+</li>
+<li>
+<p>PDF docs: <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0alpha2-en.pdf"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0-en.pdf"
 >en</a> <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0alpha2-ja.pdf"
+  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0-ja.pdf"
 >ja</a>, <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0alpha2-zh_Hans.pdf"
->zh_Hans</a>,  <a
+  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0-fr.pdf"
+>fr</a>, <a
   class="gdoc-markdown__link"
-  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0alpha2-fr.pdf"
->fr</a></li>
+  href="https://download.osgeo.org/postgis/docs/postgis-3.5.0-zh_Hans.pdf"
+>zh_Hans</a></p>
+</li>
+<li>
+<p>HTML Online <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/en/"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/ja/"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/fr/"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/zh_Hans/"
+>zh_Hans</a></p>
+</li>
+<li>
+<p>Cheat Sheets:</p>
+<ul>
+<li>postgis: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/postgis_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/postgis_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/postgis_cheatsheet-fr.html"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/postgis_cheatsheet-zh_Hans.html"
+>zh_Hans</a></li>
+<li>postgis_raster: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/raster_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/raster_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/raster_cheatsheet-fr.html"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/raster_cheatsheet-zh_Hans.html"
+>zh_Hans</a></li>
+<li>postgis_topology: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/topology_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/topology_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/topology_cheatsheet-fr.html"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/topology_cheatsheet-zh_Hans.html"
+>zh_Hans</a></li>
+<li>postgis_sfcgal: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/sfcgal_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/sfcgal_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/sfcgal_cheatsheet-fr.html"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/sfcgal_cheatsheet-zh_Hans.html"
+>zh_Hans</a></li>
+<li>address standardizer, postgis_tiger_geocoder: <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/tiger_geocoder_cheatsheet-en.html"
+>en</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/tiger_geocoder_cheatsheet-ja.html"
+>ja</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/tiger_geocoder_cheatsheet-fr.html"
+>fr</a> <a
+  class="gdoc-markdown__link"
+  href="https://postgis.net/docs/manual-3.5/tiger_geocoder_cheatsheet-zh_Hans.html"
+>zh_Hans</a></li>
 </ul>
-<p>This release is an alpha of a major release, it includes bug fixes since PostGIS 3.4.2 and new features.</p></p>
+</li>
+</ul>
+<p>This release is a feature release that includes bug fixes since PostGIS 3.4.3, new features, and a few breaking changes.</p></p>
   
     <a
       class="flex-inline align-center fake-link"
       title="Read more"
-      href="/2024/07/PostGIS-3.5.0alpha2/"
+      href="/2024/09/PostGIS-3.5.0/"
     >
       Read more
       <i class="gdoc-icon">gdoc_arrow_right_alt</i>

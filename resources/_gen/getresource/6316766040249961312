@@ -1,26 +1,26 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 24783
+Age: 28423
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 17281221
+Cc-Build-Id: 17656214
 Cc-Cache-Group: default
-Cc-Cache-Status: HIT
+Cc-Cache-Status: MISS
 Cc-Perf: fetch-headers=37;t=42
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 8b9c6b7addf5ec98-SEA
+Cf-Ray: 8d30833b2fdeba46-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:04 GMT
-Last-Modified: Tue, 27 Aug 2024 06:37:37 GMT
+Date: Tue, 15 Oct 2024 14:31:24 GMT
+Last-Modified: Mon, 07 Oct 2024 22:54:54 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
 Via: 1.1 google
-X-Etags-1: a79aaae717d422afd82c5f3b6af4d534
-X-Etags-2: a79aaae717d422afd82c5f3b6af4d534
+X-Etags-1: ef07cd9921cff0f88a2525d4e4a9883c
+X-Etags-2: ef07cd9921cff0f88a2525d4e4a9883c
 X-Robots-Tag: all
 
 <!DOCTYPE html>
@@ -530,6 +530,9 @@ X-Robots-Tag: all
 
 
 
+
+
+
  
 
 
@@ -623,11 +626,11 @@ X-Robots-Tag: all
 
 
 
-  <link rel="shortcut icon" href="/about/static/favicons/favicon-48x48.ico" type="image/x-icon">
-  <link rel="icon" href="/about/static/favicons/favicon-48x48.ico" type="image/x-icon" sizes="48x48">
-  <link rel="icon" href="/about/static/favicons/favicon-96x96.ico" type="image/x-icon" sizes="96x96">
-  <link rel="icon" href="/about/static/favicons/favicon-144x144.ico" type="image/x-icon" sizes="144x144">
-  <link rel="apple-touch-icon" href="/about/static/favicons/favicon-144x144.ico" type="image/x-icon" sizes="144x144"><link rel="canonical" href="https://www.papercut.com/">
+  <link rel="shortcut icon" href="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/favicon-48x48.ico" type="image/x-icon">
+  <link rel="icon" href="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/favicon-48x48.ico" type="image/x-icon" sizes="48x48">
+  <link rel="icon" href="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/favicon-96x96.ico" type="image/x-icon" sizes="96x96">
+  <link rel="icon" href="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/favicon-144x144.ico" type="image/x-icon" sizes="144x144">
+  <link rel="apple-touch-icon" href="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/favicon-144x144.ico" type="image/x-icon" sizes="144x144"><link rel="canonical" href="https://www.papercut.com/">
 
    
   <meta name="google-site-verification" content="Dfzp5jaRteGsHdUkCLLBVOvXQNi3vRNVJX2tk8WVep8">
@@ -638,7 +641,7 @@ X-Robots-Tag: all
 </head>
 <body>
       <header>
-        <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.10.1" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/header)-->
 
@@ -831,7 +834,7 @@ X-Robots-Tag: all
     
     <p class="c-top-bar-nav-item-content__heading">Choose your language</p>
     
-        <input x-ref="searchField" x-model="search" x-on:keydown.window.prevent.slash="$refs.searchField.focus()" placeholder="Search..." type="search" class="c-top-bar-nav-item-content__search-field">
+        <input x-ref="searchField" x-model="search" placeholder="Search..." type="search" class="c-top-bar-nav-item-content__search-field">
     
     <ul class="c-top-bar-nav-item-content__link-list">
         <li x-show="! filteredItems.length" class="c-top-bar-nav-item-content__link-list__error">No results</li>
@@ -998,13 +1001,12 @@ X-Robots-Tag: all
 </div>
 <!--bookshop-live end-->
     
-        <ul class="c-nav-block-and-link__links">
+    <ul class="c-nav-block-and-link__links">
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -1021,17 +1023,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -1048,17 +1048,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -1075,17 +1073,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -1102,17 +1098,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -1129,14 +1123,13 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
-                
-        </ul>
-        
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+            
+    </ul>
+
     
 
 </div>
@@ -1433,7 +1426,7 @@ X-Robots-Tag: all
     
         <a href="/about/forest-positive/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Forest Positive Printing</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Forest positive printing</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Go further than waste reduction </p>
             </div>
         </a>
@@ -1456,7 +1449,7 @@ X-Robots-Tag: all
     
         <a href="/products/do-more/print-deploy/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Print Deploy</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Print deploy</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Print queues made easy </p>
             </div>
         </a>
@@ -1479,7 +1472,7 @@ X-Robots-Tag: all
     
         <a href="/products/do-more/universal-print/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Microsoft Universal Print</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Microsoft universal print</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Take control of your Universal Print environment </p>
             </div>
         </a>
@@ -1974,7 +1967,7 @@ X-Robots-Tag: all
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-sys-admin-user.svg" alt="label icon">
             </div>
             <div class="c-sub-nav-label__primary-small-with-small-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">Sysadmin</p>
+                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">SysAdmin</p>
             </div>
         </a>
     
@@ -1996,7 +1989,7 @@ X-Robots-Tag: all
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-monitor-team.svg" alt="label icon">
             </div>
             <div class="c-sub-nav-label__primary-small-with-small-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">IT manager</p>
+                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">IT Manager</p>
             </div>
         </a>
     
@@ -2227,6 +2220,33 @@ X-Robots-Tag: all
 
 <div class="c-sub-nav-label">
     
+        <a href="/discover/the-complete-guide-to-windows-protected-print-wpp/" reseed-ignore class="c-sub-nav-label__primary-with-image">
+            <div class="c-sub-nav-label__primary-with-image__image-container">
+                <img src="https://cdn.papercut.com/web/img/icon/Icon-Light-mfp-printer-plus.svg" alt="label icon">
+            </div>
+            <div class="c-sub-nav-label__primary-with-image__content-container">
+                <p class="c-sub-nav-label__primary-with-image__content-container__heading">WPP printing<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
+                <p class="c-sub-nav-label__primary-with-image__content-container__description">The complete guide to Windows Protected Printing </p>
+            </div>
+        </a>
+    
+    
+</div>
+<!--bookshop-live end-->
+                                
+                            </li>
+                              
+                    
+                
+                
+                        
+                            <li class="c-nav-block-and-link__links__link-item">
+                                
+                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+
+
+<div class="c-sub-nav-label">
+    
         <a href="/discover/easy-printing/" reseed-ignore class="c-sub-nav-label__primary-with-image">
             <div class="c-sub-nav-label__primary-with-image__image-container">
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-easy-printing.svg" alt="label icon">
@@ -2261,33 +2281,6 @@ X-Robots-Tag: all
             <div class="c-sub-nav-label__primary-with-image__content-container">
                 <p class="c-sub-nav-label__primary-with-image__content-container__heading">Cloud and print<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
                 <p class="c-sub-nav-label__primary-with-image__content-container__description">Review our full suite of management solutions for cloud </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                              
-                    
-                
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item">
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/discover/waste-control/" reseed-ignore class="c-sub-nav-label__primary-with-image">
-            <div class="c-sub-nav-label__primary-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-waste.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-with-image__content-container">
-                <p class="c-sub-nav-label__primary-with-image__content-container__heading">Waste control<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
-                <p class="c-sub-nav-label__primary-with-image__content-container__description">Explore why this should be important to everyone </p>
             </div>
         </a>
     
@@ -2401,140 +2394,187 @@ X-Robots-Tag: all
 
 
 <div class="c-drop-down-nav-heading">
-    <p class="c-drop-down-nav-heading__heading">Popular Resources</p>
+    <p class="c-drop-down-nav-heading__heading">Popular resources</p>
     
 </div>
 <!--bookshop-live end-->
     
-    <ul class="c-nav-block-and-link__links">
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
+        <!--bookshop-live name(sections/popular-resources)-->
 
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/reports/grid-report-for-print-management-summer-2024/" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn1.papercut.com/web/cloudcannon/G2_Logo_Red_RGB.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Grid® Report for Print Management | Summer 2024</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
+<div class="c-popular-resources placeholder-menu-items">
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
 </div>
+<div class="c-sub-nav-label">
+  <a href="/resources/" reseed-ignore class="c-sub-nav-label__primary-with-image">
+      <div class="c-sub-nav-label__primary-with-image__image-container">
+          <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-book.svg" alt="label icon">
+      </div>
+      <div class="c-sub-nav-label__primary-with-image__content-container">
+          <p class="c-sub-nav-label__primary-with-image__content-container__heading">Find more</p>
+          <p class="c-sub-nav-label__primary-with-image__content-container__description">Reports, White Papers, Customer Stories, Ebooks and more </p>
+      </div>
+  </a>
+</div>
+
+<script defer>
+  var menuCardsInit;
+  if (menuCardsInit != true) {
+    menuCardsInit = true;
+    console.log("Running Menu Cards Initialization"); 
+
+    
+    const processMenuCardsForContainer = (containerClass) => {
+      const placeholderCardsDiv = document.querySelector(`.${containerClass} .placeholder-menu-items`);
+      if (!placeholderCardsDiv) {
+        console.error(`Container not found: .${containerClass} .placeholder-menu-items`);
+        return;
+      }
+
+      const limit = 5; 
+      const promises = []; 
+      const cards = [];
+      let counter = 0;
+
+      const ctaCards = window.recommendedReadsCards.filter(card => card.extras && card.extras.type === 'cta');
+      let ctaCard = null;
+      if (ctaCards.length > 0) {
+        ctaCard = ctaCards.reduce((lowest, card) => 
+          !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null
+        );
+      }
+
+      if (ctaCard) {
+        counter++;
+        const newCard = createMenuElement(ctaCard);
+        cards.push(newCard);
+
+        if (ctaCard.imageUrl) {
+          const promise = loadMenuImage(ctaCard.imageUrl)
+            .then(thumbImg => {
+              thumbImg.className = 'c-popular-resources__card__img'; 
+              newCard.prepend(thumbImg);
+            })
+            .catch(error => console.error('Error loading image:', error));
+          promises.push(promise);
+        }
+      }
+
+      window.recommendedReadsCards.forEach(card => {
+        if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+          counter++;
+          const newCard = createMenuElement(card);
+          cards.push(newCard);
+          if (card.extras.icon) {
+            const promise = loadMenuImage(card.extras.icon)
+              .then(thumbImg => {
+                thumbImg.className = 'c-popular-resources__card__img';
+                newCard.prepend(thumbImg);
+              })
+              .catch(error => console.error('Error loading image:', error));
+            promises.push(promise);
+          }
+        }
+      });
+
+      Promise.all(promises)
+        .then(() => {
+          placeholderCardsDiv.innerHTML = ''; 
+          cards.forEach(card => {
+            placeholderCardsDiv.appendChild(card);
+          });
+
+          cards.forEach(card => {
+            const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+                  braze.logContentCardImpressions([card]);
+                  entry.target.dataset.impressionLogged = true; 
+                  observer.disconnect(); 
+                }
+              });
+            }, { threshold: 0.5 }); 
+            observer.observe(card);
+          });
+        })
+        .catch(error => console.error('Error loading placeholder cards:', error));
+    };
+
+
+    const checkMenuCards = () => {
+      if (contentCards && contentCards.length > 0) {
+        
+        window.recommendedReadsCards = contentCards.filter(card => 
+          card.extras && card.extras.tags && card.extras.tags.includes("popular-resources")
+        );
+        processMenuCardsForContainer('c-nav-bar__desktop');
+        processMenuCardsForContainer('c-nav-bar__mobile');
+      } else {
+        console.log("Waiting..")
+        setTimeout(checkMenuCards, 1000); 
+      }
+    };
+
+    const createMenuElement = (card) => {
+      const newCard = document.createElement('a');
+      newCard.className = 'c-popular-resources__card'; 
+      newCard.href = card.url || '#'; 
+      newCard.dataset.cardId = card.id; 
+      newCard.dataset.impressionLogged = false;
+
+      const cardTitle = document.createElement('p');
+      cardTitle.className = 'c-popular-resources__card__title'; 
+      cardTitle.textContent = card.title || '';
+      newCard.appendChild(cardTitle);
+
+      newCard.addEventListener('click', () => handleMenuCardClick(card));
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+            braze.logContentCardImpressions([card]);
+            entry.target.dataset.impressionLogged = true; 
+            observer.disconnect(); 
+          }
+        });
+      }, { threshold: 0.5 }); 
+
+      return newCard;
+    };
+
+    const handleMenuCardClick = (card) => {
+      event.preventDefault();
+
+      if (braze.logContentCardClick(card)) {
+        setTimeout(() => {
+          window.location.href = card.url; 
+        }, 500); 
+      } else {
+        console.error("Error logging content card click.");
+      }
+    };
+
+    const loadMenuImage = src =>
+      new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+      });
+
+    checkMenuCards();
+  }
+</script>
 <!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/ebooks/teachings-changed-weve-changed-printing-to-suit/" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-higher-education.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Complete Guide to Printing in Education</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/white_papers/edge-mesh-how-to-get-print-resiliency-and-security-without-servers" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-decentralised.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Get Print Resiliency and Security Without Servers</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/white_papers/securing-your-print-system-with-papercut" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-security.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Securing Your Print System with PaperCut Whitepaper</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/" reseed-ignore class="c-sub-nav-label__primary-with-image">
-            <div class="c-sub-nav-label__primary-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-book.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-with-image__content-container">
-                <p class="c-sub-nav-label__primary-with-image__content-container__heading">Find more<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
-                <p class="c-sub-nav-label__primary-with-image__content-container__description">Reports, White Papers, Customer Stories, Ebooks and more </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->                      
-                    
-                </li>
-                  
-            
-    </ul>
-
+           
     
 
 </div>
@@ -2925,13 +2965,12 @@ X-Robots-Tag: all
 </div>
 <!--bookshop-live end-->
     
-        <ul class="c-nav-block-and-link__links">
+    <ul class="c-nav-block-and-link__links">
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -2948,17 +2987,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -2975,17 +3012,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -3002,17 +3037,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -3029,17 +3062,15 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+        
             
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item"> 
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+                <li class="c-nav-block-and-link__links__link-item"> 
+                    
+                        <!--bookshop-live name(structures/header/sub-nav-label)-->
 
 
 <div class="c-sub-nav-label">
@@ -3056,14 +3087,13 @@ X-Robots-Tag: all
     
     
 </div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                         
-                
-                
-        </ul>
-        
+<!--bookshop-live end-->                      
+                    
+                </li>
+                  
+            
+    </ul>
+
     
 
 </div>
@@ -3360,7 +3390,7 @@ X-Robots-Tag: all
     
         <a href="/about/forest-positive/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Forest Positive Printing</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Forest positive printing</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Go further than waste reduction </p>
             </div>
         </a>
@@ -3383,7 +3413,7 @@ X-Robots-Tag: all
     
         <a href="/products/do-more/print-deploy/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Print Deploy</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Print deploy</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Print queues made easy </p>
             </div>
         </a>
@@ -3406,7 +3436,7 @@ X-Robots-Tag: all
     
         <a href="/products/do-more/universal-print/" reseed-ignore class="c-sub-nav-label__primary-no-image">
             <div class="c-sub-nav-label__primary-no-image__content-container">
-                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Microsoft Universal Print</p>
+                <p class="c-sub-nav-label__primary-no-image__content-container__heading">Microsoft universal print</p>
                 <p class="c-sub-nav-label__primary-no-image__content-container__description">Take control of your Universal Print environment </p>
             </div>
         </a>
@@ -3896,7 +3926,7 @@ X-Robots-Tag: all
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-sys-admin-user.svg" alt="label icon">
             </div>
             <div class="c-sub-nav-label__primary-small-with-small-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">Sysadmin</p>
+                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">SysAdmin</p>
             </div>
         </a>
     
@@ -3918,7 +3948,7 @@ X-Robots-Tag: all
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-monitor-team.svg" alt="label icon">
             </div>
             <div class="c-sub-nav-label__primary-small-with-small-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">IT manager</p>
+                <p class="c-sub-nav-label__primary-small-with-small-image__content-container__heading">IT Manager</p>
             </div>
         </a>
     
@@ -4145,6 +4175,33 @@ X-Robots-Tag: all
 
 <div class="c-sub-nav-label">
     
+        <a href="/discover/the-complete-guide-to-windows-protected-print-wpp/" reseed-ignore class="c-sub-nav-label__primary-with-image">
+            <div class="c-sub-nav-label__primary-with-image__image-container">
+                <img src="https://cdn.papercut.com/web/img/icon/Icon-Light-mfp-printer-plus.svg" alt="label icon">
+            </div>
+            <div class="c-sub-nav-label__primary-with-image__content-container">
+                <p class="c-sub-nav-label__primary-with-image__content-container__heading">WPP printing<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
+                <p class="c-sub-nav-label__primary-with-image__content-container__description">The complete guide to Windows Protected Printing </p>
+            </div>
+        </a>
+    
+    
+</div>
+<!--bookshop-live end-->
+                                
+                            </li>
+                              
+                    
+                
+                
+                        
+                            <li class="c-nav-block-and-link__links__link-item">
+                                
+                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
+
+
+<div class="c-sub-nav-label">
+    
         <a href="/discover/easy-printing/" reseed-ignore class="c-sub-nav-label__primary-with-image">
             <div class="c-sub-nav-label__primary-with-image__image-container">
                 <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-easy-printing.svg" alt="label icon">
@@ -4179,33 +4236,6 @@ X-Robots-Tag: all
             <div class="c-sub-nav-label__primary-with-image__content-container">
                 <p class="c-sub-nav-label__primary-with-image__content-container__heading">Cloud and print<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
                 <p class="c-sub-nav-label__primary-with-image__content-container__description">Review our full suite of management solutions for cloud </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                                
-                            </li>
-                              
-                    
-                
-                
-                        
-                            <li class="c-nav-block-and-link__links__link-item">
-                                
-                                    <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/discover/waste-control/" reseed-ignore class="c-sub-nav-label__primary-with-image">
-            <div class="c-sub-nav-label__primary-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-waste.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-with-image__content-container">
-                <p class="c-sub-nav-label__primary-with-image__content-container__heading">Waste control<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
-                <p class="c-sub-nav-label__primary-with-image__content-container__description">Explore why this should be important to everyone </p>
             </div>
         </a>
     
@@ -4319,140 +4349,187 @@ X-Robots-Tag: all
 
 
 <div class="c-drop-down-nav-heading">
-    <p class="c-drop-down-nav-heading__heading">Popular Resources</p>
+    <p class="c-drop-down-nav-heading__heading">Popular resources</p>
     
 </div>
 <!--bookshop-live end-->
     
-    <ul class="c-nav-block-and-link__links">
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
+        <!--bookshop-live name(sections/popular-resources)-->
 
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/reports/grid-report-for-print-management-summer-2024/" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn1.papercut.com/web/cloudcannon/G2_Logo_Red_RGB.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Grid® Report for Print Management | Summer 2024</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
+<div class="c-popular-resources placeholder-menu-items">
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
+    <div class="c-popular-resources__placeholder"></div>
+  
 </div>
+<div class="c-sub-nav-label">
+  <a href="/resources/" reseed-ignore class="c-sub-nav-label__primary-with-image">
+      <div class="c-sub-nav-label__primary-with-image__image-container">
+          <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-book.svg" alt="label icon">
+      </div>
+      <div class="c-sub-nav-label__primary-with-image__content-container">
+          <p class="c-sub-nav-label__primary-with-image__content-container__heading">Find more</p>
+          <p class="c-sub-nav-label__primary-with-image__content-container__description">Reports, White Papers, Customer Stories, Ebooks and more </p>
+      </div>
+  </a>
+</div>
+
+<script defer>
+  var menuCardsInit;
+  if (menuCardsInit != true) {
+    menuCardsInit = true;
+    console.log("Running Menu Cards Initialization"); 
+
+    
+    const processMenuCardsForContainer = (containerClass) => {
+      const placeholderCardsDiv = document.querySelector(`.${containerClass} .placeholder-menu-items`);
+      if (!placeholderCardsDiv) {
+        console.error(`Container not found: .${containerClass} .placeholder-menu-items`);
+        return;
+      }
+
+      const limit = 5; 
+      const promises = []; 
+      const cards = [];
+      let counter = 0;
+
+      const ctaCards = window.recommendedReadsCards.filter(card => card.extras && card.extras.type === 'cta');
+      let ctaCard = null;
+      if (ctaCards.length > 0) {
+        ctaCard = ctaCards.reduce((lowest, card) => 
+          !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null
+        );
+      }
+
+      if (ctaCard) {
+        counter++;
+        const newCard = createMenuElement(ctaCard);
+        cards.push(newCard);
+
+        if (ctaCard.imageUrl) {
+          const promise = loadMenuImage(ctaCard.imageUrl)
+            .then(thumbImg => {
+              thumbImg.className = 'c-popular-resources__card__img'; 
+              newCard.prepend(thumbImg);
+            })
+            .catch(error => console.error('Error loading image:', error));
+          promises.push(promise);
+        }
+      }
+
+      window.recommendedReadsCards.forEach(card => {
+        if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+          counter++;
+          const newCard = createMenuElement(card);
+          cards.push(newCard);
+          if (card.extras.icon) {
+            const promise = loadMenuImage(card.extras.icon)
+              .then(thumbImg => {
+                thumbImg.className = 'c-popular-resources__card__img';
+                newCard.prepend(thumbImg);
+              })
+              .catch(error => console.error('Error loading image:', error));
+            promises.push(promise);
+          }
+        }
+      });
+
+      Promise.all(promises)
+        .then(() => {
+          placeholderCardsDiv.innerHTML = ''; 
+          cards.forEach(card => {
+            placeholderCardsDiv.appendChild(card);
+          });
+
+          cards.forEach(card => {
+            const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+                  braze.logContentCardImpressions([card]);
+                  entry.target.dataset.impressionLogged = true; 
+                  observer.disconnect(); 
+                }
+              });
+            }, { threshold: 0.5 }); 
+            observer.observe(card);
+          });
+        })
+        .catch(error => console.error('Error loading placeholder cards:', error));
+    };
+
+
+    const checkMenuCards = () => {
+      if (contentCards && contentCards.length > 0) {
+        
+        window.recommendedReadsCards = contentCards.filter(card => 
+          card.extras && card.extras.tags && card.extras.tags.includes("popular-resources")
+        );
+        processMenuCardsForContainer('c-nav-bar__desktop');
+        processMenuCardsForContainer('c-nav-bar__mobile');
+      } else {
+        console.log("Waiting..")
+        setTimeout(checkMenuCards, 1000); 
+      }
+    };
+
+    const createMenuElement = (card) => {
+      const newCard = document.createElement('a');
+      newCard.className = 'c-popular-resources__card'; 
+      newCard.href = card.url || '#'; 
+      newCard.dataset.cardId = card.id; 
+      newCard.dataset.impressionLogged = false;
+
+      const cardTitle = document.createElement('p');
+      cardTitle.className = 'c-popular-resources__card__title'; 
+      cardTitle.textContent = card.title || '';
+      newCard.appendChild(cardTitle);
+
+      newCard.addEventListener('click', () => handleMenuCardClick(card));
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+            braze.logContentCardImpressions([card]);
+            entry.target.dataset.impressionLogged = true; 
+            observer.disconnect(); 
+          }
+        });
+      }, { threshold: 0.5 }); 
+
+      return newCard;
+    };
+
+    const handleMenuCardClick = (card) => {
+      event.preventDefault();
+
+      if (braze.logContentCardClick(card)) {
+        setTimeout(() => {
+          window.location.href = card.url; 
+        }, 500); 
+      } else {
+        console.error("Error logging content card click.");
+      }
+    };
+
+    const loadMenuImage = src =>
+      new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+      });
+
+    checkMenuCards();
+  }
+</script>
 <!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/ebooks/teachings-changed-weve-changed-printing-to-suit/" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-higher-education.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Complete Guide to Printing in Education</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/white_papers/edge-mesh-how-to-get-print-resiliency-and-security-without-servers" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-decentralised.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Get Print Resiliency and Security Without Servers</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/white_papers/securing-your-print-system-with-papercut" reseed-ignore class="c-sub-nav-label__primary-small-with-image">
-            <div class="c-sub-nav-label__primary-small-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-security.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-small-with-image__content-container">
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__heading">Securing Your Print System with PaperCut Whitepaper</p>
-                <p class="c-sub-nav-label__primary-small-with-image__content-container__description"> </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->
-                    
-                </li>
-                  
-        
-            
-                <li class="c-nav-block-and-link__links__link-item"> 
-                    
-                        <!--bookshop-live name(structures/header/sub-nav-label)-->
-
-
-<div class="c-sub-nav-label">
-    
-        <a href="/resources/" reseed-ignore class="c-sub-nav-label__primary-with-image">
-            <div class="c-sub-nav-label__primary-with-image__image-container">
-                <img src="https://cdn.papercut.com/web/cloudcannon/navigation/nav-icon-book.svg" alt="label icon">
-            </div>
-            <div class="c-sub-nav-label__primary-with-image__content-container">
-                <p class="c-sub-nav-label__primary-with-image__content-container__heading">Find more<span class="c-sub-nav-label__primary-with-image__content-container__heading__postscript"></span></p>
-                <p class="c-sub-nav-label__primary-with-image__content-container__description">Reports, White Papers, Customer Stories, Ebooks and more </p>
-            </div>
-        </a>
-    
-    
-</div>
-<!--bookshop-live end-->                      
-                    
-                </li>
-                  
-            
-    </ul>
-
+           
     
 
 </div>
@@ -4809,16 +4886,35 @@ X-Robots-Tag: all
     <template x-teleport=".js-breadcrumbs">
       
       <div class="c-breadcrumbs__links" x-show="open">
-        <ul class="c-breadcrumbs__links__list" id="breadcrumbs">
-          <li class="c-breadcrumbs__links__list__item">
-            <a href="/" reseed-ignore>Home</a>
+        <ul class="c-breadcrumbs__links__list" id="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <li class="c-breadcrumbs__links__list__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/" itemprop="item" reseed-ignore>
+              <span itemprop="name">Home</span>
+            </a>
+            <meta itemprop="position" content="1">
           </li>
-                      
+
+           
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+           
+          
           <li class="c-breadcrumbs__links__list__separator">›</li>
-          <li class="c-breadcrumbs__links__list__item">
+          <li class="c-breadcrumbs__links__list__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
             
-              <span href="/about/about">About</span>
+              <span itemprop="name">About</span>
             
+            <meta itemprop="position" content="1"> 
           </li>  </ul>
       </div>
     </template>
@@ -4826,7 +4922,7 @@ X-Robots-Tag: all
 </div>
 
     
-    <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+    <!--bookshop-live meta(version: "3.10.1" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: .Params.content_blocks)-->
     <!--bookshop-live name(page)-->
 <div class="components">
@@ -4865,9 +4961,9 @@ X-Robots-Tag: all
       
     </div>
     
-    <div class="c-sections-hero-banner-level1__image">
-      <img src="https://cdn.papercut.com/web/img/home/home-page_unicorn-sparkle_hero@2x.webp" alt="People relaxing as PaperCut makes printing easy for end-users">
-    </div>
+      <div class="c-sections-hero-banner-level1__image ">
+        <img src="https://cdn.papercut.com/web/img/home/home-page_unicorn-sparkle_hero@2x.webp" alt="People relaxing as PaperCut makes printing easy for end-users">
+      </div>
     
   </div>
 </section>
@@ -4933,6 +5029,257 @@ X-Robots-Tag: all
   					
 					
 					  ">
+			<!--bookshop-live name(sections/card-layout--recommended)-->
+
+
+<div class="c-card-layout--recommended c-card-layout--recommended--background-color-F2F2F4 primary-grey-100">
+  <div class="c-card-layout--recommended__content">
+    <!--bookshop-live name(sections/heading-with-content)-->
+
+
+<section class="c-heading-with-content c-heading-with-content--center  ">
+  
+  <div class="c-heading-with-content__heading   c-heading-with-content__heading--50 ">
+    <!--bookshop-live name(generic/heading)-->
+
+
+
+  <h2 class="c-heading c-heading--h2 c-heading--" id="recommended-reads">Recommended reads
+    <span class></span></h2>
+  
+<!--bookshop-live end-->
+  </div>
+  
+</section>
+
+<!--bookshop-live end-->
+  </div>
+  <div class="c-card-layout--recommended__recommended">
+    <div id="placeholder-cards" class="c-card-layout--recommended__recommended-cards">
+       
+        <!--bookshop-live name(simple/card--placeholder)-->
+
+
+<div class="c-card--placeholder" id="placeholder">
+  <div class="c-card--placeholder__placeholder-image"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card--placeholder)-->
+
+
+<div class="c-card--placeholder" id="placeholder">
+  <div class="c-card--placeholder__placeholder-image"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card--placeholder)-->
+
+
+<div class="c-card--placeholder" id="placeholder">
+  <div class="c-card--placeholder__placeholder-image"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+       
+        <!--bookshop-live name(simple/card--placeholder)-->
+
+
+<div class="c-card--placeholder" id="placeholder">
+  <div class="c-card--placeholder__placeholder-image"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-text"></div>
+  <div class="c-card--placeholder__placeholder-link"></div>
+</div>
+
+<!--bookshop-live end--> 
+      
+    </div>
+  </div>
+</div>
+
+<script defer>
+  
+  const checkContentCards = () => {
+    if (contentCards && contentCards.length > 0) {
+      
+      const recommendedReadsCards = contentCards.filter(card => 
+        card.extras && card.extras.tags && card.extras.tags.includes("recommended-reads")
+      );
+      processContentCards(recommendedReadsCards);
+    } else {
+      
+      setTimeout(checkContentCards, 1000); 
+    }
+  };
+
+  
+  const processContentCards = (contentCards) => {
+    const limit = 4; 
+    const promises = []; 
+    const cards = []; 
+    let counter = 0; 
+
+    
+    const ctaCards = contentCards.filter(card => card.extras && card.extras.type === 'cta');
+    let ctaCard = null;
+    if (ctaCards.length > 0) {
+      ctaCard = ctaCards.reduce((lowest, card) => 
+        !lowest || parseInt(card.extras.weight) < parseInt(lowest.extras.weight) ? card : lowest, null);
+    }
+
+    
+    if (ctaCard) {
+      counter++;
+      const newCard = createCardElement(ctaCard);
+      cards.push(newCard);
+
+      
+      if (ctaCard.imageUrl) {
+        const promise = loadImage(ctaCard.imageUrl)
+          .then(thumbImg => {
+            thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
+            newCard.prepend(thumbImg);
+          })
+          .catch(error => console.error('Error loading image:', error));
+        promises.push(promise);
+      }
+    }
+
+    
+    contentCards.forEach(card => {
+      if (counter < limit && (!card.extras || card.extras.type !== 'cta' || card.id !== ctaCard.id)) {
+        counter++;
+        const newCard = createCardElement(card);
+        cards.push(newCard);
+
+        
+        if (card.imageUrl) {
+          const promise = loadImage(card.imageUrl)
+            .then(thumbImg => {
+              thumbImg.className = 'c-card-layout--recommended__recommended-cards__card__img';
+              newCard.prepend(thumbImg);
+            })
+            .catch(error => console.error('Error loading image:', error));
+          promises.push(promise);
+        }
+      }
+    });
+
+    
+    Promise.all(promises)
+      .then(() => {
+        
+        const placeholderCardsDiv = document.getElementById('placeholder-cards');
+        placeholderCardsDiv.innerHTML = ''; 
+        cards.forEach(card => {
+          placeholderCardsDiv.appendChild(card);
+        });
+
+        
+        cards.forEach(card => {
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              
+              if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+                
+                braze.logContentCardImpressions([card]);
+                entry.target.dataset.impressionLogged = true; 
+                observer.disconnect(); 
+              }
+            });
+          }, { threshold: 0.5 }); 
+          observer.observe(card);
+        });
+      })
+      .catch(error => console.error('Error loading placeholder cards:', error));
+  };
+
+  
+  const createCardElement = (card) => {
+    const newCard = document.createElement('a');
+    newCard.className = 'c-card-layout--recommended__recommended-cards__card';
+    newCard.href = card.url || '#'; 
+    newCard.dataset.cardId = card.id; 
+    newCard.dataset.impressionLogged = false; 
+
+    
+    const cardTitle = document.createElement('p');
+    cardTitle.className = 'c-card-layout--recommended__recommended-cards__card__title';
+    cardTitle.textContent = card.title || '';
+    newCard.appendChild(cardTitle);
+
+    const cardLink = document.createElement('a'); 
+    cardLink.className = 'c-card-layout--recommended__recommended-cards__card__link';
+    cardLink.textContent = card.linkText || ''; 
+    cardLink.href = (card.url || '#');
+    newCard.appendChild(cardLink);
+
+    
+    newCard.addEventListener('click', () => handleCardClick(card)); 
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.dataset.impressionLogged) {
+          
+          braze.logContentCardImpressions([card]);
+          entry.target.dataset.impressionLogged = true; 
+          observer.disconnect(); 
+        }
+      });
+    }, { threshold: 0.5 }); 
+    observer.observe(cardLink);
+
+    return newCard;
+  };
+
+  
+  const handleCardClick = (card) => {
+    event.preventDefault(); 
+
+    
+    if (braze.logContentCardClick(card)) {
+      
+      setTimeout(() => {
+        window.location.href = card.url; 
+      }, 5000); 
+    } else {
+      console.error("Error logging content card click.");
+      
+    }
+  };
+
+  
+  checkContentCards();
+
+  
+  const loadImage = src =>
+    new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
+</script>
+<!--bookshop-live end-->
+		</div>
+	
+  		<div class="component
+  					
+  						component--white
+  					
+					
+					  ">
 			<!--bookshop-live name(sections/left-right-block)-->
 
 
@@ -4949,7 +5296,7 @@ X-Robots-Tag: all
 
 
 
-  <h2 class="c-heading c-heading--h2 c-heading--">Printing should be waste-free, easy, and secure...
+  <h2 class="c-heading c-heading--h2 c-heading--" id="printing-should-be-waste-free-easy-and-secure...">Printing should be waste-free, easy, and secure...
     <span class></span></h2>
   
 <!--bookshop-live end-->
@@ -4968,7 +5315,7 @@ X-Robots-Tag: all
 
 <div class="c-image " style="--image-background-color: ">
     
-    <img class="c-image__image" src="https://cdn.papercut.com/web/img/home/home-page_unicorn-sparkle_easy-printing@2x-v2.webp" alt="People relaxing as PaperCut makes printing easy for end-users">
+    <img class="c-image__image " src="https://cdn.papercut.com/web/img/home/home-page_unicorn-sparkle_easy-printing@2x-v2.webp" alt="People relaxing as PaperCut makes printing easy for end-users">
 </div>
 <!--bookshop-live end--> 
       </div>
@@ -5044,7 +5391,7 @@ X-Robots-Tag: all
 
 <div class="c-image " style="--image-background-color: ">
     
-    <img class="c-image__image" src="https://cdn.papercut.com/web/img/home/home--security%402x.webp" alt="A lock over a printer because PaperCut&#39;s software improves print security">
+    <img class="c-image__image " src="https://cdn.papercut.com/web/img/home/home--security%402x.webp" alt="A lock over a printer because PaperCut&#39;s software improves print security">
 </div>
 <!--bookshop-live end--> 
       </div>
@@ -5076,7 +5423,7 @@ X-Robots-Tag: all
 
 <div class="c-image " style="--image-background-color: ">
     
-    <img class="c-image__image" src="https://cdn.papercut.com/web/img/home/home_page_unicorn_sparkle_waste_reduction_2x_1.webp" alt="Make a printer green, by using PaperCut&#39;s software to reduce printing waste">
+    <img class="c-image__image " src="https://cdn.papercut.com/web/img/home/home_page_unicorn_sparkle_waste_reduction_2x_1.webp" alt="Make a printer green, by using PaperCut&#39;s software to reduce printing waste">
 </div>
 <!--bookshop-live end--> 
       </div>
@@ -5142,7 +5489,7 @@ Did you know that when we surveyed our customers, we found that implementing jus
 
 <div class="c-image " style="--image-background-color: ">
     
-    <img class="c-image__image" src="https://cdn1.papercut.com/web/resources/g2-report/g2-summer-report-2024.png" alt="G2 summer report illo">
+    <img class="c-image__image " src="https://cdn1.papercut.com/web/resources/g2-report/g2-summer-report-2024.png" alt="G2 summer report illo">
 </div>
 <!--bookshop-live end--> 
       </div>
@@ -5156,7 +5503,7 @@ Did you know that when we surveyed our customers, we found that implementing jus
 
 
 
-  <h2 class="c-heading c-heading--h2 c-heading--"><strong>PaperCut ranked #1 in Print Management</strong>
+  <h2 class="c-heading c-heading--h2 c-heading--" id="strongpapercut-ranked-#1-in-print-management/strong"><strong>PaperCut ranked #1 in Print Management</strong>
     <span class></span></h2>
   
 <!--bookshop-live end-->
@@ -5209,37 +5556,27 @@ Did you know that when we surveyed our customers, we found that implementing jus
   <div class="c-logos-strip--blur-cta__logos" x-bind:class="button ? 'c-logos-strip--blur-cta__logos--blur' : 'c-logos-strip--blur-cta__logos'">
     
     <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/melb-uni--logo.png" alt="See our testimonial from The University of Melbourne">
+      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/logos/external/wall-templeton-attorneys-logo.svg" alt="Wall Templeton logo">
       
     </div>
     
     <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/f1--logo.png" alt="Read about our story with Formula 1">
+      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/logos/external/formula-1-logo.svg" alt="Formula 1 logo">
       
     </div>
     
     <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/wall-templeton--logo.png" alt="Hear our journey with Wall Templeton Attorneys">
+      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/logos/external/melbourne-uni.svg" alt="University of Melbourne logo">
       
     </div>
     
     <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/bakers-delight--logo.png" alt="Read the testimonial from Bakers Delight">
+      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/logos/external/coveris-logo.svg" alt="Coveris logo">
       
     </div>
     
     <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/utah-uni--logo.png" alt="Take a look through The University of Utah&#39;s journey">
-      
-    </div>
-    
-    <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/tasmania--logo.png" alt="See our testimonial from Tasmania">
-      
-    </div>
-    
-    <div class="c-logos-strip--blur-cta__logos__logo">
-      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://cdn1.papercut.com/web/img/home/logos/coveris--logo.png" alt="Read our testimonial from Coveris">
+      <img class="c-logos-strip--blur-cta__logos__logo__image" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/logos/external/bakers-delight.svg" alt="Bakers delight logo">
       
     </div>
     
@@ -5266,7 +5603,7 @@ Did you know that when we surveyed our customers, we found that implementing jus
 
 <div class="c-image " style="--image-background-color: ">
     
-    <img class="c-image__image" src="https://cdn.papercut.com/web/img/home/home_page_unicorn_sparkle_better_environments_2x.webp" alt="illustration of two people using laptops, a building, a unicorn and a rainbow">
+    <img class="c-image__image " src="https://cdn.papercut.com/web/img/home/home_page_unicorn_sparkle_better_environments_2x.webp" alt="illustration of two people using laptops, a building, a unicorn and a rainbow">
 </div>
 <!--bookshop-live end-->  
   </div>
@@ -5280,7 +5617,7 @@ Did you know that when we surveyed our customers, we found that implementing jus
 
 
 
-  <h2 class="c-heading c-heading--h2 c-heading--">Crafting better environments
+  <h2 class="c-heading c-heading--h2 c-heading--" id="crafting-better-environments">Crafting better environments
     <span class></span></h2>
   
 <!--bookshop-live end--> 
@@ -5305,6 +5642,7 @@ Forest Positive
 
 <div class="c-logo-strip-carousel c-logo-strip-carousel--background-color-">
   <div class="c-logo-strip-carousel__logos">
+    
     <div class="c-logo-strip-carousel__logos__logos-slider">
       
         
@@ -5388,7 +5726,7 @@ Forest Positive
 
 
 
-  <h2 class="c-heading c-heading--h2 c-heading--">Any brand, any platform, all environments
+  <h2 class="c-heading c-heading--h2 c-heading--" id="any-brand-any-platform-all-environments">Any brand, any platform, all environments
     <span class></span></h2>
   
 <!--bookshop-live end--> 
@@ -5817,7 +6155,7 @@ Forest Positive
           
 
       </main>
-        <!--bookshop-live meta(version: "3.10.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.10.1" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/footer)-->
 
@@ -6433,6 +6771,12 @@ Forest Positive
         
         <li class="c-footer-link-group__link-list__item">
             
+                <a class="c-footer-link-group__link-list__item__link" href="/discover/the-complete-guide-to-windows-protected-print-wpp/" reseed-ignore>WPP printing</a>
+            
+        </li>
+        
+        <li class="c-footer-link-group__link-list__item">
+            
                 <a class="c-footer-link-group__link-list__item__link" href="/discover/cloud-and-print/" reseed-ignore>Cloud and print</a>
             
         </li>
@@ -6463,19 +6807,13 @@ Forest Positive
         
         <li class="c-footer-link-group__link-list__item">
             
-                <a class="c-footer-link-group__link-list__item__link" href="/discover/waste-control/" reseed-ignore>Waste control</a>
-            
-        </li>
-        
-        <li class="c-footer-link-group__link-list__item">
-            
                 <a class="c-footer-link-group__link-list__item__link" href="/discover/products-at-a-glance/" reseed-ignore>Products at a glance</a>
             
         </li>
         
         <li class="c-footer-link-group__link-list__item">
             
-                <a class="c-footer-link-group__link-list__item__link" href="/about/forest-positive/" reseed-ignore>Forest Positive</a>
+                <a class="c-footer-link-group__link-list__item__link" href="/about/forest-positive/" reseed-ignore>Forest positive</a>
             
         </li>
         
@@ -6494,6 +6832,8 @@ Forest Positive
         
     
 
+    
+        
     
 
     
@@ -6524,6 +6864,10 @@ Forest Positive
                 </li>
                 
             
+                
+                <li class="c-footer-link-group__link-list__item">
+                    <a class="c-footer-link-group__link-list__item__link " href="/discover/the-complete-guide-to-windows-protected-print-wpp/" reseed-ignore>WPP printing</a>
+                </li>
                 
             
                 

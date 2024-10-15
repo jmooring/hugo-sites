@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=2592000
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:15 GMT
-Etag: "sh12iz1jz1"
-Last-Modified: Mon, 22 Jul 2024 13:52:11 GMT
+Date: Tue, 15 Oct 2024 14:31:39 GMT
+Etag: "skmifd1l3p"
+Last-Modified: Mon, 30 Sep 2024 11:26:01 GMT
 Server: Caddy
 Vary: Accept-Encoding
-X-Etags-1: "sh12iz1jz1"
-X-Etags-2: "sh12iz1jz1"
+X-Etags-1: "skmifd1l3p"
+X-Etags-2: "skmifd1l3p"
 
 <!doctype html>
 <html lang="en">
@@ -150,6 +150,14 @@ X-Etags-2: "sh12iz1jz1"
               
             
               
+            
+              
+            
+              
+            
+              
+            
+              
                 <a class="dropdown-item" href="/commands/rclone_copy/"><i class="fa fa-book fa-fw"></i> rclone copy</a>
               
             
@@ -179,16 +187,6 @@ X-Etags-2: "sh12iz1jz1"
             
               
                 <a class="dropdown-item" href="/commands/rclone_deletefile/"><i class="fa fa-book fa-fw"></i> rclone deletefile</a>
-              
-            
-              
-                <a class="dropdown-item" href="/commands/rclone_genautocomplete/"><i class="fa fa-book fa-fw"></i> rclone genautocomplete</a>
-              
-            
-              
-            
-              
-            
               
             
               
@@ -381,7 +379,9 @@ X-Etags-2: "sh12iz1jz1"
           <a class="dropdown-item" href="/koofr/#digi-storage"><i class="fa fa-cloud fa-fw"></i> Digi Storage</a>
           <a class="dropdown-item" href="/dropbox/"><i class="fab fa-dropbox fa-fw"></i> Dropbox</a>
           <a class="dropdown-item" href="/filefabric/"><i class="fa fa-cloud fa-fw"></i> Enterprise File Fabric</a>
+          <a class="dropdown-item" href="/filescom/"><i class="fa fa-file-alt fa-fw"></i> Files.com</a>
           <a class="dropdown-item" href="/ftp/"><i class="fa fa-file fa-fw"></i> FTP</a>
+          <a class="dropdown-item" href="/gofile/"><i class="fa fa-folder fa-fw"></i> Gofile</a>
           <a class="dropdown-item" href="/googlecloudstorage/"><i class="fab fa-google fa-fw"></i> Google Cloud Storage</a>
           <a class="dropdown-item" href="/drive/"><i class="fab fa-google fa-fw"></i> Google Drive</a>
           <a class="dropdown-item" href="/googlephotos/"><i class="fas fa-images fa-fw"></i> Google Photos</a>
@@ -393,7 +393,7 @@ X-Etags-2: "sh12iz1jz1"
           <a class="dropdown-item" href="/internetarchive/"><i class="fa fa-archive fa-fw"></i> Internet Archive</a>
           <a class="dropdown-item" href="/jottacloud/"><i class="fa fa-cloud fa-fw"></i> Jottacloud</a>
           <a class="dropdown-item" href="/koofr/"><i class="fa fa-suitcase fa-fw"></i> Koofr</a>
-          <a class="dropdown-item" href="/linkbox/"><i class="fa fa-infinity"></i> Linkbox</a>
+          <a class="dropdown-item" href="/linkbox/"><i class="fa fa-infinity fa-fw"></i> Linkbox</a>
           <a class="dropdown-item" href="/mailru/"><i class="fa fa-at fa-fw"></i> Mail.ru Cloud</a>
           <a class="dropdown-item" href="/mega/"><i class="fa fa-archive fa-fw"></i> Mega</a>
           <a class="dropdown-item" href="/memory/"><i class="fas fa-memory fa-fw"></i> Memory</a>
@@ -406,17 +406,18 @@ X-Etags-2: "sh12iz1jz1"
           <a class="dropdown-item" href="/oracleobjectstorage/"><i class="fa fa-cloud fa-fw"></i> Oracle Object Storage</a>
           <a class="dropdown-item" href="/pcloud/"><i class="fa fa-cloud fa-fw"></i> pCloud</a>
           <a class="dropdown-item" href="/pikpak/"><i class="fa fa-cloud fa-fw"></i> PikPak</a>
+          <a class="dropdown-item" href="/pixeldrain/"><i class="fa fa-circle fa-fw"></i> Pixeldrain</a>
           <a class="dropdown-item" href="/premiumizeme/"><i class="fa fa-user fa-fw"></i> premiumize.me</a>
           <a class="dropdown-item" href="/putio/"><i class="fas fa-parking fa-fw"></i> put.io</a>
           <a class="dropdown-item" href="/protondrive/"><i class="fas fa-folder fa-fw"></i> Proton Drive</a>
-          <a class="dropdown-item" href="/quatrix/"><i class="fas fa-shield-alt"></i> Quatrix</a>
+          <a class="dropdown-item" href="/quatrix/"><i class="fas fa-shield-alt fa-fw"></i> Quatrix</a>
           <a class="dropdown-item" href="/seafile/"><i class="fa fa-server fa-fw"></i> Seafile</a>
           <a class="dropdown-item" href="/sftp/"><i class="fa fa-server fa-fw"></i> SFTP</a>
           <a class="dropdown-item" href="/sia/"><i class="fa fa-globe fa-fw"></i> Sia</a>
           <a class="dropdown-item" href="/smb/"><i class="fa fa-server fa-fw"></i> SMB / CIFS</a>
           <a class="dropdown-item" href="/storj/"><i class="fas fa-dove fa-fw"></i> Storj</a>
           <a class="dropdown-item" href="/sugarsync/"><i class="fas fa-dove fa-fw"></i> SugarSync</a>
-          <a class="dropdown-item" href="/ulozto/"><i class="fas fa-angle-double-down"></i> Uloz.to</a>
+          <a class="dropdown-item" href="/ulozto/"><i class="fas fa-angle-double-down fa-fw"></i> Uloz.to</a>
           <a class="dropdown-item" href="/uptobox/"><i class="fa fa-archive fa-fw"></i> Uptobox</a>
           <a class="dropdown-item" href="/union/"><i class="fa fa-link fa-fw"></i> Union (merge backends)</a>
           <a class="dropdown-item" href="/webdav/"><i class="fa fa-server fa-fw"></i> WebDAV</a>
@@ -719,11 +720,31 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Files.com
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://www.files.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/filescom/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     FTP
   </span>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/ftp/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Gofile
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://gofile.io/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/gofile/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1104,6 +1125,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://mypikpak.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/pikpak/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Pixeldrain
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://pixeldrain.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/pixeldrain/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1540,7 +1571,7 @@ WebDAV or S3, that work out of the box.)</p>
               <p style="font-size: 90%;">
                 &copy; <a href="https://www.craig-wood.com/nick/" target="blank">Nick Craig-Wood</a> 2014-2024<br>
                 Source file <a href="https://github.com/rclone/rclone/blob/master/docs/content/_index.md" target="blank">_index.md</a>
-                last updated <a href="https://github.com/rclone/rclone/commit/4568feb5f9570a0dbfd7479a38857bb93a5f6bb8">2024-06-06</a><br>
+                last updated <a href="https://github.com/rclone/rclone/commit/ae9960a4ede7a18e3c91b25ead99212c717a6604">2024-07-23</a><br>
                 Uploaded with <a href="https://rclone.org">rclone</a>.
                 Built with <a href="https://gohugo.io/" target="blank">Hugo</a>.
                 Logo by <a href="https://twitter.com/andy23" target="blank">@andy23</a>.

@@ -1,12 +1,12 @@
 HTTP/2.0 200 OK
 Content-Type: text/html
-Date: Tue, 27 Aug 2024 13:31:19 GMT
-Etag: W/"66c97b92-6dd4"
-Last-Modified: Sat, 24 Aug 2024 06:20:02 GMT
+Date: Tue, 15 Oct 2024 14:31:43 GMT
+Etag: W/"66fa0622-7030"
+Last-Modified: Mon, 30 Sep 2024 02:00:02 GMT
 Server: nginx/1.22.1
 Strict-Transport-Security: max-age=15768000
-X-Etags-1: W/"66c97b92-6dd4"
-X-Etags-2: W/"66c97b92-6dd4"
+X-Etags-1: W/"66fa0622-7030"
+X-Etags-2: W/"66fa0622-7030"
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -84,7 +84,7 @@ X-Etags-2: W/"66c97b92-6dd4"
 <p><em>DB Browser for SQLite</em> (DB4S) is a high quality, visual,
 <a href="https://github.com/sqlitebrowser/sqlitebrowser">open source</a> tool
 designed for people who want to create, search, and edit
-<a href="https://www.sqlite.org/">SQLite</a> database files.
+<a href="https://www.sqlite.org/">SQLite</a> or <a href="https://www.zetetic.net/sqlcipher/">SQLCipher</a> database files.
 DB4S gives a familiar spreadsheet-like interface on the database
 in addition to providing a full SQL query facility.
 It works with <a href="./dl#windows">Windows</a>,
@@ -107,6 +107,7 @@ Controls and wizards are available to:</p>
 <li>Issue SQL queries and inspect the results</li>
 <li>Examine a log of all SQL commands issued by the application</li>
 <li>Plot simple graphs based on table or query data</li>
+<li>Add, change, remove SQLCipher encryption from database files</li>
 </ul>
 <h2 id="current-status">Current Status</h2>
 <p>The current official, released version of DB4S is 3.13.0. Download from:
@@ -128,6 +129,20 @@ Controls and wizards are available to:</p>
     
     
     <h2 class="archive-title">2024</h2>
+    
+    <article class="archive-item">
+      <a href="/blog/version-3-13-1-rc2-released/" class="archive-item-link">Version 3.13.1-rc2 released</a>
+      <span class="archive-item-date">
+        2024-09-30
+      </span>
+    </article>
+    
+    <article class="archive-item">
+      <a href="/blog/version-3-13-1-rc1-released/" class="archive-item-link">Version 3.13.1-rc1 released</a>
+      <span class="archive-item-date">
+        2024-09-12
+      </span>
+    </article>
     
     <article class="archive-item">
       <a href="/blog/version-3-13-0-released/" class="archive-item-link">Version 3.13.0 released</a>

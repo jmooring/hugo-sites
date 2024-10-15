@@ -3,17 +3,18 @@ Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6beb389b7657-SEA
+Cf-Ray: 8d3083d73a1ec3ac-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:22 GMT
+Date: Tue, 15 Oct 2024 14:31:49 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vwpCcPMZXIXKytoPv4sHuByywrSB%2BczHor2qU7yw8zzV%2Buge89YhUH2B78n7YFIHwwa05QHHvcfMMcQmpiK%2BKWYnSft7cpr89uUA91lSrh%2BlSj9fgCh2H1IoxsFmgYnDnu89Uw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=x3%2BEkbltcK7rIRB9wXfUNLKE1vO4HS0AZPJQZ%2BngtQWfiaMZN0YKkrdHRjC69L7oK2B0pgUDQdyQ7%2BK9YH1OKKGwQ2l5Jyrt9zf2E3auLORrUq6DlD9WxYpuKPRA94z%2BJuBRTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: ab3fe999e3709aded3efc43989c2dd6f
-X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
+X-Etags-1: 37791e88c0e5af82c7cc356b7a285ed5
+X-Etags-2: 37791e88c0e5af82c7cc356b7a285ed5
 
 <!DOCTYPE html>
 <html lang='de-de'>
@@ -69,10 +70,10 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
     
 
     <link rel="alternate" type="application/rss+xml" href="https://www.marcogriep.de//feed.xml" title="Marco Griep - IT-Berater &amp; Softwareentwickler">
-    <script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
+    <script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="665e81ca-54f4-4c8d-83d3-dd5d925e6f83" data-blockingmode="auto" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="665e81ca-54f4-4c8d-83d3-dd5d925e6f83" data-blockingmode="auto" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
 </head>
 
 
@@ -239,8 +240,11 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
         <p class="font-light text-gray-500 md:text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Ich übernehme die Verantwortung für den gesamten Entwicklungsprozess - von der Konzeption Ihrer individuellen Software bis hin zur erfolgreichen Implementierung und dem zuverlässigen Betrieb in der Cloud.</p>
        
         </div class="hidden mt-0 lg:col-span-5 lg:flex">
-        
-        <iframe class="mx-auto w-full max-w-2xl h-64 rounded-lg sm:h-96" src="https://www.youtube.com/embed/WMVlBNpUaNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video class="mx-auto w-full max-w-xl h-96 rounded-lg sm:h-96" poster="images/videoframe_5351.png" src="https://s3.eu-central-3.ionoscloud.com/marcogriepitservices-cdn/Website Landingpage Vorstellung.mp4" controls>
+            Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+            Alternativ können Sie sich das Video auf <a href="https://youtu.be/WMVlBNpUaNk">Youtube</a> anschauen.
+          </video>
+        </div>
 
         <div class="mt-8 flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a href="#features" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -444,7 +448,7 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
                 <button id="zammad-feedback-btn" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700">Kontakt
                     aufnehmen</button>
             </div>
-            <script type="0aa895ad79e2502c4c00a24d-text/javascript">
+            <script type="4ad3a8e614fe41938e375cbd-text/javascript">
                 $(function() {
                   $('#zammad-feedback-btn').ZammadForm({
                     agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
@@ -637,7 +641,7 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
 
 
 
-<script id="zammad_form_script" src="https://support.marcogriep.de/assets/form/form.js" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
+<script id="zammad_form_script" src="https://support.marcogriep.de/assets/form/form.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
 
 
 <section class="bg-white dark:bg-gray-900 grid" id="kontakt">
@@ -659,7 +663,7 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
 </section>
 
 
-<script type="0aa895ad79e2502c4c00a24d-text/javascript">
+<script type="4ad3a8e614fe41938e375cbd-text/javascript">
     $(function() {
       $('#zammad-feedback-form').ZammadForm({
         agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
@@ -672,8 +676,8 @@ X-Etags-2: ab3fe999e3709aded3efc43989c2dd6f
 
 
 
-<script src="https://support.marcogriep.de/assets/chat/chat.min.js" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
-<script type="0aa895ad79e2502c4c00a24d-text/javascript">
+<script src="https://support.marcogriep.de/assets/chat/chat.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+<script type="4ad3a8e614fe41938e375cbd-text/javascript">
 $(function() {
   new ZammadChat({
     background: '#1a73e8',
@@ -683,7 +687,7 @@ $(function() {
 });
 </script>
 
-<script type="0aa895ad79e2502c4c00a24d-text/javascript">
+<script type="4ad3a8e614fe41938e375cbd-text/javascript">
     window.onload = function () {
         const tabElements = [
             {
@@ -720,7 +724,7 @@ $(function() {
 
 
 
-<script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
+<script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
 
 
 
@@ -757,7 +761,7 @@ $(function() {
 
           
           <li class="mb-4">
-            <a href="/cdn-cgi/l/email-protection#caa7aba3a68aa7abb8a9a5adb8a3afbae4aeaf" class="hover:underline">E-Mail Support</a>
+            <a href="/cdn-cgi/l/email-protection#1d707c74715d707c6f7e727a6f74786d337978" class="hover:underline">E-Mail Support</a>
           </li>
         </ul>
       </div>
@@ -908,9 +912,9 @@ $(function() {
     float: left;
   }
 </style>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="0aa895ad79e2502c4c00a24d-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8b9c6beb389b7657',t:'MTcyNDc2NTQ4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4ad3a8e614fe41938e375cbd-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d3083d73a1ec3ac',t:'MTcyOTAwMjcwOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="0aa895ad79e2502c4c00a24d-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
 
 
 </html>

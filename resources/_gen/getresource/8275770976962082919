@@ -3,20 +3,21 @@ Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6bdddfb576a0-SEA
+Cf-Ray: 8d3083c0d880c511-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:20 GMT
+Date: Tue, 15 Oct 2024 14:31:46 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=NMoEQ5uU3rGWiVjh30dTM0mCTS%2Fz4uH0Es90JyDQ3Dnl6nh2cr6dVZGxWX8d1ebK2yjnuhMUdKlxbngykEoAaZbyVvfjOPpaiJtYkx%2FqWs3m7VpiRlk7P%2BsP2fFlr2Pk0IcmqvFXWth%2B"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MsD%2BixoWfq9uT%2BAzUHI1noNlwSW03eXfsqd%2BILHogq1w6bn4T5vIz8FhZFkEKN01YTVqBZbHGvCL%2FuOzGjXlczh93sqhmlI6faqCph9cxko2%2BO1gnx8afb2OYOT3yyMVfqBOMD%2BVByJV"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: b03140e697d32e0a7b39a901385cfac1
-X-Etags-2: b03140e697d32e0a7b39a901385cfac1
+X-Etags-1: 64ce394600fc4c67d4aac431bde7388a
+X-Etags-2: 64ce394600fc4c67d4aac431bde7388a
 
 <!DOCTYPE html>
-<html lang='de-de'>
+<html lang='de'>
 
 <head>
     <meta charset="utf-8" />
@@ -59,10 +60,13 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
     <meta name="description" content="Unsere Community bietet dir eine Plattform, um deine Freizeitaktivitäten im Outdoor-Bereich zu teilen, zu planen und zu optimieren. Auf unserer Plattform kannst du dich mit Gleichgesinnten über deine liebsten Outdoor-Aktivitäten austauschen. Unsere Apps helfen dir dabei, deine Abenteuer zu planen und deine Ausrüstung zu optimieren." />
     
     <meta name="author" content="Marco Griep" />
-    <meta name="generator" content="Hugo 0.105.0"><link rel="stylesheet" href="https://www.german-outdoors.de/css/styles.min.css">
+    <meta name="generator" content="Hugo 0.133.0"><link rel="stylesheet" href="https://www.german-outdoors.de/css/styles.min.css">
     <link rel="alternate" type="application/rss+xml" href="https://www.german-outdoors.de//feed.xml" title="German-Outdoors">
 
     <script async src="https://cse.google.com/cse.js?cx=a427ac69e9cfed26b"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
 
     <script defer src="https://analytics.marcogriep.de/script.js" data-website-id="63848fab-83d7-4827-8b14-ddd6543d1232"></script>
     
@@ -78,7 +82,7 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">German Outdoors</span>
             </a>
             <div class="flex items-center">
-                <a href="/cdn-cgi/l/email-protection#bed3dfd7d2fed9dbccd3dfd093d1cbcadad1d1cccd90dadb" class="hidden mr-6 text-sm font-medium text-gray-900 dark:text-white hover:underline sm:inline"><span class="__cf_email__" data-cfemail="fb969a9297bb9c9e89969a95d6948e8f9f94948988d59f9e">[email&#160;protected]</span></a>
+                <a href="/cdn-cgi/l/email-protection#ea878b8386aa8d8f98878b84c7859f9e8e85859899c48e8f" class="hidden mr-6 text-sm font-medium text-gray-900 dark:text-white hover:underline sm:inline"><span class="__cf_email__" data-cfemail="a5c8c4ccc9e5c2c0d7c8c4cb88cad0d1c1cacad7d68bc1c0">[email&#160;protected]</span></a>
                 <a href="https://community.german-outdoors.de/user/auth/external?authclient=Keycloak" class="hidden text-sm font-medium text-primary-600 dark:text-primary-500 hover:underline sm:inline">Community Login</a>
             </div>
         </div>
@@ -91,7 +95,7 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
                         <a href="/" class="text-white hover:underline" aria-current="page">Über uns</a>
                     </li>
                     <li>
-                        <a href="/apps" class="text-white hover:underline">Apps</a>
+                        <a href="/apps/" class="text-white hover:underline">Apps</a>
                     </li>
                     <li>
                         <a href="https://community.german-outdoors.de" class="text-white hover:underline">Community</a>
@@ -99,10 +103,10 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
                     
                     
                     <li class="hidden md:inline">
-                        <a href="/blog" class="text-white hover:underline">Magazin</a>
+                        <a href="/blog/" class="text-white hover:underline">Magazin</a>
                     </li>
                     <li class="hidden md:inline">
-                        <a href="/experten" class="text-white hover:underline">Experten & Kurse</a>
+                        <a href="/experten/" class="text-white hover:underline">Experten & Kurse</a>
                     </li>
                     <li class="hidden md:inline">
                         <a href="/shop/merchandise" class="text-white hover:underline">Merchandise</a>
@@ -118,10 +122,10 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
                     <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                         
                         <li>
-                            <a href="/blog" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Magazin</a>
+                            <a href="/blog/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Magazin</a>
                         </li>
                         <li>
-                            <a href="/experten" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Experten & Kurse</a>
+                            <a href="/experten/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Experten & Kurse</a>
                         </li>
                         <li>
                             <a href="https://german-outdoors.myspreadshop.de/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Merchandise</a>
@@ -702,6 +706,24 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
     <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
          
       <article class="max-w-xs">
+        <a href="https://www.german-outdoors.de/blog/neues-waffengesetz-fur-messer-macht-bushcrafting-fast-unmoglich/">
+          <img
+            src="/images/_8b432cf5-3102-43f9-8def-7f61a1c21498.jpeg.jpg"
+            class="mb-5 rounded-lg"
+            alt="Neues Waffengesetz für Messer macht Bushcrafting fast unmöglich"
+          />
+        </a>
+        <h2
+          class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white"
+        >
+          <a href="https://www.german-outdoors.de/blog/neues-waffengesetz-fur-messer-macht-bushcrafting-fast-unmoglich/">Neues Waffengesetz für Messer macht Bushcrafting fast unmöglich</a>
+        </h2>
+        <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
+          Diskussion über die Verschärfung des Waffenrechts für Messer: Auswirkungen auf Outdoor-Aktivitäten wie Wandern, Bushcrafting und Camping. Kritische Betrachtung der neuen Regelungen und deren Einfluss auf alltägliche Nutzer und Outdoor-Enthusiasten.
+        </p>
+      </article>
+      
+      <article class="max-w-xs">
         <a href="https://www.german-outdoors.de/blog/die-predigtstuhlbahn-pure-nostalgie/">
           <img
             src="/images/20180621091139.JPG.jpg"
@@ -752,24 +774,6 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
         </h2>
         <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
           Beim Bushcraft geht auf das üben von Wildnistechniken und dem Naturerlebnis selbst. Einfach mal raus in die Natur, &#34;back to the Basics&#34; wie man sagt. 
-        </p>
-      </article>
-      
-      <article class="max-w-xs">
-        <a href="https://www.german-outdoors.de/blog/tipps-zur-anwendung-der-leave-no-trace-prinzipien-im-outdoor-abenteuer/">
-          <img
-            src="/images/photo-1625244514957-a8cdb2b7df0a.jpg"
-            class="mb-5 rounded-lg"
-            alt="Tipps zur Anwendung der  Leave No Trace Prinzipien im Outdoor-Abenteuer"
-          />
-        </a>
-        <h2
-          class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white"
-        >
-          <a href="https://www.german-outdoors.de/blog/tipps-zur-anwendung-der-leave-no-trace-prinzipien-im-outdoor-abenteuer/">Tipps zur Anwendung der  Leave No Trace Prinzipien im Outdoor-Abenteuer</a>
-        </h2>
-        <p class="mb-4 font-light text-gray-500 dark:text-gray-400">
-          Die Leave No Trace Prinzipien sind dabei wie ein Kompass, der uns dabei hilft, unsere Fußabdrücke in der Natur so minimal wie möglich zu halten. In diesem Blogbeitrag werden wir uns eingehend mit Tipps zur Anwendung der Leave No Trace Prinzipien im Outdoor-Abenteuer befassen.
         </p>
       </article>
        
@@ -897,7 +901,7 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
             >
           </li>
           <li class="mb-4">
-            <a href="/cdn-cgi/l/email-protection#acc1cdc5c0eccbc9dec1cdc281c3d9d8c8c3c3dedf82c8c9" class="hover:underline">Support E-Mail</a
+            <a href="/cdn-cgi/l/email-protection#afc2cec6c3efc8caddc2cec182c0dadbcbc0c0dddc81cbca" class="hover:underline">Support E-Mail</a
             >
           </li>
         </ul>
@@ -956,7 +960,7 @@ X-Etags-2: b03140e697d32e0a7b39a901385cfac1
   </div>
 </footer>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8b9c6bdddfb576a0',t:'MTcyNDc2NTQ4MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d3083c0d880c511',t:'MTcyOTAwMjcwNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js"></script>
 

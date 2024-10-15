@@ -1,30 +1,31 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 182
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6bc89fea7646-SEA
+Cf-Ray: 8d3083a61f7676d9-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:17 GMT
-Expires: Tue, 27 Aug 2024 13:41:17 GMT
-Last-Modified: Tue, 27 Aug 2024 07:43:40 GMT
+Date: Tue, 15 Oct 2024 14:31:41 GMT
+Expires: Tue, 15 Oct 2024 06:42:43 GMT
+Last-Modified: Mon, 14 Oct 2024 12:10:01 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VVMP4qlUPTqorLhZIEJqLu%2Btz%2Fge2Txi2LQMw2nsMdiaoaB%2FKaglIzFPooZt2InTfKqoY9OrysJW34FvIKmgrPhjgfvZPWYm%2BmPSIHE%2FQ3sr0F%2BVFpBFAckcKH4%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=0DO%2FpD1brA3gkMNauJ3RUMzGokzXtQykN0HSmadHuHFRaTvfDWIDaZ3FX4hRunGCWsUWjMD35OvZCPt%2FfYqLLZC6ERbj8mS2pOSbzQIPerQOVpdCj9ZSl4DUuC4%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
+X-Cache: HIT
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Etags-1: 75a7c70e940a93b01539111ad24ad7d3
-X-Etags-2: 75a7c70e940a93b01539111ad24ad7d3
-X-Fastly-Request-Id: d4507f52c3ea525a8145679a914a7d1fde782859
-X-Github-Request-Id: D1EA:35BB6A:7A756:7F0C5:66CDD525
+X-Etags-1: 18cf9007ec2a2dfcc18093f94668454b
+X-Etags-2: 18cf9007ec2a2dfcc18093f94668454b
+X-Fastly-Request-Id: 08308d5476cb2a5ee3363cd18d0c4b7ba9e442ad
+X-Github-Request-Id: D76B:3FD8E:ED3161:F32241:670E0C8B
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770030-PAO
-X-Timer: S1724765477.287158,VS0,VE88
+X-Served-By: cache-pao-kpao1770051-PAO
+X-Timer: S1729002702.793782,VS0,VE1
 
 <!DOCTYPE html>
 <html lang="en">
@@ -232,36 +233,36 @@ X-Timer: S1724765477.287158,VS0,VE88
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2024-07-31</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/07/31/this-month-in-servo/">This month in Servo: console logging, parallel tables, OpenXR, and more!</a></strong></big></p>
-              <p>Servo’s unique parallel layout engine just got even better.</p>
+              <span class="tag is-light">2024-10-03</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/10/03/this-month-in-servo/">This month in Servo: Android nightlies, right-to-left, WebGPU, and more!</a></strong></big></p>
+              <p>Servo builds faster, runs faster, and gamepads are now enabled by default.</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2024-06-28</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/06/28/input-text-emoji-devtools/">This month in Servo: text fields, better emoji, devtools, and more!</a></strong></big></p>
-              <p>Plus font rendering performance, OpenHarmony and AddressSanitizer builds, and a new AI policy.</p>
+              <span class="tag is-light">2024-09-20</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/09/20/devtools/">Reviving the devtools support in Servo</a></strong></big></p>
+              <p>You can now inspect the DOM tree, view styles, evaluate JavaScript, and read console messages in Servo!</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2024-05-30</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/05/30/this-month-in-servo/">This month in Servo: new CSS units, color emoji, servoshell, and more!</a></strong></big></p>
-              <p>Big changes to the font system and servoshell, plus improvements to flexbox, tables, DOM support, and the embedding API.</p>
+              <span class="tag is-light">2024-09-11</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/09/11/building-browser/">Building a browser using Servo as a web engine!</a></strong></big></p>
+              <p>Let's build another web browser based on Servo!</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card" style="background: transparent;">
             <div class="card-content">
-              <span class="tag is-light">2024-04-26</span>
-              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/04/26/acid2-servo-book-qt/">This month in Servo: Acid2 redux, Servo book, Qt demo, and more!</a></strong></big></p>
-              <p>A new layout milestone, revamped docs, faster builds, plus embedding, video, fonts, WebGPU, and CSS improvements.</p>
+              <span class="tag is-light">2024-08-31</span>
+              <p style="margin-top: 0.25em;"><big><strong><a href="/blog/2024/08/31/this-month-in-servo/">This month in Servo: tabbed browsing, Windows buffs, devtools, and more!</a></strong></big></p>
+              <p>Flexbox and WebXR are now enabled by default.</p>
             </div>
           </div>
         </div>
@@ -286,7 +287,7 @@ X-Timer: S1724765477.287158,VS0,VE88
 <p>GitHub discussions: <a href="https://github.com/servo/servo/discussions">https://github.com/servo/servo/discussions</a></p>
 </li>
 <li>
-<p>Email: <a href="/cdn-cgi/l/email-protection#4b22252d240b382e393d246524392c"><span class="__cf_email__" data-cfemail="2d44434b426d5e485f5b4203425f4a">[email&#160;protected]</span></a></p>
+<p>Email: <a href="/cdn-cgi/l/email-protection#0b62656d644b786e797d642564796c"><span class="__cf_email__" data-cfemail="640d0a020b24170116120b4a0b1603">[email&#160;protected]</span></a></p>
 </li>
 <li>
 <p>Mastodon: <a href="https://floss.social/@servo">https://floss.social/@servo</a></p>
@@ -303,30 +304,44 @@ X-Timer: S1724765477.287158,VS0,VE88
 <div class="downloads">
   <p>
     <div class="buttons has-addons">
-      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe" style="width: 15ch;">Windows EXE</a>
-      <span class="button is-static" id="date-windows-exe" style="width: 12ch;">?</span>
-      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe" style="width: 22ch;">Windows EXE</a>
+      <span class="button is-static" id="date-windows-exe" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/windows-msvc/servo-latest.exe.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip" style="width: 15ch;">Windows ZIP</a>
-      <span class="button is-static" id="date-windows-zip" style="width: 12ch;">?</span>
-      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip" style="width: 22ch;">Windows ZIP</a>
+      <span class="button is-static" id="date-windows-zip" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/windows-msvc/servo-latest.zip.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg" style="width: 15ch;">macOS (x64)</a>
-      <span class="button is-static" id="date-mac" style="width: 12ch;">?</span>
-      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/mac/servo-latest.dmg" style="width: 22ch;">macOS (x64)</a>
+      <span class="button is-static" id="date-mac" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/mac/servo-latest.dmg.sha256">sha256</a>
     </div>
   </p>
   <p>
     <div class="buttons has-addons">
-      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz" style="width: 15ch;">Linux (x64)</a>
-      <span class="button is-static" id="date-linux" style="width: 12ch;">?</span>
-      <a rel="nofollow" role="button" class="button" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz" style="width: 22ch;">Linux (x64)</a>
+      <span class="button is-static" id="date-linux" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/linux/servo-latest.tar.gz.sha256">sha256</a>
+    </div>
+  </p>
+  <p>
+    <div class="buttons has-addons">
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/android/servo-latest.apk" style="width: 22ch;">Android (aarch64)</a>
+      <span class="button is-static" id="date-android-aarch64-apk" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/android/servo-latest.apk.sha256">sha256</a>
+    </div>
+  </p>
+  <p>
+    <div class="buttons has-addons">
+      <a rel="nofollow" role="button" class="button is-primary" href="https://download.servo.org/nightly/ohos/servo-latest.hap" style="width: 22ch;">OpenHarmony (aarch64)</a>
+      <span class="button is-static" id="date-ohos-aarch64-hap" style="width: 10ch;">?</span>
+      <a rel="nofollow" role="button" class="button" style="width: 7ch;" href="https://download.servo.org/nightly/ohos/servo-latest.hap.sha256">sha256</a>
     </div>
   </p>
 </div>
@@ -347,7 +362,7 @@ X-Timer: S1724765477.287158,VS0,VE88
     <footer class="footer">
   <div class="container" style="text-align: center;">
     <a href="/coc/">Code of Conduct</a> |
-    Contact: <a href="/cdn-cgi/l/email-protection#3851565e57784b5d4a4e5716574a5f"><span class="__cf_email__" data-cfemail="4b22252d240b382e393d246524392c">[email&#160;protected]</span></a>,
+    Contact: <a href="/cdn-cgi/l/email-protection#c8a1a6aea788bbadbabea7e6a7baaf"><span class="__cf_email__" data-cfemail="345d5a525b74475146425b1a5b4653">[email&#160;protected]</span></a>,
     <a href="https://servo.zulipchat.com/">Zulip Chat</a>,
     <a href="https://github.com/servo/servo/discussions">GitHub Discussions</a>,
     <a href="https://floss.social/@servo">Mastodon</a>,
@@ -387,6 +402,10 @@ X-Timer: S1724765477.287158,VS0,VE88
               "mac",
             
               "linux",
+            
+              "android-aarch64-apk",
+            
+              "ohos-aarch64-hap",
             
           ];
 

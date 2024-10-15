@@ -1,30 +1,31 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 321
+Age: 0
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6badfbed7208-SEA
+Cf-Ray: 8d3083764bdf7575-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 27 Aug 2024 13:31:13 GMT
-Expires: Tue, 27 Aug 2024 11:45:26 GMT
-Last-Modified: Mon, 26 Aug 2024 15:11:49 GMT
+Date: Tue, 15 Oct 2024 14:31:34 GMT
+Expires: Tue, 15 Oct 2024 14:41:34 GMT
+Last-Modified: Wed, 09 Oct 2024 15:23:53 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=P6f3Jkne4Coi9m2oap9EAPpHONi9CUYbyR65S1%2FmMevy77mOEOiQ0f%2FdYj%2FOLPBgf0tmPSjMTJFif0xfem6d%2BrKrw%2Fw5dUpghjAXfuDhoqDCKvAH%2BsLiCPWdejR5GW5G"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=C3YOYx%2FO2A4rM1ydqkDTEUYco9bwig9YmCwE1WgNB8SemsqF%2B0NX7hPC1cjmwsx%2FmXFu%2BMlKYGNkU8zPLdOjHJZ1aVjY3DLr6Pe1PTVTc9PNzCzK%2Fj5LqborncETqKwm"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
 Strict-Transport-Security: max-age=15552000; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
+X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Etags-1: d8954916fa3b27c16feffc915c31646a
-X-Etags-2: d8954916fa3b27c16feffc915c31646a
-X-Fastly-Request-Id: d99cd16c8f70294f947d806bad68339e67d63f30
-X-Github-Request-Id: 8081:2DF11E:9680C1:9A7FCF:66CDB9FD
+X-Etags-1: 328e8f540b36181c6d4955e1303ed8b8
+X-Etags-2: 328e8f540b36181c6d4955e1303ed8b8
+X-Fastly-Request-Id: 3d06bf702046d7d5f3292cb3f8acfe2d3c78e3fc
+X-Github-Request-Id: E724:3FD8E:128EF45:1309980:670E7CC5
 X-Proxy-Cache: MISS
-X-Served-By: cache-pao-kpao1770076-PAO
-X-Timer: S1724765473.024696,VS0,VE1
+X-Served-By: cache-pao-kpao1770055-PAO
+X-Timer: S1729002694.187610,VS0,VE98
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
@@ -40,20 +41,20 @@ X-Timer: S1724765473.024696,VS0,VE1
     <title> :: Submariner k8s project documentation website</title>
 
     
-    <link href="/css/nucleus.css?1724685043" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1724685043" rel="stylesheet">
-    <link href="/css/hybrid.css?1724685043" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1724685043" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1724685043" rel="stylesheet">
-    <link href="/css/auto-complete.css?1724685043" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1724685043" rel="stylesheet">
-    <link href="/css/theme.css?1724685043" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1724685043" rel="stylesheet">
+    <link href="/css/nucleus.css?1728487374" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1728487374" rel="stylesheet">
+    <link href="/css/hybrid.css?1728487374" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1728487374" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1728487374" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728487374" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1728487374" rel="stylesheet">
+    <link href="/css/theme.css?1728487374" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1728487374" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1724685043" rel="stylesheet">
+      <link href="/css/theme-blue.css?1728487374" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1724685043"></script>
+    <script src="/js/jquery-3.3.1.min.js?1728487374"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -62,7 +63,7 @@ X-Timer: S1724765473.024696,VS0,VE1
       
     </style>
     
-<link href="/css/fixes.css?1724685043" rel="stylesheet">
+<link href="/css/fixes.css?1728487374" rel="stylesheet">
 
   </head>
   <body class="" data-url="/">
@@ -86,14 +87,14 @@ X-Timer: S1724765473.024696,VS0,VE1
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1724685043"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1724685043"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1728487374"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1728487374"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1724685043"></script>
+<script type="text/javascript" src="/js/search.js?1728487374"></script>
 
     
   </div>
@@ -3107,19 +3108,19 @@ information.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1724685043"></script>
-    <script src="/js/perfect-scrollbar.min.js?1724685043"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1724685043"></script>
-    <script src="/js/jquery.sticky.js?1724685043"></script>
-    <script src="/js/featherlight.min.js?1724685043"></script>
-    <script src="/js/highlight.pack.js?1724685043"></script>
+    <script src="/js/clipboard.min.js?1728487374"></script>
+    <script src="/js/perfect-scrollbar.min.js?1728487374"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1728487374"></script>
+    <script src="/js/jquery.sticky.js?1728487374"></script>
+    <script src="/js/featherlight.min.js?1728487374"></script>
+    <script src="/js/highlight.pack.js?1728487374"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1724685043"></script>
-    <script src="/js/learn.js?1724685043"></script>
-    <script src="/js/hugo-learn.js?1724685043"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1728487374"></script>
+    <script src="/js/learn.js?1728487374"></script>
+    <script src="/js/hugo-learn.js?1728487374"></script>
 
-    <link href="/mermaid/mermaid.css?1724685043" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1724685043"></script>
+    <link href="/mermaid/mermaid.css?1728487374" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1728487374"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

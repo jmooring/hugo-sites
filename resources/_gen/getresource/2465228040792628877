@@ -1,29 +1,30 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
 Access-Control-Expose-Headers: Content-Type
-Age: 1033
+Age: 3216
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=3600
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8b9c6b9a2a9ac731-SEA
+Cf-Ray: 8d30835a2976a3c8-SEA
 Content-Type: text/html
-Date: Tue, 27 Aug 2024 13:31:09 GMT
-Expires: Tue, 27 Aug 2024 14:13:56 GMT
-Last-Modified: Tue, 13 Aug 2024 21:03:41 GMT
-Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tFC7nR8UnmYYcoDWW%2BpGJ0wEN2779YDYEdsB34uNvuCcupLbEeUnWFRUO6iK9XJZkPD3vJwXmy%2BhBG96Rwbf7At0DgfaTPUoX95iSFRn8T%2FesPXkHAKSueIdPerA"}],"group":"cf-nel","max_age":604800}
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="gfe-default_product_name"
+Date: Tue, 15 Oct 2024 14:31:29 GMT
+Expires: Tue, 15 Oct 2024 14:37:53 GMT
+Last-Modified: Tue, 01 Oct 2024 16:32:03 GMT
+Report-To: {"group":"gfe-default_product_name","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/default_product_name"}]}
 Server: cloudflare
-X-Etags-1: 7b7aa19fe2f2b487ef59862ee8eab661
-X-Etags-2: 7b7aa19fe2f2b487ef59862ee8eab661
-X-Goog-Generation: 1723583021513902
-X-Goog-Hash: crc32c=zOkP9Q==
-X-Goog-Hash: md5=jDC3lQYRvaRJKxh9Bxdmaw==
-X-Goog-Meta-Goog-Reserved-File-Mtime: 1723582992
-X-Goog-Metageneration: 5
+Speculation-Rules: "/cdn-cgi/speculation"
+X-Etags-1: fc34276132f5209a9f35356e3aef1dca
+X-Etags-2: fc34276132f5209a9f35356e3aef1dca
+X-Goog-Generation: 1727800323510510
+X-Goog-Hash: crc32c=E7g12A==
+X-Goog-Hash: md5=nWZc/EvpnBT6Smo7cyCeIQ==
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1727800299
+X-Goog-Metageneration: 9
 X-Goog-Storage-Class: STANDARD
 X-Goog-Stored-Content-Encoding: identity
-X-Goog-Stored-Content-Length: 41897
-X-Guploader-Uploadid: AHxI1nPD2xwLMNdFHDvR_h8eQ5CJviuB9EicRgHD8ZfXSp5whWsuA_VC5EeZJkQJBzxE-Vgaj0E
+X-Goog-Stored-Content-Length: 42491
+X-Guploader-Uploadid: AHmUCY1EFMRbwvi8HRuNhkiqQhQO6BG49lY2OIiGyoxaq_gAcDem3OIwQv94qzPNRAcyp_Hxf3M
 
 <!DOCTYPE html>
 <html lang="en" class>
@@ -55,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="/css/prism-a11y-dark.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/command-line/prism-command-line.min.css" integrity="sha256-QViEGvwX/42OrD49huSb2mGZtUQwVKNA5Ux58tMWLOs=" crossorigin="anonymous" />
 <link rel="shortcut icon" href="/images/identity/favicon/linkerd-favicon.png" />
-<link rel="stylesheet" href="/css/style.607f5f17ea6423598655551772b23b6ec1b4f26c11075e5e6313e3f6b1b31fa8.css">
+<link rel="stylesheet" href="/css/style.15c527bc5aab43b24ce163bf28a35805194dce4439361bae5539823cfc4478a2.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
@@ -126,6 +127,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div class="navbar-end">
 <div class="navbar-item">
+<form id="searchForm" action="/search" method="get" style="display:none;">
+<div class="field">
+<p class="control has-icons-left">
+<input id="searchInput" class="input is-rounded" type="text" name="q" placeholder="Search">
+<span class="icon is-small is-left">
+<i class="fas fa-search"></i>
+</span>
+</p>
+</div>
+</form>
+<span id="searchToggle" class="icon is-small has-text-grey ml-2">
+<i class="fas fa-search"></i>
+</span>
+</div>
+<div id="githubStars" class="navbar-item">
 <div class="github-stars">
 <a class="github-button" href="https://github.com/linkerd/linkerd2" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star linkerd/linkerd2 on GitHub">Star</a>
 </div>
@@ -138,13 +154,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </div>
 </nav>
-<script src="https://linkerd.io/js/navbar.min.a86146bf57b1a9515e5b1032bbca5602ea2835904c027d478cc62bb96f59d675.js"></script>
+<script src="https://linkerd.io/js/navbar.min.80194e38c6fb7a3016b58bbab20e6f476413240a2b0bba6b13ebc6d3d6cf9d50.js"></script>
 <div class="linkedin__btn">
 <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
 <script data-proofer-ignore type="IN/FollowCompany" data-id="99659303"></script>
 </div>
 <div class="announcement-banner has-background-light-blue has-text-navy-black center has-text-centered">
-<p><a href="/2024/08/13/announcing-linkerd-2.16/">Aug 13, 2024: Announcing Linkerd 2.16 with Gateway API metrics, IPv6, policy auditing and more! Read more »</a></p>
+<p>Service Mesh 101: Get Service Mesh-Certified&nbsp;&nbsp;&nbsp;<a href="https://buoyant.io/courses/service-mesh-101" target="_blank">Enroll &nbsp;&raquo;</a></p>
 </div>
 <section class="hero">
 <main aria-role="main" class="hero-body">
