@@ -1,21 +1,21 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 531
+Age: 50
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"670e2aa5-3e89"
-Last-Modified: Tue, 15 Oct 2024 08:41:09 GMT
+Etag: W/"672a0467-3f4e"
+Last-Modified: Tue, 05 Nov 2024 11:41:27 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"670e2aa5-3e89"
-X-Etags-2: W/"670e2aa5-3e89"
+X-Etags-1: W/"672a0467-3f4e"
+X-Etags-2: W/"672a0467-3f4e"
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 4327579 3959327
+X-Varnish: 6565069 6443667
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -301,24 +301,24 @@ title="Mailing Lists">Mailing Lists</a></li>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-11-02</span><br>
+<a href="/news/newsflash/#2024-11-02:1">FreeBSD 14.2-BETA1
+Available</a></p>
+<p><span class="txtdate">2024-10-15</span><br>
+<a href="/news/newsflash/#2024-10-15:1">Enhanced commit privileges:
+Kevin Bowling (src)</a></p>
+<p><span class="txtdate">2024-10-07</span><br>
+<a href="/news/newsflash/#2024-10-07:1">Enhanced commit privileges:
+Mateusz Piotrowski (src)</a></p>
 <p><span class="txtdate">2024-09-17</span><br>
 <a href="/news/newsflash/#2024-09-17:1">FreeBSD 13.4-RELEASE
 Available</a></p>
 <p><span class="txtdate">2024-09-07</span><br>
 <a href="/news/newsflash/#2024-09-07:1">FreeBSD 13.4-RC3
 Available</a></p>
-<p><span class="txtdate">2024-08-31</span><br>
-<a href="/news/newsflash/#2024-08-31:1">FreeBSD 13.4-RC2
-Available</a></p>
-<p><span class="txtdate">2024-08-24</span><br>
-<a href="/news/newsflash/#2024-08-24:1">FreeBSD 13.4-RC1
-Available</a></p>
-<p><span class="txtdate">2024-08-22</span><br>
-<a href="/news/newsflash/#2024-08-22:1">New committer: Igor
-Ostapenko (src)</a></p>
-<p><span class="txtdate">2024-08-19</span><br>
-<a href="/news/newsflash/#2024-08-19:1">April-June 2024 Status
-Report</a></p>
+<p><span class="txtdate">2024-09-05</span><br>
+<a href="/news/newsflash/#2024-09-05:1">New committer: Jose Luis
+Duran (src)</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -343,6 +343,10 @@ width="27" height="12"></a></li>
 <a href="https://www.freebsd.org/events/#freebsd-summit-2024">Fall
 2024 FreeBSD Summit<br>
 (San Jose, CA, United States)</a></p>
+<p><span class="txtdate">2025-02-01 - 2025-02-02</span><br>
+<a href="https://www.freebsd.org/events/#fosdem-2025">FOSDEM
+2025<br>
+(Brussels, Belgium)</a></p>
 <p><span class="txtdate">2025-03-20 - 2025-03-23</span><br>
 <a href=
 "https://www.freebsd.org/events/#asiabsdcon-2025">AsiaBSDCon
@@ -411,22 +415,22 @@ title="More">More</a></li>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-10-29</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:19.fetch.asc">
+FreeBSD-SA-24:19.fetch</a></p>
+<p><span class="txtdate">2024-10-29</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:18.ctl.asc">
+FreeBSD-SA-24:18.ctl</a></p>
+<p><span class="txtdate">2024-10-29</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:17.bhyve.asc">
+FreeBSD-SA-24:17.bhyve</a></p>
 <p><span class="txtdate">2024-09-19</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-SA-24:16.libnv.asc">
 FreeBSD-SA-24:16.libnv</a></p>
-<p><span class="txtdate">2024-09-19</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:15.bhyve.asc">
-FreeBSD-SA-24:15.bhyve</a></p>
-<p><span class="txtdate">2024-09-04</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:14.umtx.asc">
-FreeBSD-SA-24:14.umtx</a></p>
-<p><span class="txtdate">2024-09-04</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:13.openssl.asc">
-FreeBSD-SA-24:13.openssl</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -443,14 +447,14 @@ FreeBSD-SA-24:13.openssl</a></p>
 <br>
 <h2>ERRATA NOTICES</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2024-10-29</span><br>
+<a href=
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:17.pam_xdg.asc">
+FreeBSD-EN-24:17.pam_xdg</a></p>
 <p><span class="txtdate">2024-09-19</span><br>
 <a href=
 "https://www.freebsd.org/security/advisories/FreeBSD-EN-24:16.pf.asc">
 FreeBSD-EN-24:16.pf</a></p>
-<p><span class="txtdate">2024-09-04</span><br>
-<a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:15.calendar.asc">
-FreeBSD-EN-24:15.calendar</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=

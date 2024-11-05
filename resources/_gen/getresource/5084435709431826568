@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 2764
+Age: 35
 Content-Type: text/html
-Date: Tue, 15 Oct 2024 14:31:33 GMT
-Etag: "5d1e-6241ed3e6c8c0-gzip"
-Last-Modified: Thu, 10 Oct 2024 12:51:23 GMT
+Date: Tue, 05 Nov 2024 16:21:00 GMT
+Etag: "5c3e-6261b5e0ac300-gzip"
+Last-Modified: Mon, 04 Nov 2024 19:34:04 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: HIT
-X-Cache-Hits: 0
+X-Cache-Hits: 1
 X-Content-Type-Options: nosniff
-X-Etags-1: "5d1e-6241ed3e6c8c0-gzip"
-X-Etags-2: "5d1e-6241ed3e6c8c0-gzip"
+X-Etags-1: "5c3e-6261b5e0ac300-gzip"
+X-Etags-2: "5c3e-6261b5e0ac300-gzip"
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300069-BFI
-X-Timer: S1729002694.759493,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400051-BFI
+X-Timer: S1730823661.898921,VS0,VE1
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -30,7 +30,7 @@ X-Timer: S1729002694.759493,VS0,VE1
   <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-09-04T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-10-22T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -394,6 +394,21 @@ X-Timer: S1729002694.759493,VS0,VE1
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
+            <a href="/blogs/cve-anniversary/">
+              <h4 class="text-white">CVE 25th Anniversary</h4>
+            </a>
+            <p class="text-white">On the long-term scale of human history, 25 years is nothing.</p>
+            <a href="/blogs/cve-anniversary/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
+            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
+          <div class="post-content">
             <a href="/blogs/2024-bind920/">
               <h4 class="text-white">BIND 9.20 Brings Streamlined Core, Some New Features</h4>
             </a>
@@ -430,22 +445,6 @@ X-Timer: S1729002694.759493,VS0,VE1
             <p class="text-white">Authors: Jason Goertzen, David Joseph, Peter Thomassen
 BIND &amp; liboqs: A PQC DNSSEC Field Study The DNS protocol is the internet’s phonebook.</p>
             <a href="/blogs/2024-pqc-study/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/tinygr.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/2024-spammer-impersonator/">
-              <h4 class="text-white">Someone on the Internet is committing fraud</h4>
-            </a>
-            <p class="text-white">Update posted June 27th, 2024
-This was not the fraud we thought it was We have learned that emails we originally identified as abuse were sent by an external contractor engaged by ISC to conduct a focussed and short-term lead generation campaign.</p>
-            <a href="/blogs/2024-spammer-impersonator/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

@@ -3,18 +3,18 @@ Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8d3083d73a1ec3ac-SEA
+Cf-Ray: 8dde2ce7dde1a330-SEA
 Content-Type: text/html; charset=utf-8
-Date: Tue, 15 Oct 2024 14:31:49 GMT
+Date: Tue, 05 Nov 2024 16:21:11 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=x3%2BEkbltcK7rIRB9wXfUNLKE1vO4HS0AZPJQZ%2BngtQWfiaMZN0YKkrdHRjC69L7oK2B0pgUDQdyQ7%2BK9YH1OKKGwQ2l5Jyrt9zf2E3auLORrUq6DlD9WxYpuKPRA94z%2BJuBRTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=cggMQQ9icaF%2B3n4qg9OayNaXRF4XG%2BKC0gKMJjTII318m2ljaI%2FTdSzlEhdeZoGN2JNRUaWBrcZbEHMdLzbH7Odq%2FTmIh4zk96jJySXPHWE5wlknVax8GxtWLYv6PKfExmAGCA%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Speculation-Rules: "/cdn-cgi/speculation"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=6151&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3198&recv_bytes=592&delivery_rate=860019&cwnd=183&unsent_bytes=0&cid=6a4edee2f9c9e688&ts=77&x=0"
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: 37791e88c0e5af82c7cc356b7a285ed5
-X-Etags-2: 37791e88c0e5af82c7cc356b7a285ed5
+X-Etags-1: e501973b0d815e6980eb4bbac249c9df
+X-Etags-2: e501973b0d815e6980eb4bbac249c9df
 
 <!DOCTYPE html>
 <html lang='de-de'>
@@ -70,10 +70,10 @@ X-Etags-2: 37791e88c0e5af82c7cc356b7a285ed5
     
 
     <link rel="alternate" type="application/rss+xml" href="https://www.marcogriep.de//feed.xml" title="Marco Griep - IT-Berater &amp; Softwareentwickler">
-    <script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+    <script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="665e81ca-54f4-4c8d-83d3-dd5d925e6f83" data-blockingmode="auto" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="665e81ca-54f4-4c8d-83d3-dd5d925e6f83" data-blockingmode="auto" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
 </head>
 
 
@@ -448,7 +448,7 @@ X-Etags-2: 37791e88c0e5af82c7cc356b7a285ed5
                 <button id="zammad-feedback-btn" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700">Kontakt
                     aufnehmen</button>
             </div>
-            <script type="4ad3a8e614fe41938e375cbd-text/javascript">
+            <script type="6bc46b6a1cd2cd2070845da9-text/javascript">
                 $(function() {
                   $('#zammad-feedback-btn').ZammadForm({
                     agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
@@ -640,44 +640,42 @@ X-Etags-2: 37791e88c0e5af82c7cc356b7a285ed5
 </section>
 
 
-
-<script id="zammad_form_script" src="https://support.marcogriep.de/assets/form/form.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
-
-
 <section class="bg-white dark:bg-gray-900 grid" id="kontakt">
-    <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
-          <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt</h2>
-          <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Kontaktieren Sie mich
-              jetzt, um ein unverbindliches Angebot zu erhalten.</p>
-          <div id="zammad-feedback-form">Fehler beim Laden des Formulars.</div>       
-    </div>
-    <div clas="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
-        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Verschlüsselte E-Mails</h2>
-        <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Sie möchten mir
-          lieber eine verschlüsselte E-Mail senden? Kein Problem! Nutzen Sie einfach meinen PGP-Schlüssel.</p>
-        </p>
-        <div class="flex justify-center">
-                    <a href="/mg-it-services-public.asc" class="px-4 py-2 text-white bg-primary-600 rounded-md hover:bg-primary-700 dark:text-gray-900 dark:bg-primary-300">PGP-Schlüssel anzeigen</a>
-        </div>
-    </div>
+  <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
+        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt</h2>
+        <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Kontaktieren Sie mich
+            jetzt, um ein unverbindliches Angebot zu erhalten.</p>
+            <form class="space-y-8"
+            action="https://formspree.io/f/mlezqqqv"
+            method="POST"
+          >
+          <div>
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Deine Mailadresse</label>
+            <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@domain.de" required>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Dein Anliegen</label>
+            <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="..."></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Nachricht senden</button>
+          </form>      
+  </div>
+  <div clas="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
+      <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Verschlüsselte E-Mails</h2>
+      <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Sie möchten mir
+        lieber eine verschlüsselte E-Mail senden? Kein Problem! Nutzen Sie einfach meinen PGP-Schlüssel.</p>
+      </p>
+      <div class="flex justify-center">
+                  <a href="/mg-it-services-public.asc" class="px-4 py-2 text-white bg-primary-600 rounded-md hover:bg-primary-700 dark:text-gray-900 dark:bg-primary-300">PGP-Schlüssel anzeigen</a>
+      </div>
+  </div>
 </section>
 
 
-<script type="4ad3a8e614fe41938e375cbd-text/javascript">
-    $(function() {
-      $('#zammad-feedback-form').ZammadForm({
-        agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
-        messageSubmit: 'Übermitteln',
-        messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Ich melde mich umgehend bei Ihnen.',
-
-      });
-    });
-    </script>
 
 
-
-<script src="https://support.marcogriep.de/assets/chat/chat.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
-<script type="4ad3a8e614fe41938e375cbd-text/javascript">
+<script src="https://support.marcogriep.de/assets/chat/chat.min.js" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
+<script type="6bc46b6a1cd2cd2070845da9-text/javascript">
 $(function() {
   new ZammadChat({
     background: '#1a73e8',
@@ -687,7 +685,7 @@ $(function() {
 });
 </script>
 
-<script type="4ad3a8e614fe41938e375cbd-text/javascript">
+<script type="6bc46b6a1cd2cd2070845da9-text/javascript">
     window.onload = function () {
         const tabElements = [
             {
@@ -724,7 +722,7 @@ $(function() {
 
 
 
-<script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+<script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
 
 
 
@@ -761,7 +759,7 @@ $(function() {
 
           
           <li class="mb-4">
-            <a href="/cdn-cgi/l/email-protection#1d707c74715d707c6f7e727a6f74786d337978" class="hover:underline">E-Mail Support</a>
+            <a href="/cdn-cgi/l/email-protection#5a373b33361a373b2839353d28333f2a743e3f" class="hover:underline">E-Mail Support</a>
           </li>
         </ul>
       </div>
@@ -912,9 +910,9 @@ $(function() {
     float: left;
   }
 </style>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4ad3a8e614fe41938e375cbd-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8d3083d73a1ec3ac',t:'MTcyOTAwMjcwOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6bc46b6a1cd2cd2070845da9-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8dde2ce7dde1a330',t:'MTczMDgyMzY3MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="4ad3a8e614fe41938e375cbd-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="6bc46b6a1cd2cd2070845da9-text/javascript"></script>
 
 
 </html>

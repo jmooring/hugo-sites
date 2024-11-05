@@ -1,15 +1,15 @@
 HTTP/2.0 200 OK
 Content-Security-Policy: default-src https://jadelsbach.de;form-action 'self';base-uri 'self';img-src 'self';script-src 'self' 'unsafe-inline';object-src 'none';style-src 'self' 'unsafe-inline'; frame-ancestors 'self'
 Content-Type: text/html
-Date: Tue, 15 Oct 2024 14:31:18 GMT
-Etag: W/"66f4484f-8158"
-Last-Modified: Wed, 25 Sep 2024 17:28:47 GMT
+Date: Tue, 05 Nov 2024 16:20:49 GMT
+Etag: W/"671e7e5d-83a1"
+Last-Modified: Sun, 27 Oct 2024 17:54:37 GMT
 Referrer-Policy: same-origin
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"66f4484f-8158"
-X-Etags-2: W/"66f4484f-8158"
+X-Etags-1: W/"671e7e5d-83a1"
+X-Etags-2: W/"671e7e5d-83a1"
 X-Frame-Options: SAMEORIGIN
 X-Xss-Protection: 1; mode=block
 
@@ -79,6 +79,122 @@ X-Xss-Protection: 1; mode=block
 </header>
 
     <section id="main" class="outer">
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/27-10-24-boschcharger/">Repairing a BOSCH 12A 6V/12V Battery Charger</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/27-10-24-boschcharger/" class="article-date">
+                        <time datetime='2024-10-27T18:44:08.000&#43;01:00' itemprop="datePublished">2024-10-27</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/27-10-24-boschcharger/"><img width=1000 height=100 alt="Banner" src="/post/27-10-24-boschcharger//banner.jpg"></a><br>
+                    This is one of my old battery chargers, the selenium rectifier went bad and started to internally short out.
+Replacing selenium rectifiers with silicon diodes is not recommended on non-short protected battery chargers, as the selenium rectifiers have an internal resistance that acts as a current limit on short circuits. In this case the secondary side is proteced and I&rsquo;ll try not to short it out.
+I replaced the selenium rectifier with a beefy bridge rectifier and also made a small heatsink out of sheet metal to get the temperature of it a little down into nominal operating range.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/27-10-24-boschcharger/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/bosch">bosch
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/charger">charger
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/repair">repair
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
+        
+        <article class="article article-type-post" itemscope itemprop="blogPost">
+            <div class="article-inner">
+                
+                
+                <header class="article-header">
+                    <h1 itemprop="name"><a class="article-title" href="/post/20-10-24-12v-repair/">Repairing 3x 12V Stabilized Power Supplies</a></h1>
+                </header>
+                
+                <div class="article-meta">
+                    <a href="/post/20-10-24-12v-repair/" class="article-date">
+                        <time datetime='2024-10-20T20:45:56.000&#43;02:00' itemprop="datePublished">2024-10-20</time>
+                    </a>
+                    
+                    
+                    
+                </div>
+                <div class="article-entry" itemprop="articleBody">
+                    <p>
+                        <a class="article-title" href="/post/20-10-24-12v-repair/"><img width=1000 height=100 alt="Banner" src="/post/20-10-24-12v-repair//banner.jpg"></a><br>
+                    Voltcraft 13.8V 2/3A Regulated Power Supply I recently got this from eBay. The previous owner added an optocoupler that interrupts the current to the control chip, such that the supply can be soft- turned off and on remotely.
+I removed this circuitry and restored the supply into its original order, furthermore I replaced the two capacitors since it looked like that unit had quite a runtime over the years.
+Furthermore the voltage adjustment potentiometer fall apart, so I replaced that one, too.
+                    </p>
+                    <p class="article-more-link">
+                        <a href="/post/20-10-24-12v-repair/">Read More</a>
+                    </p>
+                </div>
+
+                
+                <footer class="article-footer">
+                    <ul class="article-tag-list">
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/repair">repair
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/voltcraft">voltcraft
+                            </a>
+                        </li>
+                        
+                        <li class="article-tag-list-item">
+                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/power-supply">power supply
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </footer>
+                
+            </div>
+        </article>
         
         <article class="article article-type-post" itemscope itemprop="blogPost">
             <div class="article-inner">
@@ -531,119 +647,6 @@ It runs off mains voltage through a small integrated AC/DC SMPS power supply, th
                         
                         <li class="article-tag-list-item">
                             <a class="article-tag-list-link" href="https://jadelsbach.de//tags/castle">castle
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/photo/saarbruecken-05-2024/">Saarbrücken May 2024</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/photo/saarbruecken-05-2024/" class="article-date">
-                        <time datetime='2024-05-19T15:12:16.000&#43;02:00' itemprop="datePublished">2024-05-19</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/photo/saarbruecken-05-2024/"><img width=1000 height=100 alt="Banner" src="/photo/saarbruecken-05-2024//banner.jpg"></a><br>
-                    All pictures taken with my Sony SLT-a77 with a Sony DT 18-55mm F3.5-5.6 SAM.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/photo/saarbruecken-05-2024/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/saarbruecken">saarbruecken
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/photography">photography
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </footer>
-                
-            </div>
-        </article>
-        
-        <article class="article article-type-post" itemscope itemprop="blogPost">
-            <div class="article-inner">
-                
-                
-                <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="/post/19-05-24-ae163/">Racapping a Mettler AE163 laboratory balance</a></h1>
-                </header>
-                
-                <div class="article-meta">
-                    <a href="/post/19-05-24-ae163/" class="article-date">
-                        <time datetime='2024-05-19T14:24:34.000&#43;02:00' itemprop="datePublished">2024-05-19</time>
-                    </a>
-                    
-                    
-                    
-                </div>
-                <div class="article-entry" itemprop="articleBody">
-                    <p>
-                        <a class="article-title" href="/post/19-05-24-ae163/"><img width=1000 height=100 alt="Banner" src="/post/19-05-24-ae163//banner.jpg"></a><br>
-                    The older Mettler AE series laboratory balances don&rsquo;t have a standard power button, the main circuit is always running. As such the capacitors in the these balances which were manufactured in the early 80s are slowly in the territory of needing replacement. As such I decided to recap mine.
-As a precaution since the circuit board contains lots of FET and a proprietary IC I took full ESD measures and did this with proper ESD tools, on an ESD mat with a ESD wristband.
-                    </p>
-                    <p class="article-more-link">
-                        <a href="/post/19-05-24-ae163/">Read More</a>
-                    </p>
-                </div>
-
-                
-                <footer class="article-footer">
-                    <ul class="article-tag-list">
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/mettler">mettler
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/ae163">ae163
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/scale">scale
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/balance">balance
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/capacitor">capacitor
-                            </a>
-                        </li>
-                        
-                        <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="https://jadelsbach.de//tags/electronics">electronics
                             </a>
                         </li>
                         

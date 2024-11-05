@@ -4,22 +4,22 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Tue, 15 Oct 2024 14:31:20 GMT
-Etag: W/"66f728a3-7204"
-Expires: Tue, 15 Oct 2024 14:41:20 GMT
-Last-Modified: Fri, 27 Sep 2024 21:50:27 GMT
+Date: Tue, 05 Nov 2024 16:20:51 GMT
+Etag: W/"67200a66-695c"
+Expires: Tue, 05 Nov 2024 16:30:00 GMT
+Last-Modified: Mon, 28 Oct 2024 22:04:22 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Etags-1: W/"66f728a3-7204"
-X-Etags-2: W/"66f728a3-7204"
-X-Fastly-Request-Id: 22d7f8efcd24cdda0cb3a1779d8a577e79097fcb
-X-Github-Request-Id: F60F:1089F9:2BDEDF4:2D2A715:670E7CB6
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Etags-1: W/"67200a66-695c"
+X-Etags-2: W/"67200a66-695c"
+X-Fastly-Request-Id: 6ae1bc167745a4a8733a073da0e4b043719580ba
+X-Github-Request-Id: 50D5:3A1F83:2CFE5A3:2E30F89:672A45B0
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400094-BFI
-X-Timer: S1729002681.564214,VS0,VE95
+X-Served-By: cache-bfi-kbfi7400103-BFI
+X-Timer: S1730823651.378810,VS0,VE88
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -30,7 +30,7 @@ X-Timer: S1729002681.564214,VS0,VE95
     <title>(p)retired</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.136.0-DEV">
+    <meta name="generator" content="Hugo 0.137.0-DEV">
     
     
     
@@ -66,8 +66,8 @@ X-Timer: S1729002681.564214,VS0,VE95
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="(p)retired">
-  <meta itemprop="datePublished" content="2024-09-27T00:00:00-07:00">
-  <meta itemprop="dateModified" content="2024-09-27T00:00:00-07:00">
+  <meta itemprop="datePublished" content="2024-10-25T00:00:00-07:00">
+  <meta itemprop="dateModified" content="2024-10-25T00:00:00-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="(p)retired">
 
@@ -206,6 +206,59 @@ X-Timer: S1729002681.564214,VS0,VE95
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/241025/" class="color-inherit dim link">
+            FauxRPC using gRPCurl, Golang and rust
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <p>Read <a href="https://kmcd.dev/posts/fauxrpc-testcontainers/">FauxRPC + Testcontainers</a> on Hacker News and was intrigued. I spent a little more time &ldquo;evaluating&rdquo; this than I&rsquo;d planned because I&rsquo;m forcing myself to use rust as much as possible and my ignorance (see below) caused me some challenges.</p>
+<p>The technology is interesting and works well. The experience helped me explore <a href="https://testcontainers.com/">Testcontainers</a> too which I&rsquo;d heard about but not explored until this week.</p>
+<p>For my future self:</p>
+<table>
+  <thead>
+      <tr>
+          <th>What</th>
+          <th>What?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://fauxrpc.com/">FauxRPC</a></td>
+          <td>A general-purpose tool (built using <a href="https://buf.build/">Buf</a>&rsquo;s <a href="https://connectrpc.com/">Connect</a>) that includes registry and stub (gRPC) services that can be (programmatically) configured (using a Protobuf descriptor) and stubs (example method responses) to help test gRPC implementations.</td>
+      </tr>
+      <tr>
+          <td><a href="https://testcontainers.com/">Testcontainers</a></td>
+          <td>Write code (e.g. rust) to create and interact (test)services (running in [Docker] containers).</td>
+      </tr>
+      <tr>
+          <td><a href="https://connectrpc.com/">Connect</a></td>
+          <td>(More than a) gRPC implementation used by FauxRPC</td>
+      </tr>
+      <tr>
+          <td><a href="https://github.com/fullstorydev/grpcurl">gRPCurl</a></td>
+          <td>A command-line gRPC tool.</td>
+      </tr>
+  </tbody>
+</table>
+<p>I started following along with FauxRPC&rsquo;s <a href="https://fauxrpc.com/docs/testcontainers/">Testcontainers</a> example but, being unfamiliar with Connect, I wasn&rsquo;t familiar with its Eliza service. The service is available on <code>demo.connectrpc.com:443</code> and is described using <a href="https://github.com/connectrpc/examples-go/blob/main/proto/connectrpc/eliza/v1/eliza.proto"><code>eliza.proto</code></a> as part of <a href="https://github.com/connectrpc/examples-go"><code>examples-go</code></a>. Had I realized this sooner, I would have used this example rather than the Health Checking protocol.</p>
+        </div>
+          <a href="/posts/241025/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/posts/240927/" class="color-inherit dim link">
             Cloud Run with a gRPC probe
             </a>
@@ -309,77 +362,18 @@ local health_checking_service = &#34;foo&#34;;
 
             </div>
           
-            <div class="relative w-100 mb4">
-              
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/240811/" class="color-inherit dim link">
-            XML-RPC in Rust and Python
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>A lazy Sunday afternoon and my interest was piqued by <a href="https://en.wikipedia.org/wiki/XML-RPC">XML-RPC</a></p>
-<h2 id="client">Client</h2>
-<p>A very basic XML-RPC client wrapped in a Cloud Functions function:</p>
-<p><code>main.py</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python3" data-lang="python3"><span style="display:flex;"><span><span style="color:#f92672">import</span> functions_framework
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> xmlrpc.client
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>endpoint <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>get_env(<span style="color:#e6db74">&#34;ENDPOINT&#34;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>proxy <span style="color:#f92672">=</span> xmlrpc<span style="color:#f92672">.</span>client<span style="color:#f92672">.</span>ServerProxy(endpoint)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@functions_framework.http</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(request):
-</span></span><span style="display:flex;"><span>    print(request)
-</span></span><span style="display:flex;"><span>    rqst <span style="color:#f92672">=</span> request<span style="color:#f92672">.</span>get_json(silent<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    resp <span style="color:#f92672">=</span> proxy<span style="color:#f92672">.</span>add(
-</span></span><span style="display:flex;"><span>        {<span style="color:#e6db74">&#34;x&#34;</span>:{
-</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;real&#34;</span>:rqst[<span style="color:#e6db74">&#34;x&#34;</span>][<span style="color:#e6db74">&#34;real&#34;</span>],
-</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;imag&#34;</span>:rqst[<span style="color:#e6db74">&#34;x&#34;</span>][<span style="color:#e6db74">&#34;imag&#34;</span>]
-</span></span><span style="display:flex;"><span>        },
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;y&#34;</span>:{
-</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;real&#34;</span>:rqst[<span style="color:#e6db74">&#34;y&#34;</span>][<span style="color:#e6db74">&#34;real&#34;</span>],
-</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;imag&#34;</span>:rqst[<span style="color:#e6db74">&#34;y&#34;</span>][<span style="color:#e6db74">&#34;imag&#34;</span>]
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    })
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> resp
-</span></span></code></pre></div><p><code>requirements.txt</code>:</p>
-<pre tabindex="0"><code>functions-framework==3.*
-</code></pre><p>Run it:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m venv venv
-</span></span><span style="display:flex;"><span>source venv/bin/activate
-</span></span><span style="display:flex;"><span>python3 -m pip install --requirement requirements.txt
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>export ENDPOINT<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;...&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>python3 main.py
-</span></span></code></pre></div><h2 id="server">Server</h2>
-<p>Forcing myself to go Rust first and there&rsquo;s an (old) <a href="https://crates.io/crates/xml-rpc">xml-rpc</a> crate.</p>
-        </div>
-          <a href="/posts/240811/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-            </div>
-          
         </section>
 
         
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/posts/240811/" class="link black dim">
+                XML-RPC in Rust and Python
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/240529/" class="link black dim">
@@ -396,12 +390,6 @@ local health_checking_service = &#34;foo&#34;;
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/240430/" class="link black dim">
                 Securing gRPC services using Tailscale
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/posts/240409/" class="link black dim">
-                Google Cloud Translation w/ gRPC 3 ways
               </a>
             </h2>
           

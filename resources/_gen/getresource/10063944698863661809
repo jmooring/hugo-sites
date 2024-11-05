@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 338466
+Age: 78995
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 15 Oct 2024 14:31:49 GMT
-Etag: "e5cb38cab24d4d052786117502962de9-ssl-df"
+Date: Tue, 05 Nov 2024 16:21:13 GMT
+Etag: "2f94f6314e23588a54976b151f48d95e-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "e5cb38cab24d4d052786117502962de9-ssl-df"
-X-Etags-2: "e5cb38cab24d4d052786117502962de9-ssl-df"
-X-Nf-Request-Id: 01JA89F8SQDVGNQ11SVWZKEWX1
+X-Etags-1: "2f94f6314e23588a54976b151f48d95e-ssl-df"
+X-Etags-2: "2f94f6314e23588a54976b151f48d95e-ssl-df"
+X-Nf-Request-Id: 01JBYJ2NA4ZV6102GAD9EGVZYB
 
 <!DOCTYPE html>
 <html lang="en">
@@ -147,12 +147,12 @@ X-Nf-Request-Id: 01JA89F8SQDVGNQ11SVWZKEWX1
               <table style="text-align: left;">
                 <tr style="display: flexbox;">
                   <th>For bash/zsh:</th>
-                  <td><code type="text" id="bashCmd">bash &lt;(curl -L zellij.dev/launch)</code></td>
+                  <td><code type="text" id="bashCmd">bash &lt;(curl -L https://zellij.dev/launch)</code></td>
                   <td><button id="bashCmdBtn" onclick="copyOnClick('bashCmd')">Copy</button></td>
                 </tr>
                 <tr style="display: flexbox;">
                   <th>For fish:</th>
-                  <td><code type="text" id="fishCmd">bash (curl -L zellij.dev/launch | psub)</code></td>
+                  <td><code type="text" id="fishCmd">bash (curl -L https://zellij.dev/launch | psub)</code></td>
                   <td><button id="fishCmdBtn" onclick="copyOnClick('fishCmd')">Copy</button></td>
                 </tr>
               </table>
@@ -187,5 +187,5 @@ X-Nf-Request-Id: 01JA89F8SQDVGNQ11SVWZKEWX1
 
 
     
-<script async id="netlify-rum-container" src="/.netlify/scripts/rum" data-netlify-rum-site-id="b4ac9be9-b560-403a-b88d-4b7fe8a314db" data-netlify-deploy-branch="gh-pages" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiYjRhYzliZTktYjU2MC00MDNhLWI4OGQtNGI3ZmU4YTMxNGRiIiwiYWNjb3VudF9pZCI6IjVjZDFlMGZkNTIzMGQyYzQ1MzZkOTE2YSIsImRlcGxveV9pZCI6IjY2NDcyNjdkODZjMTRmMDAwOGM2NTkyYyIsImlzc3VlciI6Im5mc2VydmVyIn0.SNx36MLDhpM7Es05e1-VaSoRPmy7LalLa7UOkeeNYd4"></script></body>
+<script async id="netlify-rum-container" src="/.netlify/scripts/rum" data-netlify-rum-site-id="b4ac9be9-b560-403a-b88d-4b7fe8a314db" data-netlify-deploy-branch="gh-pages" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiYjRhYzliZTktYjU2MC00MDNhLWI4OGQtNGI3ZmU4YTMxNGRiIiwiYWNjb3VudF9pZCI6IjVjZDFlMGZkNTIzMGQyYzQ1MzZkOTE2YSIsImRlcGxveV9pZCI6IjY3Mjg5NjU5MDkzODcyMDAwOGFkN2Q1NyIsImlzc3VlciI6Im5mc2VydmVyIn0.BphrIe_wp53Qq8u2irsnrzreW0r6jljbxnDmN_2I5gc"></script></body>
 </html>

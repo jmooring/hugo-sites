@@ -1,13 +1,13 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Tue, 15 Oct 2024 14:31:55 GMT
-Etag: "3737-6247037f1be09-gzip"
-Last-Modified: Mon, 14 Oct 2024 13:57:33 GMT
+Date: Tue, 05 Nov 2024 16:21:16 GMT
+Etag: "54cf-625c7042d975a-gzip"
+Last-Modified: Thu, 31 Oct 2024 14:55:59 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Vary: Accept-Encoding
-X-Etags-1: "3737-6247037f1be09-gzip"
-X-Etags-2: "3737-6247037f1be09-gzip"
+X-Etags-1: "54cf-625c7042d975a-gzip"
+X-Etags-2: "54cf-625c7042d975a-gzip"
 
 <!DOCTYPE html>
 <html lang="nl">
@@ -31,8 +31,8 @@ Wat financieren wij Financieringen vanaf EUR 1 miljoen Alle vastgoedsegmenten; a
 	<link rel="canonical" href="https://www.raxfinance.nl/">
 	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
-	<link rel="stylesheet" href="/css/fonts.css?version=2024-10-14%2013%3a57%3a33.773631958%20%2b0000%20UTC%20m%3d%2b0.894819764">
-    <link rel="stylesheet" href="/css/style.css?version=2024-10-14%2013%3a57%3a33.773671609%20%2b0000%20UTC%20m%3d%2b0.894859392">
+	<link rel="stylesheet" href="/css/fonts.css?version=2024-10-31%2014%3a55%3a59.065458508%20%2b0000%20UTC%20m%3d%2b1.809287480">
+    <link rel="stylesheet" href="/css/style.css?version=2024-10-31%2014%3a55%3a59.065476111%20%2b0000%20UTC%20m%3d%2b1.809305074">
 
 </head>
 
@@ -271,11 +271,12 @@ Wat financieren wij Financieringen vanaf EUR 1 miljoen Alle vastgoedsegmenten; a
             <a href="/actueel/rax-finance-verstrekt-herfinanciering-kantoorpand-in-utrecht/">
                 <span class="date">6 september 2024</span>
                 <h3>Rax Finance verstrekt herfinanciering kantoorpand in Utrecht</h3>
-                <span class="summary">Begin september heeft Rax Finance een financiering verstrekt voor een verhuurd kantoorpand in Utrecht. Het team van CBRE Debt &amp; Structured Finance heeft de eigenaar, een internationaal opererend … <span class="link">Lees meer</span></span>
+                <span class="summary">Begin september heeft Rax Finance een financiering verstrekt voor een verhuurd kantoorpand in Utrecht. Het team van CBRE Debt &amp;amp; Structured Finance heeft de eigenaar, een internationaal opererend … <span class="link">Lees meer</span></span>
             </a>
         </li>
     
 </ul>
+
 <p><a href="/actueel/">Lees onze nieuwsberichten en blogs</a></p>
 
                 
@@ -366,7 +367,7 @@ Wat financieren wij Financieringen vanaf EUR 1 miljoen Alle vastgoedsegmenten; a
                     <p>Rax Finance B.V.<br>
                     J.J. Viottastraat 29, 1071 JP<br>
                     Amsterdam, The Netherlands</p>
-                    <p><a href="/beloningsbeleid/">Beloningsbeleid</a>, <a href="/duurzaamheid/">Duurzaamheid</a>, <a href="/klachten/">Klachtenprocedure</a> en <a href="/privacyverklaring/">Privacyverklaring</a></p>
+                    <p><a href="/beloningsbeleid/">Beloningsbeleid</a>, <a href="/duurzaamheid/">Duurzaamheid</a>, <a href="/klachten/">Klachtenprocedure</a> en <a href="/privacyverklaring/">Privacyverklaring</a><br><a class="manage-consent" href="javascript: function nothing() {return false;}" style="cursor: pointer;">Privacyvoorkeuren beheren</a></p>
                 </div>
                 <div class="col">
                     <ul>
@@ -412,11 +413,178 @@ Wat financieren wij Financieringen vanaf EUR 1 miljoen Alle vastgoedsegmenten; a
                     <a href="https://www.concreetgeeftvorm.nl/">Ontwerp: Concreet geeft vorm</a>
                 </div>
                 <div class="col">
-                    © 2024
+                    © 2024 - Rax Finance
                 </div>
             </div>
         </div>
     </div>
     <script src="/js/hasscrolled.js"></script>
+    <style>
+    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: var(--ocean); color: var(--midnight-blue); z-index: 99; font-weight: 400;}
+    #consent-notice span {margin-right: 1rem;}
+    #consent-notice button {cursor: pointer; display: inline-block; width: auto; font-size: 1rem; margin: 0; padding: 0.5rem 1rem 0.7rem; font-family: 'Barlow'; background: transparent; color: var(--midnight-blue); border-color: rgba(0, 60, 89, 0.85);}
+    #consent-notice button:hover {color: white;}
+    #consent-notice button.button {margin-inline: 0.25rem;}
+    #consent-notice button.button.manage-consent {font-weight: normal;}
+    
+    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
+    #consent-overlay.active {display: flex;}
+    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
+    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
+    #consent-overlay > div > div:last-child {margin: 0;}
+    #consent-overlay h3 {padding-top: 0;}
+    #consent-overlay input {margin-top: 0.5rem; margin-right: 0.7rem;}
+    #consent-overlay label {display: block;}
+    #consent-overlay .button {font-size: 1rem; margin: 1rem 0 0 0; padding: 0.5rem 1rem 0.7rem; font-family: 'Barlow'; background-color: transparent; color: var(--midnight-blue); border-color: rgba(0, 60, 89, 0.85); margin-right: 0.5rem; cursor: pointer; z-index: 0;}
+    #consent-overlay .button:hover {color: white;}
+    #consent-overlay button.button.save-consent {font-weight: normal;}
+
+    @media (max-width: 767px) {
+        #consent-overlay > div {padding: 1.75rem 1rem;}
+        #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
+        #consent-notice button.btn {position: relative; bottom: 4px;}
+    }
+</style>
+<div id="consent-notice"><span>Wij willen graag code van derden inladen om deze website te verbeteren.</span><button class="button manage-consent" href="javascript: function nothing() {return false;}">Voorkeuren</button><button class="button deny-consent">Weigeren</button><button class="button approve-consent">Toestaan</button></div>
+<div id="consent-overlay">
+    <div>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0"  />
+                <label for="item0">
+                    <h3>Google Tag Manager</h3>
+                    <p>Onze Google Tag Manager laadt code van derde partijen in, namelijk de Google Analytics meetcode van Alphabet.</p>
+                </label>
+            </div>
+        
+        <div>
+            <button id="save-consent" class="button save-consent" data-consentvalue="0">Voorkeuren opslaan</button>
+            <button class="button approve-consent">Alles toestaan</button>
+        </div>
+    </div>
+</div>
+<script>
+
+    const scripts = [];
+    scripts[ 0 ] = ["https:\/\/www.googletagmanager.com\/gtag\/js?id=AW-16740027888","/js/ga.js"];
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue,31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                value.forEach(function(v) {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.src = v;
+                    document.body.appendChild(s);
+                });
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = "";
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
+            this.classList.toggle('active');
+        }
+    });
+</script>
+
+
+    
+
 </body>
 </html>

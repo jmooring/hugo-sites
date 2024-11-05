@@ -1,26 +1,26 @@
 HTTP/2.0 200 OK
-Age: 51428
+Age: 57094
 Alt-Svc: h3=":443"; ma=86400
 Content-Security-Policy: connect-src 'self' https://search.brave.com https://newsletter.brave.com https://analytics.brave.com; default-src 'none'; media-src 'self'; font-src 'self'; frame-ancestors 'self' https://ads.brave.com https://ads.bravesoftware.com; frame-src 'self' https://blocksurvey.io https://contact.ads.brave.com https://html5-player.libsyn.com https://player.vimeo.com https://boards.greenhouse.io https://www.youtube-nocookie.com https://app.boostr.com/; img-src 'self' data: https://imgs.search.brave.com https://analytics.brave.com https://boards.greenhouse.io; script-src 'self' https://boards.greenhouse.io; style-src 'self' 'unsafe-inline'; object-src 'self'; manifest-src 'self'; upgrade-insecure-requests;
 Content-Type: text/html
 Cross-Origin-Opener-Policy: same-origin
-Date: Tue, 15 Oct 2024 00:14:09 GMT
-Etag: W/"57f01ffca4c16ddb9e713061316de5b3"
-Last-Modified: Thu, 10 Oct 2024 15:14:59 GMT
+Date: Tue, 05 Nov 2024 00:29:15 GMT
+Etag: W/"ca10dcf9dbfe1919b4460c4c36c4ea3b"
+Last-Modified: Mon, 04 Nov 2024 17:58:55 GMT
 Onion-Location: https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/index.html
 Referrer-Policy: strict-origin-when-cross-origin
 Server: AmazonS3
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
 Vary: Accept-Encoding
-Via: 1.1 7db4e24dac37de5a6dd7ddc6e5551834.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: u8zPQQMuKD6DnGkZ_9deOg7bvH5AvsET-_pHQTZCmPclGF6g418zHg==
+Via: 1.1 fb443c18b96387905f8eb633d8d34cf2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6uxzGXP5KeFhbZf9kopfbVOHnXuT0DYtciXvSYj6E08rqWbBFH03PA==
 X-Amz-Cf-Pop: SEA73-P3
 X-Amz-Server-Side-Encryption: AES256
-X-Amz-Version-Id: E9KKdcaeFCPTf97JyrmZ5kwKiWkpUi3V
+X-Amz-Version-Id: 9x1zV0cUZsCUAzqy6AiX3Sarrkicp6lj
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"57f01ffca4c16ddb9e713061316de5b3"
-X-Etags-2: W/"57f01ffca4c16ddb9e713061316de5b3"
+X-Etags-1: W/"ca10dcf9dbfe1919b4460c4c36c4ea3b"
+X-Etags-2: W/"ca10dcf9dbfe1919b4460c4c36c4ea3b"
 X-Frame-Options: SAMEORIGIN
 
 <!DOCTYPE html>
@@ -66,7 +66,7 @@ X-Frame-Options: SAMEORIGIN
 <meta property="og:locale:alternate" content="tr" />
 <meta property="og:locale:alternate" content="uk" />
 <meta name="og:image" content="https://brave.com/home-assets/images/brave-home-og.png"/>
-<meta property="og:updated_time" content="2024-10-09T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
+<meta property="og:updated_time" content="2024-11-18T00:00:00+00:00" /><meta property="og:site_name" content="Brave" />
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://brave.com/home-assets/images/brave-home-og.png"/>
 <meta name="twitter:title" content="The browser that puts you first | Brave"/>
@@ -112,22 +112,32 @@ X-Frame-Options: SAMEORIGIN
     <link rel="icon" href='https://brave.com/static-assets/images/cropped-brave_appicon_release-32x32.png' sizes="32x32" />
     <link rel="icon" href='https://brave.com/static-assets/images/cropped-brave_appicon_release-192x192.png' sizes="192x192" />
     <link rel="apple-touch-icon" href='https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png' />
-
-    
-        
             
-            <script type="application/ld+json">{
+                <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://www.brave.com/#organization",
-  "address": "580 Howard St. Unit 402, San Francisco, CA 94105, United States",
-  "legalName": "Brave Software Inc",
+  "@type": "WebSite",
   "name": "Brave Software",
-  "alternateName": "Brave Browser",
-  "description": "Brave make a suite of internet privacy tools, including our browser and search engine that help shield users from the ads, trackers, and other creepy stuff trying to follow them across the web.",
   "url": "https://brave.com/",
-  "logo": "https://brave.com/static-assets/images/brave-logo-dark.svg",
-  "foundingDate": "2014-06-06",
+  "description": "Brave, the browser that puts you first. The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brave Software Inc",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brave.com/static-assets/images/brave-logo-dark.svg"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://search.brave.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US",
+  "copyrightYear": "2015 - 2024",
+  "creator": {
+    "@type": "Organization",
+    "name": "Brave Software Inc"
+  },
   "image": "https://brave.com/static-assets/images/brave-logo-dark.svg",
   "sameAs": [
     "https://twitter.com/brave",
@@ -140,8 +150,58 @@ X-Frame-Options: SAMEORIGIN
     "https://www.linkedin.com/company/brave-software"
   ]
 }</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Brave Browser - Official Site",
+  "url": "https://brave.com/",
+  "description": "Brave, the browser that puts you first. The Brave browser is a fast, private, and secure web browser for PC, Mac, and mobile.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brave Software Inc",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brave.com/static-assets/images/brave-logo-dark.svg"
+    }
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Brave Software",
+    "url": "https://brave.com/"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://brave.com/static-assets/images/brave-logo-dark.svg"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://brave.com/"
+      }
+    ]
+  },
+  "dateModified": "2024-05-07T00:00:00+00:00",
+  "inLanguage": "en-US",
+  "copyrightYear": "2015 - 2024",
+  "creator": {
+    "@type": "Organization",
+    "name": "Brave Software Inc"
+  },
+  "mainEntityOfPage": "True",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Brave Browser",
+    "applicationCategory": "Web browser",
+    "operatingSystem": "Windows, MacOS, Linux, Android, iOS"
+  }
+}</script>
             
         
+
     
 
     <link href="/static-assets/css/main.min.css" rel="stylesheet" />
@@ -152,7 +212,7 @@ X-Frame-Options: SAMEORIGIN
 
     <noscript><link href="/static-assets/css/noscript.min.css" rel="stylesheet" />
     </noscript>
-    <script src="/js/is-platform.min.js"></script>
+    <script src="/js/set-platform.min.js"></script>
     
 
     <style>
@@ -716,7 +776,7 @@ X-Frame-Options: SAMEORIGIN
                               <p
                                 class="hidden pb-4 text-[10px] font-semibold leading-3 tracking-tighter text-[#878DA6] lg:block"
                               >
-                                See how Brave stacks up against other browsers.
+                                See how Brave stacks up against other browsers and search engines.
                               </p>
                             
                           </li>
@@ -1129,7 +1189,7 @@ X-Frame-Options: SAMEORIGIN
             
   
   
-  <section class="flex flex-wrap gap-10 min-[1280px]:flex-nowrap justify-between w-full z-10 mt-10 sm:mt-[3.5rem] md:mt-10 2xl:mt-20">
+  <section class="flex flex-wrap gap-10 min-[1280px]:flex-nowrap justify-between w-full z-10 mt-10 sm:mt-[3.5rem] md:mt-10 2xl:mt-20" id="features-blocks">
     <div class="card card__contents w-full min-[1280px]:w-[400px] [--card-padding:1.8rem] [--card-contents-border-width:2px] relative min-h-[290px]">
       <h4 class="text-h2 sm:text-h4">Private search</h4>
       
@@ -1153,7 +1213,7 @@ X-Frame-Options: SAMEORIGIN
         source="brave.com"
         openSerpInNewPage="true"
         i18n="{&#34;placeholder&#34;:&#34;Search the web privately&#34;,&#34;summarizerFeatureName&#34;:&#34;Answer with AI&#34;,&#34;title&#34;:&#34;Search&#34;}"
-        class="my-4 block ml-8 w-full min-[847px]:ml-0 light">
+        class="my-4 block ml-8 w-full min-[885px]:ml-0 light">
         <form action="https://search.brave.com/search?source=brave.com" method="GET" target="_blank" class="my-4 block w-full ml-0 relative" autocomplete="off">
           <input type="hidden" name="source" value="brave.com" />
           <input required type="text" name="q" placeholder="Search the web privately" class="w-full py-3 px-6 text-[0.875rem] leading-normal rounded-xl drop-shadow-02">
@@ -1191,15 +1251,13 @@ X-Frame-Options: SAMEORIGIN
   </section>
 
 
-  <section class="mt-10 sm:mt-[3.5rem] lg:mt-20" data-tab-group data-accordion-group>
+  <section class="mt-10 sm:mt-[3.5rem] lg:mt-20" data-tab-group data-accordion-group id="user-first-web">
     <h2 class="text-display-mobile-h1 md:text-display-desktop-h3 pb-2 sm:pb-4">What does a user-first Web look like?</h2>
     <p class="text-mobile-h4 sm:text-mobile-h3 lg:text-desktop-h4 max-w-[820px] pr-4 lg:pr-0 mb-6 lg:mb-10">Better privacy. Faster webpages. Easier navigation. And experiences that put people over tech company profit.</p>
     <div class="flex gap-[42px]">
       <div class="min-[1280px]:w-5/12">
         
-
-
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' open data-tab-button-selected data-tab-button for="the-web-without-the-annoyances">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden"  open data-tab-button-selected data-tab-button data-theme="dark" data-single-open for="the-web-without-the-annoyances">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">The Web, <em>without</em> the annoyances</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1214,7 +1272,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="save-data-save-battery-save-time">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden"  data-tab-button data-theme="dark" data-single-open for="save-data-save-battery-save-time">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Save data, save battery, save time</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1228,7 +1286,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="unparalleled-privacy">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden"  data-tab-button data-theme="dark" data-single-open for="unparalleled-privacy">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Unparalleled privacy</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1243,7 +1301,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="built-in-security-on-by-default">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden"  data-tab-button data-theme="dark" data-single-open for="built-in-security-on-by-default">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Built-in security, on by default</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1257,7 +1315,7 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden" data-single-open data-theme='dark' data-tab-button for="switching-is-easy">
+<details class="card card__contents group p-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none [--card-contents-border-width:0px] open:!bg-neutral-10 hover:bg-primitive-blurple-35 open:hover:bg-neutral-10 focus-within:bg-primitive-blurple-35 w-full overflow-hidden"  data-tab-button data-theme="dark" data-single-open for="switching-is-easy">
     <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start p-8" data-accordion-heading>
         <span class="text-[30px] leading-[40px]">Switching is easy</span>
         <span class="flex-shrink-0 ml-auto mt-[0.2rem] mr-4 lg:mr-8 relative">
@@ -1282,31 +1340,31 @@ X-Frame-Options: SAMEORIGIN
           
           
           
-            <lottie-player src="/home-assets/lottie/web-without-annoyances.json" data-tab-section id="the-web-without-the-annoyances" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2 bg-[rgb(164,216,151)]"></lottie-player>
+            <lottie-player src="/home-assets/lottie/web-without-annoyances.json" data-tab-section id="the-web-without-the-annoyances" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2"></lottie-player>
           
         
           
           
           
-            <lottie-player src="/home-assets/lottie/brave-saves-battery.json" data-tab-section id="save-data-save-battery-save-time" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2 bg-[rgb(188,188,255)]"></lottie-player>
+            <lottie-player src="/home-assets/lottie/brave-saves-battery.json" data-tab-section id="save-data-save-battery-save-time" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2"></lottie-player>
           
         
           
           
           
-            <lottie-player src="/home-assets/lottie/unparalleled-privacy.json" data-tab-section id="unparalleled-privacy" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2 bg-[rgb(253,243,224)]"></lottie-player>
+            <lottie-player src="/home-assets/lottie/unparalleled-privacy.json" data-tab-section id="unparalleled-privacy" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2"></lottie-player>
           
         
           
           
           
-            <lottie-player src="/home-assets/lottie/built-in-security.json" data-tab-section id="built-in-security-on-by-default" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2 bg-[rgb(255,71,0)]"></lottie-player>
+            <lottie-player src="/home-assets/lottie/built-in-security.json" data-tab-section id="built-in-security-on-by-default" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2"></lottie-player>
           
         
           
           
           
-            <lottie-player src="/home-assets/lottie/switching-is-easy.json" data-tab-section id="switching-is-easy" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2 bg-[rgb(247,211,196)]"></lottie-player>
+            <lottie-player src="/home-assets/lottie/switching-is-easy.json" data-tab-section id="switching-is-easy" data-no-hidden class="transition-[opacity,visibility] duration-[250ms] ease-in-out invisible opacity-0 open:visible open:opacity-100 [grid-area:1/1/-1/-1] block -my-2"></lottie-player>
           
         
       </div>
@@ -1877,8 +1935,8 @@ X-Frame-Options: SAMEORIGIN
     <section id="faq" class="my-10 lg:my-20">
       <h2 class="pb-6 text-h2 sm:text-h3">FAQs</h2>
       
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Is the Brave Browser safe?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1889,8 +1947,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         How do I download &amp; install Brave?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1900,8 +1958,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Does Brave have a VPN?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1911,8 +1969,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Does Brave block YouTube ads?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1922,8 +1980,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         What is the Brave Search engine?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1933,8 +1991,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         What languages is Brave available in?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1944,8 +2002,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Who owns Brave?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1955,8 +2013,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Is Brave open source?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1966,8 +2024,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         How does Brave compare to Chrome?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1977,8 +2035,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         Is Brave free?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -1989,8 +2047,8 @@ X-Frame-Options: SAMEORIGIN
     </div>
 </details>
 
-<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none">
-    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6" data-accordion-heading>
+<details class="card card__contents group px-8 py-0 [&:not(:first-child)]:-mt-[--card-contents-border-width] [&:not(:first-of-type)]:rounded-t-none [&:not(:last-of-type)]:rounded-b-none overflow-hidden">
+    <summary class="text-blockquote [&::-webkit-details-marker]:hidden [-webkit-tap-highlight-color:transparent] list-none flex gap-2 items-start py-6 cursor-pointer" data-accordion-heading>
         What is BAT, and how do I earn it?
         <span class="icon [--icon-url:url(/static-assets/icons/arrow-alt-down.svg)] flex-shrink-0 ml-auto transition-transform duration-100 mt-[0.2rem] group-open:rotate-180"></span>
     </summary>
@@ -2080,6 +2138,7 @@ X-Frame-Options: SAMEORIGIN
             <div class="site-footer__grouping">
                 <h4 class="site-footer__heading">Products</h4>
                 <ul>
+                    <li><a href='/premium/'>Brave premium</a></li>
                     <li><a href='/search/'>Search</a></li>
                     <li><a href='/brave-rewards/'>Rewards</a></li>
                     <li><a href='/wallet/'>Wallet</a></li>
@@ -2115,7 +2174,6 @@ X-Frame-Options: SAMEORIGIN
                 <h4 class="site-footer__heading">Creators</h4>
                 <ul>
                     <li><a href="https://creators.brave.com/" target="_blank" rel="noopener noreferrer">Overview</a></li>
-                    <li><a href='/media-assets/' rel="noopener noreferrer">Creators media kit</a></li>
                 </ul>
             </div>
         </div>
@@ -2333,7 +2391,7 @@ X-Frame-Options: SAMEORIGIN
 
     <script src="/static-assets/vendors/lodash.custom.min.js" defer></script>
             
-            <script src="/js/1-ie-compat.js" defer></script>
+            <script src="/ab-tests.js" defer></script>
         
             
             <script src="/js/3-delay-animations.js" defer></script>

@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8d30830bac6fb9a9-SEA
+Cf-Ray: 8dde2c598f1a6828-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Tue, 15 Oct 2024 14:31:17 GMT
-Last-Modified: Tue, 15 Oct 2024 14:29:24 GMT
+Date: Tue, 05 Nov 2024 16:20:48 GMT
+Last-Modified: Mon, 04 Nov 2024 17:11:39 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=cMK4jmWcPp95JyCWxjoNyHmXi1GiQD.H7C6Ad3b4whA-1729002677-1.0.1.1-Hw.es65BmphkhK3fmcPc.0Xz_VimLjeVHhF8FU5ta1v4ZnEBbE9kOMYpt8Xag.DMGHcAHZV_mY0Nn6eHgRCUTQ; path=/; expires=Tue, 15-Oct-24 15:01:17 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=ep9XJOL8ZfXj67PEmbKyCna9GZ9Ve8gWnDdbhQIqmBo-1729002677-1.0.1.1-gDXg1hyHM9SsajK2mBTfjal1J4dAa8UKNHH65_WlGEiPlMGGEVcxPmSGMQKfcfQ9h_FPbQdgYUGlopQh23B9JnkXD_OMGB.2sNSirqYXjEE; path=/; expires=Tue, 15-Oct-24 15:01:17 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=Lj9nG7uu1P5s4I124o3prX18OC2hWPrVROjYEvmrojw-1730823648-1.0.1.1-S.J7YevjTRRX4rZe4Az5MQ194HVEjMgO74xNQt_Y6DjTyAyoI8FePuq65bYn_5zQj1Rl2nfP5XMeYMsj1KwMUQ; path=/; expires=Tue, 05-Nov-24 16:50:48 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=d3ZxjcHzEvv.bOnXI_zOLzXsQf_X3CilnXJ.NNIHD6U-1730823648-1.0.1.1-pR7Bu4al0n8nZMTcrJAlF1UoR8tJYOhQK_aSOihgCOHTrHQKhANKUtsEWirjo63K9vgZ2qDmBBAwBjRnHtHiIngR0Ij4XWRJl5Ua_kBkDz4; path=/; expires=Tue, 05-Nov-24 16:50:48 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
-X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
+X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
 X-Do-Orig-Status: 200
-X-Etags-1: f0d58cebdf20a06c8c36deeb2d891f97
-X-Etags-2: f0d58cebdf20a06c8c36deeb2d891f97
+X-Etags-1: 0ed7f7e1b6ca7a6620ac4b84efd77d22
+X-Etags-2: 0ed7f7e1b6ca7a6620ac4b84efd77d22
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
 
@@ -301,17 +301,29 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 
                 <div class="latest-updates">
                     <section><h2 id="latest-updates">Latest Updates</h2>
-<h3 id="11-october-2024">11 October 2024</h3>
+<h3 id="1-november-2024">1 November 2024</h3>
 <ul><li>
-    <p><p>Spaces is now available in TOR1. You can view the availability of all of our products by datacenter in the <a href="/platform/regional-availability/">regional availability matrix</a>. See our documentation on <a href="/products/spaces/how-to/create/">creating a new Spaces bucket</a>, <a href="/products/spaces/how-to/transfer-between-regions/">relocating an existing one</a>, or <a href="/products/spaces/how-to/migrate/">migrating a bucket from another cloud service provider</a>.</p>
+    <p><p>App Platform&rsquo;s new <a href="/products/app-platform/getting-started/deploy-sample-apps/">sample app deployment feature</a> is now in <a href="/platform/product-lifecycle/">General Availability</a>. This allows you to quickly copy a sample app into a new repo on your GitHub account and then deploy it to App Platform.</p>
 </p>
-    </li></ul><h3 id="10-october-2024">10 October 2024</h3>
+    </li></ul><h3 id="29-october-2024">29 October 2024</h3>
 <ul><li>
-    <p><p>A <a href="https://discourse.ubuntu.com/t/oracular-oriole-release-notes/44878">Ubuntu 24.10</a> (<code>ubuntu-24-10-x64</code>) base image is now available in the control panel and via the API.</p>
+    <p><p>You can now <a href="/products/app-platform/how-to/maintenance-mode/">configure maintenance mode for apps</a> on App Platform. This allows you to take your app offline for maintenance and serve a maintenance page to your users.</p>
 </p>
-    </li></ul><h3 id="4-october-2024">4 October 2024</h3>
+    </li><li>
+    <p><p>Forwarding cluster event logs from your DOKS cluster to your <a href="/products/databases/opensearch/how-to/create/">DigitalOcean Managed OpenSearch cluster</a> is now in <a href="/platform/product-lifecycle/#general-availability">general availability</a>. You can forward logs using the <a href="/products/kubernetes/how-to/forward-logs/">control panel</a> or the <a href="/reference/api/api-reference/#tag/Kubernetes">API</a>.</p>
+</p>
+    </li><li>
+    <p><p><a href="/products/app-platform/how-to/forward-logs/">Forwarding logs</a> from your App Platform app to your <a href="/products/databases/opensearch/how-to/create/">DigitalOcean Managed OpenSearch cluster</a> is now in <a href="/platform/product-lifecycle/#general-availability">general availability</a>.</p>
+</p>
+    </li></ul><h3 id="23-october-2024">23 October 2024</h3>
 <ul><li>
-    <p><p>Daily backups are now available in BLR1.</p>
+    <p><p>App Platform now supports HTTP/3 at edge servers, allowing faster and more secure connections between your application and your users. You do not need to make any changes to your application to use HTTP/3.</p>
+</p>
+    </li><li>
+    <p><p>App Platform now <a href="/products/app-platform/how-to/configure-http2/">supports the HTTP/2 protocol</a>. This allows you to use <a href="https://grpc.io/about">gRPC</a>, multiplexing, and other HTTP/2 features.</p>
+</p>
+    </li><li>
+    <p><p>The DigitalOcean Marketplace now offers <a href="/release-notes/2024/10/1-click-models/">1-Click Models powered by Hugging Face</a>. 1-Click Models let you deploy third-party AI models directly to GPU Droplets.</p>
 </p>
     </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

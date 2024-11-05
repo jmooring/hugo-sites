@@ -2,18 +2,18 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Content-Type: text/html
-Date: Tue, 15 Oct 2024 14:31:23 GMT
-Etag: "3b29c-624831468eb80"
-Last-Modified: Tue, 15 Oct 2024 12:27:42 GMT
+Date: Tue, 05 Nov 2024 16:20:52 GMT
+Etag: "3b2b8-625a423c15140"
+Last-Modified: Tue, 29 Oct 2024 21:19:25 GMT
 Server: Apache/2.4.62 (Unix)
-Set-Cookie: nlbi_2333592_2975153=0glzKphnF2ffDC3pzIjl3AAAAAB7jlf4xMkFghF7Adbrs6s8; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: visid_incap_2333592=GESg9LY+SVSqMAjquI7Rj7p8DmcAAAAAQUIPAAAAAABF4D/HL09QZ8bgZmJsm2qo; expires=Wed, 15 Oct 2025 07:56:42 GMT; HttpOnly; path=/; Domain=.redis.io
-Set-Cookie: incap_ses_171_2333592=DEm4FOJidA1IKo5cwoNfArp8DmcAAAAAIsdq0mwYpo4awgI4I1D3xw==; path=/; Domain=.redis.io
+Set-Cookie: nlbi_2333592_2975153=jZe2TQu+ckPP8PFMzIjl3AAAAABfg7qlWA6pyUHvPaTLkjV3; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: visid_incap_2333592=cqrdPJ6pQ0GDm9mjNOIoaeRFKmcAAAAAQUIPAAAAAAA9VMCOeCBVXlOkIOQglkVn; expires=Tue, 04 Nov 2025 22:23:10 GMT; HttpOnly; path=/; Domain=.redis.io
+Set-Cookie: incap_ses_801_2333592=tPxKCKiisD5+8L01W7kdC+RFKmcAAAAAwqNXqRxG+jTW3ccKmSs8DQ==; path=/; Domain=.redis.io
 Via: 1.1 google
 X-Cdn: Imperva
-X-Etags-1: "3b29c-624831468eb80"
-X-Etags-2: "3b29c-624831468eb80"
-X-Iinfo: 52-224329227-224284761 pNYy RT(1729002682489 68) q(0 0 0 1) r(1 1) U24
+X-Etags-1: "3b2b8-625a423c15140"
+X-Etags-2: "3b2b8-625a423c15140"
+X-Iinfo: 11-50349899-50282524 pNYN RT(1730823651726 286) q(0 0 0 0) r(2 2) U24
 
 <!doctype html>
 <html lang="en" class="scroll-smooth w-full">
@@ -1139,8 +1139,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <script>
     window.onload = function(){
         var currentUrl = window.location.href
-        const regex_kubernetes = new RegExp('/docs/latest/operate/kubernetes/.*')
-        const regex_rs = new RegExp('/docs/latest/operate/rs/.*')
+        const regex_kubernetes = new RegExp('/docs/(latest|staging\/.+)/operate/kubernetes/.*')
+        const regex_rs = new RegExp('/docs/(latest|staging\/.+)/operate/rs/.*')
 
         if (regex_kubernetes.test(currentUrl)){
             
@@ -1859,5 +1859,5 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener('submit', submitHandler)
   })()
 </script>
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=844517881" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=68793359" async></script></body>
 </html>
