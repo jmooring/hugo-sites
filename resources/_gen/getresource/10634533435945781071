@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8dde2c598f1a6828-SEA
+Cf-Ray: 8e187c44085aba1b-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Tue, 05 Nov 2024 16:20:48 GMT
-Last-Modified: Mon, 04 Nov 2024 17:11:39 GMT
+Date: Tue, 12 Nov 2024 18:11:36 GMT
+Last-Modified: Tue, 12 Nov 2024 17:37:20 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=Lj9nG7uu1P5s4I124o3prX18OC2hWPrVROjYEvmrojw-1730823648-1.0.1.1-S.J7YevjTRRX4rZe4Az5MQ194HVEjMgO74xNQt_Y6DjTyAyoI8FePuq65bYn_5zQj1Rl2nfP5XMeYMsj1KwMUQ; path=/; expires=Tue, 05-Nov-24 16:50:48 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=d3ZxjcHzEvv.bOnXI_zOLzXsQf_X3CilnXJ.NNIHD6U-1730823648-1.0.1.1-pR7Bu4al0n8nZMTcrJAlF1UoR8tJYOhQK_aSOihgCOHTrHQKhANKUtsEWirjo63K9vgZ2qDmBBAwBjRnHtHiIngR0Ij4XWRJl5Ua_kBkDz4; path=/; expires=Tue, 05-Nov-24 16:50:48 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=zoqNeNIy279kLIOxhzBzhaCs1ZQy_LhonV5jS4FBeqo-1731435095-1.0.1.1-OxftbAqaT5MvGarWlm.lgHEEUrty5zF90H1LUAxJNM9ie1enHtMh6.bT7DPgt95Xh6SUvAzbJTuNClafXwMcZw; path=/; expires=Tue, 12-Nov-24 18:41:35 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=FV9mDl20hWLOfdU.FbOVyFOu0QGGKnvHoBtrFtx9Psg-1731435096-1.0.1.1-VWw6TJK89Pm_jqyE4yMHgyserSnwB59HkvyozEAqcsWZ4ssOF0RskqL7TzYrspoNTsbEnT2ckqmWAIZ4NbXYlLc.QioqgyzfaVkzLX_3lCE; path=/; expires=Tue, 12-Nov-24 18:41:36 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
-X-Do-App-Origin: 278230ee-e6a3-11ec-b1dc-0c42a19a82a7
+X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
 X-Do-Orig-Status: 200
-X-Etags-1: 0ed7f7e1b6ca7a6620ac4b84efd77d22
-X-Etags-2: 0ed7f7e1b6ca7a6620ac4b84efd77d22
+X-Etags-1: e913c2cb2cda9fc481b9c687ad0e078a
+X-Etags-2: e913c2cb2cda9fc481b9c687ad0e078a
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
 
@@ -301,7 +301,11 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 
                 <div class="latest-updates">
                     <section><h2 id="latest-updates">Latest Updates</h2>
-<h3 id="1-november-2024">1 November 2024</h3>
+<h3 id="12-november-2024">12 November 2024</h3>
+<ul><li>
+    <p><p>Scalable storage for MongoDB clusters is now in general availability.</p>
+</p>
+    </li></ul><h3 id="1-november-2024">1 November 2024</h3>
 <ul><li>
     <p><p>App Platform&rsquo;s new <a href="/products/app-platform/getting-started/deploy-sample-apps/">sample app deployment feature</a> is now in <a href="/platform/product-lifecycle/">General Availability</a>. This allows you to quickly copy a sample app into a new repo on your GitHub account and then deploy it to App Platform.</p>
 </p>
@@ -314,16 +318,6 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 </p>
     </li><li>
     <p><p><a href="/products/app-platform/how-to/forward-logs/">Forwarding logs</a> from your App Platform app to your <a href="/products/databases/opensearch/how-to/create/">DigitalOcean Managed OpenSearch cluster</a> is now in <a href="/platform/product-lifecycle/#general-availability">general availability</a>.</p>
-</p>
-    </li></ul><h3 id="23-october-2024">23 October 2024</h3>
-<ul><li>
-    <p><p>App Platform now supports HTTP/3 at edge servers, allowing faster and more secure connections between your application and your users. You do not need to make any changes to your application to use HTTP/3.</p>
-</p>
-    </li><li>
-    <p><p>App Platform now <a href="/products/app-platform/how-to/configure-http2/">supports the HTTP/2 protocol</a>. This allows you to use <a href="https://grpc.io/about">gRPC</a>, multiplexing, and other HTTP/2 features.</p>
-</p>
-    </li><li>
-    <p><p>The DigitalOcean Marketplace now offers <a href="/release-notes/2024/10/1-click-models/">1-Click Models powered by Hugging Face</a>. 1-Click Models let you deploy third-party AI models directly to GPU Droplets.</p>
 </p>
     </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

@@ -1,19 +1,20 @@
 HTTP/2.0 200 OK
+Age: 25049
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: max-age=14400, must-revalidate
-Cf-Apo-Via: origin,miss
-Cf-Cache-Status: MISS
+Cf-Apo-Via: tcache
+Cf-Cache-Status: HIT
 Cf-Edge-Cache: cache,platform=wordpress
-Cf-Ray: 8dde2c749a5d683e-SEA
+Cf-Ray: 8e187c6bbdb97205-SEA
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 05 Nov 2024 16:20:52 GMT
-Last-Modified: Tue, 05 Nov 2024 15:47:40 GMT
+Date: Tue, 12 Nov 2024 18:11:42 GMT
+Last-Modified: Tue, 12 Nov 2024 09:27:37 GMT
 Link: <https://jeremyfoster.ca/wp-json/>; rel="https://api.w.org/", <https://jeremyfoster.ca/wp-json/wp/v2/pages/24>; rel="alternate"; title="JSON"; type="application/json", <https://jeremyfoster.ca/>; rel=shortlink
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9cVhGShIpW0XehfVZeFuRWbaAwncD%2B5%2FzH1tiO8pGgBmkltLi3AqRobnG7LDB2OTamy9kqRPi2Nxqq6wHSs4i82OSkDtO1F9OO5t%2BNtatDLNcA92uaNFDab6TEPsCVlbhA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=t5SuxTHUVeo34eBKj%2F9oSWjyurdaxiBtEa85gZb3NJr1VMdfnXTOgJ3vHVLWAFe2Qy1eRDfiiF%2Fdn7mL1zEMisqoSLcC6NUGX0BZmgWl8hqMPaC5APyNWaJ78e9ft%2BJIbg%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Server-Timing: wp-before-template;dur=180.75
-Server-Timing: cfL4;desc="?proto=TCP&rtt=7781&sent=6&recv=7&lost=0&retrans=0&sent_bytes=3013&recv_bytes=588&delivery_rate=705310&cwnd=189&unsent_bytes=0&cid=5ea3498c0aa15ddd&ts=75&x=0"
+Server-Timing: wp-before-template;dur=201.89
+Server-Timing: cfL4;desc="?proto=TCP&rtt=10230&sent=6&recv=7&lost=0&retrans=0&sent_bytes=3012&recv_bytes=588&delivery_rate=596712&cwnd=251&unsent_bytes=0&cid=b6e2139e511473e6&ts=65&x=0"
 Strict-Transport-Security: max-age=2592000; includeSubDomains; preload
 Vary: Accept-Encoding, Accept-Encoding, Accept-Encoding, Accept-Encoding
 X-Cache: HIT: 1

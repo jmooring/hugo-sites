@@ -1,23 +1,23 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
-Age: 5203
+Age: 33400
 Cache-Control: max_age=3600
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com; script-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com blob: 'unsafe-eval' 'unsafe-inline' cdnjs.cloudflare.com stackpath.bootstrapcdn.com www.googletagmanager.com polyfill.io unpkg.com storage.googleapis.com *.google-analytics.com www.snapengage.com code.jquery.com cdn.jsdelivr.net api.mapbox.com cdn.skypack.dev d3js.org cse.google.com www.google.com maps.googleapis.com partner.talk.naver.com ssl.pstatic.net; font-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com data: fonts.gstatic.com cdnjs.cloudflare.com unpkg.com storage.googleapis.com; style-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com 'unsafe-inline' fonts.googleapis.com cdnjs.cloudflare.com hosteduxprod.blob.core.windows.net www.google.com ssl.pstatic.net; img-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com https://* data:; connect-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com api.mapbox.com *.google-analytics.com cdn.jsdelivr.net www.snapengage.com ui.customsearch.ai maps.googleapis.com wss://cloudzoo.rhino3d.com; frame-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com www.google.com
 Content-Type: text/html; charset=utf-8
-Date: Tue, 05 Nov 2024 14:54:32 GMT
+Date: Tue, 12 Nov 2024 08:55:32 GMT
 Etag: W/"759b8e64e58da85b25405d4f28ae64d3"
-Last-Modified: Tue, 05 Nov 2024 14:52:33 GMT
+Last-Modified: Tue, 12 Nov 2024 08:36:12 GMT
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Permissions-Policy: geolocation=(self)
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730818472&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=%2BQX4msjs2WeiY5%2FKtpxz4fAfyEXbqbkQhuZeGNw9fyU%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730818472&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=%2BQX4msjs2WeiY5%2FKtpxz4fAfyEXbqbkQhuZeGNw9fyU%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731401732&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=555RNGHoMdJoLnn%2Ba%2F0cy5oQKMaYY7%2Fb4VkTueYvhaw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731401732&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=555RNGHoMdJoLnn%2Ba%2F0cy5oQKMaYY7%2Fb4VkTueYvhaw%3D
 Server: gunicorn/20.0.4
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-Via: 1.1 vegur, 1.1 2eb6c9b59172517e31c70a81501cb2fc.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: uqWJUydPhy1ToujUgwIaitr3JYW11IAMl9IpgMPyKyXBmtAshWJxnA==
+Via: 1.1 vegur, 1.1 40395c9e626aaaefe35a638d804ce9e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: M-ZnYLzef-1NWBd314Cu2h8PmL6_AVHn4EEyg0ofh80bDajX469p6g==
 X-Amz-Cf-Pop: SEA900-P2
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
@@ -27,7 +27,7 @@ X-Frame-Options: SAMEORIGIN
 X-Origin-Url: http://source-rhino3d-com.s3-website-us-east-1.amazonaws.com/worldwide/en/napa/
 X-Proxy-Rule: regions
 
-11a75
+11a48
 <!DOCTYPE html>
 <html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -196,7 +196,7 @@ X-Proxy-Rule: regions
       </span><span class="logged_in" style="height: 24px">
           <label class="nav-dropdown">
 
-            <a class="dd-button" style="background-image: url(https://www.rhino3d.com'https:/upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg')">
+            <a class="dd-button" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg')">
               <div style="width: 100%; height: 100%;">
                 <img class = "avatar" src="https://www.rhino3d.com/user/avatar/" alt="User Avatar">
               </div>
@@ -318,7 +318,7 @@ X-Proxy-Rule: regions
 
     TOML.parse("\n\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-lift-foils.png\u0022\n  caption = \u0022Lift Foils\u0022\n  captionLink = \u0022https:\/\/liftfoils.com\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-surf-foil.png\u0022\n  caption = \u0022Kyle Houchens\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/theoutside\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-amp.png\u0022\n  caption = \u0022Kyle Houchens\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/theoutside\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-bike.png\u0022\n  caption = \u0022Kyle Houchens\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/theoutside\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-ring.png\u0022\n  caption = \u0022Ring by T Shinya\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/t.shinya\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-shoe.png\u0022\n  caption = \u0022Kyle Houchens\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/theoutside\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-carapacks.png\u0022\n  caption = \u0022University of Applied Science Biberach, Simon Vorhammer\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/t\/carapacks-pavillon\/165506\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-bus.png\u0022\n  caption = \u0022Kyle Houchens\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/u\/theoutside\/activity\/portfolio\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-louisiana-sports-trahan.png\u0022\n  caption = \u0022Louisiana State Museum, Trahan Architects. Photo: Timothy Hursley\u0022\n  captionLink = \u0022https:\/\/trahanarchitects.com\/\u0022\n  [[items]]\n  image = \u0022https:\/\/www.rhino3d.com\/8\/v8-motorcycle.png\u0022\n  caption = \u0022Concept Bike by SabinoDesign\u0022\n  captionLink = \u0022https:\/\/discourse.mcneel.com\/t\/bike-concept\/139147\u0022\n\n").items.forEach((item,i) =>{
       const slide = document.createElement("div");
-      slide.style.backgroundImage = `url(https://www.rhino3d.com${item.image})`
+      slide.style.backgroundImage = `url(${item.image})`
       if (item.caption){
         const caption = item.captionLink ? document.createElement("a") : document.createElement("p");
         caption.classList.add('caption');
