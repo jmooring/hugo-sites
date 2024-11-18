@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Tue, 12 Nov 2024 18:11:39 GMT
-Etag: "668e-626b885754bd5-gzip"
-Last-Modified: Tue, 12 Nov 2024 15:03:35 GMT
+Date: Mon, 18 Nov 2024 19:49:36 GMT
+Etag: "7903-6271e296df463-gzip"
+Last-Modified: Sun, 17 Nov 2024 16:19:17 GMT
 Server: Apache
 Vary: Accept-Encoding
-X-Etags-1: "668e-626b885754bd5-gzip"
-X-Etags-2: "668e-626b885754bd5-gzip"
+X-Etags-1: "7903-6271e296df463-gzip"
+X-Etags-2: "7903-6271e296df463-gzip"
 
 <!DOCTYPE html>
 <html lang="de"><head>
@@ -116,6 +116,143 @@ X-Etags-2: "668e-626b885754bd5-gzip"
 </script>
 
 <div id="page-main"><div id="content"><div class="post">
+
+		<div class="post-header">
+			<h1 class="post-title"><a href="/technik/betriebssysteme/unattended-upgrades/">unattended-upgrades</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">16. November 2024</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+		<div class="post-body">
+	<p>In der Vergangenheit habe ich Server so konfiguriert, daß Updates automatisiert über <a href="http://iuk/index.php/2019/09/09/updates-mit-cron-apt/"   class="genericon icon-extlink">cron-apt</a> heruntergeladen und installiert wurden. Seit der Einführung von systemd steht mit den <a href="https://wiki.debian.org/UnattendedUpgrades"   class="genericon icon-extlink">uattended-upgrades</a> eine weitere Möglichkeit zur Verfügung, welche eine detailliertere Konfiguration erlaubt.</p>
+<div class="codeblock">
+	<code>$ sudo apt-get install unattended-upgrades</code>
+</div>
+<p>Die Grundkonfiguration erfolgt über die Datei &ldquo;/etc/apt/apt.conf.d/50unattended-upgrades&rdquo;, in der nach erfolgter Installation zumindest die Parameter &ldquo;Unattended-Upgrade::Mail&rdquo; sowie &ldquo;Unattended-Upgrade::MailReport&rdquo; angepasst werden sollten.</p>
+<div class="codeblock"><div class="label genericon icon-document">/etc/apt/apt.conf.d/50unattended-upgrades</div>
+	<code>...
+Unattended-Upgrade::Mail &#34;an.wen.auch.immer@wo.auch.immer&#34;;
+...
+Unattended-Upgrade::MailReport &#34;always&#34;;
+...</code>
+</div>
+<p>&ldquo;Unattended-Upgrade::MailReport&rdquo; kann nach erfolgreicher Testphase auch wieder zurück auf den Default-Wert &ldquo;on-change&rdquo; gestellt werden, falls das tägliche &ldquo;es gab nix zu tun&rdquo; nervt.</p>
+<p>Um die Funktionalität zu aktivieren, kann entweder die Datei &ldquo;/etc/apt/apt.conf.d/20auto-upgrades&rdquo; manuell angepasst oder &ldquo;dpkg-reconfigure&rdquo; verwendet werden. Nach dem Aufruf von</p>
+<div class="codeblock">
+	<code>$ sudo dpkg-reconfigure unattended-upgrades</code>
+</div>
+<p>die Frage &ldquo;Aktualisierungen für Stable automatisch herunterladen und installieren?&rdquo; mit &ldquo;ja&rdquo; beantworten.</p>
+<p>Für einen Testlauf kann &ldquo;unattended-upgrade&rdquo; mit dem Parameter &ldquo;-d&rdquo; für Debug manuell gestartet werden:</p>
+<div class="codeblock">
+	<code>$ sudo unattended-upgrade -d</code>
+</div>
+<h2 id="anpassung-zeitsteuerung">Anpassung Zeitsteuerung</h2>
+<p>Der Zeitpunkt, zu dem das Herunterladen bzw. Installieren tatsächlich durchgeführt wird, lässt sich über zwei Overrides definieren. Wichtig ist hierbei, im ersten Schritt mit &ldquo;OnCalendar=&rdquo; erst einmal bestehende Einträge zu löschen, bevor dann die eigenen Werte gesetzt werden - sonst werden die angegebenen Werte zusätlich übernommen.</p>
+<div class="codeblock">
+	<code>$ sudo mkdir /etc/systemd/system/apt-daily.timer.d
+$ sudo vi /etc/systemd/system/apt-daily.timer.d/override.conf</code>
+</div>
+<div class="codeblock"><div class="label genericon icon-document">/etc/systemd/system/apt-daily.timer.d/override.conf</div>
+	<code>[Timer]
+OnCalendar=
+OnCalendar=04:00
+RandomizedDelaySec=0</code>
+</div>
+<div class="codeblock">
+	<code>$ sudo mkdir /etc/systemd/system/apt-daily-upgrade.timer.d
+$ sudo vi /etc/systemd/system/apt-daily-upgrade.timer.d/override.conf</code>
+</div>
+<div class="codeblock"><div class="label genericon icon-document">/etc/systemd/system/apt-daily-upgrade.timer.d/override.conf</div>
+	<code>[Timer]
+OnCalendar=
+OnCalendar=05:00
+RandomizedDelaySec=0</code>
+</div>
+<p>Anschließend müssen die geänderten Konfigurationsdateien noch eingelesen und die Timer neu gestartet werden:</p>
+<div class="codeblock">
+	<code>$ sudo systemctl daemon-reload
+$ sudo systemctl restart apt-daily.timer
+$ sudo systemctl restart apt-daily-upgrade.timer</code>
+</div>
+<p>Der Status der Einplanung lässt sich mittels &ldquo;systemctl&rdquo; einsehen</p>
+<div class="codeblock">
+	<code>$ sudo systemctl status apt-daily.timer
+● apt-daily.timer - Daily apt download activities
+     Loaded: loaded (/lib/systemd/system/apt-daily.timer; enabled; preset: enabled)
+    Drop-In: /etc/systemd/system/apt-daily.timer.d
+             └─override.conf
+     Active: active (waiting) since Tue 2024-09-17 11:29:25 CEST; 46s ago
+    Trigger: Wed 2024-09-18 04:00:00 CEST; 16h left
+   Triggers: ● apt-daily.service</code>
+</div>
+<div class="codeblock">
+	<code>$ sudo systemctl status apt-daily-upgrade.timer
+● apt-daily-upgrade.timer - Daily apt upgrade and clean activities
+     Loaded: loaded (/lib/systemd/system/apt-daily-upgrade.timer; enabled; preset: enabled)
+    Drop-In: /etc/systemd/system/apt-daily-upgrade.timer.d
+             └─override.conf
+     Active: active (waiting) since Tue 2024-09-17 11:29:33 CEST; 53s ago
+    Trigger: Wed 2024-09-18 05:00:00 CEST; 17h left
+   Triggers: ● apt-daily-upgrade.service</code>
+</div>
+<p>Was unattended-upgrades tatsächlich so angestellt hat, lässt sich auch mit Hilfe von &ldquo;journalctl&rdquo; auswerten:</p>
+<div class="codeblock">
+	<code>$ sudo journalctl --since yesterday -u apt-daily.service
+$ sudo journalctl --since yesterday -u apt-daily-upgrade.service</code>
+</div>
+<h2 id="drittanbieterquellen">Drittanbieterquellen</h2>
+<p>In der Standardkonfiguration aktualisiert unattended-upgrades nur die vom System bereitgestellten Quellen, alle weiteren Quellen müssen in der Datei &ldquo;/etc/apt/apt.conf.d/50unattended-upgrades&rdquo; noch hinzugefügt werden. Dies sieht man im Debug-Modus hier auch am Beispiel von &ldquo;zammad&rdquo;:</p>
+<div class="codeblock">
+	<code># unattended-upgrade -d | grep zammad
+Marking not allowed &lt;apt_pkg.PackageFile object: filename:&#39;/var/lib/apt/lists/dl.packager.io_srv_deb_zammad_zammad_stable_debian_dists_12_main_binary-amd64_Packages&#39;  a=,c=main,v=,o=https://packager.io/gh/zammad/zammad,l=Debian 12 packages for zammad/zammad arch=&#39;amd64&#39; site=&#39;dl.packager.io&#39; IndexType=&#39;Debian Package Index&#39; Size=56880 ID:33&gt; with -32768 pin
+Applying pin -32768 to package_file: &lt;apt_pkg.PackageFile object: filename:&#39;/var/lib/apt/lists/dl.packager.io_srv_deb_zammad_zammad_stable_debian_dists_12_main_binary-amd64_Packages&#39;  a=,c=main,v=,o=https://packager.io/gh/zammad/zammad,l=Debian 12 packages for zammad/zammad arch=&#39;amd64&#39; site=&#39;dl.packager.io&#39; IndexType=&#39;Debian Package Index&#39; Size=56880 ID:33&gt;
+Checking: zammad ([&lt;Origin component:&#39;main&#39; archive:&#39;&#39; origin:&#39;https://packager.io/gh/zammad/zammad&#39; label:&#39;Debian 12 packages for zammad/zammad&#39; site:&#39;dl.packager.io&#39; isTrusted:True&gt;])
+adjusting candidate version: zammad=6.3.1-1726553725.106af4c8.bookworm
+Package zammad has a higher version available, checking if it is from an allowed origin and is not pinned down.</code>
+</div>
+<p>Die benötigten Angaben kann man direkt aus der Debugausgabe entnehmen</p>
+<div class="codeblock">
+	<code>&#34;origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad&#34;</code>
+</div>
+<p>und die Zeile dann der Sektion &ldquo;Unattended-Upgrade::Origins-Pattern&rdquo; hinzufügen:</p>
+<div class="codeblock"><div class="label genericon icon-document">/etc/apt/apt.conf.d/50unattended-upgrades</div>
+	<code>Unattended-Upgrade::Origins-Pattern {
+...
+        &#34;origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad&#34;;
+...
+};</code>
+</div>
+<p>Anschließend wird Zammad wie geplant aktualisiert:</p>
+<div class="codeblock">
+	<code># unattended-upgrade -d | grep zammad
+Erlaubte Ursprünge sind: origin=Debian,codename=bookworm,label=Debian, origin=Debian,codename=bookworm,label=Debian-Security, origin=Debian,codename=bookworm-security,label=Debian-Security, origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad
+Checking: zammad ([&lt;Origin component:&#39;main&#39; archive:&#39;&#39; origin:&#39;https://packager.io/gh/zammad/zammad&#39; label:&#39;Debian 12 packages for zammad/zammad&#39; site:&#39;dl.packager.io&#39; isTrusted:True&gt;])
+pkgs that look like they should be upgraded: zammad
+...
+Pakete, welche aktualisiert werden: zammad
+...
+zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
+</div>
+
+</div>
+
+		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/apt/">apt</a> <span class="genericon icon-tag"></span><a href="/tag/apt-cron/">apt-cron</a> <span class="genericon icon-tag"></span><a href="/tag/systemd/">Systemd</a> <span class="genericon icon-tag"></span><a href="/tag/unattended-upgrades/">unattended-upgrades</a><div id="respond">
+	<form action="/kommentar/" method="post" id="commentform">
+			<input type="hidden" name="addcomment" value="1">
+			<input type="hidden" name="post_title" value="unattended-upgrades">
+			<input type="hidden" name="post_slug" value="unattended-upgrades">
+			<input type="hidden" name="post_url" value="/technik/betriebssysteme/unattended-upgrades/">
+			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
+	</form>
+</div></div>
+
+	</div><hr class="post-separator styled-separator" /><div class="post">
 
 		<div class="post-header">
 			<h1 class="post-title"><a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/">Saxon 2008-06-28 Bildergalerie</a></h1><div class="post-header-meta">
@@ -333,63 +470,6 @@ X-Etags-2: "668e-626b885754bd5-gzip"
 			<input type="hidden" name="post_title" value="Tankard 2008-06-28 Bildergalerie">
 			<input type="hidden" name="post_slug" value="tankard-2008-06-28-bildergalerie">
 			<input type="hidden" name="post_url" value="/musik/konzerte/tankard-2008-06-28-bildergalerie/">
-			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
-	</form>
-</div></div>
-
-	</div><hr class="post-separator styled-separator" /><div class="post">
-
-		<div class="post-header">
-			<h1 class="post-title"><a href="/technik/anwendungen/aa-genprof-meldet-error-include-file-etc-apparmord-libvirt-libvirt-uuidfiles-not-found/">aa-genprof meldet &#34;ERROR: Include file /etc/apparmor.d/libvirt/libvirt-UUID.files not found&#34;</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">29. Oktober 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/anwendungen/">Anwendungen</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-		<div class="post-body">
-	<p>Beim Start einer virtuellen Maschine wird normalerweise mit Hilfe von virt-aa-helper - je nach Bedarf - entweder ein neues Apparmor-Profil erzeugt oder ein bestehendes Profil für die zu startende Maschine modifiziert:</p>
-<blockquote>
-<p>When a VM/container is started, libvirtd decides whether to ask virt-aa-helper to create a new profile or modify an existing one. [<a href="https://gitlab.com/apparmor/apparmor/-/wikis/Libvirt"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Beim Stoppen der virtuellen Maschine sollte das Profil dann auch wieder entfernt werden:</p>
-<blockquote>
-<p>When the VM/container is shutdown, libvirtd asks virt-aa-helper to remove the profile, and virt-aa-helper unloads the profile from the kernel [<a href="https://gitlab.com/apparmor/apparmor/-/wikis/Libvirt"   class="genericon icon-extlink">Quelle</a>]</p>
-</blockquote>
-<p>Leider scheint virt-aa-helper beim Aufräumen aber schlampig zu arbeiten, denn während die Datei &ldquo;libvirt-UUID.files&rdquo; tatsächlich mit dem Stoppen der virtuellen Maschine aus dem Verzeichnis &ldquo;/etc/apparmor.d/libvirt/&rdquo; verschwindet, verbleibt die Datei &ldquo;libvirt-UUID&rdquo; dort weiterhin.</p>
-<p>Über genau diesen Schiefstand stoplert <a href="https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-genprof.8"   class="genericon icon-extlink">aa-genprof</a> beim Start, denn in &ldquo;libvirt-UUID&rdquo; ist ein Verweis auf die Datei &ldquo;libvirt-UUID.files&rdquo; enthalten, die aber nicht mehr existiert:</p>
-<div class="codeblock">
-	<code>#include &lt;libvirt/libvirt-UUID.files&gt;</code>
-</div>
-<p>Zur Lösung gibt es zwei Ansätze, die beide in der Vergangenheit zu keinen Komplikationen geführt haben:</p>
-<h2 id="erzeugen-der-fehlenden-datei">Erzeugen der fehlenden Datei</h2>
-<p>Um den Fehler zu beheben, kann z.B. über das &ldquo;touch&rdquo;-Kommando eine leere Datei mit dem gesuchten Namen erzeugt werden:</p>
-<div class="codeblock">
-	<code>$ sudo touch &#34;/etc/apparmor.d/libvirt/libvirt-UUID.files&#34;</code>
-</div>
-<p>Somit ist die Include-Bedingung erfüllt und aa-genprof startet ohne Fehlermeldung.</p>
-<h2 id="entfernen-der-vorhandenen-profilreste">Entfernen der vorhandenen Profilreste</h2>
-<p>Da beim nächsten Start der virtuellen Maschine bei Bedarf sowieso ein neues Profil angelegt wird, ist es auch gefahrlos möglich, die noch vorhandenen Profildateien zu entfernen:</p>
-<div class="codeblock">
-	<code>$ sudo rm &#34;/etc/apparmor.d/libvirt/libvirt-*&#34;</code>
-</div>
-<p>Es sollte allerdings darauf geachtet werden, den Ordner nicht komplett zu leeren oder gar zu löschen, da die darin enthaltenen Template-Dateien (&ldquo;TEMPLATE.lxc&rdquo; bzw &ldquo;TEMPLATE.qemu&rdquo;) werden von virt-aa-helper als Vorlage zum Erstellen neuer Profile verwendet.</p>
-<div class="box box-info">
-UUID ist Platzhalter für die UUID der jeweiligen virutellen Maschine, also z.B. &ldquo;libvirt-a47d1fb1-22f7-467d-ad14-36242f971df4&rdquo;
-</div>
-
-</div>
-
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/apparmor/">AppArmor</a> <span class="genericon icon-tag"></span><a href="/tag/aa-genprof/">aa-genprof</a> <span class="genericon icon-tag"></span><a href="/tag/libvirt/">libvirt</a><div id="respond">
-	<form action="/kommentar/" method="post" id="commentform">
-			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="aa-genprof meldet &#34;ERROR: Include file /etc/apparmor.d/libvirt/libvirt-UUID.files not found&#34;">
-			<input type="hidden" name="post_slug" value="aa-genprof-meldet-error-include-file-etc-apparmord-libvirt-libvirt-uuidfiles-not-found">
-			<input type="hidden" name="post_url" value="/technik/anwendungen/aa-genprof-meldet-error-include-file-etc-apparmord-libvirt-libvirt-uuidfiles-not-found/">
 			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
 	</form>
 </div></div>

@@ -4,22 +4,22 @@ Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=600
 Content-Type: text/html; charset=utf-8
-Date: Tue, 12 Nov 2024 18:11:40 GMT
-Etag: W/"67329e2c-4957"
-Expires: Tue, 12 Nov 2024 18:21:40 GMT
-Last-Modified: Tue, 12 Nov 2024 00:15:40 GMT
+Date: Mon, 18 Nov 2024 19:49:36 GMT
+Etag: W/"673b974a-4aad"
+Expires: Mon, 18 Nov 2024 19:59:36 GMT
+Last-Modified: Mon, 18 Nov 2024 19:36:42 GMT
 Server: GitHub.com
 Vary: Accept-Encoding
 Via: 1.1 varnish
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Etags-1: W/"67329e2c-4957"
-X-Etags-2: W/"67329e2c-4957"
-X-Fastly-Request-Id: 1c9e5ae93fb6641eae510ac11b74a2e611102640
-X-Github-Request-Id: 6700:10E7:E1E3A3:E75CAF:67339A5B
+X-Etags-1: W/"673b974a-4aad"
+X-Etags-2: W/"673b974a-4aad"
+X-Fastly-Request-Id: e1992ef45d8aff9cb969c9bf9aee37176866aadf
+X-Github-Request-Id: 7F33:250DC9:70841B:72FA08:673B9A50
 X-Proxy-Cache: MISS
-X-Served-By: cache-bfi-kbfi7400092-BFI
-X-Timer: S1731435100.357983,VS0,VE77
+X-Served-By: cache-bfi-kbfi7400082-BFI
+X-Timer: S1731959377.879309,VS0,VE67
 
 <!DOCTYPE html>
 <html lang="de">
@@ -42,14 +42,14 @@ X-Timer: S1731435100.357983,VS0,VE77
 
 
 <meta name="generator" content="Hugo 0.138.0">
-<meta name="projektemacher.org:build-date" content="2024-11-11 23:43:13.35069162 &#43;0000 UTC m=&#43;0.791798413"><meta name="projektemacher.org:git-commit" content=""><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;297&#34;,&#34;latest&#34;:&#34;2024-12-30T11:33:44&#43;02:00&#34;}">
+<meta name="projektemacher.org:build-date" content="2024-11-18 19:00:30.24732706 &#43;0000 UTC m=&#43;0.810886284"><meta name="projektemacher.org:git-commit" content=""><meta name="projektemacher.org:stats" content="{&#34;count&#34;:&#34;303&#34;,&#34;latest&#34;:&#34;2024-12-30T11:33:44&#43;02:00&#34;}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
 <link rel="icon" type="image/svg+xml" href="https://christianmahnke.de/images/cm.svg">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
-    <meta name="theme-color" content="#701611"><link href="https://christianmahnke.de/css/3dcde2e700baa65d3814003bfc8fa7f9.min.3b22ca3e7a41eb5cf20172c8a9ac5582629aadab8abba2f590441b0fe0463d78.css" rel="stylesheet" integrity="sha256-OyLKPnpB61zyAXLIqaxVgmKarauKu6L1kEQbD&#43;BGPXg=">
-<script src="https://christianmahnke.de/js/5d85c20c8f862f9ecfa0aee0edbc8fe4.min.c08290922e81dc13726d4f4b71e73c7efce99a189c51ccc2bbb88efc942ad324.js" integrity="sha256-wIKQki6B3BNybU9Lcec8fvzpmhicUczCu7iO/JQq0yQ="></script>
+    <meta name="theme-color" content="#701611"><link href="https://christianmahnke.de/css/3dcde2e700baa65d3814003bfc8fa7f9.min.9a6d16f2406b5e71dd768605b2d3f08009feac5f0003352936262ed37af494ca.css" rel="stylesheet" integrity="sha256-mm0W8kBrXnHddoYFstPwgAn&#43;rF8AAzUpNiYu03r0lMo=">
+<script src="https://christianmahnke.de/js/5d85c20c8f862f9ecfa0aee0edbc8fe4.min.55d99ef0d6cae82e2b7259ec9d73a2529e748a2278e3b60c98e43a89ef4664b7.js" integrity="sha256-Vdme8NbK6C4rclnsnXOiUp50iiJ447YMmOQ6ie9GZLc="></script>
 <link rel="icon" type="image/png" href="https://christianmahnke.de/images/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://christianmahnke.de/images/favicon-16.png" sizes="16x16">
     
@@ -108,58 +108,60 @@ X-Timer: S1731435100.357983,VS0,VE77
 </div>
 
 <script>
-  $(document).ready(function() {
-      if (navigator.userAgent.indexOf("Firefox") > -1) {
-          $(".me").css({
-              "filter": "brightness(.75)"
-          })
-      }
 
-      $(".me").on("click", function() {
-          $(this).css({
-              "mix-blend-mode": "luminosity"
-          });
+  document.addEventListener('DOMContentLoaded', () => {
+    const bouncer = document.querySelector('.bouncer');
+    bouncer.style.opacity = "100%";
+    
+    const me = document.querySelector('.me');
+    if (navigator.userAgent.indexOf('Firefox') > -1) {
+      me.style.filter = 'brightness(0.75)';
+    }
+
+    me.addEventListener('click', () => {
+      me.style.mixBlendMode = 'luminosity';
+    });
+    if (window.scrollY > 0) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    bouncer.addEventListener('click', () => {
+      bouncer.style.display = 'none';
+      var scrollTo = window.innerHeight;
+      window.scrollTo({
+        top: (Math.floor(window.scrollY / scrollTo) + 1) * scrollTo,
+        behavior: 'smooth'
       });
-      
-
-      if ($(document).scrollTop() > 0) {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-      $(".bouncer").on("click", function() {
-          $(this).css({"display": "none"});
-          var scrollTo = $(window).height();
-          $('html, body').animate({
-              scrollTop: (Math.floor($(window).scrollTop() / scrollTo) + 1) * scrollTo
-          }, 400);
-      });
-
+    });
   });
 
-  $(window).on("scroll", function() {
-      var pixs = $(document).scrollTop() * 2;
-      if (pixs > 100) {
-          pixs = 0;
-      } else {
-          pixs = 100 - pixs;
-      }
-      $(".hero").css({
-          "filter": "grayscale(" + pixs + "%)"
-      });
-      $(".bouncer").css({"opacity": pixs + "%"});
-      if (pixs <= 0) {
-          $(".bouncer").css({"display": "none"});
-      }
-      var brightness;
-      brightness = .75 + ((.8 - .75) / 100) * pixs;
 
-      if (navigator.userAgent.indexOf("Firefox") > -1) {
-          brightness = .9 - ((0.9 - .75) / 100) * pixs;
-      }
+  window.addEventListener('scroll', () => {
+    var pixs = window.scrollY * 2;
+    if (pixs > 100) {
+        pixs = 0;
+    } else {
+        pixs = 100 - pixs;
+    }
+    
+    const hero = document.querySelector('.hero');
+    hero.style.filter = `grayscale(${pixs}%)`;
 
-      $(".me").css({
-          "filter": "brightness(" + brightness + ")"
-      });
+    const bouncer = document.querySelector('.bouncer');
+    bouncer.style.opacity = `${pixs}%`;
+
+    if (pixs <= 0) {
+      bouncer.style.display = "none";
+    } else {
+      bouncer.style.display = "block";
+    }
+    const me = document.querySelector('.me');
+    var brightness = .75 + ((.8 - .75) / 100) * pixs;
+    if (navigator.userAgent.indexOf('Firefox') > -1) {
+      brightness = .9 - ((0.9 - .75) / 100) * pixs;
+    }
+    me.style.filter = `brightness(${brightness})`;
   });
+
   
   var lang = 'en';
   if (document.documentElement.lang !== undefined) {
@@ -167,8 +169,8 @@ X-Timer: S1731435100.357983,VS0,VE77
       const locale = new Intl.Locale(document.documentElement.lang);
       lang = locale.language;
   }
-  const titles = { 'de': ["Creative Technologist"],
-                   'en': ["Creative Technologist"]};
+  const titles = { 'de': ["Creative Technologist", "Digital Humanities Communicator"],
+                   'en': ["Creative Technologist", "Digital Humanities Communicator"]};
   const chance = 3;
   const index = Math.floor(Math.random() * (chance * titles[lang].length + 1))
   if (index < titles[lang].length) {
@@ -242,6 +244,7 @@ X-Timer: S1731435100.357983,VS0,VE77
 </ul>
 <p>Dazu sind im Blog mehrere Einzelexperimente zu finden:</p>
 <ul>
+<li><a href="https://christianmahnke.de/post/hdr-radiography-visualisation/">HDR Bilder zur Visualisierung von Röntgenuntersuchungen alter Gemälde</a></li>
 <li><a href="https://christianmahnke.de/post/haptic-feedback/" target="_blank">Haptisches Feedback für Stoffmuster</a> - IIIF Annotationen mit Vibration</li>
 <li><a href="https://christianmahnke.de/post/uv-photogrammetry/" target="_blank">Uranglas in 3D</a> - UV-Photogrammetrie</li>
 <li><a href="https://christianmahnke.de/post/hdr-iiif/" target="_blank">Eine leuchtende Tapete</a> - HDR IIIF</li>

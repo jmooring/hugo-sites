@@ -1,22 +1,22 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 2459
+Age: 0
 Content-Type: text/html
-Date: Tue, 12 Nov 2024 18:11:51 GMT
-Etag: "5c3e-6261b5e0ac300-gzip"
-Last-Modified: Mon, 04 Nov 2024 19:34:04 GMT
+Date: Mon, 18 Nov 2024 19:49:48 GMT
+Etag: "5c14-626cdd603fa40-gzip"
+Last-Modified: Wed, 13 Nov 2024 16:29:21 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31557600
 Vary: Accept-Encoding
 Via: 1.1 varnish
-X-Cache: HIT
+X-Cache: MISS
 X-Cache-Hits: 0
 X-Content-Type-Options: nosniff
-X-Etags-1: "5c3e-6261b5e0ac300-gzip"
-X-Etags-2: "5c3e-6261b5e0ac300-gzip"
+X-Etags-1: "5c14-626cdd603fa40-gzip"
+X-Etags-2: "5c14-626cdd603fa40-gzip"
 X-Frame-Options: SAMEORIGIN
-X-Served-By: cache-bfi-krnt7300095-BFI
-X-Timer: S1731435112.833126,VS0,VE1
+X-Served-By: cache-bfi-kbfi7400020-BFI
+X-Timer: S1731959388.279697,VS0,VE243
 
 <!DOCTYPE html>
 <html class="no-js" lang="en-us">
@@ -30,7 +30,7 @@ X-Timer: S1731435112.833126,VS0,VE1
   <meta property="og:title" content="ISC" />
 <meta property="og:description" content="Open source software information, blogs, events, downloads and support" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-10-22T00:00:00+00:00" />
+<meta property="og:url" content="https://www.isc.org/" /><meta property="og:updated_time" content="2024-11-13T00:00:00+00:00" />
 
 
   <!-- mobile responsive meta -->
@@ -391,6 +391,21 @@ X-Timer: S1731435112.833126,VS0,VE1
       <!-- blog-post -->
       <article class="col-md-6 mb-4">
         <div class="blog-post overlay">
+          <img class="img-fluid w-100" src="/images/blog/Storklabel.jpg" 
+            onerror="this.onerror = null; this.src='\/Stork logo'"  />
+          <div class="post-content">
+            <a href="/blogs/stork-2-0/">
+              <h4 class="text-white">Stork 2.0: Open Source DHCP Management Tool</h4>
+            </a>
+            <p class="text-white">ISC launched the Stork management application almost exactly five years ago, in November 2019, as an experimental tool.</p>
+            <a href="/blogs/stork-2-0/" class="btn btn-sm btn-outline-primary">Read</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- blog-post -->
+      <article class="col-md-6 mb-4">
+        <div class="blog-post overlay">
           <img class="img-fluid w-100" src="/images/blog/bind9label.jpg" 
             onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
           <div class="post-content">
@@ -429,22 +444,6 @@ X-Timer: S1731435112.833126,VS0,VE1
             </a>
             <p class="text-white">Kea/DHCP news At the end of May, we released Kea 2.</p>
             <a href="/blogs/2024-summer-update/" class="btn btn-sm btn-outline-primary">Read</a>
-          </div>
-        </div>
-      </article>
-      
-      <!-- blog-post -->
-      <article class="col-md-6 mb-4">
-        <div class="blog-post overlay">
-          <img class="img-fluid w-100" src="/images/blog/tinyblue.jpg" 
-            onerror="this.onerror = null; this.src='\/BIND 9 logo image'"  />
-          <div class="post-content">
-            <a href="/blogs/2024-pqc-study/">
-              <h4 class="text-white">BIND &amp; liboqs: A PQC DNSSEC Field Study</h4>
-            </a>
-            <p class="text-white">Authors: Jason Goertzen, David Joseph, Peter Thomassen
-BIND &amp; liboqs: A PQC DNSSEC Field Study The DNS protocol is the internet’s phonebook.</p>
-            <a href="/blogs/2024-pqc-study/" class="btn btn-sm btn-outline-primary">Read</a>
           </div>
         </div>
       </article>

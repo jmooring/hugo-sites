@@ -1,23 +1,23 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 1102594
+Age: 6429
 Cache-Control: public, max-age=0, must-revalidate
 Content-Disposition: inline
 Content-Type: text/html; charset=utf-8
-Date: Tue, 12 Nov 2024 18:11:45 GMT
-Etag: W/"f0581767e0a936a906e42359551267ce"
-Last-Modified: Wed, 30 Oct 2024 23:55:11 GMT
+Date: Mon, 18 Nov 2024 19:49:42 GMT
+Etag: W/"6811106d5acca9ed6da0f4b0964780e7"
+Last-Modified: Mon, 18 Nov 2024 18:02:33 GMT
 Server: Vercel
 Strict-Transport-Security: max-age=63072000
-X-Etags-1: W/"f0581767e0a936a906e42359551267ce"
-X-Etags-2: W/"f0581767e0a936a906e42359551267ce"
+X-Etags-1: W/"6811106d5acca9ed6da0f4b0964780e7"
+X-Etags-2: W/"6811106d5acca9ed6da0f4b0964780e7"
 X-Vercel-Cache: HIT
-X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
+X-Vercel-Id: pdx1::jq2x9-1731959382897-06c07da34182
 
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
   <head>
-<meta name="generator" content="Hugo 0.91.2" />
+<meta name="generator" content="Hugo 0.109.0">
 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -87,8 +87,6 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 
 
 
-
-<link rel="stylesheet" href="/css/drawer.min.css" media="screen" />
 <link rel="stylesheet" href="/css/advsearch.min.css" media="screen" />
 <link rel="stylesheet" href="/css/bulma.min.css" media="screen" />
 <link rel="stylesheet" href="/css/brand.min.css" media="screen" />
@@ -119,6 +117,17 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 
 <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-bundle.js"></script>
 <script src="https://unpkg.com/@statuspage/status-widget/dist/index.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('keydown', (event) => {
+      if (event.key === '/' && window.plugSDK) {
+        event.preventDefault();
+        window.plugSDK.toggleSearchAgent();
+      }
+    });
+  });
+</script>
 
 
 <meta name="google-site-verification" content="xsUs5j8dE0diO-cTwz4nklHOLMuUHvVlvNooAj7_szY" />
@@ -155,9 +164,9 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
         display: block;
         color: white;
     }
-    
+
     .navbar-item {
-        color:white !important;
+        color: white !important;
         padding-top: 0%;
     }
 
@@ -170,99 +179,120 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
     }
 
     div#cmdk-wrapper-div {
-    background-color: rgba(255, 255, 255, 0.4) !important
-}
-
+        background-color: rgba(255, 255, 255, 0.4) !important
+    }
 </style>
 
-<nav class="navbar is-flex is-black pt-3" role="navigation" aria-label="main navigation">
+<nav class="navbar is-flex is-black pt-3 is-justify-content-space-between" role="navigation" aria-label="main navigation">
     <div class="navbar-brand ml-3">
-      <a class="navbar-item mt-1 ml-6 mb-1 is-hidden-mobile" href="/">
-        <svg class="bolt-logo" width="104" height="30" viewBox="0 0 104 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a class="navbar-item mt-1 ml-6 mb-1 is-hidden-mobile" href="/">
+            <svg class="bolt-logo" width="104" height="30" viewBox="0 0 104 30" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M76.7249 10.7746H88.2747C84.3172 16.1208 80.9653 22.886 79.2292 29.0015H95.867V10.7746H103.297V0.648516H76.7261V10.7746H76.7249ZM58.068 29.0015H77.2089V18.8754H65.6603C69.6178 13.5292 72.9697 6.76398 74.7058 0.648516H58.068V29.0015ZM37.2307 14.825C37.2307 10.6526 38.6032 8.50664 41.3098 8.50664C44.0164 8.50664 45.3889 10.6538 45.3889 14.825C45.3889 18.9962 44.0164 21.1434 41.3098 21.1434C38.6032 21.1434 37.2307 18.9962 37.2307 14.825ZM10.1748 12.2322V7.29051H12.5575C14.1323 7.29051 14.9402 8.14068 14.9402 9.76135C14.9402 11.382 14.1323 12.2322 12.5575 12.2322H10.1748ZM10.1748 22.3582V17.0929H12.7188C14.4152 17.0929 15.2628 17.9842 15.2628 19.7256C15.2628 21.467 14.4152 22.3582 12.7188 22.3582H10.1748ZM0 29.0015H16.3139C21.8462 29.0015 25.6014 25.6805 25.6014 20.8197C25.6014 17.7813 23.9857 15.6752 20.8361 14.3395C23.5824 13.0438 24.8742 10.9376 24.8742 8.26391C24.8742 3.72679 21.361 0.648516 16.1923 0.648516H0V29.0015ZM41.311 29.65C50.0736 29.65 55.8888 23.7362 55.8888 14.825C55.8888 5.91382 50.0736 0 41.311 0C32.5485 0 26.7332 5.91382 26.7332 14.825C26.7332 23.7362 32.5485 29.65 41.311 29.65Z" fill="#E5FF00"/>
     </svg>
-     
-      </a> 
-      <a class="navbar-item mt-1 mb-1 is-hidden-desktop is-hidden-tablet" href="/">
-        <svg class="bolt-logo" width="104" height="30" viewBox="0 0 104 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+        </a>
+        <a class="navbar-item mt-1 mb-1 is-hidden-desktop is-hidden-tablet" href="/">
+            <svg class="bolt-logo" width="104" height="30" viewBox="0 0 104 30" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M76.7249 10.7746H88.2747C84.3172 16.1208 80.9653 22.886 79.2292 29.0015H95.867V10.7746H103.297V0.648516H76.7261V10.7746H76.7249ZM58.068 29.0015H77.2089V18.8754H65.6603C69.6178 13.5292 72.9697 6.76398 74.7058 0.648516H58.068V29.0015ZM37.2307 14.825C37.2307 10.6526 38.6032 8.50664 41.3098 8.50664C44.0164 8.50664 45.3889 10.6538 45.3889 14.825C45.3889 18.9962 44.0164 21.1434 41.3098 21.1434C38.6032 21.1434 37.2307 18.9962 37.2307 14.825ZM10.1748 12.2322V7.29051H12.5575C14.1323 7.29051 14.9402 8.14068 14.9402 9.76135C14.9402 11.382 14.1323 12.2322 12.5575 12.2322H10.1748ZM10.1748 22.3582V17.0929H12.7188C14.4152 17.0929 15.2628 17.9842 15.2628 19.7256C15.2628 21.467 14.4152 22.3582 12.7188 22.3582H10.1748ZM0 29.0015H16.3139C21.8462 29.0015 25.6014 25.6805 25.6014 20.8197C25.6014 17.7813 23.9857 15.6752 20.8361 14.3395C23.5824 13.0438 24.8742 10.9376 24.8742 8.26391C24.8742 3.72679 21.361 0.648516 16.1923 0.648516H0V29.0015ZM41.311 29.65C50.0736 29.65 55.8888 23.7362 55.8888 14.825C55.8888 5.91382 50.0736 0 41.311 0C32.5485 0 26.7332 5.91382 26.7332 14.825C26.7332 23.7362 32.5485 29.65 41.311 29.65Z" fill="#E5FF00"></path>
 </svg>
- 
-      </a> 
 
-      <a href="/" style="font-size:1.2em;" class="navbar-item">Merchant Help</a>
-    </div>  
+        </a>
 
-    
-    <div class="navbar-menu is-active" >
-        <div class="navbar-start">
-        </div>
-        <div class="navbar-end">     
-          <div class="navbar-item is-hidden-desktop">
-            <a id="mobile-sb" style="width: min-content" onclick="window.plugSDK.toggleSearchAgent();">
-                <span aria-label="search" class="mr-3">🔍</span>
-            </a>
-          </div>
-      </div>
+        <a href="/" style="font-size:1.2em;" class="navbar-item">Merchant Help</a>
     </div>
-  
+
     
-    <div class="navbar-menu">
+    <div class="navbar-menu is-active">
         <div class="navbar-start">
         </div>
-    
         <div class="navbar-end">
-            <div class="navbar-item">
-            
-            <a href="https://merchant.bolt.com" class="navbar-item general-nav-text">
-                Dashboard Login
-            </a>
-            
-            
-            </div>
-            
-
-            <div class="navbar-item">
-            <a href="/releases" class="navbar-item general-nav-text">
-                Release Notes
-                </a>
-                </div>
-            
-
-                <div class="navbar-item">
-                
-
-            <a href="https://support.bolt.com" class="navbar-item general-nav-text">
-                Merchant Support
-                </a>
-                
-                
-
-            
-
-            </div>
-            
-        
-            
-            <div class="navbar-item">
-                <a id="sb" style="width: min-content" onclick="window.plugSDK.toggleSearchAgent();">
+            <div class="navbar-item is-hidden-desktop">
+                <a id="mobile-sb" style="width: min-content" onclick="window.plugSDK.toggleSearchAgent();">
                     <span aria-label="search" class="mr-3">🔍</span>
                 </a>
             </div>
-            </div>
+        </div>
     </div>
+
+
+    <div class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                
+                <a href="https://merchant.bolt.com" class="navbar-item general-nav-text">
+                    Dashboard Login
+                </a>
+                
+                
+            </div>
+            
+
+            <div class="navbar-item">
+                <a href="/releases" class="navbar-item general-nav-text">
+                    Release Notes
+                </a>
+            </div>
+            
+
+            <div class="navbar-item">
+                
+
+                <a href="https://support.bolt.com" class="navbar-item general-nav-text">
+                    Merchant Support
+                </a>
+                
+                
+
+                
+
+            </div>
+            
+
+            
+            <div class="search-bar">
+                <div id="sb" class="fake-textbox general-search-button" onclick="window.plugSDK.toggleSearchAgent();">
+                    <div>
+                        <span aria-label="search" class="mr-2 is-white">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </span>
+                        Search documentation 
+                    </div>
+                    <code class="shortcut-key">/</code>
+                </div>
+            </div>
+        </div>
 </nav>
 
-
-
-
+<style>
+    .search-bar {
+        margin-right: 1em;
+    }
+    .fake-textbox {
+        display: flex;
+        padding: 0.5em .5em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+        cursor: text;
+        width: 18rem;
+        color: #999;
+        justify-content: space-between;
+    }
+    .shortcut-key {
+        color: #666;
+        margin-left: 0.5em;
+        padding: 0 .25em;
+        border-radius: 3px;
+    }
+</style>
 
 
 <nav class="navbar is-flex is-black pt-3 is-hidden-mobile is-hidden-tablet" role="navigation" aria-label="main navigation">
     <div class="navbar-menu">
         <div class="navbar-start">
-            
-            <a  class="content ml-6  has-text-white" href="/get-started/">Get Started</a>
             
             <a  class="content ml-6  has-text-white" href="/products/">Products</a>
             
@@ -288,185 +318,145 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 
     
   
-    <section><style>
-    element.style {
-        background-color: black;
-    }
-    
-      .container {
-        background-color: black !important;
-      }
-    
-      .container .title, .container .subtitle {
-        color: white !important;
-      }
-    
-      .home-highlight {
-        color: #E1FF00 !important;
-    }  
-</style>
-
-<div class="container mb-6">
-
-    <p class="title content has-text-centered">Welcome to Bolt Help for <span class="home-highlight">Merchants</span> & <span class="home-highlight">Developers</span></p>  
-
-    <section class="columns mt-3 mb-6 is-multiline is-centered ml-1 mr-1">
-        
-
-
-
-
-
+    <section>
+<div>
+    <div class="getting-started-banner has-text-left" style="color: #f5f5f5; text-align: center;">
+    <div class="getting-started-banner-content">
+        <div class="py-4 mb-6">
+            <p class="title content mb-0">
+                Welcome to Bolt Help for <span class="home-highlight">Merchants</span> & <span class="home-highlight">Developers</span>
+            </p>
+            <span class="sub-heading">Find everything you need to integrate, customize, and manage your Bolt implementation.</span>
+        </div>
+        <div class="getting-started-banner-buttons">
+            <a class="button has-text-black get-started-button" href="/get-started">Get Started →</a>
+            <a class="button is-light has-background-black has-text-light is-outlined" href="/developers">
+                Developer Reference
+            </a>
+        </div>
+    </div>
+    <div class="background-currency is-hidden-mobile"></div>
+</div>
 
 <style>
-    .merchant-titles p {
-        font-weight: 700;
-        color: black !important;
+.getting-started-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 5rem;
+    overflow: hidden;
+}
+
+.getting-started-banner-content {
+    max-width: 1200px;
+    text-align: left;
+    z-index: 1;
+    padding: .15rem;
+    background: radial-gradient(circle, rgba(0, 0, 0, .60) 60%, rgba(0, 0, 0, 0.75) 100%);
+}
+
+.getting-started-banner-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.home-highlight {
+    color: #E1FF00;
+}
+
+p.title.content {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f5f5f5;
+}
+
+span.sub-heading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #f5f5f5;
+}
+
+.get-started-button {
+    background-color: #E1FF00;
+    border: none;
+}
+
+.background-currency {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@media (max-width: 768px) {
+    .getting-started-banner {
+        padding: 5rem 2rem;
     }
-
-    .merchant-titles {
-        padding-left: 0.5em;
-        padding-right: .5em;
+    .getting-started-banner-content {
+        padding: 0;
     }
-
-
-    .merchant-articles a {
-        color: black;
-        list-style: none;
+    .getting-started-banner-buttons {
+        flex-direction: column;
     }
-
-    .merchant-articles a:hover {
-        text-decoration: underline;
-    }
-
-    .get-started:hover {
-        background-color: #FF4F50 !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .products:hover {
-        background-color: #FF7D7D !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .platforms:hover {
-        background-color: #FF76F2 !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-
-    .add-ons:hover {
-        background-color: #FF9AF1 !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .fraud:hover {
-        background-color: #9A4EFF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .financials:hover {
-        background-color: #B688FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .dashboard:hover {
-        background-color: #006DFF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-
-    .integrations:hover {
-        background-color: #71B5FF !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .apis-sdks-webhooks:hover {
-        background-color: #00C42E !important;
-        transform: skewX(-20deg) !important;
-        transition: background-color 0.5s linear; 
-
-    }
-
-    .merchant-titles p:hover {
-        transform: skewX(20deg) !important;
-    }
-
-
-    .box {
-        background-color: rgb(245, 245, 245);
-        border-radius: 10px;
-        padding: 1rem;
-    }
-
-    .category-box {
-        transform: skewX(-20deg) !important;
-        width: 1.5em;
-        height: 1.5em;
-        margin-left: 0.5em;
-        display: flex;
-        justify-content: center;
-    }
-
-    .category-box img {
-        transform: skewX(20deg) !important;
-        height: .8em;
-        position: absolute;
-        top: 50%;
-        bottom: 50%;
-        margin: auto;
-    }
-    
+}
 </style>
 
-<div class="column box is-one-quarter m-3">
-    <div class="columns mt-1">
-        <div class="category-box" style="background-color: #FF4F50;"><img src="/images/brand/person.png"/></div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.querySelector('.background-currency');
+        const currencyChars = [
+            "$", "¥", "€", "#", "%", "&", "{", "}", "[", "]", "<", ">", "=", "+",
+             "*", "&", "!", "?", ";", "@", "£", "₵", "¢"
+        ];
+        const fontSize = 5;
+        const padding = 45;
+        const containerWidth = container.clientWidth;
+        const containerHeight = container.clientHeight;
 
-        <div class="title is-5 merchant-titles get-started">
-            <a class="is-link merchant-title-links" href="/get-started/"><p class="merchant-title-text">Get Started</p></a>
-        </div>
-</div>
-    <p class="content is-italic is-small">Learn about Bolt, compare our checkout products, and choose where to go next.</p>
-    <div class="mb-1 mt-0">
-        
-        <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/what-is-bolt/">What is Bolt?</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/before-checkout/">Before Checkout</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/during-checkout/">During Checkout</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/get-started/after-checkout/">After Checkout</a>
-        </p>
-        
-    </div>
-    
-    <p class="is-link merchant-articles mt-3 content is-small"><a href="/get-started/">See more</a></p>
-    
-</div>
+        function getOpacity(y) {
+            const maxDistance = containerHeight;
+            const normalizedDistance = y / maxDistance;
+            const opacity = 0.09 + 0.25 * (1 - normalizedDistance); 
+            return opacity;
+        }
+
+        for (let y = 0; y < containerHeight; y += padding) {
+            for (let x = 0; x < containerWidth; x += padding) {
+                const charElement = document.createElement('span');
+                const char = currencyChars[Math.floor(Math.random() * currencyChars.length)];
+                
+                const size = fontSize;
+                const opacity = getOpacity(y);
+
+                charElement.textContent = char;
+                charElement.style.position = 'absolute';
+                charElement.style.left = `${x}px`;
+                charElement.style.top = `${y}px`;
+                charElement.style.fontSize = `${size}px`;
+                charElement.style.color = `rgba(255, 255, 255, ${opacity.toFixed(2)})`;
+                charElement.style.textShadow = `0 0 3px rgba(128, 128, 128, 0.25)`;
+                charElement.style.transform = `rotate(${(Math.random() - 0.5) * 25}deg)`;
+                charElement.style.fontFamily = 'monospace';
+
+                container.appendChild(charElement);
+            }
+        }
+    });
+</script>
+
+    <div class="merchant-articles has-background-white">
+      <section class="container merchant-tiles-container columns is-multiline is-centered m-auto has-background-white">
+          
+
+
+
+
+
 
 <style>
     .merchant-titles p {
@@ -602,10 +592,6 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
         
         <p class="pl-0 merchant-articles" >
             <a class="is-link" href="/products/checkout/">Checkout</a>
-        </p>
-        
-        <p class="pl-0 merchant-articles" >
-            <a class="is-link" href="/products/checkout-everywhere/">Checkout Everywhere</a>
         </p>
         
     </div>
@@ -1665,27 +1651,11 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 
 
 
-    </section>
-
+      </section>
+    </div>
 </div>
 
 <style>
-    .boltzigzagtop {
-        height: 3.5em;
-        background: linear-gradient(-2deg, white 25%, transparent 25%), 
-        linear-gradient(-245deg, transparent 50%, black 50%),
-        linear-gradient(-2deg, transparent 50%, black 50%);
-        background-color: white;
-        transform: scaleZ(-1);
-        z-index: 1000;
-
-    }    
-</style>
-
-<div class="boltzigzagtop">
-
-</div>
-    <style>
   section .announcements-merchants {
       background-color: white !important;
       padding: 1em;
@@ -1729,7 +1699,7 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
     <div class="message-body" style="color: black; background-color:#7ddb8b24">
       <ul class="announcement-items">
         <li>The holidays are on the way! <a href="/get-started/policies/holiday-policies/"><strong>Bolt's Holiday Support Guide is here to help!</strong></a></li>
-        <li>Miss the new Merchant Dashboard Tour webinar? <a href="/get-started/dashboard/"><strong>Watch it here!</strong></a></li>
+        <li>Miss the new Merchant Dashboard Tour webinar? <a href="dashboard/dashboard/"><strong>Watch it here!</strong></a></li>
         <li>The <a href="/releases/2022-10-31"><strong>Merchant Dashboard Redesign</strong></a> is now available to all merchants!</li>
       </ul>        
 
@@ -1757,6 +1727,11 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 </div>
 
 
+<style>
+  .merchant-tiles-container{
+    padding-top: 4rem !important;
+  }
+</style>
     </section>
     
     
@@ -1792,16 +1767,11 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 <script src="/js/iframe.js"></script>
 <script src="/js/geolocation.js"></script>
 <script src="/js/mermaid.js"></script>
-<script src="/js/drawer.js"></script>
 <script src="/js/clip.js"></script>
 
 <script src="/js/session-uuid.js"></script>
 <script src="/js/pages.js"></script>
 <script src="/js/img-zoom.js"></script>
-
-
-<script type="module" src="/js/adv-search.js"></script>
-
 
 
 <script type="text/javascript">
@@ -1814,49 +1784,7 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 
 <script src="/js/anchor.js"></script>
 
-<section class="drawer" id="drawer-name" data-drawer-target>
-    <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
-    <div class="drawer__wrapper">
-      <div class="drawer__header">
-        <div class="drawer__title">
-          <div class="mt-4" id="searchboxAdv">
-          </div>
-          <a class="content is-small is-pulled-right" href="/search/">Go to Advanced Search</a>
-          </div>
-        <button class="drawer__close" data-drawer-close aria-label="Close Search"></button>
-        </div>
-        <div class="drawer__content columns m-1">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/satellite-min.css">
-
-
-<div class="container" style="background-color: white !important;">
-    <div class="search-panel columns" style="background-color: white;">
-      <div class="search-panel__filters column is-one-third is-hidden-mobile">
-        <div>
-          <h5>Filter by Section</h5>
-          <div id="siteRefinementAdv"></div>  
-        </div>
-        <div>
-          <h5 class="mt-6">Filter by Topic</h5>
-          <div id="categoryL1RefinementAdv"></div>  
-        </div>
-      </div>
-
-      <div class="search-panel__results column is-two-thirds">
-        <div id="hitsAdv"></div>
-        <div class="navbar is-fixed-bottom columns is-flex" style="background-color: rgb(219, 219, 219);padding-top: .5em;" id="paginationAdv"></div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.46.2"></script>
-
-        </div>
-    </div>
-  </section>
-  
-    <style>
+<style>
     #fixedbutton {
         position: fixed;
         bottom: 0px;
@@ -1876,7 +1804,6 @@ X-Vercel-Id: pdx1::qxthg-1731435105801-9c36d314ebe0
 		<html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./footer.css" />
   </head>
   <body>
     <footer class="Footer"><div class="Footer__inner FooterForMerchants" id=""><div class="grid    Footer__ctaRow"><div class="row Footer__ctaRowWrapper     "><div class="column   Footer__ctaRowWrapperCol"><div class="grid    "><div class="row TopCta align-center  extend  noWrap "><div class="column  extend TopCta__logoWrapper d-flex"><a aria-label="" href="https://www.bolt.com"><span></span></a></div></div></div></div></div></div><nav class="grid    Footer__nav"><div class="row Footer__nav--row    noWrap "><div class="column   Footer__nav--linkColumn "><p class="Footer__nav--categoryTitle ">Product</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/conversions"><span class="link">One Click Checkout</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/account-creation"><span class="link">Account Creation</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/guest-checkout"><span class="link">Goodbye, Guest Checkout</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/fraud"><span class="link">Fraud Protection</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/sso"><span class="link">Bolt SSO</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/payments"><span class="link">Bolt Payments</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/checkout"><span class="link">Checkout Everywhere</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/merchant-analytics"><span class="link">Merchant Analytics</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/releases"><span class="link">Product Releases</span></a></li></ul></div><div class="column   Footer__nav--linkColumn "><p class="Footer__nav--categoryTitle ">Learn</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/blog"><span class="link">Company News</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/thinkshop"><span class="link">ThinkShop</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/resources"><span class="link">Resources</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/checkout-demo"><span class="link">Interactive Demo</span></a></li><li class="Footer__navItem "><a href="https://www.bolt.com/#hiwVideoTrigger" class="modalToggle Footer__navItem--link "><span class="link">Watch Bolt in 90 seconds</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/case-studies"><span class="link">Case Studies</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/faq"><span class="link">FAQ</span></a></li></ul></div><div class="column   Footer__nav--linkColumn "><p class="Footer__nav--categoryTitle ">Platform Partners</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/bigcommerce"><span class="link">Bolt For Big Commerce</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/adobe"><span class="link">Bolt for Adobe</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/salesforce"><span class="link">Bolt for Salesforce</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/woocommerce"><span class="link">Bolt for WooCommerce</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/solidus"><span class="link">Bolt for Solidus</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/partners"><span class="link">View All Partners</span></a></li></ul><p class="Footer__nav--categoryTitle ">Contact</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/contact-sales"><span class="link">Contact Sales</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/services-and-support"><span class="link">Contact Support</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/contact-us"><span class="link">General Inquiries</span></a></li></ul></div><div class="column   Footer__nav--linkColumn "><p class="Footer__nav--categoryTitle ">Developers</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://help.bolt.com/"><span class="link">Documentation</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://help.bolt.com/api-bolt/"><span class="link">API Reference</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://status.bolt.com/"><span class="link">API Status</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://tech.bolt.com/"><span class="link">Tech Blog</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://help.bolt.com/releases"><span class="link">Latest Releases</span></a></li></ul><p class="Footer__nav--categoryTitle ">Shoppers</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://account.bolt.com"><span class="link">Account Login</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://help.bolt.com/shoppers/account/how-it-works/"><span class="link">What is a Bolt account?</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/shop"><span class="link">Shop the Bolt Network</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/security"><span class="link">Security</span></a></li></ul></div><div class="column   Footer__nav--linkColumn "><p class="Footer__nav--categoryTitle ">Company</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/our-story"><span class="link">Our Story</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/team"><span class="link">Team</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link flagged" href="https://www.bolt.com/careers"><span class="link">Careers</span><span class="flagged-cta">We're Hiring</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/press"><span class="link">News &amp; Press</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/support-and-services"><span class="link">Support Center</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " href="https://www.bolt.com/media-kit"><span class="link">Media Kit</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" href="https://shop.bolt.com/"><span class="link">Bolt Collective</span></a></li></ul></div><div class="column   Footer__nav--linkColumn social"><p class="Footer__nav--categoryTitle ">Social</p><ul class="Footer__nav--items "><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" rel="noopener_noreferrer" href="https://twitter.com/bolt"><span class="link">Twitter</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" rel="noopener_noreferrer" href="https://www.facebook.com/boltpay/"><span class="link">Facebook</span></a></li><li class="Footer__navItem "><a aria-label="" class="Footer__navItem--link " target="blank" rel="noopener_noreferrer" href="https://www.linkedin.com/company/bolt-com/"><span class="link">LinkedIn</span></a></li></ul></div></div></nav><div class="grid extend   Footer__siteInfo"><div class="row Footer__siteInfo--row     "><div class="column width-3/12  Footer__siteInfo--rowCopyright"><div class="Footer__copyrightContainer "><p class="Footer__copyrightText">© 2023 Bolt Financial, Inc.</p></div></div><div class="column width-3/12  Footer__siteInfo--rowCopyrightLinks"><a aria-label="" href="https://www.bolt.com/msa">Legal</a><a aria-label="" href="https://www.bolt.com/privacy">Privacy Policy</a><a aria-label="" href="https://www.bolt.com/end-user-terms">Terms</a></div><div class="column width-3/12  Footer__siteInfo--rowSocial"><a aria-label="" target="blank" rel="noopener_noreferrer" href="https://twitter.com/bolt">Twitter</a><a aria-label="" target="blank" rel="noopener_noreferrer" href="https://www.facebook.com/boltpay/">Facebook</a><a aria-label="" target="blank" rel="noopener_noreferrer" href="https://www.linkedin.com/company/bolt-com/">LinkedIn</a></div></div></div></div></footer>

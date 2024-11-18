@@ -1,33 +1,33 @@
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
-Age: 33400
+Age: 32701
 Cache-Control: max_age=3600
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com; script-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com blob: 'unsafe-eval' 'unsafe-inline' cdnjs.cloudflare.com stackpath.bootstrapcdn.com www.googletagmanager.com polyfill.io unpkg.com storage.googleapis.com *.google-analytics.com www.snapengage.com code.jquery.com cdn.jsdelivr.net api.mapbox.com cdn.skypack.dev d3js.org cse.google.com www.google.com maps.googleapis.com partner.talk.naver.com ssl.pstatic.net; font-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com data: fonts.gstatic.com cdnjs.cloudflare.com unpkg.com storage.googleapis.com; style-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com 'unsafe-inline' fonts.googleapis.com cdnjs.cloudflare.com hosteduxprod.blob.core.windows.net www.google.com ssl.pstatic.net; img-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com https://* data:; connect-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com api.mapbox.com *.google-analytics.com cdn.jsdelivr.net www.snapengage.com ui.customsearch.ai maps.googleapis.com wss://cloudzoo.rhino3d.com; frame-src 'self' *.mcneel.com *.rhino3d.com *.vimeo.com *.youtube.com www.google.com
 Content-Type: text/html; charset=utf-8
-Date: Tue, 12 Nov 2024 08:55:32 GMT
-Etag: W/"759b8e64e58da85b25405d4f28ae64d3"
-Last-Modified: Tue, 12 Nov 2024 08:36:12 GMT
+Date: Mon, 18 Nov 2024 10:45:12 GMT
+Etag: W/"beb37fa67255030b70b6eef630e1f837"
+Last-Modified: Mon, 18 Nov 2024 09:58:37 GMT
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Permissions-Policy: geolocation=(self)
 Referrer-Policy: no-referrer-when-downgrade
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731401732&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=555RNGHoMdJoLnn%2Ba%2F0cy5oQKMaYY7%2Fb4VkTueYvhaw%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731401732&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=555RNGHoMdJoLnn%2Ba%2F0cy5oQKMaYY7%2Fb4VkTueYvhaw%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731926712&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=NM0Zr8p4CmzS2d5%2FRTJxJK1vJbRNESeILy%2Fn%2B0gJPoY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731926712&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=NM0Zr8p4CmzS2d5%2FRTJxJK1vJbRNESeILy%2Fn%2B0gJPoY%3D
 Server: gunicorn/20.0.4
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-Via: 1.1 vegur, 1.1 40395c9e626aaaefe35a638d804ce9e4.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: M-ZnYLzef-1NWBd314Cu2h8PmL6_AVHn4EEyg0ofh80bDajX469p6g==
+Via: 1.1 vegur, 1.1 f9901b257e7117ad9d6c331954cb762c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 21Dp7PHIdAPUdcwqI4Ubjho0s0j1KFtTKctqQAhPJwRCEtu9orRBCA==
 X-Amz-Cf-Pop: SEA900-P2
 X-Cache: Hit from cloudfront
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"759b8e64e58da85b25405d4f28ae64d3"
-X-Etags-2: W/"759b8e64e58da85b25405d4f28ae64d3"
+X-Etags-1: W/"beb37fa67255030b70b6eef630e1f837"
+X-Etags-2: W/"beb37fa67255030b70b6eef630e1f837"
 X-Frame-Options: SAMEORIGIN
 X-Origin-Url: http://source-rhino3d-com.s3-website-us-east-1.amazonaws.com/worldwide/en/napa/
 X-Proxy-Rule: regions
 
-11a48
+11c9c
 <!DOCTYPE html>
 <html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -452,6 +452,7 @@ X-Proxy-Rule: regions
 
 
 
+
 <div class="video-player">
     <div class="caption-locator">
         <center>
@@ -482,11 +483,23 @@ X-Proxy-Rule: regions
   <script>
     
         let video = document.querySelector('video');
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryStringId = urlParams.get('video_id');
+        if (queryStringId) {
+            video.poster = `https://www.rhino3d.com/static-media/video/${queryStringId}/${queryStringId}.jpg`;
+            video.querySelector('source').src = `https://www.rhino3d.com/static-media/video/${queryStringId}/${queryStringId}-1080p.mp4`;
+            if ("en"){
+              video.querySelector('track').src = `https://www.rhino3d.com/static-media/video/${queryStringId}/en.vtt`; 
+            }
+            video.load();
+        }
+
         const track = video.textTracks[0] 
         track.addEventListener('cuechange', onCueChange);
         caption = document.querySelector('.rma-caption');
         caption.innerHTML = 'Blah';
-      
+
         function onCueChange(event) {
           console.log(event.currentTarget.activeCues);
           if (event.currentTarget.activeCues.length > 0) {

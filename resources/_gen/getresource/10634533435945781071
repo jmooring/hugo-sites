@@ -1,20 +1,20 @@
 HTTP/2.0 200 OK
 Cache-Control: private
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8e187c44085aba1b-SEA
+Cf-Ray: 8e4a7bfc7bd72819-SEA
 Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 Content-Type: text/html
-Date: Tue, 12 Nov 2024 18:11:36 GMT
-Last-Modified: Tue, 12 Nov 2024 17:37:20 GMT
+Date: Mon, 18 Nov 2024 19:49:32 GMT
+Last-Modified: Mon, 18 Nov 2024 13:05:18 GMT
 Server: cloudflare
-Set-Cookie: __cf_bm=zoqNeNIy279kLIOxhzBzhaCs1ZQy_LhonV5jS4FBeqo-1731435095-1.0.1.1-OxftbAqaT5MvGarWlm.lgHEEUrty5zF90H1LUAxJNM9ie1enHtMh6.bT7DPgt95Xh6SUvAzbJTuNClafXwMcZw; path=/; expires=Tue, 12-Nov-24 18:41:35 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
-Set-Cookie: __cf_bm=FV9mDl20hWLOfdU.FbOVyFOu0QGGKnvHoBtrFtx9Psg-1731435096-1.0.1.1-VWw6TJK89Pm_jqyE4yMHgyserSnwB59HkvyozEAqcsWZ4ssOF0RskqL7TzYrspoNTsbEnT2ckqmWAIZ4NbXYlLc.QioqgyzfaVkzLX_3lCE; path=/; expires=Tue, 12-Nov-24 18:41:36 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=iA0WcOnRMM5.uE_ef2Iv5uWL85LS8sWq83rYk9J6TLY-1731959372-1.0.1.1-6hse.nUjr5TjtMHNhlxYkviCWH0DrIGJ5e92kYgATlFynUKkDFOATelj8vFix5aEhgUudaQIWTm92UTk8oRNfA; path=/; expires=Mon, 18-Nov-24 20:19:32 GMT; domain=.ondigitalocean.app; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=_sDZvXgFEOvGe1SMWvUX32GktGSx8Kyy.mgu0RyJSMo-1731959372-1.0.1.1-WxX2Q2hGGVnEtYMllUyhw9qqJO_iSbdSNTxMU7duPbcGaWMqjXUXH12k7sAy7fsrh.rD2wjnUziwYLJaUPHZOhKnDzp.CJAmZ5EV0uByqoo; path=/; expires=Mon, 18-Nov-24 20:19:32 GMT; domain=.digitalocean.com; HttpOnly; Secure; SameSite=None
 Vary: Accept-Encoding
 X-Content-Security-Policy: frame-ancestors https://localdev.internal.digitalocean.com https://cloud.s2r1.internal.digitalocean.com https://cloud.digitalocean.com https://marina.digitalocean.com https://digitaloceaninc.lookbookhq.com
 X-Do-App-Origin: 66b87bdb-ceab-4f7c-975f-da2affb6d13a
 X-Do-Orig-Status: 200
-X-Etags-1: e913c2cb2cda9fc481b9c687ad0e078a
-X-Etags-2: e913c2cb2cda9fc481b9c687ad0e078a
+X-Etags-1: 27559cce5d309cd1e300daa49d13beb6
+X-Etags-2: 27559cce5d309cd1e300daa49d13beb6
 X-Frame-Options: ALLOW-FROM https://marina.digitalocean.com/
 X-Xss-Protection: 1; mode=block
 
@@ -301,23 +301,18 @@ Looking for technical support with your DigitalOcean account or infrastructure? 
 
                 <div class="latest-updates">
                     <section><h2 id="latest-updates">Latest Updates</h2>
-<h3 id="12-november-2024">12 November 2024</h3>
+<h3 id="14-november-2024">14 November 2024</h3>
+<ul><li>
+    <p><p>We have released a <a href="/products/app-platform/reference/buildpacks/nodejs/">new Heroku-based Node.js buildpack</a> for App Platform. It includes new features and security updates. All new Node.js apps now use this buildpack upon creation by default.</p>
+<p>To migrate existing apps to use the new buildpack, see <a href="/products/app-platform/how-to/migrate-nodejs-buildpack/">our guide</a>.</p>
+</p>
+    </li></ul><h3 id="12-november-2024">12 November 2024</h3>
 <ul><li>
     <p><p>Scalable storage for MongoDB clusters is now in general availability.</p>
 </p>
     </li></ul><h3 id="1-november-2024">1 November 2024</h3>
 <ul><li>
     <p><p>App Platform&rsquo;s new <a href="/products/app-platform/getting-started/deploy-sample-apps/">sample app deployment feature</a> is now in <a href="/platform/product-lifecycle/">General Availability</a>. This allows you to quickly copy a sample app into a new repo on your GitHub account and then deploy it to App Platform.</p>
-</p>
-    </li></ul><h3 id="29-october-2024">29 October 2024</h3>
-<ul><li>
-    <p><p>You can now <a href="/products/app-platform/how-to/maintenance-mode/">configure maintenance mode for apps</a> on App Platform. This allows you to take your app offline for maintenance and serve a maintenance page to your users.</p>
-</p>
-    </li><li>
-    <p><p>Forwarding cluster event logs from your DOKS cluster to your <a href="/products/databases/opensearch/how-to/create/">DigitalOcean Managed OpenSearch cluster</a> is now in <a href="/platform/product-lifecycle/#general-availability">general availability</a>. You can forward logs using the <a href="/products/kubernetes/how-to/forward-logs/">control panel</a> or the <a href="/reference/api/api-reference/#tag/Kubernetes">API</a>.</p>
-</p>
-    </li><li>
-    <p><p><a href="/products/app-platform/how-to/forward-logs/">Forwarding logs</a> from your App Platform app to your <a href="/products/databases/opensearch/how-to/create/">DigitalOcean Managed OpenSearch cluster</a> is now in <a href="/platform/product-lifecycle/#general-availability">general availability</a>.</p>
 </p>
     </li></ul><p>For more, see our <a href="/release-notes/">full release notes</a>.
                     </section>

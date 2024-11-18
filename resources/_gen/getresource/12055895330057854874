@@ -1,28 +1,29 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 7591
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=stale
 Content-Security-Policy: default-src https:; script-src https: 'self' 'nonce-93HDK8392dfjh4Gb' 'unsafe-eval' 'sha256-3qFt4qPvMCWVUpjUxP5X57GBKae6RHYZ0rMjn9WuNF4='; style-src https: 'self' 'sha256-ouaL9aaaKO9mYd9/M+uyzYAL1CrOXJVRjV2nFgbGI2E='; object-src 'self'
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 12 Nov 2024 18:11:53 GMT
-Etag: "c637a4767a6d7b7de5a3bf9d8311a9e7-ssl-df"
+Date: Mon, 18 Nov 2024 19:49:52 GMT
+Etag: "81c39cd11ae12830dea0f7685434756c-ssl-df"
 Feature-Policy: vibrate none; usermedia *; sync-xhr self
 Referrer-Policy: strict-origin-when-cross-origin
 Server: Netlify
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: "c637a4767a6d7b7de5a3bf9d8311a9e7-ssl-df"
-X-Etags-2: "c637a4767a6d7b7de5a3bf9d8311a9e7-ssl-df"
+X-Etags-1: "81c39cd11ae12830dea0f7685434756c-ssl-df"
+X-Etags-2: "81c39cd11ae12830dea0f7685434756c-ssl-df"
 X-Frame-Options: DENY
-X-Nf-Request-Id: 01JCGS6BE2Y7PWW6NTK7PR50JW
+X-Nf-Request-Id: 01JD0D6299ZE1G33DJZE8NPQ2G
 X-Xss-Protection: 1; mode=block
 
 <!doctype html><html lang=en><head><meta name=generator content="Hugo 0.101.0"><meta charset=utf-8><meta name=docsearch:language content="en"><meta name=docsearch:version content><meta http-equiv=x-ua-compatible content="chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css integrity=sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.1/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css><link rel=stylesheet href=https://thanos.io/main.css><link rel=stylesheet href=https://thanos.io/syntax.css><link rel=icon href=https://thanos.io/icon-light.png><title>Thanos - Highly available Prometheus setup with long term storage capabilities</title><meta name=description content="Highly available Prometheus setup with long term storage capabilities."></meta><meta property="og:image" content="https://thanos.io/thanos-og-image.png"><meta property="og:type" content="object"><meta property="og:title" content="Thanos"><meta property="og:description" content="Thanos - Highly available Prometheus setup with long term storage capabilities"><meta name=twitter:card content="summary_large_image"></meta><meta name=twitter:site content="@ThanosMetrics"></meta><meta name=twitter:title content="Thanos Metrics"></meta><meta name=twitter:description content="Highly available Prometheus setup with long term storage capabilities."></meta><meta name=twitter:image content="https://thanos.io/thanos-og-image.png"></meta></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-purple"><a href=https://thanos.io/ class=navbar-brand><img src=https://thanos.io/icon-dark.png alt="Thanos logo"> Thanos</a>
 <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
 <span class=hamburger><i class="fa fa-bars" aria-hidden=true></i></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav ml-auto"><li class=nav-item><div class=searchBox><input type=search id=searchInput placeholder=Search>
 <button type=submit class=searchbtn><i class="fas fa-search"></i></button></div></li><li class=nav-item><a class=nav-link href=https://thanos.io/support>Support and Training</a></li><li class=nav-item><a class=nav-link href=https://github.com/thanos-io/thanos/releases>Releases</a></li><li class=nav-item><div class="dropdown show"><a class="nav-link dropdown-toggle" href=# role=button id=dropdownMenuLink data-toggle=dropdown aria-haspopup=true aria-expanded=false>Docs</a><div class=dropdown-menu aria-labelledby=dropdownMenuLink><a class=dropdown-item href=../../../../tip/thanos/getting-started.md>tip</a>
+<a class=dropdown-item href=../../../../v0.37/thanos/getting-started.md>v0.37</a>
 <a class=dropdown-item href=../../../../v0.36/thanos/getting-started.md>v0.36</a>
 <a class=dropdown-item href=../../../../v0.35/thanos/getting-started.md>v0.35</a>
 <a class=dropdown-item href=../../../../v0.34/thanos/getting-started.md>v0.34</a>
