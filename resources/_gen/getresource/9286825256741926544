@@ -1,21 +1,21 @@
 HTTP/1.1 200 OK
 Accept-Ranges: bytes
-Age: 515
+Age: 36
 Connection: keep-alive
 Content-Security-Policy: default-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/; style-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ 'unsafe-inline'; script-src 'self' https://www.freebsd.org/ https://docs.freebsd.org/ https://ssl.google-analytics.com/ga.js 'unsafe-inline' resource: data: blob:; img-src 'self' https://www.freebsd.org/ https://docs.freebsd.org https://ssl.google-analytics.com/ https://chart.googleapis.com/ data: blob:; upgrade-insecure-requests
 Content-Type: text/html
-Etag: W/"673a7602-3e46"
-Last-Modified: Sun, 17 Nov 2024 23:02:26 GMT
+Etag: W/"679fca9f-3d92"
+Last-Modified: Sun, 02 Feb 2025 19:42:23 GMT
 Server: CloudSoft_Enterprise/v1.00
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
 Via: 1.1 wfe0.tuk.FreeBSD.org
 X-Cache: HIT
 X-Content-Type-Options: nosniff
-X-Etags-1: W/"673a7602-3e46"
-X-Etags-2: W/"673a7602-3e46"
+X-Etags-1: W/"679fca9f-3d92"
+X-Etags-2: W/"679fca9f-3d92"
 X-Frame-Options: SAMEORIGIN
-X-Varnish: 8263564 8323479
+X-Varnish: 16867461 1038251
 X-Xss-Protection: 1; mode=block
 
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ X-Xss-Protection: 1; mode=block
 <meta name="description" content=
 "FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms.">
 <meta name="keywords" content="FreeBSD, BSD, UNIX, open source">
-<meta name="copyright" content="1995-2024 The FreeBSD Foundation">
+<meta name="copyright" content="1995-2025 The FreeBSD Foundation">
 <title>The FreeBSD Project</title>
 <link rel="shortcut icon" href=
 "https://www.freebsd.org/favicon.ico">
@@ -253,13 +253,13 @@ FreeBSD?</a></div>
 Releases</a></h2>
 <ul id="frontreleaseslist">
 <li>Production: <a href=
-"https://www.FreeBSD.org/releases/14.1R/announce/">14.1</a></li>
+"https://www.FreeBSD.org/releases/14.2R/announce/">14.2</a></li>
 <li>Legacy: <a href=
-"https://www.FreeBSD.org/releases/13.3R/announce/">13.3</a>,
+"https://www.FreeBSD.org/releases/13.4R/announce/">13.4</a>,
 <a href=
-"https://www.FreeBSD.org/releases/13.4R/announce/">13.4</a></li>
+"https://www.FreeBSD.org/releases/14.1R/announce/">14.1</a></li>
 <li>Upcoming: <a href=
-"https://www.FreeBSD.org/releases/14.2R/schedule/">14.2</a></li>
+"https://www.FreeBSD.org/releases/14.3R/schedule/">14.3</a></li>
 <li>Upcoming: <a href=
 "https://www.FreeBSD.org/releases/13.5R/schedule/">13.5</a></li>
 <li><a href="https://www.freebsd.org/security/#sup">Support
@@ -299,24 +299,24 @@ title="Mailing Lists">Mailing Lists</a></li>
 <div id="frontnewscontent" class="txtnewsevent">
 <h2>LATEST NEWS</h2>
 <div class="newseventswrap">
+<p><span class="txtdate">2025-01-26</span><br>
+<a href="/news/newsflash/#2025-01-26:1">New committer: Austin
+Shafer (doc)</a></p>
+<p><span class="txtdate">2025-01-17</span><br>
+<a href="/news/newsflash/#2025-01-17:1">New committer: Alexander
+Ziaee (doc)</a></p>
+<p><span class="txtdate">2024-12-03</span><br>
+<a href="/news/newsflash/#2024-12-03:1">FreeBSD 14.2-RELEASE
+Available</a></p>
+<p><span class="txtdate">2024-11-23</span><br>
+<a href="/news/newsflash/#2024-11-23:1">FreeBSD 14.2-RC1
+Available</a></p>
 <p><span class="txtdate">2024-11-17</span><br>
 <a href="/news/newsflash/#2024-11-17:1">FreeBSD 14.2-BETA3
 Available</a></p>
 <p><span class="txtdate">2024-11-09</span><br>
 <a href="/news/newsflash/#2024-11-09:1">FreeBSD 14.2-BETA2
 Available</a></p>
-<p><span class="txtdate">2024-11-07</span><br>
-<a href="/news/newsflash/#2024-11-07:1">July-September 2024 Status
-Report</a></p>
-<p><span class="txtdate">2024-11-02</span><br>
-<a href="/news/newsflash/#2024-11-02:1">FreeBSD 14.2-BETA1
-Available</a></p>
-<p><span class="txtdate">2024-10-15</span><br>
-<a href="/news/newsflash/#2024-10-15:1">Enhanced commit privileges:
-Kevin Bowling (src)</a></p>
-<p><span class="txtdate">2024-10-07</span><br>
-<a href="/news/newsflash/#2024-10-07:1">Enhanced commit privileges:
-Mateusz Piotrowski (src)</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -341,11 +341,6 @@ width="27" height="12"></a></li>
 <a href="https://www.freebsd.org/events/#fosdem-2025">FOSDEM
 2025<br>
 (Brussels, Belgium)</a></p>
-<p><span class="txtdate">2025-03-20 - 2025-03-23</span><br>
-<a href=
-"https://www.freebsd.org/events/#asiabsdcon-2025">AsiaBSDCon
-2025<br>
-(Tokyo, Japan)</a></p>
 <p><span class="txtdate">2025-06-11 - 2025-06-14</span><br>
 <a href="https://www.freebsd.org/events/#bsdcan-2025">BSDCan
 2025<br>
@@ -409,22 +404,22 @@ title="More">More</a></li>
 <div id="frontsecuritycontent" class="txtnewsevent">
 <h2>SECURITY ADVISORIES</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2024-10-29</span><br>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:19.fetch.asc">
-FreeBSD-SA-24:19.fetch</a></p>
-<p><span class="txtdate">2024-10-29</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-25:04.ktrace.asc">
+FreeBSD-SA-25:04.ktrace</a></p>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:18.ctl.asc">
-FreeBSD-SA-24:18.ctl</a></p>
-<p><span class="txtdate">2024-10-29</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-25:03.etcupdate.asc">
+FreeBSD-SA-25:03.etcupdate</a></p>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:17.bhyve.asc">
-FreeBSD-SA-24:17.bhyve</a></p>
-<p><span class="txtdate">2024-09-19</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-25:02.fs.asc">
+FreeBSD-SA-25:02.fs</a></p>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-SA-24:16.libnv.asc">
-FreeBSD-SA-24:16.libnv</a></p>
+"https://www.freebsd.org/security/advisories/FreeBSD-SA-25:01.openssh.asc">
+FreeBSD-SA-25:01.openssh</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -441,14 +436,14 @@ FreeBSD-SA-24:16.libnv</a></p>
 <br>
 <h2>ERRATA NOTICES</h2>
 <div class="newseventswrap">
-<p><span class="txtdate">2024-10-29</span><br>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:17.pam_xdg.asc">
-FreeBSD-EN-24:17.pam_xdg</a></p>
-<p><span class="txtdate">2024-09-19</span><br>
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-25:03.tzdata.asc">
+FreeBSD-EN-25:03.tzdata</a></p>
+<p><span class="txtdate">2025-01-29</span><br>
 <a href=
-"https://www.freebsd.org/security/advisories/FreeBSD-EN-24:16.pf.asc">
-FreeBSD-EN-24:16.pf</a></p>
+"https://www.freebsd.org/security/advisories/FreeBSD-EN-25:02.audit.asc">
+FreeBSD-EN-25:02.audit</a></p>
 <div>
 <ul class="newseventslist">
 <li class="first-child"><a href=
@@ -469,7 +464,7 @@ FreeBSD-EN-24:16.pf</a></p>
 </div>
 </main>
 <footer><a href="https://www.freebsd.org/copyright/">Legal
-Notices</a> | © 1995-2024 The FreeBSD Project All rights reserved.
+Notices</a> | © 1995-2025 The FreeBSD Project All rights reserved.
 The mark FreeBSD is a registered trademark of The FreeBSD
 Foundation and is used by The FreeBSD Project with the permission
 of <a href=

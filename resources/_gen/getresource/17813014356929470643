@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 19:49:36 GMT
-Etag: "7903-6271e296df463-gzip"
-Last-Modified: Sun, 17 Nov 2024 16:19:17 GMT
+Date: Mon, 03 Feb 2025 20:30:23 GMT
+Etag: "67ab-62d119f20517c-gzip"
+Last-Modified: Sat, 01 Feb 2025 09:52:47 GMT
 Server: Apache
 Vary: Accept-Encoding
-X-Etags-1: "7903-6271e296df463-gzip"
-X-Etags-2: "7903-6271e296df463-gzip"
+X-Etags-1: "67ab-62d119f20517c-gzip"
+X-Etags-2: "67ab-62d119f20517c-gzip"
 
 <!DOCTYPE html>
 <html lang="de"><head>
@@ -118,221 +118,8 @@ X-Etags-2: "7903-6271e296df463-gzip"
 <div id="page-main"><div id="content"><div class="post">
 
 		<div class="post-header">
-			<h1 class="post-title"><a href="/technik/betriebssysteme/unattended-upgrades/">unattended-upgrades</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">16. November 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/betriebssysteme/">Betriebssysteme</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-		<div class="post-body">
-	<p>In der Vergangenheit habe ich Server so konfiguriert, daß Updates automatisiert über <a href="http://iuk/index.php/2019/09/09/updates-mit-cron-apt/"   class="genericon icon-extlink">cron-apt</a> heruntergeladen und installiert wurden. Seit der Einführung von systemd steht mit den <a href="https://wiki.debian.org/UnattendedUpgrades"   class="genericon icon-extlink">uattended-upgrades</a> eine weitere Möglichkeit zur Verfügung, welche eine detailliertere Konfiguration erlaubt.</p>
-<div class="codeblock">
-	<code>$ sudo apt-get install unattended-upgrades</code>
-</div>
-<p>Die Grundkonfiguration erfolgt über die Datei &ldquo;/etc/apt/apt.conf.d/50unattended-upgrades&rdquo;, in der nach erfolgter Installation zumindest die Parameter &ldquo;Unattended-Upgrade::Mail&rdquo; sowie &ldquo;Unattended-Upgrade::MailReport&rdquo; angepasst werden sollten.</p>
-<div class="codeblock"><div class="label genericon icon-document">/etc/apt/apt.conf.d/50unattended-upgrades</div>
-	<code>...
-Unattended-Upgrade::Mail &#34;an.wen.auch.immer@wo.auch.immer&#34;;
-...
-Unattended-Upgrade::MailReport &#34;always&#34;;
-...</code>
-</div>
-<p>&ldquo;Unattended-Upgrade::MailReport&rdquo; kann nach erfolgreicher Testphase auch wieder zurück auf den Default-Wert &ldquo;on-change&rdquo; gestellt werden, falls das tägliche &ldquo;es gab nix zu tun&rdquo; nervt.</p>
-<p>Um die Funktionalität zu aktivieren, kann entweder die Datei &ldquo;/etc/apt/apt.conf.d/20auto-upgrades&rdquo; manuell angepasst oder &ldquo;dpkg-reconfigure&rdquo; verwendet werden. Nach dem Aufruf von</p>
-<div class="codeblock">
-	<code>$ sudo dpkg-reconfigure unattended-upgrades</code>
-</div>
-<p>die Frage &ldquo;Aktualisierungen für Stable automatisch herunterladen und installieren?&rdquo; mit &ldquo;ja&rdquo; beantworten.</p>
-<p>Für einen Testlauf kann &ldquo;unattended-upgrade&rdquo; mit dem Parameter &ldquo;-d&rdquo; für Debug manuell gestartet werden:</p>
-<div class="codeblock">
-	<code>$ sudo unattended-upgrade -d</code>
-</div>
-<h2 id="anpassung-zeitsteuerung">Anpassung Zeitsteuerung</h2>
-<p>Der Zeitpunkt, zu dem das Herunterladen bzw. Installieren tatsächlich durchgeführt wird, lässt sich über zwei Overrides definieren. Wichtig ist hierbei, im ersten Schritt mit &ldquo;OnCalendar=&rdquo; erst einmal bestehende Einträge zu löschen, bevor dann die eigenen Werte gesetzt werden - sonst werden die angegebenen Werte zusätlich übernommen.</p>
-<div class="codeblock">
-	<code>$ sudo mkdir /etc/systemd/system/apt-daily.timer.d
-$ sudo vi /etc/systemd/system/apt-daily.timer.d/override.conf</code>
-</div>
-<div class="codeblock"><div class="label genericon icon-document">/etc/systemd/system/apt-daily.timer.d/override.conf</div>
-	<code>[Timer]
-OnCalendar=
-OnCalendar=04:00
-RandomizedDelaySec=0</code>
-</div>
-<div class="codeblock">
-	<code>$ sudo mkdir /etc/systemd/system/apt-daily-upgrade.timer.d
-$ sudo vi /etc/systemd/system/apt-daily-upgrade.timer.d/override.conf</code>
-</div>
-<div class="codeblock"><div class="label genericon icon-document">/etc/systemd/system/apt-daily-upgrade.timer.d/override.conf</div>
-	<code>[Timer]
-OnCalendar=
-OnCalendar=05:00
-RandomizedDelaySec=0</code>
-</div>
-<p>Anschließend müssen die geänderten Konfigurationsdateien noch eingelesen und die Timer neu gestartet werden:</p>
-<div class="codeblock">
-	<code>$ sudo systemctl daemon-reload
-$ sudo systemctl restart apt-daily.timer
-$ sudo systemctl restart apt-daily-upgrade.timer</code>
-</div>
-<p>Der Status der Einplanung lässt sich mittels &ldquo;systemctl&rdquo; einsehen</p>
-<div class="codeblock">
-	<code>$ sudo systemctl status apt-daily.timer
-● apt-daily.timer - Daily apt download activities
-     Loaded: loaded (/lib/systemd/system/apt-daily.timer; enabled; preset: enabled)
-    Drop-In: /etc/systemd/system/apt-daily.timer.d
-             └─override.conf
-     Active: active (waiting) since Tue 2024-09-17 11:29:25 CEST; 46s ago
-    Trigger: Wed 2024-09-18 04:00:00 CEST; 16h left
-   Triggers: ● apt-daily.service</code>
-</div>
-<div class="codeblock">
-	<code>$ sudo systemctl status apt-daily-upgrade.timer
-● apt-daily-upgrade.timer - Daily apt upgrade and clean activities
-     Loaded: loaded (/lib/systemd/system/apt-daily-upgrade.timer; enabled; preset: enabled)
-    Drop-In: /etc/systemd/system/apt-daily-upgrade.timer.d
-             └─override.conf
-     Active: active (waiting) since Tue 2024-09-17 11:29:33 CEST; 53s ago
-    Trigger: Wed 2024-09-18 05:00:00 CEST; 17h left
-   Triggers: ● apt-daily-upgrade.service</code>
-</div>
-<p>Was unattended-upgrades tatsächlich so angestellt hat, lässt sich auch mit Hilfe von &ldquo;journalctl&rdquo; auswerten:</p>
-<div class="codeblock">
-	<code>$ sudo journalctl --since yesterday -u apt-daily.service
-$ sudo journalctl --since yesterday -u apt-daily-upgrade.service</code>
-</div>
-<h2 id="drittanbieterquellen">Drittanbieterquellen</h2>
-<p>In der Standardkonfiguration aktualisiert unattended-upgrades nur die vom System bereitgestellten Quellen, alle weiteren Quellen müssen in der Datei &ldquo;/etc/apt/apt.conf.d/50unattended-upgrades&rdquo; noch hinzugefügt werden. Dies sieht man im Debug-Modus hier auch am Beispiel von &ldquo;zammad&rdquo;:</p>
-<div class="codeblock">
-	<code># unattended-upgrade -d | grep zammad
-Marking not allowed &lt;apt_pkg.PackageFile object: filename:&#39;/var/lib/apt/lists/dl.packager.io_srv_deb_zammad_zammad_stable_debian_dists_12_main_binary-amd64_Packages&#39;  a=,c=main,v=,o=https://packager.io/gh/zammad/zammad,l=Debian 12 packages for zammad/zammad arch=&#39;amd64&#39; site=&#39;dl.packager.io&#39; IndexType=&#39;Debian Package Index&#39; Size=56880 ID:33&gt; with -32768 pin
-Applying pin -32768 to package_file: &lt;apt_pkg.PackageFile object: filename:&#39;/var/lib/apt/lists/dl.packager.io_srv_deb_zammad_zammad_stable_debian_dists_12_main_binary-amd64_Packages&#39;  a=,c=main,v=,o=https://packager.io/gh/zammad/zammad,l=Debian 12 packages for zammad/zammad arch=&#39;amd64&#39; site=&#39;dl.packager.io&#39; IndexType=&#39;Debian Package Index&#39; Size=56880 ID:33&gt;
-Checking: zammad ([&lt;Origin component:&#39;main&#39; archive:&#39;&#39; origin:&#39;https://packager.io/gh/zammad/zammad&#39; label:&#39;Debian 12 packages for zammad/zammad&#39; site:&#39;dl.packager.io&#39; isTrusted:True&gt;])
-adjusting candidate version: zammad=6.3.1-1726553725.106af4c8.bookworm
-Package zammad has a higher version available, checking if it is from an allowed origin and is not pinned down.</code>
-</div>
-<p>Die benötigten Angaben kann man direkt aus der Debugausgabe entnehmen</p>
-<div class="codeblock">
-	<code>&#34;origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad&#34;</code>
-</div>
-<p>und die Zeile dann der Sektion &ldquo;Unattended-Upgrade::Origins-Pattern&rdquo; hinzufügen:</p>
-<div class="codeblock"><div class="label genericon icon-document">/etc/apt/apt.conf.d/50unattended-upgrades</div>
-	<code>Unattended-Upgrade::Origins-Pattern {
-...
-        &#34;origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad&#34;;
-...
-};</code>
-</div>
-<p>Anschließend wird Zammad wie geplant aktualisiert:</p>
-<div class="codeblock">
-	<code># unattended-upgrade -d | grep zammad
-Erlaubte Ursprünge sind: origin=Debian,codename=bookworm,label=Debian, origin=Debian,codename=bookworm,label=Debian-Security, origin=Debian,codename=bookworm-security,label=Debian-Security, origin=https://packager.io/gh/zammad/zammad,component=main,label=Debian 12 packages for zammad/zammad
-Checking: zammad ([&lt;Origin component:&#39;main&#39; archive:&#39;&#39; origin:&#39;https://packager.io/gh/zammad/zammad&#39; label:&#39;Debian 12 packages for zammad/zammad&#39; site:&#39;dl.packager.io&#39; isTrusted:True&gt;])
-pkgs that look like they should be upgraded: zammad
-...
-Pakete, welche aktualisiert werden: zammad
-...
-zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
-</div>
-
-</div>
-
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/apt/">apt</a> <span class="genericon icon-tag"></span><a href="/tag/apt-cron/">apt-cron</a> <span class="genericon icon-tag"></span><a href="/tag/systemd/">Systemd</a> <span class="genericon icon-tag"></span><a href="/tag/unattended-upgrades/">unattended-upgrades</a><div id="respond">
-	<form action="/kommentar/" method="post" id="commentform">
-			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="unattended-upgrades">
-			<input type="hidden" name="post_slug" value="unattended-upgrades">
-			<input type="hidden" name="post_url" value="/technik/betriebssysteme/unattended-upgrades/">
-			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
-	</form>
-</div></div>
-
-	</div><hr class="post-separator styled-separator" /><div class="post">
-
-		<div class="post-header">
-			<h1 class="post-title"><a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/">Saxon 2008-06-28 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">12. November 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
-		
-		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
-
-		·
-
-		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
-	</div></div>
-
-		<div class="post-body">
-	<p><span class="band">Saxon</span> am 28. Juni 2008 beim Bang Your Head Festival in Balingen</p>
-<div id="gallery-saxon-2008-06-28-bildergalerie" class="gallery">
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4610.jpg" data-caption="Saxon (01/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4610_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4611.jpg" data-caption="Saxon (02/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4611_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4612.jpg" data-caption="Saxon (03/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4612_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4613.jpg" data-caption="Saxon (04/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4613_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4628.jpg" data-caption="Saxon (05/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4628_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4633.jpg" data-caption="Saxon (06/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4633_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4638.jpg" data-caption="Saxon (07/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4638_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4639.jpg" data-caption="Saxon (08/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4639_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4645.jpg" data-caption="Saxon (09/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4645_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4650.jpg" data-caption="Saxon (10/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4650_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-			<a href="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4651.jpg" data-caption="Saxon (11/11)">
-				<img src="/musik/konzerte/saxon-2008-06-28-bildergalerie/2008-06-28_saxon_img_4651_thumb.jpg" alt="Saxon" width="160" height="160">
-			</a>
-
-	</div>
-
-</div>
-
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival/">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/saxon/">Saxon</a><div id="respond">
-	<form action="/kommentar/" method="post" id="commentform">
-			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="Saxon 2008-06-28 Bildergalerie">
-			<input type="hidden" name="post_slug" value="saxon-2008-06-28-bildergalerie">
-			<input type="hidden" name="post_url" value="/musik/konzerte/saxon-2008-06-28-bildergalerie/">
-			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
-	</form>
-</div></div>
-
-	</div><hr class="post-separator styled-separator" /><div class="post">
-
-		<div class="post-header">
-			<h1 class="post-title"><a href="/musik/audio/nestor-teenage-rebel/">Nestor - Teenage Rebel</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">09. November 2024</span> ·
+			<h1 class="post-title"><a href="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/">Klaus Seilers Album-Highlights 2024 - Teil 1</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">31. Januar 2025</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/audio/">Audio</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/klaus-seiler/">Klaus Seiler</a></span>
@@ -343,17 +130,36 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 	</div></div>
 
 		<div class="post-body">
-	<p><img src="/musik/audio/nestor-teenage-rebel/nestor-teenage-rebel_cover.jpg" class="alignleft" width="160" height="160" alt="Nestor - Teenage Rebel">Auch wieder ein Album einer Band, welche die Vintage-Rock-Sounds der 1980er hochleben lässt. <span class="band">Bon Jovi</span> meets <span class="band">Journey</span> meets <span class="band">Europe</span> und was weiß ich noch nicht alles. Allzu jung sind die Buben aus Schweden nicht mehr, dafür schauen sie immer noch so aus, als hätten sie die Zeit angehalten.</p>
-<p>Geboten wird hier (im positiven Sinne) bester Mainstream-Hardrock, extrem melodisch, sehr okayes Songwriting und eine Leadstimme, die - gerade was diese Art Musik angeht- sehr überzeugen kann. Mir jedenfalls gefällt das Album außerordentlich gut, ich hatte in den letzten Jahren kaum eine Veröffentlichung gehört, die eben diesen Vintage-Rock-Sound kraftvoll und mit einer guten Prise Frischluft auf den Punkt bringt, ohne daß es sich wie abgekupfert oder nach Verwurstung anhört. Zu Anfang gibt es allerdings einen Opener, der einen erst einmal auf eine komplett falsche Fährte führt. Fast schon eine kleine Parodie mit dezentem Hinweis, was danach folgt.</p>
+	<p>Meine Album-Highlights des Jahres 2024 Teil 1 in alphabetischer Reihenfolge:</p>
+<h2 id="shemekia-copeland---blame-it-on-eve">Shemekia Copeland - Blame It On Eve</h2>
+<p><img src="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/shemekia-copeland_blame-it-on-eve.jpg" class="alignleft" width="160" height="160" alt="Shemekia Copeland - Blame It On Eve">Sie muss hier einfach mit rein. Schon 2022 hatte ich das Vorgängeralbum gelistet.</p>
+<p>Faszinierend, diese Stimme, diese Power, dieser Soul. Die Tochter von Blues-Legende Johnny Copeland zieht alle Register. &ldquo;Down On Bended Knees&rdquo; ist übrigens ein Coversong ihres Vaters. Ob gefühlvolle Blues-Ballade, energetischer Chicago-Blues oder schwül-stampfender Louisiana-Sound, sie hat es einfach drauf. Ohne Zweifel gehört sie zur Champions-League der Blues-Sängerinnen und ich hoffe, sie wird es noch lange bleiben.</p>
+<p>Ihre Alben sind für mich einfach Pflicht und dieses hier ist das dollste, das ich in dem Genre in diesem Jahr hören konnte. Von mir aus könnte die Frau alle 6 Monate ein solches Album raushauen. Der Rausschmeißer (&ldquo;Heaven Help Us All&rdquo;) ist übrigens ein Gospelsong der Extraklasse.</p>
+<h2 id="fame-on-fire---the-dead-card">Fame On Fire - The Dead Card</h2>
+<p><img src="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/fame-on-fire_the-dead-card.jpg" class="alignleft" width="160" height="160" alt="Fame On Fire - The Dead Card">Endlich was für Andreas &hellip; hoffentlich ;-))</p>
+<p>Sägende Gitarren, klasse Lead-Stimme mit prima Screams, treibendes Drumming, energetisch bis fast zum Abwinken. Dabei immer genau so melodiös, daß man fast schon von &ldquo;Pop goes Metal&rdquo; sprechen kann. Rein textlich geht’s um das weite Thema &ldquo;Tarot&rdquo;, durchaus nicht unbeliebt im Genre, das als Randbemerkung. Dafür ist die musikalische Umsetzung durchaus grandios, das ist mir dann mehr als genügend. Und daß die Stimme dieses Herrn Bryan Kuznitz richtig gut ist, kann man bei den etwas ruhigeren Songs (&ldquo;Habits&rdquo;) hören.</p>
+<p>In diesem Genre des leicht poplastigen Hardrock bzw. Metal ist im Grunde keine Neuerfindung des Rades zu erwarten, aber <span class="band">Fame On Fire</span> bringen eine richtig dolle Prise frischen Wind rein.</p>
+<h2 id="david-gilmour---luck-and-strange">David Gilmour - Luck and Strange</h2>
+<p><img src="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/david-gilmour_luck-and-strange.jpg" class="alignleft" width="160" height="160" alt="David Gilmour - Luck and Strange">Ist es nicht auch mal schön, wenn man den ganzen <span class="band">Pink Floyd</span>-Kram in die Ecke stellen kann? Wenn man einfach mal dieses tolle sogenannte Alterswerk mit ganz anderer Musik in die Welt setzt?</p>
+<p>Daß der Mann ein Magier an der Gitarre ist: allgemein bekannt. Die Magie seines Spiels besteht auf diesem Album in der großen Portion Entschleunigung mit ein paar wohlgesetzten Eruptionen. Seine Stimme hat vielleicht ein klein wenig gelitten, aber er ist halt auch kein Jungspund mehr. Kleiner Summit: &ldquo;Scattered&rdquo; mit coolem Piano und der Laid Back-Gitarre. Und: durchaus mit kleinen Reminiszenzen an <span class="band">Pink Floyd</span>, mit der richtigen Schippe mehr an Bombast könnte das durchaus ein <span class="band">Pink Floyd</span>-Song sein.</p>
+<p>Ach ja, fast vergessen: &ldquo;Between Two Points&rdquo;: seine Tochter am Micro gefällt mir wirklich gut, fast schon sowas wie feiner Dream-Pop.</p>
+<h2 id="michael-kiwanuka---small-changes">Michael Kiwanuka - Small Changes</h2>
+<p><img src="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/michael-kiwanuka_small-changes.jpg" class="alignleft" width="160" height="160" alt="Michael Kiwanuka - Small Changes">Michael wer? Kiwanuka? Nie gehört, nie gesehen. Aber als Prime-Unlimited-Kunde stößt man halt auf sowas. Außergewöhnlich.</p>
+<p>Ein noch recht junger Brite, der sich in der Schnittmenge zwischen Jazz, Soul und Singer-Songwriter-Musik mit fast schon extrem feinen Songgespinsten austobt. Dazu eine dieser Stimmen, die man als eine Art von Seelenschmeichler bezeichnen mag. Und dann noch wirklich kitschfrei, sowas findet man wirklich selten.</p>
+<p>Ein Album, mehr als geeignet zum &ldquo;Downgraden&rdquo; bei jeder Art von Stress oder Unwohlsein. Man sollte aber grundsätzlich ein Faible für diese Musik haben, sonst funktioniert es wahrscheinlich nicht.</p>
+<h2 id="jade-macrae---in-my-veins">Jade MacRae - In My Veins</h2>
+<p><img src="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/jade-macrae_in-my-veins.jpg" class="alignleft" width="160" height="160" alt="Jade MacRae - In My Veins">Jedes Mal, wenn ich sowas finde, bin ich vom Bandcamp wieder einmal begeistert. Die Frau stammt aus Australien und war schon einige Male u.a. bei einem als notorischen Faulenzer bekannten Blueser namens Joe Bonamassa als Background-Sängerin zu Gange. Beide Elternteile waren bzw. sind immer noch auf der anderen Seite des Globus als Profi-Musiker sehr bekannt, die guten Gene sind also vorhanden.</p>
+<p>Wenn musikalisch auf jemanden der Begriff &ldquo;Rhythm and Blues&rdquo; in seiner heutigen Form zutrifft, dann auf Jade MacRae. Stimmlich kann sie mich begeistern, ihre Mischung aus Blues, Soul, Funk und einer kleinen Schippe des schnöden Pop ist vom Feinsten. Da verwundert es nicht, daß der große Meister Joe sie bei einem der coolsten Songs (&ldquo;Early In The Morning&rdquo;) sauberst unterstützt.</p>
+<p>Für mich als Möger von so ziemlich allen Spielarten des Blues (von den musikethnologischen Feldaufnahmen eines Robert Johnson mal abgesehen) ist dieses Album ein echter Genuss, bei dem dann nur eines gilt: abtauchen und sich wohlfühlen.</p>
 
 </div>
 
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/cd/">CD</a> <span class="genericon icon-tag"></span><a href="/tag/nestor/">Nestor</a><div id="respond">
+		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/album-highlights/">Album-Highlights</a> <span class="genericon icon-tag"></span><a href="/tag/shemekia-copeland/">Shemekia Copeland</a> <span class="genericon icon-tag"></span><a href="/tag/fame-on-fire/">Fame On Fire</a> <span class="genericon icon-tag"></span><a href="/tag/david-gilmour/">David Gilmour</a> <span class="genericon icon-tag"></span><a href="/tag/michael-kiwanuka/">Michael Kiwanuka</a> <span class="genericon icon-tag"></span><a href="/tag/jade-macrae/">Jade MacRae</a><div id="respond">
 	<form action="/kommentar/" method="post" id="commentform">
 			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="Nestor - Teenage Rebel">
-			<input type="hidden" name="post_slug" value="nestor-teenage-rebel">
-			<input type="hidden" name="post_url" value="/musik/audio/nestor-teenage-rebel/">
+			<input type="hidden" name="post_title" value="Klaus Seilers Album-Highlights 2024 - Teil 1">
+			<input type="hidden" name="post_slug" value="klaus-seilers-album-highlights-2024-teil-1">
+			<input type="hidden" name="post_url" value="/musik/audio/klaus-seilers-album-highlights-2024-teil-1/">
 			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
 	</form>
 </div></div>
@@ -361,9 +167,9 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 	</div><hr class="post-separator styled-separator" /><div class="post">
 
 		<div class="post-header">
-			<h1 class="post-title"><a href="/technik/hardware/pebble-2-seitenteile-ersetzt/">Pebble 2 Seitenteile ersetzt</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">05. November 2024</span> ·
-			<span class="post-header-meta-item genericon icon-category"><a href="/technik/hardware/">Hardware</a></span> ·
+			<h1 class="post-title"><a href="/misc/lesenswert/lesenswert-xxxxi/">Lesenswert XXXXI</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">24. Januar 2025</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/misc/lesenswert/">Lesenswert</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
 
@@ -373,19 +179,37 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 	</div></div>
 
 		<div class="post-body">
-	<p>Ich habe ein Paar <a href="https://favouritehumandesign.com/product/pebble-2-buttons/"   class="genericon icon-extlink">Ersatz-Seitenteile</a> für meine <a href="https://de.wikipedia.org/wiki/Pebble_%28Smartwatch%29#Pebble_2,_Pebble_Time_2_und_Pebble_Core"   class="genericon icon-extlink">Pebble 2</a> bestellt und montiert. Die Uhr war im <a href="/technik/hardware/pebble-2-seitenteile/"  >defekten Zustand</a> sowieso nicht mehr verwendbar und das finanzielle Risiko hielt sich mit der Anschaffung der beiden Seitenteile in Grenzen.</p>
-<span id="-technik-hardware-pebble-2-seitenteile-ersetzt-pebble2-jpg"><a href="/technik/hardware/pebble-2-seitenteile-ersetzt/pebble2.jpg" data-caption="Pebble 2"><img src="/technik/hardware/pebble-2-seitenteile-ersetzt/pebble2.jpg"  width="768" height="576" alt="Pebble 2"></a></span>
-<p>Der Umbau hat mit Hilfe der <a href="https://favouritehumandesign.com/2020/06/14/pebble-2-buttons-fitting-instructions/"   class="genericon icon-extlink">detaillierten Anleitung</a> gut funktioniert. Meine Pebble ist ein Gehäusetyp &ldquo;B&rdquo;, so daß das Zurechtfeilen der Kanten glücklicherweise entfallen konnte.</p>
-<p>Als Kleber habe ich wie vorgeschlagen den nächstbesten &ldquo;B7000 Universal Kleber&rdquo; verwendet, wobei ich ein bißchen zu viel aufgetragen habe. Beim anschließenden Reinigen des Überschusses habe ich die schwarze Lackierung der Tasten erst versehentlich teilweise und anschließend absichtlich komplett entfernt. Passt eigentlich ganz gut zur Uhr und auch das Versprechen eines &ldquo;satisfying clicks&rdquo; wurde gehalten: die mechanischen Ersatztasten haben tatsächlich ein besseres Druckgefühl als die originalen Silikontasten.</p>
+	<ul>
+<li>
+<p><a href="https://fragdenstaat.de/artikel/exklusiv/2024/10/sachsenwald/"   class="genericon icon-extlink">Die absurdeste Steueroase Deutschlands</a><br>
+21 Unternehmen haben ihren Firmensitz in einer Hütte im Sachsenwald</p>
+</li>
+<li>
+<p><a href="https://mkln.org/p/ratlos-und-wuetend-sprachnachrichten"   class="genericon icon-extlink">Ratlos und wütend: Sprachnachrichten</a><br>
+Eine schöne Zusammenfassung, warum mein Anrufbeantworter seit jeher die Redezeit auf 30 Sekunden begrenzt</p>
+</li>
+<li>
+<p><a href="https://www.srf.ch/sendungen/kassensturz-espresso/espresso/umstrittenes-geschaeftsmodell-v-zug-geschirrspueler-spezialprogramme-nur-mit-abo"   class="genericon icon-extlink">V-Zug-Geschirrspüler: Spezialprogramme nur mit Abo</a><br>
+Nicht nur der App-Wahn, sondern auch der Irgendetwas-As-A-Service-Wahn wird immer schlimmer</p>
+</li>
+<li>
+<p><a href="https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/#read-receipts-are-you-kidding-me-seriously-fuck-that-noise"   class="genericon icon-extlink">You should be using an RSS reader</a><br>
+Sinnvoller Vorschlag, dem ich vollumfänglich zustimme</p>
+</li>
+<li>
+<p><a href="https://blog.startifact.com/posts/print-debugging/"   class="genericon icon-extlink">Don&rsquo;t Look Down on Print Debugging</a><br>
+Offensichtlich bin ich doch nicht so old-fashioned, wie ich dachte &hellip;</p>
+</li>
+</ul>
 
 </div>
 
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/pebble/">Pebble</a><div id="respond">
+		<div class="post-footer"><div id="respond">
 	<form action="/kommentar/" method="post" id="commentform">
 			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="Pebble 2 Seitenteile ersetzt">
-			<input type="hidden" name="post_slug" value="pebble-2-seitenteile-ersetzt">
-			<input type="hidden" name="post_url" value="/technik/hardware/pebble-2-seitenteile-ersetzt/">
+			<input type="hidden" name="post_title" value="Lesenswert XXXXI">
+			<input type="hidden" name="post_slug" value="lesenswert-xxxxi">
+			<input type="hidden" name="post_url" value="/misc/lesenswert/lesenswert-xxxxi/">
 			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
 	</form>
 </div></div>
@@ -393,8 +217,8 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 	</div><hr class="post-separator styled-separator" /><div class="post">
 
 		<div class="post-header">
-			<h1 class="post-title"><a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/">Tankard 2008-06-28 Bildergalerie</a></h1><div class="post-header-meta">
-	<span class="post-header-meta-item genericon icon-calendar">02. November 2024</span> ·
+			<h1 class="post-title"><a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/">Ken Hensley 2002-06-13 Bildergalerie</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">18. Januar 2025</span> ·
 			<span class="post-header-meta-item genericon icon-category"><a href="/musik/konzerte/">Konzerte</a></span> ·
 		
 		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
@@ -405,71 +229,143 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 	</div></div>
 
 		<div class="post-body">
-	<p><span class="band">Tankard</span> am 28. Juni 2008 beim Bang Your Head Festival in Balingen</p>
-<div id="gallery-tankard-2008-06-28-bildergalerie" class="gallery">
+	<p>Ken Hensley am 13. Juni 2002 im Schwimmbadclub in Heidelberg</p>
+<div id="gallery-ken-hensley-2002-06-13-bildergalerie" class="gallery">
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4390.jpg" data-caption="Tankard (01/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4390_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1105.jpg" data-caption="Ken Hensley (01/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1105_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4397.jpg" data-caption="Tankard (02/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4397_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1111.jpg" data-caption="Ken Hensley (02/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1111_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4404.jpg" data-caption="Tankard (03/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4404_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1116.jpg" data-caption="Ken Hensley (03/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1116_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4407.jpg" data-caption="Tankard (04/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4407_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1125.jpg" data-caption="Ken Hensley (04/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1125_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4408.jpg" data-caption="Tankard (05/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4408_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1132.jpg" data-caption="Ken Hensley (05/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1132_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4410.jpg" data-caption="Tankard (06/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4410_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1133.jpg" data-caption="Ken Hensley (06/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1133_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4412.jpg" data-caption="Tankard (07/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4412_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1142.jpg" data-caption="Ken Hensley (07/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1142_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4413.jpg" data-caption="Tankard (08/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4413_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1159.jpg" data-caption="Ken Hensley (08/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1159_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4415.jpg" data-caption="Tankard (09/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4415_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1166.jpg" data-caption="Ken Hensley (09/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1166_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4421.jpg" data-caption="Tankard (10/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4421_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1168.jpg" data-caption="Ken Hensley (10/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1168_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4433.jpg" data-caption="Tankard (11/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4433_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1170.jpg" data-caption="Ken Hensley (11/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1170_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4434.jpg" data-caption="Tankard (12/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4434_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1174.jpg" data-caption="Ken Hensley (12/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1174_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
-			<a href="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4440.jpg" data-caption="Tankard (13/13)">
-				<img src="/musik/konzerte/tankard-2008-06-28-bildergalerie/2008-06-28_tankard_img_4440_thumb.jpg" alt="Tankard" width="160" height="160">
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1180.jpg" data-caption="Ken Hensley (13/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1180_thumb.jpg" alt="Ken Hensley" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1181.jpg" data-caption="Ken Hensley (14/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1181_thumb.jpg" alt="Ken Hensley" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1193.jpg" data-caption="Ken Hensley (15/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1193_thumb.jpg" alt="Ken Hensley" width="160" height="160">
+			</a>
+
+			<a href="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1194.jpg" data-caption="Ken Hensley (16/16)">
+				<img src="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/2002-06-13_ken-hensley_dcp_1194_thumb.jpg" alt="Ken Hensley" width="160" height="160">
 			</a>
 
 	</div>
 
 </div>
 
-		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/bang-your-head-festival/">Bang Your Head Festival</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a> <span class="genericon icon-tag"></span><a href="/tag/tankard/">Tankard</a><div id="respond">
+		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/ken-hensley/">Ken Hensley</a> <span class="genericon icon-tag"></span><a href="/tag/konzertfotos/">Konzertfotos</a><div id="respond">
 	<form action="/kommentar/" method="post" id="commentform">
 			<input type="hidden" name="addcomment" value="1">
-			<input type="hidden" name="post_title" value="Tankard 2008-06-28 Bildergalerie">
-			<input type="hidden" name="post_slug" value="tankard-2008-06-28-bildergalerie">
-			<input type="hidden" name="post_url" value="/musik/konzerte/tankard-2008-06-28-bildergalerie/">
+			<input type="hidden" name="post_title" value="Ken Hensley 2002-06-13 Bildergalerie">
+			<input type="hidden" name="post_slug" value="ken-hensley-2002-06-13-bildergalerie">
+			<input type="hidden" name="post_url" value="/musik/konzerte/ken-hensley-2002-06-13-bildergalerie/">
+			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
+	</form>
+</div></div>
+
+	</div><hr class="post-separator styled-separator" /><div class="post">
+
+		<div class="post-header">
+			<h1 class="post-title"><a href="/musik/verschiedenes/urlaubsimpression-xiii/">Urlaubsimpression XIII</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">11. Januar 2025</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/verschiedenes/">Verschiedenes</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+		<div class="post-body">
+	<span id="-musik-verschiedenes-urlaubsimpression-xiii-thalia-jpg"><a href="/musik/verschiedenes/urlaubsimpression-xiii/thalia.jpg" data-caption="LP-Regal bei Thalia"><img src="/musik/verschiedenes/urlaubsimpression-xiii/thalia.jpg"  width="768" height="576" alt="LP-Regal bei Thalia"></a></span>
+<p>In der <a href="https://www.europa-passage.de"   class="genericon icon-extlink">Eupoa Passage Hamburg</a> gibt es bei <a href="https://www.thalia.de/"   class="genericon icon-extlink">Thalia</a> nicht nur ein großes LP-Regal, sondern auch ein extra Fach für <span class="band">Uriah Heep</span> inlkusive Picture-LP von &ldquo;<a href="https://de.wikipedia.org/wiki/Salisbury_%28Album%29"   class="genericon icon-extlink">Salisbury</a>&rdquo;.</p>
+
+</div>
+
+		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/uriah-heep/">Uriah Heep</a><div id="respond">
+	<form action="/kommentar/" method="post" id="commentform">
+			<input type="hidden" name="addcomment" value="1">
+			<input type="hidden" name="post_title" value="Urlaubsimpression XIII">
+			<input type="hidden" name="post_slug" value="urlaubsimpression-xiii">
+			<input type="hidden" name="post_url" value="/musik/verschiedenes/urlaubsimpression-xiii/">
+			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
+	</form>
+</div></div>
+
+	</div><hr class="post-separator styled-separator" /><div class="post">
+
+		<div class="post-header">
+			<h1 class="post-title"><a href="/musik/hoerenswert/hoerenswert-120-seven-sisters-heart-of-the-sun/">Hörenswert #120: Seven Sisters - Heart Of The Sun</a></h1><div class="post-header-meta">
+	<span class="post-header-meta-item genericon icon-calendar">07. Januar 2025</span> ·
+			<span class="post-header-meta-item genericon icon-category"><a href="/musik/hoerenswert/">Hörenswert</a></span> ·
+		
+		<span class="post-header-meta-item genericon icon-author"><a href="/author/andreas/">andreas</a></span>
+
+		·
+
+		<span class="post-header-meta-item genericon icon-comment">Kein Kommentar</span>
+	</div></div>
+
+		<div class="post-body">
+	<p><a href="https://sevensistersheavymetal.bandcamp.com/track/heart-of-the-sun"  ><img src="/img/link/bandcamp-link.jpg"  width="336" height="216" alt="Link zu Bandcamp"></a></p>
+<p>Der Vorgänger &ldquo;Shadow Of A Fallen Star Pt.1&rdquo; hatte es in meine <a href="/musik/audio/album-highlights-2022/"  >Album-Highlights 2022</a> geschafft, mit &ldquo;Heart Of The Sun&rdquo; gibt es einen ersten Höreindruck vom am 28. März 2025 erscheinenden &ldquo;Shadow Of A Fallen Star Pt.2&rdquo; der <span class="band">Seven Sisters</span>.</p>
+
+</div>
+
+		<div class="post-footer"><span class="genericon icon-tag"></span><a href="/tag/seven-sisters/">Seven Sisters</a><div id="respond">
+	<form action="/kommentar/" method="post" id="commentform">
+			<input type="hidden" name="addcomment" value="1">
+			<input type="hidden" name="post_title" value="Hörenswert #120: Seven Sisters - Heart Of The Sun">
+			<input type="hidden" name="post_slug" value="hoerenswert-120-seven-sisters-heart-of-the-sun">
+			<input type="hidden" name="post_url" value="/musik/hoerenswert/hoerenswert-120-seven-sisters-heart-of-the-sun/">
 			<span class="button icon-comment"><input name="submit" type="submit" id="submit" tabindex="5" class="" value="Beitrag kommentieren"></span>
 	</form>
 </div></div>
@@ -483,21 +379,20 @@ zammad (6.3.1-1726721589.817498f6.bookworm) wird eingerichtet ...</code>
 						<a href="/page/4/" class="page-numbers">4</a>
 						<a href="/page/5/" class="page-numbers">5</a>
 	<span class="page-numbers dots">&hellip;</span>
-	<a href="/page/249/" class="page-numbers">249</a>
+	<a href="/page/252/" class="page-numbers">252</a>
 			<a href="/page/2/" class="next page-numbers">Ältere &rarr;</a></div>
 </nav>
 
 <script>
 	window.addEventListener('load', function() {
-		baguetteBox.run('#gallery-saxon-2008-06-28-bildergalerie');
-		baguetteBox.run('#-technik-hardware-pebble-2-seitenteile-ersetzt-pebble2-jpg');
-		baguetteBox.run('#gallery-tankard-2008-06-28-bildergalerie');});
+		baguetteBox.run('#gallery-ken-hensley-2002-06-13-bildergalerie');
+		baguetteBox.run('#-musik-verschiedenes-urlaubsimpression-xiii-thalia-jpg');});
 </script>
 		</div></div>
 
 <div id="page-footer-container">
 	<div id="page-footer">
-		<div id="site-copyright">&copy; 1990-2024 Andreas Thul</div>
+		<div id="site-copyright">&copy; 1990-2025 Andreas Thul</div>
 		<div id="secondary-navigation">
 			<ul class="menu">
 				<li class="menu-item"><span class="genericon icon-tag"></span><a href="/tags">Schlagwörter</a></li>

@@ -3,18 +3,18 @@ Access-Control-Allow-Origin: *
 Alt-Svc: h3=":443"; ma=86400
 Cache-Control: public, max-age=0, must-revalidate
 Cf-Cache-Status: DYNAMIC
-Cf-Ray: 8e4a7ccd29a77594-SEA
+Cf-Ray: 90c52e61efa9760c-SEA
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Nov 2024 19:50:05 GMT
+Date: Mon, 03 Feb 2025 20:30:51 GMT
 Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Referrer-Policy: strict-origin-when-cross-origin
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=D1Yk1jn5BrgJSgcldjSsx9XS92566H6ROhJ9oGNu%2B%2FD85WxMHuUy6g1d%2B519VAhcIjmeZLiveD6ZouiMdEwSEjvsz5XDM8XZ6q%2FEyFSB1rikiq6R2rwRgJ%2FnvzFVYa%2F3zVNiXA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=hM68ILsRiZmXySD1UyV0IiJq1xVwtHlcGYbyQaLxRvmkgCoZ1aLZyWezxu%2FEisGnb1YKotjHPQXwgN1c5fwoYCbQgrmLeV2NyOd6DlWqhYWEansJHlXEQs1ZjBaVJ8yWCnDbQw%3D%3D"}],"group":"cf-nel","max_age":604800}
 Server: cloudflare
-Server-Timing: cfL4;desc="?proto=TCP&rtt=8323&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3198&recv_bytes=592&delivery_rate=450838&cwnd=239&unsent_bytes=0&cid=bc98948976bd96d3&ts=84&x=0"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=7485&min_rtt=6881&rtt_var=2046&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3562&recv_bytes=592&delivery_rate=618750&cwnd=228&unsent_bytes=0&cid=4e572b610a03a110&ts=240&x=0"
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: b48922fd9ca4eae7976af13c8c46e857
-X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
+X-Etags-1: 711ee3e15a771e33b54f6d2d48f1cd78
+X-Etags-2: 711ee3e15a771e33b54f6d2d48f1cd78
 
 <!DOCTYPE html>
 <html lang='de-de'>
@@ -50,7 +50,7 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
 
 
     <meta property="og:url" content="https://www.marcogriep.de/" />
-    <meta property="og:site_name" content="Griep Marco - IT-Beratung, Webdesign & Softwareentwicklung" />
+    <meta property="og:site_name" content="Griep Marco - IT-Beratung, Softwareentwicklung & IT-Trainings" />
     <meta property="og:image" content="" />
 
     <meta property="og:latitude" content="49.24995879999999" />
@@ -66,174 +66,246 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
     <meta name="description" content="Softwareentwicklung Rheinland-Pfalz - Von der Konzeption Ihrer individuellen Software bis zur Implementierung und dem Betrieb in der Cloud." />
     
     <meta name="author" content="Marco Griep" />
-    <meta name="generator" content="Hugo 0.133.0"><link rel="stylesheet" href="https://www.marcogriep.de/css/styles.min.css">
+    <meta name="generator" content="Hugo 0.133.0">
+
+    <link href="/css/flowbite.min.css"  rel="stylesheet" /><link rel="stylesheet" href="https://www.marcogriep.de/css/styles.min.css">
     
 
     <link rel="alternate" type="application/rss+xml" href="https://www.marcogriep.de//feed.xml" title="Marco Griep - IT-Berater &amp; Softwareentwickler">
-    <script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="0d709528424dc6eb9cfda576-text/javascript"></script>
+    <script defer src="https://analytics.griep-it-systems.de/script.js" data-website-id="cc75d61d-d22f-4b07-a95e-7801c759ee21" type="3af4fcda5a8fb9b173181915-text/javascript"></script>
+    
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="0d709528424dc6eb9cfda576-text/javascript"></script>
+    <script src="/js/jquery-3.6.0.min.js" type="3af4fcda5a8fb9b173181915-text/javascript"></script>
+
+    <script type="3af4fcda5a8fb9b173181915-text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/autoblocking/ef266db002cce.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="0"></script>
 </head>
 
 
 <body>
     <header>
-    <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-        <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
-            <a href="https://www.marcogriep.de/" class="flex items-center">
-                <img src="https://www.marcogriep.de/media/final_LOGO_black_8NV3yIoPuO.webp"
-                    class="h-6 mr-3 sm:h-9" alt="Marco Griep Logo" />
-                <div class="flex flex-col">
-                    <span class="text-xl font-semibold whitespace-nowrap dark:text-white">Marco Griep</span>
-                    <span>Softwareentwickler & IT-Berater</span>
-                </div>
-            </a>
-            <div class="flex items-center lg:order-2">
-                <a href="https://connect.marcogriep.de"
-                    class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 lg:px-5 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Kundenportal</a>
-                <button data-collapse-toggle="mobile-menu-2" type="button"
-                    class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="mobile-menu-2" aria-expanded="false">
-                    <span class="sr-only">Menü öffnen</span>
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
-                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-
-                    <li>
-                        <a href="/"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Softwareentwicklung</a>
-                    </li>
-
-                    <li>
-                        <button id="mega-menu-button-2" data-dropdown-toggle="mega-menu-2"
-                            class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 lg:w-auto hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">IT-Services
-                            <svg class="w-5 h-5 ml-1 lg:w-4 lg:h-4" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg></button>
-                        <div id="mega-menu-2"
-                            class="absolute z-10 grid hidden w-full bg-white border border-gray-100 shadow-md dark:border-gray-700 lg:rounded-lg lg:w-auto lg:grid-cols-3 dark:bg-gray-700">
-                            <div
-                                class="p-2 text-gray-900 bg-white lg:rounded-lg dark:text-white lg:col-span-2 dark:bg-gray-800">
-                                <ul>
-                                    
-                                    
-                                    <li>
-                                    <a href="/services/cloud-services/" class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                                        <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
-                                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z"></path><path d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z"></path></svg>
-                                        </div>
-                                        <div>
-                                            <div class="font-semibold">Cloud Services</div>
-                                            <div class="text-sm font-medium text-gray-500 dark:text-gray-400">Cloud Hosting & Infrastruktur Dienstleistungen</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                    <li>
-                                        <a href="/services/softwareverteilung/"
-                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                                            <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
-                                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                    <path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M10 12v1h4v-1m4 7H6a1 1 0 0 1-1-1V9h14v9a1 1 0 0 1-1 1ZM4 5h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/>
-                                                  </svg>
-                                                  
-                                            </div>
-                                            <div>
-                                                <div class="font-semibold">Softwareverteilung</div>
-                                                <div class="text-sm font-medium text-gray-500 dark:text-gray-400">
-                                                    Software über das Netzwerk automatisiert verteilen</div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/trainings/"
-                                            class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                                            <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
-                                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd"
-                                                        d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </div>
-                                            <div>
-                                                <div class="font-semibold">IT-Trainings & Schulungen</div>
-                                                <div class="text-sm font-medium text-gray-500 dark:text-gray-400">Lernen
-                                                    und besser werden.</div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                    <a href="/services/ai-services/" class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
-                                        <div class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700">
-                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.5A2.493 2.493 0 0 1 7.51 20H7.5a2.468 2.468 0 0 1-2.4-3.154 2.98 2.98 0 0 1-.85-5.274 2.468 2.468 0 0 1 .92-3.182 2.477 2.477 0 0 1 1.876-3.344 2.5 2.5 0 0 1 3.41-1.856A2.5 2.5 0 0 1 12 5.5m0 13v-13m0 13a2.493 2.493 0 0 0 4.49 1.5h.01a2.468 2.468 0 0 0 2.403-3.154 2.98 2.98 0 0 0 .847-5.274 2.468 2.468 0 0 0-.921-3.182 2.477 2.477 0 0 0-1.875-3.344A2.5 2.5 0 0 0 14.5 3 2.5 2.5 0 0 0 12 5.5m-8 5a2.5 2.5 0 0 1 3.48-2.3m-.28 8.551a3 3 0 0 1-2.953-5.185M20 10.5a2.5 2.5 0 0 0-3.481-2.3m.28 8.551a3 3 0 0 0 2.954-5.185"/>
-                                              </svg>
-                                              
-                                        </div>
-                                        <div>
-                                            <div class="font-semibold">IT-Beratung</div>
-                                            <div class="text-sm font-medium text-gray-500 dark:text-gray-400">IT-Consulting Angebote</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                </ul>
-                            </div>
-                            <div class="px-5 py-5 bg-gray-50 lg:rounded-lg lg:col-span-1 dark:bg-gray-700">
-                                <h3 class="mb-4 text-sm font-semibold text-gray-900 dark:text-white">Beliebte
-                                    Dienstleistungen</h3>
-                                <ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400">
-                                    <li>
-                                        <a href="/trainings/powershell-training/"
-                                            class="hover:text-primary-600 dark:hover:text-primary-500">PowerShell
-                                            Grundlagen</a>
-                                    </li>
-                                    <li>
-                                        <a href="/services/softwareverteilung/"
-                                            class="hover:text-primary-600 dark:hover:text-primary-500">Softwareverteilung</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="/referenzen"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Referenzen</a>
-                    </li>
-                    <li>
-                        <a href="/software"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Produkte</a>
-                    </li>
-                    <li>
-                        <a href="/posts"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/#kontakt"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+    <div
+      class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto"
+    >
+      <a href="https://www.marcogriep.de/" class="flex items-center">
+        <img
+          src="https://www.marcogriep.de/media/final_LOGO_black_8NV3yIoPuO.webp"
+          class="h-6 mr-3 sm:h-9"
+          alt="Marco Griep Logo"
+        />
+        <div class="flex flex-col">
+          <span class="text-xl font-semibold whitespace-nowrap dark:text-white"
+            >Marco Griep</span
+          >
+          <span>Softwareentwicklung & IT-Consulting</span>
         </div>
-    </nav>
-</header>
+      </a>
+      <div class="flex items-center lg:order-2">
+        <a
+          href="https://connect.marcogriep.de"
+          class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 lg:px-5 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+          >Kundenportal</a
+        >
+        <button
+          data-collapse-toggle="mobile-menu-2"
+          type="button"
+          class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="mobile-menu-2"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menü öffnen</span>
+          <svg
+            class="w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <svg
+            class="hidden w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div
+        class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
+        id="mobile-menu-2"
+      >
+        <ul
+          class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+        >
+          <li>
+            <a
+              href="/"
+              class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              >Softwareentwicklung</a
+            >
+          </li>
 
-<section class="bg-white dark:bg-gray-900">
+          
+          
+          <li>
+            <a
+              href="/services/it-consulting"
+              class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              >IT-Consulting</a
+            >
+          </li>
+          <li>
+            <a
+              href="/trainings"
+              class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              >Trainings</a
+            >
+          </li>
+          <li>
+            <button
+              id="mega-menu-button-2"
+              data-dropdown-toggle="mega-menu-2"
+              class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 border-b border-gray-100 lg:w-auto hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+            >
+              Software & Downloads
+              <svg
+                class="w-5 h-5 ml-1 lg:w-4 lg:h-4"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="mega-menu-2"
+              class="absolute z-10 grid hidden w-full bg-white border border-gray-100 shadow-md dark:border-gray-700 lg:rounded-lg lg:w-auto lg:grid-cols-3 dark:bg-gray-700"
+            >
+              <div
+                class="p-2 text-gray-900 bg-white lg:rounded-lg dark:text-white lg:col-span-2 dark:bg-gray-800"
+              >
+                <ul>
+                  <li>
+                    <a
+                      href="/software/opensource/"
+                      class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    >
+                      <div
+                        class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7 9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H9a2 2 0 01-2-2V9z"
+                          ></path>
+                          <path
+                            d="M5 3a2 2 0 00-2 2v6a2 2 0 002 2V5h8a2 2 0 00-2-2H5z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="font-semibold">Open Source Programme</div>
+                        <div
+                          class="text-sm font-medium text-gray-500 dark:text-gray-400"
+                        >
+                          Kostenlose Open Source Software
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/software/keycloak/"
+                      class="flex items-center p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+                    >
+                      <div
+                        class="p-2 mr-4 bg-white rounded-lg shadow dark:bg-gray-700"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M5 3a1 1 0 000 2c5.523 0 10 4.477 10 10a1 1 0 102 0C17 8.373 11.627 3 5 3z"
+                          ></path>
+                          <path
+                            d="M4 9a1 1 0 011-1 7 7 0 017 7 1 1 0 11-2 0 5 5 0 00-5-5 1 1 0 01-1-1zM3 15a2 2 0 114 0 2 2 0 01-4 0z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <div class="font-semibold">Keycloak Themes</div>
+                        <div
+                          class="text-sm font-medium text-gray-500 dark:text-gray-400"
+                        >
+                          Themes für Keycloak
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="px-5 py-5 bg-gray-50 lg:rounded-lg lg:col-span-1 dark:bg-gray-700"
+              >
+                <h3
+                  class="mb-4 text-sm font-semibold text-gray-900 dark:text-white"
+                >
+                  Beliebte Produkte
+                </h3>
+                <ul class="space-y-4 text-sm text-gray-500 dark:text-gray-400">
+                  <li>
+                    <a
+                      href="/software/keycloak/keycloak-medical-theme"
+                      class="hover:text-primary-600 dark:hover:text-primary-500"
+                      >Keycloak Medical Theme</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a
+              href="/posts"
+              class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              >Blog</a
+            >
+          </li>
+          
+          <li>
+            <a
+              href="/#kontakt"
+              class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-600 lg:p-0 dark:text-gray-400 lg:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+ <section class="bg-white dark:bg-gray-900">
     <div class="px-4 py-8 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-12 mt-4">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white tracking-tight">Softwareentwicklung & Cloud Server Bereitstellung aus einer Hand</h1>
         <p class="font-light text-gray-500 md:text-lg lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Ich übernehme die Verantwortung für den gesamten Entwicklungsprozess - von der Konzeption Ihrer individuellen Software bis hin zur erfolgreichen Implementierung und dem zuverlässigen Betrieb in der Cloud.</p>
@@ -255,9 +327,7 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
             </a> 
         </div>
 </section>
-
-
-<section class="bg-white dark:bg-gray-900" id="features">
+ <section class="bg-white dark:bg-gray-900" id="features">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-md mb-8 lg:mb-16">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Ihr Nutzen auf einen Blick</h2>
@@ -377,265 +447,656 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
     </div>
   </section>
 
+<section class="bg-white dark:bg-gray-900">
+  <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+    <div class="text-center text-gray-900">
+      <h2
+        class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl dark:text-white"
+      >
+        Erfahren Sie, warum das Auslagern von IT-Leistungen für Ihr Unternehmen
+        von Vorteil sein kann.
+      </h2>
+      <p class="mb-4 text-xl text-gray-500 dark:text-gray-400">
+        Ich habe die wichtigsten Vorteile für Sie zusammengefasst.
+      </p>
+    </div>
+    <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
+      <div class="flex mb-2 md:flex-col md:mb-0">
+        <img
+          class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
+          src="https://www.marcogriep.de/media/office-content-1_qq0f2g6Ji.webp"
+          alt="office image"
+        />
+        <div>
+          <h3
+            class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white"
+          >
+            Alles aus einer Hand
+          </h3>
+          <p class="text-gray-500 dark:text-gray-400">
+            Da Entwickler und Hosting-Provider eng zusammenarbeiten, können sie
+            sicherstellen, dass die Software optimal auf die verfügbaren
+            Ressourcen und die Anforderungen der Hosting-Umgebung abgestimmt
+            ist. Dies kann dazu beitragen, Probleme mit der Leistung, der
+            Sicherheit und der Skalierbarkeit zu vermeiden und die
+            Zuverlässigkeit der Software zu erhöhen. Ein weiterer Vorteil ist
+            das Einsparung von Zeit und Kosten, da es nicht notwendig ist,
+            mehrere Dienstleister und deren Schnittstellen zu koordinieren..
+          </p>
+        </div>
+      </div>
+      <div class="flex mb-2 md:flex-col md:mb-0">
+        <img
+          class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
+          src="https://www.marcogriep.de/media/office-content-2_p8YwG3k0L.webp"
+          alt="office image 2"
+        />
+        <div>
+          <h3
+            class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white"
+          >
+            Ständig up-to-date
+          </h3>
+          <p class="text-gray-500 dark:text-gray-400">
+            Externe IT-Dienstleister müssen ständig auf dem neuesten Stand der
+            Technologie und Marktentwicklungen sein, um relevant und erfolgreich
+            zu bleiben. Sie investieren in ihr Know-how, um sicherzustellen,
+            dass sie auch in Zukunft wettbewerbsfähig bleiben
+          </p>
+        </div>
+      </div>
+      <div class="flex md:flex-col">
+        <img
+          class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
+          src="https://www.marcogriep.de/media/office-content-3_tZwnTQvKe.webp"
+          alt="office image 3"
+        />
+        <div>
+          <h3
+            class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white"
+          >
+            Dem Fachkräftemangel entgehen
+          </h3>
+          <p class="text-gray-500 dark:text-gray-400">
+            Es kann kostenintensiv sein, eigene IT-Fachkräfte zu suchen, zu
+            finden, zu halten und weiterzubilden. Durch den Fachkräftemangel
+            wird es immer schwieriger, qualifizierte Mitarbeiter zu finden und
+            zu halten, da diese oft nur noch durch hohe Gehälter angezogen
+            werden können, was das Abwerberisiko erhöht.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div class="text-center text-gray-900">
-            <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl dark:text-white">Erfahren
-                Sie, warum das Auslagern von IT-Leistungen für Ihr Unternehmen von Vorteil sein kann.</h2>
-                <p class="mb-4 text-xl text-gray-500 dark:text-gray-400">Ich habe die wichtigsten Vorteile für Sie
-                    zusammengefasst.</p>
+  <div
+    class="py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6"
+  >
+    
+    <div class="gap-8 items-center lg:grid lg:grid-cols-2 xl:gap-16">
+      <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+        >
+          Für die ITler unter Euch - Mein Tech-Stack
+        </h2>
+        <p class="mb-8 font-light lg:text-xl">
+          Folgende Technologie Schwerpunkte habe ich.
+        </p>
+        
+        <ul
+          role="list"
+          class="pt-8 my-7 space-y-5 border-t border-gray-200 dark:border-gray-700"
+        >
+          <li class="flex space-x-3">
             
-        </div>
-        <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
-            <div class="flex mb-2 md:flex-col md:mb-0">
-                <img class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
-                    src="https://www.marcogriep.de/media/office-content-1_qq0f2g6Ji.webp"
-                    alt="office image" />
-                <div>
-                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Alles aus einer Hand</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Da Entwickler und Hosting-Provider eng zusammenarbeiten,
-                        können sie sicherstellen, dass die Software optimal auf die verfügbaren Ressourcen und die
-                        Anforderungen der Hosting-Umgebung abgestimmt ist. Dies kann dazu beitragen, Probleme mit der
-                        Leistung, der Sicherheit und der Skalierbarkeit zu vermeiden und die Zuverlässigkeit der
-                        Software zu erhöhen. Ein weiterer Vorteil ist das Einsparung von Zeit und Kosten, da es nicht
-                        notwendig ist, mehrere Dienstleister und deren Schnittstellen zu koordinieren..</p>
-                </div>
-            </div>
-            <div class="flex mb-2 md:flex-col md:mb-0">
-                <img class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
-                    src="https://www.marcogriep.de/media/office-content-2_p8YwG3k0L.webp"
-                    alt="office image 2" />
-                <div>
-                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Ständig up-to-date</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Externe IT-Dienstleister müssen ständig auf dem neuesten
-                        Stand der Technologie und Marktentwicklungen sein, um relevant und erfolgreich zu bleiben. Sie
-                        investieren in ihr Know-how, um sicherzustellen, dass sie auch in Zukunft wettbewerbsfähig
-                        bleiben</p>
-                </div>
-            </div>
-            <div class="flex md:flex-col">
-                <img class="w-auto mr-4 rounded-lg h-36 md:w-full md:h-auto"
-                    src="https://www.marcogriep.de/media/office-content-3_tZwnTQvKe.webp"
-                    alt="office image 3" />
-                <div>
-                    <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Dem Fachkräftemangel
-                        entgehen</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Es kann kostenintensiv sein, eigene IT-Fachkräfte zu
-                        suchen, zu finden, zu halten und weiterzubilden. Durch den Fachkräftemangel wird es immer
-                        schwieriger, qualifizierte Mitarbeiter zu finden und zu halten, da diese oft nur noch durch hohe
-                        Gehälter angezogen werden können, was das Abwerberisiko erhöht.</p>
-                </div>
-            </div>
-        </div>
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >.Net Entwicklung - Avalonia / Blazor / ASP.MVC</span
+            >
+          </li>
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Python - Flask</span
+            >
+          </li>
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Docker / GitLab CICD / Terraform</span
+            >
+          </li>
+        </ul>
+        <p class="mb-8 font-light lg:text-xl">
+          Andere Technologie-Stacks sind aus Qualitätsgründen ausgeschlossen.
+        </p>
+      </div>
+      <img
+        class="hidden mb-4 w-full lg:mb-0 lg:flex rounded-lg"
+        src="https://ik.imagekit.io/8uiikipiqja/P1190125_SNa-vftNl.png?updatedAt=1614513690312"
+        alt="office feature image"
+      />
     </div>
+    
+    <div class="gap-8 items-center lg:grid lg:grid-cols-2 xl:gap-16">
+      <img
+        class="hidden mb-4 w-full lg:mb-0 lg:flex rounded-lg"
+        src="/media/sonarqube.jpg"
+        alt="office feature image 2"
+      />
+      <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+        >
+          Qualitätskontrolle
+        </h2>
+        <p class="mb-8 font-light lg:text-xl">
+          Die beste Leistung ist nur so gut wie Ihre Qualitätskontrolle.
+        </p>
+        
+        <ul
+          role="list"
+          class="pt-8 my-7 space-y-5 border-t border-gray-200 dark:border-gray-700"
+        >
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Event Tracing mittels Sentry</span
+            >
+          </li>
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Code Kontrolle mittels Sonarqube</span
+            >
+          </li>
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Unit Testing mit NUnit</span
+            >
+          </li>
+          <li class="flex space-x-3">
+            
+            <svg
+              class="flex-shrink-0 w-5 h-5 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >Ausführliche Dokumentation von Code & Infrastruktur</span
+            >
+          </li>
+        </ul>
+        <p class="font-light lg:text-xl">
+          Mein Anspruch ist eine möglichst sichere und stabile Software. Mit
+          steigener Kompexität wird dies immer schwieriger und ist nur noch mit
+          dem richtigen Toolset möglich.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
-
 
 <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div
-            class="items-center justify-between gap-16 p-6 text-white bg-gray-900 rounded-lg dark:bg-gray-800 lg:flex lg:gap-24 md:p-12">
-            <div class="w-full">
-                <h2 class="mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl">LASST UNS DARÜBER REDEN WIE ICH
-                    IHNEN HELFEN KANN.</h2>
-                <p class="font-medium text-gray-400 sm:text-xl">Nutzen Sie jetzt die Chance und lassen Sie uns gemeinsam
-                    Ihr Projekt erfolgreich umsetzen. Kontaktieren Sie mich noch heute, um mehr über meine
-                    Dienstleistungen zu erfahren und ein unverbindliches Angebot zu erhalten.</p>
-            </div>
-            <div class="mt-6 w-max lg:mt-0">
-                <button id="zammad-feedback-btn" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700">Kontakt
-                    aufnehmen</button>
-            </div>
-            <script type="0d709528424dc6eb9cfda576-text/javascript">
-                $(function() {
-                  $('#zammad-feedback-btn').ZammadForm({
-                    agreementMessage: '<p class="mt-4 text-sm text-gray-500">Durch das Absenden dieses Formulars stimmen Sie meinen <a href="/agb" class="text-primary-600 hover:underline dark:text-primary-500">Allgemeinen Geschäftsbedingungen</a> und unserer <a href="/datenschutz" class="text-primary-600 hover:underline dark:text-primary-500">Datenschutzrichtlinie</a> zu, die erklärt, wie wir Ihre personenbezogenen Daten erfassen, verwenden und offenlegen können, einschließlich an Dritte. </p>',
-                    messageTitle: 'Kontaktformular',
-                    messageSubmit: 'Übermitteln',
-                    messageThankYou: 'Vielen Dank für Ihre Anfrage (#%s). Ich melde mich umgehend bei Ihnen.',
-                    modal: true
-                  });
-                });
-                </script>
+  <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+    <div
+      class="items-center justify-between gap-16 p-6 text-white bg-gray-900 rounded-lg dark:bg-gray-800 lg:flex lg:gap-24 md:p-12"
+    >
+      <div class="w-full">
+        <h2 class="mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
+          LASST UNS DARÜBER REDEN WIE ICH IHNEN HELFEN KANN.
+        </h2>
+        <p class="font-medium text-gray-400 sm:text-xl">
+          Nutzen Sie jetzt die Chance und lassen Sie uns gemeinsam Ihr Projekt
+          erfolgreich umsetzen. Kontaktieren Sie mich noch heute, um mehr über
+          meine Dienstleistungen zu erfahren und ein unverbindliches Angebot zu
+          erhalten.
+        </p>
+      </div>
+      <div class="mt-6 w-max lg:mt-0">
+<div class="flex justify-center m-5">
+    <button id="updateProductButton" data-modal-target="updateProductModal" data-modal-toggle="updateProductModal" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 md:py-4 md:text-lg md:px-10 dark:bg-gray-800 dark:hover:bg-gray-700" type="button">
+        Kontakt aufnehmen
+    </button>
+</div>
+
+
+<div id="updateProductModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-modal md:h-full">
+    <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
+        
+        <div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
+            <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt</h2>
+            <p class="mb-8 font-medium text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Kontaktieren Sie mich
+                jetzt, um ein unverbindliches Angebot zu erhalten.</p>
+                <form class="space-y-8"
+                action="https://formspree.io/f/mlezqqqv"
+                method="POST"
+              >
+              <div>
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Deine Mailadresse</label>
+                <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@domain.de" required>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Dein Anliegen</label>
+                <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="..."></textarea>
+              </div>
+              <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Nachricht senden</button>
+              </form>      
         </div>
     </div>
+</div>
+
+<script type="3af4fcda5a8fb9b173181915-text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('updateProductButton').click();
+});
+</script></div>
+    </div>
+  </div>
 </section>
 
 <section class="bg-white dark:bg-gray-900">
-    <div class="items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="font-medium text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">Marco Griep -
-                Softwareentwickler & IT-Berater</h2>
-            </h2>
-            <p class="mb-4">Als erfahrener <strong>Softwareentwickler</strong> unterstütze ich Existenzgründer, kleine
-                und
-                mittelständische Unternehmen bei der digitalen Transformation, indem ich maßgeschneiderte Lösungen für
-                ihre individuellen Bedürfnisse entwickle. Mein Schwerpunkt liegt auf der <strong>Erstellung von Web- und
-                    Desktop-Anwendungen</strong> sowie der Integration von Cloud Lösungen (Keycloak, Nextcloud, Document
-                Management
-                Systeme, Passwortsafe). Durch meine langjährige Erfahrung kann ich schnell auf Ihre Bedürfnisse
-                reagieren und Ihnen eine Lösung anbieten, die perfekt auf Ihre Anforderungen abgestimmt ist. Gerne
-                entwickle ich auch für Sie eine <strong>individuelle Software</strong> und kümmere mich proaktiv um den
-                reibungslosen
-                Betrieb Ihrer Softwareumgebung. Mit meiner umfangreichen Erfahrung kann ich Ihnen sicher eine Lösung
-                anbieten, die Ihren Anforderungen entspricht und zuverlässig funktioniert.
-            </p>
-            <p class="">
-                Ich verfüge über mehr als 15 Jahre Erfahrung in der Informationstechnologie und habe maßgeblich an der
-                Entwicklung zahlreicher erfolgreicher Web- und Mobile-Anwendungen mitgewirkt. In meinen IT-Schulungen
-                teile ich mein Wissen gerne mit Ihnen und Ihren Mitarbeitern, damit diese in der Lage sind, gängige
-                technische Probleme selbstständig zu lösen. Ich biete Ihnen damit die Möglichkeit, Ihre Kompetenzen zu
-                erweitern und sich weiterzuentwickeln.
-            </p>
-        </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg"
-                src="https://www.marcogriep.de/media/marcogriep_Db0fPul3eNJ3V.webp"
-                alt="Marco Griep">
-            <img class="w-full mt-4 rounded-lg lg:mt-10"
-                src="https://www.marcogriep.de/media/pexels-sora-shimazaki-5926387_4Z2Qn1P6z.webp"
-                alt="office content 2">
-        </div>
+  <div
+    class="items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
+  >
+    <div class="font-medium text-gray-500 sm:text-lg dark:text-gray-400">
+      <h2
+        class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+      >
+        Marco Griep - Softwareentwickler & IT-Berater
+      </h2>
+      <p class="mb-4">
+        Als erfahrener <strong>Softwareentwickler</strong> unterstütze ich
+        Existenzgründer, kleine und mittelständische Unternehmen bei der
+        digitalen Transformation, indem ich maßgeschneiderte Lösungen für ihre
+        individuellen Bedürfnisse entwickle. Mein Schwerpunkt liegt auf der
+        <strong>Erstellung von Web- und Desktop-Anwendungen</strong> sowie der
+        Integration von Cloud Lösungen (Keycloak, Nextcloud, Document Management
+        Systeme, Passwortsafe). Durch meine langjährige Erfahrung kann ich
+        schnell auf Ihre Bedürfnisse reagieren und Ihnen eine Lösung anbieten,
+        die perfekt auf Ihre Anforderungen abgestimmt ist. Gerne entwickle ich
+        auch für Sie eine <strong>individuelle Software</strong> und kümmere
+        mich proaktiv um den reibungslosen Betrieb Ihrer Softwareumgebung. Mit
+        meiner umfangreichen Erfahrung kann ich Ihnen sicher eine Lösung
+        anbieten, die Ihren Anforderungen entspricht und zuverlässig
+        funktioniert.
+      </p>
+      <p class="">
+        Ich verfüge über mehr als 15 Jahre Erfahrung in der
+        Informationstechnologie und habe maßgeblich an der Entwicklung
+        zahlreicher erfolgreicher Web- und Mobile-Anwendungen mitgewirkt. In
+        meinen IT-Schulungen teile ich mein Wissen gerne mit Ihnen und Ihren
+        Mitarbeitern, damit diese in der Lage sind, gängige technische Probleme
+        selbstständig zu lösen. Ich biete Ihnen damit die Möglichkeit, Ihre
+        Kompetenzen zu erweitern und sich weiterzuentwickeln.
+      </p>
     </div>
+    <div class="grid grid-cols-2 gap-4 mt-8">
+      <img
+        class="w-full rounded-lg"
+        src="https://www.marcogriep.de/media/marcogriep_Db0fPul3eNJ3V.webp"
+        alt="Marco Griep"
+      />
+      <img
+        class="w-full mt-4 rounded-lg lg:mt-10"
+        src="https://www.marcogriep.de/media/pexels-sora-shimazaki-5926387_4Z2Qn1P6z.webp"
+        alt="office content 2"
+      />
+    </div>
+  </div>
 </section>
 
 <section class="bg-white dark:bg-gray-900">
-    <div class="grid max-w-screen-xl gap-8 px-4 py-8 mx-auto sm:gap-16 lg:gap-20 md:grid-cols-2 lg:py-16 md:px-6">
-        <div class="mb-8 text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl dark:text-white">
-                Diese Unternehmen vertrauen mir
-            </h2>
-            <p class="font-medium lg:text-xl">
-                Ich freue mich, dass ich bereits viele Unternehmen unterstützen durfte. Hier
-                finden Sie eine Auswahl meiner Kunden.
-            </p>
-            <p class="mt-3 font-medium">
-                Interessiert an Referenzen? Klicken Sie hier, um mehr zu sehen.
-            </p>
-            <a class="inline-flex items-center justify-center px-5 py-3 mt-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-                href="/referenzen">Referenzen ansehen</a>
-        </div>
-        <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 dark:text-gray-400">
-            <a href="https://www.coach2find.de" rel="nofollow" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/HSM021_-_coach2find_-_Logo_reduziert__mxo23iwV.svg"
-                    alt="Coach2Find" />
-            </a>
-            <a href="https://www.brandmauer.de" rel="nofollow" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/BRANDMAUER_IT_Logo_DACH_620px_200617_FIVmGl_tZ.webp"
-                    alt="Brandmauer IT GmbH" />
-            </a>
-            <a href="https://www.kaeltewolf.de/" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/wolf-weiss_xfHDmLzxW.webp"
-                    alt="Kältewolf" />
-            </a>
-            <a href="https://www.fellnasengesundheit.com/" rel="nofollow" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/Fellnasen_9P8haOOqQ.webp"
-                    alt="Fellnasengesundheit" />
-            </a>
-            <a href="https://www.german-outdoors.de" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/German-Outdoors_Logo2_qeSQRAJFV.webp"
-                    alt="German Outdoors" />
-            </a>
-            <a href="https://www.ziggurat.ai" rel="nofollow" class="flex items-center justify-center">
-                <img src="https://www.marcogriep.de/media/Artboard-1-1_Wb2KjWogx.svg"
-                    alt="Ziggurat" />
-            </a>
-        </div>
+  <div
+    class="grid max-w-screen-xl gap-8 px-4 py-8 mx-auto sm:gap-16 lg:gap-20 md:grid-cols-2 lg:py-16 md:px-6"
+  >
+    <div class="mb-8 text-gray-500 sm:text-lg dark:text-gray-400">
+      <h2
+        class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-4xl dark:text-white"
+      >
+        Diese Unternehmen vertrauen mir
+      </h2>
+      <p class="font-medium lg:text-xl">
+        Ich freue mich, dass ich bereits viele Unternehmen unterstützen durfte.
+        Hier finden Sie eine Auswahl meiner Kunden.
+      </p>
+
+      <p class="mt-3 font-medium">
+        Interessiert an Referenzen? Klicken Sie hier, um mehr zu sehen.
+      </p>
+      <a
+        class="inline-flex items-center justify-center px-5 py-3 mt-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+        href="/referenzen"
+        >Referenzen ansehen</a
+      >
     </div>
+    <div
+      class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 dark:text-gray-400"
+    >
+      <a
+        href="https://swis-gmbh.de/"
+        rel="nofollow"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://swis-gmbh.de/wp-content/uploads/elementor/thumbs/swis-logo-full-qmjqhxolej3v81w94ood6ts0otey678odtqmza5jpw.png"
+          alt="SWIS GmbH"
+        />
+      </a>
+      <a
+        href="https://www.healthstyle.coach"
+        rel="nofollow"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://www.marcogriep.de/media/HSM021_-_coach2find_-_Logo_reduziert__mxo23iwV.svg"
+          alt="Healthstyle.coach"
+        />
+      </a>
+      <a
+        href="https://www.brandmauer.de"
+        rel="nofollow"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://www.marcogriep.de/media/BRANDMAUER_IT_Logo_DACH_620px_200617_FIVmGl_tZ.webp"
+          alt="Brandmauer IT GmbH"
+        />
+      </a>
+      <a
+        href="https://www.kaeltewolf.de/"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://www.marcogriep.de/media/wolf-weiss_xfHDmLzxW.webp"
+          alt="Kältewolf"
+        />
+      </a>
+      <a
+        href="https://www.fellnasengesundheit.com/"
+        rel="nofollow"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://www.marcogriep.de/media/Fellnasen_9P8haOOqQ.webp"
+          alt="Fellnasengesundheit"
+        />
+      </a>
+      <a
+        href="https://www.german-outdoors.de"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="https://www.marcogriep.de/media/German-Outdoors_Logo2_qeSQRAJFV.webp"
+          alt="German Outdoors"
+        />
+      </a>
+    </div>
+  </div>
 </section>
 
-<section class="bg-white dark:bg-gray-900" class="md:block hidden">
-    <div class="max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-3 lg:py-16 lg:px-6">
-        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-            <ul class="block mb-3 space-y-4 sm:flex sm:space-y-0 lg:space-y-4 lg:block " id="testimonialTab"
-                role="tablist">
-                <li class="md:mr-2 lg:mr-0" role="presentation">
-                    <button class="w-full p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-50"
-                        id="testimonial-1-tab" type="button" role="tab" aria-controls="testimonial-1"
-                        aria-selected="true">
-                        <figcaption class="space-y-2">
-                            
-                            <div class="text-sm font-medium text-left text-black dark:text-gray-400">VAG Armaturen
-                                GmbH</div>
-                        </figcaption>
-                    </button>
-                </li>
-                <li class="md:mr-2 lg:mr-0" role="presentation">
-                    <button class="w-full p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
-                        id="testimonial-2-tab" type="button" role="tab" aria-controls="testimonial-2"
-                        aria-selected="false">
-                        <figcaption class="space-y-2">
-                            
-                            <div class="text-sm font-medium text-left text-black dark:text-gray-400">Kopf GmbH
-                            </div>
-                        </figcaption>
-                    </button>
-                </li>
-                <li class="md:mr-2 lg:mr-0" role="presentation">
-                    <button class="w-full p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
-                        id="testimonial-3-tab" type="button" role="tab" aria-controls="testimonial-3"
-                        aria-selected="false">
-                        <figcaption class="space-y-2">
-                            
-                            <div class="text-sm font-medium text-left text-black dark:text-gray-400">Privatperson
-                            </div>
-                        </figcaption>
-                    </button>
-                </li>
-            </ul>
-        </div>
-        <div class="col-span-2 mt-4 divide-y divide-gray-200 dark:divide-gray-700 lg:mt-0">
-            <div id="testimonialTabContent">
-                <div class="p-4 rounded-lg" id="testimonial-1" role="tabpanel" aria-labelledby="testimonial-1-tab">
-                    <svg class="h-8 mb-3 text-gray-500 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                            fill="currentColor" />
-                    </svg>
-                    <h3 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">
-                        PowerShell Programmierung</h3>
-                    <p class="mb-3 text-lg font-medium leading-relaxed text-gray-500 dark:text-gray-400">Marco beweist in
-                        der Beratung überragende Fachkenntnis und konnte mir schon bei diversen Scripting Problemen
-                        schnell weiterhelfen. Er verhält sich stets professionell und geht aktiv auf die Wünsche des
-                        Kunden ein.</p>
-                </div>
-                <div class="hidden p-4 rounded-lg" id="testimonial-2" role="tabpanel"
-                    aria-labelledby="testimonial-2-tab">
-                    <svg class="h-8 mb-3 text-gray-500 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                            fill="currentColor" />
-                    </svg>
-                    <h3 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">
-                        Webentwicklung mit Joomla</h3>
-                    <p class="mb-3 text-lg font-medium leading-relaxed text-gray-500 dark:text-gray-400">Überragende
-                        Kompetenz.</p>
-                </div>
-                <div class="hidden p-4 rounded-lg" id="testimonial-3" role="tabpanel"
-                    aria-labelledby="testimonial-3-tab">
-                    <svg class="h-8 mb-3 text-gray-500 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                            fill="currentColor" />
-                    </svg>
-                    <h3 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white">
-                        Webentwicklung mit Hugo</h3>
-                    <p class="mb-3 text-lg font-medium leading-relaxed text-gray-500 dark:text-gray-400">Herr Griep hat
-                        für meine Frau und mich eine Webseite für unsere Hochzeit entworfen. Im Vorfeld fand ein
-                        umfangreiches Beratungsgespräch statt, in dem unsre Anforderungen und die Möglichkeiten der
-                        Umsetzung besprochen wurden. Die Arbeiten wurden schnell und kompetent ausgeführt und Herr Griep
-                        hat sich viel Zeit genommen, um auf unsre Wünsche und Änderungsvorschläge einzugehen. Mit dem
-                        Ergebnis waren wir sehr zufrieden und der Preis für die Webseite war angemessen. Bei erneutem
-                        Bedarf für eine Internetpräsenz würde ich mich jeder Zeit wieder mit Herrn Griep in Verbindung
-                        setzen</p>
-                </div>
-            </div>
-        </div>
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+    <div class="mx-auto max-w-screen-sm mb-8 lg:mb-16">
+      <h2
+        class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+      >
+        Kundenbewertungen auf ProvenExpert
+      </h2>
+      <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400"></p>
     </div>
+    <div id="testimonial-carousel" class="relative" data-carousel="slide">
+      <div
+        class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-[360px] rounded-lg"
+      >
+        <figure
+          class="hidden mx-auto w-full max-w-screen-md"
+          data-carousel-item
+        >
+          <blockquote>
+            <p
+              class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white"
+            >
+              "Ich kann die Services von Marco Griep nicht genug loben! Ihre
+              Professionalität, Effizienz und Fachkenntnisse haben unsere
+              Erwartungen übertroffen. Von Anfang an war das Auftreten äußerst
+              zuvorkommend und er hat unsere Bedürfnisse genau verstanden. Die
+              Lösungen, die Sie für uns implementiert haben, waren
+              maßgeschneidert und haben unsere Produktivität erheblich
+              verbessert. Ihre schnellen Reaktionszeiten und ihre Fähigkeit,
+              komplexe Probleme schnell zu lösen, haben dazu beigetragen, dass
+              unser Geschäft reibungslos läuft. ..."
+            </p>
+          </blockquote>
+          <figcaption class="flex justify-center items-center mt-6 space-x-3">
+            <img
+              class="w-6 h-6 rounded-full"
+              src="https://fakeimg.pl/32x32/cccccc/909090"
+              alt="profile picture"
+            />
+            <div
+              class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700"
+            >
+              <div class="pr-3 font-medium text-gray-900 dark:text-white">
+                07.03.2024 15:48 - Anonym
+              </div>
+              <div
+                class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400"
+              >
+                ProvenExpert
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <figure
+          class="hidden mx-auto w-full max-w-screen-md"
+          data-carousel-item
+        >
+          <blockquote>
+            <p
+              class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white"
+            >
+              "Mit Marco haben wir einen positiven Partner für unterschiedliche
+              IT-Dienstleistungen. Sein Fachwissen und Engagement haben zu einer
+              reibungslosen Zusammenarbeit geführt. Schnelle Umsetzung und
+              proaktiver Support. Wir schätzen seine Zuverlässigkeit und
+              empfehlen ihn gerne weiter. "
+            </p>
+          </blockquote>
+          <figcaption class="flex justify-center items-center mt-6 space-x-3">
+            <img
+              class="w-6 h-6 rounded-full"
+              src="https://www.lebenskraftpur.de/cdn/shop/files/Logo-Lebenskraftpur.svg?v=1711536833&width=300"
+              alt="profile picture"
+            />
+            <div
+              class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700"
+            >
+              <div class="pr-3 font-medium text-gray-900 dark:text-white">
+                07.03.2024 14:40 - Andy
+              </div>
+              <div
+                class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400"
+              >
+                Lebenskraftpur
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <figure
+          class="hidden mx-auto w-full max-w-screen-md"
+          data-carousel-item
+        >
+          <blockquote>
+            <p
+              class="text-lg font-medium text-gray-900 sm:text-2xl dark:text-white"
+            >
+              "Mit Marco arbeite ich gerne zusammen. Er hat tolle Ideen und
+              setzt sehr schnell um. Natürlich kommt es auch auf das jeweilige
+              Projekt an, wieviel Vorarbeitszeit benötigt wird. Mit der Qualität
+              seiner Arbeit bin ich sehr zufrieden..."
+            </p>
+          </blockquote>
+          <figcaption class="flex justify-center items-center mt-6 space-x-3">
+            <img
+              class="w-6 h-6 rounded-full"
+              src="https://www.marcogriep.de/media/wolf-weiss_xfHDmLzxW.webp"
+              alt="profile picture"
+            />
+            <div
+              class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700"
+            >
+              <div class="pr-3 font-medium text-gray-900 dark:text-white">
+                07.03.2024 13:46 - Jasmin Wolf
+              </div>
+              <div
+                class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400"
+              >
+                Kältewolf
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="flex justify-center items-center">
+        <button
+          type="button"
+          class="flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="hidden">Zurück</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="flex justify-center items-center h-full cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="hidden">Nächstes</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
 </section>
 
 
@@ -671,44 +1132,6 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
 </section>
 
 
-<script type="0d709528424dc6eb9cfda576-text/javascript">
-    window.onload = function () {
-        const tabElements = [
-            {
-                id: 'testimonial-1',
-                triggerEl: document.querySelector('#testimonial-1-tab'),
-                targetEl: document.querySelector('#testimonial-1')
-            },
-            {
-                id: 'testimonial-2',
-                triggerEl: document.querySelector('#testimonial-2-tab'),
-                targetEl: document.querySelector('#testimonial-2')
-            },
-            {
-                id: 'testimonial-3',
-                triggerEl: document.querySelector('#testimonial-3-tab'),
-                targetEl: document.querySelector('#testimonial-3')
-            }
-        ];
-
-        
-        const options = {
-            defaultTabId: 'settings',
-            activeClasses: 'bg-gray-100 dark:bg-gray-700',
-            inactiveClasses: 'bg-white dark:bg-gray-900',
-            onShow: () => {
-                console.log('tab is shown');
-            }
-        };
-        const tabs = new Tabs(tabElements, options);
-    };
-
-
-</script>
-
-
-
-<script async src="https://analytics.marcogriep.de/script.js" data-website-id="133848d2-d8cb-4ea2-a880-193a327445dc" type="0d709528424dc6eb9cfda576-text/javascript"></script>
 
 
 
@@ -745,7 +1168,7 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
 
           
           <li class="mb-4">
-            <a href="/cdn-cgi/l/email-protection#a3cec2cacfe3cec2d1c0ccc4d1cac6d38dc7c6" class="hover:underline">E-Mail Support</a>
+            <a href="/cdn-cgi/l/email-protection#d6bbb7bfba96bbb7a4b5b9b1a4bfb3a6f8b2b3" class="hover:underline">E-Mail Support</a>
           </li>
         </ul>
       </div>
@@ -797,7 +1220,7 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
           src="https://www.marcogriep.de/media/final_LOGO_black_8NV3yIoPuO.webp"
           class="h-6 mr-3 sm:h-9" alt="Marco Griep Logo" />
       </a>
-      <span class="block mb-6 text-sm text-gray-500 dark:text-gray-400 lg:mb-0">© 2019-2023 <a href="#"
+      <span class="block mb-6 text-sm text-gray-500 dark:text-gray-400 lg:mb-0">© 2019-2025 <a href="#"
           class="hover:underline">Marco Griep</a>. All
         Rights Reserved.
       </span>
@@ -896,9 +1319,9 @@ X-Etags-2: b48922fd9ca4eae7976af13c8c46e857
     float: left;
   }
 </style>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="0d709528424dc6eb9cfda576-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8e4a7ccd29a77594',t:'MTczMTk1OTQwNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3af4fcda5a8fb9b173181915-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'90c52e61efa9760c',t:'MTczODYxNDY1MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="0d709528424dc6eb9cfda576-text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.1/flowbite.min.js" type="3af4fcda5a8fb9b173181915-text/javascript"></script>
 
 
 </html>

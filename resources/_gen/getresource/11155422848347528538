@@ -2,14 +2,14 @@ HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Cache-Control: max-age=0
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Nov 2024 19:49:40 GMT
-Expires: Mon, 18 Nov 2024 19:49:40 GMT
-Last-Modified: Mon, 18 Nov 2024 15:35:47 GMT
+Date: Mon, 03 Feb 2025 20:30:28 GMT
+Expires: Mon, 03 Feb 2025 20:30:28 GMT
+Last-Modified: Mon, 03 Feb 2025 15:35:50 GMT
 Server: nginx
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
-X-Etags-1: 71b980b49f7516c270c035e5512cb4f1
-X-Etags-2: 71b980b49f7516c270c035e5512cb4f1
+X-Etags-1: b6bd18eecd6c75d21d9415a71e3f5d02
+X-Etags-2: b6bd18eecd6c75d21d9415a71e3f5d02
 X-Ua-Compatible: IE=edge
 
 <!DOCTYPE html>
@@ -484,6 +484,11 @@ body {
 	overflow-x: hidden;
 }
 
+body.border-fun {
+	--border-color: linear-gradient(to right, var(--color-primary), var(--color-accent-2), var(--color-secondary), var(--color-tertiary));
+	border-image: var(--border-color) 1;
+}
+
 @media (min-width: 38em) {
 	body {
 		line-height: var(--spacing);
@@ -621,8 +626,12 @@ dt {
 }
 
 @media (max-width: 38em) {
-	.list-inline-responsive {
-		display: block;
+	.list-inline-responsive li {
+		min-width: 100%;
+	}
+
+	.list-inline-responsive .list-item-inline {
+		min-width: auto;
 	}
 }
 
@@ -691,7 +700,7 @@ h2,
 
 h3,
 .h3 {
-	font-size: 1.1875em;
+	font-size: 1.0625em;
 }
 
 h4, h5, h6,
@@ -1890,8 +1899,10 @@ td {
 			<ul class="nav">
 				<li><a href="https://gomakethings.com/about">About</a></li>
 <li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
-<li><a href="https://leanwebclub.com">Courses</a></li>
-<li><a href="https://gomakethings.com/search" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" height="0.9em" width="0.9em" viewBox="0 0 32 32"><path fill="currentColor" d="M31.008 27.23l-7.58-6.446c-.784-.705-1.622-1.03-2.3-.998C22.92 17.69 24 14.97 24 12 24 5.37 18.627 0 12 0S0 5.37 0 12c0 6.626 5.374 12 12 12 2.973 0 5.692-1.082 7.788-2.87-.03.676.293 1.514.998 2.298l6.447 7.58c1.105 1.226 2.908 1.33 4.008.23s.997-2.903-.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path></svg></a></li>
+<li><a href="https://members.gomakethings.com">Join</a></li>
+<li class="list-item-inline"><a href="https://www.youtube.com/@gomakethings" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" style="margin-bottom:-0.25em;"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"></path></svg></a></li>
+<li class="list-item-inline"><a  href="https://gomakethings.com/podcast" aria-label="Podcast"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" style="margin-bottom: -0.125em;"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"></path><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"></path></svg></a></li>
+<li class="list-item-inline"><a href="https://gomakethings.com/search" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" height="0.9em" width="0.9em" viewBox="0 0 32 32"><path fill="currentColor" d="M31.008 27.23l-7.58-6.446c-.784-.705-1.622-1.03-2.3-.998C22.92 17.69 24 14.97 24 12 24 5.37 18.627 0 12 0S0 5.37 0 12c0 6.626 5.374 12 12 12 2.973 0 5.692-1.082 7.788-2.87-.03.676.293 1.514.998 2.298l6.447 7.58c1.105 1.226 2.908 1.33 4.008.23s.997-2.903-.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path></svg></a></li>
 			</ul>
 			
 		</div>
@@ -1904,13 +1915,13 @@ td {
 	
 
 	<p><p class="no-margin-bottom"><strong>Hi, I’m Chris Ferdinandi.</strong></p>
-<h1 class="text-xlarge text-normal no-padding-top margin-bottom-small">I help people build a simpler, faster&nbsp;web. </h1></p>
+<h1 class="text-xlarge text-normal text-pretty no-padding-top margin-bottom-small">I help people build the web better.</h1></p>
 
 
 
 
 
-<p><strong>Hate the complexity of modern front‑end web development?</strong> I send out a short email each weekday on how to build a simpler, more resilient web. Join over 14k others.</p>
+<p><strong>Hate the complexity of modern front‑end web development?</strong> I send out a short email each weekday on how to build a simpler, more resilient web. Join over 15k others.</p>
 
 <newsletter-form msg-submitting="Signing Up...">
 	<form action="https://gomakethings.com/api/subscribe.php" method="post">
@@ -1948,8 +1959,10 @@ td {
 	<ul class="list-inline list-inline-responsive">
 		<li><a href="https://gomakethings.com/about">About</a></li>
 <li><a href="https://gomakethings.com/articles">Daily Tips</a></li>
-<li><a href="https://leanwebclub.com">Courses</a></li>
-<li><a href="https://gomakethings.com/search" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" height="0.9em" width="0.9em" viewBox="0 0 32 32"><path fill="currentColor" d="M31.008 27.23l-7.58-6.446c-.784-.705-1.622-1.03-2.3-.998C22.92 17.69 24 14.97 24 12 24 5.37 18.627 0 12 0S0 5.37 0 12c0 6.626 5.374 12 12 12 2.973 0 5.692-1.082 7.788-2.87-.03.676.293 1.514.998 2.298l6.447 7.58c1.105 1.226 2.908 1.33 4.008.23s.997-2.903-.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path></svg></a></li>
+<li><a href="https://members.gomakethings.com">Join</a></li>
+<li class="list-item-inline"><a href="https://www.youtube.com/@gomakethings" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" style="margin-bottom:-0.25em;"><path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"></path></svg></a></li>
+<li class="list-item-inline"><a  href="https://gomakethings.com/podcast" aria-label="Podcast"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" style="margin-bottom: -0.125em;"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"></path><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"></path></svg></a></li>
+<li class="list-item-inline"><a href="https://gomakethings.com/search" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" height="0.9em" width="0.9em" viewBox="0 0 32 32"><path fill="currentColor" d="M31.008 27.23l-7.58-6.446c-.784-.705-1.622-1.03-2.3-.998C22.92 17.69 24 14.97 24 12 24 5.37 18.627 0 12 0S0 5.37 0 12c0 6.626 5.374 12 12 12 2.973 0 5.692-1.082 7.788-2.87-.03.676.293 1.514.998 2.298l6.447 7.58c1.105 1.226 2.908 1.33 4.008.23s.997-2.903-.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path></svg></a></li>
 	</ul>
 </nav><p class="text-small">Made with ❤️ in Massachusetts.Unless otherwise noted, all code is free to use under the <a href="https://gomakethings.com/mit">MIT License</a>.</p>
 		</footer>
@@ -2094,6 +2107,5 @@ if (navigator.serviceWorker.controller) {
 	window.addEventListener('load', function () {
 		navigator.serviceWorker.controller.postMessage('cleanUp');
 	});
-}
-		</script></body>
+}</script></body>
 </html>

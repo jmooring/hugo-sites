@@ -1,31 +1,30 @@
 HTTP/2.0 200 OK
 Access-Control-Allow-Origin: *
-Age: 310177
+Age: 55227
 Alt-Svc: h3=":443"; ma=86400
 Alt-Svc: clear
 Cache-Control: s-maxage=2419200, max-age=0, must-revalidate, public
-Cc-Build-Id: 17885141
+Cc-Build-Id: 18436266
 Cc-Cache-Group: default
-Cc-Cache-Status: MISS
-Cc-Perf: fetch-headers=66;t=72
+Cc-Cache-Status: HIT
+Cc-Perf: hash-table=38;fetch-headers=49;t=96
 Cc-Resolver: v3
 Cc-Stable-Domain: wonderful-ferret.cloudvent.net
 Cf-Cache-Status: HIT
-Cf-Ray: 8e4a7c24d82bdf2f-SEA
+Cf-Ray: 90c52dcd6eb6c39d-SEA
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Nov 2024 19:49:38 GMT
-Last-Modified: Tue, 29 Oct 2024 05:21:35 GMT
+Date: Mon, 03 Feb 2025 20:30:27 GMT
+Last-Modified: Thu, 30 Jan 2025 00:41:23 GMT
 Server: cloudflare
 Strict-Transport-Security: max-age=expireTime
 Vary: Accept-Encoding
 Via: 1.1 google
-X-Etags-1: 1af2597b3718e9c3dfb987edc08c9c08
-X-Etags-2: 1af2597b3718e9c3dfb987edc08c9c08
+X-Etags-1: 6eeec73989683e5b01cf42f4aa0f75ba
+X-Etags-2: 6eeec73989683e5b01cf42f4aa0f75ba
 X-Robots-Tag: all
 
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta name="generator" content="Hugo 0.128.1">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -217,6 +216,7 @@ X-Robots-Tag: all
   
 
   
+  
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -234,6 +234,8 @@ X-Robots-Tag: all
       console.log('Service workers are not supported in this browser.');
     }
   </script>
+  
+
   
   
 
@@ -262,176 +264,6 @@ X-Robots-Tag: all
   
 
   
-  
-  
-
-  
-  
-  <script>
-      var _hsp = window._hsp = window._hsp || [];
-      _hsp.push(['addPrivacyConsentListener', function (consent) {
-        if (consent.categories.functionality) {
-          let handoffData;
-          let formattedText = "";
-          let handoffTags = [];
-
-          function initializeChatAnalytics() {
-            if (typeof zE !== 'undefined') {
-              zE("messenger", "logoutUser")
-              
-              function checkProperties(obj) {
-                
-                obj.forEach(item => {
-                  
-                  if (item.fromName === "bot") {
-
-                    
-                    if (item.kmResponse) {
-
-                      
-                      formattedText += `\n Bot: \n ${item.message}\n Article title: ${item.kmResponse.title}\n Article Url: ${item.kmResponse.url}\n`;
-
-                    } else {
-                      
-                      formattedText += `\n Bot: \n ${item.message}\n`;
-                    }
-
-                    return;
-                  } else if (item.fromName === "Consumer") {
-                    formattedText += `\n Human: \n ${item.message}\n`;
-                  }
-
-                  for (const key in item) {
-                    if (item.hasOwnProperty(key) && typeof item[key] === 'object') {
-                      
-                      checkProperties(item[key]);
-                    } else {
-                      
-                      if (item.fromName === "Consumer") {
-                        switch (item.message) {
-                          case "Potential customer":
-                              if (!handoffTags.includes('msg-persona-potential-customer')) {
-                                  handoffTags.push("msg-persona-potential-customer");
-                              }
-                              break;
-                          case "Current customer":
-                              if (!handoffTags.includes('msg-persona-current-customer')) {
-                                  handoffTags.push("msg-persona-current-customer");
-                              }
-                              break;
-                          case "Partner or reseller":
-                              if (!handoffTags.includes('msg-persona-partner')) {
-                                  handoffTags.push("msg-persona-partner");
-                              }
-                              break;
-                          case "End-user":
-                              if (!handoffTags.includes('msg-persona-end-user')) {
-                                  handoffTags.push("msg-persona-end-user");
-                              }
-                              break;
-                          case "Student":
-                              if (!handoffTags.includes('msg-persona-student')) {
-                                  handoffTags.push("msg-persona-student");
-                              }
-                              break;
-                          case "Someone else":
-                              if (!handoffTags.includes('msg-persona-other')) {
-                                  handoffTags.push("msg-persona-other");
-                              }
-                              break;
-                          case "Sales or licensing help":
-                              if (!handoffTags.includes('type-sales')) {
-                                  handoffTags.push("type-sales");
-                              }
-                              break;
-                          case "Technical help":
-                              if (!handoffTags.includes('type-support')) {
-                                  handoffTags.push("type-support");
-                              }
-                              break;
-                          case "MF and NG":
-                              if (!handoffTags.includes('product-mf-ng')) {
-                                  handoffTags.push("product-mf-ng");
-                              }
-                              break;
-                          case "Pocket, Hive and Views":
-                              if (!handoffTags.includes('product-pocket-hive-views')) {
-                                  handoffTags.push("product-pocket-hive-views");
-                              }
-                              break;
-                          case "Job ticketing":
-                              if (!handoffTags.includes('product-job-ticketing')) {
-                                  handoffTags.push("product-job-ticketing");
-                              }
-                              break;
-                          case "Mobility Print":
-                              if (!handoffTags.includes('product-mobility-print')) {
-                                  handoffTags.push("product-mobility-print");
-                              }
-                              break;
-                          case "Print Deploy":
-                              if (!handoffTags.includes('product-print-deploy')) {
-                                  handoffTags.push("product-print-deploy");
-                              }
-                              break;
-                          case "I am not sure":
-                              if (!handoffTags.includes('product-not-sure')) {
-                                  handoffTags.push("product-not-sure");
-                              }
-                              break;
-                          default:
-                              break;
-                        }
-                      }
-                    }
-                  }
-                });
-              }
-
-              
-              checkProperties(handoffData.detail.transcript);
-
-              zE("messenger:set", "conversationTags", handoffTags);
-
-              zE('messenger', 'open');
-
-              handoffTranscript = formattedText;
-
-              zE("messenger:set", "conversationFields", [
-                { id: "8853350891791", value: handoffTranscript }
-              ])
-            } else {
-              setTimeout(initializeChatAnalytics, 1000);
-            }
-          }
-
-          window.addEventListener('support_handoff', (e) => {
-            handoffData = e;
-            var script = document.createElement('script');
-            script.setAttribute("id", "ze-snippet");
-            script.setAttribute("src", "https://static.zdassets.com/ekr/snippet.js?key=fa01d559-1bb5-4d6c-9feb-3d2fa8fba6cc");
-            document.head.appendChild(script);
-            window.zoomCampaignSdk.hide();
-            initializeChatAnalytics();
-          });
-        }
-      }]);
-  </script>
-  
-
-  
-  
-  <script type="text/javascript">
-    var _hsp = window._hsp = window._hsp || []; 
-    _hsp.push(['addPrivacyConsentListener', function(consent) { 
-      if (consent.categories.functionality) {
-        var script = document.createElement('script');
-        script.setAttribute("data-apikey", "aL94Br-4TfqHiB6xS9q3wQ")
-        script.setAttribute("src", "https://us01ccistatic.zoom.us/us01cci/web-sdk/chat-client.js")
-        document.head.appendChild(script);
-      }
-    }]);
-  </script>
   
   
 
@@ -641,7 +473,7 @@ X-Robots-Tag: all
 </head>
 <body>
       <header>
-        <!--bookshop-live meta(version: "3.12.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.13.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/header)-->
 
@@ -902,7 +734,412 @@ X-Robots-Tag: all
 
 
 
-    <a class="c-top-bar-nav-item__heading-container__heading" href="https://www.papercut.com/support/">Support</a> 
+    <a class="c-top-bar-nav-item__heading-container__heading c-top-bar-nav-item__heading-container__heading--support c-top-bar-nav-item__heading-container__heading--support--mobile" href="https://www.papercut.com/support/">Support</a> 
+    <div class="c-top-bar-nav-item c-top-bar-nav-item--support c-top-bar-nav-item--support--desktop" x-data x-on:click.away="$store.supportNav.navOpen == true ? $store.supportNav.navOpen = false : ''">
+        <div class="c-top-bar-nav-item__heading-container" x-on:click="$store.supportNav.navOpen = ! $store.supportNav.navOpen">
+            <button class="c-top-bar-nav-item__heading-container__heading">Support</button>
+            <svg class="c-top-bar-nav-item__heading-container__arrow" x-bind:class="$store.supportNav.navOpen ? 'c-top-bar-nav-item__heading-container__arrow--open' : ''" fill="none" height="6" viewBox="0 0 9 6" width="9" xmlns="http://www.w3.org/2000/svg">
+                <path d="m4.37634 4.55895 2.98765-3.30367c.07034-.07778.07034-.20253 0-.280315-.07035-.077785-.18316-.077785-.25351 0l-2.86023 3.162765-2.86024-3.162766c-.07034-.077785-.18316-.077785-.25351 0-.0345.038156-.05309.089526-.05309.139426s.01726.10127.05309.13943l2.98766 3.30366c.06902.07778.18316.07778.25218.00147z"/>
+            </svg>
+        </div>
+        <div class="c-top-bar-nav-item__dropdown c-top-bar-nav-item__dropdown--responsive c-top-bar-nav-item__dropdown--support" x-show="$store.supportNav.navOpen" x-cloak>
+            <!--bookshop-live name(structures/header/top-bar/top-bar-nav-item/top-bar-nav-item--support-content)-->
+
+<div class="c-top-bar-nav-item--support-content" x-data="{aiLoaded: false}">
+    <p class="c-top-bar-nav-item--support-content__heading">How can we help?</p>
+    <!--bookshop-live name(simple/q-and-a--ai)-->
+
+<div class="c-q-and-a--ai c-q-and-a--ai--spacing--small" x-data="askAI" x-modelable="timedOutOrLoaded" x-model="aiLoaded" x-init="$nextTick(() => {(JSON.parse(getCookie('ANSWER')) && JSON.parse(getCookie('SUBMITTED_QUESTION'))) ? loaded = true : loaded = false; question_answer_id = getCookie('QUESTION_ANSWER_ID'); timedOut = JSON.parse(getCookie('TIMEDOUT')) || false; JSON.parse(getCookie('TIMEDOUT')) || getCookie('ANSWER') ? timedOutOrLoaded = true : timedOutOrLoaded = false});">
+    <form class="c-q-and-a--ai__question" @submit.prevent="checkInvalid($el)" x-data="{active: false}">
+        <label class="c-q-and-a--ai__question__label c-q-and-a--ai__question__label--text-align--left">Powered by AI <img src="https://storage.googleapis.com/cdn1.papercut.com/web/cloudcannon/uploads/two-sparkle-stars.svg"></label>
+        <textarea class="c-q-and-a--ai__question__input c-q-and-a--ai__question__input--text-small" x-init="$el.value = getCookie('QUESTION')" @keydown.enter="if (!event.shiftKey) {event.preventDefault(); checkInvalid($el.parentNode)}" :class="active && 'c-q-and-a--ai__question__input--active'" placeholder="Ask PaperCut anything" rows="3" maxlength="5000" required x-on:focus="$el.value != '' ? active = true : ''" @click="active = true" x-on:keydown="$nextTick(() => {$el.value != '' ? active = true : ''});" @input="setCookie('QUESTION', $el.value); setCookie('SUBMITTED_QUESTION', false); $el.classList.remove('c-q-and-a--ai__question__input--invalid'); $el.setCustomValidity('')" x-on:blur="active = false"></textarea>
+        <button class="c-q-and-a--ai__question__submit" @click.prevent="checkInvalid($el.parentNode)">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="2" fill="#BEC6C6"/>
+                <path d="M11.25 20C11.25 20.4142 11.5858 20.75 12 20.75C12.4142 20.75 12.75 20.4142 12.75 20L11.25 20ZM12.5303 4.46967C12.2374 4.17678 11.7626 4.17678 11.4697 4.46967L6.6967 9.24264C6.40381 9.53553 6.40381 10.0104 6.6967 10.3033C6.98959 10.5962 7.46447 10.5962 7.75736 10.3033L12 6.06066L16.2426 10.3033C16.5355 10.5962 17.0104 10.5962 17.3033 10.3033C17.5962 10.0104 17.5962 9.53553 17.3033 9.24264L12.5303 4.46967ZM12.75 20L12.75 5L11.25 5L11.25 20L12.75 20Z" fill="white"/>
+            </svg>                
+        </button>
+    </form>
+    <button class="c-q-and-a--ai__return-link c-generic-link c-generic-link--plain-link--green" x-show="hide_answer" @click="hide_answer = false" x-cloak>
+        <svg class="c-q-and-a--ai__return-link__icon" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.83486 11.7337C6.47975 12.0888 5.90394 12.0888 5.54884 11.7337L1.10445 7.2849C0.394785 6.57451 0.395059 5.42345 1.10499 4.71342L5.55211 0.266396C5.90722 -0.0887995 6.48302 -0.0887995 6.83814 0.266396C7.19327 0.6215 7.19327 1.1973 6.83814 1.55241L3.03192 5.35861C2.67673 5.71372 2.67682 6.28952 3.03192 6.64463L6.83486 10.4476C7.18999 10.8028 7.18999 11.3785 6.83486 11.7337Z" fill="#19892B"/>
+        </svg>
+        Back to results
+    </button>
+    <div class="c-q-and-a--ai__loading-skeleton c-q-and-a--ai__loading-skeleton--scroll" x-show="!loaded && !timedOut && submitted" x-cloak>
+        <template x-if="!loaded && !timedOut && submitted">
+            <div class="c-q-and-a--ai__loading-states c-q-and-a--ai__loading-states--margin--small" x-data="{dots:0}" x-init="
+                    $nextTick(() => {
+                        let maxWidth = 0;
+                        const calcWidth = () => {
+                            firstChild = $el.querySelector('.c-q-and-a--ai__loading-states--state');
+                            if(firstChild.offsetParent !== null) {
+                                $el.querySelectorAll('.c-q-and-a--ai__loading-states--state').forEach(child => {
+                                    console.log('Is visible:', child.offsetParent !== null);
+                                    console.log(child.getBoundingClientRect())
+                                    let width = child.getBoundingClientRect().width
+                                    console.log(width)
+                                    if(width > maxWidth)
+                                        maxWidth = width
+                                })
+                                $el.style.width = `${maxWidth}px`;
+                            } else {
+                                 setTimeout(calcWidth, 100);
+                            }
+                        }
+                        calcWidth();
+                    })">
+                
+                
+                
+                
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 0 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/mdf-printer.svg" alt="Printer">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Whipping up your print jobs</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 0 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 1 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/dog.svg" alt="Dog">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Taming the print beasts</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 1 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 2 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/cable.svg" alt="Cable">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Plugging in the cables for you</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 2 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 3 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/print-queue.svg" alt="Printer with settings cog">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Unjamming your printer</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 3 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 4 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/ctrl-p-print.svg" alt="Clicking print">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Executing print commands</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 4 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 5 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/sausages.svg" alt="Sausages">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Sizzling the sausages</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 5 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 6 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/cogs-settings.svg" alt="Cog settings">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Streamlining  workflows</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 6 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+                    <div class="c-q-and-a--ai__loading-states--state" :class="dots % 8 == 7 && 'show'">
+                        <img class="c-q-and-a--ai__loading-states--state__icon c-q-and-a--ai__loading-states--state__icon--small icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/paper-stack.svg" alt="Paper stack">
+                        <span class="c-q-and-a--ai__loading-states--state__text--small c-q-and-a--ai__loading-states--state__text text">Restocking paper</span>
+                        <div class="c-q-and-a--ai__loading-states--state__dots" :class="dots % 8 == 7 && 'active'">
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small" :class="'active'" @animationend="(e) => {
+                                    e.target.closest('.c-q-and-a--ai__loading-states--state').classList.remove('show');
+                                    setTimeout(()=>{dots++},600);
+                                }"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                            <div class="c-q-and-a--ai__loading-states--state__dots--dot c-q-and-a--ai__loading-states--state__dots--dot--small"></div>
+                        </div>
+                    </div>
+                
+            </div>
+        </template>
+        <div class="c-q-and-a--ai__loading-skeleton__heading">
+            <img class="c-q-and-a--ai__loading-skeleton__heading__icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/light-bulb.svg" alt="Lightbulb icon">
+            <span class="c-q-and-a--ai__loading-skeleton__heading__text"></span>
+        </div>
+        <div class="c-q-and-a--ai__loading-skeleton__content">
+            
+                <span class="c-q-and-a--ai__loading-skeleton__content__paragraph"></span>
+            
+                <span class="c-q-and-a--ai__loading-skeleton__content__paragraph"></span>
+            
+                <span class="c-q-and-a--ai__loading-skeleton__content__paragraph"></span>
+            
+                <span class="c-q-and-a--ai__loading-skeleton__content__paragraph"></span>
+            
+        </div>
+    </div>
+    <div class="c-q-and-a--ai__answer c-q-and-a--ai__answer--scroll c-q-and-a--ai__answer--font--small" x-show="loaded && !hide_answer" x-cloak>
+        <div class="c-q-and-a--ai__answer__heading">
+            <img class="c-q-and-a--ai__answer__heading__icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/light-bulb.svg" alt="Lightbulb icon">
+            <!--bookshop-live name(generic/heading)-->
+
+
+
+  <h2 class="c-heading c-heading--h3 c-heading--343A40" id="heres-your-answer">Here’s your answer
+    <span class></span></h2>
+  
+<!--bookshop-live end-->
+        </div>
+        <div class="c-q-and-a--ai__answer__content" x-init="getCookie('ANSWER') ? answer = JSON.parse(getCookie('ANSWER')) : ''" x-html="md.render(answer)"></div>
+        
+            <div class="c-q-and-a--ai__answer__sources c-q-and-a--ai__answer__sources--grey" x-data="{see_more: false}" x-init="getCookie('SOURCES') ? sources = JSON.parse(getCookie('SOURCES')) : ''">
+                <p>Sources:</p>
+                <ul>
+                    <template x-for="(source, index) in sources">
+                        <li x-show="index < 3 ? true : see_more">
+                            <a :href="source.source_url" x-text="(source.title).split('|')[0].trim()"></a>
+                        </li>
+                    </template>
+                </ul>
+                <button class="c-q-and-a--ai__answer__sources__see-more c-q-and-a--ai__answer__sources__see-more--grey c-generic-link c-generic-link--plain-link" @click="see_more = true" x-show="!see_more">See More</button>
+            </div>
+        
+    </div>
+    <template class="c-q-and-a--ai__feedback" x-if="loaded">
+        <!--bookshop-live name(simple/feedback--form)-->
+
+<div class="c-feedback--form" x-data="{show_cta: true, response: 0}">
+    <div class="c-feedback--form__feedback-question" x-show="show_cta">
+        <!--bookshop-live name(generic/heading)-->
+
+
+
+  <h5 class="c-heading c-heading--h4 c-heading--">Did this solve your issue?</h5>
+  
+<!--bookshop-live end-->
+        <div class="c-feedback--form__feedback-question__buttons">
+            
+                <div class="c-feedback--form__feedback-question__buttons__container" x-data="{show_response: false}">
+                    <button class="c-feedback--form__feedback-question__buttons__container__button c-generic-link c-generic-link--secondary" @click="show_cta = false, response = 0, hide_answer = true; answerFeedback('upvote')">
+                        Yes
+                    </button>
+                </div>
+            
+                <div class="c-feedback--form__feedback-question__buttons__container" x-data="{show_response: false}">
+                    <button class="c-feedback--form__feedback-question__buttons__container__button c-generic-link c-generic-link--secondary" @click="show_cta = false, response = 1, hide_answer = true; answerFeedback('downvote')">
+                        No
+                    </button>
+                </div>
+            
+        </div>
+    </div>
+    
+        <div class="c-feedback--form__feedback-response" x-show="0 == response && !show_cta">
+            
+                <div class="c-feedback--form__feedback-response__message"><p>Thank you, we&rsquo;re constantly striving to improve your support experience.</p>
+<p>If you still need help with your issue, visit the Contact us section below for more Help options.</p>
+</div>
+            
+        </div>
+    
+        <div class="c-feedback--form__feedback-response" x-show="1 == response && !show_cta">
+            
+                <div class="c-feedback--form__feedback-response__form">
+                    <p>We&#39;re sorry to hear that. To help us improve, can you tell us why you were unhappy with this help experience?</p>
+                    
+                        <div x-init="$nextTick(() => { 
+                            setTimeout(() => {
+                                const input = $el.querySelector('input[name=\'kapa_conversation_id\']');
+                                if (input) {
+                                    input.value = question_answer_id;
+                                } else {
+                                    console.log('Input not found');
+                                }
+                            }, 500);
+                        })">
+                            <!--bookshop-live name(simple/hubspot-form)-->
+
+
+<div class="c-hubspot-form c-hubspot-form--background-color- c-hubspot-form--text-grey c-hubspot-form-- " style=" --form-padding: px; 
+            --hbs-form-shadow: 
+                                  var(--shadow--none)
+                                ;">
+    
+    
+    
+      
+    
+    
+    
+    <div class="c-hubspot-form__form --hubspot-form-text-grey">            
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "8186336",
+          formId: "01769c11-d2cb-43cc-afdb-213be2bbca5d",
+          onFormSubmit: function ($form) {
+            
+            const emailInput = $form.querySelector('input[type="email"]');
+            const emailValue = emailInput ? emailInput.value : null;
+
+            if (typeof braze !== 'undefined' && emailValue) {
+              braze.getUser().addAlias(emailValue, 'email');
+            } else if (!emailValue) {
+              console.error('Email field is empty or not found. Cannot add Braze alias.');
+            } else {
+              console.error('Braze is not initialized. Cannot add alias.');
+            }
+
+          }
+        });
+      </script>
+    </div>
+    <p class="c-hubspot-form__terms c-hubspot-form__terms--text-grey">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+ </div>
+<!--bookshop-live end-->
+                        </div>
+                    
+                    <p class="c-feedback--form__feedback-response__form__outro"><strong>If you still need help with your issue,  
+ 
+ 
+
+
+
+
+
+
+  <button class="c-generic-link c-generic-link--plain-link" x-data="openChat" @click="openChat()">message us</button>
+
+ for more Help options.</strong></p>
+                </div>
+            
+        </div>
+    
+</div>
+<!--bookshop-live end-->
+    </template>
+    <div class="c-q-and-a--ai__error-message c-q-and-a--ai__error-message--icon" x-show="timedOut" x-cloak>
+        
+            <div class="c-q-and-a--ai__error-message__heading">
+                <img class="c-q-and-a--ai__error-message__heading__icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/light-bulb.svg" alt="Lightbulb icon">
+                <!--bookshop-live name(generic/heading)-->
+
+
+
+  <h2 class="c-heading c-heading--h3 c-heading--" id="oops">Oops!
+    <span class></span></h2>
+  
+<!--bookshop-live end-->
+            </div>
+            <div class="c-q-and-a--ai__error-message__message c-q-and-a--ai__error-message__message--font--small">
+                We currently don’t have an answer for this and our teams are working on resolving the issue. If you still need help,  
+ 
+ 
+
+
+
+
+
+
+  <button class="c-generic-link c-generic-link--plain-link" x-data="openChat" @click="openChat()">message us.</button>
+            </div>
+        
+    </div>
+</div>
+<!--bookshop-live end-->
+    <div class="c-top-bar-nav-item--support-content__accordions" x-show="aiLoaded">
+        
+            <div class="c-top-bar-nav-item--support-content__accordions__accordion" x-data="{open: false}">
+                <div class="c-top-bar-nav-item--support-content__accordions__accordion__summary" @click.prevent="open = !open">
+                    <img class="c-top-bar-nav-item--support-content__accordions__accordion__summary__icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/news.svg" alt="User reading a resource">
+                    <p class="c-top-bar-nav-item--support-content__accordions__accordion__summary__heading">Popular resources</p>
+                    <svg class="c-top-bar-nav-item--support-content__accordions__accordion__summary__arrow" :class="open ? 'c-top-bar-nav-item--support-content__accordions__accordion__summary__arrow--open' : ''" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.266348 1.00352C-0.0887828 1.35863 -0.0887828 1.93444 0.266348 2.28954L4.7151 6.73393C5.42549 7.44359 6.57655 7.44332 7.28658 6.73339L11.7336 2.28627C12.0888 1.93116 12.0888 1.35536 11.7336 1.00024C11.3785 0.645104 10.8027 0.645104 10.4476 1.00024L6.64139 4.80646C6.28628 5.16165 5.71048 5.16156 5.35537 4.80646L1.55237 1.00352C1.19725 0.648386 0.621471 0.648386 0.266348 1.00352Z" fill="#969698"/>
+                    </svg>                                             
+                </div>
+                <div class="c-top-bar-nav-item--support-content__accordions__accordion__links" :class="open ? 'c-top-bar-nav-item--support-content__accordions__accordion__links--open' : ''" :style="open ? 'height: ' + ($el.scrollHeight + 12) + 'px' : 'height: 0px'">
+                    
+                        <a class="c-top-bar-nav-item--support-content__accordions__accordion__links__link" href="https://www.papercut.com/help/">
+                            
+                            <p class="c-top-bar-nav-item--support-content__accordions__accordion__links__link__text">Help center</p>
+                            
+                        </a>
+                        <hr class="c-top-bar-nav-item--support-content__accordions__accordion__links__divider">
+                    
+                        <a class="c-top-bar-nav-item--support-content__accordions__accordion__links__link" href="https://www.papercut.com/faq/">
+                            
+                            <p class="c-top-bar-nav-item--support-content__accordions__accordion__links__link__text">FAQs</p>
+                            
+                        </a>
+                        <hr class="c-top-bar-nav-item--support-content__accordions__accordion__links__divider">
+                    
+                </div>
+            </div>
+        
+            <div class="c-top-bar-nav-item--support-content__accordions__accordion" x-data="{open: false}">
+                <div class="c-top-bar-nav-item--support-content__accordions__accordion__summary" @click.prevent="open = !open">
+                    <img class="c-top-bar-nav-item--support-content__accordions__accordion__summary__icon" src="https://storage.googleapis.com/cdn1.papercut.com/web/img/icon/duo-light/positive/conversation-speech-bubble.svg" alt="Conversation bubbles">
+                    <p class="c-top-bar-nav-item--support-content__accordions__accordion__summary__heading">Contact us</p>
+                    <svg class="c-top-bar-nav-item--support-content__accordions__accordion__summary__arrow" :class="open ? 'c-top-bar-nav-item--support-content__accordions__accordion__summary__arrow--open' : ''" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.266348 1.00352C-0.0887828 1.35863 -0.0887828 1.93444 0.266348 2.28954L4.7151 6.73393C5.42549 7.44359 6.57655 7.44332 7.28658 6.73339L11.7336 2.28627C12.0888 1.93116 12.0888 1.35536 11.7336 1.00024C11.3785 0.645104 10.8027 0.645104 10.4476 1.00024L6.64139 4.80646C6.28628 5.16165 5.71048 5.16156 5.35537 4.80646L1.55237 1.00352C1.19725 0.648386 0.621471 0.648386 0.266348 1.00352Z" fill="#969698"/>
+                    </svg>                                             
+                </div>
+                <div class="c-top-bar-nav-item--support-content__accordions__accordion__links" :class="open ? 'c-top-bar-nav-item--support-content__accordions__accordion__links--open' : ''" :style="open ? 'height: ' + ($el.scrollHeight + 12) + 'px' : 'height: 0px'">
+                    
+                        <button class="c-top-bar-nav-item--support-content__accordions__accordion__links__link" x-data="openChat" @click="openChat()">
+                            <span class="c-top-bar-nav-item--support-content__accordions__accordion__links__link__indicator"></span>
+                            <p class="c-top-bar-nav-item--support-content__accordions__accordion__links__link__text">Message the Support team</p>
+                            
+                        </button>
+                        <hr class="c-top-bar-nav-item--support-content__accordions__accordion__links__divider">
+                    
+                </div>
+            </div>
+        
+    </div>
+</div>
+<!--bookshop-live end-->
+        </div>
+    </div>
 
 <!--bookshop-live end-->
         
@@ -4912,17 +5149,27 @@ X-Robots-Tag: all
           <li class="c-breadcrumbs__links__list__separator">›</li>
           <li class="c-breadcrumbs__links__list__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
             
-              <span itemprop="name">About</span>
+              <a href="/about" reseed-ignore itemprop="item">
+                <span itemprop="name">About</span>
+              </a>
             
             <meta itemprop="position" content="1"> 
-          </li>  </ul>
+          </li>  
+          <li class="c-breadcrumbs__links__list__separator">›</li>
+          <li class="c-breadcrumbs__links__list__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            
+            <span itemprop="name">Homepage</span>
+            <meta itemprop="position" content="2">
+            
+          </li>
+             </ul>
       </div>
     </template>
   </template>
 </div>
 
     
-    <!--bookshop-live meta(version: "3.12.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+    <!--bookshop-live meta(version: "3.13.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: .Params.content_blocks)-->
     <!--bookshop-live name(page)-->
 <div class="components">
@@ -5037,9 +5284,9 @@ X-Robots-Tag: all
     <!--bookshop-live name(sections/heading-with-content)-->
 
 
-<section class="c-heading-with-content c-heading-with-content--center  ">
+<div class="c-heading-with-content--background-color- c-heading-with-content--padding-top-small c-heading-with-content--padding-bottom-small c-heading-with-content c-heading-with-content--center">
   
-  <div class="c-heading-with-content__heading   c-heading-with-content__heading--50 ">
+  <div class="c-heading-with-content__heading  c-heading-with-content__heading--50 ">
     <!--bookshop-live name(generic/heading)-->
 
 
@@ -5050,7 +5297,7 @@ X-Robots-Tag: all
 <!--bookshop-live end-->
   </div>
   
-</section>
+</div>
 
 <!--bookshop-live end-->
   </div>
@@ -5289,9 +5536,9 @@ X-Robots-Tag: all
     <!--bookshop-live name(sections/heading-with-content)-->
 
 
-<section class="c-heading-with-content c-heading-with-content--center  ">
+<div class="c-heading-with-content--background-color- c-heading-with-content--padding-top-small c-heading-with-content--padding-bottom-small c-heading-with-content c-heading-with-content--center">
   
-  <div class="c-heading-with-content__heading   c-heading-with-content__heading--85 ">
+  <div class="c-heading-with-content__heading  c-heading-with-content__heading--85 ">
     <!--bookshop-live name(generic/heading)-->
 
 
@@ -5302,7 +5549,7 @@ X-Robots-Tag: all
 <!--bookshop-live end-->
   </div>
   
-</section>
+</div>
 
 <!--bookshop-live end-->
   </div>
@@ -5741,29 +5988,38 @@ Forest Positive
     <div class="c-sections-left-right-block--fullwidth__left__logo-carousel" :class="shown ? 'c-sections-left-right-block--fullwidth__left__logo-carousel--animate' : ''">
       <!--bookshop-live name(sections/logos-strip)-->
 
-<div class="c-logos-strip">
-    <p class="c-logos-strip__title"></p>
+<div class="c-logos-strip" style="--c-logos-strip--background-color: var(--)">
+    
+    
     <div class="c-logos-strip__logos c-logos-strip__logos--four">
         
-            <div class="c-logos-strip__logos__logo">
-                <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
-                <p class="c-logos-strip__logos__logo__description"></p>
-            </div>
+            
+                <div class="c-logos-strip__logos__logo">
+                    <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-mf.svg" alt="PaperCut MF logo">
+                    <p class="c-logos-strip__logos__logo__description"></p>
+                </div>
+            
         
-            <div class="c-logos-strip__logos__logo">
-                <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
-                <p class="c-logos-strip__logos__logo__description"></p>
-            </div>
+            
+                <div class="c-logos-strip__logos__logo">
+                    <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-ng.svg" alt="PaperCut NG logo">
+                    <p class="c-logos-strip__logos__logo__description"></p>
+                </div>
+            
         
-            <div class="c-logos-strip__logos__logo">
-                <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
-                <p class="c-logos-strip__logos__logo__description"></p>
-            </div>
+            
+                <div class="c-logos-strip__logos__logo">
+                    <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-hive.svg" alt="PaperCut Hive logo">
+                    <p class="c-logos-strip__logos__logo__description"></p>
+                </div>
+            
         
-            <div class="c-logos-strip__logos__logo">
-                <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
-                <p class="c-logos-strip__logos__logo__description"></p>
-            </div>
+            
+                <div class="c-logos-strip__logos__logo">
+                    <img class="c-logos-strip__logos__logo__image" src="https://cdn1.papercut.com/web/solutions/uploads/papercut-pocket.svg" alt="PaperCut Pocket logo">
+                    <p class="c-logos-strip__logos__logo__description"></p>
+                </div>
+            
         
     </div>
 </div>
@@ -6150,12 +6406,34 @@ Forest Positive
 </div>
 <!--bookshop-live end-->
 
-
+<div class="c-help-menu" x-data="helpMenuPlusChat" x-init="$store.chat.chatOpen && openChat()">
+    <button class="c-help-menu__icon" @click="($store.chat.chatOpened || $store.chat.chatOpenedNoResponse) ? $store.chat.chatOpen ? closeChat() : openChat() : switchState()">
+        <img x-show="!$store.chat.chatOpened" class="c-help-menu__icon__image c-help-menu__icon__image--close" :src="(helpMenuOpen || $store.chat.chatOpenedNoResponse) ? 'https://storage.googleapis.com/cdn1.papercut.com/web/cloudcannon/uploads/close-icon.svg' : 'https://storage.googleapis.com/cdn1.papercut.com/web/cloudcannon/uploads/question-icon.svg'">
+        <img x-show="$store.chat.chatOpened" class="c-help-menu__icon__image" :src="$store.chat.chatOpen ? 'https://storage.googleapis.com/cdn1.papercut.com/web/cloudcannon/uploads/close-icon.svg' : 'https://storage.googleapis.com/cdn1.papercut.com/web/cloudcannon/uploads/conversation-speech-bubble.svg'">
+        <div x-show="unread > 0" x-cloak x-text="unread" class="c-help-menu__icon__unread-indicator"></div>
+    </button>
+     
+    <div class="c-help-menu__background-image c-help-menu__background-image--2" :class="helpMenuOpen && 'c-help-menu__background-image--visible'">
         
+            <svg width="61" height="66" viewBox="0 0 61 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path x-init="path = $el" class="path" d="M1 65C6.50667 43.461 28.2711 4.99886 60 1" stroke="#8EC641" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4"/>
+            </svg>            
+        
+    </div>
+    <div class="c-help-menu__pill-buttons c-help-menu__pill-buttons--2" :class="helpMenuOpen && 'c-help-menu__pill-buttons--visible'" style="--pills: 2">
+        
+        <button class="c-help-menu__pill-buttons__button c-help-menu__pill-buttons__button--middle" :class="helpMenuOpen && 'c-help-menu__pill-buttons__button--middle--visible'" @click.stop="window.innerWidth < 1024 ? window.location.href = 'https://www.papercut.com/support' : $store.supportNav.navOpen = true, switchState()">
+            Support
+        </button>
+        <button class="c-help-menu__pill-buttons__button c-help-menu__pill-buttons__button--bottom" :class="helpMenuOpen && 'c-help-menu__pill-buttons__button--bottom--visible'" @click="openChat(), switchState()">
+            Sales
+        </button>
+    </div>
+</div>
           
 
       </main>
-        <!--bookshop-live meta(version: "3.12.0" baseurl: "/" copyright: "" title: "PaperCut")-->
+        <!--bookshop-live meta(version: "3.13.0" baseurl: "/" copyright: "" title: "PaperCut")-->
 <!--bookshop-live name(__bookshop__subsequent) params(.: (dict "_live_render" false))-->
         <!--bookshop-live name(structures/footer)-->
 
@@ -6265,7 +6543,21 @@ Forest Positive
         hbspt.forms.create({
           region: "na1",
           portalId: "8186336",
-          formId: "525b820a-c332-44a2-b743-cfacfa396ead"
+          formId: "525b820a-c332-44a2-b743-cfacfa396ead",
+          onFormSubmit: function ($form) {
+            
+            const emailInput = $form.querySelector('input[type="email"]');
+            const emailValue = emailInput ? emailInput.value : null;
+
+            if (typeof braze !== 'undefined' && emailValue) {
+              braze.getUser().addAlias(emailValue, 'email');
+            } else if (!emailValue) {
+              console.error('Email field is empty or not found. Cannot add Braze alias.');
+            } else {
+              console.error('Braze is not initialized. Cannot add alias.');
+            }
+
+          }
         });
       </script>
     </div>

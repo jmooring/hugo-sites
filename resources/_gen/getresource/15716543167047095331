@@ -1,21 +1,20 @@
 HTTP/2.0 200 OK
-Age: 185
 Cache-Control: max-age=300
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 19:46:42 GMT
-Etag: W/"c129b7e9ecf0a8f23fea08ca3b5cdf95"
-Last-Modified: Wed, 16 Oct 2024 09:57:54 GMT
+Date: Mon, 03 Feb 2025 20:30:35 GMT
+Etag: W/"8ee1d992c5d96d00d1a2872ac0bbe1dc"
+Last-Modified: Mon, 03 Feb 2025 20:02:08 GMT
 Server: AmazonS3
 Strict-Transport-Security: max-age=31436000
 Vary: Accept-Encoding
-Via: 1.1 7022a5bbf9872d4a09d63e6cdb457dfe.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: qRuFe4ufHv5YGlS16Ns26JBajjQ3R1f4gyyfVD-lxMm_c5AV0RUdMA==
+Via: 1.1 39688168a2a3353be1f3c9378d12d89e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nldFL76fcudzjR-r9TfGQy63AA28YO2bV2Oi_lvT80C0BD3Ovj8zXA==
 X-Amz-Cf-Pop: SEA19-C2
-X-Amz-Id-2: LVeN6kE5c2qkZxY2MSZXY/6E7tkC31HMkST0ry+epkbKvKW4tDSU8/IbFPSnHWDYHfbY1CbCost9fRSpyM+Otg==
-X-Amz-Request-Id: EYGBQPQP57MWW3RP
-X-Cache: Hit from cloudfront
-X-Etags-1: W/"c129b7e9ecf0a8f23fea08ca3b5cdf95"
-X-Etags-2: W/"c129b7e9ecf0a8f23fea08ca3b5cdf95"
+X-Amz-Id-2: dDRnR0vjxwciyRrIANXY1UZkqz5JrfE1X2FdB9z6vegM0yeQvHIM2l2x3Q+iP69sZtaCBRLN5lrRgtZ41aljuA==
+X-Amz-Request-Id: KA27ZRMMR7NXYW8V
+X-Cache: RefreshHit from cloudfront
+X-Etags-1: W/"8ee1d992c5d96d00d1a2872ac0bbe1dc"
+X-Etags-2: W/"8ee1d992c5d96d00d1a2872ac0bbe1dc"
 X-Frame-Options: deny
 
 <!DOCTYPE html>
@@ -113,6 +112,11 @@ X-Frame-Options: deny
 
     testImg.src = "data:image/webp;base64," + 'UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA';
 
+    var urlParams = new URLSearchParams(window.location.search)
+    if (location.pathname.match(/\/pricing\/?$/) && urlParams.get('email')) {
+      location.pathname = location.pathname.replace('/pricing', '/classic')
+    }
+
   })()
 </script>
 
@@ -134,11 +138,11 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<script src="https://nozbe.com/assets/teams.js?h=49713f16b09c95e95b60b6fe6ee3c22c" defer></script>
+<script src="https://nozbe.com/assets/teams.js?h=a87dd5d75a35dca39b98f693ccb5b3f24" defer></script>
 
 
 
-<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=da39b97e59bfa257a1e128c487f6f7e5">
+<link rel="stylesheet" href="https://nozbe.com/assets/teams.css?h=0078f3f50a922841d5333087bd3d546f">
 
 
 <meta property="og:locale" content="en" />
@@ -154,10 +158,10 @@ if (!localStorage.getItem('block_stat_marketing_cookies')) {
 
 
 
-<link href="https://nozbe.com/feed.xml" rel="feed" type="application/rss+xml" title="Nozbe Personal — to-do, task, project and time management application" />
+<link href="https://nozbe.com/feed.xml" rel="feed" type="application/rss+xml" title="Nozbe Classic — to-do, task, project and time management application" />
 
 
-<link href="https://nozbe.com/feed.json" rel="alternate" type="application/json" title="Nozbe Personal — to-do, task, project and time management application" />
+<link href="https://nozbe.com/feed.json" rel="alternate" type="application/json" title="Nozbe Classic — to-do, task, project and time management application" />
 
 
 
@@ -338,13 +342,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="header__blur-filter"></div>
   <div class="header-inner">
     <a href="https://nozbe.com/">
-      <img src="https://files.nozbe.com/images/nt/nozbe_logo.svg" class="logo-teams">
+      <img src="https://files.nozbe.com/images/nt/nozbe_logo_18.svg" class="logo-teams">
     </a>
     
       <div class="modal__overlay" data-modal-overlay="mobile-menu"></div>
       <nav class="menu" data-modal="mobile-menu">
         <div class="menu__top-container">
-          <img src="https://files.nozbe.com/images/nt/nozbe_logo.svg" class="logo-teams">
+          <img src="https://files.nozbe.com/images/nt/nozbe_logo_18.svg" class="logo-teams">
           <button class="header-nav__trigger icon" data-modal-trigger="mobile-menu">-</button>
         </div>
         <ul class="header-nav">
@@ -461,13 +465,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         
-          <a class="button header-nav__button bg-orange" href="https://nozbe.com/demo">Book a demo</a>
+          <a class="button header-nav__button bg-orange text-white" href="https://nozbe.com/demo">Book a demo</a>
         
 
         
           <div class="header-nav__signup-container" >
             <a href="https://nozbe.com/signup"
-              class="button header-nav__button header-nav__button--last bg-purple"
+              class="button header-nav__button header-nav__button--last bg-purple text-white"
               data-signup-link="header">Sign up for free</a>
 
             
@@ -488,7 +492,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
         <div class="header-nav__mobile-sticky-button-container" >
           <a href="https://nozbe.com/signup"
-            class="button bg-purple header-nav__mobile-sticky-button"
+            class="button bg-purple header-nav__mobile-sticky-button text-white"
             data-signup-link="header-sticky">Sign up for free</a>
 
           
@@ -520,7 +524,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </picture>
           </div>
           <form class="login-modal__form" data-login-form>
-            <div class="login-modal__error-message hidden" data-login-error data-error-generic="A server error occurred. Please try again." data-error-np="You are trying to log in to Nozbe using Nozbe Personal credentials. To log in into Nozbe Personal go to https://app.nozbe.com." data-error-unauthorized="Wrong password or email address"></div>
+            <div class="login-modal__error-message hidden" data-login-error data-error-generic="A server error occurred. Please try again." data-error-np="You are trying to log in to Nozbe using Nozbe Classic credentials. To log in into Nozbe Classic go to https://app.nozbe.com." data-error-unauthorized="Wrong password or email address"></div>
             <div class="login-modal__form-input-container">
               <label for="login-email" class="login-modal__form-input-label">Email</label>
               <input type="email" name="email" id="login-email" class="login-modal__form-input" placeholder="Enter your email address" required>
@@ -558,10 +562,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="login-modal__section" data-np-redirect>
           <div class="login-modal__heading">
-            <h3 class="login-modal__heading-text">Nozbe Personal</h3>
-            <img src="/images/base/nozbe-sign.svg" alt="Nozbe Personal logo" class="login-modal__heading-icon">
+            <h3 class="login-modal__heading-text">Nozbe Classic</h3>
+            <img src="/images/base/nozbe-sign.svg" alt="Nozbe Classic logo" class="login-modal__heading-icon">
           </div>
-          <p class="login-modal__redirect-link">Nozbe Personal user? <a href="https://nozbe.com/login-en" class="text-green">Log in here</a></p>
+          <p class="login-modal__redirect-link">Nozbe Classic user? <a href="https://nozbe.com/login-en" class="text-green">Log in here</a></p>
         </div>
 
         <div class="modal__overlay modal__overlay--dark" data-modal-overlay="login-otp"></div>
@@ -672,6 +676,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--left "
   data-has-3rdparty
   
@@ -681,7 +686,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--left">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
+      <button type="submit" class="signup-teams-form__button bg-orange text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -739,6 +744,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
       
+      
+
 
 
 
@@ -871,6 +878,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -880,7 +888,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -909,9 +917,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -948,9 +957,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -1040,6 +1050,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--left image-columns__image-column">
       
+      
 
       
       
@@ -1051,6 +1062,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -1158,6 +1170,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -1169,6 +1182,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -1238,6 +1252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--left image-columns__image-column">
       
+      
 
       
       
@@ -1249,6 +1264,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -1357,6 +1373,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -1368,6 +1385,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -1437,6 +1455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--left image-columns__image-column">
       
+      
 
       
       
@@ -1448,6 +1467,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -1545,6 +1565,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center "
   data-has-3rdparty
   
@@ -1554,7 +1575,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Are you in? Sign up and embrace the power of simplicity
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -2037,6 +2058,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -2046,7 +2068,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -2075,9 +2097,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -2114,9 +2137,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -2171,6 +2195,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--narrow nt-column--left image-columns__image-column">
       
+      
 
       
       
@@ -2178,10 +2203,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
         
         
+        
       
 
       
       
+
 
 
 
@@ -2264,9 +2291,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="http://nozbe.com/demo/"
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   
   
   
@@ -2343,9 +2371,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2386,9 +2416,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2429,9 +2461,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2472,9 +2506,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2515,9 +2551,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2558,9 +2596,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2635,6 +2675,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -2644,7 +2685,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -2673,9 +2714,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -2712,9 +2754,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -2818,6 +2861,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center "
   data-has-3rdparty
   
@@ -2827,7 +2871,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-orange ">
+      <button type="submit" class="signup-teams-form__button bg-orange text-white ">
         Sign up now
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -2925,9 +2969,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -2968,9 +3014,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -3011,9 +3059,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-left">
               
+
 
 
 
@@ -3089,9 +3139,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/users"
   id=""
-  class="button bg-purple "
+  class="button bg-purple text-white "
   
   
   
@@ -3148,9 +3199,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-center">
               
+
 
 
 
@@ -3191,9 +3244,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-center">
               
+
 
 
 
@@ -3234,9 +3289,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-center">
               
+
 
 
 
@@ -3277,9 +3334,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             
             
+            
 
             <div class="cards-grid__thumbnail-container column--align-center">
               
+
 
 
 
@@ -3354,6 +3413,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -3363,7 +3423,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -3392,9 +3452,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -3431,9 +3492,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -3472,6 +3534,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
+  
 
 
 
@@ -3822,9 +3886,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  nt-pricing__column-button--free "
+  class="button bg-orange text-white  nt-pricing__column-button--free "
   
   
   
@@ -3954,9 +4019,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  nt-pricing__column-button--free "
+  class="button bg-orange text-white  nt-pricing__column-button--free "
   
   
   
@@ -4117,9 +4183,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href=""
   id=""
-  class="button bg-purple "
+  class="button bg-purple text-white "
   data-payments-button="premium"
   
   
@@ -4272,9 +4339,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href=""
   id=""
-  class="button bg-purple "
+  class="button bg-purple text-white "
   data-payments-button="premium"
   
   
@@ -4437,9 +4505,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href=""
   id=""
-  class="button bg-blue "
+  class="button bg-blue text-white "
   data-payments-button="business"
   
   
@@ -4549,9 +4618,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
 
 
+
 <a href=""
   id=""
-  class="button bg-blue "
+  class="button bg-blue text-white "
   data-payments-button="business"
   
   
@@ -4572,12 +4642,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   var plans = JSON.parse("{\u0022plans\u0022:{\u0022business\u0022:[{\u0022plan_id\u0022:\u0022b1\u0022,\u0022users\u0022:1},{\u0022plan_id\u0022:\u0022b2\u0022,\u0022users\u0022:2},{\u0022plan_id\u0022:\u0022b3\u0022,\u0022users\u0022:3},{\u0022plan_id\u0022:\u0022b4\u0022,\u0022users\u0022:4},{\u0022plan_id\u0022:\u0022b5\u0022,\u0022users\u0022:5},{\u0022plan_id\u0022:\u0022b6\u0022,\u0022users\u0022:6},{\u0022plan_id\u0022:\u0022b7\u0022,\u0022users\u0022:7},{\u0022plan_id\u0022:\u0022b8\u0022,\u0022users\u0022:8},{\u0022plan_id\u0022:\u0022b9\u0022,\u0022users\u0022:9},{\u0022plan_id\u0022:\u0022b10\u0022,\u0022users\u0022:10},{\u0022plan_id\u0022:\u0022b15\u0022,\u0022users\u0022:15},{\u0022plan_id\u0022:\u0022b20\u0022,\u0022users\u0022:20},{\u0022plan_id\u0022:\u0022b25\u0022,\u0022users\u0022:25},{\u0022plan_id\u0022:\u0022b30\u0022,\u0022users\u0022:30},{\u0022plan_id\u0022:\u0022b40\u0022,\u0022users\u0022:40},{\u0022plan_id\u0022:\u0022b50\u0022,\u0022users\u0022:50},{\u0022plan_id\u0022:\u0022b60\u0022,\u0022users\u0022:60},{\u0022plan_id\u0022:\u0022b75\u0022,\u0022users\u0022:75},{\u0022plan_id\u0022:\u0022b100\u0022,\u0022users\u0022:100},{\u0022plan_id\u0022:\u0022b150\u0022,\u0022users\u0022:150},{\u0022plan_id\u0022:\u0022b200\u0022,\u0022users\u0022:200}],\u0022premium\u0022:[{\u0022plan_id\u0022:1,\u0022users\u0022:1},{\u0022plan_id\u0022:2,\u0022users\u0022:2},{\u0022plan_id\u0022:3,\u0022users\u0022:3},{\u0022plan_id\u0022:4,\u0022users\u0022:4},{\u0022plan_id\u0022:5,\u0022users\u0022:5},{\u0022plan_id\u0022:6,\u0022users\u0022:6},{\u0022plan_id\u0022:7,\u0022users\u0022:7},{\u0022plan_id\u0022:8,\u0022users\u0022:8},{\u0022plan_id\u0022:9,\u0022users\u0022:9},{\u0022plan_id\u0022:10,\u0022users\u0022:10},{\u0022plan_id\u0022:15,\u0022users\u0022:15},{\u0022plan_id\u0022:20,\u0022users\u0022:20},{\u0022plan_id\u0022:25,\u0022users\u0022:25},{\u0022plan_id\u0022:30,\u0022users\u0022:30},{\u0022plan_id\u0022:40,\u0022users\u0022:40},{\u0022plan_id\u0022:50,\u0022users\u0022:50},{\u0022plan_id\u0022:60,\u0022users\u0022:60},{\u0022plan_id\u0022:75,\u0022users\u0022:75},{\u0022plan_id\u0022:100,\u0022users\u0022:100},{\u0022plan_id\u0022:150,\u0022users\u0022:150},{\u0022plan_id\u0022:200,\u0022users\u0022:200}]},\u0022pricing\u0022:{\u0022EUR\u0022:{\u0022100m\u0022:750,\u0022100mu\u0022:7.5,\u0022100y\u0022:7200,\u0022100ym\u0022:600,\u0022100ymu\u0022:6,\u002210m\u0022:86,\u002210mu\u0022:8.6,\u002210y\u0022:792,\u002210ym\u0022:66,\u002210ymu\u0022:6.6,\u0022150m\u0022:1125,\u0022150mu\u0022:7.5,\u0022150y\u0022:10800,\u0022150ym\u0022:900,\u0022150ymu\u0022:6,\u002215m\u0022:122,\u002215mu\u0022:8.133333333333333,\u002215y\u0022:1152,\u002215ym\u0022:96,\u002215ymu\u0022:6.4,\u00221m\u0022:10,\u00221mu\u0022:10,\u00221y\u0022:96,\u00221ym\u0022:8,\u00221ymu\u0022:8,\u0022200m\u0022:1500,\u0022200mu\u0022:7.5,\u0022200y\u0022:14400,\u0022200ym\u0022:1200,\u0022200ymu\u0022:6,\u002220m\u0022:158,\u002220mu\u0022:7.9,\u002220y\u0022:1512,\u002220ym\u0022:126,\u002220ymu\u0022:6.3,\u002225m\u0022:193,\u002225mu\u0022:7.72,\u002225y\u0022:1860,\u002225ym\u0022:155,\u002225ymu\u0022:6.2,\u00222m\u0022:19,\u00222mu\u0022:9.5,\u00222y\u0022:180,\u00222ym\u0022:15,\u00222ymu\u0022:7.5,\u002230m\u0022:228,\u002230mu\u0022:7.6,\u002230y\u0022:2208,\u002230ym\u0022:184,\u002230ymu\u0022:6.133333333333334,\u00223m\u0022:28,\u00223mu\u0022:9.333333333333334,\u00223y\u0022:264,\u00223ym\u0022:22,\u00223ymu\u0022:7.333333333333333,\u002240m\u0022:302,\u002240mu\u0022:7.55,\u002240y\u0022:2904,\u002240ym\u0022:242,\u002240ymu\u0022:6.05,\u00224m\u0022:37,\u00224mu\u0022:9.25,\u00224y\u0022:348,\u00224ym\u0022:29,\u00224ymu\u0022:7.25,\u002250m\u0022:376,\u002250mu\u0022:7.52,\u002250y\u0022:3600,\u002250ym\u0022:300,\u002250ymu\u0022:6,\u00225m\u0022:46,\u00225mu\u0022:9.2,\u00225y\u0022:432,\u00225ym\u0022:36,\u00225ymu\u0022:7.2,\u002260m\u0022:451,\u002260mu\u0022:7.516666666666667,\u002260y\u0022:4320,\u002260ym\u0022:360,\u002260ymu\u0022:6,\u00226m\u0022:54,\u00226mu\u0022:9,\u00226y\u0022:504,\u00226ym\u0022:42,\u00226ymu\u0022:7,\u002275m\u0022:563,\u002275mu\u0022:7.506666666666667,\u002275y\u0022:5400,\u002275ym\u0022:450,\u002275ymu\u0022:6,\u00227m\u0022:62,\u00227mu\u0022:8.857142857142858,\u00227y\u0022:576,\u00227ym\u0022:48,\u00227ymu\u0022:6.857142857142857,\u00228m\u0022:70,\u00228mu\u0022:8.75,\u00228y\u0022:648,\u00228ym\u0022:54,\u00228ymu\u0022:6.75,\u00229m\u0022:78,\u00229mu\u0022:8.666666666666666,\u00229y\u0022:720,\u00229ym\u0022:60,\u00229ymu\u0022:6.666666666666667,\u0022b100m\u0022:1125,\u0022b100mu\u0022:11.25,\u0022b100y\u0022:10800,\u0022b100ym\u0022:900,\u0022b100ymu\u0022:9,\u0022b10m\u0022:132,\u0022b10mu\u0022:13.2,\u0022b10y\u0022:1224,\u0022b10ym\u0022:102,\u0022b10ymu\u0022:10.2,\u0022b150m\u0022:1688,\u0022b150mu\u0022:11.253333333333334,\u0022b150y\u0022:16200,\u0022b150ym\u0022:1350,\u0022b150ymu\u0022:9,\u0022b15m\u0022:190,\u0022b15mu\u0022:12.666666666666666,\u0022b15y\u0022:1776,\u0022b15ym\u0022:148,\u0022b15ymu\u0022:9.866666666666667,\u0022b1m\u0022:15,\u0022b1mu\u0022:15,\u0022b1y\u0022:144,\u0022b1ym\u0022:12,\u0022b1ymu\u0022:12,\u0022b200m\u0022:2250,\u0022b200mu\u0022:11.25,\u0022b200y\u0022:21600,\u0022b200ym\u0022:1800,\u0022b200ymu\u0022:9,\u0022b20m\u0022:248,\u0022b20mu\u0022:12.4,\u0022b20y\u0022:2328,\u0022b20ym\u0022:194,\u0022b20ymu\u0022:9.7,\u0022b25m\u0022:306,\u0022b25mu\u0022:12.24,\u0022b25y\u0022:2880,\u0022b25ym\u0022:240,\u0022b25ymu\u0022:9.6,\u0022b2m\u0022:28,\u0022b2mu\u0022:14,\u0022b2y\u0022:264,\u0022b2ym\u0022:22,\u0022b2ymu\u0022:11,\u0022b30m\u0022:364,\u0022b30mu\u0022:12.133333333333333,\u0022b30y\u0022:3432,\u0022b30ym\u0022:286,\u0022b30ymu\u0022:9.533333333333333,\u0022b3m\u0022:41,\u0022b3mu\u0022:13.666666666666666,\u0022b3y\u0022:384,\u0022b3ym\u0022:32,\u0022b3ymu\u0022:10.666666666666666,\u0022b40m\u0022:470,\u0022b40mu\u0022:11.75,\u0022b40y\u0022:4440,\u0022b40ym\u0022:370,\u0022b40ymu\u0022:9.25,\u0022b4m\u0022:54,\u0022b4mu\u0022:13.5,\u0022b4y\u0022:504,\u0022b4ym\u0022:42,\u0022b4ymu\u0022:10.5,\u0022b50m\u0022:564,\u0022b50mu\u0022:11.28,\u0022b50y\u0022:5400,\u0022b50ym\u0022:450,\u0022b50ymu\u0022:9,\u0022b5m\u0022:67,\u0022b5mu\u0022:13.4,\u0022b5y\u0022:624,\u0022b5ym\u0022:52,\u0022b5ymu\u0022:10.4,\u0022b60m\u0022:677,\u0022b60mu\u0022:11.283333333333333,\u0022b60y\u0022:6480,\u0022b60ym\u0022:540,\u0022b60ymu\u0022:9,\u0022b6m\u0022:80,\u0022b6mu\u0022:13.333333333333334,\u0022b6y\u0022:744,\u0022b6ym\u0022:62,\u0022b6ymu\u0022:10.333333333333334,\u0022b75m\u0022:845,\u0022b75mu\u0022:11.266666666666667,\u0022b75y\u0022:8100,\u0022b75ym\u0022:675,\u0022b75ymu\u0022:9,\u0022b7m\u0022:93,\u0022b7mu\u0022:13.285714285714286,\u0022b7y\u0022:864,\u0022b7ym\u0022:72,\u0022b7ymu\u0022:10.285714285714286,\u0022b8m\u0022:106,\u0022b8mu\u0022:13.25,\u0022b8y\u0022:984,\u0022b8ym\u0022:82,\u0022b8ymu\u0022:10.25,\u0022b9m\u0022:119,\u0022b9mu\u0022:13.222222222222221,\u0022b9y\u0022:1104,\u0022b9ym\u0022:92,\u0022b9ymu\u0022:10.222222222222221,\u0022symbol_right\u0022:\u0022€\u0022},\u0022GBP\u0022:{\u0022100m\u0022:750,\u0022100mu\u0022:7.5,\u0022100y\u0022:7200,\u0022100ym\u0022:600,\u0022100ymu\u0022:6,\u002210m\u0022:86,\u002210mu\u0022:8.6,\u002210y\u0022:792,\u002210ym\u0022:66,\u002210ymu\u0022:6.6,\u0022150m\u0022:1125,\u0022150mu\u0022:7.5,\u0022150y\u0022:10800,\u0022150ym\u0022:900,\u0022150ymu\u0022:6,\u002215m\u0022:122,\u002215mu\u0022:8.133333333333333,\u002215y\u0022:1152,\u002215ym\u0022:96,\u002215ymu\u0022:6.4,\u00221m\u0022:10,\u00221mu\u0022:10,\u00221y\u0022:96,\u00221ym\u0022:8,\u00221ymu\u0022:8,\u0022200m\u0022:1500,\u0022200mu\u0022:7.5,\u0022200y\u0022:14400,\u0022200ym\u0022:1200,\u0022200ymu\u0022:6,\u002220m\u0022:158,\u002220mu\u0022:7.9,\u002220y\u0022:1512,\u002220ym\u0022:126,\u002220ymu\u0022:6.3,\u002225m\u0022:193,\u002225mu\u0022:7.72,\u002225y\u0022:1860,\u002225ym\u0022:155,\u002225ymu\u0022:6.2,\u00222m\u0022:19,\u00222mu\u0022:9.5,\u00222y\u0022:180,\u00222ym\u0022:15,\u00222ymu\u0022:7.5,\u002230m\u0022:228,\u002230mu\u0022:7.6,\u002230y\u0022:2208,\u002230ym\u0022:184,\u002230ymu\u0022:6.133333333333334,\u00223m\u0022:28,\u00223mu\u0022:9.333333333333334,\u00223y\u0022:264,\u00223ym\u0022:22,\u00223ymu\u0022:7.333333333333333,\u002240m\u0022:302,\u002240mu\u0022:7.55,\u002240y\u0022:2904,\u002240ym\u0022:242,\u002240ymu\u0022:6.05,\u00224m\u0022:37,\u00224mu\u0022:9.25,\u00224y\u0022:348,\u00224ym\u0022:29,\u00224ymu\u0022:7.25,\u002250m\u0022:376,\u002250mu\u0022:7.52,\u002250y\u0022:3600,\u002250ym\u0022:300,\u002250ymu\u0022:6,\u00225m\u0022:46,\u00225mu\u0022:9.2,\u00225y\u0022:432,\u00225ym\u0022:36,\u00225ymu\u0022:7.2,\u002260m\u0022:451,\u002260mu\u0022:7.516666666666667,\u002260y\u0022:4320,\u002260ym\u0022:360,\u002260ymu\u0022:6,\u00226m\u0022:54,\u00226mu\u0022:9,\u00226y\u0022:504,\u00226ym\u0022:42,\u00226ymu\u0022:7,\u002275m\u0022:563,\u002275mu\u0022:7.506666666666667,\u002275y\u0022:5400,\u002275ym\u0022:450,\u002275ymu\u0022:6,\u00227m\u0022:62,\u00227mu\u0022:8.857142857142858,\u00227y\u0022:576,\u00227ym\u0022:48,\u00227ymu\u0022:6.857142857142857,\u00228m\u0022:70,\u00228mu\u0022:8.75,\u00228y\u0022:648,\u00228ym\u0022:54,\u00228ymu\u0022:6.75,\u00229m\u0022:78,\u00229mu\u0022:8.666666666666666,\u00229y\u0022:720,\u00229ym\u0022:60,\u00229ymu\u0022:6.666666666666667,\u0022b100m\u0022:1125,\u0022b100mu\u0022:11.25,\u0022b100y\u0022:10800,\u0022b100ym\u0022:900,\u0022b100ymu\u0022:9,\u0022b10m\u0022:132,\u0022b10mu\u0022:13.2,\u0022b10y\u0022:1224,\u0022b10ym\u0022:102,\u0022b10ymu\u0022:10.2,\u0022b150m\u0022:1688,\u0022b150mu\u0022:11.253333333333334,\u0022b150y\u0022:16200,\u0022b150ym\u0022:1350,\u0022b150ymu\u0022:9,\u0022b15m\u0022:190,\u0022b15mu\u0022:12.666666666666666,\u0022b15y\u0022:1776,\u0022b15ym\u0022:148,\u0022b15ymu\u0022:9.866666666666667,\u0022b1m\u0022:15,\u0022b1mu\u0022:15,\u0022b1y\u0022:144,\u0022b1ym\u0022:12,\u0022b1ymu\u0022:12,\u0022b200m\u0022:2250,\u0022b200mu\u0022:11.25,\u0022b200y\u0022:21600,\u0022b200ym\u0022:1800,\u0022b200ymu\u0022:9,\u0022b20m\u0022:248,\u0022b20mu\u0022:12.4,\u0022b20y\u0022:2328,\u0022b20ym\u0022:194,\u0022b20ymu\u0022:9.7,\u0022b25m\u0022:306,\u0022b25mu\u0022:12.24,\u0022b25y\u0022:2880,\u0022b25ym\u0022:240,\u0022b25ymu\u0022:9.6,\u0022b2m\u0022:28,\u0022b2mu\u0022:14,\u0022b2y\u0022:264,\u0022b2ym\u0022:22,\u0022b2ymu\u0022:11,\u0022b30m\u0022:364,\u0022b30mu\u0022:12.133333333333333,\u0022b30y\u0022:3432,\u0022b30ym\u0022:286,\u0022b30ymu\u0022:9.533333333333333,\u0022b3m\u0022:41,\u0022b3mu\u0022:13.666666666666666,\u0022b3y\u0022:384,\u0022b3ym\u0022:32,\u0022b3ymu\u0022:10.666666666666666,\u0022b40m\u0022:470,\u0022b40mu\u0022:11.75,\u0022b40y\u0022:4440,\u0022b40ym\u0022:370,\u0022b40ymu\u0022:9.25,\u0022b4m\u0022:54,\u0022b4mu\u0022:13.5,\u0022b4y\u0022:504,\u0022b4ym\u0022:42,\u0022b4ymu\u0022:10.5,\u0022b50m\u0022:564,\u0022b50mu\u0022:11.28,\u0022b50y\u0022:5400,\u0022b50ym\u0022:450,\u0022b50ymu\u0022:9,\u0022b5m\u0022:67,\u0022b5mu\u0022:13.4,\u0022b5y\u0022:624,\u0022b5ym\u0022:52,\u0022b5ymu\u0022:10.4,\u0022b60m\u0022:677,\u0022b60mu\u0022:11.283333333333333,\u0022b60y\u0022:6480,\u0022b60ym\u0022:540,\u0022b60ymu\u0022:9,\u0022b6m\u0022:80,\u0022b6mu\u0022:13.333333333333334,\u0022b6y\u0022:744,\u0022b6ym\u0022:62,\u0022b6ymu\u0022:10.333333333333334,\u0022b75m\u0022:845,\u0022b75mu\u0022:11.266666666666667,\u0022b75y\u0022:8100,\u0022b75ym\u0022:675,\u0022b75ymu\u0022:9,\u0022b7m\u0022:93,\u0022b7mu\u0022:13.285714285714286,\u0022b7y\u0022:864,\u0022b7ym\u0022:72,\u0022b7ymu\u0022:10.285714285714286,\u0022b8m\u0022:106,\u0022b8mu\u0022:13.25,\u0022b8y\u0022:984,\u0022b8ym\u0022:82,\u0022b8ymu\u0022:10.25,\u0022b9m\u0022:119,\u0022b9mu\u0022:13.222222222222221,\u0022b9y\u0022:1104,\u0022b9ym\u0022:92,\u0022b9ymu\u0022:10.222222222222221,\u0022symbol_left\u0022:\u0022£\u0022},\u0022JPY\u0022:{\u0022100m\u0022:109380,\u0022100mu\u0022:1093.8,\u0022100y\u0022:1050000,\u0022100ym\u0022:87500,\u0022100ymu\u0022:875,\u002210m\u0022:12180,\u002210mu\u0022:1218,\u002210y\u0022:116880,\u002210ym\u0022:9740,\u002210ymu\u0022:974,\u0022150m\u0022:163380,\u0022150mu\u0022:1089.2,\u0022150y\u0022:1568400,\u0022150ym\u0022:130700,\u0022150ymu\u0022:871.3333333333334,\u002215m\u0022:17580,\u002215mu\u0022:1172,\u002215y\u0022:168720,\u002215ym\u0022:14060,\u002215ymu\u0022:937.3333333333334,\u00221m\u0022:1480,\u00221mu\u0022:1480,\u00221y\u0022:14160,\u00221ym\u0022:1180,\u00221ymu\u0022:1180,\u0022200m\u0022:217380,\u0022200mu\u0022:1086.9,\u0022200y\u0022:2086800,\u0022200ym\u0022:173900,\u0022200ymu\u0022:869.5,\u002220m\u0022:22980,\u002220mu\u0022:1149,\u002220y\u0022:220560,\u002220ym\u0022:18380,\u002220ymu\u0022:919,\u002225m\u0022:28380,\u002225mu\u0022:1135.2,\u002225y\u0022:272400,\u002225ym\u0022:22700,\u002225ymu\u0022:908,\u00222m\u0022:2780,\u00222mu\u0022:1390,\u00222y\u0022:26640,\u00222ym\u0022:2220,\u00222ymu\u0022:1110,\u002230m\u0022:33780,\u002230mu\u0022:1126,\u002230y\u0022:324240,\u002230ym\u0022:27020,\u002230ymu\u0022:900.6666666666666,\u00223m\u0022:4080,\u00223mu\u0022:1360,\u00223y\u0022:39120,\u00223ym\u0022:3260,\u00223ymu\u0022:1086.6666666666667,\u002240m\u0022:44580,\u002240mu\u0022:1114.5,\u002240y\u0022:427920,\u002240ym\u0022:35660,\u002240ymu\u0022:891.5,\u00224m\u0022:5380,\u00224mu\u0022:1345,\u00224y\u0022:51600,\u00224ym\u0022:4300,\u00224ymu\u0022:1075,\u002250m\u0022:55380,\u002250mu\u0022:1107.6,\u002250y\u0022:531600,\u002250ym\u0022:44300,\u002250ymu\u0022:886,\u00225m\u0022:6680,\u00225mu\u0022:1336,\u00225y\u0022:64080,\u00225ym\u0022:5340,\u00225ymu\u0022:1068,\u002260m\u0022:66000,\u002260mu\u0022:1100,\u002260y\u0022:633600,\u002260ym\u0022:52800,\u002260ymu\u0022:880,\u00226m\u0022:7780,\u00226mu\u0022:1296.6666666666667,\u00226y\u0022:74640,\u00226ym\u0022:6220,\u00226ymu\u0022:1036.6666666666667,\u002275m\u0022:82380,\u002275mu\u0022:1098.4,\u002275y\u0022:790800,\u002275ym\u0022:65900,\u002275ymu\u0022:878.6666666666666,\u00227m\u0022:8880,\u00227mu\u0022:1268.5714285714287,\u00227y\u0022:85200,\u00227ym\u0022:7100,\u00227ymu\u0022:1014.2857142857143,\u00228m\u0022:9980,\u00228mu\u0022:1247.5,\u00228y\u0022:95760,\u00228ym\u0022:7980,\u00228ymu\u0022:997.5,\u00229m\u0022:11080,\u00229mu\u0022:1231.111111111111,\u00229y\u0022:106320,\u00229ym\u0022:8860,\u00229ymu\u0022:984.4444444444445,\u0022b100m\u0022:166060,\u0022b100mu\u0022:1660.6,\u0022b100y\u0022:1593360,\u0022b100ym\u0022:132780,\u0022b100ymu\u0022:1327.8,\u0022b10m\u0022:18660,\u0022b10mu\u0022:1866,\u0022b10y\u0022:177360,\u0022b10ym\u0022:14780,\u0022b10ymu\u0022:1478,\u0022b150m\u0022:247060,\u0022b150mu\u0022:1647.0666666666666,\u0022b150y\u0022:2373360,\u0022b150ym\u0022:197780,\u0022b150ymu\u0022:1318.5333333333333,\u0022b15m\u0022:27160,\u0022b15mu\u0022:1810.6666666666667,\u0022b15y\u0022:258360,\u0022b15ym\u0022:21530,\u0022b15ymu\u0022:1435.3333333333333,\u0022b1m\u0022:2220,\u0022b1mu\u0022:2220,\u0022b1y\u0022:21360,\u0022b1ym\u0022:1780,\u0022b1ymu\u0022:1780,\u0022b200m\u0022:328060,\u0022b200mu\u0022:1640.3,\u0022b200y\u0022:3153360,\u0022b200ym\u0022:262780,\u0022b200ymu\u0022:1313.9,\u0022b20m\u0022:35660,\u0022b20mu\u0022:1783,\u0022b20y\u0022:339360,\u0022b20ym\u0022:28280,\u0022b20ymu\u0022:1414,\u0022b25m\u0022:44160,\u0022b25mu\u0022:1766.4,\u0022b25y\u0022:420360,\u0022b25ym\u0022:35030,\u0022b25ymu\u0022:1401.2,\u0022b2m\u0022:4080,\u0022b2mu\u0022:2040,\u0022b2y\u0022:39360,\u0022b2ym\u0022:3280,\u0022b2ymu\u0022:1640,\u0022b30m\u0022:52660,\u0022b30mu\u0022:1755.3333333333333,\u0022b30y\u0022:501360,\u0022b30ym\u0022:41780,\u0022b30ymu\u0022:1392.6666666666667,\u0022b3m\u0022:5940,\u0022b3mu\u0022:1980,\u0022b3y\u0022:57360,\u0022b3ym\u0022:4780,\u0022b3ymu\u0022:1593.3333333333333,\u0022b40m\u0022:68860,\u0022b40mu\u0022:1721.5,\u0022b40y\u0022:657360,\u0022b40ym\u0022:54780,\u0022b40ymu\u0022:1369.5,\u0022b4m\u0022:7800,\u0022b4mu\u0022:1950,\u0022b4y\u0022:75360,\u0022b4ym\u0022:6280,\u0022b4ymu\u0022:1570,\u0022b50m\u0022:85060,\u0022b50mu\u0022:1701.2,\u0022b50y\u0022:813360,\u0022b50ym\u0022:67780,\u0022b50ymu\u0022:1355.6,\u0022b5m\u0022:9660,\u0022b5mu\u0022:1932,\u0022b5y\u0022:93360,\u0022b5ym\u0022:7780,\u0022b5ymu\u0022:1556,\u0022b60m\u0022:100800,\u0022b60mu\u0022:1680,\u0022b60y\u0022:968160,\u0022b60ym\u0022:80680,\u0022b60ymu\u0022:1344.6666666666667,\u0022b6m\u0022:11460,\u0022b6mu\u0022:1910,\u0022b6y\u0022:110160,\u0022b6ym\u0022:9180,\u0022b6ymu\u0022:1530,\u0022b75m\u0022:125560,\u0022b75mu\u0022:1674.1333333333334,\u0022b75y\u0022:1203360,\u0022b75ym\u0022:100280,\u0022b75ymu\u0022:1337.0666666666666,\u0022b7m\u0022:13260,\u0022b7mu\u0022:1894.2857142857142,\u0022b7y\u0022:126960,\u0022b7ym\u0022:10580,\u0022b7ymu\u0022:1511.4285714285713,\u0022b8m\u0022:15060,\u0022b8mu\u0022:1882.5,\u0022b8y\u0022:143760,\u0022b8ym\u0022:11980,\u0022b8ymu\u0022:1497.5,\u0022b9m\u0022:16860,\u0022b9mu\u0022:1873.3333333333333,\u0022b9y\u0022:160560,\u0022b9ym\u0022:13380,\u0022b9ymu\u0022:1486.6666666666667,\u0022symbol_right\u0022:\u0022¥\u0022},\u0022PLN\u0022:{\u0022100m\u0022:2250,\u0022100mu\u0022:22.5,\u0022100y\u0022:21600,\u0022100ym\u0022:1800,\u0022100ymu\u0022:18,\u002210m\u0022:250,\u002210mu\u0022:25,\u002210y\u0022:2388,\u002210ym\u0022:199,\u002210ymu\u0022:19.9,\u0022150m\u0022:3375,\u0022150mu\u0022:22.5,\u0022150y\u0022:32400,\u0022150ym\u0022:2700,\u0022150ymu\u0022:18,\u002215m\u0022:360,\u002215mu\u0022:24,\u002215y\u0022:3468,\u002215ym\u0022:289,\u002215ymu\u0022:19.266666666666666,\u00221m\u0022:30,\u00221mu\u0022:30,\u00221y\u0022:288,\u00221ym\u0022:24,\u00221ymu\u0022:24,\u0022200m\u0022:4500,\u0022200mu\u0022:22.5,\u0022200y\u0022:43200,\u0022200ym\u0022:3600,\u0022200ymu\u0022:18,\u002220m\u0022:470,\u002220mu\u0022:23.5,\u002220y\u0022:4548,\u002220ym\u0022:379,\u002220ymu\u0022:18.95,\u002225m\u0022:580,\u002225mu\u0022:23.2,\u002225y\u0022:5628,\u002225ym\u0022:469,\u002225ymu\u0022:18.76,\u00222m\u0022:55,\u00222mu\u0022:27.5,\u00222y\u0022:528,\u00222ym\u0022:44,\u00222ymu\u0022:22,\u002230m\u0022:690,\u002230mu\u0022:23,\u002230y\u0022:6708,\u002230ym\u0022:559,\u002230ymu\u0022:18.633333333333333,\u00223m\u0022:80,\u00223mu\u0022:26.666666666666668,\u00223y\u0022:768,\u00223ym\u0022:64,\u00223ymu\u0022:21.333333333333332,\u002240m\u0022:910,\u002240mu\u0022:22.75,\u002240y\u0022:8868,\u002240ym\u0022:739,\u002240ymu\u0022:18.475,\u00224m\u0022:105,\u00224mu\u0022:26.25,\u00224y\u0022:1008,\u00224ym\u0022:84,\u00224ymu\u0022:21,\u002250m\u0022:1125,\u002250mu\u0022:22.5,\u002250y\u0022:10800,\u002250ym\u0022:900,\u002250ymu\u0022:18,\u00225m\u0022:130,\u00225mu\u0022:26,\u00225y\u0022:1248,\u00225ym\u0022:104,\u00225ymu\u0022:20.8,\u002260m\u0022:1350,\u002260mu\u0022:22.5,\u002260y\u0022:12960,\u002260ym\u0022:1080,\u002260ymu\u0022:18,\u00226m\u0022:154,\u00226mu\u0022:25.666666666666668,\u00226y\u0022:1476,\u00226ym\u0022:123,\u00226ymu\u0022:20.5,\u002275m\u0022:1688,\u002275mu\u0022:22.506666666666668,\u002275y\u0022:16200,\u002275ym\u0022:1350,\u002275ymu\u0022:18,\u00227m\u0022:178,\u00227mu\u0022:25.428571428571427,\u00227y\u0022:1704,\u00227ym\u0022:142,\u00227ymu\u0022:20.285714285714285,\u00228m\u0022:202,\u00228mu\u0022:25.25,\u00228y\u0022:1932,\u00228ym\u0022:161,\u00228ymu\u0022:20.125,\u00229m\u0022:226,\u00229mu\u0022:25.11111111111111,\u00229y\u0022:2160,\u00229ym\u0022:180,\u00229ymu\u0022:20,\u0022b100m\u0022:3750,\u0022b100mu\u0022:37.5,\u0022b100y\u0022:36000,\u0022b100ym\u0022:3000,\u0022b100ymu\u0022:30,\u0022b10m\u0022:417,\u0022b10mu\u0022:41.7,\u0022b10y\u0022:4032,\u0022b10ym\u0022:336,\u0022b10ymu\u0022:33.6,\u0022b150m\u0022:5625,\u0022b150mu\u0022:37.5,\u0022b150y\u0022:54000,\u0022b150ym\u0022:4500,\u0022b150ymu\u0022:30,\u0022b15m\u0022:608,\u0022b15mu\u0022:40.53333333333333,\u0022b15y\u0022:5880,\u0022b15ym\u0022:490,\u0022b15ymu\u0022:32.666666666666664,\u0022b1m\u0022:50,\u0022b1mu\u0022:50,\u0022b1y\u0022:480,\u0022b1ym\u0022:40,\u0022b1ymu\u0022:40,\u0022b200m\u0022:7500,\u0022b200mu\u0022:37.5,\u0022b200y\u0022:72000,\u0022b200ym\u0022:6000,\u0022b200ymu\u0022:30,\u0022b20m\u0022:799,\u0022b20mu\u0022:39.95,\u0022b20y\u0022:7728,\u0022b20ym\u0022:644,\u0022b20ymu\u0022:32.2,\u0022b25m\u0022:990,\u0022b25mu\u0022:39.6,\u0022b25y\u0022:9576,\u0022b25ym\u0022:798,\u0022b25ymu\u0022:31.92,\u0022b2m\u0022:92,\u0022b2mu\u0022:46,\u0022b2y\u0022:888,\u0022b2ym\u0022:74,\u0022b2ymu\u0022:37,\u0022b30m\u0022:1180,\u0022b30mu\u0022:39.333333333333336,\u0022b30y\u0022:11400,\u0022b30ym\u0022:950,\u0022b30ymu\u0022:31.666666666666668,\u0022b3m\u0022:134,\u0022b3mu\u0022:44.666666666666664,\u0022b3y\u0022:1296,\u0022b3ym\u0022:108,\u0022b3ymu\u0022:36,\u0022b40m\u0022:1530,\u0022b40mu\u0022:38.25,\u0022b40y\u0022:14700,\u0022b40ym\u0022:1225,\u0022b40ymu\u0022:30.625,\u0022b4m\u0022:176,\u0022b4mu\u0022:44,\u0022b4y\u0022:1704,\u0022b4ym\u0022:142,\u0022b4ymu\u0022:35.5,\u0022b50m\u0022:1875,\u0022b50mu\u0022:37.5,\u0022b50y\u0022:18000,\u0022b50ym\u0022:1500,\u0022b50ymu\u0022:30,\u0022b5m\u0022:218,\u0022b5mu\u0022:43.6,\u0022b5y\u0022:2112,\u0022b5ym\u0022:176,\u0022b5ymu\u0022:35.2,\u0022b60m\u0022:2250,\u0022b60mu\u0022:37.5,\u0022b60y\u0022:21600,\u0022b60ym\u0022:1800,\u0022b60ymu\u0022:30,\u0022b6m\u0022:258,\u0022b6mu\u0022:43,\u0022b6y\u0022:2496,\u0022b6ym\u0022:208,\u0022b6ymu\u0022:34.666666666666664,\u0022b75m\u0022:2813,\u0022b75mu\u0022:37.50666666666667,\u0022b75y\u0022:27000,\u0022b75ym\u0022:2250,\u0022b75ymu\u0022:30,\u0022b7m\u0022:298,\u0022b7mu\u0022:42.57142857142857,\u0022b7y\u0022:2880,\u0022b7ym\u0022:240,\u0022b7ymu\u0022:34.285714285714285,\u0022b8m\u0022:337,\u0022b8mu\u0022:42.125,\u0022b8y\u0022:3264,\u0022b8ym\u0022:272,\u0022b8ymu\u0022:34,\u0022b9m\u0022:377,\u0022b9mu\u0022:41.888888888888886,\u0022b9y\u0022:3648,\u0022b9ym\u0022:304,\u0022b9ymu\u0022:33.77777777777778,\u0022symbol_right\u0022:\u0022zł\u0022},\u0022USD\u0022:{\u0022100m\u0022:750,\u0022100mu\u0022:7.5,\u0022100y\u0022:7200,\u0022100ym\u0022:600,\u0022100ymu\u0022:6,\u002210m\u0022:86,\u002210mu\u0022:8.6,\u002210y\u0022:792,\u002210ym\u0022:66,\u002210ymu\u0022:6.6,\u0022150m\u0022:1125,\u0022150mu\u0022:7.5,\u0022150y\u0022:10800,\u0022150ym\u0022:900,\u0022150ymu\u0022:6,\u002215m\u0022:122,\u002215mu\u0022:8.133333333333333,\u002215y\u0022:1152,\u002215ym\u0022:96,\u002215ymu\u0022:6.4,\u00221m\u0022:10,\u00221mu\u0022:10,\u00221y\u0022:96,\u00221ym\u0022:8,\u00221ymu\u0022:8,\u0022200m\u0022:1500,\u0022200mu\u0022:7.5,\u0022200y\u0022:14400,\u0022200ym\u0022:1200,\u0022200ymu\u0022:6,\u002220m\u0022:158,\u002220mu\u0022:7.9,\u002220y\u0022:1512,\u002220ym\u0022:126,\u002220ymu\u0022:6.3,\u002225m\u0022:193,\u002225mu\u0022:7.72,\u002225y\u0022:1860,\u002225ym\u0022:155,\u002225ymu\u0022:6.2,\u00222m\u0022:19,\u00222mu\u0022:9.5,\u00222y\u0022:180,\u00222ym\u0022:15,\u00222ymu\u0022:7.5,\u002230m\u0022:228,\u002230mu\u0022:7.6,\u002230y\u0022:2208,\u002230ym\u0022:184,\u002230ymu\u0022:6.133333333333334,\u00223m\u0022:28,\u00223mu\u0022:9.333333333333334,\u00223y\u0022:264,\u00223ym\u0022:22,\u00223ymu\u0022:7.333333333333333,\u002240m\u0022:302,\u002240mu\u0022:7.55,\u002240y\u0022:2904,\u002240ym\u0022:242,\u002240ymu\u0022:6.05,\u00224m\u0022:37,\u00224mu\u0022:9.25,\u00224y\u0022:348,\u00224ym\u0022:29,\u00224ymu\u0022:7.25,\u002250m\u0022:376,\u002250mu\u0022:7.52,\u002250y\u0022:3600,\u002250ym\u0022:300,\u002250ymu\u0022:6,\u00225m\u0022:46,\u00225mu\u0022:9.2,\u00225y\u0022:432,\u00225ym\u0022:36,\u00225ymu\u0022:7.2,\u002260m\u0022:451,\u002260mu\u0022:7.516666666666667,\u002260y\u0022:4320,\u002260ym\u0022:360,\u002260ymu\u0022:6,\u00226m\u0022:54,\u00226mu\u0022:9,\u00226y\u0022:504,\u00226ym\u0022:42,\u00226ymu\u0022:7,\u002275m\u0022:563,\u002275mu\u0022:7.506666666666667,\u002275y\u0022:5400,\u002275ym\u0022:450,\u002275ymu\u0022:6,\u00227m\u0022:62,\u00227mu\u0022:8.857142857142858,\u00227y\u0022:576,\u00227ym\u0022:48,\u00227ymu\u0022:6.857142857142857,\u00228m\u0022:70,\u00228mu\u0022:8.75,\u00228y\u0022:648,\u00228ym\u0022:54,\u00228ymu\u0022:6.75,\u00229m\u0022:78,\u00229mu\u0022:8.666666666666666,\u00229y\u0022:720,\u00229ym\u0022:60,\u00229ymu\u0022:6.666666666666667,\u0022b100m\u0022:1125,\u0022b100mu\u0022:11.25,\u0022b100y\u0022:10800,\u0022b100ym\u0022:900,\u0022b100ymu\u0022:9,\u0022b10m\u0022:132,\u0022b10mu\u0022:13.2,\u0022b10y\u0022:1224,\u0022b10ym\u0022:102,\u0022b10ymu\u0022:10.2,\u0022b150m\u0022:1688,\u0022b150mu\u0022:11.253333333333334,\u0022b150y\u0022:16200,\u0022b150ym\u0022:1350,\u0022b150ymu\u0022:9,\u0022b15m\u0022:190,\u0022b15mu\u0022:12.666666666666666,\u0022b15y\u0022:1776,\u0022b15ym\u0022:148,\u0022b15ymu\u0022:9.866666666666667,\u0022b1m\u0022:15,\u0022b1mu\u0022:15,\u0022b1y\u0022:144,\u0022b1ym\u0022:12,\u0022b1ymu\u0022:12,\u0022b200m\u0022:2250,\u0022b200mu\u0022:11.25,\u0022b200y\u0022:21600,\u0022b200ym\u0022:1800,\u0022b200ymu\u0022:9,\u0022b20m\u0022:248,\u0022b20mu\u0022:12.4,\u0022b20y\u0022:2328,\u0022b20ym\u0022:194,\u0022b20ymu\u0022:9.7,\u0022b25m\u0022:306,\u0022b25mu\u0022:12.24,\u0022b25y\u0022:2880,\u0022b25ym\u0022:240,\u0022b25ymu\u0022:9.6,\u0022b2m\u0022:28,\u0022b2mu\u0022:14,\u0022b2y\u0022:264,\u0022b2ym\u0022:22,\u0022b2ymu\u0022:11,\u0022b30m\u0022:364,\u0022b30mu\u0022:12.133333333333333,\u0022b30y\u0022:3432,\u0022b30ym\u0022:286,\u0022b30ymu\u0022:9.533333333333333,\u0022b3m\u0022:41,\u0022b3mu\u0022:13.666666666666666,\u0022b3y\u0022:384,\u0022b3ym\u0022:32,\u0022b3ymu\u0022:10.666666666666666,\u0022b40m\u0022:470,\u0022b40mu\u0022:11.75,\u0022b40y\u0022:4440,\u0022b40ym\u0022:370,\u0022b40ymu\u0022:9.25,\u0022b4m\u0022:54,\u0022b4mu\u0022:13.5,\u0022b4y\u0022:504,\u0022b4ym\u0022:42,\u0022b4ymu\u0022:10.5,\u0022b50m\u0022:564,\u0022b50mu\u0022:11.28,\u0022b50y\u0022:5400,\u0022b50ym\u0022:450,\u0022b50ymu\u0022:9,\u0022b5m\u0022:67,\u0022b5mu\u0022:13.4,\u0022b5y\u0022:624,\u0022b5ym\u0022:52,\u0022b5ymu\u0022:10.4,\u0022b60m\u0022:677,\u0022b60mu\u0022:11.283333333333333,\u0022b60y\u0022:6480,\u0022b60ym\u0022:540,\u0022b60ymu\u0022:9,\u0022b6m\u0022:80,\u0022b6mu\u0022:13.333333333333334,\u0022b6y\u0022:744,\u0022b6ym\u0022:62,\u0022b6ymu\u0022:10.333333333333334,\u0022b75m\u0022:845,\u0022b75mu\u0022:11.266666666666667,\u0022b75y\u0022:8100,\u0022b75ym\u0022:675,\u0022b75ymu\u0022:9,\u0022b7m\u0022:93,\u0022b7mu\u0022:13.285714285714286,\u0022b7y\u0022:864,\u0022b7ym\u0022:72,\u0022b7ymu\u0022:10.285714285714286,\u0022b8m\u0022:106,\u0022b8mu\u0022:13.25,\u0022b8y\u0022:984,\u0022b8ym\u0022:82,\u0022b8ymu\u0022:10.25,\u0022b9m\u0022:119,\u0022b9mu\u0022:13.222222222222221,\u0022b9y\u0022:1104,\u0022b9ym\u0022:92,\u0022b9ymu\u0022:10.222222222222221,\u0022symbol_left\u0022:\u0022$\u0022}}}");
   
-  var promoFrom = "2024-09-13T10:05:25Z";
-  var promoTo = "2024-10-12T23:59:59Z";
-  var promoCode = "10steps-2024";
-  var isMonthlyPromo = "false".toLowerCase() === 'true';
+  var promoFrom = "2024-11-26T01:05:25Z";
+  var promoTo = "2024-12-03T23:59:59Z";
+  var promoCode = "BF24";
+  var isMonthlyPromo = "true".toLowerCase() === 'true';
   var isTrimonthlyPromo = "false".toLowerCase() === 'true';
-  var isYearlyPromo = "false".toLowerCase() === 'true';
+  var isYearlyPromo = "true".toLowerCase() === 'true';
   var initialIsMonthlySelected = "false".toLowerCase() === 'true';
 </script>
   </div>
@@ -4690,6 +4760,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -4699,7 +4770,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--big signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -4728,9 +4799,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -4767,9 +4839,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -4877,6 +4950,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -4888,6 +4962,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -4976,6 +5051,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -4987,6 +5063,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -5079,6 +5156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -5090,6 +5168,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -5178,6 +5257,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -5189,6 +5269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -5277,6 +5358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -5288,6 +5370,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -5376,6 +5459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--center mobile-only"
   
   
@@ -5385,7 +5469,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--center">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Sign up for free
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -5414,9 +5498,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/signup"
   id=""
-  class="button bg-orange  button--full mobile-only "
+  class="button bg-orange text-white  button--full mobile-only "
   
   data-automatic-button="link"
   
@@ -5453,9 +5538,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href=""
   id=""
-  class="button bg-orange "
+  class="button bg-orange text-white "
   data-payments-button="premium"
   
   
@@ -5564,6 +5650,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <div class="signup-buttons__container signup-buttons__container--left "
   data-has-3rdparty
   
@@ -5573,7 +5660,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <form class="signup-teams-form" data-success-url="https://nozbe.com/thank-you">
     <div class="signup-teams-form__row--small signup-teams-form__row--left">
       <input type="email" name="email" class="signup-teams-form__input" placeholder="your@email.com" required />
-      <button type="submit" class="signup-teams-form__button bg-purple ">
+      <button type="submit" class="signup-teams-form__button bg-purple text-white ">
         Yes! I want to sign up now.
         <span class="spinner spinner--white spinner--inline hidden"></span>
       </button>
@@ -5638,6 +5725,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     <div class="nt-column__image-container nt-column--normal nt-column--right image-columns__image-column">
       
+      
 
       
       
@@ -5649,6 +5737,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       
       
+
 
 
 
@@ -5728,7 +5817,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="nt-footer__copyrights-title">
               Nozbe
             </div>
-            Copyright © Nozbe 2007-2024
+            Copyright © Nozbe 2007-2025
           </div>
 
           
@@ -5910,9 +5999,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/download/mac"
   id=""
-  class="button bg-black  hidden  download-button--macos "
+  class="button bg-black text-white  hidden  download-button--macos "
   data-download-current="macos"
   
   
@@ -5930,9 +6020,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 
+
 <a href="https://nozbe.com/download/windows"
   id=""
-  class="button bg-black  hidden  "
+  class="button bg-black text-white  hidden  "
   data-download-current="windows"
   
   
@@ -5949,9 +6040,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
 
+
 <a href="https://nozbe.app"
   id=""
-  class="button bg-black "
+  class="button bg-black text-white "
   
   
   
@@ -5975,6 +6067,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       
+        
+        
+        
+
         
         
         
@@ -6033,11 +6129,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </ul>
 
           <ul class="nt-footer__column">
-            <img src="https://files.nozbe.com/images/pages-teams/Nozbe_Personal_logo_main.svg" class="nt-footer__np-logo" />
-            <li><a href="https://nozbe.com/personal">Nozbe Personal Home</a></li>
+            <img src="https://files.nozbe.com/images/pages-teams/Nozbe_Classic_logo.svg" class="nt-footer__np-logo" />
+            <li><a href="https://app.nozbe.com/#login">Nozbe Classic: Log in</a></li>
             <li><a href="https://nozbe.com/compare">Compare products</a></li>
-            <li><a href="https://help.nozbe.com">Nozbe Personal: Help Page</a></li>
-            <li><a href="https://nozbe.com/personal/terms">Nozbe Personal: Terms</a></li>
+            <li><a href="https://help.nozbe.com">Nozbe Classic: Help Page</a></li>
+            <li><a href="https://nozbe.com/personal/terms">Nozbe Classic: Terms</a></li>
           </ul>
         </div>
       
@@ -6091,7 +6187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <input type="text" name="title" placeholder="Subject" required />
         <textarea name="body" placeholder="Your message..." required></textarea>
 
-        <button type="submit" class="button button--primary bg-purple">
+        <button type="submit" class="button button--primary text-white bg-purple">
           Send
           <span class="spinner spinner--white spinner--inline hidden"></span>
         </button>
@@ -6134,6 +6230,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
   <picture>
     <source type="image/webp"
       srcset="https://files.nozbe.com/images/pages-teams/popup-nozbe-10-steps-to-productivity.webp"
@@ -6153,8 +6250,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
         
 
+        <script>
+          var campaign_token = 'fS1LU';
+        </script>
+
         <form action="https://nozbe.info/add_subscriber.html" method="post">
-          <input type="hidden" value="fS1Ym" name="campaign_token" />
+          <input type="hidden" value="" name="campaign_token" />
           <input type="hidden" value="https://nozbe.com/thank-you-10steps" name="thankyou_url" />
           <input class="popup-modal__input" type="email" name="email" placeholder="jane.smith@domain.com" />
           <button class="popup-modal__button">I want a free e-book</button>
@@ -6192,7 +6293,554 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   
   
+  
+  
+  
   <!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

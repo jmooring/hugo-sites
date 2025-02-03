@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 19:49:39 GMT
-Etag: W/"5bdf-6269601fb66d4"
+Date: Mon, 03 Feb 2025 20:30:27 GMT
+Etag: W/"5b1e-62c56c20bb14e"
 Host-Header: 8441280b0c35cbc1147f8ba998a563a7
-Last-Modified: Sun, 10 Nov 2024 21:53:00 GMT
+Last-Modified: Thu, 23 Jan 2025 02:56:34 GMT
 Server: nginx
 Vary: Accept-Encoding
-X-Etags-1: W/"5bdf-6269601fb66d4"
-X-Etags-2: W/"5bdf-6269601fb66d4"
+X-Etags-1: W/"5b1e-62c56c20bb14e"
+X-Etags-2: W/"5b1e-62c56c20bb14e"
 X-Httpd: 1
 X-Proxy-Cache: HIT
 
@@ -15,7 +15,7 @@ X-Proxy-Cache: HIT
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.7.13">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -43,14 +43,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-330a040b22e41d825bd9b7e8028926d6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7004d89d8b589006a18adcf05c2d4273.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
@@ -98,9 +99,6 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Rob J Hyndman">
 <meta property="og:site_name" content="Rob J Hyndman">
-<meta name="twitter:title" content="Rob J Hyndman">
-<meta name="twitter:creator" content="@robjhyndman">
-<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -165,17 +163,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-entity">
     <img src="img/RJH_AAS_small.png" class="about-image
   rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block"></header>
     <div class="about-links">
   <a href="https://scholar.google.com/citations?user=vamErfkAAAAJ" class="about-link" rel="" target="">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i></span>
   </a>
-  <a href="https://bsky.app/profile/robjhyndman.bsky.social" class="about-link" rel="" target="">
+  <a href="https://bsky.app/profile/robjhyndman.com" class="about-link" rel="" target="">
      <span class="about-link-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span>
   </a>
   <a href="https://github.com/robjhyndman" class="about-link" rel="" target="">
      <span class="about-link-text"><i class="fa-brands fa-github" aria-label="github"></i></span>
   </a>
-  <a href="https://github.com/robjhyndman/CV/raw/master/RobHyndmanCV.pdf" class="about-link" rel="" target="">
+  <a href="https://cdn.jsdelivr.net/gh/robjhyndman/CV@main/RobHyndmanCV.pdf" class="about-link" rel="" target="">
      <span class="about-link-text"><i class="ai  ai-cv"></i></span>
   </a>
   <a href="mailto:Rob.Hyndman@monash.edu" class="about-link" rel="" target="">
@@ -267,8 +266,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -379,7 +376,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

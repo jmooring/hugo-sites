@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 76175
+Age: 33277
 Cache-Control: public,max-age=0,must-revalidate
 Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Nov 2024 19:49:42 GMT
-Etag: "434d3df297043aa89248b0b59da14a0a-ssl-df"
+Date: Mon, 03 Feb 2025 20:30:30 GMT
+Etag: "80b04afd2e34e855c0892383648a46b4-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "434d3df297043aa89248b0b59da14a0a-ssl-df"
-X-Etags-2: "434d3df297043aa89248b0b59da14a0a-ssl-df"
-X-Nf-Request-Id: 01JD0D5RC1BCFGHBZ2S31V4KCJ
+X-Etags-1: "80b04afd2e34e855c0892383648a46b4-ssl-df"
+X-Etags-2: "80b04afd2e34e855c0892383648a46b4-ssl-df"
+X-Nf-Request-Id: 01JK6R3TBQH8HCEGF847NQC67S
 
 <!doctype html><html lang=en-us>
 <head>
@@ -38,7 +38,7 @@ X-Nf-Request-Id: 01JD0D5RC1BCFGHBZ2S31V4KCJ
 <meta property="og:locale" content="en_US">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSWMV22VTQ"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-YSWMV22VTQ",{anonymize_ip:!1})}</script>
-<title>KEDA | Kubernetes Event-driven Autoscaling</title><link rel=stylesheet href=/css/style.e3594b512e8aad870e30ce4e129505900ad920f6f7cbabbefd180c4065b27ac5.css integrity="sha256-41lLUS6KrYcOMM5OEpUFkArZIPb3y6u+/RgMQGWyesU=">
+<title>KEDA | Kubernetes Event-driven Autoscaling</title><link rel=stylesheet href=/css/style.69a433ad3d5f72be17a3de5d1a0d0c525d7e6ae47f51118c314a14aac2097171.css integrity="sha256-aaQzrT1fcr4Xo95dGg0MUl1+auR/URGMMUoUqsIJcXE=">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@docsearch/css@3>
 <link rel="shortcut icon" href=/favicon.png>
 </head><body class="is-page has-navbar-fixed-top">
@@ -62,7 +62,119 @@ X-Nf-Request-Id: 01JD0D5RC1BCFGHBZ2S31V4KCJ
 <span class="icon is-small is-left">
 <i class="fas fa-search"></i>
 </span>
-</p></div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+</p></div><div class="docs-menu--mobile navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/>
+<span>
+Docs
+</span>
+<span class=icon>
+<i class="fas fa-md fa-caret-down"></i>
+</span>
+</a>
+<div class="navbar-dropdown is-radiusless">
+<div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/deploy>
+<span>
+Deploying KEDA
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts>
+<span>
+Concepts
+</span>
+<span class=icon>
+<i class="fas fa-md fa-caret-down"></i>
+</span>
+</a>
+<div class="navbar-dropdown is-radiusless">
+<div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/scaling-deployments/>
+<span>
+Scaling Deployments, StatefulSets & Custom Resources
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/scaling-jobs/>
+<span>
+Scaling Jobs
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/authentication/>
+<span>
+Authentication
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/external-scalers/>
+<span>
+External Scalers
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/admission-webhooks/>
+<span>
+Admission Webhooks
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/troubleshooting/>
+<span>
+Troubleshooting
+</span>
+</a>
+</div></div></div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/concepts/#architecture>
+<span>
+Architecture
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/scalers>
+<span>
+Scalers
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/operate/>
+<span>
+Operate
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/integrations/>
+<span>
+Integrations
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/authentication-providers>
+<span>
+Auth providers
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/migration/>
+<span>
+Migration Guide
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/reference/faq/>
+<span>
+FAQ
+</span>
+</a>
+</div><div class="navbar-item is-size-5-desktop has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless" href=/docs/2.16/troubleshooting/>
+<span>
+Troubleshooting Guide
+</span>
+</a>
+</div></div></div></div></div><div class="docs-menu--desktop navbar-item is-size-5-desktop has-dropdown is-hoverable">
 <a class="navbar-link is-arrowless" href=/docs/2.16>
 <span>
 Docs
@@ -77,7 +189,7 @@ Docs
 Deploying KEDA
 </span>
 </a>
-<a class=navbar-item href=/docs/2.16/concepts/>
+<a class=navbar-item href=/docs/2.16/concepts>
 <span>
 Concepts
 </span>
@@ -119,7 +231,7 @@ FAQ
 </a>
 <a class=navbar-item href=/docs/2.16/troubleshooting/>
 <span>
-Troubleshooting
+Troubleshooting Guide
 </span>
 </a>
 </div></div><a class="navbar-item is-size-5-desktop" href=/blog>
@@ -185,6 +297,11 @@ Project
 </span>
 </a>
 <div class="navbar-dropdown is-radiusless">
+<a class=navbar-item href=/support/>
+<span>
+Support
+</span>
+</a>
 <a class=navbar-item href=https://github.com/cncf/foundation/blob/master/code-of-conduct.md target=_blank>
 <span>
 Code of Conduct
@@ -270,9 +387,9 @@ Merch
 <i class="fas fa-xs fa-external-link-alt"></i>
 </span>
 </a>
-</div></div><a class="navbar-item is-size-5-desktop" href=/support/>
+</div></div><a class="navbar-item is-size-5-desktop" href=/enterprise/>
 <span>
-Support
+Enterprise
 </span>
 </a>
 <div class=navbar-item>
@@ -1791,9 +1908,9 @@ Project
 </span>
 </a>
 </p><p class=is-size-4>
-<a href=/support/ class="has-text-white has-text-weight-semibold">
+<a href=/enterprise/ class="has-text-white has-text-weight-semibold">
 <span>
-Support
+Enterprise
 </span>
 </a>
 </p></div><div class=column>
@@ -1824,11 +1941,11 @@ Slack
 </a>
 </div></div></div><div class=has-text-weight-medium>
 <p>
-&copy; KEDA Authors 2014-2024 | Documentation Distributed under <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY-4.0</a>
+&copy; KEDA Authors 2014-2025 | Documentation Distributed under <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY-4.0</a>
 </p><img referrerpolicy=no-referrer-when-downgrade src="https://static.scarf.sh/a.png?x-pxid=46ce89e3-f6ce-454e-9740-490aaee3da5e">
 <br>
 <p>
-&copy; 2024 <a href=https://linuxfoundation.org target=_blank>The Linux Foundation</a>. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=https://linuxfoundation.org/trademark-usage target=_blank>Trademark Usage</a> page.
+&copy; 2025 <a href=https://linuxfoundation.org target=_blank>The Linux Foundation</a>. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=https://linuxfoundation.org/trademark-usage target=_blank>Trademark Usage</a> page.
 </p></div></div></footer><script src=https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.2.1/dist/alpine.js defer></script>
 <script>const navbarHeight=document.getElementsByClassName("navbar")[0].offsetHeight,extraPadding=15,navbarOffset=-1*(navbarHeight+extraPadding);var shiftWindow=function(){scrollBy(0,navbarOffset)};window.addEventListener("hashchange",shiftWindow),window.addEventListener("pageshow",shiftWindow);function load(){window.location.hash&&shiftWindow()}</script>
 <script type=text/javascript src=https://cdn.jsdelivr.net/npm/@docsearch/js@3></script>

@@ -1,24 +1,24 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 3445
+Age: 1376
 Cache-Control: max-age=3600
-Content-Security-Policy: frame-src 'self'
+Content-Security-Policy: default-src 'self' data: 'unsafe-inline' https://www.apachecon.com/ https://www.communityovercode.org/ https://analytics.apache.org/; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://analytics.apache.org/; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; img-src 'self' https://www.apache.org/;, frame-src 'self'
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 19:49:34 GMT
-Etag: "3b2d-6273020d3fccd-gzip"
-Expires: Mon, 18 Nov 2024 18:51:51 GMT
-Last-Modified: Mon, 18 Nov 2024 13:45:22 GMT
+Date: Mon, 03 Feb 2025 20:30:21 GMT
+Etag: "3aba-62b45ea78fe28-gzip"
+Expires: Mon, 03 Feb 2025 20:07:13 GMT
+Last-Modified: Thu, 09 Jan 2025 13:25:46 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 Vary: Accept-Encoding
 Via: 1.1 varnish, 1.1 varnish
 X-Cache: HIT, HIT
-X-Cache-Hits: 18, 0
-X-Etags-1: "3b2d-6273020d3fccd-gzip"
-X-Etags-2: "3b2d-6273020d3fccd-gzip"
-X-Served-By: cache-hel1410023-HEL, cache-bfi-kbfi7400103-BFI
-X-Timer: S1731959375.707440,VS0,VE1
+X-Cache-Hits: 12, 0
+X-Etags-1: "3aba-62b45ea78fe28-gzip"
+X-Etags-2: "3aba-62b45ea78fe28-gzip"
+X-Served-By: cache-hel1410023-HEL, cache-bfi-krnt7300033-BFI
+X-Timer: S1738614622.769052,VS0,VE154
 
 <!DOCTYPE html>
 
@@ -130,17 +130,16 @@ X-Timer: S1731959375.707440,VS0,VE1
             Contributing
           </a>
           <div class="dropdown-menu" aria-labelledby="contribDropdown">
-            <a class="dropdown-item" href="/contributors/">About The Apache Software Foundation</a>
             <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
             <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
-            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item text-uppercase disabled" href="#">Committers and PMCs</a>
-            <a class="dropdown-item" href="/committers/">Committer Tips</a>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
             <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
-            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
             <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
-            <a class="dropdown-item" href="/pmc/">PMC Tips</a>
             <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
           </div>
         </li>
@@ -319,7 +318,7 @@ community health.</p>
     </div>
 
     <div class="footer-copyright text-center py-3">
-      <em>Copyright &copy; 2024, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <em>Copyright &copy; 2025, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
       <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
     </div>
   </footer>

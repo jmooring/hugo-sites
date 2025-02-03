@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 23018
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Nov 2024 19:49:37 GMT
-Etag: "062a0a5132d49025436b64c1e897cfeb-ssl-df"
+Date: Mon, 03 Feb 2025 20:30:26 GMT
+Etag: "7e7f9fa69ad2553645a1b6d3c2116716-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "062a0a5132d49025436b64c1e897cfeb-ssl-df"
-X-Etags-2: "062a0a5132d49025436b64c1e897cfeb-ssl-df"
-X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
+X-Etags-1: "7e7f9fa69ad2553645a1b6d3c2116716-ssl-df"
+X-Etags-2: "7e7f9fa69ad2553645a1b6d3c2116716-ssl-df"
+X-Nf-Request-Id: 01JK6R3NWTQ03QMXFH3T1NSKK8
 
 <!DOCTYPE html>
 <html>
@@ -1214,7 +1214,7 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
           <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-sm "
              href="/products/mldm/latest/manage/backup-restore/cluster/"
              >
-            <span>Backups</span>
+            <span>Snapshots</span>
             
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="3" role="treeitem">
         <div class="flex items-center py-1 px-2">
@@ -2814,6 +2814,13 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
         <div class="flex items-center py-1 px-2">
           <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
+             href="/products/mldm/latest/run-commands/pachctl_create_snapshot/"
+             >
+            <span>pachctl create snapshot</span>
+            
+          </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
+        <div class="flex items-center py-1 px-2">
+          <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
              href="/products/mldm/latest/run-commands/pachctl_debug/"
              >
             <span>pachctl debug</span>
@@ -2957,6 +2964,13 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
              href="/products/mldm/latest/run-commands/pachctl_delete_secret/"
              >
             <span>pachctl delete secret</span>
+            
+          </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
+        <div class="flex items-center py-1 px-2">
+          <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
+             href="/products/mldm/latest/run-commands/pachctl_delete_snapshot/"
+             >
+            <span>pachctl delete snapshot</span>
             
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
         <div class="flex items-center py-1 px-2">
@@ -3332,6 +3346,13 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
         <div class="flex items-center py-1 px-2">
           <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
+             href="/products/mldm/latest/run-commands/pachctl_inspect_snapshot/"
+             >
+            <span>pachctl inspect snapshot</span>
+            
+          </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
+        <div class="flex items-center py-1 px-2">
+          <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
              href="/products/mldm/latest/run-commands/pachctl_inspect_transaction/"
              >
             <span>pachctl inspect transaction</span>
@@ -3472,6 +3493,13 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
         <div class="flex items-center py-1 px-2">
           <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
+             href="/products/mldm/latest/run-commands/pachctl_list_snapshot/"
+             >
+            <span>pachctl list snapshot</span>
+            
+          </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
+        <div class="flex items-center py-1 px-2">
+          <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
              href="/products/mldm/latest/run-commands/pachctl_list_transaction/"
              >
             <span>pachctl list transaction</span>
@@ -3538,6 +3566,13 @@ X-Nf-Request-Id: 01JD0D5KMBARYMDVJWK7NJZRQW
              href="/products/mldm/latest/run-commands/pachctl_restart/"
              >
             <span>pachctl restart</span>
+            
+          </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
+        <div class="flex items-center py-1 px-2">
+          <a class="flex-grow flex items-center rounded hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:text-brand dark:text-white dark:hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand transition duration-300 text-md "
+             href="/products/mldm/latest/run-commands/pachctl_restart_cluster/"
+             >
+            <span>pachctl restart cluster</span>
             
           </a></div><ul class="pl-4 list-none" role="tree"></ul></li><li class="flex flex-col mb-2" data-expanded="" data-level="2" role="treeitem">
         <div class="flex items-center py-1 px-2">

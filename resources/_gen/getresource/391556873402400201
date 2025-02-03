@@ -2,32 +2,33 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Connection: keep-alive
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 19:49:48 GMT
-Etag: W/"667ea427-928e"
-Last-Modified: Fri, 28 Jun 2024 11:53:11 GMT
+Date: Mon, 03 Feb 2025 20:30:36 GMT
+Etag: W/"6787a09b-99a8"
+Last-Modified: Wed, 15 Jan 2025 11:48:43 GMT
 Server: nginx/1.18.0 (Ubuntu)
-X-Etags-1: W/"667ea427-928e"
-X-Etags-2: W/"667ea427-928e"
+Vary: Accept-Encoding
+X-Etags-1: W/"6787a09b-99a8"
+X-Etags-2: W/"6787a09b-99a8"
 
-928e
+99a8
 <!DOCTYPE html>
 <html lang="en-us">
 
 <!-- PatchXR - Web design / development by 1XN.org -->
 
 <head>
-  <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+	<meta name="generator" content="Hugo 0.119.0">
   <meta charset="utf-8">
   
   <title>PatchXR - Sound of the Metaverse</title>
   
+  <meta name="description" content="Jam, create, connect. Solo or multiplayer, PatchWorld is the platform for audio/visual expression in VR/XR. See you there! 🎶🍓🕶️🚀🌐">
 
   <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Jam, create, connect. Solo or multiplayer, PatchWorld is the platform for audio/visual expression in VR/XR. See you there! 🎶🍓🕶️🚀🌐">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   
   <meta name="author" content="PatchXR">
-  <meta name="generator" content="Hugo 0.119.0">
 
   <!-- plugins -->
   
@@ -46,6 +47,49 @@ X-Etags-2: W/"667ea427-928e"
   <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="https://patchxr.com/scss/style.min.css" media="screen">
+
+  
+    <link rel="dns-prefetch" href="https://vjs.zencdn.net">
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+    <style>
+
+      .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        -webkit-transition: 2s all linear;
+        -moz-transition: 2s all linear;
+        -o-transition: 2s all linear;
+        transition: 2s all linear;
+        -webkit-filter: blur(20px);
+        -moz-filter: blur(20px);
+        -o-filter: blur(20px);
+        -ms-filter: blur(20px);
+        filter: blur(20px);
+        transform: scale(1.1);
+      }
+
+      .video-bg.load-complete,
+      .video-bg.poster-loaded {
+          filter: blur(0);
+          transform: scale(1);
+      }
+
+      .foreground {
+          position: relative;
+          line-height: 200px;
+          height: 200px;
+          box-sizing: border-box;
+          margin-top: 40vh;
+          transform: translateY(-100px);
+      }
+
+    </style>
+  
 
   <!--Favicon-->
 
@@ -67,9 +111,8 @@ X-Etags-2: W/"667ea427-928e"
   <meta name="msapplication-TileImage" content="/images/appicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#000000">
 
-  <link rel="dns-prefetch" href="https://patchxr.com">
-  <link rel="preconnect" href="https://patchxr.com">
-  <link rel="canonical" href="https://patchxr.com"/>
+
+  <link rel="canonical" href="https://patchxr.com/"/>
    <script type="application/ld+json">
     { "@context": "https://schema.org",
     "@type": "Organization",
@@ -101,7 +144,7 @@ X-Etags-2: W/"667ea427-928e"
     "addressLocality": "Volketswil",
     "addressRegion": "Zürich",
     "postalCode": "8604",
-    "addressCountry": "Switzerland"
+    "addressCountry": "CH"
     },
     "contactPoint": {
     "@type": "ContactPoint",
@@ -118,6 +161,7 @@ X-Etags-2: W/"667ea427-928e"
     "https://www.twitch.tv/patchxr"
     ]}
 </script>
+
 
    <!-- ENTERING partial seo-og.html (open graph) -->
 
@@ -162,77 +206,34 @@ X-Etags-2: W/"667ea427-928e"
 <!-- LEAVING partial seo-twittercard.html -->
 
 
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171710509-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171710509-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    gtag('config', 'UA-171710509-1');
+  </script>
+  <style>
 
-  gtag('config', 'UA-171710509-1');
-</script>
-<style>
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        box-sizing: border-box
+    }
 
+    .page {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
 
-  * {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      outline: none;
-      box-sizing: border-box
-  }
+        position: relative;
+    }
 
-  .page {
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-
-      position: relative;
-  }
-
-  .video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    -webkit-transition: 2s all linear;
-    -moz-transition: 2s all linear;
-    -o-transition: 2s all linear;
-    transition: 2s all linear;
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
-    transform: scale(1.1);
-  }
-
-  .foreground {
-      position: relative;
-
-  }
-
-  .video-bg.load-complete,
-  .video-bg.poster-loaded {
-      filter: blur(0);
-      transform: scale(1);
-  }
-
-  .foreground {
-
-
-      line-height: 200px;
-      height: 200px;
-      box-sizing: border-box;
-      margin-top: 40vh;
-      transform: translateY(-100px);
-  }
-
-
-</style>
+  </style>
 
 </head>
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
@@ -246,7 +247,11 @@ X-Etags-2: W/"667ea427-928e"
 <nav id="navbar" class="navbar main-nav navbar-expand-lg p-0 navbar-fixed-top ">
   <div class="container">
     <a class="navbar-brand" href="https://patchxr.com">
-      <img src="https://patchxr.com/images/logo-alt.png" alt="PatchXR">
+      <picture>
+        <source type="image/webp" srcset="https://patchxr.com/images/logo-alt.webp">
+        <source type="image/png" srcset="https://patchxr.com/images/logo-alt.png">
+        <img class="img-fluid" width="300" height="71" src="https://patchxr.com/images/logo-alt.png" alt="PatchXR">
+      </picture>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -259,47 +264,57 @@ X-Etags-2: W/"667ea427-928e"
         
         <li class="nav nav-item">
           <a class="nav-link" href="https://patchxr.com/about/">
-             <span>
-               About
-             </span>
-           </a>
+            <span >About</span>
+          </a>
         </li>
         
         
         
         <li class="nav nav-item">
           <a class="nav-link" href="https://patchxr.com/blog/">
-             <span>
-               News
-             </span>
-           </a>
+            <span >News</span>
+          </a>
         </li>
         
         
         
         <li class="nav nav-item">
           <a class="nav-link" href="https://patchxr.com/contact/">
-             <span>
-               Contact
-             </span>
-           </a>
+            <span >Contact</span>
+          </a>
         </li>
         
         
         
         <li class="nav nav-item">
           <a class="nav-link" href="https://portal.patchxr.io/">
-             <span>
-               Portal
-             </span>
-           </a>
+            <span >Portal</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown dropdown-slide download-nav">
+          <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Download ↓
+          </a>
+          <div class="dropdown-menu text-left">
+            
+            <a class="dropdown-item" href="https://installer.launcher.xsolla.com/xlauncher-builds/xsolla-launcher-update/10018/bin/web_installer.exe">PC desktop BETA</a>
+            
+            <a class="dropdown-item" href="https://www.picoxr.com/global/games/patchworld">PicoXR</a>
+            
+            <a class="dropdown-item" href="https://www.viveport.com/apps/e26fdc87-5b12-424e-b880-2bc3051ad98c?hl=en-US">Viveport</a>
+            
+            <a class="dropdown-item" href="https://www.meta.com/en-gb/experiences/patchworld-multiplayer-music-maker/3715150718552632">Meta Quest App</a>
+            
+          </div>
         </li>
         
         
         
         <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+          <a class="nav-link " href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Community ↓
           </a>
           <div class="dropdown-menu text-left">
@@ -307,8 +322,6 @@ X-Etags-2: W/"667ea427-928e"
             <a class="dropdown-item" href="/community">Gallery</a>
             
             <a class="dropdown-item" href="https://discord.gg/gwMVhKWxbr">Discord</a>
-            
-            <a class="dropdown-item" href="https://forum.patchxr.com/">Forum</a>
             
             <a class="dropdown-item" href="/faq">FAQ</a>
             
@@ -320,6 +333,7 @@ X-Etags-2: W/"667ea427-928e"
     </div>
   </div>
 </nav>
+
 
 
 <!-- Patchworld video banner -->
@@ -340,380 +354,283 @@ X-Etags-2: W/"667ea427-928e"
 		<div class="row text-left">
 			<div class="col-lg-12">
 				<h1 class="hidden">PatchWorld</h1>
-				<img src="images/PatchWorld-banner.png" class="img-fluid" style="width:100%" data-aos="fade-in" alt="PatchXR - Sound of the Metaverse">
-				<h1 class="text-center cyan slogan"></h1>
-					<a data-aos="fade-up" href="https://www.oculus.com/experiences/quest/3715150718552632/?utm_source=homepage" target="_blank" class="btn btn-main-md" onclick="ga('send',{hitType: 'event', eventCategory: 'Quest Button', eventAction: 'click'});">Get the app </a>					
+				<picture>
+					<source type="image/webp" srcset="/images/PatchWorld-banner.webp, /images/PatchWorld-banner-2x.webp 2x">
+					<source type="image/png" srcset="/images/PatchWorld-banner.png, /images/PatchWorld-banner-2x.png 2x">
+					<img width="1000" height="202" class="img-fluid" src="/images/PatchWorld-banner.png" data-aos="fade-in" alt="PatchXR - Sound of the Metaverse">
+				</picture>
+
+				<h2 class="text-center slogan">Explore. Create. Play.</h2>
+				<div class="text-center">
+						<a data-aos="fade-up" href="https://www.oculus.com/experiences/quest/3715150718552632/?utm_source=homepage" target="_blank" class="btn btn-main-md" onclick="ga('send',{hitType: 'event', eventCategory: 'Quest Button', eventAction: 'click'});">Get the app</a>
+				</div>
+
 			</div>
-		</div>		
+		</div>
   </div>
   </div>
 	
 </section>
 
+<!-- introtext -->
+
+
+	<section class="introtext section mb-5">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12"  data-aos="fade-in">
+					<p class="feature-text pt-0">Discover the ultimate mixed-reality music playground with PatchWorld! <br><br> Explore boundless worlds, build your dream music studio, and create with friends globally. <br><br> Play, connect, and let your imagination run wild!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- End of introtext -->
+
+
+<!-- Awards -->
+
+  
+     <section class="section cyan py-3" style="background-color: black;">
+    	<div class="container">
+    		<div class="row">
+    			
+         			<div class="col-12 col-sm-6 col-lg-3 text-center">
+         				<picture>
+         					<source type="image/webp" srcset="/images/awards/auggie-awards.webp, /images/awards/auggie-awards-2x.webp 2x">
+         					<source type="image/png" srcset="/images/awards/auggie-awards.png, /images/awards/auggie-awards-2x.png 2x">
+         					<img width="160" height="90" class="img-fluid mb-3" src="/images/awards/auggie-awards.png" alt="Auggie Awards" loading="lazy">
+         				</picture>
+         				<p>Best XR Startup to Watch</p>
+         			</div>
+                
+         			<div class="col-12 col-sm-6 col-lg-3 text-center">
+         				<picture>
+         					<source type="image/webp" srcset="/images/awards/aurea-awards.webp, /images/awards/aurea-awards-2x.webp 2x">
+         					<source type="image/png" srcset="/images/awards/aurea-awards.png, /images/awards/aurea-awards-2x.png 2x">
+         					<img width="160" height="90" class="img-fluid mb-3" src="/images/awards/aurea-awards.png" alt="Aurea Awards" loading="lazy">
+         				</picture>
+         				<p>Creative Categorie Winner</p>
+         			</div>
+                
+         			<div class="col-12 col-sm-6 col-lg-3 text-center">
+         				<picture>
+         					<source type="image/webp" srcset="/images/awards/abbey-road-red.webp, /images/awards/abbey-road-red-2x.webp 2x">
+         					<source type="image/png" srcset="/images/awards/abbey-road-red.png, /images/awards/abbey-road-red-2x.png 2x">
+         					<img width="160" height="90" class="img-fluid mb-3" src="/images/awards/abbey-road-red.png" alt="Abbey Road" loading="lazy">
+         				</picture>
+         				<p>Music Tech Start-up to Watch</p>
+         			</div>
+                
+         			<div class="col-12 col-sm-6 col-lg-3 text-center">
+         				<picture>
+         					<source type="image/webp" srcset="/images/awards/fast-company.webp, /images/awards/fast-company-2x.webp 2x">
+         					<source type="image/png" srcset="/images/awards/fast-company.png, /images/awards/fast-company-2x.png 2x">
+         					<img width="160" height="90" class="img-fluid mb-3" src="/images/awards/fast-company.png" alt="Fast Company" loading="lazy">
+         				</picture>
+         				<p>Most Innovative VR/AR Companies</p>
+         			</div>
+                
+    		</div>
+    	</div>
+    </section> 
+  
+
+
+<!-- End of Awards -->
+
+
+<!-- Product presentation -->
+ <section class="section px-0 py-0" style="line-height:0">
+	<video width="100%" class="video-fluid z-depth-1" poster="/images/videopreview.jpg" controls >
+		<source src="/videos/Patchworld_Announcement.mp4" type="video/mp4" />
+	</video>
+</section> 
+<!-- End of Product presentation --><!-- Download CTA banner -->
+
+	<section class="section mb-5" style="background-color: #84007a !important; background: no-repeat center url('https://patchxr.com/images/bg-purple.webp'); background-size: cover">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 my-3">
+					<picture>
+						<source type="image/webp" srcset="https://patchxr.com/images/logo-yellow.webp, https://patchxr.com/images/logo-yellow-2x.webp 2x">
+						<source type="image/png" srcset="https://patchxr.com/images/logo-yellow.png, https://patchxr.com/images/logo-yellow-2x.png 2x">
+						<img width="540" height="98" class="img-fluid featureimages" src="https://patchxr.com/images/logo-yellow.png" alt="PatchWorld" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<a href="https://www.oculus.com/experiences/quest/3715150718552632/?utm_source=website_download_cta_banner" class="btn btn-main-md">Start creating</a>
+			</p>
+		</div>
+	</section>
+
+<!-- /Download CTA banner -->
 <!-- Testimonial -->
 
 
 <style>
 	.ratings { 
-		display: inline; 
+		display: inline-block; 
 		background-color: black; 
+		color: #2efefe;
 		border-radius: 3em; 
-		padding-left: 1em; 
-		padding-right: 1em;
+		padding-left: .75em; 
+		padding-right: .75em;
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
 		font-size: 1.2em;
 		}
 </style>
-<section class="section testimonial pb-0">
+<section class="section testimonial pb-0 mb-4" itemscope itemtype="https://schema.org/Game">
+	<meta itemprop="name" content="PatchWorld" />
 	<div class="container">
-		<div class="row">
-			<div class="testimonial-slider owl-carousel owl-theme ">
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>Brilliant<br>by Vrwizkid</p></div>
+<div class="row">
+    
+    <div class="col-12 col-md-6 text-center mb-5" data-aos="fade-in">
+        <div class="ratings" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <ion-icon name="star"></ion-icon>
+            <span itemprop="ratingValue">4.7</span>
+            <span class="ml-2 text-white">
+                <meta itemprop="ratingCount" content="228" /> 228 ratings
+            </span>
+        </div>
+    </div>
 
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">What an amazing music making app...but it is so much more than just that. This is what utilising VR to its full potential looks like!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>This is the future of music!<br>by Meta.mat.999</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">This is the future of music! Musical worlds you can inhabit, interact with and become a part of. A completely psychedelic, immersive experience. I love it!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>This has blown my mind.<br>by Becausereasons</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">By far the most incredible, mind bending, exciting and entertaining experience I've had in VR. I'm a VR vet.</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>WoooooooW!<br>by DJ_Ma9net</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Don't know how it took me so long to find this app but jeez I'm glad I did. The possibilities for collaborative music sessions across the globe would be enough to sell this app to me alone, but add to that the world building, patching, and variety of tools available to you and you have yourself not only a guaranteed good time with your friends (or strangers) but an excellent tool for music production, with an active and friendly discord community. The addition of DAW integration may well make this the future of VR music production, except it's here, right now. 5 stars!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>The best music software for VR, this will change music production forever. Period.<br>by corprinus</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">You pretty much have your own music production studio here, but unlike many music apps on Quest, in this one you have every tool you need to make REAL quality music. You can do your own music show like a live or pre-recorded concert or you can literally just play around in a virtual music world and jam out. But here is where things get freaking crazy: Patchworld will let you custom EVERYTHING. Yes...you can import your own 3D objects, custom make instruments and create REAL music studio equipment and God knows what else. I've never seen an app do so many things and completely nail it.</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>Dream come true for my classroom!<br>by Toddfadel</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Not only does this app have a great tutorial setup, but the tools are easy to learn and fun to record and share! I'm starting a new unit covering collaboration and this is definitely the app I'll use to show how to support each others ideas!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>This is the most entertaining/comprehensive music making app I&#39;ve played!<br>by Nick.bennett.5602</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">It will have you lolling at the crazy funny characters. Who all sound like someone you would meet in a chill out room. Then there's the crazy but really useful and inspiring music making tools. The Bouncy Beat world will make you feel like you've just stepped into a 90s dreamscape flyer. I've only scraped the surface of this app but it has so much potential! The moment the free demo ended I immediately purchased the game, what a bargain !!
-
-
-</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>How XR music creation should be 🎤💧<br>by Aaazzi</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Return to first principles, without limits.. & FUN!! Brilliant work !!!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>This app is amazing<br>by Jonathan.bell.5817</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Coming from music programming (max, pure data) and composition, this app really allows me to take way further compositional ideas involving nime interaction, music information retrieval… Most importantly the community's extremely friendly and reactive.</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>You won&#39;t know how much fun making music in VR can be until you try it!<br>by Mystickid</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Patch interacts from the very beginning; avatars show you around, demonstrate and teach you what you can do. There's no learning curve though, within minutes I found myself playing built-in sounds, and making new ones with just the mic in my headset. Recording a performance seems just as easy, and you can perform all the parts yourself on different instruments. That's just for starters, you can “world build” your own stage, too. Highly recommended!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>I had no idea how powerful this thing is<br>by Bohdan.svyrydov</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">I purchased this app a few days ago, but I tried the free 30-minute version before that. During this half an hour, I watched only the first tutorial, and I liked it; quirky musical instruments, friendly atmosphere. But I was shocked when I bought the app and watched everything there. It was just the tip of the iceberg. This app is a powerful constructor that will allow you even to create your own instruments once you figure out how to do it. So far, I haven't had time to master everything there. There are a lot of possibilities. So grab it without hesitation. It's an incredible playground.</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>WOAHH<br>by VertigeV</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">This blew my mind right from the get go. It's the most immersive tutorial I've ever seen in any medium. I really felt like I was there hanging out with these weird alien dudes. So much personality! Anyway, it's not really a game, more like a engine for creating musical and visual experiences. There is nothing else like it and I can't wait to spend more time in it and make my own worlds. To the devs, you guys are awesome! I hope to see more of my new "friends" in the future!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>Love this ! The new ableton integration<br>by swappyMaine</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">The new ableton max4live device is a game changer. I can't believe I can send and receive commands from any OSC supporting platform. Super fun worlds to explore and it's possible to patch your own.</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>Wonderful instrument!<br>by Blastjammer</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">I'm having too much fun recording my performances! Making some pretty insane instruments in this dreamy world. The 'drop' feature is amazing. I usually do VR seated, but this one has me dancing like crazy. Robust, performance ready beat machine. I highly recommend this musical fun-house!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>Great for casual or advanced musicmakers<br>by 3dmusic</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">Patchworld is an easy and fun way to create music for beginners, but allows experienced music creators to dig into the structure without limitations. It's like a Lego set for music in which you can create your own Lego pieces. Amazingly creative visuals make it completely immersive. I've tried them all, PatchWorld is the best!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>One of the best games on Quest<br>by PipyVR</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">I was looking for a new way to experience music in VR, and PatchWorld is better than any other music game. The intuitive tools is easy to learn yet a professional way to creating sounds. And the tutorial system is one of the smartest idea I've ever seen, it's like there's a person in the world with you, guiding you through it. I haven't played VR games in a while that made me giddy with excitement, but I find a huge smile across my face as I bop and dance to a new beat I made. Best game on Quest!!!</p>
-					</div>
-				</div>				</div>
-				
-				<div class="item"> 
-					<div class="row">
-					<div class="col-lg mt-4" data-aos="fade-in">
-						<div class="ratings">
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<ion-icon name="star"></ion-icon>
-							<span class="text-white">200+ Ratings</span>
-						</div>
-						<div class="mt-5 cyan">
-							<p>The future of digital audio workstations<br>by Ramz2020</p></div>
-
-					</div>
-					<div class="col-lg" data-aos="fade-in">
-						<p class="feature-text pt-0">If you make music, or just wish you could, this app is a must own with endless possibilities for the expert and newbie alike. At its core it's a playful digital audio workstation for making your own music in VR, but it adds to that both visual and spacial immersion that you can't experience anywhere else. The possibilities are endless and it's easy to get lost for hours in your own creativity and fun. The devs keep adding more and I can't wait to see where this goes!</p>
-					</div>
-				</div>				</div>
-				
-		</div>
+    
+    <div class="col-12 col-md-6 mb-5">
+        <div class="testimonial-slider owl-carousel owl-theme">
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">The potential is staggering, make music, games, videos, and more. The limit is your imagination. Learn while you play, make your own worlds and experiences to share with others.</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Colin Spielmacher</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">This is incredible. I cannot recommend this game enough! A whole world of endless possibilities. Making music in multiplayer is next level.</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Reas</p>
+                    </div>
+                    
+                        <meta itemprop="datePublished" content="2024-03-10">
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">Excellent tool for music production, with an active and friendly discord community. The recent addition of DAW integration may well make this app  the future of VR music production.</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Magnet</p>
+                    </div>
+                    
+                        <meta itemprop="datePublished" content="2023-10-11">
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">What an amazing music making app...but it is so much more than just that. This is what utilising VR to its full potential looks like!</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Meg</p>
+                    </div>
+                    
+                        <meta itemprop="datePublished" content="2024-01-09">
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">This has been my go-to game on my headset. The controls are so easy to learn and the instruments are so unique and simple to use. Not to mention the extremely friendly and welcoming community.</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">British Fella</p>
+                    </div>
+                    
+                        <meta itemprop="datePublished" content="2024-04-20">
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">This has blown my mind! By far the most incredible, mind-bending, exciting and entertaining experience I’ve had in VR and I am a VR vet!</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Because reason</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">This is the best vr music playground out there. Tons of modular synth blocks, effects, visuals, all wrapped up in a fun explorable way, with one of THE best onboarding tutorial sets in any game</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Dik</p>
+                    </div>
+                    
+                        <meta itemprop="datePublished" content="2024-05-05">
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">This is the future of music! Musical worlds you can inhabit, interact with and become part of. A completely psychedelic , immersive experience, I love it !</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">Metamat</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="item" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                    <meta itemprop="ratingValue" content="5">
+                </span>
+                <div>
+                    <p class="feature-text mb-2">If I could give it a higher rating I would. This game has everything you need. A loving community, excellent teachers. You can touch sound, smoosh it, bend it, and turn it into something you invent.</p>
+                    <div class="cyan" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                        <p itemprop="name">RAVE2030</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
 	</div>
 </div>
 </section>
@@ -721,141 +638,8 @@ X-Etags-2: W/"667ea427-928e"
 
 <!-- End of Testimonial -->
 
-<!-- introtext -->
-
-<!-- End of introtext -->
-
-
-<!-- Teaser -->
- <section class="section pb-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center" data-aos="fade-in">
-				<video width="100%" class="video-fluid z-depth-1" poster="/images/videopreview.jpg" controls >
-					<source src="/videos/Patchworld_Announcement.mp4" type="video/mp4" />
-				  </video>
-			</div>
-		</div>
-		</div>
-</section> 
-<!-- End of Teaser -->
-
 
 <!-- Feature Slider -->
-
-<section class="section features">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 m-auto text-left">
-        <div class="quote-slider owl-carousel owl-theme">
-        
-        <div class="item">
-			<div class="row">
-			<div class="col-lg-6">
-				<div class="imageblock" style="position: relative">
-				<img loading="lazy" src="/uploads/skull-instrument.jpg" class="img-fluid featureimages">
-				<div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Explore</div>
-				</div>
-			</div>
-		  <div class="col-lg-6" style="padding-left:0.875em">
-            <p class="feature-text">Explore a growing number of musical experiences, shows, virtual studios, and instruments created by our passionate community from around the globe.</p>
-          </div>
-		</div>
-		</div>
-          
-        <div class="item">
-			<div class="row">
-			<div class="col-lg-6">
-				<div class="imageblock" style="position: relative">
-				<img loading="lazy" src="/uploads/pianist.jpg" class="img-fluid featureimages">
-				<div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Create</div>
-				</div>
-			</div>
-		  <div class="col-lg-6" style="padding-left:0.875em">
-            <p class="feature-text">Create your own musical worlds and instruments, design your avatar, and record yourself performing, for musicverse music videos and shows.</p>
-          </div>
-		</div>
-		</div>
-          
-        <div class="item">
-			<div class="row">
-			<div class="col-lg-6">
-				<div class="imageblock" style="position: relative">
-				<img loading="lazy" src="/uploads/snapshot_Orion%20Stargate%20Alpha%20set.jpg" class="img-fluid featureimages">
-				<div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Share</div>
-				</div>
-			</div>
-		  <div class="col-lg-6" style="padding-left:0.875em">
-            <p class="feature-text">Share your creations with the world. Publish your works to PatchWorld and in the coming months, multiplayer support will allow you to explore, build, and jam in real-time with friends.</p>
-          </div>
-		</div>
-		</div>
-          
-        </div>
-      </div>
-    </div>
-		
-		
-	<div class="row pt-5">
-		<div class="col-12 m-auto text-left">
-
-			<div class="item">
-			  <div class="row">
-			  <div class="col-lg-6">
-				  <div class="imageblock" style="position: relative">
-				  <img loading="lazy" src="/uploads/discord_gif_by_todd.gif" class="img-fluid featureimages">
-				  <a href="https://discord.gg/gwMVhKWxbr">
-						<div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Join Discord</div></a>
-			  </div>
-			  </div>
-			<div class="col-lg-6" style="padding-left:0.875em">
-			  <p class="feature-text ">Join our Discord channel to access our community and unlock the beta features for early access to even more powerful creative building blocks.</p>
-			</div>
-		  </div>
-	  </div>
-
-		</div>
-	  </div>
-		
-		
-
-		
-		<!-- Featured Blog Article -->
-
-		
-		
-					
-		
-					<div class="row pt-5">
-						<div class="col-12 m-auto text-left">
-							<div class="item">
-								<div class="row">
-								<div class="col-lg-6">
-									<div class="imageblock" style="position: relative">
-									<img loading="lazy" src="/apics/martincover.jpg" class="img-fluid featureimages">
-									<a href="/blog"><div class="top-left btn-main-md" style="position: absolute; top: 0.875em;">Blog</div></a>
-								</div>
-								</div>
-							<div class="col-lg-6" style="padding-left:0.875em">
-								<p class="feature-text mb-3">&#34;Aloof In The Blue&#34; is an ambient EP produced entirely in PatchWorld</p>
-								
-								<p><a href="https://patchxr.com/blog/aloof-martin/">Read More <i class="tf-ion-android-arrow-forward"></i></a></p><br>
-								<span class="mt-3 text-white">June 20, 2024</span><br>
-							</div>
-							</div>
-						</div>
-						</div>
-						</div>
-					
-
-		<!-- End of Featured Blog Article -->
-		
-		
-
-
-
-  </div>
-</section>
 
 <!-- End of Feature Slider -->
 
@@ -878,9 +662,129 @@ X-Etags-2: W/"667ea427-928e"
 
 <!-- /banner-feature -->
 
+
 <!-- Feature -->
 
+
+<section class="feature section hide-overflow pb-0">
+	<div class="container">
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6 ">
+				<div class="image-content mb-5" data-aos="fade-right">
+					<picture>
+						<source type="image/webp" srcset="/images/home/limitless-creativity.webp, /images/home/limitless-creativity-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/limitless-creativity.jpg, /images/home/limitless-creativity-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/limitless-creativity.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top ">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Limitless Creativity</small></h2>
+					<p class="desc">Explore infinite worlds designed as blank canvases for your ideas. Build, jam, and create anything you can dream of.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section hide-overflow pb-0">
+	<div class="container">
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6 order-lg-2">
+				<div class="image-content mb-5" data-aos="fade-left">
+					<picture>
+						<source type="image/webp" srcset="/images/home/collaborate-live.webp, /images/home/collaborate-live-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/collaborate-live.jpg, /images/home/collaborate-live-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/collaborate-live.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top order-lg-1">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Collaborate Live</small></h2>
+					<p class="desc">Don’t just create alone—join live sessions with other musicians and creators to build entire virtual experiences together in real-time.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section hide-overflow pb-0">
+	<div class="container">
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6 ">
+				<div class="image-content mb-5" data-aos="fade-left">
+					<picture>
+						<source type="image/webp" srcset="/images/home/ultimate-studio-setup.webp, /images/home/ultimate-studio-setup-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/ultimate-studio-setup.jpg, /images/home/ultimate-studio-setup-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/ultimate-studio-setup.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top ">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Ultimate Studio Setup</small></h2>
+					<p class="desc">Create unlimited sounds, instruments, and visual elements to design the perfect creative studio—one that moves with you. You’ll have access to everything you need to sound like a pro and create polished, share-worthy content.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section hide-overflow pb-0">
+	<div class="container">
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6 order-lg-2">
+				<div class="image-content mb-5" data-aos="fade-right">
+					<picture>
+						<source type="image/webp" srcset="/images/home/effortless-sharing.webp, /images/home/effortless-sharing-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/effortless-sharing.jpg, /images/home/effortless-sharing-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/effortless-sharing.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top order-lg-1">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Effortless Sharing</small></h2>
+					<p class="desc">Record your performances, create stunning mixed reality content, and share across social media. Create and share cinematic content and films that blend the virtual and real world seamlessly, using 3D spatial audio for an immersive sound experience.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="feature section hide-overflow pb-0">
+	<div class="container">
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6 ">
+				<div class="image-content mb-5" data-aos="fade-left">
+					<picture>
+						<source type="image/webp" srcset="/images/home/ableton-live-integration.webp, /images/home/ableton-live-integration-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/ableton-live-integration.jpg, /images/home/ableton-live-integration-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/ableton-live-integration.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top ">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Integrated with Ableton</small></h2>
+					<p class="desc">Connect to Ableton Live for ultimate cross-reality production. You’re not just making VR music—you’re connecting your virtual studio to real-world tools for endless creative possibilities.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<br><br>
+
 <!-- /Feature -->
+
 
 <!-- USPs -->
 
@@ -890,8 +794,91 @@ X-Etags-2: W/"667ea427-928e"
 
 <!-- Video Promo -->
 
-<!-- End of Video Promo -->
+<!-- End of Video Promo --><!-- Download CTA banner -->
 
+	<section class="section mb-5" style="background-color: #84007a !important; background: no-repeat center url('https://patchxr.com/images/bg-purple.webp'); background-size: cover">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 my-3">
+					<picture>
+						<source type="image/webp" srcset="https://patchxr.com/images/logo-yellow.webp, https://patchxr.com/images/logo-yellow-2x.webp 2x">
+						<source type="image/png" srcset="https://patchxr.com/images/logo-yellow.png, https://patchxr.com/images/logo-yellow-2x.png 2x">
+						<img width="540" height="98" class="img-fluid featureimages" src="https://patchxr.com/images/logo-yellow.png" alt="PatchWorld" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<a href="https://www.oculus.com/experiences/quest/3715150718552632/?utm_source=website_download_cta_banner" class="btn btn-main-md">Discover our instruments</a>
+			</p>
+		</div>
+	</section>
+
+<!-- /Download CTA banner -->
+<!-- Discord and Blog -->
+<section class="section features">
+  <div class="container">
+		
+		
+
+		<div class="row justify-content-between align-top">
+			<div class="col-lg-6">
+				<div class="image-content mb-5" data-aos="fade-left">
+					<picture>
+						<source type="image/webp" srcset="/images/home/discord.webp, /images/home/discord-2x.webp 2x">
+						<source type="image/jpeg" srcset="/images/home/discord.jpg, /images/home/discord-2x.jpg 2x">
+						<img width="540" height="304" class="img-fluid featureimages" src="/images/home/discord.jpg" alt="" loading="lazy">
+					</picture>
+				</div>
+			</div>
+			<div class="col-lg-6 align-top">
+				<div class="feature-content ">
+					<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Discord</small></h2>
+					<p class="desc">Connect with the community in our Discord channel and unlock the beta features for early access to even more powerful creative building blocks.</p>
+					<p><a href="https://discord.gg/gwMVhKWxbr">Join the community <i class="tf-ion-android-arrow-forward"></i></a></p><br>
+				</div>
+
+			</div>
+		</div>
+		
+		
+
+
+
+
+
+		
+		<!-- Featured Blog Article -->
+
+		
+		
+					
+		
+						<div class="row justify-content-between align-top">
+							<div class="col-lg-6">
+								<div class="image-content mb-5" data-aos="fade-left">
+									<img loading="lazy" src="/apics/moving%20toggles.jpg" class="img-fluid featureimages" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 align-top">
+								<div class="feature-content ">
+									<h2 class="newstitle" style="padding-top: 0 !important; line-height: .8em !important;"><small>Blog</small></h2>
+									<p class="desc">Hand Tracking update lets you play without controllers</p>
+									<p><a href="https://patchxr.com/blog/hand-tracking/">Read More <i class="tf-ion-android-arrow-forward"></i></a></p><br>
+								<span class="mt-3 text-white">December 26, 2024</span><br>
+								</div>
+
+							</div>
+						</div>
+					
+
+		<!-- End of Featured Blog Article -->
+		
+		
+
+
+
+  </div>
+</section>
+<!-- End of Discord and Blog -->
 
 
 
@@ -917,7 +904,14 @@ X-Etags-2: W/"667ea427-928e"
     <div class="row footer-links">
       
       <div class="col-lg-3 mb-5">
-         <a href="https://patchxr.com/"><img src="/images/logo-alt.png" style="margin-left:0px!important"></a><br>
+         <a href="https://patchxr.com/">
+           <picture>
+             <source type="image/webp" srcset="https://patchxr.com/images/logo-alt.webp">
+             <source type="image/png" srcset="https://patchxr.com/images/logo-alt.png">
+             <img class="img-fluid" style="margin-left:0px!important" width="300" height="71" src="https://patchxr.com/images/logo-alt.png" alt="PatchXR" loading="lazy">
+           </picture>
+         </a>
+         <br>
       </div>
       
       <div class="col-lg-3 mb-3">
@@ -932,7 +926,6 @@ X-Etags-2: W/"667ea427-928e"
         
         <li><a href="/blog">Blog</a></li>
         <li><a href="https://patchxrdocumentation.readthedocs.io/" target="_blank">Documentation</a><br></li>
-        <li><a href="http://forum.patchxr.com/" target="_blank">Forum</a></li>
         <li><a href="/contact">Contact Us</a></li>
         <li><a href="/presskit">Press Kit</a></li>
         <li><a href="/faq">FAQ</a></li>
@@ -948,10 +941,6 @@ X-Etags-2: W/"667ea427-928e"
           <span>Chriesbaumstrasse 6</span><br>
           <span>8604 Volketswil</span><br>
           <span>Switzerland</span><br>
-          <br>
-          <span> Refshalevej 209,</span><br>
-          <span>1432 Copenhagen</span><br>
-          <span>Denmark</span><br>
           
           
         </div>
@@ -1010,7 +999,7 @@ X-Etags-2: W/"667ea427-928e"
 
 <div class="row pb-3">
   <div class="col-md-12  text-left ml-1">
-    <span class="text-dark">Copyright &copy; 2024 PatchXR AG. All rights reserved.</span>
+    <span style="color:#747C84;" >Copyright &copy; 2025 PatchXR AG. All rights reserved.</span>
   </div>
 </div>
 

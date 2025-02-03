@@ -18,10 +18,10 @@
   {{- $url := printf "https://%s/" (path.Join .Title .Params.subdir) }}
 
   {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
-  {{- with resources.GetRemote $url $opts}}
+  {{- with try (resources.GetRemote $url $opts) }}
     {{- with .Err }}
       {{- warnf "Unable to reach %s: skipping: %s" $url . }}
-    {{- else }}
+    {{- else with .Value }}
 
       {{- /* Get version. */}}
       {{- with findRE $regexVersion .Content }}
@@ -97,9 +97,9 @@
         )
       }}
 
+    {{- else }}
+      {{- warnf "Unable to reach %s: skipping" . }}
     {{- end }}
-  {{- else }}
-    {{- warnf "Unable to reach %s: skipping" . }}
   {{- end }}
 {{- end }}
 

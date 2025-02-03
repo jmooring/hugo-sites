@@ -1,19 +1,19 @@
 HTTP/2.0 200 OK
-Age: 28690
+Age: 33344
 Content-Type: text/html
-Date: Mon, 18 Nov 2024 11:51:28 GMT
-Etag: W/"6bb7fcb714d7493f93be61fde7f7e532"
-Last-Modified: Thu, 14 Nov 2024 17:20:32 GMT
+Date: Mon, 03 Feb 2025 11:14:42 GMT
+Etag: W/"109703dbc23e69d6dd144feacb5d6f10"
+Last-Modified: Tue, 21 Jan 2025 19:12:05 GMT
 Server: AmazonS3
 Vary: Accept-Encoding
 Vary: Origin
-Via: 1.1 ebe4011a81a36e2bf678f69ce1711330.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: C_roVWzWxJoibBe9w2cD-R_vI5HHmBenckHSaZH2ZU7niEboG95evQ==
+Via: 1.1 5fe5f2a3903f1378941d92eceaf3fa16.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zujQVJdLU_kvttrrkTeX92vF6bmqLBLnHFTN2NnRicv2SflfvILWpg==
 X-Amz-Cf-Pop: SEA73-P1
-X-Amz-Version-Id: WT9Dp0sl5.HePCyp2jYfD21s.HJQy3Yo
+X-Amz-Version-Id: XD0NJIf2h7D0c_oI3IU46cwnvztZq_hw
 X-Cache: Hit from cloudfront
-X-Etags-1: W/"6bb7fcb714d7493f93be61fde7f7e532"
-X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
+X-Etags-1: W/"109703dbc23e69d6dd144feacb5d6f10"
+X-Etags-2: W/"109703dbc23e69d6dd144feacb5d6f10"
 
 <!doctype html>
 <html>
@@ -33,7 +33,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
     <meta property="og:title" content="Bitnami Documentation">
     <meta property="og:type" content="documentation">
     <meta property="og:description" content="">
-    <meta property="article:published_time" content="2024-10-22" />
+    <meta property="article:published_time" content="2025-01-21" />
     <meta name="addsearch-custom-field" content="type=page"/>
 
     
@@ -49,7 +49,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
     <link href='https://d33np9n32j53g7.cloudfront.net/fonts/overpass.css' media="screen" rel="stylesheet">
     <link href='//d1d5nb8vlsbujg.cloudfront.net/hex/4.0.0/hex.min.css' media="screen" rel="stylesheet">
 
-<link rel="stylesheet" href="https://docs.bitnami.com/css/bds.faf8b14f3c76e6860c8727547b073e6516fcda727e0e96aaffb6be74ac913dbe.css" integrity="sha256-&#43;vixTzx25oYMhydUewc&#43;ZRb82nJ&#43;Dpaq/7a&#43;dKyRPb4=" media="screen">
+<link rel="stylesheet" href="https://docs.bitnami.com/css/bds.517ed988e204a31416ca0c1858e7268912ec8ac0f521255796d1a07f8f999011.css" integrity="sha256-UX7ZiOIEoxQWygwYWOcmiRLsisD1ISVXltGgf4&#43;ZkBE=" media="screen">
 
     <script src='//d1d5nb8vlsbujg.cloudfront.net/hex/4.0.0/hex.min.js'></script>
     <script
@@ -63,7 +63,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
 
 
 
-<script src="https://docs.bitnami.com/js/bds.min.532022ed4c220659e9491eb3a1169af6c952894fee385f048eaa68dc9a518097.js"></script>
+<script src="https://docs.bitnami.com/js/bds.min.4e8a6efc2641edf27806e554c1007988e41ae4944eeea4b54549d9667f4958b0.js"></script>
 
 
     <link href='https://docs.bitnami.com/images/img/favicon.png' rel='shortcut icon'>
@@ -108,7 +108,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
     </script>
     
     <div class="header__logo">
-      <a href="https://docs.bitnami.com/"><img alt="Bitnami by VMware logo" src="https://docs.bitnami.com/images/logo.svg"/></a>
+      <a href="https://docs.bitnami.com/"><img alt="Bitnami by VMware Tanzu logo" src="https://docs.bitnami.com/images/logo.svg"/></a>
     </div>
     <nav class="header__nav">
       <button aria-expanded="false" aria-haspopup="true" aria-label="Toggle menu" class="header__nav__hamburguer">
@@ -121,8 +121,8 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
           <a class="header__nav__menu__item" href="https://bitnami.com/stacks">Applications</a>
         </li>
         <li>
-          <a aria-expanded="false" aria-haspopup="true" class="header__nav__menu__item" href="#" tabindex="0">Kubernetes</a>
-          <ul aria-label="Kubernetes" class="header__nav__submenu header__nav__kubernetes" role="menu" aria-expanded="false">
+          <a aria-expanded="false" aria-haspopup="true" class="header__nav__menu__item" href="#" tabindex="0">Products</a>
+          <ul aria-label="Products" class="header__nav__submenu header__nav__products" role="menu" aria-expanded="false">
             <div class="header__nav__list">
               
                 
@@ -130,13 +130,75 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
 
 
   
-    <a class="header__nav__list__item" role="menuitem" href="https://kubeapps.dev/" target="_blank" rel="noopener noreferrer">
+    <a class="header__nav__list__item" role="menuitem" href="https://arrow.com/globalecs/na/vendors/bitnami?utm_source=bitnami&amp;utm_medium=banner" target="_blank" rel="noopener noreferrer">
   
     
     <div class="header__nav__list__item__info">
-      <h3>Kubeapps</h3>
+      <h3>Bitnami Premium</h3>
       
-        <p>Your Application Dashboard for Kubernetes</p>
+        <p>Add secure software supply chain features and support for all application versions maintained by upstream projects</p>
+      
+    </div>
+  </a>
+</li>
+
+              
+                
+  <li role="none">
+
+
+  
+    <a class="header__nav__list__item" role="menuitem" href="https://www.vmware.com/products/app-platform/tanzu-application-catalog" target="_blank" rel="noopener noreferrer">
+  
+    
+    <div class="header__nav__list__item__info">
+      <h3>Tanzu Application Catalog</h3>
+      
+        <p>Used by many of the most security-conscious organizations in the world to curate and customize Open Source software artifacts</p>
+      
+    </div>
+  </a>
+</li>
+
+              
+                
+  <li role="none">
+
+
+  
+    <a class="header__nav__list__item" role="menuitem" href="https://bitnami.com/support" target="_blank" rel="noopener noreferrer">
+  
+    
+    <div class="header__nav__list__item__info">
+      <h3>Support</h3>
+      
+        <p>If you are a customer and need help, we will get you to the right place</p>
+      
+    </div>
+  </a>
+</li>
+
+              
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a aria-expanded="false" aria-haspopup="true" class="header__nav__menu__item" href="#" tabindex="0">Developers</a>
+          <ul aria-label="Developers" class="header__nav__submenu header__nav__developers" role="menu" aria-expanded="false">
+            <div class="header__nav__list">
+              
+                
+  <li role="none">
+
+
+  
+    <a class="header__nav__list__item" role="menuitem" href="https://docs.bitnami.com">
+  
+    
+    <div class="header__nav__list__item__info">
+      <h3>Documentation</h3>
+      
+        <p>Dive into detailed documentation for all aspects of Bitnami</p>
       
     </div>
   </a>
@@ -198,10 +260,26 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
 
               
             </div>
-            <div class="header__nav__kubernetes__others">
+            <div class="header__nav__developers__others">
               
                 <li role="none">
-  <a role="menuitem" class="header__nav__kubernetes__other" href="https://github.com/bitnami-labs/sealed-secrets" target="_blank" rel="noopener noreferrer">
+  <a role="menuitem" class="header__nav__developers__other" href="https://github.com/bitnami/containers" target="_blank" rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="18" height="18"></rect></svg>
+    Containers
+  </a>
+</li>
+
+              
+                <li role="none">
+  <a role="menuitem" class="header__nav__developers__other" href="https://github.com/bitnami/charts" target="_blank" rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-disk"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+    Helm Charts
+  </a>
+</li>
+
+              
+                <li role="none">
+  <a role="menuitem" class="header__nav__developers__other" href="https://github.com/bitnami-labs/sealed-secrets" target="_blank" rel="noopener noreferrer">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
     Sealed Secrets
   </a>
@@ -209,107 +287,16 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
 
               
                 <li role="none">
-  <a role="menuitem" class="header__nav__kubernetes__other" href="https://github.com/bitnami/charts" target="_blank" rel="noopener noreferrer">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-disk"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
-    Helm Charts
+  <a role="menuitem" class="header__nav__developers__other" href="https://kubeapps.dev" target="_blank" rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+    Kubeapps
   </a>
 </li>
 
               
               <li role="none">
-                <a role="menuitem" href="https://bitnami.com/kubernetes" class="header__nav__kubernetes__all" target="_blank" rel="noopener noreferrer">See all projects</a>
+                <a role="menuitem" href="https://bitnami.com/kubernetes" class="header__nav__developers__all" target="_blank" rel="noopener noreferrer">See all projects</a>
               </li>
-            </div>
-          </ul>
-        </li>
-        <li>
-          <a aria-expanded="false" aria-haspopup="true" class="header__nav__menu__item" href="#" tabindex="0">Developers</a>
-          <ul aria-label="Developers" class="header__nav__submenu header__nav__developers" role="menu" aria-expanded="false">
-            <div class="header__nav__list">
-              
-                
-  <li role="none">
-
-
-  
-    <a class="header__nav__list__item" role="menuitem" href="https://docs.bitnami.com/">
-  
-    
-    <div class="header__nav__list__item__info">
-      <h3>Documentation</h3>
-      
-    </div>
-  </a>
-</li>
-
-              
-                
-  <li role="none" class='header-hide-mobile'>
-
-
-  
-    <a class="header__nav__list__item" role="menuitem" href="https://docs.vmware.com/en/VMware-Tanzu-Application-Catalog/services/tutorials/GUID-index.html" target="_blank" rel="noopener noreferrer">
-  
-    
-    <div class="header__nav__list__item__info">
-      <h3>Tutorials</h3>
-      
-    </div>
-  </a>
-</li>
-
-              
-                
-  <li role="none">
-
-
-  
-    <a class="header__nav__list__item" role="menuitem" href="https://bitnami.com/support" target="_blank" rel="noopener noreferrer">
-  
-    
-    <div class="header__nav__list__item__info">
-      <h3>Support</h3>
-      
-    </div>
-  </a>
-</li>
-
-              
-            </div>
-            <div class="header__nav__list">
-              
-                
-  <li role="none">
-
-
-  
-    <a class="header__nav__list__item" role="menuitem" href="https://github.com/bitnami" target="_blank" rel="noopener noreferrer">
-  
-    
-    <div class="header__nav__list__item__info">
-      <h3>Open Source</h3>
-      
-    </div>
-  </a>
-</li>
-
-              
-                
-  <li role="none">
-
-
-  
-    <a class="header__nav__list__item" role="menuitem" href="https://www.broadcom.com/company/careers" target="_blank" rel="noopener noreferrer">
-  
-    
-    <div class="header__nav__list__item__info">
-      <h3>We&#39;re Hiring</h3>
-      
-    </div>
-  </a>
-</li>
-
-              
             </div>
           </ul>
         </li>
@@ -603,7 +590,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
     <div class='row collapse-b-desktop'>
       <div class='col-3 footer__copyright'>
         <h4 class="inverse">
-          <img src="https://d33np9n32j53g7.cloudfront.net/assets/logos/bitnami-by-vmware-dark-bg.svg" alt="Bitnami by VMware Logo" class=logo />
+          <img src="https://docs.bitnami.com/images/logo.svg" alt="Bitnami by VMware Tanzu Logo" class=logo />
         </h4>
         <a href="https://twitter.com/Bitnami" class="socialIcon margin-r-small"><svg role=img aria-label="See Bitnami's Twitter profile" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
           <title id="twitter_title">See Bitnami's Twitter profile.</title>
@@ -630,7 +617,7 @@ X-Etags-2: W/"6bb7fcb714d7493f93be61fde7f7e532"
           <path d="M20.6 17.8c0 1.542-1.253 2.8-2.8 2.8S15 19.35 15 17.8c0-1.542 1.253-2.8 2.8-2.8s2.8 1.258 2.8 2.8zm0 5.2h-4.8v16h4.8V23zm7.889-.303H23.8V39h4.689v-8.553c0-2.295 1.024-3.656 2.979-3.656 1.802 0 2.666 1.309 2.666 3.656V39H39V28.676c0-4.364-2.395-6.476-5.755-6.476-3.351 0-4.765 2.697-4.765 2.697v-2.2h.009z" fill=currentColor />
         </svg>
         </a><p class='type-color-light type-small'>
-          Copyright &#169; 2005-2024 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+          Copyright &#169; 2005-2025 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
         </p>
       </div>
       <div class="col-9">

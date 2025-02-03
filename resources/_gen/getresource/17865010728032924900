@@ -1,15 +1,15 @@
 HTTP/1.1 200 OK
-Content-Length: 7543
+Content-Length: 7604
 Accept-Ranges: bytes
 Cache-Control: private
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Nov 2024 19:49:35 GMT
-Etag: "1d77-62713ecaebb40"
-Last-Modified: Sun, 17 Nov 2024 04:06:29 GMT
+Date: Mon, 03 Feb 2025 20:30:24 GMT
+Etag: "1db4-62d3501624d00"
+Last-Modified: Mon, 03 Feb 2025 04:05:40 GMT
 Server: Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.2.2
-Set-Cookie: c497b0e6a23633c95a8ee7715229020f=26b78e4e8f1f90342502696c948825f0; path=/; HttpOnly; Secure; SameSite=None
-X-Etags-1: "1d77-62713ecaebb40"
-X-Etags-2: "1d77-62713ecaebb40"
+Set-Cookie: c497b0e6a23633c95a8ee7715229020f=798d800ef459ea5bf1efcb9ff4ff50d0; path=/; HttpOnly; Secure; SameSite=None
+X-Etags-1: "1db4-62d3501624d00"
+X-Etags-2: "1db4-62d3501624d00"
 
 <!doctype html>
 <html lang="en">
@@ -150,17 +150,17 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/">docs.gimp.org</a
 </tr>
 <tr>
 <td>Redesign API for scripts/plug-ins</td>
-<td>work in progress</td>
-<td>GObject Introspection introduced, along with refactoring, no wire protocol redesign in the end, big API improvements still worked on</td>
+<td><strong>done</strong></td>
+<td>GObject Introspection introduced, along with refactoring, no wire protocol redesign in the end, big API improvements</td>
 </tr>
 <tr>
 <td>Wayland support</td>
-<td>work in progress</td>
-<td>Various bugs still happen, especially in window management area (broken sizes and positions), color management…</td>
+<td><strong>done</strong></td>
+<td>Various bugs still happen, especially in window management area (broken sizes and positions), color management, but mostly because of missing protocols in Wayland…</td>
 </tr>
 <tr>
 <td>Space invasion</td>
-<td>work in progress</td>
+<td><strong>done</strong></td>
 <td>Various color management improvements, CMYK support (not as core image format, but import/export and picking/choosing/viewing)…</td>
 </tr>
 <tr>
@@ -170,7 +170,7 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/">docs.gimp.org</a
 </tr>
 <tr>
 <td>Less &ldquo;floating selection&rdquo;</td>
-<td>nearly done</td>
+<td><strong>done</strong></td>
 <td>Discussed on the <a href="https://mail.gnome.org/archives/gimp-gui-list/2020-December/msg00000.html">gimp-gui mailing list</a>, transform tools still create floating selections</td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ instead; the GIMP manual is at <a href="https://docs.gimp.org/">docs.gimp.org</a
       
     </div>
     <div class='col-sm mt-2 mt-md-0 text-center order-3 order-md-2'>
-        &copy; Copyright 2003-2024 GIMP team
+        &copy; Copyright 2003-2025 GIMP team
     </div>
     <div class='col-sm mt-2 mt-md-0 text-center text-md-end order-2 order-md-3'>
        

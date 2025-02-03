@@ -1,0 +1,282 @@
+HTTP/2.0 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: max-age=600
+Content-Type: text/html; charset=utf-8
+Date: Mon, 03 Feb 2025 20:30:57 GMT
+Etag: W/"67956eb0-9456"
+Expires: Mon, 03 Feb 2025 09:46:47 GMT
+Last-Modified: Sat, 25 Jan 2025 23:07:28 GMT
+Server: GitHub.com
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Etags-1: W/"67956eb0-9456"
+X-Etags-2: W/"67956eb0-9456"
+X-Fastly-Request-Id: 43748d824ca9f2e878f58e4b7633d51d5510599c
+X-Github-Request-Id: 69EA:F6092:2BF7D9:2D2B95:67A08E2F
+X-Proxy-Cache: MISS
+X-Served-By: cache-bfi-kbfi7400050-BFI
+X-Timer: S1738614658.836342,VS0,VE85
+
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.142.0"><meta charset=utf-8><meta content="width=device-width,initial-scale=1" name=viewport><meta property="og:url" content="https://prql-lang.org/"><meta property="og:site_name" content="PRQL"><meta property="og:title" content="PRQL"><meta property="og:description" content="PRQL is a modern language for transforming data"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta property="og:image" content="https://prql-lang.org/static/img/favicon-32x32.png"><title>PRQL</title>
+<meta content name=description><meta content="[]" name=keywords><link rel=apple-touch-icon sizes=180x180 href=/img/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/img/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/favicon-16x16.png><link href=/plugins/bootstrap/bootstrap.min.css rel=stylesheet><link href=/fonts/boxicons.min.css rel=stylesheet><link href=/plugins/highlight/highlight.css rel=stylesheet><script defer src=/plugins/highlight/highlight.min.js></script><script defer src=/plugins/highlight/prql.js></script><link href=/style.css rel=stylesheet><script async defer src=https://buttons.github.io/buttons.js></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-LQJDD599T4"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-LQJDD599T4")}</script></head><body class="d-flex flex-column vh-100 overflow-hidden"><header id=header class="flex-shrink-0 d-flex align-items-center"><div class="container d-flex align-items-center"><a href=/ class="logo me-auto d-flex align-items-end"><img src=/img/icon.svg alt class=img-fluid height=50 width=50><h1>PRQL</h1></a><nav id=navbar class="navbar navbar-expand-lg"><button class="navbar-toggler border-0 bg-white p-0" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasNavbar aria-controls=offcanvasNavbar aria-label="Toggle navigation">
+<i class="bx bx-dots-horizontal-rounded fs-2"></i></button><div class="offcanvas offcanvas-end" tabindex=-1 id=offcanvasNavbar aria-labelledby=offcanvasNavbarLabel><div class=offcanvas-header><h5 class=offcanvas-title id=offcanvasNavbarLabel>PRQL</h5><button type=button class=btn-close data-bs-dismiss=offcanvas aria-label=Close></button></div><div class=offcanvas-body><hr class="d-lg-none text-black-50"><ul class="navbar-nav justify-content-end flex-grow-1 pe-3"><li class="nav-item col-6 col-lg-auto py-2 px-0 px-lg-2"><a href=/book/>Docs</a></li><li class="nav-item col-6 col-lg-auto py-2 px-0 px-lg-2"><a href=/playground/>Playground</a></li><li class="nav-item col-6 col-lg-auto py-2 px-0 px-lg-2"><a href=/roadmap/>Roadmap</a></li><li class="nav-item col-6 col-lg-auto py-2 px-0 px-lg-2"><a href=/posts/>Posts</a></li><li class="nav-item col-6 col-lg-auto py-2 px-0 px-lg-2"><a href=/faq/>FAQ</a></li></ul></div></div></nav><div style=min-width:9rem class="d-flex ps-3 pt-2 justify-content-end align-items-end"><a class=github-button href=https://github.com/PRQL/prql data-size=large data-show-count=true aria-label="Star prql/prql on GitHub">Star</a></div></div></header><div class="d-flex flex-column flex-grow-1 overflow-scroll"><section class="hero striped"><div class=container><div class="row content align-items-center"><div class=col-lg-6><h4 class=mb-3><span>P</span>ipelined <span>R</span>elational
+<span>Q</span>uery <span>L</span>anguage, pronounced
+<span>“Prequel”</span></h4><h2 class=mb-3>PRQL is a modern language for transforming data</h2><p class="mb-3 bottom-text">— a simple, powerful, pipelined SQL replacement</p></div><div class="col-lg-6 pt-4 pt-lg-0"><pre tabindex=0>
+          <code class="language-prql hljs" data-lang=prql>from invoices
+filter invoice_date &gt;= @1970-01-16
+derive {
+  transaction_fees = 0.8,
+  income = total - transaction_fees
+}
+filter income &gt; 1
+group customer_id (
+  aggregate {
+    average total,
+    sum_income = sum income,
+    ct = count total,
+  }
+)
+sort {-sum_income}
+take 10
+join c=customers (==customer_id)
+derive name = f&#34;{c.last_name}, {c.first_name}&#34;
+select {
+  c.customer_id, name, sum_income
+}
+derive db_version = s&#34;version()&#34;
+</code>
+        </pre></div></div></div></section><main id=main><section class=big-cards-section><div class=container><div class=row><div class=section-title><h2>Why PRQL?</h2></div></div><div class="row row-cols-1 row-cols-lg-2 justify-content-center"><div class="col g-3"><div class=card><h4>For data engineers</h4><ul style=padding-left:1em><li>PRQL is concise, with abstractions such as variables & functions</li><li>PRQL is database agnostic, compiling to many dialects of SQL</li><li>PRQL isn&rsquo;t limiting — it can contain embedded SQL where necessary</li><li>PRQL has bindings to most major languages <em>(and more are in progress)</em></li><li>PRQL allows for column lineage and type inspection <em>(in progress)</em></li></ul></div></div><div class="col g-3"><div class=card><h4>For analysts</h4><ul style=padding-left:1em><li>PRQL is ergonomic for data exploration — for example, commenting out a filter, or a column in a list, maintains a valid query</li><li>PRQL is simple, and easy to understand, with a small number of powerful concepts</li><li>PRQL allows for powerful autocomplete, type-checking, and helpful error messages <em>(in progress)</em></li></ul></div></div><div class="col g-3"><div class=card><h4>For tools</h4><ul style=padding-left:1em><li>PRQL&rsquo;s vision is a foundation to build on; we&rsquo;re open-source and will never have a commercial product</li><li>PRQL is growing into a single secular standard which tools can target</li><li>PRQL is easy for machines to read & write</li></ul></div></div><div class="col g-3"><div class=card><h4>For HackerNews enthusiasts</h4><ul style=padding-left:1em><li>The PRQL compiler is written in Rust</li><li>We talk about &ldquo;orthogonal language features&rdquo; a lot</li></ul></div></div></div></div></section><section class="content-section showcase-section section-bg"><div class=container><div class="row content"><div class="col-lg-4 mb-4"><div class=section-title><h2 class=mb-3>Showcase</h2></div><p class=mb-3>PRQL consists of a curated set of orthogonal transformations, which are combined together to form a pipeline. That makes it easy to compose and extend queries. The language also benefits from modern features, such syntax for dates, ranges and f-strings as well as functions, type checking and better null handling.</p><a class=btn href=/playground/>Playground</a>
+<a class=btn href=/book/>Book</a></div><div class="col-lg-8 d-flex align-items-start"><div class="nav flex-column nav-pills flex-shrink-0 me-3" id=v-pills-tab role=tablist aria-orientation=vertical><button class="nav-link active" id=v-pills-basic-tab data-bs-toggle=pill data-bs-target=#v-pills-basic type=button role=tab aria-controls=v-pills-basic aria-selected=false>
+Basic example
+</button>
+<button class=nav-link id=v-pills-friendly-syntax-tab data-bs-toggle=pill data-bs-target=#v-pills-friendly-syntax type=button role=tab aria-controls=v-pills-friendly-syntax aria-selected=false>
+Friendly syntax
+</button>
+<button class=nav-link id=v-pills-orthogonal-tab data-bs-toggle=pill data-bs-target=#v-pills-orthogonal type=button role=tab aria-controls=v-pills-orthogonal aria-selected=false>
+Orthogonality
+</button>
+<button class=nav-link id=v-pills-expressions-tab data-bs-toggle=pill data-bs-target=#v-pills-expressions type=button role=tab aria-controls=v-pills-expressions aria-selected=false>
+Expressions
+</button>
+<button class=nav-link id=v-pills-f-strings-tab data-bs-toggle=pill data-bs-target=#v-pills-f-strings type=button role=tab aria-controls=v-pills-f-strings aria-selected=false>
+F-strings
+</button>
+<button class=nav-link id=v-pills-windows-tab data-bs-toggle=pill data-bs-target=#v-pills-windows type=button role=tab aria-controls=v-pills-windows aria-selected=false>
+Windows
+</button>
+<button class=nav-link id=v-pills-functions-tab data-bs-toggle=pill data-bs-target=#v-pills-functions type=button role=tab aria-controls=v-pills-functions aria-selected=false>
+Functions
+</button>
+<button class=nav-link id=v-pills-top-n-tab data-bs-toggle=pill data-bs-target=#v-pills-top-n type=button role=tab aria-controls=v-pills-top-n aria-selected=false>
+Top N by group
+</button>
+<button class=nav-link id=v-pills-s-strings-tab data-bs-toggle=pill data-bs-target=#v-pills-s-strings type=button role=tab aria-controls=v-pills-s-strings aria-selected=false>
+S-strings
+</button>
+<button class=nav-link id=v-pills-joins-tab data-bs-toggle=pill data-bs-target=#v-pills-joins type=button role=tab aria-controls=v-pills-joins aria-selected=false>
+Joins
+</button>
+<button class=nav-link id=v-pills-null-handling-tab data-bs-toggle=pill data-bs-target=#v-pills-null-handling type=button role=tab aria-controls=v-pills-null-handling aria-selected=false>
+Null handling
+</button>
+<button class=nav-link id=v-pills-dialects-tab data-bs-toggle=pill data-bs-target=#v-pills-dialects type=button role=tab aria-controls=v-pills-dialects aria-selected=false>
+Dialects</button></div><div class=tab-content id=v-pills-tabContent><div class="tab-pane fade
+show active
+row" id=v-pills-basic role=tabpanel aria-labelledby=v-pills-basic-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from employees
+select {id, first_name, age}
+sort age
+take 10
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  id,
+  first_name,
+  age
+FROM
+  employees
+ORDER BY
+  age
+LIMIT
+  10
+</code></pre></div><div class="tab-pane fade row" id=v-pills-friendly-syntax role=tabpanel aria-labelledby=v-pills-friendly-syntax-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from track_plays
+filter plays &gt; 10_000                # Readable numbers
+filter (length | in 60..240)         # Ranges with `..`
+filter recorded &gt; @2008-01-01        # Simple date literals
+filter released - recorded &lt; 180days # Nice interval literals
+sort {-length}                       # Concise order direction
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *
+FROM
+  track_plays
+WHERE
+  plays &gt; 10000
+  AND length BETWEEN 60 AND 240
+  AND recorded &gt; DATE &#39;2008-01-01&#39;
+  AND released - recorded &lt; INTERVAL 180 DAY
+ORDER BY
+  length DESC
+</code></pre></div><div class="tab-pane fade row" id=v-pills-orthogonal role=tabpanel aria-labelledby=v-pills-orthogonal-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from employees
+# `filter` before aggregations...
+filter start_date &gt; @2021-01-01
+group country (
+  aggregate {max_salary = max salary}
+)
+# ...and `filter` after aggregations!
+filter max_salary &gt; 100_000
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  country,
+  MAX(salary) AS max_salary
+FROM
+  employees
+WHERE
+  start_date &gt; DATE &#39;2021-01-01&#39;
+GROUP BY
+  country
+HAVING
+  MAX(salary) &gt; 100000
+</code></pre></div><div class="tab-pane fade row" id=v-pills-expressions role=tabpanel aria-labelledby=v-pills-expressions-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from track_plays
+derive {
+  finished = started - unfinished,
+  fin_share = finished / started,        # Use previous definitions
+  fin_ratio = fin_share / (1-fin_share), # BTW, hanging commas are optional!
+}
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *,
+  started - unfinished AS finished,
+  (started - unfinished) / started AS fin_share,
+  (started - unfinished) / started / (1 - (started - unfinished) / started)
+   AS fin_ratio
+FROM
+  track_plays
+</code></pre></div><div class="tab-pane fade row" id=v-pills-f-strings role=tabpanel aria-labelledby=v-pills-f-strings-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from web
+# Just like Python
+select url = f&#34;https://www.{domain}.{tld}/{page}&#34;
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  CONCAT(&#39;https://www.&#39;, domain, &#39;.&#39;, tld, &#39;/&#39;, page) AS url
+FROM
+  web
+</code></pre></div><div class="tab-pane fade row" id=v-pills-windows role=tabpanel aria-labelledby=v-pills-windows-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from employees
+group employee_id (
+  sort month
+  window rolling:12 (
+    derive {trail_12_m_comp = sum paycheck}
+  )
+)
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *,
+  SUM(paycheck) OVER (
+    PARTITION BY employee_id
+    ORDER BY
+      month ROWS BETWEEN 11 PRECEDING AND CURRENT ROW
+  ) AS trail_12_m_comp
+FROM
+  employees
+</code></pre></div><div class="tab-pane fade row" id=v-pills-functions role=tabpanel aria-labelledby=v-pills-functions-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>let celsius_to_fahrenheit = temp -&gt; temp * 9/5 &#43; 32
+
+from weather
+select temp_f = (celsius_to_fahrenheit temp_c)
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  temp_c * 9 / 5 &#43; 32 AS temp_f
+FROM
+  weather
+</code></pre></div><div class="tab-pane fade row" id=v-pills-top-n role=tabpanel aria-labelledby=v-pills-top-n-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql># Most recent employee in each role
+# Quite difficult in SQL...
+from employees
+group role (
+  sort join_date
+  take 1
+)
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>WITH table_0 AS (
+  SELECT
+    *,
+    ROW_NUMBER() OVER (
+      PARTITION BY role
+      ORDER BY
+        join_date
+    ) AS _expr_0
+  FROM
+    employees
+)
+SELECT
+  *
+FROM
+  table_0
+WHERE
+  _expr_0 &lt;= 1
+</code></pre></div><div class="tab-pane fade row" id=v-pills-s-strings role=tabpanel aria-labelledby=v-pills-s-strings-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql># There&#39;s no `version` in PRQL, but s-strings
+# let us embed SQL as an escape hatch:
+from x
+derive db_version = s&#34;version()&#34;
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *,
+  version() AS db_version
+FROM x
+</code></pre></div><div class="tab-pane fade row" id=v-pills-joins role=tabpanel aria-labelledby=v-pills-joins-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from employees
+join b=benefits (==employee_id)
+join side:left p=positions (p.id==employees.employee_id)
+select {employees.employee_id, p.role, b.vision_coverage}
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  employees.employee_id,
+  p.role,
+  b.vision_coverage
+FROM
+  employees
+  JOIN benefits AS b ON employees.employee_id = b.employee_id
+  LEFT JOIN positions AS p ON p.id = employees.employee_id
+</code></pre></div><div class="tab-pane fade row" id=v-pills-null-handling role=tabpanel aria-labelledby=v-pills-null-handling-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>from users
+filter last_login != null
+filter deleted_at == null
+derive channel = channel ?? &#34;unknown&#34;
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *,
+  COALESCE(channel, &#39;unknown&#39;) AS channel
+FROM
+  users
+WHERE
+  last_login IS NOT NULL
+  AND deleted_at IS NULL
+</code></pre></div><div class="tab-pane fade row" id=v-pills-dialects role=tabpanel aria-labelledby=v-pills-dialects-tab tabindex=0><pre><code class="language-prql hljs" data-lang=prql>prql target:sql.mssql  # Will generate TOP rather than LIMIT
+
+from employees
+sort age
+take 10
+</code></pre><pre><code class="language-sql hljs" data-lang=sql>SELECT
+  *
+FROM
+  employees
+ORDER BY
+  age OFFSET 0 ROWS
+FETCH
+  FIRST 10 ROWS ONLY
+</code></pre></div></div></div></div></div></section><section class=big-cards-section><div class=container><div class=row><div class=section-title><h2>Principles</h2></div></div><div class="row row-cols-1 row-cols-lg-3 justify-content-center"><div class="col g-3"><div class=card><h4>Pipelined</h4><p class=blue-border><strong>A PRQL query is a linear pipeline of transformations</strong></p><p>Each line of the query is a transformation of the previous line’s result. This makes it easy to read, and simple to write.</p></div></div><div class="col g-3"><div class=card><h4>Simple</h4><p class=blue-border><strong>PRQL serves both sophisticated engineers and analysts without coding experience.</strong></p><p>By providing a small number of powerful & orthogonal primitives, queries are simple and composable — there&rsquo;s only one way of expressing each operation. We can eschew the debt that SQL has built up.</p></div></div><div class="col g-3"><div class=card><h4>Open</h4><p class=blue-border><strong>PRQL is open-source, with an open community</strong></p><p>PRQL will always be fully open-source and will never have a commercial product. By compiling to SQL, PRQL is compatible with most databases, existing tools, and programming languages that manage SQL. We&rsquo;re a welcoming community for users, contributors, and other projects.</p></div></div><div class="col g-3"><div class=card><h4>Extensible</h4><p class=blue-border><strong>PRQL is designed to be extended, from functions to language bindings</strong></p><p>PRQL has abstractions which make it a great platform to build on. Its explicit versioning allows changes without breaking backward-compatibility. And in the cases where PRQL doesn&rsquo;t yet have an implementation, it allows embedding SQL with s-strings.</p></div></div><div class="col g-3"><div class=card><h4>Analytical</h4><p class=blue-border><strong>PRQL&rsquo;s focus is analytical queries</strong></p><p>PRQL was originally designed to serve the growing need of writing analytical queries, emphasizing data transformations, development speed, and readability. We de-emphasize other SQL features such as inserting data or transactions.</p></div></div></div></div></section><section class=videos-section><div class=container><div class=row><div class=section-title><h2>Pipelines in action</h2></div></div><div class="row row-cols-1 row-cols-lg-3"><div class="col g-3"><iframe width=560 height=315 src=https://www.youtube-nocookie.com/embed/IQRRsfavEic title="YouTube video player" frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></div></section><section class="content-section cards-section"><div class=container><div class="row content"><div class=section-title><h2>Integrations</h2></div></div><div class="row row-cols-1 row-cols-lg-4 justify-content-left"><div class="col g-3"><div class=card><h4><a href=https://clickhouse.com/docs/en/guides/developer/alternative-query-languages target=_blank rel=noopener>ClickHouse<sup><i class="bx bx-link-external"></i></sup></a></h4><p>ClickHouse natively supports PRQL with</p><p><code>SET dialect = 'prql'</code></p></div></div><div class="col g-3"><div class=card><h4><a href=https://pyprql.readthedocs.io/en/latest/magic_readme.html target=_blank rel=noopener>Jupyter/IPython<sup><i class="bx bx-link-external"></i></sup></a></h4>pyprql contains a Jupyter extension, which executes a PRQL cell against a database. It can also set up an in-memory DuckDB instance, populated with a pandas DataFrame.</div></div><div class="col g-3"><div class=card><h4><a href=https://github.com/ywelsch/duckdb-prql target=_blank rel=noopener>DuckDB<sup><i class="bx bx-link-external"></i></sup></a></h4>A DuckDB extension to execute PRQL</div></div><div class="col g-3"><div class=card><h4><a href=https://www.timestored.com/qstudio/prql-ide target=_blank rel=noopener>QStudio<sup><i class="bx bx-link-external"></i></sup></a></h4>QStudio is a SQL GUI that lets you browse tables, run SQL scripts, and chart and export the results. QStudio runs on Windows, macOS and Linux, and works with every popular database including mysql, postgresql, mssql, kdb&mldr;</div></div><div class="col g-3"><div class=card><h4><a href=https://prql-lang.org/book/project/integrations/prefect.html target=_blank rel=noopener>Prefect<sup><i class="bx bx-link-external"></i></sup></a></h4>Add PRQL models to your Prefect workflows with a single function.</div></div><div class="col g-3"><div class=card><h4><a href="https://marketplace.visualstudio.com/items?itemName=prql-lang.prql-vscode" target=_blank rel=noopener>Visual Studio Code<sup><i class="bx bx-link-external"></i></sup></a></h4>Extension with syntax highlighting and live SQL compilation.</div></div><div class="col g-3"><div class=card><h4><a href=https://github.com/kaspermarstal/plprql target=_blank rel=noopener>PostgreSQL<sup><i class="bx bx-link-external"></i></sup></a></h4>Write PRQL functions in PostgreSQL</div></div><div class="col g-3"><div class=card><h4><a href=https://www.databend.com/blog/2024-04-03-databend-integrates-prql/ target=_blank rel=noopener>Databend<sup><i class="bx bx-link-external"></i></sup></a></h4>Databend natively supports PRQL</div></div></div></div></section><section class="content-section cards-section"><div class=container><div class="row content"><div class=section-title><h2>Tools</h2></div></div><div class="row row-cols-1 row-cols-lg-4 justify-content-left"><div class="col g-3"><div class=card><h4><a href=https://prql-lang.org/playground/ target=_blank rel=noopener>Playground<sup><i class="bx bx-link-external"></i></sup></a></h4>Online in-browser playground that compiles PRQL to SQL as you type.</div></div><div class="col g-3"><div class=card><h4><a href=https://pyprql.readthedocs.io/ target=_blank rel=noopener>pyprql<sup><i class="bx bx-link-external"></i></sup></a></h4><p>Provides Jupyter/IPython cell magic and Pandas accessor.</p><p><code>pip install pyprql</code></p></div></div><div class="col g-3"><div class=card><h4><a href=https://crates.io/crates/prqlc target=_blank rel=noopener>prqlc<sup><i class="bx bx-link-external"></i></sup></a></h4><p>A CLI for PRQL compiler, written in Rust.</p><p><code>cargo install prqlc</code></p><p><code>brew install prqlc</code></p><p><code>winget install prqlc</code></p></div></div></div></div></section><section class="content-section cards-section" id=bindings><div class=container><div class="row content"><div class=section-title><h2>Bindings</h2></div></div><div class="row row-cols-1 row-cols-lg-4 justify-content-left"><div class="col g-3"><div class=card><h4><a href=https://pypi.org/project/prqlc target=_blank rel=noopener>prqlc-python<sup><i class="bx bx-link-external"></i></sup></a></h4>Python bindings for prqlc.</div></div><div class="col g-3"><div class=card><h4><a href=https://www.npmjs.com/package/prqlc target=_blank rel=noopener>prqlc-js<sup><i class="bx bx-link-external"></i></sup></a></h4>JavaScript bindings for prqlc.</div></div><div class="col g-3"><div class=card><h4><a href="https://CRAN.R-project.org/package=prqlr" target=_blank rel=noopener>prqlr<sup><i class="bx bx-link-external"></i></sup></a></h4>R bindings for prqlc.</div></div><div class="col g-3"><div class=card><h4><a href=https://crates.io/crates/prqlc target=_blank rel=noopener>prqlc<sup><i class="bx bx-link-external"></i></sup></a></h4>Compiler implementation, written in Rust. Compile, format & annotate PRQL queries.</div></div><div class="col g-3"><div class=card><h4><a href=https://prql-lang.org/book/project/bindings/index.html target=_blank rel=noopener>Others<sup><i class="bx bx-link-external"></i></sup></a></h4>Java, C, C++, Elixir, .NET, and PHP have unsupported or nascent bindings.</div></div></div></div></section><section class="content-section testimonials-section"><div class=container><div class=row><div class=section-title><h2>What people are saying</h2></div></div><div class="row row-cols-1 row-cols-md-3 g-4"><div class=col><div class="card quote"><p class=quote-text>It starts with FROM, it fixes trailing commas, and it's called PRQL?? If this is a dream, don't wake me up.
+<span>— Jeremiah Lowin, Founder & CEO, Prefect.</span></p></div></div><div class=col><div class="card tweet"><div class=tweet-header><div class=tweet-author><svg class="tweet-logo" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35.0-4.27 1.92-4.27 4.29.0.34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15.0 1.49.75 2.81 1.91 3.56-.71.0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22.0 01-1.93.07 4.28 4.28.0 004 2.98 8.521 8.521.0 01-5.33 1.84c-.34.0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19.0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+<img class=tweet-author-image src=/cached-avatars/hamiltonulmer.png><div class=tweet-author-info><p class=tweet-author-name>Hamilton Ulmer</p><a class=tweet-author-handler target=_blank href=https://twitter.com/hamiltonulmer>@hamiltonulmer</a></div></div></div><div class=mt-2>very excited for prql!</div><span class=flex-grow-1></span><div class="tweet-info d-flex pt-2 text-muted"><svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29.0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88.0 5.404 2.69 5.404 5.755.0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08.0-3.903 1.988-3.903 4.255.0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658.0-2.267-1.822-4.255-3.902-4.255-2.528.0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387.0-.015-.03-1.426-2.965-3.955-2.965z"/></svg>
+<span class=ms-1>2</span><div class=ms-3>13:03 · May 6, 2022</div><span class=flex-grow-1></span>
+<a href=https://twitter.com/hamiltonulmer/status/1522562664467107840>Twitter</a></div></div></div><div class=col><div class="card tweet"><div class=tweet-header><div class=tweet-author><svg class="tweet-logo" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35.0-4.27 1.92-4.27 4.29.0.34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15.0 1.49.75 2.81 1.91 3.56-.71.0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22.0 01-1.93.07 4.28 4.28.0 004 2.98 8.521 8.521.0 01-5.33 1.84c-.34.0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19.0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+<img class=tweet-author-image src=/cached-avatars/mitsuhiko.png><div class=tweet-author-info><p class=tweet-author-name>Armin Ronacher</p><a class=tweet-author-handler target=_blank href=https://twitter.com/mitsuhiko>@mitsuhiko</a></div></div></div><div class=mt-2>Oh wow I missed this. Clickhouse now supports PRQL: https://github.com/ClickHouse/ClickHouse/pull/50686</div><span class=flex-grow-1></span><div class="tweet-info d-flex pt-2 text-muted"><svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29.0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88.0 5.404 2.69 5.404 5.755.0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08.0-3.903 1.988-3.903 4.255.0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658.0-2.267-1.822-4.255-3.902-4.255-2.528.0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387.0-.015-.03-1.426-2.965-3.955-2.965z"/></svg>
+<span class=ms-1>49</span><div class=ms-3>13:03 · Jul 25, 2022</div><span class=flex-grow-1></span>
+<a href="https://twitter.com/mitsuhiko/status/1683941196799045632?s=20">Twitter</a></div></div></div><div class=col><div class="card quote"><a class=quote-text href=https://wesmckinney.com/blog/looking-back-15-years/ rel=noopener target=_blank>I'm also really excited about efforts to create entire new query languages that compile to SQL, like Malloy and PRQL.
+<span>— Wes McKinney, Creator of Pandas</span></a></div></div><div class=col><div class="card tweet"><div class=tweet-header><div class=tweet-author><svg class="tweet-logo" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35.0-4.27 1.92-4.27 4.29.0.34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15.0 1.49.75 2.81 1.91 3.56-.71.0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22.0 01-1.93.07 4.28 4.28.0 004 2.98 8.521 8.521.0 01-5.33 1.84c-.34.0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19.0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+<img class=tweet-author-image src=/cached-avatars/_swanand.png><div class=tweet-author-info><p class=tweet-author-name>Swanand.</p><a class=tweet-author-handler target=_blank href=https://twitter.com/_swanand>@_swanand</a></div></div></div><div class=mt-2>A few years ago, I started working on a language, called "dsql", short for declarative SQL, and a pun on "the sequel (to SQL)". I kinda chickened out of it then, the amount of study and research I needed was massive. prql here is better than I imagined: github.com/max-sixty/prql</div><span class=flex-grow-1></span><div class="tweet-info d-flex pt-2 text-muted"><svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29.0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88.0 5.404 2.69 5.404 5.755.0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08.0-3.903 1.988-3.903 4.255.0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658.0-2.267-1.822-4.255-3.902-4.255-2.528.0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387.0-.015-.03-1.426-2.965-3.955-2.965z"/></svg>
+<span class=ms-1>20</span><div class=ms-3>13:18 · Jan 25, 2022</div><span class=flex-grow-1></span>
+<a href=https://twitter.com/_swanand/status/1485965394880131081>Twitter</a></div></div></div><div class=col><div class="card quote"><a class=quote-text href="https://news.ycombinator.com/item?id=30064873" rel=noopener target=_blank>Column aliases would have saved me hundreds of hours over the course of my career.
+<span>— @dvasdekis</span></a></div></div><div class=col><div class="card tweet"><div class=tweet-header><div class=tweet-author><svg class="tweet-logo" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35.0-4.27 1.92-4.27 4.29.0.34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15.0 1.49.75 2.81 1.91 3.56-.71.0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22.0 01-1.93.07 4.28 4.28.0 004 2.98 8.521 8.521.0 01-5.33 1.84c-.34.0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19.0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+<img class=tweet-author-image src=/cached-avatars/RishabhSoft.png><div class=tweet-author-info><p class=tweet-author-name>Rishabh Software</p><a class=tweet-author-handler target=_blank href=https://twitter.com/RishabhSoft>@RishabhSoft</a></div></div></div><div class=mt-2>SQL's hold on data retrieval is slipping! 8 new databases are emerging, and some speak entirely new languages for data querying. Know more infoworld.com/article/365490… #SQL #DataQuery #GraphQL #PRQL #WebAssembly</div><span class=flex-grow-1></span><div class="tweet-info d-flex pt-2 text-muted"><svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29.0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88.0 5.404 2.69 5.404 5.755.0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08.0-3.903 1.988-3.903 4.255.0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658.0-2.267-1.822-4.255-3.902-4.255-2.528.0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387.0-.015-.03-1.426-2.965-3.955-2.965z"/></svg>
+<span class=ms-1>0</span><div class=ms-3>16:32 · Apr 13, 2022</div><span class=flex-grow-1></span>
+<a href=https://twitter.com/RishabhSoft/status/1514280454890872833>Twitter</a></div></div></div><div class=col><div class="card tweet"><div class=tweet-header><div class=tweet-author><svg class="tweet-logo" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35.0-4.27 1.92-4.27 4.29.0.34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15.0 1.49.75 2.81 1.91 3.56-.71.0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22.0 01-1.93.07 4.28 4.28.0 004 2.98 8.521 8.521.0 01-5.33 1.84c-.34.0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19.0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg>
+<img class=tweet-author-image src=/cached-avatars/burakemir.png><div class=tweet-author-info><p class=tweet-author-name>Burak Emir</p><a class=tweet-author-handler target=_blank href=https://twitter.com/burakemir>@burakemir</a></div></div></div><div class=mt-2>I want to give the PRQL a little boost here, "pipeline of transformations" is IMHO a good choice for readable query languages that need to deal with SQL-like aggregations, group by and count and sum all: github.com/max-sixty/prql</div><span class=flex-grow-1></span><div class="tweet-info d-flex pt-2 text-muted"><svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29.0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88.0 5.404 2.69 5.404 5.755.0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08.0-3.903 1.988-3.903 4.255.0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658.0-2.267-1.822-4.255-3.902-4.255-2.528.0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387.0-.015-.03-1.426-2.965-3.955-2.965z"/></svg>
+<span class=ms-1>2</span><div class=ms-3>12:52 · Jan 25, 2022</div><span class=flex-grow-1></span>
+<a href=https://twitter.com/burakemir/status/1485958835844100098>Twitter</a></div></div></div><div class=col><div class="card quote"><a class=quote-text href=https://lobste.rs/s/oavgcx/prql_simpler_more_powerful_sql#c_nmzcd7 rel=noopener target=_blank>Having written some complex dbt projects...the first thing...it gets right is to start with the table and work down. This is an enormous readability boost in large projects and leads to great intellisense.
+<span>— Ruben Slabbert</span></a></div></div></div></div></section></main><footer id=footer class=mt-auto><div class=container><div class="row py-3"><h2>Join us</h2><div class="col-md-8 py-1"><p>Contribute to PRQL — we&rsquo;re a welcoming community, and there are lots of ways to make an impact:</p><ul><li>Are there people whose opinion you respect who might be interested in PRQL? Send them a link to PRQL.</li><li>Know Rust (or want to learn!)?
+<a href=https://prql-lang.org/book/project/contributing/#compiler target=_blank rel=noopener>Contribute to our compiler<sup><i class="bx bx-link-external"></i></sup></a></li><li>Familiar with web? Spot a mistake?
+<a href=https://prql-lang.org/book/project/contributing/#marketing target=_blank rel=noopener>Improve the website design or copy<sup><i class="bx bx-link-external"></i></sup></a></li><li>Interested in helping people explore their data?
+<a href=https://github.com/PRQL/prql/tree/main/web/playground target=_blank rel=noopener>Help improve the playground<sup><i class="bx bx-link-external"></i></sup></a></li><li>Is SQL your mother-tongue?
+<a href=https://prql-lang.org/book/project/contributing/#language-design target=_blank rel=noopener>Show us SQL queries which translate well / badly<sup><i class="bx bx-link-external"></i></sup></a>. We are looking for any use-cases that expose a poor design choice, a need of a feature, or a sharp edge of the language.</li></ul><a class=btn href=https://prql-lang.org/book/project/contributing/ target=_blank rel="noopener noreferrer">Contribute<sup><i class="bx bx-link-external"></i></sup></a></div><div class="col-md-4 py-1"><p>Follow us:</p><ul><li>Star our GitHub repo
+<a href=https://github.com/PRQL/prql target=_blank rel=noopener>PRQL/prql<sup><i class="bx bx-link-external"></i></sup></a></li><li>Join our
+<a href=https://discord.com/invite/eQcfaCmsNc target=_blank rel=noopener>Discord<sup><i class="bx bx-link-external"></i></sup></a></li><li>Follow us on
+<a href=https://twitter.com/prql_lang target=_blank rel=noopener>Twitter<sup><i class="bx bx-link-external"></i></sup></a></li></ul><p><a class=btn-icon href=https://github.com/PRQL/prql target=_blank title="GitHub repository"><i class="bx bxl-github"></i></a>
+<a class=btn-icon href=https://discord.com/invite/eQcfaCmsNc target=_blank title="Join the Discord"><i class="bx bxl-discord"></i></a>
+<a class=btn-icon href=https://twitter.com/prql_lang target=_blank title="Follow us on Twitter"><i class="bx bxl-twitter"></i></a></p></div></div><p><small>© 2022-2024, PRQL Developers. Apache 2.0 Licensed</small></p></div></footer></div><a href=# class="back-to-top d-flex align-items-center justify-content-center"><i class="bx bx-up-arrow-alt"></i></a>
+<script src=/main.js></script><script src=/plugins/bootstrap/bootstrap.bundle.min.js></script></body></html>

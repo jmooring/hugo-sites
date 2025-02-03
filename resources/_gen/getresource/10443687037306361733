@@ -1,13 +1,13 @@
 HTTP/2.0 200 OK
 Alt-Svc: h3=":443"; ma=2592000
 Content-Type: text/html; charset=utf-8
-Date: Mon, 18 Nov 2024 19:49:55 GMT
-Etag: "smzvou1l3p"
-Last-Modified: Fri, 15 Nov 2024 13:48:30 GMT
+Date: Mon, 03 Feb 2025 20:30:58 GMT
+Etag: "spzh7o1mps"
+Last-Modified: Sun, 12 Jan 2025 16:16:36 GMT
 Server: Caddy
 Vary: Accept-Encoding
-X-Etags-1: "smzvou1l3p"
-X-Etags-2: "smzvou1l3p"
+X-Etags-1: "spzh7o1mps"
+X-Etags-2: "spzh7o1mps"
 
 <!doctype html>
 <html lang="en">
@@ -23,7 +23,9 @@ X-Etags-2: "smzvou1l3p"
     <title>Rclone</title>
     <link rel="canonical" href="https://rclone.org/">
     <link href="/css/bootstrap.min.4.4.1.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.5.10.2.css" rel="stylesheet">
+    <link href="/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/fontawesome/css/brands.min.css" rel="stylesheet">
+    <link href="/fontawesome/css/solid.min.css" rel="stylesheet">
     <link href="/css/custom.css?r=-62135596800" rel="stylesheet">
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="rclone - rsync for cloud storage" />
   </head>
@@ -372,6 +374,7 @@ X-Etags-2: "smzvou1l3p"
           <a class="dropdown-item" href="/b2/"><i class="fa fa-fire fa-fw"></i> Backblaze B2</a>
           <a class="dropdown-item" href="/box/"><i class="fa fa-archive fa-fw"></i> Box</a>
           <a class="dropdown-item" href="/chunker/"><i class="fa fa-cut fa-fw"></i> Chunker (splits large files)</a>
+          <a class="dropdown-item" href="/cloudinary/"><i class="fa fa-image fa-fw"></i> Cloudinary</a>
           <a class="dropdown-item" href="/compress/"><i class="fas fa-compress fa-fw"></i> Compress (transparent gzip compression)</a>
           <a class="dropdown-item" href="/combine/"><i class="fa fa-folder-plus fa-fw"></i> Combine (remotes into a directory tree)</a>
           <a class="dropdown-item" href="/sharefile/"><i class="fas fa-share-square fa-fw"></i> Citrix ShareFile</a>
@@ -379,7 +382,7 @@ X-Etags-2: "smzvou1l3p"
           <a class="dropdown-item" href="/koofr/#digi-storage"><i class="fa fa-cloud fa-fw"></i> Digi Storage</a>
           <a class="dropdown-item" href="/dropbox/"><i class="fab fa-dropbox fa-fw"></i> Dropbox</a>
           <a class="dropdown-item" href="/filefabric/"><i class="fa fa-cloud fa-fw"></i> Enterprise File Fabric</a>
-          <a class="dropdown-item" href="/filescom/"><i class="fa fa-file-alt fa-fw"></i> Files.com</a>
+          <a class="dropdown-item" href="/filescom/"><i class="fa fa-brands fa-files-pinwheel fa-fw"></i> Files.com</a>
           <a class="dropdown-item" href="/ftp/"><i class="fa fa-file fa-fw"></i> FTP</a>
           <a class="dropdown-item" href="/gofile/"><i class="fa fa-folder fa-fw"></i> Gofile</a>
           <a class="dropdown-item" href="/googlecloudstorage/"><i class="fab fa-google fa-fw"></i> Google Cloud Storage</a>
@@ -389,6 +392,7 @@ X-Etags-2: "smzvou1l3p"
           <a class="dropdown-item" href="/hdfs/"><i class="fa fa-globe fa-fw"></i> HDFS (Hadoop Distributed Filesystem)</a>
           <a class="dropdown-item" href="/hidrive/"><i class="fa fa-cloud fa-fw"></i> HiDrive</a>
           <a class="dropdown-item" href="/http/"><i class="fa fa-globe fa-fw"></i> HTTP</a>
+          <a class="dropdown-item" href="/iclouddrive/"><i class="fa fa-archive fa-fw"></i> iCloud Drive</a>
           <a class="dropdown-item" href="/imagekit/"><i class="fa fa-cloud fa-fw"></i> ImageKit</a>
           <a class="dropdown-item" href="/internetarchive/"><i class="fa fa-archive fa-fw"></i> Internet Archive</a>
           <a class="dropdown-item" href="/jottacloud/"><i class="fa fa-cloud fa-fw"></i> Jottacloud</a>
@@ -660,6 +664,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Cloudinary
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://cloudinary.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/cloudinary/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     DigitalOcean Spaces
   </span>
   <span>
@@ -815,6 +829,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/http/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    iCloud Drive
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://icloud.com/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/iclouddrive/"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1090,6 +1114,16 @@ WebDAV or S3, that work out of the box.)</p>
 
 <li class="list-group-item d-flex justify-content-between py-1">
   <span>
+    Outscale
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://en.outscale.com/storage/outscale-object-storage/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#outscale"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
     ownCloud
   </span>
   <span>
@@ -1255,6 +1289,16 @@ WebDAV or S3, that work out of the box.)</p>
   <span>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://github.com/chrislusf/seaweedfs/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#seaweedfs"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
+  </span>
+</li>
+
+<li class="list-group-item d-flex justify-content-between py-1">
+  <span>
+    Selectel
+  </span>
+  <span>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="https://selectel.ru/services/cloud/storage/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a class="badge badge-primary badge-pill" role="button btn-sm" href="/s3/#selectel"><i class="fa fa-book" aria-hidden="true"></i> Config</a>
   </span>
 </li>
 
@@ -1512,15 +1556,6 @@ WebDAV or S3, that work out of the box.)</p>
 
 <div class="card">
   <div class="card-header" style="padding: 5px 15px;">
-    Platinum Sponsor
-  </div>
-  <div class="card-body">
-    <a href="https://www.backblaze.com/cloud-storage?utm_source=publisher&utm_medium=paid&utm_campaign=break-free-app-storage-q224-rclone" target="_blank" rel="noopener" title="Visit rclone's sponsor Backblaze"><img src="/img/logos/backblaze.svg"></a><br />
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-header" style="padding: 5px 15px;">
     Gold Sponsor
   </div>
   <div class="card-body">
@@ -1529,6 +1564,14 @@ WebDAV or S3, that work out of the box.)</p>
 </div>
 
 
+<div class="card">
+  <div class="card-header" style="padding: 5px 15px;">
+    Silver Sponsor
+  </div>
+  <div class="card-body">
+    <a href="https://rcloneview.com/?utm_source=rclone" target="_blank" rel="noopener" title="Visit rclone's sponsor RcloneView"><img src="/img/logos/rcloneview-banner.svg"></a><br />
+  </div>
+</div>
 
 
 <div class="card">
@@ -1569,9 +1612,9 @@ WebDAV or S3, that work out of the box.)</p>
           <div class="col-md-10">
             <div class="card card-body">
               <p style="font-size: 90%;">
-                &copy; <a href="https://www.craig-wood.com/nick/" target="blank">Nick Craig-Wood</a> 2014-2024<br>
+                &copy; <a href="https://www.craig-wood.com/nick/" target="blank">Nick Craig-Wood</a> 2014-2025<br>
                 Source file <a href="https://github.com/rclone/rclone/blob/master/docs/content/_index.md" target="blank">_index.md</a>
-                last updated <a href="https://github.com/rclone/rclone/commit/ae9960a4ede7a18e3c91b25ead99212c717a6604">2024-07-23</a><br>
+                last updated <a href="https://github.com/rclone/rclone/commit/7e4b8e33f596da442e41fbc496450e75f5907d6c">2024-09-04</a><br>
                 Uploaded with <a href="https://rclone.org">rclone</a>.
                 Built with <a href="https://gohugo.io/" target="blank">Hugo</a>.
                 Logo by <a href="https://twitter.com/andy23" target="blank">@andy23</a>.

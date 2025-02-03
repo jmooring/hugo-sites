@@ -1,30 +1,30 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 36832
+Age: 0
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; hit
+Cache-Status: "Netlify Edge"; fwd=miss
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Nov 2024 19:49:50 GMT
-Etag: "2b8e684ac08ee3fbab3767e8a647e9ac-ssl-df"
+Date: Mon, 03 Feb 2025 20:30:51 GMT
+Etag: "52f46fa9078a962e93e9919574e564ee-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "2b8e684ac08ee3fbab3767e8a647e9ac-ssl-df"
-X-Etags-2: "2b8e684ac08ee3fbab3767e8a647e9ac-ssl-df"
-X-Nf-Request-Id: 01JD0D6049E1RZQWN8W9F7R7J6
+X-Etags-1: "52f46fa9078a962e93e9919574e564ee-ssl-df"
+X-Etags-2: "52f46fa9078a962e93e9919574e564ee-ssl-df"
+X-Nf-Request-Id: 01JK6R4EPZ433DX3MBXGES28D0
 
 <!DOCTYPE html>
 <html lang="en-us" data-colorscheme="auto" >
   <head>
-	<meta name="generator" content="Hugo 0.134.3">
-    <!-- Generated 2024-11-17 20:46:21 UTC -->
+	<meta name="generator" content="Hugo 0.141.0">
+    <!-- Generated 2025-02-03 19:21:40 UTC -->
     <meta name="description" content="Community developed and owned ecosystem for scientific computing" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     
-    <title>Scientific Python - </title>
+    <title>Scientific Python</title>
 
     
     
@@ -36,11 +36,11 @@ X-Nf-Request-Id: 01JD0D6049E1RZQWN8W9F7R7J6
 <link rel="icon" href="/images/favicon.ico" />
 
   
-      <link rel="stylesheet" type="text/css" href="/theme-css/sphinx-design/index.scss.min.36ff85d5815ecbee58c1ba27bcc5efe301092254f8ab00f2f53a72e4222d58ee.css" integrity="sha256-Nv&#43;F1YFey&#43;5YwbonvMXv4wEJIlT4qwDy9Tpy5CItWO4=">  
+      <link rel="stylesheet" type="text/css" href="/theme-css/sphinx-design/index.scss.min.acf226aa2ff428a500491b1393bef415c3883113dac542174f5814fba5532592.css" integrity="sha256-rPImqi/0KKUASRsTk770FcOIMRPaxUIXT1gU&#43;6VTJZI=">  
       <link rel="stylesheet" type="text/css" href="/theme-css/pst/bootstrap.scss.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU=">  
-      <link rel="stylesheet" type="text/css" href="/theme-css/pst/pydata-sphinx-theme.scss.min.d56da9e1c2ce262f021256dca409e85bd992cb0994a6aaf1b4fe85d6074447c5.css" integrity="sha256-1W2p4cLOJi8CElbcpAnoW9mSywmUpqrxtP6F1gdER8U=">  
+      <link rel="stylesheet" type="text/css" href="/theme-css/pst/pydata-sphinx-theme.scss.min.1032a66ba1e0ab03bfcbfd265dce1d831879c5ea9d57e8575a68eeeb887b617e.css" integrity="sha256-EDKma6HgqwO/y/0mXc4dgxh5xeqdV&#43;hXWmju64h7YX4=">  
       <link rel="stylesheet" type="text/css" href="/theme-css/spht/index.scss.min.ad03de1683bb39a0d1b31395797b97188e59cda6d778c0671a99db0b4fb799a9.css" integrity="sha256-rQPeFoO7OaDRsxOVeXuXGI5ZzabXeMBnGpnbC0&#43;3mak=">
-    <link rel="stylesheet" href="/theme-css/backtotop.min.b5f58df56ca9d2f2b749b8d5eb4ab2b5a1724c63cbd24b2f8a0b0c2268e1eca4.css" integrity="sha256-tfWN9Wyp0vK3SbjV60qytaFyTGPL0ksvigsMImjh7KQ=">
+    <link rel="stylesheet" href="/theme-css/backtotop.min.af4a1eb2a3e4e5ca38353a8320dafc9b1e1fd2edd480caa5fff0ae4e751d991c.css" integrity="sha256-r0oesqPk5co4NTqDINr8mx4f0u3UgMql//CuTnUdmRw=">
     <link rel="stylesheet" href="/theme-css/bulma.min.f488b160722c9b7a2a760c03808dc8df5173e6c9dd25cb7481451ddb3c4f35dc.css" integrity="sha256-9IixYHIsm3oqdgwDgI3I31Fz5sndJct0gUUd2zxPNdw=">
     <link rel="stylesheet" href="/theme-css/code-highlight.min.d0bd96ff1dbeb4b62536da5935b92af5cd7edb6d6f52b316d721e62078d9f089.css" integrity="sha256-0L2W/x2&#43;tLYlNtpZNbkq9c1&#43;221vUrMW1yHmIHjZ8Ik=">
     <link rel="stylesheet" href="/theme-css/content.min.1de9b096ffc099fee4b538589fea6b622be33d69de64c451e11f2c91476029c5.css" integrity="sha256-Hemwlv/Amf7ktThYn&#43;prYivjPWneZMRR4R8skUdgKcU=">
@@ -57,7 +57,6 @@ X-Nf-Request-Id: 01JD0D6049E1RZQWN8W9F7R7J6
     <link rel="stylesheet" href="/theme-css/tables.min.7a44b6bd698323dd3d379b714bd534132e76bf4ba0d3dec61997a8d9ba9db5fb.css" integrity="sha256-ekS2vWmDI909N5txS9U0Ey52v0ug097GGZeo2bqdtfs=">
     <link rel="stylesheet" href="/theme-css/tabs.min.8884c317231b5f2331b2fd9f65e4f7900fe9124aafae93b78cef175960289683.css" integrity="sha256-iITDFyMbXyMxsv2fZeT3kA/pEkqvrpO3jO8XWWAoloM=">
     <link rel="stylesheet" href="/theme-css/vars.min.3d537d14ea6e6fb59012fa9d357adf4b209dab8c2535fb94ab37afb6a37020fd.css" integrity="sha256-PVN9FOpub7WQEvqdNXrfSyCdq4wlNfuUqzevtqNwIP0=">
-    <link rel="stylesheet" href="/theme-css/videos.min.41c135abe8361308f9258975985342fc3107ddc6440698251dd72e2b909cdaaa.css" integrity="sha256-QcE1q&#43;g2Ewj5JYl1mFNC/DEH3cZEBpglHdcuK5Cc2qo=">
     <link rel="stylesheet" href="/css/custom.min.aee833ad7adac4c1bf8442e439dc06cfdbce30777bb985654641a329ce6b60da.css" integrity="sha256-rugzrXraxMG/hELkOdwGz9vOMHd7uYVlRkGjKc5rYNo=">
     
 
@@ -70,7 +69,7 @@ X-Nf-Request-Id: 01JD0D6049E1RZQWN8W9F7R7J6
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://scientific-python.org/images/logo.svg">
   <meta name="twitter:title" content="Scientific Python">
-  <meta name="twitter:description" content=" SPECs Scientific Python Ecosystem Coordination documents are a mechanism by which practices are discussed and propagated throughout the ecosystem. Summits At the summits, we get together both virtually and in-person to plan and do ecosystem work. Development Guide Read this community-maintained guide to learn best practices for library development. Lecture Notes Learn or teach how to use the scientific Python ecosystem with classroom-style lecture notes. Sparse Arrays One of our current focuses is on improving and maintaining the sparse array capabilities and interoperability in the ecosystem. Community Our community efforts focus on broadening participation and better coordinating volunteer efforts. ">
+  <meta name="twitter:description" content="SPECs Scientific Python Ecosystem Coordination documents are a mechanism by which practices are discussed and propagated throughout the ecosystem. Summits At the summits, we get together both virtually and in-person to plan and do ecosystem work. Development Guide Read this community-maintained guide to learn best practices for library development. Lecture Notes Learn or teach how to use the scientific Python ecosystem with classroom-style lecture notes. Sparse Arrays One of our current focuses is on improving and maintaining the sparse array capabilities and interoperability in the ecosystem. Community Our community efforts focus on broadening participation and better coordinating volunteer efforts.">
 
   </head>
   <body>
@@ -375,7 +374,7 @@ on broadening participation and better coordinating volunteer efforts.
 
             </a>
           </div>
-          <div class="copyright">&copy; 2024 Scientific Python team. All rights reserved.</div>
+          <div class="copyright">&copy; 2025 Scientific Python team. All rights reserved.</div>
         </div>
     </div>
   </div>

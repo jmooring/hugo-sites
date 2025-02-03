@@ -1,17 +1,17 @@
 HTTP/2.0 200 OK
 Accept-Ranges: bytes
-Age: 0
+Age: 3993
 Cache-Control: public,max-age=0,must-revalidate
-Cache-Status: "Netlify Edge"; fwd=miss
+Cache-Status: "Netlify Edge"; hit
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 18 Nov 2024 19:49:43 GMT
-Etag: "58f27ce158462cac3b5cb8e7a865d4f0-ssl-df"
+Date: Mon, 03 Feb 2025 20:30:31 GMT
+Etag: "a9acd41584fe7a8d6d3c508be89fea01-ssl-df"
 Server: Netlify
 Strict-Transport-Security: max-age=31536000
 Vary: Accept-Encoding
-X-Etags-1: "58f27ce158462cac3b5cb8e7a865d4f0-ssl-df"
-X-Etags-2: "58f27ce158462cac3b5cb8e7a865d4f0-ssl-df"
-X-Nf-Request-Id: 01JD0D5S0DSFD4N8V16CPV6MWQ
+X-Etags-1: "a9acd41584fe7a8d6d3c508be89fea01-ssl-df"
+X-Etags-2: "a9acd41584fe7a8d6d3c508be89fea01-ssl-df"
+X-Nf-Request-Id: 01JK6R3TS2D2J3KT96818F627P
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -104,8 +104,8 @@ X-Nf-Request-Id: 01JD0D5S0DSFD4N8V16CPV6MWQ
   </nav>
   
   <div class="popup" id='popup' style="display: none;" hidden>
-    <h3>Closed August 2 & 3</h3>
-    <p>We will be closed on August 2 and 3 for a family reunion. Thanks for your consideration in this!</p>
+    <h3>2024 Holiday Hours</h3>
+    <p>We'll be open Dec 23 from 8-5, open Dec 24 from 8-3, then closed until Dec 30, when we'll be open from 8-5. We'll also be open on Dec 31st from 8-3 and then closed until January 30th. Merry Christmas to everyone!</p>
     <br>
     <img src="/images/store.jpeg" alt="new year">
     <button type="button" name="button" class="btn-tan" onclick="hidePopup()">Go To Site</button>
@@ -367,13 +367,8 @@ X-Nf-Request-Id: 01JD0D5S0DSFD4N8V16CPV6MWQ
 
 </footer>
 <script>
-  let session = sessionStorage.getItem('session')
-  if (session == "active")
-  document.querySelector('#popup').style.display = "none";
-  else {
-  document.querySelector('#popup').style.display = "none";
-  }
   
+
   </script>
 <div class="privacy hide" id='privacy' >
   <p>By continuing to use this site, you are agreeing to accept our <a href="/terms-and-conditions">Terms and Conditions</a> and <a href="/privacy-policy">Privacy Policy</a></p>
