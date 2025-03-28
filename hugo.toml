@@ -5,6 +5,14 @@ disableKinds = ['RSS', 'sitemap']
 timeout = '3m'
 newContentEditor = 'gnome-text-editor'
 
+[caches.getresource]
+dir    = ':cacheDir/getremote'
+maxAge = '1440h'
+
+[caches.images]
+dir    = ':cacheDir/images'
+maxAge = '1440h'
+
 [params]
 show_all = false # If false, sites without generator tag will not be shown.
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
@@ -12,10 +20,6 @@ user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 [taxonomies]
 type = 'types'
 visibility = 'visibility'
-
-[caches.getresource]
-dir = ':resourceDir/_gen'
-maxAge = '168h'
 
 [[menu.main]]
 name = 'Home'
