@@ -7,7 +7,9 @@
 
   <p>These are the sites with high visiblity. You can also <a href="{{ (.GetPage `/sites`).RelPermalink }}">view all sites.</a></p>
 
-  {{ $p := (where (where site.RegularPages "Type" "sites") "Params.visibility" "intersect" (slice "high")).ByTitle }}
+  {{ $p := (site.GetPage "/sites").Pages }}
+  {{ $p = (where $p "Params.visibility" "intersect" (slice "high")).ByTitle }}
+
   {{ partial "sites-built-with-hugo.html" $p }}
 
 {{ end }}
