@@ -7,7 +7,7 @@
     <meta name="description" content="A curated list of sites built with the Hugo static site generator.">
   {{ end }}
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
-  <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
   {{ with resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
   {{ end }}
