@@ -2,6 +2,6 @@
 title: rotational.io
 types:
  - business
- - porject
+ - project
 visibility: []
 ---
