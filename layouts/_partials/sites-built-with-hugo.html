@@ -17,7 +17,7 @@
   {{- $version := "" }}
   {{- $url := printf "https://%s/" (path.Join .Title .Params.subdir) }}
 
-  {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent) }}
+  {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent "timeout" "10s") }}
   {{- with try (resources.GetRemote $url $opts) }}
     {{- with .Err }}
       {{- warnf "Unable to reach %s: skipping: %s" $url . }}
