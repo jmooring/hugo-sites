@@ -20,7 +20,7 @@
   {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent "timeout" "10s") }}
   {{- with try (resources.GetRemote $url $opts) }}
     {{- with .Err }}
-      {{- warnf "Unable to reach %s: skipping: %s" $url . }}
+      {{- warnf "Unable to reach %s: %s (skipping): see %s" $url . $p.String }}
     {{- else with .Value }}
 
       {{- /* Get version. */}}
@@ -98,7 +98,7 @@
       }}
 
     {{- else }}
-      {{- warnf "Unable to reach %s: skipping" . }}
+      {{- warnf "Unable to reach %s (skipping): see %s" . $p.String }}
     {{- end }}
   {{- end }}
 {{- end }}

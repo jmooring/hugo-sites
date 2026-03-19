@@ -1,45 +1,45 @@
-baseURL = 'https://jmooring.github.io/hugo-sites/'
-locale = 'en-US'
-title = 'Hugo Sites'
-disableKinds = ['RSS', 'sitemap']
-timeout = '3m'
+baseURL          = 'https://jmooring.github.io/hugo-sites/'
+locale           = 'en-US'
+title            = 'Hugo Sites'
+disableKinds     = ['RSS', 'sitemap']
+timeout          = '3m'
 newContentEditor = 'gnome-text-editor'
 
 [caches.getresource]
-dir    = ':cacheDir/getremote'
-maxAge = '1440h'
+  dir    = ':cacheDir/getremote'
+  maxAge = '1440h'
 
 [caches.images]
-dir    = ':cacheDir/images'
-maxAge = '1440h'
+  dir    = ':cacheDir/images'
+  maxAge = '1440h'
 
 [params]
-show_all = false # If false, sites without generator tag will not be shown.
-user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
+  show_all   = false # If false, sites without generator tag will not be shown.
+  user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
 
 [taxonomies]
-type = 'types'
-visibility = 'visibility'
+  type       = 'types'
+  visibility = 'visibility'
 
 [[menu.main]]
-name = 'Home'
-pageRef = '/'
-weight = '10'
+  name    = 'Home'
+  pageRef = '/'
+  weight  = '10'
 
 [[menu.main]]
-name = 'Types'
-pageRef = '/types'
-weight = '20'
+  name    = 'Types'
+  pageRef = '/types'
+  weight  = '20'
 
 [[menu.main]]
-name = 'Visibility'
-pageRef = '/visibility'
-weight = '30'
+  name    = 'Visibility'
+  pageRef = '/visibility'
+  weight  = '30'
 
 [[menu.main]]
-name = 'All'
-pageRef = '/sites'
-weight = '40'
+  name    = 'All'
+  pageRef = '/sites'
+  weight  = '40'
 
 [module.hugoVersion]
-min = '0.158.0'
+  min = '0.158.0'
