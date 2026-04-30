@@ -42,4 +42,8 @@ newContentEditor = 'gnome-text-editor'
   weight  = '40'
 
 [module.hugoVersion]
-  min = '0.158.0'
+  min = '0.161.0'
+
+[security.http]
+  methods = ['(?i)GET|POST']
+  urls = ['(?i)^https?://[a-z0-9]', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
