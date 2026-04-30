@@ -2,5 +2,6 @@
 title: www.doi.org
 types:
   - nonprofit
-visibility: []
+visibility:
+  - high
 ---
