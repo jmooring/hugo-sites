@@ -46,4 +46,4 @@ newContentEditor = 'gnome-text-editor'
 
 [security.http]
   methods = ['(?i)GET|POST']
-  urls = ['(?i)^https?://[a-z0-9]', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
+  urls = ['(?i)^https?://[a-z0-9]', '! ^https?://\d+\.', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
