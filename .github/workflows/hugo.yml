@@ -18,11 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.99.0
-      GO_VERSION: 1.26.2
-      HUGO_VERSION: 0.161.0
-      NODE_VERSION: 24.15.0
-      TZ: Europe/Oslo
+      DART_SASS_VERSION: 1.100.0
+      GO_VERSION: 1.26.3
+      HUGO_VERSION: 0.162.0
+      NODE_VERSION: 24.16.0
+      TZ: America/Los_Angeles
     steps:
       - name: Checkout
         uses: actions/checkout@v6

@@ -3,7 +3,6 @@ locale           = 'en-US'
 title            = 'Hugo Sites'
 disableKinds     = ['RSS', 'sitemap']
 timeout          = '3m'
-newContentEditor = 'gnome-text-editor'
 
 [caches.getresource]
   dir    = ':cacheDir/getremote'
@@ -42,7 +41,7 @@ newContentEditor = 'gnome-text-editor'
   weight  = '40'
 
 [module.hugoVersion]
-  min = '0.161.0'
+  min = '0.162.0'
 
 [security.http]
   methods = ['(?i)GET|POST']
