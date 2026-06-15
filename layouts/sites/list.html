@@ -1,8 +1,8 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  <div class="content">
-    {{ .Content }}
-  </div>
-  {{ $p := .Pages.ByTitle }}
-  {{ partial "sites-built-with-hugo.html" $p }}
+<h2>{{ .Title }}</h2>
+<div class="content">
+	{{ .Content }}
+</div>
+{{ $p := .Pages.ByTitle }}
+{{ partial "sites-built-with-hugo.html" $p }}
 {{ end }}

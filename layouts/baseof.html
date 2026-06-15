@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-  {{ if .IsHome }}
-    <meta name="description" content="A curated list of sites built with the Hugo static site generator.">
-  {{ end }}
-  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
-  <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
-  {{ partialCached "css.html" . }}
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+		{{ if .IsHome }}
+			<meta name="description" content="A curated list of sites built with the Hugo static site generator.">
+		{{ end }}
+		<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
+		<link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+		{{ partialCached "css.html" . }}
+	</head>
+	<body>
 
-{{ partial "header.html" . }}
+		{{ partial "header.html" . }}
 
-{{ block "main" . }}
+		{{ block "main" . }}
 
-{{ end }}
-</body>
+		{{ end }}
+	</body>
 </html>

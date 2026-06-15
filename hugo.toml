@@ -1,8 +1,8 @@
-baseURL          = 'https://jmooring.github.io/hugo-sites/'
-locale           = 'en-US'
-title            = 'Hugo Sites'
-disableKinds     = ['RSS', 'sitemap']
-timeout          = '3m'
+baseURL      = 'https://jmooring.github.io/hugo-sites/'
+locale       = 'en-US'
+title        = 'Hugo Sites'
+disableKinds = ['RSS', 'sitemap']
+timeout      = '3m'
 
 [caches.getresource]
   dir    = ':cacheDir/getremote'
@@ -14,7 +14,7 @@ timeout          = '3m'
 
 [params]
   show_all   = false # If false, sites without generator tag will not be shown.
-  user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36'
+  user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36'
 
 [taxonomies]
   type       = 'types'
@@ -45,4 +45,4 @@ timeout          = '3m'
 
 [security.http]
   methods = ['(?i)GET|POST']
-  urls = ['(?i)^https?://[a-z0-9]', '! ^https?://\d+\.', '! (?i)localhost', '! (?i)^https?://[^/?#]*@']
+  urls    = ['.*']

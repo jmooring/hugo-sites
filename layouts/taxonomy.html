@@ -1,13 +1,13 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  <div class="content">
-    {{ .Content }}
-  </div>
+<h2>{{ .Title }}</h2>
+<div class="content">
+	{{ .Content }}
+</div>
 
-  {{ range .Pages.ByLinkTitle }}
-    {{ if or .Pages.Len (eq .Data.Term "none") }}
-      <div class="list-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
-    {{ end }}
-  {{ end }}
+{{ range .Pages.ByLinkTitle }}
+	{{ if or .Pages.Len (eq .Data.Term "none") }}
+		<div class="list-item"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+	{{ end }}
+{{ end }}
 
 {{ end }}

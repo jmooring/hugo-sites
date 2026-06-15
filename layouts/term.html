@@ -1,20 +1,20 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  <div class="content">
-    {{ .Content }}
-  </div>
+<h2>{{ .Title }}</h2>
+<div class="content">
+	{{ .Content }}
+</div>
 
-  {{ $p := slice }}
-  {{ if eq .Data.Term "none" }}
-    {{ range where site.RegularPages "Type" "sites" }}
-      {{ if not (index .Params $.Data.Plural) }}
-        {{ $p = $p | append . }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ $p = .Pages.ByTitle }}
-  {{ end }}
+{{ $p := slice }}
+{{ if eq .Data.Term "none" }}
+	{{ range where site.RegularPages "Type" "sites" }}
+		{{ if not (index .Params $.Data.Plural) }}
+			{{ $p = $p | append . }}
+		{{ end }}
+	{{ end }}
+{{ else }}
+	{{ $p = .Pages.ByTitle }}
+{{ end }}
 
-  {{ partial "sites-built-with-hugo.html" $p }}
+{{ partial "sites-built-with-hugo.html" $p }}
 
 {{ end }}

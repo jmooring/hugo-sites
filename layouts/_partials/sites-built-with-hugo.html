@@ -1,133 +1,138 @@
-{{- $hugoSites := slice }}
+{{ $hugoSites := slice }}
 
-{{- $regexDescMeta := `(?s)<meta\s+(?:itemprop|name)=\s*"?description"?\s+content=\s*"?.*?"?\s*/?>`  }}
-{{- $regexDescOG :=  `(?s)<meta\s+property=\s*"?og:description"?\s+content=\s*"?.*?"?\s*/?>` }}
-{{- $regexDescTwitter :=  `(?s)<meta\s+name=\s*"?twitter:description"?\s+content=\s*"?.*?"?\s*/?>` }}
-{{- $regexDescValue :=  `(?s).*content=\s*"?(.*?)".*` }}
-{{- $regexTitle := `(?s)<title>.*?</title>` }}
-{{- $regexTitleValue := `(?s)<title>(.*)</title>` }}
-{{- $regexVersion := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
-{{- $regexVersionValue := `.*"Hugo\s+v?(\d+\.\d+\.?\d*).*".*` }}
+{{ $regexDescMeta := `(?s)<meta\s+(?:itemprop|name)=\s*"?description"?\s+content=\s*"?.*?"?\s*/?>` }}
+{{ $regexDescOG := `(?s)<meta\s+property=\s*"?og:description"?\s+content=\s*"?.*?"?\s*/?>` }}
+{{ $regexDescTwitter := `(?s)<meta\s+name=\s*"?twitter:description"?\s+content=\s*"?.*?"?\s*/?>` }}
+{{ $regexDescValue := `(?s).*content=\s*"?(.*?)".*` }}
+{{ $regexTitle := `(?s)<title>.*?</title>` }}
+{{ $regexTitleValue := `(?s)<title>(.*)</title>` }}
+{{ $regexVersion := `(?s)<meta\s+name="?generator"?\s+content="Hugo\s.+?"\s*/?>` }}
+{{ $regexVersionValue := `.*"Hugo\s+v?(\d+\.\d+\.?\d*).*".*` }}
 
-{{- range $p := . }}
+{{ range $p := . }}
 
-  {{- $description := "" }}
-  {{- $host := .Title }}
-  {{- $title := "" }}
-  {{- $version := "" }}
-  {{- $url := printf "https://%s/" (path.Join .Title .Params.subdir) }}
+	{{ $description := "" }}
+	{{ $host := .Title }}
+	{{ $title := "" }}
+	{{ $version := "" }}
+	{{ $url := printf "https://%s/" (path.Join .Title .Params.subdir) }}
 
-  {{- $opts := dict "headers" (dict "User-Agent" site.Params.user_agent "timeout" "10s") }}
-  {{- with try (resources.GetRemote $url $opts) }}
-    {{- with .Err }}
-      {{- warnf "Unable to reach %s: %s (skipping): see %s" $url . $p.String }}
-    {{- else with .Value }}
+	{{ $opts := dict
+		"headers" (dict
+		"User-Agent" site.Params.user_agent
+		)
+		"timeout" "5s"
+	}}
+	{{ with try (resources.GetRemote $url $opts) }}
+		{{ with .Err }}
+			{{ warnf "Unable to reach %s: %s (skipping): see %s" $url . $p.String }}
+		{{ else with .Value }}
 
-      {{- /* Get version. */}}
-      {{- with findRE $regexVersion .Content }}
-        {{- with index . 0 }}
-          {{- $version = replaceRE $regexVersionValue "$1" . }}
-        {{- end }}
-      {{- else }}
-        {{- if not site.Params.show_all }}
-          {{- /* Hugo may have not built this site. */}}
-          {{- continue }}
-        {{- end }}
-      {{- end }}
+			{{/* Get version. */}}
+			{{ with findRE $regexVersion .Content }}
+				{{ with index . 0 }}
+					{{ $version = replaceRE $regexVersionValue "$1" . }}
+				{{ end }}
+			{{ else }}
+				{{ if not site.Params.show_all }}
+					{{/* Hugo may have not built this site. */}}
+					{{ continue }}
+				{{ end }}
+			{{ end }}
 
-      {{- /* Get description from OpenGraph data. */}}
-      {{- with findRE $regexDescOG .Content }}
-        {{- with index . 0 }}
-          {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
-        {{- end }}
-      {{- else }}
-        {{- /* Get description from Twitter data. */}}
-        {{- with findRE $regexDescTwitter .Content }}
-          {{- with index . 0 }}
-            {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
-          {{- end }}
-        {{- else }}
-          {{- /* Get description from meta element. */}}
-          {{- with findRE $regexDescMeta .Content }}
-            {{- with index . 0 }}
-              {{- $description = replaceRE $regexDescValue "$1" . | safeHTML }}
-            {{- end }}
-          {{- end }}
-        {{- end }}
-      {{- end }}
+			{{/* Get description from OpenGraph data. */}}
+			{{ with findRE $regexDescOG .Content }}
+				{{ with index . 0 }}
+					{{ $description = replaceRE $regexDescValue "$1" . | safeHTML }}
+				{{ end }}
+			{{ else }}
+				{{/* Get description from Twitter data. */}}
+				{{ with findRE $regexDescTwitter .Content }}
+					{{ with index . 0 }}
+						{{ $description = replaceRE $regexDescValue "$1" . | safeHTML }}
+					{{ end }}
+				{{ else }}
+					{{/* Get description from meta element. */}}
+					{{ with findRE $regexDescMeta .Content }}
+						{{ with index . 0 }}
+							{{ $description = replaceRE $regexDescValue "$1" . | safeHTML }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
 
-      {{- /* Get title. */}}
-      {{- with findRE $regexTitle .Content }}
-        {{- with index . 0 }}
-          {{- $title = replaceRE $regexTitleValue "$1" . | safeHTML }}
-        {{- end }}
-      {{- end }}
+			{{/* Get title. */}}
+			{{ with findRE $regexTitle .Content }}
+				{{ with index . 0 }}
+					{{ $title = replaceRE $regexTitleValue "$1" . | safeHTML }}
+				{{ end }}
+			{{ end }}
 
-      {{- /* Get types. */}}
-      {{- $types := "" }}
-      {{- with $p.GetTerms "types" }}
-        {{- range $k, $_ := . }}
-          {{- if $k }}
-            {{- $types = print $types ", " }}
-          {{- end }}
-          {{- $types = print $types (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
-        {{- end }}
-      {{- end }}
+			{{/* Get types. */}}
+			{{ $types := "" }}
+			{{ with $p.GetTerms "types" }}
+				{{ range $k, $_ := . }}
+					{{ if $k }}
+						{{ $types = print $types ", " }}
+					{{ end }}
+					{{ $types = print $types (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
+				{{ end }}
+			{{ end }}
 
-      {{- /* Get visibility. */}}
-      {{- $visibility := "" }}
-      {{- with $p.GetTerms "visibility" }}
-        {{- range $k, $_ := . }}
-          {{- if $k }}
-            {{- $visibility = print $visibility ", " }}
-          {{- end }}
-          {{- $visibility = print $visibility (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
-        {{- end }}
-      {{- end }}
+			{{/* Get visibility. */}}
+			{{ $visibility := "" }}
+			{{ with $p.GetTerms "visibility" }}
+				{{ range $k, $_ := . }}
+					{{ if $k }}
+						{{ $visibility = print $visibility ", " }}
+					{{ end }}
+					{{ $visibility = print $visibility (printf "<a href=%q>%s</a>" .RelPermalink .LinkTitle) }}
+				{{ end }}
+			{{ end }}
 
-      {{- /* Build map of sites. */}}
-      {{- $hugoSites = $hugoSites | append (dict
-        "description" (trim $description "\n")
-        "host" $host
-        "title" (trim $title "\n")
-        "types" $types
-        "url" $url
-        "version" $version
-        "visibility" $visibility
-        )
-      }}
+			{{/* Build map of sites. */}}
+			{{ $hugoSites = $hugoSites | append (dict
+				"description" (trim $description "\n")
+				"host" $host
+				"title" (trim $title "\n")
+				"types" $types
+				"url" $url
+				"version" $version
+				"visibility" $visibility
+				)
+			}}
 
-    {{- else }}
-      {{- warnf "Unable to reach %s (skipping): see %s" . $p.String }}
-    {{- end }}
-  {{- end }}
-{{- end }}
+		{{ else }}
+			{{ warnf "Unable to reach %s (skipping): see %s" . $p.String }}
+		{{ end }}
+	{{ end }}
+{{ end }}
 
 <p>Number of sites: {{ $hugoSites | len }}</p>
 
-{{- with $hugoSites }}
-  <table class="sites">
-    <thead>
-      <tr>
-        <th class="host">Host</th>
-        <th class="title">Title</th>
-        <th class="version">Version</th>
-        <th class="types">Types</th>
-        <th class="visibility">Visibility</th>
-        <th class="description">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      {{- range . }}
-        <tr>
-          <td class="host"><a href="{{ .url }}">{{ .host }}</a></td>
-          <td class="title">{{- trim .title " \n" | safeHTML }}</td>
-          <td class="version">{{- .version }}</td>
-          <td class="types">{{- .types | safeHTML }}</td>
-          <td class="visibility">{{- .visibility | safeHTML }}</td>
-          <td class="description">{{- trim .description " \n" | safeHTML }}</td>
-        </tr>
-      {{- end }}
-    </tbody>
-  </table>
-{{- end -}}
+{{ with $hugoSites }}
+	<table class="sites">
+		<thead>
+			<tr>
+				<th class="host">Host</th>
+				<th class="title">Title</th>
+				<th class="version">Version</th>
+				<th class="types">Types</th>
+				<th class="visibility">Visibility</th>
+				<th class="description">Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{ range . }}
+				<tr>
+					<td class="host"><a href="{{ .url }}">{{ .host }}</a></td>
+					<td class="title">{{ trim .title " \n" | safeHTML }}</td>
+					<td class="version">{{ .version }}</td>
+					<td class="types">{{ .types | safeHTML }}</td>
+					<td class="visibility">{{ .visibility | safeHTML }}</td>
+					<td class="description">{{ trim .description " \n" | safeHTML }}</td>
+				</tr>
+			{{ end }}
+		</tbody>
+	</table>
+{{ end }}
