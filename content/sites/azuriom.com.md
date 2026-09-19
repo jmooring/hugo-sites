@@ -1,5 +1,6 @@
 ---
 title: azuriom.com
-types: []
+types:
+  - project
 visibility: []
 ---

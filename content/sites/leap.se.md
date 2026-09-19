@@ -1,5 +1,6 @@
 ---
 title: leap.se
-types: []
+types:
+  - project
 visibility: []
 ---
